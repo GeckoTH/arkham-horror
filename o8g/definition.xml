@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	name="Arkham Horror - The Card Game"
+	tags="AH LCG cooperative"
+	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
+	setsurl="http://octgn.gamersjudgement.com/wordpress/ahlcg/"
+	gameurl="http://octgn.gamersjudgement.com/wordpress/ahlcg/"
+	authors="GeckoTH (lead developer)&#10;Memetix (game scripts)"
+	iconurl="https://cf.geekdo-images.com/images/pic3122349_t.jpg"
+	usetwosidedtable="False">
+	<scripts>
+		<script src="scripts/actions.py" />
+	</scripts>
+	<events>
+		<event name="OnGameStart" action="startOfGame"/>
+		<event name="OnLoadDeck" action="deckLoaded"/>
+		<event name="OnChangeCounter" action="counterChanged"/>
+		<event name="OnPlayerGlobalVariableChanged" action="globalChanged"/>	
+	</events>
+	<fonts>
+		<font src="fonts/ArnoPro-Arkham-Regular.otf" size="12" target="context" />
+		<font src="fonts/ArnoPro-Arkham-Regular.otf" size="12" target="chat" />
+		<font src="fonts/ArnoPro-Arkham-Regular.otf" size="13" target="deckeditor" />
+	</fonts>
+	<proxygen definitionsrc="proxy/proxy.xml"/>
+	<documents>
+		<document name="Keywords" icon="documents/icon.jpg" src="documents/keywords.txt" />
+		<document name="Short cuts" icon="documents/shortcuts.png" src="documents/shortcuts.txt" />
+		<document name="Turn summary" icon="documents/icon.jpg" src="documents/phases.txt" />	
+	</documents>
+	<globalvariables>
+		<globalvariable name="Automation" value="Turn"/> <!-- New Definitions and default values? -->
+		<globalvariable name="lock" value=""/>
+		<globalvariable name="game" value=""/>
+		<globalvariable name="playersSetup" value=""/>
+		<globalvariable name="currentPlayers" value="" />
+		<globalvariable name="done" value="" />
+		<globalvariable name="deckLocked" value="" />
+		<globalvariable name="firstPlayer" value="" />
+		<globalvariable name="activePlayer" value="" />
+	</globalvariables>
+	<card back="cards/card.jpg" front="cards/card.jpg" width="63" height="88" cornerRadius="4">
+		<property name="Unique" type="String" hidden="False" ignoreText="False" />
+		<property name="Subtitle" type="String" hidden="False" ignoreText="False" />
+		<property name="Type" type="String" hidden="False" ignoreText="False" />
+		<property name="Class" type="String" hidden="False" ignoreText="False" />
+		<property name="Cost" type="String" hidden="False" ignoreText="False" />
+		<property name="Level" type="String" hidden="False" ignoreText="False" />
+		<property name="Act" type="String" hidden="False" ignoreText="False" />
+		<property name="Willpower" type="String" hidden="False" ignoreText="False" />
+		<property name="Intellect" type="String" hidden="False" ignoreText="False" />
+		<property name="Combat" type="String" hidden="False" ignoreText="False" />
+		<property name="Agility" type="String" hidden="False" ignoreText="False" />
+		<property name="Skill Icons" type="String" hidden="False" ignoreText="False" />
+		<property name="Health" type="String" hidden="False" ignoreText="False" />
+		<property name="Sanity" type="String" hidden="False" ignoreText="False" />
+		<property name="Damage" type="String" hidden="False" ignoreText="False" />
+		<property name="Horror" type="String" hidden="False" ignoreText="False" />
+		<property name="Shroud" type="String" hidden="False" ignoreText="False" />
+		<property name="Clues" type="String" hidden="False" ignoreText="False" />
+		<property name="Doom" type="String" hidden="False" ignoreText="False" />
+		<property name="Slot" type="String" hidden="False" ignoreText="False" />
+		<property name="Traits" type="String" hidden="False" ignoreText="False" />
+		<property name="Keywords" type="String" hidden="False" ignoreText="False" />
+		<property name="Ability" type="String" hidden="False" ignoreText="False" />
+		<property name="Encounter Set" type="String" hidden="False" ignoreText="False" />
+		<property name="Quantity" type="String" hidden="False" ignoreText="False" />
+		<property name="Victory Points" type="String" hidden="False" ignoreText="False" />
+		<property name="Setup" type="String" hidden="False" ignoreText="False" />
+		<size name="ActCard" width="88" height="63" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4" backWidth="63" backHeight="88" backCornerRadius="4" />
+		<size name="InvestigatorCard" width="88" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="63" backHeight="88" backCornerRadius="4" />
+		<size name="EncounterCard" width="63" height="88" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4"/>
+		<size name="Mini" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
+	</card>
+	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
+		<groupaction menu="Done" default="False" shortcut="Ctrl+Right" execute="playerDone" />
+		<!-- <groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
+		<groupaction menu="Reveal Encounter Card" default="False" shortcut="ctrl+E" execute="addEncounter" />
+		<groupaction menu="Reveal Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+E" execute="addEncounterSpecial" />
+		<groupaction menu="Hidden Encounter Card" default="False" shortcut="ctrl+H" execute="addHidden" />
+		<groupaction menu="Hidden Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+H" execute="addHiddenSpecial" />
+		<groupaction menu="Reveal next Quest Stage" default="False" shortcut="ctrl+Q" execute="nextQuestStage" />
+		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
+		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
+		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
+		<groupactions menu="Automation">
+			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
+			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
+			<groupaction menu="Enable Phase Management" default="False" execute="phaseManagementOn" />
+			<groupaction menu="Calculate Score" default="False" shortcut="ctrl+C" execute="calcScore" />
+			<groupaction menu="Create Done button" default="False" execute="createDoneButton" />
+			<groupaction menu="Create first player token" default="False" execute="createFirstPlayerToken" />
+			<groupaction menu="Help - Automation modes" default="False" execute="automationHelp" />
+		</groupactions>
+		<cardaction menu="Make Active Location" showIf="isLocation" default="False" shortcut="ctrl+A" execute="makeActive" /> -->
+		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
+		<!-- <cardaction menu="Add Shadow Card" showIf="isEnemy" default="False" shortcut="ctrl+S" execute="addShadow" /> -->
+		<cardactions menu="Add Token">
+			<cardaction menu="Add Resource" default="False" shortcut="F1" execute="addResource" />
+			<cardaction menu="Add Clue" default="False" shortcut="F2" execute="addClue" />
+			<cardaction menu="Add Damage" default="False" shortcut="F3" execute="addDamage" />
+			<cardaction menu="Add Horror" default="False" shortcut="F4" execute="addHorror" />
+		</cardactions>
+		<cardactions menu="Remove Token">
+			<cardaction menu="Remove Resource" default="False" shortcut="F5" execute="subResource" />
+			<cardaction menu="Remove Clue" default="False" shortcut="F6" execute="subClue" />
+			<cardaction menu="Remove Damage" default="False" shortcut="F7" execute="subDamage" />
+			<cardaction menu="Remove Horror" default="False" shortcut="F8" execute="subHorror" />
+		</cardactions>
+		<cardaction menu="Exhaust/Ready" default="False" shortcut="F7" execute="kneel" />
+		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
+		<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
+		<cardaction menu="Discard to Special Discard" default="False" shortcut="shift+Del" execute="discardSpecial" />
+		<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
+		<cardaction menu="Lock" default="False" shortcut="ctrl+K" execute="lockCard" />
+		<cardaction menu="Rotate Left" default="False" shortcut="F8" execute="rotateLeft" />
+		<cardaction menu="Rotate Right" default="False" shortcut="F9" execute="rotateRight" />
+		<cardaction menu="Double Click" default="True" execute="defaultAction" />
+		<groupactions menu="Random">
+			<groupaction menu="Coin Flip" default="False" execute="flipCoin" />
+			<groupaction menu="Number" default="False" execute="randomNumber" />
+			<groupaction menu="Player" default="False" execute="randomPlayer" />
+		</groupactions>
+	</table>
+	<player summary="">
+		<globalvariable name="deckLocked" value="0" />
+		<globalvariable name="refreshed" value="1" />
+		<globalvariable name="game" value="" />
+		<globalvariable name="playerID" value="" />
+		<globalvariable name="done" value="" />
+		<!--<counter name="Threat_Level" default="0" reset="True" icon="counters/threat.png" />
+		<counter name="Willpower" default="0" reset="True" icon="counters/willpower.png" />
+		<counter name="Staging_Threat" default="0" reset="True" icon="counters/stagingthreat.png" />-->
+		<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
+			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
+			<!-- <groupaction menu="Take a mulligan" default="False" shortcut="ctrl+M" execute="mulligan" /> -->
+			<cardaction menu="Play" default="True" execute="playCard" />
+			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
+			<cardaction menu="Swap with top card" default="False" shortcut="ctrl+S" execute="swapCard" />
+		</hand>
+		<group name="Deck" visibility="none" ordered="True" width="63" height="88" icon="groups/player.png" collapsed="False">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Draw" default="True" shortcut="ctrl+D" execute="draw" />
+			<groupaction menu="Draw Many" default="False" shortcut="ctrl+shift+D" execute="drawMany" />
+			<groupaction menu="Discard Many" default="False" execute="discardMany" />
+			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
+			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
+		</group>
+		<group name="Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/discard.png" collapsed="False">
+			<groupaction menu="Shuffle All into Deck" default="True" execute="moveAllToPlayer" />
+		</group>
+		<group name="Secondary Deck" visibility="none" ordered="True" width="63" height="88" icon="groups/player2.png" collapsed="True">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Draw" default="True" execute="draw" />
+			<groupaction menu="Search X" default="False" execute="search" />
+			<groupaction menu="Toggle Debug" default="False" execute="toggleDebug" />
+		</group>
+		<group name="Sideboard" visibility="me" width="63" height="88" icon="groups/player-sideboard.png" collapsed="True">
+			<groupaction menu="Shuffle" execute="shuffle" />
+		</group>
+	</player>
+	<shared>
+		<counter name="VictoryPoints" default="0" reset="True" icon="counters/victory.png" />
+		<!--<counter name="Round" default="0" reset="True" icon="counters/round.png" />
+		<counter name="Phase" default="0" reset="True" icon="counters/phase.png" />
+		<counter name="Step" default="1" reset="True" icon="counters/step.png" />
+		<counter name="HandSize" default="6" reset="True" icon="counters/hand.png" />-->
+		<group name="Agenda" visibility="all" ordered="True" width="126" height="88" icon="groups/agenda.png" collapsed="False">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Reveal Next Agenda" default="True" execute="nextAgenda" />
+		</group>
+		<group name="Act" visibility="all" ordered="True" width="126" height="88" icon="groups/act.png" collapsed="False">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Reveal Next Act" default="True" execute="nextAct" />
+		</group>
+		<group name="Location" visibility="all" ordered="True" width="63" height="88" icon="groups/location.png" collapsed="False">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Reveal Next Location" default="True" execute="nextLocation" />
+		</group>
+		<group name="Agenda Discard Pile" visibility="all" ordered="True" width="126" height="88" icon="groups/discard.png" collapsed="True" />
+		<group name="Act Discard Pile" visibility="all" ordered="True" width="126" height="88" icon="groups/discard2.png" collapsed="True" />
+		<group name="Location Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/discard.png" collapsed="True" />
+		<group name="Encounter" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter.png" collapsed="False">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Reveal Top Card" default="True" execute="addEncounter" />
+			<groupaction menu="Discard Many" default="False" execute="discardMany" />
+			<groupaction menu="Move to Secondary..." default="False" execute="moveMany" />
+		</group>
+		<group name="Encounter Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/dead.png" collapsed="False">
+			<groupaction menu="Shuffle into Encounter Deck" default="True" execute="moveAllToEncounter" />
+		</group>
+		<group name="Victory Display" visibility="all" ordered="False" width="63" height="88" icon="groups/victory.png" collapsed="False" />
+		<group name="Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter2.png" collapsed="True">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
+			<groupaction menu="Move All to Encounter Deck Bottom" default="False" execute="moveAllToEncounterBottom" />
+			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
+			<groupaction menu="Reveal Top Card" default="True" execute="addEncounterSpecial" />
+		</group>
+		<group name="Special Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/dead2.png" collapsed="True">
+			<groupaction menu="Shuffle into Special Deck" default="True" execute="moveAllToSpecial" />
+		</group>
+		<group name="2nd Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter.png" collapsed="True">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
+			<groupaction menu="Move All to Encounter Deck Bottom" default="False" execute="moveAllToEncounterBottom" />
+			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
+			<groupaction menu="Reveal Top Card" default="True" execute="addEncounterSpecial" />
+		</group>
+		<group name="2nd Special Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/dead.png" collapsed="True">
+			<groupaction menu="Shuffle into Special Deck" default="True" execute="moveAllToSpecial" />
+		</group>
+		<group name="Setup" visibility="all" ordered="True" width="63" height="88" icon="groups/encounterS.png" collapsed="True">
+		</group>
+	</shared>
+	<deck>
+		<section name="Investigator" group="Hand" />
+		<section name="Asset" group="Discard Pile" />
+		<section name="Event" group="Discard Pile" />
+		<section name="Skill" group="Discard Pile" />
+		<section name="Weakness" group="Discard Pile" />
+		<section name="Sideboard" group="Sideboard" />
+	</deck>
+	<sharedDeck>
+		<section name="Agenda" group="Agenda" />
+		<section name="Act" group="Act" />
+		<section name="Encounter" group="Encounter Discard Pile" />
+		<section name="Special" group="Special" />
+		<section name="Second Special" group="2nd Special" />
+		<section name="Setup" group="Setup" />
+	</sharedDeck>
+</game>
