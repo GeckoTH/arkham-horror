@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Markers and Tokens" id="0ab2f6e6-efd6-434e-95aa-ba10c3cf8ccd" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0.0">
+  <markers>
+    <marker id="6eb6d990-007a-4f4d-b76c-b35685922b22" name="Resource" />
+    <marker id="3abb22bb-b259-4857-ae8f-f2cdf93de5e0" name="Damage" />
+    <marker id="9461c5e5-1aa8-4286-88f1-01661a8aaa02" name="Horror" />
+    <marker id="33d9ed22-458b-4c7f-9901-5daf2fa43a23" name="Clue" />
+    <marker id="a6605071-57d2-4e7f-b6b4-7809147a565a" name="Doom" />
+    <marker id="62d688a4-46ef-45be-9414-2257a1221351" name="Lock" />
+  </markers>
+  <cards>
+    <card id="d8669f4c-aa2c-4ef1-ab0c-9202b08cf563" name="+1">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="35137ccc-db2b-4fdd-b0a8-a5d91f453a43" name="0">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="c74d422c-d209-48c9-bc5a-caacb8c8b402" name="-1">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="92df60c3-7d56-4e2d-99e2-c0e7e0d9994a" name="-2">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="eac1c4b1-43ac-49d9-b2ac-55c3b1340bd8" name="-3">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="6d3049df-5584-42a8-9c5b-b64e48f16a4a" name="-4">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="02c506c6-c012-4072-bc62-3074847bbcdb" name="-5">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="0467c5e1-ad56-4c87-8460-66b89d5f0816" name="-6">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="670ddd79-feee-404f-abd1-e2b4ce23e425" name="-7">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="a08d6f70-d07c-4d99-9eb3-3d5f2be0968c" name="-8">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="ca0b7b2a-8992-483b-8094-b3c515af8967" name="Elder Sign">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="9bdf31e9-51c4-4080-9e8d-53c9965ba214" name="Auto Fail">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="49d18b2f-a191-4569-9ce4-06a5bdd33bf6" name="Skull">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="f1f63047-e572-4f15-aee7-1aaca33a63ed" name="Cultist">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="eb0dc92b-654a-41a3-8e06-7053d8c94f22" name="Tablet">
+      <property name="Type" value="Chas Token" />
+    </card>
+    <card id="ae10abfc-abb1-41c7-9490-b3f91d8574b2" name="Elder One">
+      <property name="Type" value="Chas Token" />
+    </card>
+  </cards>
+</set>

@@ -47,7 +47,7 @@
 		<property name="Class" type="String" hidden="False" ignoreText="False" />
 		<property name="Cost" type="String" hidden="False" ignoreText="False" />
 		<property name="Level" type="String" hidden="False" ignoreText="False" />
-		<property name="Act" type="String" hidden="False" ignoreText="False" />
+		<property name="Stage" type="String" hidden="False" ignoreText="False" />
 		<property name="Willpower" type="String" hidden="False" ignoreText="False" />
 		<property name="Intellect" type="String" hidden="False" ignoreText="False" />
 		<property name="Combat" type="String" hidden="False" ignoreText="False" />
@@ -63,19 +63,19 @@
 		<property name="Slot" type="String" hidden="False" ignoreText="False" />
 		<property name="Traits" type="String" hidden="False" ignoreText="False" />
 		<property name="Keywords" type="String" hidden="False" ignoreText="False" />
-		<property name="Ability" type="String" hidden="False" ignoreText="False" />
+		<property name="Text" type="String" hidden="False" ignoreText="False" />
 		<property name="Encounter Set" type="String" hidden="False" ignoreText="False" />
 		<property name="Quantity" type="String" hidden="False" ignoreText="False" />
 		<property name="Victory Points" type="String" hidden="False" ignoreText="False" />
 		<property name="Setup" type="String" hidden="False" ignoreText="False" />
-		<size name="ActCard" width="88" height="63" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4" backWidth="63" backHeight="88" backCornerRadius="4" />
+		<size name="HorizCard" width="88" height="63" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4" backWidth="63" backHeight="88" backCornerRadius="4" />
 		<size name="InvestigatorCard" width="88" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="63" backHeight="88" backCornerRadius="4" />
 		<size name="EncounterCard" width="63" height="88" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4"/>
-		<size name="Mini" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
+		<size name="MiniCard" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
 	</card>
 	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
-		<groupaction menu="Done" default="False" shortcut="Ctrl+Right" execute="playerDone" />
-		<!-- <groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
+		<!-- <groupaction menu="Done" default="False" shortcut="Ctrl+Right" execute="playerDone" />
+		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
 		<groupaction menu="Reveal Encounter Card" default="False" shortcut="ctrl+E" execute="addEncounter" />
 		<groupaction menu="Reveal Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+E" execute="addEncounterSpecial" />
 		<groupaction menu="Hidden Encounter Card" default="False" shortcut="ctrl+H" execute="addHidden" />
@@ -226,6 +226,7 @@
 		<section name="Agenda" group="Agenda" />
 		<section name="Act" group="Act" />
 		<section name="Encounter" group="Encounter Discard Pile" />
+		<section name="Location" group="Location" />
 		<section name="Special" group="Special" />
 		<section name="Second Special" group="2nd Special" />
 		<section name="Setup" group="Setup" />
