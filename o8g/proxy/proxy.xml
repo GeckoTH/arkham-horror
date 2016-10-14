@@ -3,7 +3,7 @@
   <blocks>
     <block type="text" id="description">
 		<location x="39" y="367" />
-		<text color="#000000" size="14" font="fonts/TimesNewRomanLOTR.ttf" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
 		<wordwrap height="195" width="300" />
 	</block>
 	<block type="text" id="traits">
@@ -13,48 +13,43 @@
 	</block>
     <block type="text" id="victory">
 		<location x="275" y="263" />
-		<text color="#FFFFFF" size="24" font="fonts/VafthrudnirLOTR.ttf" />
+		<text color="#000000" size="24" font="fonts/ArnoPro-Arkham.ttf" />
 		<wordwrap height="16" width="100" align="center" />
 	</block>
-    <block type="text" id="hero_cost">
-		<location x="48" y="36" />
-		<text color="#626898" size="24" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="30" width="50" align="center" />
-	</block>
-	<block type="text" id="ally_cost">
+	<block type="text" id="cost">
 		<location x="35" y="31" />
-		<text color="#FFFFFF" size="38" font="fonts/VafthrudnirLOTR.ttf" />
+		<text color="#FFFFFF" size="38" font="fonts/Teutonic.ttf" />
 		<border color="#000000" size="2" />
 		<wordwrap height="30" width="80" align="center" />
 	</block>
-	<block type="text" id="engagement">
-		<location x="45" y="36" />
-		<text color="#e97c0a" size="24" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="30" width="60" align="center" />
-	</block>
-	<block type="text" id="character_name">
+	<block type="text" id="asset_name">
 		<location x="74" y="316" />
-		<text color="#000000" size="18" font="fonts/VafthrudnirLOTR.ttf" />
+		<text color="#000000" size="18" font="fonts/Teutonic.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
-	<block type="text" id="character_willpower">
-		<location x="38" y="100" />
-		<text color="#000000" size="22" font="fonts/VafthrudnirLOTR.ttf" />
+	<block type="text" id="inv_name">
+		<location x="74" y="38" />
+		<text color="#000000" size="18" font="fonts/Teutonic.ttf" />
+		<wordwrap width="230" height="20" align="center" />
+	</block>
+	<block type="text" id="inv_willpower">
+		<location x="350" y="38" />
+		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="character_attack">
-		<location x="38" y="141" />
-		<text color="#000000" size="22" font="fonts/VafthrudnirLOTR.ttf" />
+	<block type="text" id="inv_intellect">
+		<location x="400" y="38" />
+		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="character_defense">
-		<location x="38" y="185" />
-		<text color="#000000" size="22" font="fonts/VafthrudnirLOTR.ttf" />
+	<block type="text" id="inv_combat">
+		<location x="450" y="38" />
+		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="character_hitpoints">
-		<location x="43" y="258" />
-		<text color="#dc3130" size="38" font="fonts/VafthrudnirLOTR.ttf" />
+	<block type="text" id="inv_agility">
+		<location x="500" y="38" />
+		<text color="#dc3130" size="38" font="fonts/Bolton.ttf" />
 		<border color="#8b0100" size="2" />
 		<wordwrap height="40" width="60" align="center" />
 	</block>
