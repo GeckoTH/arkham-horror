@@ -17,482 +17,471 @@
 		<wordwrap height="16" width="100" align="center" />
 	</block>
 	<block type="text" id="cost">
-		<location x="35" y="31" />
+		<location x="1" y="7" />
 		<text color="#FFFFFF" size="38" font="fonts/Teutonic.ttf" />
-		<border color="#000000" size="2" />
+		<border color="#000000" size="4" />
 		<wordwrap height="30" width="80" align="center" />
 	</block>
 	<block type="text" id="asset_name">
-		<location x="74" y="316" />
-		<text color="#000000" size="18" font="fonts/Teutonic.ttf" />
+		<location x="74" y="15" />
+		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
+	<block type="text" id="asset_traits">
+		<location x="39" y="320" />
+		<text color="#000000" size="14" font="fonts/timesbi.ttf" />
+		<wordwrap height="20" width="300" align="center" />
+	</block>
+	<block type="text" id="asset_description">
+		<location x="39" y="340" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="195" width="300" />
+	</block>
+	<block type="text" id="event_name">
+		<location x="74" y="307" />
+		<text color="#000000" size="20" font="fonts/Teutonic.ttf" />
+		<wordwrap width="230" height="20" align="center" />
+	</block>
+	<block type="text" id="event_traits">
+		<location x="39" y="340" />
+		<text color="#000000" size="14" font="fonts/timesbi.ttf" />
+		<wordwrap height="20" width="300" align="center" />
+	</block>
+	<block type="text" id="event_description">
+		<location x="39" y="367" />
+		<text color="#000000" size="16" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="195" width="300" />
+	</block>
+	<block type="text" id="skill_name">
+		<location x="74" y="17" />
+		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<wordwrap width="230" height="20" align="center" />
+	</block>
+	<block type="text" id="skill_traits">
+		<location x="39" y="355" />
+		<text color="#000000" size="14" font="fonts/timesbi.ttf" />
+		<wordwrap height="20" width="300" align="center" />
+	</block>
+	<block type="text" id="skill_description">
+		<location x="60" y="375" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="195" width="280" />
+	</block>
 	<block type="text" id="inv_name">
-		<location x="74" y="38" />
-		<text color="#000000" size="18" font="fonts/Teutonic.ttf" />
+		<location x="30" y="5" />
+		<text color="#000000" size="30" font="fonts/Teutonic.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="inv_willpower">
-		<location x="350" y="38" />
+		<location x="280" y="20" />
 		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="inv_intellect">
-		<location x="400" y="38" />
+		<location x="340" y="20" />
 		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="inv_combat">
-		<location x="450" y="38" />
+		<location x="400" y="20" />
 		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="inv_agility">
-		<location x="500" y="38" />
-		<text color="#dc3130" size="38" font="fonts/Bolton.ttf" />
-		<border color="#8b0100" size="2" />
-		<wordwrap height="40" width="60" align="center" />
-	</block>
-	<block type="text" id="event_cost">
-		<location x="8" y="25" />
-		<text color="#FFFFFF" size="38" font="fonts/VafthrudnirLOTR.ttf" />
-		<border color="#515151" size="2" />
-		<wordwrap height="30" width="80" align="center" />
-	</block>
-	<block type="text" id="event_name">
-		<location x="40" y="277" rotate="270" />
-		<text color="#000000" size="17" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="230" height="20" align="center" />
-	</block>
-	<block type="text" id="treachery_name">
-		<location x="40" y="277" rotate="270" />
-		<text color="#000000" size="16" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="200" height="20" align="center" />
-	</block>
-	<block type="text" id="treasure_name">
-		<location x="110" y="28" />
-		<text color="#000000" size="18" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="200" height="20" align="center" />
-	</block>
-	<block type="text" id="treasure_cost">
-		<location x="8" y="42" />
-		<text color="#FFFFFF" size="37" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="40" width="80" align="center" />
-	</block>
-	<block type="text" id="treasure_victory">
-		<location x="302" y="480" />
-		<text color="#FFFFFF" size="24" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="30" width="60" align="center" />
-	</block>
-	<block type="text" id="attachment_cost">
-		<location x="8" y="35" />
-		<text color="#FFFFFF" size="37" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="30" width="80" align="center" />
-	</block>
-	<block type="text" id="sidequest_cost">
-		<location x="13" y="25" />
-		<text color="#FFFFFF" size="37" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="30" width="80" align="center" />
-	</block>
-	<block type="text" id="sidequest_name">
-		<location x="130" y="24" />
-		<text color="#000000" size="21" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="20" width="360" align="center" />
-	</block>
-	<block type="text" id="attachment_name">
-		<location x="96" y="28" />
-		<text color="#000000" size="18" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="218" height="20" align="center" />
-	</block>
-	<block type="text" id="location_threat">
-		<location x="25" y="72" />
-		<text color="#000000" size="22" font="fonts/VafthrudnirLOTR.ttf" />
+		<location x="460" y="20" />
+		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="location_name">
-		<location x="70" y="26" />
-		<text color="#000000" size="18" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="241" height="20" align="center" />
-	</block>
-	<block type="text" id="objective_description">
-		<location x="50" y="344" />
-		<text color="#000000" size="14" font="fonts/TimesNewRomanLOTR.ttf" />
-		<wordwrap height="190" width="270" />
-	</block>
-	<block type="text" id="encounter_description">
-		<location x="39" y="344" />
-		<text color="#000000" size="14" font="fonts/TimesNewRomanLOTR.ttf" />
-		<wordwrap height="190" width="300" />
-	</block>
-	<block type="text" id="encounter_traits">
-		<location x="39" y="324" />
+	<block type="text" id="inv_traits">
+		<location x="260" y="80" />
 		<text color="#000000" size="14" font="fonts/timesbi.ttf" />
 		<wordwrap height="20" width="300" align="center" />
 	</block>
-	<block type="text" id="location_points">
-		<location x="30" y="272" />
-		<text color="#FE9A2E" size="24" font="fonts/VafthrudnirLOTR.ttf" />
+	<block type="text" id="inv_description">
+		<location x="310" y="110" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="300" width="180" />
+	</block>
+	<block type="text" id="inv_health">
+		<location x="360" y="307" />
+		<text color="#FFFFFF" size="30" font="fonts/Bolton.ttf" />
+		<border color="#c6181e" size="3" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="quest_name">
-		<location x="130" y="24" />
-		<text color="#000000" size="21" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="20" width="360" align="center" />
+	<block type="text" id="inv_sanity">
+		<location x="415" y="307" />
+		<text color="#FFFFFF" size="30" font="fonts/Bolton.ttf" />
+		<border color="#0d3d73" size="3" />
+		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="encounter">
-		<location x="170" y="57" />
-		<text color="#000000" size="11" font="fonts/Vafthrudnir-allcaps.ttf" />
-		<wordwrap height="20" width="260" align="center" />
+	<block type="text" id="enemy_name">
+		<location x="74" y="15" />
+		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<wordwrap width="230" height="20" align="center" />
 	</block>
-	<block type="text" id="quest_stage">
-		<location x="20" y="30" />
-		<text color="#8FB7CC" size="32" font="fonts/Vafthrudnir-allcaps.ttf" />
-		<wordwrap height="32" width="64" align="center" />
+	<block type="text" id="enemy_traits">
+		<location x="39" y="115" />
+		<text color="#000000" size="14" font="fonts/timesbi.ttf" />
+		<wordwrap height="20" width="300" align="center" />
 	</block>
-	<block type="text" id="quest_cost">
-		<location x="20" y="30" />
-		<text color="#FFFFFF" size="37" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap height="32" width="64" align="center" />
+	<block type="text" id="enemy_description">
+		<location x="39" y="140" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="195" width="300" />
 	</block>
-	<block type="text" id="quest_description">
-		<location x="34" y="230" />
-		<text color="#000000" size="13" font="fonts/TimesNewRomanLOTR.ttf" />
-		<wordwrap width="455" height="120" />
+	<block type="text" id="enemy_combat">
+		<location x="100" y="72" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton.ttf" />
+		<border color="#000000" size="2" />
+		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="quest_points">
-		<location x="27" y="186" />
-		<text color="#FE9A2E" size="24" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="50" height="30" align="center" />
+	<block type="text" id="enemy_health">
+		<location x="166" y="68" />
+		<text color="#FFFFFF" size="25" font="fonts/Bolton.ttf" />
+		<border color="#000000" size="2" />
+		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="quest_victory">
-		<location x="421" y="182" />
-		<text color="#FFFFFF" size="24" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="100" height="16" align="center" />
+	<block type="text" id="enemy_agility">
+		<location x="235" y="72" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton.ttf" />
+		<border color="#000000" size="2" />
+		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="objective_name">
-		<location x="40" y="32" />
-		<text color="#000000" size="18" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="300" height="20" align="center" />
+	<block type="text" id="enemy_damage">
+		<location x="115" y="275" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton.ttf" />
+		<border color="#c6181e" size="3" />
+		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="set">
-		<location x="40" y="66" />
-		<text color="#000000" size="11" font="fonts/Vafthrudnir-allcaps.ttf" />
-		<wordwrap width="300" height="20" align="center" />
+	<block type="text" id="enemy_horror">
+		<location x="215" y="275" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton.ttf" />
+		<border color="#0d3d73" size="3" />
+		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="setup">
-		<location x="140" y="492" />
-		<text color="#000000" size="16" font="fonts/Vafthrudnir-allcaps.ttf" />
-		<wordwrap width="100" height="20" align="center" />
+	<block type="text" id="location_name">
+		<location x="74" y="5" />
+		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<wordwrap width="230" height="20" align="center" />
 	</block>
-	<block type="text" id="nightmare_setup">
-		<location x="40" y="50" />
-		<text color="#000000" size="12" font="fonts/TimesNewRomanLOTR.ttf" />
-		<wordwrap width="300" height="435" />
+	<block type="text" id="location_traits">
+		<location x="39" y="310" />
+		<text color="#000000" size="14" font="fonts/timesbi.ttf" />
+		<wordwrap height="20" width="300" align="center" />
 	</block>
-	<block type="text" id="nightmare_name">
-		<location x="70" y="28" />
-		<text color="#000000" size="18" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="240" height="20" align="center" />
+	<block type="text" id="location_description">
+		<location x="39" y="335" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="195" width="300" />
 	</block>
-	<block type="text" id="nightmare_description">
-		<location x="40" y="250" />
-		<text color="#000000" size="13" font="fonts/TimesNewRomanLOTR.ttf" />
-		<wordwrap height="250" width="300" />
+	<block type="text" id="location_shroud">
+		<location x="12" y="270" />
+		<text color="#FFFFFF" size="30" font="fonts/Bolton.ttf" />
+		<border color="#000000" size="3" />
+		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="campaign_resolution">
-		<location x="40" y="50" />
-		<text color="#000000" size="14" font="fonts/TimesNewRomanLOTR.ttf" />
-		<wordwrap width="300" height="420" />
+	<block type="text" id="location_clues">
+		<location x="317" y="270" />
+		<text color="#000000" size="30" font="fonts/Bolton.ttf" />
+		<border color="#FFFFFF" size="3" />
+		<wordwrap height="30" width="50" align="center" />
 	</block>
-	<block type="text" id="campaign_name">
-		<location x="70" y="28" />
-		<text color="#000000" size="18" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="240" height="20" align="center" />
+	<block type="text" id="treachery_name">
+		<location x="74" y="310" />
+		<text color="#000000" size="23" font="fonts/Teutonic.ttf" />
+		<wordwrap width="230" height="20" align="center" />
 	</block>
-	<block type="text" id="campaign_set">
-		<location x="70" y="235" />
-		<text color="#000000" size="16" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="240" height="20" align="center" />
+	<block type="text" id="treachery_traits">
+		<location x="39" y="347" />
+		<text color="#000000" size="14" font="fonts/timesbi.ttf" />
+		<wordwrap height="20" width="300" align="center" />
 	</block>
-	<block type="text" id="campaign_type">
-		<location x="70" y="490" />
-		<text color="#000000" size="18" font="fonts/VafthrudnirLOTR.ttf" />
-		<wordwrap width="240" height="20" align="center" />
+	<block type="text" id="treachery_description">
+		<location x="39" y="367" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="195" width="300" />
 	</block>
-	<block type="text" id="campaign_description">
-		<location x="40" y="265" />
-		<text color="#000000" size="15" font="fonts/TimesNewRomanLOTR.ttf" />
-		<wordwrap width="300" height="230" />
+	<block type="text" id="agenda_name_back">
+		<location x="40" y="310" rotate="270" />
+		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<wordwrap height="20" width="200" align="center" />
 	</block>
-	<block type="overlay" id="lore_hero" src="proxy/lore_hero.png">
+	<block type="text" id="agenda_description_back">
+		<location x="120" y="70" />
+		<text color="#000000" size="18" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="195" width="320" />
+	</block>
+	<block type="text" id="agenda_stage_back">
+		<location x="-24" y="66" />
+		<text color="#000000" size="24" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="30" width="150" align="center" />
+	</block>
+	<block type="text" id="agenda_name">
+		<location x="280" y="50" />
+		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<wordwrap height="20" width="200" align="center" />
+	</block>
+	<block type="text" id="agenda_description">
+		<location x="260" y="90" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="200" width="250" />
+	</block>
+	<block type="text" id="agenda_stage">
+		<location x="300" y="30" />
+		<text color="#000000" size="15" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="30" width="150" align="center" />
+	</block>
+	<block type="text" id="agenda_doom">
+		<location x="236" y="309" />
+		<text color="#FFFFFF" size="28" font="fonts/Bolton.ttf" />
+		<border color="#000000" size="2" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
+	<block type="text" id="act_name">
+		<location x="50" y="50" />
+		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<wordwrap height="20" width="200" align="center" />
+	</block>
+	<block type="text" id="act_description">
+		<location x="20" y="90" />
+		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="200" width="250" />
+	</block>
+	<block type="text" id="act_stage">
+		<location x="70" y="30" />
+		<text color="#000000" size="15" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="30" width="150" align="center" />
+	</block>
+	<block type="text" id="act_clues">
+		<location x="242" y="309" />
+		<text color="#FFFFFF" size="28" font="fonts/Bolton.ttf" />
+		<border color="#000000" size="2" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
+	<block type="text" id="scenario_name">
+		<location x="85" y="90" />
+		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<wordwrap width="230" height="20" align="center" />
+	</block>
+	<block type="text" id="scenario_traits">
+		<location x="47" y="115" />
+		<text color="#000000" size="14" font="fonts/timesbi.ttf" />
+		<wordwrap height="20" width="300" align="center" />
+	</block>
+	<block type="text" id="scenario_description">
+		<location x="70" y="150" />
+		<text color="#000000" size="18" font="fonts/ArnoPro-Arkham.ttf" />
+		<wordwrap height="195" width="260" />
+	</block>
+	<block type="overlay" id="seeker_asset" src="proxy/asset-seeker.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="leadership_hero" src="proxy/leadership_hero.png">
+	<block type="overlay" id="guardian_asset" src="proxy/asset-guardian.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="spirit_hero" src="proxy/spirit_hero.png">
+	<block type="overlay" id="mystic_asset" src="proxy/asset-mystic.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="tactics_hero" src="proxy/tactics_hero.png">
+	<block type="overlay" id="rogue_asset" src="proxy/asset-rogue.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="baggins_hero" src="proxy/baggins_hero.png">
+	<block type="overlay" id="survivor_asset" src="proxy/asset-survivor.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="fellowship_hero" src="proxy/fellowship_hero.png">
+	<block type="overlay" id="seeker_event" src="proxy/event-seeker.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="lore_ally" src="proxy/lore_ally.png">
+	<block type="overlay" id="guardian_event" src="proxy/event-guardian.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="leadership_ally" src="proxy/leadership_ally.png">
+	<block type="overlay" id="mystic_event" src="proxy/event-mystic.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="spirit_ally" src="proxy/spirit_ally.png">
+	<block type="overlay" id="rogue_event" src="proxy/event-rogue.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="tactics_ally" src="proxy/tactics_ally.png">
+	<block type="overlay" id="survivor_event" src="proxy/event-survivor.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="lore_event" src="proxy/lore_event.png">
+	<block type="overlay" id="seeker_skill" src="proxy/skill-seeker.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="leadership_event" src="proxy/leadership_event.png">
+	<block type="overlay" id="guardian_skill" src="proxy/skill-guardian.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="spirit_event" src="proxy/spirit_event.png">
+	<block type="overlay" id="mystic_skill" src="proxy/skill-mystic.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="tactics_event" src="proxy/tactics_event.png">
+	<block type="overlay" id="rogue_skill" src="proxy/skill-rogue.jpg">
 		<location x="0" y="0" />
 	</block>
-	<block type="overlay" id="baggins_event" src="proxy/baggins_event.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="fellowship_event" src="proxy/fellowship_event.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="lore_attachment" src="proxy/lore_attachment.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="leadership_attachment" src="proxy/leadership_attachment.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="spirit_attachment" src="proxy/spirit_attachment.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="tactics_attachment" src="proxy/tactics_attachment.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="boon_attachment" src="proxy/boon_attachment.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="boon_ally" src="proxy/boon_ally.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="burden_objective" src="proxy/burden_objective.png">
-		<location x="0" y="0" />
-	</block>
-	<block type="overlay" id="burden_treachery" src="proxy/burden_treachery.png">
+	<block type="overlay" id="survivor_skill" src="proxy/skill-survivor.jpg">
 		<location x="0" y="0" />
 	</block>
 	<block type="overlay" id="dummy" src="proxy/dummy.png">
 		<location x="0" y="0" />
 	</block>
   </blocks>
-  <template src="proxy/hero.jpg" default="True">
+  <template src="proxy/investigator.jpg" default="True">
     <matches>
-      <match name="Type" value="Hero" />
+      <match name="Type" value="Investigator" />
     </matches>
-    <overlayblocks>
-		<conditional>
-		  <switch property="Sphere">
-		    <case value="Fellowship">
-				<link block="fellowship_hero" />
-			</case>
-			<case value="Baggins">
-				<link block="baggins_hero" />
-			</case>
-			<case value="Tactics">
-				<link block="tactics_hero" />
-			</case>
-			<case value="Leadership">
-				<link block="leadership_hero" />
-			</case>
-			<case value="Lore">
-				<link block="lore_hero" />
-			</case>
-			<case value="Spirit">
-				<link block="spirit_hero" />
-			</case>
-		  </switch>
-		</conditional>
-		<link block="dummy" />
-    </overlayblocks>
     <textblocks>
-	  <link block="hero_cost">
-	   <property name="Cost" />
-	  </link>
-	  <link block="character_name" separator="">
+	  <link block="inv_name" separator="">
 	   <property name="Unique" />
 	   <property name="Name" />
 	  </link>
-	  <link block="character_willpower">
+	  <link block="inv_willpower">
 	   <property name="Willpower" />
 	  </link>
-	  <link block="character_attack">
-	   <property name="Attack" />
+	  <link block="inv_intellect">
+	   <property name="Intellect" />
 	  </link>
-	  <link block="character_defense">
-	   <property name="Defense" />
+	  <link block="inv_combat">
+	   <property name="Combat" />
 	  </link>
-	  <link block="character_hitpoints">
-	   <property name="Health" />
+	  <link block="inv_agility">
+	   <property name="Agility" />
 	  </link>
-	  <link block="traits">
+	  <link block="inv_traits">
 	   <property name="Traits" />
 	  </link>
-	  <link block="description" separator="&#10;&#10;">
+	  <link block="inv_description" separator="&#10;&#10;">
 	   <property name="Keywords" />
 	   <property name="Text" />
 	  </link>
+	  <link block="inv_health">
+	   <property name="Health" />
+	  </link>
+	  <link block="inv_sanity">
+	   <property name="Sanity" />
+	  </link>
     </textblocks>
   </template>
-  <template src="proxy/ally.jpg" default="False">
+  <template src="proxy/asset-neutral.jpg" default="False">
     <matches>
-      <match name="Type" value="Ally" />
+      <match name="Type" value="Asset" />
     </matches>
     <overlayblocks>
 		<conditional>
-		  <switch property="Sphere">
-			<case value="Tactics">
-				<link block="tactics_ally" />
+		  <switch property="Class">
+		    <case value="Seeker">
+				<link block="seeker_asset" />
 			</case>
-			<case value="Leadership">
-				<link block="leadership_ally" />
+			<case value="Guardian">
+				<link block="guardian_asset" />
 			</case>
-			<case value="Lore">
-				<link block="lore_ally" />
+			<case value="Mystic">
+				<link block="mystic_asset" />
 			</case>
-			<case value="Spirit">
-				<link block="spirit_ally" />
+			<case value="Rogue">
+				<link block="rogue_asset" />
 			</case>
-		  </switch>
-		</conditional>
-		<link block="dummy" />
-    </overlayblocks>
-    <textblocks>
-	  <link block="ally_cost">
-	   <property name="Cost" />
-	  </link>
-	  <link block="character_name" separator="">
-	   <property name="Unique" />
-	   <property name="Name" />
-	  </link>
-	  <link block="character_willpower">
-	   <property name="Willpower" />
-	  </link>
-	  <link block="character_attack">
-	   <property name="Attack" />
-	  </link>
-	  <link block="character_defense">
-	   <property name="Defense" />
-	  </link>
-	  <link block="character_hitpoints">
-	   <property name="Health" />
-	  </link>
-	  <link block="traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="description" separator="&#10;&#10;">
-	   <property name="Keywords" />
-	   <property name="Text" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/event.jpg" default="False">
-    <matches>
-      <match name="Type" value="Event" />
-    </matches>
-	<overlayblocks>
-		<conditional>
-		  <switch property="Sphere">
-		    <case value="Fellowship">
-				<link block="fellowship_event" />
-			</case>
-			<case value="Baggins">
-				<link block="baggins_event" />
-			</case>
-			<case value="Tactics">
-				<link block="tactics_event" />
-			</case>
-			<case value="Leadership">
-				<link block="leadership_event" />
-			</case>
-			<case value="Lore">
-				<link block="lore_event" />
-			</case>
-			<case value="Spirit">
-				<link block="spirit_event" />
+			<case value="Survivor">
+				<link block="survivor_asset" />
 			</case>
 		  </switch>
 		</conditional>
 		<link block="dummy" />
 	</overlayblocks>
     <textblocks>
-	  <link block="event_cost">
+	  <link block="cost">
 	   <property name="Cost" />
 	  </link>
-	  <link block="event_name">
+	  <link block="asset_name" separator="">
+	   <property name="Unique" />
 	   <property name="Name" />
 	  </link>
-	  <link block="encounter_traits">
+	  <link block="asset_traits">
 	   <property name="Traits" />
 	  </link>
-	  <link block="encounter_description" separator="&#10;&#10;">
+	  <link block="asset_description" separator="&#10;&#10;">
 	   <property name="Keywords" />
 	   <property name="Text" />
 	  </link>
     </textblocks>
   </template>
-  <template src="proxy/attachment.jpg" default="False">
+  <template src="proxy/event-neutral.jpg" default="False">
     <matches>
-      <match name="Type" value="Attachment" />
+      <match name="Type" value="Event" />
     </matches>
-    <overlayblocks>
+	<overlayblocks>
 		<conditional>
-		  <switch property="Sphere">
-			<case value="Tactics">
-				<link block="tactics_attachment" />
+		  <switch property="Class">
+		    <case value="Seeker">
+				<link block="seeker_event" />
 			</case>
-			<case value="Leadership">
-				<link block="leadership_attachment" />
+			<case value="Guardian">
+				<link block="guardian_event" />
 			</case>
-			<case value="Lore">
-				<link block="lore_attachment" />
+			<case value="Mystic">
+				<link block="mystic_event" />
 			</case>
-			<case value="Spirit">
-				<link block="spirit_attachment" />
+			<case value="Rogue">
+				<link block="rogue_event" />
 			</case>
-			<case value="Boon">
-				<link block="boon_attachment" />
+			<case value="Survivor">
+				<link block="survivor_event" />
 			</case>
 		  </switch>
 		</conditional>
 		<link block="dummy" />
-    </overlayblocks>
+	</overlayblocks>
     <textblocks>
-	  <link block="attachment_cost">
+	  <link block="cost">
 	   <property name="Cost" />
 	  </link>
-	  <link block="attachment_name" separator="">
+	  <link block="event_name" separator="">
 	   <property name="Unique" />
 	   <property name="Name" />
 	  </link>
-	  <link block="encounter_traits">
+	  <link block="event_traits">
 	   <property name="Traits" />
 	  </link>
-	  <link block="encounter_description" separator="&#10;&#10;">
+	  <link block="event_description" separator="&#10;&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/skill-neutral.jpg" default="False">
+    <matches>
+      <match name="Type" value="Skill" />
+    </matches>
+    <overlayblocks>
+		<conditional>
+		  <switch property="Class">
+		    <case value="Seeker">
+				<link block="seeker_skill" />
+			</case>
+			<case value="Guardian">
+				<link block="guardian_skill" />
+			</case>
+			<case value="Mystic">
+				<link block="mystic_skill" />
+			</case>
+			<case value="Rogue">
+				<link block="rogue_skill" />
+			</case>
+			<case value="Survivor">
+				<link block="survivor_skill" />
+			</case>
+		  </switch>
+		</conditional>
+		<link block="dummy" />
+	</overlayblocks>
+    <textblocks>
+	  <link block="cost">
+	   <property name="Cost" />
+	  </link>
+	  <link block="skill_name" separator="">
+	   <property name="Unique" />
+	   <property name="Name" />
+	  </link>
+	  <link block="skill_traits">
+	   <property name="Traits" />
+	  </link>
+	  <link block="skill_description" separator="&#10;&#10;">
 	   <property name="Keywords" />
 	   <property name="Text" />
 	  </link>
@@ -503,122 +492,54 @@
       <match name="Type" value="Enemy" />
     </matches>
     <textblocks>	  
-	  <link block="engagement">
-	   <property name="Engagement Cost" />
+	  <link block="enemy_name" separator="">
+	   <property name="Unique" />
+	   <property name="Name" />
 	  </link>
-	  <link block="character_willpower">
-	   <property name="Threat" />
+	  <link block="enemy_combat">
+	   <property name="Combat" />
 	  </link>
-	  <link block="character_attack">
-	   <property name="Attack" />
-	  </link>
-	  <link block="character_defense">
-	   <property name="Defense" />
-	  </link>
-	  <link block="character_hitpoints">
+	  <link block="enemy_health">
 	   <property name="Health" />
 	  </link>
-	  <link block="character_name" separator="">
-	   <property name="Unique" />
-	   <property name="Name" />
+	  <link block="enemy_agility">
+	   <property name="Agility" />
 	  </link>
-	  <link block="traits">
+	  <link block="enemy_traits">
 	   <property name="Traits" />
 	  </link>
-	  <link block="description" separator="&#10;&#10;">
+	  <link block="enemy_description" separator="&#10;&#10;">
 		<property name="Keywords" />
 		<property name="Text" />
-		<property name="Shadow" format="                  ¥&#10;{}"/>
 	  </link>
-	  <link block="victory">
-	   <property name="Victory Points" />
+	  <link block="enemy_damage">
+	   <property name="Damage" />
+	  </link>
+	  <link block="enemy_horror">
+	   <property name="Horror" />
 	  </link>
     </textblocks>
   </template>
-  <template src="proxy/objective_item.jpg" default="False">
+  <template src="proxy/location-back.jpg" default="False">
     <matches>
-      <match name="Type" value="Objective" />
-	  <match name="Health" value="" />
+      <match name="Type" value="Location" />
+      <match name="Shroud" value="" />
     </matches>
-	<overlayblocks>
-		<conditional>
-		  <switch property="Sphere">
-			<case value="Burden">
-				<link block="burden_objective" />
-			</case>
-		  </switch>
-		</conditional>
-		<link block="dummy" />
-    </overlayblocks>
     <textblocks>
-	  <link block="objective_name" separator="">
+	  <link block="location_name" separator="">
 	   <property name="Unique" />
 	   <property name="Name" />
 	  </link>
-	  <link block="set">
-	   <property name="Encounter Set" />
-	  </link>
-	  <link block="encounter_traits">
+	  <link block="location_traits">
 	   <property name="Traits" />
 	  </link>
-	  <link block="objective_description" separator="&#10;&#10;">
+	  <link block="location_description" separator="&#10;&#10;">
 		<property name="Keywords" />
 		<property name="Text" />
-		<property name="Shadow" format="                  ¥&#10;{}"/>
-	  </link>
-	  <link block="victory">
-	   <property name="Victory Points" />
 	  </link>
     </textblocks>
   </template>
-  <template src="proxy/objective_ally.jpg" default="False">
-    <matches>
-      <match name="Type" value="Objective" />
-    </matches>
-	<overlayblocks>
-		<conditional>
-		  <switch property="Sphere">
-			<case value="Boon">
-				<link block="boon_ally" />
-			</case>
-		  </switch>
-		</conditional>
-		<link block="dummy" />
-    </overlayblocks>
-    <textblocks>
-	  <link block="objective_name" separator="">
-	   <property name="Unique" />
-	   <property name="Name" />
-	  </link>
-	  <link block="set">
-	   <property name="Encounter Set" />
-	  </link>
-	  <link block="encounter_traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="objective_description" separator="&#10;&#10;">
-		<property name="Keywords" />
-		<property name="Text" />
-		<property name="Shadow" format="                  ¥&#10;{}"/>
-	  </link>
-	  <link block="victory">
-	   <property name="Victory Points" />
-	  </link>
-	  <link block="character_willpower">
-	   <property name="Willpower" />
-	  </link>
-	  <link block="character_attack">
-	   <property name="Attack" />
-	  </link>
-	  <link block="character_defense">
-	   <property name="Defense" />
-	  </link>
-	  <link block="character_hitpoints">
-	   <property name="Health" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/location.jpg" default="False">
+  <template src="proxy/location-front.jpg" default="False">
     <matches>
       <match name="Type" value="Location" />
     </matches>
@@ -627,22 +548,18 @@
 	   <property name="Unique" />
 	   <property name="Name" />
 	  </link>
-	  <link block="encounter_traits">
+	  <link block="location_traits">
 	   <property name="Traits" />
 	  </link>
-	  <link block="encounter_description" separator="&#10;&#10;">
+	  <link block="location_description" separator="&#10;&#10;">
 		<property name="Keywords" />
 		<property name="Text" />
-		<property name="Shadow" format="                  ¥&#10;{}"/>
 	  </link>
-	  <link block="location_threat">
-	   <property name="Threat" />
+	  <link block="location_shroud">
+	   <property name="Shroud" />
 	  </link>
-	  <link block="location_points">
-	   <property name="Quest Points" />
-	  </link>
-	  <link block="victory">
-	   <property name="Victory Points" />
+	  <link block="location_clues">
+	   <property name="Clues" />
 	  </link>
     </textblocks>
   </template>
@@ -650,246 +567,110 @@
     <matches>
       <match name="Type" value="Treachery" />
     </matches>
-	<overlayblocks>
-		<conditional>
-		  <switch property="Sphere">
-			<case value="Burden">
-				<link block="burden_treachery" />
-			</case>
-		  </switch>
-		</conditional>
-		<link block="dummy" />
-    </overlayblocks>
     <textblocks>
 	  <link block="treachery_name" separator="">
 	   <property name="Unique" />
 	   <property name="Name" />
 	  </link>
-	  <link block="encounter_traits">
+	  <link block="treachery_traits">
 	   <property name="Traits" />
 	  </link>
-	  <link block="encounter_description" separator="&#10;&#10;">
+	  <link block="treachery_description" separator="&#10;&#10;">
 		<property name="Keywords" />
 		<property name="Text" />
-		<property name="Shadow" format="                  ¥&#10;{}"/>
-	  </link>
-	  <link block="victory">
-	   <property name="Victory Points" />
 	  </link>
     </textblocks>
   </template>
-  <template src="proxy/treasure.jpg" default="False">
+  <template src="proxy/agenda-back.jpg" default="False">
     <matches>
-      <match name="Type" value="Treasure" />
+      <match name="Type" value="Agenda" />
+	  <match name="Doom" value="" />
     </matches>
     <textblocks>
-	  <link block="treasure_name" separator="">
-	   <property name="Unique" />
+	  <link block="agenda_name_back">
 	   <property name="Name" />
 	  </link>
-	  <link block="encounter_traits">
+	  <link block="agenda_stage_back">
+	   <property name="Level" format="{}B"/>
+	  </link>
+	  <link block="agenda_description_back" separator="&#10;&#10;">
+		<property name="Keywords" />
+		<property name="Text" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/act-back.jpg" default="False">
+    <matches>
+      <match name="Type" value="Act" />
+	  <match name="Clues" value="" />
+    </matches>
+    <textblocks>
+	  <link block="agenda_name_back">
+	   <property name="Name" />
+	  </link>
+	  <link block="agenda_stage_back">
+	   <property name="Level" format="{}B"/>
+	  </link>
+	  <link block="agenda_description_back" separator="&#10;&#10;">
+		<property name="Keywords" />
+		<property name="Text" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/agenda.jpg" default="False">
+    <matches>
+      <match name="Type" value="Agenda" />
+    </matches>
+    <textblocks>
+	  <link block="agenda_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="agenda_stage">
+	   <property name="Level" format="Agenda {}A"/>
+	  </link>
+	  <link block="agenda_description" separator="&#10;&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="agenda_doom">
+	   <property name="Doom" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/act.jpg" default="False">
+    <matches>
+      <match name="Type" value="Act" />
+    </matches>
+    <textblocks>
+	  <link block="act_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="act_stage">
+	   <property name="Level" format="Act {}A"/>
+	  </link>
+	  <link block="act_description" separator="&#10;&#10;">
+	   <property name="Keywords" />
+	   <property name="Text" />	   
+	  </link>
+	  <link block="act_clues">
+	   <property name="Clues" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/scenario.jpg" default="False">
+    <matches>
+      <match name="Type" value="Scenario" />
+    </matches>
+    <textblocks>
+	  <link block="scenario_name">
+	   <property name="Name" />
+	  </link>
+	  <link block="scenario_traits">
 	   <property name="Traits" />
 	  </link>
-	  <link block="encounter_description" separator="&#10;&#10;">
+	  <link block="scenario_description" separator="&#10;&#10;">
 	   <property name="Keywords" />
 	   <property name="Text" />
-	  </link>
-	  <link block="treasure_cost">
-	   <property name="Cost" />
-	  </link>
-	  <link block="treasure_victory">
-	   <property name="Victory Points" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/questA.jpg" default="False">
-    <matches>
-      <match name="Type" value="Quest" />
-	  <match name="Engagement Cost" value="A" />
-	  <match name="Sphere" value="" />
-    </matches>
-    <textblocks>
-	  <link block="quest_name">
-	   <property name="Name" />
-	  </link>
-	  <link block="quest_stage">
-	   <property name="Cost" format="{}A"/>
-	  </link>
-	  <link block="encounter">
-	   <property name="Encounter Set" />
-	  </link>
-	  <link block="quest_description">
-	   <property name="Text" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/questB.jpg" default="False">
-    <matches>
-      <match name="Type" value="Quest" />
-	  <match name="Engagement Cost" value="B" />
-	  <match name="Sphere" value="" />
-    </matches>
-    <textblocks>
-	  <link block="quest_name">
-	   <property name="Name" />
-	  </link>
-	  <link block="quest_stage">
-	   <property name="Cost" format="{}BEnga"/>
-	  </link>
-	  <link block="encounter">
-	   <property name="Encounter Set" />
-	  </link>
-	  <link block="quest_description" separator="&#10;&#10;">
-	   <property name="Keywords" />
-	   <property name="Text" />	   
-	  </link>
-	  <link block="quest_points">
-	   <property name="Quest Points" />
-	  </link>
-	  <link block="quest_victory">
-	   <property name="Victory Points" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/questB.jpg" default="False">
-    <matches>
-      <match name="Type" value="Quest" />
-    </matches>
-    <textblocks>
-	  <link block="quest_name">
-	   <property name="Name" />
-	  </link>
-	  <link block="quest_cost">
-	   <property name="Cost" />
-	  </link>
-	  <link block="encounter">
-	   <property name="Encounter Set" />
-	  </link>
-	  <link block="quest_description" separator="&#10;&#10;">
-	   <property name="Keywords" />
-	   <property name="Text" />	   
-	  </link>
-	  <link block="quest_points">
-	   <property name="Quest Points" />
-	  </link>
-	  <link block="quest_victory">
-	   <property name="Victory Points" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/questB.jpg" default="False">
-    <matches>
-      <match name="Type" value="Side Quest" />
-      <match name="Cost" value="" />
-    </matches>
-    <textblocks>
-	  <link block="quest_name">
-	   <property name="Name" />
-	  </link>
-	  <link block="encounter">
-	   <property name="Encounter Set" />
-	  </link>
-	  <link block="quest_description" separator="&#10;&#10;">
-	   <property name="Keywords" />
-	   <property name="Text" />	   
-	  </link>
-	  <link block="quest_points">
-	   <property name="Quest Points" />
-	  </link>
-	  <link block="quest_victory">
-	   <property name="Victory Points" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/sidequest.jpg" default="False">
-    <matches>
-      <match name="Type" value="Side Quest" />
-      <match name="Encounter Set" value="" />
-    </matches>
-    <textblocks>
-      <link block="sidequest_name">
-	   <property name="Name" />
-	  </link>
-	  <link block="quest_description" separator="&#10;&#10;">
-	   <property name="Keywords" />
-	   <property name="Text" />	   
-	  </link>
-	  <link block="sidequest_cost">
-	   <property name="Cost" />
-	  </link>
-	  <link block="quest_points">
-	   <property name="Quest Points" />
-	  </link>
-	  <link block="quest_victory">
-	   <property name="Victory Points" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/nightmare_setup.jpg" default="False">
-    <matches>
-      <match name="Type" value="Nightmare" />
-	  <match name="Keywords" value="Setup" />
-    </matches>
-    <textblocks>
-	  <link block="nightmare_setup">
-	   <property name="Text" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/nightmare_quest.jpg" default="False">
-    <matches>
-      <match name="Type" value="Nightmare" />
-    </matches>
-    <textblocks>
-	  <link block="nightmare_name">
-	   <property name="Name" />
-	  </link>
-	  <link block="nightmare_description">
-	   <property name="Text" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/campaign_a.png" default="False">
-    <matches>
-      <match name="Type" value="Campaign" />
-	  <match name="Keywords" value="You are playing Campaign Mode." />
-    </matches>
-    <textblocks>
-	  <link block="campaign_name">
-	   <property name="Name" />
-	  </link>
-	  <link block="campaign_set">
-	   <property name="Encounter Set" />
-	  </link>
-	  <link block="campaign_description" separator="&#10;&#10;">
-	   <property name="Keywords" />
-	   <property name="Text" />
-	  </link>
-	  <link block="campaign_type">
-	   <property name="Type" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/campaign_b.png" default="False">
-    <matches>
-      <match name="Type" value="Campaign" />
-    </matches>
-    <textblocks>
-	  <link block="campaign_resolution">
-	   <property name="Text" />
-	  </link>
-    </textblocks>
-  </template>
-  <template src="proxy/rules.jpg" default="False">
-    <matches>
-      <match name="Type" value="Rules" />
-    </matches>
-    <textblocks>
-	  <link block="attachment_name">
-	   <property name="Name" />
-	  </link>
-	  <link block="campaign_resolution">
-	   <property name="Keywords" />
 	  </link>
     </textblocks>
   </template>
