@@ -1,27 +1,13 @@
 import time
 import re
 
-Resource = ("Resource", "62a2ba76-9872-481b-b8fc-ec35447ca640")
-Damage = ("Damage", "38d55f36-04d7-4cf9-a496-06cb84de567d")
-Progress = ("Progress", "e9a419ff-5154-41cf-b84f-95149cc19a2a")
-WillpowerToken = ("WillpowerToken", "f24eb0c4-8405-4599-ba80-95bc009ae9fb")
-AttackToken = ("AttackToken", "53f20b83-6292-4017-abd0-511efdaf710d")
-DefenseToken = ("DefenseToken", "6987d1a6-55ab-4ced-bbec-4e5b3490a40e")
-ThreatToken = ("ThreatToken", "39df75f2-141d-425f-b651-d572b4885004")
-TimeToken = ("TimeToken", "31627422-f546-4a69-86df-ca0a028f3138")
-Lock = ("Lock", "04d7b7bb-13ee-499c-97c0-c1b96a897560")
-Turn = ("Turn", "e0a54bea-6e30-409d-82cd-44a944e591dc")
-phases = [  "5b015ce5-9282-402f-8fae-2ee819bd1545",
-			"947e9e24-08bb-4193-98dc-88eb72107b7c",
-			"656f896c-f45f-4ee4-bc44-aa8fd1eada55",
-			"40046ed1-70c5-4a0e-914a-0a897f6cd644",
-			"04fbf669-68c4-40c5-ae4d-0e06539497f1",
-			"95fd357a-c0f1-4046-8b7a-4baf9abf36fc",
-			"fbc17c02-086a-45d5-897b-d3732818b42f",
-			"9c0f0325-4262-4a1d-8b1d-f415a6910f03",
-			"b3ecfc10-176d-4971-820d-6d1227697d23",
-			"aa8cd34c-cf6a-440e-a05f-c05f84446a72",
-			"700e2c2e-bb49-40a9-a9ea-f51be3ffe5b4" ]
+Resource = ("Resource", "6eb6d990-007a-4f4d-b76c-b35685922b22")
+Damage = ("Damage", "3abb22bb-b259-4857-ae8f-f2cdf93de5e0")
+Clue = ("Clue", "33d9ed22-458b-4c7f-9901-5daf2fa43a23")
+Horror = ("Horror", "9461c5e5-1aa8-4286-88f1-01661a8aaa02")
+Doom = ("Doom", "a6605071-57d2-4e7f-b6b4-7809147a565a")
+Lock = ("Lock", "62d688a4-46ef-45be-9414-2257a1221351")
+
 BoardWidth = 1100
 Spacing = 92
 HeroY = 70
@@ -29,8 +15,12 @@ StagingStart = -530
 StagingWidth = 750
 StagingY = -224
 StagingSpace = 82
-QuestStartX = 331
-QuestStartY = -246
+AgendaX = 240
+AgendaY = -246
+ActX = 290
+ActY = -246
+ScenarioX = 331
+ScenarioY = -260
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -49,9 +39,9 @@ def toggleDebug(group, x=0, y=0):
 	else:
 		notify("{} turns off debug".format(me))
 	
-#Return the default x coordinate of the players hero
-def heroX(player, hero=0):
-	return hero*Spacing + (BoardWidth * player / len(getPlayers())) - BoardWidth / 2
+#Return the default x coordinate of the players investigator
+def investigatorX(player, investigator=0):
+	return investigator*Spacing + (BoardWidth * player / len(getPlayers())) - BoardWidth / 2
 
 def num(s):
    if not s: return 0
@@ -67,26 +57,26 @@ def moveCard(model, x, y):
 			return c
 	return table.create(model, x, y)
 	
-def moveFirstPlayerToken(x=0, y=0):
-	return moveCard("15e40d4f-b763-4dcc-aa52-e32b64a992dd", x, y)
-	
-def getFirstPlayerToken():
-	for c in table:
-		if c.model == "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
-			return c
-	return None
-
-def automationCard(x=0, y=0):
-	return moveCard("72e54fdf-17b1-4358-b696-6c195e9696d1", x, y)
-
-def isSpecialCard(card):
-	return card.Sphere == 'Special'
-	
+#def moveFirstPlayerToken(x=0, y=0):
+#	return moveCard("15e40d4f-b763-4dcc-aa52-e32b64a992dd", x, y)
+#	
+#def getFirstPlayerToken():
+#	for c in table:
+#		if c.model == "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
+#			return c
+#	return None
+#
+#def automationCard(x=0, y=0):
+#	return moveCard("72e54fdf-17b1-4358-b696-6c195e9696d1", x, y)
+#
+#def isSpecialCard(card):
+#	return card.Sphere == 'Special'
+#	
 #Find and return this players left most hero card	
-def firstHero(player):
+def firstInvestigator(player):
 	first = None
 	for h in table:
-		if h.controller == player and h.Type == "Hero" and h.isFaceUp:
+		if h.controller == player and h.Type == "Investigator" and h.isFaceUp:
 			if first is None:
 				first = h
 			else:
@@ -102,62 +92,67 @@ def getPlayer(id):
 			return p
 	return None
 	
-def countHeroes(p):
-	heroes = 0
+def countInvestigators(p):
+	investigators = 0
 	for card in table:
-		if card.controller == p and card.Type == "Hero":
-			heroes += 1
-	return heroes
+		if card.controller == p and card.Type == "Investigator":
+			investigators += 1
+	return investigators
 
 #Work out if the player is still in the game (threat < 50 and has heroes on the table)
-def eliminated(p):	
-	if not p:
-		return False
-		
-	if p.counters['Threat_Level'].value >= 50:
-		debug("eliminated({}) = True (Threat)".format(p))
-		return True
-
-	heroes = countHeroes(p)
-	if heroes == 0:
-		debug("eliminated({}) = True (No Heroes)".format(p))
-		return True
-
-	return False
+#def eliminated(p):	
+#	if not p:
+#		return False
+#		
+#	if p.counters['Threat_Level'].value >= 50:
+#		debug("eliminated({}) = True (Threat)".format(p))
+#		return True
+#
+#	heroes = countHeroes(p)
+#	if heroes == 0:
+#		debug("eliminated({}) = True (No Heroes)".format(p))
+#		return True
+#
+#	return False
 
 def activePlayers():
 	count=0
 	for p in getPlayers():
-		if not eliminated(p):
-			count+=1
+		count+=1
+#		if not eliminated(p):
+#			count+=1
 	return count
 
-def nextPlayer(current):
-	if not eliminated(me):
-		fp = getFirstPlayerToken()
-		if fp is not None and isLocked(fp):
-			return me
-			
-	np = me		
-	tries = 0
-	while tries < len(getPlayers()):
-		current = (current + 1) % len(getPlayers())
-		p = getPlayer(current)
-		if not eliminated(p):
-			np = p
-			break
-		tries += 1
-	return np
+#def nextPlayer(current):
+#	if not eliminated(me):
+#		fp = getFirstPlayerToken()
+#		if fp is not None and isLocked(fp):
+#			return me
+#			
+#	np = me		
+#	tries = 0
+#	while tries < len(getPlayers()):
+#		current = (current + 1) % len(getPlayers())
+#		p = getPlayer(current)
+#		if not eliminated(p):
+#			np = p
+#			break
+#		tries += 1
+#	return np
 		
-def questCount(group):
+def agendaCount(group):
 	count = 0
-	nightmare = 0
 	for c in group:
-		if c.Type == "Quest":
+		if c.Type == "Agenda":
 			count += 1
-		if c.Type == "Nightmare" or c.Type == "Campaign":
-			nightmare += 1
-	return (nightmare, count)
+	return (count)
+
+def actCount(group):
+	count = 0
+	for c in group:
+		if c.Type == "Act":
+			count += 1
+	return (count)
 
 #Check see if a card at x1,y1 overlaps a card at x2,y2
 #Both have size w, h	
@@ -239,11 +234,26 @@ def specialDeck():
 def specialDiscard():
 	return shared.piles['Special Discard Pile']
 	
-def questDeck():
-	return shared.piles['Quest']
+def agendaDeck():
+	return shared.piles['Agenda']
 	
-def questDiscard():
-	return shared.piles['Quest Discard Pile']
+def agendaDiscard():
+	return shared.piles['Agenda Discard Pile']
+
+def actDeck():
+	return shared.piles['Act']
+	
+def actDiscard():
+	return shared.piles['Act Discard Pile']
+
+def locationDeck():
+	return shared.piles['Location']
+	
+def locationDiscard():
+	return shared.piles['Location Discard Pile']
+
+def chaosBag():
+	return shared.piles['Chaos Bag']
 
 def setupDeck():
 	return shared.piles['Setup']
@@ -304,68 +314,68 @@ def playerID(p):
 
 #FirstPlayer - the default value is the controller of the first player token
 #If there isn't one on the table the use the value stored in the global variable
-def getFirstPlayerID():
-	token = getFirstPlayerToken()
-	var = getGlobalVariable("firstPlayer")
-	if var is None or len(var) == 0:
-		id = -1
-	else:
-		id = num(var)
-	
-	if token is None:		
-		return id
-	
-	result = playerID(token.controller)	
-	if id != result: #Ensure global is the in sync with controller of token
-		setGlobalVariable("firstPlayer", str(result))
-		update()
-	return result		
-	
-def setFirstPlayer(id):
+#def getFirstPlayerID():
+#	token = getFirstPlayerToken()
+#	var = getGlobalVariable("firstPlayer")
+#	if var is None or len(var) == 0:
+#		id = -1
+#	else:
+#		id = num(var)
+#	
+#	if token is None:		
+#		return id
+#	
+#	result = playerID(token.controller)	
+#	if id != result: #Ensure global is the in sync with controller of token
+#		setGlobalVariable("firstPlayer", str(result))
+#		update()
+#	return result		
+#	
+#def setFirstPlayer(id):
 	setGlobalVariable("firstPlayer", str(id))
 
 #In phase management this represents the player highlighted in green
-def setActivePlayer(p):
-	if p is None:
-		setGlobalVariable("activePlayer", "-1")
-	else:
-		setGlobalVariable("activePlayer", str(playerID(p)))
-	update()
+#def setActivePlayer(p):
+#	if p is None:
+#		setGlobalVariable("activePlayer", "-1")
+#	else:
+#		setGlobalVariable("activePlayer", str(playerID(p)))
+#	update()
 	
-def getActivePlayer():
-	return getPlayer(num(getGlobalVariable("activePlayer")))
-	
-def setPlayerDone(phase=-1, step=-1):
-	if phase == -1:
-		phase = shared.counters['Phase'].value
-	if step == -1:
-		step = shared.counters['Step'].value
-	me.setGlobalVariable("done", "{}.{}.{}.{}".format(getGlobalVariable("game"), shared.counters['Round'].value, phase, step))
-	updatePhase()
-	update()
-	
-def clearPlayerDone():
-	me.setGlobalVariable("done", "")
-	updatePhase()
-	update()
-	
-def isPlayerDone(p, phase=-1, step=-1):
-	debug("isPlayerDone({}): {}".format(p, p.getGlobalVariable("done")))
-	when = p.getGlobalVariable("done").split('.')
-	if len(when) != 4: return False
-	game = num(getGlobalVariable("game"))
-	if num(when[0]) > game: return True
-	if num(when[0]) < game: return False
-	if num(when[1]) > shared.counters['Round'].value: return True
-	if num(when[1]) < shared.counters['Round'].value: return False
-	if phase == -1:
-		phase = shared.counters['Phase'].value
-	if num(when[2]) > phase: return True
-	if num(when[2]) < phase: return False
-	if step == -1:
-		step = shared.counters['Step'].value
-	return num(when[3]) >= step
-
+#def getActivePlayer():
+#	return getPlayer(num(getGlobalVariable("activePlayer")))
+#	
+#def setPlayerDone(phase=-1, step=-1):
+#	if phase == -1:
+#		phase = shared.counters['Phase'].value
+#	if step == -1:
+#		step = shared.counters['Step'].value
+#	me.setGlobalVariable("done", "{}.{}.{}.{}".format(getGlobalVariable("game"), shared.counters['Round'].value, phase, step))
+#	updatePhase()
+#	update()
+#	
+#def clearPlayerDone():
+#	me.setGlobalVariable("done", "")
+#	updatePhase()
+#	update()
+#	
+#def isPlayerDone(p, phase=-1, step=-1):
+#	debug("isPlayerDone({}): {}".format(p, p.getGlobalVariable("done")))
+#	when = p.getGlobalVariable("done").split('.')
+#	if len(when) != 4: return False
+#	game = num(getGlobalVariable("game"))
+#	if num(when[0]) > game: return True
+#	if num(when[0]) < game: return False
+#	if num(when[1]) > shared.counters['Round'].value: return True
+#	if num(when[1]) < shared.counters['Round'].value: return False
+#	if phase == -1:
+#		phase = shared.counters['Phase'].value
+#	if num(when[2]) > phase: return True
+#	if num(when[2]) < phase: return False
+#	if step == -1:
+#		step = shared.counters['Step'].value
+#	return num(when[3]) >= step
+#
 def deckLocked():
 	return me.getGlobalVariable("deckLocked") == "1"
 
@@ -423,313 +433,287 @@ def deckLoaded(player, groups):
 	#Check for cards with a Setup effects and move other cards back into the correct pile
 	for p in groups:
 		for card in p:
-			if card.Setup == 't' and card.Type not in [ 'Quest' , 'Nightmare', 'Campaign' ]:
+			if card.Setup == 't' and card.Type not in [ 'Agenda' , 'Act', 'Scenario' ]:
 				addToTable(card)
-			elif card.Setup == 's' and card.Type not in [ 'Quest' , 'Nightmare', 'Campaign' ]:
+			elif card.Setup == 's' and card.Type not in [ 'Agenda' , 'Act', 'Scenario' ]:
 				addToStagingArea(card)
 			elif p == encounterDiscard():
 				card.moveTo(encounterDeck())
 			elif p == me.piles['Discard Pile']:
 				card.moveTo(me.deck)
 	
-	#Temple of the Decieved
-	for p in groups:
-		for card in p:			
-			if card.model == 'f3bc3759-1f94-4983-bebb-66c7d9e3e0b3':
-				whisper('Setting up map.')
-				setupTotDMap(p)
+
 	update()
 	playerSetup(table, 0, 0, isPlayer, isShared)
 	#if automate():			<-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
 	#	playerSetup(table, 0, 0, isPlayer, isShared)
 		
 #Triggered event OnChangeCounter
-def counterChanged(player, counter, oldV): 
-	if counter == shared.counters['Round']:
-		fp = getFirstPlayerToken()
-		if fp is not None and fp.controller == me:
-			fp.markers[Turn] = shared.counters['Round'].value
+# def counterChanged(player, counter, oldV): 
+# 	if counter == shared.counters['Round']:
+# 		fp = getFirstPlayerToken()
+# 		if fp is not None and fp.controller == me:
+# 			fp.markers[Turn] = shared.counters['Round'].value
 
-#Triggered event OnPlayerGlobalVariableChanged
-#We use this to manage turn and phase management by tracking changes to the player "done" variable			
-def globalChanged(player, var, oldV, newV):
-	debug("globalChanged(player {}, Variable {}, from {}, to {})".format(player, var, oldV, newV))
-	if var == "done":
-		updatePhase(player)
+# #Triggered event OnPlayerGlobalVariableChanged
+# #We use this to manage turn and phase management by tracking changes to the player "done" variable			
+# def globalChanged(player, var, oldV, newV):
+# 	debug("globalChanged(player {}, Variable {}, from {}, to {})".format(player, var, oldV, newV))
+# 	if var == "done":
+# 		updatePhase(player)
 		
-def numDone(phase=-1, step=-1):
-	count = 0
-	for p in getPlayers():
-		if isPlayerDone(p, phase, step): count += 1
-	debug("numDone() == {}".format(count))
-	return count
+# def numDone(phase=-1, step=-1):
+# 	count = 0
+# 	for p in getPlayers():
+# 		if isPlayerDone(p, phase, step): count += 1
+# 	debug("numDone() == {}".format(count))
+# 	return count
 	
-def highlightPlayer(p, state):
-	if len(getPlayers()) <= 1:
-		return
-	debug("highlightPlayer {} = {}".format(p, state))
-	for card in table:
-		if card.Type == "Hero" and card.controller == p and card.isFaceUp:
-			card.highlight = state
+# def highlightPlayer(p, state):
+# 	if len(getPlayers()) <= 1:
+# 		return
+# 	debug("highlightPlayer {} = {}".format(p, state))
+# 	for card in table:
+# 		if card.Type == "Investigator" and card.controller == p and card.isFaceUp:
+# 			card.highlight = state
 
 #Highlight all players to show his status
-def highlightPlayers():
-	mute()
-	active = getActivePlayer()
-	debug("highlightPlayers: active = {}".format(active))
-	for p in getPlayers():
-		c = None
-		if eliminated(p):
-			c = EliminatedColour
-		elif isPlayerDone(p):
-			c = DoneColour
-		elif active is None or p == active:
-			c = ActiveColour
-		else:
-			c = WaitingColour
-		highlightPlayer(p, c)
+#def highlightPlayers():
+#	mute()
+#	active = getActivePlayer()
+#	debug("highlightPlayers: active = {}".format(active))
+#	for p in getPlayers():
+#		c = None
+#		if eliminated(p):
+#			c = EliminatedColour
+#		elif isPlayerDone(p):
+#			c = DoneColour
+#		elif active is None or p == active:
+#			c = ActiveColour
+#		else:
+#			c = WaitingColour
+#		highlightPlayer(p, c)
 			
-def nextPhase():
-	shared.counters['Phase'].value += 1
-	shared.counters['Step'].value = 1
-	
-def nextStep():
-	shared.counters['Step'].value += 1
-
-def showPhase():
-	mute()
-	phaseID = [ [0], [1], [2, 3, 4], [5], [6], [7, 8, 9], [10] ]
-	phase = shared.counters['Phase'].value
-	step = shared.counters['Step'].value
-	x = StagingStart + StagingWidth / 2 - 36
-	y = StagingY + 113
-
-	debug("showPhase: {} {}".format(phase, step))
-	
-	if phase == 0:
-		notify("Player Setup")
-		idx = -1
-	else:
-		idx = phaseID[phase-1][step-1]	
+#def nextPhase():
+#	shared.counters['Phase'].value += 1
+#	shared.counters['Step'].value = 1
+#	
+#def nextStep():
+#	shared.counters['Step'].value += 1
+#
+#def showPhase():
+#	mute()
+#	phaseID = [ [0], [1], [2, 3, 4], [5], [6], [7, 8, 9], [10] ]
+#	phase = shared.counters['Phase'].value
+#	step = shared.counters['Step'].value
+#	x = StagingStart + StagingWidth / 2 - 36
+#	y = StagingY + 113
+#
+#	debug("showPhase: {} {}".format(phase, step))
+#	
+#	if phase == 0:
+#		notify("Player Setup")
+#		idx = -1
+#	else:
+#		idx = phaseID[phase-1][step-1]	
+#		
+#	phaseCard = None
+#	for c in table:
+#		if c.model in phases:
+#			if idx >= 0 and phaseCard is None and c.model == phases[idx]:
+#				phaseCard = c
+#			else:
+#				c.moveTo(me.piles['Discard Pile'])
+#	
+#	if idx >= 0:
+#		if phaseCard is None:
+#			phaseCard = table.create(phases[idx], x, y)
+#			notify("{} - {}".format(phaseCard, phaseCard.properties['Text']))
+#		else:
+#			phaseCard.moveToTable(x, y)
 		
-	phaseCard = None
-	for c in table:
-		if c.model in phases:
-			if idx >= 0 and phaseCard is None and c.model == phases[idx]:
-				phaseCard = c
-			else:
-				c.moveTo(me.piles['Discard Pile'])
-	
-	if idx >= 0:
-		if phaseCard is None:
-			phaseCard = table.create(phases[idx], x, y)
-			notify("{} - {}".format(phaseCard, phaseCard.properties['Text']))
-		else:
-			phaseCard.moveToTable(x, y)
-		
-def clearPhase():
-	#Delete current phase card
-	for c in table:
-		if c.model in phases:
-			c.moveTo(me.piles['Discard Pile'])
+#def clearPhase():
+#	#Delete current phase card
+#	for c in table:
+#		if c.model in phases:
+#			c.moveTo(me.piles['Discard Pile'])
 
 #playerDone - called when player presses the Done button
 #Calls the setPlayerDone function to mark the player as ready (stored in their global variables)
 #Updating the Global variable will trigger an event that will then check to see if all players are ready to move to the next phase (see updatePhase())			
-def playerDone(group, x=0, y=0):
-	mute()
-	if not phaseManagement():
-		notify("<{}> done".format(me))
-		return
-		
-	#The game state is defined by the phase and step we are in.
-	#Some states allow any player to act (False), others restrict actions to the current active player (True)
-	phaseState = [ [False], #Setup
-					[False], #Resource
-					[True], #Planning
-					[True, True, False], #Quest (Commit, Reveal, Resolve)
-					[False], #Travel
-					[False], #Encounter
-					[True, True, False], #Combat (Defend, Attack, Actions)
-					[False] ] #Refresh
-	phase = shared.counters['Phase'].value
-	step = shared.counters['Step'].value
-	debug("{} playerDone: Phase {} Step {} activeOnly {} Active Player {}".format(me, phase, step, phaseState[phase][step-1], getActivePlayer()))	
 
-	if phaseState[phase][step-1] == False or getActivePlayer() == me:
-		setPlayerDone()
 
 #Called when the "done" global variable is changed by one of the players
 #We use this check to see if all players are ready to advance to the next phase	
 #Note - all players get called whenever any player changes state. To ensure we don't all do the same thing multiple times
 #       only the Encounter player is allowed to change the phase or step and only the player triggering the event is allowed to change the highlights	
-def updatePhase(who=me):
-	mute()
-	if not automate():
-		return	
+# def updatePhase(who=me):
+# 	mute()
+# 	if not automate():
+# 		return	
 	
-	#Depending on current game state we either
-	# Advance to next player
-	# Advance to next step of this phase
-	# Advance to next phase
-	# Advance to next round
+# 	#Depending on current game state we either
+# 	# Advance to next player
+# 	# Advance to next step of this phase
+# 	# Advance to next phase
+# 	# Advance to next round
 
-	isActive = (getActivePlayer() == me and who == me)
-	isEncounterPlayer = (encounterDeck().controller == me)
+# 	isActive = (getActivePlayer() == me and who == me)
+# 	isEncounterPlayer = (encounterDeck().controller == me)
 	
-	if turnManagement() and shared.counters['Phase'].value > 0 and shared.counters['Phase'].value < 6:
-		#The phase and step will not have been updated in turn management mode so we skip straight to the end of combat (ready for refresh)
-		if isEncounterPlayer:
-			shared.counters['Phase'].value = 6
-			shared.counters['Step'].value = 3
-		phase = 6
-		step = 3
-	else:			
-		phase = shared.counters['Phase'].value
-		step = shared.counters['Step'].value
-	debug("me = {} updatePhase({}): Phase {} Step {}".format(me, who, phase, step))
+# 	if turnManagement() and shared.counters['Phase'].value > 0 and shared.counters['Phase'].value < 6:
+# 		#The phase and step will not have been updated in turn management mode so we skip straight to the end of combat (ready for refresh)
+# 		if isEncounterPlayer:
+# 			shared.counters['Phase'].value = 6
+# 			shared.counters['Step'].value = 3
+# 		phase = 6
+# 		step = 3
+# 	else:			
+# 		phase = shared.counters['Phase'].value
+# 		step = shared.counters['Step'].value
+# 	debug("me = {} updatePhase({}): Phase {} Step {}".format(me, who, phase, step))
 		
-	ready = (numDone(phase, step) >= activePlayers())
+# 	ready = (numDone(phase, step) >= activePlayers())
 
-	if phase == 1: #Resource
-		if ready and isEncounterPlayer:
-			nextPhase()
-			np = getPlayer(getFirstPlayerID())
-			if eliminated(np):
-				np = nextPlayer(playerID(np))
-			setActivePlayer(np)
-			if phaseManagement():
-				highlightPlayers()
-		elif phaseManagement() and who == me:
-			highlightPlayers()
-	elif phase == 2: #Planning
-		if ready:
-			if isEncounterPlayer:
-				nextPhase()
-				setActivePlayer(getPlayer(getFirstPlayerID()))
-				if phaseManagement:
-					highlightPlayers()
-		elif isActive:
-			setActivePlayer(nextPlayer(playerID(me)))
-			if phaseManagement():
-				highlightPlayers()
-	elif phase == 3: #Quest
-		if step == 1: #Commit
-			if ready:
-				if isEncounterPlayer:
-					nextStep()
-					setActivePlayer(me)
-					if phaseManagement():
-						highlightPlayers()
-			elif isActive:
-				setActivePlayer(nextPlayer(playerID(me)))
-				if phaseManagement():
-					highlightPlayers()
-		elif step == 2: #Reveal Encounter cards
-			if isActive:
-				nextStep()
-				setActivePlayer(None)
-				if phaseManagement():
-					highlightPlayers()
-		else: #Resolve questing
-			if ready and isEncounterPlayer:
-				nextPhase()
-				setActivePlayer(None)
-				if phaseManagement():
-					highlightPlayers()
-			elif phaseManagement() and who == me:
-				highlightPlayers()
-	elif phase == 4: #Travel
-		if ready and isEncounterPlayer:
-			nextPhase()
-			if phaseManagement():
-				highlightPlayers()
-		elif phaseManagement() and who == me:
-			highlightPlayers()
-	elif phase == 5: #Encounter
-		if ready and isEncounterPlayer:
-			nextPhase()
-			np = getPlayer(getFirstPlayerID())
-			if eliminated(np):
-				np = nextPlayer(playerID(np))
-			setActivePlayer(np)
-			if phaseManagement():
-				highlightPlayers()
-		elif phaseManagement() and who == me:
-			highlightPlayers()
-	elif phase == 6: #Combat
-		if step == 1: #Defend
-			if ready:
-				if isEncounterPlayer:
-					nextStep()
-					#First player to defend is first surviving player!
-					np = getPlayer(getFirstPlayerID())
-					if eliminated(np):
-						np = nextPlayer(playerID(np))
-					setActivePlayer(np)
-					if phaseManagement():
-						highlightPlayers()
-			elif isActive:
-				setActivePlayer(nextPlayer(playerID(me)))
-				if phaseManagement():
-					highlightPlayers()
-		elif step == 2: #Attack
-			if ready:
-				if isEncounterPlayer:
-					nextStep()
-					setActivePlayer(None)
-					if phaseManagement():
-						highlightPlayers()
-			elif isActive:
-				setActivePlayer(nextPlayer(playerID(me)))
-				if phaseManagement():
-					highlightPlayers()
-		else: 
-			if ready: # Trigger refresh
-				doRestoreAll()
-				me.counters['Threat_Level'].value += 1
-				notify("{} increases threat to {}.".format(me, me.counters['Threat_Level'].value))
+# 	if phase == 1: #Resource
+# 		if ready and isEncounterPlayer:
+# 			nextPhase()
+# 			np = getPlayer(getFirstPlayerID())
+# 			if eliminated(np):
+# 				np = nextPlayer(playerID(np))
+# 			setActivePlayer(np)
+# 			if phaseManagement():
+# 				highlightPlayers()
+# 		elif phaseManagement() and who == me:
+# 			highlightPlayers()
+# 	elif phase == 2: #Planning
+# 		if ready:
+# 			if isEncounterPlayer:
+# 				nextPhase()
+# 				setActivePlayer(getPlayer(getFirstPlayerID()))
+# 				if phaseManagement:
+# 					highlightPlayers()
+# 		elif isActive:
+# 			setActivePlayer(nextPlayer(playerID(me)))
+# 			if phaseManagement():
+# 				highlightPlayers()
+# 	elif phase == 3: #Quest
+# 		if step == 1: #Commit
+# 			if ready:
+# 				if isEncounterPlayer:
+# 					nextStep()
+# 					setActivePlayer(me)
+# 					if phaseManagement():
+# 						highlightPlayers()
+# 			elif isActive:
+# 				setActivePlayer(nextPlayer(playerID(me)))
+# 				if phaseManagement():
+# 					highlightPlayers()
+# 		elif step == 2: #Reveal Encounter cards
+# 			if isActive:
+# 				nextStep()
+# 				setActivePlayer(None)
+# 				if phaseManagement():
+# 					highlightPlayers()
+# 		else: #Resolve questing
+# 			if ready and isEncounterPlayer:
+# 				nextPhase()
+# 				setActivePlayer(None)
+# 				if phaseManagement():
+# 					highlightPlayers()
+# 			elif phaseManagement() and who == me:
+# 				highlightPlayers()
+# 	elif phase == 4: #Travel
+# 		if ready and isEncounterPlayer:
+# 			nextPhase()
+# 			if phaseManagement():
+# 				highlightPlayers()
+# 		elif phaseManagement() and who == me:
+# 			highlightPlayers()
+# 	elif phase == 5: #Encounter
+# 		if ready and isEncounterPlayer:
+# 			nextPhase()
+# 			np = getPlayer(getFirstPlayerID())
+# 			if eliminated(np):
+# 				np = nextPlayer(playerID(np))
+# 			setActivePlayer(np)
+# 			if phaseManagement():
+# 				highlightPlayers()
+# 		elif phaseManagement() and who == me:
+# 			highlightPlayers()
+# 	elif phase == 6: #Combat
+# 		if step == 1: #Defend
+# 			if ready:
+# 				if isEncounterPlayer:
+# 					nextStep()
+# 					#First player to defend is first surviving player!
+# 					np = getPlayer(getFirstPlayerID())
+# 					if eliminated(np):
+# 						np = nextPlayer(playerID(np))
+# 					setActivePlayer(np)
+# 					if phaseManagement():
+# 						highlightPlayers()
+# 			elif isActive:
+# 				setActivePlayer(nextPlayer(playerID(me)))
+# 				if phaseManagement():
+# 					highlightPlayers()
+# 		elif step == 2: #Attack
+# 			if ready:
+# 				if isEncounterPlayer:
+# 					nextStep()
+# 					setActivePlayer(None)
+# 					if phaseManagement():
+# 						highlightPlayers()
+# 			elif isActive:
+# 				setActivePlayer(nextPlayer(playerID(me)))
+# 				if phaseManagement():
+# 					highlightPlayers()
+# 		else: 
+# 			if ready: # Trigger refresh
+# 				doRestoreAll()
+# 				me.counters['Threat_Level'].value += 1
+# 				notify("{} increases threat to {}.".format(me, me.counters['Threat_Level'].value))
 				
-				#The first player token needs to move on in the refresh phase
-				if getFirstPlayerID() == playerID(me):
-					advanceFirstPlayer()
-				if me.isActivePlayer: # Anyone can act in the refresh phase			
-					setActivePlayer(None)
-				if turnManagement() and not isPlayerDone(me, 7, 1): # Clear my refresh highlight if I'm not ready for phase 7
-					highlightPlayer(me, None)
-				if isEncounterPlayer:
-					nextPhase()
-					refreshReminders()
+# 				#The first player token needs to move on in the refresh phase
+# 				if getFirstPlayerID() == playerID(me):
+# 					advanceFirstPlayer()
+# 				if me.isActivePlayer: # Anyone can act in the refresh phase			
+# 					setActivePlayer(None)
+# 				if turnManagement() and not isPlayerDone(me, 7, 1): # Clear my refresh highlight if I'm not ready for phase 7
+# 					highlightPlayer(me, None)
+# 				if isEncounterPlayer:
+# 					nextPhase()
+# 					refreshReminders()
 				
-				#We need to check if we are ready to complete phase 7
-				ready = (numDone(7, 1) >= activePlayers())
-				if ready:
-					phase = 7
-			if phaseManagement() and isEncounterPlayer:
-				highlightPlayers()
-	if phase == 7 or phase <= 0: #Refresh or Setup
-		if ready:
-			if me.isActivePlayer:
-				if shared.counters['Round'].value > 0: # Skip this on the first game because we did it during player setup
-					getPlayer(getFirstPlayerID()).setActivePlayer()
-				setActivePlayer(None)
-			if isEncounterPlayer:
-				# We really want all the other players to have completed running their call to this function before we advance the round
-				# There is no official way to sync but calling rnd then update seems to do the trick
-				rnd(1,2)
-				update()
-				shared.counters['Round'].value += 1
-				shared.counters['Phase'].value = 1
-				shared.counters['Step'].value = 1
-				if phaseManagement():
-					highlightPlayers()
-			doNextRound()
-		elif phaseManagement() and who == me:
-			highlightPlayers()	
+# 				#We need to check if we are ready to complete phase 7
+# 				ready = (numDone(7, 1) >= activePlayers())
+# 				if ready:
+# 					phase = 7
+# 			if phaseManagement() and isEncounterPlayer:
+# 				highlightPlayers()
+# 	if phase == 7 or phase <= 0: #Refresh or Setup
+# 		if ready:
+# 			if me.isActivePlayer:
+# 				if shared.counters['Round'].value > 0: # Skip this on the first game because we did it during player setup
+# 					getPlayer(getFirstPlayerID()).setActivePlayer()
+# 				setActivePlayer(None)
+# 			if isEncounterPlayer:
+# 				# We really want all the other players to have completed running their call to this function before we advance the round
+# 				# There is no official way to sync but calling rnd then update seems to do the trick
+# 				rnd(1,2)
+# 				update()
+# 				shared.counters['Round'].value += 1
+# 				shared.counters['Phase'].value = 1
+# 				shared.counters['Step'].value = 1
+# 				if phaseManagement():
+# 					highlightPlayers()
+# 			doNextRound()
+# 		elif phaseManagement() and who == me:
+# 			highlightPlayers()	
 	
-	#Show the updated game state by updating the phase card
-	if phaseManagement() and isEncounterPlayer:
-		showPhase()
+	# #Show the updated game state by updating the phase card
+	# if phaseManagement() and isEncounterPlayer:
+	# 	showPhase()
 
 #---------------------------------------------------------------------------
 # Table menu options
@@ -745,86 +729,92 @@ def isEnemy(cards):
 		if c.isFaceUp and (c.type != "Enemy" or c.orientation == Rot90):
 			return False
 	return True
-	
-def isFirstPlayerToken(cards):
+
+def isChaosToken(cards):
 	for c in cards:
-		if c.model != "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
+		if c.type != 'Chaos Token':
 			return False
 	return True
+	
+# def isFirstPlayerToken(cards):
+# 	for c in cards:
+# 		if c.model != "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
+# 			return False
+# 	return True
 	
 #---------------------------------------------------------------------------
 # Table group actions
 #---------------------------------------------------------------------------
 
-def turnManagementOn(group, x=0, y=0):
-	mute()
-	setGlobalVariable("Automation", "Turn")
-	clearHighlights(group)
-	if me == encounterDeck().controller:
-		clearPhase()
-	else:
-		remoteCall(encounterDeck().controller, "clearPhase", [])
-	notify("{} enables Turn Management for all players".format(me))
-	notify("Use ctrl+N to advance the turn")
+# def turnManagementOn(group, x=0, y=0):
+# 	mute()
+# 	setGlobalVariable("Automation", "Turn")
+# 	clearHighlights(group)
+# 	if me == encounterDeck().controller:
+# 		clearPhase()
+# 	else:
+# 		remoteCall(encounterDeck().controller, "clearPhase", [])
+# 	notify("{} enables Turn Management for all players".format(me))
+# 	notify("Use ctrl+N to advance the turn")
 	
-def phaseManagementOn(group, x = 0, y = 0):
-	mute()
-	setGlobalVariable("Automation", "Phase")
-	highlightPlayers()
-	if me == encounterDeck().controller:
-		showPhase()
-	else:
-		remoteCall(encounterDeck().controller, "showPhase", [])
-	notify("{} enables Phase Management for all players".format(me))
-	notify("Use ctrl+Right Arrow to advance the phase/step")
+# def phaseManagementOn(group, x = 0, y = 0):
+# 	mute()
+# 	setGlobalVariable("Automation", "Phase")
+# 	highlightPlayers()
+# 	if me == encounterDeck().controller:
+# 		showPhase()
+# 	else:
+# 		remoteCall(encounterDeck().controller, "showPhase", [])
+# 	notify("{} enables Phase Management for all players".format(me))
+# 	notify("Use ctrl+Right Arrow to advance the phase/step")
 	
-def automationOff(group, x = 0, y = 0):
-	mute()
-	setGlobalVariable("Automation", "Off")
-	clearHighlights(group)
-	if me == encounterDeck().controller:
-		clearPhase()
-	else:
-		remoteCall(encounterDeck().controller, "clearPhase", [])
-	notify("{} disables all turn management".format(me))
+# def automationOff(group, x = 0, y = 0):
+# 	mute()
+# 	setGlobalVariable("Automation", "Off")
+# 	clearHighlights(group)
+# 	if me == encounterDeck().controller:
+# 		clearPhase()
+# 	else:
+# 		remoteCall(encounterDeck().controller, "clearPhase", [])
+# 	notify("{} disables all turn management".format(me))
 	
-def automationHelp(group, x = 0, y = 0):
-	mute()
-	automationCard(x, y)
-	if phaseManagement():
-		whisper("Phase Management is on")
-		highlightPlayers()
-		if me == encounterDeck().controller:
-			showPhase()
-		else:
-			remoteCall(encounterDeck().controller, "showPhase", [])
-	elif turnManagement():
-		whisper("Turn Management is on")
-	else:
-		whisper("Turn Management is turned off")
+# def automationHelp(group, x = 0, y = 0):
+# 	mute()
+# 	automationCard(x, y)
+# 	if phaseManagement():
+# 		whisper("Phase Management is on")
+# 		highlightPlayers()
+# 		if me == encounterDeck().controller:
+# 			showPhase()
+# 		else:
+# 			remoteCall(encounterDeck().controller, "showPhase", [])
+# 	elif turnManagement():
+# 		whisper("Turn Management is on")
+# 	else:
+# 		whisper("Turn Management is turned off")
 	
-def phaseManagement():
-	mute()
-	return getGlobalVariable("Automation") == "Phase"
+# def phaseManagement():
+# 	mute()
+# 	return getGlobalVariable("Automation") == "Phase"
 
-def turnManagement():
-	mute()
-	auto = getGlobalVariable("Automation")
-	return auto == "Turn" or len(auto) == 0
+# def turnManagement():
+# 	mute()
+# 	auto = getGlobalVariable("Automation")
+# 	return auto == "Turn" or len(auto) == 0
 	
-def automate():
-	mute()
-	return getGlobalVariable("Automation") != "Off"
+# def automate():
+# 	mute()
+# 	return getGlobalVariable("Automation") != "Off"
 
-def createDoneButton(group, x=0, y=0):
-	for c in group:
-		if c.owner == me and c.model == "4a4206d6-2ede-4d4a-bb11-c97cceaa7665":
-			c.moveToTable(x, y)
-			return
-	group.create("4a4206d6-2ede-4d4a-bb11-c97cceaa7665", x, y, 1, False)
+# def createDoneButton(group, x=0, y=0):
+# 	for c in group:
+# 		if c.owner == me and c.model == "4a4206d6-2ede-4d4a-bb11-c97cceaa7665":
+# 			c.moveToTable(x, y)
+# 			return
+# 	group.create("4a4206d6-2ede-4d4a-bb11-c97cceaa7665", x, y, 1, False)
 
-def createFirstPlayerToken(group, x=0, y=0):
-	moveFirstPlayerToken(x, y)
+# def createFirstPlayerToken(group, x=0, y=0):
+# 	moveFirstPlayerToken(x, y)
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -845,11 +835,11 @@ def randomPlayer(group, x=0, y=0):
 
 def randomAlly(group, x=0, y=0):
 	mute()
-	randomCard(table, "Ally")
+	randomCard(table, "Asset")
 
 def randomHero(group, x=0, y=0):
 	mute()
-	randomCard(table, "Hero")
+	randomCard(table, "Investigator")
 	
 def randomCard(group, type):
 	n = 0
@@ -874,21 +864,21 @@ def randomNumber(group, x=0, y=0):
 	if max == None: return
 	notify("{} randomly selects {} (1 to {})".format(me, rnd(1,max), max))
 
-def readyForRefresh(group, x = 0, y = 0):
-	mute()
-	if phaseManagement():
-		whisper("Phase Management will automate this operation")
-		return
+# def readyForRefresh(group, x = 0, y = 0):
+# 	mute()
+# 	if phaseManagement():
+# 		whisper("Phase Management will automate this operation")
+# 		return
 	
-	if turnManagement():
-		if shared.counters['Phase'].value < 7:
-			highlightPlayer(me, WaitingColour)
-			setPlayerDone(6, 3) # Mark step 6 (combat) as done - i.e. ready to refresh			
-		return
+# 	if turnManagement():
+# 		if shared.counters['Phase'].value < 7:
+# 			highlightPlayer(me, WaitingColour)
+# 			setPlayerDone(6, 3) # Mark step 6 (combat) as done - i.e. ready to refresh			
+# 		return
 	
-	doRestoreAll(group)
-	me.counters['Threat_Level'].value += 1
-	notify("{} increases threat to {}.".format(me, me.counters['Threat_Level'].value))
+# 	doRestoreAll(group)
+# 	me.counters['Threat_Level'].value += 1
+# 	notify("{} increases threat to {}.".format(me, me.counters['Threat_Level'].value))
 	
 def doRestoreAll(group=table): 
 	mute()
@@ -897,22 +887,22 @@ def doRestoreAll(group=table):
 	myCards = (card for card in group
 				if card.controller == me)
 	for card in myCards:
-		if not isLocked(card) and card.model != "ce1cf93c-68d9-4613-af3a-a08671152358":
+		if not isLocked(card):
 			card.orientation &= ~Rot90
 	notify("{} readies all his cards.".format(me))
 	
 #Advance the first player token to the next player but don't change the OCTGN active player (yet)
 #This will be done at the end of the refresh phase
-def advanceFirstPlayer():
-	mute()
-	current = getFirstPlayerID() #This is the position (ID) of the current first player
-	first = nextPlayer(current)	
-	debug("New first player will be {}".format(first))
+# def advanceFirstPlayer():
+# 	mute()
+# 	current = getFirstPlayerID() #This is the position (ID) of the current first player
+# 	first = nextPlayer(current)	
+# 	debug("New first player will be {}".format(first))
 					
-	if len(getPlayers()) > 1: #Put the first player token onto the table
-		x, y = firstHero(first).position
-		c = moveFirstPlayerToken(x, y+Spacing)
-		c.setController(first)
+# 	if len(getPlayers()) > 1: #Put the first player token onto the table
+# 		x, y = firstHero(first).position
+# 		c = moveFirstPlayerToken(x, y+Spacing)
+# 		c.setController(first)
 
 def resetEncounterDeck(group):
 	if group == specialDeck():
@@ -976,46 +966,48 @@ def nextEncounter(group, x, y, facedown, who=me):
 	if len(group) == 0:
 		resetEncounterDeck(group)
 	
-def nextQuestStage(group=None, x=0, y=0):
+def nextAgendaStage(group=None, x=0, y=0):
 	mute()
 	
-	#If the current quest card has side A showing it is simply flipped and we are done
+	#If the current Agenda card has side A showing it is simply flipped and we are done
 	for c in table:
-		if c.Type in ("Quest", "Nightmare") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
+		if c.Type in ("Agenda") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
 			flipcard(c)
 			return
 	
-	#We need a new quest card
+	#We need a new Agenda card
 	if group is None or group == table:
-		group = questDeck()
+		group = agendaDeck()
 	if len(group) == 0: return
 	
 	if group.controller != me:
-		remoteCall(group.controller, "nextQuestStage", [group, x, y])
+		remoteCall(group.controller, "nextAgendaStage", [group, x, y])
 		return
 		
 	if x == 0 and y == 0: #The keyboard shortcut was used
-		#Count quest cards already on table to work out where to put this one
-		n, count = questCount(table)
-		x = QuestStartX + 89*(count // 2) + 64*n
-		y = QuestStartY + 64*(count % 2)	
+		#Count Agenda cards already on table to work out where to put this one
+		#n, count = questCount(table)
+		#x = QuestStartX + 89*(count // 2) + 64*n
+		#y = QuestStartY + 64*(count % 2)	
+		x = AgendaX
+		y = AgendaY
 			
 	card = group.top()
 	card.moveToTable(x, y)
-	setReminders(card)
-	if card.Type in ("Nightmare", "Campaign"):
-		card.moveToTable(x, y+1)
-		notify("{} begins a {} quest '{}'".format(me, card.Type, card))
-		questSetup(card)
-		if card.Type == "Nightmare":
-			flipcard(card)
-		#Reveal and place the real quest card
-		if len(group) > 0:
-			card = group[0]
-			card.moveToTable(x+64, y)
+#	setReminders(card)
+	# if card.Type in ("Nightmare", "Campaign"):
+	# 	card.moveToTable(x, y+1)
+	# 	notify("{} begins a {} quest '{}'".format(me, card.Type, card))
+	# 	questSetup(card)
+	# 	if card.Type == "Nightmare":
+	# 		flipcard(card)
+	# 	#Reveal and place the real quest card
+	# 	if len(group) > 0:
+	# 		card = group[0]
+	# 		card.moveToTable(x+64, y)
 	
-	questSetup(card)
-	notify("{} advances quest to '{}'".format(me, card))
+	agendaSetup(card)
+	notify("{} advances agenda to '{}'".format(me, card))
 
 def addToTable(card):
 	x = QuestStartX - 80
@@ -1026,7 +1018,7 @@ def addToTable(card):
 		blocked = cardHere(x, y, False)
 	card.moveToTable(x, y)	
 	
-def questSetup(card):
+def agendaSetup(card):
 	if len(card.Setup) + len(setupDeck()) > 0:
 		cardsToStage = card.Setup.count('s')
 		i = 0
@@ -1036,54 +1028,86 @@ def questSetup(card):
 			elif card.Setup[i] == 's':
 				addToStagingArea(c)
 				setReminders(c)
-			elif card.Setup[i] == 'l':
-				makeActive(c)
-				setReminders(c)
+			# elif card.Setup[i] == 'l':
+			# 	makeActive(c)
+			# 	setReminders(c)
 			i += 1
-			
-def readyForNextRound(group=table, x=0, y=0):
+
+def nextActStage(group=None, x=0, y=0):
 	mute()
-	if phaseManagement():
-		whisper("Phase Management will automate this operation")
+	
+	#If the current Act card has side A showing it is simply flipped and we are done
+	for c in table:
+		if c.Type in ("Act") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
+			flipcard(c)
+			return
+	
+	#We need a new Act card
+	if group is None or group == table:
+		group = actDeck()
+	if len(group) == 0: return
+	
+	if group.controller != me:
+		remoteCall(group.controller, "nextActStage", [group, x, y])
 		return
+		
+	if x == 0 and y == 0: #The keyboard shortcut was used
+		#Count Act cards already on table to work out where to put this one
+		#n, count = questCount(table)
+		#x = QuestStartX + 89*(count // 2) + 64*n
+		#y = QuestStartY + 64*(count % 2)	
+		x = ActX
+		y = ActY
+			
+	card = group.top()
+	card.moveToTable(x, y)
+	
+#	actSetup(card)
+	notify("{} advances act to '{}'".format(me, card))
 
-	if turnManagement():
-		highlightPlayer(me, DoneColour)
-		setPlayerDone(7, 1) # Mark phase 7 (Refresh) as complete - i.e. ready for next round
-		return
+# def readyForNextRound(group=table, x=0, y=0):
+# 	mute()
+# 	if phaseManagement():
+# 		whisper("Phase Management will automate this operation")
+# 		return
 
-	clearTargets()
-	draw(me.deck)
-	for card in group:
-		if card.Type == "Hero" and card.controller == me and not isLocked(card):
-			addResource(card)
+# 	if turnManagement():
+# 		highlightPlayer(me, DoneColour)
+# 		setPlayerDone(7, 1) # Mark phase 7 (Refresh) as complete - i.e. ready for next round
+# 		return
+
+# 	clearTargets()
+# 	draw(me.deck)
+# 	for card in group:
+# 		if card.Type == "Hero" and card.controller == me and not isLocked(card):
+# 			addResource(card)
 
 #doNextRound
 #Draw a card and add a resource to each hero
-def doNextRound():
-	mute()	
-	debug("doNextRound()")
+# def doNextRound():
+# 	mute()	
+# 	debug("doNextRound()")
 
-	if activePlayers() == 0:
-		whisper("All players have been eliminated: You have lost the game")
-		return		
-	if eliminated(me):
-		whisper("You have been eliminated from the game")
-		return
+# 	if activePlayers() == 0:
+# 		whisper("All players have been eliminated: You have lost the game")
+# 		return		
+# 	if eliminated(me):
+# 		whisper("You have been eliminated from the game")
+# 		return
 		
-	clearTargets()
-	if me.Willpower <> 0:
-		me.Willpower = 0
-	draw(me.deck)
-	for card in table:
-		if card.Type == "Hero" and card.controller == me and not isLocked(card) and card.isFaceUp:
-			addResource(card)
+# 	clearTargets()
+# 	if me.Willpower <> 0:
+# 		me.Willpower = 0
+# 	draw(me.deck)
+# 	for card in table:
+# 		if card.Type == "Hero" and card.controller == me and not isLocked(card) and card.isFaceUp:
+# 			addResource(card)
 			
-	if not phaseManagement():
-		clearHighlights()
+# 	if not phaseManagement():
+# 		clearHighlights()
 	
-	if me == encounterDeck().controller:
-		resourceReminders()
+# 	if me == encounterDeck().controller:
+# 		resourceReminders()
 					
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 	mute()
@@ -1095,81 +1119,70 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 	unlockDeck()
 	if doPlayer:
 		id = myID() #This ensures we have a unique ID based on our position in the setup order
-		heroCount = countHeroes(me)		
-		if shared.counters['Round'].value == 0 and id == 0 and heroCount == 0: #First time actions
+		investigatorCount = countInvestigators(me)		
+		if shared.counters['Round'].value == 0 and id == 0 and investigatorCount == 0: #First time actions
 			me.setActivePlayer()
-			setFirstPlayer(id)
+			#setFirstPlayer(id)
 		
 		#Move Heroes to the table		
-		newHero = False
-		lore = 0
-		mirlonde = False
+		newInvestigator = False
 		for card in me.hand:
-			if card.Type == "Hero":
-				card.moveToTable(heroX(id, heroCount), HeroY)
-				heroCount += 1
-				newHero = True
-				me.counters['Threat_Level'].value += num(card.Cost)
-				if card.Name == 'Mirlonde':
-					mirlonde = True
-				if card.Sphere == 'Lore':
-					lore += 1
-		if mirlonde:
-			me.counters['Threat_Level'].value -= lore
+			if card.Type == "Investigator":
+				card.moveToTable(heroX(id, investigatorCount), InvestigatorY)
+				investigatorCount += 1
+				newInvestigator = True
 
-		if newHero:		
-			notify("{} places his Heroes on the table and sets his starting Threat to {}".format(me,me.counters['Threat_Level'].value))
+		if newInvestigator:		
+			notify("{} places his Investigator on the table".format(me))
 			if len(me.hand) == 0:
 				shuffle(me.deck)
 				drawMany(me.deck, shared.HandSize)
-			if len(getPlayers()) > 1 and getFirstPlayerID() == playerID(me): #Put the first player token onto the table
-				x, y = firstHero(me).position
-				c = moveFirstPlayerToken(x, y+Spacing)
-				c.setController(me)
+			# if len(getPlayers()) > 1 and getFirstPlayerID() == playerID(me): #Put the first player token onto the table
+			# 	x, y = firstHero(me).position
+			# 	c = moveFirstPlayerToken(x, y+Spacing)
+			# 	c.setController(me)
 					
-	#If we loaded the encounter deck - add the first quest card to the table
+	#If we loaded the encounter deck - add the first Agenda & Act card to the table
 	if doEncounter or encounterDeck().controller == me:
-		n, count = questCount(table)
-		if n+count == 0:
-			nextQuestStage()
+		count = agendaCount(table)
+		if count == 0:
+			nextAgendaStage()
+			nextActStage()
 			shuffle(encounterDeck())
 			shuffle(specialDeck())	
-		
-	if phaseManagement():
-		highlightPlayers()
 		
 	if not clearLock():
 		notify("Players performed setup at the same time causing problems, please reset and try again")
 
-def calcScore(group=None, x=0, y=0):
-	mute()
-	scoreTotal = 0
-	scoreRound = 0
-	scoreDamage = 0
-	scoreDeadHeroes = 0
-	scoreThreat = 0
-	completedRounds = shared.counters['Round'].value - 1
-	if completedRounds < 0:
-		completedRounds = turnNumber() - 1
-	if completedRounds < 0:
-		notify("Set the global Round counter to the current round before calculating score!")
-		return
-	notify(":::Calculating Score...:::")
-	scoreRound = completedRounds * 10
-	notify("{} completed rounds = {}".format(completedRounds,scoreRound))
-	for player in getPlayers():
-		scoreThreat += player.counters['Threat_level'].value
-		for card in player.piles['Discard Pile']:
-			if card.Type == "Hero": scoreDeadHeroes += num(card.Cost)
-	notify("Total combined Threat = {}".format(scoreThreat))
-	for card in table:
-		if card.Type == "Hero": scoreDamage += card.markers[Damage]
-	notify("Total damage on Heroes = {}".format(scoreDamage))
-	notify("Cost of dead Heroes = {}".format(scoreDeadHeroes))
-	sumVictory()
-	notify("Victory points = {}".format(shared.VictoryPoints))
-	scoreTotal = scoreRound + scoreThreat + scoreDamage + scoreDeadHeroes - shared.VictoryPoints
-	notify("TOTAL SCORE = {}".format(scoreTotal))
+# def calcScore(group=None, x=0, y=0):
+# 	mute()
+# 	scoreTotal = 0
+# 	scoreRound = 0
+# 	scoreDamage = 0
+# 	scoreDeadHeroes = 0
+# 	scoreThreat = 0
+# 	completedRounds = shared.counters['Round'].value - 1
+# 	if completedRounds < 0:
+# 		completedRounds = turnNumber() - 1
+# 	if completedRounds < 0:
+# 		notify("Set the global Round counter to the current round before calculating score!")
+# 		return
+# 	notify(":::Calculating Score...:::")
+# 	scoreRound = completedRounds * 10
+# 	notify("{} completed rounds = {}".format(completedRounds,scoreRound))
+# 	for player in getPlayers():
+# 		scoreThreat += player.counters['Threat_level'].value
+# 		for card in player.piles['Discard Pile']:
+# 			if card.Type == "Hero": scoreDeadHeroes += num(card.Cost)
+# 	notify("Total combined Threat = {}".format(scoreThreat))
+# 	for card in table:
+# 		if card.Type == "Hero": scoreDamage += card.markers[Damage]
+# 	notify("Total damage on Heroes = {}".format(scoreDamage))
+# 	notify("Cost of dead Heroes = {}".format(scoreDeadHeroes))
+# 	sumVictory()
+# 	notify("Victory points = {}".format(shared.VictoryPoints))
+# 	scoreTotal = scoreRound + scoreThreat + scoreDamage + scoreDeadHeroes - shared.VictoryPoints
+# 	notify("TOTAL SCORE = {}".format(scoreTotal))
 	
 def toggleLock(group, x=0, y=0):
 	if deckLocked():
@@ -1191,30 +1204,22 @@ def toggleLock(group, x=0, y=0):
 def defaultAction(card, x = 0, y = 0):
 	mute()
 	# Default for Done button is playerDone
-	if card.Type == "Internal": #No action - unless it is the done button
-		if card.model == "4a4206d6-2ede-4d4a-bb11-c97cceaa7665":
-			playerDone(table, x, y)
-	elif not card.isFaceUp: #Face down card - flip
+	if not card.isFaceUp: #Face down card - flip
 		flipcard(card, x, y)
 	elif card.orientation & Rot90 == Rot90: #Rotated card - refresh
-		kneel(card, x, y)
-	elif card.Type == "Quest":
-		if len(card.properties['Quest Points']) == 0:
-			flipcard(card)
-		elif card.markers[Progress] >= num(card.properties['Quest Points']):
-			discard(card)
-		else:
-			addProgress(card, x, y)
-	elif card.Type == "Nightmare" or card.type == "Campaign":
-		flipcard(card)
+		exhaust(card, x, y)
+	elif card.Type == "Agenda":
+		addDoom(card, x, y)
+	elif card.Type == "Act":
+		addClue(card, x, y)
 	elif card.Type == "Location": #Add a progress token
-		addProgress(card, x, y)
+		flipcard(card, x, y)
 	elif card.Type == "Enemy": #Add damage
 		addDamage(card, x, y)
 	else:
-		kneel(card, x, y)
+		exhaust(card, x, y)
 		
-def kneel(card, x = 0, y = 0):
+def exhaust(card, x = 0, y = 0):
     mute()
     card.orientation ^= Rot90
     if card.orientation & Rot90 == Rot90:
@@ -1238,50 +1243,28 @@ def flipcard(card, x = 0, y = 0):
 
 	cardx, cardy = card.position
 
-	#Treachery of Rhudaur double-sided objective card swap (TEMP until OCTGN supports cardsize for Alternates)
-	if card.model == "6709bafa-87b5-483e-9895-0f2edea7e47a":
+	#WORKAROUND to Flip between different CardSizes on the back of a card (TEMP until OCTGN supports cardsize for Alternates)
+	if card.model == "d533f5ae-53fc-4bbb-96b9-d0f26364c387":
 		notify("{} flips '{}'.".format(me, card))
 		card.delete()
-		table.create('87c33692-599d-4914-a513-4353906fc6d4', cardx, cardy, quantity = 1, persist = True)
+		table.create('947bb975-8eb2-45a7-bc68-ea58a50190da', cardx, cardy, quantity = 1, persist = True)
 		return
 
-	if card.model == "87c33692-599d-4914-a513-4353906fc6d4":
+	if card.model == "947bb975-8eb2-45a7-bc68-ea58a50190da":
 		notify("{} flips '{}'.".format(me, card))
 		card.delete()
-		table.create('6709bafa-87b5-483e-9895-0f2edea7e47a', cardx, cardy, quantity = 1, persist = True)
-		return
-
-	if card.model == "bf925a7c-b427-4fb6-ba6b-dbc86304a69f":
-		notify("{} flips '{}'.".format(me, card))
-		card.delete()
-		table.create('2e5e6e97-003b-4500-8372-495f5ee86051', cardx, cardy, quantity = 1, persist = True)
-		return
-
-	if card.model == "2e5e6e97-003b-4500-8372-495f5ee86051":
-		notify("{} flips '{}'.".format(me, card))
-		card.delete()
-		table.create('bf925a7c-b427-4fb6-ba6b-dbc86304a69f', cardx, cardy, quantity = 1, persist = True)
-		return
-
-	if card.model == "768bab66-1707-41a4-adf3-3baad2e7daad":
-		notify("{} flips '{}'.".format(me, card))
-		card.delete()
-		table.create('d9c04b71-93cd-455d-9f6e-4ee16cf7d1b4', cardx, cardy, quantity = 1, persist = True)
-		return
-
-	if card.model == "d9c04b71-93cd-455d-9f6e-4ee16cf7d1b4":
-		notify("{} flips '{}'.".format(me, card))
-		card.delete()
-		table.create('768bab66-1707-41a4-adf3-3baad2e7daad', cardx, cardy, quantity = 1, persist = True)
+		table.create('d533f5ae-53fc-4bbb-96b9-d0f26364c387', cardx, cardy, quantity = 1, persist = True)
 		return
 	#END Treachery of Rhudaur WORKAROUND
-	#Quest cards have a different back - defined by the alternate (B) property
+
+
+	#Card Alternate Flip
 	if card.alternates is not None and "B" in card.alternates:
 		if card.alternate == "B":
 			card.switchTo("")
 		else:
 			card.switchTo("B")
-		if card.Type != "Location": questSetup(card) #Don't do setup for double-sided locations
+		#if card.Type != "Location": questSetup(card) #Don't do setup for double-sided locations
 		notify("{} turns '{}' face up.".format(me, card))
 	elif card.isFaceUp:
 		card.isFaceUp = False
@@ -1329,71 +1312,65 @@ def rotateLeft(card, x = 0, y = 0):
 	#else:
 	#	card.orientation = Rot0
 
-def makeActive(card, x=0, y=0):
-	mute()
-	if card.Type != "Location": return
-	card.moveToTable(252, -229)
+# def makeActive(card, x=0, y=0):
+# 	mute()
+# 	if card.Type != "Location": return
+# 	card.moveToTable(252, -229)
 		
 def addResource(card, x = 0, y = 0):
     addToken(card, Resource)
     
+def addClue(card, x = 0, y = 0):
+    addToken(card, Clue)
+
+def addDoom(card, x = 0, y = 0):
+    addToken(card, Doom)  
+
 def addDamage(card, x = 0, y = 0):
     addToken(card, Damage)
-    
-def addProgress(card, x = 0, y = 0):
-    addToken(card, Progress)  
 
-def addWillpower(card, x = 0, y = 0):
-    addToken(card, WillpowerToken)  
+def addHorror(card, x = 0, y = 0):
+    addToken(card, Horror)  
 
-def addAttack(card, x = 0, y = 0):
-    addToken(card, AttackToken)  
 
-def addDefense(card, x = 0, y = 0):
-    addToken(card, DefenseToken)  
 
-def addThreat(card, x = 0, y = 0):
-    addToken(card, ThreatToken)
+# def addAttack(card, x = 0, y = 0):
+#     addToken(card, AttackToken)  
+
+# def addDefense(card, x = 0, y = 0):
+#     addToken(card, DefenseToken)  
+
+# def addThreat(card, x = 0, y = 0):
+#     addToken(card, ThreatToken)
 	
-def addTime(card, x=0, y=0):
-    addToken(card, TimeToken)
+# def addTime(card, x=0, y=0):
+#     addToken(card, TimeToken)
 
-def addTurn(card, x=0, y=0):
-	if isFirstPlayerToken([card]):
-		shared.counters['Round'].value += 1
+# def addTurn(card, x=0, y=0):
+# 	if isFirstPlayerToken([card]):
+# 		shared.counters['Round'].value += 1
 
 def addToken(card, tokenType):
 	mute()
 	card.markers[tokenType] += 1
 	notify("{} adds a {} to '{}'".format(me, tokenType[0], card))
 	
+
 def subResource(card, x = 0, y = 0):
     subToken(card, Resource)
+    
+def asubClue(card, x = 0, y = 0):
+    subToken(card, Clue)
+
+def subDoom(card, x = 0, y = 0):
+    subToken(card, Doom)  
 
 def subDamage(card, x = 0, y = 0):
     subToken(card, Damage)
 
-def subProgress(card, x = 0, y = 0):
-    subToken(card, Progress)
-	
-def subWillpower(card, x = 0, y = 0):
-    subToken(card, WillpowerToken)  
+def subHorror(card, x = 0, y = 0):
+    subToken(card, Horror)  
 
-def subAttack(card, x = 0, y = 0):
-    subToken(card, AttackToken)  
-
-def subDefense(card, x = 0, y = 0):
-    subToken(card, DefenseToken)  
-
-def subThreat(card, x = 0, y = 0):
-    subToken(card, ThreatToken)
-	
-def subTime(card, x=0, y=0):
-    subToken(card, TimeToken)
-
-def subTurn(card, x=0, y=0):
-	if isFirstPlayerToken([card]) and shared.counters['Round'].value > 0:
-		shared.counters['Round'].value -= 1
 
 def subToken(card, tokenType):
     mute()
@@ -1410,74 +1387,7 @@ def lockCard(card, x=0, y=0):
 def isLocked(card):
 	return card.markers[Lock] > 0
 	
-def shadowCardAt(sx, sy):
-	for c in table:
-		x, y = c.position
-		if x == sx and y == sy and c.orientation == Rot90:
-			return True
-	return False
-	
-def addShadow(card, x=0, y=0):
-	mute ()
-	
-	if not card.isFaceUp and card.orientation == Rot90: #This is a shadow card - reveal it
-		card.isFaceUp = True
-		if card.Type == "Side Quest":
-			indx = card.getIndex
-			card.orientation &= ~Rot90
-			shadx, shady = card.position
-			card.moveToTable(shadx, shady+25)
-			card.setIndex(indx)
-		notify("{} reveals shadow card '{}'".format(me, card))
-		return
 
-	#Only enemy cards or facedown player cards (Orc Guards) are valid targets
-	if card.isFaceUp and (card.type != "Enemy" or card.orientation == Rot90):
-		return
-					
-	if len(encounterDeck()) == 0:
-		whisper("There are no cards left in the encounter deck")
-		return
-		
-	posx, posy = card.position
-	xoff = (card.width() - card.height())/2
-	yoff = card.width() - card.height()/2
-	if table.isTwoSided() and posy + card.height()/2 < 0 :
-		x = posx - xoff
-		y = posy - yoff
-		skip = -8
-	else:
-		x = posx + xoff
-		y = posy + yoff
-		skip = 8
-
-	while shadowCardAt(x, y):
-		x += skip
-		y += skip
-	
-	notify("{} adds a shadow card to '{}'".format(me, card))
-	dealShadow(card.controller, x, y)
-	if me == encounterDeck().controller:
-		combatReminders()
-def dealShadow(who, x, y):
-	if encounterDeck().controller != me:
-		remoteCall(encounterDeck().controller, "dealShadow", [who, x, y])
-		return
-	
-	deck = encounterDeck()
-	if len(deck) == 0:
-		return
-	sc = deck.top()
-	#if sc.Type != "Side Quest":  #Hopefully just a temp "fix" for landscape shadow cards
-	#	sc.moveToTable(x, y, True)
-	#	sc.orientation = Rot90
-	#else:
-	#	sc.moveToTable(x, y+25, True)
-	sc.moveToTable(x, y, True)
-	sc.orientation = Rot90
-	sc.sendToBack()
-	sc.setController(who)
-	
 	
 def discard(card, x=0, y=0):
 	mute()
@@ -1485,18 +1395,22 @@ def discard(card, x=0, y=0):
 		whisper("{} does not control '{}' - discard cancelled".format(me, card))
 		return
 		
-	if card.Type == "Quest": #If we remove the only quest card then we reveal the next one
-		card.moveToBottom(questDiscard())
+	if card.Type == "Agenda": #If we remove the only Agenda card then we reveal the next one
+		card.moveToBottom(agendaDiscard())
 		notify("{} discards '{}'".format(me, card))
-		n, c = questCount(table)
+		n, c = agendaCount(table)
 		if c == 0:
-			nextQuestStage()
+			nextAgendaStage()
 		return
 
 	if isPlayerCard(card):
 		pile = card.owner.piles['Discard Pile']
 	elif isSpecialCard(card):
 		pile = specialDiscard()
+	elif isLocationCard(card):
+		pile = locationDiscard()
+	elif isChaosToken(card):
+		pile = chaosBag()
 	else:
 		pile = encounterDiscard()
 		
@@ -1514,12 +1428,12 @@ def discardSpecial(card, x=0, y=0):
 		whisper("{} does not control '{}' - discard cancelled".format(me, card))
 		return
 		
-	if card.Type == "Quest": #If we remove the only quest card then we reveal the next one
-		card.moveToBottom(questDiscard())
+	if card.Type == "Agenda": #If we remove the only quest card then we reveal the next one
+		card.moveToBottom(agendaDiscard())
 		notify("{} discards '{}'".format(me, card))
-		n, c = questCount(table)
+		n, c = agendaCount(table)
 		if c == 0:
-			nextQuestStage()
+			nextAgendaStage()
 		return
 
 	if isPlayerCard(card):
@@ -1547,10 +1461,14 @@ def shuffleIntoDeck(card, x=0, y=0, player=me):
 		whisper("{} does not control '{}' - shuffle cancelled".format(me, card))
 		return
 		
-	if card.Type == "Quest":
+	if card.Type == "Agenda":
 		whisper("Invalid operation on a {} card".format(card.Type))
 		return
-		
+	if card.Type == "Act":
+		whisper("Invalid operation on a {} card".format(card.Type))
+		return
+
+
 	if isPlayerCard(card):
 		pile = card.owner.deck
 	elif isSpecialCard(card):
@@ -1572,7 +1490,7 @@ def doMoveShuffle(player, card, pile):
 	
 def playCard(card, x=0, y=0):
 	if x == 0 and y == 0 and not eliminated(me):
-		x, y = firstHero(me).position
+		x, y = firstInvestigator(me).position
 		x += Spacing
 		y += Spacing
 	card.moveToTable(x, y)
@@ -1612,18 +1530,18 @@ def randomDiscard(group):
 	notify("{} randomly discards '{}'.".format(me, card))
 	card.moveTo(me.piles['Discard Pile'])
  
-def mulligan(group, x = 0, y = 0):
-	mute()
-	if shared.HandSize <= 0:
-		whisper("Invalid hand size specified in global counter")
-		return		
-	if not confirm("Are you sure you want to Mulligan?"): return
-	for card in group:
-		card.moveToBottom(me.deck)
-	shuffle(me.deck)
-	for card in me.deck.top(shared.HandSize):
-		card.moveTo(me.hand)
-	notify("{} draws {} new cards.".format(me, shared.HandSize))
+# def mulligan(group, x = 0, y = 0):
+# 	mute()
+# 	if shared.HandSize <= 0:
+# 		whisper("Invalid hand size specified in global counter")
+# 		return		
+# 	if not confirm("Are you sure you want to Mulligan?"): return
+# 	for card in group:
+# 		card.moveToBottom(me.deck)
+# 	shuffle(me.deck)
+# 	for card in me.deck.top(shared.HandSize):
+# 		card.moveTo(me.hand)
+# 	notify("{} draws {} new cards.".format(me, shared.HandSize))
  
 #------------------------------------------------------------------------------
 # Pile Actions
@@ -1760,150 +1678,150 @@ def swapWithEncounter(group):
 		c.moveToBottom(group)
 	notify("{} swaps {} and Encounter Deck.".format(me, group.name))
 
-def captureDeck(group):
-	if len(group) == 0: return
-	mute()
-	if group == me.deck:
-		pile = me.piles['Secondary Deck']
-	else: return		
-	if confirm("Create your capture deck?"):
-		for c in group:
-			if c.Type == "Ally":
-				c.moveTo(pile)
-			if c.Type == "Attachment":
-				if "Item." in c.Traits or "Mount." in c.Traits or "Artifact." in c.Traits:
-					c.moveTo(pile)
-	notify("{} creates their Capture Deck".format(me))
-	if pile.collapsed:
-		pile.collapsed = False
+# def captureDeck(group):
+# 	if len(group) == 0: return
+# 	mute()
+# 	if group == me.deck:
+# 		pile = me.piles['Secondary Deck']
+# 	else: return		
+# 	if confirm("Create your capture deck?"):
+# 		for c in group:
+# 			if c.Type == "Ally":
+# 				c.moveTo(pile)
+# 			if c.Type == "Attachment":
+# 				if "Item." in c.Traits or "Mount." in c.Traits or "Artifact." in c.Traits:
+# 					c.moveTo(pile)
+# 	notify("{} creates their Capture Deck".format(me))
+# 	if pile.collapsed:
+# 		pile.collapsed = False
 
-def setupTotDMap(group):
-	group.shuffle()
-	MapStartX = 350
-	MapStartY = -90
-	i = 0
-	j = 0 
-	for c in group:
-		c.moveToTable(MapStartX,MapStartX)
-		if c.name == "Lost Island":
-			x = MapStartX + 64*(i // 3)
-			y = MapStartY + 89*(i % 3)
-			c.moveToTable(x,y)
-			if i==0 or i==2:
-				flipcard(c)
-			i=i+1
-		if c.name == "Temple of the Deceived":
-			c.moveToTable(MapStartX+64*4,MapStartY+89*j)
-			j=j+1
+# def setupTotDMap(group):
+# 	group.shuffle()
+# 	MapStartX = 350
+# 	MapStartY = -90
+# 	i = 0
+# 	j = 0 
+# 	for c in group:
+# 		c.moveToTable(MapStartX,MapStartX)
+# 		if c.name == "Lost Island":
+# 			x = MapStartX + 64*(i // 3)
+# 			y = MapStartY + 89*(i % 3)
+# 			c.moveToTable(x,y)
+# 			if i==0 or i==2:
+# 				flipcard(c)
+# 			i=i+1
+# 		if c.name == "Temple of the Deceived":
+# 			c.moveToTable(MapStartX+64*4,MapStartY+89*j)
+# 			j=j+1
 
 		
 # Reminders
 
-def enableReminders(group, x=0, y=0):
-	setGlobalVariable("Reminders", "On")
-	whisper("Reminders enabled.")
-def disableReminders(group, x=0, y=0):
-	setGlobalVariable("Reminders", "Off")
-	whisper("Reminders disabled.")
+# def enableReminders(group, x=0, y=0):
+# 	setGlobalVariable("Reminders", "On")
+# 	whisper("Reminders enabled.")
+# def disableReminders(group, x=0, y=0):
+# 	setGlobalVariable("Reminders", "Off")
+# 	whisper("Reminders disabled.")
 	
-def isTextInCard(text,card):
-	match = re.search(text,card.Text)
-	if match: return True
-	match = re.search(text,card.alternateProperty("B","Text"))
-	if match: return True
+# def isTextInCard(text,card):
+# 	match = re.search(text,card.Text)
+# 	if match: return True
+# 	match = re.search(text,card.alternateProperty("B","Text"))
+# 	if match: return True
 	
-def setReminders(card):
-	match = re.search('Time ([0-9]+)',card.Text)
-	if match:
-		for i in range(num(match.group(1))):
-			addTime(card)
-	match = re.search('Time ([0-9]+)',card.alternateProperty("B","Text"))
-	if match:
-		for i in range(num(match.group(1))):
-			addTime(card)
+# def setReminders(card):
+# 	match = re.search('Time ([0-9]+)',card.Text)
+# 	if match:
+# 		for i in range(num(match.group(1))):
+# 			addTime(card)
+# 	match = re.search('Time ([0-9]+)',card.alternateProperty("B","Text"))
+# 	if match:
+# 		for i in range(num(match.group(1))):
+# 			addTime(card)
 	
-	if isTextInCard('resource phase',card): setReminderResource(card)
-	if isTextInCard('quest phase',card): setReminderQuest(card)
-	if isTextInCard('staging step',card): setReminderQuest(card)
-	if isTextInCard('combat phase',card): setReminderCombat(card)
-	if isTextInCard('refresh phase',card): setReminderRefresh(card)
-	if isTextInCard('t the end of the round',card): setReminderRefresh(card)
+# 	if isTextInCard('resource phase',card): setReminderResource(card)
+# 	if isTextInCard('quest phase',card): setReminderQuest(card)
+# 	if isTextInCard('staging step',card): setReminderQuest(card)
+# 	if isTextInCard('combat phase',card): setReminderCombat(card)
+# 	if isTextInCard('refresh phase',card): setReminderRefresh(card)
+# 	if isTextInCard('t the end of the round',card): setReminderRefresh(card)
 
-def resourceReminders():
-	if getGlobalVariable("Reminders") == "Off": return;
-	clearTargets()
-	reminder = getGlobalVariable("reminderResource")
-	for c in table:
-		if str(c._id) in reminder:
-			c.target(True)	
+# def resourceReminders():
+# 	if getGlobalVariable("Reminders") == "Off": return;
+# 	clearTargets()
+# 	reminder = getGlobalVariable("reminderResource")
+# 	for c in table:
+# 		if str(c._id) in reminder:
+# 			c.target(True)	
 
-def questReminders():
-	if getGlobalVariable("Reminders") == "Off": return;
-	reminder = getGlobalVariable("reminderQuest")
-	for c in table:
-		if str(c._id) in reminder:
-			c.target(True)
+# def questReminders():
+# 	if getGlobalVariable("Reminders") == "Off": return;
+# 	reminder = getGlobalVariable("reminderQuest")
+# 	for c in table:
+# 		if str(c._id) in reminder:
+# 			c.target(True)
 			
-def combatReminders():
-	if getGlobalVariable("Reminders") == "Off": return;
-	reminder = getGlobalVariable("reminderCombat")
-	for c in table:
-		if str(c._id) in reminder:
-			c.target(True)
+# def combatReminders():
+# 	if getGlobalVariable("Reminders") == "Off": return;
+# 	reminder = getGlobalVariable("reminderCombat")
+# 	for c in table:
+# 		if str(c._id) in reminder:
+# 			c.target(True)
 			
-def refreshReminders():
-	if getGlobalVariable("Reminders") == "Off": return;
-	clearTargets()
-	reminder = getGlobalVariable("reminderRefresh")
-	for c in table:
-		if c.markers[TimeToken] >= 1:
-			c.target(True)
-		if str(c._id) in reminder:
-			c.target(True)
+# def refreshReminders():
+# 	if getGlobalVariable("Reminders") == "Off": return;
+# 	clearTargets()
+# 	reminder = getGlobalVariable("reminderRefresh")
+# 	for c in table:
+# 		if c.markers[TimeToken] >= 1:
+# 			c.target(True)
+# 		if str(c._id) in reminder:
+# 			c.target(True)
 
-def setReminderResource(card,x=0,y=0):
-	reminder = getGlobalVariable("reminderResource")
-	if not str(card._id) in reminder:
-		reminder += str(card._id) + ","
-	setGlobalVariable("reminderResource",reminder)
-def removeReminderResource(card,x=0,y=0):
-	reminder = getGlobalVariable("reminderResource")
-	reminder = reminder.replace(str(card._id) + ",","")
-	setGlobalVariable("reminderResource",reminder)
+# def setReminderResource(card,x=0,y=0):
+# 	reminder = getGlobalVariable("reminderResource")
+# 	if not str(card._id) in reminder:
+# 		reminder += str(card._id) + ","
+# 	setGlobalVariable("reminderResource",reminder)
+# def removeReminderResource(card,x=0,y=0):
+# 	reminder = getGlobalVariable("reminderResource")
+# 	reminder = reminder.replace(str(card._id) + ",","")
+# 	setGlobalVariable("reminderResource",reminder)
 
-def setReminderQuest(card,x=0,y=0):
-	reminder = getGlobalVariable("reminderQuest")
-	if not str(card._id) in reminder:
-		reminder += str(card._id) + ","
-	setGlobalVariable("reminderQuest",reminder)
-def removeReminderQuest(card,x=0,y=0):
-	reminder = getGlobalVariable("reminderQuest")
-	reminder = reminder.replace(str(card._id) + ",","")
-	setGlobalVariable("reminderQuest",reminder)	
+# def setReminderQuest(card,x=0,y=0):
+# 	reminder = getGlobalVariable("reminderQuest")
+# 	if not str(card._id) in reminder:
+# 		reminder += str(card._id) + ","
+# 	setGlobalVariable("reminderQuest",reminder)
+# def removeReminderQuest(card,x=0,y=0):
+# 	reminder = getGlobalVariable("reminderQuest")
+# 	reminder = reminder.replace(str(card._id) + ",","")
+# 	setGlobalVariable("reminderQuest",reminder)	
 
-def setReminderCombat(card,x=0,y=0):
-	reminder = getGlobalVariable("reminderCombat")
-	if not str(card._id) in reminder:
-		reminder += str(card._id) + ","
-	setGlobalVariable("reminderCombat",reminder)
-def removeReminderCombat(card,x=0,y=0):
-	reminder = getGlobalVariable("reminderCombat")
-	reminder = reminder.replace(str(card._id) + ",","")
-	setGlobalVariable("reminderCombat",reminder)	
+# def setReminderCombat(card,x=0,y=0):
+# 	reminder = getGlobalVariable("reminderCombat")
+# 	if not str(card._id) in reminder:
+# 		reminder += str(card._id) + ","
+# 	setGlobalVariable("reminderCombat",reminder)
+# def removeReminderCombat(card,x=0,y=0):
+# 	reminder = getGlobalVariable("reminderCombat")
+# 	reminder = reminder.replace(str(card._id) + ",","")
+# 	setGlobalVariable("reminderCombat",reminder)	
 	
-def setReminderRefresh(card,x=0,y=0):
-	reminder = getGlobalVariable("reminderRefresh")
-	if not str(card._id) in reminder:
-		reminder += str(card._id) + ","
-	setGlobalVariable("reminderRefresh",reminder)
-def removeReminderRefresh(card,x=0,y=0):
-	reminder = getGlobalVariable("reminderRefresh")
-	reminder = reminder.replace(str(card._id) + ",","")
-	setGlobalVariable("reminderRefresh",reminder)	
+# def setReminderRefresh(card,x=0,y=0):
+# 	reminder = getGlobalVariable("reminderRefresh")
+# 	if not str(card._id) in reminder:
+# 		reminder += str(card._id) + ","
+# 	setGlobalVariable("reminderRefresh",reminder)
+# def removeReminderRefresh(card,x=0,y=0):
+# 	reminder = getGlobalVariable("reminderRefresh")
+# 	reminder = reminder.replace(str(card._id) + ",","")
+# 	setGlobalVariable("reminderRefresh",reminder)	
 	
-def setGlobalReminders():
-	setGlobalVariable("Reminders", "Off")
-	setGlobalVariable("reminderResource","")
-	setGlobalVariable("reminderQuest","")
-	setGlobalVariable("reminderCombat","")
-	setGlobalVariable("reminderRefresh","")
+# def setGlobalReminders():
+# 	setGlobalVariable("Reminders", "Off")
+# 	setGlobalVariable("reminderResource","")
+# 	setGlobalVariable("reminderQuest","")
+# 	setGlobalVariable("reminderCombat","")
+# 	setGlobalVariable("reminderRefresh","")

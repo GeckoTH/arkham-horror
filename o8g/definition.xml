@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.2"
-	version="0.0.0.2"
+	version="0.0.0.3"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -169,6 +169,10 @@
 		<counter name="Phase" default="0" reset="True" icon="counters/phase.png" />
 		<counter name="Step" default="1" reset="True" icon="counters/step.png" />
 		<counter name="HandSize" default="6" reset="True" icon="counters/hand.png" />-->
+		<group name="Chaos Bag" visibility="none" ordered="True" width="126" height="88" icon="groups/agenda.png" collapsed="False">
+			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Draw a Chaos Token" default="True" execute="drawChaosToken" />
+		</group>
 		<group name="Agenda" visibility="all" ordered="True" width="126" height="88" icon="groups/agenda.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Reveal Next Agenda" default="True" execute="nextAgenda" />
