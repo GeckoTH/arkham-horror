@@ -212,9 +212,9 @@
 		<wordwrap height="195" width="320" />
 	</block>
 	<block type="text" id="agenda_stage_back">
-		<location x="-24" y="66" />
+		<location x="0" y="66" />
 		<text color="#000000" size="24" font="fonts/ArnoPro-Arkham.ttf" />
-		<wordwrap height="30" width="150" align="center" />
+		<wordwrap height="30" width="102" align="center" />
 	</block>
 	<block type="text" id="agenda_name">
 		<location x="280" y="50" />
@@ -316,6 +316,9 @@
 		<location x="0" y="0" />
 	</block>
 	<block type="overlay" id="survivor_skill" src="proxy/skill-survivor.jpg">
+		<location x="0" y="0" />
+	</block>
+	<block type="overlay" id="location_back" src="proxy/location-back.jpg">
 		<location x="0" y="0" />
 	</block>
 	<block type="overlay" id="dummy" src="proxy/dummy.png">
@@ -520,29 +523,20 @@
 	  </link>
     </textblocks>
   </template>
-  <template src="proxy/location-back.jpg" default="False">
-    <matches>
-      <match name="Type" value="Location" />
-      <match name="Shroud" value="" />
-    </matches>
-    <textblocks>
-	  <link block="location_name" separator="">
-	   <property name="Unique" />
-	   <property name="Name" />
-	  </link>
-	  <link block="location_traits">
-	   <property name="Traits" />
-	  </link>
-	  <link block="location_description" separator="&#10;&#10;">
-		<property name="Keywords" />
-		<property name="Text" />
-	  </link>
-    </textblocks>
-  </template>
   <template src="proxy/location-front.jpg" default="False">
     <matches>
       <match name="Type" value="Location" />
     </matches>
+    <overlayblocks>
+		<conditional>
+		  <switch property="Clues">
+		    <case value="">
+				<link block="location_back" />
+			</case>
+		  </switch>
+		</conditional>
+		<link block="dummy" />
+	</overlayblocks>
     <textblocks>
 	  <link block="location_name" separator="">
 	   <property name="Unique" />
