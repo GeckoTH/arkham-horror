@@ -32,7 +32,7 @@
 	<documents>
 	</documents>
 	<globalvariables>
-		<globalvariable name="Automation" value="Turn"/> <!-- New Definitions and default values? -->
+		<globalvariable name="Automation" value="Turn"/>
 		<globalvariable name="lock" value=""/>
 		<globalvariable name="game" value=""/>
 		<globalvariable name="playersSetup" value=""/>
@@ -77,7 +77,6 @@
 		<size name="MiniCard" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
 	</card>
 	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
-		<!-- <groupaction menu="Done" default="False" shortcut="Ctrl+Right" execute="playerDone" />
 		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
 		<groupaction menu="Reveal Encounter Card" default="False" shortcut="ctrl+E" execute="addEncounter" />
 		<groupaction menu="Reveal Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+E" execute="addEncounterSpecial" />
@@ -96,9 +95,7 @@
 			<groupaction menu="Create first player token" default="False" execute="createFirstPlayerToken" />
 			<groupaction menu="Help - Automation modes" default="False" execute="automationHelp" />
 		</groupactions>
-		<cardaction menu="Make Active Location" showIf="isLocation" default="False" shortcut="ctrl+A" execute="makeActive" /> -->
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
-		<!-- <cardaction menu="Add Shadow Card" showIf="isEnemy" default="False" shortcut="ctrl+S" execute="addShadow" /> -->
 		<cardactions menu="Add Token">
 			<cardaction menu="Add Resource" default="False" shortcut="F1" execute="addResource" />
 			<cardaction menu="Add Clue" default="False" shortcut="F2" execute="addClue" />
@@ -132,12 +129,8 @@
 		<globalvariable name="game" value="" />
 		<globalvariable name="playerID" value="" />
 		<globalvariable name="done" value="" />
-		<!--<counter name="Threat_Level" default="0" reset="True" icon="counters/threat.png" />
-		<counter name="Willpower" default="0" reset="True" icon="counters/willpower.png" />
-		<counter name="Staging_Threat" default="0" reset="True" icon="counters/stagingthreat.png" />-->
 		<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
 			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
-			<!-- <groupaction menu="Take a mulligan" default="False" shortcut="ctrl+M" execute="mulligan" /> -->
 			<cardaction menu="Play" default="True" execute="playCard" />
 			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 			<cardaction menu="Swap with top card" default="False" shortcut="ctrl+S" execute="swapCard" />
@@ -165,10 +158,6 @@
 	</player>
 	<shared>
 		<counter name="VictoryPoints" default="0" reset="True" icon="counters/victory.png" />
-		<!--<counter name="Round" default="0" reset="True" icon="counters/round.png" />
-		<counter name="Phase" default="0" reset="True" icon="counters/phase.png" />
-		<counter name="Step" default="1" reset="True" icon="counters/step.png" />
-		<counter name="HandSize" default="6" reset="True" icon="counters/hand.png" />-->
 		<group name="Chaos Bag" visibility="none" ordered="True" width="126" height="88" icon="groups/agenda.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw a Chaos Token" default="True" execute="drawChaosToken" />
