@@ -660,7 +660,7 @@
 	   <property name="Name" />
 	  </link>
 	  <link block="scenario_traits">
-	   <property name="Traits" />
+	   <property name="Subtitle" />
 	  </link>
 	  <link block="scenario_description" separator="&#10;&#10;">
 	   <property name="Keywords" />

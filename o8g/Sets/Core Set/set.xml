@@ -113,6 +113,7 @@
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
+    <property name="Cost" value="-"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Tome."/>
     <property name="Text" value="Revelation - Put The Necronomicon into play in your threat area, with 3 horror on it. It cannot leave play while it has 1 or more horror on it.&#10;Treat each ε you reveal on a chaos token as a [fail].&#10;η: Move 1 horror from The Necronomicon to Daisy Walker. Then, if The Necronomicon has no horror on it, discard it."/>
@@ -397,6 +398,10 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Seeker"/>
+    <property name="Cost" value="2"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Keywords" value="Fast. Play only during your turn."/>
+    <property name="Text" value="Discover 1 clue at your location."/>
   </card>
   <card id="e7c36f79-c7ac-422a-ad1b-ceef10d9e666" name="Barricade">
     <property name="Quantity" value="1"/>
@@ -495,7 +500,11 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
-    <property name="Traits" value="Item. Weapon. Firearm."/>
+    <property name="Cost" value="3"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
+    <property name="Keywords" value="Uses (3 ammo)."/>
+    <property name="Text" value="η Spend 1 ammo: Fight. You get +2 ή for this attack. If you suceed by 2 or more, this attack deals +1 damage."/>
   </card>
   <card id="89983a3c-db1a-4e3e-8d86-361853e37c66" name="Leo De Luca">
     <property name="Quantity" value="1"/>
@@ -525,6 +534,10 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
+    <property name="Cost" value="2"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Keywords" value="Fast. Play only during your turn."/>
+    <property name="Text" value="Disengage from each enemy engaged with you and move to a revealed location with no enemies."/>
   </card>
   <card id="0514d9a1-b136-4b0b-8f3d-11dc8a891a1d" name="Backstab">
     <property name="Quantity" value="1"/>
@@ -540,11 +553,17 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
+    <property name="Cost" value="2"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Text" value="Deal 2 damage to an exhausted enemy at your location."/>
   </card>
   <card id="c8e50677-51af-411c-8350-593dcb0cac5d" name="Opportunist">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Rogue"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Keywords" value="Commit only to a skill test you are performing."/>
+    <property name="Text" value="If you succeed by 3 or more, return Opportunist to your hand after this test instead of discarding it."/>
   </card>
   <card id="b989878a-aa0a-41c5-9898-0805ab69b052" name="Leo De Luca">
     <property name="Quantity" value="1"/>
