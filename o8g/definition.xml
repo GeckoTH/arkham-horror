@@ -123,7 +123,7 @@
 			<groupaction menu="Player" default="False" execute="randomPlayer" />
 		</groupactions>
 	</table>
-	<player summary="">
+	<player summary="Hand:{#Hand}">
 		<globalvariable name="deckLocked" value="0" />
 		<globalvariable name="refreshed" value="1" />
 		<globalvariable name="game" value="" />
