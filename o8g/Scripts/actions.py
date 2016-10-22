@@ -10,7 +10,8 @@ Lock = ("Lock", "62d688a4-46ef-45be-9414-2257a1221351")
 
 BoardWidth = 1100
 Spacing = 92
-HeroY = 70
+InvestigatorSpacing = 10
+InvestigatorY = 175
 StagingStart = -530
 StagingWidth = 750
 StagingY = -224
@@ -25,7 +26,7 @@ DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
 EliminatedColour = "#FF0000" # Red
-showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
+showDebug = True #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
 
 def debug(str):
     if showDebug:
@@ -40,8 +41,8 @@ def toggleDebug(group, x=0, y=0):
         notify("{} turns off debug".format(me))
 
 #Return the default x coordinate of the players investigator
-def investigatorX(player, investigator=0):
-    return investigator*Spacing + (BoardWidth * player / len(getPlayers())) - BoardWidth / 2
+def investigatorX(player):
+    return (BoardWidth * player / len(getPlayers())) - (BoardWidth / 2)
 
 def num(s):
    if not s: return 0
@@ -335,12 +336,12 @@ def playerID(p):
     setGlobalVariable("firstPlayer", str(id))
 
 #In phase management this represents the player highlighted in green
-#def setActivePlayer(p):
-#   if p is None:
-#       setGlobalVariable("activePlayer", "-1")
-#   else:
-#       setGlobalVariable("activePlayer", str(playerID(p)))
-#   update()
+def setActivePlayer(p):
+   if p is None:
+       setGlobalVariable("activePlayer", "-1")
+   else:
+       setGlobalVariable("activePlayer", str(playerID(p)))
+   update()
     
 #def getActivePlayer():
 #   return getPlayer(num(getGlobalVariable("activePlayer")))
@@ -402,24 +403,22 @@ def startOfGame():
     # NEW
     #---------------------------------------------------------------------------
     setGlobalVariable("currentPlayers",str([]))
-    setGlobalReminders()
 
 
 #Triggered event OnLoadDeck
-def deckLoaded(player, groups): 
+# args: player, groups
+def deckLoaded(args):
     mute()
-    if player != me:
+    if args.player != me:
         return
     
     isShared = False
     isPlayer = False
-    for g in groups:
-        if g.name == 'Hand':
+    for g in args.groups:
+        if (g.name == 'Hand') or (g.name in me.piles):
             isPlayer = True
         elif g.name in shared.piles:
             isShared = True
-        elif p.name in me.piles:
-            isPlayer = True
     
     #If we are loading into the shared piles we need to become the controller of all the shared piles   
     if isShared:
@@ -427,11 +426,12 @@ def deckLoaded(player, groups):
         for p in shared.piles:
             if shared.piles[p].controller != me:
                 shared.piles[p].setController(me)
-        rnd(1,2) # This causes OCTGN to sync the controller changes!
+        #rnd(1,2) # This causes OCTGN to sync the controller changes!
+        update()
             
     #Cards for the encounter deck and player deck are loaded into the discard pile because this has visibility="all"    
     #Check for cards with a Setup effects and move other cards back into the correct pile
-    for p in groups:
+    for p in args.groups:
         for card in p:
             if card.Setup == 't' and card.Type not in [ 'Agenda' , 'Act', 'Scenario' ]:
                 addToTable(card)
@@ -441,7 +441,7 @@ def deckLoaded(player, groups):
                 card.moveTo(encounterDiscard())
             elif p == me.piles['Discard Pile']:
                 card.moveTo(me.deck)
-    
+
 
     update()
     playerSetup(table, 0, 0, isPlayer, isShared)
@@ -1010,7 +1010,7 @@ def nextAgendaStage(group=None, x=0, y=0):
     notify("{} advances agenda to '{}'".format(me, card))
 
 def addToTable(card):
-    x = QuestStartX - 80
+    x = AgendaX - 80
     y = -96
     blocked = cardHere(x, y, False)
     while blocked is not None:
@@ -1111,7 +1111,7 @@ def nextActStage(group=None, x=0, y=0):
                     
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
-    
+
     if not getLock():
         whisper("Others players are setting up, please try manual setup again (Ctrl+Shift+S)")
         return
@@ -1120,23 +1120,29 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     if doPlayer:
         id = myID() #This ensures we have a unique ID based on our position in the setup order
         investigatorCount = countInvestigators(me)      
-        if shared.counters['Round'].value == 0 and id == 0 and investigatorCount == 0: #First time actions
-            me.setActivePlayer()
+        #if shared.counters['Round'].value == 0 and id == 0 and investigatorCount == 0: #First time actions
+            #me.setActivePlayer()
             #setFirstPlayer(id)
         
-        #Move Heroes to the table       
+        #Move Heroes to the table
         newInvestigator = False
-        for card in me.hand:
-            if card.Type == "Investigator":
-                card.moveToTable(heroX(id, investigatorCount), InvestigatorY)
-                investigatorCount += 1
-                newInvestigator = True
+        investigator = filter(lambda card: card.Type == "Investigator", me.hand)
+        mini = filter(lambda card: card.Type == "Mini", me.hand)
+        if investigator and mini:
+            investigatorCount += 1
+            newInvestigator = True
+            investigatorCard = investigator[0]
+            miniCard = mini[0]
+            investigatorCard.moveToTable(investigatorX(id), InvestigatorY)
+            miniX = cardX(investigatorCard) + investigatorCard.width + InvestigatorSpacing
+            miniCard.moveToTable(miniX, cardY(investigatorCard))
 
-        if newInvestigator:     
+        if newInvestigator:
             notify("{} places his Investigator on the table".format(me))
+            notify("Discard {}".format(len(me.piles['Discard Pile'])))
             if len(me.hand) == 0:
-                shuffle(me.deck)
-                drawMany(me.deck, shared.HandSize)
+                me.deck.shuffle()
+                drawMany(me.deck, shared.OpeningHandSize)
             # if len(getPlayers()) > 1 and getFirstPlayerID() == playerID(me): #Put the first player token onto the table
             #   x, y = firstHero(me).position
             #   c = moveFirstPlayerToken(x, y+Spacing)
@@ -1662,10 +1668,20 @@ def moveAllToPlayer(group):
     mute()
     if confirm("Shuffle all cards from {} to Player Deck?".format(group.name)):
         for c in group:
-            if c.Type != "Hero" and len(c.Setup) == 0:
+            if len(c.Setup) == 0:
                 c.moveTo(c.owner.piles['Deck'])
         notify("{} moves all cards from {} to the Player Deck".format(me, group.name))
         shuffle(me.piles['Deck'])
+
+def shuffleCardsIntoDeck(group):
+    mute()
+    owners = set()
+    for card in group:
+        if len(card.Setup) == 0:
+            card.moveTo(card.owner.deck)
+            owners.add(card.owner)
+    for owner in owners:
+        owner.deck.shuffle()
 
 def swapWithEncounter(group):
   mute()
