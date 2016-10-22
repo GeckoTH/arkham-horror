@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Second Special" shared="True" />
   <section name="Investigator" shared="False" />
   <section name="Asset" shared="False" />
   <section name="Event" shared="False" />
@@ -11,7 +12,7 @@
   <section name="Encounter" shared="True" />
   <section name="Location" shared="True" />
   <section name="Special" shared="True" />
-  <section name="Second Special" shared="True">
+  <section name="Chaos Bag" shared="True">
     <card qty="1" id="35137ccc-db2b-4fdd-b0a8-a5d91f453a43">0</card>
     <card qty="2" id="c74d422c-d209-48c9-bc5a-caacb8c8b402">-1</card>
     <card qty="2" id="92df60c3-7d56-4e2d-99e2-c0e7e0d9994a">-2</card>
