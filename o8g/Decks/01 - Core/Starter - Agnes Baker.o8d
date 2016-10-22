@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="207654c5-69a2-467b-b4ab-bfeffd28d310">Agnes Baker</card>
+    <card qty="1" id="67a13aab-aaa8-404f-8c9b-594c453c217a">Agnes Baker</card>
+  </section>
+  <section name="Asset" shared="False">
+    <card qty="1" id="e88d5324-aafd-4712-883c-4dcc3be9c02c">Heirloom of Hyperborea</card>
+    <card qty="1" id="7378d4d3-a252-49ed-b480-761ccd80f70c">Forbidden Knowledge</card>
+    <card qty="1" id="2d711ea5-de12-464e-aa98-693de2e1d3a3">Holy Rosary</card>
+    <card qty="1" id="aacd7931-1008-4769-a350-8b0759818f1e">Shrivelling</card>
+    <card qty="1" id="24f0aceb-205e-4595-b26f-2843e0235454">Scrying</card>
+    <card qty="1" id="a9f98802-435d-4873-9599-bf00c14561d0">Arcane Studies</card>
+    <card qty="1" id="50c495f3-4ce3-477f-8d28-261c100db500">Arcane Initiate</card>
+    <card qty="1" id="e0ab946b-cf33-41e4-b84d-c5a2d226dfec">Leather Coat</card>
+    <card qty="1" id="0a6ef841-7297-459d-8130-8f6f302a79ee">Scavenging</card>
+    <card qty="1" id="e2289e5e-17d2-4576-af01-93969fc08781">Baseball Bat</card>
+    <card qty="1" id="0c780dab-e3b2-4c0d-a7fc-ef5d7c19b012">Rabbit's Foot</card>
+    <card qty="1" id="aa11a439-94d5-40b2-b406-e9474339cdea">Stray Cat</card>
+    <card qty="1" id="eeec305a-af17-46f2-9fa2-78dffccb5999">Dig Deep</card>
+    <card qty="2" id="8d1a826a-6d65-41fe-a487-55dbe23fd108">Knife</card>
+    <card qty="2" id="2bce6c96-d9dc-44fa-8b5d-9899dd6ff151">Flashlight</card>
+    <card qty="2" id="f1b84ac0-8196-4ce7-bd6e-9209c20f4df5">Emergency Cache</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="1" id="7d66a805-5dc2-433c-937f-b935ba2724aa">Drawn to the Flame</card>
+    <card qty="1" id="62d56637-d837-4474-af3a-c946b689325b">Ward of Protection</card>
+    <card qty="1" id="054593c8-b9c5-4fb7-b182-f8c1cd40281a">Blinding Light</card>
+    <card qty="1" id="8ad5533b-1062-4f54-adf4-c983feb3b172">Cunning Distraction</card>
+    <card qty="1" id="49e032f2-28bc-4130-a15d-8914f2ece849">"Look what I found!"</card>
+    <card qty="1" id="fdfe0b97-d37e-4f06-9925-1b7b5e5fbb1a">Lucky!</card>
+  </section>
+  <section name="Skill" shared="False">
+    <card qty="1" id="6de409e9-b15a-494c-8c94-d5df1d3bf884">Fearless</card>
+    <card qty="1" id="44306eb3-8e29-4e9a-9286-e94e88c8985c">Survival Instinct</card>
+    <card qty="2" id="f225ec3a-7bbc-495c-aa2c-3532206ce210">Perception</card>
+    <card qty="2" id="01fdc38f-af72-4655-9bb3-d5278499aeda">Unexpected Courage</card>
+  </section>
+  <section name="Weakness" shared="False">
+    <card qty="1" id="a68108af-d124-430b-92c7-63d2d55a7995">Dark Memory</card>
+  </section>
+  <section name="Sideboard" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

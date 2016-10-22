@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="53463cb2-2261-4d8b-b948-d8f7a926ed79">Daisy Walker</card>
+    <card qty="1" id="8c96b7d1-18b8-40eb-830c-47a85cd1180f">Daisy Walker</card>
+  </section>
+  <section name="Asset" shared="False">
+    <card qty="1" id="48a42717-bbe7-45b3-bf10-14f741a69c9f">Daisy's Tote Bag</card>
+    <card qty="1" id="746d5cdc-a24a-48ae-8e8a-3ce69dafc0d0">Magnifying Glass</card>
+    <card qty="1" id="6871c1fd-d639-48b7-afdc-b0245ff61e8b">Old Book of Lore</card>
+    <card qty="1" id="03adb92f-6100-4b9e-baca-54f3475ff5ef">Research Librarian</card>
+    <card qty="1" id="a28e3e10-224f-4273-9847-bbac0daf2c9e">Dr. Milan Christopher</card>
+    <card qty="1" id="54d593d1-cf86-4211-b94b-08bf0537167c">Hyperawareness</card>
+    <card qty="1" id="a3558e05-a19e-4d5c-b893-9682d8d68c71">Medical Texts</card>
+    <card qty="1" id="7378d4d3-a252-49ed-b480-761ccd80f70c">Forbidden Knowledge</card>
+    <card qty="1" id="2d711ea5-de12-464e-aa98-693de2e1d3a3">Holy Rosary</card>
+    <card qty="1" id="aacd7931-1008-4769-a350-8b0759818f1e">Shrivelling</card>
+    <card qty="1" id="24f0aceb-205e-4595-b26f-2843e0235454">Scrying</card>
+    <card qty="1" id="a9f98802-435d-4873-9599-bf00c14561d0">Arcane Studies</card>
+    <card qty="1" id="50c495f3-4ce3-477f-8d28-261c100db500">Arcane Initiate</card>
+    <card qty="2" id="8d1a826a-6d65-41fe-a487-55dbe23fd108">Knife</card>
+    <card qty="2" id="2bce6c96-d9dc-44fa-8b5d-9899dd6ff151">Flashlight</card>
+    <card qty="2" id="f1b84ac0-8196-4ce7-bd6e-9209c20f4df5">Emergency Cache</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="1" id="4572e948-8966-4ff0-b126-83f6e5cfa66d">Mind over Matter</card>
+    <card qty="1" id="86e13f2c-6adc-411d-a6fe-c7dd6b8a9d1b">Working a Hunch</card>
+    <card qty="1" id="e7c36f79-c7ac-422a-ad1b-ceef10d9e666">Barricade</card>
+    <card qty="1" id="7d66a805-5dc2-433c-937f-b935ba2724aa">Drawn to the Flame</card>
+    <card qty="1" id="62d56637-d837-4474-af3a-c946b689325b">Ward of Protection</card>
+    <card qty="1" id="054593c8-b9c5-4fb7-b182-f8c1cd40281a">Blinding Light</card>
+  </section>
+  <section name="Skill" shared="False">
+    <card qty="1" id="604a5862-949c-4a8e-b97e-39d18144190e">Deduction</card>
+    <card qty="1" id="6de409e9-b15a-494c-8c94-d5df1d3bf884">Fearless</card>
+    <card qty="2" id="f225ec3a-7bbc-495c-aa2c-3532206ce210">Perception</card>
+    <card qty="2" id="6c496ca9-4cc7-4404-817d-ac581fa6d007">Manual Dexterity</card>
+  </section>
+  <section name="Weakness" shared="False">
+    <card qty="1" id="ea28042e-36f2-4de2-bfcc-3fbff1fd3119">The Necronomicon</card>
+  </section>
+  <section name="Sideboard" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

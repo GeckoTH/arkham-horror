@@ -15,12 +15,12 @@ StagingStart = -530
 StagingWidth = 750
 StagingY = -224
 StagingSpace = 82
-AgendaX = 240
-AgendaY = -246
-ActX = 290
-ActY = -246
-ScenarioX = 331
-ScenarioY = -260
+AgendaX = 242
+AgendaY = -180.240
+ActX = 292.647
+ActY = -189.234
+ScenarioX = 418.517
+ScenarioY = -190.791
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -1261,9 +1261,9 @@ def flipcard(card, x = 0, y = 0):
     #Card Alternate Flip
     if card.alternates is not None and "B" in card.alternates:
         if card.alternate == "B":
-            card.switchTo("")
+            card.alternate = ''
         else:
-            card.switchTo("B")
+            card.alternate = 'B'
         #if card.Type != "Location": questSetup(card) #Don't do setup for double-sided locations
         notify("{} turns '{}' face up.".format(me, card))
     elif card.isFaceUp:
@@ -1359,7 +1359,7 @@ def addToken(card, tokenType):
 def subResource(card, x = 0, y = 0):
     subToken(card, Resource)
     
-def asubClue(card, x = 0, y = 0):
+def subClue(card, x = 0, y = 0):
     subToken(card, Clue)
 
 def subDoom(card, x = 0, y = 0):
