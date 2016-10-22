@@ -1336,7 +1336,7 @@ def addDamage(card, x = 0, y = 0):
     addToken(card, Damage)
 
 def addHorror(card, x = 0, y = 0):
-    addToken(card, Horror)  
+    addToken(card, Horror)
 
 
 
