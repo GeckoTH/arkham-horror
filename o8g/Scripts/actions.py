@@ -262,6 +262,12 @@ def setupDeck():
 def isPlayerCard(card):
     return card.owner in getPlayers()
 
+def isLocationCard(card):
+    return card.Type == 'Location'
+
+def isChaosToken(card):
+    return card.Type == 'Chaos Token'
+
 #------------------------------------------------------------
 # Global variable manipulations function
 #------------------------------------------------------------
@@ -727,12 +733,6 @@ def isLocation(cards):
 def isEnemy(cards):
     for c in cards:
         if c.isFaceUp and (c.type != "Enemy" or c.orientation == Rot90):
-            return False
-    return True
-
-def isChaosToken(cards):
-    for c in cards:
-        if c.type != 'Chaos Token':
             return False
     return True
     
@@ -1411,8 +1411,6 @@ def discard(card, x=0, y=0):
 
     if isPlayerCard(card):
         pile = card.owner.piles['Discard Pile']
-    elif isSpecialCard(card):
-        pile = specialDiscard()
     elif isLocationCard(card):
         pile = locationDiscard()
     elif isChaosToken(card):
