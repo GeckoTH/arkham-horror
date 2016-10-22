@@ -18,10 +18,9 @@
 		<script src="scripts/actions.py" />
 	</scripts>
 	<events>
-		<event name="OnGameStart" action="startOfGame"/>
-		<event name="OnLoadDeck" action="deckLoaded"/>
-		<event name="OnChangeCounter" action="counterChanged"/>
-		<event name="OnPlayerGlobalVariableChanged" action="globalChanged"/>	
+		<event name="OnGameStarted" action="startOfGame"/>
+		<event name="OnDeckLoaded" action="deckLoaded"/>
+		<event name="OnCounterChanged" action="counterChanged"/>
 	</events>
 	<fonts>
 		<font src="fonts/Calibri-Arkham.ttf" size="12" target="context" />
@@ -82,7 +81,6 @@
 		<groupaction menu="Reveal Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+E" execute="addEncounterSpecial" />
 		<groupaction menu="Hidden Encounter Card" default="False" shortcut="ctrl+H" execute="addHidden" />
 		<groupaction menu="Hidden Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+H" execute="addHiddenSpecial" />
-		<groupaction menu="Reveal next Quest Stage" default="False" shortcut="ctrl+Q" execute="nextQuestStage" />
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
@@ -158,6 +156,8 @@
 	</player>
 	<shared>
 		<counter name="VictoryPoints" default="0" reset="True" icon="counters/victory.png" />
+        <counter name="OpeningHandSize" default="5" reset="True" icon="counters/hand.png" />
+        <counter name="Round" default="0" reset="True" icon="counters/round.png" />
 		<group name="Chaos Bag" visibility="none" ordered="True" width="126" height="88" icon="groups/agenda.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw a Chaos Token" default="True" execute="drawChaosToken" />
