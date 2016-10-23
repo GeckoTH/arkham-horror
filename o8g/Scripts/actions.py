@@ -1710,7 +1710,11 @@ def drawChaosToken(group, x = 0, y = 0):
     # check for existing chaos token on table
     table_chaos_tokens = [card for card in table
         if card.Type == 'Chaos Token']
-    for token in table_chaos_tokens: token.moveTo(chaosBag())
+    for token in table_chaos_tokens:
+        if token.controller == me:
+            token.moveTo(chaosBag())
+        else:
+            remoteCall(token.controller, "moveTo", chaosBag())
 
     chaosBag().shuffle()
     card = drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
