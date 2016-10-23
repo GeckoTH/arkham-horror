@@ -22,6 +22,8 @@ ActX = 292.647
 ActY = -189.234
 ScenarioX = 418.517
 ScenarioY = -190.791
+ChaosTokenX = 55
+ChaosTokenY = -230
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -1682,15 +1684,30 @@ def shuffleCardsIntoDeck(group):
         owner.deck.shuffle()
 
 def swapWithEncounter(group):
-  mute()
-  if confirm("Swap all cards from {} with those in Encounter Deck?".format(group.name)):
-    deck = encounterDeck()
-    size = len(deck)
-    for c in group:
-        c.moveToBottom(deck)
-    for c in deck.top(size):
-        c.moveToBottom(group)
-    notify("{} swaps {} and Encounter Deck.".format(me, group.name))
+    mute()
+    if confirm("Swap all cards from {} with those in Encounter Deck?".format(group.name)):
+      deck = encounterDeck()
+      size = len(deck)
+      for c in group:
+          c.moveToBottom(deck)
+      for c in deck.top(size):
+          c.moveToBottom(group)
+      notify("{} swaps {} and Encounter Deck.".format(me, group.name))
+
+def drawPileToTable(group, x, y):
+    mute()
+    if len(group) == 0:
+        notify("{} is empty.".format(group.name))
+        return
+
+    card = group[0]
+    card.moveToTable(x, y)
+    notify("{} draws {} from the {}.".format(me, card.name, group.name))
+
+def drawChaosToken(group):
+    mute()
+    group.shuffle()
+    drawPileToTable(group, ChaosTokenX, ChaosTokenY)
 
 # def captureDeck(group):
 #   if len(group) == 0: return
