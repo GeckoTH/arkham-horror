@@ -1704,10 +1704,10 @@ def drawPileToTable(group, x, y):
     card.moveToTable(x, y)
     notify("{} draws {} from the {}.".format(me, card.name, group.name))
 
-def drawChaosToken(group):
+def drawChaosToken(group, x = 0, y = 0):
     mute()
-    group.shuffle()
-    drawPileToTable(group, ChaosTokenX, ChaosTokenY)
+    chaosBag().shuffle()
+    drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
 
 # def captureDeck(group):
 #   if len(group) == 0: return
