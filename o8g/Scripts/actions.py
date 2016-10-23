@@ -1703,11 +1703,20 @@ def drawPileToTable(group, x, y):
     card = group[0]
     card.moveToTable(x, y)
     notify("{} draws {} from the {}.".format(me, card.name, group.name))
+    return card
 
 def drawChaosToken(group, x = 0, y = 0):
     mute()
+    # check for existing chaos token on table
+    lastTokenId = getGlobalVariable("drawnChaosToken")
+    if lastTokenId:
+        lastToken = Card(int(lastTokenId))
+        lastToken.moveTo(chaosBag())
+        setGlobalVariable("drawnChaosToken", "")
+
     chaosBag().shuffle()
-    drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
+    card = drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
+    setGlobalVariable("drawnChaosToken", card._id)
 
 # def captureDeck(group):
 #   if len(group) == 0: return
