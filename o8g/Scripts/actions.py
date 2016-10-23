@@ -1708,11 +1708,9 @@ def drawPileToTable(group, x, y):
 def drawChaosToken(group, x = 0, y = 0):
     mute()
     # check for existing chaos token on table
-    lastTokenId = getGlobalVariable("drawnChaosToken")
-    if lastTokenId:
-        lastToken = Card(int(lastTokenId))
-        lastToken.moveTo(chaosBag())
-        setGlobalVariable("drawnChaosToken", "")
+    table_chaos_tokens = [card for card in table
+        if card.Type == 'Chaos Token']
+    for token in table_chaos_tokens: token.moveTo(chaosBag())
 
     chaosBag().shuffle()
     card = drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)

@@ -40,7 +40,6 @@
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />
-		<globalvariable name="drawnChaosToken" value="" /> <!-- used to keep track of chaos tokens, so it can be shuffled back into the bag -->
 	</globalvariables>
 	<card back="cards/card.jpg" front="cards/card.jpg" width="63" height="88" cornerRadius="4">
 		<property name="Unique" type="String" hidden="False" ignoreText="False" />
