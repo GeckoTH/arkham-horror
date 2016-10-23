@@ -16,12 +16,12 @@ StagingStart = -530
 StagingWidth = 750
 StagingY = -224
 StagingSpace = 82
-AgendaX = 242
-AgendaY = -180.240
-ActX = 292.647
-ActY = -189.234
-ScenarioX = 418.517
-ScenarioY = -190.791
+AgendaX = 174.5
+AgendaY = -222
+ActX = 262.5
+ActY = -222
+ScenarioX = 388.5
+ScenarioY = -234.75
 ChaosTokenX = 55
 ChaosTokenY = -230
 DoneColour = "#D8D8D8" # Grey
@@ -1012,7 +1012,7 @@ def nextAgendaStage(group=None, x=0, y=0):
     notify("{} advances agenda to '{}'".format(me, card))
 
 def addToTable(card):
-    x = AgendaX - 80
+    x = AgendaX - 45.5
     y = -96
     blocked = cardHere(x, y, False)
     while blocked is not None:
@@ -1025,7 +1025,9 @@ def agendaSetup(card):
         cardsToStage = card.Setup.count('s')
         i = 0
         for c in setupDeck():
-            if i >= len(card.Setup) or card.Setup[i] == 't':
+            if c.Type == "Scenario":
+                c.moveToTable(ScenarioX, ScenarioY)
+            elif i >= len(card.Setup) or card.Setup[i] == 't':
                 addToTable(c)
             elif card.Setup[i] == 's':
                 addToStagingArea(c)
