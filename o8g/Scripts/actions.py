@@ -13,7 +13,7 @@ Spacing = 92
 InvestigatorSpacing = 10
 InvestigatorY = 175
 StagingStart = -515
-StagingWidth = 665
+StagingWidth = 619
 StagingY = -222
 StagingSpace = 82
 AgendaX = 174.5
@@ -23,7 +23,7 @@ ActY = -222
 ScenarioX = 388.5
 ScenarioY = -234.75
 ChaosTokenX = 55
-ChaosTokenY = -230
+ChaosTokenY = -231
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -158,13 +158,17 @@ def actCount(group):
     return (count)
 
 #Check see if a card at x1,y1 overlaps a card at x2,y2
-#Both have size w, h
-def overlaps(x1, y1, x2, y2, w, h):
+def overlaps(x1, y1, x2, y2, w1, h1, w2 = 0, h2 = 0):
+    # if no width/height specified for card 2, assumed card 2 has the same dimensions as card 1
+    if w2 == 0:
+        w2 = w1
+    if h2 == 0:
+        h2 = h1
     #Four checks, one for each corner
-    if x1 >= x2 and x1 <= x2 + w and y1 >= y2 and y1 <= y2 + h: return True
-    if x1 + w >= x2 and x1 <= x2 and y1 >= y2 and y1 <= y2 + h: return True
-    if x1 >= x2 and x1 <= x2 + w and y1 + h >= y2 and y1 <= y2: return True
-    if x1 + w >= x2 and x1 <= x2 and y1 + h >= y2 and y1 <= y2: return True
+    if x1 >= x2 and x1 <= x2 + w2 and y1 >= y2 and y1 <= y2 + h2: return True
+    if x1 + w1 >= x2 and x1 <= x2 and y1 >= y2 and y1 <= y2 + h2: return True
+    if x1 >= x2 and x1 <= x2 + w2 and y1 + h1 >= y2 and y1 <= y2: return True
+    if x1 + w1 >= x2 and x1 <= x2 and y1 + h1 >= y2 and y1 <= y2: return True
     return False
 
 def cardHere(x, y, checkOverlap=True):
@@ -179,11 +183,15 @@ def cardHere(x, y, checkOverlap=True):
             return c
     return None
 
-# check if the card being inserted at a position x, y
-def overlapCard(x, y, width, height):
+# check if the card with specified dimension being inserted at
+# position x, y overlaps with any existing card
+def overlapCard(x, y, width, height, ignoreChaosToken = True):
     for existingCard in table:
-        if overlaps(x, y, cardX(existingCard), cardY(existingCard), width, height):
-            return existingCard
+        if overlaps(x, y, cardX(existingCard), cardY(existingCard), width, height, existingCard.width, existingCard.height):
+            if not ignoreChaosToken:
+                return existingCard
+            elif existingCard.Type != 'Chaos Token':
+                return existingCard
 
     return None
 
@@ -210,7 +218,7 @@ def layoutStage(card=None):
     #There was no room - we neeed to move all the cards to make space
     staged = []
     for c in table:
-        if overlaps(cardX(c), cardY(c), StagingStart, StagingY, StagingWidth, 100):
+        if c.Type != 'Chaos Token' and overlaps(cardX(c), cardY(c), StagingStart, StagingY, StagingWidth, 100):
             staged.append(c)
 
     for c in staged:
