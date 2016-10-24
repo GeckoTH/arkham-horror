@@ -171,14 +171,11 @@ def overlaps(x1, y1, x2, y2, w1, h1, w2 = 0, h2 = 0):
     if x1 + w1 >= x2 and x1 <= x2 and y1 + h1 >= y2 and y1 <= y2: return True
     return False
 
-def cardHere(x, y, checkOverlap=True):
+def overlapPartialCard(x, y):
     cw = 0
     ch = 0
     for c in table:
         cx, cy = c.position
-        if checkOverlap:
-            cw = c.width
-            ch = c.height
         if overlaps(x, y, cx, cy, cw, ch):
             return c
     return None
@@ -205,12 +202,12 @@ def cardY(card):
 
 #Move the given card in the staging area to the first available space on the left of the Staging Area
 #If there is no room then we compress all the cards in the staging area to make room
-def layoutStage(card=None):
+def layoutStage(card):
     x = StagingStart
     y = StagingY
     s = StagingSpace
     while x < StagingStart + StagingWidth - s:
-        if cardHere(x, y) is None:
+        if overlapCard(x, y, cardX(card), cardY(card)) is None:
             card.moveToTable(x, y)
             return
         x += s
@@ -953,7 +950,7 @@ def addToStagingArea(card, facedown=False, who=me):
     move = overlapCard(ex, ey, card.width, card.height)
     while move is not None:
         layoutStage(move)
-        move = cardHere(ex, ey)
+        move = overlapCard(ex, ey, card.width, card.height)
     card.moveToTable(ex, ey, facedown)          
     layoutStage(card)
     notify("{} adds '{}' to the staging area.".format(who, card))
@@ -1027,10 +1024,10 @@ def nextAgendaStage(group=None, x=0, y=0):
 def addToTable(card):
     x = AgendaX - 45.5
     y = -96
-    blocked = cardHere(x, y, False)
+    blocked = overlapPartialCard(x, y)
     while blocked is not None:
         x += 16
-        blocked = cardHere(x, y, False)
+        blocked = overlapPartialCard(x, y)
     card.moveToTable(x, y)  
     
 def agendaSetup(card):
