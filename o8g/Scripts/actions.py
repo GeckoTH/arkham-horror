@@ -12,9 +12,9 @@ BoardWidth = 1100
 Spacing = 92
 InvestigatorSpacing = 10
 InvestigatorY = 175
-StagingStart = -530
-StagingWidth = 750
-StagingY = -224
+StagingStart = -515
+StagingWidth = 619
+StagingY = -222
 StagingSpace = 82
 AgendaX = 174.5
 AgendaY = -222
@@ -23,7 +23,7 @@ ActY = -222
 ScenarioX = 388.5
 ScenarioY = -234.75
 ChaosTokenX = 55
-ChaosTokenY = -230
+ChaosTokenY = -231
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -158,25 +158,38 @@ def actCount(group):
     return (count)
 
 #Check see if a card at x1,y1 overlaps a card at x2,y2
-#Both have size w, h
-def overlaps(x1, y1, x2, y2, w, h):
+def overlaps(x1, y1, x2, y2, w1, h1, w2 = 0, h2 = 0):
+    # if no width/height specified for card 2, assumed card 2 has the same dimensions as card 1
+    if w2 == 0:
+        w2 = w1
+    if h2 == 0:
+        h2 = h1
     #Four checks, one for each corner
-    if x1 >= x2 and x1 <= x2 + w and y1 >= y2 and y1 <= y2 + h: return True
-    if x1 + w >= x2 and x1 <= x2 and y1 >= y2 and y1 <= y2 + h: return True
-    if x1 >= x2 and x1 <= x2 + w and y1 + h >= y2 and y1 <= y2: return True
-    if x1 + w >= x2 and x1 <= x2 and y1 + h >= y2 and y1 <= y2: return True
+    if x1 >= x2 and x1 <= x2 + w2 and y1 >= y2 and y1 <= y2 + h2: return True
+    if x1 + w1 >= x2 and x1 <= x2 and y1 >= y2 and y1 <= y2 + h2: return True
+    if x1 >= x2 and x1 <= x2 + w2 and y1 + h1 >= y2 and y1 <= y2: return True
+    if x1 + w1 >= x2 and x1 <= x2 and y1 + h1 >= y2 and y1 <= y2: return True
     return False
 
-def cardHere(x, y, checkOverlap=True):
+def overlapPartialCard(x, y):
     cw = 0
     ch = 0
     for c in table:
         cx, cy = c.position
-        if checkOverlap:
-            cw = c.width()
-            ch = c.height()
         if overlaps(x, y, cx, cy, cw, ch):
             return c
+    return None
+
+# check if the card with specified dimension being inserted at
+# position x, y overlaps with any existing card
+def overlapCard(x, y, width, height, ignoreChaosToken = True):
+    for existingCard in table:
+        if overlaps(x, y, cardX(existingCard), cardY(existingCard), width, height, existingCard.width, existingCard.height):
+            if not ignoreChaosToken:
+                return existingCard
+            elif existingCard.Type != 'Chaos Token':
+                return existingCard
+
     return None
 
 def cardX(card):
@@ -189,12 +202,12 @@ def cardY(card):
 
 #Move the given card in the staging area to the first available space on the left of the Staging Area
 #If there is no room then we compress all the cards in the staging area to make room
-def layoutStage(card=None):
+def layoutStage(card):
     x = StagingStart
     y = StagingY
     s = StagingSpace
     while x < StagingStart + StagingWidth - s:
-        if cardHere(x, y) is None:
+        if overlapCard(x, y, cardX(card), cardY(card)) is None:
             card.moveToTable(x, y)
             return
         x += s
@@ -202,7 +215,7 @@ def layoutStage(card=None):
     #There was no room - we neeed to move all the cards to make space
     staged = []
     for c in table:
-        if overlaps(cardX(c), cardY(c), StagingStart, StagingY, StagingWidth, 100):
+        if c.Type != 'Chaos Token' and overlaps(cardX(c), cardY(c), StagingStart, StagingY, StagingWidth, 100):
             staged.append(c)
 
     for c in staged:
@@ -925,8 +938,6 @@ def addHiddenSpecial(group, x=0, y=0):
     
 def addEncounter(group=None, x=0, y=0):
     nextEncounter(encounterDeck(), x, y, False)
-    if me == encounterDeck().controller:
-        questReminders()
     
 def addEncounterSpecial(group=None, x=0, y=0):
     nextEncounter(specialDeck(), x, y, False)
@@ -934,12 +945,12 @@ def addEncounterSpecial(group=None, x=0, y=0):
 def addToStagingArea(card, facedown=False, who=me):
     #Check to see if there is already an encounter card here.
     #If so shuffle it left to make room
-    ex = StagingStart + StagingWidth - card.width()
+    ex = StagingStart + StagingWidth - card.width
     ey = StagingY
-    move = cardHere(ex, ey)
+    move = overlapCard(ex, ey, card.width, card.height)
     while move is not None:
         layoutStage(move)
-        move = cardHere(ex, ey)
+        move = overlapCard(ex, ey, card.width, card.height)
     card.moveToTable(ex, ey, facedown)          
     layoutStage(card)
     notify("{} adds '{}' to the staging area.".format(who, card))
@@ -963,8 +974,7 @@ def nextEncounter(group, x, y, facedown, who=me):
     else:
         card.moveToTable(x-card.width()/2, y-card.height()/2, facedown)
         notify("{} places '{}' on the table.".format(who, card))
-    card.setController(who)
-    setReminders(card)
+    card.controller = who
     if len(group) == 0:
         resetEncounterDeck(group)
     
@@ -1014,10 +1024,10 @@ def nextAgendaStage(group=None, x=0, y=0):
 def addToTable(card):
     x = AgendaX - 45.5
     y = -96
-    blocked = cardHere(x, y, False)
+    blocked = overlapPartialCard(x, y)
     while blocked is not None:
         x += 16
-        blocked = cardHere(x, y, False)
+        blocked = overlapPartialCard(x, y)
     card.moveToTable(x, y)  
     
 def agendaSetup(card):
