@@ -1036,6 +1036,8 @@ def agendaSetup(card):
             #   makeActive(c)
             #   setReminders(c)
             i += 1
+def nextAgenda(group = None, x = 0, y = 0):
+    nextAgendaStage(group, x, y)
 
 def nextActStage(group=None, x=0, y=0):
     mute()
@@ -1068,6 +1070,9 @@ def nextActStage(group=None, x=0, y=0):
     
 #   actSetup(card)
     notify("{} advances act to '{}'".format(me, card))
+
+def nextAct(group = None, x = 0, y = 0):
+    nextActStage(group, x, y)
 
 # def readyForNextRound(group=table, x=0, y=0):
 #   mute()
