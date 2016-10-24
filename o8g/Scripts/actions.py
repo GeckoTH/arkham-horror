@@ -12,9 +12,9 @@ BoardWidth = 1100
 Spacing = 92
 InvestigatorSpacing = 10
 InvestigatorY = 175
-StagingStart = -530
-StagingWidth = 750
-StagingY = -224
+StagingStart = -515
+StagingWidth = 665
+StagingY = -222
 StagingSpace = 82
 AgendaX = 174.5
 AgendaY = -222
@@ -173,10 +173,18 @@ def cardHere(x, y, checkOverlap=True):
     for c in table:
         cx, cy = c.position
         if checkOverlap:
-            cw = c.width()
-            ch = c.height()
+            cw = c.width
+            ch = c.height
         if overlaps(x, y, cx, cy, cw, ch):
             return c
+    return None
+
+# check if the card being inserted at a position x, y
+def overlapCard(x, y, width, height):
+    for existingCard in table:
+        if overlaps(x, y, cardX(existingCard), cardY(existingCard), width, height):
+            return existingCard
+
     return None
 
 def cardX(card):
@@ -925,8 +933,6 @@ def addHiddenSpecial(group, x=0, y=0):
     
 def addEncounter(group=None, x=0, y=0):
     nextEncounter(encounterDeck(), x, y, False)
-    if me == encounterDeck().controller:
-        questReminders()
     
 def addEncounterSpecial(group=None, x=0, y=0):
     nextEncounter(specialDeck(), x, y, False)
@@ -934,9 +940,9 @@ def addEncounterSpecial(group=None, x=0, y=0):
 def addToStagingArea(card, facedown=False, who=me):
     #Check to see if there is already an encounter card here.
     #If so shuffle it left to make room
-    ex = StagingStart + StagingWidth - card.width()
+    ex = StagingStart + StagingWidth - card.width
     ey = StagingY
-    move = cardHere(ex, ey)
+    move = overlapCard(ex, ey, card.width, card.height)
     while move is not None:
         layoutStage(move)
         move = cardHere(ex, ey)
@@ -963,8 +969,7 @@ def nextEncounter(group, x, y, facedown, who=me):
     else:
         card.moveToTable(x-card.width()/2, y-card.height()/2, facedown)
         notify("{} places '{}' on the table.".format(who, card))
-    card.setController(who)
-    setReminders(card)
+    card.controller = who
     if len(group) == 0:
         resetEncounterDeck(group)
     
