@@ -439,15 +439,15 @@ def deckLoaded(args):
             
     #Cards for the encounter deck and player deck are loaded into the discard pile because this has visibility="all"    
     #Check for cards with a Setup effects and move other cards back into the correct pile
-    for p in args.groups:
-        for card in p:
+    for pile in args.groups:
+        for card in pile:
             if card.Setup == 't' and card.Type not in [ 'Agenda' , 'Act', 'Scenario' ]:
                 addToTable(card)
             elif card.Setup == 's' and card.Type not in [ 'Agenda' , 'Act', 'Scenario' ]:
                 addToStagingArea(card)
-            elif p == encounterDeck():
-                card.moveTo(encounterDiscard())
-            elif p == me.piles['Discard Pile']:
+            elif pile == shared.piles['Encounter Discard Pile']:
+                card.moveTo(shared.piles['Encounter'])
+            elif pile == me.piles['Discard Pile']:
                 card.moveTo(me.deck)
 
 
