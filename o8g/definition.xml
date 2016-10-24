@@ -132,9 +132,10 @@
 		<globalvariable name="done" value="" />
 		<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
 			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
+			<groupaction menu="Mulligan" default="False" shortcut="Ctrl+M" execute="mulligan" />
 			<cardaction menu="Play" default="True" execute="playCard" />
 			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
-			<cardaction menu="Swap with top card" default="False" shortcut="ctrl+S" execute="swapCard" />
+			<cardaction menu="Swap with top card" default="False" shortcut="Ctrl+S" execute="swapCard" />
 		</hand>
 		<group name="Deck" visibility="none" ordered="True" width="63" height="88" icon="groups/player.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
