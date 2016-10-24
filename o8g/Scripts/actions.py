@@ -1719,8 +1719,7 @@ def drawChaosToken(group, x = 0, y = 0):
             remoteCall(token.controller, "moveTo", chaosBag())
 
     chaosBag().shuffle()
-    card = drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
-    setGlobalVariable("drawnChaosToken", card._id)
+    drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
 
 # def captureDeck(group):
 #   if len(group) == 0: return
