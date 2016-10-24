@@ -212,6 +212,9 @@
 		</group>
 		<group name="Setup" visibility="all" ordered="True" width="63" height="88" icon="groups/encounterS.png" collapsed="True">
 		</group>
+		<group name="Basic Weakness" visibility="none" ordered="True" width="63" height="88" icon="groups/player.png" collapsed="True">
+			<groupaction menu="Draw Random Weakness into Your Deck" default="True" execute="drawWeakness" />
+		</group>
 	</shared>
 	<deck>
 		<section name="Investigator" group="Hand" />
@@ -230,5 +233,6 @@
 		<section name="Second Special" group="2nd Special" />		
 		<section name="Chaos Bag" group="Chaos Bag" />
 		<section name="Setup" group="Setup" />
+		<section name="Basic Weakness" group="Basic Weakness" />
 	</sharedDeck>
 </game>
