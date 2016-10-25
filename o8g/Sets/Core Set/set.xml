@@ -88,7 +88,7 @@
     <property name="Traits" value="Item. Weapon. Firearm."/>
     <property name="Text" value="Roland Banks deck only.&#10;Uses (4 ammo).&#10;η Spend 1 ammo: Fight. You get +1 ή for this attack (if there are 1 or more clues on your location, you get +3 ή, instead). This attack deals +1 damage."/>
   </card>
-  <card id="bc0a93e3-6643-49a2-9acc-8eaf681f4b2f" name="Cover Up" size="EncounterCard">
+  <card id="bc0a93e3-6643-49a2-9acc-8eaf681f4b2f" name="Cover Up">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -127,7 +127,7 @@
     <property name="Keywords" value="&quot;Skids&quot; O'Toole deck only."/>
     <property name="Text" value="Fast. Play after your turn begins.Until the end of the round, non-Elite enemies cannot attack you."/>
   </card>
-  <card id="8c8c8662-de35-45e1-9b82-449655ecd8c2" name="Hospital Debts" size="EncounterCard">
+  <card id="8c8c8662-de35-45e1-9b82-449655ecd8c2" name="Hospital Debts">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -980,7 +980,7 @@
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Relic."/>
   </card>
-  <card id="8398d095-9e12-45dd-8242-838ed636ba1d" name="Amnesia" size="EncounterCard">
+  <card id="8398d095-9e12-45dd-8242-838ed636ba1d" name="Amnesia">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -988,7 +988,7 @@
     <property name="Traits" value="Madness."/>
     <property name="Text" value="Revelation - Choose and discard all but 1 card from your hand."/>
   </card>
-  <card id="9ca5f0a3-e74f-4068-bf67-9fe003cf17c0" name="Paranoia" size="EncounterCard">
+  <card id="9ca5f0a3-e74f-4068-bf67-9fe003cf17c0" name="Paranoia">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -996,7 +996,7 @@
     <property name="Traits" value="Madness."/>
     <property name="Text" value="Revelation - Discard all your resources."/>
   </card>
-  <card id="76d61a65-4c3a-486c-b507-c4b0a109d65f" name="Haunted" size="EncounterCard">
+  <card id="76d61a65-4c3a-486c-b507-c4b0a109d65f" name="Haunted">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -1004,7 +1004,7 @@
     <property name="Traits" value="Curse."/>
     <property name="Text" value="Revelation - Add Haunted to your threat area.&#10;You get -1 to each of your skills.&#10;ηη: Discard Haunted."/>
   </card>
-  <card id="f8c80be5-04a4-4546-8d16-6d6c6a0d21ec" name="Psychosis" size="EncounterCard">
+  <card id="f8c80be5-04a4-4546-8d16-6d6c6a0d21ec" name="Psychosis">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -1012,7 +1012,7 @@
     <property name="Traits" value="Madness."/>
     <property name="Text" value="Revelation - Add Psychosis to your threat area.&#10;Forced - After you take 1 or more horror: Take 1 direct damage.&#10;ηη: Discard Psychosis."/>
   </card>
-  <card id="5f5c0fc7-34ce-45ce-a609-f2b4f4fc6e5a" name="Hypochondria" size="EncounterCard">
+  <card id="5f5c0fc7-34ce-45ce-a609-f2b4f4fc6e5a" name="Hypochondria">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -1020,7 +1020,7 @@
     <property name="Traits" value="Madness."/>
     <property name="Text" value="Revelation - Add Hypochondria to your threat area.&#10;Forced - After you take 1 or more damage: Take 1 direct horror.ηη: Discard Hypochondria."/>
   </card>
-  <card id="22a5a1f6-cc50-47a9-9374-76204c97cf0a" name="Mob Enforcer" size="EncounterCard">
+  <card id="22a5a1f6-cc50-47a9-9374-76204c97cf0a" name="Mob Enforcer">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Enemy"/>
     <property name="Subtype" value="Basic Weakness"/>
@@ -1032,7 +1032,7 @@
     <property name="Keywords" value="Prey - Bearer only.Hunter."/>
     <property name="Text" value="η Spend 4 resources: Parley. Discard Mob Enforcer."/>
   </card>
-  <card id="9b1de9f2-b050-41c4-bfdc-16a40974a3fb" name="Silver Twilight Acolyte" size="EncounterCard">
+  <card id="9b1de9f2-b050-41c4-bfdc-16a40974a3fb" name="Silver Twilight Acolyte">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Enemy"/>
     <property name="Subtype" value="Basic Weakness"/>
@@ -1044,7 +1044,7 @@
     <property name="Keywords" value="Prey - Bearer only.Hunter."/>
     <property name="Text" value="Forced - After Silver Twilight Acolyte attacks: Place 1 doom on the current agenda."/>
   </card>
-  <card id="d5b68cab-54f1-488c-ba9f-68d8830cf2d0" name="Stubborn Detective" size="EncounterCard">
+  <card id="d5b68cab-54f1-488c-ba9f-68d8830cf2d0" name="Stubborn Detective">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Enemy"/>
     <property name="Subtype" value="Basic Weakness"/>
