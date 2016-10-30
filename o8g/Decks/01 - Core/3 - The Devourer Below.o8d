@@ -1,11 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
-  <section name="Investigator" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="12eb456d-9abb-4a7b-9b7f-ebb252772874">The Arkham Woods</card>
     <card qty="1" id="ce8bd1a5-d504-41cb-a537-3cef1737fada">The Ritual Begins</card>
@@ -17,26 +11,25 @@
     <card qty="1" id="bc574b92-fb2b-464f-b040-6c55a106f4da">Disrupting the Ritual</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="1" id="013a94df-b579-4670-9dc6-0176dad396a8">Umôrdhoth's Wrath</card>
-    <card qty="2" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
+    <card qty="2" id="013a94df-b579-4670-9dc6-0176dad396a8">Umôrdhoth's Wrath</card>
+    <card qty="3" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
     <card qty="1" id="a70a2df7-2520-47ea-97b9-374714113140">Ravenous Ghoul</card>
-    <card qty="2" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
-    <card qty="2" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="3" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
     <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
     <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
-    <card qty="2" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
     <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
     <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
     <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
   </section>
-  <section name="Location" shared="True" />
   <section name="Special" shared="True">
     <card qty="2" id="d6b11251-f337-4437-bb24-d9baa52b164f">Screeching Byakhee</card>
     <card qty="2" id="5d3f4670-272f-4665-9812-3a40b5837d97">The Yellow Sign</card>
     <card qty="2" id="6ea5fdd2-d464-42f1-b734-6a34edcf0329">Yithian Observer</card>
     <card qty="2" id="085d8d82-3331-4eda-bcba-e51285fa9b0e">Offer of Power</card>
-    <card qty="2" id="1042db12-9e8c-4dd4-ba27-10c2059efca9">Relentless Dark Young</card>
-    <card qty="2" id="3d4420ab-52eb-40df-9e63-13dd49fd125c">Goat Spawn</card>
+    <card qty="1" id="1042db12-9e8c-4dd4-ba27-10c2059efca9">Relentless Dark Young</card>
+    <card qty="3" id="3d4420ab-52eb-40df-9e63-13dd49fd125c">Goat Spawn</card>
     <card qty="2" id="93ab8531-db48-4ee6-b818-4da27752d578">Young Deep One</card>
     <card qty="2" id="395200b6-5e2f-4217-9cb2-005590d81407">Dreams of R'lyeh</card>
   </section>
@@ -56,5 +49,13 @@
     <card qty="1" id="51ab34b7-c6bc-4759-8b5c-f9c1476f66f1">Main Path</card>
     <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

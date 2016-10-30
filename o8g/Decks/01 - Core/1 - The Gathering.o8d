@@ -1,11 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
-  <section name="Investigator" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="28a33b22-2f33-437c-8ca4-3c12e3d86fb2">What's Going On?!</card>
     <card qty="1" id="4f5e8e19-637e-4d55-964b-05858ca2b898">Rise of the Ghouls</card>
@@ -17,16 +11,16 @@
     <card qty="1" id="8058eaaa-fb32-4a66-9501-8ca13c58e37c">What Have You Done?</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="2" id="e499d648-b5b0-4436-9821-becc4ef9f82a">Flesh-Eater</card>
+    <card qty="1" id="e499d648-b5b0-4436-9821-becc4ef9f82a">Flesh-Eater</card>
     <card qty="1" id="aa3d376b-6a82-4168-8ee9-7b50d1442100">Icy Ghoul</card>
     <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
-    <card qty="2" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
+    <card qty="3" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
     <card qty="1" id="a70a2df7-2520-47ea-97b9-374714113140">Ravenous Ghoul</card>
-    <card qty="2" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
-    <card qty="2" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="3" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
     <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
     <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
-    <card qty="2" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
     <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
     <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
   </section>
@@ -36,13 +30,20 @@
     <card qty="1" id="155a7647-26da-4ed2-a0eb-c62cb52f9a48">Cellar</card>
     <card qty="1" id="6b29f6b9-13fb-41d5-9d5d-95a7d7243759">Parlor</card>
   </section>
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="1edc5230-8497-43cf-888b-d255270c9246">The Gathering</card>
     <card qty="1" id="f2e936b3-445e-43ce-8a38-7919499c0209">Study</card>
     <card qty="1" id="060db76e-909e-4b71-8798-a9494f29d63b">Ghoul Priest</card>
     <card qty="1" id="d6eebc23-10bc-4686-9155-4b11783335c4">Lita Chantler</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

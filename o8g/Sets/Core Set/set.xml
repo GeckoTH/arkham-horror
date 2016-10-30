@@ -961,7 +961,7 @@
     <property name="Text" value="Max 1 committed per skill test."/>
   </card>
   <card id="707eaa54-2a3f-48fc-952b-4f863c3e4d06" name="Bulletproof Vest">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Level" value="3"/>
@@ -971,7 +971,7 @@
     <property name="Traits" value="Item. Armor."/>
   </card>
   <card id="cfb03a82-6111-465c-8392-0d281bb90b36" name="Elder Sign Amulet">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Level" value="3"/>
@@ -981,7 +981,7 @@
     <property name="Traits" value="Item. Relic."/>
   </card>
   <card id="8398d095-9e12-45dd-8242-838ed636ba1d" name="Amnesia">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
@@ -989,7 +989,7 @@
     <property name="Text" value="Revelation - Choose and discard all but 1 card from your hand."/>
   </card>
   <card id="9ca5f0a3-e74f-4068-bf67-9fe003cf17c0" name="Paranoia">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
@@ -1592,7 +1592,7 @@
     </alternate>
   </card>
   <card id="f070e39a-2517-4899-a42d-829b2a9ebf2a" name="Hunting Shadow" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Midnight Masks"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Curse."/>
@@ -1600,7 +1600,7 @@
     <property name="Text" value="Revelation - You must either (choose one):Spend 1 clue or take 2 damage."/>
   </card>
   <card id="65a0cf6c-89e4-4e20-948d-5668de15bd9c" name="False Lead" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Midnight Masks"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Revelation - If you have no clues, False Lead gains surge. If you have 1 or more clues, test έ (4). For each point you fail, place 1 of your clues on your location."/>
@@ -1975,7 +1975,7 @@
     <property name="Text" value="Umordhoth gets +4 health per investigator.Forced - At the end of each investigator's turn: Ready Umordhoth.η If you control Lita Chandler: &quot;It's only after her!&quot; You throw Lita to Umordhoth in order to spare your lives. (R3)"/>
   </card>
   <card id="013a94df-b579-4670-9dc6-0176dad396a8" name="Umôrdhoth's Wrath" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Devourer Below"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Curse."/>
@@ -1994,7 +1994,7 @@
     <property name="Text" value="Hunter."/>
   </card>
   <card id="03482753-a71c-45ec-a97a-e6cb454ae835" name="Ghoul Minion" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Ghouls"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="2"/>
