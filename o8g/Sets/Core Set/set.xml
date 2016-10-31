@@ -1061,12 +1061,12 @@
     <property name="Encounter Set" value="The Gathering"/>
     <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="α -X. X is the number of Ghoul enemies at your location.&#10;β -1. If you fail, take 1 horror.&#10;δ -2. If there is a Ghoul enemy at your location, take 1 damage.&#10;"/>
+    <property name="Text" value="α -X. X is the number of Ghoul enemies at your location.&#10;β -1. If you fail, take 1 horror.&#10;γ -2. If there is a Ghoul enemy at your location, take 1 damage.&#10;"/>
     <alternate name="The Gathering" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="α -2. If you fail, after this skill test, search the encounter deck and discard pile for a Ghoul enemy, and draw it. Shuffle the encounter deck.β Reveal another token. If you fail, take 2 horror.δ -4. If there is a Ghoul enemy at your location, take 1 damage and 1 horror.&#10;"/>
+      <property name="Text" value="α -2. If you fail, after this skill test, search the encounter deck and discard pile for a Ghoul enemy, and draw it. Shuffle the encounter deck.β Reveal another token. If you fail, take 2 horror.γ -4. If there is a Ghoul enemy at your location, take 1 damage and 1 horror.&#10;"/>
     </alternate>
   </card>
   <card id="28a33b22-2f33-437c-8ca4-3c12e3d86fb2" name="What's Going On?!" size="HorizCard">
