@@ -152,6 +152,7 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Cost" value="2"/>
     <property name="Traits" value="Spell."/>
     <property name="Text" value="Place 1 doom on the current agenda. This effect may cause the current agenda to advance.&#10;Forced - If Dark Memory is in your hand at the end of your turn, reveal it and take 2 horror."/>
@@ -166,10 +167,11 @@
     <property name="Traits" value="Item. Relic."/>
     <property name="Text" value="Wendy Adams deck only.&#10;You may play the topmost event in your discard pile as if it were in your hand.&#10;Forced - After you play an event: Place it on the bottom of your deck instead of in your discard pile."/>
   </card>
-  <card id="cd4dfe53-cdd3-4a88-bdfd-a3920ece4ce5" name="Abandoned and Alone" size="EncounterCard">
+  <card id="cd4dfe53-cdd3-4a88-bdfd-a3920ece4ce5" name="Abandoned and Alone">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Madness."/>
     <property name="Text" value="Revelation - Take 2 direct horror and remove all cards in your discard pile from the game."/>
   </card>
