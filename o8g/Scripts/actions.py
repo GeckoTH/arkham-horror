@@ -942,6 +942,9 @@ def addEncounter(group=None, x=0, y=0):
 def addEncounterSpecial(group=None, x=0, y=0):
     nextEncounter(specialDeck(), x, y, False)
 
+def addLocation(group=None, x=0, y=0):
+    nextLocation(locationDeck(), x, y)
+
 def addToStagingArea(card, facedown=False, who=me):
     #Check to see if there is already an encounter card here.
     #If so shuffle it left to make room
@@ -977,6 +980,25 @@ def nextEncounter(group, x, y, facedown, who=me):
     card.controller = who
     if len(group) == 0:
         resetEncounterDeck(group)
+
+def nextLocation(group, x, y, who=me):
+    mute()
+
+    if group.controller != me:
+        remoteCall(group.controller, "nextLocation", [group, x, y, me])
+        return
+
+    if len(group) == 0:
+        notify("No more location cards")
+        return
+
+    card = group.top()
+    if x == 0 and y == 0:  #Move to default position in the staging area
+        addToStagingArea(card, False, who)
+    else:
+        card.moveToTable(x-card.width()/2, y-card.height()/2, facedown)
+        notify("{} places '{}' on the table.".format(who, card))
+    card.controller = who
     
 def nextAgendaStage(group=None, x=0, y=0):
     mute()

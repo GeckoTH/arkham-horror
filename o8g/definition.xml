@@ -177,7 +177,7 @@
 		</group>
 		<group name="Location" visibility="all" ordered="True" width="63" height="88" icon="groups/location.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
-			<groupaction menu="Reveal Next Location" default="True" execute="nextLocation" />
+			<groupaction menu="Reveal Next Location" default="True" execute="addLocation" />
 		</group>
 		<group name="Agenda Discard Pile" visibility="all" ordered="True" width="126" height="88" icon="groups/discard.png" collapsed="True" />
 		<group name="Act Discard Pile" visibility="all" ordered="True" width="126" height="88" icon="groups/discard2.png" collapsed="True" />
