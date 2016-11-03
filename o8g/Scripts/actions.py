@@ -103,9 +103,9 @@ def countInvestigators(p):
     return investigators
 
 #Work out if the player is still in the game (threat < 50 and has heroes on the table)
-#def eliminated(p):
-#   if not p:
-#       return False
+def eliminated(p):
+    if not p:
+        return False
 #
 #   if p.counters['Threat_Level'].value >= 50:
 #       debug("eliminated({}) = True (Threat)".format(p))
