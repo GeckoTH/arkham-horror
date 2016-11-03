@@ -16,6 +16,7 @@
 	usetwosidedtable="False">
 	<scripts>
 		<script src="scripts/actions.py" />
+		<script src="scripts/basic_weakness.py" />
 	</scripts>
 	<events>
 		<event name="OnGameStarted" action="startOfGame"/>
@@ -143,6 +144,7 @@
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
+			<groupaction menu="Draw Weakness" default="False" execute="drawWeakness" />
 		</group>
 		<group name="Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/discard.png" collapsed="False">
 			<groupaction menu="Shuffle All into Deck" default="True" execute="moveAllToPlayer" />
@@ -212,9 +214,6 @@
 		</group>
 		<group name="Setup" visibility="all" ordered="True" width="63" height="88" icon="groups/encounterS.png" collapsed="True">
 		</group>
-		<group name="Basic Weakness" visibility="none" ordered="True" width="63" height="88" icon="groups/player.png" collapsed="True">
-			<groupaction menu="Draw Random Weakness into Your Deck" default="True" execute="drawWeakness" />
-		</group>
 	</shared>
 	<deck>
 		<section name="Investigator" group="Hand" />
@@ -233,6 +232,5 @@
 		<section name="Second Special" group="2nd Special" />		
 		<section name="Chaos Bag" group="Chaos Bag" />
 		<section name="Setup" group="Setup" />
-		<section name="Basic Weakness" group="Basic Weakness" />
 	</sharedDeck>
 </game>

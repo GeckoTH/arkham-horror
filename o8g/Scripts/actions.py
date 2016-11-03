@@ -1738,15 +1738,10 @@ def drawChaosToken(group, x = 0, y = 0):
 
 def drawWeakness(group, x = 0, y = 0):
     mute()
-    pile = shared.piles['Basic Weakness']
-    if len(pile) == 0:
-        notify("{} is {empty.".format(pile))
-        return
 
-    notify("{} drew a random basic weakness into deck".format(me))
-    pile.shuffle()
-    card = pile.top()
-    card.moveTo(me.deck)
+    guid = BasicWeakness.draw()
+    card = me.deck.create(guid)
+    notify("{} shuffles a random Basic Weakness into deck".format(me))
     me.deck.shuffle()
 
 # def captureDeck(group):
