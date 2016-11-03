@@ -1182,8 +1182,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             notify("{} places his Investigator on the table".format(me))
             notify("Discard {}".format(len(me.piles['Discard Pile'])))
             if len(me.hand) == 0:
-                me.deck.shuffle()
-                drawMany(me.deck, shared.OpeningHandSize)
+                drawOpeningHand()
             # if len(getPlayers()) > 1 and getFirstPlayerID() == playerID(me): #Put the first player token onto the table
             #   x, y = firstHero(me).position
             #   c = moveFirstPlayerToken(x, y+Spacing)
@@ -1200,6 +1199,25 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         
     if not clearLock():
         notify("Players performed setup at the same time causing problems, please reset and try again")
+
+def drawOpeningHand():
+    me.deck.shuffle()
+    drawMany(me.deck, shared.OpeningHandSize)
+    removeWeaknessCards()
+
+def removeWeaknessCards():
+    weaknesses = []
+    for card in filter(lambda card: card.Subtype in ["Weakness", "Basic Weakness"], me.hand):
+        weaknesses.append(card)
+        notify("{} replacing weakness '{}'".format(me, card))
+
+    if not weaknesses: return None
+
+    drawMany(me.deck, len(weaknesses))
+    for card in weaknesses:
+        card.moveTo(me.deck)
+
+    return removeWeaknessCards()
 
 # def calcScore(group=None, x=0, y=0):
 #   mute()
