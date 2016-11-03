@@ -1736,6 +1736,14 @@ def drawChaosToken(group, x = 0, y = 0):
     chaosBag().shuffle()
     drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
 
+def drawWeakness(group, x = 0, y = 0):
+    mute()
+
+    guid = BasicWeakness.draw()
+    card = me.deck.create(guid)
+    notify("{} shuffles a random Basic Weakness into deck".format(me))
+    me.deck.shuffle()
+
 # def captureDeck(group):
 #   if len(group) == 0: return
 #   mute()
