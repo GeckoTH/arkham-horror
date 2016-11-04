@@ -1776,7 +1776,7 @@ def drawChaosToken(group, x = 0, y = 0):
     chaosBag().shuffle()
     drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
 
-def drawWeakness(group, x = 0, y = 0):
+def drawBasicWeakness(group, x = 0, y = 0):
     mute()
 
     if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
