@@ -1779,8 +1779,15 @@ def drawChaosToken(group, x = 0, y = 0):
 def drawWeakness(group, x = 0, y = 0):
     mute()
 
-    guid = BasicWeakness.draw()
-    card = me.deck.create(guid)
+    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
+        bw = BasicWeakness(me)
+        bw.create_deck()
+
+    bw_cards = me.piles[BasicWeakness.PILE_NAME]
+    bw_cards.shuffle()
+    card = bw_cards.top()
+    card.moveTo(me.deck)
+    # do we notify players of what the basic weakness card that was shuffled in?
     notify("{} shuffles a random Basic Weakness into deck".format(me))
     me.deck.shuffle()
 

@@ -158,6 +158,9 @@
 		<group name="Sideboard" visibility="me" width="63" height="88" icon="groups/player-sideboard.png" collapsed="True">
 			<groupaction menu="Shuffle" execute="shuffle" />
 		</group>
+		<group name="Basic Weaknesses" visibility="me" width="63" height="88" icon="groups/player.png" collapsed="True">
+			<groupaction menu="Shuffle" execute="shuffle" />
+		</group>
 	</player>
 	<shared>
 		<counter name="VictoryPoints" default="0" reset="True" icon="counters/victory.png" />
