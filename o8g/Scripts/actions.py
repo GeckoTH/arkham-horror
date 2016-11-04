@@ -468,6 +468,15 @@ def deckLoaded(args):
     playerSetup(table, 0, 0, isPlayer, isShared)
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
     #   playerSetup(table, 0, 0, isPlayer, isShared)
+
+def loadBasicWeaknesses(group, x = 0, y = 0):
+    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
+        bw = BasicWeakness(me)
+        bw.create_deck()
+        bw.shuffle()
+        notify("{} loaded Basic Weakness Deck".format(me))
+    else:
+        notify("{}'s Basic Weakness Deck already loaded.".format(me))
         
 #Triggered event OnChangeCounter
 # def counterChanged(player, counter, oldV): 

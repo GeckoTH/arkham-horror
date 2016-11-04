@@ -159,6 +159,7 @@
 			<groupaction menu="Shuffle" execute="shuffle" />
 		</group>
 		<group name="Basic Weaknesses" visibility="none" width="63" height="88" icon="groups/player.png" collapsed="True">
+			<groupaction menu="Load Deck" execute="loadBasicWeaknesses" />
 			<groupaction menu="Shuffle" execute="shuffle" />
 		</group>
 	</player>
