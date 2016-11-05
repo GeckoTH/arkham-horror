@@ -1,5 +1,6 @@
 import time
 import re
+from itertools import repeat
 
 Resource = ("Resource", "6eb6d990-007a-4f4d-b76c-b35685922b22")
 Damage = ("Damage", "3abb22bb-b259-4857-ae8f-f2cdf93de5e0")
@@ -1202,6 +1203,8 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             notify("Discard {}".format(len(me.piles['Discard Pile'])))
             if len(me.hand) == 0:
                 drawOpeningHand()
+            for i in repeat(None, 5):
+                addResource(investigatorCard)
             # if len(getPlayers()) > 1 and getFirstPlayerID() == playerID(me): #Put the first player token onto the table
             #   x, y = firstHero(me).position
             #   c = moveFirstPlayerToken(x, y+Spacing)
