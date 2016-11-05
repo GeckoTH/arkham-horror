@@ -13,16 +13,52 @@ class BasicWeakness:
             "d5b68cab-54f1-488c-ba9f-68d8830cf2d0", # Stubborn Detective
         ]
     }
+    PILE_NAME = 'Basic Weaknesses'
+    SUBTYPE_NAME = 'Basic Weakness'
 
-    @classmethod
-    def draw(cls, sets = "all"):
-        picked_weaknesses = []
+    def __init__(self, player, sets = "all"):
+        self.player = player
+        self.cards = self._build_deck(sets)
+
+    # based on the known Basic Weaknesses guids, construct the deck
+    def create_deck(self):
+        for guid in self.cards:
+            card = self.player.piles[self.PILE_NAME].create(guid)
+
+    # build a set of guids of Basic Weaknesses removing ones already in use by the player
+    # pass in the list of sets of Basic Weaknesses to include
+    def _build_deck(self, sets):
+        deck = []
+        used = self._used_weaknesses()
 
         if sets == "all":
-            for name, cards in cls.CARDS.iteritems():
-                picked_weaknesses += cards
+            for name, cards in self.CARDS.iteritems():
+                deck += cards
         else:
-            for cards in (cards for name, cards in cls.CARDS.iteritems() if name in sets):
-                picked_weaknesses += cards
+            for cards in (cards for name, cards in self.CARDS.iteritems() if name in sets):
+                deck += cards
 
-        return picked_weaknesses[rnd(0, len(picked_weaknesses) - 1)]
+        for card in used:
+            face_up = card.isFaceUp
+            # peek() doesn't seem to be working
+            if not card.isFaceUp:
+                card.isFaceUp = True
+
+            dupe = next((dupe for dupe in deck if dupe == card.model), None)
+            if dupe:
+                deck.remove(dupe)
+
+            if not face_up:
+                card.isFaceUp = face_up
+
+        return deck
+
+    # check for weaknesses already taken and remove them
+    def _used_weaknesses(self):
+        table_cards = [card for card in table
+                       if card.controller == self.player]
+        discard_cards = [card for card in self.player.piles['Discard Pile']]
+        deck_cards = [card for card in self.player.piles['Deck']]
+        hand_cards = [card for card in self.player.hand]
+        return [card for card in table_cards + discard_cards + deck_cards + hand_cards
+                if card.Subtype == self.SUBTYPE_NAME]

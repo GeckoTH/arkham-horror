@@ -468,6 +468,15 @@ def deckLoaded(args):
     playerSetup(table, 0, 0, isPlayer, isShared)
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
     #   playerSetup(table, 0, 0, isPlayer, isShared)
+
+def loadBasicWeaknesses(group, x = 0, y = 0):
+    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
+        bw = BasicWeakness(me)
+        bw.create_deck()
+        bw.shuffle()
+        notify("{} loaded Basic Weakness Deck".format(me))
+    else:
+        notify("{}'s Basic Weakness Deck already loaded.".format(me))
         
 #Triggered event OnChangeCounter
 # def counterChanged(player, counter, oldV): 
@@ -1776,11 +1785,18 @@ def drawChaosToken(group, x = 0, y = 0):
     chaosBag().shuffle()
     drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
 
-def drawWeakness(group, x = 0, y = 0):
+def drawBasicWeakness(group, x = 0, y = 0):
     mute()
 
-    guid = BasicWeakness.draw()
-    card = me.deck.create(guid)
+    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
+        bw = BasicWeakness(me)
+        bw.create_deck()
+
+    bw_cards = me.piles[BasicWeakness.PILE_NAME]
+    bw_cards.shuffle()
+    card = bw_cards.top()
+    card.moveTo(me.deck)
+    # do we notify players of what the basic weakness card that was shuffled in?
     notify("{} shuffles a random Basic Weakness into deck".format(me))
     me.deck.shuffle()
 
