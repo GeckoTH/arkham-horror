@@ -113,8 +113,8 @@
 		<cardaction menu="Discard to Special Discard" default="False" shortcut="shift+Del" execute="discardSpecial" />
 		<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
 		<cardaction menu="Lock" default="False" shortcut="ctrl+K" execute="lockCard" />
-		<cardaction menu="Rotate Left" default="False" shortcut="F8" execute="rotateLeft" />
-		<cardaction menu="Rotate Right" default="False" shortcut="F9" execute="rotateRight" />
+		<cardaction menu="Rotate Left" default="False" shortcut="F11" execute="rotateLeft" />
+		<cardaction menu="Rotate Right" default="False" shortcut="F12" execute="rotateRight" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<groupactions menu="Random">
 			<groupaction menu="Coin Flip" default="False" execute="flipCoin" />
