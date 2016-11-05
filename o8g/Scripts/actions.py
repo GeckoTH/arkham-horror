@@ -500,13 +500,13 @@ def loadBasicWeaknesses(group, x = 0, y = 0):
 #   debug("numDone() == {}".format(count))
 #   return count
     
-# def highlightPlayer(p, state):
-#   if len(getPlayers()) <= 1:
-#       return
-#   debug("highlightPlayer {} = {}".format(p, state))
-#   for card in table:
-#       if card.Type == "Investigator" and card.controller == p and card.isFaceUp:
-#           card.highlight = state
+def highlightPlayer(p, state):
+    if len(getPlayers()) <= 1:
+        return
+    debug("highlightPlayer {} = {}".format(p, state))
+    for card in table:
+        if card.Type == "Investigator" and card.controller == p and card.isFaceUp:
+            card.highlight = state
 
 #Highlight all players to show his status
 #def highlightPlayers():
@@ -818,14 +818,10 @@ def isEnemy(cards):
 #   else:
 #       whisper("Turn Management is turned off")
     
-# def phaseManagement():
-#   mute()
-#   return getGlobalVariable("Automation") == "Phase"
-
-# def turnManagement():
-#   mute()
-#   auto = getGlobalVariable("Automation")
-#   return auto == "Turn" or len(auto) == 0
+def turnManagement():
+    mute()
+    auto = getGlobalVariable("Automation")
+    return auto == "Turn" or len(auto) == 0
     
 # def automate():
 #   mute()
@@ -889,21 +885,12 @@ def randomNumber(group, x=0, y=0):
     if max == None: return
     notify("{} randomly selects {} (1 to {})".format(me, rnd(1,max), max))
 
-# def readyForRefresh(group, x = 0, y = 0):
-#   mute()
-#   if phaseManagement():
-#       whisper("Phase Management will automate this operation")
-#       return
-    
-#   if turnManagement():
-#       if shared.counters['Phase'].value < 7:
-#           highlightPlayer(me, WaitingColour)
-#           setPlayerDone(6, 3) # Mark step 6 (combat) as done - i.e. ready to refresh          
-#       return
-    
-#   doRestoreAll(group)
-#   me.counters['Threat_Level'].value += 1
-#   notify("{} increases threat to {}.".format(me, me.counters['Threat_Level'].value))
+def readyForRefresh(group, x = 0, y = 0):
+    mute()
+    if turnManagement():
+        highlightPlayer(me, WaitingColour)
+        #setPlayerDone(6, 3) # Mark step 6 (combat) as done - i.e. ready to refresh
+    doRestoreAll(group)
     
 def doRestoreAll(group=table): 
     mute()
