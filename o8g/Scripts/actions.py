@@ -369,10 +369,6 @@ def setActivePlayer(p):
 #   return getPlayer(num(getGlobalVariable("activePlayer")))
 #   
 #def setPlayerDone(phase=-1, step=-1):
-#   if phase == -1:
-#       phase = shared.counters['Phase'].value
-#   if step == -1:
-#       step = shared.counters['Step'].value
 #   me.setGlobalVariable("done", "{}.{}.{}.{}".format(getGlobalVariable("game"), shared.counters['Round'].value, phase, step))
 #   updatePhase()
 #   update()
@@ -479,13 +475,6 @@ def loadBasicWeaknesses(group, x = 0, y = 0):
     else:
         notify("{}'s Basic Weakness Deck already loaded.".format(me))
         
-#Triggered event OnChangeCounter
-# def counterChanged(player, counter, oldV): 
-#   if counter == shared.counters['Round']:
-#       fp = getFirstPlayerToken()
-#       if fp is not None and fp.controller == me:
-#           fp.markers[Turn] = shared.counters['Round'].value
-
 # #Triggered event OnPlayerGlobalVariableChanged
 # #We use this to manage turn and phase management by tracking changes to the player "done" variable            
 # def globalChanged(player, var, oldV, newV):
@@ -771,27 +760,10 @@ def isEnemy(cards):
 # Table group actions
 #---------------------------------------------------------------------------
 
-# def turnManagementOn(group, x=0, y=0):
-#   mute()
-#   setGlobalVariable("Automation", "Turn")
-#   clearHighlights(group)
-#   if me == encounterDeck().controller:
-#       clearPhase()
-#   else:
-#       remoteCall(encounterDeck().controller, "clearPhase", [])
-#   notify("{} enables Turn Management for all players".format(me))
-#   notify("Use ctrl+N to advance the turn")
-    
-# def phaseManagementOn(group, x = 0, y = 0):
-#   mute()
-#   setGlobalVariable("Automation", "Phase")
-#   highlightPlayers()
-#   if me == encounterDeck().controller:
-#       showPhase()
-#   else:
-#       remoteCall(encounterDeck().controller, "showPhase", [])
-#   notify("{} enables Phase Management for all players".format(me))
-#   notify("Use ctrl+Right Arrow to advance the phase/step")
+def turnManagementOn(group, x=0, y=0):
+    mute()
+    setGlobalVariable("Automation", "Turn")
+    clearHighlights(group)
     
 # def automationOff(group, x = 0, y = 0):
 #   mute()
@@ -1113,49 +1085,37 @@ def nextActStage(group=None, x=0, y=0):
 def nextAct(group = None, x = 0, y = 0):
     nextActStage(group, x, y)
 
-# def readyForNextRound(group=table, x=0, y=0):
-#   mute()
-#   if phaseManagement():
-#       whisper("Phase Management will automate this operation")
-#       return
+def readyForNextRound(group=table, x=0, y=0):
+    mute()
+    if turnManagement():
+        highlightPlayer(me, DoneColour)
+        #setPlayerDone(7, 1) # Mark phase 7 (Refresh) as complete - i.e. ready for next round
 
-#   if turnManagement():
-#       highlightPlayer(me, DoneColour)
-#       setPlayerDone(7, 1) # Mark phase 7 (Refresh) as complete - i.e. ready for next round
-#       return
+    # this needs to wait for lead investigator
+    doUpkeepPhase()
+    # limit this only for lead investigator
+    shared.counters['Round'].value += 1
 
-#   clearTargets()
-#   draw(me.deck)
-#   for card in group:
-#       if card.Type == "Hero" and card.controller == me and not isLocked(card):
-#           addResource(card)
+def doUpkeepPhase():
+    mute()
+    debug("doUpkeepPhase()")
 
-#doNextRound
-#Draw a card and add a resource to each hero
-# def doNextRound():
-#   mute()  
-#   debug("doNextRound()")
+    if activePlayers() == 0:
+        whisper("All players have been eliminated: You have lost the game")
+        return
+    if eliminated(me):
+        whisper("You have been eliminated from the game")
+        return
 
-#   if activePlayers() == 0:
-#       whisper("All players have been eliminated: You have lost the game")
-#       return      
-#   if eliminated(me):
-#       whisper("You have been eliminated from the game")
-#       return
-        
-#   clearTargets()
-#   if me.Willpower <> 0:
-#       me.Willpower = 0
-#   draw(me.deck)
-#   for card in table:
-#       if card.Type == "Hero" and card.controller == me and not isLocked(card) and card.isFaceUp:
-#           addResource(card)
-            
-#   if not phaseManagement():
-#       clearHighlights()
+    clearTargets()
+    doRestoreAll()
+    draw(me.deck)
+    for card in table:
+        if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
+            addResource(card)
+
+    clearHighlights()
     
-#   if me == encounterDeck().controller:
-#       resourceReminders()
                     
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()

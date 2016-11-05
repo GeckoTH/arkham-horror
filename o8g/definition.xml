@@ -88,10 +88,8 @@
 		<groupactions menu="Automation">
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
-			<groupaction menu="Enable Phase Management" default="False" execute="phaseManagementOn" />
 			<groupaction menu="Calculate Score" default="False" shortcut="ctrl+C" execute="calcScore" />
 			<groupaction menu="Create Done button" default="False" execute="createDoneButton" />
-			<groupaction menu="Create first player token" default="False" execute="createFirstPlayerToken" />
 			<groupaction menu="Help - Automation modes" default="False" execute="automationHelp" />
 		</groupactions>
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
