@@ -94,6 +94,7 @@
 			<groupaction menu="Create first player token" default="False" execute="createFirstPlayerToken" />
 			<groupaction menu="Help - Automation modes" default="False" execute="automationHelp" />
 		</groupactions>
+		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
 		<cardactions menu="Add Token">
 			<cardaction menu="Add Resource" default="False" shortcut="F1" execute="addResource" />
