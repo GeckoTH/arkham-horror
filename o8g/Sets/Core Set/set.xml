@@ -15,6 +15,15 @@
     <property name="Sanity" value="5"/>
     <property name="Traits" value="Agency. Detective."/>
     <property name="Text" value="ι After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)&#10;ε effect: +1 for each clue on your location."/>
+		<!-- Start rushl: Add back to Investigator Cards -->
+		<alternate name="Roland Banks" type="B">
+			<property name="Quantity" value="1"/>
+			<property name="Subtitle" value="The Fed"/>
+			<property name="Unique" value="ο"/>
+			<property name="Type" value="Investigator"/>
+			<property name="Class" value="Guardian"/>
+		</alternate>
+		<!-- End rushl -->
   </card>
   <card id="53463cb2-2261-4d8b-b948-d8f7a926ed79" name="Daisy Walker" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -30,6 +39,15 @@
     <property name="Sanity" value="9"/>
     <property name="Traits" value="Miskatonic."/>
     <property name="Text" value="You may take an additional action during your turn, which can only be used on Tome η abilities.&#10;ε effect: +0. If you succeed, draw 1 card for each Tome you control."/>
+		<!-- Start rushl: Add back to Investigator Cards -->
+		<alternate name="Daisy Walker" type="B">
+			<property name="Quantity" value="1"/>
+			<property name="Subtitle" value="The Librarian"/>
+			<property name="Unique" value="ο"/>
+			<property name="Type" value="Investigator"/>
+			<property name="Class" value="Seeker"/>
+		</alternate>
+		<!-- End rushl -->
   </card>
   <card id="4074eb1e-2341-4ff8-be20-d220621fa3c4" name="&quot;Skids&quot; O'Toole" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -45,6 +63,15 @@
     <property name="Sanity" value="6"/>
     <property name="Traits" value="Criminal."/>
     <property name="Text" value="θ During your turn, spend 2 resources: You may take an additional action this turn. (Limit once per turn.)&#10;ε effect: +2. If you succeed, gain 2 resources."/>
+		<!-- Start rushl: Add back to Investigator Cards -->
+		<alternate name="&quot;Skids&quot; O'Toole" type="B">
+			<property name="Quantity" value="1"/>
+			<property name="Subtitle" value="The Ex-Con"/>
+			<property name="Unique" value="ο"/>
+			<property name="Type" value="Investigator"/>
+			<property name="Class" value="Rogue"/>
+		</alternate>
+		<!-- End rushl -->
   </card>
   <card id="207654c5-69a2-467b-b4ab-bfeffd28d310" name="Agnes Baker" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -60,6 +87,15 @@
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Sorcerer."/>
     <property name="Text" value="ι After 1 or more horror is placed on Agnes Baker: Deal 1 damage to an enemy at your location. (Limit once per phase.)&#10;ε effect: +1 for each horror on Agnes Baker."/>
+		<!-- Start rushl: Add back to Investigator Cards -->
+		<alternate name="Agnes Baker" type="B">
+			<property name="Quantity" value="1"/>
+			<property name="Subtitle" value="The Waitress"/>
+			<property name="Unique" value="ο"/>
+			<property name="Type" value="Investigator"/>
+			<property name="Class" value="Mystic"/>
+		</alternate>
+		<!-- End rushl -->
   </card>
   <card id="e8b6e380-16f3-40d7-af47-484db614ea18" name="Wendy Adams" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -75,6 +111,15 @@
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Drifter."/>
     <property name="Text" value="ι When you reveal a chaos token, choose and discard 1 card from your hand: Cancel that chaos token and return it to the bag. Reveal a new chaos token. (Limit once per test/ability.)&#10;ε effect: +0. If Wendy's Amulet is in play, you automatically succeed instead."/>
+		<!-- Start rushl: Add back to Investigator Cards -->
+		<alternate name="Wendy Adams" type="B">
+			<property name="Quantity" value="1"/>
+			<property name="Subtitle" value="The Urchin"/>
+			<property name="Unique" value="ο"/>
+			<property name="Type" value="Investigator"/>
+			<property name="Class" value="Survivor"/>
+		</alternate>
+		<!-- End rushl -->
   </card>
   <card id="4bb7b957-a180-4421-ad42-49704e11a3a5" name="Roland's .38 Special">
     <property name="Quantity" value="1"/>
