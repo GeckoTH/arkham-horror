@@ -1380,6 +1380,20 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
     <property name="Text" value="η: Resign. You don't want to risk taking too long, so you head to safety with the information you've gathered."/>
+    <alternate name="The Masked Hunter" type="B">
+		<property name="Encounter Set" value="The Midnight Masks"/>
+		<property name="Subtitle" value="Silently Stalking"/>
+		<property name="Unique" value="ο"/>
+		<property name="Type" value="Enemy"/>
+		<property name="Combat" value="4"/>
+		<property name="Agility" value="2"/>
+		<property name="Health" value="4"/>
+		<property name="Damage" value="2"/>
+		<property name="Horror" value="1"/>
+		<property name="Victory Points" value="2"/>
+		<property name="Keywords" value="Spawn - Engaged with prey.Prey - Most Clues.Hunter."/>
+		<property name="Text" value="The Masked Hunter gets +2 health per investigator.While you are engaged with The Masked Hunter, you cannot discover or spend clues."/>
+    </alternate>
   </card>
   <card id="947bb975-8eb2-45a7-bc68-ea58a50190da" name="The Masked Hunter" size="EncounterCard">
     <property name="Quantity" value="1"/>
