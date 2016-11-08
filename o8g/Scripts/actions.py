@@ -984,7 +984,7 @@ def nextEncounter(group, x, y, facedown, who=me):
     if x == 0 and y == 0:  #Move to default position in the staging area
         addToStagingArea(card, facedown, who)       
     else:
-        card.moveToTable(x-card.width()/2, y-card.height()/2, facedown)
+        card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
     card.controller = who
     if len(group) == 0:
