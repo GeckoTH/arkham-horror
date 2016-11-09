@@ -110,7 +110,7 @@
 			<cardaction menu="Remove Horror" default="False" shortcut="F9" execute="subHorror" />
 			<cardaction menu="Remove Doom" default="False" shortcut="F10" execute="subDoom" />
 		</cardactions>
-		<cardaction menu="Exhaust/Ready" default="False" shortcut="F7" execute="kneel" />
+		<cardaction menu="Exhaust/Ready" default="False" shortcut="F7" execute="exhaust" />
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
 		<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 		<cardaction menu="Discard to Special Discard" default="False" shortcut="shift+Del" execute="discardSpecial" />
