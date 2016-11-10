@@ -1035,6 +1035,33 @@ def nextAgendaStage(group=None, x=0, y=0):
     agendaSetup(card)
     notify("{} advances agenda to '{}'".format(me, card))
 
+    
+def nextActStage(group=None, x=0, y=0):
+    mute()
+    
+    #We need a new Act card
+    if group is None or group == table:
+        group = actDeck()
+    if len(group) == 0: return
+    
+    if group.controller != me:
+        remoteCall(group.controller, "nextActStage", [group, x, y])
+        return
+        
+    if x == 0 and y == 0: #The keyboard shortcut was used
+        #Count Agenda cards already on table to work out where to put this one
+        #n, count = questCount(table)
+        #x = QuestStartX + 89*(count // 2) + 64*n
+        #y = QuestStartY + 64*(count % 2)   
+        x = ActX
+        y = ActY
+            
+    card = group.top()
+    card.moveToTable(x, y)
+    
+    notify("{} advances act to '{}'".format(me, card))	
+	
+	
 def addToTable(card):
     x = AgendaX - 45.5
     y = -96
@@ -1457,7 +1484,13 @@ def discard(card, x=0, y=0):
         notify("{} discards '{}'".format(me, card))
         nextAgendaStage()
         return
-
+        
+    if card.Type == "Act": #If we remove the only Act card then we reveal the next one
+        card.moveToBottom(actDiscard())
+        notify("{} discards '{}'".format(me, card))
+        nextActStage()
+        return
+		
     if isPlayerCard(card):
         pile = card.owner.piles['Discard Pile']
     elif isLocationCard(card):
