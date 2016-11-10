@@ -1012,12 +1012,6 @@ def nextLocation(group, x, y, who=me):
 def nextAgendaStage(group=None, x=0, y=0):
     mute()
     
-    #If the current Agenda card has side A showing it is simply flipped and we are done
-    for c in table:
-        if c.Type in ("Agenda") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
-            flipcard(c)
-            return
-    
     #We need a new Agenda card
     if group is None or group == table:
         group = agendaDeck()
@@ -1037,17 +1031,6 @@ def nextAgendaStage(group=None, x=0, y=0):
             
     card = group.top()
     card.moveToTable(x, y)
-#   setReminders(card)
-    # if card.Type in ("Nightmare", "Campaign"):
-    #   card.moveToTable(x, y+1)
-    #   notify("{} begins a {} quest '{}'".format(me, card.Type, card))
-    #   questSetup(card)
-    #   if card.Type == "Nightmare":
-    #       flipcard(card)
-    #   #Reveal and place the real quest card
-    #   if len(group) > 0:
-    #       card = group[0]
-    #       card.moveToTable(x+64, y)
     
     agendaSetup(card)
     notify("{} advances agenda to '{}'".format(me, card))
@@ -1472,9 +1455,7 @@ def discard(card, x=0, y=0):
     if card.Type == "Agenda": #If we remove the only Agenda card then we reveal the next one
         card.moveToBottom(agendaDiscard())
         notify("{} discards '{}'".format(me, card))
-        n, c = agendaCount(table)
-        if c == 0:
-            nextAgendaStage()
+        nextAgendaStage()
         return
 
     if isPlayerCard(card):
