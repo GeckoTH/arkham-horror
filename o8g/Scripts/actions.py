@@ -840,6 +840,13 @@ def isEnemy(cards):
 # def createFirstPlayerToken(group, x=0, y=0):
 #   moveFirstPlayerToken(x, y)
 
+def createChaosBag(group, x=0, y=0):
+  for c in group:
+      if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
+          c.moveToTable(x, y)
+          return
+  group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosTokenX, ChaosTokenY, 1, False)
+
 def flipCoin(group, x = 0, y = 0):
     mute()
     n = rnd(1, 2)
@@ -1300,6 +1307,10 @@ def defaultAction(card, x = 0, y = 0):
         flipcard(card, x, y)
     elif card.Type == "Enemy": #Add damage
         addDamage(card, x, y)
+    elif card.Type == "Chaos Bag": #Draw Chaos Token
+        drawChaosToken(card, x, y)
+    elif card.Type == "Chaos Token": #Discard Chaos Token
+        discard(card, x, y)
     else:
         exhaust(card, x, y)
         
