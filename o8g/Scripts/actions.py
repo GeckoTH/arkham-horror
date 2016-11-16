@@ -1510,8 +1510,8 @@ def discardSpecial(card, x=0, y=0):
 
     if isPlayerCard(card):
         pile = specialDiscard()
-    elif isSpecialCard(card):
-        pile = specialDiscard()
+    #elif isSpecialCard(card):
+        #pile = specialDiscard()
     else:
         pile = specialDiscard()
         
