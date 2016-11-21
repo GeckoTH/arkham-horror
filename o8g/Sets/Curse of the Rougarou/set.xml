@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Curse of the Rougarou" id="165c7dee-c816-4b42-8cbc-8e1a4d7045e5" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="8766f3ee-8561-4575-bfe6-5cfe1cb955db" name="Curse of the Rougarou">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="α -2 (-4 instead if you are at a Bayou location)β -2. If The Rougarou is in you location, reveal another token.γ Reveal another token. If you fail, until the end of the round, you cannot move.δ -4. If The Rougarou is at your location, it attacks you."/>
+    <alternate name="Curse of the Rougarou" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Text" value="α -3 (-6 instead if you are at a Bayou location)β -3. If The Rougarou is in you location, reveal another token.γ Reveal another token. If you fail, until the end of the round, you cannot move.δ -4. If The Rougarou is at your location or a connecting location, it attacks you."/>
+    </alternate>
+  </card>
+  <card id="885f651f-7908-4f6f-8f55-2809536804e5" name="A Creature of the Bayou" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <alternate name="Darkened Skies" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.If The Rougarou is in play, find a non-Bayou location with the fewest clues on it. Move The Rougarou (one location at a time) until it enters that location.If The Rougarou is not in play, after advancing to agenda 2a, add 1 doom to that agenda."/>
+    </alternate>
+  </card>
+  <card id="26dfbefe-7974-4712-a0bd-f0a1d21cdc24" name="The Rougarou Feeds" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <alternate name="The Tenth Night" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle all copies of On the Prowl from the encounter discard pile into the encounter deck.If The Rougarou is in play, find a non-Bayou location with the fewest clues on it. Move The Rougarou (one location at a time) until it enters that location.If The Rougarou is not in play, after advancing to agenda 3a, add 1 doom to that agenda."/>
+    </alternate>
+  </card>
+  <card id="c6a861ed-eda1-44d9-8d40-e943a83ee40a" name="The Curse Spreads" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="8"/>
+    <property name="Text" value="Forced – At the end of the investigation phase, if The Rougarou is not engaged with an investigator: Add 1 doom to this agenda."/>
+    <alternate name="Taken by the Curse" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The bearer of the Curse of the Rougarou weakness read the following (out loud):You feel something dripping from your hand, and are surprised to find your knuckles bloody and torn. Nearby, the bard of a tree is smashed and dripping with blood. The anger of your failure slowly fades as you realize the blood is yours.(→R1)----------------------------If no investigators gained the Curse of the Rougarou:(→R1)"/>
+    </alternate>
+  </card>
+  <card id="6bcc2743-5d10-4b38-aa9e-444da02ce43b" name="Finding Lady Esprit" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective – Only investigators at a Bayou location may spend the requisite number of clues, as a group, to advance.Put the set-aside Lady Esprit into play at Bayou location. Put into play each set aside location. Put the set-aside The Rougarou enemy into play at any non-Bayou location. Shuffle the encounter discard pile and each encounter card from the Curse of the Rougarou encounter set into the encounter deck."/>
+    <alternate name="Understanding the Curse" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The lead investigator reads the following (out loud):As you leave Lady Esprit's shack, a terrible sickness courses through you, and you drop to your knees.The lead investigator puts the set-aside Curse of the Rougarou weakness into play in his or her threat area."/>
+    </alternate>
+  </card>
+  <card id="dc6662ce-df77-4fc7-8d70-1288586dfd4f" name="Hunting the Rougarou" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="The Rougarou is somewhere within the vast bayou. You must track it down and destroy it, lest the beast's curse consume you as well.Forced - After The Rougarou leaves a location: Place 1 clue from the token bank on that location.Objective - &quot;We have to destry the beast!&quot;If The Rougarou is defeated: (→R2)Objective - &quot;Maybe there's another way...&quot;While an investigator is engaged with The Rougarou, he or she may choose to advance. (Limit once per phase.)"/>
+    <alternate name="Taming the Rougarou" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Conversing with the creature is a daunting task. Whenever it is cornered, it bellows and attacks, like a feral beast. If there is still some semblance of humanity left inside the create, it is buried deep beneath the rage and bloodlust of the curse.If each of the following requirements are met, proceed to (→R3). Otherwise, flip this act back to its &quot;a&quot; side.    &quot;We must learn more about the curse.&quot; The investigators must have 4π  clues, as a group.    &quot;We must keep it contained.&quot; The Rougarou must have a Trap card attached to it.    &quot;We must protected ourseleves.&quot; The Rougarou must have at least 1π  damage on it.    &quot;We must calm it down.&quot; The investigators must have either &quot;found a binding stone&quot; or &quot;found a strange doll.&quot;"/>
+    </alternate>
+  </card>
+  <card id="fcb8a3b7-d3b7-4cfb-bb90-2468e6375ea0" name="Cursed Shores" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="New Orleans. Bayou."/>
+    <alternate name="Cursed Shores" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="New Orleans. Bayou."/>
+      <property name="Text" value="η: Take 1 damage. You get +2 to your skill value for the next skill test you make this turn.Forced – When you leave Cursed Shores: Choose and discard a skill card from your hand."/>
+    </alternate>
+  </card>
+  <card id="eb2e854d-6be4-498c-b618-458252d2086b" name="New Orleans" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="New Orleans"/>
+    <alternate name="New Orleans" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="Garden District"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="New Orleans"/>
+      <property name="Text" value="η: Test ί (7) to try to break into a nearby greenhouse and take a look around. If you succeed, remember that the investigators have &quot;found a strange doll.&quot;"/>
+    </alternate>
+  </card>
+  <card id="41e46a62-8a4d-43f6-bf20-2435bd1f3a44" name="New Orleans" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="New Orleans"/>
+    <alternate name="New Orleans" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="Broadmoor"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="New Orleans"/>
+      <property name="Text" value="η: Resign. &quot;We can't catch the beast!&quot; You make your way to safety, letting the beast roam free."/>
+    </alternate>
+  </card>
+  <card id="5061a457-9b57-42f6-9fa6-1b5f21003fc3" name="Brackish Waters" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Riverside. Bayou."/>
+    <alternate name="Brackish Waters" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Riverside. Bayou."/>
+      <property name="Text" value="While you are at Brackish Waters, you cannot play assets.η Discard 2 assets from your hand or from play: Test ί (3) to wade through the dark waters and retrieve an abandoned fishing net. If you succeed, take control of the set-aside Fishing Net asset."/>
+    </alternate>
+  </card>
+  <card id="1dd36929-a0a1-4101-b5e3-016a92682058" name="Riverside" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Riverside"/>
+    <alternate name="Riverside" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="Audubon Park"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Riverside"/>
+      <property name="Text" value="Forced – When you evade an enemy at Audubon Park: Discard a random card from your hand."/>
+    </alternate>
+  </card>
+  <card id="12f2594a-e6cb-451c-ba20-62521e291ade" name="Riverside" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Riverside"/>
+    <alternate name="Riverside" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="Faubourg Marigny"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Riverside"/>
+      <property name="Text" value="While you are at Fauborg Marigny, reduce the cost of each asset you play by 1.η : Resign. &quot;We can't catch the beast!&quot; You make your way to safety, letting the beast roam free."/>
+    </alternate>
+  </card>
+  <card id="5d9d3940-2340-443f-80d4-bd6c4f796130" name="Forgotten Marsh" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Wilderness. Bayou."/>
+    <alternate name="Forgotten Marsh" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Wilderness. Bayou."/>
+      <property name="Text" value="Forced – When you leave Forgotten Marsh: Lose 2 resources."/>
+    </alternate>
+  </card>
+  <card id="2479d771-1c28-443d-b357-124128f8fab1" name="Wilderness" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Wilderness."/>
+    <alternate name="Wilderness" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="Trapper's Cabin"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Wilderness."/>
+      <property name="Text" value="While you are at Trapper's Cabin, you cannot gain resources.η Spend 5 resources: Test έ (3) to convince an old trapper to sell you his last bear trap. If you succeed, take control of the set-aside Bear Trap asset."/>
+    </alternate>
+  </card>
+  <card id="c36d6fa7-df5b-4956-aabe-2f2798ae18cd" name="Wilderness" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Wilderness."/>
+    <alternate name="Wilderness" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="Twisted Underbrush"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Wilderness."/>
+      <property name="Text" value="η : Gain 2 resources and take 1 horror."/>
+    </alternate>
+  </card>
+  <card id="1f840051-0710-4a63-a360-c3883aa1f599" name="Foul Swamp" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value=" Unhallowed. Bayou."/>
+    <alternate name="Foul Swamp" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value=" Unhallowed. Bayou."/>
+      <property name="Text" value="While you are at Foul Swamp, you cannot heal horror or cancel horror.η Take up to 3 horror: Test ά (7) to search the boneyard. You get +1 ά for this test for each horror taken as part of this abilities cost. If you succeed, remember that the investigators have &quot;found an ancient binding stone.&quot;"/>
+    </alternate>
+  </card>
+  <card id="a4cf462c-6303-45b5-bd68-20ae8ce4acfa" name="Unhallowed Land" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Unhallowed."/>
+    <alternate name="Unhallowed Land" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="Ritual Grounds"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Unhallowed."/>
+      <property name="Text" value="Forced – After you end your turn at Ritual Grounds: Draw 1 card and take 1 horror."/>
+    </alternate>
+  </card>
+  <card id="e2f66c2d-ad4d-4dde-9130-e3c4babe168b" name="Unhallowed Land" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Unhallowed."/>
+    <alternate name="Unhallowed Land" type="B">
+      <property name="Encounter Set" value="The Bayou"/>
+      <property name="Subtitle" value="Overgrown Cairns"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Unhallowed."/>
+      <property name="Text" value="η  – Spend 2 resources: Heal 2 horror. (Limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="2046ee30-8aa0-41b8-a824-11525fcb94ad" name="Lady Esprit">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Cost" value="4"/>
+    <property name="Sanity" value="4"/>
+    <property name="Damage" value="2"/>
+    <property name="Skill Icons" value="ά έ ΰ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Sorcerer. "/>
+    <property name="Text" value="η Exhaust Lady Esprit and deal her 1 horror: Heal 2 damage or gain 2 resources. Any investigator at Lady Esprit's location may activate this ability."/>
+  </card>
+  <card id="7f80ca4a-7027-485a-bb47-0d795339131e" name="Bear Trap">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Asset"/>
+    <property name="Traits" value="Trap."/>
+    <property name="Text" value="θ : Attach Bear Trap to your location.Forced – After The Rougarou enters attached location: Attach Bear Trap to The Rougarou.Attached enemy gets -1 fight and -1 evade."/>
+  </card>
+  <card id="2636b519-938c-466d-b99d-ef1c96204183" name="Fishing Net">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Asset"/>
+    <property name="Traits" value="Trap."/>
+    <property name="Text" value="θ If The Rougarou is exhausted and at your location: Attach Fishing Net to The Rougarou.Attached enemy loses retaliate."/>
+  </card>
+  <card id="963e2cb1-5fd7-4270-a9c5-f66a48851ff3" name="Bog Gator" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Keywords" value="Prey – Lowest ί ."/>
+    <property name="Text" value="While Bog Gator is at a Bayou location, it gets +2 fight and +2 evade."/>
+  </card>
+  <card id="f466cb9e-e126-40e8-9c59-a4e552a76e3a" name="Swamp Leech" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="0"/>
+    <property name="Health" value="1"/>
+    <property name="Damage" value="1"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Keywords" value="Spawn – Any Bayou location."/>
+    <property name="Text" value="Swamp Leech cannot be evaded.Forced – When Swamp Leech enters a non-Bayou location: Discard it."/>
+  </card>
+  <card id="9c723742-4bb0-4ec6-a199-950e4c68cb70" name="Cursed Swamp" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation – Test ά (3). For each point you fail by, take 1 damage. If you are at a Bayou location, you cannot commit cards to this skill test."/>
+  </card>
+  <card id="0af6fd5c-79ba-434a-8f4b-2942bdf3d634" name="Spectral Mist" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation – Attach to a Bayou location. Limit 1 per location.Each skill test performed at attached location gets +1 difficulty.η : Test έ (2) to disrupt the source of the mist. If you suceed, discard Spectral Mist."/>
+  </card>
+  <card id="2b664214-f205-41ca-b4aa-e0c24191b7c2" name="Dragged Under" size="EncounterCard">
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation – Test ί (3). If you fail, add Dragged Under to your threat area.Forced – When you leave your current location: take 2 damage and discard Dragged Under.Forced – At the end of your turn: Test ί (3). If you succeed, discard Dragged Under."/>
+  </card>
+  <card id="a6816970-ff41-4ffe-91ab-20a7cffd7c41" name="Ripples on the Surface" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Bayou"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation – Test ά (3). For each point you fail by, take 1 horror. If you are at a Bayou location, you cannot commit cards to this skill test."/>
+  </card>
+  <card id="ed7463fc-09bf-4cfd-a9e1-e8d7440dd669" name="The Rougarou" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Sanity" value="2"/>
+    <property name="Damage" value="2"/>
+    <property name="Traits" value="Monster. Creature. Elite. "/>
+    <property name="Keywords" value="Aloof. Retaliate."/>
+    <property name="Text" value="As an additional cost for an investigator to engage The Rougarou, the investigators must spend 1 clue, as a group (2 clues instead if there are 3 or 4 investigators).Forced – After The Rougarou takes 1 π  damage during a single phase: Find the location that is farthest from all investigator. Move The Rougarou (one location at a time) until it enters that location."/>
+  </card>
+  <card id="a3999064-2037-41be-b205-1b45c0303e22" name="Curse of the Rougarou">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Curse."/>
+    <property name="Text" value="Revelation – Put Curse of the Rougarou into play in your threat area.Forced – At the end of your turn, if you have not dealt any damage this turn: Take 1 horror."/>
+  </card>
+  <card id="4d68f0af-6c09-47f4-a736-5f226282c85d" name="Monstrous Transformation">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Type" value="Asset"/>
+    <property name="Cost" value="0"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Keywords" value="Fast."/>
+    <property name="Text" value="Set the base value of your ά and έ to 2.Set the base value of your ή and ί to 5.η Exhaust Monstrous Transformation: Fight. You deal +1 damage for this attack."/>
+  </card>
+  <card id="bb5274ec-ddf1-42af-98ec-f9894853b50f" name="Slime-Covered Dhole" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="3"/>
+    <property name="Sanity" value="1"/>
+    <property name="Damage" value="1"/>
+    <property name="Traits" value=" Monster. Dhole. "/>
+    <property name="Keywords" value="Spawn – Any non-Bayou location.Prey – Lowest remaining health.Hunter."/>
+    <property name="Text" value="Forced – When Slime-Covered Dhole enters a location: Each investigator at that location takes 1 horror."/>
+  </card>
+  <card id="936a2b10-62bc-4111-af92-cfe571bbc6e1" name="Marsh Gug" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="4"/>
+    <property name="Sanity" value="1"/>
+    <property name="Damage" value="2"/>
+    <property name="Traits" value=" Monster. Gug. "/>
+    <property name="Keywords" value="Spawn – Any Bayou location.Hunter."/>
+  </card>
+  <card id="8c355925-69bd-4250-bae7-c7a8207e19a0" name="Dark Young Host" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="5"/>
+    <property name="Sanity" value="2"/>
+    <property name="Damage" value="2"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value=" Monster. Dark Young. "/>
+    <property name="Keywords" value="Spawn – Any Bayou location."/>
+    <property name="Text" value="Forced – When 1 or more clues are placed on Dark Young Host's location: Place those clues on Dark Young Host.Forced – When Dark Young Host is defeated: Move all clues on Dark Young Host to its location."/>
+  </card>
+  <card id="af15aac4-065e-42e5-a95a-139314036ca5" name="On the Prowl" size="EncounterCard">
+    <property name="Quantity" value="5"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Revelation – Find a non-Bayou location with the fewest clues on it. Move The Rougarou (one location at a time) until it enters that location."/>
+  </card>
+  <card id="561c595d-0b12-4ac7-8d4b-3467dc19ec0e" name="Beast of the Bayou" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="Revelation – The Rougarou makes an immediate attack against each investigator at the Rougarou's location and each connecting location. If no attacks were made by this effect, place 1 doom on the current agenda."/>
+  </card>
+  <card id="98c360e5-7899-423e-8ca0-cd36e0fa7100" name="Insatiable Bloodlust" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="Revelation – Attach to The Rougarou.The Rougarou gets +1 fight, +1 damage, +1 horror, and cannot be evaded.Forced – After The Rougarou takes damage: Discard Insatiable Bloodlust."/>
+  </card>
+ </cards>
+</set>
