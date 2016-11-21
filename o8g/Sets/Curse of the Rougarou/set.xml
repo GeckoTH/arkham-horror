@@ -422,7 +422,7 @@
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="3"/>
     <property name="Agility" value="3"/>
-    <property name="Health" value="5"/>
+    <property name="Health" value="5π"/>
     <property name="Sanity" value="2"/>
     <property name="Damage" value="2"/>
     <property name="Traits" value="Monster. Creature. Elite. "/>
