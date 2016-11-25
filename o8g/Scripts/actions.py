@@ -878,7 +878,7 @@ def readyForRefresh(group, x = 0, y = 0):
     if turnManagement():
         highlightPlayer(me, WaitingColour)
         #setPlayerDone(6, 3) # Mark step 6 (combat) as done - i.e. ready to refresh
-    doRestoreAll(group)
+    doRestoreAll()
     
 def doRestoreAll(group=table): 
     mute()
