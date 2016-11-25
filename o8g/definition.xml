@@ -21,6 +21,7 @@
 	<events>
 		<event name="OnGameStarted" action="startOfGame"/>
 		<event name="OnDeckLoaded" action="deckLoaded"/>
+		<event name="OnGlobalVariableChanged" action="globalChanged"/>
 	</events>
 	<fonts>
 		<font src="fonts/Calibri-Arkham.ttf" size="12" target="context" />

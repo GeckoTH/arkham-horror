@@ -368,10 +368,16 @@ def setActivePlayer(p):
 #def getActivePlayer():
 #   return getPlayer(num(getGlobalVariable("activePlayer")))
 #   
-#def setPlayerDone(phase=-1, step=-1):
-#   me.setGlobalVariable("done", "{}.{}.{}.{}".format(getGlobalVariable("game"), shared.counters['Round'].value, phase, step))
-#   updatePhase()
-#   update()
+def setPlayerDone():
+    done = getGlobalVariable("done")
+    if done:
+        playersDone = eval(done)
+    else:
+        playersDone = set()
+    playersDone.add(me._id)
+    setGlobalVariable("done", str(playersDone))
+    notify("done {}".format(str(playersDone)))
+    update()
 #   
 #def clearPlayerDone():
 #   me.setGlobalVariable("done", "")
@@ -477,17 +483,18 @@ def loadBasicWeaknesses(group, x = 0, y = 0):
         
 # #Triggered event OnPlayerGlobalVariableChanged
 # #We use this to manage turn and phase management by tracking changes to the player "done" variable            
-# def globalChanged(player, var, oldV, newV):
-#   debug("globalChanged(player {}, Variable {}, from {}, to {})".format(player, var, oldV, newV))
-#   if var == "done":
-#       updatePhase(player)
+def globalChanged(args):
+    debug("globalChanged(Variable {}, from {}, to {})".format(args.name, args.oldValue, args.value))
+    if args.name == "done":
+        updatePhase(args.player)
         
-# def numDone(phase=-1, step=-1):
-#   count = 0
-#   for p in getPlayers():
-#       if isPlayerDone(p, phase, step): count += 1
-#   debug("numDone() == {}".format(count))
-#   return count
+# calculate the number of plays that are Done
+def numDone():
+    done = getGlobalVariable("done")
+    if done:
+        return len(eval(done))
+    else:
+        return 0
     
 def highlightPlayer(p, state):
     if len(getPlayers()) <= 1:
@@ -567,10 +574,19 @@ def highlightPlayer(p, state):
 #We use this check to see if all players are ready to advance to the next phase 
 #Note - all players get called whenever any player changes state. To ensure we don't all do the same thing multiple times
 #       only the Encounter player is allowed to change the phase or step and only the player triggering the event is allowed to change the highlights   
+def updatePhase(who=me):
+    mute()
+    if not turnManagement():
+        return
+
+    notify("done updated: {} {}".format(numDone(), len(getPlayers())))
+    if numDone() == len(getPlayers()):
+        doUpkeepPhase()
+        setGlobalVariable("done", str(set()))
 # def updatePhase(who=me):
-#   mute()
-#   if not automate():
-#       return  
+#  #  mute()
+#  #  if not automate():
+#  #      return
     
 #   #Depending on current game state we either
 #   # Advance to next player
@@ -873,7 +889,7 @@ def doRestoreAll(group=table):
     for card in myCards:
         if not isLocked(card):
             card.orientation &= ~Rot90
-    notify("{} readies all his cards.".format(me))
+    notify("{} readies all their cards.".format(me))
     
 #Advance the first player token to the next player but don't change the OCTGN active player (yet)
 #This will be done at the end of the refresh phase
@@ -1087,14 +1103,10 @@ def nextAct(group = None, x = 0, y = 0):
 
 def readyForNextRound(group=table, x=0, y=0):
     mute()
+    notify("readyForNextRound {}".format(turnManagement()))
     if turnManagement():
         highlightPlayer(me, DoneColour)
-        #setPlayerDone(7, 1) # Mark phase 7 (Refresh) as complete - i.e. ready for next round
-
-    # this needs to wait for lead investigator
-    doUpkeepPhase()
-    # limit this only for lead investigator
-    shared.counters['Round'].value += 1
+        setPlayerDone()
 
 def doUpkeepPhase():
     mute()
@@ -1114,9 +1126,9 @@ def doUpkeepPhase():
         if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addResource(card)
 
+    shared.counters['Round'].value += 1
     clearHighlights()
-    
-                    
+
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
 
@@ -1147,7 +1159,6 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
 
         if newInvestigator:
             notify("{} places his Investigator on the table".format(me))
-            notify("Discard {}".format(len(me.piles['Discard Pile'])))
             if len(me.hand) == 0:
                 drawOpeningHand()
             for i in repeat(None, 5):
