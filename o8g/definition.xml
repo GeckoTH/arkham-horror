@@ -220,6 +220,7 @@
 	</shared>
 	<deck>
 		<section name="Investigator" group="Hand" />
+		<section name="Special" group="Discard Pile" />
 		<section name="Asset" group="Discard Pile" />
 		<section name="Event" group="Discard Pile" />
 		<section name="Skill" group="Discard Pile" />
