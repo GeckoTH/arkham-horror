@@ -9,7 +9,6 @@
     <marker id="62d688a4-46ef-45be-9414-2257a1221351" name="Lock" />
   </markers>
   
-	<!-- Start rushl: Add back to Chaos Tokens -->
   <cards>
     <card id="d8669f4c-aa2c-4ef1-ab0c-9202b08cf563" name="+1" size="ChaosToken">
       <property name="Type" value="Chaos Token" />
@@ -60,6 +59,5 @@
       <property name="Type" value="Chaos Token" />
     </card>
   </cards>
-	<!-- End rushl -->
 	
 </set>
