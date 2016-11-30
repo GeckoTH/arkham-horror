@@ -61,21 +61,6 @@ def moveCard(model, x, y):
             return c
     return table.create(model, x, y)
 
-#def moveFirstPlayerToken(x=0, y=0):
-#   return moveCard("15e40d4f-b763-4dcc-aa52-e32b64a992dd", x, y)
-#
-#def getFirstPlayerToken():
-#   for c in table:
-#       if c.model == "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
-#           return c
-#   return None
-#
-#def automationCard(x=0, y=0):
-#   return moveCard("72e54fdf-17b1-4358-b696-6c195e9696d1", x, y)
-#
-#def isSpecialCard(card):
-#   return card.Sphere == 'Special'
-#
 #Find and return this players left most hero card
 def firstInvestigator(player):
     first = None
@@ -335,28 +320,6 @@ def myID():
 def playerID(p):    
     return num(p.getGlobalVariable("playerID"))
 
-#FirstPlayer - the default value is the controller of the first player token
-#If there isn't one on the table the use the value stored in the global variable
-#def getFirstPlayerID():
-#   token = getFirstPlayerToken()
-#   var = getGlobalVariable("firstPlayer")
-#   if var is None or len(var) == 0:
-#       id = -1
-#   else:
-#       id = num(var)
-#   
-#   if token is None:       
-#       return id
-#   
-#   result = playerID(token.controller) 
-#   if id != result: #Ensure global is the in sync with controller of token
-#       setGlobalVariable("firstPlayer", str(result))
-#       update()
-#   return result       
-#   
-#def setFirstPlayer(id):
-    setGlobalVariable("firstPlayer", str(id))
-
 #In phase management this represents the player highlighted in green
 def setActivePlayer(p):
    if p is None:
@@ -364,10 +327,7 @@ def setActivePlayer(p):
    else:
        setGlobalVariable("activePlayer", str(playerID(p)))
    update()
-    
-#def getActivePlayer():
-#   return getPlayer(num(getGlobalVariable("activePlayer")))
-#   
+
 def setPlayerDone():
     done = getGlobalVariable("done")
     if done:
@@ -378,29 +338,7 @@ def setPlayerDone():
     setGlobalVariable("done", str(playersDone))
     notify("done {}".format(str(playersDone)))
     update()
-#   
-#def clearPlayerDone():
-#   me.setGlobalVariable("done", "")
-#   updatePhase()
-#   update()
-#   
-#def isPlayerDone(p, phase=-1, step=-1):
-#   debug("isPlayerDone({}): {}".format(p, p.getGlobalVariable("done")))
-#   when = p.getGlobalVariable("done").split('.')
-#   if len(when) != 4: return False
-#   game = num(getGlobalVariable("game"))
-#   if num(when[0]) > game: return True
-#   if num(when[0]) < game: return False
-#   if num(when[1]) > shared.counters['Round'].value: return True
-#   if num(when[1]) < shared.counters['Round'].value: return False
-#   if phase == -1:
-#       phase = shared.counters['Phase'].value
-#   if num(when[2]) > phase: return True
-#   if num(when[2]) < phase: return False
-#   if step == -1:
-#       step = shared.counters['Step'].value
-#   return num(when[3]) >= step
-#
+
 def deckLocked():
     return me.getGlobalVariable("deckLocked") == "1"
 
@@ -504,72 +442,6 @@ def highlightPlayer(p, state):
         if card.Type == "Investigator" and card.controller == p and card.isFaceUp:
             card.highlight = state
 
-#Highlight all players to show his status
-#def highlightPlayers():
-#   mute()
-#   active = getActivePlayer()
-#   debug("highlightPlayers: active = {}".format(active))
-#   for p in getPlayers():
-#       c = None
-#       if eliminated(p):
-#           c = EliminatedColour
-#       elif isPlayerDone(p):
-#           c = DoneColour
-#       elif active is None or p == active:
-#           c = ActiveColour
-#       else:
-#           c = WaitingColour
-#       highlightPlayer(p, c)
-            
-#def nextPhase():
-#   shared.counters['Phase'].value += 1
-#   shared.counters['Step'].value = 1
-#   
-#def nextStep():
-#   shared.counters['Step'].value += 1
-#
-#def showPhase():
-#   mute()
-#   phaseID = [ [0], [1], [2, 3, 4], [5], [6], [7, 8, 9], [10] ]
-#   phase = shared.counters['Phase'].value
-#   step = shared.counters['Step'].value
-#   x = StagingStart + StagingWidth / 2 - 36
-#   y = StagingY + 113
-#
-#   debug("showPhase: {} {}".format(phase, step))
-#   
-#   if phase == 0:
-#       notify("Player Setup")
-#       idx = -1
-#   else:
-#       idx = phaseID[phase-1][step-1]  
-#       
-#   phaseCard = None
-#   for c in table:
-#       if c.model in phases:
-#           if idx >= 0 and phaseCard is None and c.model == phases[idx]:
-#               phaseCard = c
-#           else:
-#               c.moveTo(me.piles['Discard Pile'])
-#   
-#   if idx >= 0:
-#       if phaseCard is None:
-#           phaseCard = table.create(phases[idx], x, y)
-#           notify("{} - {}".format(phaseCard, phaseCard.properties['Text']))
-#       else:
-#           phaseCard.moveToTable(x, y)
-        
-#def clearPhase():
-#   #Delete current phase card
-#   for c in table:
-#       if c.model in phases:
-#           c.moveTo(me.piles['Discard Pile'])
-
-#playerDone - called when player presses the Done button
-#Calls the setPlayerDone function to mark the player as ready (stored in their global variables)
-#Updating the Global variable will trigger an event that will then check to see if all players are ready to move to the next phase (see updatePhase())          
-
-
 #Called when the "done" global variable is changed by one of the players
 #We use this check to see if all players are ready to advance to the next phase 
 #Note - all players get called whenever any player changes state. To ensure we don't all do the same thing multiple times
@@ -583,173 +455,6 @@ def updatePhase(who=me):
     if numDone() == len(getPlayers()):
         doUpkeepPhase()
         setGlobalVariable("done", str(set()))
-# def updatePhase(who=me):
-#  #  mute()
-#  #  if not automate():
-#  #      return
-    
-#   #Depending on current game state we either
-#   # Advance to next player
-#   # Advance to next step of this phase
-#   # Advance to next phase
-#   # Advance to next round
-
-#   isActive = (getActivePlayer() == me and who == me)
-#   isEncounterPlayer = (encounterDeck().controller == me)
-    
-#   if turnManagement() and shared.counters['Phase'].value > 0 and shared.counters['Phase'].value < 6:
-#       #The phase and step will not have been updated in turn management mode so we skip straight to the end of combat (ready for refresh)
-#       if isEncounterPlayer:
-#           shared.counters['Phase'].value = 6
-#           shared.counters['Step'].value = 3
-#       phase = 6
-#       step = 3
-#   else:           
-#       phase = shared.counters['Phase'].value
-#       step = shared.counters['Step'].value
-#   debug("me = {} updatePhase({}): Phase {} Step {}".format(me, who, phase, step))
-        
-#   ready = (numDone(phase, step) >= activePlayers())
-
-#   if phase == 1: #Resource
-#       if ready and isEncounterPlayer:
-#           nextPhase()
-#           np = getPlayer(getFirstPlayerID())
-#           if eliminated(np):
-#               np = nextPlayer(playerID(np))
-#           setActivePlayer(np)
-#           if phaseManagement():
-#               highlightPlayers()
-#       elif phaseManagement() and who == me:
-#           highlightPlayers()
-#   elif phase == 2: #Planning
-#       if ready:
-#           if isEncounterPlayer:
-#               nextPhase()
-#               setActivePlayer(getPlayer(getFirstPlayerID()))
-#               if phaseManagement:
-#                   highlightPlayers()
-#       elif isActive:
-#           setActivePlayer(nextPlayer(playerID(me)))
-#           if phaseManagement():
-#               highlightPlayers()
-#   elif phase == 3: #Quest
-#       if step == 1: #Commit
-#           if ready:
-#               if isEncounterPlayer:
-#                   nextStep()
-#                   setActivePlayer(me)
-#                   if phaseManagement():
-#                       highlightPlayers()
-#           elif isActive:
-#               setActivePlayer(nextPlayer(playerID(me)))
-#               if phaseManagement():
-#                   highlightPlayers()
-#       elif step == 2: #Reveal Encounter cards
-#           if isActive:
-#               nextStep()
-#               setActivePlayer(None)
-#               if phaseManagement():
-#                   highlightPlayers()
-#       else: #Resolve questing
-#           if ready and isEncounterPlayer:
-#               nextPhase()
-#               setActivePlayer(None)
-#               if phaseManagement():
-#                   highlightPlayers()
-#           elif phaseManagement() and who == me:
-#               highlightPlayers()
-#   elif phase == 4: #Travel
-#       if ready and isEncounterPlayer:
-#           nextPhase()
-#           if phaseManagement():
-#               highlightPlayers()
-#       elif phaseManagement() and who == me:
-#           highlightPlayers()
-#   elif phase == 5: #Encounter
-#       if ready and isEncounterPlayer:
-#           nextPhase()
-#           np = getPlayer(getFirstPlayerID())
-#           if eliminated(np):
-#               np = nextPlayer(playerID(np))
-#           setActivePlayer(np)
-#           if phaseManagement():
-#               highlightPlayers()
-#       elif phaseManagement() and who == me:
-#           highlightPlayers()
-#   elif phase == 6: #Combat
-#       if step == 1: #Defend
-#           if ready:
-#               if isEncounterPlayer:
-#                   nextStep()
-#                   #First player to defend is first surviving player!
-#                   np = getPlayer(getFirstPlayerID())
-#                   if eliminated(np):
-#                       np = nextPlayer(playerID(np))
-#                   setActivePlayer(np)
-#                   if phaseManagement():
-#                       highlightPlayers()
-#           elif isActive:
-#               setActivePlayer(nextPlayer(playerID(me)))
-#               if phaseManagement():
-#                   highlightPlayers()
-#       elif step == 2: #Attack
-#           if ready:
-#               if isEncounterPlayer:
-#                   nextStep()
-#                   setActivePlayer(None)
-#                   if phaseManagement():
-#                       highlightPlayers()
-#           elif isActive:
-#               setActivePlayer(nextPlayer(playerID(me)))
-#               if phaseManagement():
-#                   highlightPlayers()
-#       else: 
-#           if ready: # Trigger refresh
-#               doRestoreAll()
-#               me.counters['Threat_Level'].value += 1
-#               notify("{} increases threat to {}.".format(me, me.counters['Threat_Level'].value))
-                
-#               #The first player token needs to move on in the refresh phase
-#               if getFirstPlayerID() == playerID(me):
-#                   advanceFirstPlayer()
-#               if me.isActivePlayer: # Anyone can act in the refresh phase         
-#                   setActivePlayer(None)
-#               if turnManagement() and not isPlayerDone(me, 7, 1): # Clear my refresh highlight if I'm not ready for phase 7
-#                   highlightPlayer(me, None)
-#               if isEncounterPlayer:
-#                   nextPhase()
-#                   refreshReminders()
-                
-#               #We need to check if we are ready to complete phase 7
-#               ready = (numDone(7, 1) >= activePlayers())
-#               if ready:
-#                   phase = 7
-#           if phaseManagement() and isEncounterPlayer:
-#               highlightPlayers()
-#   if phase == 7 or phase <= 0: #Refresh or Setup
-#       if ready:
-#           if me.isActivePlayer:
-#               if shared.counters['Round'].value > 0: # Skip this on the first game because we did it during player setup
-#                   getPlayer(getFirstPlayerID()).setActivePlayer()
-#               setActivePlayer(None)
-#           if isEncounterPlayer:
-#               # We really want all the other players to have completed running their call to this function before we advance the round
-#               # There is no official way to sync but calling rnd then update seems to do the trick
-#               rnd(1,2)
-#               update()
-#               shared.counters['Round'].value += 1
-#               shared.counters['Phase'].value = 1
-#               shared.counters['Step'].value = 1
-#               if phaseManagement():
-#                   highlightPlayers()
-#           doNextRound()
-#       elif phaseManagement() and who == me:
-#           highlightPlayers()  
-    
-    # #Show the updated game state by updating the phase card
-    # if phaseManagement() and isEncounterPlayer:
-    #   showPhase()
 
 #---------------------------------------------------------------------------
 # Table menu options
@@ -794,13 +499,6 @@ def turnManagementOn(group, x=0, y=0):
 # def automationHelp(group, x = 0, y = 0):
 #   mute()
 #   automationCard(x, y)
-#   if phaseManagement():
-#       whisper("Phase Management is on")
-#       highlightPlayers()
-#       if me == encounterDeck().controller:
-#           showPhase()
-#       else:
-#           remoteCall(encounterDeck().controller, "showPhase", [])
 #   elif turnManagement():
 #       whisper("Turn Management is on")
 #   else:
@@ -810,20 +508,6 @@ def turnManagement():
     mute()
     auto = getGlobalVariable("Automation")
     return auto == "Turn" or len(auto) == 0
-    
-# def automate():
-#   mute()
-#   return getGlobalVariable("Automation") != "Off"
-
-# def createDoneButton(group, x=0, y=0):
-#   for c in group:
-#       if c.owner == me and c.model == "4a4206d6-2ede-4d4a-bb11-c97cceaa7665":
-#           c.moveToTable(x, y)
-#           return
-#   group.create("4a4206d6-2ede-4d4a-bb11-c97cceaa7665", x, y, 1, False)
-
-# def createFirstPlayerToken(group, x=0, y=0):
-#   moveFirstPlayerToken(x, y)
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -877,7 +561,6 @@ def readyForRefresh(group, x = 0, y = 0):
     mute()
     if turnManagement():
         highlightPlayer(me, WaitingColour)
-        #setPlayerDone(6, 3) # Mark step 6 (combat) as done - i.e. ready to refresh
     doRestoreAll()
     
 def doRestoreAll(group=table): 
@@ -890,19 +573,6 @@ def doRestoreAll(group=table):
         if not isLocked(card):
             card.orientation &= ~Rot90
     notify("{} readies all their cards.".format(me))
-    
-#Advance the first player token to the next player but don't change the OCTGN active player (yet)
-#This will be done at the end of the refresh phase
-# def advanceFirstPlayer():
-#   mute()
-#   current = getFirstPlayerID() #This is the position (ID) of the current first player
-#   first = nextPlayer(current) 
-#   debug("New first player will be {}".format(first))
-                    
-#   if len(getPlayers()) > 1: #Put the first player token onto the table
-#       x, y = firstHero(first).position
-#       c = moveFirstPlayerToken(x, y+Spacing)
-#       c.setController(first)
 
 def resetEncounterDeck(group):
     if group == specialDeck():
@@ -1139,12 +809,9 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     unlockDeck()
     if doPlayer:
         id = myID() #This ensures we have a unique ID based on our position in the setup order
-        investigatorCount = countInvestigators(me)      
-        #if shared.counters['Round'].value == 0 and id == 0 and investigatorCount == 0: #First time actions
-            #me.setActivePlayer()
-            #setFirstPlayer(id)
+        investigatorCount = countInvestigators(me)
         
-        #Move Heroes to the table
+        #Move Investigators to the table
         newInvestigator = False
         investigator = filter(lambda card: card.Type == "Investigator", me.hand)
         mini = filter(lambda card: card.Type == "Mini", me.hand)
@@ -1163,10 +830,6 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
                 drawOpeningHand()
             for i in repeat(None, 5):
                 addResource(investigatorCard)
-            # if len(getPlayers()) > 1 and getFirstPlayerID() == playerID(me): #Put the first player token onto the table
-            #   x, y = firstHero(me).position
-            #   c = moveFirstPlayerToken(x, y+Spacing)
-            #   c.setController(me)
                     
     #If we loaded the encounter deck - add the first Agenda & Act card to the table
     if doEncounter or encounterDeck().controller == me:
@@ -1198,36 +861,6 @@ def removeWeaknessCards():
         card.moveTo(me.deck)
 
     return removeWeaknessCards()
-
-# def calcScore(group=None, x=0, y=0):
-#   mute()
-#   scoreTotal = 0
-#   scoreRound = 0
-#   scoreDamage = 0
-#   scoreDeadHeroes = 0
-#   scoreThreat = 0
-#   completedRounds = shared.counters['Round'].value - 1
-#   if completedRounds < 0:
-#       completedRounds = turnNumber() - 1
-#   if completedRounds < 0:
-#       notify("Set the global Round counter to the current round before calculating score!")
-#       return
-#   notify(":::Calculating Score...:::")
-#   scoreRound = completedRounds * 10
-#   notify("{} completed rounds = {}".format(completedRounds,scoreRound))
-#   for player in getPlayers():
-#       scoreThreat += player.counters['Threat_level'].value
-#       for card in player.piles['Discard Pile']:
-#           if card.Type == "Hero": scoreDeadHeroes += num(card.Cost)
-#   notify("Total combined Threat = {}".format(scoreThreat))
-#   for card in table:
-#       if card.Type == "Hero": scoreDamage += card.markers[Damage]
-#   notify("Total damage on Heroes = {}".format(scoreDamage))
-#   notify("Cost of dead Heroes = {}".format(scoreDeadHeroes))
-#   sumVictory()
-#   notify("Victory points = {}".format(shared.VictoryPoints))
-#   scoreTotal = scoreRound + scoreThreat + scoreDamage + scoreDeadHeroes - shared.VictoryPoints
-#   notify("TOTAL SCORE = {}".format(scoreTotal))
     
 def toggleLock(group, x=0, y=0):
     if deckLocked():
