@@ -424,7 +424,7 @@ def loadBasicWeaknesses(group, x = 0, y = 0):
 def globalChanged(args):
     debug("globalChanged(Variable {}, from {}, to {})".format(args.name, args.oldValue, args.value))
     if args.name == "done":
-        updatePhase(args.player)
+        checkPlayersDone()
         
 # calculate the number of plays that are Done
 def numDone():
@@ -446,7 +446,7 @@ def highlightPlayer(p, state):
 #We use this check to see if all players are ready to advance to the next phase 
 #Note - all players get called whenever any player changes state. To ensure we don't all do the same thing multiple times
 #       only the Encounter player is allowed to change the phase or step and only the player triggering the event is allowed to change the highlights   
-def updatePhase(who=me):
+def checkPlayersDone():
     mute()
     if not turnManagement():
         return
