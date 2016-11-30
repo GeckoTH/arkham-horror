@@ -842,7 +842,7 @@ def randomPlayer(group, x=0, y=0):
         n = rnd(0, len(players)-1)
         notify("{} randomly selects {}".format(me, players[n]))
 
-def randomAlly(group, x=0, y=0):
+def randomAsset(group, x=0, y=0):
     mute()
     randomCard(table, "Asset")
 
