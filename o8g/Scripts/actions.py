@@ -1012,12 +1012,6 @@ def nextLocation(group, x, y, who=me):
 def nextAgendaStage(group=None, x=0, y=0):
     mute()
     
-    #If the current Agenda card has side A showing it is simply flipped and we are done
-    for c in table:
-        if c.Type in ("Agenda") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
-            flipcard(c)
-            return
-    
     #We need a new Agenda card
     if group is None or group == table:
         group = agendaDeck()
@@ -1037,21 +1031,37 @@ def nextAgendaStage(group=None, x=0, y=0):
             
     card = group.top()
     card.moveToTable(x, y)
-#   setReminders(card)
-    # if card.Type in ("Nightmare", "Campaign"):
-    #   card.moveToTable(x, y+1)
-    #   notify("{} begins a {} quest '{}'".format(me, card.Type, card))
-    #   questSetup(card)
-    #   if card.Type == "Nightmare":
-    #       flipcard(card)
-    #   #Reveal and place the real quest card
-    #   if len(group) > 0:
-    #       card = group[0]
-    #       card.moveToTable(x+64, y)
     
     agendaSetup(card)
     notify("{} advances agenda to '{}'".format(me, card))
 
+    
+def nextActStage(group=None, x=0, y=0):
+    mute()
+    
+    #We need a new Act card
+    if group is None or group == table:
+        group = actDeck()
+    if len(group) == 0: return
+    
+    if group.controller != me:
+        remoteCall(group.controller, "nextActStage", [group, x, y])
+        return
+        
+    if x == 0 and y == 0: #The keyboard shortcut was used
+        #Count Agenda cards already on table to work out where to put this one
+        #n, count = questCount(table)
+        #x = QuestStartX + 89*(count // 2) + 64*n
+        #y = QuestStartY + 64*(count % 2)   
+        x = ActX
+        y = ActY
+            
+    card = group.top()
+    card.moveToTable(x, y)
+    
+    notify("{} advances act to '{}'".format(me, card))	
+	
+	
 def addToTable(card):
     x = AgendaX - 45.5
     y = -96
@@ -1472,11 +1482,15 @@ def discard(card, x=0, y=0):
     if card.Type == "Agenda": #If we remove the only Agenda card then we reveal the next one
         card.moveToBottom(agendaDiscard())
         notify("{} discards '{}'".format(me, card))
-        n, c = agendaCount(table)
-        if c == 0:
-            nextAgendaStage()
+        nextAgendaStage()
         return
-
+        
+    if card.Type == "Act": #If we remove the only Act card then we reveal the next one
+        card.moveToBottom(actDiscard())
+        notify("{} discards '{}'".format(me, card))
+        nextActStage()
+        return
+		
     if isPlayerCard(card):
         pile = card.owner.piles['Discard Pile']
     elif isLocationCard(card):
