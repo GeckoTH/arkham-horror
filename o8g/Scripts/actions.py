@@ -486,23 +486,11 @@ def turnManagementOn(group, x=0, y=0):
     setGlobalVariable("Automation", "Turn")
     clearHighlights(group)
     
-# def automationOff(group, x = 0, y = 0):
-#   mute()
-#   setGlobalVariable("Automation", "Off")
-#   clearHighlights(group)
-#   if me == encounterDeck().controller:
-#       clearPhase()
-#   else:
-#       remoteCall(encounterDeck().controller, "clearPhase", [])
-#   notify("{} disables all turn management".format(me))
-    
-# def automationHelp(group, x = 0, y = 0):
-#   mute()
-#   automationCard(x, y)
-#   elif turnManagement():
-#       whisper("Turn Management is on")
-#   else:
-#       whisper("Turn Management is turned off")
+def automationOff(group, x = 0, y = 0):
+    mute()
+    setGlobalVariable("Automation", "Off")
+    clearHighlights(group)
+    notify("{} disables all turn management".format(me))
     
 def turnManagement():
     mute()
