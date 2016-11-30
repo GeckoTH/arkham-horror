@@ -1059,6 +1059,14 @@ def subToken(card, tokenType):
     card.markers[tokenType] -= 1
     notify("{} removes a {} from '{}'".format(me, tokenType[0], card))
 
+def markerChanged(args):
+    card = args.card
+    if card.Type == "Agenda" and args.marker == Doom[0]:
+        if card.markers[Doom] >= int(card.properties[Doom[0]]):
+            card.highlight = EliminatedColour
+        else:
+            card.highlight = None
+
 def lockCard(card, x=0, y=0):
     mute()
     if isLocked(card):
