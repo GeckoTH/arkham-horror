@@ -75,6 +75,7 @@
 		<size name="InvestigatorCard" width="88" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="63" backHeight="88" backCornerRadius="4" />
 		<size name="EncounterCard" width="63" height="88" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4"/>
 		<size name="MiniCard" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
+		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
 	</card>
 	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
@@ -83,6 +84,7 @@
 		<groupaction menu="Hidden Encounter Card" default="False" shortcut="ctrl+H" execute="addHidden" />
 		<groupaction menu="Hidden Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+H" execute="addHiddenSpecial" />
 		<groupaction menu="Draw Token from ChaosBag" default="False" shortcut="ctrl+S" execute="drawChaosToken" />
+		<!-- Removing non-working automation options
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
@@ -90,6 +92,11 @@
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
 		</groupactions>
+		 -->
+		<groupactions menu="Automation">
+			<groupaction menu="Create Chaos Bag" default="False" execute="createChaosBag" />
+		</groupactions>
+		
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
 		<cardactions menu="Add Token">
 			<cardaction menu="Add Resource" default="False" shortcut="F1" execute="addResource" />
