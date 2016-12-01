@@ -21,6 +21,7 @@
 	<events>
 		<event name="OnGameStarted" action="startOfGame"/>
 		<event name="OnDeckLoaded" action="deckLoaded"/>
+		<event name="OnGlobalVariableChanged" action="globalChanged"/>
 	</events>
 	<fonts>
 		<font src="fonts/Calibri-Arkham.ttf" size="12" target="context" />
@@ -88,11 +89,6 @@
 		<groupactions menu="Automation">
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
-			<groupaction menu="Enable Phase Management" default="False" execute="phaseManagementOn" />
-			<groupaction menu="Calculate Score" default="False" shortcut="ctrl+C" execute="calcScore" />
-			<groupaction menu="Create Done button" default="False" execute="createDoneButton" />
-			<groupaction menu="Create first player token" default="False" execute="createFirstPlayerToken" />
-			<groupaction menu="Help - Automation modes" default="False" execute="automationHelp" />
 		</groupactions>
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
 		<cardactions menu="Add Token">
@@ -115,8 +111,8 @@
 		<cardaction menu="Discard to Special Discard" default="False" shortcut="shift+Del" execute="discardSpecial" />
 		<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
 		<cardaction menu="Lock" default="False" shortcut="ctrl+K" execute="lockCard" />
-		<cardaction menu="Rotate Left" default="False" shortcut="F8" execute="rotateLeft" />
-		<cardaction menu="Rotate Right" default="False" shortcut="F9" execute="rotateRight" />
+		<cardaction menu="Rotate Left" default="False" shortcut="F11" execute="rotateLeft" />
+		<cardaction menu="Rotate Right" default="False" shortcut="F12" execute="rotateRight" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<groupactions menu="Random">
 			<groupaction menu="Coin Flip" default="False" execute="flipCoin" />
