@@ -103,11 +103,11 @@
 			<cardaction menu="Add Doom" default="False" shortcut="F5" execute="addDoom" />
 		</cardactions>
 		<cardactions menu="Remove Token">
-			<cardaction menu="Remove Resource" default="False" shortcut="F6" execute="subResource" />
-			<cardaction menu="Remove Clue" default="False" shortcut="F7" execute="subClue" />
-			<cardaction menu="Remove Damage" default="False" shortcut="F8" execute="subDamage" />
-			<cardaction menu="Remove Horror" default="False" shortcut="F9" execute="subHorror" />
-			<cardaction menu="Remove Doom" default="False" shortcut="F10" execute="subDoom" />
+            <cardaction menu="Remove Resource" default="False" shortcut="shift+F1" execute="subResource" />
+            <cardaction menu="Remove Clue" default="False" shortcut="shift+F2" execute="subClue" />
+            <cardaction menu="Remove Damage" default="False" shortcut="shift+F3" execute="subDamage" />
+            <cardaction menu="Remove Horror" default="False" shortcut="shift+F4" execute="subHorror" />
+            <cardaction menu="Remove Doom" default="False" shortcut="shift+F5" execute="subDoom" />
 		</cardactions>
 		<cardaction menu="Exhaust/Ready" default="False" shortcut="F7" execute="exhaust" />
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
