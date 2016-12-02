@@ -84,7 +84,7 @@
 		<groupaction menu="Hidden Encounter Card" default="False" shortcut="ctrl+H" execute="addHidden" />
 		<groupaction menu="Hidden Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+H" execute="addHiddenSpecial" />
 		<groupaction menu="Draw Token from ChaosBag" default="False" shortcut="ctrl+S" execute="drawChaosToken" />
-		<!-- Removing non-working automation options
+		
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
@@ -92,7 +92,7 @@
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
 		</groupactions>
-		 -->
+		
 		<groupactions menu="Automation">
 			<groupaction menu="Create Chaos Bag" default="False" execute="createChaosBag" />
 		</groupactions>
