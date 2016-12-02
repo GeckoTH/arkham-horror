@@ -15,6 +15,13 @@
     <property name="Sanity" value="5"/>
     <property name="Traits" value="Agency. Detective."/>
     <property name="Text" value="ι After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)&#10;ε effect: +1 for each clue on your location."/>
+    <alternate name="Roland Banks" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Subtitle" value="The Fed"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Guardian"/>
+    </alternate>
   </card>
   <card id="53463cb2-2261-4d8b-b948-d8f7a926ed79" name="Daisy Walker" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -30,6 +37,13 @@
     <property name="Sanity" value="9"/>
     <property name="Traits" value="Miskatonic."/>
     <property name="Text" value="You may take an additional action during your turn, which can only be used on Tome η abilities.&#10;ε effect: +0. If you succeed, draw 1 card for each Tome you control."/>
+    <alternate name="Daisy Walker" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Subtitle" value="The Librarian"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Seeker"/>
+    </alternate>
   </card>
   <card id="4074eb1e-2341-4ff8-be20-d220621fa3c4" name="&quot;Skids&quot; O'Toole" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -45,6 +59,13 @@
     <property name="Sanity" value="6"/>
     <property name="Traits" value="Criminal."/>
     <property name="Text" value="θ During your turn, spend 2 resources: You may take an additional action this turn. (Limit once per turn.)&#10;ε effect: +2. If you succeed, gain 2 resources."/>
+    <alternate name="&quot;Skids&quot; O'Toole" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Subtitle" value="The Ex-Con"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Rogue"/>
+    </alternate>
   </card>
   <card id="207654c5-69a2-467b-b4ab-bfeffd28d310" name="Agnes Baker" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -60,6 +81,13 @@
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Sorcerer."/>
     <property name="Text" value="ι After 1 or more horror is placed on Agnes Baker: Deal 1 damage to an enemy at your location. (Limit once per phase.)&#10;ε effect: +1 for each horror on Agnes Baker."/>
+    <alternate name="Agnes Baker" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Subtitle" value="The Waitress"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Mystic"/>
+    </alternate>
   </card>
   <card id="e8b6e380-16f3-40d7-af47-484db614ea18" name="Wendy Adams" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -75,6 +103,13 @@
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Drifter."/>
     <property name="Text" value="ι When you reveal a chaos token, choose and discard 1 card from your hand: Cancel that chaos token and return it to the bag. Reveal a new chaos token. (Limit once per test/ability.)&#10;ε effect: +0. If Wendy's Amulet is in play, you automatically succeed instead."/>
+    <alternate name="Wendy Adams" type="B">
+      <property name="Encounter Set" value=""/>
+      <property name="Subtitle" value="The Urchin"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Survivor"/>
+    </alternate>
   </card>
   <card id="4bb7b957-a180-4421-ad42-49704e11a3a5" name="Roland's .38 Special">
     <property name="Quantity" value="1"/>
@@ -1335,6 +1370,23 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
     <property name="Text" value="η: Resign. You don't want to risk taking too long, so you head to safety with the information you've gathered."/>
+    <alternate name="The Masked Hunter" type="B">
+      <property name="Encounter Set" value="The Midnight Masks"/>
+      <property name="Subtitle" value="Silently Stalking"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Combat" value="4"/>
+      <property name="Agility" value="2"/>
+      <property name="Health" value="4"/>
+      <property name="Damage" value="2"/>
+      <property name="Horror" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="2"/>
+      <property name="Keywords" value="Spawn - Engaged with prey.Prey - Most Clues.Hunter."/>
+      <property name="Text" value="The Masked Hunter gets +2 health per investigator.While you are engaged with The Masked Hunter, you cannot discover or spend clues."/>
+    </alternate>
   </card>
   <card id="947bb975-8eb2-45a7-bc68-ea58a50190da" name="The Masked Hunter" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -2218,6 +2270,7 @@
   <card id="87041f6f-a325-4b5f-92b6-2df4d01790b1" name="Roland Banks" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
+    <property name="Class" value="Guardian"/>
     <alternate name="Roland Banks" type="B">
       <property name="Encounter Set" value=""/>
       <property name="Type" value="Mini"/>
@@ -2226,6 +2279,7 @@
   <card id="8c96b7d1-18b8-40eb-830c-47a85cd1180f" name="Daisy Walker" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
+    <property name="Class" value="Seeker"/>
     <alternate name="Daisy Walker" type="B">
       <property name="Encounter Set" value=""/>
       <property name="Type" value="Mini"/>
@@ -2234,6 +2288,7 @@
   <card id="2df74e76-b199-433c-8f48-d2eaed044d56" name="&quot;Skids&quot; O'Toole" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
+    <property name="Class" value="Rogue"/>
     <alternate name="&quot;Skids&quot; O'Toole" type="B">
       <property name="Encounter Set" value=""/>
       <property name="Type" value="Mini"/>
@@ -2242,6 +2297,7 @@
   <card id="67a13aab-aaa8-404f-8c9b-594c453c217a" name="Agnes Baker" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
     <alternate name="Agnes Baker" type="B">
       <property name="Encounter Set" value=""/>
       <property name="Type" value="Mini"/>
@@ -2250,6 +2306,7 @@
   <card id="86358d81-3a3e-40ba-999b-903a1c0d9365" name="Wendy Adams" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
+    <property name="Class" value="Survivor"/>
     <alternate name="Wendy Adams" type="B">
       <property name="Encounter Set" value=""/>
       <property name="Type" value="Mini"/>
