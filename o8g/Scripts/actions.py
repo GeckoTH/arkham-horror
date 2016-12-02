@@ -1228,19 +1228,15 @@ def randomDiscard(group):
     if card is None: return
     notify("{} randomly discards '{}'.".format(me, card))
     card.moveTo(me.piles['Discard Pile'])
- 
-# def mulligan(group, x = 0, y = 0):
-#   mute()
-#   if shared.HandSize <= 0:
-#       whisper("Invalid hand size specified in global counter")
-#       return      
-#   if not confirm("Are you sure you want to Mulligan?"): return
-#   for card in group:
-#       card.moveToBottom(me.deck)
-#   shuffle(me.deck)
-#   for card in me.deck.top(shared.HandSize):
-#       card.moveTo(me.hand)
-#   notify("{} draws {} new cards.".format(me, shared.HandSize))
+
+def mulligan(group, x = 0, y = 0):
+    mute()
+    if not confirm("Are you sure you want to Mulligan?"): return
+    notify("{} takes a mulligan and draws {} new cards.".format(me, shared.OpeningHandSize))
+    for card in me.hand:
+        card.moveTo(me.deck)
+    me.deck.shuffle()
+    drawMany(me.deck, shared.OpeningHandSize)
  
 #------------------------------------------------------------------------------
 # Pile Actions
