@@ -8,6 +8,7 @@ Clue = ("Clue", "33d9ed22-458b-4c7f-9901-5daf2fa43a23")
 Horror = ("Horror", "9461c5e5-1aa8-4286-88f1-01661a8aaa02")
 Doom = ("Doom", "a6605071-57d2-4e7f-b6b4-7809147a565a")
 Lock = ("Lock", "62d688a4-46ef-45be-9414-2257a1221351")
+Action = ("Action", "654ac64a-ff25-42dd-946f-cc15c03448cf")
 
 BoardWidth = 1100
 Spacing = 92
@@ -766,6 +767,14 @@ def nextActStage(group=None, x=0, y=0):
 def nextAct(group = None, x = 0, y = 0):
     nextActStage(group, x, y)
 
+def setAbilityCounters(investigatorCard):
+    me.counters['Willpower'].value = num(investigatorCard.Willpower)
+    me.counters['Intellect'].value = num(investigatorCard.Intellect)
+    me.counters['Combat'].value = num(investigatorCard.Combat)
+    me.counters['Agility'].value = num(investigatorCard.Agility)
+    
+    
+    
 def readyForNextRound(group=table, x=0, y=0):
     mute()
     notify("readyForNextRound {}".format(turnManagement()))
@@ -790,6 +799,8 @@ def doUpkeepPhase():
     for card in table:
         if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addResource(card)
+        elif card.Type == "Mini":
+            card.markers[Action] = 0
 
     shared.counters['Round'].value += 1
     clearHighlights()
@@ -814,6 +825,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             investigatorCount += 1
             newInvestigator = True
             investigatorCard = investigator[0]
+            setAbilityCounters(investigatorCard)
             miniCard = mini[0]
             investigatorCard.moveToTable(investigatorX(id), InvestigatorY)
             miniX = cardX(investigatorCard) + investigatorCard.width + InvestigatorSpacing
@@ -893,6 +905,8 @@ def defaultAction(card, x = 0, y = 0):
         drawChaosToken(card, x, y)
     elif card.Type == "Chaos Token": #Discard Chaos Token
         discard(card, x, y)
+    elif card.Type == "Mini": #Add action token
+        addToken(card, Action)
     else:
         exhaust(card, x, y)
         
@@ -1009,6 +1023,9 @@ def addDamage(card, x = 0, y = 0):
 def addHorror(card, x = 0, y = 0):
     addToken(card, Horror)
 
+def addAction(card, x = 0, y = 0):
+    addToken(card, Action)
+
 
 
 # def addAttack(card, x = 0, y = 0):
@@ -1047,6 +1064,9 @@ def subDamage(card, x = 0, y = 0):
 
 def subHorror(card, x = 0, y = 0):
     subToken(card, Horror)  
+
+def subAction(card, x = 0, y = 0):
+    subToken(card, Action)  
 
 
 def subToken(card, tokenType):
