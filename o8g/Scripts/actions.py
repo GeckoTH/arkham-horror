@@ -504,6 +504,13 @@ def createChaosBag(group, x=0, y=0):
           return
   group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosTokenX, ChaosTokenY, 1, False)
 
+def createChaosBag(group, x=0, y=0):
+  for c in group:
+      if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
+          c.moveToTable(x, y)
+          return
+  group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosTokenX, ChaosTokenY, 1, False)
+
 def flipCoin(group, x = 0, y = 0):
     mute()
     n = rnd(1, 2)
