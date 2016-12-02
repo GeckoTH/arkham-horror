@@ -1064,13 +1064,15 @@ def lockCard(card, x=0, y=0):
 def isLocked(card):
     return card.markers[Lock] > 0
     
-
+def setControllerRemote (card, player):
+		card.controller=player
     
 def discard(card, x=0, y=0):
     mute()
     if card.controller != me:
         whisper("{} does not control '{}' - discard cancelled".format(me, card))
-        return
+        remoteCall (card.controller, "setControllerRemote", [card, me])
+        
         
     if card.Type == "Agenda": #If we remove the only Agenda card then we reveal the next one
         card.moveToBottom(agendaDiscard())
@@ -1096,7 +1098,7 @@ def discard(card, x=0, y=0):
     who = pile.controller
     notify("{} discards '{}'".format(me, card))
     if who != me:
-        card.setController(who)     
+        card.controller = who     
         remoteCall(who, "doDiscard", [me, card, pile])
     else:
         doDiscard(who, card, pile)
@@ -1132,6 +1134,7 @@ def discardSpecial(card, x=0, y=0):
 
 
 def doDiscard(player, card, pile):
+    mute()
     card.moveTo(pile)
 
 def shuffleIntoDeck(card, x=0, y=0, player=me):
@@ -1367,7 +1370,7 @@ def swapWithEncounter(group):
           c.moveToBottom(group)
       notify("{} swaps {} and Encounter Deck.".format(me, group.name))
 
-def drawPileToTable(group, x, y):
+def drawPileToTable(player, group, x, y):
     mute()
     if len(group) == 0:
         notify("{} is empty.".format(group.name))
@@ -1375,23 +1378,32 @@ def drawPileToTable(group, x, y):
 
     card = group[0]
     card.moveToTable(x, y)
-    notify("{} draws {} from the {}.".format(me, card.name, group.name))
+    notify("{} draws {} from the {}.".format(player, card.name, group.name))
     return card
-
+    
 def drawChaosToken(group, x = 0, y = 0):
+    drawChaosTokenForPlayer(me, group, x, y)  
+
+def drawChaosTokenForPlayer(player, group, x = 0, y = 0):
     mute()
-    # check for existing chaos token on table
-    table_chaos_tokens = [card for card in table
-        if card.Type == 'Chaos Token']
-    for token in table_chaos_tokens:
-        if token.controller == me:
-            token.moveTo(chaosBag())
-        else:
-            remoteCall(token.controller, "moveTo", chaosBag())
-
-    chaosBag().shuffle()
-    drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
-
+    if chaosBag().controller == me:
+        # check for existing chaos token on table
+        table_chaos_tokens = [card for card in table
+            if card.Type == 'Chaos Token']
+        for token in table_chaos_tokens:
+            if token.controller == me:
+                token.moveTo(chaosBag())
+            else:
+                remoteCall(token.controller, "moveToRemote", [token, chaosBag()])
+        chaosBag().shuffle()
+  
+        drawPileToTable(player, chaosBag(), ChaosTokenX, ChaosTokenY)
+    else:
+        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me, group, x, y])
+    
+def moveToRemote (token, pile):
+   token.moveTo(pile)	
+	
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
 
