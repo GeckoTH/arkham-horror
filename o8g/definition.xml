@@ -110,7 +110,7 @@
             <cardaction menu="Remove Damage" default="False" shortcut="shift+F3" execute="subDamage" />
             <cardaction menu="Remove Horror" default="False" shortcut="shift+F4" execute="subHorror" />
             <cardaction menu="Remove Doom" default="False" shortcut="shift+F5" execute="subDoom" />
-			<cardaction menu="Remove Action" default="False" shortcut="F6" execute="subAction" />
+			<cardaction menu="Remove Action" default="False" shortcut="shift+F6" execute="subAction" />
 		</cardactions>
 		<cardaction menu="Exhaust/Ready" default="False" shortcut="F7" execute="exhaust" />
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
