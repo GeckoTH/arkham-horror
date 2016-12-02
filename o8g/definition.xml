@@ -102,7 +102,7 @@
 			<cardaction menu="Add Damage" default="False" shortcut="F3" execute="addDamage" />
 			<cardaction menu="Add Horror" default="False" shortcut="F4" execute="addHorror" />
 			<cardaction menu="Add Doom" default="False" shortcut="F5" execute="addDoom" />
-			<cardaction menu="Add Action" default="False" shortcut="F5" execute="addAction" />
+			<cardaction menu="Add Action" default="False" shortcut="F6" execute="addAction" />
 		</cardactions>
 		<cardactions menu="Remove Token">
             <cardaction menu="Remove Resource" default="False" shortcut="shift+F1" execute="subResource" />
