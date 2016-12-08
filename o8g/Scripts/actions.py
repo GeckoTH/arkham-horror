@@ -1412,6 +1412,23 @@ def drawChaosToken(group, x = 0, y = 0):
     chaosBag().shuffle()
     drawPileToTable(chaosBag(), ChaosTokenX, ChaosTokenY)
 
+def drawXChaosTokens(group, x = 0, y = 0):
+    mute()
+    # check for existing chaos token on table
+    table_chaos_tokens = [card for card in table
+        if card.Type == 'Chaos Token']
+    for token in table_chaos_tokens:
+        if token.controller == me:
+            token.moveTo(chaosBag())
+        else:
+            remoteCall(token.controller, "moveTo", chaosBag())
+
+    chaosBag().shuffle()
+    
+    xChaosTokens = askInteger("Draw how many Chaos Tokens?", 1)
+    for x in range(0, xChaosTokens):
+        drawPileToTable(chaosBag(), ChaosTokenX + (x * 10), ChaosTokenY + (x * 10))
+
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
 
