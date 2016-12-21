@@ -1139,15 +1139,13 @@ def discardSpecial(card, x=0, y=0):
 
     if isPlayerCard(card):
         pile = specialDiscard()
-    #elif isSpecialCard(card):
-        #pile = specialDiscard()
     else:
         pile = specialDiscard()
         
     who = pile.controller
     notify("{} discards '{}'".format(me, card))
     if who != me:
-        card.setController(who)     
+        card.controller = who    
         remoteCall(who, "doDiscard", [me, card, pile])
     else:
         doDiscard(who, card, pile)
@@ -1173,20 +1171,19 @@ def shuffleIntoDeck(card, x=0, y=0, player=me):
 
     if isPlayerCard(card):
         pile = card.owner.deck
-    elif isSpecialCard(card):
-        pile = specialDeck()
     else:
         pile = encounterDeck()
 
     who=pile.controller
     notify("{} moves '{}' to '{}'".format(me, card, pile.name))     
     if who != me:
-        card.setController(who)
+        card.controller = who
         remoteCall(who, "doMoveShuffle", [me, card, pile])
     else:
         doMoveShuffle(me, card, pile)
         
 def doMoveShuffle(player, card, pile):
+    mute()
     card.moveTo(pile)
     shuffle(pile)
     
