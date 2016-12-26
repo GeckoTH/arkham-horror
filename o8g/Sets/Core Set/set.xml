@@ -582,7 +582,7 @@
     <property name="Traits" value="Ally. Criminal."/>
     <property name="Text" value="You may take an additional action during your turn."/>
   </card>
-  <card id="96093bc3-dc11-4811-a21c-fcd0dba0d2f2" name="Cat Burgler">
+  <card id="96093bc3-dc11-4811-a21c-fcd0dba0d2f2" name="Cat Burglar">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
@@ -889,7 +889,7 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Survivor"/>
-    <property name="Level" value="4"/>
+    <property name="Level" value="3"/>
     <property name="Cost" value="2"/>
     <property name="Combat" value="1"/>
     <property name="Traits" value="Fortune."/>
