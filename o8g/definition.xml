@@ -94,6 +94,7 @@
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
 		</groupactions>
+		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
 		
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
 		<cardactions menu="Add Token">
