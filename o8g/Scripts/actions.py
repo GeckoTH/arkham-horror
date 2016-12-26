@@ -1406,26 +1406,44 @@ def drawPileToTable(player, group, x, y):
 def drawChaosToken(group, x = 0, y = 0):
     drawChaosTokenForPlayer(me, group, x, y)  
 
-def drawChaosTokenForPlayer(player, group, x = 0, y = 0):
+
+def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 0, yMod = 0):
     mute()
     if chaosBag().controller == me:
-        # check for existing chaos token on table
-        table_chaos_tokens = [card for card in table
-            if card.Type == 'Chaos Token']
-        for token in table_chaos_tokens:
-            if token.controller == me:
-                token.moveTo(chaosBag())
-            else:
-                remoteCall(token.controller, "moveToRemote", [token, chaosBag()])
-        chaosBag().shuffle()
+        if replace:
+            # check for existing chaos token on table
+            table_chaos_tokens = [card for card in table
+                if card.Type == 'Chaos Token']
+            for token in table_chaos_tokens:
+                if token.controller == me:
+                    token.moveTo(chaosBag())
+                else:
+                    remoteCall(token.controller, "moveToRemote", [token, chaosBag()])
+            chaosBag().shuffle()
   
-        drawPileToTable(player, chaosBag(), ChaosTokenX, ChaosTokenY)
+        drawPileToTable(player, chaosBag(), ChaosTokenX + xMod, ChaosTokenY + yMod)
+        
     else:
-        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me, group, x, y])
+        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me, group, x, y, replace])
     
 def moveToRemote (token, pile):
    token.moveTo(pile)	
 	
+    
+def drawXChaosTokens(player, group, x = 0, y = 0):
+    mute()
+    xChaosTokens = askInteger("Draw how many Chaos Tokens?", 1)
+    if xChaosTokens == None: return
+    
+    for xTokens in range(0, xChaosTokens):
+        replace = False
+        if xTokens == 0: replace = True
+        if chaosBag().controller == me:
+                drawChaosTokenForPlayer(me, chaosBag(), x, y, replace, (xTokens * 10), (xTokens * 10))  
+        else:
+            remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, replace, (xTokens * 10), (xTokens * 10)])
+
+
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
 
