@@ -911,6 +911,8 @@ def defaultAction(card, x = 0, y = 0):
         discard(card, x, y)
     elif card.Type == "Mini": #Add action token
         addToken(card, Action)
+    elif card.Type == "Campaign": #Add a progress token
+        flipcard(card, x, y)
     else:
         exhaust(card, x, y)
         
