@@ -41,6 +41,8 @@
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />
+		<globalvariable name="activeTurn" value="1" />
+		<globalvariable name="activePhase" value="1" />
 	</globalvariables>
 	<card back="cards/card.jpg" front="cards/card.jpg" width="63" height="88" cornerRadius="4">
 		<property name="Unique" type="String" hidden="False" ignoreText="False" />
@@ -90,6 +92,7 @@
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
 		
 		<groupactions menu="Automation">
+			<groupaction menu="Advance Phase" default="False" shortcut="F12" execute="advancePhase" />
 			<groupaction menu="Create Chaos Bag" default="False" execute="createChaosBag" />
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
