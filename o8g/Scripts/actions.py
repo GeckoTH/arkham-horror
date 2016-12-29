@@ -426,6 +426,8 @@ def globalChanged(args):
     debug("globalChanged(Variable {}, from {}, to {})".format(args.name, args.oldValue, args.value))
     if args.name == "done":
         checkPlayersDone()
+    elif args.name == "phase":
+        notify("Phase: {}".format(args.value))
         
 # calculate the number of plays that are Done
 def numDone():
@@ -455,6 +457,8 @@ def checkPlayersDone():
     notify("done updated: {} {}".format(numDone(), len(getPlayers())))
     if numDone() == len(getPlayers()):
         doUpkeepPhase()
+        doMythosPhase()
+        setGlobalVariable("phase", "Investigator")
         setGlobalVariable("done", str(set()))
 
 #---------------------------------------------------------------------------
@@ -785,6 +789,7 @@ def readyForNextRound(group=table, x=0, y=0):
 def doUpkeepPhase():
     mute()
     debug("doUpkeepPhase()")
+    setGlobalVariable("phase", "Upkeep")
 
     if activePlayers() == 0:
         whisper("All players have been eliminated: You have lost the game")
@@ -804,6 +809,15 @@ def doUpkeepPhase():
 
     shared.counters['Round'].value += 1
     clearHighlights()
+
+def doMythosPhase():
+    mute()
+    debug("doMythosPhase()")
+    setGlobalVariable("phase", "Mythos")
+
+    for card in table:
+        if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
+            addDoom(card)
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
@@ -1061,7 +1075,7 @@ def subToken(card, tokenType):
 
 def markerChanged(args):
     card = args.card
-    if card.Type == "Agenda" and args.marker == Doom[0]:
+    if card.Type == "Agenda" and args.marker == Doom[0] and getGlobalVariable("phase") == "Mythos":
         if card.markers[Doom] >= int(card.properties[Doom[0]]):
             card.highlight = EliminatedColour
         else:
