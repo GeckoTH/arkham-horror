@@ -934,21 +934,6 @@ def flipcard(card, x = 0, y = 0):
 
     cardx, cardy = card.position
 
-    #WORKAROUND to Flip between different CardSizes on the back of a card (TEMP until OCTGN supports cardsize for Alternates)
-    if card.model == "d533f5ae-53fc-4bbb-96b9-d0f26364c387":
-        notify("{} flips '{}'.".format(me, card))
-        card.delete()
-        table.create('947bb975-8eb2-45a7-bc68-ea58a50190da', cardx, cardy, quantity = 1, persist = True)
-        return
-
-    if card.model == "947bb975-8eb2-45a7-bc68-ea58a50190da":
-        notify("{} flips '{}'.".format(me, card))
-        card.delete()
-        table.create('d533f5ae-53fc-4bbb-96b9-d0f26364c387', cardx, cardy, quantity = 1, persist = True)
-        return
-    #END Treachery of Rhudaur WORKAROUND
-
-
     #Card Alternate Flip
     if card.alternates is not None and "B" in card.alternates:
         if card.alternate == "B":

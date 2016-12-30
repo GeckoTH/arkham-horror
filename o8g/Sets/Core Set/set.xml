@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Core Set" id="0000f984-d06f-44cb-bf1c-d66a620acad8" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="25f013a5-4ca2-4a34-9d03-e11e8ed93aaf" name="Roland Banks" size="InvestigatorCard">
@@ -15,6 +15,12 @@
     <property name="Sanity" value="5"/>
     <property name="Traits" value="Agency. Detective."/>
     <property name="Text" value="ι After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)&#10;ε effect: +1 for each clue on your location."/>
+    <alternate name="Roland Banks" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Fed"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Guardian"/>
+    </alternate>
   </card>
   <card id="53463cb2-2261-4d8b-b948-d8f7a926ed79" name="Daisy Walker" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -30,6 +36,12 @@
     <property name="Sanity" value="9"/>
     <property name="Traits" value="Miskatonic."/>
     <property name="Text" value="You may take an additional action during your turn, which can only be used on Tome η abilities.&#10;ε effect: +0. If you succeed, draw 1 card for each Tome you control."/>
+    <alternate name="Daisy Walker" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Librarian"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Seeker"/>
+    </alternate>
   </card>
   <card id="4074eb1e-2341-4ff8-be20-d220621fa3c4" name="&quot;Skids&quot; O'Toole" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -45,6 +57,12 @@
     <property name="Sanity" value="6"/>
     <property name="Traits" value="Criminal."/>
     <property name="Text" value="θ During your turn, spend 2 resources: You may take an additional action this turn. (Limit once per turn.)&#10;ε effect: +2. If you succeed, gain 2 resources."/>
+    <alternate name="&quot;Skids&quot; O'Toole" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Ex-Con"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Rogue"/>
+    </alternate>
   </card>
   <card id="207654c5-69a2-467b-b4ab-bfeffd28d310" name="Agnes Baker" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -60,6 +78,12 @@
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Sorcerer."/>
     <property name="Text" value="ι After 1 or more horror is placed on Agnes Baker: Deal 1 damage to an enemy at your location. (Limit once per phase.)&#10;ε effect: +1 for each horror on Agnes Baker."/>
+    <alternate name="Agnes Baker" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Waitress"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Mystic"/>
+    </alternate>
   </card>
   <card id="e8b6e380-16f3-40d7-af47-484db614ea18" name="Wendy Adams" size="InvestigatorCard">
     <property name="Quantity" value="1"/>
@@ -75,6 +99,12 @@
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Drifter."/>
     <property name="Text" value="ι When you reveal a chaos token, choose and discard 1 card from your hand: Cancel that chaos token and return it to the bag. Reveal a new chaos token. (Limit once per test/ability.)&#10;ε effect: +0. If Wendy's Amulet is in play, you automatically succeed instead."/>
+    <alternate name="Wendy Adams" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Urchin"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Survivor"/>
+    </alternate>
   </card>
   <card id="4bb7b957-a180-4421-ad42-49704e11a3a5" name="Roland's .38 Special">
     <property name="Quantity" value="1"/>
@@ -1079,7 +1109,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
-    <alternate name="A Lapse in Time" type="B">
+    <alternate name="A Lapse in Time" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
@@ -1097,7 +1127,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <alternate name="The Tunnels Below" type="B">
+    <alternate name="The Tunnels Below" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -1116,7 +1146,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="10"/>
     <property name="Text" value="Forced - At the end of the enemy phase: Each unengaged Ghoul enemy moves 1 location towards the Parlor.&#10;Forced - At the end of the round: Place 1 doom on this agenda for each Ghoul enemy in the Hallway or Parlor."/>
-    <alternate name="The Ghouls Break Free" type="B">
+    <alternate name="The Ghouls Break Free" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -1134,7 +1164,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2"/>
     <property name="Doom" value=""/>
-    <alternate name="The Door on the Floor" type="B">
+    <alternate name="The Door on the Floor" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -1153,7 +1183,7 @@
     <property name="Clues" value="3"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - When the round ends, investigators in the hallway may, as a group, spend the requisite number of clues to advance."/>
-    <alternate name="Breaking the Barrier" type="B">
+    <alternate name="Breaking the Barrier" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -1172,7 +1202,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If the Ghoul Priest is Defeated, advance."/>
-    <alternate name="Defending the Home" type="B">
+    <alternate name="Defending the Home" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
@@ -1189,7 +1219,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Study" type="B">
+    <alternate name="Study" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -1204,7 +1234,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Hallway" type="B">
+    <alternate name="Hallway" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
@@ -1219,7 +1249,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Attic" type="B">
+    <alternate name="Attic" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
@@ -1236,7 +1266,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Cellar" type="B">
+    <alternate name="Cellar" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
@@ -1253,7 +1283,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Parlor" type="B">
+    <alternate name="Parlor" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -1335,6 +1365,23 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
     <property name="Text" value="η: Resign. You don't want to risk taking too long, so you head to safety with the information you've gathered."/>
+    <alternate name="The Masked Hunter" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Midnight Masks"/>
+      <property name="Subtitle" value="Silently Stalking"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Combat" value="4"/>
+      <property name="Agility" value="2"/>
+      <property name="Health" value="4"/>
+      <property name="Damage" value="2"/>
+      <property name="Horror" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="2"/>
+      <property name="Keywords" value="Spawn - Engaged with prey.Prey - Most Clues.Hunter."/>
+      <property name="Text" value="The Masked Hunter gets +2 health per investigator.While you are engaged with The Masked Hunter, you cannot discover or spend clues."/>
+    </alternate>
   </card>
   <card id="947bb975-8eb2-45a7-bc68-ea58a50190da" name="The Masked Hunter" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -1360,7 +1407,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="8"/>
     <property name="Text" value="η: Resign. You don't want to risk taking too long, so you head to safety with the information you've gathered."/>
-    <alternate name="The Clock Strikes Midnight" type="B">
+    <alternate name="The Clock Strikes Midnight" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -1379,7 +1426,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η The investigators spend 2 clues per investigator, as a group: Draw the top card of the Cultist deck.Objective - Find as many unique Cultist enemies as you can and add them to the victory display. If there are 6 unique Cultist enemies in the victory display, advance. (Note: not all 6 of them are in the Cultist deck.)"/>
-    <alternate name="Secrets Unveiled" type="B">
+    <alternate name="Secrets Unveiled" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -1397,7 +1444,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="Your House" type="B">
+    <alternate name="Your House" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -1415,7 +1462,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham. Central."/>
-    <alternate name="Rivertown" type="B">
+    <alternate name="Rivertown" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
@@ -1432,7 +1479,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="Southside" type="B">
+    <alternate name="Southside" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Subtitle" value="Historical Society"/>
       <property name="Type" value="Location"/>
@@ -1451,7 +1498,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="Southside" type="B">
+    <alternate name="Southside" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Subtitle" value="Ma's Boarding House"/>
       <property name="Type" value="Location"/>
@@ -1470,7 +1517,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="St. Mary's Hospital" type="B">
+    <alternate name="St. Mary's Hospital" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -1488,7 +1535,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="Miskatonic University" type="B">
+    <alternate name="Miskatonic University" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
@@ -1507,7 +1554,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="Downtown" type="B">
+    <alternate name="Downtown" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Subtitle" value="First Bank of Arkham"/>
       <property name="Type" value="Location"/>
@@ -1526,7 +1573,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="Downtown" type="B">
+    <alternate name="Downtown" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Subtitle" value="Arkham Asylum"/>
       <property name="Type" value="Location"/>
@@ -1545,7 +1592,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="East Town" type="B">
+    <alternate name="East Town" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -1563,7 +1610,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="Graveyard" type="B">
+    <alternate name="Graveyard" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
@@ -1582,7 +1629,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="Northside" type="B">
+    <alternate name="Northside" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
@@ -1708,7 +1755,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
-    <alternate name="Death to the Intruders" type="B">
+    <alternate name="Death to the Intruders" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
@@ -1727,7 +1774,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="5"/>
     <property name="Text" value="Each enemy gets +1 fight and +1 evade."/>
-    <alternate name="The Will of Umordhoth" type="B">
+    <alternate name="The Will of Umordhoth" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -1746,7 +1793,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="5"/>
     <property name="Text" value="Fored - When this agenda advances:If the investigators are at Act 1, put the set-aside Ritual Site into play and spawn the set-aside Umordhoth there.If the investigators are at Act 2 or 3, discard all enemies at the Ritual Site and spawn the set-aside Umordhoth there."/>
-    <alternate name="The Devourer Below" type="B">
+    <alternate name="The Devourer Below" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -1764,7 +1811,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="3"/>
     <property name="Doom" value=""/>
-    <alternate name="Unveiling the Plan" type="B">
+    <alternate name="Unveiling the Plan" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -1783,7 +1830,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If an investigator enters the Ritual Site, advance."/>
-    <alternate name="Last Rites" type="B">
+    <alternate name="Last Rites" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -1802,7 +1849,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η Spend 1 clue: Test ά (3) or ί (3). If you succeed, place 1 clue on this Act.Objective - If there are 2 clues per investigator on this Act, advance."/>
-    <alternate name="The Ritual is Broken" type="B">
+    <alternate name="The Ritual is Broken" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
@@ -1820,7 +1867,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
-    <alternate name="Main Path" type="B">
+    <alternate name="Main Path" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -1838,7 +1885,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
-    <alternate name="Arkham Woods" type="B">
+    <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Subtitle" value="Unhallowed Ground"/>
       <property name="Type" value="Location"/>
@@ -1857,7 +1904,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
-    <alternate name="Arkham Woods" type="B">
+    <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Subtitle" value="Twisting Paths"/>
       <property name="Type" value="Location"/>
@@ -1876,7 +1923,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
-    <alternate name="Arkham Woods" type="B">
+    <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Subtitle" value="Old House"/>
       <property name="Type" value="Location"/>
@@ -1895,7 +1942,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
-    <alternate name="Arkham Woods" type="B">
+    <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Subtitle" value="Cliffside"/>
       <property name="Type" value="Location"/>
@@ -1914,7 +1961,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
-    <alternate name="Arkham Woods" type="B">
+    <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Subtitle" value="Tangled Thicket"/>
       <property name="Type" value="Location"/>
@@ -1933,7 +1980,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
-    <alternate name="Arkham Woods" type="B">
+    <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Subtitle" value="Quiet Glade"/>
       <property name="Type" value="Location"/>
@@ -1952,7 +1999,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Cave."/>
-    <alternate name="Ritual Site" type="B">
+    <alternate name="Ritual Site" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
@@ -2218,40 +2265,40 @@
   <card id="87041f6f-a325-4b5f-92b6-2df4d01790b1" name="Roland Banks" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
-    <alternate name="Roland Banks" type="B">
-      <property name="Encounter Set" value=""/>
+    <property name="Class" value="Guardian"/>
+    <alternate name="Roland Banks" size="MiniCard" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
   <card id="8c96b7d1-18b8-40eb-830c-47a85cd1180f" name="Daisy Walker" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
-    <alternate name="Daisy Walker" type="B">
-      <property name="Encounter Set" value=""/>
+    <property name="Class" value="Seeker"/>
+    <alternate name="Daisy Walker" size="MiniCard" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
   <card id="2df74e76-b199-433c-8f48-d2eaed044d56" name="&quot;Skids&quot; O'Toole" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
-    <alternate name="&quot;Skids&quot; O'Toole" type="B">
-      <property name="Encounter Set" value=""/>
+    <property name="Class" value="Rogue"/>
+    <alternate name="&quot;Skids&quot; O'Toole" size="MiniCard" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
   <card id="67a13aab-aaa8-404f-8c9b-594c453c217a" name="Agnes Baker" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
-    <alternate name="Agnes Baker" type="B">
-      <property name="Encounter Set" value=""/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Agnes Baker" size="MiniCard" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
   <card id="86358d81-3a3e-40ba-999b-903a1c0d9365" name="Wendy Adams" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
-    <alternate name="Wendy Adams" type="B">
-      <property name="Encounter Set" value=""/>
+    <property name="Class" value="Survivor"/>
+    <alternate name="Wendy Adams" size="MiniCard" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
