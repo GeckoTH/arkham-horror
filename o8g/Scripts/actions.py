@@ -388,7 +388,7 @@ def deckLoaded(args):
         notify("{} Takes control of the encounter deck".format(me))
         for p in shared.piles:
             if shared.piles[p].controller != me:
-                shared.piles[p].setController(me)
+                shared.piles[p].controller = me
         #rnd(1,2) # This causes OCTGN to sync the controller changes!
         update()
             
