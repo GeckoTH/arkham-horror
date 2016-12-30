@@ -142,6 +142,7 @@
 			<cardaction menu="Play" default="True" execute="playCard" />
 			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 			<cardaction menu="Swap with top card" default="False" shortcut="ctrl+S" execute="swapCard" />
+			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToHand" />
 		</hand>
 		<group name="Deck" visibility="none" ordered="True" width="63" height="88" icon="groups/player.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
@@ -150,7 +151,7 @@
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
-			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeakness" />
+			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToDeck" />
 		</group>
 		<group name="Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/discard.png" collapsed="False">
 			<groupaction menu="Shuffle All into Deck" default="True" execute="moveAllToPlayer" />
