@@ -1421,26 +1421,20 @@ def drawBasicWeakness(group, x = 0, y = 0):
         
     bw_cards.shuffle()
     card = bw_cards.top()
+
+    return card
+
+def drawBasicWeaknessToDeck(group, x = 0, y = 0):
+    mute()
+
+    card = drawBasicWeakness(group, x, y)
     card.moveTo(me.deck)
     # do we notify players of what the basic weakness card that was shuffled in?
     notify("{} shuffles a random Basic Weakness into deck".format(me))
     me.deck.shuffle()
 
 def drawBasicWeaknessToHand(group, x = 0, y = 0):
-    mute()
-
-    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
-        bw = BasicWeakness(me)
-        bw.create_deck()
-
-    bw_cards = me.piles[BasicWeakness.PILE_NAME]
-    bw_cards_count = len(bw_cards)
-    if (bw_cards_count == 0):
-        notify("There are no Basic Weakness cards left!")
-        return
-        
-    bw_cards.shuffle()
-    card = bw_cards.top()
+    card = drawBasicWeakness(group, x, y)
     card.moveTo(me.hand)
     notify("{} draws the Basic Weakness '{}' into their hand.".format(me, card))
 
