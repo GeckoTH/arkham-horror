@@ -22,7 +22,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="5"/>
-    <alternate name="Darkened Skies" type="B">
+    <alternate name="Darkened Skies" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
@@ -40,7 +40,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <alternate name="The Tenth Night" type="B">
+    <alternate name="The Tenth Night" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -59,7 +59,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="8"/>
     <property name="Text" value="Forced – At the end of the investigation phase, if The Rougarou is not engaged with an investigator: Add 1 doom to this agenda."/>
-    <alternate name="Taken by the Curse" type="B">
+    <alternate name="Taken by the Curse" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -78,7 +78,7 @@
     <property name="Clues" value="1π "/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective – Only investigators at a Bayou location may spend the requisite number of clues, as a group, to advance.Put the set-aside Lady Esprit into play at Bayou location. Put into play each set aside location. Put the set-aside The Rougarou enemy into play at any non-Bayou location. Shuffle the encounter discard pile and each encounter card from the Curse of the Rougarou encounter set into the encounter deck."/>
-    <alternate name="Understanding the Curse" type="B">
+    <alternate name="Understanding the Curse" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -97,7 +97,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="The Rougarou is somewhere within the vast bayou. You must track it down and destroy it, lest the beast's curse consume you as well.Forced - After The Rougarou leaves a location: Place 1 clue from the token bank on that location.Objective - &quot;We have to destry the beast!&quot;If The Rougarou is defeated: (→R2)Objective - &quot;Maybe there's another way...&quot;While an investigator is engaged with The Rougarou, he or she may choose to advance. (Limit once per phase.)"/>
-    <alternate name="Taming the Rougarou" type="B">
+    <alternate name="Taming the Rougarou" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -115,7 +115,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="New Orleans. Bayou."/>
-    <alternate name="Cursed Shores" type="B">
+    <alternate name="Cursed Shores" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
@@ -133,7 +133,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="New Orleans"/>
-    <alternate name="New Orleans" type="B">
+    <alternate name="New Orleans" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Subtitle" value="Garden District"/>
       <property name="Type" value="Location"/>
@@ -152,7 +152,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="New Orleans"/>
-    <alternate name="New Orleans" type="B">
+    <alternate name="New Orleans" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Subtitle" value="Broadmoor"/>
       <property name="Type" value="Location"/>
@@ -171,7 +171,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Riverside. Bayou."/>
-    <alternate name="Brackish Waters" type="B">
+    <alternate name="Brackish Waters" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
@@ -189,7 +189,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Riverside"/>
-    <alternate name="Riverside" type="B">
+    <alternate name="Riverside" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Subtitle" value="Audubon Park"/>
       <property name="Type" value="Location"/>
@@ -209,7 +209,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Riverside"/>
-    <alternate name="Riverside" type="B">
+    <alternate name="Riverside" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Subtitle" value="Faubourg Marigny"/>
       <property name="Type" value="Location"/>
@@ -228,7 +228,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Wilderness. Bayou."/>
-    <alternate name="Forgotten Marsh" type="B">
+    <alternate name="Forgotten Marsh" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -246,7 +246,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Wilderness."/>
-    <alternate name="Wilderness" type="B">
+    <alternate name="Wilderness" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Subtitle" value="Trapper's Cabin"/>
       <property name="Type" value="Location"/>
@@ -265,7 +265,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Wilderness."/>
-    <alternate name="Wilderness" type="B">
+    <alternate name="Wilderness" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Subtitle" value="Twisted Underbrush"/>
       <property name="Type" value="Location"/>
@@ -285,7 +285,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value=" Unhallowed. Bayou."/>
-    <alternate name="Foul Swamp" type="B">
+    <alternate name="Foul Swamp" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -303,7 +303,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Unhallowed."/>
-    <alternate name="Unhallowed Land" type="B">
+    <alternate name="Unhallowed Land" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Subtitle" value="Ritual Grounds"/>
       <property name="Type" value="Location"/>
@@ -323,7 +323,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Unhallowed."/>
-    <alternate name="Unhallowed Land" type="B">
+    <alternate name="Unhallowed Land" size="EncounterCard" type="B">
       <property name="Encounter Set" value="The Bayou"/>
       <property name="Subtitle" value="Overgrown Cairns"/>
       <property name="Type" value="Location"/>
