@@ -799,7 +799,7 @@ def doUpkeepPhase():
     for card in table:
         if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addResource(card)
-        elif card.Type == "Mini":
+        elif card.Type == "Mini" and card.controller == me:
             card.markers[Action] = 0
 
     shared.counters['Round'].value += 1
