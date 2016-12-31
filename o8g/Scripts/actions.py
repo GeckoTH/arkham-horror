@@ -18,16 +18,18 @@ StagingStart = -515
 StagingWidth = 619
 StagingY = -222
 StagingSpace = 82
-AgendaX = 174.5
+AgendaX = 221
 AgendaY = -222
-ActX = 262.5
+ActX = 309
 ActY = -222
-ScenarioX = 388.5
+EncounterX = 147
+EncounterY = -234.75
+ScenarioX = 408.5
 ScenarioY = -234.75
 CampaignX = 500
 CampaignY = -234.75
-ChaosTokenX = 55
-ChaosTokenY = -231
+ChaosTokenX = 94
+ChaosTokenY = -211
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -642,7 +644,9 @@ def nextEncounter(group, x, y, facedown, who=me):
     clearTargets()
     card = group.top()
     if x == 0 and y == 0:  #Move to default position in the staging area
-        addToStagingArea(card, facedown, who)       
+        #addToStagingArea(card, facedown, who)   
+        card.moveToTable(EncounterX, EncounterY, facedown)
+        notify("{} places '{}' on the table.".format(who, card))    
     else:
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
