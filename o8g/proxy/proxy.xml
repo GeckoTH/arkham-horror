@@ -668,4 +668,9 @@
 	  </link>
     </textblocks>
   </template>
+  <template src="proxy/campaign.jpg" default="False">
+    <matches>
+      <match name="Type" value="Campaign" />
+    </matches>
+  </template>
 </templates>
