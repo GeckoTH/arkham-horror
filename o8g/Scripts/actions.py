@@ -24,6 +24,8 @@ ActX = 262.5
 ActY = -222
 ScenarioX = 388.5
 ScenarioY = -234.75
+CampaignX = 500
+CampaignY = -234.75
 ChaosTokenX = 55
 ChaosTokenY = -231
 DoneColour = "#D8D8D8" # Grey
@@ -724,6 +726,8 @@ def agendaSetup(card):
         for c in setupDeck():
             if c.Type == "Scenario":
                 c.moveToTable(ScenarioX, ScenarioY)
+            elif c.Type == "Campaign":
+                c.moveToTable(CampaignX, CampaignY)
             elif i >= len(card.Setup) or card.Setup[i] == 't':
                 addToTable(c)
             elif card.Setup[i] == 's':
@@ -921,6 +925,8 @@ def defaultAction(card, x = 0, y = 0):
         discard(card, x, y)
     elif card.Type == "Mini": #Add action token
         addToken(card, Action)
+    elif card.Type == "Campaign": #Add a progress token
+        flipcard(card, x, y)
     else:
         exhaust(card, x, y)
         
