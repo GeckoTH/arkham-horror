@@ -22,6 +22,7 @@
 		<event name="OnGameStarted" action="startOfGame"/>
 		<event name="OnDeckLoaded" action="deckLoaded"/>
 		<event name="OnGlobalVariableChanged" action="globalChanged"/>
+		<event name="OnMarkerChanged" action="markerChanged"/>
 	</events>
 	<fonts>
 		<font src="fonts/Calibri-Arkham.ttf" size="12" target="context" />
@@ -38,6 +39,7 @@
 		<globalvariable name="playersSetup" value=""/>
 		<globalvariable name="currentPlayers" value="" />
 		<globalvariable name="done" value="" />
+		<globalvariable name="phase" value="" />
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />
