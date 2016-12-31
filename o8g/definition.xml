@@ -19,6 +19,7 @@
 		<script src="scripts/basic_weakness.py" />
 	</scripts>
 	<events>
+		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
 		<event name="OnGameStarted" action="startOfGame"/>
 		<event name="OnDeckLoaded" action="deckLoaded"/>
 		<event name="OnGlobalVariableChanged" action="globalChanged"/>
