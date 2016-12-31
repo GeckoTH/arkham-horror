@@ -706,6 +706,8 @@
     <property name="Class" value="Mystic"/>
     <property name="Cost" value="2"/>
     <property name="Willpower" value="1"/>
+    <property name="Health" value="-"/>
+    <property name="Sanity" value="2"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Charm."/>
@@ -853,6 +855,8 @@
     <property name="Class" value="Survivor"/>
     <property name="Cost" value="0"/>
     <property name="Combat" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="-"/>
     <property name="Skill Icons" value="ή"/>
     <property name="Slot" value="Body"/>
     <property name="Traits" value="Item. Armor."/>
@@ -895,6 +899,7 @@
     <property name="Cost" value="1"/>
     <property name="Agility" value="1"/>
     <property name="Health" value="1"/>
+    <property name="Sanity" value="-"/>
     <property name="Skill Icons" value="ί"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Creature."/>
@@ -1077,6 +1082,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="2"/>
     <property name="Combat" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Sanity" value="-"/>
     <property name="Skill Icons" value="ήΰ"/>
     <property name="Slot" value="Body"/>
     <property name="Traits" value="Item. Armor."/>
@@ -1088,6 +1095,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="2"/>
     <property name="Willpower" value="1"/>
+    <property name="Health" value="-"/>
+    <property name="Sanity" value="4"/>
     <property name="Skill Icons" value="άΰ"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Relic."/>

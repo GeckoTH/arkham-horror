@@ -43,6 +43,18 @@
 		<text color="#000000" size="14" font="fonts/ArnoPro-Arkham.ttf" />
 		<wordwrap height="195" width="300" />
 	</block>
+	<block type="text" id="asset_damage">
+		<location x="115" y="500" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton-Arkham.ttf" />
+		<border color="#c6181e" size="3" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
+	<block type="text" id="asset_horror">
+		<location x="215" y="500" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton-Arkham.ttf" />
+		<border color="#0d3d73" size="3" />
+		<wordwrap height="30" width="50" align="center" />
+	</block>
 	<block type="text" id="event_name">
 		<location x="74" y="307" />
 		<text color="#000000" size="20" font="fonts/Teutonic-Arkham.ttf" />
@@ -410,6 +422,12 @@
 	  </link>
 	  <link block="skill_icons">
 	   <property name="Skill Icons" />
+	  </link>
+	  <link block="asset_damage">
+	   <property name="Health" />
+	  </link>
+	  <link block="asset_horror">
+	   <property name="Sanity" />
 	  </link>
     </textblocks>
   </template>
