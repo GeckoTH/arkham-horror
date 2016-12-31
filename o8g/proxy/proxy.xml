@@ -26,7 +26,7 @@
 		<location x="1" y="90" />
 		<text color="#000000" size="24" font="fonts/ArnoPro-Arkham.ttf" />
 		<border color="#FFFFFF" size="5" />
-		<wordwrap height="30" width="100" align="left" />
+		<wordwrap height="30" width="100" align="near" />
 	</block>
 	<block type="text" id="asset_name">
 		<location x="74" y="15" />
