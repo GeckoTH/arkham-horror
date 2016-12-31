@@ -107,6 +107,18 @@ def eliminated(p):
 #
 #   return False
 
+def cardDoubleClicked(args):
+    # args = card, mouseButton, keysDown
+    mute()
+    card = args.card
+    if card.Type == "Chaos Bag": # Draw Chaos Token
+        drawChaosTokenForPlayer(me, [])
+    elif card.Type == "Chaos Token": # Discard Chaos Token
+        if card.controller == me:
+            doDiscard(me, card, chaosBag())
+        else:
+            remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
+
 def activePlayers():
     count=0
     for p in getPlayers():
@@ -919,10 +931,12 @@ def defaultAction(card, x = 0, y = 0):
         flipcard(card, x, y)
     elif card.Type == "Enemy": #Add damage
         addDamage(card, x, y)
-    elif card.Type == "Chaos Bag": #Draw Chaos Token
-        drawChaosToken(card, x, y)
-    elif card.Type == "Chaos Token": #Discard Chaos Token
-        discard(card, x, y)
+    elif card.Type == "Chaos Bag": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
+    elif card.Type == "Chaos Token": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
     elif card.Type == "Mini": #Add action token
         addToken(card, Action)
     elif card.Type == "Campaign": #Add a progress token
@@ -1432,7 +1446,7 @@ def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 
         drawPileToTable(player, chaosBag(), ChaosTokenX + xMod, ChaosTokenY + yMod)
         
     else:
-        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me, group, x, y, replace])
+        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me, chaosBag(), x, y, replace])
     
 def moveToRemote (token, pile):
    token.moveTo(pile)	
