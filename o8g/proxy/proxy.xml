@@ -22,6 +22,12 @@
 		<border color="#000000" size="4" />
 		<wordwrap height="30" width="80" align="center" />
 	</block>
+	<block type="text" id="skill_icons">
+		<location x="1" y="90" />
+		<text color="#000000" size="24" font="fonts/ArnoPro-Arkham.ttf" />
+		<border color="#FFFFFF" size="5" />
+		<wordwrap height="30" width="100" align="near" />
+	</block>
 	<block type="text" id="asset_name">
 		<location x="74" y="15" />
 		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
@@ -137,8 +143,8 @@
 	</block>
 	<block type="text" id="enemy_health">
 		<location x="166" y="68" />
-		<text color="#FFFFFF" size="25" font="fonts/Bolton.ttf" />
-		<border color="#000000" size="2" />
+		<text color="#fff4db" size="22" font="fonts/ArnoPro-Arkham.ttf" />
+		<border color="#000000" size="3" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="enemy_agility">
@@ -181,10 +187,10 @@
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="location_clues">
-		<location x="317" y="270" />
-		<text color="#000000" size="30" font="fonts/Bolton.ttf" />
+		<location x="315" y="265" />
+		<text color="#000000" size="30" font="fonts/ArnoPro-Arkham.ttf" />
 		<border color="#FFFFFF" size="3" />
-		<wordwrap height="30" width="50" align="center" />
+		<wordwrap height="30" width="60" align="center" />
 	</block>
 	<block type="text" id="treachery_name">
 		<location x="74" y="310" />
@@ -253,10 +259,10 @@
 		<wordwrap height="30" width="150" align="center" />
 	</block>
 	<block type="text" id="act_clues">
-		<location x="242" y="309" />
-		<text color="#FFFFFF" size="28" font="fonts/Bolton.ttf" />
-		<border color="#000000" size="2" />
-		<wordwrap height="30" width="50" align="center" />
+		<location x="240" y="309" />
+		<text color="#000000" size="22" font="fonts/ArnoPro-Arkham.ttf" />
+		<border color="#FFFFFF" size="3" />
+		<wordwrap height="30" width="60" align="center" />
 	</block>
 	<block type="text" id="scenario_name">
 		<location x="85" y="90" />
@@ -402,6 +408,9 @@
 	   <property name="Keywords" />
 	   <property name="Text" />
 	  </link>
+	  <link block="skill_icons">
+	   <property name="Skill Icons" />
+	  </link>
     </textblocks>
   </template>
   <template src="proxy/event-neutral.jpg" default="False">
@@ -445,6 +454,9 @@
 	   <property name="Keywords" />
 	   <property name="Text" />
 	  </link>
+	  <link block="skill_icons">
+	   <property name="Skill Icons" />
+	  </link>
     </textblocks>
   </template>
   <template src="proxy/skill-neutral.jpg" default="False">
@@ -487,6 +499,9 @@
 	  <link block="skill_description" separator="&#10;&#10;">
 	   <property name="Keywords" />
 	   <property name="Text" />
+	  </link>
+	  <link block="skill_icons">
+	   <property name="Skill Icons" />
 	  </link>
     </textblocks>
   </template>
