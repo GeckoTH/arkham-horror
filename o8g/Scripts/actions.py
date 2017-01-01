@@ -30,6 +30,8 @@ CampaignX = 500
 CampaignY = -234.75
 ChaosTokenX = 94
 ChaosTokenY = -211
+ChaosBagX = 0
+ChaosBagY = -234.75
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -519,11 +521,11 @@ def turnManagement():
     return auto == "Turn" or len(auto) == 0
 
 def createChaosBag(group, x=0, y=0):
-  for c in group:
-      if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
-          c.moveToTable(x, y)
-          return
-  group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosTokenX, ChaosTokenY, 1, False)
+    for c in group:
+        if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
+            c.moveToTable(x, y)
+            return
+    group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosBagX, ChaosBagY, 1, False)
 
 def flipCoin(group, x = 0, y = 0):
     mute()
