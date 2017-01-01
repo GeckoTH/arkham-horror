@@ -115,13 +115,14 @@ def cardDoubleClicked(args):
     # args = card, mouseButton, keysDown
     mute()
     card = args.card
-    if card.Type == "Chaos Bag": # Draw Chaos Token
-        drawChaosTokenForPlayer(me, [])
-    elif card.Type == "Chaos Token": # Discard Chaos Token
-        if card.controller == me:
-            doDiscard(me, card, chaosBag())
-        else:
-            remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
+    if hasattr(card, 'Type'):
+        if card.Type == "Chaos Bag": # Draw Chaos Token
+            drawChaosTokenForPlayer(me, [])
+        elif card.Type == "Chaos Token": # Discard Chaos Token
+            if card.controller == me:
+                doDiscard(me, card, chaosBag())
+            else:
+                remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
 
 def activePlayers():
     count=0
