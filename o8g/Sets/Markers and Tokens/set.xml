@@ -62,6 +62,9 @@
     <card id="faa82643-1dda-4af7-96ad-298bc2d5b2dd" name="ChaosBag">
       <property name="Type" value="Chaos Bag" />
     </card>
+    <card id="f4633a2e-0102-452d-8387-678b5aa17878" name="Encounter Draw">
+      <property name="Type" value="Encounter Draw" />
+    </card>
   </cards>
 	
 </set>
