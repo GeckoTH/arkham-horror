@@ -423,6 +423,8 @@ def deckLoaded(args):
                 card.moveTo(shared.piles['Encounter'])
             elif pile == me.piles['Discard Pile']:
                 card.moveTo(me.deck)
+        if pile.name == "Chaos Bag":
+            createChaosBag(table)
 
 
     update()
