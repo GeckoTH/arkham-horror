@@ -1138,7 +1138,7 @@ def subToken(card, tokenType):
 
 def markerChanged(args):
     card = args.card
-    if card.Type == "Agenda" and args.marker == Doom[0] and getGlobalVariable("phase") == "Mythos":
+    if card.Type == "Agenda" and args.marker == Doom[0] and getGlobalVariable("phase") == "Mythos" and card.properties[Doom[0]] != "":
         if card.markers[Doom] >= int(card.properties[Doom[0]]):
             card.highlight = EliminatedColour
         else:
