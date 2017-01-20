@@ -55,6 +55,10 @@ def phasePassed(args):
     previousPhaseIndex = args.id
     newPhase = previousPhaseIndex + 1
     
+    if newPhase > 4:
+        newPhase = 1
+        me.setActive()
+    
     if newPhase == 1:
         if turnNumber() != 1:
             doMythosPhase()
