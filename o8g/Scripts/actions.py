@@ -30,6 +30,8 @@ CampaignX = 500
 CampaignY = -234.75
 ChaosTokenX = 94
 ChaosTokenY = -211
+ChaosBagX = 0
+ChaosBagY = -234.75
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -113,13 +115,14 @@ def cardDoubleClicked(args):
     # args = card, mouseButton, keysDown
     mute()
     card = args.card
-    if card.Type == "Chaos Bag": # Draw Chaos Token
-        drawChaosTokenForPlayer(me, [])
-    elif card.Type == "Chaos Token": # Discard Chaos Token
-        if card.controller == me:
-            doDiscard(me, card, chaosBag())
-        else:
-            remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
+    if hasattr(card, 'Type'):
+        if card.Type == "Chaos Bag": # Draw Chaos Token
+            drawChaosTokenForPlayer(me, [])
+        elif card.Type == "Chaos Token": # Discard Chaos Token
+            if card.controller == me:
+                doDiscard(me, card, chaosBag())
+            else:
+                remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
 
 def activePlayers():
     count=0
@@ -420,6 +423,8 @@ def deckLoaded(args):
                 card.moveTo(shared.piles['Encounter'])
             elif pile == me.piles['Discard Pile']:
                 card.moveTo(me.deck)
+        if pile.name == "Chaos Bag":
+            createChaosBag(table)
 
 
     update()
@@ -519,11 +524,11 @@ def turnManagement():
     return auto == "Turn" or len(auto) == 0
 
 def createChaosBag(group, x=0, y=0):
-  for c in group:
-      if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
-          c.moveToTable(x, y)
-          return
-  group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosTokenX, ChaosTokenY, 1, False)
+    for c in group:
+        if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
+            c.moveToTable(x, y)
+            return
+    group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosBagX, ChaosBagY, 1, False)
 
 def flipCoin(group, x = 0, y = 0):
     mute()
