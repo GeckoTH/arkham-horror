@@ -79,6 +79,21 @@
 		<size name="EncounterCard" width="63" height="88" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4"/>
 		<size name="MiniCard" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
 		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
+	    <size name="LongPath" width="140" height="20" />
+	    <size name="MediumPath" width="70" height="20" />
+	    <size name="ShortPath" width="35" height="20" />
+	    <size name="ElbowPath" width="55" height="55" />
+	    <size name="CrossPath" width="90" height="90" />
+	    <size name="ThreeWayPath" width="85" height="85" />
+	    <size name="DirectionalMarker" width="20" height="20" />
+	    <size name="DiagConnectPath" width="60" height="60" />
+	    <size name="DiagLongPath" width="115" height="115" />
+	    <size name="DiagMediumPath" width="65" height="65" />
+	    <size name="DiagShortPath" width="38" height="38" />
+	    <size name="DiagElbowPath" width="77" height="77" />
+	    <size name="DiagCrossPath" width="74" height="74" />
+	    <size name="DiagThreeWayPath" width="76" height="76" />
+	    <size name="DiagDirectionalMarker" width="20" height="25" />
 	</card>
 	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
@@ -125,6 +140,23 @@
 		<cardaction menu="Rotate Left" default="False" shortcut="F8" execute="rotateLeft" />
 		<cardaction menu="Rotate Right" default="False" shortcut="F9" execute="rotateRight" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
+		<groupactions menu="Path Markers">
+			<groupaction menu="Orthagonal on front side. Flip for diagonal." default="False" execute="" />
+			<groupseparator />
+			<groupaction menu="Long Path" default="False" execute="placeLongPath" />
+			<groupaction menu="Medium Path" default="False" execute="placeMediumPath" />
+			<groupaction menu="Short Path" default="False" execute="placeShortPath" />
+			<groupseparator />
+			<groupaction menu="Elbow Path" default="False" execute="placeElbowPath" />
+			<groupaction menu="Cross Path" default="False" execute="placeCrossPath" />
+			<groupaction menu="3-Way Path" default="False" execute="placeThreeWayPath" />
+			<groupseparator />
+			<groupaction menu="Orthagonal to Diagonal Connection Path" default="False" execute="placeDiagonalConnectionPath" />
+			<groupaction menu="Directional Marker" default="False" execute="placeDirectionalMarker" />
+			<groupseparator />
+			<groupaction menu="Lock all paths" default="False" execute="lockAllPaths" />
+			<groupaction menu="Unlock all paths" default="False" execute="unlockAllPaths" />
+		</groupactions>
 		<groupactions menu="Random">
 			<groupaction menu="Coin Flip" default="False" execute="flipCoin" />
 			<groupaction menu="Number" default="False" execute="randomNumber" />
