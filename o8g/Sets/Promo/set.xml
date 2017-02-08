@@ -16,7 +16,7 @@
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Performer. Sorcerer."/>
     <property name="Text" value="While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play Spell cards or activate Spell η abilities.&#10;ε effect: +1. You may add 1 doom to or remove 1 doom from a card you control."/>
-    <alternate name="Marie Lambeau" type="B">
+    <alternate name="Marie Lambeau" type="B" size="InvestigatorCard">
       <property name="Encounter Set" value="Promo"/>
       <property name="Subtitle" value="The Entertainer"/>
       <property name="Unique" value="ο"/>
