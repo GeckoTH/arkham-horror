@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="df403021-1bf1-41f5-b043-23a1cf8a4471">The Festivities Begin</card>
+    <card qty="1" id="5fb3f545-1b74-4cca-82bf-70044c777233">The Shadow of the Eclipse</card>
+    <card qty="1" id="465b0548-4bc3-42b5-94d2-8c56839ffe26">Chaos at the Carnevale</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="5cdb7485-0510-4154-a95b-7ee9f921ef2b">The Carnevale Conspiracy</card>
+    <card qty="1" id="301a65e6-d1ba-4b05-afd3-274822a0ebe2">Get to the Boats!</card>
+    <card qty="1" id="251a1d13-d6df-44d8-b7f9-1e9530cd9aa0">Row!</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="12e64693-5081-4df7-b782-d0c65f970837">Carnevale of Horrors</card>
+    <card qty="1" id="f8ed894a-eb07-4aaa-8f9b-c75c54fda205">San Marco Basilica</card>
+    <card qty="1" id="5fe3f262-63c7-4f75-8aa4-ace2bd626517">Canal-side</card>
+    <card qty="1" id="08f83237-d86e-4f23-abd7-4ff1db2873f8">Streets of Veince</card>
+    <card qty="1" id="0cc17a30-bd37-41a0-b8ed-c0fef10abb97">Rialto Bridge</card>
+    <card qty="1" id="f9f1e203-30d8-4b7a-8062-d4135c727f65">Venetian Garden</card>
+    <card qty="1" id="bda65d6e-fb86-4b41-a575-595479e53ed0">Bridge of Sighs</card>
+    <card qty="1" id="f1b60ac1-536c-4e98-b2ca-e71386ebab6d">Flooded Square</card>
+    <card qty="1" id="33c71654-227f-44ac-90bf-c0550d14fb5e">Accademia Bridge</card>
+    <card qty="1" id="e4b91703-d264-4aaa-93f4-878207232031">The Guardian</card>
+    <card qty="1" id="7b1b84ba-8597-4634-8968-0c26da7976bc">Campaign Card 1</card>
+    <card qty="1" id="5874a1bf-f905-4db0-a4e5-e9919447324d">Campaign Card 3</card>
+    <card qty="1" id="27e6a058-7844-4d26-8db5-1fc63b0dde81">Campaign Card 5</card>
+    <card qty="1" id="2901ee2e-6b47-4e4f-8fe0-6d0c6855bb0d">Campaign Card 7</card>
+    <card qty="2" id="3fe02e7f-aaaf-4ab0-8f6e-fc1b27128f5a">Campaign Card 9</card>
+    <card qty="1" id="9191fbde-4f45-4110-aa71-859266e1f33e">Campaign Card 11</card>
+    <card qty="1" id="d970c25b-c61d-4abe-841d-442ec907b4fb">Don Lagorio</card>
+    <card qty="1" id="4c4faf51-f697-4c74-8859-c4b5221d5897">Elisabetta Margo</card>
+    <card qty="1" id="7dd9e264-2dce-40e2-be80-44ce5285430b">Salvatore Neri</card>
+    <card qty="1" id="ad4fc422-bdb7-4308-a7df-009022796002">Savio Corvi</card>
+    <card qty="3" id="e77f99ff-5c58-4dd8-9889-87f039493046">Innocent Reveler</card>
+    <card qty="1" id="799e0d3c-6f3f-41de-8430-4cb775804597">Cnidathqua</card>
+    <card qty="1" id="0da4fcab-eb94-4c2d-a905-038add220968">Pantalone</card>
+    <card qty="1" id="f315a777-d2a9-46bc-8f33-bc76b6af4574">Medico Della Peste</card>
+    <card qty="1" id="6d6ee9e8-36f8-44ce-98d2-71473f012766">Bauta</card>
+    <card qty="1" id="0edf876f-6d5c-4c98-9c69-92fee863b780">Gilded Volto</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Encounter" shared="True">
+    <card qty="1" id="0c66f5c7-85f9-4177-9624-0638bd33770b">Abbess Allegria Di Biase</card>
+    <card qty="2" id="63d81504-f5bd-4136-82ec-55d8590aeec1">Poleman</card>
+    <card qty="3" id="19a697fe-39f1-4fc3-928b-34610a6d53d8">Carnevale Sentinel</card>
+    <card qty="3" id="6530e817-1573-42ff-b0c3-db6290cb4002">Writhing Appendage</card>
+    <card qty="4" id="37f34aca-13d8-4457-aa45-0f3e13fe5357">Mass Hysteria</card>
+    <card qty="4" id="85947a9e-7535-4db0-b3f8-9220cf5d5bc9">Lost in Venice</card>
+    <card qty="4" id="de48fac1-ab99-4201-b846-cad0308930ba">Watchers' Gaze</card>
+    <card qty="2" id="ab0834d0-5ada-4be1-a9b4-7fd6c2be299c">Chaos in the Water</card>
+    <card qty="2" id="be44694d-ca22-4142-85be-9b804a981b65">Mesmerize</card>
+    <card qty="2" id="3999589b-4693-4a8d-9ce2-014fddf57fb8">Abduction</card>
+    <card qty="2" id="3ab57c7d-737f-4dba-ba5c-260959ee9c8e">Acrid Miasma</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True">
+    <card qty="1" id="d8669f4c-aa2c-4ef1-ab0c-9202b08cf563">+1</card>
+    <card qty="3" id="35137ccc-db2b-4fdd-b0a8-a5d91f453a43">0</card>
+    <card qty="3" id="c74d422c-d209-48c9-bc5a-caacb8c8b402">-1</card>
+    <card qty="1" id="92df60c3-7d56-4e2d-99e2-c0e7e0d9994a">-2</card>
+    <card qty="1" id="eac1c4b1-43ac-49d9-b2ac-55c3b1340bd8">-3</card>
+    <card qty="1" id="6d3049df-5584-42a8-9c5b-b64e48f16a4a">-4</card>
+    <card qty="1" id="0467c5e1-ad56-4c87-8460-66b89d5f0816">-6</card>
+    <card qty="3" id="49d18b2f-a191-4569-9ce4-06a5bdd33bf6">Skull</card>
+    <card qty="1" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
+    <card qty="1" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>
+    <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
+    <card qty="1" id="9bdf31e9-51c4-4080-9e8d-53c9965ba214">Auto Fail</card>
+    <card qty="1" id="ca0b7b2a-8992-483b-8094-b3c515af8967">Elder Sign</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
