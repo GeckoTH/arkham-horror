@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promo" id="462b9c1c-9e3c-4985-9411-fd9e311fae4b" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="08864675-f455-40db-8dac-70f0887dc648" name="Marie Lambeau" size="InvestigatorCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Promo"/>
+    <property name="Subtitle" value="The Entertainer"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Willpower" value="4"/>
+    <property name="Intellect" value="4"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Sanity" value="8"/>
+    <property name="Traits" value="Performer. Sorcerer."/>
+    <property name="Text" value="While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play Spell cards or activate Spell η abilities.&#10;ε effect: +1. You may add 1 doom to or remove 1 doom from a card you control."/>
+    <alternate name="Marie Lambeau" type="B" size="InvestigatorCard">
+      <property name="Encounter Set" value="Promo"/>
+      <property name="Subtitle" value="The Entertainer"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="investigator"/>
+      <property name="Class" value="mystic"/>
+    </alternate>
+  </card>
+  <card id="13beb81c-4951-4891-9cb2-32d7c9c368bf" name="Mystifying Song">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Promo"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Traits" value="Spell. Song."/>
+    <property name="Text" value="Marie Lambeau deck only.&#10;Fast. Play when the agenda would advance by reaching its doom threshold.&#10;Until the end of the phase, the agenda cannot advance by reaching its doom threshold. Remove Mystifying Song from the game."/>
+  </card>
+  <card id="80aa551e-34a6-412c-8520-7f55a0526bdc" name="Baron Samedi">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Promo"/>
+    <property name="Subtitle" value="Lord of the Cemetery"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="weakness"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Avatar."/>
+    <property name="Text" value="Revelation - Put Baron Samedi into play. He cannot leave play while he has less than 3 doom on him.&#10;Forced – When any amount of damage is placed on an investigator in Baron Samedi's location: Place 1 additional damage on that investigator.&#10;θ Exhaust Baron Samedi: Place 1 doom on Baron Samedi. If he has 3 or more doom on him, discard him."/>
+  </card>
+ </cards>
+</set>
