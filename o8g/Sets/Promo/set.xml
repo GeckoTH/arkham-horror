@@ -16,11 +16,11 @@
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Performer. Sorcerer."/>
     <property name="Text" value="While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play Spell cards or activate Spell η abilities.&#10;ε effect: +1. You may add 1 doom to or remove 1 doom from a card you control."/>
-    <alternate name="Marie Lambeau" type="B" size="InvestigatorCard">
+    <alternate name="Marie Lambeau" size="InvestigatorCard" type="B">
       <property name="Encounter Set" value="Promo"/>
       <property name="Subtitle" value="The Entertainer"/>
       <property name="Unique" value="ο"/>
-      <property name="Type" value="investigator"/>
+      <property name="Type" value="Investigator"/>
       <property name="Class" value="mystic"/>
     </alternate>
   </card>
@@ -45,6 +45,14 @@
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Avatar."/>
     <property name="Text" value="Revelation - Put Baron Samedi into play. He cannot leave play while he has less than 3 doom on him.&#10;Forced – When any amount of damage is placed on an investigator in Baron Samedi's location: Place 1 additional damage on that investigator.&#10;θ Exhaust Baron Samedi: Place 1 doom on Baron Samedi. If he has 3 or more doom on him, discard him."/>
+  </card>
+  <card id="dc6668db-fb2b-4771-95b6-63a39265ef60" name="Marie Lambeau" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Marie Lambeau" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
   </card>
  </cards>
 </set>

@@ -728,7 +728,7 @@
       <property name="Text" value="Objective - If investigators in the Dormitories spend 3[per investigator] clues, as a group: (→R2)"/>
     </alternate>
   </card>
-  <card id="f5a6a23b-fb3b-492c-a57c-28a992fe8012" name="Administration" size="EncounterCard">
+  <card id="f5a6a23b-fb3b-492c-a57c-28a992fe8012" name="Administration Building" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -736,7 +736,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
-    <alternate name="Administration" size="EncounterCard" type="B">
+    <alternate name="Administration Building" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
@@ -894,7 +894,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="4"/>
     <property name="Text" value="Each Criminal enemy gains Aloof.&#10;If an investigator deals damage to a Criminal enemy: Immediately advance."/>
-    <alternate name="The Clover Club" size="HorizCard" type="B">
+    <alternate name="On the Right Track" size="HorizCard" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
@@ -912,7 +912,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
-    <alternate name="Underground Muscle" size="HorizCard" type="B">
+    <alternate name="Sudden Chaos" size="HorizCard" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -931,7 +931,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
     <property name="Text" value="Forced - At the start of the enemy phase: Discard each Criminal enemy in the same location as an Abomination enemy."/>
-    <alternate name="Chaos in the Clover Club" size="HorizCard" type="B">
+    <alternate name="The Building Collapses" size="HorizCard" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -950,7 +950,7 @@
     <property name="Clues" value="4π "/>
     <property name="Doom" value=""/>
     <property name="Text" value="ι When you reveal a chaos token: You may treat that token as if it were any other token in the chaos bag. If you do, remember that you have &quot;cheated.&quot; (Group limit once per round.)&#10;Objective - When the investigators have collected the requisite number of clues, they must immediately spend them and advance."/>
-    <alternate name="Beginner's Luck" size="HorizCard" type="B">
+    <alternate name="High Roller" size="HorizCard" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -969,7 +969,7 @@
     <property name="Clues" value="2π "/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the VIP Area may spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="Skin Game" size="HorizCard" type="B">
+    <alternate name="Dr. Morgan's Fate" size="HorizCard" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -988,7 +988,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="While Dr. Morgan is not controlled by a player, he gains &quot;η: Parley. Test ά (3) to shake Dr. Morgan out of his daze. If you succeed, place 1 clue from the token bank on him. If there are 1[per investigator] clues on Dr. Morgan, take control of him.&quot;&#10;Objective - If each undefeated investigator has resigned, advance."/>
-    <alternate name="All In" size="HorizCard" type="B">
+    <alternate name="Safe… For Now" size="HorizCard" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
@@ -1007,7 +1007,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="While Peter Clover is not controlled by a player, he gains &quot;η: Parley. Test ά (3) to convince Peter to follow you. If you succeed, place 1 clue from the token bank on him. If there are 1[per investigator] clues on Peter Clover, take control of him.&quot;&#10;Objective - If each undefeated investigator has resigned, advance."/>
-    <alternate name="Fold" size="HorizCard" type="B">
+    <alternate name="Escaping the Club" size="HorizCard" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
@@ -1418,6 +1418,46 @@
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Monster. Abomination."/>
     <property name="Text" value="Prey - Lowest ί.&#10;Hunter.&#10;Forced - When Servant of the Lurker attacks you: Discard the top 2 cards of your deck."/>
+  </card>
+  <card id="75445fe5-ac51-43f6-9aa3-e27df4bfbe56" name="Zoey Samaras" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Guardian"/>
+    <alternate name="Zoey Samaras" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="545b4c74-1499-4d77-8081-7eed0f9a19ce" name="Rex Murphy" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Seeker"/>
+    <alternate name="Rex Murphy" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="ce506bfb-6cb7-4ac0-ae93-20b21723d269" name="Jenny Barnes" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Rogue"/>
+    <alternate name="Jenny Barnes" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="8e7047c8-a9fe-4ecf-b6ae-dca282157d26" name="Jim Culver" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Jim Culver" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="be102e93-b5b5-4aad-b132-20533ac9c5a7" name="&quot;Ashcan&quot; Pete" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Survivor"/>
+    <alternate name="&quot;Ashcan&quot; Pete" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
   </card>
  </cards>
 </set>
