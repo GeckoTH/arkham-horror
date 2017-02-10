@@ -18,16 +18,20 @@ StagingStart = -515
 StagingWidth = 619
 StagingY = -222
 StagingSpace = 82
-AgendaX = 174.5
+AgendaX = 221
 AgendaY = -222
-ActX = 262.5
+ActX = 309
 ActY = -222
-ScenarioX = 388.5
+EncounterX = 147
+EncounterY = -234.75
+ScenarioX = 408.5
 ScenarioY = -234.75
 CampaignX = 500
 CampaignY = -234.75
-ChaosTokenX = 55
-ChaosTokenY = -231
+ChaosTokenX = 94
+ChaosTokenY = -211
+ChaosBagX = 0
+ChaosBagY = -234.75
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -111,13 +115,16 @@ def cardDoubleClicked(args):
     # args = card, mouseButton, keysDown
     mute()
     card = args.card
-    if card.Type == "Chaos Bag": # Draw Chaos Token
-        drawChaosTokenForPlayer(me, [])
-    elif card.Type == "Chaos Token": # Discard Chaos Token
-        if card.controller == me:
-            doDiscard(me, card, chaosBag())
-        else:
-            remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
+    if hasattr(card, 'Type'):
+        if card.Type == "Chaos Bag": # Draw Chaos Token
+            drawChaosTokenForPlayer(me, [])
+        elif card.Type == "Chaos Token": # Discard Chaos Token
+            if card.controller == me:
+                doDiscard(me, card, chaosBag())
+            else:
+                remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
+        elif card.Type == "Path": # Rotate Path cards
+            rotateRight(card)
 
 def activePlayers():
     count=0
@@ -166,10 +173,10 @@ def overlaps(x1, y1, x2, y2, w1, h1, w2 = 0, h2 = 0):
     if h2 == 0:
         h2 = h1
     #Four checks, one for each corner
-    if x1 >= x2 and x1 <= x2 + w2 and y1 >= y2 and y1 <= y2 + h2: return True
-    if x1 + w1 >= x2 and x1 <= x2 and y1 >= y2 and y1 <= y2 + h2: return True
-    if x1 >= x2 and x1 <= x2 + w2 and y1 + h1 >= y2 and y1 <= y2: return True
-    if x1 + w1 >= x2 and x1 <= x2 and y1 + h1 >= y2 and y1 <= y2: return True
+    if int(x1) >= int(x2) and int(x1) <= int(x2) + int(w2) and int(y1) >= int(y2) and int(y1) <= int(y2) + int(h2): return True
+    if int(x1) + int(w1) >= int(x2) and int(x1) <= int(x2) and int(y1) >= int(y2) and int(y1) <= int(y2) + int(h2): return True
+    if int(x1) >= int(x2) and int(x1) <= int(x2) + int(w2) and int(y1) + int(h1) >= int(y2) and int(y1) <= int(y2): return True
+    if int(x1) + int(w1) >= int(x2) and int(x1) <= int(x2) and int(y1) + int(h1) >= int(y2) and int(y1) <= int(y2): return True
     return False
 
 def overlapPartialCard(x, y):
@@ -418,6 +425,8 @@ def deckLoaded(args):
                 card.moveTo(shared.piles['Encounter'])
             elif pile == me.piles['Discard Pile']:
                 card.moveTo(me.deck)
+        if pile.name == "Chaos Bag":
+            createChaosBag(table)
 
 
     update()
@@ -517,11 +526,11 @@ def turnManagement():
     return auto == "Turn" or len(auto) == 0
 
 def createChaosBag(group, x=0, y=0):
-  for c in group:
-      if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
-          c.moveToTable(x, y)
-          return
-  group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosTokenX, ChaosTokenY, 1, False)
+    for c in group:
+        if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
+            c.moveToTable(x, y)
+            return
+    group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosBagX, ChaosBagY, 1, False)
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -642,7 +651,9 @@ def nextEncounter(group, x, y, facedown, who=me):
     clearTargets()
     card = group.top()
     if x == 0 and y == 0:  #Move to default position in the staging area
-        addToStagingArea(card, facedown, who)       
+        #addToStagingArea(card, facedown, who)   
+        card.moveToTable(EncounterX, EncounterY, facedown)
+        notify("{} places '{}' on the table.".format(who, card))    
     else:
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
@@ -921,6 +932,9 @@ def defaultAction(card, x = 0, y = 0):
     # Default for Done button is playerDone
     if not card.isFaceUp: #Face down card - flip
         flipcard(card, x, y)
+    elif card.Type == "Path": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
     elif card.orientation & Rot90 == Rot90: #Rotated card - refresh
         exhaust(card, x, y)
     elif card.Type == "Agenda":
@@ -1497,6 +1511,53 @@ def drawBasicWeaknessToHand(group, x = 0, y = 0):
     card = drawBasicWeakness(group, x, y)
     card.moveTo(me.hand)
     notify("{} draws the Basic Weakness '{}' into their hand.".format(me, card))
+
+def placeLongPath(group, x=0, y=0):
+    pathCard = group.create("7f4029c8-1cee-406a-9913-9fbc6e341bed", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeMediumPath(group, x=0, y=0):
+    pathCard = group.create("cf3d8bd6-354a-4284-b716-109e7040c3e9", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeShortPath(group, x=0, y=0):
+    pathCard = group.create("2e964666-fa5a-40e4-a7f5-bf66c625d783", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeElbowPath(group, x=0, y=0):
+    pathCard = group.create("3d9c7266-d4d0-46e0-b8b3-560fbcf1b294", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeCrossPath(group, x=0, y=0):
+    pathCard = group.create("8ea6845b-b9bb-4f11-a814-e94b16e50629", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeThreeWayPath(group, x=0, y=0):
+    pathCard = group.create("1b1493eb-cf9f-4709-9b50-f8f343f7a607", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeDiagonalConnectionPath(group, x=0, y=0):
+    pathCard = group.create("d2ddabd3-b7b1-427e-8ca2-b7dbe272fce5", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeDirectionalMarker(group, x=0, y=0):
+    pathCard = group.create("10bd7039-10f4-44c9-8be4-61bf182e1d9d", x, y, 1, False)
+    pathCard.sendToBack()
+
+def lockAllPaths(group, x=0, y=0):
+    for card in table:
+        if card.Type == "Path":
+            if not hasattr(card, 'Subtype'):
+                card.sendToBack()
+            card.anchor = True
+
+def unlockAllPaths(group, x=0, y=0):
+    for card in table:
+        if card.Type == "Path":
+            card.anchor = False    
+        
+
+
 
 # def captureDeck(group):
 #   if len(group) == 0: return

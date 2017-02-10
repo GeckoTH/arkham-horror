@@ -62,6 +62,56 @@
     <card id="faa82643-1dda-4af7-96ad-298bc2d5b2dd" name="ChaosBag">
       <property name="Type" value="Chaos Bag" />
     </card>
+    <card id="7f4029c8-1cee-406a-9913-9fbc6e341bed" name="Long Path" size="LongPath">
+      <property name="Type" value="Path" />
+      <alternate name="Long Path" type="B" size="DiagLongPath">
+        <property name="Type" value="Path"/>
+      </alternate>
+    </card>
+    <card id="cf3d8bd6-354a-4284-b716-109e7040c3e9" name="Medium Path" size="MediumPath">
+      <property name="Type" value="Path" />
+      <alternate name="Medium Path" type="B" size="DiagMediumPath">
+        <property name="Type" value="Path"/>
+      </alternate>
+    </card>
+    <card id="2e964666-fa5a-40e4-a7f5-bf66c625d783" name="Short Path" size="ShortPath">
+      <property name="Type" value="Path" />
+      <alternate name="Short Path" type="B" size="DiagShortPath">
+        <property name="Type" value="Path"/>
+      </alternate>
+    </card>
+    <card id="3d9c7266-d4d0-46e0-b8b3-560fbcf1b294" name="Elbow Path" size="ElbowPath">
+      <property name="Type" value="Path" />
+      <alternate name="Elbow Path" type="B" size="DiagElbowPath">
+        <property name="Type" value="Path"/>
+      </alternate>
+    </card>
+    <card id="8ea6845b-b9bb-4f11-a814-e94b16e50629" name="Cross Path" size="CrossPath">
+      <property name="Type" value="Path" />
+      <alternate name="Cross Path" type="B" size="DiagCrossPath">
+        <property name="Type" value="Path"/>
+      </alternate>
+    </card>
+    <card id="1b1493eb-cf9f-4709-9b50-f8f343f7a607" name="3-Way Path" size="ThreeWayPath">
+      <property name="Type" value="Path" />
+      <alternate name="3-Way Path" type="B" size="DiagThreeWayPath">
+        <property name="Type" value="Path"/>
+      </alternate>
+    </card>
+    <card id="d2ddabd3-b7b1-427e-8ca2-b7dbe272fce5" name="Orthagonal to Diagonal Connection Path" size="DiagConnectPath">
+      <property name="Type" value="Path" />
+      <alternate name="Orthagonal to Diagonal Connection Path" type="B" size="DiagConnectPath">
+        <property name="Type" value="Path"/>
+      </alternate>
+    </card>
+    <card id="10bd7039-10f4-44c9-8be4-61bf182e1d9d" name="Directional Marker" size="DirectionalMarker">
+      <property name="Type" value="Path" />
+      <property name="Subtype" value="DirectionalMarker"/>
+      <alternate name="Directional Marker" type="B" size="DiagDirectionalMarker">
+        <property name="Type" value="Path"/>
+        <property name="Subtype" value="DirectionalMarker"/>
+      </alternate>
+    </card>
   </cards>
 	
 </set>
