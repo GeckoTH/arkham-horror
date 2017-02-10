@@ -506,29 +506,37 @@
   </card>
   <card id="9652f814-0df7-4a2f-8140-820e7b85fabb" name="Campaign Card 1">
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Campaign"/>
     <alternate name="Campaign Card 2" type="B">
+      <property name="Encounter Set" value="Curse of the Rougarou"/>
       <property name="Type" value="Campaign"/>
     </alternate>
   </card>
   <card id="33f101e5-161c-458e-894a-522247ac59e1" name="Campaign Card 3">
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Campaign"/>
     <alternate name="Campaign Card 4" type="B">
+      <property name="Encounter Set" value="Curse of the Rougarou"/>
       <property name="Type" value="Campaign"/>
     </alternate>
   </card>
   <card id="eb3cea58-6b3d-4390-b626-a80072945ae8" name="Campaign Card 5">
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Campaign"/>
     <alternate name="Campaign Card 6" type="B">
+      <property name="Encounter Set" value="Curse of the Rougarou"/>
       <property name="Type" value="Campaign"/>
     </alternate>
   </card>
   <card id="770b57a7-32cb-435a-9297-66a7eb5113be" name="Campaign Card 7">
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Campaign"/>
     <alternate name="Campaign Card 8" type="B">
+      <property name="Encounter Set" value="Curse of the Rougarou"/>
       <property name="Type" value="Campaign"/>
     </alternate>
   </card>

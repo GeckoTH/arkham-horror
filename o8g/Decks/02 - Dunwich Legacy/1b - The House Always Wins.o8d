@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="f6a860e8-64e9-495a-8ce3-4841f83f0f47">The Clover Club</card>
+    <card qty="1" id="da10c46d-609b-473f-96c3-8cb10128b336">Underground Muscle</card>
+    <card qty="1" id="2d5e61ce-bdea-4685-a5e9-f1223fa84367">Chaos in the Clover Club</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="48484eb9-dd14-4b3b-a751-ebb7d8e55797">Beginner's Luck</card>
+    <card qty="1" id="212657b3-51a8-4b6c-9125-7005f0dd8510">Skin Game</card>
+    <card qty="1" id="f58a0fc5-57e2-4d23-b16d-aade9b2aa867">All In</card>
+    <card qty="1" id="c19ba09a-afe2-48f4-a51c-78d40f4b2155">Fold</card>
+    <card qty="1" id="92e00d83-0337-4b11-a54a-234d4ab391df">Darkened Hall</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="293a7805-47b3-41a8-96af-14bcb19f93f7">The House Always Wins</card>
+    <card qty="1" id="f354c097-9674-43e9-8a77-2ccd5f51eb09">La Bella Luna</card>
+    <card qty="1" id="6b14f253-95a4-4dbe-819d-afb8bdba7fbf">Clover Club Lounge</card>
+    <card qty="1" id="9c147569-3b78-487f-a2e1-c7fc27fc5c5a">Clover Club Bar</card>
+    <card qty="1" id="a05ba6f5-01c3-4915-9591-54ee19d8071e">Clover Club Cardroom</card>
+    <card qty="1" id="fff0c40c-d0b4-4042-a64b-8a7f45b1eae4">Clover Club Pit Boss</card>
+    <card qty="1" id="e9a12a37-22f2-49fa-b64b-5895ad5f277e">Peter Clover</card>
+    <card qty="1" id="ab261304-07ef-4bd2-9df7-7e2d5d5ce86d">Dr. Francis Morgan</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="9f8bba21-d2b3-4b5a-8a98-22ee78d592d2">Something in the Drinks</card>
+    <card qty="2" id="01b32aa7-2a0d-4041-b562-3fb47b2ce697">Arousing Suspicions</card>
+    <card qty="3" id="ada6d61b-5f6f-4c36-ad24-d454e835bbf4">Cursed Luck</card>
+    <card qty="3" id="fafc853e-e498-4829-bb4f-6d5622b9f6bf">Twist of Fate</card>
+    <card qty="2" id="4ae24039-09f8-40d4-bb5c-f0ed1ac302c0">O'Bannion's Thug</card>
+    <card qty="2" id="8a82e394-d5fa-43cd-8047-fd3610918a72">Mobster</card>
+    <card qty="2" id="cc7e7896-37a6-471c-9c2c-86a21acce22b">Hunted Down</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Location" shared="True">
+    <card qty="1" id="92e00d83-0337-4b11-a54a-234d4ab391df">Darkened Hall</card>
+    <card qty="1" id="d28e263f-2712-4ba3-916c-9c02e4073b40">Back Hall Doorway</card>
+    <card qty="1" id="a43dcccb-fb2b-4051-bd2c-cbd26dcbbd81">Back Hall Doorway</card>
+    <card qty="1" id="4916cef3-9842-42a0-bcc8-d39fb08f3032">Back Hall Doorway</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="1" id="f47b2774-3148-444b-94ea-5696db0c6342">Servant of the Lurker</card>
+    <card qty="2" id="43a5ec05-0bd1-4f2c-b7e8-0fd93d372d8c">Conglomeration of Spheres</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

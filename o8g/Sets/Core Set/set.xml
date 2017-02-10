@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Core Set" id="0000f984-d06f-44cb-bf1c-d66a620acad8" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="25f013a5-4ca2-4a34-9d03-e11e8ed93aaf" name="Roland Banks" size="InvestigatorCard">
@@ -706,6 +706,8 @@
     <property name="Class" value="Mystic"/>
     <property name="Cost" value="2"/>
     <property name="Willpower" value="1"/>
+    <property name="Health" value="-"/>
+    <property name="Sanity" value="2"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Charm."/>
@@ -853,6 +855,8 @@
     <property name="Class" value="Survivor"/>
     <property name="Cost" value="0"/>
     <property name="Combat" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="-"/>
     <property name="Skill Icons" value="ή"/>
     <property name="Slot" value="Body"/>
     <property name="Traits" value="Item. Armor."/>
@@ -895,6 +899,7 @@
     <property name="Cost" value="1"/>
     <property name="Agility" value="1"/>
     <property name="Health" value="1"/>
+    <property name="Sanity" value="-"/>
     <property name="Skill Icons" value="ί"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Creature."/>
@@ -1077,6 +1082,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="2"/>
     <property name="Combat" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Sanity" value="-"/>
     <property name="Skill Icons" value="ήΰ"/>
     <property name="Slot" value="Body"/>
     <property name="Traits" value="Item. Armor."/>
@@ -1088,6 +1095,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="2"/>
     <property name="Willpower" value="1"/>
+    <property name="Health" value="-"/>
+    <property name="Sanity" value="4"/>
     <property name="Skill Icons" value="άΰ"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Relic."/>
@@ -1242,7 +1251,7 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="2"/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <alternate name="The Door on the Floor" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Gathering"/>
@@ -1260,7 +1269,7 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="2"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="3"/>
+    <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - When the round ends, investigators in the hallway may, as a group, spend the requisite number of clues to advance."/>
     <alternate name="Breaking the Barrier" size="HorizCard" type="B">
@@ -1303,7 +1312,7 @@
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
     </alternate>
   </card>
@@ -1333,7 +1342,7 @@
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Text" value="Forced - After you enter the Attic: Take 1 horror."/>
@@ -1350,7 +1359,7 @@
       <property name="Encounter Set" value="The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Text" value="Forced - After you enter the Cellar: Take 1 damage."/>
@@ -1378,7 +1387,7 @@
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="4"/>
     <property name="Agility" value="4"/>
-    <property name="Health" value="5"/>
+    <property name="Health" value="5π"/>
     <property name="Damage" value="2"/>
     <property name="Horror" value="2"/>
     <property name="Victory Points" value="2"/>
@@ -1528,7 +1537,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
       <property name="Text" value="Forced - When the Ghoul Priest spawns: Spawn it here instead of at its normal location.η Draw 1 card and gain 1 resource. (Limit once per turn.)"/>
@@ -1546,7 +1555,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham. Central."/>
     </alternate>
@@ -1564,7 +1573,7 @@
       <property name="Subtitle" value="Historical Society"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
       <property name="Text" value="η: Draw 3 cards. (Limit once per game.)"/>
@@ -1583,7 +1592,7 @@
       <property name="Subtitle" value="Ma's Boarding House"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
       <property name="Text" value="η: Search your deck for an Ally asset and add it to your hand. Shuffle your deck. (Limit once per game.)"/>
@@ -1601,7 +1610,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
       <property name="Text" value="η: Heal 3 damage. (Limit once per game.)"/>
@@ -1619,7 +1628,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham."/>
@@ -1639,7 +1648,7 @@
       <property name="Subtitle" value="First Bank of Arkham"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
       <property name="Text" value="η: Gain 3 resources. (Limit once per game.)"/>
@@ -1658,7 +1667,7 @@
       <property name="Subtitle" value="Arkham Asylum"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
       <property name="Text" value="η: Heal 3 horror. (Limit once per game.)"/>
@@ -1676,7 +1685,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
       <property name="Text" value="While you are in Easttown, reduce the cost of each Ally asset you play by 2."/>
@@ -1694,7 +1703,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham."/>
@@ -1713,7 +1722,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham."/>
@@ -1889,7 +1898,7 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="3"/>
+    <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <alternate name="Unveiling the Plan" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
@@ -1970,7 +1979,7 @@
       <property name="Subtitle" value="Unhallowed Ground"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Woods."/>
       <property name="Text" value="Forced - After you enter this location: Test ά (4). If you fail, take 1 damage and 1 horror."/>
@@ -1989,7 +1998,7 @@
       <property name="Subtitle" value="Twisting Paths"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Woods."/>
       <property name="Text" value="Forced - When you move out of this location: Test έ (3). If you fail, cancel the effects of the move."/>
@@ -2008,7 +2017,7 @@
       <property name="Subtitle" value="Old House"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Woods."/>
       <property name="Text" value="This location is investigated using ά instead of the skill indicated by the investigation attempt."/>
@@ -2027,7 +2036,7 @@
       <property name="Subtitle" value="Cliffside"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Woods."/>
       <property name="Text" value="This location is investigated using ί instead of the skill indicated by the investigation attempt."/>
@@ -2046,7 +2055,7 @@
       <property name="Subtitle" value="Tangled Thicket"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Woods."/>
       <property name="Text" value="This location is investigated using ή instead of the skill indicated by the investigation attempt."/>
@@ -2083,7 +2092,7 @@
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Cave."/>
       <property name="Text" value="Forced - At the end of the round, if there are fewer than 2 clues per investigator on Ritual Site: add clues to it until it has 2 clues per investigator on it."/>

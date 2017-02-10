@@ -125,6 +125,8 @@ def cardDoubleClicked(args):
                 remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
         elif card.Type == "Encounter Draw": # Draw Encounter Card
             addEncounter(table)
+        elif card.Type == "Path": # Rotate Path cards
+            rotateRight(card)
 
 def activePlayers():
     count=0
@@ -173,10 +175,10 @@ def overlaps(x1, y1, x2, y2, w1, h1, w2 = 0, h2 = 0):
     if h2 == 0:
         h2 = h1
     #Four checks, one for each corner
-    if x1 >= x2 and x1 <= x2 + w2 and y1 >= y2 and y1 <= y2 + h2: return True
-    if x1 + w1 >= x2 and x1 <= x2 and y1 >= y2 and y1 <= y2 + h2: return True
-    if x1 >= x2 and x1 <= x2 + w2 and y1 + h1 >= y2 and y1 <= y2: return True
-    if x1 + w1 >= x2 and x1 <= x2 and y1 + h1 >= y2 and y1 <= y2: return True
+    if int(x1) >= int(x2) and int(x1) <= int(x2) + int(w2) and int(y1) >= int(y2) and int(y1) <= int(y2) + int(h2): return True
+    if int(x1) + int(w1) >= int(x2) and int(x1) <= int(x2) and int(y1) >= int(y2) and int(y1) <= int(y2) + int(h2): return True
+    if int(x1) >= int(x2) and int(x1) <= int(x2) + int(w2) and int(y1) + int(h1) >= int(y2) and int(y1) <= int(y2): return True
+    if int(x1) + int(w1) >= int(x2) and int(x1) <= int(x2) and int(y1) + int(h1) >= int(y2) and int(y1) <= int(y2): return True
     return False
 
 def overlapPartialCard(x, y):
@@ -937,6 +939,9 @@ def defaultAction(card, x = 0, y = 0):
     # Default for Done button is playerDone
     if not card.isFaceUp: #Face down card - flip
         flipcard(card, x, y)
+    elif card.Type == "Path": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
     elif card.orientation & Rot90 == Rot90: #Rotated card - refresh
         exhaust(card, x, y)
     elif card.Type == "Agenda":
@@ -1516,6 +1521,53 @@ def drawBasicWeaknessToHand(group, x = 0, y = 0):
     card = drawBasicWeakness(group, x, y)
     card.moveTo(me.hand)
     notify("{} draws the Basic Weakness '{}' into their hand.".format(me, card))
+
+def placeLongPath(group, x=0, y=0):
+    pathCard = group.create("7f4029c8-1cee-406a-9913-9fbc6e341bed", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeMediumPath(group, x=0, y=0):
+    pathCard = group.create("cf3d8bd6-354a-4284-b716-109e7040c3e9", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeShortPath(group, x=0, y=0):
+    pathCard = group.create("2e964666-fa5a-40e4-a7f5-bf66c625d783", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeElbowPath(group, x=0, y=0):
+    pathCard = group.create("3d9c7266-d4d0-46e0-b8b3-560fbcf1b294", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeCrossPath(group, x=0, y=0):
+    pathCard = group.create("8ea6845b-b9bb-4f11-a814-e94b16e50629", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeThreeWayPath(group, x=0, y=0):
+    pathCard = group.create("1b1493eb-cf9f-4709-9b50-f8f343f7a607", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeDiagonalConnectionPath(group, x=0, y=0):
+    pathCard = group.create("d2ddabd3-b7b1-427e-8ca2-b7dbe272fce5", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeDirectionalMarker(group, x=0, y=0):
+    pathCard = group.create("10bd7039-10f4-44c9-8be4-61bf182e1d9d", x, y, 1, False)
+    pathCard.sendToBack()
+
+def lockAllPaths(group, x=0, y=0):
+    for card in table:
+        if card.Type == "Path":
+            if not hasattr(card, 'Subtype'):
+                card.sendToBack()
+            card.anchor = True
+
+def unlockAllPaths(group, x=0, y=0):
+    for card in table:
+        if card.Type == "Path":
+            card.anchor = False    
+        
+
+
 
 # def captureDeck(group):
 #   if len(group) == 0: return
