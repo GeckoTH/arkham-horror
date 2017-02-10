@@ -18,13 +18,18 @@
 	</block>
 	<block type="text" id="cost">
 		<location x="1" y="7" />
-		<text color="#FFFFFF" size="38" font="fonts/Teutonic.ttf" />
+		<text color="#FFFFFF" size="38" font="fonts/Teutonic-Arkham.ttf" />
 		<border color="#000000" size="4" />
 		<wordwrap height="30" width="80" align="center" />
 	</block>
+	<block type="text" id="mini_name">
+		<location x="30" y="15" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
+		<wordwrap width="230" height="20" align="center" />
+	</block>
 	<block type="text" id="asset_name">
 		<location x="74" y="15" />
-		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="asset_traits">
@@ -39,7 +44,7 @@
 	</block>
 	<block type="text" id="event_name">
 		<location x="74" y="307" />
-		<text color="#000000" size="20" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="20" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="event_traits">
@@ -54,7 +59,7 @@
 	</block>
 	<block type="text" id="skill_name">
 		<location x="74" y="17" />
-		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="skill_traits">
@@ -69,27 +74,27 @@
 	</block>
 	<block type="text" id="inv_name">
 		<location x="30" y="5" />
-		<text color="#000000" size="30" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="30" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="inv_willpower">
 		<location x="280" y="20" />
-		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
+		<text color="#000000" size="22" font="fonts/Bolton-Arkham.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="inv_intellect">
 		<location x="340" y="20" />
-		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
+		<text color="#000000" size="22" font="fonts/Bolton-Arkham.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="inv_combat">
 		<location x="400" y="20" />
-		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
+		<text color="#000000" size="22" font="fonts/Bolton-Arkham.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="inv_agility">
 		<location x="460" y="20" />
-		<text color="#000000" size="22" font="fonts/Bolton.ttf" />
+		<text color="#000000" size="22" font="fonts/Bolton-Arkham.ttf" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="inv_traits">
@@ -104,19 +109,19 @@
 	</block>
 	<block type="text" id="inv_health">
 		<location x="360" y="307" />
-		<text color="#FFFFFF" size="30" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="30" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#c6181e" size="3" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="inv_sanity">
 		<location x="415" y="307" />
-		<text color="#FFFFFF" size="30" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="30" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#0d3d73" size="3" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="enemy_name">
 		<location x="74" y="15" />
-		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="enemy_traits">
@@ -131,37 +136,37 @@
 	</block>
 	<block type="text" id="enemy_combat">
 		<location x="100" y="72" />
-		<text color="#FFFFFF" size="22" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#000000" size="2" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="enemy_health">
 		<location x="166" y="68" />
-		<text color="#FFFFFF" size="25" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="25" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#000000" size="2" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="enemy_agility">
 		<location x="235" y="72" />
-		<text color="#FFFFFF" size="22" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#000000" size="2" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="enemy_damage">
 		<location x="115" y="275" />
-		<text color="#FFFFFF" size="22" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#c6181e" size="3" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="enemy_horror">
 		<location x="215" y="275" />
-		<text color="#FFFFFF" size="22" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="22" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#0d3d73" size="3" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="location_name">
 		<location x="74" y="5" />
-		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="location_traits">
@@ -176,19 +181,19 @@
 	</block>
 	<block type="text" id="location_shroud">
 		<location x="12" y="270" />
-		<text color="#FFFFFF" size="30" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="30" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#000000" size="3" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="location_clues">
 		<location x="317" y="270" />
-		<text color="#000000" size="30" font="fonts/Bolton.ttf" />
+		<text color="#000000" size="30" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#FFFFFF" size="3" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="treachery_name">
 		<location x="74" y="310" />
-		<text color="#000000" size="23" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="23" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="treachery_traits">
@@ -203,7 +208,7 @@
 	</block>
 	<block type="text" id="agenda_name_back">
 		<location x="40" y="310" rotate="270" />
-		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap height="20" width="200" align="center" />
 	</block>
 	<block type="text" id="agenda_description_back">
@@ -218,7 +223,7 @@
 	</block>
 	<block type="text" id="agenda_name">
 		<location x="280" y="50" />
-		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap height="20" width="200" align="center" />
 	</block>
 	<block type="text" id="agenda_description">
@@ -233,13 +238,13 @@
 	</block>
 	<block type="text" id="agenda_doom">
 		<location x="236" y="309" />
-		<text color="#FFFFFF" size="28" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="28" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#000000" size="2" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="act_name">
 		<location x="50" y="50" />
-		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap height="20" width="200" align="center" />
 	</block>
 	<block type="text" id="act_description">
@@ -254,13 +259,13 @@
 	</block>
 	<block type="text" id="act_clues">
 		<location x="242" y="309" />
-		<text color="#FFFFFF" size="28" font="fonts/Bolton.ttf" />
+		<text color="#FFFFFF" size="28" font="fonts/Bolton-Arkham.ttf" />
 		<border color="#000000" size="2" />
 		<wordwrap height="30" width="50" align="center" />
 	</block>
 	<block type="text" id="scenario_name">
 		<location x="85" y="90" />
-		<text color="#000000" size="24" font="fonts/Teutonic.ttf" />
+		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
 		<wordwrap width="230" height="20" align="center" />
 	</block>
 	<block type="text" id="scenario_traits">
@@ -358,6 +363,16 @@
 	  </link>
 	  <link block="inv_sanity">
 	   <property name="Sanity" />
+	  </link>
+    </textblocks>
+  </template>
+  <template src="proxy/mini.jpg" default="False">
+    <matches>
+      <match name="Type" value="Mini" />
+    </matches>
+    <textblocks>
+	  <link block="mini_name" separator="">
+	   <property name="Name" />
 	  </link>
     </textblocks>
   </template>
@@ -667,5 +682,10 @@
 	   <property name="Text" />
 	  </link>
     </textblocks>
+  </template>
+  <template src="proxy/campaign.jpg" default="False">
+    <matches>
+      <match name="Type" value="Campaign" />
+    </matches>
   </template>
 </templates>

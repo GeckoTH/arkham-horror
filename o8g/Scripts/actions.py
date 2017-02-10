@@ -18,14 +18,20 @@ StagingStart = -515
 StagingWidth = 619
 StagingY = -222
 StagingSpace = 82
-AgendaX = 174.5
+AgendaX = 221
 AgendaY = -222
-ActX = 262.5
+ActX = 309
 ActY = -222
-ScenarioX = 388.5
+EncounterX = 147
+EncounterY = -234.75
+ScenarioX = 408.5
 ScenarioY = -234.75
-ChaosTokenX = 55
-ChaosTokenY = -231
+CampaignX = 500
+CampaignY = -234.75
+ChaosTokenX = 94
+ChaosTokenY = -211
+ChaosBagX = 0
+ChaosBagY = -234.75
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -105,6 +111,21 @@ def eliminated(p):
 #
 #   return False
 
+def cardDoubleClicked(args):
+    # args = card, mouseButton, keysDown
+    mute()
+    card = args.card
+    if hasattr(card, 'Type'):
+        if card.Type == "Chaos Bag": # Draw Chaos Token
+            drawChaosTokenForPlayer(me, [])
+        elif card.Type == "Chaos Token": # Discard Chaos Token
+            if card.controller == me:
+                doDiscard(me, card, chaosBag())
+            else:
+                remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
+        elif card.Type == "Path": # Rotate Path cards
+            rotateRight(card)
+
 def activePlayers():
     count=0
     for p in getPlayers():
@@ -152,10 +173,10 @@ def overlaps(x1, y1, x2, y2, w1, h1, w2 = 0, h2 = 0):
     if h2 == 0:
         h2 = h1
     #Four checks, one for each corner
-    if x1 >= x2 and x1 <= x2 + w2 and y1 >= y2 and y1 <= y2 + h2: return True
-    if x1 + w1 >= x2 and x1 <= x2 and y1 >= y2 and y1 <= y2 + h2: return True
-    if x1 >= x2 and x1 <= x2 + w2 and y1 + h1 >= y2 and y1 <= y2: return True
-    if x1 + w1 >= x2 and x1 <= x2 and y1 + h1 >= y2 and y1 <= y2: return True
+    if int(x1) >= int(x2) and int(x1) <= int(x2) + int(w2) and int(y1) >= int(y2) and int(y1) <= int(y2) + int(h2): return True
+    if int(x1) + int(w1) >= int(x2) and int(x1) <= int(x2) and int(y1) >= int(y2) and int(y1) <= int(y2) + int(h2): return True
+    if int(x1) >= int(x2) and int(x1) <= int(x2) + int(w2) and int(y1) + int(h1) >= int(y2) and int(y1) <= int(y2): return True
+    if int(x1) + int(w1) >= int(x2) and int(x1) <= int(x2) and int(y1) + int(h1) >= int(y2) and int(y1) <= int(y2): return True
     return False
 
 def overlapPartialCard(x, y):
@@ -388,7 +409,7 @@ def deckLoaded(args):
         notify("{} Takes control of the encounter deck".format(me))
         for p in shared.piles:
             if shared.piles[p].controller != me:
-                shared.piles[p].setController(me)
+                shared.piles[p].controller = me
         #rnd(1,2) # This causes OCTGN to sync the controller changes!
         update()
             
@@ -404,6 +425,8 @@ def deckLoaded(args):
                 card.moveTo(shared.piles['Encounter'])
             elif pile == me.piles['Discard Pile']:
                 card.moveTo(me.deck)
+        if pile.name == "Chaos Bag":
+            createChaosBag(table)
 
 
     update()
@@ -426,6 +449,8 @@ def globalChanged(args):
     debug("globalChanged(Variable {}, from {}, to {})".format(args.name, args.oldValue, args.value))
     if args.name == "done":
         checkPlayersDone()
+    elif args.name == "phase":
+        notify("Phase: {}".format(args.value))
         
 # calculate the number of plays that are Done
 def numDone():
@@ -455,6 +480,8 @@ def checkPlayersDone():
     notify("done updated: {} {}".format(numDone(), len(getPlayers())))
     if numDone() == len(getPlayers()):
         doUpkeepPhase()
+        doMythosPhase()
+        setGlobalVariable("phase", "Investigator")
         setGlobalVariable("done", str(set()))
 
 #---------------------------------------------------------------------------
@@ -499,11 +526,11 @@ def turnManagement():
     return auto == "Turn" or len(auto) == 0
 
 def createChaosBag(group, x=0, y=0):
-  for c in group:
-      if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
-          c.moveToTable(x, y)
-          return
-  group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosTokenX, ChaosTokenY, 1, False)
+    for c in group:
+        if c.owner == me and c.model == "faa82643-1dda-4af7-96ad-298bc2d5b2dd":
+            c.moveToTable(x, y)
+            return
+    group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosBagX, ChaosBagY, 1, False)
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -624,7 +651,9 @@ def nextEncounter(group, x, y, facedown, who=me):
     clearTargets()
     card = group.top()
     if x == 0 and y == 0:  #Move to default position in the staging area
-        addToStagingArea(card, facedown, who)       
+        #addToStagingArea(card, facedown, who)   
+        card.moveToTable(EncounterX, EncounterY, facedown)
+        notify("{} places '{}' on the table.".format(who, card))    
     else:
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
@@ -720,6 +749,8 @@ def agendaSetup(card):
         for c in setupDeck():
             if c.Type == "Scenario":
                 c.moveToTable(ScenarioX, ScenarioY)
+            elif c.Type == "Campaign":
+                c.moveToTable(CampaignX, CampaignY)
             elif i >= len(card.Setup) or card.Setup[i] == 't':
                 addToTable(c)
             elif card.Setup[i] == 's':
@@ -785,6 +816,7 @@ def readyForNextRound(group=table, x=0, y=0):
 def doUpkeepPhase():
     mute()
     debug("doUpkeepPhase()")
+    setGlobalVariable("phase", "Upkeep")
 
     if activePlayers() == 0:
         whisper("All players have been eliminated: You have lost the game")
@@ -799,11 +831,20 @@ def doUpkeepPhase():
     for card in table:
         if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addResource(card)
-        elif card.Type == "Mini":
+        elif card.Type == "Mini" and card.controller == me:
             card.markers[Action] = 0
 
     shared.counters['Round'].value += 1
     clearHighlights()
+
+def doMythosPhase():
+    mute()
+    debug("doMythosPhase()")
+    setGlobalVariable("phase", "Mythos")
+
+    for card in table:
+        if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
+            addDoom(card)
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
@@ -891,6 +932,9 @@ def defaultAction(card, x = 0, y = 0):
     # Default for Done button is playerDone
     if not card.isFaceUp: #Face down card - flip
         flipcard(card, x, y)
+    elif card.Type == "Path": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
     elif card.orientation & Rot90 == Rot90: #Rotated card - refresh
         exhaust(card, x, y)
     elif card.Type == "Agenda":
@@ -901,12 +945,16 @@ def defaultAction(card, x = 0, y = 0):
         flipcard(card, x, y)
     elif card.Type == "Enemy": #Add damage
         addDamage(card, x, y)
-    elif card.Type == "Chaos Bag": #Draw Chaos Token
-        drawChaosToken(card, x, y)
-    elif card.Type == "Chaos Token": #Discard Chaos Token
-        discard(card, x, y)
+    elif card.Type == "Chaos Bag": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
+    elif card.Type == "Chaos Token": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
     elif card.Type == "Mini": #Add action token
         addToken(card, Action)
+    elif card.Type == "Campaign": #Add a progress token
+        flipcard(card, x, y)
     else:
         exhaust(card, x, y)
         
@@ -933,21 +981,6 @@ def flipcard(card, x = 0, y = 0):
         return
 
     cardx, cardy = card.position
-
-    #WORKAROUND to Flip between different CardSizes on the back of a card (TEMP until OCTGN supports cardsize for Alternates)
-    if card.model == "d533f5ae-53fc-4bbb-96b9-d0f26364c387":
-        notify("{} flips '{}'.".format(me, card))
-        card.delete()
-        table.create('947bb975-8eb2-45a7-bc68-ea58a50190da', cardx, cardy, quantity = 1, persist = True)
-        return
-
-    if card.model == "947bb975-8eb2-45a7-bc68-ea58a50190da":
-        notify("{} flips '{}'.".format(me, card))
-        card.delete()
-        table.create('d533f5ae-53fc-4bbb-96b9-d0f26364c387', cardx, cardy, quantity = 1, persist = True)
-        return
-    #END Treachery of Rhudaur WORKAROUND
-
 
     #Card Alternate Flip
     if card.alternates is not None and "B" in card.alternates:
@@ -1073,6 +1106,14 @@ def subToken(card, tokenType):
     mute()
     card.markers[tokenType] -= 1
     notify("{} removes a {} from '{}'".format(me, tokenType[0], card))
+
+def markerChanged(args):
+    card = args.card
+    if card.Type == "Agenda" and args.marker == Doom[0] and getGlobalVariable("phase") == "Mythos":
+        if card.markers[Doom] >= int(card.properties[Doom[0]]):
+            card.highlight = EliminatedColour
+        else:
+            card.highlight = None
 
 def lockCard(card, x=0, y=0):
     mute()
@@ -1401,26 +1442,44 @@ def drawPileToTable(player, group, x, y):
 def drawChaosToken(group, x = 0, y = 0):
     drawChaosTokenForPlayer(me, group, x, y)  
 
-def drawChaosTokenForPlayer(player, group, x = 0, y = 0):
+
+def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 0, yMod = 0):
     mute()
     if chaosBag().controller == me:
-        # check for existing chaos token on table
-        table_chaos_tokens = [card for card in table
-            if card.Type == 'Chaos Token']
-        for token in table_chaos_tokens:
-            if token.controller == me:
-                token.moveTo(chaosBag())
-            else:
-                remoteCall(token.controller, "moveToRemote", [token, chaosBag()])
-        chaosBag().shuffle()
+        if replace:
+            # check for existing chaos token on table
+            table_chaos_tokens = [card for card in table
+                if card.Type == 'Chaos Token']
+            for token in table_chaos_tokens:
+                if token.controller == me:
+                    token.moveTo(chaosBag())
+                else:
+                    remoteCall(token.controller, "moveToRemote", [token, chaosBag()])
+            chaosBag().shuffle()
   
-        drawPileToTable(player, chaosBag(), ChaosTokenX, ChaosTokenY)
+        drawPileToTable(player, chaosBag(), ChaosTokenX + xMod, ChaosTokenY + yMod)
+        
     else:
-        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me, group, x, y])
+        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me, chaosBag(), x, y, replace])
     
 def moveToRemote (token, pile):
    token.moveTo(pile)	
 	
+    
+def drawXChaosTokens(player, group, x = 0, y = 0):
+    mute()
+    xChaosTokens = askInteger("Draw how many Chaos Tokens?", 1)
+    if xChaosTokens == None: return
+    
+    for xTokens in range(0, xChaosTokens):
+        replace = False
+        if xTokens == 0: replace = True
+        if chaosBag().controller == me:
+                drawChaosTokenForPlayer(me, chaosBag(), x, y, replace, (xTokens * 10), (xTokens * 10))  
+        else:
+            remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, replace, (xTokens * 10), (xTokens * 10)])
+
+
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
 
@@ -1429,12 +1488,30 @@ def drawBasicWeakness(group, x = 0, y = 0):
         bw.create_deck()
 
     bw_cards = me.piles[BasicWeakness.PILE_NAME]
+    bw_cards_count = len(bw_cards)
+    if (bw_cards_count == 0):
+        notify("There are no Basic Weakness cards left!")
+        return
+        
     bw_cards.shuffle()
     card = bw_cards.top()
+
+    return card
+
+def drawBasicWeaknessToDeck(group, x = 0, y = 0):
+    mute()
+
+    card = drawBasicWeakness(group, x, y)
     card.moveTo(me.deck)
     # do we notify players of what the basic weakness card that was shuffled in?
     notify("{} shuffles a random Basic Weakness into deck".format(me))
     me.deck.shuffle()
+
+def drawBasicWeaknessToHand(group, x = 0, y = 0):
+    card = drawBasicWeakness(group, x, y)
+    card.moveTo(me.hand)
+    notify("{} draws the Basic Weakness '{}' into their hand.".format(me, card))
+    
 
 def createCard(group=None, x=0, y=0):
 	cardID, quantity = askCard()
@@ -1448,6 +1525,54 @@ def createCard(group=None, x=0, y=0):
 		# iterable	
 		for card in cards:
 			notify("{} created {}.".format(me, card))
+
+
+def placeLongPath(group, x=0, y=0):
+    pathCard = group.create("7f4029c8-1cee-406a-9913-9fbc6e341bed", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeMediumPath(group, x=0, y=0):
+    pathCard = group.create("cf3d8bd6-354a-4284-b716-109e7040c3e9", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeShortPath(group, x=0, y=0):
+    pathCard = group.create("2e964666-fa5a-40e4-a7f5-bf66c625d783", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeElbowPath(group, x=0, y=0):
+    pathCard = group.create("3d9c7266-d4d0-46e0-b8b3-560fbcf1b294", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeCrossPath(group, x=0, y=0):
+    pathCard = group.create("8ea6845b-b9bb-4f11-a814-e94b16e50629", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeThreeWayPath(group, x=0, y=0):
+    pathCard = group.create("1b1493eb-cf9f-4709-9b50-f8f343f7a607", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeDiagonalConnectionPath(group, x=0, y=0):
+    pathCard = group.create("d2ddabd3-b7b1-427e-8ca2-b7dbe272fce5", x, y, 1, False)
+    pathCard.sendToBack()
+
+def placeDirectionalMarker(group, x=0, y=0):
+    pathCard = group.create("10bd7039-10f4-44c9-8be4-61bf182e1d9d", x, y, 1, False)
+    pathCard.sendToBack()
+
+def lockAllPaths(group, x=0, y=0):
+    for card in table:
+        if card.Type == "Path":
+            if not hasattr(card, 'Subtype'):
+                card.sendToBack()
+            card.anchor = True
+
+def unlockAllPaths(group, x=0, y=0):
+    for card in table:
+        if card.Type == "Path":
+            card.anchor = False    
+
+
+
 
 # def captureDeck(group):
 #   if len(group) == 0: return

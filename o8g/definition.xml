@@ -5,13 +5,13 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.2"
-	version="0.0.0.6"
+	version="0.0.0.18"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
 	setsurl="http://octgn.gamersjudgement.com/wordpress/ahlcg/"
 	gameurl="http://octgn.gamersjudgement.com/wordpress/ahlcg/"
-	authors="GeckoTH (lead developer)&#10;"
+	authors="GeckoTH&#10;hone&#10;rushl&#10;"
 	iconurl="https://cf.geekdo-images.com/images/pic3122349_t.jpg"
 	usetwosidedtable="False">
 	<scripts>
@@ -19,9 +19,11 @@
 		<script src="scripts/basic_weakness.py" />
 	</scripts>
 	<events>
+		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
 		<event name="OnGameStarted" action="startOfGame"/>
 		<event name="OnDeckLoaded" action="deckLoaded"/>
 		<event name="OnGlobalVariableChanged" action="globalChanged"/>
+		<event name="OnMarkerChanged" action="markerChanged"/>
 	</events>
 	<fonts>
 		<font src="fonts/Calibri-Arkham.ttf" size="12" target="context" />
@@ -38,6 +40,7 @@
 		<globalvariable name="playersSetup" value=""/>
 		<globalvariable name="currentPlayers" value="" />
 		<globalvariable name="done" value="" />
+		<globalvariable name="phase" value="" />
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />
@@ -76,6 +79,21 @@
 		<size name="EncounterCard" width="63" height="88" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4"/>
 		<size name="MiniCard" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
 		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
+	    <size name="LongPath" width="140" height="20" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="MediumPath" width="70" height="20" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="ShortPath" width="35" height="20" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="ElbowPath" width="55" height="55" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="CrossPath" width="90" height="90" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="ThreeWayPath" width="85" height="85" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DirectionalMarker" width="20" height="20" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DiagConnectPath" width="60" height="60" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DiagLongPath" width="115" height="115" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DiagMediumPath" width="65" height="65" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DiagShortPath" width="38" height="38" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DiagElbowPath" width="77" height="77" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DiagCrossPath" width="74" height="74" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DiagThreeWayPath" width="76" height="76" back="cards/card.jpg" front="cards/card.jpg" />
+	    <size name="DiagDirectionalMarker" width="20" height="25" back="cards/card.jpg" front="cards/card.jpg" />
 	</card>
 	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
@@ -84,11 +102,12 @@
 		<groupaction menu="Hidden Encounter Card" default="False" shortcut="ctrl+H" execute="addHidden" />
 		<groupaction menu="Hidden Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+H" execute="addHiddenSpecial" />
 		<groupaction menu="Draw Token from ChaosBag" default="False" shortcut="ctrl+S" execute="drawChaosToken" />
+		<groupaction menu="Draw X Tokens from ChaosBag" default="False" shortcut="" execute="drawXChaosTokens" />
 		
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
-		
+		<cardaction menu="Clear Highlights" default="False" shortcut="F10" execute="clearHighlights" />
 		<groupactions menu="Automation">
 			<groupaction menu="Create Chaos Bag" default="False" execute="createChaosBag" />
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
@@ -122,6 +141,23 @@
 		<cardaction menu="Rotate Left" default="False" shortcut="F8" execute="rotateLeft" />
 		<cardaction menu="Rotate Right" default="False" shortcut="F9" execute="rotateRight" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
+		<groupactions menu="Path Markers">
+			<groupaction menu="Orthagonal on front side. Flip for diagonal." default="False" execute="" />
+			<groupseparator />
+			<groupaction menu="Long Path" default="False" execute="placeLongPath" />
+			<groupaction menu="Medium Path" default="False" execute="placeMediumPath" />
+			<groupaction menu="Short Path" default="False" execute="placeShortPath" />
+			<groupseparator />
+			<groupaction menu="Elbow Path" default="False" execute="placeElbowPath" />
+			<groupaction menu="Cross Path" default="False" execute="placeCrossPath" />
+			<groupaction menu="3-Way Path" default="False" execute="placeThreeWayPath" />
+			<groupseparator />
+			<groupaction menu="Orthagonal to Diagonal Connection Path" default="False" execute="placeDiagonalConnectionPath" />
+			<groupaction menu="Directional Marker" default="False" execute="placeDirectionalMarker" />
+			<groupseparator />
+			<groupaction menu="Lock all paths" default="False" execute="lockAllPaths" />
+			<groupaction menu="Unlock all paths" default="False" execute="unlockAllPaths" />
+		</groupactions>
 		<groupactions menu="Random">
 			<groupaction menu="Coin Flip" default="False" execute="flipCoin" />
 			<groupaction menu="Number" default="False" execute="randomNumber" />
@@ -143,6 +179,7 @@
 			<cardaction menu="Play" default="True" execute="playCard" />
 			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 			<cardaction menu="Swap with top card" default="False" shortcut="ctrl+S" execute="swapCard" />
+			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToHand" />
 		</hand>
 		<group name="Deck" visibility="none" ordered="True" width="63" height="88" icon="groups/player.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
@@ -151,7 +188,7 @@
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
-			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeakness" />
+			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToDeck" />
 		</group>
 		<group name="Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/discard.png" collapsed="False">
 			<groupaction menu="Shuffle All into Deck" default="True" execute="moveAllToPlayer" />
