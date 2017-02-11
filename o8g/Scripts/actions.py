@@ -593,7 +593,7 @@ def doRestoreAll(group=table):
     myCards = (card for card in group
                 if card.controller == me)
     for card in myCards:
-        if not isLocked(card):
+        if not isLocked(card) and not card.anchor:
             card.orientation &= ~Rot90
     notify("{} readies all their cards.".format(me))
 
