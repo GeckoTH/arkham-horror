@@ -437,7 +437,13 @@ def deckLoaded(args):
 def loadBasicWeaknesses(group, x = 0, y = 0):
     basic_weakness_pile = me.piles[BasicWeakness.PILE_NAME]
     if len(basic_weakness_pile) == 0:
-        bw = BasicWeakness(me)
+        choice_list = ['all', 'core']
+        color_list = ['#0000FF', '#00FF00']
+        sets = askChoice("Which sets to load?", choice_list, color_list)
+        # load all sets if window is closed
+        if sets == 0:
+            sets = 1
+        bw = BasicWeakness(me, choice_list[sets - 1])
         bw.create_deck()
         basic_weakness_pile.shuffle()
         notify("{} loaded Basic Weakness Deck".format(me))
