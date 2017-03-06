@@ -435,10 +435,11 @@ def deckLoaded(args):
     #   playerSetup(table, 0, 0, isPlayer, isShared)
 
 def loadBasicWeaknesses(group, x = 0, y = 0):
-    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
+    basic_weakness_pile = me.piles[BasicWeakness.PILE_NAME]
+    if len(basic_weakness_pile) == 0:
         bw = BasicWeakness(me)
         bw.create_deck()
-        bw.shuffle()
+        basic_weakness_pile.shuffle()
         notify("{} loaded Basic Weakness Deck".format(me))
     else:
         notify("{}'s Basic Weakness Deck already loaded.".format(me))
