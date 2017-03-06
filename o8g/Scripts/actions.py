@@ -1484,17 +1484,14 @@ def drawXChaosTokens(player, group, x = 0, y = 0):
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
 
-    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
-        bw = BasicWeakness(me)
-        bw.create_deck()
+    loadBasicWeaknesses(group, x, y)
 
     bw_cards = me.piles[BasicWeakness.PILE_NAME]
     bw_cards_count = len(bw_cards)
     if (bw_cards_count == 0):
         notify("There are no Basic Weakness cards left!")
         return
-        
-    bw_cards.shuffle()
+
     card = bw_cards.top()
 
     return card
