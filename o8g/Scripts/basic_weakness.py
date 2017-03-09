@@ -11,6 +11,14 @@ class BasicWeakness:
             "22a5a1f6-cc50-47a9-9374-76204c97cf0a", # Mob Enforcer
             "9b1de9f2-b050-41c4-bfdc-16a40974a3fb", # Silver Twilight Acolyte
             "d5b68cab-54f1-488c-ba9f-68d8830cf2d0", # Stubborn Detective
+        ],
+        "dunwich_legacy": [
+            "1ecf4d84-da04-4c69-8fac-aa11bdc4171f", # 2x Indebted
+            "1ecf4d84-da04-4c69-8fac-aa11bdc4171f",
+            "ee9ed7fb-bd73-4a10-88ce-0617321ebecd", # 2x Internal Injury
+            "ee9ed7fb-bd73-4a10-88ce-0617321ebecd",
+            "bd089e8f-e3f0-4fd3-9bf2-e7de8832da73", # 2x Chronophobia
+            "bd089e8f-e3f0-4fd3-9bf2-e7de8832da73",
         ]
     }
     PILE_NAME = 'Basic Weaknesses'
