@@ -123,6 +123,8 @@ def cardDoubleClicked(args):
                 doDiscard(me, card, chaosBag())
             else:
                 remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
+        elif card.Type == "Encounter Draw": # Draw Encounter Card
+            addEncounter(table)
         elif card.Type == "Path": # Rotate Path cards
             rotateRight(card)
 
@@ -427,6 +429,8 @@ def deckLoaded(args):
                 card.moveTo(me.deck)
         if pile.name == "Chaos Bag":
             createChaosBag(table)
+        elif pile.name == "Encounter Discard Pile":
+            createEncounterCardClicky(table)
 
 
     update()
@@ -538,6 +542,9 @@ def createChaosBag(group, x=0, y=0):
             c.moveToTable(x, y)
             return
     group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosBagX, ChaosBagY, 1, False)
+
+def createEncounterCardClicky(group, x=0, y=0):
+    group.create("f4633a2e-0102-452d-8387-678b5aa17878", EncounterX, EncounterY, 1, False)
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -956,6 +963,9 @@ def defaultAction(card, x = 0, y = 0):
         # Do nothing
         mute()
     elif card.Type == "Chaos Token": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
+    elif card.Type == "Encounter Draw": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
     elif card.Type == "Mini": #Add action token

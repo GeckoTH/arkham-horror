@@ -62,7 +62,10 @@
     <card id="faa82643-1dda-4af7-96ad-298bc2d5b2dd" name="ChaosBag">
       <property name="Type" value="Chaos Bag" />
     </card>
-    <card id="7f4029c8-1cee-406a-9913-9fbc6e341bed" name="Long Path" size="LongPath">
+    <card id="f4633a2e-0102-452d-8387-678b5aa17878" name="Encounter Draw">
+      <property name="Type" value="Encounter Draw" />
+   </card>
+   <card id="7f4029c8-1cee-406a-9913-9fbc6e341bed" name="Long Path" size="LongPath">
       <property name="Type" value="Path" />
       <alternate name="Long Path" type="B" size="DiagLongPath">
         <property name="Type" value="Path"/>
