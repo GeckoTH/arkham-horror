@@ -36,7 +36,7 @@ DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
 EliminatedColour = "#FF0000" # Red
-showDebug = True #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
+showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
 
 def debug(str):
     if showDebug:
@@ -360,7 +360,7 @@ def setPlayerDone():
         playersDone = set()
     playersDone.add(me._id)
     setGlobalVariable("done", str(playersDone))
-    notify("done {}".format(str(playersDone)))
+    #notify("done {}".format(str(playersDone)))
     update()
 
 def deckLocked():
@@ -488,7 +488,7 @@ def checkPlayersDone():
     if not turnManagement():
         return
 
-    notify("done updated: {} {}".format(numDone(), len(getPlayers())))
+    #notify("done updated: {} {}".format(numDone(), len(getPlayers())))
     if numDone() == len(getPlayers()):
         doUpkeepPhase()
         doMythosPhase()
@@ -822,7 +822,7 @@ def setAbilityCounters(investigatorCard):
     
 def readyForNextRound(group=table, x=0, y=0):
     mute()
-    notify("readyForNextRound {}".format(turnManagement()))
+    #notify("readyForNextRound {}".format(turnManagement()))
     if turnManagement():
         highlightPlayer(me, DoneColour)
         setPlayerDone()
@@ -1520,6 +1520,7 @@ def drawBasicWeaknessToDeck(group, x = 0, y = 0):
     # do we notify players of what the basic weakness card that was shuffled in?
     notify("{} shuffles a random Basic Weakness into deck".format(me))
     me.deck.shuffle()
+
 
 def drawBasicWeaknessToHand(group, x = 0, y = 0):
     card = drawBasicWeakness(group, x, y)
