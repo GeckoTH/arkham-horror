@@ -49,6 +49,8 @@
 		<globalvariable name="currentPlayers" value="" />
 		<globalvariable name="done" value="" />
 		<globalvariable name="phase" value="" />
+		<globalvariable name="allowMythosPhase" value="False" />
+		<globalvariable name="allowUpkeepPhase" value="False" />
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />

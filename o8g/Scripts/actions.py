@@ -53,33 +53,36 @@ def toggleDebug(group, x=0, y=0):
 
 def phasePassed(args):
     mute()
-    previousPhaseName = args.name
-    previousPhaseIndex = args.id
-    newPhase = previousPhaseIndex + 1
-    
-    if newPhase > 4:
-        newPhase = 1
+    thisPhase = currentPhase()
+    newPhase = thisPhase[1]
     
     if newPhase == 1:
-        if turnNumber() != 1:
+        if turnNumber() != 1 and getGlobalVariable("allowMythosPhase") == "True":
             doMythosPhase()
+            setGlobalVariable("allowMythosPhase", "False")
     elif newPhase == 2:
         # Investigation Phase
         mute()
     elif newPhase == 3:
         # Enemy
         mute()
-    elif newPhase == 4:
+    elif newPhase == 4 and getGlobalVariable("allowUpkeepPhase") == "True":
         # Upkeep
         for player in getPlayers():
             remoteCall(player, "doUpkeepPhase", [])
+        
+        setGlobalVariable("allowUpkeepPhase", "False")
 
 
 def turnPassed(args):
+    setGlobalVariable("allowMythosPhase", "True")
+    setGlobalVariable("allowUpkeepPhase", "True")
+    
     if turnNumber() == 1:
         setPhase(2)
     else:
         setPhase(1)
+    
 
 def advancePhase(group = None, x = 0, y = 0):
     if turnNumber() == 0:
@@ -92,6 +95,7 @@ def advancePhase(group = None, x = 0, y = 0):
         else:
             setPhase(nextPhase)
 
+        
 #Return the default x coordinate of the players investigator
 def investigatorX(player):
     return (BoardWidth * player / len(getPlayers())) - (BoardWidth / 2)
