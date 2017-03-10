@@ -58,7 +58,7 @@ def phasePassed(args):
     
     if newPhase == 1:
         if turnNumber() != 1 and getGlobalVariable("allowMythosPhase") == "True":
-            doMythosPhase()
+            doMythosPhase(False)
             setGlobalVariable("allowMythosPhase", "False")
     elif newPhase == 2:
         # Investigation Phase
@@ -69,7 +69,7 @@ def phasePassed(args):
     elif newPhase == 4 and getGlobalVariable("allowUpkeepPhase") == "True":
         # Upkeep
         for player in getPlayers():
-            remoteCall(player, "doUpkeepPhase", [])
+            remoteCall(player, "doUpkeepPhase", [False])
         
         setGlobalVariable("allowUpkeepPhase", "False")
 
@@ -873,10 +873,12 @@ def readyForNextRound(group=table, x=0, y=0):
         highlightPlayer(me, DoneColour)
         setPlayerDone()
 
-def doUpkeepPhase():
+def doUpkeepPhase(setPhaseVar = True):
     mute()
     debug("doUpkeepPhase()")
-    setGlobalVariable("phase", "Upkeep")
+    
+    if setPhaseVar:
+        setGlobalVariable("phase", "Upkeep")
 
     if activePlayers() == 0:
         whisper("All players have been eliminated: You have lost the game")
@@ -897,10 +899,12 @@ def doUpkeepPhase():
     shared.counters['Round'].value += 1
     clearHighlights()
 
-def doMythosPhase():
+def doMythosPhase(setPhaseVar = True):
     mute()
     debug("doMythosPhase()")
-    setGlobalVariable("phase", "Mythos")
+    
+    if setPhaseVar:
+        setGlobalVariable("phase", "Mythos")
 
     for card in table:
         if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
