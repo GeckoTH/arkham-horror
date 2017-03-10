@@ -473,27 +473,27 @@
     <property name="Traits" value="Item. Weapon. Melee."/>
     <property name="Text" value="η: Fight. You get +1 ή for this attack. If you succeed, you may spend 1 additional action to deal +1 damage for this attack."/>
   </card>
-  <card id="1ecf4d84-da04-4c69-8fac-aa11bdc4171f" name="Indebted" size="EncounterCard">
+  <card id="1ecf4d84-da04-4c69-8fac-aa11bdc4171f" name="Indebted">
     <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
-    <property name="Subtype" value="basicweakness"/>
+    <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Flaw."/>
     <property name="Text" value="Permanent.&#10;You start each game with 2 fewer resources."/>
   </card>
-  <card id="ee9ed7fb-bd73-4a10-88ce-0617321ebecd" name="Internal Injury" size="EncounterCard">
+  <card id="ee9ed7fb-bd73-4a10-88ce-0617321ebecd" name="Internal Injury">
     <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
-    <property name="Subtype" value="basicweakness"/>
+    <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Injury."/>
     <property name="Text" value="Revelation - Place Internal Injury into play in your threat area.&#10;ι At the end of your turn: Take 1 direct damage.&#10;ηη: Discard Internal Injury."/>
   </card>
-  <card id="bd089e8f-e3f0-4fd3-9bf2-e7de8832da73" name="Chronophobia" size="EncounterCard">
+  <card id="bd089e8f-e3f0-4fd3-9bf2-e7de8832da73" name="Chronophobia">
     <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
-    <property name="Subtype" value="basicweakness"/>
+    <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Madness."/>
     <property name="Text" value="Revelation - Place Chronophobia into play in your threat area.&#10;Forced - At the end of your turn: Take 1 direct horror.&#10;ηη: Discard Chronophobia."/>
   </card>

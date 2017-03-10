@@ -36,7 +36,7 @@ DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
 EliminatedColour = "#FF0000" # Red
-showDebug = True #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
+showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
 
 def debug(str):
     if showDebug:
@@ -165,6 +165,8 @@ def cardDoubleClicked(args):
                 doDiscard(me, card, chaosBag())
             else:
                 remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
+        elif card.Type == "Encounter Draw": # Draw Encounter Card
+            addEncounter(table)
         elif card.Type == "Path": # Rotate Path cards
             rotateRight(card)
 
@@ -400,7 +402,7 @@ def setPlayerDone():
         playersDone = set()
     playersDone.add(me._id)
     setGlobalVariable("done", str(playersDone))
-    notify("done {}".format(str(playersDone)))
+    #notify("done {}".format(str(playersDone)))
     update()
 
 def deckLocked():
@@ -469,6 +471,8 @@ def deckLoaded(args):
                 card.moveTo(me.deck)
         if pile.name == "Chaos Bag":
             createChaosBag(table)
+        elif pile.name == "Encounter Discard Pile":
+            createEncounterCardClicky(table)
 
 
     update()
@@ -477,10 +481,17 @@ def deckLoaded(args):
     #   playerSetup(table, 0, 0, isPlayer, isShared)
 
 def loadBasicWeaknesses(group, x = 0, y = 0):
-    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
-        bw = BasicWeakness(me)
+    basic_weakness_pile = me.piles[BasicWeakness.PILE_NAME]
+    if len(basic_weakness_pile) == 0:
+        choice_list = ['all', 'core']
+        color_list = ['#0000FF', '#00FF00']
+        sets = askChoice("Which sets to load?", choice_list, color_list)
+        # load all sets if window is closed
+        if sets == 0:
+            sets = 1
+        bw = BasicWeakness(me, choice_list[sets - 1])
         bw.create_deck()
-        bw.shuffle()
+        basic_weakness_pile.shuffle()
         notify("{} loaded Basic Weakness Deck".format(me))
     else:
         notify("{}'s Basic Weakness Deck already loaded.".format(me))
@@ -519,7 +530,7 @@ def checkPlayersDone():
     if not turnManagement():
         return
 
-    notify("done updated: {} {}".format(numDone(), len(getPlayers())))
+    #notify("done updated: {} {}".format(numDone(), len(getPlayers())))
     if numDone() == len(getPlayers()):
         doUpkeepPhase()
         doMythosPhase()
@@ -573,6 +584,9 @@ def createChaosBag(group, x=0, y=0):
             c.moveToTable(x, y)
             return
     group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosBagX, ChaosBagY, 1, False)
+
+def createEncounterCardClicky(group, x=0, y=0):
+    group.create("f4633a2e-0102-452d-8387-678b5aa17878", EncounterX, EncounterY, 1, False)
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -635,7 +649,7 @@ def doRestoreAll(group=table):
     myCards = (card for card in group
                 if card.controller == me)
     for card in myCards:
-        if not isLocked(card):
+        if not isLocked(card) and not card.anchor:
             card.orientation &= ~Rot90
     notify("{} readies all their cards.".format(me))
 
@@ -850,7 +864,7 @@ def setAbilityCounters(investigatorCard):
     
 def readyForNextRound(group=table, x=0, y=0):
     mute()
-    notify("readyForNextRound {}".format(turnManagement()))
+    #notify("readyForNextRound {}".format(turnManagement()))
     if turnManagement():
         highlightPlayer(me, DoneColour)
         setPlayerDone()
@@ -991,6 +1005,9 @@ def defaultAction(card, x = 0, y = 0):
         # Do nothing
         mute()
     elif card.Type == "Chaos Token": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
+    elif card.Type == "Encounter Draw": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
     elif card.Type == "Mini": #Add action token
@@ -1525,17 +1542,14 @@ def drawXChaosTokens(player, group, x = 0, y = 0):
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
 
-    if len(me.piles[BasicWeakness.PILE_NAME]) == 0:
-        bw = BasicWeakness(me)
-        bw.create_deck()
+    loadBasicWeaknesses(group, x, y)
 
     bw_cards = me.piles[BasicWeakness.PILE_NAME]
     bw_cards_count = len(bw_cards)
     if (bw_cards_count == 0):
         notify("There are no Basic Weakness cards left!")
         return
-        
-    bw_cards.shuffle()
+
     card = bw_cards.top()
 
     return card
@@ -1549,10 +1563,26 @@ def drawBasicWeaknessToDeck(group, x = 0, y = 0):
     notify("{} shuffles a random Basic Weakness into deck".format(me))
     me.deck.shuffle()
 
+
 def drawBasicWeaknessToHand(group, x = 0, y = 0):
     card = drawBasicWeakness(group, x, y)
     card.moveTo(me.hand)
     notify("{} draws the Basic Weakness '{}' into their hand.".format(me, card))
+    
+
+def createCard(group=None, x=0, y=0):
+	cardID, quantity = askCard()
+	cards = table.create(cardID, x, y, quantity, False)
+	try:
+		iterator = iter(cards)
+	except TypeError:
+		# not iterable
+		notify("{} created {}.".format(me, cards))
+	else:
+		# iterable	
+		for card in cards:
+			notify("{} created {}.".format(me, card))
+
 
 def placeLongPath(group, x=0, y=0):
     pathCard = group.create("7f4029c8-1cee-406a-9913-9fbc6e341bed", x, y, 1, False)
@@ -1597,7 +1627,7 @@ def unlockAllPaths(group, x=0, y=0):
     for card in table:
         if card.Type == "Path":
             card.anchor = False    
-        
+
 
 
 
