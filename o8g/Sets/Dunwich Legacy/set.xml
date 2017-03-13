@@ -14,14 +14,17 @@
     <property name="Health" value="9"/>
     <property name="Sanity" value="6"/>
     <property name="Traits" value="Believer. Hunter."/>
-    <property name="Text" value="ι After you become engaged with an enemy: Gain 1 resource.&#10;ε effect: +1. If this skill test is successful during an attack, that attack deals +1 damage."/>
+    <property name="Text" value="ι After you become engaged with an enemy: Gain 1 resource.
+ε effect: +1. If this skill test is successful during an attack, that attack deals +1 damage."/>
     <alternate name="Zoey Samaras" type="B">
       <property name="Subtitle" value="The Chef"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="investigator"/>
       <property name="Class" value="guardian"/>
       <property name="Traits" value="Believer. Hunter."/>
-      <property name="Text" value="Deck size: 30.&#10;Deckbuilding options: Guardian cards ([guardian]) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.&#10;Deckbuilding requirements (do not count toward deck size): Zoey's Cross, Smite the Wicked, 1 random basic weakness."/>
+      <property name="Text" value="Deck size: 30.
+Deckbuilding options: Guardian cards (κ) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.
+Deckbuilding requirements (do not count toward deck size): Zoey's Cross, Smite the Wicked, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="a1591610-a459-4959-9a02-55a1ca2cc5f2" name="Rex Murphy" size="InvestigatorCard">
@@ -37,14 +40,18 @@
     <property name="Health" value="6"/>
     <property name="Sanity" value="9"/>
     <property name="Traits" value="Reporter."/>
-    <property name="Text" value="ι After you succeed at a skill test by 2 or more while investigating: Discover 1 clue at your location.&#10;ε effect: +2. You may instead choose to automatically fail this skill test to draw 3 cards."/>
+    <property name="Text" value="ι After you succeed at a skill test by 2 or more while investigating: Discover 1 clue at your location.
+ε effect: +2. You may instead choose to automatically fail this skill test to draw 3 cards."/>
     <alternate name="Rex Murphy" type="B">
       <property name="Subtitle" value="The Reporter"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="investigator"/>
       <property name="Class" value="seeker"/>
       <property name="Traits" value="Reporter."/>
-      <property name="Text" value="Deck size: 30.&#10;Deckbuilding options: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.&#10;Deckbuilding requirements (do not count toward deck size): Search for the Truth, Rex's Curse, 1 random basic weakness.&#10;Deckbuilding requirements: No Fortune cards."/>
+      <property name="Text" value="Deck size: 30.
+Deckbuilding options: Seeker cards (λ) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.
+Deckbuilding requirements (do not count toward deck size): Search for the Truth, Rex's Curse, 1 random basic weakness.
+Deckbuilding restrictions: No Fortune cards."/>
     </alternate>
   </card>
   <card id="59efc32c-d826-4e60-b362-a6e253284c35" name="Jenny Barnes" size="InvestigatorCard">
@@ -60,14 +67,17 @@
     <property name="Health" value="8"/>
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Drifter."/>
-    <property name="Text" value="You collect 1 additional resource during each upkeep phase.&#10;ε effect: +1 for each resource you have."/>
+    <property name="Text" value="You collect 1 additional resource during each upkeep phase.
+ε effect: +1 for each resource you have."/>
     <alternate name="Jenny Barnes" type="B">
       <property name="Subtitle" value="The Dilettante"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="investigator"/>
       <property name="Class" value="rogue"/>
       <property name="Traits" value="Drifter."/>
-      <property name="Text" value="Deck size: 30.&#10;Deckbuilding options: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.&#10;Deckbuilding requirements (do not count toward deck size): Jenny's Twin .45s, Searching for Izzie, 1 random basic weakness."/>
+      <property name="Text" value="Deck size: 30.
+Deckbuilding options: Rogue cards (ν) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.
+Deckbuilding requirements (do not count toward deck size): Jenny's Twin .45s, Searching for Izzie, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="f295467a-14fb-4f4d-b2f5-5ebfd8857e3a" name="Jim Culver" size="InvestigatorCard">
@@ -83,14 +93,18 @@
     <property name="Health" value="7"/>
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Performer."/>
-    <property name="Text" value="Treat the modifier on α tokens you reveal as &quot;0.&quot;&#10;Anytime you reveal a ε token, you may choose to instead treat it as a α token.&#10;ε effect: +1."/>
+    <property name="Text" value="Treat the modifier on α tokens you reveal as &quot;0.&quot;
+Anytime you reveal a ε token, you may choose to instead treat it as a α token.
+ε effect: +1."/>
     <alternate name="Jim Culver" type="B">
       <property name="Subtitle" value="The Musician"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="investigator"/>
       <property name="Class" value="mystic"/>
       <property name="Traits" value="Performer."/>
-      <property name="Text" value="Deck size: 30.&#10;Deckbuilding options: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.&#10;Deckbuilding requirements (do not count toward deck size): Jim's Trumpet, Final Rhapsody, 1 random basic weakness."/>
+      <property name="Text" value="Deck size: 30.
+Deckbuilding options: Mystic cards (μ) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.
+Deckbuilding requirements (do not count toward deck size): Jim's Trumpet, Final Rhapsody, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="d448218b-7006-4670-a39c-08cd41e44df4" name="&quot;Ashcan&quot; Pete" size="InvestigatorCard">
@@ -106,14 +120,18 @@
     <property name="Health" value="6"/>
     <property name="Sanity" value="5"/>
     <property name="Traits" value="Drifter."/>
-    <property name="Text" value="You begin the game with Duke in play.&#10;θ Discard a card from your hand: Ready an asset you control. (Limit once per round.)&#10;ε effect: +2. Ready Duke."/>
+    <property name="Text" value="You begin the game with Duke in play.
+θ Discard a card from your hand: Ready an asset you control. (Limit once per round.)
+ε effect: +2. Ready Duke."/>
     <alternate name="&quot;Ashcan&quot; Pete" type="B">
       <property name="Subtitle" value="The Drifter"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="investigator"/>
       <property name="Class" value="survivor"/>
       <property name="Traits" value="Drifter."/>
-      <property name="Text" value="Deck size: 30.&#10;Deckbuilding options: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.&#10;Deckbuilding requirements (do not count toward deck size): Duke, Wracked by Nightmares, 1 random basic weakness."/>
+      <property name="Text" value="Deck size: 30.
+Deckbuilding options: Survivor cards (ξ) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.
+Deckbuilding requirements (do not count toward deck size): Duke, Wracked by Nightmares, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="e84c8e62-7793-4783-a32a-07f31664503c" name="Zoey's Cross">
@@ -123,11 +141,12 @@
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Cost" value="1"/>
-    <property name="Combat" value="2"/>
     <property name="Skill Icons" value="ήήΰ"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Charm."/>
-    <property name="Text" value="Zoey Samaras deck only.&#10;ι After an enemy becomes engaged with you, exhaust Zoey's Cross and spend 1 resource: Deal 1 damage to that enemy."/>
+    <property name="Keywords" value="Zoey Samaras deck only.
+"/>
+    <property name="Text" value="ι After an enemy becomes engaged with you, exhaust Zoey's Cross and spend 1 resource: Deal 1 damage to that enemy."/>
   </card>
   <card id="7696f7c3-7d82-43d3-a985-ebbc70a98115" name="Smite the Wicked" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -135,17 +154,18 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="weakness"/>
     <property name="Traits" value="Task."/>
-    <property name="Text" value="Revelation – Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.&#10;Forced – When the game ends, if attached enemy is in play: You suffer 1 mental trauma."/>
+    <property name="Text" value="Revelation – Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.
+Forced – When the game ends, if attached enemy is in play: You suffer 1 mental trauma."/>
   </card>
   <card id="3eb82dae-9254-487b-8d9f-217bb055a27b" name="Search for the Truth">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Neutral"/>
     <property name="Cost" value="1"/>
-    <property name="Intellect" value="2"/>
     <property name="Skill Icons" value="έέΰ"/>
     <property name="Traits" value="Insight."/>
-    <property name="Text" value="Rex Murphy deck only.&#10;Draw X cards, where X is the number of clues on Rex Murphy (to a maximum of 5)."/>
+    <property name="Keywords" value="Rex Murphy deck only."/>
+    <property name="Text" value="Draw X cards, where X is the number of clues on Rex Murphy (to a maximum of 5)."/>
   </card>
   <card id="77176fab-fe89-41dc-b8f6-9a061f92d18e" name="Rex's Curse" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -153,7 +173,8 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="weakness"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Revelation - Put Rex's Curse into play in your threat area.&#10;Forced - When you would succeed at a skill test: Return the revealed chaos token to the bag and reveal a new chaos token. If this effect causes you to fail the test, shuffle Rex's Curse into your deck. (Limit once per test.)"/>
+    <property name="Text" value="Revelation - Put Rex's Curse into play in your threat area.
+Forced - When you would succeed at a skill test: Return the revealed chaos token to the bag and reveal a new chaos token. If this effect causes you to fail the test, shuffle Rex's Curse into your deck. (Limit once per test.)"/>
   </card>
   <card id="0c449dae-56f9-4ba8-abfb-fef861a0497d" name="Jenny's Twin .45s">
     <property name="Quantity" value="1"/>
@@ -161,11 +182,11 @@
     <property name="Unique" value="ο"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
-    <property name="Agility" value="2"/>
     <property name="Skill Icons" value="ίίΰ"/>
     <property name="Slot" value="Hand x2"/>
     <property name="Traits" value="Item. Weapon. Firearm."/>
-    <property name="Text" value="Jenny Barnes deck only. Uses (X ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. This attack deals +1 damage."/>
+    <property name="Keywords" value="Jenny Barnes deck only. Uses (X ammo)."/>
+    <property name="Text" value="η Spend 1 ammo: Fight. You get +2 ή for this attack. This attack deals +1 damage."/>
   </card>
   <card id="2333216b-2b9f-4aea-a298-ffcb40d7d527" name="Searching for Izzie" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -173,7 +194,9 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="weakness"/>
     <property name="Traits" value="Task."/>
-    <property name="Text" value="Revelation - Attach Searching for Izzie to the location farthest from you.&#10;ηη: Investigate. If you succeed, instead of discovering clues, discard Searching for Izzie.&#10;Forced - When the game ends, if Searching for Izzie is in play: You suffer 1 mental trauma."/>
+    <property name="Text" value="Revelation - Attach Searching for Izzie to the location farthest from you.
+ηη: Investigate. If you succeed, instead of discovering clues, discard Searching for Izzie.
+Forced - When the game ends, if Searching for Izzie is in play: You suffer 1 mental trauma."/>
   </card>
   <card id="6586c06a-8294-48f2-b99f-fc26db18f20f" name="Jim's Trumpet">
     <property name="Quantity" value="1"/>
@@ -182,11 +205,11 @@
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Cost" value="2"/>
-    <property name="Willpower" value="2"/>
     <property name="Skill Icons" value="άάΰ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Instrument. Relic."/>
-    <property name="Text" value="Jim Culver deck only.&#10;ι When a α token is revealed during a skill test, exhaust Jim's Trumpet: Heal 1 horror from an investigator at your location or a connecting location."/>
+    <property name="Keywords" value="Jim Culver deck only."/>
+    <property name="Text" value="ι When a α token is revealed during a skill test, exhaust Jim's Trumpet: Heal 1 horror from an investigator at your location or a connecting location."/>
   </card>
   <card id="8c786481-e9f3-4fad-bfcc-ed4d78bd8064" name="Final Rhapsody" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -206,7 +229,9 @@
     <property name="Health" value="2"/>
     <property name="Sanity" value="3"/>
     <property name="Traits" value="Ally. Creature."/>
-    <property name="Text" value="&quot;Ashcan&quot; Pete deck only.&#10;η Exhaust Duke: Fight. You attack with a base ή skill of 4. This attack deals +1 damage.&#10;η Exhaust Duke: Investigate. You investigate with a base έ skill of 4. You may move to a connecting location immediately before investigating with this effect."/>
+    <property name="Keywords" value="Ashcan Pete deck only."/>
+    <property name="Text" value="η Exhaust Duke: Fight. You attack with a base ή skill of 4. This attack deals +1 damage.
+η Exhaust Duke: Investigate. You investigate with a base έ skill of 4. You may move to a connecting location immediately before investigating with this effect."/>
   </card>
   <card id="d421da41-f879-45d0-9409-d5691fecf56e" name="Wracked by Nightmares" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -214,7 +239,9 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="weakness"/>
     <property name="Traits" value="Madness."/>
-    <property name="Text" value="Revelation - Exhaust all assets you control and put Wracked by Nightmares into play in your threat area.&#10;Assets you control cannot ready.&#10;ηη: Discard Wracked by Nightmares."/>
+    <property name="Text" value="Revelation - Exhaust all assets you control and put Wracked by Nightmares into play in your threat area.
+Assets you control cannot ready.
+ηη: Discard Wracked by Nightmares."/>
   </card>
   <card id="19c9125c-6580-4f39-8550-683cef8ba475" name="Blackjack">
     <property name="Quantity" value="2"/>
@@ -222,7 +249,6 @@
     <property name="Class" value="Guardian"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
-    <property name="Combat" value="1"/>
     <property name="Skill Icons" value="ή"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Weapon. Melee."/>
@@ -234,11 +260,10 @@
     <property name="Class" value="Guardian"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
-    <property name="Willpower" value="1"/>
-    <property name="Combat" value="1"/>
     <property name="Skill Icons" value="ήά"/>
     <property name="Traits" value="Tactic."/>
-    <property name="Text" value="Fast. Play only during your turn.&#10;Engage any number of enemies at your location."/>
+    <property name="Keywords" value="Fast. Play only during your turn."/>
+    <property name="Text" value="Engage any number of enemies at your location."/>
   </card>
   <card id="995ca593-11ac-49b3-b36f-a8b6793519af" name="Teamwork">
     <property name="Quantity" value="2"/>
@@ -256,12 +281,10 @@
     <property name="Class" value="Guardian"/>
     <property name="Level" value="2"/>
     <property name="Cost" value="1"/>
-    <property name="Willpower" value="1"/>
-    <property name="Combat" value="1"/>
-    <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ίήά"/>
     <property name="Traits" value="Tactic."/>
-    <property name="Text" value="Fast. Play only during your turn.&#10;Engage any number of enemies at your location. Draw 1 card for each enemy engaged in this way."/>
+    <property name="Keywords" value="Fast. Play only during your turn."/>
+    <property name="Text" value="Engage any number of enemies at your location. Draw 1 card for each enemy engaged in this way."/>
   </card>
   <card id="43a36feb-e5ff-43fd-97c2-2b06a4b1512d" name="Laboratory Assistant">
     <property name="Quantity" value="2"/>
@@ -269,13 +292,13 @@
     <property name="Class" value="Seeker"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
-    <property name="Intellect" value="1"/>
     <property name="Health" value="1"/>
     <property name="Sanity" value="2"/>
     <property name="Skill Icons" value="έ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Miskatonic. Science."/>
-    <property name="Text" value="Your maximum hand size is increased by 2 while checking your hand size during the upkeep phase.&#10;ι After Laboratory Assistant enters play: Draw 2 cards."/>
+    <property name="Text" value="Your maximum hand size is increased by 2 while checking your hand size during the upkeep phase.
+ι After Laboratory Assistant enters play: Draw 2 cards."/>
   </card>
   <card id="76d32cbe-c709-4ae3-94ba-041312b958c9" name="Strange Solution">
     <property name="Quantity" value="2"/>
@@ -294,11 +317,10 @@
     <property name="Class" value="Seeker"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="0"/>
-    <property name="Willpower" value="1"/>
-    <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ίά"/>
     <property name="Traits" value="Insight. Tactic."/>
-    <property name="Text" value="Fast. Play only during your turn.&#10;Choose an investigator at your location. Move that investigator to a connecting location."/>
+    <property name="Keywords" value="Fast. Play only during your turn."/>
+    <property name="Text" value="Choose an investigator at your location. Move that investigator to a connecting location."/>
   </card>
   <card id="3766edeb-4f1d-436b-b130-bdea175b6a1f" name="Seeking Answers">
     <property name="Quantity" value="2"/>
@@ -306,8 +328,6 @@
     <property name="Class" value="Seeker"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
-    <property name="Intellect" value="1"/>
-    <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ίέ"/>
     <property name="Traits" value="Insight."/>
     <property name="Text" value="Investigate. If you succeed, instead of discovering a clue at your location, discover a clue at a connecting location."/>
@@ -318,10 +338,10 @@
     <property name="Class" value="Rogue"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
-    <property name="Willpower" value="1"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Traits" value="Item. Illicit."/>
-    <property name="Text" value="Uses (4 supplies).&#10;η Spend 1 supply: Choose an investigator at your location to heal 1 horror. Then, that investigator tests ά (2). If the test succeeds, he or she heals 1 additional horror. If the test fails, he or she discards 1 card at random from his or her hand."/>
+    <property name="Keywords" value="Uses (4 supplies)."/>
+    <property name="Text" value="η Spend 1 supply: Choose an investigator at your location to heal 1 horror. Then, that investigator tests ά (2). If the test succeeds, he or she heals 1 additional horror. If the test fails, he or she discards 1 card at random from his or her hand."/>
   </card>
   <card id="d86a00ff-6974-4b6b-9785-cd20fa49256d" name="Think on Your Feet">
     <property name="Quantity" value="2"/>
@@ -329,11 +349,10 @@
     <property name="Class" value="Rogue"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
-    <property name="Intellect" value="1"/>
-    <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ίέ"/>
     <property name="Traits" value="Trick."/>
-    <property name="Text" value="Fast. Play when an enemy would spawn at your location.&#10;Immediately move to a connecting location. (The enemy still spawns at your previous location.)"/>
+    <property name="Keywords" value="Fast. Play when an enemy would spawn at your location."/>
+    <property name="Text" value="Immediately move to a connecting location. (The enemy still spawns at your previous location.)"/>
   </card>
   <card id="6804e6e3-6a7c-458c-a1b7-185bc4928f4c" name="Double or Nothing">
     <property name="Quantity" value="2"/>
@@ -342,7 +361,8 @@
     <property name="Level" value="0"/>
     <property name="Skill Icons" value="ΰ"/>
     <property name="Traits" value="Fortune."/>
-    <property name="Text" value="Max 1 committed per skill test.&#10;Double the difficulty of this skill test. If this skill test is successful, resolve the effects of the successful test twice."/>
+    <property name="Keywords" value="Max 1 committed per skill test."/>
+    <property name="Text" value="Double the difficulty of this skill test. If this skill test is successful, resolve the effects of the successful test twice."/>
   </card>
   <card id="6263c096-a016-45fb-bb9b-05ec75e63757" name="Hired Muscle">
     <property name="Quantity" value="2"/>
@@ -350,12 +370,12 @@
     <property name="Class" value="Rogue"/>
     <property name="Level" value="1"/>
     <property name="Cost" value="1"/>
-    <property name="Combat" value="1"/>
     <property name="Health" value="3"/>
     <property name="Sanity" value="1"/>
     <property name="Skill Icons" value="ή"/>
     <property name="Traits" value="Ally. Criminal."/>
-    <property name="Text" value="You get +1 ή.&#10;Forced – At the end of the upkeep phase: You must either pay 1 resource or discard Hired Muscle."/>
+    <property name="Text" value="You get +1 ή.
+Forced – At the end of the upkeep phase: You must either pay 1 resource or discard Hired Muscle."/>
   </card>
   <card id="8f39c168-aa45-44c4-bffc-a223afd1db79" name="Rite of Seeking">
     <property name="Quantity" value="2"/>
@@ -363,11 +383,11 @@
     <property name="Class" value="Mystic"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="4"/>
-    <property name="Intellect" value="1"/>
     <property name="Skill Icons" value="έ"/>
     <property name="Slot" value="Arcane"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Investigate. Investigate using ά instead of έ. If you succeed, discover 1 additional clue at this location. If a α, β, γ, δ, or ζ symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn."/>
+    <property name="Keywords" value="Uses (3 charges)."/>
+    <property name="Text" value="η Spend 1 charge: Investigate. Investigate using ά instead of έ. If you succeed, discover 1 additional clue at this location. If a α, β, γ, δ, or ζ symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn."/>
   </card>
   <card id="1225df00-7d5e-4bd0-8170-e561f558e9ae" name="Ritual Candles">
     <property name="Quantity" value="2"/>
@@ -375,7 +395,6 @@
     <property name="Class" value="Mystic"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
-    <property name="Willpower" value="1"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item."/>
@@ -387,11 +406,11 @@
     <property name="Class" value="Mystic"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
-    <property name="Willpower" value="1"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Arcane"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Heal 1 horror from an investigator at your location."/>
+    <property name="Keywords" value="Uses (3 charges)."/>
+    <property name="Text" value="η Spend 1 charge: Heal 1 horror from an investigator at your location."/>
   </card>
   <card id="07c3267c-b993-4626-ab58-cf75754ad016" name="Bind Monster">
     <property name="Quantity" value="2"/>
@@ -399,11 +418,10 @@
     <property name="Class" value="Mystic"/>
     <property name="Level" value="2"/>
     <property name="Cost" value="3"/>
-    <property name="Willpower" value="1"/>
-    <property name="Intellect" value="1"/>
     <property name="Skill Icons" value="έά"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Evade. This evasion attempt uses ά instead of ί. If you succeed and the enemy is non‑Elite, evade it and attach Bind Monster to it.&#10;ι When attached enemy would ready: Test ά (3). If you succeed, attached enemy does not ready. If you fail, discard Bind Monster."/>
+    <property name="Text" value="Evade. This evasion attempt uses ά instead of ί. If you succeed and the enemy is non‑Elite, evade it and attach Bind Monster to it.
+ι When attached enemy would ready: Test ά (3). If you succeed, attached enemy does not ready. If you fail, discard Bind Monster."/>
   </card>
   <card id="a630f620-efc0-43c0-aaa3-841080cf2cf9" name="Fire Axe">
     <property name="Quantity" value="2"/>
@@ -411,11 +429,11 @@
     <property name="Class" value="Survivor"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
-    <property name="Combat" value="1"/>
     <property name="Skill Icons" value="ή"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Weapon. Melee."/>
-    <property name="Text" value="η: Fight. If you have no resources in your resource pool, this attack deals +1 damage.&#10;θ During an attack using Fire Axe, spend 1 resource: You get +2 ή for this skill test. (Limit three times per attack.)"/>
+    <property name="Text" value="η: Fight. If you have no resources in your resource pool, this attack deals +1 damage.
+θ During an attack using Fire Axe, spend 1 resource: You get +2 ή for this skill test. (Limit three times per attack.)"/>
   </card>
   <card id="28d41827-8f9b-432f-b0b0-05d5c2bd926e" name="Peter Sylvestre">
     <property name="Quantity" value="2"/>
@@ -425,13 +443,13 @@
     <property name="Class" value="Survivor"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="3"/>
-    <property name="Willpower" value="1"/>
     <property name="Health" value="1"/>
     <property name="Sanity" value="2"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Miskatonic."/>
-    <property name="Text" value="You get +1 ί.&#10;ι After your turn ends: Heal 1 horror from Peter Sylvestre."/>
+    <property name="Text" value="You get +1 ί.
+ι After your turn ends: Heal 1 horror from Peter Sylvestre."/>
   </card>
   <card id="5dd0691a-320c-4343-b73e-c57a59e2069c" name="Bait and Switch">
     <property name="Quantity" value="2"/>
@@ -439,8 +457,6 @@
     <property name="Class" value="Survivor"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
-    <property name="Intellect" value="1"/>
-    <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ίέ"/>
     <property name="Traits" value="Trick."/>
     <property name="Text" value="Evade. If you succeed, if the enemy is non-Elite, evade the enemy and move it to a connecting location."/>
@@ -453,13 +469,13 @@
     <property name="Class" value="Survivor"/>
     <property name="Level" value="2"/>
     <property name="Cost" value="3"/>
-    <property name="Willpower" value="1"/>
     <property name="Health" value="1"/>
     <property name="Sanity" value="3"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Miskatonic."/>
-    <property name="Text" value="You get +1 ί and +1 ά.&#10;ι After your turn ends: Heal 1 horror from Peter Sylvestre."/>
+    <property name="Text" value="You get +1 ί and +1 ά.
+ι After your turn ends: Heal 1 horror from Peter Sylvestre."/>
   </card>
   <card id="1d85aa6a-7b58-408c-b84e-5685f7e9e10a" name="Kukri">
     <property name="Quantity" value="2"/>
@@ -467,7 +483,6 @@
     <property name="Class" value="Neutral"/>
     <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
-    <property name="Combat" value="1"/>
     <property name="Skill Icons" value="ή"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Weapon. Melee."/>
@@ -479,7 +494,8 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Flaw."/>
-    <property name="Text" value="Permanent.&#10;You start each game with 2 fewer resources."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="You start each game with 2 fewer resources."/>
   </card>
   <card id="ee9ed7fb-bd73-4a10-88ce-0617321ebecd" name="Internal Injury">
     <property name="Quantity" value="2"/>
@@ -487,7 +503,9 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Injury."/>
-    <property name="Text" value="Revelation - Place Internal Injury into play in your threat area.&#10;ι At the end of your turn: Take 1 direct damage.&#10;ηη: Discard Internal Injury."/>
+    <property name="Text" value="Revelation - Place Internal Injury into play in your threat area.
+ι At the end of your turn: Take 1 direct damage.
+ηη: Discard Internal Injury."/>
   </card>
   <card id="bd089e8f-e3f0-4fd3-9bf2-e7de8832da73" name="Chronophobia">
     <property name="Quantity" value="2"/>
@@ -495,7 +513,9 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Madness."/>
-    <property name="Text" value="Revelation - Place Chronophobia into play in your threat area.&#10;Forced - At the end of your turn: Take 1 direct horror.&#10;ηη: Discard Chronophobia."/>
+    <property name="Text" value="Revelation - Place Chronophobia into play in your threat area.
+Forced - At the end of your turn: Take 1 direct horror.
+ηη: Discard Chronophobia."/>
   </card>
   <card id="7fc5f1e2-a4bc-4023-a7cd-315d3912bd79" name="Dr. Henry Armitage">
     <property name="Quantity" value="1"/>
@@ -515,12 +535,18 @@
   <card id="b08a7c06-5d1b-4bcb-b207-ff248bcf634d" name="Extracurricular Activity">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="Easy / Standard&#10;α: -1. If you fail, discard the top 3 cards of your deck.&#10;β: -1 (-3 instead if there are 10 or more cards in your discard pile).&#10;δ: -X. Discard the top 2 cards of your deck. X is the total printed cost of those discarded cards."/>
+    <property name="Text" value="α: -1. If you fail, discard the top 3 cards of your deck.
+β: -1 (-3 instead if there are 10 or more cards in your discard pile).
+δ: -X. Discard the top 2 cards of your deck. X is the total printed cost of those discarded cards."/>
     <alternate name="Extracurricular Activity" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="Hard / Expert&#10;α: -2. If you fail, discard the top 5 cards of your deck.&#10;β: -1 (-5 instead if there are 10 or more cards in your discard pile).&#10;δ: -X. Discard the top 3 cards of your deck. X is the total printed cost of those discarded cards."/>
+      <property name="Text" value="α: -2. If you fail, discard the top 5 cards of your deck.
+β: -1 (-5 instead if there are 10 or more cards in your discard pile).
+δ: -X. Discard the top 3 cards of your deck. X is the total printed cost of those discarded cards."/>
     </alternate>
   </card>
   <card id="6566fbf5-5332-4710-b25d-732161ecfb55" name="Quiet Halls" size="HorizCard">
@@ -531,14 +557,15 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <alternate name="Quiet Halls" size="HorizCard" type="B">
+    <alternate name="Quiet Halls" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Each investigator with 5 or more cards in his or her discard pile takes 1 horror. Each investigator with 10 or more cards in his or her discard pile takes 2 horror, instead.&#10;If the players have completed The House Always Wins, advance directly to agenda 2b. If Extracurricular Activity is the first scenario in the campaign, advance to agenda 2a."/>
+      <property name="Text" value="Each investigator with 5 or more cards in his or her discard pile takes 1 horror. Each investigator with 10 or more cards in his or her discard pile takes 2 horror, instead.
+If the players have completed The House Always Wins, advance directly to agenda 2b. If Extracurricular Activity is the first scenario in the campaign, advance to agenda 2a."/>
     </alternate>
   </card>
   <card id="bc83f534-0039-46ab-ac89-8a1397a81810" name="Dead of Night" size="HorizCard">
@@ -550,14 +577,16 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
     <property name="Text" value="Each investigator's maximum hand size is reduced by 3 while checking his or her hand size during the upkeep phase."/>
-    <alternate name="Dead of Night" size="HorizCard" type="B">
+    <alternate name="Dead of Night" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If the Dormitories location is not in play, put it into play.&#10;If The Experiment is in play, move it 1 location towards the Dormitories.&#10;If The Experiment is not in play, spawn it in the Science Building."/>
+      <property name="Text" value="If the Dormitories location is not in play, put it into play.
+If The Experiment is in play, move it 1 location towards the Dormitories.
+If The Experiment is not in play, spawn it in the Science Building."/>
     </alternate>
   </card>
   <card id="546c1b52-8fd0-416f-87cc-9d9465734200" name="The Beast Unleashed" size="HorizCard">
@@ -568,8 +597,9 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="2"/>
-    <property name="Text" value="Forced - When this agenda would advance by reaching its doom threshold: Instead, remove all doom in play and move The Experiment 1 location toward the Dormitories.&#10;Objective - If The Experiment enters the Dormitories, advance."/>
-    <alternate name="The Beast Unleashed" size="HorizCard" type="B">
+    <property name="Text" value="Forced - When this agenda would advance by reaching its doom threshold: Instead, remove all doom in play and move The Experiment 1 location toward the Dormitories.
+Objective - If The Experiment enters the Dormitories, advance."/>
+    <alternate name="The Beast Unleashed" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -587,7 +617,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="3π "/>
     <property name="Doom" value=""/>
-    <alternate name="After Hours" size="HorizCard" type="B">
+    <alternate name="After Hours" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -605,15 +635,18 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="η Spend 1 clue: Discard the top 5 cards of the encounter deck (top 10 instead if there is only 1 player in the game).&#10;Forced - If you discard &quot;Jazz&quot; Mulligan for any reason, resolve his revelation effect.&#10;Objective - When you take control of &quot;Jazz&quot; Mulligan, advance."/>
-    <alternate name="Rice's Whereabouts" size="HorizCard" type="B">
+    <property name="Text" value="η Spend 1 clue: Discard the top 5 cards of the encounter deck (top 10 instead if there is only 1 player in the game).
+Forced - If you discard &quot;Jazz&quot; Mulligan for any reason, resolve his revelation effect.
+Objective - When you take control of &quot;Jazz&quot; Mulligan, advance."/>
+    <alternate name="Rice's Whereabouts" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If the Alchemy Labs location is not in play, put it into play. If you are at Agenda 1 or 2, spawn The Experiment in the Alchemy Labs.&#10;If you have completed The House Always Wins, put the set-aside Alchemical Concoction into play underneath the Alchemy Labs. If Extracurricular Activity is the first scenario of the campaign, remove the set-aside Alchemical Concoction from the game, instead."/>
+      <property name="Text" value="If the Alchemy Labs location is not in play, put it into play. If you are at Agenda 1 or 2, spawn The Experiment in the Alchemy Labs.
+If you have completed The House Always Wins, put the set-aside Alchemical Concoction into play underneath the Alchemy Labs. If Extracurricular Activity is the first scenario of the campaign, remove the set-aside Alchemical Concoction from the game, instead."/>
     </alternate>
   </card>
   <card id="6b6b52fa-9ca1-4f6d-a5bd-34fc1e20723a" name="Campus Safety" size="HorizCard">
@@ -625,7 +658,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Find and complete an objective on another encounter card."/>
-    <alternate name="Campus Safety" size="HorizCard" type="B">
+    <alternate name="Campus Safety" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
@@ -643,7 +676,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
-    <alternate name="Miskatonic Quad" size="EncounterCard" type="B">
+    <alternate name="Miskatonic Quad" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
@@ -661,7 +694,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
-    <alternate name="Humanities Building" size="EncounterCard" type="B">
+    <alternate name="Humanities Building" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
@@ -679,7 +712,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
-    <alternate name="Orne Library" size="EncounterCard" type="B">
+    <alternate name="Orne Library" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
@@ -698,14 +731,15 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
-    <alternate name="Student Union" size="EncounterCard" type="B">
+    <alternate name="Student Union" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
       <property name="Clues" value="2"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Miskatonic."/>
-      <property name="Text" value="Forced - After Student Union is revealed: Put the set-aside Dormitories into play.&#10;ηη: Heal 1 damage and 1 horror."/>
+      <property name="Text" value="Forced - After Student Union is revealed: Put the set-aside Dormitories into play.
+ηη: Heal 1 damage and 1 horror."/>
     </alternate>
   </card>
   <card id="f2a1a2ce-85ed-4cd8-b921-8a345a33da17" name="Dormitories" size="EncounterCard">
@@ -717,7 +751,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
     <property name="Text" value="The door leading into the Dormitories is locked. You cannot move into the Dormitories."/>
-    <alternate name="Dormitories" size="EncounterCard" type="B">
+    <alternate name="Dormitories" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
@@ -736,14 +770,15 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
-    <alternate name="Administration Building" size="EncounterCard" type="B">
+    <alternate name="Administration Building" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
       <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Miskatonic."/>
-      <property name="Text" value="Forced - After Administration is revealed: Put the set-aside Faculty Offices into play.&#10;Forced - At the end of your turn, if you are in Administration: Discard the top card of your deck."/>
+      <property name="Text" value="Forced - After Administration is revealed: Put the set-aside Faculty Offices into play.
+Forced - At the end of your turn, if you are in Administration: Discard the top card of your deck."/>
     </alternate>
   </card>
   <card id="15529356-18d0-4148-bbf1-b6bd4fc2a2cb" name="Faculty Offices" size="EncounterCard">
@@ -755,7 +790,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
     <property name="Text" value="The door leading into the Faculty Offices is locked. You cannot move into the Faculty Offices."/>
-    <alternate name="Faculty Offices" size="EncounterCard" type="B">
+    <alternate name="Faculty Offices" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Subtitle" value="The Night is Still Young"/>
       <property name="Type" value="Location"/>
@@ -764,7 +799,8 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Miskatonic."/>
-      <property name="Text" value="Forced - After Faculty Offices is revealed: Search the encounter deck and discard pile for a Humanoid enemy and spawn it here. Shuffle the encounter deck.&#10;Objective - If investigators in the Faculty Offices spend 2[per investigator] clues, as a group: (→R1)"/>
+      <property name="Text" value="Forced - After Faculty Offices is revealed: Search the encounter deck and discard pile for a Humanoid enemy and spawn it here. Shuffle the encounter deck.
+Objective - If investigators in the Faculty Offices spend 2[per investigator] clues, as a group: (→R1)"/>
     </alternate>
   </card>
   <card id="41ea5c25-5bca-493d-b91f-ebd5fdbc4957" name="Faculty Offices" size="EncounterCard">
@@ -776,7 +812,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
     <property name="Text" value="The door leading into the Faculty Offices is locked. You cannot move into the Faculty Offices."/>
-    <alternate name="Faculty Offices" size="EncounterCard" type="B">
+    <alternate name="Faculty Offices" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Subtitle" value="The Hour is Late"/>
       <property name="Type" value="Location"/>
@@ -794,14 +830,15 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
-    <alternate name="Science Building" size="EncounterCard" type="B">
+    <alternate name="Science Building" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
       <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Miskatonic."/>
-      <property name="Text" value="Forced - After Science Building is revealed: Put the set-aside Alchemy Labs into play.&#10;Forced - When you fail a ά test in the Science Building: Take 1 damage."/>
+      <property name="Text" value="Forced - After Science Building is revealed: Put the set-aside Alchemy Labs into play.
+Forced - When you fail a ά test in the Science Building: Take 1 damage."/>
     </alternate>
   </card>
   <card id="3c08ff87-0ea6-42b3-a177-088ee958588c" name="Alchemy Labs" size="EncounterCard">
@@ -813,7 +850,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Miskatonic."/>
     <property name="Text" value="The door leading into the Alchemy Labs is locked. You cannot move into the Alchemy Labs."/>
-    <alternate name="Alchemy Labs" size="EncounterCard" type="B">
+    <alternate name="Alchemy Labs" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="5"/>
@@ -836,7 +873,10 @@
     <property name="Horror" value="2"/>
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Monster. Abomination. Elite."/>
-    <property name="Text" value="Massive.&#10;The Experiment gets +3[per investigator] health.&#10;Forced - When the enemy phase begins: Ready The Experiment.&#10;Objective - If The Experiment is defeated, advance to act 3b."/>
+    <property name="Keywords" value="Massive."/>
+    <property name="Text" value="The Experiment gets +3π health.
+Forced - When the enemy phase begins: Ready The Experiment.
+Objective - If The Experiment is defeated, advance to act 3b."/>
   </card>
   <card id="c6918c7e-efaf-4524-b2ac-69c07a8ddd40" name="Alchemical Concoction">
     <property name="Quantity" value="1"/>
@@ -856,7 +896,9 @@
     <property name="Health" value="2"/>
     <property name="Sanity" value="2"/>
     <property name="Traits" value="Ally. Miskatonic."/>
-    <property name="Text" value="Revelation - Put &quot;Jazz&quot; Mulligan into play at your location.&#10;While &quot;Jazz&quot; Mulligan is not controlled by a player, he gains: &quot;η: Parley. Test έ (3). If successful, take control of &quot;Jazz&quot; Mulligan.&quot;&#10;While you control &quot;Jazz&quot; Mulligan, you ignore the text on each unrevealed Miskatonic location."/>
+    <property name="Text" value="Revelation - Put &quot;Jazz&quot; Mulligan into play at your location.
+While &quot;Jazz&quot; Mulligan is not controlled by a player, he gains: &quot;η: Parley. Test έ (3). If successful, take control of &quot;Jazz&quot; Mulligan.&quot;
+While you control &quot;Jazz&quot; Mulligan, you ignore the text on each unrevealed Miskatonic location."/>
   </card>
   <card id="348b3d51-a526-420d-95d0-8a65df600c52" name="Professor Warren Rice">
     <property name="Quantity" value="1"/>
@@ -866,23 +908,29 @@
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Cost" value="3"/>
-    <property name="Intellect" value="1"/>
     <property name="Health" value="2"/>
     <property name="Sanity" value="3"/>
     <property name="Skill Icons" value="έΰ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Miskatonic."/>
-    <property name="Text" value="You get +1 έ.&#10;ι After you discover the last remaining clue in your location, exhaust Professor Warren Rice: Draw 1 card."/>
+    <property name="Text" value="You get +1 έ.
+ι After you discover the last remaining clue in your location, exhaust Professor Warren Rice: Draw 1 card."/>
   </card>
   <card id="293a7805-47b3-41a8-96af-14bcb19f93f7" name="The House Always Wins">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="Easy / Standard&#10;α: -2. You may spend 2 resources to treat this token as a 0, instead.&#10;β: -3. If you succeed, gain 3 resources.&#10;γ: -2. If you fail, discard 3 resources."/>
+    <property name="Text" value="α: -2. You may spend 2 resources to treat this token as a 0, instead.
+β: -3. If you succeed, gain 3 resources.
+γ: -2. If you fail, discard 3 resources."/>
     <alternate name="The House Always Wins" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="Hard / Expert&#10;α: -3. You may spend 3 resources to treat this token as a 0, instead.&#10;β: -3. If you fail, discard 3 resources.&#10;γ: -2. Discard 3 resources."/>
+      <property name="Text" value="α: -3. You may spend 3 resources to treat this token as a 0, instead.
+β: -3. If you fail, discard 3 resources.
+γ: -2. Discard 3 resources."/>
     </alternate>
   </card>
   <card id="f6a860e8-64e9-495a-8ce3-4841f83f0f47" name="The Clover Club" size="HorizCard">
@@ -893,15 +941,17 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="4"/>
-    <property name="Text" value="Each Criminal enemy gains Aloof.&#10;If an investigator deals damage to a Criminal enemy: Immediately advance."/>
-    <alternate name="On the Right Track" size="HorizCard" type="B">
+    <property name="Text" value="Each Criminal enemy gains Aloof.
+If an investigator deals damage to a Criminal enemy: Immediately advance."/>
+    <alternate name="On the Right Track" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;If the players have completed Extracurricular Activity, advance directly to agenda 2b. If The House Always Wins is the first scenario in the campaign, advance to agenda 2a."/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.
+If the players have completed Extracurricular Activity, advance directly to agenda 2b. If The House Always Wins is the first scenario in the campaign, advance to agenda 2a."/>
     </alternate>
   </card>
   <card id="da10c46d-609b-473f-96c3-8cb10128b336" name="Underground Muscle" size="HorizCard">
@@ -912,14 +962,15 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
-    <alternate name="Sudden Chaos" size="HorizCard" type="B">
+    <alternate name="Sudden Chaos" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Spawn a random enemy from the set-aside Hideous Abominations encounter set in Clover Club Lounge. Shuffle the rest of that encounter set, the set-aside Striking Fear encounter set, and the encounter discard pile into the encounter deck.&#10;Move all investigators and unengaged enemies from La Bella Luna to the Clover Club Lounge. Remove La Bella Luna from the game."/>
+      <property name="Text" value="Spawn a random enemy from the set-aside Hideous Abominations encounter set in Clover Club Lounge. Shuffle the rest of that encounter set, the set-aside Striking Fear encounter set, and the encounter discard pile into the encounter deck.
+Move all investigators and unengaged enemies from La Bella Luna to the Clover Club Lounge. Remove La Bella Luna from the game."/>
     </alternate>
   </card>
   <card id="2d5e61ce-bdea-4685-a5e9-f1223fa84367" name="Chaos in the Clover Club" size="HorizCard">
@@ -931,7 +982,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
     <property name="Text" value="Forced - At the start of the enemy phase: Discard each Criminal enemy in the same location as an Abomination enemy."/>
-    <alternate name="The Building Collapses" size="HorizCard" type="B">
+    <alternate name="The Building Collapses" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -949,15 +1000,17 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="4π "/>
     <property name="Doom" value=""/>
-    <property name="Text" value="ι When you reveal a chaos token: You may treat that token as if it were any other token in the chaos bag. If you do, remember that you have &quot;cheated.&quot; (Group limit once per round.)&#10;Objective - When the investigators have collected the requisite number of clues, they must immediately spend them and advance."/>
-    <alternate name="High Roller" size="HorizCard" type="B">
+    <property name="Text" value="ι When you reveal a chaos token: You may treat that token as if it were any other token in the chaos bag. If you do, remember that you have &quot;cheated.&quot; (Group limit once per round.)
+Objective - When the investigators have collected the requisite number of clues, they must immediately spend them and advance."/>
+    <alternate name="High Roller" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Put the set-aside Darkened Hall into play.&#10;If it is Agenda 1, discard cards from the top of the encounter deck until a Criminal enemy is discarded, and spawn that enemy in the Darkened Hall."/>
+      <property name="Text" value="Put the set-aside Darkened Hall into play.
+If it is Agenda 1, discard cards from the top of the encounter deck until a Criminal enemy is discarded, and spawn that enemy in the Darkened Hall."/>
     </alternate>
   </card>
   <card id="212657b3-51a8-4b6c-9125-7005f0dd8510" name="Skin Game" size="HorizCard">
@@ -969,14 +1022,15 @@
     <property name="Clues" value="2π "/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the VIP Area may spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="Dr. Morgan's Fate" size="HorizCard" type="B">
+    <alternate name="Dr. Morgan's Fate" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If the players have not yet completed Extracurricular Activity:You find Dr. Morgan gambling in one of the VIP rooms... but he appears to be playing cards with two unconscious bodies, his pupils dilated as though in a trance. He can't seem to stop laughing, smiling, and chatting with the other &quot;players.&quot;Put the set-aside Dr. Morgan into play in the VIP Area. Advance to Act 3a - &quot;All In.&quot;&#10;If the players have completed Extracurricular Activity:The VIP rooms are filled with the mangled and bloody bodies of unfortunate patrons. There doesn't appear to be any trace of Dr. Morgan. You hear screaming and gunfire from the main area of the club.Put the set-aside Peter Clover into play in the Clover Club Bar. Search the encounter deck (or out of play) for an Abomination enemy, and spawn it in the Clover Club Bar. Advance to Act 3a - &quot;Fold.&quot;"/>
+      <property name="Text" value="If the players have not yet completed Extracurricular Activity:You find Dr. Morgan gambling in one of the VIP rooms... but he appears to be playing cards with two unconscious bodies, his pupils dilated as though in a trance. He can't seem to stop laughing, smiling, and chatting with the other &quot;players.&quot;Put the set-aside Dr. Morgan into play in the VIP Area. Advance to Act 3a - &quot;All In.&quot;
+If the players have completed Extracurricular Activity:The VIP rooms are filled with the mangled and bloody bodies of unfortunate patrons. There doesn't appear to be any trace of Dr. Morgan. You hear screaming and gunfire from the main area of the club.Put the set-aside Peter Clover into play in the Clover Club Bar. Search the encounter deck (or out of play) for an Abomination enemy, and spawn it in the Clover Club Bar. Advance to Act 3a - &quot;Fold.&quot;"/>
     </alternate>
   </card>
   <card id="f58a0fc5-57e2-4d23-b16d-aade9b2aa867" name="All In" size="HorizCard">
@@ -987,15 +1041,17 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="While Dr. Morgan is not controlled by a player, he gains &quot;η: Parley. Test ά (3) to shake Dr. Morgan out of his daze. If you succeed, place 1 clue from the token bank on him. If there are 1[per investigator] clues on Dr. Morgan, take control of him.&quot;&#10;Objective - If each undefeated investigator has resigned, advance."/>
-    <alternate name="Safe… For Now" size="HorizCard" type="B">
+    <property name="Text" value="While Dr. Morgan is not controlled by a player, he gains &quot;η: Parley. Test ά (3) to shake Dr. Morgan out of his daze. If you succeed, place 1 clue from the token bank on him. If there are π clues on Dr. Morgan, take control of him.&quot;
+Objective - If each undefeated investigator has resigned, advance."/>
+    <alternate name="Safe… For Now" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="— If an investigator resigned with Dr. Francis Morgan under his or her control, (→R2)&#10;— Otherwise, (→R1)"/>
+      <property name="Text" value="— If an investigator resigned with Dr. Francis Morgan under his or her control, (→R2)
+— Otherwise, (→R1)"/>
     </alternate>
   </card>
   <card id="c19ba09a-afe2-48f4-a51c-78d40f4b2155" name="Fold" size="HorizCard">
@@ -1006,15 +1062,17 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="While Peter Clover is not controlled by a player, he gains &quot;η: Parley. Test ά (3) to convince Peter to follow you. If you succeed, place 1 clue from the token bank on him. If there are 1[per investigator] clues on Peter Clover, take control of him.&quot;&#10;Objective - If each undefeated investigator has resigned, advance."/>
-    <alternate name="Escaping the Club" size="HorizCard" type="B">
+    <property name="Text" value="While Peter Clover is not controlled by a player, he gains &quot;η: Parley. Test ά (3) to convince Peter to follow you. If you succeed, place 1 clue from the token bank on him. If there are 1π clues on Peter Clover, take control of him.&quot;
+Objective - If each undefeated investigator has resigned, advance."/>
+    <alternate name="Escaping the Club" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="— If an investigator resigned with Peter Clover under his or her control, (→R3)&#10;— Otherwise, (→R1)"/>
+      <property name="Text" value="— If an investigator resigned with Peter Clover under his or her control, (→R3)
+— Otherwise, (→R1)"/>
     </alternate>
   </card>
   <card id="f354c097-9674-43e9-8a77-2ccd5f51eb09" name="La Bella Luna" size="EncounterCard">
@@ -1025,7 +1083,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <alternate name="La Bella Luna" size="EncounterCard" type="B">
+    <alternate name="La Bella Luna" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -1043,14 +1101,15 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Clover Club."/>
-    <alternate name="Clover Club Lounge" size="EncounterCard" type="B">
+    <alternate name="Clover Club Lounge" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Clover Club."/>
-      <property name="Text" value="While it is Act 1, Clover Club Lounge gains:&#10;&quot;η Discard an Ally asset from your hand: Gain 2 clues from the token pool. (Limit once per game.)&quot;"/>
+      <property name="Text" value="While it is Act 1, Clover Club Lounge gains:
+&quot;η Discard an Ally asset from your hand: Gain 2 clues from the token pool. (Limit once per game.)&quot;"/>
     </alternate>
   </card>
   <card id="9c147569-3b78-487f-a2e1-c7fc27fc5c5a" name="Clover Club Bar" size="EncounterCard">
@@ -1061,14 +1120,15 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Clover Club."/>
-    <alternate name="Clover Club Bar" size="EncounterCard" type="B">
+    <alternate name="Clover Club Bar" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Clover Club."/>
-      <property name="Text" value="While it is Act 1, Clover Club Bar gains:&#10;&quot;η Spend 2 resources: Gain 2 clues from the token pool and draw 2 cards. Remember that you have 'had a drink.' (Limit once per game.)&quot;"/>
+      <property name="Text" value="While it is Act 1, Clover Club Bar gains:
+&quot;η Spend 2 resources: Gain 2 clues from the token pool and draw 2 cards. Remember that you have 'had a drink.' (Limit once per game.)&quot;"/>
     </alternate>
   </card>
   <card id="a05ba6f5-01c3-4915-9591-54ee19d8071e" name="Clover Club Cardroom" size="EncounterCard">
@@ -1079,14 +1139,18 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Clover Club."/>
-    <alternate name="Clover Club Cardroom" size="EncounterCard" type="B">
+    <alternate name="Clover Club Cardroom" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Clover Club."/>
-      <property name="Text" value="While it is Act 1, Clover Club Cardroom gains:&#10;&quot;η Spend 2 resources: Reveal a random chaos token.&#10;If it is a ε symbol, gain 2 clues and 2 resources from the token bank.&#10;If it is an even number, gain 2 clues from the token bank.&#10;If it is an odd number or a α, β, γ, δ, or ζ symbol, nothing happens.&quot;"/>
+      <property name="Text" value="While it is Act 1, Clover Club Cardroom gains:
+&quot;η Spend 2 resources: Reveal a random chaos token.
+If it is a ε symbol, gain 2 clues and 2 resources from the token bank.
+If it is an even number, gain 2 clues from the token bank.
+If it is an odd number or a α, β, γ, δ, or ζ symbol, nothing happens.&quot;"/>
     </alternate>
   </card>
   <card id="92e00d83-0337-4b11-a54a-234d4ab391df" name="Darkened Hall" size="EncounterCard">
@@ -1097,7 +1161,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Clover Club."/>
-    <alternate name="Darkened Hall" size="EncounterCard" type="B">
+    <alternate name="Darkened Hall" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
@@ -1115,7 +1179,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Clover Club."/>
-    <alternate name="Art Gallery" size="EncounterCard" type="B">
+    <alternate name="Art Gallery" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
@@ -1134,7 +1198,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Clover Club."/>
-    <alternate name="VIP Area" size="EncounterCard" type="B">
+    <alternate name="VIP Area" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
@@ -1153,7 +1217,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Clover Club."/>
-    <alternate name="Back Alley" size="EncounterCard" type="B">
+    <alternate name="Back Alley" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
@@ -1175,7 +1239,10 @@
     <property name="Horror" value="0"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Criminal. Elite."/>
-    <property name="Text" value="Prey - Highest έ.&#10;Hunter.&#10;Forced - After an investigator at Clover Club Pit Boss's location gains any number of clues: Clover Club Pit Boss readies, engages that investigator, and makes an immediate attack."/>
+    <property name="Keywords" value="Prey - Highest έ.
+
+Hunter."/>
+    <property name="Text" value="Forced - After an investigator at Clover Club Pit Boss's location gains any number of clues: Clover Club Pit Boss readies, engages that investigator, and makes an immediate attack."/>
   </card>
   <card id="e9a12a37-22f2-49fa-b64b-5895ad5f277e" name="Peter Clover">
     <property name="Quantity" value="1"/>
@@ -1187,7 +1254,8 @@
     <property name="Health" value="3"/>
     <property name="Sanity" value="2"/>
     <property name="Traits" value="Human. Criminal."/>
-    <property name="Text" value="Forced - At the start of the enemy phase, if no investigator controls Peter Clover: Deal 1 damage to him.&#10;θExhaust Peter Clover: Automatically evade a Criminal enemy in your location."/>
+    <property name="Text" value="Forced - At the start of the enemy phase, if no investigator controls Peter Clover: Deal 1 damage to him.
+θExhaust Peter Clover: Automatically evade a Criminal enemy in your location."/>
   </card>
   <card id="ab261304-07ef-4bd2-9df7-7e2d5d5ce86d" name="Dr. Francis Morgan">
     <property name="Quantity" value="1"/>
@@ -1197,20 +1265,21 @@
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Cost" value="3"/>
-    <property name="Combat" value="1"/>
     <property name="Health" value="4"/>
     <property name="Sanity" value="1"/>
     <property name="Skill Icons" value="ήΰ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Miskatonic."/>
-    <property name="Text" value="You get +1 ή.&#10;ι After you defeat an enemy, exhaust Dr. Francis Morgan: Draw 1 card."/>
+    <property name="Text" value="You get +1 ή.
+ι After you defeat an enemy, exhaust Dr. Francis Morgan: Draw 1 card."/>
   </card>
   <card id="9f8bba21-d2b3-4b5a-8a98-22ee78d592d2" name="Something in the Drinks" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Poison. Illicit."/>
-    <property name="Text" value="Surge.&#10;Revelation - Each player who has &quot;had a drink&quot; loses 1 action."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Revelation - Each player who has &quot;had a drink&quot; loses 1 action."/>
   </card>
   <card id="01b32aa7-2a0d-4041-b562-3fb47b2ce697" name="Arousing Suspicions" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -1230,14 +1299,18 @@
     <property name="Encounter Set" value="Sorcery"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Hex."/>
-    <property name="Text" value="Surge.&#10;Revelation - Put Beyond the Veil into play in your threat area if there is no copy of Beyond the Veil in your threat area.&#10;Forced - If your deck has no cards in it: Take 10 damage and discard Beyond the Veil."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Revelation - Put Beyond the Veil into play in your threat area if there is no copy of Beyond the Veil in your threat area.
+Forced - If your deck has no cards in it: Take 10 damage and discard Beyond the Veil."/>
   </card>
   <card id="1dc185eb-7c88-452b-831c-340659280f30" name="Light of Aforgomon" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Bishop's Thralls"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Pact. Power."/>
-    <property name="Text" value="Peril.&#10;Revelation - You must attach Light of Aforgomon to either the current agenda or the current act.&#10;Limit 1 per agenda/act. Treat all damage as direct damage and all horror as direct horror."/>
+    <property name="Keywords" value="Peril."/>
+    <property name="Text" value="Revelation - You must attach Light of Aforgomon to either the current agenda or the current act.
+Limit 1 per agenda/act. Treat all damage as direct damage and all horror as direct horror."/>
   </card>
   <card id="46be7d48-af4a-4459-b35d-37e92e2eb917" name="Thrall" size="EncounterCard">
     <property name="Quantity" value="3"/>
@@ -1249,7 +1322,8 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Abomination."/>
-    <property name="Text" value="Spawn - Location with the most clues.&#10;Retaliate."/>
+    <property name="Keywords" value="Spawn - Location with the most clues.
+Retaliate."/>
   </card>
   <card id="4f2da478-90bc-4325-8f8c-4d3568a0b0e6" name="Wizard of Yog-Sothoth" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -1262,21 +1336,28 @@
     <property name="Horror" value="2"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Sorcerer."/>
-    <property name="Text" value="Prey - Least cards in hand.&#10;Hunter.&#10;Forced - When the engaged investigator draws a Hex or Pact card: Wizard of Yog-Sothoth attacks that investigator."/>
+    <property name="Keywords" value="Prey - Least cards in hand.
+
+Hunter."/>
+    <property name="Text" value="Forced - When the engaged investigator draws a Hex or Pact card: Wizard of Yog-Sothoth attacks that investigator."/>
   </card>
   <card id="14da4d4b-a219-4aa6-94e7-6977a886adcc" name="Unhallowed Country" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Dunwich"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Terror."/>
-    <property name="Text" value="Revelation - Put Unhallowed Country into play in your threat area.&#10;You cannot play Ally assets. Treat the printed text box of each Ally asset you control as if it were blank.&#10;Forced - At the end of your turn: Test ά (3). If you succeed, discard Unhallowed Country."/>
+    <property name="Text" value="Revelation - Put Unhallowed Country into play in your threat area.
+You cannot play Ally assets. Treat the printed text box of each Ally asset you control as if it were blank.
+Forced - At the end of your turn: Test ά (3). If you succeed, discard Unhallowed Country."/>
   </card>
   <card id="dcdf02d6-781a-4989-8026-907d9b083287" name="Sordid and Silent" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Dunwich"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Terror."/>
-    <property name="Text" value="Revelation - Attach Sordid and Silent to your location.&#10;Forced - At the end of the round: Each investigator at attached location takes 1 horror.&#10;Forced - When the agenda advances: Discard Sordid and Silent."/>
+    <property name="Text" value="Revelation - Attach Sordid and Silent to your location.
+Forced - At the end of the round: Each investigator at attached location takes 1 horror.
+Forced - When the agenda advances: Discard Sordid and Silent."/>
   </card>
   <card id="315c1f0b-7284-4aa5-87ef-1008c491138f" name="Whippoorwill" size="EncounterCard">
     <property name="Quantity" value="3"/>
@@ -1288,7 +1369,8 @@
     <property name="Damage" value="0"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Creature."/>
-    <property name="Text" value="Aloof. Hunter.&#10;Each investigator at Whippoorwill's location gets -1 ά, -1 έ, -1 ή, and -1 ί."/>
+    <property name="Keywords" value="Aloof. Hunter."/>
+    <property name="Text" value="Each investigator at Whippoorwill's location gets -1 ά, -1 έ, -1 ή, and -1 ί."/>
   </card>
   <card id="fc0c9068-69da-4be8-a786-60d448fe0557" name="Eager for Death" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -1302,14 +1384,19 @@
     <property name="Encounter Set" value="Bad Luck"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Omen."/>
-    <property name="Text" value="Revelation - Put Cursed Luck into play in your threat area.&#10;You get -1 skill value during skill tests.&#10;Forced - After you succeed at a skill test by 1 or more: Discard Cursed Luck."/>
+    <property name="Text" value="Revelation - Put Cursed Luck into play in your threat area.
+You get -1 skill value during skill tests.
+Forced - After you succeed at a skill test by 1 or more: Discard Cursed Luck."/>
   </card>
   <card id="fafc853e-e498-4829-bb4f-6d5622b9f6bf" name="Twist of Fate" size="EncounterCard">
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Bad Luck"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Omen."/>
-    <property name="Text" value="Revelation - Reveal a random token from the chaos bag.&#10;If you reveal a ε symbol or positive number, nothing happens.&#10;If you reveal any other number, take 1 damage.&#10;If you reveal a α, β, γ, δ, or ζ symbol, take 2 horror."/>
+    <property name="Text" value="Revelation - Reveal a random token from the chaos bag.
+If you reveal a ε symbol or positive number, nothing happens.
+If you reveal any other number, take 1 damage.
+If you reveal a α, β, γ, δ, or ζ symbol, take 2 horror."/>
   </card>
   <card id="c7c44fe4-5d7b-4d9a-a7cd-477ca7d74e69" name="Avian Thrall" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -1321,7 +1408,10 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Creature. Monster. Abomination."/>
-    <property name="Text" value="Prey - Lowest έ.&#10;Hunter.&#10;While Avian Thrall is being attacked using a Ranged, Firearm, or Spell asset, it gets -3 fight."/>
+    <property name="Keywords" value="Prey - Lowest έ.
+
+Hunter."/>
+    <property name="Text" value="While Avian Thrall is being attacked using a Ranged, Firearm, or Spell asset, it gets -3 fight."/>
   </card>
   <card id="cbf5db4c-f319-41c7-b8b9-726c26695453" name="Lupine Thrall" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -1333,14 +1423,17 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Creature. Monster. Abomination."/>
-    <property name="Text" value="Spawn - Farthest location from you.&#10;Prey - Lowest ί.&#10;Hunter. Retaliate."/>
+    <property name="Keywords" value="Spawn - Farthest location from you.
+Prey - Lowest ί.
+Hunter. Retaliate."/>
   </card>
   <card id="a5bd2fc7-6f66-4192-b0d9-52bcbccaefd4" name="Altered Beast" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Beast Thralls"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Power."/>
-    <property name="Text" value="Revelation - If there are no Abomination enemies in play, Altered Beast gains surge. Otherwise, choose an Abomination enemy. Heal all damage from that enemy and attached Altered Beast to it.&#10;Forced - When you enter attached enemy's location (or vice-versa): Take 1 horror."/>
+    <property name="Text" value="Revelation - If there are no Abomination enemies in play, Altered Beast gains surge. Otherwise, choose an Abomination enemy. Heal all damage from that enemy and attached Altered Beast to it.
+Forced - When you enter attached enemy's location (or vice-versa): Take 1 horror."/>
   </card>
   <card id="4ae24039-09f8-40d4-bb5c-f0ed1ac302c0" name="O'Bannion's Thug" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -1364,7 +1457,8 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="0"/>
     <property name="Traits" value="Human. Criminal. Syndicate."/>
-    <property name="Text" value="Retaliate.&#10;Forced - After Mobster attacks you: Lose 1 resource."/>
+    <property name="Keywords" value="Retaliate."/>
+    <property name="Text" value="Forced - After Mobster attacks you: Lose 1 resource."/>
   </card>
   <card id="cc7e7896-37a6-471c-9c2c-86a21acce22b" name="Hunted Down" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -1385,14 +1479,16 @@
     <property name="Encounter Set" value="The Beyond"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Hex. Terror."/>
-    <property name="Text" value="Peril.&#10;Revelation - Choose one of the following cardtypes (asset, event, or skill). Each player must discard each card in his or her hand that is of the chosen cardtype. If this is not the first copy of Terror from Beyond drawn this phase, choose two cardtypes instead."/>
+    <property name="Keywords" value="Peril."/>
+    <property name="Text" value="Revelation - Choose one of the following cardtypes (asset, event, or skill). Each player must discard each card in his or her hand that is of the chosen cardtype. If this is not the first copy of Terror from Beyond drawn this phase, choose two cardtypes instead."/>
   </card>
   <card id="7613d6d2-e223-416d-a753-958c776fc6d7" name="Arcane Barrier" size="EncounterCard">
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Beyond"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Hex. Obstacle."/>
-    <property name="Text" value="Revelation - Attach to your location.&#10;As an additional cost to move into or out of attached location, test ά (4). If successful, discard Arcane Barrier. Otherwise, you must either cancel the effects of the move or discard the top 5 cards of your deck."/>
+    <property name="Text" value="Revelation - Attach to your location.
+As an additional cost to move into or out of attached location, test ά (4). If successful, discard Arcane Barrier. Otherwise, you must either cancel the effects of the move or discard the top 5 cards of your deck."/>
   </card>
   <card id="43a5ec05-0bd1-4f2c-b7e8-0fd93d372d8c" name="Conglomeration of Spheres" size="EncounterCard">
     <property name="Quantity" value="2"/>
@@ -1404,7 +1500,10 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Monster. Abomination."/>
-    <property name="Text" value="Prey - Lowest ά.&#10;Hunter.&#10;Forced - After you perform an attack against the Conglomeration of Spheres using a Melee card: Discard that card."/>
+    <property name="Keywords" value="Prey - Lowest ά.
+
+Hunter."/>
+    <property name="Text" value="Forced - After you perform an attack against the Conglomeration of Spheres using a Melee card: Discard that card."/>
   </card>
   <card id="f47b2774-3148-444b-94ea-5696db0c6342" name="Servant of the Lurker" size="EncounterCard">
     <property name="Quantity" value="1"/>
@@ -1417,13 +1516,16 @@
     <property name="Horror" value="2"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Monster. Abomination."/>
-    <property name="Text" value="Prey - Lowest ί.&#10;Hunter.&#10;Forced - When Servant of the Lurker attacks you: Discard the top 2 cards of your deck."/>
+    <property name="Keywords" value="Prey - Lowest ί.
+
+Hunter."/>
+    <property name="Text" value="Forced - When Servant of the Lurker attacks you: Discard the top 2 cards of your deck."/>
   </card>
   <card id="75445fe5-ac51-43f6-9aa3-e27df4bfbe56" name="Zoey Samaras" size="MiniCard">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Guardian"/>
-    <alternate name="Zoey Samaras" size="MiniCard" type="B">
+    <alternate name="Zoey Samaras" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
@@ -1431,7 +1533,7 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Seeker"/>
-    <alternate name="Rex Murphy" size="MiniCard" type="B">
+    <alternate name="Rex Murphy" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
@@ -1439,7 +1541,7 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Rogue"/>
-    <alternate name="Jenny Barnes" size="MiniCard" type="B">
+    <alternate name="Jenny Barnes" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
@@ -1447,7 +1549,7 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Mystic"/>
-    <alternate name="Jim Culver" size="MiniCard" type="B">
+    <alternate name="Jim Culver" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
   </card>
@@ -1455,9 +1557,597 @@
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Survivor"/>
-    <alternate name="&quot;Ashcan&quot; Pete" size="MiniCard" type="B">
+    <alternate name="&quot;Ashcan&quot; Pete" type="B">
       <property name="Type" value="Mini"/>
     </alternate>
+  </card>
+  <card id="65c580ff-a9fe-4acb-9a8d-8014c07c1900" name="Emergency Aid">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="έί"/>
+    <property name="Traits" value="Insight. Science."/>
+    <property name="Text" value="Choose an investigator at your location. Heal 2 damage from that investigator or from an Ally asset he or she controls."/>
+  </card>
+  <card id="3400caa4-911e-4420-bd0b-9a0076330a5d" name="Brother Xavier">
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Pure of Spirit"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="5"/>
+    <property name="Health" value="3"/>
+    <property name="Sanity" value="3"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally."/>
+    <property name="Text" value="You get +1 ά.
+Brother Xavier may be assigned damage and/or horror dealt to other investigators at your location.
+ι When Brother Xavier is defeated: Deal 2 damage to an enemy at your location."/>
+  </card>
+  <card id="ee9c65f2-b8bf-4d1d-80df-4dc26090e2b3" name="&quot;I've got a plan!&quot;">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="έή"/>
+    <property name="Traits" value="Insight. Tactic."/>
+    <property name="Text" value="Fight. This attack uses έ. You deal +1 damage for this attack for each clue that you have (max +3 damage)."/>
+  </card>
+  <card id="5044b73b-665e-4bb1-9a89-c40569981b3c" name="Pathfinder">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="θ During your turn, if you are not engaged with any enemies, exhaust Pathfinder: Move to a connecting location."/>
+  </card>
+  <card id="f3d83362-7e2c-48ab-acb3-eda05c71c135" name="Contraband">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="4"/>
+    <property name="Skill Icons" value="άέ"/>
+    <property name="Traits" value="Supply. Illicit."/>
+    <property name="Text" value="Choose an asset controlled by an investigator at your location. Double the number of ammo or supply token on that asset."/>
+  </card>
+  <card id="a2214a78-e602-4148-9200-885658ede674" name="Adaptable">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="1"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="In between each game of a campaign, you may swap up to two level 0 cards out of your deck for an equal number of level 0 cards. (You must still follow all deckbuilding rules for your investigator)."/>
+  </card>
+  <card id="af424c6b-5950-4b7a-b756-3865ff005bca" name="Delve Too Deep">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="In player order, each investigator draws 1 card from the top of the encounter deck. Then, add Delve Too Deep to the victory display."/>
+  </card>
+  <card id="91db65a8-c041-46d4-8494-567b2c7051af" name="Song of the Dead">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell. Song."/>
+    <property name="Keywords" value="Uses (5 charges)."/>
+    <property name="Text" value="η Spend 1 charge: Fight. This attack uses ά instead of ή. You get +1 ά for this attack. If a α symbol is revealed during this attack, this attack deals +2 damage."/>
+  </card>
+  <card id="b910e86e-07ce-48da-8a4f-95f36f10781e" name="Oops!">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ήή"/>
+    <property name="Traits" value="Fortune."/>
+    <property name="Keywords" value="Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you."/>
+    <property name="Text" value="Deal this attack's damage to a different enemy at your location."/>
+  </card>
+  <card id="6ca57c7b-bd25-4275-93b2-2b4bcca0f3ff" name="Fire Extinguisher">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tool. Melee."/>
+    <property name="Text" value="η: Fight. You get +1 ή for this attack.
+η Exile Fire Extinguisher: Evade. You get +3 ί for this test. If you are successful, evade each other enemy engaged with you, as well."/>
+  </card>
+  <card id="c53ba5be-1905-4ab2-a58e-44b9d2ace511" name="Flare">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Text" value="Either (choose one):
+• Fight. You get +3 ή and deal +2 damage for this attack. Exile Flare.
+• Search the top 9 cards of any investigator's deck for an Ally asset and put it into play under your control. Then, exile Flare. Shuffle the searched deck.
+"/>
+  </card>
+  <card id="818d70a1-1b8b-42eb-ab79-f0b2ee29a4d3" name="Smoking Pipe">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Item."/>
+    <property name="Keywords" value="Uses (3 supplies)."/>
+    <property name="Text" value="θ Spend 1 supply, exhaust Smoking Pipe, and take 1 damage: Heal 1 horror."/>
+  </card>
+  <card id="944163fc-e166-4af9-9c67-7c5d510523c9" name="Painkillers">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Item."/>
+    <property name="Keywords" value="Uses (3 supplies)."/>
+    <property name="Text" value="θ Spend 1 supply, exhaust Painkillers, and take 1 horror: Heal 1 damage."/>
+  </card>
+  <card id="3f7a9d76-3757-4e83-983d-44f80e4a23a5" name="The Miskatonic Museum">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="α: -1 (-3 instead if Hunting Horror is at your location.)
+β: -1. If you fail, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, if able.
+γ: -2. Return 1 of your clues to your current location.
+δ: -3. If you fail, discard an asset you control."/>
+    <alternate name="The Miskatonic Museum" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Text" value="α: -2 (-4 instead if Hunting Horror is at your location.)
+β: -3. If you fail, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, if able.
+γ: -4. If Hunting Horror is at your location, it immediately attacks you.
+δ: -5. If you fail, discard an asset you control."/>
+    </alternate>
+  </card>
+  <card id="ec78278d-396a-40da-adc7-6e2add983a35" name="Restricted Access" size="HorizCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <property name="Text" value="Forced - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached."/>
+    <alternate name="A Creature of the Void" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If Hunting Horror is in play, add 1 doom to it.
+If Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it in the Museum Halls, if able. Shuffle the encounter discard pile into the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="ff4a15bd-df78-4692-b888-993c82cfe0ad" name="Shadows Deepen" size="HorizCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Forced - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached."/>
+    <alternate name="Hunted Down" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If Hunting Horror is in play, add 1 doom to it.
+If Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it in the Museum Halls, if able. Shuffle the encounter discard pile into the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="4359ee53-ff68-4773-87a2-534199998d00" name="In Every Shadow" size="HorizCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Forced - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached."/>
+    <alternate name="Driven Out" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator who has not resigned is defeated and suffers 1 physical trauma."/>
+    </alternate>
+  </card>
+  <card id="1ede5301-8452-4bfe-b9c7-35f09d2b3158" name="Finding A Way Inside" size="HorizCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2"/>
+    <property name="Doom" value=""/>
+    <alternate name="Gaining Entrance" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Act"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If the investigators spent clues to advance:
+Choose an investigator to take control of the set-aside Adam Lynch asset. Reveal the Museum Halls. Advance to Act 2a - &quot;Night at the Museum.&quot;
+-------------------------------------------------------------------------------
+If the investigators successfully performed the η ability on the Museum Halls to advance:
+The door leading into the Museum Halls is broken. Reveal the Museum Halls. Advance to Act 2a - &quot;Breaking and Entering.&quot;"/>
+    </alternate>
+  </card>
+  <card id="7b6e4a02-e249-4ab1-82a7-442d315c92e3" name="Night at the Museum" size="HorizCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If an investigator enters the Exhibit Hall (Restricted Hall), advance."/>
+    <alternate name="The Curator's Fate" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Act"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Search the encounter deck, discard pile, the void, and all play areas for Hunting Horror, and place it in the Exhibit Hall (Restricted Hall), ready.
+Advance to Act 3a."/>
+    </alternate>
+  </card>
+  <card id="d606bf7f-9239-43f4-a056-968882e387b2" name="Breaking and Entering" size="HorizCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If an investigator enters the Exhibit Hall (Restricted Hall), advance."/>
+    <alternate name="The Guard's Fate" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Act"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Choose an investigator to take control of the set-aside Harold Walsted asset.
+Search the encounter deck, discard pile, the void, and all play areas for Hunting Horror, and place it in the Exhibit Hall (Restricted Hall), ready.
+Advance to Act 3a."/>
+    </alternate>
+  </card>
+  <card id="c2ff4e35-7cd4-47f4-b1b5-aee503b90ca1" name="Searching for the Tome" size="HorizCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If there are no clues remaining in the Exhibit Hall (Restricted Hall), advance."/>
+    <alternate name="The Necronomicon" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Act"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The investigators must decide (choose one):
+• &quot;It's too dangerous to keep around. We have to destroy it.&quot; (→R1)
+• &quot;It'S too valuable to destroy. We have to keep it safe.&quot; (→R2)"/>
+    </alternate>
+  </card>
+  <card id="b48a158f-cd48-401f-98fa-2712f97c273c" name="Museum Entrance" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Museum Entrance" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="Investigators at the Museum Entrance cannot gain resources.
+η Resign. &quot;Eh. How important can a book really be, anyway?&quot;"/>
+    </alternate>
+  </card>
+  <card id="395856a1-090b-4e8d-b633-d2c0e868c38e" name="Museum Halls" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <property name="Text" value="The entrance to the Museum Halls is locked. You cannot move into the Museum Halls.
+Museum Entrance gains: &quot;η: Test ή (5) to attempt to break down the door to the Museum. If you are successful, immediately advance to Act 1b.&quot;"/>
+    <alternate name="Museum Halls" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="Museum Halls is connected to each copy of Exhibit Hall.
+η Investigators in the Museum Halls spend 1π clues, as a group: Put the top card of the Exhibit deck into play, unrevealed."/>
+    </alternate>
+  </card>
+  <card id="0f7f0714-9a62-4465-93fc-0e0c0fe39bfb" name="Security Office" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Security Office" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="η η: Search the top 6 cards of your deck for a card and add it to your hand. Shuffle the rest back into your deck. (Limit once per turn.)"/>
+    </alternate>
+  </card>
+  <card id="5b0e436c-04fe-4900-92cd-f811f160dff6" name="Security Office" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Security Office" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="η η: Look at the revealed side of an Exhibit Hall in play, or the top card of the Exhibit deck. (Limit once per turn.)"/>
+    </alternate>
+  </card>
+  <card id="02154878-7d0d-4a93-92bd-4cd7ff29be12" name="Administration Office" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Administration Office" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="You cannot investigate Administration Office while you have 4 or fewer resources."/>
+    </alternate>
+  </card>
+  <card id="c57b105b-d58b-48d5-ad44-7eeb712a27f9" name="Administration Office" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Administration Office" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="You cannot investigate Administration Office while you have 4 or fewer cards in your hand."/>
+    </alternate>
+  </card>
+  <card id="e6c3672b-1b30-49e8-92c7-5a56db6884cf" name="Exhibit Hall" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Athabaskan Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you enter this location: Lose all of your remaining actions and immediately end your turn.
+While you are in this location, you get +2 ί."/>
+    </alternate>
+  </card>
+  <card id="6caccc54-85c4-4ee5-a0ea-6350b6319120" name="Exhibit Hall" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Medusa Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you fail a skill test while investigating this location: Discard an asset you control."/>
+    </alternate>
+  </card>
+  <card id="d40ea3b8-192e-4936-b052-a4302538e8ca" name="Exhibit Hall" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Nature Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you enter this location: Discard 2 cards from your hand at random."/>
+    </alternate>
+  </card>
+  <card id="b650987c-d729-40d8-b1c2-05b1f33b8771" name="Exhibit Hall" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Egyptian Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you fail a skill test while investigating this location: Lose 1 action."/>
+    </alternate>
+  </card>
+  <card id="ccdffbc9-95fd-4bb3-a8ca-1528107531be" name="Exhibit Hall" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Hall of the Dead"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you fail a skill test while investigating this location: Take 1 horror."/>
+    </alternate>
+  </card>
+  <card id="d792376b-5b9f-47b1-bdfd-bcfa2bc7ffb7" name="Exhibit Hall" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Restricted Hall"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="While Hunting Horror is at this location, this location cannot be investigated."/>
+    </alternate>
+  </card>
+  <card id="e42327e7-d2cf-46d5-93f6-580bffac20ae" name="Harold Walsted">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="Curator of the Museum"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Traits" value="Ally. Miskatonic."/>
+    <property name="Text" value="You get +2 έ while investigating Miskatonic locations.
+Forced - When Harold Walsted leaves play: Remove him from the game and add 1 γ token to the chaos bag for the remainder of the campaign."/>
+  </card>
+  <card id="a8732c51-11e7-4826-8c27-8689cf22b168" name="Adam Lynch">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="Museum Security"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Traits" value="Ally. Miskatonic."/>
+    <property name="Text" value="While you control Adam Lynch, treat the &quot;η η&quot; ability on the Security Office as if it were an &quot;η&quot; ability.
+Forced - When Adam Lynch leaves play: Remove him from the game and add 1 γ token to the chaos bag for the remainder of the campaign."/>
+  </card>
+  <card id="bb0b6b60-4835-4492-9022-d072b6b5f4b3" name="The Necronomicon">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="Olaus Wormius Translation"/>
+    <property name="Type" value="Asset"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tome."/>
+    <property name="Text" value="You get +1 έ.
+η: Gain 2 resources."/>
+  </card>
+  <card id="7ebf2f99-c114-4dcf-a144-269cf867c924" name="Hunting Horror" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Elite."/>
+    <property name="Keywords" value="Hunter. Retaliate."/>
+    <property name="Text" value="Forced - At the start of the enemy phase: Reveal a random token from the chaos bag. If the revealed token has a α, β, γ, δ, or ζ symbol, ready Hunting Horror.
+Forced - When Hunting Horror leaves play, place it in the void."/>
+  </card>
+  <card id="434413f3-4a60-41be-8ce0-2db67b7f21ae" name="Shadow-spawned" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Power."/>
+    <property name="Text" value="Shadow-spawned remains attached to Hunting Horror if it enters the void.
+Hunting Horror gets +1 fight, +1 health, and +1 evade for each resource on Shadow-spawned. If there are at least 3 resources on Shadow-spawned, Hunting Horror also gains Massive."/>
+  </card>
+  <card id="a0a18167-6cf4-45ac-96e0-70551f4cd299" name="Stalked in the Dark" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Text" value="Revelation - If Hunting Horror is in play, it readies, engages you, and attacks each investigator at your location. Otherwise, Stalked in the Dark gains surge."/>
+  </card>
+  <card id="6068dbe5-2bcd-4ccf-a725-c01987bb0048" name="Passage into the Veil" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Power."/>
+    <property name="Text" value="Revelation - Test ά (3). This test has +2 difficulty if Hunting Horror is at your location. If you fail you must either (choose one): discard the top 5 cards of your deck, or take 1 direct damage and deal 1 damage to each of your allies."/>
+  </card>
+  <card id="f0141885-09ed-468b-ad03-fb0b228c4a82" name="Ephemeral Exhibits" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Test έ (3). If you fail, lose 1 action for each point you failed by."/>
+  </card>
+  <card id="02edf300-7be2-4bac-9db1-3b585cc6a6ed" name="Slithering Behind You" size="EncounterCard">
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="Revelation - If Hunting Horror is in play, add 1 doom to it. If Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, engaged with you. Shuffle the encounter deck."/>
   </card>
  </cards>
 </set>
