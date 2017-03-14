@@ -1176,11 +1176,20 @@ def subToken(card, tokenType):
 
 def markerChanged(args):
     card = args.card
-    if card.Type == "Agenda" and args.marker == Doom[0] and getGlobalVariable("phase") == "Mythos" and card.properties[Doom[0]] != "":
+    
+    thisPhase = currentPhase()
+    
+    inMythosPhase = False
+    if getGlobalVariable("phase") == "Mythos" or thisPhase[1] == 1:
+        inMythosPhase = True
+    
+    if card.Type == "Agenda" and args.marker == Doom[0] and inMythosPhase == True and card.properties[Doom[0]] != "":
         if card.markers[Doom] >= int(card.properties[Doom[0]]):
             card.highlight = EliminatedColour
         else:
             card.highlight = None
+    else:
+        card.highlight = None
 
 def lockCard(card, x=0, y=0):
     mute()
