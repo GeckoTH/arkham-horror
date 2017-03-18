@@ -1726,6 +1726,7 @@ Brother Xavier may be assigned damage and/or horror dealt to other investigators
     </alternate>
   </card>
   <card id="ec78278d-396a-40da-adc7-6e2add983a35" name="Restricted Access" size="HorizCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Agenda"/>
     <property name="Level" value="1"/>
@@ -1736,6 +1737,7 @@ Brother Xavier may be assigned damage and/or horror dealt to other investigators
     <alternate name="A Creature of the Void" type="B">
       <property name="Encounter Set" value="The Miskatonic Museum"/>
       <property name="Type" value="Agenda"/>
+      <property name="Level" value="1"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
@@ -1744,6 +1746,7 @@ If Hunting Horror is not in play, search the encounter deck, discard pile, and t
     </alternate>
   </card>
   <card id="ff4a15bd-df78-4692-b888-993c82cfe0ad" name="Shadows Deepen" size="HorizCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Agenda"/>
     <property name="Level" value="2"/>
@@ -1754,6 +1757,7 @@ If Hunting Horror is not in play, search the encounter deck, discard pile, and t
     <alternate name="Hunted Down" type="B">
       <property name="Encounter Set" value="The Miskatonic Museum"/>
       <property name="Type" value="Agenda"/>
+      <property name="Level" value="2"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
@@ -1762,6 +1766,7 @@ If Hunting Horror is not in play, search the encounter deck, discard pile, and t
     </alternate>
   </card>
   <card id="4359ee53-ff68-4773-87a2-534199998d00" name="In Every Shadow" size="HorizCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Agenda"/>
     <property name="Level" value="3"/>
@@ -1772,6 +1777,7 @@ If Hunting Horror is not in play, search the encounter deck, discard pile, and t
     <alternate name="Driven Out" type="B">
       <property name="Encounter Set" value="The Miskatonic Museum"/>
       <property name="Type" value="Agenda"/>
+      <property name="Level" value="3"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
@@ -1779,6 +1785,7 @@ If Hunting Horror is not in play, search the encounter deck, discard pile, and t
     </alternate>
   </card>
   <card id="1ede5301-8452-4bfe-b9c7-35f09d2b3158" name="Finding A Way Inside" size="HorizCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Act"/>
     <property name="Level" value="1"/>
@@ -1788,6 +1795,7 @@ If Hunting Horror is not in play, search the encounter deck, discard pile, and t
     <alternate name="Gaining Entrance" type="B">
       <property name="Encounter Set" value="The Miskatonic Museum"/>
       <property name="Type" value="Act"/>
+      <property name="Level" value="1"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
@@ -1799,6 +1807,7 @@ The door leading into the Museum Halls is broken. Reveal the Museum Halls. Advan
     </alternate>
   </card>
   <card id="7b6e4a02-e249-4ab1-82a7-442d315c92e3" name="Night at the Museum" size="HorizCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Act"/>
     <property name="Level" value="2"/>
@@ -1809,6 +1818,7 @@ The door leading into the Museum Halls is broken. Reveal the Museum Halls. Advan
     <alternate name="The Curator's Fate" type="B">
       <property name="Encounter Set" value="The Miskatonic Museum"/>
       <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
@@ -1817,6 +1827,7 @@ Advance to Act 3a."/>
     </alternate>
   </card>
   <card id="d606bf7f-9239-43f4-a056-968882e387b2" name="Breaking and Entering" size="HorizCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Act"/>
     <property name="Level" value="2"/>
@@ -1827,6 +1838,7 @@ Advance to Act 3a."/>
     <alternate name="The Guard's Fate" type="B">
       <property name="Encounter Set" value="The Miskatonic Museum"/>
       <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
@@ -1836,6 +1848,7 @@ Advance to Act 3a."/>
     </alternate>
   </card>
   <card id="c2ff4e35-7cd4-47f4-b1b5-aee503b90ca1" name="Searching for the Tome" size="HorizCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Act"/>
     <property name="Level" value="3"/>
@@ -1846,6 +1859,7 @@ Advance to Act 3a."/>
     <alternate name="The Necronomicon" type="B">
       <property name="Encounter Set" value="The Miskatonic Museum"/>
       <property name="Type" value="Act"/>
+      <property name="Level" value="3"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
@@ -1855,6 +1869,7 @@ Advance to Act 3a."/>
     </alternate>
   </card>
   <card id="b48a158f-cd48-401f-98fa-2712f97c273c" name="Museum Entrance" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -1873,6 +1888,7 @@ Advance to Act 3a."/>
     </alternate>
   </card>
   <card id="395856a1-090b-4e8d-b633-d2c0e868c38e" name="Museum Halls" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -1893,6 +1909,7 @@ Museum Entrance gains: &quot;η: Test ή (5) to attempt to break down the door t
     </alternate>
   </card>
   <card id="0f7f0714-9a62-4465-93fc-0e0c0fe39bfb" name="Security Office" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -1910,6 +1927,7 @@ Museum Entrance gains: &quot;η: Test ή (5) to attempt to break down the door t
     </alternate>
   </card>
   <card id="5b0e436c-04fe-4900-92cd-f811f160dff6" name="Security Office" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -1927,6 +1945,7 @@ Museum Entrance gains: &quot;η: Test ή (5) to attempt to break down the door t
     </alternate>
   </card>
   <card id="02154878-7d0d-4a93-92bd-4cd7ff29be12" name="Administration Office" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -1944,6 +1963,7 @@ Museum Entrance gains: &quot;η: Test ή (5) to attempt to break down the door t
     </alternate>
   </card>
   <card id="c57b105b-d58b-48d5-ad44-7eeb712a27f9" name="Administration Office" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -1961,6 +1981,7 @@ Museum Entrance gains: &quot;η: Test ή (5) to attempt to break down the door t
     </alternate>
   </card>
   <card id="e6c3672b-1b30-49e8-92c7-5a56db6884cf" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -1980,6 +2001,7 @@ While you are in this location, you get +2 ί."/>
     </alternate>
   </card>
   <card id="6caccc54-85c4-4ee5-a0ea-6350b6319120" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -1999,6 +2021,7 @@ While you are in this location, you get +2 ί."/>
     </alternate>
   </card>
   <card id="d40ea3b8-192e-4936-b052-a4302538e8ca" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -2018,6 +2041,7 @@ While you are in this location, you get +2 ί."/>
     </alternate>
   </card>
   <card id="b650987c-d729-40d8-b1c2-05b1f33b8771" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -2037,6 +2061,7 @@ While you are in this location, you get +2 ί."/>
     </alternate>
   </card>
   <card id="ccdffbc9-95fd-4bb3-a8ca-1528107531be" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -2056,6 +2081,7 @@ While you are in this location, you get +2 ί."/>
     </alternate>
   </card>
   <card id="d792376b-5b9f-47b1-bdfd-bcfa2bc7ffb7" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
@@ -2075,6 +2101,7 @@ While you are in this location, you get +2 ί."/>
     </alternate>
   </card>
   <card id="e42327e7-d2cf-46d5-93f6-580bffac20ae" name="Harold Walsted">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Subtitle" value="Curator of the Museum"/>
     <property name="Unique" value="ο"/>
@@ -2086,6 +2113,7 @@ While you are in this location, you get +2 ί."/>
 Forced - When Harold Walsted leaves play: Remove him from the game and add 1 γ token to the chaos bag for the remainder of the campaign."/>
   </card>
   <card id="a8732c51-11e7-4826-8c27-8689cf22b168" name="Adam Lynch">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Subtitle" value="Museum Security"/>
     <property name="Unique" value="ο"/>
@@ -2097,6 +2125,7 @@ Forced - When Harold Walsted leaves play: Remove him from the game and add 1 γ 
 Forced - When Adam Lynch leaves play: Remove him from the game and add 1 γ token to the chaos bag for the remainder of the campaign."/>
   </card>
   <card id="bb0b6b60-4835-4492-9022-d072b6b5f4b3" name="The Necronomicon">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Subtitle" value="Olaus Wormius Translation"/>
     <property name="Type" value="Asset"/>
@@ -2107,6 +2136,7 @@ Forced - When Adam Lynch leaves play: Remove him from the game and add 1 γ toke
 η: Gain 2 resources."/>
   </card>
   <card id="7ebf2f99-c114-4dcf-a144-269cf867c924" name="Hunting Horror" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="2"/>
@@ -2120,6 +2150,7 @@ Forced - When Adam Lynch leaves play: Remove him from the game and add 1 γ toke
 Forced - When Hunting Horror leaves play, place it in the void."/>
   </card>
   <card id="434413f3-4a60-41be-8ce0-2db67b7f21ae" name="Shadow-spawned" size="EncounterCard">
+    <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Power."/>
@@ -2127,27 +2158,612 @@ Forced - When Hunting Horror leaves play, place it in the void."/>
 Hunting Horror gets +1 fight, +1 health, and +1 evade for each resource on Shadow-spawned. If there are at least 3 resources on Shadow-spawned, Hunting Horror also gains Massive."/>
   </card>
   <card id="a0a18167-6cf4-45ac-96e0-70551f4cd299" name="Stalked in the Dark" size="EncounterCard">
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Tactic."/>
     <property name="Text" value="Revelation - If Hunting Horror is in play, it readies, engages you, and attacks each investigator at your location. Otherwise, Stalked in the Dark gains surge."/>
   </card>
   <card id="6068dbe5-2bcd-4ccf-a725-c01987bb0048" name="Passage into the Veil" size="EncounterCard">
+    <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Power."/>
     <property name="Text" value="Revelation - Test ά (3). This test has +2 difficulty if Hunting Horror is at your location. If you fail you must either (choose one): discard the top 5 cards of your deck, or take 1 direct damage and deal 1 damage to each of your allies."/>
   </card>
   <card id="f0141885-09ed-468b-ad03-fb0b228c4a82" name="Ephemeral Exhibits" size="EncounterCard">
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Terror."/>
     <property name="Text" value="Revelation - Test έ (3). If you fail, lose 1 action for each point you failed by."/>
   </card>
   <card id="02edf300-7be2-4bac-9db1-3b585cc6a6ed" name="Slithering Behind You" size="EncounterCard">
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Revelation - If Hunting Horror is in play, add 1 doom to it. If Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, engaged with you. Shuffle the encounter deck."/>
+  </card>
+  <card id="81a8fbd4-d909-4f56-a977-c7550199ca35" name="Bandolier">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="-"/>
+    <property name="Skill Icons" value="ή"/>
+    <property name="Slot" value="Body"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="You have 1 additional hand slot, which can only be used to hold a Weapon asset."/>
+  </card>
+  <card id="92e8fc82-b29c-4354-9870-c01c78e4d6dc" name="Stand Together">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="0"/>
+    <property name="Skill Icons" value="άά"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Choose another investigator at your location. Both you and that investigator draw 2 cards and gain 2 resources."/>
+  </card>
+  <card id="fe1f5f28-d17d-4142-96bb-50cc2e503a03" name="Art Student">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="2"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Miskatonic."/>
+    <property name="Text" value="ι After Art Student enters play: Discover 1 clue at your location."/>
+  </card>
+  <card id="14d123b4-7e84-4f2c-b66c-cdbeeaa63e73" name="Deduction">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Traits" value="Practiced. Expert."/>
+    <property name="Text" value="If this skill test is successful while investigating a location, discover 1 additional clue at that location (2 additional clues instead if it succeeds by 2 or more)."/>
+  </card>
+  <card id="ccc93300-6460-4dec-b643-04f5dbe04d95" name="&quot;I'm outta here!&quot;">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Skill Icons" value="ίί"/>
+    <property name="Traits" value="Trick. Spirit."/>
+    <property name="Keywords" value="Play only if there is a scenario card with a 'resign' ability in play."/>
+    <property name="Text" value="Resign. You get the hell out of here."/>
+  </card>
+  <card id="d0a0e6f1-3447-415e-b172-6ac4164583f0" name="Switchblade">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ήί"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Melee. Illicit."/>
+    <property name="Keywords" value="Fast."/>
+    <property name="Text" value="η: Fight. You get +2 ή for this attack. If you succeed by 2 or more, this attack deals +1 damage."/>
+  </card>
+  <card id="b0a5221a-a8ac-4e95-aa69-f4d14db6ea35" name="Hypnotic Gaze">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="ήί"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Keywords" value="Fast. Play only when an enemy attacks an investigator at your location."/>
+    <property name="Text" value="Cancel the attack. Then, reveal a random token from the chaos bag. If it has a α, β, γ, δ, or ζ symbol, deal the attacking enemy's damage to itself."/>
+  </card>
+  <card id="d5d914a1-c0b3-47f6-a0dd-084e32f82793" name="Shrivelling">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="άή"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Keywords" value="Uses (4 charges)."/>
+    <property name="Text" value="η Spend 1 charge: Fight. This attack uses ά instead of ή. You get +2 ά and deal +1 damage for this attack. If a α, β, γ, δ, or ζ symbol is revealed during this attack, take 1 horror."/>
+  </card>
+  <card id="b576d173-80c4-47bc-8180-029e2d62d798" name="Newspaper">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="You get +2 έ while investigating if you have no clues."/>
+  </card>
+  <card id="9f336609-2efe-4057-b813-9971fc3a8ab1" name="Lure">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ίί"/>
+    <property name="Traits" value="Trick."/>
+    <property name="Keywords" value="Attach to your location."/>
+    <property name="Text" value="During the enemy phase, each enemy that moves does so along the shortest path toward the attached location, instead of to where it would normally move.
+Forced - While attached, at the end of the round: Discard Lure."/>
+  </card>
+  <card id="a569b6cb-3c6a-4a0d-9132-5e3733999c68" name="Relic Hunter">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="3"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="You have 1 additional ally slot."/>
+  </card>
+  <card id="0614f9c4-439c-468c-9032-26894de0a91a" name="Charisma">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="3"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="You have 1 additional accessory slot."/>
+  </card>
+  <card id="3dd5149a-5fb2-4ef2-b4bd-d6d201e5b37a" name="The Essex County Express">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="α -X. X is the current Agenda #.
+β -1. If you fail and it is your turn, lose all remaining actions and end your turn immediately.
+γ -2. Add 1 doom token to the nearest Cultist enemy.
+δ -3. If you fail, choose and discard an asset you control."/>
+    <alternate name="The Essex County Express" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Text" value="α -X. X is 1 more than the current Agenda #.
+β Reveal another token. If you fail and it is your turn, lose all remaining actions and end your turn immediately.
+γ -4. Add 1 doom token to each Cultist enemy in play.
+δ -3. If you fail, choose and discard a card from your hand for each point you failed by."/>
+    </alternate>
+  </card>
+  <card id="223f6b9a-eb80-4395-81f8-148e43f6fa02" name="A Tear in Reality" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="4"/>
+    <alternate name="Keep Moving!" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remove the leftmost location from the game (or place it in the victory display if it has Victory X and no clues on it). Each investigator at that location is defeated. Each enemy and asset at that location is discarded.
+Discard all clues controlled by the investigators."/>
+    </alternate>
+  </card>
+  <card id="9cd4ef2c-e5e4-4a92-8c83-2e716991102b" name="The Maw Widens" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="3"/>
+    <alternate name="Don't Stop!" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remove the leftmost location from the game (or place it in the victory display if it has Victory X and no clues on it). Each investigator at that location is defeated. Each enemy and asset at that location is discarded.
+Discard all clues controlled by the investigators."/>
+    </alternate>
+  </card>
+  <card id="d357a02b-cae2-40bd-ba1b-ff4b9a91ab7e" name="Rolling Backwards" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="4"/>
+    <alternate name="It's Getting Faster!" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remove each of the two leftmost locations from the game (or place it in the victory display if either one has Victory X and no clues on it). Each investigator at those locations is defeated. Each enemy and asset at those locations is discarded.
+Discard all clues controlled by the investigators."/>
+    </alternate>
+  </card>
+  <card id="8f6d1951-8081-4cb5-9c41-1b82fca82e8c" name="Drawn In" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="4"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="3"/>
+    <alternate name="Nowhere is Safe" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="4"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remove each of the two leftmost locations from the game (or place it in the victory display if either one has Victory X and no clues on it). Each investigator at those locations is defeated. Each enemy and asset at those locations is discarded.
+Discard all clues controlled by the investigators."/>
+    </alternate>
+  </card>
+  <card id="5c88c654-3334-443c-9b86-6ea4ae297143" name="Out of Time" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="5"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="3"/>
+    <alternate name="Sucked In" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="5"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each surviving investigator is immediately defeated and takes 1 mental trauma. (→R2)"/>
+    </alternate>
+  </card>
+  <card id="5cc31076-51a4-4abb-b6f4-00d215026e1a" name="Run!" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <alternate name="Wings of Steam" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The investigator entering the Engine Car reads the following (out loud):
+You must decide (choose one):
+• Test ί (3) to attempt to dodge the creature. If you fail, you leap too far and barely grip the side of the train, hanging on for dear life. Although you manage to pull yourself up, the experience is terrifying. You suffer 1 mental trauma.
+• Test ή (3) to attempt to endure the creature's extreme heat. If you fail, the creature flies through you and the heat burns you. You suffer 1 physical trauma."/>
+    </alternate>
+  </card>
+  <card id="724e6097-f2dd-435f-80ff-a2cc9a47fc35" name="Get the Engine Running!" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <alternate name="Forward Motion" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R1)"/>
+    </alternate>
+  </card>
+  <card id="bc841aea-f1a4-44c6-a288-2686d434a8d9" name="Train Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.
+You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Passenger Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Passenger Car is connected to the locations to the left and right of it.
+Forced - After you enter Passenger Car: You must either discard cards from your hand with at least 2 total ή icons or take 2 damage."/>
+    </alternate>
+  </card>
+  <card id="5825b4b2-c721-4e48-837d-c64ce4155098" name="Train Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.
+You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Passenger Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Passenger Car is connected to the locations to the left and right of it.
+Forced - After you enter Passenger Car: You must either discard cards from your hand with at least 2 total ί icons or take 2 damage."/>
+    </alternate>
+  </card>
+  <card id="c992c2e2-052b-404e-a2a6-2f75e584aca1" name="Train Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.
+You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Passenger Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Passenger Car is connected to the locations to the left and right of it.
+Forced - After you enter Passenger Car: You must either discard cards from your hand with at least 2 total ά icons or take 2 horror."/>
+    </alternate>
+  </card>
+  <card id="ad694ea2-00b0-46d9-ac0d-beda8355ff74" name="Train Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.
+You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Passenger Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Passenger Car is connected to the locations to the left and right of it.
+Forced - After you enter Passenger Car: You must either discard cards from your hand with at least 2 total έ icons or take 2 horror."/>
+    </alternate>
+  </card>
+  <card id="25e5f2d8-7ee0-46af-b185-8687583a808c" name="Train Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.
+You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Passenger Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Passenger Car is connected to the locations to the left and right of it.
+Forced - After you enter Passenger Car: You must either discard cards from your hand with at least 1 ΰ icon or take 1 damage and 1 horror."/>
+    </alternate>
+  </card>
+  <card id="9a87cf92-4f6e-4ee2-aeb4-abc1035f2f37" name="Train Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.
+You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Sleeping Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Sleeping Car is connected to the locations to the left and right of it.
+η: Gain 3 resources. Remember that you have &quot;stolen a passenger's luggage.&quot; (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="c8936821-851e-42c9-8af4-08a7bd8f0157" name="Train Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.
+You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Dining Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Dining Car is connected to the locations to the left and right of it.
+Forced - After you reveal Dining Car: Search the encounter deck and discard pile for a Grappling Horror and draw it."/>
+    </alternate>
+  </card>
+  <card id="3baccecb-4651-41c4-a2ce-a611e7b3f262" name="Train Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.
+You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Parlor Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Parlor Car is connected to the locations to the left and right of it.
+Parlor Car cannot be investigated.
+η Spend 3 resources: Discover 1 clue in the Parlor Car."/>
+    </alternate>
+  </card>
+  <card id="6cffd5bd-f73c-4e30-8b31-e1c01e3ab6f8" name="Engine Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Engine Car is connected to the locations to the left and right of it.
+You cannot enter Engine Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Engine Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Engine Car is connected to the locations to the left and right of it."/>
+    </alternate>
+  </card>
+  <card id="019701ac-88b3-4acd-8419-69427c47d9cf" name="Engine Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Engine Car is connected to the locations to the left and right of it.
+You cannot enter Engine Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Engine Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Engine Car is connected to the locations to the left and right of it.
+Forced - After you reveal Engine Car: Draw the top 3 cards of the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="1baf22a2-9f73-42d1-961a-fd0b45bf73b6" name="Engine Car" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <property name="Text" value="Engine Car is connected to the locations to the left and right of it.
+You cannot enter Engine Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Engine Car" type="B">
+      <property name="Encounter Set" value="The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Engine Car is connected to the locations to the left and right of it.
+Forced - After you reveal Engine Car: Search the encounter deck and discard pile for a Grappling Horror and draw it. Shuffle the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="3eb85e27-97fa-4ce5-8620-fe8e4b5ffa6f" name="Across Space and Time">
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Madness."/>
+    <property name="Text" value="Revelation - Discard the top 3 cards of your deck."/>
+  </card>
+  <card id="783e0827-167f-49bd-889b-bcad916a1c22" name="Helpless Passenger">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Asset"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Traits" value="Ally. Bystander."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Revelation - Put Helpless Passenger into play at the location to your left (or at your location if you cannot).
+η Parley. Take control of Helpless Passenger.
+Forced - If Helpless Passenger leaves play, each investigator takes 1 horror."/>
+  </card>
+  <card id="239bb58e-2de9-4a26-ab50-232930c9fe36" name="Claws of Steam" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Power."/>
+    <property name="Text" value="Revelation - Test ά (3). If you fail, take 1 damage and you cannot move from this location this round. Damage from this effect must be assigned to your assets first, if able."/>
+  </card>
+  <card id="192aab66-ab48-42d2-92cf-f4924d0368dd" name="Broken Rails" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Each investigator at your location loses 1 action. Each investigator at your location with 4 or more damage must also discard an asset he or she controls."/>
+  </card>
+  <card id="ee79ca4a-3390-4fba-87c0-f5892c8bedf2" name="Grappling Horror" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Keywords" value="Hunter."/>
+    <property name="Text" value="While your are engaged with Grappling Horror, you cannot move."/>
+  </card>
+  <card id="0b43b040-1467-4742-9231-2000d50c9ab9" name="Emergent Monstrosity" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Essex County Express"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Keywords" value="Spawn - The location to your right (or your location if there is no location to your right)."/>
+    <property name="Text" value="Emergent Monstrosity enters play exhausted."/>
   </card>
  </cards>
 </set>
