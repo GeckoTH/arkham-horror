@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="ec78278d-396a-40da-adc7-6e2add983a35">Restricted Access</card>
+    <card qty="1" id="ff4a15bd-df78-4692-b888-993c82cfe0ad">Shadows Deepen</card>
+    <card qty="1" id="4359ee53-ff68-4773-87a2-534199998d00">In Every Shadow</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="1ede5301-8452-4bfe-b9c7-35f09d2b3158">Finding A Way Inside</card>
+    <card qty="1" id="7b6e4a02-e249-4ab1-82a7-442d315c92e3">Night at the Museum</card>
+    <card qty="1" id="d606bf7f-9239-43f4-a056-968882e387b2">Breaking and Entering</card>
+    <card qty="1" id="c2ff4e35-7cd4-47f4-b1b5-aee503b90ca1">Searching for the Tome</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="7ebf2f99-c114-4dcf-a144-269cf867c924">Hunting Horror</card>
+    <card qty="2" id="a0a18167-6cf4-45ac-96e0-70551f4cd299">Stalked in the Dark</card>
+    <card qty="3" id="6068dbe5-2bcd-4ccf-a725-c01987bb0048">Passage into the Veil</card>
+    <card qty="2" id="f0141885-09ed-468b-ad03-fb0b228c4a82">Ephemeral Exhibits</card>
+    <card qty="2" id="02edf300-7be2-4bac-9db1-3b585cc6a6ed">Slithering Behind You</card>
+    <card qty="3" id="ada6d61b-5f6f-4c36-ad24-d454e835bbf4">Cursed Luck</card>
+    <card qty="3" id="fafc853e-e498-4829-bb4f-6d5622b9f6bf">Twist of Fate</card>
+    <card qty="2" id="8955b254-0c41-4df9-a761-ff9c2d3b7fb0">Pushed into the Beyond</card>
+    <card qty="2" id="e891952e-a2c6-4250-aa05-2a93c8d06316">Terror from Beyond</card>
+    <card qty="2" id="7613d6d2-e223-416d-a753-958c776fc6d7">Arcane Barrier</card>
+    <card qty="3" id="b4d33590-94ad-4092-80d8-460c4fcbb54a">Visions of Futures Past</card>
+    <card qty="3" id="0d20810c-b434-45c9-8258-cb9652017a12">Beyond the Veil</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="e6c3672b-1b30-49e8-92c7-5a56db6884cf">Exhibit Hall</card>
+    <card qty="1" id="6caccc54-85c4-4ee5-a0ea-6350b6319120">Exhibit Hall</card>
+    <card qty="1" id="d40ea3b8-192e-4936-b052-a4302538e8ca">Exhibit Hall</card>
+    <card qty="1" id="b650987c-d729-40d8-b1c2-05b1f33b8771">Exhibit Hall</card>
+    <card qty="1" id="ccdffbc9-95fd-4bb3-a8ca-1528107531be">Exhibit Hall</card>
+    <card qty="1" id="d792376b-5b9f-47b1-bdfd-bcfa2bc7ffb7">Exhibit Hall</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="3f7a9d76-3757-4e83-983d-44f80e4a23a5">The Miskatonic Museum</card>
+    <card qty="1" id="b48a158f-cd48-401f-98fa-2712f97c273c">Museum Entrance</card>
+    <card qty="1" id="395856a1-090b-4e8d-b633-d2c0e868c38e">Museum Halls</card>
+    <card qty="1" id="0f7f0714-9a62-4465-93fc-0e0c0fe39bfb">Security Office</card>
+    <card qty="1" id="5b0e436c-04fe-4900-92cd-f811f160dff6">Security Office</card>
+    <card qty="1" id="02154878-7d0d-4a93-92bd-4cd7ff29be12">Administration Office</card>
+    <card qty="1" id="c57b105b-d58b-48d5-ad44-7eeb712a27f9">Administration Office</card>
+    <card qty="1" id="e42327e7-d2cf-46d5-93f6-580bffac20ae">Harold Walsted</card>
+    <card qty="1" id="a8732c51-11e7-4826-8c27-8689cf22b168">Adam Lynch</card>
+    <card qty="1" id="bb0b6b60-4835-4492-9022-d072b6b5f4b3">The Necronomicon</card>
+    <card qty="1" id="434413f3-4a60-41be-8ce0-2db67b7f21ae">Shadow-spawned</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
