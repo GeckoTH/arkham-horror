@@ -48,7 +48,8 @@ Deckbuilding requirements (do not count toward deck size): Roland's .38 Special,
       <property name="Class" value="Seeker"/>
       <property name="Text" value="Deck size: 30.
 Deckbuilding options: Seeker cards (λ) level 0-5, Mystic cards (μ) level 0-2, Neutral cards level 0-5.
-Deckbuilding requirements (do not count toward deck size): Daisy's Tote Bag, The Necronomicon (John Dee Translation), 1 random basic weakness."/>
+Deckbuilding requirements (do not count toward deck size): Daisy's Tote Bag, The Necronomicon (John Dee Translation), 1 random basic weakness.
+"/>
     </alternate>
   </card>
   <card id="4074eb1e-2341-4ff8-be20-d220621fa3c4" name="&quot;Skids&quot; O'Toole" size="InvestigatorCard">
@@ -1184,7 +1185,8 @@ Hunter."/>
       <property name="Type" value="Scenario"/>
       <property name="Text" value="α -2. If you fail, after this skill test, search the encounter deck and discard pile for a Ghoul enemy, and draw it. Shuffle the encounter deck.
 β Reveal another token. If you fail, take 2 horror.
-γ -4. If there is a Ghoul enemy at your location, take 1 damage and 1 horror."/>
+γ -4. If there is a Ghoul enemy at your location, take 1 damage and 1 horror.
+"/>
     </alternate>
   </card>
   <card id="28a33b22-2f33-437c-8ca4-3c12e3d86fb2" name="What's Going On?!" size="HorizCard">
@@ -1489,6 +1491,21 @@ Hunter."/>
 While you are engaged with The Masked Hunter, you cannot discover or spend clues."/>
     </alternate>
   </card>
+  <card id="947bb975-8eb2-45a7-bc68-ea58a50190da" name="The Masked Hunter" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Midnight Masks"/>
+    <property name="Subtitle" value="Silently Stalking"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Keywords" value="Spawn - Engaged with prey.Prey - Most Clues.Hunter."/>
+    <property name="Text" value="The Masked Hunter gets +2 health per investigator.While you are engaged with The Masked Hunter, you cannot discover or spend clues."/>
+</card>
   <card id="193ea5c4-b871-4b10-9672-dde886264264" name="Time is Running Short" size="HorizCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Midnight Masks"/>
