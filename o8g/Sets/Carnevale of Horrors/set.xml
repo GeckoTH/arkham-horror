@@ -49,6 +49,22 @@ Hunter. Retaliate.
       <property name="Text" value="Forced - After Baleful Reveler moves from the hunter keyword, reveal a random token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, resolve its hunter keyword again. (Limit once per round.)"/>
     </alternate>
   </card>
+  <card id="0bcfe5c2-2bfe-4d94-89bb-e57e45c06a1d" name="Baleful Reveler" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Carnevale of Horrors"/>
+    <property name="Subtitle" value="Spreading Chaos"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Humanoid. Cultist. Elite."/>
+    <property name="Keywords" value="Spawn - The nearest location with no investigators counter-clockwise from the lead investigator.Hunter. Retaliate."/>
+    <property name="Text" value="Forced - After Baleful Reveler moves from the hunter keyword, reveal a random token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, resolve its hunter keyword again. (Limit once per round.)"/>
+</card>
   <card id="5fb3f545-1b74-4cca-82bf-70044c777233" name="The Shadow of the Eclipse" size="HorizCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
@@ -130,6 +146,16 @@ Objective - If each undefeated investigator is at Canal-side, advance."/>
 η: Test ή or ί (2) to row as hard as you can. If you succeed, place 1 resource from the token bank on this location."/>
     </alternate>
   </card>
+  <card id="f5a94be0-46b8-4421-ae5d-e78f69f5e752" name="Gondola" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Carnevale of Horrors"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value="5"/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Venice. Boat."/>
+    <property name="Text" value="Revelation - Put Gondola into play and move each investigator to it. Then, remove all other locations from the game. Remove from the game each enemy and asset at those locations, as well.&#10;η: Test ή or ί (2) to row as hard as you can. If you succeed, place 1 resource from the token bank on this location."/>
+</card>
   <card id="251a1d13-d6df-44d8-b7f9-1e9530cd9aa0" name="Row!" size="HorizCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
