@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="d97c861c-cf73-4216-a25c-aed9871b8a11">Restricted Access</card>
+    <card qty="1" id="d2998489-7f61-431d-a496-aca85c5b0272">Shadows Deepen</card>
+    <card qty="1" id="3d6e7bed-e0a7-4d4e-a8f1-8ccade82bffb">In Every Shadow</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="967d5b98-0e79-440f-9ffc-c7edcdc079b9">Finding A Way Inside</card>
+    <card qty="1" id="2d8665ba-ab50-4e26-860e-aeb4a7ba1ef1">Night at the Museum</card>
+    <card qty="1" id="b5e878d4-edc3-47dc-a65c-77d0ac8c1dd4">Breaking and Entering</card>
+    <card qty="1" id="1ab1b4d8-6c6c-49ea-9093-c5dde721de89">Searching for the Tome</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="751ceb35-57cd-4eb0-beab-3d90a6948efc">Hunting Horror</card>
+    <card qty="2" id="dd18d214-c981-4e7f-b6ed-30ccca95fd6f">Stalked in the Dark</card>
+    <card qty="3" id="1600d23b-c00b-4b0c-a7ec-cbfdbfc0c83e">Passage into the Veil</card>
+    <card qty="2" id="75d86a92-0193-442e-a544-b7ae2f8e3f1d">Ephemeral Exhibits</card>
+    <card qty="2" id="7da3ef2e-e30f-47c7-9ebb-2a4739460fb9">Slithering Behind You</card>
+    <card qty="3" id="ada6d61b-5f6f-4c36-ad24-d454e835bbf4">Cursed Luck</card>
+    <card qty="3" id="fafc853e-e498-4829-bb4f-6d5622b9f6bf">Twist of Fate</card>
+    <card qty="3" id="b4d33590-94ad-4092-80d8-460c4fcbb54a">Visions of Futures Past</card>
+    <card qty="3" id="0d20810c-b434-45c9-8258-cb9652017a12">Beyond the Veil</card>
+    <card qty="2" id="8955b254-0c41-4df9-a761-ff9c2d3b7fb0">Pushed into the Beyond</card>
+    <card qty="2" id="e891952e-a2c6-4250-aa05-2a93c8d06316">Terror from Beyond</card>
+    <card qty="2" id="7613d6d2-e223-416d-a753-958c776fc6d7">Arcane Barrier</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="362657d7-627c-46c2-91b4-59298a0c0683">Exhibit Hall</card>
+    <card qty="1" id="0732ea89-f2f4-4fd6-8f85-a87f1858a38c">Exhibit Hall</card>
+    <card qty="1" id="a2350979-4f5d-48a0-8056-9066aa360da3">Exhibit Hall</card>
+    <card qty="1" id="1fee9788-f264-4754-82ce-8e324cc6e7d7">Exhibit Hall</card>
+    <card qty="1" id="a37f907d-30f4-405b-aaab-47e4786c9c71">Exhibit Hall</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="f35868ff-263e-4a06-91d4-49fb17e22700">The Miskatonic Museum</card>
+    <card qty="1" id="1558f7ef-ed17-4c45-90dd-9ca90e428a18">Security Office</card>
+    <card qty="1" id="4940ec52-e8c5-4d39-9ef4-e1705843a082">Security Office</card>
+    <card qty="1" id="75af5ab5-15c4-419d-98c8-47186cf79fa4">Administration Office</card>
+    <card qty="1" id="bb44f38a-06a8-4889-8be6-0511504199b5">Administration Office</card>
+    <card qty="1" id="981665c5-0f78-4ec8-a2d8-c7aff2b851e5">Museum Entrance</card>
+    <card qty="1" id="83cfb038-c6fe-463a-b547-bc75006b5a7b">Museum Halls</card>
+    <card qty="1" id="a37f907d-30f4-405b-aaab-47e4786c9c71">Exhibit Hall</card>
+    <card qty="1" id="b1578939-c66b-4850-84bb-8963d4284733">Harold Walsted</card>
+    <card qty="1" id="dfac9498-213f-4892-be8e-06db8ae2fece">Adam Lynch</card>
+    <card qty="1" id="41493043-5631-48cc-a05e-7967745b87d0">The Necronomicon</card>
+    <card qty="1" id="a8443a99-7961-45c2-8aa1-b4514cbfda3e">Shadow-spawned</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

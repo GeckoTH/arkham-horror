@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Miskatonic Museum" id="2edfdcae-25e3-4ad3-84a5-75fae5b861e9" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="9f692e01-5c5b-409e-a2af-a75362ac67d7" name="Emergency Aid">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ίέ"/>
+    <property name="Traits" value="Insight. Science."/>
+    <property name="Text" value="Choose an investigator at your location. Heal 2 damage from that investigator or from an Ally asset he or she controls."/>
+  </card>
+  <card id="ddbccff0-827e-44a9-8c28-07d5e8e3fea5" name="Brother Xavier">
+    <property name="Quantity" value="2"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="5"/>
+    <property name="Health" value="3"/>
+    <property name="Sanity" value="3"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. "/>
+    <property name="Text" value="You get +1 ά.&#10;Brother Xavier may be assigned damage and/or horror dealt to other investigators at your location.&#10;When Brother Xavier is defeated: Deal 2 damage to an enemy at your location."/>
+  </card>
+  <card id="04f8c0c9-800a-4665-b39b-e1e206a390c6" name="&quot;I've got a plan!&quot;">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="έή"/>
+    <property name="Traits" value="Insight. Tactic."/>
+    <property name="Text" value="Fight. This attack uses έ. You deal +1 damage for this attack for each clue you have (max +3 damage)."/>
+  </card>
+  <card id="3d114b67-5461-4acf-9cb3-3dbd054d5975" name="Pathfinder">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="[free]During your turn, if you are not engaged with any enemies, exhaust Pathfinder: Move to a connecting location."/>
+  </card>
+  <card id="0d3cc006-1fd9-4ae7-9c3a-6bfe2b5280f2" name="Contraband">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Cost" value="4"/>
+    <property name="Skill Icons" value="έά"/>
+    <property name="Traits" value="Supply. Illicit."/>
+    <property name="Text" value="Choose an asset controlled by an investigator at your location. Double the number of ammo or supply tokens on that asset."/>
+  </card>
+  <card id="2239cccf-4500-4d7f-8f98-a1ae3a7e9ea1" name="Adaptable">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="-"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="Permanent.&#10;In between each game of a campaign, you may swap up to two level 0 cards out of your deck in exchange for an equal number of level 0 cards. (You must still follow all deckbuilding rules for your investigator)."/>
+  </card>
+  <card id="e26a0dbf-cdf7-4c32-a80a-ffee470baaae" name="Delve Too Deep">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Cost" value="1"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="In player order, each investigator draws 1 card from the top of the encounter deck. Then, add Delve Too Deep to the victory display."/>
+  </card>
+  <card id="5b2a8947-2cd6-4202-a0f8-c30a0309b0f5" name="Song of the Dead">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell. Song."/>
+    <property name="Text" value="Uses (5 charges).&#10;η Spend 1 charge: Fight. This attack uses ά instead of ή. You get +1 ά for this attack. If a α symbol is revealed during this attack, this attack deals +2 damage."/>
+  </card>
+  <card id="d1109c6d-68fc-4af1-9785-4d3f8472e92a" name="Oops!">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ήή"/>
+    <property name="Traits" value="Fortune."/>
+    <property name="Text" value="Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.&#10;Deal this attack's damage to a different enemy at your location."/>
+  </card>
+  <card id="dc7dabed-a93f-4a7d-92ec-73c5c4a519ef" name="Fire Extinguisher">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tool. Melee."/>
+    <property name="Text" value="η: Fight. You get +1 ή for this attack.&#10;η Exile Fire Extinguisher: Evade. You get +3 ί for this test. If you are successful, evade each other enemy engaged with you, as well."/>
+  </card>
+  <card id="ee81c089-8d9e-4d7d-8124-e7ea2b4af645" name="Flare">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Text" value="Either (choose one):&#10;- Fight. You get +3 ή and deal +2 damage for this attack. Exile Flare.&#10;- Search the top 9 cards of any investigator's deck for an Ally asset and put it into play under your control. Then, exile Flare. Shuffle the searched deck."/>
+  </card>
+  <card id="a3fdf8a4-652c-42a0-9b9d-9078d21f60c5" name="Smoking Pipe">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="Uses (3 supplies).&#10;[free]Spend 1 supply, exhaust Smoking Pipe, and take 1 damage: Heal 1 horror."/>
+  </card>
+  <card id="5409b4de-35ff-4566-a49a-00f8aca115e3" name="Painkillers">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="Uses (3 supplies).&#10;[free]Spend 1 supply, exhaust Painkillers, and take 1 horror: Heal 1 damage."/>
+  </card>
+  <card id="f35868ff-263e-4a06-91d4-49fb17e22700" name="The Miskatonic Museum">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="α: -1 (-3 instead if Hunting Horror is at your location.)&#10;β: -1. If you fail, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, if able.&#10;γ: -2. Return 1 of your clues to your current location.&#10;δ: -3. If you fail, discard an asset you control."/>
+    <alternate name="The Miskatonic Museum" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Text" value="α: -2 (-4 instead if Hunting Horror is at your location.)&#10;β: -3. If you fail, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, if able.&#10;γ: -4. If Hunting Horror is at your location, it immediately attacks you.&#10;δ: -5. If you fail, discard an asset you control."/>
+    </alternate>
+  </card>
+  <card id="d97c861c-cf73-4216-a25c-aed9871b8a11" name="Restricted Access" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <property name="Text" value="Forced - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached."/>
+    <alternate name="A Creature of the Void" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If Hunting Horror is in play, add 1 doom to it.If Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it in the Museum Halls, if able. Shuffle the encounter discard pile into the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="d2998489-7f61-431d-a496-aca85c5b0272" name="Shadows Deepen" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Forced - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached."/>
+    <alternate name="Hunted Down" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If Hunting Horror is in play, add 1 doom to it.If Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it in the Museum Halls, if able. Shuffle the encounter discard pile into the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="3d6e7bed-e0a7-4d4e-a8f1-8ccade82bffb" name="In Every Shadow" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Forced - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached."/>
+    <alternate name="Driven Out" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator who has not resigned is defeated and suffers 1 physical trauma."/>
+    </alternate>
+  </card>
+  <card id="967d5b98-0e79-440f-9ffc-c7edcdc079b9" name="Finding A Way Inside" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2"/>
+    <property name="Doom" value=""/>
+    <alternate name="Gaining Entrance" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If the investigators spent clues to advance:Choose an investigator to take control of the set-aside Adam Lynch asset. Reveal the Museum Halls. Advance to Act 2a - &quot;Night at the Museum.&quot;If the investigators successfully performed the η ability on the Museum Halls to advance:The door leading into the Museum Halls is broken. Reveal the Museum Halls. Advance to Act 2a - &quot;Breaking and Entering.&quot;"/>
+    </alternate>
+  </card>
+  <card id="2d8665ba-ab50-4e26-860e-aeb4a7ba1ef1" name="Night at the Museum" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If an investigator enters the Exhibit Hall (Restricted Hall), advance."/>
+    <alternate name="The Curator's Fate" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Search the encounter deck, discard pile, the void, and all play areas for Hunting Horror, and place it in the Exhibit Hall (Restricted Hall), ready.Advance to Act 3a."/>
+    </alternate>
+  </card>
+  <card id="b5e878d4-edc3-47dc-a65c-77d0ac8c1dd4" name="Breaking and Entering" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If an investigator enters the Exhibit Hall (Restricted Hall), advance."/>
+    <alternate name="The Guard's Fate" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Choose an investigator to take control of the set-aside Harold Walsted asset.Search the encounter deck, discard pile, the void, and all play areas for Hunting Horror, and place it in the Exhibit Hall (Restricted Hall), ready.Advance to Act 3a."/>
+    </alternate>
+  </card>
+  <card id="1ab1b4d8-6c6c-49ea-9093-c5dde721de89" name="Searching for the Tome" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If there are no clues remaining in the Exhibit Hall , advance."/>
+    <alternate name="The Necronomicon" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The investigators must decide (choose one):- It's too dangerous to keep around. We must destroy it. (→R1)- It's too valuable to destroy. We must keep it safe.(→R2)"/>
+    </alternate>
+  </card>
+  <card id="981665c5-0f78-4ec8-a2d8-c7aff2b851e5" name="Museum Entrance" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Museum Entrance" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="Investigators at the Museum Entrance cannot gain resources.&#10;η Resign. &quot;Eh. How important can a book really be, anyway?&quot;"/>
+    </alternate>
+  </card>
+  <card id="83cfb038-c6fe-463a-b547-bc75006b5a7b" name="Museum Halls" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Museum Halls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="Museum Halls is connected to each copy of Exhibit Hall.&#10;η Investigators in the Museum Halls spend 1[per investigator] clues, as a group: Put the top card of the Exhibit deck into play, unrevealed."/>
+    </alternate>
+  </card>
+  <card id="1558f7ef-ed17-4c45-90dd-9ca90e428a18" name="Security Office" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Security Office" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="η η: Search the top 6 cards of your deck for a card and add it to your hand. Shuffle the rest back into your deck. (Limit once per turn.)"/>
+    </alternate>
+  </card>
+  <card id="4940ec52-e8c5-4d39-9ef4-e1705843a082" name="Security Office" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Security Office" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="η η: Look at the revealed side of an Exhibit Hall in play, or the top card of the Exhibit deck. (Limit once per turn.)"/>
+    </alternate>
+  </card>
+  <card id="75af5ab5-15c4-419d-98c8-47186cf79fa4" name="Administration Office" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Administration Office" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="You cannot investigate Administration Office while you have 4 or fewer resources."/>
+    </alternate>
+  </card>
+  <card id="bb44f38a-06a8-4889-8be6-0511504199b5" name="Administration Office" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Administration Office" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="You cannot investigate Administration Office while you have 4 or fewer cards in your hand."/>
+    </alternate>
+  </card>
+  <card id="07d94c5f-3ce3-4e5d-9a30-a820d26edbad" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Athabaskan Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you enter this location: Immediately end your turn.&#10;While you are in this location, you get +2 ί."/>
+    </alternate>
+  </card>
+  <card id="362657d7-627c-46c2-91b4-59298a0c0683" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Medusa Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you fail a skill test while investigating this location: Discard an asset you control."/>
+    </alternate>
+  </card>
+  <card id="0732ea89-f2f4-4fd6-8f85-a87f1858a38c" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Nature Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you enter this location: Discard 2 cards from your hand at random."/>
+    </alternate>
+  </card>
+  <card id="a2350979-4f5d-48a0-8056-9066aa360da3" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Egyptian Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you fail a skill test while investigating this location: Lose 1 action."/>
+    </alternate>
+  </card>
+  <card id="1fee9788-f264-4754-82ce-8e324cc6e7d7" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Hall of the Dead"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you fail a skill test while investigating this location: Take 1 horror."/>
+    </alternate>
+  </card>
+  <card id="a37f907d-30f4-405b-aaab-47e4786c9c71" name="Exhibit Hall" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Miskatonic Museum"/>
+      <property name="Subtitle" value="Restricted Hall"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="While Hunting Horror is at this location, this location cannot be investigated."/>
+    </alternate>
+  </card>
+  <card id="b1578939-c66b-4850-84bb-8963d4284733" name="Harold Walsted">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="Curator of the Museum"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Traits" value="Ally. Miskatonic."/>
+    <property name="Text" value="You get +2 έ while investigating Miskatonic locations.&#10;Forced - When Harold Walsted leaves play: Remove him from the game and add 1 γ token to the chaos bag for the remainder of the campaign."/>
+  </card>
+  <card id="dfac9498-213f-4892-be8e-06db8ae2fece" name="Adam Lynch">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="Museum Security"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Traits" value="Ally. Miskatonic."/>
+    <property name="Text" value="While you control Adam Lynch, treat the &quot;η η&quot; ability on the Security Office as if it were an &quot;η&quot; ability.&#10;Forced - When Adam Lynch leaves play: Remove him from the game and add 1 γ token to the chaos bag for the remainder of the campaign."/>
+  </card>
+  <card id="41493043-5631-48cc-a05e-7967745b87d0" name="The Necronomicon">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="Olaus Wormius Translation"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tome."/>
+    <property name="Text" value="You get +1 έ.&#10;η: Gain 2 resources."/>
+  </card>
+  <card id="751ceb35-57cd-4eb0-beab-3d90a6948efc" name="Hunting Horror" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Subtitle" value="Spawned from the Void"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Elite."/>
+    <property name="Keywords" value="Hunter. Retaliate."/>
+    <property name="Text" value="Forced - At the start of the enemy phase: Reveal a random token from the chaos bag. If the revealed token has a α, β, γ, δ, or ζ symbol, ready Hunting Horror.&#10;Forced - When Hunting Horror leaves play, place it in the void."/>
+  </card>
+  <card id="a8443a99-7961-45c2-8aa1-b4514cbfda3e" name="Shadow-spawned" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Power."/>
+    <property name="Text" value="Shadow-spawned remains attached to Hunting Horror if it enters the void.&#10;Hunting Horror gets +1 fight, +1 health, and +1 evade for each resource on Shadow-spawned. If there are 3 resources on Shadow-spawned, Hunting Horror also gains Massive."/>
+  </card>
+  <card id="dd18d214-c981-4e7f-b6ed-30ccca95fd6f" name="Stalked in the Dark" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Text" value="Revelation - If Hunting Horror is in play, it readies, engages you, and attacks each investigator at your location. Otherwise, Stalked in the Dark gains surge."/>
+  </card>
+  <card id="1600d23b-c00b-4b0c-a7ec-cbfdbfc0c83e" name="Passage into the Veil" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Power."/>
+    <property name="Text" value="Revelation - Test ά (3). This test has +2 difficulty if Hunting Horror is at your location. If you fail you must either (choose one): discard the top 5 cards of your deck, or take 1 direct damage and deal 1 damage to each of your Ally assets."/>
+  </card>
+  <card id="75d86a92-0193-442e-a544-b7ae2f8e3f1d" name="Ephemeral Exhibits" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Test έ (3). If you fail, lose 1 action for each point you failed by."/>
+  </card>
+  <card id="7da3ef2e-e30f-47c7-9ebb-2a4739460fb9" name="Slithering Behind You" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="Revelation - If Hunting Horror is in play, add 1 doom to it. If Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, engaged with you. Shuffle the encounter deck."/>
+  </card>
+ </cards>
+</set>

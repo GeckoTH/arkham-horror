@@ -129,11 +129,11 @@
     <property name="Traits" value="Item. Charm."/>
     <property name="Text" value="Zoey Samaras deck only.&#10;ι After an enemy becomes engaged with you, exhaust Zoey's Cross and spend 1 resource: Deal 1 damage to that enemy."/>
   </card>
-  <card id="7696f7c3-7d82-43d3-a985-ebbc70a98115" name="Smite the Wicked" size="EncounterCard">
+  <card id="7696f7c3-7d82-43d3-a985-ebbc70a98115" name="Smite the Wicked">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
-    <property name="Subtype" value="weakness"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Task."/>
     <property name="Text" value="Revelation – Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.&#10;Forced – When the game ends, if attached enemy is in play: You suffer 1 mental trauma."/>
   </card>
@@ -147,11 +147,11 @@
     <property name="Traits" value="Insight."/>
     <property name="Text" value="Rex Murphy deck only.&#10;Draw X cards, where X is the number of clues on Rex Murphy (to a maximum of 5)."/>
   </card>
-  <card id="77176fab-fe89-41dc-b8f6-9a061f92d18e" name="Rex's Curse" size="EncounterCard">
+  <card id="77176fab-fe89-41dc-b8f6-9a061f92d18e" name="Rex's Curse">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
-    <property name="Subtype" value="weakness"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Curse."/>
     <property name="Text" value="Revelation - Put Rex's Curse into play in your threat area.&#10;Forced - When you would succeed at a skill test: Return the revealed chaos token to the bag and reveal a new chaos token. If this effect causes you to fail the test, shuffle Rex's Curse into your deck. (Limit once per test.)"/>
   </card>
@@ -167,11 +167,11 @@
     <property name="Traits" value="Item. Weapon. Firearm."/>
     <property name="Text" value="Jenny Barnes deck only. Uses (X ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. This attack deals +1 damage."/>
   </card>
-  <card id="2333216b-2b9f-4aea-a298-ffcb40d7d527" name="Searching for Izzie" size="EncounterCard">
+  <card id="2333216b-2b9f-4aea-a298-ffcb40d7d527" name="Searching for Izzie">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
-    <property name="Subtype" value="weakness"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Task."/>
     <property name="Text" value="Revelation - Attach Searching for Izzie to the location farthest from you.&#10;ηη: Investigate. If you succeed, instead of discovering clues, discard Searching for Izzie.&#10;Forced - When the game ends, if Searching for Izzie is in play: You suffer 1 mental trauma."/>
   </card>
@@ -188,11 +188,11 @@
     <property name="Traits" value="Item. Instrument. Relic."/>
     <property name="Text" value="Jim Culver deck only.&#10;ι When a α token is revealed during a skill test, exhaust Jim's Trumpet: Heal 1 horror from an investigator at your location or a connecting location."/>
   </card>
-  <card id="8c786481-e9f3-4fad-bfcc-ed4d78bd8064" name="Final Rhapsody" size="EncounterCard">
+  <card id="8c786481-e9f3-4fad-bfcc-ed4d78bd8064" name="Final Rhapsody">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
-    <property name="Subtype" value="weakness"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Endtimes."/>
     <property name="Text" value="Revelation - Reveal 5 chaos tokens from the chaos bag. For each α and ζ token revealed, take 1 damage and 1 horror."/>
   </card>
@@ -208,11 +208,11 @@
     <property name="Traits" value="Ally. Creature."/>
     <property name="Text" value="&quot;Ashcan&quot; Pete deck only.&#10;η Exhaust Duke: Fight. You attack with a base ή skill of 4. This attack deals +1 damage.&#10;η Exhaust Duke: Investigate. You investigate with a base έ skill of 4. You may move to a connecting location immediately before investigating with this effect."/>
   </card>
-  <card id="d421da41-f879-45d0-9409-d5691fecf56e" name="Wracked by Nightmares" size="EncounterCard">
+  <card id="d421da41-f879-45d0-9409-d5691fecf56e" name="Wracked by Nightmares">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
-    <property name="Subtype" value="weakness"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Madness."/>
     <property name="Text" value="Revelation - Exhaust all assets you control and put Wracked by Nightmares into play in your threat area.&#10;Assets you control cannot ready.&#10;ηη: Discard Wracked by Nightmares."/>
   </card>

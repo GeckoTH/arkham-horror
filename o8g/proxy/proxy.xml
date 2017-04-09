@@ -721,4 +721,9 @@
       <match name="Type" value="Campaign" />
     </matches>
   </template>
+  <template src="proxy/playeraid.jpg" default="False">
+    <matches>
+      <match name="Type" value="Player Aid" />
+    </matches>
+  </template>
 </templates>

@@ -1144,6 +1144,7 @@
   <card id="22a5a1f6-cc50-47a9-9374-76204c97cf0a" name="Mob Enforcer">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Enemy"/>
+    <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Combat" value="4"/>
     <property name="Agility" value="3"/>
@@ -1156,6 +1157,7 @@
   <card id="9b1de9f2-b050-41c4-bfdc-16a40974a3fb" name="Silver Twilight Acolyte">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Enemy"/>
+    <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Combat" value="2"/>
     <property name="Agility" value="3"/>
@@ -1168,6 +1170,7 @@
   <card id="d5b68cab-54f1-488c-ba9f-68d8830cf2d0" name="Stubborn Detective">
     <property name="Quantity" value="1"/>
     <property name="Type" value="Enemy"/>
+    <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Combat" value="3"/>
     <property name="Agility" value="2"/>
@@ -2132,7 +2135,7 @@
     <property name="Text" value="Hunter."/>
   </card>
   <card id="03482753-a71c-45ec-a97a-e6cb454ae835" name="Ghoul Minion" size="EncounterCard">
-    <property name="Quantity" value="2"/>
+    <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Ghouls"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="2"/>
@@ -2155,7 +2158,7 @@
     <property name="Text" value="Prey - Lowest remaining health."/>
   </card>
   <card id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e" name="Grasping Hands" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Ghouls"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Hazard."/>
@@ -2183,7 +2186,7 @@
     <property name="Text" value="Revelation - Put Dissonant Voices into play in your threat area.&#10;You cannot play assets or events.&#10;Forced - At the end of the round: Discard Dissonant Voices."/>
   </card>
   <card id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a" name="Ancient Evils" size="EncounterCard">
-    <property name="Quantity" value="2"/>
+    <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Ancient Evils"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Omen."/>
@@ -2204,7 +2207,7 @@
     <property name="Text" value="Revelation - Attach to your location. Limit 1 per location.&#10;Attached location gets +2 shroud.&#10;Forced - After attached location is successfully investigated: Discard Obscuring Fog."/>
   </card>
   <card id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a" name="Acolyte" size="EncounterCard">
-    <property name="Quantity" value="2"/>
+    <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Dark Cult"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="3"/>
@@ -2229,14 +2232,14 @@
     <property name="Text" value="Forced - At the end of the mythos phase: Place 1 doom on Wizard of the Order."/>
   </card>
   <card id="64d5c48c-02fb-48ac-b3ea-086a20721d69" name="Mysterious Chanting" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Dark Cult"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Hex."/>
     <property name="Text" value="Revelation - Place 2 doom on the nearest Cultist enemy. If there are no Cultist enemies in play, search the encounter deck and discard pile for a Cultist enemy and draw it. Shuffle the encounter deck."/>
   </card>
   <card id="76a0d01f-3487-41d5-8bff-560ab33dd6f4" name="Hunting Nightgaunt" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Nightgaunts"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="3"/>
@@ -2249,20 +2252,20 @@
     <property name="Text" value="While attempting to evade Hunting Nightgaunt, double the negative modifier of each revealed chaos token."/>
   </card>
   <card id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec" name="On Wings of Darkness" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Nightgaunts"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Revelation - Test ί (4). If you fail, take 1 damage and 1 horror. Then, disengage from each non-Nightgaunt enemy engaged with you and move to a Central location."/>
   </card>
   <card id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93" name="Locked Door" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Locked Doors"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Obstacle."/>
     <property name="Text" value="Revelation - Attach to the location with the most clues, and without a Locked Door attached.The attached location cannot be investigated.η: Test ή (4) to break down the door or ί (4) to pick the locks. If you succeed, discard Locked Door."/>
   </card>
   <card id="d6b11251-f337-4437-bb24-d9baa52b164f" name="Screeching Byakhee" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Agents of Hastur"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="3"/>
@@ -2276,14 +2279,14 @@
     <property name="Text" value="While engaged with an investigator with remaining sanity 4 or fewer, Screeching Byakhee gets +1 fight and +1 evade."/>
   </card>
   <card id="5d3f4670-272f-4665-9812-3a40b5837d97" name="The Yellow Sign" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Agents of Hastur"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Omen."/>
     <property name="Text" value="Revelation - Test ά (4). If you fail, take 2 horror and search your deck for a Madness weakness. Draw that card and shuffle your deck."/>
   </card>
   <card id="6ea5fdd2-d464-42f1-b734-6a34edcf0329" name="Yithian Observer" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Agents of Yog-Sothoth"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="4"/>
@@ -2297,7 +2300,7 @@
     <property name="Text" value="Forced - When Yithian Observer attacks you: Discard 1 card at random from your hand. If you cannot, Yithian Observer deals +1 damage and +1 horror for this attack."/>
   </card>
   <card id="085d8d82-3331-4eda-bcba-e51285fa9b0e" name="Offer of Power" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Agents of Yog-Sothoth"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Pact."/>
@@ -2305,7 +2308,7 @@
     <property name="Text" value="Revelation - You must either (choose one):Draw 2 cards and place 2 doom on the current agenda (this effect can cause the agenda to advance), or take 2 horror."/>
   </card>
   <card id="1042db12-9e8c-4dd4-ba27-10c2059efca9" name="Relentless Dark Young" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Agents of Shub-Niggurath"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="4"/>
@@ -2319,7 +2322,7 @@
     <property name="Text" value="Forced - At the end of the round: Heal 2 damage from Relentless Dark Young."/>
   </card>
   <card id="3d4420ab-52eb-40df-9e63-13dd49fd125c" name="Goat Spawn" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Agents of Shub-Niggurath"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="3"/>
@@ -2332,7 +2335,7 @@
     <property name="Text" value="Forced - When Goat Spawn is defeated: Each investigator at this location takes 1 horror."/>
   </card>
   <card id="93ab8531-db48-4ee6-b818-4da27752d578" name="Young Deep One" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Agents of Cthulhu"/>
     <property name="Type" value="Enemy"/>
     <property name="Combat" value="3"/>
@@ -2345,7 +2348,7 @@
     <property name="Text" value="Forced - After Young Deep One engages you: Take 1 horror."/>
   </card>
   <card id="395200b6-5e2f-4217-9cb2-005590d81407" name="Dreams of R'lyeh" size="EncounterCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Agents of Cthulhu"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Omen."/>
