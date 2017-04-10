@@ -3,7 +3,6 @@
 ## Upcoming
 
 Features:
-- Set up a `CHANGELOG.md`
 - Added Miskatonic Museum
 - Added Essex County Express
 
