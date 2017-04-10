@@ -5,6 +5,7 @@
 Features:
 - Added Miskatonic Museum
 - Added Essex County Express
+- Added Phase/Round Management. Press F12 to begin!
 
 Fixes:
 - Fixes to Carnevale of Horrors card data
