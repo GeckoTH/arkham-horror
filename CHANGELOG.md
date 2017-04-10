@@ -11,6 +11,7 @@ Fixes:
 - Fixes to Carnevale of Horrors card data
 - Update Carnevale of Horrors Scenario decks
 - Fix persistence of manually created cards
+- Investigator Mini Card flip fix
 
 ___
 
