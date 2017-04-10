@@ -18,12 +18,20 @@
 		<script src="scripts/actions.py" />
 		<script src="scripts/basic_weakness.py" />
 	</scripts>
+	<phases>
+		<phase name="Mythos Phase" icon="counters/Phase-Icons-Mythos.png" />
+		<phase name="Investigation Phase" icon="counters/Phase-Icons-Investigation.png" />
+		<phase name="Enemy Phase" icon="counters/Phase-Icons-Enemy.png" />
+		<phase name="Upkeep Phase" icon="counters/Phase-Icons-Upkeep.png" />
+	</phases> 
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
 		<event name="OnGameStarted" action="startOfGame"/>
 		<event name="OnDeckLoaded" action="deckLoaded"/>
 		<event name="OnGlobalVariableChanged" action="globalChanged"/>
 		<event name="OnMarkerChanged" action="markerChanged"/>
+		<event name="OnPhasePassed" action="phasePassed"/>
+		<event name="OnTurnPassed" action="turnPassed"/>
 	</events>
 	<fonts>
 		<font src="fonts/Calibri-Arkham.ttf" size="12" target="context" />
@@ -41,6 +49,8 @@
 		<globalvariable name="currentPlayers" value="" />
 		<globalvariable name="done" value="" />
 		<globalvariable name="phase" value="" />
+		<globalvariable name="allowMythosPhase" value="False" />
+		<globalvariable name="allowUpkeepPhase" value="False" />
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />
@@ -109,6 +119,7 @@
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
 		<cardaction menu="Clear Highlights" default="False" shortcut="F10" execute="clearHighlights" />
 		<groupactions menu="Automation">
+			<groupaction menu="Advance Phase" default="False" shortcut="F12" execute="advancePhase" />
 			<groupaction menu="Create Chaos Bag" default="False" execute="createChaosBag" />
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />

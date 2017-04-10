@@ -50,6 +50,52 @@ def toggleDebug(group, x=0, y=0):
     else:
         notify("{} turns off debug".format(me))
 
+
+def phasePassed(args):
+    mute()
+    thisPhase = currentPhase()
+    newPhase = thisPhase[1]
+    
+    if newPhase == 1:
+        if turnNumber() != 1 and getGlobalVariable("allowMythosPhase") == "True":
+            doMythosPhase(False)
+            setGlobalVariable("allowMythosPhase", "False")
+    elif newPhase == 2:
+        # Investigation Phase
+        mute()
+    elif newPhase == 3:
+        # Enemy
+        mute()
+    elif newPhase == 4 and getGlobalVariable("allowUpkeepPhase") == "True":
+        # Upkeep
+        for player in getPlayers():
+            remoteCall(player, "doUpkeepPhase", [False])
+        
+        setGlobalVariable("allowUpkeepPhase", "False")
+
+
+def turnPassed(args):
+    setGlobalVariable("allowMythosPhase", "True")
+    setGlobalVariable("allowUpkeepPhase", "True")
+    
+    if turnNumber() == 1:
+        setPhase(2)
+    else:
+        setPhase(1)
+    
+
+def advancePhase(group = None, x = 0, y = 0):
+    if turnNumber() == 0:
+        me.setActive()
+    else:
+        thisPhase = currentPhase()
+        nextPhase = thisPhase[1] + 1
+        if nextPhase > 4:
+            me.setActive()
+        else:
+            setPhase(nextPhase)
+
+        
 #Return the default x coordinate of the players investigator
 def investigatorX(player):
     return (BoardWidth * player / len(getPlayers())) - (BoardWidth / 2)
@@ -827,10 +873,12 @@ def readyForNextRound(group=table, x=0, y=0):
         highlightPlayer(me, DoneColour)
         setPlayerDone()
 
-def doUpkeepPhase():
+def doUpkeepPhase(setPhaseVar = True):
     mute()
     debug("doUpkeepPhase()")
-    setGlobalVariable("phase", "Upkeep")
+    
+    if setPhaseVar:
+        setGlobalVariable("phase", "Upkeep")
 
     if activePlayers() == 0:
         whisper("All players have been eliminated: You have lost the game")
@@ -851,10 +899,12 @@ def doUpkeepPhase():
     shared.counters['Round'].value += 1
     clearHighlights()
 
-def doMythosPhase():
+def doMythosPhase(setPhaseVar = True):
     mute()
     debug("doMythosPhase()")
-    setGlobalVariable("phase", "Mythos")
+    
+    if setPhaseVar:
+        setGlobalVariable("phase", "Mythos")
 
     for card in table:
         if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
@@ -1126,11 +1176,20 @@ def subToken(card, tokenType):
 
 def markerChanged(args):
     card = args.card
-    if card.Type == "Agenda" and args.marker == Doom[0] and getGlobalVariable("phase") == "Mythos":
+    
+    thisPhase = currentPhase()
+    
+    inMythosPhase = False
+    if getGlobalVariable("phase") == "Mythos" or thisPhase[1] == 1:
+        inMythosPhase = True
+    
+    if card.Type == "Agenda" and args.marker == Doom[0] and inMythosPhase == True and card.properties[Doom[0]] != "":
         if card.markers[Doom] >= int(card.properties[Doom[0]]):
             card.highlight = EliminatedColour
         else:
             card.highlight = None
+    else:
+        card.highlight = None
 
 def lockCard(card, x=0, y=0):
     mute()
