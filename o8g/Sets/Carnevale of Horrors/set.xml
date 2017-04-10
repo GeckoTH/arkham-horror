@@ -27,7 +27,7 @@
       <property name="Type" value="Enemy"/>
       <property name="Combat" value="4"/>
       <property name="Agility" value="3"/>
-      <property name="Health" value="5"/>
+      <property name="Health" value="5π"/>
       <property name="Damage" value="2"/>
       <property name="Horror" value="2"/>
       <property name="Shroud" value=""/>
@@ -247,7 +247,7 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="Venetian Garden is connected to the location in the clockwise direction.&#10;ηη Spend 2 resources: Heal 2 horror. (Limit once per game.)"/>
@@ -285,7 +285,7 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="Flooded Square is connected to the location in the clockwise direction.&#10;η: Automatically evade a non-Elite enemy at the location in the counter-clockwise direction. (Group limit once per turn.)"/>
@@ -304,7 +304,7 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice. Bridge."/>
       <property name="Text" value="Accademia Bridge is connected to the location in the clockwise direction.&#10;Forced - After you leave Accademia Bridge: Lose 2 resources."/>
@@ -323,7 +323,7 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="The Guardian is connected to the location in the clockwise direction.&#10;ι After you enter The Guardian: Draw 1 card."/>
