@@ -1530,7 +1530,7 @@ def drawBasicWeaknessToHand(group, x = 0, y = 0):
 
 def createCard(group=None, x=0, y=0):
 	cardID, quantity = askCard()
-	cards = table.create(cardID, x, y, quantity, False)
+	cards = table.create(cardID, x, y, quantity, True)
 	try:
 		iterator = iter(cards)
 	except TypeError:
