@@ -21,12 +21,12 @@
     <card qty="1" id="f1b60ac1-536c-4e98-b2ca-e71386ebab6d">Flooded Square</card>
     <card qty="1" id="33c71654-227f-44ac-90bf-c0550d14fb5e">Accademia Bridge</card>
     <card qty="1" id="e4b91703-d264-4aaa-93f4-878207232031">The Guardian</card>
-    <card qty="1" id="7b1b84ba-8597-4634-8968-0c26da7976bc">Campaign Card 1</card>
-    <card qty="1" id="5874a1bf-f905-4db0-a4e5-e9919447324d">Campaign Card 3</card>
-    <card qty="1" id="27e6a058-7844-4d26-8db5-1fc63b0dde81">Campaign Card 5</card>
-    <card qty="1" id="2901ee2e-6b47-4e4f-8fe0-6d0c6855bb0d">Campaign Card 7</card>
-    <card qty="2" id="3fe02e7f-aaaf-4ab0-8f6e-fc1b27128f5a">Campaign Card 9</card>
     <card qty="1" id="9191fbde-4f45-4110-aa71-859266e1f33e">Campaign Card 11</card>
+    <card qty="1" id="3fe02e7f-aaaf-4ab0-8f6e-fc1b27128f5a">Campaign Card 9</card>
+    <card qty="1" id="2901ee2e-6b47-4e4f-8fe0-6d0c6855bb0d">Campaign Card 7</card>
+    <card qty="1" id="27e6a058-7844-4d26-8db5-1fc63b0dde81">Campaign Card 5</card>
+    <card qty="1" id="5874a1bf-f905-4db0-a4e5-e9919447324d">Campaign Card 3</card>
+    <card qty="1" id="7b1b84ba-8597-4634-8968-0c26da7976bc">Campaign Card 1</card>
     <card qty="1" id="d970c25b-c61d-4abe-841d-442ec907b4fb">Don Lagorio</card>
     <card qty="1" id="4c4faf51-f697-4c74-8859-c4b5221d5897">Elisabetta Margo</card>
     <card qty="1" id="7dd9e264-2dce-40e2-be80-44ce5285430b">Salvatore Neri</card>
@@ -38,13 +38,6 @@
     <card qty="1" id="6d6ee9e8-36f8-44ce-98d2-71473f012766">Bauta</card>
     <card qty="1" id="0edf876f-6d5c-4c98-9c69-92fee863b780">Gilded Volto</card>
   </section>
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
   <section name="Encounter" shared="True">
     <card qty="1" id="0c66f5c7-85f9-4177-9624-0638bd33770b">Abbess Allegria Di Biase</card>
     <card qty="2" id="63d81504-f5bd-4136-82ec-55d8590aeec1">Poleman</card>
@@ -58,9 +51,6 @@
     <card qty="2" id="3999589b-4693-4a8d-9ce2-014fddf57fb8">Abduction</card>
     <card qty="2" id="3ab57c7d-737f-4dba-ba5c-260959ee9c8e">Acrid Miasma</card>
   </section>
-  <section name="Location" shared="True" />
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True">
     <card qty="1" id="d8669f4c-aa2c-4ef1-ab0c-9202b08cf563">+1</card>
     <card qty="3" id="35137ccc-db2b-4fdd-b0a8-a5d91f453a43">0</card>
@@ -77,5 +67,15 @@
     <card qty="1" id="9bdf31e9-51c4-4080-9e8d-53c9965ba214">Auto Fail</card>
     <card qty="1" id="ca0b7b2a-8992-483b-8094-b3c515af8967">Elder Sign</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
