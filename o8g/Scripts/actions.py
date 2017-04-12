@@ -68,8 +68,7 @@ def phasePassed(args):
         mute()
     elif newPhase == 4 and getGlobalVariable("allowUpkeepPhase") == "True":
         # Upkeep
-        for player in getPlayers():
-            remoteCall(player, "doUpkeepPhase", [False])
+        remoteCall(me, "doUpkeepPhase", [False])
         
         setGlobalVariable("allowUpkeepPhase", "False")
 
