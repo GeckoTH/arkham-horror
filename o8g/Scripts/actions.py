@@ -920,10 +920,13 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         
     unlockDeck()
     if doPlayer:
-        id = myID() #This ensures we have a unique ID based on our position in the setup order
+        id = myID() # This ensures we have a unique ID based on our position in the setup order
         investigatorCount = countInvestigators(me)
         
-        #Move Investigators to the table
+        # Find any Permanent cards
+        permanents = filter(lambda card: "Permanent" in card.Keywords, me.deck)
+        
+        # Move Investigators to the table
         newInvestigator = False
         investigator = filter(lambda card: card.Type == "Investigator", me.hand)
         mini = filter(lambda card: card.Type == "Mini", me.hand)
@@ -936,15 +939,23 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             investigatorCard.moveToTable(investigatorX(id), InvestigatorY)
             miniX = cardX(investigatorCard) + investigatorCard.width + InvestigatorSpacing
             miniCard.moveToTable(miniX, cardY(investigatorCard))
-
-        if newInvestigator:
             notify("{} places his Investigator on the table".format(me))
+        
+        # Move any Permanents found to the table
+        permX = miniX + miniCard.width + InvestigatorSpacing
+        for card in permanents:
+            card.moveToTable(permX, cardY(investigatorCard))
+            permX = permX + card.width + InvestigatorSpacing
+            notify("{} places the Permanent card {} on the table".format(me, card))
+        
+        if newInvestigator:
             if len(me.hand) == 0:
                 drawOpeningHand()
             for i in repeat(None, 5):
                 addResource(investigatorCard)
-                    
-    #If we loaded the encounter deck - add the first Agenda & Act card to the table
+        
+        
+    # If we loaded the encounter deck - add the first Agenda & Act card to the table
     if doEncounter or encounterDeck().controller == me:
         count = agendaCount(table)
         if count == 0:
