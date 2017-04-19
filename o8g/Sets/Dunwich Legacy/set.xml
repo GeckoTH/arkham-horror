@@ -838,7 +838,7 @@
     <property name="Traits" value="Monster. Abomination. Elite."/>
     <property name="Text" value="Massive.&#10;The Experiment gets +3[per investigator] health.&#10;Forced - When the enemy phase begins: Ready The Experiment.&#10;Objective - If The Experiment is defeated, advance to act 3b."/>
   </card>
-  <card id="c6918c7e-efaf-4524-b2ac-69c07a8ddd40" name="Alchemical Concoction">
+  <card id="c6918c7e-efaf-4524-b2ac-69c07a8ddd40" name="Alchemical Concoction" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Asset"/>
@@ -846,7 +846,7 @@
     <property name="Traits" value="Item. Science."/>
     <property name="Text" value="η: Fight. This attack uses έ instead of ή. If used to attack The Experiment, this attack deals +6 damage. If you succeed, remove Alchemical Concoction from the game."/>
   </card>
-  <card id="cf7346b9-b7eb-4f13-92fa-4468f3e9158a" name="&quot;Jazz&quot; Mulligan">
+  <card id="cf7346b9-b7eb-4f13-92fa-4468f3e9158a" name="&quot;Jazz&quot; Mulligan" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Subtitle" value="The Head Janitor"/>
@@ -1177,7 +1177,7 @@
     <property name="Traits" value="Criminal. Elite."/>
     <property name="Text" value="Prey - Highest έ.&#10;Hunter.&#10;Forced - After an investigator at Clover Club Pit Boss's location gains any number of clues: Clover Club Pit Boss readies, engages that investigator, and makes an immediate attack."/>
   </card>
-  <card id="e9a12a37-22f2-49fa-b64b-5895ad5f277e" name="Peter Clover">
+  <card id="e9a12a37-22f2-49fa-b64b-5895ad5f277e" name="Peter Clover" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Subtitle" value="Holding All the Cards"/>

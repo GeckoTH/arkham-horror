@@ -503,7 +503,7 @@
       <property name="Text" value="While Hunting Horror is at this location, this location cannot be investigated."/>
     </alternate>
   </card>
-  <card id="b1578939-c66b-4850-84bb-8963d4284733" name="Harold Walsted">
+  <card id="b1578939-c66b-4850-84bb-8963d4284733" name="Harold Walsted" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Subtitle" value="Curator of the Museum"/>
@@ -517,7 +517,7 @@
     <property name="Traits" value="Ally. Miskatonic."/>
     <property name="Text" value="You get +2 έ while investigating Miskatonic locations.&#10;Forced - When Harold Walsted leaves play: Remove him from the game and add 1 γ token to the chaos bag for the remainder of the campaign."/>
   </card>
-  <card id="dfac9498-213f-4892-be8e-06db8ae2fece" name="Adam Lynch">
+  <card id="dfac9498-213f-4892-be8e-06db8ae2fece" name="Adam Lynch" size="EncounterCard">
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Miskatonic Museum"/>
     <property name="Subtitle" value="Museum Security"/>
