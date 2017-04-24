@@ -18,12 +18,6 @@
 		<script src="scripts/actions.py" />
 		<script src="scripts/basic_weakness.py" />
 	</scripts>
-	<phases>
-		<phase name="Mythos Phase" icon="counters/Phase-Icons-Mythos.png" />
-		<phase name="Investigation Phase" icon="counters/Phase-Icons-Investigation.png" />
-		<phase name="Enemy Phase" icon="counters/Phase-Icons-Enemy.png" />
-		<phase name="Upkeep Phase" icon="counters/Phase-Icons-Upkeep.png" />
-	</phases> 
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
 		<event name="OnGameStarted" action="startOfGame"/>
@@ -39,6 +33,12 @@
 		<font src="fonts/Calibri-Arkham.ttf" size="13" target="deckeditor" />
 	</fonts>
 	<proxygen definitionsrc="proxy/proxy.xml"/>
+	<phases>
+		<phase name="Mythos Phase" icon="counters/Phase-Icons-Mythos.png" />
+		<phase name="Investigation Phase" icon="counters/Phase-Icons-Investigation.png" />
+		<phase name="Enemy Phase" icon="counters/Phase-Icons-Enemy.png" />
+		<phase name="Upkeep Phase" icon="counters/Phase-Icons-Upkeep.png" />
+	</phases> 
 	<documents>
 	</documents>
 	<globalvariables>
