@@ -46,12 +46,16 @@
     <card qty="1" id="28c2a525-24cd-4069-bdc6-f97e4031a656">Blood on the Altar</card>
     <card qty="1" id="e732944f-29a2-4f2f-9132-b9e4059cabb0">Powder of Ibn-Ghazi</card>
     <card qty="1" id="5be80449-48ba-4da9-b52f-00f516867f77">Silas Bishop</card>
-    <card qty="1" id="10902dae-b4ea-498f-8dd1-8a8560cc11aa">Key to the Chamber</card>
-    <card qty="1" id="47bc5ee8-9537-417b-8cf9-d700139caa73">The Hidden Chamber</card>
     <card qty="1" id="ab261304-07ef-4bd2-9df7-7e2d5d5ce86d">Dr. Francis Morgan</card>
     <card qty="1" id="348b3d51-a526-420d-95d0-8a65df600c52">Professor Warren Rice</card>
     <card qty="1" id="7fc5f1e2-a4bc-4023-a7cd-315d3912bd79">Dr. Henry Armitage</card>
+    <card qty="1" id="7f913c4b-a4f8-44ed-9394-9decbca0b05f">Earl Sawyer</card>
+    <card qty="1" id="14d16f13-0fd4-4a54-9fb5-69ebf5a045dc">Zebulon Whateley</card>
     <card qty="1" id="b9cfdc9b-6e4b-4e42-87a8-3f0b5aae1f8d">Village Commons</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="47bc5ee8-9537-417b-8cf9-d700139caa73">The Hidden Chamber</card>
+    <card qty="1" id="10902dae-b4ea-498f-8dd1-8a8560cc11aa">Key to the Chamber</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
@@ -60,10 +64,6 @@
   <section name="Skill" shared="False" />
   <section name="Weakness" shared="False" />
   <section name="Sideboard" shared="False" />
-  <section name="Second Special" shared="True">
-    <card qty="1" id="7f913c4b-a4f8-44ed-9394-9decbca0b05f">Earl Sawyer</card>
-    <card qty="1" id="14d16f13-0fd4-4a54-9fb5-69ebf5a045dc">Zebulon Whateley</card>
-  </section>
   <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
