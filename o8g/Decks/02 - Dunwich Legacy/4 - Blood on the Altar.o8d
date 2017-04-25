@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="a8ba171e-ce59-42fb-90d0-8a08132ae2fc">Strange Disapperances</card>
+    <card qty="1" id="90620ea4-d4c6-4cec-885d-33bf02ca293a">The Old Ones Hunger</card>
+    <card qty="1" id="648fdeea-619c-4e73-b3ba-d1346a397338">Feed the Beast</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="6058f64e-99a9-4527-bfe9-fe9e896d32d7">Searching for Answers</card>
+    <card qty="1" id="c21a7b1e-b8a9-4102-83da-3d0a3282bcc2">The Chamber of the Beast</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="e66a4a87-b86d-4e0f-826e-20af1d95d4a8">Kidnapped!</card>
+    <card qty="2" id="ebd4c8f7-3475-4116-8a52-ae52c97ab68c">Psychopomp’s Song</card>
+    <card qty="2" id="8e76abf0-7aa1-433a-8a7c-07e4201c219b">Strange Signs</card>
+    <card qty="3" id="d688f20e-7ab4-444d-98fa-f1b241b9dcc0">Rotting Remains</card>
+    <card qty="3" id="895c9534-4fa5-4b11-a58a-c209d7cd8bde">Servant of Many Mouths</card>
+    <card qty="2" id="14da4d4b-a219-4aa6-94e7-6977a886adcc">Unhallowed Country</card>
+    <card qty="2" id="dcdf02d6-781a-4989-8026-907d9b083287">Sordid and Silent</card>
+    <card qty="3" id="315c1f0b-7284-4aa5-87ef-1008c491138f">Whippoorwill</card>
+    <card qty="2" id="fc0c9068-69da-4be8-a786-60d448fe0557">Eager for Death</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="6b110514-f482-490e-b3e5-d7b96c575b7a">Bishop’s Brook</card>
+    <card qty="1" id="4d7ef39b-570f-4b93-853b-f4570e4e95a9">Bishop’s Brook</card>
+    <card qty="1" id="49cd47ae-cc2a-4f7f-bf4a-b8bc4f386196">Burned Ruins</card>
+    <card qty="1" id="b8dc246f-c196-47d9-9c09-746c1565ec79">Burned Ruins</card>
+    <card qty="1" id="b0b080ab-d255-43fc-b5da-2e1d76901d38">Osborn’s General Store</card>
+    <card qty="1" id="a5a2c5c1-f6d6-40a5-8330-26bcda3e3479">Osborn’s General Store</card>
+    <card qty="1" id="0c7bdb0a-e12e-43e9-a0da-b4aa7fe56164">Congregational Church</card>
+    <card qty="1" id="b4eeeeda-f04f-4062-a820-50c7d7d78b49">Congregational Church</card>
+    <card qty="1" id="d5324db3-3a33-4881-967f-d71b2c29ea7c">House in the Reeds</card>
+    <card qty="1" id="f61cd747-b294-4725-9ff8-b02b7c5bbcdf">House in the Reeds</card>
+    <card qty="1" id="6f988818-7adc-4736-aafc-d6882c42adcd">Schoolhouse</card>
+    <card qty="1" id="88a10412-58ac-49c6-888c-a1397baba22d">Schoolhouse</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="2" id="4ae24039-09f8-40d4-bb5c-f0ed1ac302c0">O'Bannion's Thug</card>
+    <card qty="2" id="8a82e394-d5fa-43cd-8047-fd3610918a72">Mobster</card>
+    <card qty="2" id="cc7e7896-37a6-471c-9c2c-86a21acce22b">Hunted Down</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="28c2a525-24cd-4069-bdc6-f97e4031a656">Blood on the Altar</card>
+    <card qty="1" id="e732944f-29a2-4f2f-9132-b9e4059cabb0">Powder of Ibn-Ghazi</card>
+    <card qty="1" id="5be80449-48ba-4da9-b52f-00f516867f77">Silas Bishop</card>
+    <card qty="1" id="10902dae-b4ea-498f-8dd1-8a8560cc11aa">Key to the Chamber</card>
+    <card qty="1" id="47bc5ee8-9537-417b-8cf9-d700139caa73">The Hidden Chamber</card>
+    <card qty="1" id="ab261304-07ef-4bd2-9df7-7e2d5d5ce86d">Dr. Francis Morgan</card>
+    <card qty="1" id="348b3d51-a526-420d-95d0-8a65df600c52">Professor Warren Rice</card>
+    <card qty="1" id="7fc5f1e2-a4bc-4023-a7cd-315d3912bd79">Dr. Henry Armitage</card>
+    <card qty="1" id="b9cfdc9b-6e4b-4e42-87a8-3f0b5aae1f8d">Village Commons</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="7f913c4b-a4f8-44ed-9394-9decbca0b05f">Earl Sawyer</card>
+    <card qty="1" id="14d16f13-0fd4-4a54-9fb5-69ebf5a045dc">Zebulon Whateley</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
