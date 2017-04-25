@@ -38,9 +38,8 @@
     <card qty="1" id="88a10412-58ac-49c6-888c-a1397baba22d">Schoolhouse</card>
   </section>
   <section name="Special" shared="True">
-    <card qty="2" id="4ae24039-09f8-40d4-bb5c-f0ed1ac302c0">O'Bannion's Thug</card>
-    <card qty="2" id="8a82e394-d5fa-43cd-8047-fd3610918a72">Mobster</card>
-    <card qty="2" id="cc7e7896-37a6-471c-9c2c-86a21acce22b">Hunted Down</card>
+    <card qty="1" id="47bc5ee8-9537-417b-8cf9-d700139caa73">The Hidden Chamber</card>
+    <card qty="1" id="10902dae-b4ea-498f-8dd1-8a8560cc11aa">Key to the Chamber</card>
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="28c2a525-24cd-4069-bdc6-f97e4031a656">Blood on the Altar</card>
@@ -54,8 +53,9 @@
     <card qty="1" id="b9cfdc9b-6e4b-4e42-87a8-3f0b5aae1f8d">Village Commons</card>
   </section>
   <section name="Second Special" shared="True">
-    <card qty="1" id="47bc5ee8-9537-417b-8cf9-d700139caa73">The Hidden Chamber</card>
-    <card qty="1" id="10902dae-b4ea-498f-8dd1-8a8560cc11aa">Key to the Chamber</card>
+    <card qty="2" id="cc7e7896-37a6-471c-9c2c-86a21acce22b">Hunted Down</card>
+    <card qty="2" id="8a82e394-d5fa-43cd-8047-fd3610918a72">Mobster</card>
+    <card qty="2" id="4ae24039-09f8-40d4-bb5c-f0ed1ac302c0">O'Bannion's Thug</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
