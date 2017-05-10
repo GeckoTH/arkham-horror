@@ -479,7 +479,8 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Flaw."/>
-    <property name="Text" value="Permanent.&#10;You start each game with 2 fewer resources."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="You start each game with 2 fewer resources."/>
   </card>
   <card id="ee9ed7fb-bd73-4a10-88ce-0617321ebecd" name="Internal Injury">
     <property name="Quantity" value="2"/>
