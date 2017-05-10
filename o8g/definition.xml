@@ -196,6 +196,7 @@
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw" default="True" shortcut="ctrl+D" execute="draw" />
 			<groupaction menu="Draw Many" default="False" shortcut="ctrl+shift+D" execute="drawMany" />
+			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
@@ -244,6 +245,7 @@
 		<group name="Encounter" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounter" />
+			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Secondary..." default="False" execute="moveMany" />
 		</group>
@@ -253,6 +255,7 @@
 		<group name="Victory Display" visibility="all" ordered="False" width="63" height="88" icon="groups/victory.png" collapsed="False" />
 		<group name="Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter2.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
 			<groupaction menu="Move All to Encounter Deck Bottom" default="False" execute="moveAllToEncounterBottom" />
 			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
@@ -263,6 +266,7 @@
 		</group>
 		<group name="2nd Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
+			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
 			<groupaction menu="Move All to Encounter Deck Bottom" default="False" execute="moveAllToEncounterBottom" />
 			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
