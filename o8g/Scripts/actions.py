@@ -857,6 +857,28 @@ def nextActStage(group=None, x=0, y=0):
 def nextAct(group = None, x = 0, y = 0):
     nextActStage(group, x, y)
 
+def advancePhase(group = None, x = 0, y = 0):
+    newPhase = num(getGlobalVariable("activePhase")) + 1
+    if newPhase > 4:
+        newPhase = 1
+    setGlobalVariable("activePhase", str(newPhase))
+    if newPhase == 1:
+        advanceTurn()
+        notify("{} advances phase to Mythos Phase".format(me))
+    elif newPhase == 2:
+        notify("{} advances phase to Investigator Phase".format(me))
+    elif newPhase == 3:
+        notify("{} advances phase to Enemy Phase".format(me))
+    elif newPhase == 4:
+        notify("{} advances phase to Upkeep Phase".format(me))
+        for player in getPlayers():
+            remoteCall(player, "doUpkeepPhase", [])
+    
+def advanceTurn():
+    newTurn = num(getGlobalVariable("activeTurn")) + 1
+    notify("{} advances to Turn '{}'".format(me, newTurn))
+    setGlobalVariable("activeTurn", str(newTurn))
+    
 def setAbilityCounters(investigatorCard):
     me.counters['Willpower'].value = num(investigatorCard.Willpower)
     me.counters['Intellect'].value = num(investigatorCard.Intellect)
