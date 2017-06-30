@@ -190,6 +190,7 @@
 			<cardaction menu="Play" default="True" execute="playCard" />
 			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 			<cardaction menu="Swap with top card" default="False" shortcut="ctrl+S" execute="swapCard" />
+			<groupaction menu="Mulligan" default="False" execute="mulligan" />
 			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToHand" />
 		</hand>
 		<group name="Deck" visibility="none" ordered="True" width="63" height="88" icon="groups/player.png" collapsed="False">
