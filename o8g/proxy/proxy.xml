@@ -34,6 +34,12 @@
 		<border color="#FFFFFF" size="5" />
 		<wordwrap height="30" width="100" align="near" />
 	</block>
+	<block type="text" id="slot">
+		<location x="260" y="500" />
+		<text color="#000000" size="22" font="fonts/ArnoPro-Arkham.ttf" />
+		<border color="#FFFFFF" size="4" />
+		<wordwrap height="30" width="100" align="far" />
+	</block>
 	<block type="text" id="asset_name">
 		<location x="74" y="15" />
 		<text color="#000000" size="24" font="fonts/Teutonic-Arkham.ttf" />
@@ -452,6 +458,9 @@
 	  <link block="victory">
 	   <property name="Victory Points" format="Victory {}." />
 	  </link>
+	  <link block="slot">
+	   <property name="Slot" />
+	  </link>
     </textblocks>
   </template>
   
@@ -501,6 +510,9 @@
 	  </link>
 	  <link block="victory">
 	   <property name="Victory Points" format="Victory {}." />
+	  </link>
+	  <link block="slot">
+	   <property name="Slot" />
 	  </link>
     </textblocks>
   </template>
