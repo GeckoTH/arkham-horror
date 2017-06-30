@@ -889,6 +889,20 @@ def doUpkeepPhase(setPhaseVar = True):
     clearTargets()
     doRestoreAll()
     draw(me.deck)
+    
+    # Check for hand size!
+    if len(me.hand) > 8:
+        discardCount = len(me.hand) - 8
+        dlg = cardDlg(me.hand)
+        dlg.title = "You have more than the allowed 8 cards in hand."
+        dlg.text = "Select " + str(discardCount) + " Card(s):"
+        dlg.min = 0
+        dlg.max = discardCount
+        cardsSelected = dlg.show()
+        if cardsSelected is not None:
+            for card in cardsSelected:
+                discard(card)
+    
     for card in table:
         if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addResource(card)
