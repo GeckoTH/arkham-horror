@@ -12,8 +12,9 @@
 		<wordwrap height="20" width="300" align="center" />
 	</block>
     <block type="text" id="victory">
-		<location x="275" y="263" />
-		<text color="#000000" size="24" font="fonts/ArnoPro-Arkham.ttf" />
+		<location x="270" y="500" />
+		<text color="#000000" size="20" font="fonts/ArnoPro-Arkham.ttf" />
+		<border color="#FFFFFF" size="4" />
 		<wordwrap height="16" width="100" align="center" />
 	</block>
 	<block type="text" id="cost">
@@ -348,6 +349,8 @@
 		<location x="0" y="0" />
 	</block>
   </blocks>
+  
+  
   <template src="proxy/investigator.jpg" default="True">
     <matches>
       <match name="Type" value="Investigator" />
@@ -384,6 +387,7 @@
 	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/mini.jpg" default="False">
     <matches>
       <match name="Type" value="Mini" />
@@ -394,6 +398,7 @@
 	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/asset-neutral.jpg" default="False">
     <matches>
       <match name="Type" value="Asset" />
@@ -444,8 +449,12 @@
 	  <link block="asset_horror">
 	   <property name="Sanity" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/event-neutral.jpg" default="False">
     <matches>
       <match name="Type" value="Event" />
@@ -490,8 +499,12 @@
 	  <link block="skill_icons">
 	   <property name="Skill Icons" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/skill-neutral.jpg" default="False">
     <matches>
       <match name="Type" value="Skill" />
@@ -536,8 +549,12 @@
 	  <link block="skill_icons">
 	   <property name="Skill Icons" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/enemy.jpg" default="False">
     <matches>
       <match name="Type" value="Enemy" />
@@ -569,8 +586,12 @@
 	  <link block="enemy_horror">
 	   <property name="Horror" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/location-front.jpg" default="False">
     <matches>
       <match name="Type" value="Location" />
@@ -603,8 +624,12 @@
 	  <link block="location_clues">
 	   <property name="Clues" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/treachery.jpg" default="False">
     <matches>
       <match name="Type" value="Treachery" />
@@ -621,8 +646,12 @@
 		<property name="Keywords" />
 		<property name="Text" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/agenda-back.jpg" default="False">
     <matches>
       <match name="Type" value="Agenda" />
@@ -639,8 +668,12 @@
 		<property name="Keywords" />
 		<property name="Text" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/act-back.jpg" default="False">
     <matches>
       <match name="Type" value="Act" />
@@ -657,8 +690,12 @@
 		<property name="Keywords" />
 		<property name="Text" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/agenda.jpg" default="False">
     <matches>
       <match name="Type" value="Agenda" />
@@ -677,8 +714,12 @@
 	  <link block="agenda_doom">
 	   <property name="Doom" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/act.jpg" default="False">
     <matches>
       <match name="Type" value="Act" />
@@ -697,8 +738,12 @@
 	  <link block="act_clues">
 	   <property name="Clues" />
 	  </link>
+	  <link block="victory">
+	   <property name="Victory Points" format="Victory {}." />
+	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/scenario.jpg" default="False">
     <matches>
       <match name="Type" value="Scenario" />
@@ -716,6 +761,7 @@
 	  </link>
     </textblocks>
   </template>
+  
   <template src="proxy/campaign.jpg" default="False">
     <matches>
       <match name="Type" value="Campaign" />
