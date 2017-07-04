@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Undimensioned and Unseen" id="aeafbc38-6263-37a4-2faf-a51e9899f154" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="bc9c240e-8ce5-3125-03cc-d00ed2265f3c" name="&quot;If it bleeds...&quot;">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="άή"/>
+    <property name="Text" value="Fast. Play after you defeat a Monster enemy.&#10;Each investigator at your location heals horror equal to that enemy's horror value."/>
+  </card>
+  <card id="0ddd4332-6338-3470-3816-14e36d0acba0" name="Springfield M1903">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="4"/>
+    <property name="Cost" value="4"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ήί"/>
+    <property name="Slot" value="Hand x 2"/>
+    <property name="Traits" value="Item. Weapon. Firearm."/>
+    <property name="Text" value="Uses (3 ammo).&#10;η Spend 1 ammo: Fight. You get +3 ή and deal +2 damage for this attack. Cannot be used to attack enemies engaged with you."/>
+  </card>
+  <card id="848cd99a-90a2-3c9a-2372-7a15c0c1f305" name="Inquiring Mind">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Skill Icons" value="ΰΰΰ"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="Commit to a skill test only if there is a clue at your location."/>
+  </card>
+  <card id="0889a878-d572-3be1-7f40-22dd81ed9c41" name="Expose Weakness">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="2"/>
+    <property name="Skill Icons" value="έήή"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Fast. Play during any θ player window.&#10;Choose an enemy at your location. Test έ (X), where X is that enemy's fight value. For each point you succeed by, reduce that enemy's fight value by 1 for the next attack performed against it this phase."/>
+  </card>
+  <card id="4f457cbf-7876-398d-8891-02d168d35117" name="Quick Thinking">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="If this skill test is successful by 2 or more, after it resolves, you may immediately take an action as if it were your turn (this action does not count toward the number of actions you can take each turn)."/>
+  </card>
+  <card id="ddc63adf-ce89-32d4-d646-da0ed6f6a53e" name="Lucky Dice">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="άί"/>
+    <property name="Slot" value="Accessory"/>
+    <property name="Traits" value="Item. Relic."/>
+    <property name="Text" value="Exceptional.&#10;ιAfter you reveal a chaos token, spend 2 resources: Ignore that chaos token and reveal another one to resolve. If that token has a ζ symbol, remove Lucky Dice from the game."/>
+  </card>
+  <card id="7610ae9e-804c-39e4-52f4-0a32b056a952" name="Opportunist">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="2"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Innate. Developed."/>
+    <property name="Text" value="Commit only to a skill test you are performing.&#10;If you succeed by 2 or more, return Opportunist to your hand after this test instead of discarding it."/>
+  </card>
+  <card id="32dcb67a-1693-3e39-577e-5681b0e3bf6c" name="Alyssa Graham">
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Speaker to the Dead"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="4"/>
+    <property name="Intellect" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="3"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Sorcerer."/>
+    <property name="Text" value="You get +1 έ.&#10;θ Exhaust Alyssa Graham: Look at the top card of either the encounter deck or any player deck. You may then add 1 doom to Alyssa Graham to place the looked-at card on the bottom of its deck."/>
+  </card>
+  <card id="7132a1db-2950-3b90-53c0-ca5198f76e8b" name="Rite of Seeking">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="4"/>
+    <property name="Cost" value="5"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (3 charges).&#10;ηSpend 1 charge: Investigate. Investigate using ά instead of έ. You get +2 ά for this test. If successful, you discover 2 additional clues at this location. If a α, β, γ, δ, or ζ symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn."/>
+  </card>
+  <card id="fea55cfd-6c1e-3bc0-c1ea-c3a7d88e66f2" name="Dark Horse">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Condition."/>
+    <property name="Text" value="Limit 1 per investigator.&#10;During the upkeep phase, you may choose to not gain resources.&#10;While you have no resources in your resource pool, you get +1 ά, +1 έ, +1 ή, and +1 ί."/>
+  </card>
+  <card id="e8763459-21ad-3b9a-5b20-f2dd2aa6d61e" name="Survival Instinct">
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Skill Icons" value="ίί"/>
+    <property name="Traits" value="Innate. Developed."/>
+    <property name="Text" value="If this test is successful during an evasion attempt, the evading investigator may immediately evade each other enemy engaged with him or her, and may move to a connecting location."/>
+  </card>
+  <card id="ab96d62c-14e4-39c4-d955-40a6c1e9928c" name="Undimensioned and Unseen">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="α: -1 for each Brood of Yog-Sothoth in play.&#10;β: Reveal another token. If you fail this test, take 1 horror.&#10;γ: 0. You must either remove all clue tokens from a Brood of Yog-Sothoth in play, or this token's modifier is -4 instead.&#10;δ: -3. If this token is revealed during an attack or evasion attempt against a Brood of Yog-Sothoth, it immediately attacks you."/>
+    <alternate name="Undimensioned and Unseen" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Text" value="α: -2 for each Brood of Yog-Sothoth in play.&#10;β: Reveal another token. If you fail this test, take 1 horror and 1 damage.&#10;γ: 0. You must either remove all clue tokens from a Brood of Yog-Sothoth in play, or this test automatically fails.&#10;δ: -5. If this token is revealed during an attack or evasion attempt against a Brood of Yog-Sothoth, it immediately attacks you."/>
+    </alternate>
+  </card>
+  <card id="4a84c6d9-fc71-33ae-67e5-45af752d0467" name="Rampaging Creatures" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <property name="Text" value="Forced - At the end of the enemy phase: Move each Brood of Yog-Sothoth enemy once toward a random location."/>
+    <alternate name="Calamity Strikes" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;Spawn 1 of the set-aside Brood of Yog-Sothoth enemies at a random location, if able."/>
+    </alternate>
+  </card>
+  <card id="a3722e93-93d8-3df2-b2bc-9f61491c501d" name="Biding Its Time" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Forced - At the end of the enemy phase: Move each Brood of Yog-Sothoth enemy once toward a random location."/>
+    <alternate name="No Place to Hide" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck. If there is a set-aside Brood of Yog-Sothoth, the lead investigator reads the following (out loud):&#10;Bleak storm clouds churn overhead and a blanket of rain pelts the countryside. As the downpour grows in intensity, you take refuge in a half-ruined shack nearby. There is a flash of lightning, and in the brief illumination, you spot the outline of something large in the rain. Without warning, the distant trees bend, though nothing seems to be bending them. Moments later, a force with the strength of a truck crashes into your refuge.&#10;Spawn 1 of the set-aside Brood of Yog-Sothoth enemies at the lead investigator's location, if able. Then, each investigator at that location tests ί (4). The newly spawned Brood of Yog-Sothoth makes an attack against each investigator who fails this skill test."/>
+    </alternate>
+  </card>
+  <card id="013e3d0e-9116-322d-13c2-2911ee28af1f" name="Horrors Unleashed" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Each Abomination enemy gets +1 fight and +1 evade.&#10;Forced - At the end of the enemy phase: Move each Brood of Yog-Sothoth enemy once toward a random location."/>
+    <alternate name="Into the Hills" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R1)"/>
+    </alternate>
+  </card>
+  <card id="a52c3b87-a72d-3d7a-584e-b58f1acc852a" name="Saracenic Script" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Act"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2π "/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - Only investigators at Whateley Ruins may spend the requisite number of clues, as a group, to advance."/>
+    <alternate name="Obtaining the Formula" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Act"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Check Campaign Log. If Dr. Armitage survived The Dunwich Legacy:&#10;&quot;There!&quot; Armitage sighs a breath of relief, jotting down the last phrases of the formula. &quot;I have translated the last of it.&quot; He shudders as he hands you the script, the words conjuring forth memories of his battle with the creature. &quot;I hope this is the last time I'll have to read it,&quot; he admits. &quot;But if we do nothing, the end result will be much, much worse.&quot;&#10;Each investigator puts into play 1 set-aside Esoteric Formula.&#10;If Dr. Armitage is listed under &quot;Sacrificed to Yog-Sothoth&quot;:&#10;Using the information contained within the ruins of the Whateley homestead, you are able to transcribe the remainder of the formula previously used by Dr. Armitage to destroy the beast that plagued Dunwich. However, the endeavor sets you back several hours.&#10;Each investigator puts into play 1 set-aside Esoteric Formula. Place 1 doom on the current agenda."/>
+    </alternate>
+  </card>
+  <card id="5f02f21d-10ac-334f-a5ab-e8110806a7a4" name="They Must Be Destroyed!" size="HorizCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Act"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - Defeat as many Brood of Yog-Sothoth enemies as you can. If there are no copies of Brood of Yog-Sothoth in play or set aside, advance."/>
+    <alternate name="The Brood is Ended" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Act"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R2)"/>
+    </alternate>
+  </card>
+  <card id="c1d5868b-aef1-3882-5ebc-ea834ef47bb3" name="Dunwich Village" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Dunwich Village" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="η: Resign. You hide from the creatures.&#10;θ: You borrow some hounds to track the creatures by scent. An investigator in Dunwich Village may place 1 of his or her clues on any Abomination enemy in play. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="95fa8c11-b1bb-31fe-8635-f069109a05da" name="Dunwich Village" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Dunwich Village" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="3"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="η: Resign. You hide from the creatures.&#10;η: Move a Brood of Yog-Sothoth enemy once toward Dunwich Village."/>
+    </alternate>
+  </card>
+  <card id="801efeb6-d38d-39ca-79fd-55308253777c" name="Cold Spring Glen" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Cold Spring Glen" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Each enemy in Cold Spring Glen gets -1 evade.&#10;θ: You lure the creature into the dense tree cover, and it becomes tangled. Investigators in Cold Spring Glen may, as a group, place up to 2 of their clues on an Abomination enemy in Cold Spring Glen. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="b88ffce0-0506-341a-9ccd-1f3cd44846ed" name="Cold Spring Glen" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Cold Spring Glen" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Each enemy in Cold Spring Glen gets -1 evade.&#10;ι After Cold Spring Glen is chosen as a random location: An investigator in Cold Spring Glen tests ί (3). If successful, choose a different random location."/>
+    </alternate>
+  </card>
+  <card id="70743e57-162c-358f-225e-1198e23f43f2" name="Ten-Acre Meadow" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Ten-Acre Meadow" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="θ: You lure the monster into the rain. Place 1 clue from the token bank on an Abomination enemy in Ten-Acre Meadow. At the end of the round, remove 1 clue from that enemy. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="570aa337-9cd2-3184-40c7-5c3a91dd1517" name="Ten-Acre Meadow" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Ten-Acre Meadow" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="3"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="θ: You set a bait using a live animal. Each investigator in Ten-Acre Meadow may place 1 of his or her clues on an Abomination enemy in Ten-Acre Meadow. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="b3481c64-4e50-302c-b557-81bab39e044b" name="Blasted Heath" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Blasted Heath" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="3"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="θ: You lure the creature into a patch of sand. Investigators in Blasted Heath may, as a group, place up to 2 of their clues on an Abomination enemy in Blasted Heath. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="16e6efe0-2ed2-3d90-6ba1-6262f05231b8" name="Blasted Heath" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Blasted Heath" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Forced - At the end of your turn, if you are in Blasted Heath: Take 1 damage."/>
+    </alternate>
+  </card>
+  <card id="77cafa34-0d3b-366d-47e1-5614a5e7291c" name="Whateley Ruins" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Whateley Ruins" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π "/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Each investigator in Whateley Ruins gets -1 ά.&#10;θ: You hurl a nearby canister of paint at the monster. An investigator in Whateley Ruins may place up to 3 of his or her clues on an Abomination enemy in Whateley Ruins. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="19139758-ff4e-3728-7bd9-8524b115a0e2" name="Whateley Ruins" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Whateley Ruins" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π "/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Each investigator in Whateley Ruins gets -1 ά.&#10;η: Test έ (4). If you are successful, move a Brood of Yog-Sothoth enemy 1 location in any direction."/>
+    </alternate>
+  </card>
+  <card id="133dea2e-5ded-3c05-59f7-4a7ba47256b3" name="Devil's Hop Yard" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Devil's Hop Yard" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="θ: You lure the creature into the thick fog. An investigator in Devil's Hop Yard may place up to 2 of his or her clues on an Abomination enemy in Devil's Hop Yard. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="d7ff2904-e1fd-3c21-bccc-207ac14bf965" name="Devil's Hop Yard" size="EncounterCard">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Devil's Hop Yard" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Undimensioned and Unseen"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π "/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="θ: The creature follows you into the mud. Each investigator in Devil's Hop Yard may place 1 of his or her clues on an Abomination enemy in Devil's Hop Yard. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="404128bb-f298-33c3-2067-1cb06c0b32d0" name="Esoteric Formula">
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="0"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="η Fight. This attack uses ά instead of ή. You get +2 ά for this attack for each clue on the attacked enemy. Use this ability only on an Abomination enemy."/>
+  </card>
+  <card id="53354184-415b-37e9-cb94-e1079c75fe23" name="Brood of Yog-Sothoth" size="EncounterCard">
+    <property name="Quantity" value="5"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="6"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="1"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Text" value="Massive.&#10;Brood of Yog-Sothoth gets +1π  health and cannot be damaged or attacked except using the ability on Esoteric Formula."/>
+  </card>
+  <card id="d3945abd-28b0-38c7-5151-9d8ec792ca1c" name="Towering Beasts" size="EncounterCard">
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="Peril.&#10;Revelation - Attach to a Brood of Yog-Sothoth enemy in play. If that enemy is at your location, take 1 damage.&#10;Attached enemy gets +1 fight and +1 health."/>
+  </card>
+  <card id="be3de547-6321-3638-f9fd-cc2dae5a9f14" name="Ruin and Destruction" size="EncounterCard">
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - If there are no investigators at the same location as a Brood of Yog-Sothoth, Ruin and Destruction gains surge. Otherwise, each investigator at the same location as a Brood of Yog-Sothoth tests ί (3). For each point he or she fails by, he or she takes 1 damage."/>
+  </card>
+  <card id="f2615fa2-fe0d-3801-07fb-a24b972d009a" name="Attracting Attention" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Text" value="Surge.&#10;Revelation - Each Brood of Yog-Sothoth enemy in play moves once toward you."/>
+  </card>
+  <card id="128a3a7a-b33f-3f6b-125b-ebcd65d22ab7" name="The Creatures' Tracks" size="EncounterCard">
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Undimensioned and Unseen"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Peril.&#10;Revelation - You must either (choose one): Take 2 horror, or spawn a set aside Brood of Yog-Sothoth at a random location."/>
+  </card>
+ </cards>
+</set>
