@@ -5,6 +5,8 @@
 Features:
 - Added ability to mulligan by right-clicking on hand cards
 - Added check for hand size during upkeep (or ctrl-n)
+- Added Undimensioned and Unseen
+- Added Where Doom Awaits
 
 Fixes:
 - Proxies now show Victory Points
