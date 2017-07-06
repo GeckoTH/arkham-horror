@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Essex County Express" id="44edf89b-3aa9-40d3-8e46-d2b3247aca05" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="1e29109a-6d0b-4cf3-a067-4463d7d4329b" name="Bandolier">
+    <property name="Card Number" value="147"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Guardian"/>
@@ -14,6 +15,7 @@
     <property name="Text" value="You have 1 additional hand slot, which can only be used to hold a Weapon asset."/>
   </card>
   <card id="ac482b5a-6cd0-48f5-bdd5-f054c2fe5c7c" name="Stand Together">
+    <property name="Card Number" value="148"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
@@ -24,6 +26,7 @@
     <property name="Text" value="Choose another investigator at your location. Both you and that investigator draw 2 cards and gain 2 resources."/>
   </card>
   <card id="edf392cc-88a7-4f11-8893-ccb2bfd04db7" name="Art Student">
+    <property name="Card Number" value="149"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Seeker"/>
@@ -36,6 +39,7 @@
     <property name="Text" value="ι When Art Student enters play: Discover 1 clue at your location."/>
   </card>
   <card id="f5f8a18a-a449-42c6-9e31-75ed7f95b313" name="Deduction">
+    <property name="Card Number" value="150"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Seeker"/>
@@ -45,6 +49,7 @@
     <property name="Text" value="If the skill test is successful while investigating a location, discover 1 additional clue at that location (2 additional clues instead if succeed by 2 or more)."/>
   </card>
   <card id="e4137ee1-3e1d-4144-826a-baf74bbad176" name="&quot;I'm outta here!&quot;">
+    <property name="Card Number" value="151"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
@@ -54,6 +59,7 @@
     <property name="Text" value="Play only if there is a scenario card with a 'resign' ability in play.&#10;Resign. You get the hell outta here."/>
   </card>
   <card id="de2cf76a-1686-47f6-b683-d7967703b225" name="Switchblade">
+    <property name="Card Number" value="152"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
@@ -65,6 +71,7 @@
     <property name="Text" value="Fast.&#10;η Fight. You get +2 ή for this attack. If you succeed by 2 or more, this attack deals +1 damage."/>
   </card>
   <card id="1d1c16b0-53d7-4c36-8d1a-a7fec999f548" name="Hypnotic Gaze">
+    <property name="Card Number" value="153"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Mystic"/>
@@ -75,6 +82,7 @@
     <property name="Text" value="Fast.&#10; Play when an enemy attacks an investigator at your location. Cancel that attack. Then, reveal a random token from the chaos bag. If it has a α, β, γ, δ, or ζ symbol, deal the attacking enemy's damage to itself. "/>
   </card>
   <card id="55ff0237-950e-4aad-8a21-1818db86c867" name="Shrivelling">
+    <property name="Card Number" value="154"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
@@ -86,6 +94,7 @@
     <property name="Text" value="Uses: 4 charges.&#10;η, Spend one charge: Fight. This attack uses ά instead of ή. You get +2 ά and deal +1 damage for this attack. If a α, β, γ, δ, or ζ symbol is revealed during this attack, take 1 horror. "/>
   </card>
   <card id="5be07212-70ea-46da-abfa-e93ae7284c4a" name="Newspaper">
+    <property name="Card Number" value="155"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Survivor"/>
@@ -96,6 +105,7 @@
     <property name="Text" value="You get +2 έ while investigating if you have no clues."/>
   </card>
   <card id="051819cf-b50e-4c35-beaa-be9007d403c8" name="Lure">
+    <property name="Card Number" value="156"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Survivor"/>
@@ -107,6 +117,7 @@
     <property name="Text" value="Attach to your location.&#10; During the enemy phase, each enemy that moves does so along the shortest path toward the attached location, instead of to where it would normally move.&#10; Forced: While attached, at the end of the round: Discard Lure. "/>
   </card>
   <card id="fd8b2b95-80bd-4e66-ba10-1a20e78a7347" name="Relic Hunter">
+    <property name="Card Number" value="157"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
@@ -117,6 +128,7 @@
     <property name="Text" value="You have 1 additional accessory slot."/>
   </card>
   <card id="4efb8c8b-170a-43e8-850b-f41180416ede" name="Charisma">
+    <property name="Card Number" value="158"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
@@ -127,6 +139,7 @@
     <property name="Text" value="You have 1 additional ally slot."/>
   </card>
   <card id="40b38553-7230-4d42-a49a-6a0642043795" name="The Essex County Express">
+    <property name="Card Number" value="159"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Subtitle" value="EASY / STANDARD"/>
@@ -140,6 +153,7 @@
     </alternate>
   </card>
   <card id="7c0d58a3-923e-4166-bcb7-21103a12c87d" name="A Tear in Reality" size="HorizCard">
+    <property name="Card Number" value="160"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Agenda"/>
@@ -158,6 +172,7 @@
     </alternate>
   </card>
   <card id="4b840ab3-fe92-4dd1-a033-367acd00483d" name="The Maw Widens" size="HorizCard">
+    <property name="Card Number" value="161"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Agenda"/>
@@ -176,6 +191,7 @@
     </alternate>
   </card>
   <card id="83cdf27e-8859-4bf1-a059-16c4b0b2debe" name="Rolling Backwards" size="HorizCard">
+    <property name="Card Number" value="162"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Agenda"/>
@@ -194,6 +210,7 @@
     </alternate>
   </card>
   <card id="3be21bb0-41ef-43e2-b27a-d46277538700" name="Drawn In" size="HorizCard">
+    <property name="Card Number" value="163"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Agenda"/>
@@ -212,6 +229,7 @@
     </alternate>
   </card>
   <card id="38e3f3a8-2bdf-40df-9ca1-32c134fe6a86" name="Out of Time" size="HorizCard">
+    <property name="Card Number" value="164"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Agenda"/>
@@ -230,6 +248,7 @@
     </alternate>
   </card>
   <card id="c6ee1772-439f-4aec-9753-74a004781ab6" name="Run!" size="HorizCard">
+    <property name="Card Number" value="165"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Act"/>
@@ -249,6 +268,7 @@
     </alternate>
   </card>
   <card id="5c6c0ff3-6a0b-4e07-aad1-0900bb1561e4" name="Get the Engine Running!" size="HorizCard">
+    <property name="Card Number" value="166"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Act"/>
@@ -268,6 +288,7 @@
     </alternate>
   </card>
   <card id="eaa8917a-54ff-4331-a871-e76b08991946" name="Train Car" size="EncounterCard">
+    <property name="Card Number" value="167"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -286,6 +307,7 @@
     </alternate>
   </card>
   <card id="077e592c-dce6-4c53-9884-c4e48c808040" name="Train Car" size="EncounterCard">
+    <property name="Card Number" value="168"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -304,6 +326,7 @@
     </alternate>
   </card>
   <card id="a53c0178-2f86-4181-b10c-ed7fc19a3d22" name="Train Car" size="EncounterCard">
+    <property name="Card Number" value="169"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -322,6 +345,7 @@
     </alternate>
   </card>
   <card id="d55e31c2-01e5-453b-bbc5-10f40b7378b7" name="Train Car" size="EncounterCard">
+    <property name="Card Number" value="170"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -340,6 +364,7 @@
     </alternate>
   </card>
   <card id="2a28733d-97b3-4fd7-a622-d324b88b4c5f" name="Train Car" size="EncounterCard">
+    <property name="Card Number" value="171"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -358,6 +383,7 @@
     </alternate>
   </card>
   <card id="185db0e8-83d8-4eb1-893e-efc8fc29957c" name="Train Car" size="EncounterCard">
+    <property name="Card Number" value="172"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -376,6 +402,7 @@
     </alternate>
   </card>
   <card id="54373a69-f67d-411e-871f-da380d1a0f6f" name="Train Car" size="EncounterCard">
+    <property name="Card Number" value="173"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -394,6 +421,7 @@
     </alternate>
   </card>
   <card id="dbacf932-2cdc-41b0-b66e-0e1bc1b27ea6" name="Train Car" size="EncounterCard">
+    <property name="Card Number" value="174"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -413,6 +441,7 @@
     </alternate>
   </card>
   <card id="f9a869b9-eaba-4399-a2fc-028f4405ffe2" name="Engine Car" size="EncounterCard">
+    <property name="Card Number" value="175"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -432,6 +461,7 @@
     </alternate>
   </card>
   <card id="3188db25-0991-49a3-85ec-649aa625d496" name="Engine Car" size="EncounterCard">
+    <property name="Card Number" value="176"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -451,6 +481,7 @@
     </alternate>
   </card>
   <card id="b0945cec-dda6-49de-b46f-863e00c340e9" name="Engine Car" size="EncounterCard">
+    <property name="Card Number" value="177"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Location"/>
@@ -470,6 +501,7 @@
     </alternate>
   </card>
   <card id="5653d003-ce1a-49b0-87c1-a77ebd5f5d5e" name="Across Space and Time">
+    <property name="Card Number" value="178"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Treachery"/>
@@ -479,6 +511,7 @@
     <property name="Text" value="Revelation - Discard the top 3 cards of your deck."/>
   </card>
   <card id="6046fa8a-0995-4fd0-b65c-b406e8e46d87" name="Helpless Passenger" size="EncounterCard">
+    <property name="Card Number" value="179"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Asset"/>
@@ -491,6 +524,7 @@
     <property name="Text" value="Revelation - Put Helpless Passenger into play at the location to your left (or at your location if you cannot).&#10;η Parley. Take control of Helpless Passenger.&#10;Forced - If Helpless Passenger leaves play: Each investigator takes 1 horror."/>
   </card>
   <card id="5aeeb6cb-d92c-4faa-9d67-a6c1237fee10" name="Claws of Steam" size="EncounterCard">
+    <property name="Card Number" value="180"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Treachery"/>
@@ -498,6 +532,7 @@
     <property name="Text" value="Revelation - Test ά (3). If you fail, take 2 damage and you cannot move from this location this round. Damage from this effect must be assigned to your assets first, if able."/>
   </card>
   <card id="e0ca7fde-38e2-4420-b70d-0d65335ba33d" name="Broken Rails" size="EncounterCard">
+    <property name="Card Number" value="181"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Treachery"/>
@@ -505,6 +540,7 @@
     <property name="Text" value="Revelation - Each investigator at your location loses 1 action. Each investigator at your location with 4 or more damage must also discard an asset he or she controls."/>
   </card>
   <card id="eb014f0d-976e-482e-965b-4e726cfcb252" name="Grappling Horror" size="EncounterCard">
+    <property name="Card Number" value="182"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Enemy"/>
@@ -517,6 +553,7 @@
     <property name="Text" value="Hunter.&#10;While you are engaged with Grappling Horror, you cannot move."/>
   </card>
   <card id="359656d6-7ab1-478f-a2bb-3a86232a3a2f" name="Emergent Monstrosity" size="EncounterCard">
+    <property name="Card Number" value="183"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Essex County Express"/>
     <property name="Type" value="Enemy"/>

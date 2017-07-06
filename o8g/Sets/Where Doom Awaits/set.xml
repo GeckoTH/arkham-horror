@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Where Doom Awaits" id="00351560-5d00-35f9-991c-cee41e081de5" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="7c8c8a68-5331-3252-13e9-7b6f6001ad7b" name="Leadership">
+    <property name="Card Number" value="260"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Guardian"/>
@@ -11,6 +12,7 @@
     <property name="Text" value="While Leadership is committed to a skill test being performed by another investigator, Leadership gains ά ΰ."/>
   </card>
   <card id="d254b566-29c6-39b7-1dad-fd4ca7767fbf" name="&quot;I've had worse…&quot;">
+    <property name="Card Number" value="261"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
@@ -23,6 +25,7 @@
     <property name="Text" value="Fast. Play when you are dealt damage and/or horror.&#10;Cancel up to 5 damage and/or horror just dealt to you. Then, gain that many resources."/>
   </card>
   <card id="4302be9e-3abe-33e3-3a1d-e938a50aa741" name="Strange Solution">
+    <property name="Card Number" value="262"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Restorative Concoction"/>
     <property name="Type" value="Asset"/>
@@ -35,6 +38,7 @@
     <property name="Text" value="You can only include this asset in your deck by upgrading it from Strange Solution (Unidentified), and only if you have &quot;identified the solution&quot; in your Campaign Log.&#10;Uses (4 supplies).&#10;η Spend 1 supply: Heal 2 damage from an investigator at your location."/>
   </card>
   <card id="33cfc081-1ed0-3c8e-1ad0-7cc2b9060f51" name="Strange Solution">
+    <property name="Card Number" value="263"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Acidic Ichor"/>
     <property name="Type" value="Asset"/>
@@ -47,6 +51,7 @@
     <property name="Text" value="You can only include this asset in your deck by upgrading it from Strange Solution (Unidentified), and only if you have &quot;identified the solution&quot; in your Campaign Log.&#10;Uses (3 supplies).&#10;η Spend 1 supply: Fight. Attack with a base ή skill of 6. This attack deals +2 damage."/>
   </card>
   <card id="8ddaab64-3e36-397f-c779-3163fc4b0a4f" name="Strange Solution">
+    <property name="Card Number" value="264"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Freezing Variant"/>
     <property name="Type" value="Asset"/>
@@ -59,6 +64,7 @@
     <property name="Text" value="You can only include this asset in your deck by upgrading it from Strange Solution (Unidentified), and only if you have &quot;identified the solution&quot; in your Campaign Log.&#10;Uses (4 supplies).&#10;η Spend 1 supply: Evade. Evade with a base ί skill of 6."/>
   </card>
   <card id="3e491307-bb92-3cbf-cec7-d84f7349cef6" name="Joey &quot;The Rat&quot; Vigil">
+    <property name="Card Number" value="265"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Lookin' Out for #1"/>
     <property name="Unique" value="ο"/>
@@ -75,6 +81,7 @@
     <property name="Text" value="θ Spend 1 resource: Choose an Item asset from your hand and play it (paying its cost)."/>
   </card>
   <card id="0b63b793-9228-3e85-f368-25da786550b7" name="Ace in the Hole">
+    <property name="Card Number" value="266"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
@@ -84,6 +91,7 @@
     <property name="Text" value="Exceptional. Fast. Play only during your turn.&#10;You may take an additional 3 actions this turn."/>
   </card>
   <card id="1bcd110b-817c-337c-06e7-6969c83040aa" name="Moonlight Ritual">
+    <property name="Card Number" value="267"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Mystic"/>
@@ -96,6 +104,7 @@
     <property name="Text" value="Remove all doom from 1 card you control."/>
   </card>
   <card id="10e415d4-841f-33b6-2240-cac9dc445365" name="Fearless">
+    <property name="Card Number" value="268"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Mystic"/>
@@ -106,6 +115,7 @@
     <property name="Text" value="If this skill test is successful, heal 1 horror (2 horror instead if it succeeds by 2 or more)."/>
   </card>
   <card id="015a2f11-fe7a-3aed-a970-76b6ee7db684" name="Jewel of Aureolus">
+    <property name="Card Number" value="269"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Gift of the Homunculi"/>
     <property name="Unique" value="ο"/>
@@ -119,6 +129,7 @@
     <property name="Text" value="ι After a α, β, γ, δ, or ζ symbol is revealed during a skill test at your location, exhaust Jewel of Aureolus: Draw 1 card or gain 2 resources."/>
   </card>
   <card id="e21e2612-face-3b06-588e-e279d33e8c23" name="A Chance Encounter">
+    <property name="Card Number" value="270"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Survivor"/>
@@ -131,6 +142,7 @@
     <property name="Text" value="Choose an Ally asset in any player's discard pile. Put that asset into play under your control. At the end of the round, if that asset is still in play, discard it."/>
   </card>
   <card id="8b10077e-4845-3780-17dd-5efedf528247" name="Stroke of Luck">
+    <property name="Card Number" value="271"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Survivor"/>
@@ -140,6 +152,7 @@
     <property name="Text" value="Commit only to a skill test you are performing.&#10;After revealing chaos tokens for this test, you may choose to exile Stroke of Luck. If you do, this test is automatically successful (unless a ζ token was revealed)."/>
   </card>
   <card id="6daaf995-ef17-3dc1-b5a8-a8ed0c11c92e" name="Fine Clothes">
+    <property name="Card Number" value="272"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
@@ -154,6 +167,7 @@
     <property name="Text" value="Reduce the difficulty of skill tests you perform during 'parley' actions by 2."/>
   </card>
   <card id="de0d2593-e954-38d3-a229-88d4174809c2" name="Moment of Respite">
+    <property name="Card Number" value="273"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Neutral"/>
@@ -165,6 +179,7 @@
     <property name="Text" value="Play only if there are no enemies at your location.&#10;Heal 3 horror and draw 1 card."/>
   </card>
   <card id="03fe08bf-2232-336d-c9b6-2eb4d6d7cbab" name="Where Doom Awaits">
+    <property name="Card Number" value="274"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Subtitle" value="EASY / STANDARD"/>
@@ -178,6 +193,7 @@
     </alternate>
   </card>
   <card id="a3c0d6f8-b99f-3379-18cc-dfcbd78f34e2" name="Calling Forth the Old Ones" size="HorizCard">
+    <property name="Card Number" value="275"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Agenda"/>
@@ -194,6 +210,7 @@
     </alternate>
   </card>
   <card id="97bdedbd-8cea-3c3a-383f-1cea0ca32897" name="Beckoning for Power" size="HorizCard">
+    <property name="Card Number" value="276"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Agenda"/>
@@ -210,6 +227,7 @@
     </alternate>
   </card>
   <card id="4c38913a-a772-3062-ab03-bf41506990d3" name="The Path to the Hill" size="HorizCard">
+    <property name="Card Number" value="277"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Act"/>
@@ -227,6 +245,7 @@
     </alternate>
   </card>
   <card id="96aeb454-c632-3826-9434-837a14f86d71" name="Ascending the Hill (v. I)" size="HorizCard">
+    <property name="Card Number" value="278"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Act"/>
@@ -244,6 +263,7 @@
     </alternate>
   </card>
   <card id="ee4ecf60-0175-3a53-6e3e-61aefdccc66e" name="Ascending the Hill (v. II)" size="HorizCard">
+    <property name="Card Number" value="279"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Act"/>
@@ -261,6 +281,7 @@
     </alternate>
   </card>
   <card id="dbc77522-691c-348c-78a4-a2a867140219" name="Ascending the Hill (v. III)" size="HorizCard">
+    <property name="Card Number" value="280"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Act"/>
@@ -278,6 +299,7 @@
     </alternate>
   </card>
   <card id="5fc311d8-66eb-39a8-9b35-4e004a67bd53" name="The Gate Opens" size="HorizCard">
+    <property name="Card Number" value="281"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Act"/>
@@ -295,6 +317,7 @@
     </alternate>
   </card>
   <card id="0a0ee2c3-45e6-39d6-baab-9e1b95da27f5" name="Base of the Hill" size="EncounterCard">
+    <property name="Card Number" value="282"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -313,6 +336,7 @@
     </alternate>
   </card>
   <card id="5f2ec12f-3aa8-3508-a97b-6fac4e2fb6a2" name="Ascending Path" size="EncounterCard">
+    <property name="Card Number" value="283"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -332,6 +356,7 @@
     </alternate>
   </card>
   <card id="28edb79d-36af-3c02-60bb-5364b092fa79" name="Sentinel Peak" size="EncounterCard">
+    <property name="Card Number" value="284"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -352,6 +377,7 @@
     </alternate>
   </card>
   <card id="8ff015b2-9c54-3500-e748-9496efb74949" name="Diverging Path" size="EncounterCard">
+    <property name="Card Number" value="285"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -370,6 +396,7 @@
     </alternate>
   </card>
   <card id="37f30f94-f621-3b6e-b8f9-9da7404504d6" name="Diverging Path" size="EncounterCard">
+    <property name="Card Number" value="286"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -388,6 +415,7 @@
     </alternate>
   </card>
   <card id="c366685d-37e4-3b81-6c4e-37797290dea1" name="Diverging Path" size="EncounterCard">
+    <property name="Card Number" value="287"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -406,6 +434,7 @@
     </alternate>
   </card>
   <card id="4bdb897e-7b25-3990-420c-8f629cd15c6b" name="Diverging Path" size="EncounterCard">
+    <property name="Card Number" value="288"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -424,6 +453,7 @@
     </alternate>
   </card>
   <card id="c7b0add2-3f51-3956-2de1-e41cdbb7bcf5" name="Altered Path" size="EncounterCard">
+    <property name="Card Number" value="289"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -442,6 +472,7 @@
     </alternate>
   </card>
   <card id="7fd45260-1c98-3d6a-feb0-2689ff51e1c4" name="Altered Path" size="EncounterCard">
+    <property name="Card Number" value="290"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -460,6 +491,7 @@
     </alternate>
   </card>
   <card id="25b6e5e5-a0cf-3fdb-252b-1dd2e676d2c0" name="Altered Path" size="EncounterCard">
+    <property name="Card Number" value="291"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -478,6 +510,7 @@
     </alternate>
   </card>
   <card id="ba8e0fa8-e151-3a57-f1d0-7707cc7e8f7c" name="Altered Path" size="EncounterCard">
+    <property name="Card Number" value="292"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Location"/>
@@ -496,6 +529,7 @@
     </alternate>
   </card>
   <card id="5734f99e-a1a5-3307-c97c-449ec0f3abad" name="Seth Bishop" size="EncounterCard">
+    <property name="Card Number" value="293"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Subtitle" value="Sorcerer of Dunwich"/>
@@ -511,6 +545,7 @@
     <property name="Text" value="Retaliate."/>
   </card>
   <card id="d03df51a-f505-3b5b-2384-f9b2866ca302" name="Devotee of the Key" size="EncounterCard">
+    <property name="Card Number" value="294"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Enemy"/>
@@ -523,6 +558,7 @@
     <property name="Text" value="Spawn - Base of the Hill.&#10;Forced - At the end of the enemy phase, Devotee of the Key moves once toward Sentinel Peak. If Devotee of the Key is already at Sentinel Peak, discard it and add 2 doom to the current agenda, instead."/>
   </card>
   <card id="07d85d4c-3766-3a12-b5c9-1b06f0cae54c" name="Crazed Shoggoth" size="EncounterCard">
+    <property name="Card Number" value="295"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Enemy"/>
@@ -536,6 +572,7 @@
     <property name="Text" value="Spawn - Nearest Altered location.&#10;Forced - When Crazed Shoggoth attacks: If this attack would defeat an investigator, that investigator is instead killed."/>
   </card>
   <card id="557b00ba-0fa5-3ce8-8b17-42ad93ef4171" name="Rites Howled" size="EncounterCard">
+    <property name="Card Number" value="296"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Treachery"/>
@@ -543,6 +580,7 @@
     <property name="Text" value="Revelation - Discard the top 3 cards of each investigator's deck. Each investigator at an Altered location shuffles each weakness in his or her discard pile into his or her deck."/>
   </card>
   <card id="df5d978a-eb40-3fba-3867-7bc2d0257d53" name="Spaces Between" size="EncounterCard">
+    <property name="Card Number" value="297"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Treachery"/>
@@ -550,6 +588,7 @@
     <property name="Text" value="Revelation - Flip each non-Sentinel Hill location in play to its unrevealed side, removing all clues from it. Each investigator and enemy at a location flipped in this way immediately moves to the nearest Sentinel Hill location. Shuffle each non-Sentinel Hill location, so the players do not know which is which."/>
   </card>
   <card id="f2e7e825-2ff3-3b06-7b2f-0106b89748e5" name="Vortex of Time" size="EncounterCard">
+    <property name="Card Number" value="298"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Type" value="Treachery"/>

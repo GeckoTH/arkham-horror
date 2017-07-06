@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Carnevale of Horrors" id="c3db1608-3e6a-4c50-a19c-54e662919986" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="12e64693-5081-4df7-b782-d0c65f970837" name="Carnevale of Horrors">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Scenario"/>
@@ -13,6 +14,7 @@
     </alternate>
   </card>
   <card id="df403021-1bf1-41f5-b043-23a1cf8a4471" name="The Festivities Begin" size="HorizCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Agenda"/>
@@ -27,7 +29,7 @@
       <property name="Type" value="Enemy"/>
       <property name="Combat" value="4"/>
       <property name="Agility" value="3"/>
-      <property name="Health" value="5π"/>
+      <property name="Health" value="5"/>
       <property name="Damage" value="2"/>
       <property name="Horror" value="2"/>
       <property name="Shroud" value=""/>
@@ -40,6 +42,7 @@
     </alternate>
   </card>
   <card id="0bcfe5c2-2bfe-4d94-89bb-e57e45c06a1d" name="Baleful Reveler" size="EncounterCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Subtitle" value="Spreading Chaos"/>
@@ -56,6 +59,7 @@
     <property name="Text" value="Forced - After Baleful Reveler moves from the hunter keyword, reveal a random token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, resolve its hunter keyword again. (Limit once per round.)"/>
   </card>
   <card id="5fb3f545-1b74-4cca-82bf-70044c777233" name="The Shadow of the Eclipse" size="HorizCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Agenda"/>
@@ -74,6 +78,7 @@
     </alternate>
   </card>
   <card id="465b0548-4bc3-42b5-94d2-8c56839ffe26" name="Chaos at the Carnevale" size="HorizCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Agenda"/>
@@ -93,6 +98,7 @@
     </alternate>
   </card>
   <card id="5cdb7485-0510-4154-a95b-7ee9f921ef2b" name="The Carnevale Conspiracy" size="HorizCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Act"/>
@@ -112,6 +118,7 @@
     </alternate>
   </card>
   <card id="301a65e6-d1ba-4b05-afd3-274822a0ebe2" name="Get to the Boats!" size="HorizCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Act"/>
@@ -131,6 +138,7 @@
     </alternate>
   </card>
   <card id="f5a94be0-46b8-4421-ae5d-e78f69f5e752" name="Gondola" size="EncounterCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -141,6 +149,7 @@
     <property name="Text" value="Revelation - Put Gondola into play and move each investigator to it. Then, remove all other locations from the game. Remove from the game each enemy and asset at those locations, as well.&#10;η: Test ή or ί (2) to row as hard as you can. If you succeed, place 1 resource from the token bank on this location."/>
   </card>
   <card id="251a1d13-d6df-44d8-b7f9-1e9530cd9aa0" name="Row!" size="HorizCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Act"/>
@@ -159,6 +168,7 @@
     </alternate>
   </card>
   <card id="f8ed894a-eb07-4aaa-8f9b-c75c54fda205" name="San Marco Basilica" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -178,6 +188,7 @@
     </alternate>
   </card>
   <card id="5fe3f262-63c7-4f75-8aa4-ace2bd626517" name="Canal-side" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -197,6 +208,7 @@
     </alternate>
   </card>
   <card id="08f83237-d86e-4f23-abd7-4ff1db2873f8" name="Streets of Veince" size="EncounterCard">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -216,6 +228,7 @@
     </alternate>
   </card>
   <card id="0cc17a30-bd37-41a0-b8ed-c0fef10abb97" name="Rialto Bridge" size="EncounterCard">
+    <property name="Card Number" value="11"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -235,6 +248,7 @@
     </alternate>
   </card>
   <card id="f9f1e203-30d8-4b7a-8062-d4135c727f65" name="Venetian Garden" size="EncounterCard">
+    <property name="Card Number" value="12"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -247,13 +261,14 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1π"/>
+      <property name="Clues" value="1"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="Venetian Garden is connected to the location in the clockwise direction.&#10;ηη Spend 2 resources: Heal 2 horror. (Limit once per game.)"/>
     </alternate>
   </card>
   <card id="bda65d6e-fb86-4b41-a575-595479e53ed0" name="Bridge of Sighs" size="EncounterCard">
+    <property name="Card Number" value="13"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -273,6 +288,7 @@
     </alternate>
   </card>
   <card id="f1b60ac1-536c-4e98-b2ca-e71386ebab6d" name="Flooded Square" size="EncounterCard">
+    <property name="Card Number" value="14"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -285,13 +301,14 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="1π"/>
+      <property name="Clues" value="1"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="Flooded Square is connected to the location in the clockwise direction.&#10;η: Automatically evade a non-Elite enemy at the location in the counter-clockwise direction. (Group limit once per turn.)"/>
     </alternate>
   </card>
   <card id="33c71654-227f-44ac-90bf-c0550d14fb5e" name="Accademia Bridge" size="EncounterCard">
+    <property name="Card Number" value="15"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -304,13 +321,14 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1π"/>
+      <property name="Clues" value="1"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice. Bridge."/>
       <property name="Text" value="Accademia Bridge is connected to the location in the clockwise direction.&#10;Forced - After you leave Accademia Bridge: Lose 2 resources."/>
     </alternate>
   </card>
   <card id="e4b91703-d264-4aaa-93f4-878207232031" name="The Guardian" size="EncounterCard">
+    <property name="Card Number" value="16"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Location"/>
@@ -323,13 +341,14 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="2π"/>
+      <property name="Clues" value="2"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="The Guardian is connected to the location in the clockwise direction.&#10;ι After you enter The Guardian: Draw 1 card."/>
     </alternate>
   </card>
   <card id="d970c25b-c61d-4abe-841d-442ec907b4fb" name="Don Lagorio" size="EncounterCard">
+    <property name="Card Number" value="17"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Subtitle" value="Secret Servant"/>
@@ -352,6 +371,7 @@
     </alternate>
   </card>
   <card id="4c4faf51-f697-4c74-8859-c4b5221d5897" name="Elisabetta Margo" size="EncounterCard">
+    <property name="Card Number" value="18"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Subtitle" value="High Servant of the Order"/>
@@ -374,6 +394,7 @@
     </alternate>
   </card>
   <card id="7dd9e264-2dce-40e2-be80-44ce5285430b" name="Salvatore Neri" size="EncounterCard">
+    <property name="Card Number" value="19"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Subtitle" value="Master of Illusions"/>
@@ -396,6 +417,7 @@
     </alternate>
   </card>
   <card id="ad4fc422-bdb7-4308-a7df-009022796002" name="Savio Corvi" size="EncounterCard">
+    <property name="Card Number" value="20"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Subtitle" value="Dark Lurker"/>
@@ -418,6 +440,7 @@
     </alternate>
   </card>
   <card id="e77f99ff-5c58-4dd8-9889-87f039493046" name="Innocent Reveler">
+    <property name="Card Number" value="21"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Asset"/>
@@ -435,6 +458,7 @@
     </alternate>
   </card>
   <card id="0c66f5c7-85f9-4177-9624-0638bd33770b" name="Abbess Allegria Di Biase">
+    <property name="Card Number" value="22"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Subtitle" value="Most Blessed"/>
@@ -452,6 +476,7 @@
     <property name="Text" value="θ: Exhaust Abbess Allegria Di Biase: Move from her location to a connecting location, or to her location from a location connected to it. Any investigator may trigger this ability."/>
   </card>
   <card id="6d6ee9e8-36f8-44ce-98d2-71473f012766" name="Bauta">
+    <property name="Card Number" value="23"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Asset"/>
@@ -463,6 +488,7 @@
     <property name="Text" value="Limit 1 Mask in play.&#10;ι After Bauta enters play: Gain 2 resources.&#10;ι When you initiate a non-ή test, discard Bauta: Use ή for this test, instead of the skill indicated."/>
   </card>
   <card id="f315a777-d2a9-46bc-8f33-bc76b6af4574" name="Medico Della Peste">
+    <property name="Card Number" value="24"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Asset"/>
@@ -474,6 +500,7 @@
     <property name="Text" value="Limit 1 Mask in play.&#10;ι After Medico Della Peste enters play: You heal 1 damage or 1 horror.&#10;ι When you initiate a non-ά test, discard Medico Della Peste: Use ά for this test, instead of the skill indicated."/>
   </card>
   <card id="0da4fcab-eb94-4c2d-a905-038add220968" name="Pantalone">
+    <property name="Card Number" value="25"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Asset"/>
@@ -485,6 +512,7 @@
     <property name="Text" value="Limit 1 Mask in play.&#10;ι After Pantalone enters play: Draw 2 cards.&#10;ι When you initiate a non-έ test, discard Pantalone: Use έ for this test, instead of the skill indicated."/>
   </card>
   <card id="0edf876f-6d5c-4c98-9c69-92fee863b780" name="Gilded Volto">
+    <property name="Card Number" value="24"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Asset"/>
@@ -496,6 +524,7 @@
     <property name="Text" value="Limit 1 Mask in play.&#10;ι After Gilded Volto enters play: Treat the next asset you play this turn as if it has fast.&#10;ι When you initiate a non-ί test, discard Gilded Volto: Use ί for this test, instead of the skill indicated."/>
   </card>
   <card id="799e0d3c-6f3f-41de-8430-4cb775804597" name="Cnidathqua" size="EncounterCard">
+    <property name="Card Number" value="27"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Subtitle" value="The Many-armed Beast"/>
@@ -509,6 +538,7 @@
     <property name="Text" value="You may fight Cnidathqua as if it were at your location (it is not engaged with you).&#10;Cnidathqua cannot be evaded.&#10;Forced - After you fail a test while attacking Cnidathqua: Search the encounter deck and discard pile for a Writhing Appendage and spawn it engaged with you.&#10;Objective - If Cnidathqua is defeated, (→R2)."/>
   </card>
   <card id="63d81504-f5bd-4136-82ec-55d8590aeec1" name="Poleman" size="EncounterCard">
+    <property name="Card Number" value="28"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Enemy"/>
@@ -521,6 +551,7 @@
     <property name="Text" value="Spawn - Canal-side.&#10;Prey - Most Innocent Revelers controlled.&#10;Hunter."/>
   </card>
   <card id="19a697fe-39f1-4fc3-928b-34610a6d53d8" name="Carnevale Sentinel" size="EncounterCard">
+    <property name="Card Number" value="29"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Enemy"/>
@@ -533,6 +564,7 @@
     <property name="Text" value="Spawn - The location across from you.&#10;Retaliate.&#10;You cannot look at the other side of Masked Carnevale-Goers at Carnevale Sentinel's location using the ability on Act 1a."/>
   </card>
   <card id="6530e817-1573-42ff-b0c3-db6290cb4002" name="Writhing Appendage" size="EncounterCard">
+    <property name="Card Number" value="30"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Enemy"/>
@@ -545,6 +577,7 @@
     <property name="Text" value="Retaliate.&#10;Forced - After Writhing Appendage attacks you: Discard a random card from your hand.&#10;Forced - When Writhing Appendage is defeated, if Cnidathqua is in play: Deal 1 damage to Cnidathqua."/>
   </card>
   <card id="37f34aca-13d8-4457-aa45-0f3e13fe5357" name="Mass Hysteria" size="EncounterCard">
+    <property name="Card Number" value="31"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Treachery"/>
@@ -552,6 +585,7 @@
     <property name="Text" value="Peril.&#10;Revelation - You must either take 2 damage or take each Masked Carnevale-Goer, shuffle them so the investigators do not know which is which, and place 1 in each location, starting with the location clockwise from you (Masked Carnevale-Goer side face-up)."/>
   </card>
   <card id="85947a9e-7535-4db0-b3f8-9220cf5d5bc9" name="Lost in Venice" size="EncounterCard">
+    <property name="Card Number" value="32"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Treachery"/>
@@ -559,6 +593,7 @@
     <property name="Text" value="Peril.&#10;Revelation - You must either take 2 horror or move to the location across from you."/>
   </card>
   <card id="de48fac1-ab99-4201-b846-cad0308930ba" name="Watchers' Gaze" size="EncounterCard">
+    <property name="Card Number" value="33"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Treachery"/>
@@ -566,6 +601,7 @@
     <property name="Text" value="Revelation - Test ά (4). Each investigator who controls an Innocent Reveler must also perform this skill test. Each investigator who fails takes 1 horror, which must be assigned to Innocent Reveler first, if able."/>
   </card>
   <card id="ab0834d0-5ada-4be1-a9b4-7fd6c2be299c" name="Chaos in the Water" size="EncounterCard">
+    <property name="Card Number" value="34"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Treachery"/>
@@ -573,6 +609,7 @@
     <property name="Text" value="Revelation - Test ί (4). Each investigator who controls an Innocent Reveler must also perform this skill test. Each investigator who fails takes 1 damage, which must be assinged to an Innocent Reveler first, if able."/>
   </card>
   <card id="be44694d-ca22-4142-85be-9b804a981b65" name="Mesmerize" size="EncounterCard">
+    <property name="Card Number" value="35"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Treachery"/>
@@ -580,6 +617,7 @@
     <property name="Text" value="Revelation - If there are no Masked Carnevale-Goers at your location, Mesmerize gains surge. If there is a Masked Carnevale-Goer at your location, flip it. If it is an Innocent Reveler, move it to the farthest location clockwise from you with no investigators, then deal it 1 damage and 1 horror."/>
   </card>
   <card id="3999589b-4693-4a8d-9ce2-014fddf57fb8" name="Abduction" size="EncounterCard">
+    <property name="Card Number" value="36"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Treachery"/>
@@ -587,6 +625,7 @@
     <property name="Text" value="Revelation - Test ά (3). If you fail, you must either lose all of your resources or choose and discard an Ally asset you control."/>
   </card>
   <card id="3ab57c7d-737f-4dba-ba5c-260959ee9c8e" name="Acrid Miasma" size="EncounterCard">
+    <property name="Card Number" value="37"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Treachery"/>
@@ -594,6 +633,7 @@
     <property name="Text" value="Revelation - Attach to the nearest location in the clockwise direction with no Acrid Miasma.&#10;Forced - After an investigator enters attached location, he or she tests ά (2). If failed, that investigator must either take 1 damage and 1 horror, or resolve the hunter keyword on each enemy in play."/>
   </card>
   <card id="7b1b84ba-8597-4634-8968-0c26da7976bc" name="Campaign Card 1">
+    <property name="Card Number" value="38"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Campaign"/>
@@ -603,6 +643,7 @@
     </alternate>
   </card>
   <card id="5874a1bf-f905-4db0-a4e5-e9919447324d" name="Campaign Card 3">
+    <property name="Card Number" value="39"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Campaign"/>
@@ -612,6 +653,7 @@
     </alternate>
   </card>
   <card id="27e6a058-7844-4d26-8db5-1fc63b0dde81" name="Campaign Card 5">
+    <property name="Card Number" value="40"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Campaign"/>
@@ -621,6 +663,7 @@
     </alternate>
   </card>
   <card id="2901ee2e-6b47-4e4f-8fe0-6d0c6855bb0d" name="Campaign Card 7">
+    <property name="Card Number" value="41"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Campaign"/>
@@ -630,6 +673,7 @@
     </alternate>
   </card>
   <card id="3fe02e7f-aaaf-4ab0-8f6e-fc1b27128f5a" name="Campaign Card 9">
+    <property name="Card Number" value="42"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Campaign"/>
@@ -639,6 +683,7 @@
     </alternate>
   </card>
   <card id="9191fbde-4f45-4110-aa71-859266e1f33e" name="Campaign Card 11">
+    <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
     <property name="Type" value="Campaign"/>

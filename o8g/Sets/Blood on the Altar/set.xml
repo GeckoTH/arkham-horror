@@ -2,8 +2,8 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Blood on the Altar" id="5b388ae7-5750-47b4-8d90-c760a474a59e" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="bae0c5c5-3c2f-47ea-9d1c-a9b52865e113" name="Prepared for the Worst">
+    <property name="Card Number" value="184"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
     <property name="Level" value="0"/>
@@ -15,8 +15,8 @@
     <property name="Text" value="Search the top 9 cards of your deck for a Weapon asset and add it to your hand. Shuffle your deck."/>
   </card>
   <card id="b85932da-0e69-4466-bba8-a5a2ee57c667" name="Keen Eye">
+    <property name="Card Number" value="185"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Guardian"/>
     <property name="Level" value="3"/>
@@ -25,8 +25,8 @@
     <property name="Text" value="Permanent.&#10;θ Spend 2 resources: You get +1 έ until the end of the phase.&#10;θ Spend 2 resources: You get +1 ή until the end of the phase."/>
   </card>
   <card id="a71dfe0c-bd4c-4dec-a37f-2c71c6606777" name="Preposterous Sketches">
+    <property name="Card Number" value="186"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Seeker"/>
     <property name="Level" value="0"/>
@@ -38,8 +38,8 @@
     <property name="Text" value="Play only if there is a clue on your location.&#10;Draw 3 cards."/>
   </card>
   <card id="244b0f20-4b87-4e48-b034-29dc07c192d1" name="Higher Education">
+    <property name="Card Number" value="187"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Seeker"/>
     <property name="Level" value="3"/>
@@ -48,8 +48,8 @@
     <property name="Text" value="Permanent.&#10;While you have 5 or more cards in your hand, Higher Education gains:&#10;θ Spend 1 resource: You get +2 ά for this skill test.&#10;θ Spend 1 resource: You get +2 έ for this skill test."/>
   </card>
   <card id="921d5c0d-0d5a-409b-809f-c00f5b36b816" name="Lone Wolf">
+    <property name="Card Number" value="188"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
     <property name="Level" value="0"/>
@@ -60,8 +60,8 @@
     <property name="Text" value="Limit 1 per investigator.&#10;ι When your turn begins, if there are no other investigators at your location: Gain 1 resource."/>
   </card>
   <card id="d2420579-a3de-46e2-b223-5300a271d415" name="Streetwise">
+    <property name="Card Number" value="189"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
     <property name="Level" value="3"/>
@@ -70,8 +70,8 @@
     <property name="Text" value="Permanent.&#10;θ Spend 2 resources: You get +3 έ for this skill test.&#10;θ Spend 2 resources: You get +3 ί for this skill test."/>
   </card>
   <card id="d4db2332-883f-4295-a54e-9a2107c518fc" name="Defiance">
+    <property name="Card Number" value="190"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Mystic"/>
     <property name="Level" value="0"/>
@@ -80,8 +80,8 @@
     <property name="Text" value="Before revealing chaos tokens for this test, choose one of the following symbols: (α, β, γ, or δ). Ignore the effects of the chosen symbol during this test (including its modifier)."/>
   </card>
   <card id="09ef06b0-c342-4ea6-9b4e-a4bd6901592a" name="Blood Pact">
+    <property name="Card Number" value="191"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
     <property name="Level" value="3"/>
@@ -90,8 +90,8 @@
     <property name="Text" value="Permanent.&#10;θ Add 1 doom to Blood Pact: You get +3 ά for this skill test. (Limit once per test.)&#10;θ Add 1 doom to Blood Pact: You get +3 ή for this skill test. (Limit once per test.)"/>
   </card>
   <card id="65710155-f667-4818-a0f2-fe653cd49bc8" name="Rise to the Occasion">
+    <property name="Card Number" value="192"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Survivor"/>
     <property name="Level" value="0"/>
@@ -100,8 +100,8 @@
     <property name="Text" value="Commit only to a skill test you are performing, and only if the difficulty of that test is at least 2 higher than your base skill value."/>
   </card>
   <card id="6b00da0c-2c80-4717-ac77-d33dfcef8a69" name="Scrapper">
+    <property name="Card Number" value="193"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Survivor"/>
     <property name="Level" value="3"/>
@@ -110,8 +110,8 @@
     <property name="Text" value="Permanent.&#10;θ Spend 1 resource: You get +1 ή for this skill test.&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
   </card>
   <card id="a86f379f-7a6a-4bb7-9fd8-062d9cb7b302" name="Emergency Cache">
+    <property name="Card Number" value="194"/>
     <property name="Quantity" value="2"/>
-    <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Neutral"/>
     <property name="Level" value="2"/>
@@ -120,6 +120,7 @@
     <property name="Text" value="Gain 3 resources and draw 1 card."/>
   </card>
   <card id="28c2a525-24cd-4069-bdc6-f97e4031a656" name="Blood on the Altar">
+    <property name="Card Number" value="195"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Subtitle" value="EASY / STANDARD"/>
@@ -133,6 +134,7 @@
     </alternate>
   </card>
   <card id="a8ba171e-ce59-42fb-90d0-8a08132ae2fc" name="Strange Disapperances" size="HorizCard">
+    <property name="Card Number" value="196"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Agenda"/>
@@ -151,6 +153,7 @@
     </alternate>
   </card>
   <card id="90620ea4-d4c6-4cec-885d-33bf02ca293a" name="The Old Ones Hunger" size="HorizCard">
+    <property name="Card Number" value="197"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Agenda"/>
@@ -169,6 +172,7 @@
     </alternate>
   </card>
   <card id="648fdeea-619c-4e73-b3ba-d1346a397338" name="Feed the Beast" size="HorizCard">
+    <property name="Card Number" value="198"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Agenda"/>
@@ -187,6 +191,7 @@
     </alternate>
   </card>
   <card id="6058f64e-99a9-4527-bfe9-fe9e896d32d7" name="Searching for Answers" size="HorizCard">
+    <property name="Card Number" value="199"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Act"/>
@@ -206,6 +211,7 @@
     </alternate>
   </card>
   <card id="c21a7b1e-b8a9-4102-83da-3d0a3282bcc2" name="The Chamber of the Beast" size="HorizCard">
+    <property name="Card Number" value="200"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Act"/>
@@ -225,6 +231,7 @@
     </alternate>
   </card>
   <card id="b9cfdc9b-6e4b-4e42-87a8-3f0b5aae1f8d" name="Village Commons" size="EncounterCard">
+    <property name="Card Number" value="201"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -243,6 +250,7 @@
     </alternate>
   </card>
   <card id="6b110514-f482-490e-b3e5-d7b96c575b7a" name="Bishop’s Brook" size="EncounterCard">
+    <property name="Card Number" value="202"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -261,6 +269,7 @@
     </alternate>
   </card>
   <card id="4d7ef39b-570f-4b93-853b-f4570e4e95a9" name="Bishop’s Brook" size="EncounterCard">
+    <property name="Card Number" value="203"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -279,6 +288,7 @@
     </alternate>
   </card>
   <card id="49cd47ae-cc2a-4f7f-bf4a-b8bc4f386196" name="Burned Ruins" size="EncounterCard">
+    <property name="Card Number" value="204"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -297,6 +307,7 @@
     </alternate>
   </card>
   <card id="b8dc246f-c196-47d9-9c09-746c1565ec79" name="Burned Ruins" size="EncounterCard">
+    <property name="Card Number" value="205"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -315,6 +326,7 @@
     </alternate>
   </card>
   <card id="b0b080ab-d255-43fc-b5da-2e1d76901d38" name="Osborn’s General Store" size="EncounterCard">
+    <property name="Card Number" value="206"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -333,6 +345,7 @@
     </alternate>
   </card>
   <card id="a5a2c5c1-f6d6-40a5-8330-26bcda3e3479" name="Osborn’s General Store" size="EncounterCard">
+    <property name="Card Number" value="207"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -351,6 +364,7 @@
     </alternate>
   </card>
   <card id="0c7bdb0a-e12e-43e9-a0da-b4aa7fe56164" name="Congregational Church" size="EncounterCard">
+    <property name="Card Number" value="208"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -369,6 +383,7 @@
     </alternate>
   </card>
   <card id="b4eeeeda-f04f-4062-a820-50c7d7d78b49" name="Congregational Church" size="EncounterCard">
+    <property name="Card Number" value="209"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -387,6 +402,7 @@
     </alternate>
   </card>
   <card id="d5324db3-3a33-4881-967f-d71b2c29ea7c" name="House in the Reeds" size="EncounterCard">
+    <property name="Card Number" value="210"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -405,6 +421,7 @@
     </alternate>
   </card>
   <card id="f61cd747-b294-4725-9ff8-b02b7c5bbcdf" name="House in the Reeds" size="EncounterCard">
+    <property name="Card Number" value="211"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -423,6 +440,7 @@
     </alternate>
   </card>
   <card id="6f988818-7adc-4736-aafc-d6882c42adcd" name="Schoolhouse" size="EncounterCard">
+    <property name="Card Number" value="212"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -441,6 +459,7 @@
     </alternate>
   </card>
   <card id="88a10412-58ac-49c6-888c-a1397baba22d" name="Schoolhouse" size="EncounterCard">
+    <property name="Card Number" value="213"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -459,6 +478,7 @@
     </alternate>
   </card>
   <card id="47bc5ee8-9537-417b-8cf9-d700139caa73" name="The Hidden Chamber" size="EncounterCard">
+    <property name="Card Number" value="214"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
@@ -469,6 +489,7 @@
     <property name="Text" value="Revelation – Put The Hidden Chamber into play.&#10;The Hidden Chamber is connected to the location from which it was drawn.&#10;The door to The Hidden Chamber is locked. You cannot enter The Hidden Chamber unless Key to the Chamber is attached to The Hidden Chamber."/>
   </card>
   <card id="10902dae-b4ea-498f-8dd1-8a8560cc11aa" name="Key to the Chamber" size="EncounterCard">
+    <property name="Card Number" value="215"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Asset"/>
@@ -476,6 +497,7 @@
     <property name="Text" value="Revelation – Take control of Key to the Chamber.&#10;θ If The Hidden Chamber is connected to your location: Attach Key to the Chamber to The Hidden Chamber."/>
   </card>
   <card id="5be80449-48ba-4da9-b52f-00f516867f77" name="Silas Bishop" size="EncounterCard">
+    <property name="Card Number" value="216"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Subtitle" value="Infused With Evil"/>
@@ -492,6 +514,7 @@
     <property name="Text" value="Silas Bishop cannot make attacks of opportunity."/>
   </card>
   <card id="14d16f13-0fd4-4a54-9fb5-69ebf5a045dc" name="Zebulon Whateley">
+    <property name="Card Number" value="217"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Subtitle" value="Recalling Ancient Things"/>
@@ -507,6 +530,7 @@
     <property name="Text" value="You get +1 ά.&#10;ι After you succeed at a ά test on a treachery card, exhaust Zebulon Whateley: Draw 1 card."/>
   </card>
   <card id="7f913c4b-a4f8-44ed-9394-9decbca0b05f" name="Earl Sawyer">
+    <property name="Card Number" value="218"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Subtitle" value="Smarter Than He Looks"/>
@@ -522,6 +546,7 @@
     <property name="Text" value="You get +1 ί.&#10;ι After you evade an enemy, exhaust Earl Sawyer: Draw 1 card."/>
   </card>
   <card id="e732944f-29a2-4f2f-9132-b9e4059cabb0" name="Powder of Ibn-Ghazi">
+    <property name="Card Number" value="219"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Subtitle" value="Seeing Things Unseen"/>
@@ -531,12 +556,14 @@
     <property name="Text" value="Powder of Ibn-Ghazi enters play with X clues on it, where X is the number of characters who “survived the Dunwich Legacy” in your Campaign Log.&#10;θ: Move 1 clue from Powder of Ibn Ghazi to an exhausted Brood of Yog-Sothoth at your location."/>
   </card>
   <card id="e66a4a87-b86d-4e0f-826e-20af1d95d4a8" name="Kidnapped!" size="EncounterCard">
+    <property name="Card Number" value="220"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Revelation – Test ά (4) or ί (4). If you fail, add an Ally asset you control to the pool of potential sacrifices. Then, attach Kidnapped! to the current agenda. If you have no Ally assets, take 2 damage and discard Kidnapped! instead.&#10;Forced – When attached agenda advances: Choose a potential sacrifice at random and place it underneath the agenda deck."/>
   </card>
   <card id="ebd4c8f7-3475-4116-8a52-ae52c97ab68c" name="Psychopomp’s Song" size="EncounterCard">
+    <property name="Card Number" value="221"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Treachery"/>
@@ -545,6 +572,7 @@
     <property name="Text" value="Revelation – Add Psychopomp’s Song to any investigator’s threat area.&#10;Forced – When you would take 1 or more damage: Take 2 additional damage and discard Psychopomp’s Song."/>
   </card>
   <card id="8e76abf0-7aa1-433a-8a7c-07e4201c219b" name="Strange Signs" size="EncounterCard">
+    <property name="Card Number" value="222"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Treachery"/>
@@ -552,6 +580,7 @@
     <property name="Text" value="Revelation – Test έ (3). If you fail, add 1 clue from the token pool to your location (2 clues instead if there are 3 or 4 investigators in the game)."/>
   </card>
   <card id="d688f20e-7ab4-444d-98fa-f1b241b9dcc0" name="Rotting Remains" size="EncounterCard">
+    <property name="Card Number" value="223"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Treachery"/>
@@ -559,6 +588,7 @@
     <property name="Text" value="Revelation – Test ά (3). For each point you fail by, take 1 horror."/>
   </card>
   <card id="895c9534-4fa5-4b11-a58a-c209d7cd8bde" name="Servant of Many Mouths" size="EncounterCard">
+    <property name="Card Number" value="224"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Enemy"/>

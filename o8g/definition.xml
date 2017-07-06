@@ -81,6 +81,7 @@
 		<property name="Keywords" type="String" hidden="False" ignoreText="False" />
 		<property name="Text" type="String" hidden="False" ignoreText="False" />
 		<property name="Encounter Set" type="String" hidden="False" ignoreText="False" />
+		<property name="Card Number" type="String" hidden="False" ignoreText="False" />
 		<property name="Quantity" type="String" hidden="False" ignoreText="False" />
 		<property name="Victory Points" type="String" hidden="False" ignoreText="False" />
 		<property name="Setup" type="String" hidden="False" ignoreText="False" />

@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Promo" id="462b9c1c-9e3c-4985-9411-fd9e311fae4b" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="08864675-f455-40db-8dac-70f0887dc648" name="Marie Lambeau" size="InvestigatorCard">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Promo"/>
     <property name="Subtitle" value="The Entertainer"/>
@@ -25,6 +26,7 @@
     </alternate>
   </card>
   <card id="13beb81c-4951-4891-9cb2-32d7c9c368bf" name="Mystifying Song">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Promo"/>
     <property name="Type" value="Event"/>
@@ -35,6 +37,7 @@
     <property name="Text" value="Marie Lambeau deck only.&#10;Fast. Play when the agenda would advance by reaching its doom threshold.&#10;Until the end of the phase, the agenda cannot advance by reaching its doom threshold. Remove Mystifying Song from the game."/>
   </card>
   <card id="80aa551e-34a6-412c-8520-7f55a0526bdc" name="Baron Samedi">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Promo"/>
     <property name="Subtitle" value="Lord of the Cemetery"/>
@@ -47,6 +50,7 @@
     <property name="Text" value="Revelation - Put Baron Samedi into play. He cannot leave play while he has less than 3 doom on him.&#10;Forced – When any amount of damage is placed on an investigator in Baron Samedi's location: Place 1 additional damage on that investigator.&#10;θ Exhaust Baron Samedi: Place 1 doom on Baron Samedi. If he has 3 or more doom on him, discard him."/>
   </card>
   <card id="dc6668db-fb2b-4771-95b6-63a39265ef60" name="Marie Lambeau" size="MiniCard">
+    <property name="Card Number" value="999"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Mystic"/>

@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Curse of the Rougarou" id="165c7dee-c816-4b42-8cbc-8e1a4d7045e5" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="8766f3ee-8561-4575-bfe6-5cfe1cb955db" name="Curse of the Rougarou">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Subtitle" value="EASY / STANDARD"/>
@@ -15,6 +16,7 @@
     </alternate>
   </card>
   <card id="885f651f-7908-4f6f-8f55-2809536804e5" name="A Creature of the Bayou" size="HorizCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Agenda"/>
@@ -33,6 +35,7 @@
     </alternate>
   </card>
   <card id="26dfbefe-7974-4712-a0bd-f0a1d21cdc24" name="The Rougarou Feeds" size="HorizCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Agenda"/>
@@ -51,6 +54,7 @@
     </alternate>
   </card>
   <card id="c6a861ed-eda1-44d9-8d40-e943a83ee40a" name="The Curse Spreads" size="HorizCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Agenda"/>
@@ -70,6 +74,7 @@
     </alternate>
   </card>
   <card id="6bcc2743-5d10-4b38-aa9e-444da02ce43b" name="Finding Lady Esprit" size="HorizCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Act"/>
@@ -89,6 +94,7 @@
     </alternate>
   </card>
   <card id="dc6662ce-df77-4fc7-8d70-1288586dfd4f" name="Hunting the Rougarou" size="HorizCard">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Act"/>
@@ -108,6 +114,7 @@
     </alternate>
   </card>
   <card id="fcb8a3b7-d3b7-4cfb-bb90-2468e6375ea0" name="Cursed Shores" size="EncounterCard">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -126,6 +133,7 @@
     </alternate>
   </card>
   <card id="eb2e854d-6be4-498c-b618-458252d2086b" name="New Orleans" size="EncounterCard">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -145,6 +153,7 @@
     </alternate>
   </card>
   <card id="41e46a62-8a4d-43f6-bf20-2435bd1f3a44" name="New Orleans" size="EncounterCard">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -164,6 +173,7 @@
     </alternate>
   </card>
   <card id="5061a457-9b57-42f6-9fa6-1b5f21003fc3" name="Brackish Waters" size="EncounterCard">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -182,6 +192,7 @@
     </alternate>
   </card>
   <card id="1dd36929-a0a1-4101-b5e3-016a92682058" name="Riverside" size="EncounterCard">
+    <property name="Card Number" value="11"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -202,6 +213,7 @@
     </alternate>
   </card>
   <card id="12f2594a-e6cb-451c-ba20-62521e291ade" name="Riverside" size="EncounterCard">
+    <property name="Card Number" value="12"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -221,6 +233,7 @@
     </alternate>
   </card>
   <card id="5d9d3940-2340-443f-80d4-bd6c4f796130" name="Forgotten Marsh" size="EncounterCard">
+    <property name="Card Number" value="13"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -239,6 +252,7 @@
     </alternate>
   </card>
   <card id="2479d771-1c28-443d-b357-124128f8fab1" name="Wilderness" size="EncounterCard">
+    <property name="Card Number" value="14"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -258,6 +272,7 @@
     </alternate>
   </card>
   <card id="c36d6fa7-df5b-4956-aabe-2f2798ae18cd" name="Wilderness" size="EncounterCard">
+    <property name="Card Number" value="15"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -278,6 +293,7 @@
     </alternate>
   </card>
   <card id="1f840051-0710-4a63-a360-c3883aa1f599" name="Foul Swamp" size="EncounterCard">
+    <property name="Card Number" value="16"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -296,6 +312,7 @@
     </alternate>
   </card>
   <card id="a4cf462c-6303-45b5-bd68-20ae8ce4acfa" name="Unhallowed Land" size="EncounterCard">
+    <property name="Card Number" value="17"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -316,6 +333,7 @@
     </alternate>
   </card>
   <card id="e2f66c2d-ad4d-4dde-9130-e3c4babe168b" name="Unhallowed Land" size="EncounterCard">
+    <property name="Card Number" value="18"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Location"/>
@@ -336,6 +354,7 @@
     </alternate>
   </card>
   <card id="2046ee30-8aa0-41b8-a824-11525fcb94ad" name="Lady Esprit">
+    <property name="Card Number" value="19"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Unique" value="ο"/>
@@ -349,6 +368,7 @@
     <property name="Text" value="η Exhaust Lady Esprit and deal her 1 horror: Heal 2 damage or gain 2 resources. Any investigator at Lady Esprit's location may activate this ability."/>
   </card>
   <card id="7f80ca4a-7027-485a-bb47-0d795339131e" name="Bear Trap">
+    <property name="Card Number" value="20"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Asset"/>
@@ -356,6 +376,7 @@
     <property name="Text" value="θ : Attach Bear Trap to your location.Forced – After The Rougarou enters attached location: Attach Bear Trap to The Rougarou.Attached enemy gets -1 fight and -1 evade."/>
   </card>
   <card id="2636b519-938c-466d-b99d-ef1c96204183" name="Fishing Net">
+    <property name="Card Number" value="21"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Asset"/>
@@ -363,6 +384,7 @@
     <property name="Text" value="θ If The Rougarou is exhausted and at your location: Attach Fishing Net to The Rougarou.Attached enemy loses retaliate."/>
   </card>
   <card id="963e2cb1-5fd7-4270-a9c5-f66a48851ff3" name="Bog Gator" size="EncounterCard">
+    <property name="Card Number" value="22"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Enemy"/>
@@ -376,6 +398,7 @@
     <property name="Text" value="While Bog Gator is at a Bayou location, it gets +2 fight and +2 evade."/>
   </card>
   <card id="f466cb9e-e126-40e8-9c59-a4e552a76e3a" name="Swamp Leech" size="EncounterCard">
+    <property name="Card Number" value="23"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Enemy"/>
@@ -388,6 +411,7 @@
     <property name="Text" value="Swamp Leech cannot be evaded.Forced – When Swamp Leech enters a non-Bayou location: Discard it."/>
   </card>
   <card id="9c723742-4bb0-4ec6-a199-950e4c68cb70" name="Cursed Swamp" size="EncounterCard">
+    <property name="Card Number" value="24"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Treachery"/>
@@ -395,6 +419,7 @@
     <property name="Text" value="Revelation – Test ά (3). For each point you fail by, take 1 damage. If you are at a Bayou location, you cannot commit cards to this skill test."/>
   </card>
   <card id="0af6fd5c-79ba-434a-8f4b-2942bdf3d634" name="Spectral Mist" size="EncounterCard">
+    <property name="Card Number" value="25"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Treachery"/>
@@ -402,6 +427,7 @@
     <property name="Text" value="Revelation – Attach to a Bayou location. Limit 1 per location.Each skill test performed at attached location gets +1 difficulty.η : Test έ (2) to disrupt the source of the mist. If you suceed, discard Spectral Mist."/>
   </card>
   <card id="2b664214-f205-41ca-b4aa-e0c24191b7c2" name="Dragged Under" size="EncounterCard">
+    <property name="Card Number" value="26"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Treachery"/>
@@ -409,6 +435,7 @@
     <property name="Text" value="Revelation – Test ί (3). If you fail, add Dragged Under to your threat area.Forced – When you leave your current location: take 2 damage and discard Dragged Under.Forced – At the end of your turn: Test ί (3). If you succeed, discard Dragged Under."/>
   </card>
   <card id="a6816970-ff41-4ffe-91ab-20a7cffd7c41" name="Ripples on the Surface" size="EncounterCard">
+    <property name="Card Number" value="27"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="The Bayou"/>
     <property name="Type" value="Treachery"/>
@@ -416,6 +443,7 @@
     <property name="Text" value="Revelation – Test ά (3). For each point you fail by, take 1 horror. If you are at a Bayou location, you cannot commit cards to this skill test."/>
   </card>
   <card id="ed7463fc-09bf-4cfd-a9e1-e8d7440dd669" name="The Rougarou" size="EncounterCard">
+    <property name="Card Number" value="28"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Unique" value="ο"/>
@@ -430,6 +458,7 @@
     <property name="Text" value="As an additional cost for an investigator to engage The Rougarou, the investigators must spend 1 clue, as a group (2 clues instead if there are 3 or 4 investigators).Forced – After The Rougarou takes 1 π  damage during a single phase: Find the location that is farthest from all investigator. Move The Rougarou (one location at a time) until it enters that location."/>
   </card>
   <card id="a3999064-2037-41be-b205-1b45c0303e22" name="Curse of the Rougarou">
+    <property name="Card Number" value="29"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Treachery"/>
@@ -438,6 +467,7 @@
     <property name="Text" value="Revelation – Put Curse of the Rougarou into play in your threat area.Forced – At the end of your turn, if you have not dealt any damage this turn: Take 1 horror."/>
   </card>
   <card id="4d68f0af-6c09-47f4-a736-5f226282c85d" name="Monstrous Transformation">
+    <property name="Card Number" value="30"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Asset"/>
@@ -447,6 +477,7 @@
     <property name="Text" value="Set the base value of your ά and έ to 2.Set the base value of your ή and ί to 5.η Exhaust Monstrous Transformation: Fight. You deal +1 damage for this attack."/>
   </card>
   <card id="bb5274ec-ddf1-42af-98ec-f9894853b50f" name="Slime-Covered Dhole" size="EncounterCard">
+    <property name="Card Number" value="31"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Enemy"/>
@@ -460,6 +491,7 @@
     <property name="Text" value="Forced – When Slime-Covered Dhole enters a location: Each investigator at that location takes 1 horror."/>
   </card>
   <card id="936a2b10-62bc-4111-af92-cfe571bbc6e1" name="Marsh Gug" size="EncounterCard">
+    <property name="Card Number" value="32"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Enemy"/>
@@ -472,6 +504,7 @@
     <property name="Keywords" value="Spawn – Any Bayou location.Hunter."/>
   </card>
   <card id="8c355925-69bd-4250-bae7-c7a8207e19a0" name="Dark Young Host" size="EncounterCard">
+    <property name="Card Number" value="33"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Enemy"/>
@@ -486,6 +519,7 @@
     <property name="Text" value="Forced – When 1 or more clues are placed on Dark Young Host's location: Place those clues on Dark Young Host.Forced – When Dark Young Host is defeated: Move all clues on Dark Young Host to its location."/>
   </card>
   <card id="af15aac4-065e-42e5-a95a-139314036ca5" name="On the Prowl" size="EncounterCard">
+    <property name="Card Number" value="34"/>
     <property name="Quantity" value="5"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Treachery"/>
@@ -493,18 +527,21 @@
     <property name="Text" value="Revelation – Find a non-Bayou location with the fewest clues on it. Move The Rougarou (one location at a time) until it enters that location."/>
   </card>
   <card id="561c595d-0b12-4ac7-8d4b-3467dc19ec0e" name="Beast of the Bayou" size="EncounterCard">
+    <property name="Card Number" value="35"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Revelation – The Rougarou makes an immediate attack against each investigator at the Rougarou's location and each connecting location. If no attacks were made by this effect, place 1 doom on the current agenda."/>
   </card>
   <card id="98c360e5-7899-423e-8ca0-cd36e0fa7100" name="Insatiable Bloodlust" size="EncounterCard">
+    <property name="Card Number" value="36"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Revelation – Attach to The Rougarou.The Rougarou gets +1 fight, +1 damage, +1 horror, and cannot be evaded.Forced – After The Rougarou takes damage: Discard Insatiable Bloodlust."/>
   </card>
   <card id="9652f814-0df7-4a2f-8140-820e7b85fabb" name="Campaign Card 1">
+    <property name="Card Number" value="37"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Campaign"/>
@@ -514,6 +551,7 @@
     </alternate>
   </card>
   <card id="33f101e5-161c-458e-894a-522247ac59e1" name="Campaign Card 3">
+    <property name="Card Number" value="38"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Campaign"/>
@@ -523,6 +561,7 @@
     </alternate>
   </card>
   <card id="eb3cea58-6b3d-4390-b626-a80072945ae8" name="Campaign Card 5">
+    <property name="Card Number" value="39"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Campaign"/>
@@ -532,6 +571,7 @@
     </alternate>
   </card>
   <card id="770b57a7-32cb-435a-9297-66a7eb5113be" name="Campaign Card 7">
+    <property name="Card Number" value="40"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curse of the Rougarou"/>
     <property name="Type" value="Campaign"/>

@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Dunwich Legacy" id="dfa9b3bf-58f2-4611-ae55-e25562726d62" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="5c3921b7-9316-47a7-b511-8b0391bcf6b8" name="Zoey Samaras" size="InvestigatorCard">
+    <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="The Chef"/>
     <property name="Unique" value="ο"/>
@@ -25,6 +26,7 @@
     </alternate>
   </card>
   <card id="a1591610-a459-4959-9a02-55a1ca2cc5f2" name="Rex Murphy" size="InvestigatorCard">
+    <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="The Reporter"/>
     <property name="Unique" value="ο"/>
@@ -48,6 +50,7 @@
     </alternate>
   </card>
   <card id="59efc32c-d826-4e60-b362-a6e253284c35" name="Jenny Barnes" size="InvestigatorCard">
+    <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="The Dilettante"/>
     <property name="Unique" value="ο"/>
@@ -71,6 +74,7 @@
     </alternate>
   </card>
   <card id="f295467a-14fb-4f4d-b2f5-5ebfd8857e3a" name="Jim Culver" size="InvestigatorCard">
+    <property name="Card Number" value="4"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="The Musician"/>
     <property name="Unique" value="ο"/>
@@ -94,6 +98,7 @@
     </alternate>
   </card>
   <card id="d448218b-7006-4670-a39c-08cd41e44df4" name="&quot;Ashcan&quot; Pete" size="InvestigatorCard">
+    <property name="Card Number" value="5"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="The Drifter"/>
     <property name="Unique" value="ο"/>
@@ -117,6 +122,7 @@
     </alternate>
   </card>
   <card id="e84c8e62-7793-4783-a32a-07f31664503c" name="Zoey's Cross">
+    <property name="Card Number" value="6"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="Symbol of Righteousness"/>
     <property name="Unique" value="ο"/>
@@ -130,6 +136,7 @@
     <property name="Text" value="Zoey Samaras deck only.&#10;ι After an enemy becomes engaged with you, exhaust Zoey's Cross and spend 1 resource: Deal 1 damage to that enemy."/>
   </card>
   <card id="7696f7c3-7d82-43d3-a985-ebbc70a98115" name="Smite the Wicked">
+    <property name="Card Number" value="7"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -138,6 +145,7 @@
     <property name="Text" value="Revelation – Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.&#10;Forced – When the game ends, if attached enemy is in play: You suffer 1 mental trauma."/>
   </card>
   <card id="3eb82dae-9254-487b-8d9f-217bb055a27b" name="Search for the Truth">
+    <property name="Card Number" value="8"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Neutral"/>
@@ -148,6 +156,7 @@
     <property name="Text" value="Rex Murphy deck only.&#10;Draw X cards, where X is the number of clues on Rex Murphy (to a maximum of 5)."/>
   </card>
   <card id="77176fab-fe89-41dc-b8f6-9a061f92d18e" name="Rex's Curse">
+    <property name="Card Number" value="9"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -156,6 +165,7 @@
     <property name="Text" value="Revelation - Put Rex's Curse into play in your threat area.&#10;Forced - When you would succeed at a skill test: Return the revealed chaos token to the bag and reveal a new chaos token. If this effect causes you to fail the test, shuffle Rex's Curse into your deck. (Limit once per test.)"/>
   </card>
   <card id="0c449dae-56f9-4ba8-abfb-fef861a0497d" name="Jenny's Twin .45s">
+    <property name="Card Number" value="10"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="A Perfect Fit"/>
     <property name="Unique" value="ο"/>
@@ -168,6 +178,7 @@
     <property name="Text" value="Jenny Barnes deck only. Uses (X ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. This attack deals +1 damage."/>
   </card>
   <card id="2333216b-2b9f-4aea-a298-ffcb40d7d527" name="Searching for Izzie">
+    <property name="Card Number" value="11"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -176,6 +187,7 @@
     <property name="Text" value="Revelation - Attach Searching for Izzie to the location farthest from you.&#10;ηη: Investigate. If you succeed, instead of discovering clues, discard Searching for Izzie.&#10;Forced - When the game ends, if Searching for Izzie is in play: You suffer 1 mental trauma."/>
   </card>
   <card id="6586c06a-8294-48f2-b99f-fc26db18f20f" name="Jim's Trumpet">
+    <property name="Card Number" value="12"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="The Dead Listen"/>
     <property name="Unique" value="ο"/>
@@ -189,6 +201,7 @@
     <property name="Text" value="Jim Culver deck only.&#10;ι When a α token is revealed during a skill test, exhaust Jim's Trumpet: Heal 1 horror from an investigator at your location or a connecting location."/>
   </card>
   <card id="8c786481-e9f3-4fad-bfcc-ed4d78bd8064" name="Final Rhapsody">
+    <property name="Card Number" value="13"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -197,6 +210,7 @@
     <property name="Text" value="Revelation - Reveal 5 chaos tokens from the chaos bag. For each α and ζ token revealed, take 1 damage and 1 horror."/>
   </card>
   <card id="8c887537-5b28-4dcc-85ed-c0ebf9d25a60" name="Duke">
+    <property name="Card Number" value="14"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="Loyal Hound"/>
     <property name="Unique" value="ο"/>
@@ -209,6 +223,7 @@
     <property name="Text" value="&quot;Ashcan&quot; Pete deck only.&#10;η Exhaust Duke: Fight. You attack with a base ή skill of 4. This attack deals +1 damage.&#10;η Exhaust Duke: Investigate. You investigate with a base έ skill of 4. You may move to a connecting location immediately before investigating with this effect."/>
   </card>
   <card id="d421da41-f879-45d0-9409-d5691fecf56e" name="Wracked by Nightmares">
+    <property name="Card Number" value="15"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -217,6 +232,7 @@
     <property name="Text" value="Revelation - Exhaust all assets you control and put Wracked by Nightmares into play in your threat area.&#10;Assets you control cannot ready.&#10;ηη: Discard Wracked by Nightmares."/>
   </card>
   <card id="19c9125c-6580-4f39-8550-683cef8ba475" name="Blackjack">
+    <property name="Card Number" value="16"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Guardian"/>
@@ -229,6 +245,7 @@
     <property name="Text" value="η: Fight. You get +1 ή for this attack. If you perform this attack against an enemy engaged with another investigator and you fail, you deal no damage."/>
   </card>
   <card id="7378e1df-88a8-43a6-9a63-4377b331ebb2" name="Taunt">
+    <property name="Card Number" value="17"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
@@ -241,6 +258,7 @@
     <property name="Text" value="Fast. Play only during your turn.&#10;Engage any number of enemies at your location."/>
   </card>
   <card id="995ca593-11ac-49b3-b36f-a8b6793519af" name="Teamwork">
+    <property name="Card Number" value="18"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
@@ -251,6 +269,7 @@
     <property name="Text" value="Investigators at your location may give or trade any number of Item assets, Ally assets, or resources among one another."/>
   </card>
   <card id="a0f37484-e81b-45cc-b483-33cbfdb02a2d" name="Taunt">
+    <property name="Card Number" value="19"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
@@ -264,6 +283,7 @@
     <property name="Text" value="Fast. Play only during your turn.&#10;Engage any number of enemies at your location. Draw 1 card for each enemy engaged in this way."/>
   </card>
   <card id="43a36feb-e5ff-43fd-97c2-2b06a4b1512d" name="Laboratory Assistant">
+    <property name="Card Number" value="20"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Seeker"/>
@@ -278,6 +298,7 @@
     <property name="Text" value="Your maximum hand size is increased by 2 while checking your hand size during the upkeep phase.&#10;ι After Laboratory Assistant enters play: Draw 2 cards."/>
   </card>
   <card id="76d32cbe-c709-4ae3-94ba-041312b958c9" name="Strange Solution">
+    <property name="Card Number" value="21"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Unidentified"/>
     <property name="Type" value="Asset"/>
@@ -289,6 +310,7 @@
     <property name="Text" value="η Test έ (4). If you succeed, discard Strange Solution and draw 2 cards. Record in your Campaign Log that &quot;you have identified the solution.&quot;"/>
   </card>
   <card id="f9ff8557-69f2-472b-837e-ff118816290d" name="Shortcut">
+    <property name="Card Number" value="22"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Seeker"/>
@@ -301,6 +323,7 @@
     <property name="Text" value="Fast. Play only during your turn.&#10;Choose an investigator at your location. Move that investigator to a connecting location."/>
   </card>
   <card id="3766edeb-4f1d-436b-b130-bdea175b6a1f" name="Seeking Answers">
+    <property name="Card Number" value="23"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Seeker"/>
@@ -313,6 +336,7 @@
     <property name="Text" value="Investigate. If you succeed, instead of discovering a clue at your location, discover a clue at a connecting location."/>
   </card>
   <card id="6e6f89d0-796f-4395-987e-f7b3b32d9565" name="Liquid Courage">
+    <property name="Card Number" value="24"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
@@ -324,6 +348,7 @@
     <property name="Text" value="Uses (4 supplies).&#10;η Spend 1 supply: Choose an investigator at your location to heal 1 horror. Then, that investigator tests ά (2). If the test succeeds, he or she heals 1 additional horror. If the test fails, he or she discards 1 card at random from his or her hand."/>
   </card>
   <card id="d86a00ff-6974-4b6b-9785-cd20fa49256d" name="Think on Your Feet">
+    <property name="Card Number" value="25"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
@@ -336,6 +361,7 @@
     <property name="Text" value="Fast. Play when an enemy would spawn at your location.&#10;Immediately move to a connecting location. (The enemy still spawns at your previous location.)"/>
   </card>
   <card id="6804e6e3-6a7c-458c-a1b7-185bc4928f4c" name="Double or Nothing">
+    <property name="Card Number" value="26"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Rogue"/>
@@ -345,6 +371,7 @@
     <property name="Text" value="Max 1 committed per skill test.&#10;Double the difficulty of this skill test. If this skill test is successful, resolve the effects of the successful test twice."/>
   </card>
   <card id="6263c096-a016-45fb-bb9b-05ec75e63757" name="Hired Muscle">
+    <property name="Card Number" value="27"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
@@ -358,6 +385,7 @@
     <property name="Text" value="You get +1 ή.&#10;Forced – At the end of the upkeep phase: You must either pay 1 resource or discard Hired Muscle."/>
   </card>
   <card id="8f39c168-aa45-44c4-bffc-a223afd1db79" name="Rite of Seeking">
+    <property name="Card Number" value="28"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
@@ -370,6 +398,7 @@
     <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Investigate. Investigate using ά instead of έ. If you succeed, discover 1 additional clue at this location. If a α, β, γ, δ, or ζ symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn."/>
   </card>
   <card id="1225df00-7d5e-4bd0-8170-e561f558e9ae" name="Ritual Candles">
+    <property name="Card Number" value="29"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
@@ -382,6 +411,7 @@
     <property name="Text" value="ι After a α, β, γ, or δ symbol is revealed during a test you are performing: You get +1 skill value for this test."/>
   </card>
   <card id="e6c78c15-3ceb-4823-ad9b-7542722b4cf2" name="Clarity of Mind">
+    <property name="Card Number" value="30"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
@@ -394,6 +424,7 @@
     <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Heal 1 horror from an investigator at your location."/>
   </card>
   <card id="07c3267c-b993-4626-ab58-cf75754ad016" name="Bind Monster">
+    <property name="Card Number" value="31"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Mystic"/>
@@ -406,6 +437,7 @@
     <property name="Text" value="Evade. This evasion attempt uses ά instead of ί. If you succeed and the enemy is non‑Elite, evade it and attach Bind Monster to it.&#10;ι When attached enemy would ready: Test ά (3). If you succeed, attached enemy does not ready. If you fail, discard Bind Monster."/>
   </card>
   <card id="a630f620-efc0-43c0-aaa3-841080cf2cf9" name="Fire Axe">
+    <property name="Card Number" value="32"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Survivor"/>
@@ -418,6 +450,7 @@
     <property name="Text" value="η: Fight. If you have no resources in your resource pool, this attack deals +1 damage.&#10;θ During an attack using Fire Axe, spend 1 resource: You get +2 ή for this skill test. (Limit three times per attack.)"/>
   </card>
   <card id="28d41827-8f9b-432f-b0b0-05d5c2bd926e" name="Peter Sylvestre">
+    <property name="Card Number" value="33"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Big Man on Campus"/>
     <property name="Unique" value="ο"/>
@@ -434,6 +467,7 @@
     <property name="Text" value="You get +1 ί.&#10;ι After your turn ends: Heal 1 horror from Peter Sylvestre."/>
   </card>
   <card id="5dd0691a-320c-4343-b73e-c57a59e2069c" name="Bait and Switch">
+    <property name="Card Number" value="34"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Survivor"/>
@@ -446,6 +480,7 @@
     <property name="Text" value="Evade. If you succeed, if the enemy is non-Elite, evade the enemy and move it to a connecting location."/>
   </card>
   <card id="ef1f9144-fb54-4e5c-aa1e-66fd9afe9b69" name="Peter Sylvestre">
+    <property name="Card Number" value="35"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Big Man on Campus"/>
     <property name="Unique" value="ο"/>
@@ -462,6 +497,7 @@
     <property name="Text" value="You get +1 ί and +1 ά.&#10;ι After your turn ends: Heal 1 horror from Peter Sylvestre."/>
   </card>
   <card id="1d85aa6a-7b58-408c-b84e-5685f7e9e10a" name="Kukri">
+    <property name="Card Number" value="36"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
@@ -474,6 +510,7 @@
     <property name="Text" value="η: Fight. You get +1 ή for this attack. If you succeed, you may spend 1 additional action to deal +1 damage for this attack."/>
   </card>
   <card id="1ecf4d84-da04-4c69-8fac-aa11bdc4171f" name="Indebted">
+    <property name="Card Number" value="37"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -483,6 +520,7 @@
     <property name="Text" value="You start each game with 2 fewer resources."/>
   </card>
   <card id="ee9ed7fb-bd73-4a10-88ce-0617321ebecd" name="Internal Injury">
+    <property name="Card Number" value="38"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -491,6 +529,7 @@
     <property name="Text" value="Revelation - Place Internal Injury into play in your threat area.&#10;ι At the end of your turn: Take 1 direct damage.&#10;ηη: Discard Internal Injury."/>
   </card>
   <card id="bd089e8f-e3f0-4fd3-9bf2-e7de8832da73" name="Chronophobia">
+    <property name="Card Number" value="39"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
@@ -499,6 +538,7 @@
     <property name="Text" value="Revelation - Place Chronophobia into play in your threat area.&#10;Forced - At the end of your turn: Take 1 direct horror.&#10;ηη: Discard Chronophobia."/>
   </card>
   <card id="7fc5f1e2-a4bc-4023-a7cd-315d3912bd79" name="Dr. Henry Armitage">
+    <property name="Card Number" value="40"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Armitage's Fate"/>
     <property name="Subtitle" value="The Head Librarian"/>
@@ -514,6 +554,7 @@
     <property name="Text" value="ι After you draw a card, discard that card and exhaust Dr. Henry Armitage: Gain 3 resources."/>
   </card>
   <card id="b08a7c06-5d1b-4bcb-b207-ff248bcf634d" name="Extracurricular Activity">
+    <property name="Card Number" value="41"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Scenario"/>
@@ -525,6 +566,7 @@
     </alternate>
   </card>
   <card id="6566fbf5-5332-4710-b25d-732161ecfb55" name="Quiet Halls" size="HorizCard">
+    <property name="Card Number" value="42"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Agenda"/>
@@ -543,6 +585,7 @@
     </alternate>
   </card>
   <card id="bc83f534-0039-46ab-ac89-8a1397a81810" name="Dead of Night" size="HorizCard">
+    <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Agenda"/>
@@ -562,6 +605,7 @@
     </alternate>
   </card>
   <card id="546c1b52-8fd0-416f-87cc-9d9465734200" name="The Beast Unleashed" size="HorizCard">
+    <property name="Card Number" value="44"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Agenda"/>
@@ -581,6 +625,7 @@
     </alternate>
   </card>
   <card id="c1da68e9-f0e5-460a-8488-8ef709a70ea2" name="After Hours" size="HorizCard">
+    <property name="Card Number" value="45"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Act"/>
@@ -599,6 +644,7 @@
     </alternate>
   </card>
   <card id="09562e3e-1f68-4e44-aa9b-e532ebec6b4a" name="Rice's Whereabouts" size="HorizCard">
+    <property name="Card Number" value="46"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Act"/>
@@ -618,6 +664,7 @@
     </alternate>
   </card>
   <card id="6b6b52fa-9ca1-4f6d-a5bd-34fc1e20723a" name="Campus Safety" size="HorizCard">
+    <property name="Card Number" value="47"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Act"/>
@@ -637,6 +684,7 @@
     </alternate>
   </card>
   <card id="87da9861-7082-4841-9cac-a0feb18330ce" name="Miskatonic Quad" size="EncounterCard">
+    <property name="Card Number" value="48"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -655,6 +703,7 @@
     </alternate>
   </card>
   <card id="a461af68-19d3-46dc-ada5-d5311515ad54" name="Humanities Building" size="EncounterCard">
+    <property name="Card Number" value="49"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -673,6 +722,7 @@
     </alternate>
   </card>
   <card id="4ff2fd3f-fa5c-41f0-87c9-6408cc8dbf6d" name="Orne Library" size="EncounterCard">
+    <property name="Card Number" value="50"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -692,6 +742,7 @@
     </alternate>
   </card>
   <card id="9fe83ed1-f28a-47fd-8a83-f0e603d5afe2" name="Student Union" size="EncounterCard">
+    <property name="Card Number" value="51"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -710,6 +761,7 @@
     </alternate>
   </card>
   <card id="f2a1a2ce-85ed-4cd8-b921-8a345a33da17" name="Dormitories" size="EncounterCard">
+    <property name="Card Number" value="52"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -730,6 +782,7 @@
     </alternate>
   </card>
   <card id="f5a6a23b-fb3b-492c-a57c-28a992fe8012" name="Administration Building" size="EncounterCard">
+    <property name="Card Number" value="53"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -748,6 +801,7 @@
     </alternate>
   </card>
   <card id="15529356-18d0-4148-bbf1-b6bd4fc2a2cb" name="Faculty Offices" size="EncounterCard">
+    <property name="Card Number" value="54"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -769,6 +823,7 @@
     </alternate>
   </card>
   <card id="41ea5c25-5bca-493d-b91f-ebd5fdbc4957" name="Faculty Offices" size="EncounterCard">
+    <property name="Card Number" value="55"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -788,6 +843,7 @@
     </alternate>
   </card>
   <card id="6e289bf2-c433-451d-8d44-efd339a16f27" name="Science Building" size="EncounterCard">
+    <property name="Card Number" value="56"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -806,6 +862,7 @@
     </alternate>
   </card>
   <card id="3c08ff87-0ea6-42b3-a177-088ee958588c" name="Alchemy Labs" size="EncounterCard">
+    <property name="Card Number" value="57"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Location"/>
@@ -825,6 +882,7 @@
     </alternate>
   </card>
   <card id="27fef106-be25-4c4a-9732-95d4f3a64c76" name="The Experiment" size="EncounterCard">
+    <property name="Card Number" value="58"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Subtitle" value="Something Went Terribly Wrong"/>
@@ -840,6 +898,7 @@
     <property name="Text" value="Massive.&#10;The Experiment gets +3[per investigator] health.&#10;Forced - When the enemy phase begins: Ready The Experiment.&#10;Objective - If The Experiment is defeated, advance to act 3b."/>
   </card>
   <card id="c6918c7e-efaf-4524-b2ac-69c07a8ddd40" name="Alchemical Concoction" size="EncounterCard">
+    <property name="Card Number" value="59"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Type" value="Asset"/>
@@ -848,6 +907,7 @@
     <property name="Text" value="η: Fight. This attack uses έ instead of ή. If used to attack The Experiment, this attack deals +6 damage. If you succeed, remove Alchemical Concoction from the game."/>
   </card>
   <card id="cf7346b9-b7eb-4f13-92fa-4468f3e9158a" name="&quot;Jazz&quot; Mulligan" size="EncounterCard">
+    <property name="Card Number" value="60"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Subtitle" value="The Head Janitor"/>
@@ -860,6 +920,7 @@
     <property name="Text" value="Revelation - Put &quot;Jazz&quot; Mulligan into play at your location.&#10;While &quot;Jazz&quot; Mulligan is not controlled by a player, he gains: &quot;η: Parley. Test έ (3). If successful, take control of &quot;Jazz&quot; Mulligan.&quot;&#10;While you control &quot;Jazz&quot; Mulligan, you ignore the text on each unrevealed Miskatonic location."/>
   </card>
   <card id="348b3d51-a526-420d-95d0-8a65df600c52" name="Professor Warren Rice">
+    <property name="Card Number" value="61"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
     <property name="Subtitle" value="Professor of Languages"/>
@@ -876,6 +937,7 @@
     <property name="Text" value="You get +1 έ.&#10;ι After you discover the last remaining clue in your location, exhaust Professor Warren Rice: Draw 1 card."/>
   </card>
   <card id="293a7805-47b3-41a8-96af-14bcb19f93f7" name="The House Always Wins">
+    <property name="Card Number" value="62"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Scenario"/>
@@ -887,6 +949,7 @@
     </alternate>
   </card>
   <card id="f6a860e8-64e9-495a-8ce3-4841f83f0f47" name="The Clover Club" size="HorizCard">
+    <property name="Card Number" value="63"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Agenda"/>
@@ -906,6 +969,7 @@
     </alternate>
   </card>
   <card id="da10c46d-609b-473f-96c3-8cb10128b336" name="Underground Muscle" size="HorizCard">
+    <property name="Card Number" value="64"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Agenda"/>
@@ -924,6 +988,7 @@
     </alternate>
   </card>
   <card id="2d5e61ce-bdea-4685-a5e9-f1223fa84367" name="Chaos in the Clover Club" size="HorizCard">
+    <property name="Card Number" value="65"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Agenda"/>
@@ -943,6 +1008,7 @@
     </alternate>
   </card>
   <card id="48484eb9-dd14-4b3b-a751-ebb7d8e55797" name="Beginner's Luck" size="HorizCard">
+    <property name="Card Number" value="66"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Act"/>
@@ -962,6 +1028,7 @@
     </alternate>
   </card>
   <card id="212657b3-51a8-4b6c-9125-7005f0dd8510" name="Skin Game" size="HorizCard">
+    <property name="Card Number" value="67"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Act"/>
@@ -981,6 +1048,7 @@
     </alternate>
   </card>
   <card id="f58a0fc5-57e2-4d23-b16d-aade9b2aa867" name="All In" size="HorizCard">
+    <property name="Card Number" value="68"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Act"/>
@@ -1000,6 +1068,7 @@
     </alternate>
   </card>
   <card id="c19ba09a-afe2-48f4-a51c-78d40f4b2155" name="Fold" size="HorizCard">
+    <property name="Card Number" value="69"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Act"/>
@@ -1019,6 +1088,7 @@
     </alternate>
   </card>
   <card id="f354c097-9674-43e9-8a77-2ccd5f51eb09" name="La Bella Luna" size="EncounterCard">
+    <property name="Card Number" value="70"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Location"/>
@@ -1037,6 +1107,7 @@
     </alternate>
   </card>
   <card id="6b14f253-95a4-4dbe-819d-afb8bdba7fbf" name="Clover Club Lounge" size="EncounterCard">
+    <property name="Card Number" value="71"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Location"/>
@@ -1055,6 +1126,7 @@
     </alternate>
   </card>
   <card id="9c147569-3b78-487f-a2e1-c7fc27fc5c5a" name="Clover Club Bar" size="EncounterCard">
+    <property name="Card Number" value="72"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Location"/>
@@ -1073,6 +1145,7 @@
     </alternate>
   </card>
   <card id="a05ba6f5-01c3-4915-9591-54ee19d8071e" name="Clover Club Cardroom" size="EncounterCard">
+    <property name="Card Number" value="73"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Location"/>
@@ -1091,6 +1164,7 @@
     </alternate>
   </card>
   <card id="92e00d83-0337-4b11-a54a-234d4ab391df" name="Darkened Hall" size="EncounterCard">
+    <property name="Card Number" value="74"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Location"/>
@@ -1109,6 +1183,7 @@
     </alternate>
   </card>
   <card id="d28e263f-2712-4ba3-916c-9c02e4073b40" name="Back Hall Doorway" size="EncounterCard">
+    <property name="Card Number" value="75"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Location"/>
@@ -1128,6 +1203,7 @@
     </alternate>
   </card>
   <card id="a43dcccb-fb2b-4051-bd2c-cbd26dcbbd81" name="Back Hall Doorway" size="EncounterCard">
+    <property name="Card Number" value="76"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Location"/>
@@ -1147,6 +1223,7 @@
     </alternate>
   </card>
   <card id="4916cef3-9842-42a0-bcc8-d39fb08f3032" name="Back Hall Doorway" size="EncounterCard">
+    <property name="Card Number" value="77"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Location"/>
@@ -1166,6 +1243,7 @@
     </alternate>
   </card>
   <card id="fff0c40c-d0b4-4042-a64b-8a7f45b1eae4" name="Clover Club Pit Boss" size="EncounterCard">
+    <property name="Card Number" value="78"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Enemy"/>
@@ -1179,6 +1257,7 @@
     <property name="Text" value="Prey - Highest έ.&#10;Hunter.&#10;Forced - After an investigator at Clover Club Pit Boss's location gains any number of clues: Clover Club Pit Boss readies, engages that investigator, and makes an immediate attack."/>
   </card>
   <card id="e9a12a37-22f2-49fa-b64b-5895ad5f277e" name="Peter Clover" size="EncounterCard">
+    <property name="Card Number" value="79"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Subtitle" value="Holding All the Cards"/>
@@ -1191,6 +1270,7 @@
     <property name="Text" value="Forced - At the start of the enemy phase, if no investigator controls Peter Clover: Deal 1 damage to him.&#10;θExhaust Peter Clover: Automatically evade a Criminal enemy in your location."/>
   </card>
   <card id="ab261304-07ef-4bd2-9df7-7e2d5d5ce86d" name="Dr. Francis Morgan">
+    <property name="Card Number" value="80"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Subtitle" value="Professor of Archaeology"/>
@@ -1207,6 +1287,7 @@
     <property name="Text" value="You get +1 ή.&#10;ι After you defeat an enemy, exhaust Dr. Francis Morgan: Draw 1 card."/>
   </card>
   <card id="9f8bba21-d2b3-4b5a-8a98-22ee78d592d2" name="Something in the Drinks" size="EncounterCard">
+    <property name="Card Number" value="81"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Treachery"/>
@@ -1214,12 +1295,14 @@
     <property name="Text" value="Surge.&#10;Revelation - Each player who has &quot;had a drink&quot; loses 1 action."/>
   </card>
   <card id="01b32aa7-2a0d-4041-b562-3fb47b2ce697" name="Arousing Suspicions" size="EncounterCard">
+    <property name="Card Number" value="82"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The House Always Wins"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Revelation - Place 1 doom on each Criminal enemy at your location. If no doom was placed by this effect, lose 2 resources."/>
   </card>
   <card id="b4d33590-94ad-4092-80d8-460c4fcbb54a" name="Visions of Futures Past" size="EncounterCard">
+    <property name="Card Number" value="83"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Sorcery"/>
     <property name="Type" value="Treachery"/>
@@ -1227,6 +1310,7 @@
     <property name="Text" value="Revelation - Test ά (5). For each point you fail by, discard the top card of your deck."/>
   </card>
   <card id="0d20810c-b434-45c9-8258-cb9652017a12" name="Beyond the Veil" size="EncounterCard">
+    <property name="Card Number" value="84"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Sorcery"/>
     <property name="Type" value="Treachery"/>
@@ -1234,6 +1318,7 @@
     <property name="Text" value="Surge.&#10;Revelation - Put Beyond the Veil into play in your threat area if there is no copy of Beyond the Veil in your threat area.&#10;Forced - If your deck has no cards in it: Take 10 damage and discard Beyond the Veil."/>
   </card>
   <card id="1dc185eb-7c88-452b-831c-340659280f30" name="Light of Aforgomon" size="EncounterCard">
+    <property name="Card Number" value="85"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Bishop's Thralls"/>
     <property name="Type" value="Treachery"/>
@@ -1241,6 +1326,7 @@
     <property name="Text" value="Peril.&#10;Revelation - You must attach Light of Aforgomon to either the current agenda or the current act.&#10;Limit 1 per agenda/act. Treat all damage as direct damage and all horror as direct horror."/>
   </card>
   <card id="46be7d48-af4a-4459-b35d-37e92e2eb917" name="Thrall" size="EncounterCard">
+    <property name="Card Number" value="86"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Bishop's Thralls"/>
     <property name="Type" value="Enemy"/>
@@ -1253,6 +1339,7 @@
     <property name="Text" value="Spawn - Location with the most clues.&#10;Retaliate."/>
   </card>
   <card id="4f2da478-90bc-4325-8f8c-4d3568a0b0e6" name="Wizard of Yog-Sothoth" size="EncounterCard">
+    <property name="Card Number" value="87"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Bishop's Thralls"/>
     <property name="Type" value="Enemy"/>
@@ -1266,6 +1353,7 @@
     <property name="Text" value="Prey - Least cards in hand.&#10;Hunter.&#10;Forced - When the engaged investigator draws a Hex or Pact card: Wizard of Yog-Sothoth attacks that investigator."/>
   </card>
   <card id="14da4d4b-a219-4aa6-94e7-6977a886adcc" name="Unhallowed Country" size="EncounterCard">
+    <property name="Card Number" value="88"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Dunwich"/>
     <property name="Type" value="Treachery"/>
@@ -1273,6 +1361,7 @@
     <property name="Text" value="Revelation - Put Unhallowed Country into play in your threat area.&#10;You cannot play Ally assets. Treat the printed text box of each Ally asset you control as if it were blank.&#10;Forced - At the end of your turn: Test ά (3). If you succeed, discard Unhallowed Country."/>
   </card>
   <card id="dcdf02d6-781a-4989-8026-907d9b083287" name="Sordid and Silent" size="EncounterCard">
+    <property name="Card Number" value="89"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Dunwich"/>
     <property name="Type" value="Treachery"/>
@@ -1280,6 +1369,7 @@
     <property name="Text" value="Revelation - Attach Sordid and Silent to your location.&#10;Forced - At the end of the round: Each investigator at attached location takes 1 horror.&#10;Forced - When the agenda advances: Discard Sordid and Silent."/>
   </card>
   <card id="315c1f0b-7284-4aa5-87ef-1008c491138f" name="Whippoorwill" size="EncounterCard">
+    <property name="Card Number" value="90"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Whip Poor Wills"/>
     <property name="Type" value="Enemy"/>
@@ -1292,6 +1382,7 @@
     <property name="Text" value="Aloof. Hunter.&#10;Each investigator at Whippoorwill's location gets -1 ά, -1 έ, -1 ή, and -1 ί."/>
   </card>
   <card id="fc0c9068-69da-4be8-a786-60d448fe0557" name="Eager for Death" size="EncounterCard">
+    <property name="Card Number" value="91"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Whip Poor Wills"/>
     <property name="Type" value="Treachery"/>
@@ -1299,6 +1390,7 @@
     <property name="Text" value="Revelation - Test ά (2). Increase this skill test's difficulty by 1 for each damage on you. If you fail, take 2 horror."/>
   </card>
   <card id="ada6d61b-5f6f-4c36-ad24-d454e835bbf4" name="Cursed Luck" size="EncounterCard">
+    <property name="Card Number" value="92"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Bad Luck"/>
     <property name="Type" value="Treachery"/>
@@ -1306,6 +1398,7 @@
     <property name="Text" value="Revelation - Put Cursed Luck into play in your threat area.&#10;You get -1 skill value during skill tests.&#10;Forced - After you succeed at a skill test by 1 or more: Discard Cursed Luck."/>
   </card>
   <card id="fafc853e-e498-4829-bb4f-6d5622b9f6bf" name="Twist of Fate" size="EncounterCard">
+    <property name="Card Number" value="93"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Bad Luck"/>
     <property name="Type" value="Treachery"/>
@@ -1313,6 +1406,7 @@
     <property name="Text" value="Revelation - Reveal a random token from the chaos bag.&#10;If you reveal a ε symbol or positive number, nothing happens.&#10;If you reveal any other number, take 1 damage.&#10;If you reveal a α, β, γ, δ, or ζ symbol, take 2 horror."/>
   </card>
   <card id="c7c44fe4-5d7b-4d9a-a7cd-477ca7d74e69" name="Avian Thrall" size="EncounterCard">
+    <property name="Card Number" value="94"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Beast Thralls"/>
     <property name="Type" value="Enemy"/>
@@ -1325,6 +1419,7 @@
     <property name="Text" value="Prey - Lowest έ.&#10;Hunter.&#10;While Avian Thrall is being attacked using a Ranged, Firearm, or Spell asset, it gets -3 fight."/>
   </card>
   <card id="cbf5db4c-f319-41c7-b8b9-726c26695453" name="Lupine Thrall" size="EncounterCard">
+    <property name="Card Number" value="95"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Beast Thralls"/>
     <property name="Type" value="Enemy"/>
@@ -1337,6 +1432,7 @@
     <property name="Text" value="Spawn - Farthest location from you.&#10;Prey - Lowest ί.&#10;Hunter. Retaliate."/>
   </card>
   <card id="a5bd2fc7-6f66-4192-b0d9-52bcbccaefd4" name="Altered Beast" size="EncounterCard">
+    <property name="Card Number" value="96"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Beast Thralls"/>
     <property name="Type" value="Treachery"/>
@@ -1344,6 +1440,7 @@
     <property name="Text" value="Revelation - If there are no Abomination enemies in play, Altered Beast gains surge. Otherwise, choose an Abomination enemy. Heal all damage from that enemy and attached Altered Beast to it.&#10;Forced - When you enter attached enemy's location (or vice-versa): Take 1 horror."/>
   </card>
   <card id="4ae24039-09f8-40d4-bb5c-f0ed1ac302c0" name="O'Bannion's Thug" size="EncounterCard">
+    <property name="Card Number" value="97"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Naomi's Crew"/>
     <property name="Type" value="Enemy"/>
@@ -1356,6 +1453,7 @@
     <property name="Text" value="While O'Bannion's Thug is engaged with you, you cannot gain resources."/>
   </card>
   <card id="8a82e394-d5fa-43cd-8047-fd3610918a72" name="Mobster" size="EncounterCard">
+    <property name="Card Number" value="98"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Naomi's Crew"/>
     <property name="Type" value="Enemy"/>
@@ -1368,6 +1466,7 @@
     <property name="Text" value="Retaliate.&#10;Forced - After Mobster attacks you: Lose 1 resource."/>
   </card>
   <card id="cc7e7896-37a6-471c-9c2c-86a21acce22b" name="Hunted Down" size="EncounterCard">
+    <property name="Card Number" value="99"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Naomi's Crew"/>
     <property name="Type" value="Treachery"/>
@@ -1375,6 +1474,7 @@
     <property name="Text" value="Revelation - If there are no unengaged Criminal enemies in play, Hunted Down gains surge. If there are 1 or more unengaged Criminal enemies in play, each of them moves 1 location toward you. Each Criminal enemy that engages you as a result of this effect makes an immediate attack."/>
   </card>
   <card id="8955b254-0c41-4df9-a761-ff9c2d3b7fb0" name="Pushed into the Beyond" size="EncounterCard">
+    <property name="Card Number" value="100"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Beyond"/>
     <property name="Type" value="Treachery"/>
@@ -1382,6 +1482,7 @@
     <property name="Text" value="Revelation - Choose and shuffle a non-story asset you control into your deck and discard the top 3 cards of your deck. If a copy of that asset is discarded, take 2 horror."/>
   </card>
   <card id="e891952e-a2c6-4250-aa05-2a93c8d06316" name="Terror from Beyond" size="EncounterCard">
+    <property name="Card Number" value="101"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Beyond"/>
     <property name="Type" value="Treachery"/>
@@ -1389,6 +1490,7 @@
     <property name="Text" value="Peril.&#10;Revelation - Choose one of the following cardtypes (asset, event, or skill). Each player must discard each card in his or her hand that is of the chosen cardtype. If this is not the first copy of Terror from Beyond drawn this phase, choose two cardtypes instead."/>
   </card>
   <card id="7613d6d2-e223-416d-a753-958c776fc6d7" name="Arcane Barrier" size="EncounterCard">
+    <property name="Card Number" value="102"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="The Beyond"/>
     <property name="Type" value="Treachery"/>
@@ -1396,6 +1498,7 @@
     <property name="Text" value="Revelation - Attach to your location.&#10;As an additional cost to move into or out of attached location, test ά (4). If successful, discard Arcane Barrier. Otherwise, you must either cancel the effects of the move or discard the top 5 cards of your deck."/>
   </card>
   <card id="43a5ec05-0bd1-4f2c-b7e8-0fd93d372d8c" name="Conglomeration of Spheres" size="EncounterCard">
+    <property name="Card Number" value="103"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Hideous Abominations"/>
     <property name="Type" value="Enemy"/>
@@ -1408,6 +1511,7 @@
     <property name="Text" value="Prey - Lowest ά.&#10;Hunter.&#10;Forced - After you perform an attack against the Conglomeration of Spheres using a Melee card: Discard that card."/>
   </card>
   <card id="f47b2774-3148-444b-94ea-5696db0c6342" name="Servant of the Lurker" size="EncounterCard">
+    <property name="Card Number" value="104"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Hideous Abominations"/>
     <property name="Type" value="Enemy"/>
@@ -1421,6 +1525,7 @@
     <property name="Text" value="Prey - Lowest ί.&#10;Hunter.&#10;Forced - When Servant of the Lurker attacks you: Discard the top 2 cards of your deck."/>
   </card>
   <card id="75445fe5-ac51-43f6-9aa3-e27df4bfbe56" name="Zoey Samaras" size="MiniCard">
+    <property name="Card Number" value="995"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Guardian"/>
@@ -1429,6 +1534,7 @@
     </alternate>
   </card>
   <card id="545b4c74-1499-4d77-8081-7eed0f9a19ce" name="Rex Murphy" size="MiniCard">
+    <property name="Card Number" value="996"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Seeker"/>
@@ -1437,6 +1543,7 @@
     </alternate>
   </card>
   <card id="ce506bfb-6cb7-4ac0-ae93-20b21723d269" name="Jenny Barnes" size="MiniCard">
+    <property name="Card Number" value="997"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Rogue"/>
@@ -1445,6 +1552,7 @@
     </alternate>
   </card>
   <card id="8e7047c8-a9fe-4ecf-b6ae-dca282157d26" name="Jim Culver" size="MiniCard">
+    <property name="Card Number" value="998"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Mystic"/>
@@ -1453,6 +1561,7 @@
     </alternate>
   </card>
   <card id="be102e93-b5b5-4aad-b132-20533ac9c5a7" name="&quot;Ashcan&quot; Pete" size="MiniCard">
+    <property name="Card Number" value="999"/>
     <property name="Quantity" value="1"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Survivor"/>

@@ -2,6 +2,7 @@
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Undimensioned and Unseen" id="aeafbc38-6263-37a4-2faf-a51e9899f154" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="bc9c240e-8ce5-3125-03cc-d00ed2265f3c" name="&quot;If it bleeds...&quot;">
+    <property name="Card Number" value="225"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
@@ -13,6 +14,7 @@
     <property name="Text" value="Fast. Play after you defeat a Monster enemy.&#10;Each investigator at your location heals horror equal to that enemy's horror value."/>
   </card>
   <card id="0ddd4332-6338-3470-3816-14e36d0acba0" name="Springfield M1903">
+    <property name="Card Number" value="226"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Guardian"/>
@@ -26,6 +28,7 @@
     <property name="Text" value="Uses (3 ammo).&#10;η Spend 1 ammo: Fight. You get +3 ή and deal +2 damage for this attack. Cannot be used to attack enemies engaged with you."/>
   </card>
   <card id="848cd99a-90a2-3c9a-2372-7a15c0c1f305" name="Inquiring Mind">
+    <property name="Card Number" value="227"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Seeker"/>
@@ -35,6 +38,7 @@
     <property name="Text" value="Commit to a skill test only if there is a clue at your location."/>
   </card>
   <card id="0889a878-d572-3be1-7f40-22dd81ed9c41" name="Expose Weakness">
+    <property name="Card Number" value="228"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Seeker"/>
@@ -47,6 +51,7 @@
     <property name="Text" value="Fast. Play during any θ player window.&#10;Choose an enemy at your location. Test έ (X), where X is that enemy's fight value. For each point you succeed by, reduce that enemy's fight value by 1 for the next attack performed against it this phase."/>
   </card>
   <card id="4f457cbf-7876-398d-8891-02d168d35117" name="Quick Thinking">
+    <property name="Card Number" value="229"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Rogue"/>
@@ -56,6 +61,7 @@
     <property name="Text" value="If this skill test is successful by 2 or more, after it resolves, you may immediately take an action as if it were your turn (this action does not count toward the number of actions you can take each turn)."/>
   </card>
   <card id="ddc63adf-ce89-32d4-d646-da0ed6f6a53e" name="Lucky Dice">
+    <property name="Card Number" value="230"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
@@ -69,6 +75,7 @@
     <property name="Text" value="Exceptional.&#10;ιAfter you reveal a chaos token, spend 2 resources: Ignore that chaos token and reveal another one to resolve. If that token has a ζ symbol, remove Lucky Dice from the game."/>
   </card>
   <card id="7610ae9e-804c-39e4-52f4-0a32b056a952" name="Opportunist">
+    <property name="Card Number" value="231"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Rogue"/>
@@ -78,6 +85,7 @@
     <property name="Text" value="Commit only to a skill test you are performing.&#10;If you succeed by 2 or more, return Opportunist to your hand after this test instead of discarding it."/>
   </card>
   <card id="32dcb67a-1693-3e39-577e-5681b0e3bf6c" name="Alyssa Graham">
+    <property name="Card Number" value="232"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Speaker to the Dead"/>
     <property name="Unique" value="ο"/>
@@ -94,6 +102,7 @@
     <property name="Text" value="You get +1 έ.&#10;θ Exhaust Alyssa Graham: Look at the top card of either the encounter deck or any player deck. You may then add 1 doom to Alyssa Graham to place the looked-at card on the bottom of its deck."/>
   </card>
   <card id="7132a1db-2950-3b90-53c0-ca5198f76e8b" name="Rite of Seeking">
+    <property name="Card Number" value="233"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
@@ -106,6 +115,7 @@
     <property name="Text" value="Uses (3 charges).&#10;ηSpend 1 charge: Investigate. Investigate using ά instead of έ. You get +2 ά for this test. If successful, you discover 2 additional clues at this location. If a α, β, γ, δ, or ζ symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn."/>
   </card>
   <card id="fea55cfd-6c1e-3bc0-c1ea-c3a7d88e66f2" name="Dark Horse">
+    <property name="Card Number" value="234"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Survivor"/>
@@ -117,6 +127,7 @@
     <property name="Text" value="Limit 1 per investigator.&#10;During the upkeep phase, you may choose to not gain resources.&#10;While you have no resources in your resource pool, you get +1 ά, +1 έ, +1 ή, and +1 ί."/>
   </card>
   <card id="e8763459-21ad-3b9a-5b20-f2dd2aa6d61e" name="Survival Instinct">
+    <property name="Card Number" value="235"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Survivor"/>
@@ -127,6 +138,7 @@
     <property name="Text" value="If this test is successful during an evasion attempt, the evading investigator may immediately evade each other enemy engaged with him or her, and may move to a connecting location."/>
   </card>
   <card id="ab96d62c-14e4-39c4-d955-40a6c1e9928c" name="Undimensioned and Unseen">
+    <property name="Card Number" value="236"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Subtitle" value="EASY / STANDARD"/>
@@ -140,6 +152,7 @@
     </alternate>
   </card>
   <card id="4a84c6d9-fc71-33ae-67e5-45af752d0467" name="Rampaging Creatures" size="HorizCard">
+    <property name="Card Number" value="237"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Agenda"/>
@@ -157,6 +170,7 @@
     </alternate>
   </card>
   <card id="a3722e93-93d8-3df2-b2bc-9f61491c501d" name="Biding Its Time" size="HorizCard">
+    <property name="Card Number" value="238"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Agenda"/>
@@ -174,6 +188,7 @@
     </alternate>
   </card>
   <card id="013e3d0e-9116-322d-13c2-2911ee28af1f" name="Horrors Unleashed" size="HorizCard">
+    <property name="Card Number" value="239"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Agenda"/>
@@ -191,6 +206,7 @@
     </alternate>
   </card>
   <card id="a52c3b87-a72d-3d7a-584e-b58f1acc852a" name="Saracenic Script" size="HorizCard">
+    <property name="Card Number" value="240"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Act"/>
@@ -208,6 +224,7 @@
     </alternate>
   </card>
   <card id="5f02f21d-10ac-334f-a5ab-e8110806a7a4" name="They Must Be Destroyed!" size="HorizCard">
+    <property name="Card Number" value="241"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Act"/>
@@ -225,6 +242,7 @@
     </alternate>
   </card>
   <card id="c1d5868b-aef1-3882-5ebc-ea834ef47bb3" name="Dunwich Village" size="EncounterCard">
+    <property name="Card Number" value="242"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -243,6 +261,7 @@
     </alternate>
   </card>
   <card id="95fa8c11-b1bb-31fe-8635-f069109a05da" name="Dunwich Village" size="EncounterCard">
+    <property name="Card Number" value="243"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -261,6 +280,7 @@
     </alternate>
   </card>
   <card id="801efeb6-d38d-39ca-79fd-55308253777c" name="Cold Spring Glen" size="EncounterCard">
+    <property name="Card Number" value="244"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -279,6 +299,7 @@
     </alternate>
   </card>
   <card id="b88ffce0-0506-341a-9ccd-1f3cd44846ed" name="Cold Spring Glen" size="EncounterCard">
+    <property name="Card Number" value="245"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -297,6 +318,7 @@
     </alternate>
   </card>
   <card id="70743e57-162c-358f-225e-1198e23f43f2" name="Ten-Acre Meadow" size="EncounterCard">
+    <property name="Card Number" value="246"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -315,6 +337,7 @@
     </alternate>
   </card>
   <card id="570aa337-9cd2-3184-40c7-5c3a91dd1517" name="Ten-Acre Meadow" size="EncounterCard">
+    <property name="Card Number" value="247"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -333,6 +356,7 @@
     </alternate>
   </card>
   <card id="b3481c64-4e50-302c-b557-81bab39e044b" name="Blasted Heath" size="EncounterCard">
+    <property name="Card Number" value="248"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -351,6 +375,7 @@
     </alternate>
   </card>
   <card id="16e6efe0-2ed2-3d90-6ba1-6262f05231b8" name="Blasted Heath" size="EncounterCard">
+    <property name="Card Number" value="249"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -369,6 +394,7 @@
     </alternate>
   </card>
   <card id="77cafa34-0d3b-366d-47e1-5614a5e7291c" name="Whateley Ruins" size="EncounterCard">
+    <property name="Card Number" value="250"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -387,6 +413,7 @@
     </alternate>
   </card>
   <card id="19139758-ff4e-3728-7bd9-8524b115a0e2" name="Whateley Ruins" size="EncounterCard">
+    <property name="Card Number" value="251"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -405,6 +432,7 @@
     </alternate>
   </card>
   <card id="133dea2e-5ded-3c05-59f7-4a7ba47256b3" name="Devil's Hop Yard" size="EncounterCard">
+    <property name="Card Number" value="252"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -423,6 +451,7 @@
     </alternate>
   </card>
   <card id="d7ff2904-e1fd-3c21-bccc-207ac14bf965" name="Devil's Hop Yard" size="EncounterCard">
+    <property name="Card Number" value="253"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Location"/>
@@ -441,6 +470,7 @@
     </alternate>
   </card>
   <card id="404128bb-f298-33c3-2067-1cb06c0b32d0" name="Esoteric Formula">
+    <property name="Card Number" value="254"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Asset"/>
@@ -450,6 +480,7 @@
     <property name="Text" value="η Fight. This attack uses ά instead of ή. You get +2 ά for this attack for each clue on the attacked enemy. Use this ability only on an Abomination enemy."/>
   </card>
   <card id="53354184-415b-37e9-cb94-e1079c75fe23" name="Brood of Yog-Sothoth" size="EncounterCard">
+    <property name="Card Number" value="255"/>
     <property name="Quantity" value="5"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Enemy"/>
@@ -463,12 +494,14 @@
     <property name="Text" value="Massive.&#10;Brood of Yog-Sothoth gets +1π  health and cannot be damaged or attacked except using the ability on Esoteric Formula."/>
   </card>
   <card id="d3945abd-28b0-38c7-5151-9d8ec792ca1c" name="Towering Beasts" size="EncounterCard">
+    <property name="Card Number" value="256"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Peril.&#10;Revelation - Attach to a Brood of Yog-Sothoth enemy in play. If that enemy is at your location, take 1 damage.&#10;Attached enemy gets +1 fight and +1 health."/>
   </card>
   <card id="be3de547-6321-3638-f9fd-cc2dae5a9f14" name="Ruin and Destruction" size="EncounterCard">
+    <property name="Card Number" value="257"/>
     <property name="Quantity" value="3"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Treachery"/>
@@ -476,12 +509,14 @@
     <property name="Text" value="Revelation - If there are no investigators at the same location as a Brood of Yog-Sothoth, Ruin and Destruction gains surge. Otherwise, each investigator at the same location as a Brood of Yog-Sothoth tests ί (3). For each point he or she fails by, he or she takes 1 damage."/>
   </card>
   <card id="f2615fa2-fe0d-3801-07fb-a24b972d009a" name="Attracting Attention" size="EncounterCard">
+    <property name="Card Number" value="258"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Treachery"/>
     <property name="Text" value="Surge.&#10;Revelation - Each Brood of Yog-Sothoth enemy in play moves once toward you."/>
   </card>
   <card id="128a3a7a-b33f-3f6b-125b-ebcd65d22ab7" name="The Creatures' Tracks" size="EncounterCard">
+    <property name="Card Number" value="259"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Undimensioned and Unseen"/>
     <property name="Type" value="Treachery"/>
