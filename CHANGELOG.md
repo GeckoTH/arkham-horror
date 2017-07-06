@@ -5,12 +5,14 @@
 Features:
 - Added ability to mulligan by right-clicking on hand cards
 - Added check for hand size during upkeep (or ctrl-n)
+- Card number is now included in card data table
 - Added Undimensioned and Unseen
 - Added Where Doom Awaits
 
 Fixes:
 - Proxies now show Victory Points
 - Proxies now show Slot information
+- Fix Permanent keywords for MM and BoTA
 
 ___
 
