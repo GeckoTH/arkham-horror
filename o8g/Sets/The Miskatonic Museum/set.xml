@@ -65,7 +65,8 @@
     <property name="Level" value="1"/>
     <property name="Cost" value="-"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Permanent.&#10;In between each game of a campaign, you may swap up to two level 0 cards out of your deck in exchange for an equal number of level 0 cards. (You must still follow all deckbuilding rules for your investigator)."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="In between each game of a campaign, you may swap up to two level 0 cards out of your deck in exchange for an equal number of level 0 cards. (You must still follow all deckbuilding rules for your investigator)."/>
   </card>
   <card id="e26a0dbf-cdf7-4c32-a80a-ffee470baaae" name="Delve Too Deep">
     <property name="Card Number" value="111"/>

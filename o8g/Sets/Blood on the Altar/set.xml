@@ -22,7 +22,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="0"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Permanent.&#10;θ Spend 2 resources: You get +1 έ until the end of the phase.&#10;θ Spend 2 resources: You get +1 ή until the end of the phase."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="θ Spend 2 resources: You get +1 έ until the end of the phase.&#10;θ Spend 2 resources: You get +1 ή until the end of the phase."/>
   </card>
   <card id="a71dfe0c-bd4c-4dec-a37f-2c71c6606777" name="Preposterous Sketches">
     <property name="Card Number" value="186"/>
@@ -45,7 +46,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="0"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Permanent.&#10;While you have 5 or more cards in your hand, Higher Education gains:&#10;θ Spend 1 resource: You get +2 ά for this skill test.&#10;θ Spend 1 resource: You get +2 έ for this skill test."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="While you have 5 or more cards in your hand, Higher Education gains:&#10;θ Spend 1 resource: You get +2 ά for this skill test.&#10;θ Spend 1 resource: You get +2 έ for this skill test."/>
   </card>
   <card id="921d5c0d-0d5a-409b-809f-c00f5b36b816" name="Lone Wolf">
     <property name="Card Number" value="188"/>
@@ -67,7 +69,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="0"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Permanent.&#10;θ Spend 2 resources: You get +3 έ for this skill test.&#10;θ Spend 2 resources: You get +3 ί for this skill test."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="θ Spend 2 resources: You get +3 έ for this skill test.&#10;θ Spend 2 resources: You get +3 ί for this skill test."/>
   </card>
   <card id="d4db2332-883f-4295-a54e-9a2107c518fc" name="Defiance">
     <property name="Card Number" value="190"/>
@@ -87,7 +90,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="0"/>
     <property name="Traits" value="Spell. Pact."/>
-    <property name="Text" value="Permanent.&#10;θ Add 1 doom to Blood Pact: You get +3 ά for this skill test. (Limit once per test.)&#10;θ Add 1 doom to Blood Pact: You get +3 ή for this skill test. (Limit once per test.)"/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="&#10;θ Add 1 doom to Blood Pact: You get +3 ά for this skill test. (Limit once per test.)&#10;θ Add 1 doom to Blood Pact: You get +3 ή for this skill test. (Limit once per test.)"/>
   </card>
   <card id="65710155-f667-4818-a0f2-fe653cd49bc8" name="Rise to the Occasion">
     <property name="Card Number" value="192"/>
@@ -107,7 +111,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="0"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Permanent.&#10;θ Spend 1 resource: You get +1 ή for this skill test.&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
+    <property name="Keywords" value="Permanent."/>
+    <property name="Text" value="θ Spend 1 resource: You get +1 ή for this skill test.&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
   </card>
   <card id="a86f379f-7a6a-4bb7-9fd8-062d9cb7b302" name="Emergency Cache">
     <property name="Card Number" value="194"/>
