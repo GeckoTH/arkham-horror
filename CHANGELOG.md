@@ -3,16 +3,8 @@
 ## Upcoming
 
 Features:
-- Added ability to mulligan by right-clicking on hand cards
-- Added check for hand size during upkeep (or ctrl-n)
-- Card number is now included in card data table
-- Added Undimensioned and Unseen
-- Added Where Doom Awaits
 
 Fixes:
-- Proxies now show Victory Points
-- Proxies now show Slot information
-- Fix Permanent keywords for MM and BoTA
 
 ___
 
@@ -20,6 +12,7 @@ ___
 
 ### v1.0.0.1
 - Initial Release
+
 
 ### v1.0.0.7
 Features:
@@ -29,6 +22,7 @@ Features:
 
 Fixes:
 - Investigator Mini Card flip fix
+
 
 ### v1.0.0.8
 Features:
@@ -41,3 +35,17 @@ Fixes:
 - Fixes to Carnevale of Horrors card data
 - Update Carnevale of Horrors Scenario decks
 - Fixed Indebted keywords
+
+
+### v1.0.0.9
+Features:
+- Added ability to mulligan by right-clicking on hand cards
+- Added check for hand size during upkeep (or ctrl-n)
+- Card number is now included in card data table
+- Added Undimensioned and Unseen
+- Added Where Doom Awaits
+
+Fixes:
+- Proxies now show Victory Points
+- Proxies now show Slot information
+- Fix Permanent keywords for MM and BoTA
