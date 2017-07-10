@@ -200,9 +200,9 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="12"/>
-    <alternate name="The World is Altered" type="B">
+    <alternate name="The World is Altered" size="HorizCard" type="B">
       <property name="Encounter Set" value="Where Doom Awaits"/>
-      <property name="Type" value="Agenda "/>
+      <property name="Type" value="Agenda"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
@@ -217,9 +217,9 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="10"/>
-    <alternate name="The Reward for Servitude" type="B">
+    <alternate name="The Reward for Servitude" size="HorizCard" type="B">
       <property name="Encounter Set" value="Where Doom Awaits"/>
-      <property name="Type" value="Agenda "/>
+      <property name="Type" value="Agenda"/>
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
