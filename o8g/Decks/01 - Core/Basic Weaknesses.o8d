@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
   <section name="Investigator" shared="False" />
-  <section name="Basic Weakness" shared="True">
+  <section name="Basic Weaknesses" shared="False">
     <card qty="2" id="9ca5f0a3-e74f-4068-bf67-9fe003cf17c0">Paranoia</card>
     <card qty="2" id="8398d095-9e12-45dd-8242-838ed636ba1d">Amnesia</card>
     <card qty="1" id="76d61a65-4c3a-486c-b507-c4b0a109d65f">Haunted</card>

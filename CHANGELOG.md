@@ -5,6 +5,7 @@
 Features:
 
 Fixes:
+- Basic Weakness deck should now load
 
 ___
 
