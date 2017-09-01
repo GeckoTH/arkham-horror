@@ -3,6 +3,7 @@
 ## Upcoming
 
 Features:
+- Added Lost in Time and Space
 
 Fixes:
 - Basic Weakness deck should now load

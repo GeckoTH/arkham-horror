@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Lost in Time and Space" id="bbf3b538-4cc5-4cba-9ff8-0ccceb308e9f" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="58620fef-9026-4ed0-ab0c-3c3d98c59a10" name="Vicious Blow">
+    <property name="Card Number" value="299"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="2"/>
+    <property name="Combat" value="2"/>
+    <property name="Skill Icons" value="ήή"/>
+    <property name="Traits" value="Practiced. Expert."/>
+    <property name="Text" value="If this skill test is successful during an attack, that attack deals +1 damage (+2 damage instead if it succeeds by 2 or more)."/>
+  </card>
+  <card id="cf84e04b-b171-4a3c-be7b-2ce58e72644d" name="Monster Slayer">
+    <property name="Card Number" value="300"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήΰ"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Fight. If this attack succeeds against a non-Elite enemy, defeat that enemy."/>
+  </card>
+  <card id="8c644d58-e63c-4474-88ed-4c5f03ae1338" name="Lightning Gun">
+    <property name="Card Number" value="301"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="6"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="έή"/>
+    <property name="Slot" value="Hand x2"/>
+    <property name="Traits" value="Item. Weapon. Firearm."/>
+    <property name="Text" value="Uses (3 ammo).&#10;η Spend 1 ammo: Fight. You get +5 ή for this attack. This attack deals +2 damage."/>
+  </card>
+  <card id="9e3ca648-0add-4dc2-b02c-140704fcdb96" name="Dr. William T. Maleson">
+    <property name="Card Number" value="302"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Working on Something Big"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="2"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Miskatonic."/>
+    <property name="Text" value="ι When you draw an encounter card, exhaust Dr. William T. Maleson and place 1 of your clues on your location: Cancel the drawing of that card and shuffle it back into the encounter deck. Then, draw a new card from the top of the encounter deck."/>
+  </card>
+  <card id="f9a4e03f-ca69-493c-9eb6-c010f059379f" name="Deciphered Reality">
+    <property name="Card Number" value="303"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέά"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Investigate. The difficulty of this skill test is equal to the highest shroud value among revealed locations in play. If you succeed, discover 1 clue from each revealed location in play."/>
+  </card>
+  <card id="1b01a5cb-36ff-4a5d-b444-a7ea0dc56e83" name="Chicago Typewriter">
+    <property name="Card Number" value="304"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="4"/>
+    <property name="Cost" value="5"/>
+    <property name="Combat" value="2"/>
+    <property name="Skill Icons" value="ήή"/>
+    <property name="Slot" value="Hand x2"/>
+    <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
+    <property name="Text" value="Uses (4 ammo).&#10;η Spend 1 ammo: Fight. You may spend any number of additional actions when you perform this attack. You get +2 ή for this attack for each action being spent (including this ability's η cost). This attack deals +2 damage."/>
+  </card>
+  <card id="aab36173-1f26-4a9a-80c5-612406b4d348" name="The Gold Pocket Watch">
+    <property name="Card Number" value="305"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Stealing Time"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="4"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="άΰ"/>
+    <property name="Slot" value="Accessory"/>
+    <property name="Traits" value="Item. Relic."/>
+    <property name="Text" value="Exceptional.&#10;θ When a phase begins, remove The Gold Pocket Watch from the game: Skip this phase.&#10;θ After a phase ends, remove The Gold Pocket Watch from the game: Repeat that phase."/>
+  </card>
+  <card id="11a8455a-1639-429d-98b1-018b1d513c77" name="Shrivelling">
+    <property name="Card Number" value="306"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="2"/>
+    <property name="Skill Icons" value="άήή"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (4 charges).&#10;η Spend 1 charge: Fight. This attack uses ά instead of ή. You get +3 ά and deal +2 damage for this attack. If a α, β, γ, δ, or ζ symbol is revealed during this attack, take 2 horror."/>
+  </card>
+  <card id="881972b3-9e39-42a2-aefd-f5578300ab28" name="Ward of Protection">
+    <property name="Card Number" value="307"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="άΰ"/>
+    <property name="Traits" value="Spell. Spirit."/>
+    <property name="Text" value="Fast. Play when you draw a non-weakness encounter card. &#10;Cancel all of that card's effects and discard it. Then, take 1 horror."/>
+  </card>
+  <card id="f27bf901-4f99-4820-8f6a-0c2112203943" name="Aquinnah">
+    <property name="Card Number" value="308"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="The Forgotten Daughter"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="4"/>
+    <property name="Skill Icons" value="άί"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally."/>
+    <property name="Text" value="ι When an enemy attacks you, exhaust Aquinnah and deal 1 horror to her: Deal that enemy's damage to any enemy at your location, instead. (You still take horror dealt by the attack.)"/>
+  </card>
+  <card id="cef840df-b85b-4823-8176-17568653410b" name="Try and Try Again">
+    <property name="Card Number" value="309"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Skill Icons" value="άά"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="ι After a skill test is failed, if a skill card you own is committed to that test, exhaust Try and Try Again: Return that skill card to your hand."/>
+  </card>
+  <card id="52a2f169-da24-47c5-aa94-bfb4adde20d5" name="The Red-Gloved Man">
+    <property name="Card Number" value="310"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="He Was Never There"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Sanity" value="4"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Conspirator."/>
+    <property name="Text" value="Fast.&#10;ι After The Red-Gloved Man enters play: Choose two of your skills. While The Red-Gloved Man is in play, raise the base value of each of those skills to 6.&#10;Forced - At the end of the mythos phase: Discard The Red-Gloved Man."/>
+  </card>
+  <card id="6fbfa8ce-a2c5-4507-877f-5418b6a0c124" name="Lost in Time and Space">
+    <property name="Card Number" value="311"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="Easy / Standard&#10;α -1 for each Extradimensional location in play (max -5).&#10;β Reveal another token. If you fail, after this skill test, discard cards from the top of the encounter deck until a location is discarded. Put that location into play and move there.&#10;γ -3. If Yog-Sothoth is in play, it attacks you after this skill test.&#10;δ -X. X is the shroud value of your location. If you fail and your location is Extradimensional, discard it."/>
+    <alternate name="Lost in Time and Space" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Hard / Expert&#10;α -1 for each Extradimensional location in play.&#10;β Reveal another token. After this skill test, discard cards from the top of the encounter deck until a location is discarded. Put that location into play and move there.&#10;γ -5. If Yog-Sothoth is in play, it attacks you after this skill test.&#10;δ -X. X is twice the shroud value of your location. If you fail and your location is Extradimensional, discard it."/>
+    </alternate>
+  </card>
+  <card id="ee40c4bb-7167-413a-9f74-f90314347767" name="All is One" size="HorizCard">
+    <property name="Card Number" value="312"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="4"/>
+    <property name="Text" value="Forced - After you are moved to a location by an encounter card effect: Take 1 horror."/>
+    <alternate name="Familiar Echoes" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck. Then, discard cards from the top until a location is discarded. The lead investigator resolves that location's 'revelation' effect.&#10;Check Campaign Log. If the investigators failed to save the students, read the following:&#10;&quot;A huge canine creature, alien to your eyes and yet familiar, appears before you. The creature rushes forward, and you prepare to fend it off, but to your surprise it runs through you, towards a building that wasn't behind you moments before: Derby Hall from the Miskatonic University. The creature bursts through the building's front door and you hear screams of panic from inside, followed by the crunch of snapping bones and cries of pain.&quot;&#10;Each investigator takes 1 horror, regardless of their location."/>
+    </alternate>
+  </card>
+  <card id="8544cff6-a5a1-4f0d-a592-2277f3fc00cb" name="Past, Present and Future" size="HorizCard">
+    <property name="Card Number" value="313"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="4"/>
+    <property name="Text" value="Forced - After you are moved to a location by an encounter card effect: Take 1 horror."/>
+    <alternate name="The Price of Failure" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck. Then, discard cards from the top until a location is discarded. The lead investigator resolves that location's 'revelation' effect.&#10;Check Campaign Log. If at least one name is recorded under &quot;Sacrificed to Yog-Sothoth,&quot; read the following:&#10;&quot;You hear a familiar voice calling out to you, and you enter an impossibly shaped building of cracked stone. &quot;No… don't!&quot; the voice cries. You rush toward the voice, down a set of steep, narrow stairs. Upon reaching the bottom, you find yourself in the hidden chamber from Dunwich. Bound by shackles, you see those you failed to save, bloodied and maimed. A creature with a man's face feeds from a corpse on the ground. The head of the corpse turns to face you, and a sharp pain stabs your heart.&quot;&#10;Each investigator tests ά (X), where X is the number of names recorded under &quot;Sacrificed to Yog-Sothoth.&quot; For each point an investigator fails by, that investigator takes 1 damage."/>
+    </alternate>
+  </card>
+  <card id="c75d37d6-b5b9-4677-9694-fb78e9c0e193" name="Breaking Through" size="HorizCard">
+    <property name="Card Number" value="314"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Forced - After you are moved to a location by an encounter card effect: Take 1 horror."/>
+    <alternate name="The Key and the Gate" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Revelation - Spawn the set-aside Yog-Sothoth enemy at The Edge of the Universe. If The Edge of the Universe is not in play, spawn it in Another Dimension, instead. Advance to agenda 4a."/>
+    </alternate>
+  </card>
+  <card id="4f2f35e2-b7da-4fa4-9c80-085251a5c5b8" name="The End of All Things" size="HorizCard">
+    <property name="Card Number" value="315"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="4"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="2"/>
+    <property name="Text" value="Forced - After you are moved by an encounter card effect: Take 1 horror.&#10;Forced - If Yog-Sothoth is defeated, (→R3)."/>
+    <alternate name="Yog-Sothoth Attacks!" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="4"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="In player order, Yog-Sothoth attacks each investigator in play, regardless of Yog-Sothoth's current location. Then, flip this agenda back to its &quot;a&quot; side."/>
+    </alternate>
+  </card>
+  <card id="fc8806c5-7622-4c18-a092-746ed07f7a0d" name="Out of this World" size="HorizCard">
+    <property name="Card Number" value="316"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2π "/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η: Discard the top 3 cards of the encounter deck. Choose a location discarded by this effect and resolve its 'revelation' ability."/>
+    <alternate name="The Nexus of Dimensions" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Put the set-aside The Edge of the Universe location into play."/>
+    </alternate>
+  </card>
+  <card id="cb70c7b5-4a85-4999-bbf8-debb00dee317" name="Into the Beyond" size="HorizCard">
+    <property name="Card Number" value="317"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η: Discard the top 3 cards of the encounter deck. Choose a location discarded by this effect and resolve its 'revelation' ability.&#10;Objective - If an investigator enters The Edge of the Universe, advance."/>
+    <alternate name="The World's Edge" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+    </alternate>
+  </card>
+  <card id="be48ac3c-fdbc-485a-b052-a7fd0ef89841" name="Close the Rift" size="HorizCard">
+    <property name="Card Number" value="318"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="3π "/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η: Discard the top 3 cards of the encounter deck. Choose a location discarded by this effect and resolve its 'revelation' ability.&#10;Objective - Only investigators at The Edge of the Universe may spend the requisite number of clues, as a group, to advance."/>
+    <alternate name="Mending the Tear" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remove the Edge of the Universe from the game.&#10;Put the set-aside Tear Through Time location into play."/>
+    </alternate>
+  </card>
+  <card id="1c291c62-0a83-44ff-bc1e-86a4d0219129" name="Finding a New Way" size="HorizCard">
+    <property name="Card Number" value="319"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="4"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η: Discard the top 3 cards of the encounter deck. Choose a location discarded by this effect and resolve its 'revelation' ability.&#10;Objective - If each undefeated investigator has resigned, advance."/>
+    <alternate name="Reality Beckons" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="4"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R1)"/>
+    </alternate>
+  </card>
+  <card id="6a9bbf1a-bc69-4a2e-80db-203384bc5a3c" name="Another Dimension" size="EncounterCard">
+    <property name="Card Number" value="320"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld."/>
+    <alternate name="Another Dimension" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Subtitle" value="Unfettered by Reality"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="6"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Otherworld."/>
+      <property name="Text" value="Forced - When a location leaves play: Move each investigator and unengaged enemy at that location to Another Dimension. Cannot be canceled."/>
+    </alternate>
+  </card>
+  <card id="ea62e87a-fc31-43de-9b71-2b551fd0c99f" name="The Edge of the Universe" size="EncounterCard">
+    <property name="Card Number" value="321"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld."/>
+    <property name="Text" value="You must have at least 2 clues in order to move to The Edge of the Universe."/>
+    <alternate name="The Edge of the Universe" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π "/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Otherworld."/>
+      <property name="Text" value="You must have at least 2 clues in order to move to The Edge of the Universe.&#10;Investigators at The Edge of the Universe cannot draw cards during the upkeep phase."/>
+    </alternate>
+  </card>
+  <card id="c9821a47-be23-45a0-bf4a-1e42a6274404" name="Tear Through Time" size="EncounterCard">
+    <property name="Card Number" value="322"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld."/>
+    <alternate name="Tear Through Time" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Otherworld."/>
+      <property name="Text" value="η Spend 2 clues: Resign. You find a new path and hope that it leads back to safety."/>
+    </alternate>
+  </card>
+  <card id="a798b77c-003c-4f9d-bf25-523751a3b408" name="Yog-Sothoth" size="EncounterCard">
+    <property name="Card Number" value="323"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Subtitle" value="The Lurker Beyond the Threshold"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="-"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="5"/>
+    <property name="Traits" value="Ancient One. Elite."/>
+    <property name="Text" value="Massive. Hunter. Retaliate.&#10;Yog-Sothoth gets +6π health.&#10;Yog-Sothoth cannot be evaded and cannot make attacks of opportunity.&#10;ι When Yog-Sothoth attacks you: Instead of taking up to X horror, you may discard the top X cards from your deck. Then, if you have no cards in your deck, you are driven insane."/>
+  </card>
+  <card id="25278bfd-85d8-43cf-ad03-21c188123316" name="Tear Through Space" size="EncounterCard">
+    <property name="Card Number" value="324"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value="1"/>
+    <property name="Clues" value="1"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld. Extradimensional."/>
+    <property name="Text" value="Surge.&#10;Revelation - Put Tear Through Space into play.&#10;Forced - At the end of the round: Either place 1 doom on Tear Through Space, or discard it."/>
+  </card>
+  <card id="5f1bb425-00c2-4493-9461-04753f63b60d" name="Prismatic Cascade" size="EncounterCard">
+    <property name="Card Number" value="325"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="3"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld. Extradimensional."/>
+    <property name="Text" value="Revelation - Put Prismatic Cascade into play and discard a random card from your hand.&#10;Forced - After the last clue on Prismatic Cascade is removed: Discard Prismatic Cascade."/>
+  </card>
+  <card id="4bc24058-926b-4cf9-996c-3b63ad402552" name="Endless Bridge" size="EncounterCard">
+    <property name="Card Number" value="326"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="2"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld. Extradimensional."/>
+    <property name="Text" value="Revelation - Put Endless Bridge into play and lose 2 resources.&#10;Forced - After an investigator leaves Endless Bridge: Either place 1 doom on Endless Bridge, or discard it."/>
+  </card>
+  <card id="a17fd098-b77d-4936-8fba-2cd87a369ffc" name="Steps of Y'hagharl" size="EncounterCard">
+    <property name="Card Number" value="327"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="1π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld. Extradimensional."/>
+    <property name="Text" value="Revelation - Put Steps of Y'hagharl into play. Then, draw the topmost Madness card in your discard pile.&#10;Forced - When you would leave Steps of Y'hagharl: Test ά (2). If you fail, shuffle Steps of Y'hagharl into the encounter deck instead of moving to your original destination."/>
+  </card>
+  <card id="90e0012a-63a5-4952-8573-549bf491baac" name="Dimensional Doorway" size="EncounterCard">
+    <property name="Card Number" value="328"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="1π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld. Extradimensional."/>
+    <property name="Text" value="Revelation - Put Dimensional Doorway into play. Then, draw the topmost Hex card in the encounter discard pile.&#10;Forced - At the end of your turn, if you are at Dimensional Doorway: You must either spend 2 resources or shuffle Dimensional Doorway into the encounter deck."/>
+  </card>
+  <card id="a55bddc2-4df8-4af0-87e2-63c9499b86b4" name="Interstellar Traveler" size="EncounterCard">
+    <property name="Card Number" value="329"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="2"/>
+    <property name="Traits" value="Monster. Yithian."/>
+    <property name="Text" value="Spawn - Any Extradimensional location.&#10;Hunter.&#10;Forced - When Interstellar Traveler enters a location: Flip 1 clue on that location to its doom side and place it on Interstellar Traveler, or place 1 doom on Interstellar Traveler if there are no clues on that location."/>
+  </card>
+  <card id="99b976c9-621f-469e-a8eb-6831e0c07ea4" name="Yithian Starseeker" size="EncounterCard">
+    <property name="Card Number" value="330"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="5"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Yithian."/>
+    <property name="Text" value="Spawn - Another Dimension.&#10;Retaliate.&#10;Forced - When Yithian Starseeker attacks an investigator with more than 10 cards in his or her discard pile: Place 1 doom on Yithian Starseeker."/>
+  </card>
+  <card id="78f8e782-c17d-47ea-a1a8-d82abd6a6b20" name="Collapsing Reality" size="EncounterCard">
+    <property name="Card Number" value="331"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - If you are at an Extradimensional location, discard it and take 1 damage. Otherwise, take 2 damage."/>
+  </card>
+  <card id="bcda55bb-9512-4584-83da-66bf1614d2ef" name="Wormhole" size="EncounterCard">
+    <property name="Card Number" value="332"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Discard cards from the top of the encounter deck until a location is discarded. Resolve that location's 'revelation' ability, then move to that location."/>
+  </card>
+  <card id="d8776d4a-758f-4375-ac00-e07127efd041" name="Vast Expanse" size="EncounterCard">
+    <property name="Card Number" value="333"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - If there are no Extradimensional locations in play, Vast Expanse gains surge. Otherwise, test ά (X), where X is the number of Extradimensional locations in play (max 5). For each point you fail by, take 1 horror."/>
+  </card>
+ </cards>
+</set>
