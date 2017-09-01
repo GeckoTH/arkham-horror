@@ -3,14 +3,21 @@
 ## Upcoming
 
 Features:
-- Added Lost in Time and Space
 
 Fixes:
-- Basic Weakness deck should now load
 
 ___
 
 ## Previous
+
+### v1.0.0.11
+Features:
+- Added Lost in Time and Space
+
+Fixes:
+- Where Doom Awaits Agenda Fix
+- Basic Weakness deck should now load
+
 
 ### v1.0.0.9
 Features:
