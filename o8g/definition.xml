@@ -17,6 +17,8 @@
 	<scripts>
 		<script src="scripts/actions.py" />
 		<script src="scripts/basic_weakness.py" />
+		<script src="scripts/plugin.py" />
+		<script src="scripts/util.py" />
 	</scripts>
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
@@ -107,6 +109,9 @@
 	    <size name="DiagDirectionalMarker" width="20" height="25" back="cards/card.jpg" front="cards/card.jpg" />
 	</card>
 	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
+		<groupaction menu="Save Player Deck ..." default="False" execute="saveDeck" />
+		<groupaction menu="Save Table State..." default="False" execute="saveTable" />
+		<groupaction menu="Load Table State..." default="False" execute="loadTable" />
 		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
 		<groupaction menu="Reveal Encounter Card" default="False" shortcut="ctrl+E" execute="addEncounter" />
 		<groupaction menu="Reveal Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+E" execute="addEncounterSpecial" />
@@ -152,6 +157,7 @@
 		<cardaction menu="Lock" default="False" shortcut="ctrl+K" execute="lockCard" />
 		<cardaction menu="Rotate Left" default="False" shortcut="F8" execute="rotateLeft" />
 		<cardaction menu="Rotate Right" default="False" shortcut="F9" execute="rotateRight" />
+		<cardaction menu="Move to Trash" default="False" shortcut="ctrl+shift+X" execute="moveToTrash" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<groupactions menu="Path Markers">
 			<groupaction menu="Orthagonal on front side. Flip for diagonal." default="False" execute="" />
@@ -278,6 +284,8 @@
 			<groupaction menu="Shuffle into Special Deck" default="True" execute="moveAllToSpecial" />
 		</group>
 		<group name="Setup" visibility="all" ordered="True" width="63" height="88" icon="groups/encounterS.png" collapsed="True">
+		</group>
+		<group name="Trash" visibility="all" ordered="True" width="63" height="88" icon="groups/discard.png" collapsed="True">
 		</group>
 	</shared>
 	<deck>
