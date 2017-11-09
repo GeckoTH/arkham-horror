@@ -3,12 +3,8 @@
 ## Upcoming
 
 Features:
-- Added ability to mulligan by right-clicking on hand cards
-- Added check for hand size during upkeep (or ctrl-n)
 
 Fixes:
-- Proxies now show Victory Points
-- Proxies now show Slot information
 - Will to Survive is now properly Spirit traited.
 
 ___
@@ -38,3 +34,21 @@ Fixes:
 - Fixes to Carnevale of Horrors card data
 - Update Carnevale of Horrors Scenario decks
 - Fixed Indebted keywords
+
+### v1.0.0.9
+Features:
+- Added ability to mulligan by right-clicking on hand cards
+- Added check for hand size during upkeep (or ctrl-n)
+
+Fixes:
+- Proxies now show Victory Points
+- Proxies now show Slot information
+- Fix Permanent keywords for MM and BoTA
+
+### v1.0.0.11
+Features:
+- Added Lost in Time and Space
+
+Fixes:
+- Where Doom Awaits Agenda Fix
+- Basic Weakness deck should now load
