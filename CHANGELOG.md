@@ -6,6 +6,7 @@ Features:
 
 Fixes:
 - Will to Survive is now properly Spirit traited.
+- Fix error thrown when a deck with no minicard is loaded.
 
 ___
 

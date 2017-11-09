@@ -944,6 +944,8 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         newInvestigator = False
         investigator = filter(lambda card: card.Type == "Investigator", me.hand)
         mini = filter(lambda card: card.Type == "Mini", me.hand)
+        miniX = 0
+        miniWidth = 0
         if investigator and mini:
             investigatorCount += 1
             newInvestigator = True
@@ -953,10 +955,11 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             investigatorCard.moveToTable(investigatorX(id), InvestigatorY)
             miniX = cardX(investigatorCard) + investigatorCard.width + InvestigatorSpacing
             miniCard.moveToTable(miniX, cardY(investigatorCard))
+            miniWidth = miniCard.width
             notify("{} places his Investigator on the table".format(me))
         
         # Move any Permanents found to the table
-        permX = miniX + miniCard.width + InvestigatorSpacing
+        permX = miniX + miniWidth + InvestigatorSpacing
         for card in permanents:
             card.moveToTable(permX, cardY(investigatorCard))
             permX = permX + card.width + InvestigatorSpacing
