@@ -1,0 +1,1613 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Path to Carcosa" id="ca208949-a47c-4454-9f74-f3ca630c7ed7" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="d1c3d07c-d9fe-4fec-96fe-0eb1376dfb14" name="Mark Harrigan" size="InvestigatorCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Soldier"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Willpower" value="3"/>
+    <property name="Intellect" value="2"/>
+    <property name="Combat" value="5"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="9"/>
+    <property name="Sanity" value="5"/>
+    <property name="Traits" value="Veteran"/>
+    <property name="Text" value="You begin the game with Sophie (In Loving Memory) in play.&#10;ι After damage is placed on a card you control: Draw 1 card. (Limit once per phase.)&#10;ε effect: +1 for each damage on Mark Harrigan."/>
+    <alternate name="Mark Harrigan" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Soldier"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Guardian"/>
+      <property name="Traits" value="Veteran"/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding Options: Guardian cards (κ) level 0-5, Neutral cards level 0-5, Tactic cards level 0.&#10;Deckbuilding Requirements (do not count toward deck size): The Home Front, Shell Shock, Sophie, 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="e720a73f-d12d-413a-866a-56e348d00957" name="Minh Thi Phan" size="InvestigatorCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Secretary"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Willpower" value="4"/>
+    <property name="Intellect" value="4"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="7"/>
+    <property name="Sanity" value="7"/>
+    <property name="Traits" value="Assistant."/>
+    <property name="Text" value="ι After an investigator at your location commits a card to a skill test: That card gains a ΰ icon until the end of the test. (Limit once for each investigator per round.)&#10;ε effect: +1. You may choose a skill card committed to this skill test to return to its owner's hand after this test ends."/>
+    <alternate name="Minh Thi Phan" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Secretary"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Seeker"/>
+      <property name="Traits" value="Assistant."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding Options: Seeker cards (λ) level 0-5, Neutral cards level 0-5, Survivor cards (ξ) level 0-2.&#10;Deckbuilding Requirements (do not count toward deck size): Analytical Mind, The King in Yellow (Act 1), 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="b12ecfb5-132a-4cee-a501-a9f0ef597029" name="Sefina Rousseau" size="InvestigatorCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Painter"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Willpower" value="4"/>
+    <property name="Intellect" value="2"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="5"/>
+    <property name="Sanity" value="9"/>
+    <property name="Traits" value="Artist."/>
+    <property name="Text" value="Forced - When you would draw your opening hand: Draw 13 cards, instead. Choose up to 5 events to place beneath this card and keep 8 cards as your opening hand. Discard the rest. (You cannot mulligan.)&#10;η: Choose an event beneath this card and draw it. Does not provoke attacks of opportunity.&#10;ε effect: +3. You may choose an event beneath this card and draw it."/>
+    <alternate name="Sefina Rousseau" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Painter"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Rogue"/>
+      <property name="Traits" value="Artist."/>
+      <property name="Text" value="Deck size: 33.&#10;Deckbuilding Options: Rogue cards (ν) level 0-5, Neutral cards level 0-5, Mystic cards (μ) level 0-2.&#10;Deckbuilding Requirements (do not count toward deck size): 3 copies of The Painted World, 1 copy of Stars of Hyades, 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="e84da7a4-4354-4ca9-bf7f-98db4bc71b51" name="Akachi Onyele" size="InvestigatorCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Shaman"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Willpower" value="5"/>
+    <property name="Intellect" value="2"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Sanity" value="8"/>
+    <property name="Traits" value="Sorcerer."/>
+    <property name="Text" value="Your assets with &quot;uses (charges)&quot; enter play with 1 additional charge on them.&#10;ε effect: +1. Add 1 charge to an asset with &quot;uses (charges)&quot; you control."/>
+    <alternate name="Akachi Onyele" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Shaman"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Mystic"/>
+      <property name="Traits" value="Sorcerer."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Neutral cards level 0-5, cards with &quot;uses (charges)&quot; level 0-4, Occult cards level 0.&#10;Deckbuilding Requirements (do not count toward deck size): Spirit-Speaker, Angered Spirits, 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="10797ed5-43a5-432f-b85d-05937226cf86" name="William Yorick" size="InvestigatorCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Gravedigger"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Willpower" value="3"/>
+    <property name="Intellect" value="2"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="8"/>
+    <property name="Sanity" value="6"/>
+    <property name="Traits" value="Warden."/>
+    <property name="Text" value="ι After you defeat an enemy: Play an asset from your discard pile (paying its cost). (Limit once per round.)&#10;ε effect: +2. If this test is successful, return 1 card from your discard pile to your hand."/>
+    <alternate name="William Yorick" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Gravedigger"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Survivor"/>
+      <property name="Traits" value="Warden."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding Options: Survivor cards (ξ) level 0-5, Neutral cards level 0-5, Guardian cards (κ) level 0-2.&#10;Deckbuilding Requirements (do not count toward deck size): Bury Them Deep, Graveyard Ghouls, 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="fe9917ce-ecf1-4a22-8183-5de72fb08f8a" name="Lola Hayes" size="InvestigatorCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Actress"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Willpower" value="3"/>
+    <property name="Intellect" value="3"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Sanity" value="6"/>
+    <property name="Traits" value="Performer."/>
+    <property name="Text" value="Forced - After you draw your opening hand: Choose a role (ξ, κ, λ, ν, μ, or Neutral).&#10;You can only play, commit, or trigger abilities on Neutral cards or cards of your role.&#10;θ: Switch your role. (Limit once per round.)&#10;ε effect: +2. You may switch roles."/>
+    <alternate name="Lola Hayes" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Actress"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Neutral"/>
+      <property name="Traits" value="Performer."/>
+      <property name="Text" value="Deck size: 35.&#10;Deckbuilding Options: Survivor, Guardian, Seeker, Rogue, and Mystic cards (ξ, κ, λ, ν, and μ) level 0-3, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): 2 copies of Improvisation, 2 copies of Crisis of Identity, 1 random basic weakness.&#10;Additional Requirements: Your deck must include at least 7 cards each from 3 different classes (ξ, κ, λ, ν, or μ)."/>
+    </alternate>
+  </card>
+  <card id="adecc9da-1548-45cf-ba74-101f24571d83" name="The Home Front">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Combat" value="4"/>
+    <property name="Skill Icons" value="ήήήή"/>
+    <property name="Traits" value="Practiced. Expert."/>
+    <property name="Text" value="Mark Harrigan deck only.&#10;If this skill is successful during an attack, move 1 damage from Mark Harrigan to the attacked enemy."/>
+  </card>
+  <card id="4b4c7be5-789f-47b0-a827-4d7193747c98" name="Shell Shock">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Flaw."/>
+    <property name="Text" value="Revelation - For every 2 damage on you, take 1 horror."/>
+  </card>
+  <card id="cb508b5e-a72c-4a04-92b1-3db45054202a" name="Sophie">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="In Loving Memory"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Spirit."/>
+    <property name="Text" value="Mark Harrigan deck only.&#10;Sophie cannot leave play.&#10;θ Take 1 direct damage: You get +2 to your skill value for this skill test.&#10;Forced - If Mark Harrigan has 5 or more damage on him: Flip Sophie."/>
+    <alternate name="Sophie" type="B">
+      <property name="Subtitle" value="It Was All My Fault"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Asset"/>
+      <property name="Class" value="Neutral"/>
+      <property name="Traits" value="Item. Madness."/>
+      <property name="Text" value="Sophie cannot leave play.&#10;You get -1 to each of your skills.&#10;Forced - If Mark Harrigan has 4 or less damage on him: Flip Sophie."/>
+    </alternate>
+  </card>
+  <card id="30fb3e52-6e01-47c9-af3f-794f0846669f" name="Analytical Mind">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Between the Lines"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="Minh Thi Phan deck only.&#10;You may commit 1 card to each skill test performed by an investigator at another location.&#10;ι After you commit exactly 1 card to a skill test, exhaust Analytical Mind: Draw 1 card."/>
+  </card>
+  <card id="775403be-3ab9-4307-959c-433013d4bd41" name="The King in Yellow">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Act 1"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Tome."/>
+    <property name="Text" value="Revelation - Put The King in Yellow into play in your threat area. It cannot leave play except through the ι ability below.&#10;You cannot commit exactly 1 or 2 cards to a skill test.&#10;ι After a skill test is successful in which Minh Thi Phan has committed at least 6 matching skill icons for that test: Discard The King in Yellow."/>
+  </card>
+  <card id="77762bba-feb8-4bc3-924f-11f7873847c4" name="The Painted World">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="3"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="άίΰ"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Sefina Rousseau deck only.&#10;Cannot be placed beneath Sefina Rousseau.&#10;Play The Painted World as an exact copy of a non-exceptional event that is beneath Sefina Rousseau. Remove The Painted World from the game instead of discarding it."/>
+  </card>
+  <card id="0edbea65-8d12-43dc-ad58-56fd907d12a8" name="Stars of Hyades">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Curse."/>
+    <property name="Text" value="Revelation - Randomly choose an event beneath Sefina Rousseau and remove it from the game. If you cannot, take 1 damage and 1 horror. If your deck has 5 or more cards in it, shuffle Stars of Hyades back into your deck instead of discarding it."/>
+  </card>
+  <card id="b5652d99-7ea7-44ea-981d-c048bd1c85c0" name="Spirit-Speaker">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Envoy of the Alusi"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="άέΰ"/>
+    <property name="Traits" value="Ritual."/>
+    <property name="Text" value="Akachi Onyele deck only.&#10;θ Exhaust Spirit-Speaker: Choose an asset you control with &quot;uses (charges).&quot; Either return that asset to your hand, or move all charges from that asset to your resource pool (as resources) and discard that asset."/>
+  </card>
+  <card id="b2245888-7a35-4bb1-a9d2-8e965f48b068" name="Angered Spirits">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Task."/>
+    <property name="Text" value="Revelation - Put Angered Spirits into play in your threat area.&#10;θ Exhaust a Spell asset: Move 1 charge from that asset to Angered Spirits.&#10;Forced - When the game ends, if Angered Spirits has fewer than 4 charges on it: You suffer 1 physical trauma."/>
+  </card>
+  <card id="569aa886-e35c-4743-ab28-580054aa3acf" name="Bury Them Deep">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Skill Icons" value="άήΰ"/>
+    <property name="Traits" value="Task."/>
+    <property name="Text" value="William Yorick deck only.&#10;Fast. Play after a non-Elite enemy at your location is defeated.&#10;Add that enemy (and this card) to the victory display."/>
+  </card>
+  <card id="0545b58a-e4e5-47de-a1e0-fd9add65f674" name="Graveyard Ghouls">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Monster. Ghoul."/>
+    <property name="Text" value="Prey - William Yorick only.&#10;Hunter.&#10;While Graveyard Ghouls is engaged with you, cards cannot leave your discard pile."/>
+  </card>
+  <card id="efcb1bf8-2856-40e2-b929-dc9778c01584" name="Improvisation">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="0"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Lola Hayes deck only.&#10;Fast. Play only during your turn.&#10;Switch your role. Until the end of your turn, reduce the resource cost of the next card you play of your role by 3. Draw 1 card."/>
+  </card>
+  <card id="1364260b-3c1d-4931-bb8d-8cc976640d7f" name="Crisis of Identity">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Madness."/>
+    <property name="Text" value="Revelation - Discard all cards you control of your current role. Then, discard the top card of your deck. Switch your role to the class of the discarded card (if the discarded card is a weakness, switch your role to neutral)."/>
+  </card>
+  <card id="e26cc034-0541-4fd3-af1a-c40380d81ad3" name=".32 Colt">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ή"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Firearm."/>
+    <property name="Text" value="Uses (6 ammo).&#10;η Spend 1 ammo: Fight. You deal +1 damage for this attack."/>
+  </card>
+  <card id="4941435b-faf8-4e07-867c-294b760eea02" name="True Grit">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="True Grit may be assigned damage dealt to other investigators at your location."/>
+  </card>
+  <card id="c3533456-7808-400d-8fcf-8e947dcd85b7" name="&quot;Let me handle this!&quot;">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="άή"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Fast. Play after another investigator draws a non-peril encounter card, but before resolving that card's effects.&#10;You are considered to have drawn that encounter card, instead. You get +2 to each of your skills while resolving that card's revelation effect."/>
+  </card>
+  <card id="b296130f-a3b4-4fc3-8edc-65da229b0e45" name="Ever Vigilant">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Text" value="One at a time, play up to 3 assets from your hand, reducing the resource cost of each by 1."/>
+  </card>
+  <card id="0f3770fb-ba7b-4191-a1e2-8e1f26983d53" name="Fieldwork">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="ι After you move to a location, if that location has at least 1 clue on it, exhaust Fieldwork: You get +2 skill value for the next skill test you perform this phase."/>
+  </card>
+  <card id="38b19e4f-1a9e-4581-a8ac-2284d61c43a1" name="Archaic Glyphs">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Untranslated"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Occult. Tome."/>
+    <property name="Text" value="η Discard a card with at least 1 έ skill icon from your hand: Place 1 resource on Archaic Glyphs from the token pool, as a secret.&#10;Forced - After the third secret is placed on Archaic Glyphs: Discard Archaic Glyphs and gain 5 resources. Record in your Campaign Log that &quot;you have translated the glyphs.&quot;"/>
+  </card>
+  <card id="9f87d218-df29-47d5-b26f-2daf0b90b167" name="No Stone Unturned">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Choose an investigator at your location. That investigator searches the top 6 cards of his or her deck for a card, draws it, and shuffles his or her deck."/>
+  </card>
+  <card id="083dc573-7765-41fb-bb03-fc4d557c4fa6" name="In the Know">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="Uses (3 secrets).&#10;η Spend 1 secret: Investigate. Investigate any revealed location in play as if you were at that location."/>
+  </card>
+  <card id="12f25e42-e409-47d0-88ae-3724d35d25a8" name="Stealth">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="η Exhaust Stealth: Evade. The chosen enemy gets -2 evade for this evasion attempt. If you successfully evade the enemy, disengage with it but do not exhaust it. Until the end of your turn, that enemy cannot engage you."/>
+  </card>
+  <card id="31c82a7c-e642-4c53-a1ad-13b589edac18" name="Sleight of Hand">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="έί"/>
+    <property name="Traits" value="Trick."/>
+    <property name="Text" value="Fast. Play only during your turn.&#10;Put an Item asset into play from your hand. At the end of your turn, if that asset is still in play, return it to your hand."/>
+  </card>
+  <card id="578fe576-2c45-45a9-b987-3f44993e0ec5" name="Daring Maneuver">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Gambit."/>
+    <property name="Text" value="Fast. Play when you would succeed at a skill test.&#10;You get +2 skill value for this test."/>
+  </card>
+  <card id="3ab5db6c-682a-4b06-bc8d-a37aaff0903f" name="Lockpicks">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tool. Illicit."/>
+    <property name="Text" value="Uses (3 supplies). If Lockpicks has no supplies, discard it.&#10;η Exhaust Lockpicks: Investigate. Add your ί value to your skill value for this investigation. If you do not succeed by at least 2, remove 1 supply from Lockpicks."/>
+  </card>
+  <card id="a36a85e5-e71e-4956-99fc-b999fc04444e" name="Alchemical Transmutation">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (3 charges).&#10;η Exhaust Alchemical Transmutation, spend 1 charge: Test ά (1). For each point you succeed by, gain 1 resource (to a maximum of 3). If a α, β, γ, δ, or ζ symbol is revealed during this test, take 1 damage."/>
+  </card>
+  <card id="f48a875b-cc5d-496f-8833-0bf6f08a03c5" name="Uncage the Soul">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="2"/>
+    <property name="Skill Icons" value="άά"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Play a Spell or Ritual card from your hand, reducing its resource cost by 3."/>
+  </card>
+  <card id="1b216f49-5472-4f2c-b2ad-ed2ba4856da9" name="Astral Travel">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="άί"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Move. Move to any revealed location and reveal a random token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, you must discard an Item or Ally asset you control (if you cannot, take 1 damage)."/>
+  </card>
+  <card id="3025513f-3b4f-416e-bf16-022df897908e" name="Spirit Athame">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ή"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Relic. Weapon. Melee."/>
+    <property name="Text" value="θ During a skill test on a Spell card, exhaust Spirit Athame: You get +2 skill value for this test.&#10;η Exhaust Spirit Athame: Fight. You get +2 ή for this attack."/>
+  </card>
+  <card id="e05e3860-418a-4295-8c8b-78953d572e5a" name="Lantern">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tool."/>
+    <property name="Text" value="η: Investigate. Your location gets -1 shroud for this investigation.&#10;η Discard Lantern: Deal 1 damage to an enemy at your location. This action does not provoke attacks of opportunity."/>
+  </card>
+  <card id="09f04897-4e28-4b96-bcf7-a9e22f661625" name="Gravedigger's Shovel">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ή"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tool. Weapon. Melee."/>
+    <property name="Text" value="η: Fight. You get +2 ή for this attack.&#10;η Discard Gravedigger's Shovel: Discover 1 clue at your location."/>
+  </card>
+  <card id="2c08f9a1-3ee5-41fd-aef1-3269d61ad7b7" name="Hiding Spot">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Agility" value="2"/>
+    <property name="Skill Icons" value="ίί"/>
+    <property name="Traits" value="Tactic. Trick."/>
+    <property name="Text" value="Fast. Attach Hiding Spot to any location.&#10;Each non-Elite enemy at attached location gains aloof.&#10;Forced - At the end of the enemy phase, if a ready enemy is at attached location: Discard Hiding Spot."/>
+  </card>
+  <card id="5cae3396-1b75-42ae-82cf-3e54b0e11f37" name="Resourceful">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="έήί"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="If this skill test is successful, choose a ξ card not named Resourceful in your discard pile. Add the chosen card to your hand."/>
+  </card>
+  <card id="6c7f104b-f07c-423e-b221-5218affead2b" name="Overzealous">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Basic Weakness"/>
+    <property name="Traits" value="Flaw."/>
+    <property name="Text" value="Revelation - Draw the top card of the encounter deck. That card gains surge."/>
+  </card>
+  <card id="d73c20b0-f661-4d33-a932-9db730708916" name="Drawing the Sign">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Basic Weakness"/>
+    <property name="Traits" value="Pact. Madness."/>
+    <property name="Text" value="Revelation - Put Drawing the Sign into play in your threat area.&#10;Your maximum hand size is reduced by 5 while checking your hand size during the upkeep phase.&#10;ηη: Discard Drawing the Sign."/>
+  </card>
+  <card id="74c2e15a-6d3b-42d1-8c07-e9330d50bc43" name="The Thing That Follows">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="1"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Basic Weakness"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Curse."/>
+    <property name="Text" value="Spawn - Location farthest from you.&#10;Prey - Bearer only.&#10;Hunter.&#10;Forced - When The Thing That Follows would be defeated: Instead shuffle it into its bearer's deck."/>
+  </card>
+  <card id="4f27752a-ef71-47c0-9b1e-2d4a192dd8af" name="Curtain Call">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="Easy / Standard&#10;α -1 (-3 instead if you have 3 or more horror on you).&#10;β γ δ -4. If your location has at least 1 horror on it, take 1 horror (from the token pool). If your location has no horror on it, place 1 horror on it instead."/>
+    <alternate name="Curtain Call" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Hard / Expert&#10;α -X, where X is the amount of horror on you. (If you have no horror on you, X is 1.)&#10;β γ δ -5. If your location has at least 1 horror on it, take 1 horror (from the token pool). If your location has no horror on it, place 1 horror on it instead."/>
+    </alternate>
+  </card>
+  <card id="d2a7406a-71f5-470d-99e5-a66f03696117" name="The Third Act" size="HorizCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <alternate name="The Emissary's Message" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Search all set-aside cards and the victory display for the Royal Emissary enemy, and spawn it in the Theatre."/>
+    </alternate>
+  </card>
+  <card id="2c6187a9-76e7-4b1c-8a43-2c19a8b5c50c" name="Encore" size="HorizCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Forced - After Royal Emissary is added to the victory display: Remove all doom from play and reset the agenda deck to agenda 1a. Then, place 3 doom on that agenda."/>
+    <alternate name="&quot;Exit Now&quot;" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator takes 100 horror (cannot be prevented)."/>
+    </alternate>
+  </card>
+  <card id="a93be08b-0678-47ce-8495-2fcf4f592e12" name="Awakening" size="HorizCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="3π"/>
+    <property name="Doom" value=""/>
+    <alternate name="His Final Bow" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Choose one of the set-aside locations, at random. Put that location into play, and spawn the set-aside The Man in the Pallid Mask enemy at that location (instead of his normal spawn location).&#10;Advance to one of the 3 copies of act 2a, at random. Remove the other 2 copies of act 2a from the game without looking at them."/>
+    </alternate>
+  </card>
+  <card id="bcac7d95-9727-48a6-9637-8b1cea4e9d09" name="The Stranger" size="HorizCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - When The Man in the Pallid Mask would be discarded from play, advance."/>
+    <alternate name="A City Aflame" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Instead of discarding The Man in the Pallid Mask, move him to the Lobby.&#10;Add 2 β tokens to the chaos bag.&#10;Place 1 horror on the Theatre. Until the end of the scenario, horror on locations represents spreading flames, and each location with horror gains: &quot;Forced - After you enter this location or end your turn at this location: Test ί (3). If you fail, take 1 damage. (Limit once per round.)&quot;&#10;Keep this card next to the act deck as a reminder, and advance to act 3a."/>
+    </alternate>
+  </card>
+  <card id="25789be3-7924-4834-bf85-093a010025a9" name="The Stranger" size="HorizCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - When The Man in the Pallid Mask would be discarded from play, advance."/>
+    <alternate name="The Path is Mine" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Instead of discarding The Man in the Pallid Mask, move him to the Lobby.&#10;Add 2 γ tokens to the chaos bag.&#10;Place 1 horror on the location The Man in the Pallid Mask was moved from. Until the end of the scenario, horror on locations represents the advancing ooze, and each location with horror gains: &quot;Forced - After you leave this location: Test ί (4). If you fail, take 1 horror and 1 damage.&quot;&#10;Keep this card next to the act deck as a reminder, and advance to act 3a."/>
+    </alternate>
+  </card>
+  <card id="362b14dc-33b6-438f-a880-0e1de96d2d15" name="The Stranger" size="HorizCard">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - When The Man in the Pallid Mask would be discarded from play, advance."/>
+    <alternate name="The Shores of Hali" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Instead of discarding The Man in the Pallid Mask, move him to the Lobby.&#10;Add 2 δ tokens to the chaos bag.&#10;Place 1 horror on each Private location. Until the end of the scenario, horror on locations represents flooding water, and each location with horror gains: &quot;Forced - When you would leave this location: Test ί (2). If you fail, take 1 damage and cancel the effects of the move. (Limit once per round.)&quot;&#10;Keep this card next to the act deck as a reminder, and advance to act 3a."/>
+    </alternate>
+  </card>
+  <card id="fda5fc52-3076-45e0-aa8c-7438bbc8d763" name="Curtain Call" size="HorizCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="While The Man in the Pallid Mask is not in play, the Lobby gains: &quot;η: Resign.&quot;&#10;Forced - At the end of the round: Place 1 horror on each location with no horror that is connected to a location with horror.&#10;Objective - If each undefeated investigator has resigned, advance."/>
+    <alternate name="Escaping the Theatre" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The investigators must decide (choose one):&#10;- We have to warn the police about what's going on! (→R1)&#10;- The police won't believe us. We have to solve this mystery on our own. (→R2)"/>
+    </alternate>
+  </card>
+  <card id="9ea44e62-15f5-4a17-84e1-397faeed100a" name="Theatre" size="EncounterCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Theatre" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+    </alternate>
+  </card>
+  <card id="c30724d5-13d5-483e-9bc5-50e0a825100d" name="Lobby" size="EncounterCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Lobby" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - When Lobby is revealed: Put 2 of the set-aside Lobby Doorway locations into play, at random.&#10;η η: Draw 3 cards."/>
+    </alternate>
+  </card>
+  <card id="e1d22038-00da-429e-930f-8ad7bf245bfe" name="Balcony" size="EncounterCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Balcony" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π "/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced - After you perform a move action during which you move from the Balcony to the Theatre: Take 2 damage."/>
+    </alternate>
+  </card>
+  <card id="4d77df3a-b331-41c1-aacc-0b647595333f" name="Backstage" size="EncounterCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Backstage" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - When Backstage is revealed: Put 2 of the set-aside Backstage Doorway locations into play, at random.&#10;While you are at Backstage, each hidden treachery in your hand counts as 3 cards instead of 1 for the purposes of counting your hand size."/>
+    </alternate>
+  </card>
+  <card id="651dcc09-5555-4116-a5e7-1fc268f747ce" name="Lobby Doorway" size="EncounterCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Private."/>
+    <alternate name="Lighting Box" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Private."/>
+      <property name="Text" value="While you are in the Lighting Box, increase the resource cost of each card in your hand by 2."/>
+    </alternate>
+  </card>
+  <card id="4b6c39f1-489d-4865-a8c3-a06f501032d4" name="Lobby Doorway" size="EncounterCard">
+    <property name="Card Number" value="54"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Private."/>
+    <alternate name="Box Office" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Private."/>
+      <property name="Text" value="η: Gain 5 resources. Remember that you &quot;stole from the box office.&quot; (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="5eb519b3-1c37-42fa-979f-85ee71f4d712" name="Lobby Doorway" size="EncounterCard">
+    <property name="Card Number" value="55"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Private."/>
+    <alternate name="Green Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="5"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Private."/>
+      <property name="Text" value="η Investigate. You get +3 έ for this investigation. After this skill test ends, discard each card in your hand."/>
+    </alternate>
+  </card>
+  <card id="b883c3ab-1f79-4f66-8189-331f49eeed51" name="Backstage Doorway" size="EncounterCard">
+    <property name="Card Number" value="56"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Private."/>
+    <alternate name="Dressing Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Private."/>
+      <property name="Text" value="η η η: Heal 3 horror."/>
+    </alternate>
+  </card>
+  <card id="b58d6e53-4dda-4a2a-9895-fafe78e0cb52" name="Backstage Doorway" size="EncounterCard">
+    <property name="Card Number" value="57"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Private."/>
+    <alternate name="Rehearsal Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Private."/>
+      <property name="Text" value="Forced - After you succeed by 2 or more while investigating the Rehearsal Room: Take 1 horror."/>
+    </alternate>
+  </card>
+  <card id="54652fd6-0f52-419b-a56c-262587e974f4" name="Backstage Doorway" size="EncounterCard">
+    <property name="Card Number" value="58"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Private."/>
+    <alternate name="Trap Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Curtain Call"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Private."/>
+      <property name="Text" value="Forced - After you reveal the Trap Room: Search the encounter deck and discard pile for 1 copy of Swarm of Rats and put it into play engaged with you (2 copies instead if there are 3 or 4 investigators in the game). Shuffle the encounter deck if it is searched."/>
+    </alternate>
+  </card>
+  <card id="0b579bc9-d109-441d-a684-107bd0074f4c" name="The Man in the Pallid Mask" size="EncounterCard">
+    <property name="Card Number" value="59"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="3"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Elite."/>
+    <property name="Text" value="Spawn - Location farthest from all investigators.&#10;Aloof.&#10;η: Investigate. Your location gets +2 shroud for this investigation. If you succeed, instead of discovering clues, defeat The Man in the Pallid Mask."/>
+  </card>
+  <card id="85b2ef57-9d11-41f7-a65b-a648df0c6870" name="Royal Emissary" size="EncounterCard">
+    <property name="Card Number" value="60"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Curtain Call"/>
+    <property name="Subtitle" value="Messenger from Aldebaran"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="2"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Monster. Elite."/>
+    <property name="Text" value="Prey - Lowest ά.&#10;Massive. Hunter. Retaliate.&#10;Forced - At the end of the enemy phase: Each investigator at Royal Emissary's location or a connecting location takes 1 horror."/>
+  </card>
+  <card id="8ccc73e7-0522-40ab-a2ce-8f2840118c14" name="The Last King">
+    <property name="Card Number" value="61"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="Easy / Standard&#10;α Reveal another token. If you fail, place 1 doom on a Lunatic enemy in play.&#10;β -2. If you fail, place 1 of your clues on your location.&#10;γ: -4. If you fail, take 1 horror.&#10;δ: -X. X is the shroud value of your location."/>
+    <alternate name="The Last King" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Hard / Expert&#10;α Reveal another token. If you fail, place 1 doom on the Lunatic enemy in play with the most remaining health.&#10;β -3. Place 1 of your clues on your location.&#10;γ -4. Take 1 horror.&#10;δ -X. X is the shroud value of your location. If you fail, take 1 damage."/>
+    </alternate>
+  </card>
+  <card id="decc0b1b-abfa-4f69-8c34-e6ca0dfb4d43" name="Fashionably Late" size="HorizCard">
+    <property name="Card Number" value="62"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="3"/>
+    <alternate name="The Final Guest" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Find the Bystander asset with the fewest clues on it. Spawn the set-aside Dianne Devine enemy at that asset's location.&#10;Shuffle the encounter discard pile into the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="62b1be18-861f-4c79-850b-f65181aaaa75" name="The Terrifying Truth" size="HorizCard">
+    <property name="Card Number" value="63"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="3"/>
+    <property name="Text" value="Forced - When this agenda would advance by reaching its doom threshold: Instead, remove all doom in play and randomly resolve one of the Sickening Reality cards underneath the scenario reference card. If there are no cards underneath the scenario reference card, advance to agenda 2b instead."/>
+    <alternate name="If You Can't Beat Them…" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R3)"/>
+    </alternate>
+  </card>
+  <card id="2783c24c-09ee-40ea-bf94-c176b1c875e3" name="Discovering the Truth" size="HorizCard">
+    <property name="Card Number" value="64"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Forced - When an investigator is eliminated (by defeat or resignation): Place each of that investigator's clues on this act, instead of placing them at his or her location.&#10;Objective - Find as many clues as you can, then get out of this awful place!"/>
+    <alternate name="…?" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Madness. noun. mad.ness.&#10;The state of being mentally ill, especially severely.&#10;- Extremely foolish behavior.&#10;- A state of frenzied or chaotic activity.&#10;- Why are you looking at this side?&#10;- There is no reason to flip to Act 1b.&#10;- Flip back to Act 1a."/>
+    </alternate>
+  </card>
+  <card id="d46cc2e1-a35d-43d0-8d97-6191c036c752" name="Sickening Reality">
+    <property name="Card Number" value="65"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Story"/>
+    <property name="Text" value="Each investigator at Constance Dumaine's location takes 1 horror.Move each clue from Constance Dumaine to her location.Flip this card to its enemy side, and switch it with the Bystander asset version of Constance Dumaine, removing that version from the game."/>
+    <alternate name="Constance Dumaine" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Subtitle" value="A Little Too Sociable"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Combat" value="4"/>
+      <property name="Agility" value="1"/>
+      <property name="Health" value="6"/>
+      <property name="Damage" value="2"/>
+      <property name="Victory Points" value="0"/>
+      <property name="Traits" value="Monster. Lunatic. Elite."/>
+      <property name="Text" value="Hunter.While Constance Dumaine is exhuasted, she gets +3 fight."/>
+    </alternate>
+  </card>
+  <card id="d70b4ee5-f019-41e3-b646-5877ed6ed546" name="Sickening Reality">
+    <property name="Card Number" value="66"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Story"/>
+    <property name="Text" value="Each investigator at Jordan Perry's location takes 1 horror.Move each clue from Jordan Perry to his location.Flip this card to its enemy side, and switch it with the Bystander asset version of Jordan Perry, removing that version from the game."/>
+    <alternate name="Jordan Perry" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Subtitle" value="An Imposing Presence"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Combat" value="2"/>
+      <property name="Agility" value="2"/>
+      <property name="Health" value="8"/>
+      <property name="Damage" value="1"/>
+      <property name="Horror" value="1"/>
+      <property name="Victory Points" value="0"/>
+      <property name="Traits" value="Monster. Lunatic. Elite."/>
+      <property name="Text" value="Hunter.Forced - At the beginning of the enemy phase: Heal 1 damage from Jordan Perry."/>
+    </alternate>
+  </card>
+  <card id="28cb5d3e-f01b-45bb-855d-c485ee013856" name="Sickening Reality">
+    <property name="Card Number" value="67"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Story"/>
+    <property name="Text" value="Each investigator at Ishimaru Haruko's location takes 1 horror.Move each clue from Ishimaru Haruko to her location.Flip this card to its enemy side, and switch it with the Bystander asset version of Ishimaru Haruko, removing that version from the game."/>
+    <alternate name="Ishimaru Haruko" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Subtitle" value="Just Skin and Bones"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Combat" value="6"/>
+      <property name="Agility" value="3"/>
+      <property name="Health" value="4"/>
+      <property name="Damage" value="1"/>
+      <property name="Horror" value="1"/>
+      <property name="Victory Points" value="0"/>
+      <property name="Traits" value="Monster. Lunatic. Elite."/>
+      <property name="Text" value="Hunter.Forced - After you deal damage to Ishimaru Haruko by an effect other than an attack: Draw the top card of the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="e2a657d8-5022-4c24-a583-db5af2f0ffe9" name="Sickening Reality">
+    <property name="Card Number" value="68"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Story"/>
+    <property name="Text" value="Each investigator at Sebastien Moreau's location takes 1 horror.Move each clue from Sebastien Moreau to his location.Flip this card to its enemy side, and switch it with the Bystander asset version of Sebastien Moreau, removing that version from the game."/>
+    <alternate name="Sebastien Moreau" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Subtitle" value="Savage Hysteria"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Combat" value="3"/>
+      <property name="Agility" value="3"/>
+      <property name="Health" value="5"/>
+      <property name="Damage" value="2"/>
+      <property name="Horror" value="2"/>
+      <property name="Victory Points" value="0"/>
+      <property name="Traits" value="Monster. Lunatic. Elite."/>
+      <property name="Text" value="Hunter. Retaliate.Sebastien Moreau's attacks cannot be canceled."/>
+    </alternate>
+  </card>
+  <card id="cb30e8bc-cd3f-458d-8ed7-a862aca101b1" name="Sickening Reality">
+    <property name="Card Number" value="69"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Story"/>
+    <property name="Text" value="Each investigator at Ashleigh Clarke's location takes 1 horror.Move each clue from Ashleigh Clarke to her location.Flip this card to its enemy side, and switch it with the Bystander asset version of Ashleigh Clarke, removing that version from the game."/>
+    <alternate name="Ashleigh Clarke" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Subtitle" value="Songs Die Unheard"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Combat" value="2"/>
+      <property name="Agility" value="4"/>
+      <property name="Health" value="5"/>
+      <property name="Horror" value="2"/>
+      <property name="Victory Points" value="0"/>
+      <property name="Traits" value="Monster. Lunatic. Elite."/>
+      <property name="Text" value="Hunter.Each investigator at Ashleigh  Clarke's location does not draw cards during the upkeep phase."/>
+    </alternate>
+  </card>
+  <card id="1a2e05a3-449d-42ee-9acb-bcbcb74b8fb8" name="Foyer" size="EncounterCard">
+    <property name="Card Number" value="70"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Foyer" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η: Resign. Having found valuable information about the production, you depart and plan your next move. (If each undefeated investigator has resigned, proceed to &quot;if no resolution was reached&quot; in the Campaign Guide.)"/>
+    </alternate>
+  </card>
+  <card id="817c6c3c-a012-4cb6-a971-7f635b9a40c9" name="Ballroom" size="EncounterCard">
+    <property name="Card Number" value="71"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Ballroom" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="ι After you perform a parley action in the Ballroom: Gain 2 resources. (Group limit once per phase.)"/>
+    </alternate>
+  </card>
+  <card id="fa39401d-1c22-48b3-90a3-491fdc3986a8" name="Living Room" size="EncounterCard">
+    <property name="Card Number" value="72"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Living Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="ι After you perform a parley action in the Living Room: Draw 1 card. (Group limit once per phase.)"/>
+    </alternate>
+  </card>
+  <card id="e8c328f7-614e-4cca-9bc0-5a8c98b17191" name="Gallery" size="EncounterCard">
+    <property name="Card Number" value="73"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Gallery" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - After you end your turn at the Gallery: Test ά (2). If you fail, place 1 of your clues on the Gallery."/>
+    </alternate>
+  </card>
+  <card id="1e3ae66b-e3b2-4c47-b01b-74a84a7199d9" name="Courtyard" size="EncounterCard">
+    <property name="Card Number" value="74"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Courtyard" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="5"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - After you enter the Courtyard: Discard the top card of the encounter deck. If that card is an enemy, draw it."/>
+    </alternate>
+  </card>
+  <card id="55d22c8d-180a-4f65-a976-2578b32004fa" name="Dining Room" size="EncounterCard">
+    <property name="Card Number" value="75"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Dining Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η: Heal 1 horror. Then, reveal a random token from the chaos bag. If a α or ζ symbol is revealed, take 1 horror and place 1 doom on the Dining Room."/>
+    </alternate>
+  </card>
+  <card id="95e0c5b0-e5c0-447b-a56c-cd3e0c33ed48" name="Constance Dumaine">
+    <property name="Card Number" value="76"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Subtitle" value="Sociable Hostess"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Bystander."/>
+    <property name="Text" value="η: Parley. Test έ (3) to ask Constance about the play. If you succeed, take control of 1 of the clues on Constance Dumaine.&#10;Forced - When the last clue is removed from Constance Dumaine: Flip this card over and resolve its text."/>
+    <alternate name="Engram's Oath" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Remember that you &quot;interviewed Constance.&quot;Flip this card back over to its Bystander asset side."/>
+    </alternate>
+  </card>
+  <card id="d857e12b-849f-4d96-ac84-6b4800b22d33" name="Jordan Perry">
+    <property name="Card Number" value="77"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Subtitle" value="Dignified Financier"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Bystander."/>
+    <property name="Text" value="η If you have 10 or more resources: Parley. Test έ (2) to fraternize with Jordan. If you succeed, take control of 1 of the clues on Jordan Perry.&#10;Forced - When the last clue is removed from Jordan Perry: Flip this card over and resolve its text."/>
+    <alternate name="L'agneau Perdu" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Remember that you &quot;interviewed Jordan.&quot;Flip this card back over to its Bystander asset side."/>
+    </alternate>
+  </card>
+  <card id="618a7e11-07d9-4cd3-ae9e-51c655675115" name="Ishimaru Haruko">
+    <property name="Card Number" value="78"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Subtitle" value="Costume Designer"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Bystander."/>
+    <property name="Text" value="η If you have 6 or more cards in your hand: Parley. Test ά (2) to question Haruko about the play. If you succeed, take control of 1 of the clues on Ishimaru Haruko.&#10;Forced - When the last clue is removed from Ishimaru Haruko: Flip this card over and resolve its text."/>
+    <alternate name="The Pattern" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Remember that you &quot;interviewed Haruko.&quot;Flip this card back over to its Bystander asset side."/>
+    </alternate>
+  </card>
+  <card id="7468dc22-72ba-440f-b2c6-db5e996c439b" name="Sebastien Moreau">
+    <property name="Card Number" value="79"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Subtitle" value="Impassioned Producer"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Bystander."/>
+    <property name="Text" value="η: Parley. Test ά (3) to get information about the production from Sebastien. If you succeed, take control of 1 of the clues on Sebastien Moreau.&#10;Forced - When the last clue is removed from Sebastien Moreau: Flip this card over and resolve its text."/>
+    <alternate name="The First Show" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Remember that you &quot;interviewed Sebastien.&quot;Flip this card back over to its Bystander asset side."/>
+    </alternate>
+  </card>
+  <card id="16cf8478-335a-4a07-9367-5ef3b984bf5d" name="Ashleigh Clarke">
+    <property name="Card Number" value="80"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Subtitle" value="Talented Entertainer"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Bystander."/>
+    <property name="Text" value="ηη: Parley. You listen to Ashleigh perform. Take control of 1 of the clues on Ashleigh Clarke.&#10;Forced - When the last clue is removed from Ashleigh Clarke: Flip this card over and resolve its text."/>
+    <alternate name="Above and Below" type="B">
+      <property name="Encounter Set" value="The Last King"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Remember that you &quot;interviewed Ashleigh.&quot;Flip this card back over to its Bystander asset side."/>
+    </alternate>
+  </card>
+  <card id="6c253516-6ee4-4de9-8a4d-29c9f70b34aa" name="Dianne Devine" size="EncounterCard">
+    <property name="Card Number" value="81"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Subtitle" value="Mercurial and Mischevious"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Traits" value="Humanoid. Cultist. Elite."/>
+    <property name="Text" value="Aloof.&#10;Each investigator at Dianne Devine's location cannot discover or take control of clues.&#10;Forced - At the beginning of the enemy phase: Find the Bystander asset with the fewest clues on it. Move Dianne Devine to that asset's location, if able."/>
+  </card>
+  <card id="89caa5e2-c572-41ba-ac2d-d9fb15776ccc" name="Fine Dining" size="EncounterCard">
+    <property name="Card Number" value="82"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Peril.&#10;Revelation - You must either place 1 of your clues on a Bystander asset in play or take 1 horror and 1 damage."/>
+  </card>
+  <card id="f3ba042e-0168-42c5-b8cb-3f7c6db9aa18" name="Tough Crowd" size="EncounterCard">
+    <property name="Card Number" value="83"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Last King"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Put Tough Crowd into play next to the agenda deck.&#10;Each investigator must spend 1 additional action to parley.&#10;Forced - At the end of the round: Discard Tough Crowd."/>
+  </card>
+  <card id="ee0b0617-fb92-4044-8c5b-4557d585a57f" name="Whispers in Your Head (Anxiety)" size="EncounterCard">
+    <property name="Card Number" value="84"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Delusions"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Peril. Hidden.&#10;Revelation - Secretly add Whispers in Your Head (Anxiety) to your hand.&#10;YYou cannot trigger θ abilities.&#10;ηη: Discard Whispers in Your Head (Anxiety) from your hand."/>
+  </card>
+  <card id="9a97899b-05b3-48c8-a887-d81e51ad7b9a" name="Whispers in Your Head (Dismay)" size="EncounterCard">
+    <property name="Card Number" value="84"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Delusions"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Peril. Hidden.&#10;Revelation - Secretly add Whispers in Your Head (Dismay) to your hand.&#10;You cannot commit skill cards to skill tests.&#10;ηη: Discard Whispers in Your Head (Dismay) from your hand."/>
+  </card>
+  <card id="dadb5b8c-ae6d-461d-beab-3c9bbda307f9" name="Whispers in Your Head (Doubt)" size="EncounterCard">
+    <property name="Card Number" value="84"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Delusions"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Peril. Hidden.&#10;Revelation - Secretly add Whispers in Your Head (Doubt) to your hand.&#10;You cannot play events.&#10;ηη: Discard Whispers in Your Head (Doubt) from your hand."/>
+  </card>
+  <card id="b142edb8-97d6-4509-ba14-7c99a0ee7692" name="Whispers in Your Head (Dread)" size="EncounterCard">
+    <property name="Card Number" value="84"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Delusions"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Peril. Hidden.&#10;Revelation - Secretly add Whispers in Your Head (Dread) to your hand.&#10;You cannot move more than once each turn.&#10;ηη: Discard Whispers in Your Head (Dread) from your hand."/>
+  </card>
+  <card id="ce65fdd4-895d-424f-b5f6-0832c37bdbc9" name="Descent into Madness" size="EncounterCard">
+    <property name="Card Number" value="85"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Delusions"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Surge.&#10;Revelation - If you have at least 3 horror on you, lose 1 action."/>
+  </card>
+  <card id="3e6c4fca-7904-4011-9e5c-c7f326b70fca" name="Swift Byakhee" size="EncounterCard">
+    <property name="Card Number" value="86"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Byakhee"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Byakhee."/>
+    <property name="Text" value="Prey - Lowest remaining sanity.&#10;Hunter. Retaliate.&#10;Forced - When Swift Byakhee would move via the hunter keyword: Instead, move it (one location at a time) until it enters its prey's location. If it moved more than one location by this effect, it does not attack this phase."/>
+  </card>
+  <card id="2c2200a9-17cc-4623-9681-707f91f4f67a" name="Hunted by Byakhee" size="EncounterCard">
+    <property name="Card Number" value="87"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Byakhee"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Pact."/>
+    <property name="Text" value="Revelation - Test ί (6). If you fail, reveal the top X cards of the encounter deck, where X is the amount you failed by. If at least 1 Byakhee enemy is revealed by this effect, choose and draw 1 of them. If at least 1 Omen treachery is revealed by this effect, take 1 horror. Shuffle the encounter deck."/>
+  </card>
+  <card id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9" name="Beast of Aldebaran" size="EncounterCard">
+    <property name="Card Number" value="88"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Inhabitants of Carcosa"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="5"/>
+    <property name="Health" value="7"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Monster. Elite."/>
+    <property name="Text" value="Massive.&#10;While assigning damage and horror from Beast of Aldebaran's attack, you must assign as much damage and horror as possible to a single card before assigning it to another card."/>
+  </card>
+  <card id="5cd3a00a-e928-4d2b-b39f-9195c52c39ad" name="Spawn of Hali" size="EncounterCard">
+    <property name="Card Number" value="89"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Inhabitants of Carcosa"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="2"/>
+    <property name="Traits" value="Monster."/>
+    <property name="Text" value="Prey - Most horror.&#10;Retaliate.&#10;Forced - After you successfully evade Spawn of Hali by 2 or less: Take 1 horror."/>
+  </card>
+  <card id="7e5ba644-8dc9-4979-8941-05cb8c1fcaba" name="Black Stars Rise" size="EncounterCard">
+    <property name="Card Number" value="90"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Evil Portents"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Omen."/>
+    <property name="Text" value="Revelation - Test έ (4). If you fail, you must either place 1 doom on the current agenda or take 1 horror for each point you failed by. This effect can cause the current agenda to advance."/>
+  </card>
+  <card id="312db589-3f66-4154-b361-d1e733091b74" name="Spires of Carcosa" size="EncounterCard">
+    <property name="Card Number" value="91"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Evil Portents"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Omen."/>
+    <property name="Text" value="Revelation - Attach to your location, then place 2 doom on that location.&#10;If there is no doom on attached location, discard Spires of Carcosa.&#10;η: Investigate. If you succeed, instead of discovering clues here, remove 1 doom from attached location."/>
+  </card>
+  <card id="9b117a79-6e5e-4d03-bf60-73ac95886a2d" name="Twisted to His Will" size="EncounterCard">
+    <property name="Card Number" value="92"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Evil Portents"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Pact."/>
+    <property name="Text" value="Revelation - If there is no doom in play, Twisted to His Will gains surge. Otherwise, test ά (X), where X is the amount of doom in play. If you fail, discard 2 cards from your hand at random."/>
+  </card>
+  <card id="25f2b043-9b84-4462-911d-42dbaaea2a35" name="Poltergeist" size="EncounterCard">
+    <property name="Card Number" value="93"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Hauntings"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="2"/>
+    <property name="Horror" value="2"/>
+    <property name="Traits" value="Monster. Geist."/>
+    <property name="Text" value="Cannot be damaged except by Spell, Relic, or encounter cards.&#10;η Parley. Test έ (3) to attempt to banish the geist. If you succeed, deal it 1 damage."/>
+  </card>
+  <card id="4e1d5bce-18f2-49ec-9832-02a57a5ea992" name="Spirit's Torment" size="EncounterCard">
+    <property name="Card Number" value="94"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Hauntings"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Curse. Geist."/>
+    <property name="Text" value="Revelation - Attach to your location.&#10;Forced - After you leave attached location: You must either take 1 horror or lose 1 action.&#10;η Place 1 of your clues on attached location: Discard Spirit's Torment."/>
+  </card>
+  <card id="8edcf3f3-0cb5-4ba6-8fe1-3386835a0b15" name="Maniac" size="EncounterCard">
+    <property name="Card Number" value="95"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Hastur's Gift"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Traits" value="Humanoid. Lunatic."/>
+    <property name="Text" value="Forced - After Maniac engages you: Take 1 damage and deal 1 damage to Maniac."/>
+  </card>
+  <card id="95a412a2-e6d5-4adc-ab32-d6c15578680d" name="Young Psychopath" size="EncounterCard">
+    <property name="Card Number" value="96"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Hastur's Gift"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Lunatic."/>
+    <property name="Text" value="Forced - After Young Psychopath engages you: You must either take 1 horror, or Young Psychopath gets +3 fight until the end of the investigation phase."/>
+  </card>
+  <card id="45be8e5a-86ba-4461-81b5-b26ed5667d83" name="Dance of the Yellow King" size="EncounterCard">
+    <property name="Card Number" value="97"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Hastur's Gift"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Pact."/>
+    <property name="Text" value="Revelation - If there are no Lunatic enemies in play, Dance of the Yellow King gains surge. Otherwise, test ά (3). If you fail, the nearest Lunatic enemy readies, moves (one location at a time) until it reaches your location, engages you, and makes an immediate attack."/>
+  </card>
+  <card id="f2583909-73ce-4141-8a26-8bf7b86bba4e" name="Fanatic" size="EncounterCard">
+    <property name="Card Number" value="98"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Cult of the Yellow Sign"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="1"/>
+    <property name="Traits" value="Humanoid. Cultist."/>
+    <property name="Text" value="Spawn - Revealed location with the most clues.&#10;Forced - After Fanatic enters play: Move 1 clue from Fanatic's location to Fanatic.&#10;Forced - When you defeat Fanatic: Take control of all of its clues."/>
+  </card>
+  <card id="f6577476-6f0f-452e-b689-1b0cbcb06701" name="Agent of the King" size="EncounterCard">
+    <property name="Card Number" value="99"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Cult of the Yellow Sign"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Humanoid. Cultist."/>
+    <property name="Text" value="Prey - Most clues.&#10;Hunter.&#10;Forced - After Agent of the King attacks you: Move 1 of your clues to Agent of the King.&#10;Forced - When you defeat Agent of the King: Take control of all of its clues."/>
+  </card>
+  <card id="fb264d2c-d8ff-4b19-b87f-c6146763873f" name="The King's Edict" size="EncounterCard">
+    <property name="Card Number" value="100"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Cult of the Yellow Sign"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Pact."/>
+    <property name="Text" value="Revelation - For each Cultist enemy in play, move 1 clue from that enemy's location to that enemy. Until the end of the round, each Cultist enemy in play gets +1 fight for each clue and/or doom on it. If no clues are moved by this effect, The King's Edict gains surge."/>
+  </card>
+  <card id="3cba18b0-e2d2-4583-a7fe-f42dc278e847" name="Ooze and Filth" size="EncounterCard">
+    <property name="Card Number" value="101"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Decay &amp; Filth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Put Ooze and Filth into play next to the agenda deck.&#10;Each location gets +1 shroud.&#10;Forced - At the end of the round: Discard Ooze and Filth."/>
+  </card>
+  <card id="757ba65c-af72-40b0-a8e6-bf5828260733" name="Corrosion" size="EncounterCard">
+    <property name="Card Number" value="102"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Decay &amp; Filth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Discard Item assets from play and/or from your hand with a total printed resource cost of at least X, where X is the shroud value of your location. If no cards are discarded by this effect, Corrosion gains surge."/>
+  </card>
+  <card id="1b887e33-712e-457c-b62d-2c16a4495f3e" name="Roach Swarm" size="EncounterCard">
+    <property name="Card Number" value="103"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Decay &amp; Filth"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="X"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="1"/>
+    <property name="Traits" value="Creature."/>
+    <property name="Text" value="X is the shroud value of Roach Swarm's location."/>
+  </card>
+  <card id="f341e477-11b0-498b-b1e4-fbf6822e9097" name="Marked by the Sign" size="EncounterCard">
+    <property name="Card Number" value="104"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Stranger"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Pact."/>
+    <property name="Text" value="Peril.&#10;Revelation - Test ά (2). If you fail, take 2 horror. If The Man in the Pallid Mask is in play, horror dealt by this effect is considered direct horror, and this test has +2 difficulty."/>
+  </card>
+  <card id="a7ec26bc-91c9-4351-a54e-7f13a0ed0a73" name="The Pale Mask Beckons" size="EncounterCard">
+    <property name="Card Number" value="105"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Stranger"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Omen. Pact."/>
+    <property name="Text" value="Revelation - If The Man in the Pallid Mask is in play, he attacks each investigator in player order, regardless of his current location. If The Man in the Pallid Mask is not in play, search his bearer's deck and discard pile for him, draw him, and shuffle his bearer's deck (resolve this effect even if his bearer is currently eliminated, searching all out-of-play areas)."/>
+  </card>
+ </cards>
+</set>

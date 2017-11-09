@@ -3,6 +3,7 @@
 ## Upcoming
 
 Features:
+- Added The Path to Carcosa
 
 Fixes:
 - Will to Survive is now properly Spirit traited.
