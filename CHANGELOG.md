@@ -3,35 +3,29 @@
 ## Upcoming
 
 Features:
+- Added ability to mulligan by right-clicking on hand cards
+- Added check for hand size during upkeep (or ctrl-n)
 
 Fixes:
+- Proxies now show Victory Points
+- Proxies now show Slot information
+- Will to Survive is now properly Spirit traited.
 
 ___
 
 ## Previous
 
-### v1.0.0.11
+### v1.0.0.1
+- Initial Release
+
+### v1.0.0.7
 Features:
-- Added Lost in Time and Space
+- Added Miskatonic Museum
+- Added Essex County Express
+- Added Phase/Round Management. Press F12 to begin!
 
 Fixes:
-- Where Doom Awaits Agenda Fix
-- Basic Weakness deck should now load
-
-
-### v1.0.0.9
-Features:
-- Added ability to mulligan by right-clicking on hand cards
-- Added check for hand size during upkeep (or ctrl-n)
-- Card number is now included in card data table
-- Added Undimensioned and Unseen
-- Added Where Doom Awaits
-
-Fixes:
-- Proxies now show Victory Points
-- Proxies now show Slot information
-- Fix Permanent keywords for MM and BoTA
-
+- Investigator Mini Card flip fix
 
 ### v1.0.0.8
 Features:
@@ -44,17 +38,3 @@ Fixes:
 - Fixes to Carnevale of Horrors card data
 - Update Carnevale of Horrors Scenario decks
 - Fixed Indebted keywords
-
-
-### v1.0.0.7
-Features:
-- Added Miskatonic Museum
-- Added Essex County Express
-- Added Phase/Round Management. Press F12 to begin!
-
-Fixes:
-- Investigator Mini Card flip fix
-
-
-### v1.0.0.1
-- Initial Release
