@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Echoes of the Past" id="ed4e6058-f8f6-4872-b689-9be56bf36495" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="f29b59ec-ec43-4a28-b0ef-2328f98366b0" name="Heroic Rescue">
+    <property name="Card Number" value="106"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήά"/>
+    <property name="Traits" value="Spirit. Tactic."/>
+    <property name="Text" value="Fast. Play when a non-Elite enemy would attack another investigator at your location.&#10;Engage that enemy and resolve its attack against you instead. Then, deal it 1 damage."/>
+  </card>
+  <card id="389a1f02-8576-40e9-ab01-7831c42d8469" name="Combat Training">
+    <property name="Card Number" value="107"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Traits" value="Talent. Composure."/>
+    <property name="Text" value="Fast. Limit 1 Composure in play.&#10;Non-direct horror must be assigned to Combat Training before it can be assigned to your investigator card.&#10;[free] Spend 1 resource: You get +1 ή for this skill test.&#10;[free] Spend 1 resource: You get +1 ί for this skill test."/>
+  </card>
+  <card id="5ad22d80-e0fb-4bd7-a238-e1b45d049f44" name="Anatomical Diagrams">
+    <property name="Card Number" value="108"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήά"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Fast. Play during any investigator's turn. Play only if you have 5 or more remaining sanity.&#10;Choose a non-Elite enemy at your location. Until the end of the active investigator's turn, that enemy gets -2 fight and -2 evade."/>
+  </card>
+  <card id="5ae2824d-d778-44a3-bd1b-c77c8dd3a1b8" name="Scientific Theory">
+    <property name="Card Number" value="109"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Skill Icons" value="έή"/>
+    <property name="Traits" value="Talent. Composure."/>
+    <property name="Text" value="Fast. Limit 1 Composure in play.&#10;Non-direct horror must be assigned to Scientific Theory before it can be assigned to your investigator card.&#10;[free] Spend 1 resource: You get +1 έ for this skill test.&#10;[free] Spend 1 resource: You get +1 ή for this skill test."/>
+  </card>
+  <card id="6af41cf6-266c-48e2-b119-9fbd61829752" name="Knuckleduster">
+    <property name="Card Number" value="110"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ή"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Melee. Illicit."/>
+    <property name="Text" value="η: Fight. This attack deals +1 damage. The attacked enemy gains retaliate for this attack."/>
+  </card>
+  <card id="87b827ac-303c-4967-a965-e37896f65e29" name="Moxie">
+    <property name="Card Number" value="111"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Skill Icons" value="ίά"/>
+    <property name="Traits" value="Talent. Composure."/>
+    <property name="Text" value="Fast. Limit 1 Composure in play.&#10;Non-direct horror must be assigned to Moxie before it can be assigned to your investigator card.&#10;[free] Spend 1 resource: You get +1 ά for this skill test.&#10;[free] Spend 1 resource: You get +1 ί for this skill test."/>
+  </card>
+  <card id="83fc44d4-edfe-4fb3-a7f8-8e42244c7064" name="David Renfield">
+    <property name="Card Number" value="112"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Esteemed Eschatologist"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Patron."/>
+    <property name="Text" value="While David Renfield has at least 1 doom on him, you get +1 ά.&#10;[fast] Exhaust David Renfield: You may place 1 doom on David Renfield. Gain 1 resource for each doom on David Renfield."/>
+  </card>
+  <card id="4c8b511f-49bd-4e6d-9dca-97db8f533e6f" name="Grounded">
+    <property name="Card Number" value="113"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Talent. Composure."/>
+    <property name="Text" value="Fast. Limit 1 Composure in play.&#10;Non-direct horror must be assigned to Grounded before it can be assigned to your investigator card.&#10;[free] During a skill test on a Spell card, spend 1 resource: You get +1 skill value for this test."/>
+  </card>
+  <card id="b2be6512-0e1c-43f2-a2e0-899757f43d17" name="Cherished Keepsake">
+    <property name="Card Number" value="114"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Sanity" value="2"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Accessory"/>
+    <property name="Traits" value="Item. Charm."/>
+  </card>
+  <card id="177fa98c-3792-4f59-a809-139467475fe5" name="Plucky">
+    <property name="Card Number" value="115"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Sanity" value="1"/>
+    <property name="Skill Icons" value="έά"/>
+    <property name="Traits" value="Talent. Composure."/>
+    <property name="Text" value="Fast. Limit 1 Composure in play.&#10;Non-direct horror must be assigned to Plucky before it can be assigned to your investigator card.&#10;[free] Spend 1 resource: You get +1 ά for this skill test.&#10;[free] Spend 1 resource: You get +1 έ for this skill test."/>
+  </card>
+  <card id="ff3b2a54-6aa9-49b3-bf27-9ca88fbfdb3c" name="Say Your Prayers">
+    <property name="Card Number" value="116"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Willpower" value="4"/>
+    <property name="Skill Icons" value="άάάά"/>
+    <property name="Traits" value="Desperate."/>
+    <property name="Text" value="Max 1 committed per skill test.&#10;Commit to a skill test only if you have 3 or fewer remaining sanity."/>
+  </card>
+  <card id="9864c7ca-1bdf-4b40-adb6-c5fb0b3ee232" name="Desperate Search">
+    <property name="Card Number" value="117"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Intellect" value="4"/>
+    <property name="Skill Icons" value="έέέέ"/>
+    <property name="Traits" value="Desperate."/>
+    <property name="Text" value="Max 1 committed per skill test.&#10;Commit to a skill test only if you have 3 or fewer remaining sanity."/>
+  </card>
+  <card id="650d7373-7c5e-4058-be76-18b6b557798a" name="Reckless Assault">
+    <property name="Card Number" value="118"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Combat" value="4"/>
+    <property name="Skill Icons" value="ήήήή"/>
+    <property name="Traits" value="Desperate."/>
+    <property name="Text" value="Max 1 committed per skill test.&#10;Commit to a skill test only if you have 3 or fewer remaining sanity."/>
+  </card>
+  <card id="7a4cd64c-8a1a-4551-8a4c-cb3a463e6cf4" name="Run For Your Life">
+    <property name="Card Number" value="119"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Agility" value="4"/>
+    <property name="Skill Icons" value="ίίίί"/>
+    <property name="Traits" value="Desperate."/>
+    <property name="Text" value="Max 1 committed per skill test.&#10;Commit to a skill test only if you have 3 or fewer remaining sanity."/>
+  </card>
+  <card id="d789bb63-a4a4-478c-800f-9b618b76d0d9" name="Echoes of the Past">
+    <property name="Card Number" value="120"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="Easy / Standard&#10;α: -X. X is the highest number of doom on an enemy in play.&#10;β: -2. If you fail, place 1 doom on the nearest enemy.&#10;γ: -2. If you fail, discard a random card from your hand.&#10;δ: -2. If you fail and there is an enemy at your location, take 1 horror."/>
+    <alternate name="Echoes of the Past" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Text" value=" Hard / Expert &#10;α: -X. X is the total number of doom on enemies in play.&#10;β: -4. Place 1 doom on the nearest enemy.&#10;γ: -4. Discard a random card from your hand.&#10;δ: -4. If there is an enemy at your location, take 1 horror."/>
+    </alternate>
+  </card>
+  <card id="db645ddc-72b0-4ada-9e05-49bcae6f85a5" name="The Truth is Hidden" size="HorizCard">
+    <property name="Card Number" value="121"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="2"/>
+    <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
+    <alternate name="The Truth is Hidden" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="f675c7f0-b292-414f-a2a1-7dc24a573544" name="Ransacking the Manor" size="HorizCard">
+    <property name="Card Number" value="122"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="2"/>
+    <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
+    <alternate name="Ransacking the Manor" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Spawn the set-aside Possessed Oathspeaker enemy at the Entry Hall.&#10;Check Campaign Log. If Sebastien Moreau is not listed under &quot;VIPs Slain,&quot; search the collection for Sebastien Moreau (Savage Hysteria) and spawn him in the Entry Hall."/>
+    </alternate>
+  </card>
+  <card id="edc8c61e-8bfa-4123-827a-19639d957f18" name="Secrets Better Left Hidden" size="HorizCard">
+    <property name="Card Number" value="123"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="3"/>
+    <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
+    <alternate name="Secrets Better Left Hidden" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R4)."/>
+    </alternate>
+  </card>
+  <card id="b353bda0-77b4-405f-ac95-56421a5b81ad" name="Race for Answers" size="HorizCard">
+    <property name="Card Number" value="124"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2"/>
+    <property name="Doom" value=""/>
+    <alternate name="Race for Answers" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="For each revealed Historical Society location, add 1 [per_investigator] clues to it (to a maximum of its clue value)."/>
+    </alternate>
+  </card>
+  <card id="2bd1ff6e-8bc1-4cbe-bb80-6b84be81f509" name="Mistakes of the Past" size="HorizCard">
+    <property name="Card Number" value="125"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2"/>
+    <property name="Doom" value=""/>
+    <alternate name="Mistakes of the Past" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="For each revealed Historical Society location, add 1 [per_investigator] clues to it (to a maximum of its clue value).&#10;Choose an investigator to take control of the set-aside Mr. Peabody asset.&#10;Put the set-aside Hidden Library location into play."/>
+    </alternate>
+  </card>
+  <card id="2c12ad8f-8b49-43e3-9481-eae4c5704b39" name="The Oath" size="HorizCard">
+    <property name="Card Number" value="126"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="3"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Locations with the Passageway trait are connected to one another.&#10;Objective - Only investigators in the Hidden Library may spend the requisite number of clues, as a group, to advance."/>
+    <alternate name="The Oath" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The investigators must decide (choose one):&#10;- This is an important discovery! We should take it with us. (→R1).&#10;- It's just a silly trinket, and it would be wrong to steal from the Historical Society. Leave it behind. (→R2)"/>
+    </alternate>
+  </card>
+  <card id="e539a9e8-b1f7-47c7-be85-8e2d1b07da19" name="Entry Hall" size="EncounterCard">
+    <property name="Card Number" value="127"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ground Floor."/>
+    <property name="Text" value="Entry Hall is connected to each other Ground Floor location."/>
+    <alternate name="Entry Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Ground Floor."/>
+      <property name="Text" value="Entry Hall is connected to each other Ground Floor location.&#10;η: Resign. You flee, leaving the mysteries of the past to the mysterious cultists."/>
+    </alternate>
+  </card>
+  <card id="7a50f11d-59c1-4109-86c4-06d483df7891" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="128"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ground Floor."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Meeting Room"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Ground Floor."/>
+      <property name="Text" value="η Exhaust an Ally asset: Discover a clue at this location. (Limit once per round.)"/>
+    </alternate>
+  </card>
+  <card id="b60cff3c-de68-440f-95a7-ad5f0563bff8" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="129"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ground Floor."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Record Office"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Ground Floor."/>
+      <property name="Text" value="Each enemy at this location gets +1 fight and +1 evade."/>
+    </alternate>
+  </card>
+  <card id="2eb3f14e-8a82-44e3-8919-83e505af71d8" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="130"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ground Floor."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Historical Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Ground Floor."/>
+      <property name="Text" value="While investigating this location, your έ cannot be modified."/>
+    </alternate>
+  </card>
+  <card id="a13cbbd4-e860-48df-bd05-55e7959a47ae" name="Quiet Halls" size="EncounterCard">
+    <property name="Card Number" value="131"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Second Floor."/>
+    <property name="Text" value="Quiet Halls is connected to each other Second Floor location."/>
+    <alternate name="Quiet Halls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Second Floor."/>
+      <property name="Text" value="Quiet Halls is connected to each other Second Floor location.&#10;η If each location in play is revealed and there are no clues on locations in play: Place 1 [per_investigator] clues on Quiet Halls (from the token bank)."/>
+    </alternate>
+  </card>
+  <card id="3c1beb7e-4080-45e9-bc25-fbedb75586bc" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="132"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Second Floor."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Historical Museum"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Second Floor."/>
+      <property name="Text" value="While investigating this location, your έ cannot be modified."/>
+    </alternate>
+  </card>
+  <card id="8bf4b009-1ba2-4535-804c-d1df7b8bc01a" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="133"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Second Floor. Passageway."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Historical Library"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Second Floor. Passageway."/>
+      <property name="Text" value="ι After you successfully investigate this location, take 2 horror: Discover 1 clue at this location. (Limit once per round)."/>
+    </alternate>
+  </card>
+  <card id="a46dd824-28ef-4e50-a08b-6615f606e9d5" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="134"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Second Floor."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Reading Room"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="5"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Second Floor."/>
+      <property name="Text" value="η: Investigate. If you succeed, instead of discovering clues, choose an enemy with doom on it. Take 1 of that enemy's doom, flip it to its clue side, and place it on your investigator. (Group limit once per round)."/>
+    </alternate>
+  </card>
+  <card id="55d2f185-d653-4853-a20b-0699c10f85ca" name="Quiet Halls" size="EncounterCard">
+    <property name="Card Number" value="135"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Third Floor."/>
+    <property name="Text" value="Quiet Halls is connected to each other Third Floor location."/>
+    <alternate name="Quiet Halls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Third Floor."/>
+      <property name="Text" value="Quiet Halls is connected to each other Third Floor location.&#10;η If each location in play is revealed and there are no clues on locations in play: Place 1 [per_investigator] clues on Quiet Halls (from the token bank)."/>
+    </alternate>
+  </card>
+  <card id="92d52f13-6801-4c56-92dd-871fe8eddb17" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="136"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Third Floor. Passageway."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Historical Library"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Third Floor. Passageway."/>
+      <property name="Text" value="ι After you successfully investigate this location, take 2 horror: Discover 1 clue at this location. (Limit once per round)."/>
+    </alternate>
+  </card>
+  <card id="f40bcedc-8679-4525-b267-8acda4017da9" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="137"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Third Floor. Passageway."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Peabody's Office"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Third Floor. Passageway."/>
+      <property name="Text" value="While an investigator at this location controls Mr. Peabody, this location gets -2 shroud."/>
+    </alternate>
+  </card>
+  <card id="993bb8e9-34d5-40c3-a203-16527e8041b5" name="Historical Society" size="EncounterCard">
+    <property name="Card Number" value="138"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Third Floor."/>
+    <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
+    <alternate name="Historical Society" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Subtitle" value="Record Office"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Third Floor."/>
+      <property name="Text" value="Each enemy at this location gets +1 fight and +1 evade."/>
+    </alternate>
+  </card>
+  <card id="0e4d0bcf-ff36-4d5d-849d-64d6914e43e8" name="Hidden Library" size="EncounterCard">
+    <property name="Card Number" value="139"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="While an enemy is moving, Hidden Library gains the Passageway trait."/>
+    <alternate name="Hidden Library" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Echoes of the Past"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="3"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="2"/>
+      <property name="Text" value="While an enemy is moving, Hidden Library gains the Passageway trait."/>
+    </alternate>
+  </card>
+  <card id="6ad7589a-4c69-4376-ab12-eeac1deee852" name="Possessed Oathspeaker" size="EncounterCard">
+    <property name="Card Number" value="140"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Subtitle" value="A Damnable Fate"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="5"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Monster. Servitor. Elite."/>
+    <property name="Text" value="Hunter. Retaliate.&#10;Cannot be damaged during act 1 or act 2.&#10;Forced - At the beginning of the enemy phase: The investigators must either ready Possessed Oathspeaker or place 1 doom on it.&#10;Objective - If Possessed Oathspeaker is defeated: (→R3)"/>
+  </card>
+  <card id="cc41dfc7-71be-4b1e-a88b-24127b9f0318" name="Mr. Peabody">
+    <property name="Card Number" value="141"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Subtitle" value="Historical Society Curator"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="2"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Historical Society."/>
+    <property name="Text" value="η Exhaust Mr. Peabody: Choose a location. Until Mr. Peabody readies, that location gets -1 shroud and gains the Passageway trait."/>
+  </card>
+  <card id="ca68f0da-59e9-45d8-8ba4-10d1339ac0f4" name="Clasp of Black Onyx">
+    <property name="Card Number" value="142"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Subtitle" value="A Gift Unlooked For"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Cost" value="1"/>
+    <property name="Traits" value="Item. Relic."/>
+    <property name="Text" value="While Clasp of Black Onyx is in your hand, increase the cost of each other card in your hand by 1."/>
+  </card>
+  <card id="73f0528f-9fd5-4ba1-8680-d67ac2c4fae2" name="The Tattered Cloak">
+    <property name="Card Number" value="143"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Subtitle" value="Regalia Dementia"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Skill Icons" value="ίήά"/>
+    <property name="Slot" value="Body"/>
+    <property name="Traits" value="Item. Clothing."/>
+    <property name="Text" value="You get -1 sanity.&#10;You get +1 ά, +1 ή, and +1 ί while you have 3 or fewer remaining sanity."/>
+  </card>
+  <card id="d79af316-217c-452b-8929-9b88efa8182b" name="Seeker of Carcosa" size="EncounterCard">
+    <property name="Card Number" value="144"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Cultist."/>
+    <property name="Text" value="Spawn - Any empty Historical Society location.&#10;Aloof.&#10;Forced - At the end of the mythos phase: Move 1 clue from Seeker of Carcosa's location to Seeker of Carcosa (if you cannot, place 1 doom on Seeker of Carcosa, instead)."/>
+  </card>
+  <card id="4caf5b58-a20e-4f5b-a1af-889225a55a53" name="Led Astray" size="EncounterCard">
+    <property name="Card Number" value="145"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Scheme."/>
+    <property name="Text" value="Peril.&#10;Revelation - You must decide (choose one):&#10;- Place 1 of your clues on a Cultist enemy.&#10;- Place 1 doom on the current agenda (this effect may cause the current agenda to advance)."/>
+  </card>
+  <card id="e488c8da-e380-40b1-9dd9-535772418241" name="The Cult's Search" size="EncounterCard">
+    <property name="Card Number" value="146"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Echoes of the Past"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Scheme."/>
+    <property name="Text" value="Revelation - If there is a Cultist enemy in play with doom on it, move all doom from each Cultist enemy to the current agenda (this effect may cause the current agenda to advance). If there are no Cultist enemies in play with doom on them, search the encounter deck and discard pile for a Cultist enemy and draw it (shuffle the encounter deck)."/>
+  </card>
+ </cards>
+</set>
