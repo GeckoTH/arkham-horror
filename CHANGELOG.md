@@ -3,11 +3,8 @@
 ## Upcoming
 
 Features:
-- Added The Path to Carcosa
 
 Fixes:
-- Will to Survive is now properly Spirit traited.
-- Fix error thrown when a deck with no minicard is loaded.
 
 ___
 
@@ -54,3 +51,12 @@ Features:
 Fixes:
 - Where Doom Awaits Agenda Fix
 - Basic Weakness deck should now load
+
+### v1.0.0.12
+Features:
+- Added The Path to Carcosa
+- Added Echoes of the Past
+
+Fixes:
+- Will to Survive is now properly Spirit traited.
+- Fix error thrown when a deck with no minicard is loaded.
