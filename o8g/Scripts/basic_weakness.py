@@ -19,6 +19,12 @@ class BasicWeakness:
             "ee9ed7fb-bd73-4a10-88ce-0617321ebecd",
             "bd089e8f-e3f0-4fd3-9bf2-e7de8832da73", # 2x Chronophobia
             "bd089e8f-e3f0-4fd3-9bf2-e7de8832da73",
+        ],
+        "path_to_carcosa": [
+            "6c7f104b-f07c-423e-b221-5218affead2b", # 2x Overzealous
+            "6c7f104b-f07c-423e-b221-5218affead2b",
+            "d73c20b0-f661-4d33-a932-9db730708916", # Drawing the Sign
+            "74c2e15a-6d3b-42d1-8c07-e9330d50bc43", # The Thing That Follows
         ]
     }
     PILE_NAME = 'Basic Weaknesses'
