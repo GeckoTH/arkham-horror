@@ -1609,5 +1609,59 @@
     <property name="Traits" value="Omen. Pact."/>
     <property name="Text" value="Revelation - If The Man in the Pallid Mask is in play, he attacks each investigator in player order, regardless of his current location. If The Man in the Pallid Mask is not in play, search his bearer's deck and discard pile for him, draw him, and shuffle his bearer's deck (resolve this effect even if his bearer is currently eliminated, searching all out-of-play areas)."/>
   </card>
+  <card id="72aaa287-d9fe-4725-ade1-c03ebd7ab4b3" name="Mark Harrigan" size="MiniCard">
+    <property name="Card Number" value="994"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Guardian"/>
+    <alternate name="Mark Harrigan" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="1f90d985-0c1d-4c50-afe8-67be3d0f795e" name="Minh Thi Phan" size="MiniCard">
+    <property name="Card Number" value="995"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Seeker"/>
+    <alternate name="Minh Thi Phan" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="79942a3f-d40c-41be-b613-d87b1f6a9a9d" name="Sefina Rousseau" size="MiniCard">
+    <property name="Card Number" value="996"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Rogue"/>
+    <alternate name="Sefina Rousseau" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="7ee388a4-4533-4b46-bfbe-43471f73a92f" name="Akachi Onyele" size="MiniCard">
+    <property name="Card Number" value="997"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Akachi Onyele" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="ac16fd9d-15a3-4ff7-9441-644859039af6" name="William Yorick" size="MiniCard">
+    <property name="Card Number" value="998"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Survivor"/>
+    <alternate name="William Yorick" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="1a12c904-4aa7-42e2-9636-df0fff19fc2f" name="Lola Hayes" size="MiniCard">
+    <property name="Card Number" value="999"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Neutral"/>
+    <alternate name="Lola Hayes" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
  </cards>
 </set>

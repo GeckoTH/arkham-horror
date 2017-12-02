@@ -205,7 +205,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="2"/>
     <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
-    <alternate name="The Truth is Hidden" size="HorizCard" type="B">
+    <alternate name="Dark Ritual" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
@@ -225,7 +225,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="2"/>
     <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
-    <alternate name="Ransacking the Manor" size="HorizCard" type="B">
+    <alternate name="Oathbreaking" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -245,7 +245,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
     <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
-    <alternate name="Secrets Better Left Hidden" size="HorizCard" type="B">
+    <alternate name="The Way Forward" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -264,7 +264,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2"/>
     <property name="Doom" value=""/>
-    <alternate name="Race for Answers" size="HorizCard" type="B">
+    <alternate name="Late-Night Studies" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -283,7 +283,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2"/>
     <property name="Doom" value=""/>
-    <alternate name="Mistakes of the Past" size="HorizCard" type="B">
+    <alternate name="Secret Passageways" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -303,7 +303,7 @@
     <property name="Clues" value="3"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Locations with the Passageway trait are connected to one another.&#10;Objective - Only investigators in the Hidden Library may spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="The Oath" size="HorizCard" type="B">
+    <alternate name="The Clasp" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
