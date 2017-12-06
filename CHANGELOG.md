@@ -60,3 +60,8 @@ Features:
 Fixes:
 - Will to Survive is now properly Spirit traited.
 - Fix error thrown when a deck with no minicard is loaded.
+
+### v1.0.0.15
+Fixes:
+- Agenda/Act back names fixed for Echoes of the Past
+- Carcosa investigator minicards fixed
