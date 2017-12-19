@@ -4,6 +4,7 @@
 
 Features:
 - Added Unspeakable Oath
+- Added Book Series investigators!
 
 Fixes:
 

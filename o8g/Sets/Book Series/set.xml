@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Book Series" id="1f67f471-939f-4a72-a672-e949a538a8c7" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0">
+ <cards>
+  <card id="6de44f9d-5256-4762-b63a-8a096c2674b1" name="Jenny Barnes" size="InvestigatorCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Dilettante"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Willpower" value="3"/>
+    <property name="Intellect" value="3"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="8"/>
+    <property name="Sanity" value="7"/>
+    <property name="Traits" value="Drifter."/>
+    <property name="Text" value="You collect 1 additional resource during each upkeep phase.&#10;ε effect: +1 for each resource you have."/>
+    <alternate name="Jenny Barnes" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Dilettante"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Rogue"/>
+      <property name="Traits" value="Drifter."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding options: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.&#10;Deckbuilding requirements (do not count toward deck size): Jenny's Twin .45s, Searching for Izzie, 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="71890fe8-1acf-4ea2-9e34-f42ae1314e27" name="Jenny Barnes" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Rogue"/>
+    <alternate name="Jenny Barnes" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="a45917d1-d156-41cc-85bd-63ce323b8583" name="Green Man Medallion">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Hour of the Huntress"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Slot" value="Accessory"/>
+    <property name="Traits" value="Item. Relic"/>
+    <property name="Text" value="Jenny Barnes deck only. Replacement.&#10;θ Spend up to 3 resources and exhaust Green Man Medallion: Place those resources on it, as offerings.&#10;ι When you resign or the game ends: For every 6 offerings on Green Man Medallion, reduce the experience cost of the next card you purchase before the next scenario by 1."/>
+  </card>
+  <card id="c64de070-35b1-43b5-ab07-439b37fd0fd9" name="Sacrificial Beast">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Dark Young."/>
+    <property name="Text" value="Jenny Barnes deck only. Replacement.&#10;Spawn - Location farthest from you.&#10;Jenny Barnes cannot gain resources via card effects."/>
+  </card>
+  <card id="f9bd3cfb-ba5d-47ed-a917-e620b387c9c1" name="Norman Withers" size="InvestigatorCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Astronomer"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Willpower" value="4"/>
+    <property name="Intellect" value="5"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="6"/>
+    <property name="Sanity" value="8"/>
+    <property name="Traits" value="Miskatonic."/>
+    <property name="Text" value="Play with the top card of your deck revealed.&#10;Once per round, you may play the top card of your deck as if it were in your hand, at -1 resource cost.&#10;Forced - AFter a weakness is revealed while on top of your deck: Draw it.&#10;ε effect: +X. You may swap the top card of your deck with a card in your hand. X is the resource cost of the top card of your deck."/>
+    <alternate name="Norman Withers" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Astronomer"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Seeker"/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding Options: Seeker cards ([seeker]) level 0, Mystic cards ([mystic]) level 1-5, Neutral cards level 0-5, up to 5 Mystic cards ([mystic]) level 0.&#10;Deckbuilding Requirements (do not count toward deck size): Livre d'Eibon, The Harbinger, 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="863c6958-209b-4b4e-984d-2b0c70d3fa0d" name="Norman Withers" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Seeker"/>
+    <alternate name="Norman Withers" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="da8c48b0-686f-4c78-85de-2d052734ac6c" name="Split the Angle">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Ire of the Void"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έάΰ"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Norman Withers deck only. Replacement.&#10;η: Reveal the top card of the encounter deck.&#10;θ Exhaust Split the Angle and discard the top card of your deck: Discard the top card of the encounter deck."/>
+  </card>
+  <card id="4f9c52ce-35ea-4e70-8595-4c9738f74cec" name="Vengeful Hound">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Extradimensional. Tindalos."/>
+    <property name="Text" value="Norman Withers deck only. Replacement.&#10;Prey - Norman Withers only.&#10;While Vengeful Hounds is engaged with you, you cannot draw or reveal cards via player card effects."/>
+  </card>
+ </cards>
+</set>
