@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
-  <section name="Investigator" shared="False">
-    <card qty="5" id="8768248d-47b1-486c-ac58-b113aa5f064d">Torturous Descent</card>
-    <card qty="1" id="a33d6c98-1ba6-4b53-9563-907c0a9befb7">His Domain</card>
-    <card qty="1" id="d31514c4-857d-4e12-b7fb-3053f9d6e666">Arkham Asylum</card>
-    <card qty="2" id="a3789f6e-a6a7-48e6-838b-8bec7ae6a952">Locked Inside</card>
-  </section>
+  <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
   <section name="Asset" shared="False" />
   <section name="Event" shared="False" />
@@ -30,6 +25,7 @@
     <card qty="1" id="c7f8720a-8a22-44e9-acc2-e1a2b7ccb9ce">Gift of Madness (Pity)</card>
     <card qty="1" id="7a1ae47d-8355-453d-b744-95be6bf32718">Gift of Madness (Misery)</card>
     <card qty="3" id="74e7d326-0543-444b-a4f7-8c2a0332f4f9">Walls Closing In</card>
+    <card qty="2" id="45be8e5a-86ba-4461-81b5-b26ed5667d83">Dance of the Yellow King</card>
     <card qty="1" id="ee0b0617-fb92-4044-8c5b-4557d585a57f">Whispers in Your Head (Anxiety)</card>
     <card qty="1" id="9a97899b-05b3-48c8-a887-d81e51ad7b9a">Whispers in Your Head (Dismay)</card>
     <card qty="1" id="dadb5b8c-ae6d-461d-beab-3c9bbda307f9">Whispers in Your Head (Doubt)</card>
@@ -38,7 +34,6 @@
     <card qty="2" id="3cba18b0-e2d2-4583-a7fe-f42dc278e847">Ooze and Filth</card>
     <card qty="2" id="757ba65c-af72-40b0-a8e6-bf5828260733">Corrosion</card>
     <card qty="2" id="1b887e33-712e-457c-b62d-2c16a4495f3e">Roach Swarm</card>
-    <card qty="2" id="45be8e5a-86ba-4461-81b5-b26ed5667d83">Dance of the Yellow King</card>
     <card qty="2" id="5d3f4670-272f-4665-9812-3a40b5837d97">The Yellow Sign</card>
   </section>
   <section name="Location" shared="True">
@@ -46,18 +41,17 @@
     <card qty="1" id="23cec76d-39ea-4801-acc2-2955fc620732">Patient Confinement</card>
     <card qty="1" id="3752a8a3-037b-43be-bcd8-b88e29c0a58d">Patient Confinement</card>
     <card qty="1" id="fad29500-4419-41e6-91ee-3530e68652ec">Patient Confinement</card>
-    <card qty="1" id="f7a4ab83-879c-46a0-ad77-c792926db949">Daniel Chesterfield</card>
   </section>
   <section name="Special" shared="True">
-    <card qty="2" id="d6b11251-f337-4437-bb24-d9baa52b164f">Screeching Byakhee</card>
-    <card qty="2" id="5cd3a00a-e928-4d2b-b39f-9195c52c39ad">Spawn of Hali</card>
-    <card qty="1" id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9">Beast of Aldebaran</card>
     <card qty="2" id="27a9be8b-70cf-46e9-95c0-80c97f0f03db">Asylum Gorger</card>
+    <card qty="1" id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9">Beast of Aldebaran</card>
+    <card qty="2" id="5cd3a00a-e928-4d2b-b39f-9195c52c39ad">Spawn of Hali</card>
+    <card qty="2" id="d6b11251-f337-4437-bb24-d9baa52b164f">Screeching Byakhee</card>
   </section>
   <section name="Second Special" shared="True">
-    <card qty="2" id="95a412a2-e6d5-4adc-ab32-d6c15578680d">Young Psychopath</card>
-    <card qty="2" id="8edcf3f3-0cb5-4ba6-8fe1-3386835a0b15">Maniac</card>
     <card qty="3" id="8a7740ae-ddc6-41ce-b84c-56dab5bd7144">Mad Patient</card>
+    <card qty="2" id="8edcf3f3-0cb5-4ba6-8fe1-3386835a0b15">Maniac</card>
+    <card qty="2" id="95a412a2-e6d5-4adc-ab32-d6c15578680d">Young Psychopath</card>
   </section>
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
@@ -72,6 +66,8 @@
     <card qty="1" id="ceb53eef-495e-4f9f-a2ce-bd277cf79e41">Yard</card>
     <card qty="1" id="e301eb71-4a94-4ff3-baa1-22eee71467d6">Garden</card>
     <card qty="1" id="016ceae0-74d5-433c-82ae-845093efe794">Basement Hall</card>
+    <card qty="1" id="f7a4ab83-879c-46a0-ad77-c792926db949">Daniel Chesterfield</card>
+    <card qty="1" id="d46cc2e1-a35d-43d0-8d97-6191c036c752">Sickening Reality</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

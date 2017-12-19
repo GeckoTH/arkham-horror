@@ -95,7 +95,7 @@
     <property name="Cost" value="3"/>
     <property name="Willpower" value="1"/>
     <property name="Combat" value="1"/>
-    <property name="Skill Icons" value="ήά"/>
+    <property name="Skill Icons" value="άή"/>
     <property name="Traits" value="Spell."/>
     <property name="Text" value="Fight. This attack uses ά instead of ή. If you succeed, instead of its standard damage, this attack deals 2 damage to each enemy at your location (any additional damage is dealt to the attacked enemy). If a α, β, γ, δ, or ζ token is revealed during this attack, deal 1 damage to each investigator at your location."/>
   </card>
@@ -155,7 +155,7 @@
     <property name="Cost" value="1"/>
     <property name="Intellect" value="1"/>
     <property name="Agility" value="1"/>
-    <property name="Skill Icons" value="ίέ"/>
+    <property name="Skill Icons" value="έί"/>
     <property name="Traits" value="Favor."/>
     <property name="Text" value="Choose an Ally asset you control and return it to your hand. Then, search the top 9 cards of your deck for an Ally asset and play it, reducing its cost by X. X is the cost of the Ally asset returned to your hand. Shuffle your deck."/>
   </card>
@@ -180,7 +180,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="2"/>
-    <alternate name="Locked Inside" size="HorizCard" type="B">
+    <alternate name="The Patients" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
@@ -199,7 +199,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <alternate name="Torturous Descent" size="HorizCard" type="B">
+    <alternate name="The Yellow Sign" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -219,7 +219,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="8"/>
     <property name="Text" value="Forced - When you would place an enemy beneath the act deck: Shuffle that enemy into the encounter deck, instead."/>
-    <alternate name="His Domain" size="HorizCard" type="B">
+    <alternate name="Masks, Masks, Masks" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -236,9 +236,9 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="3"/>
+    <property name="Clues" value="3π "/>
     <property name="Doom" value=""/>
-    <alternate name="Arkham Asylum" size="HorizCard" type="B">
+    <alternate name="Key to the Basement" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -255,10 +255,10 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="2"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Ignore the text on the unrevealed side of Arkham Asylum locations.&#10;Objective - Find the Patient Confinement location with Daniel Chesterfield. (You will be instructed when to advance.)"/>
-    <alternate name="&quot;The Really Bad Ones&quot; (v. I)" size="HorizCard" type="B">
+    <alternate name="Three Geese in a Flock" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -275,10 +275,10 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="2"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Ignore the text on the unrevealed side of Arkham Asylum locations.&#10;Objective - Find the Patient Confinement location with Daniel Chesterfield. (You will be instructed when to advance.)"/>
-    <alternate name="&quot;The Really Bad Ones&quot; (v. II)" size="HorizCard" type="B">
+    <alternate name="Daniel's Warning" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -295,10 +295,10 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="3"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Ignore the text on the unrevealed side of Arkham Asylumlocations.&#10;Objective - If investigators have performed 4 of the following, you must advance.&#10;- &quot;Know the guards' patrols.&quot;&#10;- &quot;Set a fire in the kitchen.&quot;&#10;- &quot;Incited a fight amongst the patients.&quot;&#10;- &quot;Released a dangerous patient.&quot;&#10;- &quot;Recalled the way out.&quot;&#10;- &quot;Distracted the guards.&quot;"/>
-    <alternate name="Planning the Escape" size="HorizCard" type="B">
+    <alternate name="A Way Out" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
@@ -315,10 +315,10 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="4"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Ignore the text on the unrevealed side of Arkham Asylum locations.&#10;Garden gains: &quot;η If there is no ready enemy in the Garden: Resign. Finally, a way out!&quot;&#10;Objective - If each undefeated investigator has resigned, advance."/>
-    <alternate name="No Asylum" size="HorizCard" type="B">
+    <alternate name="Escape" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="4"/>
@@ -332,6 +332,7 @@
     <property name="Card Number" value="168"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Unspeakable Oath"/>
+    <property name="Subtitle" value="Western Patient Wing"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
@@ -352,6 +353,7 @@
     <property name="Card Number" value="169"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Unspeakable Oath"/>
+    <property name="Subtitle" value="Western Patient Wing"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
@@ -362,7 +364,7 @@
       <property name="Subtitle" value="Western Patient Wing"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham Asylum."/>
       <property name="Text" value="Each Lunatic enemy at this location gets +1 horror value."/>
@@ -372,6 +374,7 @@
     <property name="Card Number" value="170"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Unspeakable Oath"/>
+    <property name="Subtitle" value="Eastern Patient Wing"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
@@ -392,6 +395,7 @@
     <property name="Card Number" value="171"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Unspeakable Oath"/>
+    <property name="Subtitle" value="Eastern Patient Wing"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
@@ -402,7 +406,7 @@
       <property name="Subtitle" value="Eastern Patient Wing"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham Asylum."/>
       <property name="Text" value="Forced - After you end your turn at this location: Take 1 horror and gain 2 resources."/>
@@ -422,7 +426,7 @@
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham Asylum."/>
       <property name="Text" value="η If there are no clues on the Kitchen: Test ά (2). If you succeed, remember that you &quot;set a fire in the kitchen.&quot;"/>
@@ -441,7 +445,7 @@
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π "/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham Asylum."/>
@@ -461,7 +465,7 @@
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham Asylum."/>
@@ -481,7 +485,7 @@
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="1"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham Asylum."/>
       <property name="Text" value="While you are investigating the Yard, it gets +1 shroud for each horror on you.&#10;η If there are no clues on Yard, take 1 damage: Remember that you &quot;incited a fight amongst the patients.&quot;"/>
@@ -501,7 +505,7 @@
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham Asylum."/>
       <property name="Text" value="η If there are no clues on Garden: Test ί (2). If you succeed, remember that you &quot;distracted the guards.&quot;"/>
@@ -521,7 +525,7 @@
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π "/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham Asylum."/>
@@ -629,15 +633,14 @@
     <property name="Text" value="Prey - Highest ή.&#10;η If you control Clasp of Black Onyx: Parley. You show Daniel the clasp, and he staggers backward, collapsing into a motionless husk. Add him to the victory display."/>
     <alternate name="Daniel Chesterfield" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
-      <property name="Subtitle" value="He’s Not Doing All Too Well"/>
+      <property name="Subtitle" value="He's Not Doing All Too Well"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Asset"/>
-      <property name="Class" value="Neutral"/>
-      <property name="Cost" value="0"/>
+      <property name="Cost" value="-"/>
       <property name="Health" value="1"/>
       <property name="Sanity" value="3"/>
       <property name="Traits" value="Ally. Lunatic."/>
-      <property name="Text" value="θ Exhaust Daniel Chesterfield: Give control of him to another investigator at your location.&#10;Forced - When you take horror, if at least 1 of that horror is not assigned to Daniel Chesterfield: Take 1 damage.&#10;Forced - If Daniel Chesterfield leaves play: Remove him from the game."/>
+      <property name="Text" value="θ Exhaust Daniel Chesterfield: Give control of him to another investigator at your location.Forced - When you take horror, if at least 1 of that horror is not assigned to Daniel Chesterfield: Take 1 damage.Forced - If Daniel Chesterfield leaves play: Remove him from the game."/>
     </alternate>
   </card>
   <card id="27a9be8b-70cf-46e9-95c0-80c97f0f03db" name="Asylum Gorger" size="EncounterCard">

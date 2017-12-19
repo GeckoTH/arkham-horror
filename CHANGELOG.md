@@ -3,6 +3,7 @@
 ## Upcoming
 
 Features:
+- Added Unspeakable Oath
 
 Fixes:
 
