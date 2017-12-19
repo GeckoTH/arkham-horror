@@ -17,6 +17,8 @@
 	<scripts>
 		<script src="scripts/actions.py" />
 		<script src="scripts/basic_weakness.py" />
+		<script src="scripts/plugin.py" />
+		<script src="scripts/util.py" />
 	</scripts>
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
@@ -125,6 +127,13 @@
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
 		</groupactions>
+		
+		<groupactions menu="Saving Tools">
+			<groupaction menu="Save Player Deck ..." default="False" execute="saveDeck" />
+			<groupaction menu="Save Table State..." default="False" execute="saveTable" />
+			<groupaction menu="Load Table State..." default="False" execute="loadTable" />
+		</groupactions>
+		
 		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
 		
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
