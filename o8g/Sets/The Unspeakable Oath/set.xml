@@ -297,7 +297,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Ignore the text on the unrevealed side of Arkham Asylumlocations.&#10;Objective - If investigators have performed 4 of the following, you must advance.&#10;- &quot;Know the guards' patrols.&quot;&#10;- &quot;Set a fire in the kitchen.&quot;&#10;- &quot;Incited a fight amongst the patients.&quot;&#10;- &quot;Released a dangerous patient.&quot;&#10;- &quot;Recalled the way out.&quot;&#10;- &quot;Distracted the guards.&quot;"/>
+    <property name="Text" value="Ignore the text on the unrevealed side of Arkham Asylum locations.&#10;Objective - If investigators have performed 4 of the following, you must advance.&#10;- &quot;Know the guards' patrols.&quot;&#10;- &quot;Set a fire in the kitchen.&quot;&#10;- &quot;Incited a fight amongst the patients.&quot;&#10;- &quot;Released a dangerous patient.&quot;&#10;- &quot;Recalled the way out.&quot;&#10;- &quot;Distracted the guards.&quot;"/>
     <alternate name="A Way Out" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
       <property name="Type" value="Act"/>
