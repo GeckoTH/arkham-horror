@@ -60,6 +60,57 @@
     <property name="Traits" value="Monster. Dark Young."/>
     <property name="Text" value="Jenny Barnes deck only. Replacement.&#10;Spawn - Location farthest from you.&#10;Jenny Barnes cannot gain resources via card effects."/>
   </card>
+  <card id="82c0c6e2-b768-4fe2-95a5-17bfbe0a8fec" name="Roland Banks" size="InvestigatorCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Fed"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Willpower" value="3"/>
+    <property name="Intellect" value="3"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="9"/>
+    <property name="Sanity" value="5"/>
+    <property name="Traits" value="Agency. Detective."/>
+    <property name="Text" value="ι After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)&#10;ε effect: +1 for each clue on your location."/>
+    <alternate name="Roland Banks" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Fed"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Guardian"/>
+    </alternate>
+  </card>
+  <card id="76ff41d5-274d-438b-8e3e-1137d77fe6e7" name="Roland Banks" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Guardian"/>
+    <alternate name="Roland Banks" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="2077b0c2-2ab7-4c30-acad-81caa173ed7b" name="Mysteries Remain">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="έήΰ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Roland Banks deck only. Replacement.&#10;Fast. Play only during your turn.&#10;Either place 1 clue (fron the token bank) on your location, or discover 1 clue at your location. Remove Mysteries Remain from the game."/>
+  </card>
+  <card id="11313305-c85d-4c12-ba67-38159b33d78d" name="The Dirge of Reason">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Madness."/>
+    <property name="Text" value="Roland Banks deck only. Replacement.&#10;Revelation - Place 2 of your clues on your location. If you cannot, place all of your clues on your location, take 1 horror, and shuffle The Dirge of Reason back into your deck."/>
+  </card>
   <card id="f9bd3cfb-ba5d-47ed-a917-e620b387c9c1" name="Norman Withers" size="InvestigatorCard">
     <property name="Card Number" value="7"/>
     <property name="Quantity" value="1"/>
