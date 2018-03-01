@@ -4,9 +4,13 @@
 
 Features:
 - Added Unspeakable Oath
-- Added Book Series investigators!
+- Added Book Series investigators
+  - Jenny Barnes
+  - Roland Banks
+  - Norman Withers
 
 Fixes:
+- Fixed missing card (The Experiment) from Extracurricular Activity
 
 ___
 
