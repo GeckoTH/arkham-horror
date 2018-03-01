@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Black Stars Rise" id="8cfb4199-332a-4d2e-8dfe-617ea3f04dea" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="1ad0b82e-12ca-4fdf-bc44-3c73bfbacf12" name="On the Hunt">
+    <property name="Card Number" value="263"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="έή"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Text" value="Fast. Play when you would draw an encounter card during the mythos phase.&#10;Instead, search the top 9 cards of the encounter deck for an enemy, spawn it engaged with you (instead of its normal spawn location), and shuffle the encounter deck. If you cannot, draw the top card of the encounter deck."/>
+  </card>
+  <card id="26d95465-991f-4886-9ac6-de2abe08138a" name="Stick to the Plan">
+    <property name="Card Number" value="264"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="-"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="Permanent. Exceptional.&#10;ι Before you draw your opening hand: Search your deck for up to 3 different Tactic and/or Supply events, and attach them to Stick to the Plan. Shuffle your deck.&#10;Cards attached to Stick to the Plan may be played as if they were in your hand. As an additional cost to play an attached card, exhaust Stick to the Plan."/>
+  </card>
+  <card id="4deadac0-8415-4190-9e25-70624c7a6210" name="Guidance">
+    <property name="Card Number" value="265"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Choose another investigator at your location who has yet to take his or her turn this round. That investigator may take an additional action during his or her turn this round."/>
+  </card>
+  <card id="02808b3b-0245-445d-8dda-488c5f0efb30" name="Arcane Insight">
+    <property name="Card Number" value="266"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="4"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="άέ"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (3 charges).&#10;θ While an investigator is taking his or her turn, spend 1 charge: Your location gets -2 shroud until the end of this turn. (Limit once per turn.)"/>
+  </card>
+  <card id="8ba88c3a-9a34-4b6a-aae5-a2febbc3dd0d" name="Narrow Escape">
+    <property name="Card Number" value="267"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Agility" value="2"/>
+    <property name="Skill Icons" value="ίί"/>
+    <property name="Traits" value="Fortune."/>
+    <property name="Text" value="Fast. Play when an enemy makes an attack of opportunity against you.&#10;Cancel that attack. You get +2 skill value for the next skill test you perform this turn."/>
+  </card>
+  <card id="9f04e6f9-c8fb-4a20-97e9-45b9c1174141" name="Suggestion">
+    <property name="Card Number" value="268"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="4"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="άί"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (3 charges).&#10;η Exhaust Suggestion: Evade. Add your ά value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion.&#10;ι When a non-Elite enemy would attack you, spend 1 charge: Cancel that attack."/>
+  </card>
+  <card id="f1a0bd1b-6be0-4d7f-8a9c-da26ebb3061f" name="St. Hubert's Key">
+    <property name="Card Number" value="269"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Cleansing Fire"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Accessory"/>
+    <property name="Traits" value="Item. Charm."/>
+    <property name="Text" value="You get +1 ά, +1 έ, and -2 sanity.&#10;ι When you would be defeated by horror, discard St. Hubert's Key: Immediately heal 2 horror."/>
+  </card>
+  <card id="1fcbfc2d-8abc-48c1-b262-4857cb40abcf" name="Ward of Protection">
+    <property name="Card Number" value="270"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Spell. Spirit."/>
+    <property name="Text" value="Fast. Play when an investigator at any location draws a non-weakness treachery card.&#10;Cancel that card's revelation effect. Then, take 1 horror."/>
+  </card>
+  <card id="f38579a6-210e-4437-8944-d8f18b0d2066" name="Arcane Initiate">
+    <property name="Card Number" value="271"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="3"/>
+    <property name="Skill Icons" value="άή"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Sorcerer."/>
+    <property name="Text" value="Forced - After Arcane Initiate enters play: Place 1 doom or 2 horror on it.&#10;θ Exhaust Arcane Initiate: Search the top 3 cards of your deck for a Spell card and draw it. Shuffle your deck."/>
+  </card>
+  <card id="0c95e29d-5667-45ed-963e-e4693709e66b" name="&quot;Not without a fight!&quot;">
+    <property name="Card Number" value="272"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="άήί"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="Commit to a skill test only if you are engaged with an enemy.&#10;For each enemy engaged with you, &quot;Not without a fight!&quot; gains ά ή ί."/>
+  </card>
+  <card id="2b551797-e19e-447c-acfc-677c909e109e" name="True Survivor">
+    <property name="Card Number" value="273"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="3"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Return 3 Innate skills from your discard pile to your hand."/>
+  </card>
+  <card id="0d7300da-ddb1-4d9b-81b0-ceab0a459f54" name="Black Stars Rise">
+    <property name="Card Number" value="274"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Easy / Standard&#10;α: -X. X is the highest amount of doom on an agenda in play.&#10;β: Reveal another token. If this token is revealed during an attack or evasion attempt against an enemy with doom on it, this skill test automatically fails instead.&#10;γ: Reveal another token. If you fail, place 1 doom on each agenda.&#10;δ: -2. If you fail, search the encounter deck and discard pile for a Byakhee enemy and draw it."/>
+  </card>
+  <card id="e435831f-c721-49a5-988f-1fe5f59cac1c" name="The Tide Rises" size="HorizCard">
+    <property name="Card Number" value="275"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <property name="Text" value="θ The investigators spend 1π  clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator gains 2 resources. (Group limit once per round.)"/>
+    <alternate name="Red Dawn's Sunrise" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile and both set-aside copies of Tidal Terror into the encounter deck.&#10;Check the current &quot;c&quot; agenda.&#10;- If agenda 1c has 2 or fewer doom on it, mark one Conviction in your Campaign Log.&#10;- If agenda 1c has 3 or more doom on it, mark one Doubt in your Campaign Log.&#10;- If agenda 1c is not the current &quot;c&quot; agenda, do not mark any Conviction or Doubt."/>
+    </alternate>
+  </card>
+  <card id="fada603a-e868-4c93-9ada-1a2d61e9b43c" name="Let The Storm Rage" size="HorizCard">
+    <property name="Card Number" value="276"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Vortex Above"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Each copy of Ancient Evils gains surge.&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator gains 2 resources. (Group limit once per round.)"/>
+    <alternate name="Worlds Intertwine" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Vortex Above"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy in the Abbey Tower.&#10;Check Campaign Log. If Ashleigh Clarke is not listed under &quot;VIPs Slain,&quot; search the collection for Ashleigh Clarke (Songs Die Unheard) and spawn her at Porte de l'Avancée.&#10;Remove the set-aside act 3a card from the game. Advance to agenda 3a.&#10;Your objective lies within the other agenda deck."/>
+    </alternate>
+  </card>
+  <card id="330ea796-9967-4d58-9331-c52a88235d66" name="Let The Storm Rage" size="HorizCard">
+    <property name="Card Number" value="276"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Flood Below"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Each copy of Ancient Evils gains surge.&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator gains 2 resources. (Group limit once per round.)"/>
+    <alternate name="The Path to Carcosa" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Flood Below"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remove the remainder of this agenda deck from the game and replace it with the set-aside act 3a card. Advance to that act card."/>
+    </alternate>
+  </card>
+  <card id="40c07bf1-1fa7-4366-a64a-5ce0e2b1d04a" name="The City Floods" size="HorizCard">
+    <property name="Card Number" value="277"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="8"/>
+    <property name="Text" value="Each copy of Ancient Evils gains surge."/>
+    <alternate name="Die Unheard" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R3)"/>
+    </alternate>
+  </card>
+  <card id="4fe98f3f-a6ca-42d1-8601-a25d620e2c95" name="The Ritual Begins" size="HorizCard">
+    <property name="Card Number" value="278"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <property name="Text" value="θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator draws 1 card. (Group limit once per round.)"/>
+    <alternate name="Blue Star's Demise" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile and both set-aside copies of Rift Seeker into the encounter deck.&#10;Check the current &quot;a&quot; agenda.&#10;- If agenda 1a has 2 or fewer doom on it, mark one Conviction in your Campaign Log.&#10;- If agenda 1a has 3 or more doom on it, mark one Doubt in your Campaign Log.&#10;- If agenda 1a is not the current &quot;a&quot; agenda, do not mark any Conviction or Doubt."/>
+    </alternate>
+  </card>
+  <card id="e5af2b0f-1c64-4419-bc1d-4f6b49b027fb" name="The Entity Above" size="HorizCard">
+    <property name="Card Number" value="279"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Flood Below"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Each Monster enemy gets +1 fight.&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator draws 1 card. (Group limit once per round.)"/>
+    <alternate name="Worlds Intertwine" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Flood Below"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy in the Chapel of St. Aubert.&#10;Check Campaign Log. If Ashleigh Clarke is not listed under &quot;VIPs Slain,&quot; search the collection for Ashleigh Clarke (Songs Die Unheard) and spawn her at Porte de l'Avancée.&#10;Remove the set-aside act 3c card from the game. Advance to agenda 3c.&#10;Your objective lies within the other agenda deck."/>
+    </alternate>
+  </card>
+  <card id="6b5e4477-4b8f-4913-b799-1d2e2b497f6c" name="The Entity Above" size="HorizCard">
+    <property name="Card Number" value="279"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Vortex Above"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Each Monster enemy gets +1 fight.&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator draws 1 card. (Group limit once per round.)"/>
+    <alternate name="The Path to Carcosa" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Vortex Above"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remove the remainder of this agenda deck from the game and replace it with the set-aside act 3c card. Advance to that act card."/>
+    </alternate>
+  </card>
+  <card id="004121d4-33ab-4b6e-8815-f01ebecf442d" name="Swallowed Sky" size="HorizCard">
+    <property name="Card Number" value="280"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="8"/>
+    <property name="Text" value="Each Monster enemy gets +1 fight."/>
+    <alternate name="Die Unheard" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R3)"/>
+    </alternate>
+  </card>
+  <card id="c93ae0ee-1732-450f-aae0-f773f0729ae3" name="Open The Path Below" size="HorizCard">
+    <property name="Card Number" value="281"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If each undefeated investigator is at the Chapel of St. Aubert and there are no clues on that location, advance."/>
+    <alternate name="To Carcosa" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R1)"/>
+    </alternate>
+  </card>
+  <card id="32d8e03f-15f2-42eb-b5df-09142ae5304a" name="Open The Path Above" size="HorizCard">
+    <property name="Card Number" value="282"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If each undefeated investigator is at the Abbey Tower and there are no clues on that location, advance."/>
+    <alternate name="To Carcosa" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R2)"/>
+    </alternate>
+  </card>
+  <card id="d4d2d531-fac1-4dfe-817d-9d83f4bf269c" name="Porte de l'Avancée" size="EncounterCard">
+    <property name="Card Number" value="283"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Porte de l'Avancée" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η η: Move 1 doom from one agenda deck to the other. Then, place 2 clues on Porte de l'Avancée (from the token bank)."/>
+    </alternate>
+  </card>
+  <card id="20662bde-0b4e-4bc8-b7ce-9b4d28663871" name="Grand Rue" size="EncounterCard">
+    <property name="Card Number" value="284"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Grand Rue" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - After you succeed at a skill test by 1 or less while investigating Grand Rue: Place 1 doom on the agenda with the most doom (if they are tied for the most doom, choose one to place 1 doom on)."/>
+    </alternate>
+  </card>
+  <card id="c946f0fc-fbf3-4bc1-9b16-b05336f7ef52" name="Outer Wall" size="EncounterCard">
+    <property name="Card Number" value="285"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Outer Wall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced - After 1 or more doom is placed on the &quot;a&quot; agenda deck: Each investigator at the Outer Wall takes 1 damage."/>
+    </alternate>
+  </card>
+  <card id="6582dde5-ac08-4e4a-9be3-323e57ccc4de" name="Outer Wall" size="EncounterCard">
+    <property name="Card Number" value="286"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Outer Wall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="While the current &quot;c&quot; agenda has more doom on it than the current &quot;a&quot; agenda, double the number of skill icons on cards committed to skill tests at the Outer Wall."/>
+    </alternate>
+  </card>
+  <card id="53d6ccfb-ff2b-4227-b98e-a123b4b9b6b2" name="North Tower" size="EncounterCard">
+    <property name="Card Number" value="287"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="North Tower" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced - After 1 or more doom is placed on the &quot;c&quot; agenda deck: Each investigator at North Tower takes 1 horror."/>
+    </alternate>
+  </card>
+  <card id="76a9d31a-7568-44ff-88f3-e1b6fb6b2a75" name="North Tower" size="EncounterCard">
+    <property name="Card Number" value="288"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="North Tower" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="While the current &quot;a&quot; agenda has more doom on it than the current &quot;c&quot; agenda, reduce the difficulty of each skill test at North Tower by 1."/>
+    </alternate>
+  </card>
+  <card id="0697e1cf-7cb3-442b-a57c-6b29aa820ede" name="Broken Steps" size="EncounterCard">
+    <property name="Card Number" value="289"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Broken Steps" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - After you enter Broken Steps: You must either lose 1 action or draw the topmost Omen treachery in the encounter discard pile."/>
+    </alternate>
+  </card>
+  <card id="23975c27-fd1d-4506-a467-d5ea277c0eb4" name="Broken Steps" size="EncounterCard">
+    <property name="Card Number" value="290"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Broken Steps" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - After you enter Broken Steps: You must either discard an asset you control or draw the topmost Cultist enemy in the encounter discard pile."/>
+    </alternate>
+  </card>
+  <card id="af4ffe21-8410-4476-98b6-3ef1ccdb04ba" name="Abbey Church" size="EncounterCard">
+    <property name="Card Number" value="291"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="The path leading to the Abbey Church is blocked. As an additional cost for you to enter the Abbey Church, investigators at Broken Steps must spend 3π clues, as a group."/>
+    <alternate name="Abbey Church" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="If there are two agendas in play with different agenda numbers, Abbey Church gets +2 shroud.&#10;Forced - When Abbey Church is revealed: Put the set-aside Chœur Gothique, Knight's Hall, Cloister, Chapel of St. Aubert, and Abbey Tower locations into play."/>
+    </alternate>
+  </card>
+  <card id="6a9f0196-38f7-4043-8661-822c36c59ab4" name="Chœur Gothique" size="EncounterCard">
+    <property name="Card Number" value="292"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Chœur Gothique" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η Place 1 doom on the current &quot;a&quot; agenda: Heal 2 damage. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="eedf9d37-e12f-4b7d-a3e4-812b102be6ee" name="Chœur Gothique" size="EncounterCard">
+    <property name="Card Number" value="293"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Chœur Gothique" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η Place 1 doom on the current &quot;c&quot; agenda: Heal 2 horror. (Group limit once per game)."/>
+    </alternate>
+  </card>
+  <card id="d8d74a85-4a6a-48ed-a1fb-757426ff9345" name="Cloister" size="EncounterCard">
+    <property name="Card Number" value="294"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Cloister" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η If there are no clues on Cloister: Parley. Test ά (3). If you succeed, remember that you have &quot;found a guide.&quot;"/>
+    </alternate>
+  </card>
+  <card id="65db3c0e-b915-4bec-b787-9171a354487d" name="Knight's Hall" size="EncounterCard">
+    <property name="Card Number" value="295"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Knight's Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η If there are no clues on Knight's Hall: Investigate. Investigate using ί instead of έ. If you succeed, instead of discovering clues, remember that you have &quot;found the tower key.&quot;"/>
+    </alternate>
+  </card>
+  <card id="a4ad2173-5ec7-44ea-af72-a00d99a072bb" name="Chapel of St. Aubert" size="EncounterCard">
+    <property name="Card Number" value="296"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Flood Below"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="The way to the Chapel of St. Aubert is hidden. You cannot enter the Chapel of St. Aubert unless you have &quot;found a guide.&quot;"/>
+    <alternate name="Chapel of St. Aubert" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Flood Below"/>
+      <property name="Subtitle" value="The Path is Open"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="You can only discover clues in the Chapel of St. Aubert if you have 3 or fewer remaining sanity.&#10;η: Take up to 3 horror."/>
+    </alternate>
+  </card>
+  <card id="ee818778-2024-4969-b030-0e5855802f96" name="Chapel of St. Aubert" size="EncounterCard">
+    <property name="Card Number" value="297"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Vortex Above"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="The way to the Chapel of St. Aubert is hidden. You cannot enter the Chapel of St. Aubert unless you have &quot;found a guide.&quot;"/>
+    <alternate name="Chapel of St. Aubert" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Vortex Above"/>
+      <property name="Subtitle" value="Waters Forbidden"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="2caaba71-47a4-4c07-b60f-298b7a9d7e87" name="Abbey Tower" size="EncounterCard">
+    <property name="Card Number" value="298"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Vortex Above"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="The door leading up to the Abbey Tower is locked. You cannot enter the Abbey Tower unless you have &quot;found the tower key.&quot;"/>
+    <alternate name="Abbey Tower" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Vortex Above"/>
+      <property name="Subtitle" value="The Path is Open"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="You can only discover clues in the Abbey Tower if you have no cards in your hand.&#10;η: Discard up to 3 cards from your hand."/>
+    </alternate>
+  </card>
+  <card id="255c32f0-5c83-41c1-adb6-50c0dddc5fb7" name="Abbey Tower" size="EncounterCard">
+    <property name="Card Number" value="299"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Flood Below"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="The door leading up to the Abbey Tower is locked. You cannot enter the Abbey Tower unless you have &quot;found the tower key.&quot;"/>
+    <alternate name="Abbey Tower" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Flood Below"/>
+      <property name="Subtitle" value="Spires Forbidden"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="2"/>
+    </alternate>
+  </card>
+  <card id="612c29d9-ad33-4f88-bc3e-54a60fe853cf" name="Tidal Terror" size="EncounterCard">
+    <property name="Card Number" value="300"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="2"/>
+    <property name="Traits" value="Monster."/>
+    <property name="Text" value="Spawn - Porte de l'Avancée or Chapel of St. Aubert.&#10;Hunter."/>
+  </card>
+  <card id="58d141c9-57fb-4cde-8cb9-adba229e78f7" name="Rift Seeker" size="EncounterCard">
+    <property name="Card Number" value="301"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Byakhee. Cultist."/>
+    <property name="Text" value="Forced - After Rift Seeker attacks you: You must either take 1 additional damage and 1 additional horror, or place 1 doom on each agenda in play.&#10;η Place 1 doom on each agenda in play and take 2 horror: Parley. Discard Rift Seeker."/>
+  </card>
+  <card id="247c2cdc-5a68-4c69-b25e-a45765dae307" name="Crashing Floods" size="EncounterCard">
+    <property name="Card Number" value="302"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Omen."/>
+    <property name="Text" value="Revelation - Test ί (3). If you fail:&#10;- If agenda 1a is in play, take 1 damage and lose 1 action.&#10;- If agenda 2a is in play, take 2 damage and lose 2 actions.&#10;- If act 3a or agenda 3a is in play, take 3 damage and lose 3 actions."/>
+  </card>
+  <card id="b538f838-3f1a-4a70-984e-16bcaff53527" name="Worlds Merge" size="EncounterCard">
+    <property name="Card Number" value="303"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Black Stars Rise"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Omen."/>
+    <property name="Text" value="Revelation - Test ά (3). If you fail:&#10;- If agenda 1c is in play, take 1 horror and discard 1 card from your hand.&#10;- If agenda 2c is in play, take 2 horror and discard 2 cards from your hand.&#10;- If act 3c or agenda 3c is in play, take 3 horror and discard 3 cards from your hand."/>
+  </card>
+ </cards>
+</set>

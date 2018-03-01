@@ -6,6 +6,7 @@ Features:
 - Added Unspeakable Oath
 - Added A Phantom of Truth
 - Added The Pallid Mask
+- Added Black Stars Rise
 - Added Book Series investigators
   - Jenny Barnes
   - Roland Banks
