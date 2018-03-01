@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Pallid Mask" id="93fa51a1-d0c3-4fd8-9663-64c97f8fcd2e" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="6e7236d8-cb03-4494-98de-975ac20271dd" name="Inspiring Presence">
+    <property name="Card Number" value="228"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="άέή"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="If this skill test is successful, ready an Ally asset at your location and heal 1 damage or 1 horror from it."/>
+  </card>
+  <card id="322cd89f-9d2d-45c1-8f1b-847f2dbc7403" name="Mano a Mano">
+    <property name="Card Number" value="229"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="άή"/>
+    <property name="Traits" value="Spirit. Bold."/>
+    <property name="Text" value="Play only as your first action.&#10;Deal 1 damage to an enemy engaged with you. This action does not provoke attacks of opportunity."/>
+  </card>
+  <card id="c089bea0-8109-4535-a04a-015371d126db" name="First Aid">
+    <property name="Card Number" value="230"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Skill Icons" value="άά"/>
+    <property name="Traits" value="Talent. Science."/>
+    <property name="Text" value="Uses (4 supplies). If First Aid has no supplies, discard it.&#10;η Spend 1 supply: Heal 1 damage and 1 horror from an investigator or Ally asset in your location."/>
+  </card>
+  <card id="7507796f-f2a6-4928-a27e-2f0d87e3f728" name="Eureka!">
+    <property name="Card Number" value="231"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="άέί"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="If this skill test is successful, the investigator performing this test searches the top 3 cards of his or her deck for a card, draws it, and shuffles his or her deck."/>
+  </card>
+  <card id="60468858-3e2e-4de3-a6a3-dc1f5ae6feae" name="Shortcut">
+    <property name="Card Number" value="232"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="άέί"/>
+    <property name="Traits" value="Insight. Tactic."/>
+    <property name="Text" value="Fast. Play only during your turn.&#10;Attach to your location. Attached location gains:&#10;&quot;θ Exhaust Shortcut: Move (to a connecting location).&quot;"/>
+  </card>
+  <card id="7efd724b-2fee-42c5-ad12-aadacc46407a" name="&quot;Watch this!&quot;">
+    <property name="Card Number" value="233"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="άήί"/>
+    <property name="Traits" value="Gambit."/>
+    <property name="Text" value="Commit only to a skill test you are performing. As an additional cost to commit &quot;Watch this!&quot; to a skill test, spend up to 3 resources.&#10;If you succeed by 1 or more, gain twice that many resources."/>
+  </card>
+  <card id="2bec215c-82bb-48a2-9509-421718a34891" name=".41 Derringer">
+    <property name="Card Number" value="234"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="3"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ήί"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
+    <property name="Text" value="Uses (3 ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. If you succeed by 1 or more, this attack deals +1 damage. Once per turn, if you succeed by 3 or more, you may take an additional action this turn."/>
+  </card>
+  <card id="8f7cf0ff-2036-443f-9081-a3ec46d641cc" name="Torrent of Power">
+    <property name="Card Number" value="235"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Practiced."/>
+    <property name="Text" value="As an additional cost to commit Torrent of Power to a skill test, spend up to 3 charges from among assets you control.&#10;For each charge spent in this way, Torrent of Power gains ά ΰ."/>
+  </card>
+  <card id="2b556a9e-4d94-413e-b145-1dae5e42b4e0" name="Scrying">
+    <property name="Card Number" value="236"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (3 charges).&#10;θ Exhaust Scrying and spend 1 charge: Look at the top 3 cards of any investigator's deck, or the encounter deck. Return them to the top of that deck, in any order. If a Terror or Omen card is among the looked-at cards, take 1 horror."/>
+  </card>
+  <card id="f7324923-c567-427a-8d1d-7a5588899015" name="Waylay">
+    <property name="Card Number" value="237"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Agility" value="2"/>
+    <property name="Skill Icons" value="ίί"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Text" value="Choose an exhausted non-Elite enemy at your location and test ί (X), where X is that enemy's evade value. If you succeed, defeat that enemy."/>
+  </card>
+  <card id="3370deff-77fa-4dac-9a88-2696af6aa11b" name="A Chance Encounter">
+    <property name="Card Number" value="238"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="X"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="άέ"/>
+    <property name="Traits" value="Fortune."/>
+    <property name="Text" value="Choose an Ally asset with printed resource cost X in any player's discard pile. Put that asset into play under your control."/>
+  </card>
+  <card id="9a051acb-589b-4d66-b6b0-be5f0928691c" name="Emergency Cache">
+    <property name="Card Number" value="239"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="0"/>
+    <property name="Traits" value="Supply."/>
+    <property name="Text" value="Gain 4 resources or place 4 supply tokens among assets controlled by investigators at your location, or any combination thereof."/>
+  </card>
+  <card id="e748e010-c470-4757-913b-3cdbd22ead1d" name="The Pallid Mask">
+    <property name="Card Number" value="240"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Easy / Standard&#10;α: -X. X is the number of locations away from the starting location you are (max 5).&#10;β: -2. If this token is revealed during an attack, and this skill test is successful, this attack deals 1 less damage.&#10;γ: -2. If there is a ready Ghoul or Geist enemy at your location, it attacks you (if there is more than one, choose one).&#10;δ: -3. If you fail, search the encounter deck and discard pile for a Ghoul or Geist enemy and draw it."/>
+    <alternate name="The Pallid Mask" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Hard / Expert&#10;α: -X. X is the number of locations away from the starting location you are.&#10;β: -3. If this token is revealed during an attack and this skill test is successful, this attack deals no damage.&#10;γ: -3. If there is a Ghoul or Geist enemy at your location, it readies and attacks you (if there is more than one, choose one).&#10;δ: -4. If you fail, search the encounter deck and discard pile for a Ghoul or Geist enemy and draw it."/>
+    </alternate>
+  </card>
+  <card id="7cc80dae-6a90-4d31-9e4b-b892ad1ff4ba" name="Empire of the Dead" size="HorizCard">
+    <property name="Card Number" value="241"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Each location is connected to each location adjacent to it."/>
+    <alternate name="Specter of Death" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Subtitle" value="A Force From Beyond"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Combat" value="3"/>
+      <property name="Agility" value="3"/>
+      <property name="Health" value="5π "/>
+      <property name="Damage" value="2"/>
+      <property name="Horror" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="2"/>
+      <property name="Traits" value="Monster. Geist. Elite."/>
+      <property name="Text" value="Spawn - The starting location.Hunter. Retaliate.While Specter of Death is exhausted, it takes 1 less damage from each attack made against it.Forced - After you fail a skill test while attempting to evade Specter of Death: It attacks you."/>
+    </alternate>
+  </card>
+  <card id="ecc3ad11-fd0a-4ca3-ac7b-e8288cc31bad" name="Empire of the Undead" size="HorizCard">
+    <property name="Card Number" value="242"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="12"/>
+    <property name="Text" value="Each location is connected to each location adjacent to it."/>
+    <alternate name="Join Them In Death" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator is defeated and suffers 1 physical trauma."/>
+    </alternate>
+  </card>
+  <card id="45060741-a8c0-42b7-bea0-7866c7a08161" name="Through the Catacombs" size="HorizCard">
+    <property name="Card Number" value="243"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - Find The Man in the Pallid Mask. He is somewhere in the Catacombs. (Do not advance until you are instructed.)"/>
+    <alternate name="The Stranger's Shadow" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Spawn the set-aside The Man in the Pallid Mask weakness in the Tomb of Shadows (instead of its normal spawn location).&#10;Check the Campaign Log. If Ishimaru Haruko is not listed under &quot;VIPs Slain,&quot; search the collection for Ishimaru Haruko (Just Skin and Bones) and spawn her at the starting location."/>
+    </alternate>
+  </card>
+  <card id="ae5a7d71-a5dd-4ecb-b6b2-ff27959910cd" name="The Path is Barred" size="HorizCard">
+    <property name="Card Number" value="244"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2π"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - &quot;Tell us how to stop the path from opening!&quot; If The Man in the Pallid Mask is defeated, advance.&#10;Objective - &quot;What is he trying to show us?&quot; Investigators in the Tomb of Shadows may spend the requisite number of clues, as a group, to advance."/>
+    <alternate name="Behind the Mask" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If The Man in the Pallid Mask was defeated:&#10;The Stranger drops to one knee, visibly wounded. Your knuckles whiten with anger, and you shout, &quot;We know about Carcosa and Hastur. Now tell us how to stop this madness!&quot; The Stranger digs his fingers into the cold stone floor, and the catacombs shake…&#10;Mark two Conviction in your Campaign Log.&#10;Remove The Man in the Pallid Mask from the game.&#10;Advance to Act 3a - The Way Out.&#10;If you spent clues to advance:&#10;Recognizing that the Stranger poses no immediate danger to you, you study your surroundings and the strange shadows twist and distort once more, revealing a strange diagram…&#10;Mark two Doubt in your Campaign Log.&#10;Remove The Man in the Pallid Mask from the game.&#10;Advance to Act 3a - Leading the Way."/>
+    </alternate>
+  </card>
+  <card id="cf404925-6636-47c0-ac77-f57c19ad8731" name="The Way Out" size="HorizCard">
+    <property name="Card Number" value="245"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Forced - At the end of the round, if The Gate to Hell is in play: Discard the location that is farthest from The Gate to Hell. Move each investigator and enemy that was at that location to a connecting location and deal 2 damage to each of them.&#10;Objective - If each undefeated investigator is at The Gate to Hell, advance."/>
+    <alternate name="The Catacombs Collapse" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R1)"/>
+    </alternate>
+  </card>
+  <card id="0404de0a-b415-4347-9df0-6541cf57011f" name="Leading the Way" size="HorizCard">
+    <property name="Card Number" value="246"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Ignore the Forced ability on Blocked Passage.&#10;Objective - If each undefeated investigator is at Blocked Passage, advance."/>
+    <alternate name="The Secret Exit" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(→R2)"/>
+    </alternate>
+  </card>
+  <card id="2633cdbb-a532-47f2-ad6c-8a92237984aa" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="247"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="The Gate to Hell" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - When The Gate to Hell is revealed: Put the top 2 Catacombs in the Catacombs deck into play above and below The Gate to Hell."/>
+    </alternate>
+  </card>
+  <card id="a2d57d45-fb42-4968-80d0-feb751d6f3e5" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="248"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Stone Archways" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Ignore the text on unrevealed locations adjacent to Stone Archways.&#10;Forced - When Stone Archways is revealed: Put the topmost Catacombs in the Catacombs deck into play to the right of Stone Archways."/>
+    </alternate>
+  </card>
+  <card id="bbce8064-cb86-4697-b45f-89cb1834f88f" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="249"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Crypt of the Sepulchral Lamp" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Crypt of the Sepulchral Lamp is investigated using ά instead of the skill indicated by the investigation attempt.&#10;Forced - When Crypt of the Sepulchral Lamp is revealed: Put the top 2 Catacombs in the Catacombs deck into play above and to the right of Crypt of the Sepulchral Lamp."/>
+    </alternate>
+  </card>
+  <card id="76b0fffe-f335-4b93-90e6-37def05e571b" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="250"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Bone-Filled Caverns" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="While you are investigating Bone-Filled Cavern, you have 1 fewer hand slot.&#10;Forced - When Bone-Filled Cavern is revealed: Put the top 2 Catacombs in the Catacombs deck into play below and to the right of Bone-Filled Cavern."/>
+    </alternate>
+  </card>
+  <card id="3fd6834d-59b3-4aeb-a5af-67383323277e" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="251"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Well of Souls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced - After you end your turn at Well of Souls: You must either take 1 direct horror or discard 2 random cards from your hand.&#10;Forced - When Well of Souls is revealed: Put the topmost Catacombs in the Catacombs deck into play above, below, or to the right of Well of Souls."/>
+    </alternate>
+  </card>
+  <card id="0d60acc3-fff6-4bbe-99f9-13beb68e2031" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="252"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Candlelit Tunnels" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η: Test έ (3) to read an ancient sign. If you succeed, look at the revealed side of any Catacombs location in play. (Group limit once per game.)&#10;Forced - When Candlelit Tunnels is revealed: Put the top 2 Catacombs in the Catacombs deck into play to the left and right of Candlelit Tunnels."/>
+    </alternate>
+  </card>
+  <card id="024e7f53-cc5d-4f3f-a2f9-fcbf02c67e56" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="253"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Labyrinth of Bones" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - When Labyrinth of Bones is revealed: Put the top 3 Catacombs in the Catacombs deck into play above, below, and to the right of Labyrinth of Bones."/>
+    </alternate>
+  </card>
+  <card id="29e1e060-81b3-49fd-ba16-bc9cbf7ff0c9" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="254"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Narrow Shaft" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced - When you would move from Narrow Shaft to an unrevealed location: Test ί (3). If you fail, take 1 damage and cancel the effects of the move.&#10;Forced - When Narrow Shaft is revealed: Put the topmost Catacombs in the Catacombs deck into play above or to the right of Narrow Shaft."/>
+    </alternate>
+  </card>
+  <card id="94b94f6c-ce58-4602-a872-9e8c3a59ccaf" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="255"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Shivering Pools" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="5"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced - After you end your turn at Shivering Pools: You must either take 1 direct damage or lose 5 resources.&#10;Forced - When Shivering Pools is revealed: Put the topmost Catacombs in the Catacombs deck into play below or to the right of Shivering Pools."/>
+    </alternate>
+  </card>
+  <card id="91849ee0-abf0-45a9-b354-e90cd10c1a6d" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="256"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Blocked Passage" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="7"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Forced - When you reveal Blocked Passage: Take 2 damage. You cannot leave Blocked Passage this round."/>
+    </alternate>
+  </card>
+  <card id="2cf0e837-8ba9-4944-9d75-65d8e4cebb14" name="Catacombs" size="EncounterCard">
+    <property name="Card Number" value="257"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group."/>
+    <alternate name="Tomb of Shadows" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Text" value="Forced - When Tomb of Shadows is revealed: Advance to act 1b.&#10;While The Man in the Pallid Mask is at the Tomb of Shadows, he gets +1π health and cannot be defeated by his η ability."/>
+    </alternate>
+  </card>
+  <card id="52b647ba-c414-4fc2-a3c0-5da370427300" name="Catacombs Docent" size="EncounterCard">
+    <property name="Card Number" value="258"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Lunatic."/>
+    <property name="Text" value="Spawn - Nearest unrevealed location.&#10;η: Parley. Test έ (4) to interpret the guide's ravings. If you succeed, look at the revealed side of any Catacombs location in play. (Group limit once per game.)"/>
+  </card>
+  <card id="71b7fd40-4335-4ef7-a6de-c48fc90b2f67" name="Corpse Dweller" size="EncounterCard">
+    <property name="Card Number" value="259"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="5"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster."/>
+    <property name="Text" value="Spawn - Discard a Humanoid enemy at any location and spawn Corpse Dweller at that location (if there are no Humanoid enemies in play, discard Corpse Dweller and it gains surge instead).&#10;Hunter. Retaliate."/>
+  </card>
+  <card id="bdf84381-48fb-4db5-9f61-3d7f9cf7485e" name="Eyes in the Walls" size="EncounterCard">
+    <property name="Card Number" value="260"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Test ά (3). For each point you fail by, take 1 horror. When assigning horror from this effect, it must be divided as evenly as possible among eligible cards."/>
+  </card>
+  <card id="52f586da-4322-4596-8088-c246e0e47f1c" name="The Shadow Behind You" size="EncounterCard">
+    <property name="Card Number" value="261"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Put The Shadow Behind You into play in your threat area. Limit 1 per investigator.&#10;η: You look behind you.&#10;Forced - At the end of your turn, if you did not perform the above η ability: You must either discard all of your resources or discard all cards in your hand. Then, discard The Shadow Behind You."/>
+  </card>
+  <card id="b70c4133-557d-46f0-a048-b12183ce9017" name="The Pit Below" size="EncounterCard">
+    <property name="Card Number" value="262"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Attach to your location if there is no copy of The Pit Below attached (if there is, discard The Pit Below and it gains surge instead).&#10;Attached location gets +1 shroud.&#10;Forced - At the end of the round: Each investigator at attached location takes 3 damage. Discard The Pit Below."/>
+  </card>
+ </cards>
+</set>
