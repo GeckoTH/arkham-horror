@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="A Phantom of Truth" id="d740b66f-3983-45e4-9b6c-0dcc35f6ed13" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="cee018b0-cbf5-411b-a67c-c3f949bb02b3" name="&quot;I'll see you in hell!&quot;">
+    <property name="Card Number" value="189"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Combat" value="2"/>
+    <property name="Skill Icons" value="ήή"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Each non-Elite enemy engaged with you is defeated. You are defeated and suffer 1 physical trauma. This action does not provoke attacks of opportunity."/>
+  </card>
+  <card id="12c9ed22-e9b5-41a1-9d26-d193470ef674" name=".45 Automatic">
+    <property name="Card Number" value="190"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="4"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Firearm."/>
+    <property name="Text" value="Uses (4 ammo).&#10;η Spend 1 ammo: Fight. You get +2 combat for this attack. This attack deals +1 damage. Ignore the retaliate keyword for this attack."/>
+  </card>
+  <card id="a6a4b649-4263-42de-b703-02fbfc801a67" name="Logical Reasoning">
+    <property name="Card Number" value="191"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Skill Icons" value="άά"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Play only if you have at least 1 clue.&#10;Choose an investigator at your location. That investigator either heals 2 horror or discards a Terror card from his or her threat area."/>
+  </card>
+  <card id="f1958711-fd4b-4ea9-bfad-e15e476f7420" name="Archaic Glyphs">
+    <property name="Card Number" value="192"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Guiding Stones"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έά"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="You can only include this asset in your deck by upgrading it from Archaic Glyphs (Untranslated), and only if &quot;you have translated the glyphs&quot; in your Campaign Log.&#10;Uses (3 charges).&#10;η Spend 1 charge: Investigate. For every 2 points you succeed by, discover 1 additional clue at your location."/>
+  </card>
+  <card id="01ca79ac-1c9b-406f-b1bf-fc6366b5752a" name="Archaic Glyphs">
+    <property name="Card Number" value="193"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Prophecy Foretold"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίέ"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="You can only include this asset in your deck by upgrading it from Archaic Glyphs (Untranslated), and only if &quot;you have translated the glyphs&quot; in your Campaign Log.&#10;Uses (3 charges).&#10;η Spend 1 charge: Investigate. If you succeed, you may automatically evade an engaged enemy. This action does not provoke attacks of opportunity."/>
+  </card>
+  <card id="94cfb893-22fa-4913-8d54-7c85a1352c43" name="Cheap Shot">
+    <property name="Card Number" value="194"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Traits" value="Trick."/>
+    <property name="Text" value="Fight. Add your ί value to your skill value for this attack. If you succeed by 2 or more, automatically evade the attacked enemy."/>
+  </card>
+  <card id="14ac735d-2620-4062-82bf-e87c0da58330" name="Pickpocketing">
+    <property name="Card Number" value="195"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Skill Icons" value="ίί"/>
+    <property name="Traits" value="Talent. Illicit."/>
+    <property name="Text" value="Fast.&#10;ι After you evade an enemy, exhaust Pickpocketing: Draw 1 card or gain 1 resource. If you succeeded by 2 or more, do both instead."/>
+  </card>
+  <card id="f0275981-86c3-43b3-b6e2-f3fbfee542c9" name="Quantum Flux">
+    <property name="Card Number" value="196"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Shuffle your discard pile into your deck and draw 1 card. Remove Quantum Flux from the game."/>
+  </card>
+  <card id="29de29b6-dd56-4183-a4f0-9bd0d503ba62" name="Recharge">
+    <property name="Card Number" value="197"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="2"/>
+    <property name="Skill Icons" value="άά"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Choose a Spell or Relic asset controlled by an investigator at your location and reveal a random chaos token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, discard the chosen asset. Otherwise, add 3 charges to the chosen asset."/>
+  </card>
+  <card id="1ec325ea-be6f-4227-92ae-acd90a5193b5" name="Madame Labranche">
+    <property name="Card Number" value="198"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Mysterious Benefactress"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="2"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Patron."/>
+    <property name="Text" value="θ If you have no cards in your hand, exhaust Madame Labranche: Draw 1 card.&#10;θ If you have no resources, exhaust Madame Labranche: Gain 1 resource."/>
+  </card>
+  <card id="d5bd3471-2114-475c-bae6-572d64c21b1b" name="Snare Trap">
+    <property name="Card Number" value="199"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίά"/>
+    <property name="Traits" value="Trap. Improvised."/>
+    <property name="Text" value="Attach to your location. Limit 1 per location.&#10;Forced - After a non-Elite enemy enters attached location: Exhaust that enemy, disengage it from all investigators, and attach Snare Trap to it.&#10;Forced - When attached enemy would ready: Instead, discard Snare Trap."/>
+  </card>
+  <card id="2f2b29d1-5d89-4249-9a09-3e84d24f7590" name="A Phantom of Truth">
+    <property name="Card Number" value="200"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Text" value="Easy / Standard&#10;α: -X. X is the amount of doom in play (max 5).&#10;β: -2. If you fail, move each unengaged Byakhee in play once toward the nearest investigator.&#10;γ: -3. Cancel the effects and icons of each skill card committed to this test.&#10;δ: -2. If you fail, lose 1 resource for each point you failed by."/>
+    <alternate name="A Phantom of Truth" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Text" value="Hard / Expert&#10;α: -X. X is the amount of doom in play.&#10;β: -2. Move each unengaged Byakhee in play once toward the nearest investigator.&#10;γ: -4. Cancel the effects and icons of each skill card committed to this test.&#10;δ: -3. If you fail, lose 1 resource for each point you failed by."/>
+    </alternate>
+  </card>
+  <card id="157a0781-961a-454e-9d54-15e69ece8ebe" name="The First Night" size="HorizCard">
+    <property name="Card Number" value="201"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="While you have more Conviction than Doubt, this agenda gains:&#10;&quot;When checking the doom threshold, doom on cards other than this agenda subtract from the total doom in play instead of adding to it.&quot;"/>
+    <alternate name="The First Night" size="HorizCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator disengages from each enemy engaged with him or her and may move to a connecting location. Move The Organist 1 location away from the nearest investigator (to a location with no investigators, if possible)."/>
+    </alternate>
+  </card>
+  <card id="324ee029-91bc-47c5-8e10-fcad2d3feb81" name="The Second Night" size="HorizCard">
+    <property name="Card Number" value="202"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <property name="Text" value="While you have more Conviction than Doubt, this agenda gains:&#10;&quot;When checking the doom threshold, doom on cards other than this agenda subtract from the total doom in play instead of adding to it.&quot;"/>
+    <alternate name="The Second Night" size="HorizCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator disengages from each enemy engaged with him or her and may move to a connecting location. Move The Organist 1 location away from the nearest investigator (to a location with no investigators, if possible).&#10;Check Campaign Log. If Jordan Perry is not listed under &quot;VIPs Slain,&quot; search the collection for Jordan Perry (An Imposing Presence) and spawn him in Montparnasse."/>
+    </alternate>
+  </card>
+  <card id="9de8ddb2-2338-438b-984e-eaea32ebd3a2" name="The Third Night" size="HorizCard">
+    <property name="Card Number" value="203"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="While you have more Conviction than Doubt, this agenda gains:&#10;&quot;When checking the doom threshold, doom on cards other than this agenda subtract from the total doom in play instead of adding to it.&quot;"/>
+    <alternate name="The Third Night" size="HorizCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Check Campaign Log.&#10;-If you have more (or equal) Doubt than Conviction, proceed to (→R3).&#10;-If you have more Conviction than Doubt, advance to act 2b."/>
+    </alternate>
+  </card>
+  <card id="fc98bb4c-d45c-4c79-b836-9fb9c82afc71" name="The Parisian Conspiracy (v. I)" size="HorizCard">
+    <property name="Card Number" value="204"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - Spend the requisite number of clues to advance.&#10;Objective - At the end of the round, if there are 3 or more doom in play, advance."/>
+    <alternate name="The Parisian Conspiracy (v. I)" size="HorizCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If you spent clues to advance:&#10;You nearly bump into a tall man, his coat and hat as black as his skin is pale. You remember seeing him through the windows of St. Barnabé Church. His organ playing continues to haunt you…&#10;Spawn the set-aside The Organist enemy at the lead investigator's location, (Draped in Mystery) side face-up. Advance to Act 2a - Pursuing Shadows.&#10;Otherwise:&#10;The organ you heard earlier continues to haunt you. No matter where you are, the torturous chords play over and over in your head. Startled, you ask a passerby about the church. &quot;St. Barnabé?&quot; she replies in a thick accent. &quot;There is no such place.&quot;&#10;Each investigator takes 2 horror.&#10;Spawn the set-aside The Organist enemy at the location farthest from all investigators, (Draped in Mystery) side face-up. Advance to Act 2a - Pursuing Shadows."/>
+    </alternate>
+  </card>
+  <card id="96937b09-fd4f-482e-82c8-458c11c48f98" name="The Parisian Conspiracy (v. II)" size="HorizCard">
+    <property name="Card Number" value="205"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - Spend the requisite number of clues to advance.&#10;Objective - At the end of the round, if there are 3 or more doom in play, advance."/>
+    <alternate name="The Parisian Conspiracy (v. II)" size="HorizCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If you spent clues to advance:&#10;The organ you heard earlier continues to haunt you. No matter where you are, the torturous chords play over and over in your head. The sensation that you are being watched tugs at your mind.&#10;Spawn the set-aside The Organist enemy at the location farthest from all investigators, (Hopeless, I Defied Him) side face-up. Advance to Act 2a - Stalked by Shadows.&#10;Otherwise:&#10;You nearly bump into a tall man, his coat and hat as black as his skin is pale. He gives you a look of hatred, as intense and as deadly as you have ever seen. You recoil at the mere sight of him, and shadows gather around his feet as he marches towards you.&#10;Each investigator takes 2 horror.&#10;Spawn the set-aside The Organist enemy at the lead investigator's location, (Hopeless, I Defied Him) side face-up. Advance to Act 2a - Stalked by Shadows."/>
+    </alternate>
+  </card>
+  <card id="1e4c5f96-2a48-48cf-bcaa-a74c21a716e8" name="Pursuing Shadows" size="HorizCard">
+    <property name="Card Number" value="206"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="ι After you successfully attack The Organist: An investigator at your location may place 1 of his or her clues on The Organist. (Group limit 1 [per_investigator] times per round.)&#10;Objective - If there are 3 [per_investigator] clues on The Organist, advance."/>
+    <alternate name="Pursuing Shadows" size="HorizCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Check Campaign Log.&#10;-If you intruded on a secret meeting, proceed to (→R2).&#10;-Otherwise, proceed to (→R1)."/>
+    </alternate>
+  </card>
+  <card id="202449e9-2c91-441b-b54a-9541371e419a" name="Stalked by Shadows" size="HorizCard">
+    <property name="Card Number" value="207"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Act"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="θ Spend 1 [per_investigator] clues, as a group: Either place 1 doom on the current agenda, or automatically evade The Organist. (Group limit once per round.)&#10;Objective - Survive three nights. (Do not advance until you are instructed.)"/>
+    <alternate name="Stalked by Shadows" size="HorizCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Check Campaign Log.&#10;-If you intruded on a secret meeting, proceed to (→R2).&#10;-Otherwise, proceed to (→R1)."/>
+    </alternate>
+  </card>
+  <card id="495872f9-5461-435b-bd1b-f830279b18bc" name="Montparnasse" size="EncounterCard">
+    <property name="Card Number" value="208"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Montparnasse" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="θ Discard a card from your hand: Gain resources equal to the number of ά icons on the discarded card. (Limit once per round.)"/>
+    </alternate>
+  </card>
+  <card id="96eca2b7-5f82-42a0-a4c8-58b5fe7fda73" name="Montmartre" size="EncounterCard">
+    <property name="Card Number" value="209"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Montmartre" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="η: Reveal the top card of each investigator's deck. You may play an asset revealed by this effect (paying its cost), under your control. Shuffle each investigator's deck. (Group limit once per round.)"/>
+    </alternate>
+  </card>
+  <card id="4987715d-a84d-4380-a478-3ad0b1ac0bfa" name="Montmartre" size="EncounterCard">
+    <property name="Card Number" value="210"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Montmartre" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="η Spend 1 resource: Add 1 supply or ammo token to a card you control. (Limit once per round.)"/>
+    </alternate>
+  </card>
+  <card id="42ae82fa-d26b-4b30-ae93-7cc3f2b81cea" name="Grand Guignol" size="EncounterCard">
+    <property name="Card Number" value="211"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris."/>
+    <alternate name="Grand Guignol" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Subtitle" value="Theatre of the Great Puppet"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Paris."/>
+      <property name="Text" value="Forced - After you reveal Grand Guignol: You must either take 2 horror, or shuffle all non-weakness cards from your hand into your deck, then draw an equal number of cards."/>
+    </alternate>
+  </card>
+  <card id="a1e75f9c-befb-4cfb-aab4-5397f8f62c81" name="Opéra Garnier" size="EncounterCard">
+    <property name="Card Number" value="212"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Opéra Garnier" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="5"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="While you are investigating Opéra Garnier, double the number of skill icons committed to this skill test."/>
+    </alternate>
+  </card>
+  <card id="c5d57cb3-ceb7-4c8b-800e-818d65414cc0" name="Opéra Garnier" size="EncounterCard">
+    <property name="Card Number" value="213"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Opéra Garnier" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="6"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="While you are investigating Opéra Garnier, double the base value of your skill."/>
+    </alternate>
+  </card>
+  <card id="851280fa-b807-493c-9c3d-048f70e8a05d" name="Gare d'Orsay" size="EncounterCard">
+    <property name="Card Number" value="214"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Gare d'Orsay" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="η Spend 1 resource: Move to any Rail location."/>
+    </alternate>
+  </card>
+  <card id="05f0bf91-29ce-4925-8e3e-38d3b03e2542" name="Père Lachaise Cemetery" size="EncounterCard">
+    <property name="Card Number" value="215"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris."/>
+    <alternate name="Père Lachaise Cemetery" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Paris."/>
+      <property name="Text" value="Forced - After you successfully investigate Père Lachaise Cemetery: You cannot leave Père Lachaise Cemetery until the end of the round."/>
+    </alternate>
+  </card>
+  <card id="cc707388-cd37-4fbd-a38d-b4ef160569d2" name="Canal Saint-Martin" size="EncounterCard">
+    <property name="Card Number" value="216"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris."/>
+    <alternate name="Canal Saint-Martin" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Paris."/>
+      <property name="Text" value="ι After you evade an enemy at Canal Saint-Martin: Move that enemy to a connecting location. (Limit once per round.)"/>
+    </alternate>
+  </card>
+  <card id="83e73174-af32-4f5a-be59-24013a471171" name="Le Marais" size="EncounterCard">
+    <property name="Card Number" value="217"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Le Marais" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="ι When your turn begins, if you are in Le Marais: Draw 1 card. (Group limit once per round.)"/>
+    </alternate>
+  </card>
+  <card id="0a3df1e4-0f7b-43de-be8a-808f2008f1a1" name="Le Marais" size="EncounterCard">
+    <property name="Card Number" value="218"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Le Marais" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="Forced - After you enter Le Marais: For the remainder of the round, you cannot leave Le Marais."/>
+    </alternate>
+  </card>
+  <card id="945d67fb-f8f4-4fe1-b646-9a2894acda75" name="Notre-Dame" size="EncounterCard">
+    <property name="Card Number" value="219"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris. Rail."/>
+    <alternate name="Notre-Dame" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Paris. Rail."/>
+      <property name="Text" value="Each enemy at Notre-Dame gets -1 fight and +1 evade.&#10;η: Test ά (6). If you succeed, either place 1 doom on the current agenda, or remove 1 doom from the current agenda. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="095ec4ac-d52e-4893-808d-acdaf9d97e47" name="Gardens of Luxembourg" size="EncounterCard">
+    <property name="Card Number" value="220"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Location"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Paris."/>
+    <alternate name="Gardens of Luxembourg" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Paris."/>
+      <property name="Text" value="While a Byakhee enemy is moving, if there is an investigator at Gardens of Luxembourg, that enemy's location is considered to be connected to Gardens of Luxembourg."/>
+    </alternate>
+  </card>
+  <card id="bd054df1-3678-49d3-9d47-077ef4718d48" name="The Organist" size="EncounterCard">
+    <property name="Card Number" value="221"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Subtitle" value="Draped in Mystery"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="5"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Avatar. Elite."/>
+    <property name="Text" value="Aloof. Cannot be damaged.&#10;Forced - At the end of the enemy phase: If The Organist is unengaged, move it 1 location away from the nearest investigator (to a location with no investigators, if possible). If it is engaged, disengage it instead."/>
+  </card>
+  <card id="25536baa-19ef-414a-bd5d-24f3d690250f" name="Stealthy Byakhee" size="EncounterCard">
+    <property name="Card Number" value="222"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Combat" value="5"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Byakhee."/>
+    <property name="Text" value="Hunter.&#10;While Stealthy Byakhee is exhausted, it gets -3 fight."/>
+  </card>
+  <card id="4e4fa455-091c-491e-8e2b-74c6c0ff53f3" name="Twin Suns" size="EncounterCard">
+    <property name="Card Number" value="223"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Omen."/>
+    <property name="Text" value="Revelation - Test έ (4). If you fail, you must either remove 1 doom from the current agenda, or take 1 horror for each point you failed by."/>
+  </card>
+  <card id="cc9074b9-0052-4233-8896-28222361b47d" name="Deadly Fate" size="EncounterCard">
+    <property name="Card Number" value="224"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Omen."/>
+    <property name="Text" value="Revelation - Test ά (3). If you fail, discard cards from the top of the encounter deck until an enemy is discarded. You must either draw that enemy, or that enemy attacks you (from the discard pile). If no enemy is discarded, take 1 horror instead."/>
+  </card>
+  <card id="ecba1d09-d125-4463-89f6-5ac24ce8e1a7" name="Torturous Chords" size="EncounterCard">
+    <property name="Card Number" value="225"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Hex. Terror."/>
+    <property name="Text" value="Revelation - Test ά (5). If you fail, put Torturous Chords into play in your threat area, with 1 resource on it for each point you failed by.&#10;Each time you play a card, increase the cost of that card by 1 and remove 1 resource from Torturous Chords.&#10;If Torturous Chords has no resources, discard it."/>
+  </card>
+  <card id="5606fe5d-d328-419f-9819-d81e55d056dc" name="Frozen in Fear" size="EncounterCard">
+    <property name="Card Number" value="226"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Put Frozen in Fear into play in your threat area.&#10;The first time you perform one of the following actions (move, fight, or evade) each round, it costs 1 additional action.&#10;Forced - At the end of your turn: Test ά (3). If you succeed, discard Frozen in Fear."/>
+  </card>
+  <card id="791a6d1e-844d-4078-b4cb-c005483a1790" name="Lost Soul">
+    <property name="Card Number" value="227"/>
+    <property name="Quantity" value="4"/>
+    <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Madness. Pact."/>
+    <property name="Text" value="Revelation - Check Campaign Log. &#10;-If you have more (or equal) Doubt than Conviction, test έ (X), where X is your ά. If you fail, take 2 damage.&#10;-If you have more Conviction than Doubt, test ά (X), where X is your έ. If you fail, take 2 damage."/>
+  </card>
+ </cards>
+</set>
