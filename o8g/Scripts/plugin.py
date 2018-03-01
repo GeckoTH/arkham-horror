@@ -9,10 +9,6 @@ from System.Web.Script.Serialization import JavaScriptSerializer as json #since 
 
 PLAYER_DECK = ['Investigator', 'Special', 'Asset', 'Event', 'Skill', 'Weakness', 'Sideboard', 'Basic Weaknesses']
 
-def moveToTrash(card, x = 0, y = 0):
-	mute()
-	card.moveTo(shared.piles['Trash'])
-
 def saveTable(group, x=0, y=0):
 	mute()
 	
