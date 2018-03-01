@@ -4,6 +4,8 @@
 
 Features:
 - Added Unspeakable Oath
+- Added A Phantom of Truth
+- Added The Pallid Mask
 - Added Book Series investigators
   - Jenny Barnes
   - Roland Banks
@@ -11,6 +13,7 @@ Features:
 
 Fixes:
 - Fixed missing card (The Experiment) from Extracurricular Activity
+- Fixed missing location in Miskatonic Museum
 
 ___
 
