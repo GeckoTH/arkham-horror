@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="7cc80dae-6a90-4d31-9e4b-b892ad1ff4ba">Empire of the Dead</card>
+    <card qty="1" id="ecc3ad11-fd0a-4ca3-ac7b-e8288cc31bad">Empire of the Undead</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="45060741-a8c0-42b7-bea0-7866c7a08161">Through the Catacombs</card>
+    <card qty="1" id="ae5a7d71-a5dd-4ecb-b6b2-ff27959910cd">The Path is Barred</card>
+    <card qty="1" id="cf404925-6636-47c0-ac77-f57c19ad8731">The Way Out</card>
+    <card qty="1" id="0404de0a-b415-4347-9df0-6541cf57011f">Leading the Way</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="52b647ba-c414-4fc2-a3c0-5da370427300">Catacombs Docent</card>
+    <card qty="3" id="71b7fd40-4335-4ef7-a6de-c48fc90b2f67">Corpse Dweller</card>
+    <card qty="3" id="bdf84381-48fb-4db5-9f61-3d7f9cf7485e">Eyes in the Walls</card>
+    <card qty="3" id="52f586da-4322-4596-8088-c246e0e47f1c">The Shadow Behind You</card>
+    <card qty="3" id="b70c4133-557d-46f0-a048-b12183ce9017">The Pit Below</card>
+    <card qty="3" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
+    <card qty="1" id="a70a2df7-2520-47ea-97b9-374714113140">Ravenous Ghoul</card>
+    <card qty="3" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
+    <card qty="2" id="25f2b043-9b84-4462-911d-42dbaaea2a35">Poltergeist</card>
+    <card qty="2" id="4e1d5bce-18f2-49ec-9832-02a57a5ea992">Spirit's Torment</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="2633cdbb-a532-47f2-ad6c-8a92237984aa">Catacombs</card>
+    <card qty="2" id="a2d57d45-fb42-4968-80d0-feb751d6f3e5">Catacombs</card>
+    <card qty="1" id="bbce8064-cb86-4697-b45f-89cb1834f88f">Catacombs</card>
+    <card qty="1" id="76b0fffe-f335-4b93-90e6-37def05e571b">Catacombs</card>
+    <card qty="1" id="3fd6834d-59b3-4aeb-a5af-67383323277e">Catacombs</card>
+    <card qty="2" id="0d60acc3-fff6-4bbe-99f9-13beb68e2031">Catacombs</card>
+    <card qty="2" id="024e7f53-cc5d-4f3f-a2f9-fcbf02c67e56">Catacombs</card>
+    <card qty="1" id="29e1e060-81b3-49fd-ba16-bc9cbf7ff0c9">Catacombs</card>
+    <card qty="1" id="94b94f6c-ce58-4602-a872-9e8c3a59ccaf">Catacombs</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="e748e010-c470-4757-913b-3cdbd22ead1d">The Pallid Mask</card>
+    <card qty="1" id="91849ee0-abf0-45a9-b354-e90cd10c1a6d">Catacombs</card>
+    <card qty="1" id="2cf0e837-8ba9-4944-9d75-65d8e4cebb14">Catacombs</card>
+    <card qty="1" id="0b579bc9-d109-441d-a684-107bd0074f4c">The Man in the Pallid Mask</card>
+    <card qty="1" id="28cb5d3e-f01b-45bb-855d-c485ee013856">Sickening Reality</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
