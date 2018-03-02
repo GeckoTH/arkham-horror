@@ -147,6 +147,12 @@
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
     <property name="Text" value="Easy / Standard&#10;α: -X. X is the highest amount of doom on an agenda in play.&#10;β: Reveal another token. If this token is revealed during an attack or evasion attempt against an enemy with doom on it, this skill test automatically fails instead.&#10;γ: Reveal another token. If you fail, place 1 doom on each agenda.&#10;δ: -2. If you fail, search the encounter deck and discard pile for a Byakhee enemy and draw it."/>
+    <alternate name="Black Stars Rise" type="B">
+      <property name="Encounter Set" value="Black Stars Rise"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Hard / Expert&#10;α: -X. X is the total amount of doom on agendas in play.&#10;β: Reveal another token. If there is an enemy with 1 or more doom on it at your location, this test automatically fails instead.&#10;γ: Reveal another token. If you do not succeed by at least 1, place 1 doom on each agenda.&#10;δ: -3. If you fail, search the encounter deck and discard pile for a Byakhee enemy and draw it."/>
+    </alternate>
   </card>
   <card id="e435831f-c721-49a5-988f-1fe5f59cac1c" name="The Tide Rises" size="HorizCard">
     <property name="Card Number" value="275"/>
