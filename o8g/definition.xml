@@ -264,7 +264,7 @@
 			<groupaction menu="Shuffle into Encounter Deck" default="True" execute="moveAllToEncounter" />
 		</group>
 		<group name="Victory Display" visibility="all" ordered="False" width="63" height="88" icon="groups/victory.png" collapsed="False" />
-		<group name="Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter2.png" collapsed="True">
+		<group name="Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
@@ -275,7 +275,7 @@
 		<group name="Special Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/dead2.png" collapsed="True">
 			<groupaction menu="Shuffle into Special Deck" default="True" execute="moveAllToSpecial" />
 		</group>
-		<group name="2nd Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter.png" collapsed="True">
+		<group name="2nd Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter2.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
