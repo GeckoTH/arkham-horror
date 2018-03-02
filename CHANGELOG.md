@@ -11,6 +11,12 @@ Features:
   - Jenny Barnes
   - Roland Banks
   - Norman Withers
+- Thanks to amoshk for the ability to save and restore game states!
+  - Right-click on the table to find the "Saving Tools" menu.
+  - You may Save or Load the table state, which should include every card in play and it's position.
+  - Note that Turn Counts and Phases are *not* saved. This is an OCTGN limitaion.
+  - You may also save the current player deck. 
+  - Note that all cards to be saved must be in hand or in the deck. Cards on the table are *not* saved with the deck.
 
 Fixes:
 - Fixed missing card (The Experiment) from Extracurricular Activity
