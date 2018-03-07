@@ -30,7 +30,7 @@
 	</block>
 	<block type="text" id="skill_icons">
 		<location x="1" y="90" />
-		<text color="#000000" size="24" font="fonts/ArnoPro-Arkham.ttf" />
+		<text color="#000000" size="21" font="fonts/ArnoPro-Arkham.ttf" />
 		<border color="#FFFFFF" size="5" />
 		<wordwrap height="30" width="100" align="near" />
 	</block>
