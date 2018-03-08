@@ -3,6 +3,15 @@
 ## Upcoming
 
 Features:
+
+Fixes:
+
+___
+
+## Latest
+
+### v1.0.0.20
+Features:
 - Added Unspeakable Oath
 - Added A Phantom of Truth
 - Added The Pallid Mask
@@ -11,32 +20,55 @@ Features:
   - Jenny Barnes
   - Roland Banks
   - Norman Withers
-- Thanks to amoshk for the ability to save and restore game states!
+- Added the ability to save and restore game states!
   - Right-click on the table to find the "Saving Tools" menu.
   - You may Save or Load the table state, which should include every card in play and it's position.
-  - Note that Turn Counts and Phases are *not* saved. This is an OCTGN limitaion.
+    - Note that Turn Counts and Phases are *not* saved. This is an OCTGN limitaion.
   - You may also save the current player deck. 
-  - Note that all cards to be saved must be in hand or in the deck. Cards on the table are *not* saved with the deck.
+    - Note that all cards to be saved must be in hand or in the deck. Cards on the table are *not* saved with the deck.
+  - Special thanks to amoshk for this feature!
 
 Fixes:
 - Fixed missing card (The Experiment) from Extracurricular Activity
 - Fixed missing location in Miskatonic Museum
+- Fixed font size for skill icons to allow up to 4 icons as on Desperate Search
 
+Thanks to amoshk, llebel and PlaidOsyluth for contributions!
 ___
 
 ## Previous
 
-### v1.0.0.1
-- Initial Release
+### v1.0.0.15
+Fixes:
+- Agenda/Act back names fixed for Echoes of the Past
+- Carcosa investigator minicards fixed
 
-### v1.0.0.7
+### v1.0.0.12
 Features:
-- Added Miskatonic Museum
-- Added Essex County Express
-- Added Phase/Round Management. Press F12 to begin!
+- Added The Path to Carcosa
+- Added Echoes of the Past
 
 Fixes:
-- Investigator Mini Card flip fix
+- Will to Survive is now properly Spirit traited.
+- Fix error thrown when a deck with no minicard is loaded.
+
+### v1.0.0.11
+Features:
+- Added Lost in Time and Space
+
+Fixes:
+- Where Doom Awaits Agenda Fix
+- Basic Weakness deck should now load
+
+### v1.0.0.9
+Features:
+- Added ability to mulligan by right-clicking on hand cards
+- Added check for hand size during upkeep (or ctrl-n)
+
+Fixes:
+- Proxies now show Victory Points
+- Proxies now show Slot information
+- Fix Permanent keywords for MM and BoTA
 
 ### v1.0.0.8
 Features:
@@ -50,34 +82,14 @@ Fixes:
 - Update Carnevale of Horrors Scenario decks
 - Fixed Indebted keywords
 
-### v1.0.0.9
+### v1.0.0.7
 Features:
-- Added ability to mulligan by right-clicking on hand cards
-- Added check for hand size during upkeep (or ctrl-n)
+- Added Miskatonic Museum
+- Added Essex County Express
+- Added Phase/Round Management. Press F12 to begin!
 
 Fixes:
-- Proxies now show Victory Points
-- Proxies now show Slot information
-- Fix Permanent keywords for MM and BoTA
+- Investigator Mini Card flip fix
 
-### v1.0.0.11
-Features:
-- Added Lost in Time and Space
-
-Fixes:
-- Where Doom Awaits Agenda Fix
-- Basic Weakness deck should now load
-
-### v1.0.0.12
-Features:
-- Added The Path to Carcosa
-- Added Echoes of the Past
-
-Fixes:
-- Will to Survive is now properly Spirit traited.
-- Fix error thrown when a deck with no minicard is loaded.
-
-### v1.0.0.15
-Fixes:
-- Agenda/Act back names fixed for Echoes of the Past
-- Carcosa investigator minicards fixed
+### v1.0.0.1
+- Initial Release
