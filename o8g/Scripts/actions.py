@@ -37,6 +37,8 @@ WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
 EliminatedColour = "#FF0000" # Red
 showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
+ActGroups = 0
+ActYDict = {}
 
 def debug(str):
     if showDebug:
@@ -763,34 +765,7 @@ def nextAgendaStage(group=None, x=0, y=0):
     card.moveToTable(x, y)
     
     agendaSetup(card)
-    notify("{} advances agenda to '{}'".format(me, card))
-
-    
-def nextActStage(group=None, x=0, y=0):
-    mute()
-    
-    #We need a new Act card
-    if group is None or group == table:
-        group = actDeck()
-    if len(group) == 0: return
-    
-    if group.controller != me:
-        remoteCall(group.controller, "nextActStage", [group, x, y])
-        return
-        
-    if x == 0 and y == 0: #The keyboard shortcut was used
-        #Count Agenda cards already on table to work out where to put this one
-        #n, count = questCount(table)
-        #x = QuestStartX + 89*(count // 2) + 64*n
-        #y = QuestStartY + 64*(count % 2)   
-        x = ActX
-        y = ActY
-            
-    card = group.top()
-    card.moveToTable(x, y)
-    
-    notify("{} advances act to '{}'".format(me, card))	
-	
+    notify("{} advances agenda to '{}'".format(me, card))	
 	
 def addToTable(card):
     x = AgendaX - 45.5
@@ -822,40 +797,73 @@ def agendaSetup(card):
 def nextAgenda(group = None, x = 0, y = 0):
     nextAgendaStage(group, x, y)
 
-def nextActStage(group=None, x=0, y=0):
+def nextActStage(c = None):
     mute()
-    
+	
     #If the current Act card has side A showing it is simply flipped and we are done
-    for c in table:
-        if c.Type in ("Act") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
-            flipcard(c)
-            return
+    if c is not None and c.Type in ("Act") and cardIsOnSideB(c):
+        flipcard(c)
+        return True
     
     #We need a new Act card
-    if group is None or group == table:
-        group = actDeck()
-    if len(group) == 0: return
+    group = actDeck()
+    if len(group) == 0: return False
     
     if group.controller != me:
-        remoteCall(group.controller, "nextActStage", [group, x, y])
-        return
-        
-    if x == 0 and y == 0: #The keyboard shortcut was used
-        #Count Act cards already on table to work out where to put this one
-        #n, count = questCount(table)
-        #x = QuestStartX + 89*(count // 2) + 64*n
-        #y = QuestStartY + 64*(count % 2)   
-        x = ActX
-        y = ActY
-            
-    card = group.top()
-    card.moveToTable(x, y)
+        return remoteCall(group.controller, "nextActStage", [c])
     
-#   actSetup(card)
-    notify("{} advances act to '{}'".format(me, card))
+    x = ActX
+    y = ActY
+	
+    if ActGroups > 0:
+        cards = set()
+        if c is not None:
+            if (cardIsOnSideB):
+                cardLevel = c.alternateProperty("", "Level")
+            else:
+                cardLevel = c.properties['Level']
+            cardSubLevel = getActAgendaSubLevel(cardLevel)
+            cardGroup = getActAgendaGroup(cardLevel)
+            nextCardRootLevel = str(int(getActAgendaRootLevel(cardLevel)) + 1)
+            cards = filter(lambda actCard: cardGroup == getActAgendaGroup(actCard.properties['Level'])
+                           and nextCardRootLevel == getActAgendaRootLevel(actCard.properties['Level'])
+                           and cardSubLevel == getActAgendaSubLevel(actCard.properties['Level']), group)
+        else: 
+            cardLevel = "1"
+            cards = filter(lambda actCard: cardLevel == getActAgendaRootLevel(actCard.properties['Level']), group)
+        for card in cards:
+            cardGroup = getActAgendaGroup(card.properties['Level'])
+            card.moveToTable(x, ActYDict[cardGroup])
+            notify("{} advances act to '{}'".format(me, card))
+    else:
+        card = group.top()
+        card.moveToTable(x, y)
+        notify("{} advances act to '{}'".format(me, card))
+    return False
+	
+def getActAgendaGroup(level):
+    index = level.find('.') + 1
+    if index == -1:
+        return -1
+    result = level[index:]
+    return result
 
-def nextAct(group = None, x = 0, y = 0):
-    nextActStage(group, x, y)
+def getActAgendaRootLevel(level):
+    index = level.find('.')
+    if index == -1:
+        return -1
+    result = level[:index]
+    return re.sub(r"\D", "", result)
+
+def getActAgendaSubLevel(level):
+    index = level.find('.')
+    if index == -1:
+        return -1
+    result = level[:index]
+    return re.sub(r"\d", "", result)
+
+def cardIsOnSideB(c):
+    return c.alternates is not None and "B" in c.alternates and c.alternate != "B"
 
 def setAbilityCounters(investigatorCard):
     me.counters['Willpower'].value = num(investigatorCard.Willpower)
@@ -976,6 +984,25 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     if doEncounter or encounterDeck().controller == me:
         count = agendaCount(table)
         if count == 0:
+            actCards = actDeck()
+            groupSet = set()
+            for c in actCards:
+                cardGroup = getActAgendaGroup(c.properties["Level"])
+                if cardGroup != -1:
+                    groupSet.add(cardGroup)
+            groupCount = len(groupSet)
+            if groupCount > 1:
+                global ActGroups
+                global ActYDict
+                ActGroups = groupCount
+                groupIter = 1
+                thisY = -32 * (groupCount - 1) + ActY
+                ActYDict[str(groupIter)] = thisY
+                groupIter += 1
+                while (groupIter <= groupCount):
+                    thisY += 64
+                    ActYDict[str(groupIter)] = thisY
+                    groupIter += 1
             nextAgendaStage()
             nextActStage()
             shuffle(encounterDeck())
@@ -1247,9 +1274,9 @@ def discard(card, x=0, y=0):
         return
         
     if card.Type == "Act": #If we remove the only Act card then we reveal the next one
-        card.moveToBottom(actDiscard())
-        notify("{} discards '{}'".format(me, card))
-        nextActStage()
+        if not nextActStage(card):
+            card.moveToBottom(actDiscard())
+            notify("{} discards '{}'".format(me, card))
         return
 		
     if isPlayerCard(card):
