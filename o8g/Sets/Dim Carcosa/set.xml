@@ -12,7 +12,7 @@
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ήί"/>
     <property name="Traits" value="Tactic."/>
-    <property name="Text" value="Fast. Play when you activate the Fight ability on a Firearm asset.You may spend X additional ammo tokens from that asset. When you reveal chaos tokens for this attack, reveal X additional tokens. Choose one to resolve and ignore the rest."/>
+    <property name="Text" value="Fast. Play when you activate the Fight ability on a Firearm asset.&#10;You may spend X additional ammo tokens from that asset. When you reveal chaos tokens for this attack, reveal X additional tokens. Choose one to resolve and ignore the rest."/>
   </card>
   <card id="cb0f6bfa-a39a-4fb6-ac2b-697d278503e2" name="Armor of Ardennes">
     <property name="Card Number" value="305"/>
@@ -52,7 +52,7 @@
     <property name="Intellect" value="1"/>
     <property name="Skill Icons" value="ΰέ"/>
     <property name="Traits" value="Insight."/>
-    <property name="Text" value="Fast. Play during any θ player window.Choose an investigator at your location. That investigator searches his or her deck for a card, draws it, and shuffles his or her deck."/>
+    <property name="Text" value="Fast. Play during any θ player window.&#10;Choose an investigator at your location. That investigator searches his or her deck for a card, draws it, and shuffles his or her deck."/>
   </card>
   <card id="39a8396b-dbf5-4de9-a6b9-36ba55c85062" name="Charon's Obol">
     <property name="Card Number" value="308"/>
@@ -79,7 +79,7 @@
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
     <property name="Keywords" value="Uses (2 ammo)."/>
-    <property name="Text" value="Playing Lupara does not provoke attacks of opportunity.η Spend 1 ammo: Fight. You get +1 ή and deal +1 damage for this attack. If Lupara entered play this turn, you get and additional +1 ή and deal an additional +1 damage for this attack."/>
+    <property name="Text" value="Playing Lupara does not provoke attacks of opportunity.&#10;η Spend 1 ammo: Fight. You get +1 ή and deal +1 damage for this attack. If Lupara entered play this turn, you get and additional +1 ή and deal an additional +1 damage for this attack."/>
   </card>
   <card id="43944ccf-7640-4571-9513-e41bb08863c0" name="Cheat Death">
     <property name="Card Number" value="310"/>
@@ -90,7 +90,7 @@
     <property name="Cost" value="1"/>
     <property name="Skill Icons" value="ΰ"/>
     <property name="Traits" value="Trick. Fated."/>
-    <property name="Text" value="Fast. Play when you would be defeated.Disengage from each enemy engaged with you, discard all cards in your threat area, heal 2 horror and 2 damage, and move to any revealed location with no enemies. If it is your turn, end your turn. Remove Cheat Death from the game."/>
+    <property name="Text" value="Fast. Play when you would be defeated.&#10;Disengage from each enemy engaged with you, discard all cards in your threat area, heal 2 horror and 2 damage, and move to any revealed location with no enemies. If it is your turn, end your turn. Remove Cheat Death from the game."/>
   </card>
   <card id="04325a25-67fd-4b21-bc24-524fd8ea3299" name="Time Warp">
     <property name="Card Number" value="311"/>
@@ -100,7 +100,7 @@
     <property name="Level" value="2"/>
     <property name="Cost" value="1"/>
     <property name="Traits" value="Spell. Paradox."/>
-    <property name="Text" value="Fast. Play immediately after an investigator at your location finishes resolving an action during his or her turn.Undo that action (return the game state to exactly the way it was before that action was performed, including that action’s cost)."/>
+    <property name="Text" value="Fast. Play immediately after an investigator at your location finishes resolving an action during his or her turn.&#10;Undo that action (return the game state to exactly the way it was before that action was performed, including that action’s cost)."/>
   </card>
   <card id="31137dab-c15f-444c-941a-b6227c89b970" name="Seal of the Elder Sign">
     <property name="Card Number" value="312"/>
@@ -123,7 +123,7 @@
     <property name="Skill Icons" value="έέ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item."/>
-    <property name="Text" value="You get +2 έ while investigating if you have no clues.ι When you would discover 1 or more clues at your location, if you have no clues: Discover an additional clue at your location."/>
+    <property name="Text" value="You get +2 έ while investigating if you have no clues.&#10;ι When you would discover 1 or more clues at your location, if you have no clues: Discover an additional clue at your location."/>
   </card>
   <card id="d22ff268-9026-4b8c-bf4c-df3cb6ed3605" name="Infighting">
     <property name="Card Number" value="314"/>
@@ -136,7 +136,7 @@
     <property name="Agility" value="2"/>
     <property name="Skill Icons" value="έέίί"/>
     <property name="Traits" value="Trick."/>
-    <property name="Text" value="Fast. Play after the enemy phase begins.Cancel all attacks made by non-Elite enemies against you this phase."/>
+    <property name="Text" value="Fast. Play after the enemy phase begins.&#10;Cancel all attacks made by non-Elite enemies against you this phase."/>
   </card>
   <card id="aeadfc53-16cd-4869-89eb-0f47908d7fe2" name="Key of Ys">
     <property name="Card Number" value="315"/>
@@ -152,7 +152,7 @@
     <property name="Skill Icons" value="ΰά"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Relic."/>
-    <property name="Text" value="You get +1 to each of your skills for each horror on Key of Ys.Forced – When any amount of horror would be placed on you: Place 1 of that horror on Key of Ys.Forced – When Key of Ys leaves play: Discard the top 10 cards of your deck."/>
+    <property name="Text" value="You get +1 to each of your skills for each horror on Key of Ys.&#10;Forced – When any amount of horror would be placed on you: Place 1 of that horror on Key of Ys.&#10;Forced – When Key of Ys leaves play: Discard the top 10 cards of your deck."/>
   </card>
   <card id="7b719e54-f67a-4246-b4be-a71576be036c" name="Dim Carcosa">
     <property name="Card Number" value="316"/>
@@ -160,11 +160,11 @@
     <property name="Encounter Set" value="Dim Carcosa"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;α: -2 (-4 instead if you have no sanity remaining).β: Reveal another token. If you fail, take 1 horror.γ: -3. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).δ: -3. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
+    <property name="Text" value="Easy / Standard&#10;α: -2 (-4 instead if you have no sanity remaining).&#10;β: Reveal another token. If you fail, take 1 horror.&#10;γ: -3. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).&#10;δ: -3. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
     <alternate name="Dim Carcosa" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value=" Hard / Expert &#10;α: -X. X is the amount of horror on you.β: Reveal another token. If you fail, take 2 horror.γ: -5. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).δ: -5. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
+      <property name="Text" value=" Hard / Expert &#10;α: -X. X is the amount of horror on you.&#10;β: Reveal another token. If you fail, take 2 horror.&#10;γ: -5. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).&#10;δ: -5. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
     </alternate>
   </card>
   <card id="58c35bbb-2bee-4931-a1e3-0d56ece7f152" name="Madness Coils" size="HorizCard">
@@ -177,7 +177,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <property name="Text" value="Hastur cannot be defeated.Forced – If there is at least 3π damage on Hastur: Advance this agenda."/>
+    <property name="Text" value="Hastur cannot be defeated.&#10;Forced – If there is at least 3π damage on Hastur: Advance this agenda."/>
     <alternate name="Key to the…?" size="HorizCard" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Type" value="Agenda"/>
@@ -185,7 +185,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="The investigators must decide (choose one):—Any investigator tests ά (4) to snap out of it. If successful, advance to agenda 2a. If failed, you must choose an option you have yet to choose.—Any investigator tests έ (4) to remember that you’ve done this before. If successful, advance to agenda 2a. If failed, you must choose an option you have yet to choose.—This can’t be real. This can’t be real. This can’t be real. Each investigator takes 2 horror. Advance to agenda 2a.—The investigators faint and awaken some time later. Advance to agenda 2a and place 1 doom on it."/>
+      <property name="Text" value="The investigators must decide (choose one):&#10;—Any investigator tests ά (4) to snap out of it. If successful, advance to agenda 2a. If failed, you must choose an option you have yet to choose.&#10;—Any investigator tests έ (4) to remember that you’ve done this before. If successful, advance to agenda 2a. If failed, you must choose an option you have yet to choose.&#10;—This can’t be real. This can’t be real. This can’t be real. Each investigator takes 2 horror. Advance to agenda 2a.&#10;—The investigators faint and awaken some time later. Advance to agenda 2a and place 1 doom on it."/>
     </alternate>
   </card>
   <card id="f5fa0bb2-ca31-49a6-9582-bb5eda16b49c" name="Madness Drowns" size="HorizCard">
@@ -198,7 +198,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <property name="Text" value="Hastur gets +1 fight and cannot be defeated.Forced – If there is at least 5π damage on Hastur: Advance this agenda."/>
+    <property name="Text" value="Hastur gets +1 fight and cannot be defeated.&#10;Forced – If there is at least 5π damage on Hastur: Advance this agenda."/>
     <alternate name="The Final Guest…?" size="HorizCard" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Type" value="Agenda"/>
@@ -206,7 +206,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy at the Palace of the King.Shuffle the encounter discard pile into the encounter deck."/>
+      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy at the Palace of the King.&#10;Shuffle the encounter discard pile into the encounter deck."/>
     </alternate>
   </card>
   <card id="6464280b-9716-4e4e-a239-dd3b13ebd63b" name="Madness Dies" size="HorizCard">
@@ -219,7 +219,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="9"/>
-    <property name="Text" value="Hastur gets +2 fight.Hastur cannot be defeated unless you “know the secret.”"/>
+    <property name="Text" value="Hastur gets +2 fight.&#10;Hastur cannot be defeated unless you “know the secret.”"/>
     <alternate name="Earth and Carcosa" size="HorizCard" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Type" value="Agenda"/>
@@ -227,7 +227,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Check Campaign Log.—If you have more (or equal) Conviction than Doubt, proceed to (->R4).—If you have more Doubt than Conviction, proceed to (->R5)."/>
+      <property name="Text" value="Check Campaign Log.&#10;—If you have more (or equal) Conviction than Doubt, proceed to (->R4).&#10;—If you have more Doubt than Conviction, proceed to (->R5)."/>
     </alternate>
   </card>
   <card id="08e81b42-7a27-47f5-8b47-5291d913d12f" name="In Lost Carcosa" size="HorizCard">
@@ -261,7 +261,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Each investigator cannot discover clues.The Man in the Pallid Mask cannot be defeated.Objective – While the lead investigator is at The Man in the Pallid Mask’s location, he or she may spend ηηη to advance."/>
+    <property name="Text" value="Each investigator cannot discover clues.&#10;The Man in the Pallid Mask cannot be defeated.&#10;Objective – While the lead investigator is at The Man in the Pallid Mask’s location, he or she may spend ηηη to advance."/>
     <alternate name="The Palid Mask" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Subtitle" value="Chasing Tails"/>
@@ -273,7 +273,7 @@
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Item. Relic."/>
-      <property name="Text" value="Revelation – Put The Pallid Mask into play, under the lead investigator’s control. Remove The Man in the Pallid Mask from the game. Spawn the set-aside Hastur (Lord of Carcosa) enemy at the Palace of the King.The Pallid Mask cannot leave play.You get –2 sanity."/>
+      <property name="Text" value="Revelation – Put The Pallid Mask into play, under the lead investigator’s control. Remove The Man in the Pallid Mask from the game. Spawn the set-aside Hastur (Lord of Carcosa) enemy at the Palace of the King.&#10;The Pallid Mask cannot leave play.&#10;You get –2 sanity."/>
     </alternate>
   </card>
   <card id="119b94f1-7553-47b8-8a32-b565fd818cc1" name="Search For the Stranger (v.II)" size="HorizCard">
@@ -286,7 +286,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Each investigator cannot discover clues.The Man in the Pallid Mask cannot be defeated except by his η ability.Objective – When The Man in the Pallid Mask would be defeated by his η ability, advance."/>
+    <property name="Text" value="Each investigator cannot discover clues.&#10;The Man in the Pallid Mask cannot be defeated except by his η ability.&#10;Objective – When The Man in the Pallid Mask would be defeated by his η ability, advance."/>
     <alternate name="Figment of Your Imagination" size="HorizCard" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Type" value="Act"/>
@@ -307,7 +307,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Each investigator cannot discover clues.The Man in the Pallid Mask cannot be defeated except by damage.Objective – When The Man in the Pallid Mask would be defeated by damage, advance."/>
+    <property name="Text" value="Each investigator cannot discover clues.&#10;The Man in the Pallid Mask cannot be defeated except by damage.&#10;Objective – When The Man in the Pallid Mask would be defeated by damage, advance."/>
     <alternate name="The Disguise is Laid Aside" size="HorizCard" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Type" value="Act"/>
@@ -328,7 +328,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="θ If there are no clues on your location: Remove each investigator’s clues from the game. Flip your location over and resolve the text on the other side.Objective – If Hastur is defeated, advance."/>
+    <property name="Text" value="θ If there are no clues on your location: Remove each investigator’s clues from the game. Flip your location over and resolve the text on the other side.&#10;Objective – If Hastur is defeated, advance."/>
     <alternate name="Fin" size="HorizCard" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Type" value="Act"/>
@@ -336,7 +336,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="—If Hastur (The Tattered King) was the version of Hastur that was defeated, proceed to (->R1).—If Hastur (The King in Yellow) was the version of Hastur that was defeated, proceed to (->R2).—If Hastur (Lord of Carcosa) was the version of Hastur that was defeated, proceed to (->R3)."/>
+      <property name="Text" value="—If Hastur (The Tattered King) was the version of Hastur that was defeated, proceed to (->R1).&#10;—If Hastur (The King in Yellow) was the version of Hastur that was defeated, proceed to (->R2).&#10;—If Hastur (Lord of Carcosa) was the version of Hastur that was defeated, proceed to (->R3)."/>
     </alternate>
   </card>
   <card id="e9a2a67a-4d57-447c-9538-7785e962a90f" name="Shores of Hali" size="EncounterCard">
@@ -355,7 +355,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Deal 1π damage to Hastur, exhaust him, and disengage him from all investigators.Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+      <property name="Text" value="Deal 1π damage to Hastur, exhaust him, and disengage him from all investigators.&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
     </alternate>
   </card>
   <card id="d225829b-d858-49d1-ad39-4edee7e61b0f" name="Bleak Plains" size="EncounterCard">
@@ -375,7 +375,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Each investigator heals 3 horror. Deal 4 damage to an enemy in play other than Hastur.Remove this card from the game, and replace it with another set-aside copy of Bleak Plains (move all investigators, enemies, and attachments from this location to the new copy of Bleak Plains). Add clues to that copy of Bleak Plains until it has clues on it equal to its clue value."/>
+      <property name="Text" value="Each investigator heals 3 horror. Deal 4 damage to an enemy in play other than Hastur.&#10;Remove this card from the game, and replace it with another set-aside copy of Bleak Plains (move all investigators, enemies, and attachments from this location to the new copy of Bleak Plains). Add clues to that copy of Bleak Plains until it has clues on it equal to its clue value."/>
     </alternate>
   </card>
   <card id="a0af22ff-e118-41f9-a5bf-f9493755d14f" name="Bleak Plains" size="EncounterCard">
@@ -415,7 +415,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Each investigator heals 3 horror.Remove this card from the game, and replace it with another set-aside copy of Ruins of Carcosa (move all investigators, enemies, and attachments from this location to the new copy of Ruins of Carcosa). Add clues to that copy of Ruins of Carcosa until it has clues on it equal to its clue value."/>
+      <property name="Text" value="Each investigator heals 3 horror.&#10;Remove this card from the game, and replace it with another set-aside copy of Ruins of Carcosa (move all investigators, enemies, and attachments from this location to the new copy of Ruins of Carcosa). Add clues to that copy of Ruins of Carcosa until it has clues on it equal to its clue value."/>
     </alternate>
   </card>
   <card id="ebede632-9521-44c9-b64c-8dedb41a5414" name="Ruins of Carcosa" size="EncounterCard">
@@ -435,7 +435,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="You must decide (choose one):–Choose an enemy in play. Exhaust that enemy and disengage it from all investigators.–You heal 5 horror.Remove this card from the game, and replace it with another set-aside copy of Ruins of Carcosa (move all investigators, enemies, and attachments from this location to the new copy of Ruins of Carcosa). Add clues to that copy of Ruins of Carcosa until it has clues on it equal to its clue value."/>
+      <property name="Text" value="You must decide (choose one):&#10;–Choose an enemy in play. Exhaust that enemy and disengage it from all investigators.&#10;–You heal 5 horror.&#10;Remove this card from the game, and replace it with another set-aside copy of Ruins of Carcosa (move all investigators, enemies, and attachments from this location to the new copy of Ruins of Carcosa). Add clues to that copy of Ruins of Carcosa until it has clues on it equal to its clue value."/>
     </alternate>
   </card>
   <card id="49a3d268-c572-4963-a8f1-d0a665c49b89" name="Ruins of Carcosa" size="EncounterCard">
@@ -455,7 +455,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Deal 1π damage to Hastur.Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+      <property name="Text" value="Deal 1π damage to Hastur.&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
     </alternate>
   </card>
   <card id="1bd30775-a3de-4d8a-9374-7c7b1d50459c" name="Dim Streets" size="EncounterCard">
@@ -475,7 +475,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Test έ (3). For each point you fail by, take 1 horror. Deal 1π damage to Hastur regardless of whether you succeed or fail.After this test ends, flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+      <property name="Text" value="Test έ (3). For each point you fail by, take 1 horror. Deal 1π damage to Hastur regardless of whether you succeed or fail.&#10;After this test ends, flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
     </alternate>
   </card>
   <card id="9a9cc346-380e-4106-8ea0-e9a78bd828ee" name="Dim Streets" size="EncounterCard">
@@ -495,7 +495,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Test ή (2). If you succeed, exhaust Hastur and disengage him from all investigators.Remove this card from the game, and replace it with another set-aside copy of Dim Streets (move all investigators, enemies, and attachments from this location to the new copy of Dim Streets). Add clues to that copy of Dim Streets until it has clues on it equal to its clue value."/>
+      <property name="Text" value="Test ή (2). If you succeed, exhaust Hastur and disengage him from all investigators.&#10;Remove this card from the game, and replace it with another set-aside copy of Dim Streets (move all investigators, enemies, and attachments from this location to the new copy of Dim Streets). Add clues to that copy of Dim Streets until it has clues on it equal to its clue value."/>
     </alternate>
   </card>
   <card id="de4efd3d-75d9-41a1-be37-33eb4ef52d8b" name="Dim Streets" size="EncounterCard">
@@ -515,7 +515,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Test ά (1). For each point you succeed by, heal 1 horror.Remove this card from the game, and replace it with another set-aside copy of Dim Streets (move all investigators, enemies, and attachments from this location to the new copy of Dim Streets). Add clues to that copy of Dim Streets until it has clues on it equal to its clue value."/>
+      <property name="Text" value="Test ά (1). For each point you succeed by, heal 1 horror.&#10;Remove this card from the game, and replace it with another set-aside copy of Dim Streets (move all investigators, enemies, and attachments from this location to the new copy of Dim Streets). Add clues to that copy of Dim Streets until it has clues on it equal to its clue value."/>
     </alternate>
   </card>
   <card id="41e166ff-654e-449f-98e9-95108ba016ea" name="Depths of Demhe" size="EncounterCard">
@@ -535,7 +535,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Each investigator heals 5 horror.Remove this card from the game, and replace it with another set-aside copy of Depths of Demhe (move all investigators, enemies, and attachments from this location to the new copy of Depths of Demhe). Add clues to that copy of Depths of Demhe until it has clues on it equal to its clue value."/>
+      <property name="Text" value="Each investigator heals 5 horror.&#10;Remove this card from the game, and replace it with another set-aside copy of Depths of Demhe (move all investigators, enemies, and attachments from this location to the new copy of Depths of Demhe). Add clues to that copy of Depths of Demhe until it has clues on it equal to its clue value."/>
     </alternate>
   </card>
   <card id="efc219c5-b3d7-4158-82d3-b6a6e2f24799" name="Depths of Demhe" size="EncounterCard">
@@ -555,7 +555,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Deal 1π damage to Hastur, exhaust him, and disengage him from all investigators.Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+      <property name="Text" value="Deal 1π damage to Hastur, exhaust him, and disengage him from all investigators.&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
     </alternate>
   </card>
   <card id="1d60614c-5984-4025-ab89-2b5f4a2ff0a2" name="Dark Spires" size="EncounterCard">
@@ -574,7 +574,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="You must decide (choose one):– You cannot bring yourself to do what must be done. Flip this card back over.– Realizing what you must do, you step forward and push her. Take 2 horror and deal 2π damage to Hastur. Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+      <property name="Text" value="You must decide (choose one):&#10;– You cannot bring yourself to do what must be done. Flip this card back over.&#10;– Realizing what you must do, you step forward and push her. Take 2 horror and deal 2π damage to Hastur. Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
     </alternate>
   </card>
   <card id="2c6dc0ba-9ab5-4697-8415-60c438b4a5a2" name="Palace of the King" size="EncounterCard">
@@ -594,7 +594,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Remember that you “know the secret.”Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+      <property name="Text" value="Remember that you “know the secret.”&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
     </alternate>
   </card>
   <card id="c2628010-0e80-40a9-8490-647b32f48333" name="Hastur" size="EncounterCard">
@@ -610,7 +610,7 @@
     <property name="Health" value="7π"/>
     <property name="Horror" value="2"/>
     <property name="Traits" value="Ancient One. Elite."/>
-    <property name="Text" value="Cannot be damaged except by story card effects.Forced – At the beginning of the enemy phase, if Hastur is ready: Hastur attacks each investigator, in player order (regardless of their location). If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.η: Test ά (X), where X is Hastur’s fight value. If you succeed, exhaust Hastur. Any investigator may trigger this action."/>
+    <property name="Text" value="Cannot be damaged except by story card effects.&#10;Forced – At the beginning of the enemy phase, if Hastur is ready: Hastur attacks each investigator, in player order (regardless of their location). If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.&#10;η: Test ά (X), where X is Hastur’s fight value. If you succeed, exhaust Hastur. Any investigator may trigger this action."/>
   </card>
   <card id="27abf289-ee16-4d4e-8e90-1684f9983016" name="Hastur" size="EncounterCard">
     <property name="Card Number" value="333"/>
@@ -625,8 +625,8 @@
     <property name="Health" value="9π"/>
     <property name="Horror" value="2"/>
     <property name="Traits" value="Ancient One. Elite."/>
-    <property name="Keywords" value="Prey – Most remaining sanity.Hunter. Massive."/>
-    <property name="Text" value="If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.While Hastur is being attacked or evaded by an investigator with no remaining sanity, treat each ε, “+1,” “0,” or “–1” token that investigator reveals as a ζ token."/>
+    <property name="Keywords" value="Prey – Most remaining sanity.&#10;Hunter. Massive."/>
+    <property name="Text" value="If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.&#10;While Hastur is being attacked or evaded by an investigator with no remaining sanity, treat each ε, “+1,” “0,” or “–1” token that investigator reveals as a ζ token."/>
   </card>
   <card id="ae36c6af-dc75-4238-821f-6b2969b9aa74" name="Hastur" size="EncounterCard">
     <property name="Card Number" value="334"/>
@@ -641,8 +641,8 @@
     <property name="Health" value="8π"/>
     <property name="Horror" value="4"/>
     <property name="Traits" value="Ancient One. Elite."/>
-    <property name="Keywords" value="Prey – Most remaining sanity.Hunter."/>
-    <property name="Text" value="If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.While Hastur is being attacked or evaded by an investigator with no remaining sanity, treat each ε, “+1,” “0,” or “–1” token that investigator reveals as a ζ token."/>
+    <property name="Keywords" value="Prey – Most remaining sanity.&#10;Hunter."/>
+    <property name="Text" value="If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.&#10;While Hastur is being attacked or evaded by an investigator with no remaining sanity, treat each ε, “+1,” “0,” or “–1” token that investigator reveals as a ζ token."/>
   </card>
   <card id="d846c215-d9e8-4c36-8ba4-1146bdf2975b" name="Creature Out of Demhe" size="EncounterCard">
     <property name="Card Number" value="335"/>
@@ -656,7 +656,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Monster."/>
-    <property name="Keywords" value="Spawn - Depths of Demhe.Massive."/>
+    <property name="Keywords" value="Spawn - Depths of Demhe.&#10;Massive."/>
     <property name="Text" value="Forced – When Creature out of Demhe’s location or a connecting location is flipped over, if Creature out of Demhe is ready: It attacks each investigator at that location."/>
   </card>
   <card id="a3b192f5-6ab7-4abf-9d67-6ceae3c98ea3" name="Winged One" size="EncounterCard">
@@ -671,7 +671,7 @@
     <property name="Damage" value="3"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Monster. Byakhee."/>
-    <property name="Keywords" value="Spawn - Bleak Plains.Retaliate."/>
+    <property name="Keywords" value="Spawn - Bleak Plains.&#10;Retaliate."/>
     <property name="Text" value="Forced – After a location is flipped over, if Winged One is ready and unengaged: Move it once toward that location."/>
   </card>
   <card id="728cadf7-43a2-4bdb-9da1-d9e0b10ad5da" name="Dismal Curse" size="EncounterCard">
@@ -710,7 +710,7 @@
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex. Terror."/>
     <property name="Keywords" value="Peril. Hidden."/>
-    <property name="Text" value="Revelation – Secretly add Possession (Traitorous) to your hand.If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.You may commit this card to a skill test at your location. That test automatically fails."/>
+    <property name="Text" value="Revelation – Secretly add Possession (Traitorous) to your hand.&#10;If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.&#10;You may commit this card to a skill test at your location. That test automatically fails."/>
   </card>
   <card id="9aadb360-7370-4d0f-9436-f554afcdeeff" name="Possession (Torturous)" size="EncounterCard">
     <property name="Card Number" value="341"/>
@@ -720,7 +720,7 @@
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex. Terror."/>
     <property name="Keywords" value="Peril. Hidden."/>
-    <property name="Text" value="Revelation – Secretly add Possession (Torturous) to your hand.If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.η Spend 5 resources: Discard Possession (Torturous) from your hand."/>
+    <property name="Text" value="Revelation – Secretly add Possession (Torturous) to your hand.&#10;If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.&#10;η Spend 5 resources: Discard Possession (Torturous) from your hand."/>
   </card>
   <card id="883e170b-f28f-48ca-a745-94bd400150aa" name="Possession (Murderous)" size="EncounterCard">
     <property name="Card Number" value="342"/>
@@ -730,7 +730,7 @@
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex. Terror."/>
     <property name="Keywords" value="Peril. Hidden."/>
-    <property name="Text" value="Revelation – Secretly add Possession (Murderous) to your hand.If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.η Deal 2 damage to an investigator at your location: Discard Possession (Murderous) from your hand."/>
+    <property name="Text" value="Revelation – Secretly add Possession (Murderous) to your hand.&#10;If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.&#10;η Deal 2 damage to an investigator at your location: Discard Possession (Murderous) from your hand."/>
   </card>
  </cards>
 </set>
