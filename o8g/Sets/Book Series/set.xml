@@ -170,5 +170,115 @@
     <property name="Traits" value="Monster. Extradimensional. Tindalos."/>
     <property name="Text" value="Norman Withers deck only. Replacement.&#10;Prey - Norman Withers only.&#10;While Vengeful Hounds is engaged with you, you cannot draw or reveal cards via player card effects."/>
   </card>
+  <card id="866718ad-f919-4239-8bb0-fd12eae28aed" name="Carolyn Fern" size="InvestigatorCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Psychologist"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Willpower" value="3"/>
+    <property name="Intellect" value="4"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="6"/>
+    <property name="Sanity" value="9"/>
+    <property name="Traits" value="Medic."/>
+    <property name="Text" value="ι After one of you card effects heals horror from an investigator or Ally asset: The healed card's controller gains 1 resource.ε effect: +1. You may heal 1 horror from an investigator or Ally asset at your location."/>
+    <alternate name="Carolyn Fern" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Psychologist"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Guardian"/>
+      <property name="Traits" value="Medic."/>
+      <property name="Text" value="Deck Size: 30.Deckbuilding Options: Guardian Cards level 0-3, Neutral Cards level 0-5, cards that &quot;heal horror&quot; level 0-5, up to 15 Seeker and/or Mystic cards level 0-1.Deckbuilding Requirements (do not count toward deck size): Hypnotic Therapy, Rational Thought, 1 random basic weakness.Additional Restrictions: No Weapon cards level 1-5."/>
+    </alternate>
+  </card>
+  <card id="db2f10c2-1167-4107-b53a-95047d4683c2" name="Carolyn Fern" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Guardian"/>
+    <alternate name="Carolyn Fern" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="b5e46c95-6a0f-4409-a0b7-4f4b02dc754f" name="Foolishness">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Foolish Cat of Ulthar"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="4"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="4"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Creature. Dreamlands."/>
+    <property name="Text" value="Carolyn Fern deck only. Replacement.Foolishness enters play with 3 horror on him. Horror on him may be healed as if it were on Carolyn Fern. While Foolishness has no horror on him, you get +1 to all skills."/>
+  </card>
+  <card id="90bae4d6-e012-4a80-9a98-8d85211efb13" name="To Fight the Black Wind">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Task. Dreamlands."/>
+    <property name="Text" value="Carolyn Fern deck only. Replacement.Revelation - Attach To Fight the Black Wind to the current agenda. Carolyn Fern takes 1 direct horror.Forced - At the end of the round, if any amount of horror was assigned to an investigator this round and it was not healed: Place 1 doom on attached agenda."/>
+  </card>
+  <card id="d1a85eac-aaae-4267-9608-91588834ae68" name="Silas Marsh" size="InvestigatorCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Sailor"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Willpower" value="2"/>
+    <property name="Intellect" value="2"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="9"/>
+    <property name="Sanity" value="5"/>
+    <property name="Traits" value="Drifter."/>
+    <property name="Text" value="ι After you reveal a chaos token during a skill test you are performing: Return a skill you committed to this test to your hand. (Limit once per round.).ε effect: +0. You may commit a skill from your discard pile to this test. After this test ends, return that skill to your hand instead of discarding it."/>
+    <alternate name="Silas Marsh" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Sailor"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Survivor"/>
+      <property name="Traits" value="Drifter."/>
+      <property name="Text" value="Deck Size: 30.Deckbuilding Options: Survivor Cards level 0-5, Neutral Cards Level 0-5, Innate skills level 0-2.Deckbuilding Requirements (do not count toward deck size): Sea Charge Harpoon, Silas's Net, Siren Call, 1 random Basic Weakness."/>
+    </alternate>
+  </card>
+  <card id="988e98b0-78c3-47ac-bebd-361b8b535bde" name="Silas Marsh" size="MiniCard">
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Survivor"/>
+    <alternate name="Silas Marsh" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="8aa0affa-91ab-497d-97fb-1f1407e6a30b" name="Nautical Prowess">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έάΰ"/>
+    <property name="Traits" value="Innate. Developed."/>
+    <property name="Text" value="Silas Marsh deck only. Replacement.If a chaos token with a negative modifier is revealed during this test, either draw 1 card or Nautical Prowess gains ΰΰ"/>
+  </card>
+  <card id="32cc7955-1b67-4ab4-9c5b-b2ffa80257e0" name="Dreams of the Deep">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Deep Gate"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Traits" value="Curse."/>
+    <property name="Text" value="Silas Marsh deck only. Replacement.This skill's icons subtract from your skill value instead of adding to it.If this skill test fails, return this skill to your hand.Forced - If Dreams of the Deep is in your hand at the end of your turn: Reveal it and take 2 damage."/>
+  </card>
  </cards>
 </set>
