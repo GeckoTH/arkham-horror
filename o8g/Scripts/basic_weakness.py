@@ -25,6 +25,10 @@ class BasicWeakness:
             "6c7f104b-f07c-423e-b221-5218affead2b",
             "d73c20b0-f661-4d33-a932-9db730708916", # Drawing the Sign
             "74c2e15a-6d3b-42d1-8c07-e9330d50bc43", # The Thing That Follows
+        ],
+        "the_forgotten_age": [
+            "d2a6e29c-05d8-44d1-8359-87eee3f68597", # Dark Pact
+            "14254816-3365-4c12-bb9f-02ba35920333", # Doomed
         ]
     }
     PILE_NAME = 'Basic Weaknesses'
