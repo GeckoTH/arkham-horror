@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Dim Carcosa" id="d0cd3353-990c-4549-957b-d1642fc3a71b" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="fddf5708-0c3c-4ccd-8b0a-5e4f8dc2bba5" name="&quot;Eat lead!&quot;">
+    <property name="Card Number" value="304"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="0"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ήί"/>
+    <property name="Traits" value="Tactic."/>
+    <property name="Text" value="Fast. Play when you activate the Fight ability on a Firearm asset.&#10;You may spend X additional ammo tokens from that asset. When you reveal chaos tokens for this attack, reveal X additional tokens. Choose one to resolve and ignore the rest."/>
+  </card>
+  <card id="cb0f6bfa-a39a-4fb6-ac2b-697d278503e2" name="Armor of Ardennes">
+    <property name="Card Number" value="305"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="2"/>
+    <property name="Combat" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Skill Icons" value="άάήή"/>
+    <property name="Slot" value="Body"/>
+    <property name="Traits" value="Item. Armor. Relic."/>
+    <property name="Text" value="ι When damage is assigned to Armor of Ardennes, exhaust Armor of Ardennes: Cancel 1 of that damage."/>
+  </card>
+  <card id="a0e10bb8-eb66-4453-8383-e03bc498ad40" name="Eidetic Memory">
+    <property name="Card Number" value="306"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="-"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="έί"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Play Eidetic Memory as an exact copy of an Insight event in any investigator's discard pile (including its resource cost). Remove that event from the game. Remove Eidetic Memory from the game instead of discarding it."/>
+  </card>
+  <card id="a04ad572-d992-47ce-bc9e-59b78fdabda5" name="No Stone Unturned">
+    <property name="Card Number" value="307"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="ΰέ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Fast. Play during any θ player window.&#10;Choose an investigator at your location. That investigator searches his or her deck for a card, draws it, and shuffles his or her deck."/>
+  </card>
+  <card id="39a8396b-dbf5-4de9-a6b9-36ba55c85062" name="Charon's Obol">
+    <property name="Card Number" value="308"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="The Ferryman's Pay"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="-"/>
+    <property name="Traits" value="Item. Relic."/>
+    <property name="Keywords" value="Permanent. Exceptional."/>
+    <property name="Text" value="When earning experience during the resolution of a scenario, if you were not defeated during that scenario, you earn 2 additional experience. If you were defeated during that scenario, you are killed."/>
+  </card>
+  <card id="d37eab40-1b08-4dde-8990-74c5b083d560" name="Lupara">
+    <property name="Card Number" value="309"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="3"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ή"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
+    <property name="Keywords" value="Uses (2 ammo)."/>
+    <property name="Text" value="Playing Lupara does not provoke attacks of opportunity.&#10;η Spend 1 ammo: Fight. You get +1 ή and deal +1 damage for this attack. If Lupara entered play this turn, you get and additional +1 ή and deal an additional +1 damage for this attack."/>
+  </card>
+  <card id="43944ccf-7640-4571-9513-e41bb08863c0" name="Cheat Death">
+    <property name="Card Number" value="310"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Trick. Fated."/>
+    <property name="Text" value="Fast. Play when you would be defeated.&#10;Disengage from each enemy engaged with you, discard all cards in your threat area, heal 2 horror and 2 damage, and move to any revealed location with no enemies. If it is your turn, end your turn. Remove Cheat Death from the game."/>
+  </card>
+  <card id="04325a25-67fd-4b21-bc24-524fd8ea3299" name="Time Warp">
+    <property name="Card Number" value="311"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="1"/>
+    <property name="Traits" value="Spell. Paradox."/>
+    <property name="Text" value="Fast. Play immediately after an investigator at your location finishes resolving an action during his or her turn.&#10;Undo that action (return the game state to exactly the way it was before that action was performed, including that action’s cost)."/>
+  </card>
+  <card id="31137dab-c15f-444c-941a-b6227c89b970" name="Seal of the Elder Sign">
+    <property name="Card Number" value="312"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="5"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Spell. Expert."/>
+    <property name="Text" value="Do not reveal chaos tokens from the chaos bag for this test. Treat the chaos token revealed for this test as an ε. When this test ends, remove Seal of the Elder Sign from the game."/>
+  </card>
+  <card id="625d7afc-6fd1-4a24-aed2-44c94485dc58" name="Newspaper">
+    <property name="Card Number" value="313"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="You get +2 έ while investigating if you have no clues.&#10;ι When you would discover 1 or more clues at your location, if you have no clues: Discover an additional clue at your location."/>
+  </card>
+  <card id="d22ff268-9026-4b8c-bf4c-df3cb6ed3605" name="Infighting">
+    <property name="Card Number" value="314"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Skill Icons" value="έέίί"/>
+    <property name="Traits" value="Trick."/>
+    <property name="Text" value="Fast. Play after the enemy phase begins.&#10;Cancel all attacks made by non-Elite enemies against you this phase."/>
+  </card>
+  <card id="aeadfc53-16cd-4869-89eb-0f47908d7fe2" name="Key of Ys">
+    <property name="Card Number" value="315"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Let the Storm Rage"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Sanity" value="4"/>
+    <property name="Skill Icons" value="ΰά"/>
+    <property name="Slot" value="Accessory"/>
+    <property name="Traits" value="Item. Relic."/>
+    <property name="Text" value="You get +1 to each of your skills for each horror on Key of Ys.&#10;Forced – When any amount of horror would be placed on you: Place 1 of that horror on Key of Ys.&#10;Forced – When Key of Ys leaves play: Discard the top 10 cards of your deck."/>
+  </card>
+  <card id="7b719e54-f67a-4246-b4be-a71576be036c" name="Dim Carcosa">
+    <property name="Card Number" value="316"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Easy / Standard&#10;α: -2 (-4 instead if you have no sanity remaining).&#10;β: Reveal another token. If you fail, take 1 horror.&#10;γ: -3. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).&#10;δ: -3. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
+    <alternate name="Dim Carcosa" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Text" value=" Hard / Expert &#10;α: -X. X is the amount of horror on you.&#10;β: Reveal another token. If you fail, take 2 horror.&#10;γ: -5. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).&#10;δ: -5. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
+    </alternate>
+  </card>
+  <card id="58c35bbb-2bee-4931-a1e3-0d56ece7f152" name="Madness Coils" size="HorizCard">
+    <property name="Card Number" value="317"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Hastur cannot be defeated.&#10;Forced – If there is at least 3π damage on Hastur: Advance this agenda."/>
+    <alternate name="Key to the…?" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The investigators must decide (choose one):&#10;—Any investigator tests ά (4) to snap out of it. If successful, advance to agenda 2a. If failed, you must choose an option you have yet to choose.&#10;—Any investigator tests έ (4) to remember that you’ve done this before. If successful, advance to agenda 2a. If failed, you must choose an option you have yet to choose.&#10;—This can’t be real. This can’t be real. This can’t be real. Each investigator takes 2 horror. Advance to agenda 2a.&#10;—The investigators faint and awaken some time later. Advance to agenda 2a and place 1 doom on it."/>
+    </alternate>
+  </card>
+  <card id="f5fa0bb2-ca31-49a6-9582-bb5eda16b49c" name="Madness Drowns" size="HorizCard">
+    <property name="Card Number" value="318"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Hastur gets +1 fight and cannot be defeated.&#10;Forced – If there is at least 5π damage on Hastur: Advance this agenda."/>
+    <alternate name="The Final Guest…?" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy at the Palace of the King.&#10;Shuffle the encounter discard pile into the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="6464280b-9716-4e4e-a239-dd3b13ebd63b" name="Madness Dies" size="HorizCard">
+    <property name="Card Number" value="319"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="9"/>
+    <property name="Text" value="Hastur gets +2 fight.&#10;Hastur cannot be defeated unless you “know the secret.”"/>
+    <alternate name="Earth and Carcosa" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Check Campaign Log.&#10;—If you have more (or equal) Conviction than Doubt, proceed to (->R4).&#10;—If you have more Doubt than Conviction, proceed to (->R5)."/>
+    </alternate>
+  </card>
+  <card id="08e81b42-7a27-47f5-8b47-5291d913d12f" name="In Lost Carcosa" size="HorizCard">
+    <property name="Card Number" value="320"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2π "/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance."/>
+    <alternate name="His Final Bow…?" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Spawn the set-aside The Man in the Pallid Mask enemy at the Palace of the King."/>
+    </alternate>
+  </card>
+  <card id="fe0630df-63cd-4a6b-8cd4-dc98474511d5" name="Search For the Stranger (v.I)" size="HorizCard">
+    <property name="Card Number" value="321"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Each investigator cannot discover clues.&#10;The Man in the Pallid Mask cannot be defeated.&#10;Objective – While the lead investigator is at The Man in the Pallid Mask’s location, he or she may spend ηηη to advance."/>
+    <alternate name="The Palid Mask" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Subtitle" value="Chasing Tails"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Asset"/>
+      <property name="Class" value="Neutral"/>
+      <property name="Cost" value="0"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Item. Relic."/>
+      <property name="Text" value="Revelation – Put The Pallid Mask into play, under the lead investigator’s control. Remove The Man in the Pallid Mask from the game. Spawn the set-aside Hastur (Lord of Carcosa) enemy at the Palace of the King.&#10;The Pallid Mask cannot leave play.&#10;You get –2 sanity."/>
+    </alternate>
+  </card>
+  <card id="119b94f1-7553-47b8-8a32-b565fd818cc1" name="Search For the Stranger (v.II)" size="HorizCard">
+    <property name="Card Number" value="322"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Each investigator cannot discover clues.&#10;The Man in the Pallid Mask cannot be defeated except by his η ability.&#10;Objective – When The Man in the Pallid Mask would be defeated by his η ability, advance."/>
+    <alternate name="Figment of Your Imagination" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Put the set-aside Hastur (The King in Yellow) enemy into play next to the act deck. For the remainder of the scenario, Hastur is considered to be in play but is not at any location. Remove The Man in the Pallid Mask from the game."/>
+    </alternate>
+  </card>
+  <card id="a1f3e489-d0f3-4250-8579-e01c1a15640a" name="Search For the Stranger (v.III)" size="HorizCard">
+    <property name="Card Number" value="323"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Each investigator cannot discover clues.&#10;The Man in the Pallid Mask cannot be defeated except by damage.&#10;Objective – When The Man in the Pallid Mask would be defeated by damage, advance."/>
+    <alternate name="The Disguise is Laid Aside" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Spawn the set-aside Hastur (Lord of Carcosa) enemy at The Man in the Pallid Mask’s location. Remove The Man in the Pallid Mask from the game."/>
+    </alternate>
+  </card>
+  <card id="97f3f853-20a4-407c-b684-808d761480f2" name="The King in Tatters" size="HorizCard">
+    <property name="Card Number" value="324"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="θ If there are no clues on your location: Remove each investigator’s clues from the game. Flip your location over and resolve the text on the other side.&#10;Objective – If Hastur is defeated, advance."/>
+    <alternate name="Fin" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Act"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="—If Hastur (The Tattered King) was the version of Hastur that was defeated, proceed to (->R1).&#10;—If Hastur (The King in Yellow) was the version of Hastur that was defeated, proceed to (->R2).&#10;—If Hastur (Lord of Carcosa) was the version of Hastur that was defeated, proceed to (->R3)."/>
+    </alternate>
+  </card>
+  <card id="e9a2a67a-4d57-447c-9538-7785e962a90f" name="Shores of Hali" size="EncounterCard">
+    <property name="Card Number" value="325"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="2π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <alternate name="Songs That the Hyades Shall Sing" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Deal 1π damage to Hastur, exhaust him, and disengage him from all investigators.&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+    </alternate>
+  </card>
+  <card id="d225829b-d858-49d1-ad39-4edee7e61b0f" name="Bleak Plains" size="EncounterCard">
+    <property name="Card Number" value="326"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="While you are at Bleak Plains, you cannot play Ally assets."/>
+    <alternate name="Stars of Aldebaran" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator heals 3 horror. Deal 4 damage to an enemy in play other than Hastur.&#10;Remove this card from the game, and replace it with another set-aside copy of Bleak Plains (move all investigators, enemies, and attachments from this location to the new copy of Bleak Plains). Add clues to that copy of Bleak Plains until it has clues on it equal to its clue value."/>
+    </alternate>
+  </card>
+  <card id="a0af22ff-e118-41f9-a5bf-f9493755d14f" name="Bleak Plains" size="EncounterCard">
+    <property name="Card Number" value="326"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="While you are at Bleak Plains, you cannot play Ally assets."/>
+    <alternate name="Bleak Desolation" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Deal 2π damage to Hastur.Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+    </alternate>
+  </card>
+  <card id="a2cb48ff-ca76-4254-92a4-f17711b30877" name="Ruins of Carcosa" size="EncounterCard">
+    <property name="Card Number" value="327"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="Forced - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage."/>
+    <alternate name="Inhabitant of Carcosa" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator heals 3 horror.&#10;Remove this card from the game, and replace it with another set-aside copy of Ruins of Carcosa (move all investigators, enemies, and attachments from this location to the new copy of Ruins of Carcosa). Add clues to that copy of Ruins of Carcosa until it has clues on it equal to its clue value."/>
+    </alternate>
+  </card>
+  <card id="ebede632-9521-44c9-b64c-8dedb41a5414" name="Ruins of Carcosa" size="EncounterCard">
+    <property name="Card Number" value="327"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="Forced - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage."/>
+    <alternate name="A Moment's Rest" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="You must decide (choose one):&#10;–Choose an enemy in play. Exhaust that enemy and disengage it from all investigators.&#10;–You heal 5 horror.&#10;Remove this card from the game, and replace it with another set-aside copy of Ruins of Carcosa (move all investigators, enemies, and attachments from this location to the new copy of Ruins of Carcosa). Add clues to that copy of Ruins of Carcosa until it has clues on it equal to its clue value."/>
+    </alternate>
+  </card>
+  <card id="49a3d268-c572-4963-a8f1-d0a665c49b89" name="Ruins of Carcosa" size="EncounterCard">
+    <property name="Card Number" value="327"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="Forced - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage."/>
+    <alternate name="The Coffin" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Deal 1π damage to Hastur.&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+    </alternate>
+  </card>
+  <card id="1bd30775-a3de-4d8a-9374-7c7b1d50459c" name="Dim Streets" size="EncounterCard">
+    <property name="Card Number" value="328"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="Forced - After you discover the last remaining clue on Dim Streets: Lose 1 action."/>
+    <alternate name="Mapping the Streets" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Test έ (3). For each point you fail by, take 1 horror. Deal 1π damage to Hastur regardless of whether you succeed or fail.&#10;After this test ends, flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+    </alternate>
+  </card>
+  <card id="9a9cc346-380e-4106-8ea0-e9a78bd828ee" name="Dim Streets" size="EncounterCard">
+    <property name="Card Number" value="328"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="Forced - After you discover the last remaining clue on Dim Streets: Lose 1 action."/>
+    <alternate name="The King's Parade" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Test ή (2). If you succeed, exhaust Hastur and disengage him from all investigators.&#10;Remove this card from the game, and replace it with another set-aside copy of Dim Streets (move all investigators, enemies, and attachments from this location to the new copy of Dim Streets). Add clues to that copy of Dim Streets until it has clues on it equal to its clue value."/>
+    </alternate>
+  </card>
+  <card id="de4efd3d-75d9-41a1-be37-33eb4ef52d8b" name="Dim Streets" size="EncounterCard">
+    <property name="Card Number" value="328"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="Forced - After you discover the last remaining clue on Dim Streets: Lose 1 action."/>
+    <alternate name="The Archway" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Test ά (1). For each point you succeed by, heal 1 horror.&#10;Remove this card from the game, and replace it with another set-aside copy of Dim Streets (move all investigators, enemies, and attachments from this location to the new copy of Dim Streets). Add clues to that copy of Dim Streets until it has clues on it equal to its clue value."/>
+    </alternate>
+  </card>
+  <card id="41e166ff-654e-449f-98e9-95108ba016ea" name="Depths of Demhe" size="EncounterCard">
+    <property name="Card Number" value="329"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="While you are at Depths of Demhe, you cannot play fast cards."/>
+    <alternate name="The Height of the Depths" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Each investigator heals 5 horror.&#10;Remove this card from the game, and replace it with another set-aside copy of Depths of Demhe (move all investigators, enemies, and attachments from this location to the new copy of Depths of Demhe). Add clues to that copy of Depths of Demhe until it has clues on it equal to its clue value."/>
+    </alternate>
+  </card>
+  <card id="efc219c5-b3d7-4158-82d3-b6a6e2f24799" name="Depths of Demhe" size="EncounterCard">
+    <property name="Card Number" value="329"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="1π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="While you are at Depths of Demhe, you cannot play fast cards."/>
+    <alternate name="Steps of the Palace" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Deal 1π damage to Hastur, exhaust him, and disengage him from all investigators.&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+    </alternate>
+  </card>
+  <card id="1d60614c-5984-4025-ab89-2b5f4a2ff0a2" name="Dark Spires" size="EncounterCard">
+    <property name="Card Number" value="330"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="2π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <alternate name="The Fall" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="You must decide (choose one):&#10;– You cannot bring yourself to do what must be done. Flip this card back over.&#10;– Realizing what you must do, you step forward and push her. Take 2 horror and deal 2π damage to Hastur. Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+    </alternate>
+  </card>
+  <card id="2c6dc0ba-9ab5-4697-8415-60c438b4a5a2" name="Palace of the King" size="EncounterCard">
+    <property name="Card Number" value="331"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="3π "/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld"/>
+    <property name="Text" value="Palace of the King cannot be flipped over unless Hastur has at least 5π damage on him."/>
+    <alternate name="Hastur's End" type="B">
+      <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remember that you “know the secret.”&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again."/>
+    </alternate>
+  </card>
+  <card id="c2628010-0e80-40a9-8490-647b32f48333" name="Hastur" size="EncounterCard">
+    <property name="Card Number" value="332"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Subtitle" value="The King in Yellow"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="7π"/>
+    <property name="Horror" value="2"/>
+    <property name="Traits" value="Ancient One. Elite."/>
+    <property name="Text" value="Cannot be damaged except by story card effects.&#10;Forced – At the beginning of the enemy phase, if Hastur is ready: Hastur attacks each investigator, in player order (regardless of their location). If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.&#10;η: Test ά (X), where X is Hastur’s fight value. If you succeed, exhaust Hastur. Any investigator may trigger this action."/>
+  </card>
+  <card id="27abf289-ee16-4d4e-8e90-1684f9983016" name="Hastur" size="EncounterCard">
+    <property name="Card Number" value="333"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Subtitle" value="Lord of Carcosa"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="9π"/>
+    <property name="Horror" value="2"/>
+    <property name="Traits" value="Ancient One. Elite."/>
+    <property name="Keywords" value="Prey – Most remaining sanity.&#10;Hunter. Massive."/>
+    <property name="Text" value="If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.&#10;While Hastur is being attacked or evaded by an investigator with no remaining sanity, treat each ε, “+1,” “0,” or “–1” token that investigator reveals as a ζ token."/>
+  </card>
+  <card id="ae36c6af-dc75-4238-821f-6b2969b9aa74" name="Hastur" size="EncounterCard">
+    <property name="Card Number" value="334"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Subtitle" value="The Tattered King"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="8π"/>
+    <property name="Horror" value="4"/>
+    <property name="Traits" value="Ancient One. Elite."/>
+    <property name="Keywords" value="Prey – Most remaining sanity.&#10;Hunter."/>
+    <property name="Text" value="If Hastur’s attack deals you horror in excess of your sanity, you take 1 damage, as well.&#10;While Hastur is being attacked or evaded by an investigator with no remaining sanity, treat each ε, “+1,” “0,” or “–1” token that investigator reveals as a ζ token."/>
+  </card>
+  <card id="d846c215-d9e8-4c36-8ba4-1146bdf2975b" name="Creature Out of Demhe" size="EncounterCard">
+    <property name="Card Number" value="335"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="5"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster."/>
+    <property name="Keywords" value="Spawn - Depths of Demhe.&#10;Massive."/>
+    <property name="Text" value="Forced – When Creature out of Demhe’s location or a connecting location is flipped over, if Creature out of Demhe is ready: It attacks each investigator at that location."/>
+  </card>
+  <card id="a3b192f5-6ab7-4abf-9d67-6ceae3c98ea3" name="Winged One" size="EncounterCard">
+    <property name="Card Number" value="336"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="3"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Byakhee."/>
+    <property name="Keywords" value="Spawn - Bleak Plains.&#10;Retaliate."/>
+    <property name="Text" value="Forced – After a location is flipped over, if Winged One is ready and unengaged: Move it once toward that location."/>
+  </card>
+  <card id="728cadf7-43a2-4bdb-9da1-d9e0b10ad5da" name="Dismal Curse" size="EncounterCard">
+    <property name="Card Number" value="337"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Curse. Terror."/>
+    <property name="Text" value="Revelation – Test ά (3). If you have no remaining sanity, this test gets +2 difficulty. If you fail, take 2 damage (4 damage instead if you have horror on you greater than twice your sanity)."/>
+  </card>
+  <card id="72091e61-bcef-4624-9563-57ad2867866b" name="Realm of Madness" size="EncounterCard">
+    <property name="Card Number" value="338"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation – Discard cards from play and/or from your hand with a total printed resource cost of at least X, where X is the amount of horror on your investigator. If no cards are discarded by this effect, take 2 horror."/>
+  </card>
+  <card id="6b5eae88-493c-4b3f-a519-f6f971da8678" name="The Final Act" size="EncounterCard">
+    <property name="Card Number" value="339"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Keywords" value="Surge."/>
+    <property name="Text" value="Revelation – If you have no remaining sanity, place 2 doom on the current agenda. This effect can cause the current agenda to advance."/>
+  </card>
+  <card id="e0c8a708-b24c-4024-b02b-460e60f0eb53" name="Possession (Traitorous)" size="EncounterCard">
+    <property name="Card Number" value="340"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex. Terror."/>
+    <property name="Keywords" value="Peril. Hidden."/>
+    <property name="Text" value="Revelation – Secretly add Possession (Traitorous) to your hand.&#10;If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.&#10;You may commit this card to a skill test at your location. That test automatically fails."/>
+  </card>
+  <card id="9aadb360-7370-4d0f-9436-f554afcdeeff" name="Possession (Torturous)" size="EncounterCard">
+    <property name="Card Number" value="341"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex. Terror."/>
+    <property name="Keywords" value="Peril. Hidden."/>
+    <property name="Text" value="Revelation – Secretly add Possession (Torturous) to your hand.&#10;If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.&#10;η Spend 5 resources: Discard Possession (Torturous) from your hand."/>
+  </card>
+  <card id="883e170b-f28f-48ca-a745-94bd400150aa" name="Possession (Murderous)" size="EncounterCard">
+    <property name="Card Number" value="342"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex. Terror."/>
+    <property name="Keywords" value="Peril. Hidden."/>
+    <property name="Text" value="Revelation – Secretly add Possession (Murderous) to your hand.&#10;If you have horror on you greater than twice your sanity, you are immediately eliminated and killed.&#10;η Deal 2 damage to an investigator at your location: Discard Possession (Murderous) from your hand."/>
+  </card>
+ </cards>
+</set>
