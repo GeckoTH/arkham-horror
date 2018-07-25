@@ -290,7 +290,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Far Above Your House" size="EncounterCard" type="B">
+    <alternate name="Field of Graves" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -310,7 +310,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Field of Graves" size="EncounterCard" type="B">
+    <alternate name="Cellar" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -395,7 +395,7 @@
       <property name="Text" value="—Choose one of the two Easttown locations, one of the two Northside locations, one of the two Rivertown locations, and one of the two Miskatonic University locations at random. Put those locations into play. Remove the other versions of Easttown, Northside, Rivertown, and Miskatonic University from the game.&#10;—When creating the “Cultist deck,” include the 3 new Cult of Umôrdhoth cards included in this expansion. Shuffle the Cultist deck and remove 3 random cards from it, without looking at them. (You should be left with a 5-card Cultist deck.)&#10;—If you are instructed to search the encounter deck for an Acolyte, search the encounter deck for any 1-health enemy, instead."/>
     </alternate>
   </card>
-  <card id="88bddeac-9738-45c5-b8d1-a80aa0526af3" name="Predator or Prey?" size="HorizCard">
+  <card id="88bddeac-9738-45c5-b8d1-a80aa0526af3" name="Predator or Prey" size="HorizCard">
     <property name="Card Number" value="26"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Midnight Masks"/>
