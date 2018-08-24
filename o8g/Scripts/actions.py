@@ -938,7 +938,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         investigatorCount = countInvestigators(me)
         
         # Find any Permanent cards
-        permanents = filter(lambda card: "Permanent" in card.Keywords, me.deck)
+        permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
         
         # Move Investigators to the table
         newInvestigator = False

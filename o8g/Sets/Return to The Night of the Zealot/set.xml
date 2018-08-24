@@ -10,9 +10,9 @@
     <property name="Cost" value="0"/>
     <property name="Willpower" value="2"/>
     <property name="Combat" value="2"/>
-    <property name="Skill Icons" value="άάήή"/>
+    <property name="Skill Icons" value="ήήάά"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="θ Spend 1 resource: You get +1 ά for this skill test.&#10;θ Spend 1 resource: You get +1 ή for this skill test."/>
+    <property name="Text" value="θ Spend 1 resource: You get +1 ά for this skill test.&#10;&#10;θ Spend 1 resource: You get +1 ή for this skill test."/>
   </card>
   <card id="0629a6bc-0a71-4b52-b83b-9a1929fff050" name="Dynamite Blast">
     <property name="Card Number" value="2"/>
@@ -23,7 +23,7 @@
     <property name="Cost" value="4"/>
     <property name="Willpower" value="1"/>
     <property name="Combat" value="1"/>
-    <property name="Skill Icons" value="άή"/>
+    <property name="Skill Icons" value="ήά"/>
     <property name="Traits" value="Tactic."/>
     <property name="Text" value="Choose either your location or a connecting location. Deal 3 damage to each enemy and to each investigator at the chosen location. This action does not provoke attacks of opportunity."/>
   </card>
@@ -36,9 +36,9 @@
     <property name="Cost" value="0"/>
     <property name="Intellect" value="2"/>
     <property name="Agility" value="2"/>
-    <property name="Skill Icons" value="έέίί"/>
+    <property name="Skill Icons" value="ίίέέ"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="θ Spend 1 resource: You get +1 έ for this skill test.&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
+    <property name="Text" value="θ Spend 1 resource: You get +1 έ for this skill test.&#10;&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
   </card>
   <card id="16fa746a-97c0-463b-92bf-161daec2fad4" name="Barricade">
     <property name="Card Number" value="4"/>
@@ -50,9 +50,9 @@
     <property name="Willpower" value="1"/>
     <property name="Intellect" value="1"/>
     <property name="Agility" value="1"/>
-    <property name="Skill Icons" value="άέί"/>
+    <property name="Skill Icons" value="ίέά"/>
     <property name="Traits" value="Insight. Tactic."/>
-    <property name="Text" value="Attach to your location.&#10;Non-Elite enemies cannot move into or spawn at attached location. Anytime an enemy would spawn at attached location, spawn it at a connecting location instead, if able.&#10;Forced – When an investigator leaves attached location: Discard Barricade."/>
+    <property name="Text" value="Attach to your location.&#10;&#10;Non-[[Elite]] enemies cannot move into or spawn at attached location. Each time an enemy would spawn at attached location, spawn it at a connecting location instead, if able.&#10;&#10;Forced - When an investigator leaves attached location: Discard Barricade."/>
   </card>
   <card id="06ca5c79-9a97-4169-a5ed-0178d2fd7c83" name="Hard Knocks">
     <property name="Card Number" value="5"/>
@@ -63,9 +63,9 @@
     <property name="Cost" value="0"/>
     <property name="Combat" value="2"/>
     <property name="Agility" value="2"/>
-    <property name="Skill Icons" value="ήήίί"/>
+    <property name="Skill Icons" value="ίίήή"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="θ Spend 1 resource: You get +1 ή for this skill test.&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
+    <property name="Text" value="θ Spend 1 resource: You get +1 ή for this skill test.&#10;&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
   </card>
   <card id="953123c5-4c6c-420c-b801-7df40d6b6d56" name="Hot Streak">
     <property name="Card Number" value="6"/>
@@ -88,9 +88,9 @@
     <property name="Cost" value="0"/>
     <property name="Willpower" value="2"/>
     <property name="Intellect" value="2"/>
-    <property name="Skill Icons" value="άέ"/>
+    <property name="Skill Icons" value="έέάά"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="θ Spend 1 resource: You get +1 ά for this skill test.&#10;θ Spend 1 resource: You get +1 έ for this skill test."/>
+    <property name="Text" value="θ Spend 1 resource: You get +1 ά for this skill test.&#10;&#10;θ Spend 1 resource: You get +1 έ for this skill test."/>
   </card>
   <card id="39880fb2-a13c-4cb1-a67a-2bc1baa3def4" name="Mind Wipe">
     <property name="Card Number" value="8"/>
@@ -101,9 +101,9 @@
     <property name="Cost" value="1"/>
     <property name="Willpower" value="1"/>
     <property name="Combat" value="1"/>
-    <property name="Skill Icons" value="άή"/>
+    <property name="Skill Icons" value="ήά"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Fast. Play after a phase begins.&#10;Choose a non-Elite enemy in your location. Until the end of the round, reduce the chosen enemy’s damage and horror values by 1, and treat its printed text box as if it were blank (except for Traits)."/>
+    <property name="Text" value="Fast. Play after a phase begins.&#10;&#10;Choose a non-[[Elite]] enemy in your location. Until the end of the phase, reduce the chosen enemy's damage and horror values by 1, and treat its printed text box as if it were blank (except for [[Traits]])."/>
   </card>
   <card id="450ee5ca-c143-4770-992f-030b38fb7f00" name="Dig Deep">
     <property name="Card Number" value="9"/>
@@ -114,9 +114,9 @@
     <property name="Cost" value="0"/>
     <property name="Willpower" value="2"/>
     <property name="Agility" value="2"/>
-    <property name="Skill Icons" value="άί"/>
+    <property name="Skill Icons" value="ίίάά"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="θ Spend 1 resource: You get +1 ά for this skill test.&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
+    <property name="Text" value="θ Spend 1 resource: You get +1 ά for this skill test.&#10;&#10;θ Spend 1 resource: You get +1 ί for this skill test."/>
   </card>
   <card id="fe813717-c347-4052-b20c-3f7b11617b23" name="Rabbit's Foot">
     <property name="Card Number" value="10"/>
@@ -128,7 +128,7 @@
     <property name="Skill Icons" value="ΰ"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Charm."/>
-    <property name="Text" value="ι After you fail a skill test, exhaust Rabbit’s Foot: Search the top X cards of your deck for a card, draw it, and shuffle the remaining cards into your deck. X is the amount you failed by."/>
+    <property name="Text" value="ι After you fail a skill test, exhaust Rabbit's Foot: Search the top X cards of your deck for a card, draw it, and shuffle the remaining cards into your deck. X is the amount you failed by."/>
   </card>
   <card id="348b18f3-7de3-487b-89ea-c2aff969758e" name="Return to The Gathering">
     <property name="Card Number" value="11"/>
@@ -136,12 +136,12 @@
     <property name="Encounter Set" value="Return to The Gathering"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Perform the setup as indicated in the Night of the Zealot Campaign Guide, with the following exceptions:&#10;—When gathering encounter sets, also gather the new encounter sets for Return to The Gathering shown here.&#10;{Return to the Gathering}&#10;{Ghouls} -> {Ghouls of Umôrdhoth}&#10;—Remove Act 1a—“Trapped” from the game and replace it with the new Act 1a—“Mysterious Gateway.”&#10;(Continued on reverse side.)"/>
+    <property name="Text" value="Perform the setup as indicated in the Night of the Zealot Campaign Guide, with the following exceptions:&#10; - When gathering encounter sets, also gather the new encounter sets for Return to The Gathering shown here.&#10; - Remove Act 1a- &quot;Trapped&quot; from the game and replace it with the new Act 1a- &quot;Mysterious Gateway.&quot;&#10;(Continued on reverse side.)"/>
     <alternate name="Return to The Gathering" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="—Remove the original Study location from the game and replace it with the new Study (Aberrant Gateway). Put the Study (Aberrant Gateway) into play. Each investigator begins play in the Study (Aberrant Gateway).&#10;—Put the new Guest Hall, Bedroom, and Bathroom locations into play.&#10;—Remove the original Hallway location from the game.&#10;—Choose one of the two Attic locations and one of the two Cellar locations at random, and set them aside, out of play. Remove the other versions of Attic and Cellar from the game.&#10;—Set each other location aside, out of play."/>
+      <property name="Text" value=" - Remove the original Study location from the game and replace it with the new Study (Aberrant Gateway). Put the Study (Aberrant Gateway) into play. Each investigator begins play in the Study (Aberrant Gateway).&#10; - Put the new Guest Hall, Bedroom, and Bathroom locations into play.&#10; - Remove the original Hallway location from the game.&#10; - Choose one of the two Attic locations and one of the two Cellar locations at random, and set them aside, out of play. Remove the other versions of Attic and Cellar from the game.&#10; - Set each other location aside, out of play."/>
     </alternate>
   </card>
   <card id="fb1b854b-b027-4d05-ab6f-c861110f06c7" name="Mysterious Gateway" size="HorizCard">
@@ -155,7 +155,7 @@
     <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the Guest Hall may spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="Breaking the Wall" size="HorizCard" type="B">
+    <alternate name="Mysterious Gateway" size="HorizCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -183,7 +183,7 @@
       <property name="Shroud" value="3"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
-      <property name="Text" value="η η: Draw 3 cards. Only the lead investigator can activate this ability.&#10;Forced – When an enemy attempts to spawn at a location that is not in play: Put that location into play and spawn that enemy there."/>
+      <property name="Text" value="η η: Draw 3 cards. Only the lead investigator can activate this ability.&#10;Forced - When an enemy attempts to spawn at a location that is not in play: Put that location into play and spawn that enemy there."/>
     </alternate>
   </card>
   <card id="75defe19-b92c-4532-ae60-f0eafc33d70d" name="Guest Hall" size="EncounterCard">
@@ -221,7 +221,7 @@
       <property name="Shroud" value="2"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Forced – After you fail a skill test while investigating the Bedroom: Discard 1 card at random from your hand."/>
+      <property name="Text" value="Forced - After you fail a skill test while investigating the Bedroom: Discard 1 card at random from your hand."/>
     </alternate>
   </card>
   <card id="c9d0339a-9289-4a86-8876-634725d3b293" name="Bathroom" size="EncounterCard">
@@ -240,10 +240,10 @@
       <property name="Shroud" value="1"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Forced – After you reveal a α, β, γ, or ζ symbol while investigating the Bathroom: Lose all remaining actions and end your turn."/>
+      <property name="Text" value="Forced - After you reveal a α, β, γ, or ζ symbol while investigating the Bathroom: Lose all remaining actions and end your turn."/>
     </alternate>
   </card>
-  <card id="8db65b5a-eb09-4034-9dc8-dd108852047b" name="Hole in the Wall" size="EncounterCard">
+  <card id="8db65b5a-eb09-4034-9dc8-dd108852047b" name="Hallway" size="EncounterCard">
     <property name="Card Number" value="17"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Gathering"/>
@@ -259,7 +259,7 @@
       <property name="Shroud" value="1"/>
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Forced – After you reveal this location: Put the set-aside Attic, Cellar, and Parlor locations into play."/>
+      <property name="Text" value="Forced - After you reveal this location: Put the set-aside Attic, Cellar, and Parlor locations into play."/>
     </alternate>
   </card>
   <card id="29d5549f-ecca-4f23-8da1-6d9cbddae746" name="Attic" size="EncounterCard">
@@ -278,10 +278,10 @@
       <property name="Shroud" value="3"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Forced – After you reveal the Attic: Put the set-aside Far Above Your House location into play."/>
+      <property name="Text" value="Forced - After you reveal the Attic: Put the set-aside Far Above Your House location into play."/>
     </alternate>
   </card>
-  <card id="6697716b-1ee1-4bef-9736-3700f7c48678" name="Far Above Your House" size="EncounterCard">
+  <card id="6697716b-1ee1-4bef-9736-3700f7c48678" name="Field of Graves" size="EncounterCard">
     <property name="Card Number" value="19"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Gathering"/>
@@ -290,7 +290,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Field of Graves" size="EncounterCard" type="B">
+    <alternate name="Far Above Your House" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -298,7 +298,7 @@
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
-      <property name="Text" value="Forced – After you reveal Field of Graves: Test ά (4). For each point you fail by, discard 1 card at random from each player’s hand.&#10;Victory 1."/>
+      <property name="Text" value="Forced - After you reveal Field of Graves: Test ά (4). For each point you fail by, discard 1 card at random from each player's hand."/>
     </alternate>
   </card>
   <card id="bae88f2a-456b-4822-a9cc-961c2b20d61f" name="Cellar" size="EncounterCard">
@@ -317,10 +317,10 @@
       <property name="Shroud" value="2"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Forced – After you reveal the Cellar: Put the set-aside Deep Below Your House location into play."/>
+      <property name="Text" value="Forced - After you reveal the Cellar: Put the set-aside Deep Below Your House location into play."/>
     </alternate>
   </card>
-  <card id="560d50f2-aa92-44fa-9ea9-2657b7a12468" name="Deep Below Your House" size="EncounterCard">
+  <card id="560d50f2-aa92-44fa-9ea9-2657b7a12468" name="Ghoul Pits" size="EncounterCard">
     <property name="Card Number" value="21"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Gathering"/>
@@ -329,7 +329,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Ghoul Pits" size="EncounterCard" type="B">
+    <alternate name="Deep Below Your House" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -337,10 +337,10 @@
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
-      <property name="Text" value="Forced – After you reveal Ghoul Pits: Test ί (3). For each point you fail by, search the encounter deck and discard pile for a copy of Swarm of Rats and draw it. Shuffle the encounter deck.&#10;Victory 1."/>
+      <property name="Text" value="Forced - After you reveal Ghoul Pits: Test ί (3). For each point you fail by, search the encounter deck and discard pile for a copy of Swarm of Rats and draw it. Shuffle the encounter deck."/>
     </alternate>
   </card>
-  <card id="23361475-086f-491b-b649-c616a96ef554" name="Corpse-Hungry-Ghoul" size="EncounterCard">
+  <card id="23361475-086f-491b-b649-c616a96ef554" name="Corpse-Hungry Ghoul" size="EncounterCard">
     <property name="Card Number" value="22"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Gathering"/>
@@ -353,8 +353,7 @@
     <property name="Horror" value="2"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Ghoul."/>
-    <property name="Keywords" value="Spawn – Bedroom.&#10;Hunter."/>
-    <property name="Text" value="Victory 1."/>
+    <property name="Text" value="Spawn - Bedroom.&#10;Hunter."/>
   </card>
   <card id="452a12c3-b50c-44e6-b760-7dcc723c4750" name="Ghoul from the Depths" size="EncounterCard">
     <property name="Card Number" value="23"/>
@@ -369,8 +368,7 @@
     <property name="Horror" value="1"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Ghoul."/>
-    <property name="Keywords" value="Spawn – Bathroom.&#10;Retaliate."/>
-    <property name="Text" value="Victory 1."/>
+    <property name="Text" value="Spawn - Bathroom.&#10;Retaliate."/>
   </card>
   <card id="82b3b9f5-0f00-424a-829d-27e673528b3c" name="The Zealot's Seal" size="EncounterCard">
     <property name="Card Number" value="24"/>
@@ -387,24 +385,25 @@
     <property name="Encounter Set" value="Return to The Midnight Masks"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Perform the setup as indicated in the Night of the Zealot Campaign Guide, with the following exceptions:&#10;—When gathering encounter sets, also gather the new encounter sets for Return to the Midnight Masks shown here.&#10;{Return to The Midnight Masks} {Cult of Umôrdhoth}&#10;{Dark Cult} -> {The Devourer's Cult}&#10;—Construct the act deck using one of the two copies of Agenda 1a—“Predator or Prey” at random, without looking at their other sides. Remove the other version of Agenda 1a from the game.&#10;(Continued on reverse side.)"/>
+    <property name="Text" value="Perform the setup as indicated in the Night of the Zealot Campaign Guide, with the following exceptions:&#10; - When gathering encounter sets, also gather the new encounter sets for Return to the Midnight Masks shown here.&#10; - Construct the act deck using one of the two copies of Agenda 1a- &quot;Predator or Prey&quot; at random, without looking at their other sides. Remove the other version of Agenda 1a from the game.&#10;(Continued on reverse side.)"/>
     <alternate name="Return to The Midnight Masks" type="B">
       <property name="Encounter Set" value="Return to The Midnight Masks"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="—Choose one of the two Easttown locations, one of the two Northside locations, one of the two Rivertown locations, and one of the two Miskatonic University locations at random. Put those locations into play. Remove the other versions of Easttown, Northside, Rivertown, and Miskatonic University from the game.&#10;—When creating the “Cultist deck,” include the 3 new Cult of Umôrdhoth cards included in this expansion. Shuffle the Cultist deck and remove 3 random cards from it, without looking at them. (You should be left with a 5-card Cultist deck.)&#10;—If you are instructed to search the encounter deck for an Acolyte, search the encounter deck for any 1-health enemy, instead."/>
+      <property name="Text" value=" - Choose one of the two Easttown locations, one of the two Northside locations, one of the two Rivertown locations, and one of the two Miskatonic University locations at random. Put those locations into play. Remove the other versions of Easttown, Northside, Rivertown, and Miskatonic University from the game.&#10; - When creating the &quot;Cultist deck,&quot; include the 3 new Cult of Umôrdhoth cards included in this expansion. Shuffle the Cultist deck and remove 3 random cards from it, without looking at them. (You should be left with a 5-card Cultist deck.)&#10; - If you are instructed to search the encounter deck for an Acolyte, search the encounter deck for any 1-health [[Cultist]] enemy, instead."/>
     </alternate>
   </card>
-  <card id="88bddeac-9738-45c5-b8d1-a80aa0526af3" name="Predator or Prey" size="HorizCard">
+  <card id="88bddeac-9738-45c5-b8d1-a80aa0526af3" name="Predator or Prey?" size="HorizCard">
     <property name="Card Number" value="26"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Midnight Masks"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="η: Resign. You don’t want to risk taking too long, so you head to safety with the information you’ve gathered."/>
+    <property name="Text" value="η: Resign. You don't want to risk taking too long, so you head to safety with the information you've gathered."/>
     <alternate name="Narôgath" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Midnight Masks"/>
       <property name="Subtitle" value="The Charnel Lord"/>
@@ -420,8 +419,8 @@
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="2"/>
-      <property name="Keywords" value="Spawn – Engaged with Prey.&#10;Prey – Nearest to another Cultist enemy.&#10;Hunter."/>
-      <property name="Text" value="Narôgath gets +3 health per investigator.&#10;While Narôgath is ready, each investigator at its location or a connecting location cannot Parley with Cultist enemies.&#10;Victory 2."/>
+      <property name="Traits" value="Humanoid. Monster. Cultist. Elite."/>
+      <property name="Text" value="Spawn - Engaged with Prey.&#10;Prey - Nearest to another [[Cultist]] enemy.&#10;Hunter.&#10;Narôgath gets +3 health per investigator.&#10;While Narôgath is ready, each investigator at its location or a connecting location cannot Parley with [[Cultist]] enemies."/>
     </alternate>
   </card>
   <card id="044fef90-d736-4096-bdd9-9690686cc3fc" name="Easttown" size="EncounterCard">
@@ -436,6 +435,7 @@
     <property name="Traits" value="Arkham."/>
     <alternate name="Easttown" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Midnight Masks"/>
+      <property name="Subtitle" value="Arkham Police Station"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="4"/>
@@ -443,7 +443,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham."/>
-      <property name="Text" value="η: Add 2 supply tokens or ammo tokens to an asset you control. (Limit once per game.)&#10;Victory 1."/>
+      <property name="Text" value="η: Add 2 supply tokens or ammo tokens to an asset you control. (Limit once per game.)"/>
     </alternate>
   </card>
   <card id="d586b6ec-bf06-4f75-a75b-e072dc00b17f" name="Northside" size="EncounterCard">
@@ -458,13 +458,14 @@
     <property name="Traits" value="Arkham."/>
     <alternate name="Northside" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Midnight Masks"/>
+      <property name="Subtitle" value="Train Station"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="2"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
-      <property name="Text" value="η: Move to any Arkham location. (Limit once per game.)"/>
+      <property name="Text" value="η: Move to any [[Arkham]] location. (Limit once per game.)"/>
     </alternate>
   </card>
   <card id="fdf83f91-9221-4969-86f8-7a00f2db4c57" name="Miskatonic University" size="EncounterCard">
@@ -479,6 +480,7 @@
     <property name="Traits" value="Arkham."/>
     <alternate name="Miskatonic University" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Midnight Masks"/>
+      <property name="Subtitle" value="Miskatonic Museum"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -500,13 +502,14 @@
     <property name="Traits" value="Arkham. Central."/>
     <alternate name="Rivertown" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Midnight Masks"/>
+      <property name="Subtitle" value="Abandoned Warehouse"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="4"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham. Central."/>
-      <property name="Text" value="η Discard a card with X ά icons: Remove X doom from a cultist enemy in play. (Group limit once per game.)"/>
+      <property name="Text" value="η Discard a card with X ά icons: Remove X doom from a [[Cultist]] enemy in play. (Group limit once per game.)"/>
     </alternate>
   </card>
   <card id="11c05026-4172-4726-9912-aa3f38826335" name="Masked Horrors" size="EncounterCard">
@@ -516,7 +519,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Power. Scheme."/>
-    <property name="Text" value="Revelation – Each investigator with 2 or more clues takes 2 horror. If no horror is dealt by this effect, place 1 doom on the current agenda. This effect can cause the current agenda to advance."/>
+    <property name="Text" value="Revelation - Each investigator with 2 or more clues takes 2 horror. If no horror is dealt by this effect, place 1 doom on the current agenda. This effect can cause the current agenda to advance."/>
   </card>
   <card id="d5cfae27-f999-4a39-846b-90badc9c5224" name="Return to The Devourer Below">
     <property name="Card Number" value="32"/>
@@ -524,13 +527,13 @@
     <property name="Encounter Set" value="Return to The Devourer Below"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Perform the setup as indicated in the Night of the Zealot Campaign Guide, with the following exceptions:&#10;—When gathering encounter sets, also gather the new encounter sets for Return to The Devourer Below shown here.&#10;{Return to The Devourer Below}&#10;{Ghouls} -> {Ghouls of Umôrdhoth}&#10;{Dark Cult} -> {The Devourer's Cult}&#10;—When choosing 4 Arkham Woods locations to put into play at random, include the 4 new Arkham Woods locations included in this encounter set, for a total of 10 possibilities.&#10;—After setting the Umôrdhoth enemy aside, flip this card over and attach it to Umôrdhoth."/>
+    <property name="Text" value="Perform the setup as indicated in the Night of the Zealot Campaign Guide, with the following exceptions:&#10; - When gathering encounter sets, also gather the new encounter sets for Return to The Devourer Below shown here.&#10; - When choosing 4 Arkham Woods locations to put into play at random, include the 4 new Arkham Woods locations included in this encounter set, for a total of 10 possibilities.&#10; - After setting the Umôrdhoth enemy aside, flip this card over and attach it to Umôrdhoth."/>
     <alternate name="Vault of Earthly Demise" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Devourer Below"/>
       <property name="Type" value="Treachery"/>
       <property name="Class" value="Mythos"/>
       <property name="Traits" value="Eldritch. Otherworld."/>
-      <property name="Text" value="Vault of Earthly Demise cannot leave play. &#10;Umôrdhoth gets +X health per investigator and gets +X fight, where X is the number of resources on this card.&#10;Forced – When Umôrdhoth enters play, place 1 resource on this card for each act remaining in the act deck."/>
+      <property name="Text" value="Vault of Earthly Demise cannot leave play.&#10;Umôrdhoth gets +X health per investigator and gets +X fight, where X is the number of resources on this card.&#10;Forced - When Umôrdhoth enters play, place 1 resource on this card for each act remaining in the act deck."/>
     </alternate>
   </card>
   <card id="3595d549-8f11-45d3-a4fd-6459e49e86c7" name="Arkham Woods" size="EncounterCard">
@@ -545,13 +548,14 @@
     <property name="Traits" value="Woods."/>
     <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Devourer Below"/>
+      <property name="Subtitle" value="Great Willow"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="4"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Woods."/>
-      <property name="Text" value="Forced – After an investigator at this location succeeds at a skill test on a treachery: That treachery gains surge. (Group limit once per round.)"/>
+      <property name="Text" value="Forced - After an investigator at this location succeeds at a skill test on a treachery: That treachery gains surge. (Group limit once per round.)"/>
     </alternate>
   </card>
   <card id="6acc6ff2-3090-4ac8-9b77-72d27b858ca6" name="Arkham Woods" size="EncounterCard">
@@ -566,13 +570,14 @@
     <property name="Traits" value="Woods."/>
     <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Devourer Below"/>
+      <property name="Subtitle" value="Lakeside"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="2"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Woods."/>
-      <property name="Text" value="Forced – After you reveal a chaos token from the chaos bag while investigating this location: Reveal and resolve an additional chaos token. (Limit once per test.)"/>
+      <property name="Text" value="Forced - After you reveal a chaos token from the chaos bag while investigating this location: Reveal and resolve an additional chaos token. (Limit once per test.)"/>
     </alternate>
   </card>
   <card id="f2c23f02-f085-4d59-939a-aafe534c82d2" name="Arkham Woods" size="EncounterCard">
@@ -587,6 +592,7 @@
     <property name="Traits" value="Woods."/>
     <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Devourer Below"/>
+      <property name="Subtitle" value="Corpse-Ridden Clearing"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -608,23 +614,24 @@
     <property name="Traits" value="Woods."/>
     <alternate name="Arkham Woods" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Devourer Below"/>
+      <property name="Subtitle" value="Wooden Bridge"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Woods."/>
-      <property name="Text" value="Forced – After you reveal a chaos token from the chaos bag during an evasion attempt at this location: Reveal and resolve an additional chaos token. (Limit once per test.)"/>
+      <property name="Text" value="Forced - After you reveal a chaos token from the chaos bag during an evasion attempt at this location: Reveal and resolve an additional chaos token. (Limit once per test.)"/>
     </alternate>
   </card>
-  <card id="5e0ae575-24d3-439c-bfbe-4a74a1869b2d" name="Umôrdhoth’s Hunger" size="EncounterCard">
+  <card id="5e0ae575-24d3-439c-bfbe-4a74a1869b2d" name="Umôrdhoth's Hunger" size="EncounterCard">
     <property name="Card Number" value="37"/>
     <property name="Quantity" value="2"/>
     <property name="Encounter Set" value="Return to The Devourer Below"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Power."/>
-    <property name="Text" value="Revelation – Each investigator must discard 1 card at random from his or her hand. Each investigator who has no cards in his or her hand is killed. Heal 1 damage from each enemy in play."/>
+    <property name="Text" value="Revelation - Each investigator must discard 1 card at random from his or her hand. Each investigator who has no cards in his or her hand is killed. Heal 1 damage from each enemy in play."/>
   </card>
   <card id="09cbf4b7-0112-49e1-86a5-62b655c433b5" name="Grave-Eater" size="EncounterCard">
     <property name="Card Number" value="38"/>
@@ -638,7 +645,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Ghoul."/>
-    <property name="Text" value="Forced – After Grave-Eater attacks you: Discard 1 card at random from your hand."/>
+    <property name="Text" value="Forced - After Grave-Eater attacks you: Discard 1 card at random from your hand."/>
   </card>
   <card id="49146909-d31f-4110-90f7-c75da63c9bfc" name="Acolyte of Umôrdhoth" size="EncounterCard">
     <property name="Card Number" value="39"/>
@@ -652,8 +659,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Ghoul."/>
-    <property name="Keywords" value="Prey – Fewest cards in hand."/>
-    <property name="Text" value="While engaged with an investigator with no cards in his or her hand, Acolyte of Umôrdhoth cannot be evaded."/>
+    <property name="Text" value="Prey - Fewest cards in hand.&#10;While engaged with an investigator with no cards in his or her hand, Acolyte of Umôrdhoth cannot be evaded."/>
   </card>
   <card id="4b84112d-91ca-4c27-aecd-f1f4953ac7ae" name="Chill from Below" size="EncounterCard">
     <property name="Card Number" value="40"/>
@@ -662,7 +668,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hazard."/>
-    <property name="Text" value="Revelation – Test ά (3). For each point you fail by, you must discard 1 card at random from your hand. For each card you cannot discard, take 1 damage."/>
+    <property name="Text" value="Revelation - Test ά (3). For each point you fail by, you must discard 1 card at random from your hand. For each card you cannot discard, take 1 damage."/>
   </card>
   <card id="9b005319-813a-4dfb-91a3-6a2ed4ec7ddb" name="Disciple of the Devourer" size="EncounterCard">
     <property name="Card Number" value="41"/>
@@ -675,8 +681,7 @@
     <property name="Health" value="1"/>
     <property name="Damage" value="1"/>
     <property name="Traits" value="Humanoid. Cultist."/>
-    <property name="Keywords" value="Spawn – Farthest empty location."/>
-    <property name="Text" value="Forced – After you spawn Disciple of the Devourer: You must either place 1 doom on it or place 1 of your clues on its location. If the current agenda is not agenda 1, do both instead."/>
+    <property name="Text" value="Spawn - Farthest empty location.&#10;Forced - After you spawn Disciple of the Devourer: You must either place 1 doom on it or place 1 of your clues on its location. If the current agenda is not agenda 1, do both instead."/>
   </card>
   <card id="fdcf1086-a86d-4542-bd7a-572a5f2b6058" name="Corpse-Taker" size="EncounterCard">
     <property name="Card Number" value="42"/>
@@ -689,9 +694,8 @@
     <property name="Health" value="3"/>
     <property name="Damage" value="1"/>
     <property name="Horror" value="2"/>
-    <property name="Traits" value="Monster. Servitor. Cultist."/>
-    <property name="Keywords" value="Spawn – Farthest empty location."/>
-    <property name="Text" value="Forced – At the end of the mythos phase: Place 1 doom on Corpse-Taker.&#10;Forced – At the end of the enemy phase: Corpse-Taker moves once toward Rivertown or Main Path. If Corpse-Taker is already at Rivertown or Main Path, move all doom from Corpse-Taker to the current agenda, instead."/>
+    <property name="Traits" value="Monster.  Servitor. Cultist."/>
+    <property name="Text" value="Spawn - Farthest empty location.&#10;Forced - At the end of the mythos phase: Place 1 doom on Corpse-Taker.&#10;Forced - At the end of the enemy phase: Corpse-Taker moves once toward Rivertown or Main Path. If Corpse-Taker is already at Rivertown or Main Path, move all doom from Corpse-Taker to the current agenda, instead."/>
   </card>
   <card id="96df8c6f-d47f-4d9b-ac14-89226ad948f2" name="Mask of Umôrdhoth" size="EncounterCard">
     <property name="Card Number" value="43"/>
@@ -700,12 +704,14 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Item. Mask."/>
-    <property name="Text" value="Revelation - Attach to the farthest Cultist enemy and place 1 doom on that enemy. If there are no Cultist enemies in play, search the encounter deck and discard pile for a Cultist enemy, draw it, and attach Mask of Umôrdhoth to it. Shuffle the encounter deck. Attached enemy gets +2 health. If attached enemy is unique, it gains retaliate. If it is non-unique, it gains aloof instead."/>
+    <property name="Text" value="Revelation - Attach to the farthest [[Cultist]] enemy and place 1 doom on that enemy. If there are no [[Cultist]] enemies in play, search the encounter deck and discard pile for a [[Cultist]] enemy, draw it, and attach Mask of Umôrdhoth to it. Shuffle the encounter deck.&#10;Attached enemy gets +2 health. If attached enemy is unique, it gains retaliate. If it is non-unique, it gains aloof instead."/>
   </card>
   <card id="18006f11-385d-4557-bd62-2db39fe64af7" name="Jeremiah Pierce" size="EncounterCard">
     <property name="Card Number" value="44"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Cult of Umôrdhoth"/>
+    <property name="Subtitle" value="Your Next-Door Neighbor"/>
+    <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="4"/>
@@ -715,13 +721,14 @@
     <property name="Horror" value="1"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Cultist."/>
-    <property name="Keywords" value="Spawn – Your House. Otherwise, Rivertown."/>
-    <property name="Text" value="η: Parley. Add Jeremiah Pierce to the victory display. Then, test ά (4). Place 1 doom on the current agenda for each point you fail by (this can cause the current agenda to advance)."/>
+    <property name="Text" value="Spawn - Your House. Otherwise, Rivertown.&#10;η: Parley. Add Jeremiah Pierce to the victory display. Then, test ά (4). Place 1 doom on the current agenda for each point you fail by (this can cause the current agenda to advance)."/>
   </card>
   <card id="9a76a809-4675-40bf-b161-423a3c5dcc82" name="Billy Cooper" size="EncounterCard">
     <property name="Card Number" value="45"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Cult of Umôrdhoth"/>
+    <property name="Subtitle" value="The Crooked Cop"/>
+    <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="5"/>
@@ -730,13 +737,14 @@
     <property name="Damage" value="2"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Cultist."/>
-    <property name="Keywords" value="Spawn – Easttown."/>
-    <property name="Text" value="Forced – After a Monster enemy is defeated at Billy Cooper’s location: Add Billy Cooper to the victory display."/>
+    <property name="Text" value="Spawn - Easttown.&#10;Forced - After a [[Monster]] enemy is defeated at Billy Cooper's location: Add Billy Cooper to the victory display."/>
   </card>
   <card id="386b3309-1666-4955-933f-0f011b7174a8" name="Alma Hill" size="EncounterCard">
     <property name="Card Number" value="46"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Cult of Umôrdhoth"/>
+    <property name="Subtitle" value="The Inquisitive Historian"/>
+    <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="3"/>
@@ -745,8 +753,7 @@
     <property name="Horror" value="2"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Cultist."/>
-    <property name="Keywords" value="Spawn – Southside."/>
-    <property name="Text" value="η: Parley. Draw the top 3 cards of the encounter deck. Then, add Alma Hill to the victory display."/>
+    <property name="Text" value="Spawn - Southside.&#10;η: Parley. Draw the top 3 cards of the encounter deck. Then, add Alma Hill to the victory display."/>
   </card>
  </cards>
 </set>

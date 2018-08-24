@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Investigator" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="3d3fd4fe-bfce-41ff-bcb3-9c8a258ad564">The Boundary, Broken</card>
+    <card qty="1" id="ef661a14-2bb8-48b0-bf3c-feaf352409ab">The Barrier Is Thin</card>
+    <card qty="1" id="6576bdd0-ef2b-4618-885c-e57e9eea8d12">Time Collapsing</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="5bcc94c1-3e46-4c92-b49c-5c5f906b7c93">Crossing the Threshold</card>
+    <card qty="1" id="ee2ad72d-9dbb-4601-aa61-7920214dd760">Past and Present</card>
+    <card qty="1" id="7d505495-a311-4e22-a1cc-c9617f00d241">The Return Trip</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="d4831e98-6970-4555-b926-35baba48e738">Timeline Destabilization</card>
+    <card qty="2" id="4126d465-1d9f-4c17-9deb-53e5f9c155ec">Window to Another Time</card>
+    <card qty="2" id="217c55b0-246d-4d1a-b3b4-9247d801361b">Hand of the Brotherhood</card>
+    <card qty="1" id="be92e541-6197-46cc-9a1d-e46aa37a20ed">Serpent of Tenochtitlán</card>
+    <card qty="2" id="712542a8-a8ee-438c-957c-b461e0aa7467">A Tear in Time</card>
+    <card qty="1" id="7d3e98bb-b186-43a4-8e35-f5d369cd2f09">Lost in Time</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="bb0049f0-7c38-46d3-91ec-9554eb5fa179">Templo Mayor</card>
+    <card qty="1" id="3e11f271-4b3e-4c62-9b94-023e6d03e415">Templo Mayor</card>
+    <card qty="1" id="66095a11-4d8f-47e2-bcbf-cf11235038b0">Temples of Tenochtitlán</card>
+    <card qty="1" id="50281769-5fe9-41d0-a355-90857a821e2e">Temples of Tenochtitlán</card>
+    <card qty="1" id="1845b147-b9a2-4f8c-91f3-d9673eadeddc">Chapultepec Hill</card>
+    <card qty="1" id="20883941-4b9b-451e-85ed-addb50eaeab9">Chapultepec Hill</card>
+    <card qty="1" id="04a6bbcb-9ac2-4df3-a3a7-0715042cf9fd">Canals of Tenochtitlán</card>
+    <card qty="1" id="f25f276b-96cb-4a26-89fa-f208791f021e">Canals of Tenochtitlán</card>
+    <card qty="1" id="5068a7ae-dc6b-48c1-b93b-7eff6e1a31e2">Lake Xochimilco</card>
+    <card qty="1" id="5567c210-8e7f-4946-88d2-2bcb81968e8e">Lake Xochimilco</card>
+    <card qty="1" id="6ec0c6be-83f2-4b98-9fdf-7105fdcf6797">Sacred Woods</card>
+    <card qty="1" id="58e10649-fe3b-4913-ac57-e5387f6dfbeb">Sacred Woods</card>
+    <card qty="1" id="4126d465-1d9f-4c17-9deb-53e5f9c155ec">Window to Another Time</card>
+    <card qty="1" id="d4831e98-6970-4555-b926-35baba48e738">Timeline Destabilization</card>
+    <card qty="1" id="712542a8-a8ee-438c-957c-b461e0aa7467">A Tear in Time</card>
+    <card qty="1" id="7d3e98bb-b186-43a4-8e35-f5d369cd2f09">Lost in Time</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="2" id="03096321-bfc0-457f-8026-6b37a8b7d7ff">Brotherhood Cultist</card>
+    <card qty="2" id="b631d81d-7794-48ba-894e-f1fcc5bc2ca4">Shadowed</card>
+    <card qty="2" id="bc5708bc-2e93-4840-9617-eb35944fe2f7">Words of Power</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+    <card qty="2" id="fc9f9748-abfc-4765-934f-35e34aaf4e18">Fang of Yig</card>
+    <card qty="2" id="51fa25ad-358e-4511-a25f-a72eab8f4264">Snakescourge</card>
+    <card qty="1" id="5836ef11-4edb-475d-ab6b-b6b8157a3fde">Serpent's Call</card>
+    <card qty="2" id="cf96c698-ac9c-4d12-8aa8-bbc70a9ae088">Eztli Guardian</card>
+    <card qty="2" id="0c9b4bfc-b552-48de-9759-0f81ee668c92">Arrows from the Trees</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="10d7ffc2-11ee-4e1a-9353-c64e9ad9a245">The Boundary Beyond</card>
+    <card qty="1" id="0cc02a27-d77d-418b-a42e-0bd84cf3b841">Temple Ruins</card>
+    <card qty="1" id="f4918778-ed40-4144-94d2-db13495da686">Metropolitan Cathedral</card>
+    <card qty="1" id="fa1be958-7a53-4da6-ad67-4b6310296f87">Zócalo</card>
+    <card qty="1" id="2a2417e0-13f5-4bd2-b86d-72573795e801">Chapultepec Park</card>
+    <card qty="1" id="0130f5b9-b52a-4633-b8bd-bf0d8d48d9e0">Xochimilco</card>
+    <card qty="1" id="9edefb21-d770-40d1-89d7-268ce6d68f66">Coyoacán</card>
+    <card qty="1" id="934e9a43-c350-4a2d-9376-6a38a0a396a7">Relic of Ages</card>
+    <card qty="1" id="23842e82-18ea-4a61-8c58-0436fc725e31">Padma Amrita</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
