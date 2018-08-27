@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Heart of the Elders" id="107f19b1-4083-4596-86c4-4dc6853839a7" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="5f042c4f-1dc2-4b8a-950c-69edabf82a5c" name="Intrepid">
+    <property name="Card Number" value="192"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="If this skill test is successful, add Intrepid to your play area as an asset with the text:&#10;&#10;&quot;You get +1 έ, +1 ή, and +1 ί.&#10;&#10;Forced - At the end of the round: Discard Intrepid.&quot;"/>
+  </card>
+  <card id="6ac42b20-db5e-4eee-a600-09921b0a315e" name="Custom Ammunition">
+    <property name="Card Number" value="193"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="3"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Traits" value="Upgrade. Supply. Blessed."/>
+    <property name="Text" value="Fast. Play only during your turn.&#10;&#10;Attach to a [[Firearm]] asset controlled by an investigator at your location. Place 2 ammo on that asset. Limit 1 per asset.&#10;&#10;Attacks performed by attached asset deal +1 damage against [[Monster]] enemies."/>
+  </card>
+  <card id="52296362-8b72-4aa2-abe2-02060afa3f1f" name="Otherworldly Compass">
+    <property name="Card Number" value="194"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Relic"/>
+    <property name="Text" value="η Exhaust Otherworldly Compass: Investigate. Your location gets -X shroud for this investigation. X is the number of revealed locations connected to your location."/>
+  </card>
+  <card id="697413f0-06aa-49cb-8ef5-34d1afd08b71" name="Expose Weakness">
+    <property name="Card Number" value="195"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="έήΰ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Fast. Play during any θ player window.&#10;&#10;Choose an enemy at your location. Test έ (X), where X is that enemy's fight value. If you succeed, treat that enemy's fight value as if it were 0 for the next attack performed against it this phase. Draw 1 card."/>
+  </card>
+  <card id="a6ef5f95-92fc-4db4-981f-b255c5905076" name="Lola Santiago">
+    <property name="Card Number" value="196"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="No-Nonsense Archaeologist"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="3"/>
+    <property name="Intellect" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Wayfarer."/>
+    <property name="Text" value="You get +1 έ and +1 ί.&#10;&#10;θ Exhaust Lola Santiago and spend X resources: Discover 1 clue at your location. X is the shroud value of your location."/>
+  </card>
+  <card id="eb5e0790-a919-4c2f-bd99-3f834d1d00c0" name="Olive McBride">
+    <property name="Card Number" value="197"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Will Try Anything Once"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Health" value="1"/>
+    <property name="Sanity" value="3"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Witch."/>
+    <property name="Text" value="ι When you would reveal a chaos token, exhaust Olive McBride: Reveal 3 chaos tokens instead of 1. Choose 2 of those tokens to resolve, and ignore the other."/>
+  </card>
+  <card id="7dcac739-f4ad-4c77-a22d-cf6b525e627b" name="Defiance">
+    <property name="Card Number" value="198"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="2"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Innate. Developed."/>
+    <property name="Text" value="Ignore the effects of all α, β, γ, and δ symbols during this test (including their modifiers)."/>
+  </card>
+  <card id="230324cd-9b9b-4a7f-8e0a-190389b82bdd" name="Premonition">
+    <property name="Card Number" value="199"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίέ"/>
+    <property name="Traits" value="Augury."/>
+    <property name="Text" value="Fast. Play during any θ player window.&#10;&#10;Put Premonition into play, reveal a random chaos token from the chaos bag, and seal it on Premonition.&#10;&#10;Forced - When a chaos token would be revealed from the chaos bag: Resolve the token sealed here as if it were just revealed from the chaos bag, instead. Then, discard Premonition."/>
+  </card>
+  <card id="43ce6f56-93da-405c-993f-a5f329c16f98" name="Live and Learn">
+    <property name="Card Number" value="200"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Fast. Play after a skill test you failed ends (after resolving all effects from the failed test).&#10;&#10;Attempt that test again. You get +2 skill value for this test."/>
+  </card>
+  <card id="e1778e2d-b5f8-4393-b9dc-3f24f5a61ed5" name="Take Heart">
+    <property name="Card Number" value="201"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="Max 1 committed per skill test.&#10;&#10;You may commit Take Heart to any type of test.&#10;&#10;If this test fails, the performing investigator draws 2 cards and gains 2 resources."/>
+  </card>
+  <card id="1db7461d-f10d-45a8-95df-6a51a6b6fc2e" name="Against All Odds">
+    <property name="Card Number" value="202"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίήά"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Fast. Play when you perform a skill test with a difficulty higher than your base skill value.&#10;&#10;Reveal X additional chaos tokens for this skill test. Choose one to resolve and ignore the others. X is the difference between the test's difficulty and your base skill value."/>
+  </card>
+  <card id="d5d43a3e-0dbf-44cc-9d90-b4162ca6fa73" name="Trench Coat">
+    <property name="Card Number" value="203"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Slot" value="Body"/>
+    <property name="Traits" value="Item. Clothing."/>
+    <property name="Text" value="You get +1 ί during evasion attempts."/>
+  </card>
+  <card id="c2425faf-14a6-4260-b864-3739701db110" name="Ornate Bow">
+    <property name="Card Number" value="204"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="4"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Slot" value="Hand x2"/>
+    <property name="Traits" value="Item. Relic. Weapon. Ranged."/>
+    <property name="Text" value="Uses (1 ammo). Limit 1 ammo on Ornate Bow.&#10;&#10;η Spend 1 ammo: Fight. This attack uses ί instead of ή. You get +2 ί and deal +2 damage for this attack.&#10;&#10;η: You nock another arrow. Place 1 ammo on Ornate Bow."/>
+  </card>
+ </cards>
+</set>
