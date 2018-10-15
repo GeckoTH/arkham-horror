@@ -9,6 +9,23 @@ Fixes:
 ___
 
 ## Latest
+### v1.0.0.25
+Features:
+- Added Dim Carcosa
+- Added Forgotten Agenda
+- Added Threads of Fate
+- Added The Boundary Beyond
+- Added Heart of the Elders
+- Added The City of Archives
+- Added The Depths of Yoth
+- Added Book Series investigators
+  - Carolyn Fern
+  - Silas Marsh
+- Slight fix to allow cards with the Permanent in the text instead of in the keywords to be added to the investigator play area upon loading.
+- Some changes to the developer excel tools for loading data from ArkhamDb
+___
+
+## Previous
 
 ### v1.0.0.20
 Features:
@@ -34,9 +51,6 @@ Fixes:
 - Fixed font size for skill icons to allow up to 4 icons as on Desperate Search
 
 Thanks to amoshk, llebel and PlaidOsyluth for contributions!
-___
-
-## Previous
 
 ### v1.0.0.15
 Fixes:
