@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Depths of Yoth" id="0494b53f-d03c-42ff-b7c8-f5185babe0e9" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="4ee386b3-19fe-4718-8546-d092ae121791" name="Handcuffs">
+    <property name="Card Number" value="265"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Traits" value="Item. Police."/>
+    <property name="Text" value="η If Handcuffs is not attached to an enemy: Evade. Use only on a [[Humanoid]] enemy. This evasion attempt uses ή instead of ί. If you succeed, attach Handcuffs to the just-evaded enemy.&#10;&#10;If the attached enemy is non-[[Elite]], it cannot ready and doom cannot be placed on it."/>
+  </card>
+  <card id="e18601aa-21ed-4468-8e2c-a613bfd1f75a" name="Blood Eclipse">
+    <property name="Card Number" value="266"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήά"/>
+    <property name="Traits" value="Spell. Spirit."/>
+    <property name="Text" value="As an additional cost to play Blood Eclipse, take up to 3 damage.&#10;&#10;Fight. This attack uses ά instead of ή. You get +1 ά and deal +1 damage for this attack for each damage taken as part of this card's cost."/>
+  </card>
+  <card id="336f8a91-80d9-4e56-9319-9c54d177472e" name="Feed the Mind">
+    <property name="Card Number" value="267"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (3 secrets).&#10;&#10;η Exhaust Feed the Mind and spend 1 secret: Test έ (0). For each point you succeed by, draw 1 card. Then, take 1 horror for each card in your hand in excess of your maximum hand size."/>
+  </card>
+  <card id="80f17c0a-b83a-4005-b263-0266b7b6b706" name="Colt Vest Pocket">
+    <property name="Card Number" value="268"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
+    <property name="Text" value="Uses (5 ammo).&#10;&#10;η Spend 1 ammo: Fight. You get +1 ή for this attack. This attack deals +1 damage.&#10;&#10;Forced - At the end of the round: Discard Colt Vest Pocket."/>
+  </card>
+  <card id="2fbc296b-cf99-4e32-bafe-b5b7f2f184cd" name="Coup de Grâce">
+    <property name="Card Number" value="269"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Combat" value="2"/>
+    <property name="Skill Icons" value="ήή"/>
+    <property name="Traits" value="Tactic. Fated."/>
+    <property name="Text" value="Deal 1 damage to an enemy at your location. If this effect defeats that enemy, draw 1 card. If it is your turn, end your turn. This action does not provoke attacks of opportunity."/>
+  </card>
+  <card id="4e70891d-c8cf-4b97-af2e-01f295ebf389" name="The Skeleton Key">
+    <property name="Card Number" value="270"/>
+    <property name="Quantity" value="2"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="3"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Traits" value="Item. Relic. Cursed."/>
+    <property name="Text" value="Exceptional. Fast.&#10;&#10;η: Attach The Skeleton Key to your location. If it is already attached to your location, detach it and return it to your play area instead.&#10;&#10;Set the attached location's shroud value to 1."/>
+  </card>
+  <card id="df1b6b4d-f263-4c9a-9a30-6ed8c1353208" name="Mists of R'lyeh">
+    <property name="Card Number" value="271"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="4"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίά"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (5 charges).&#10;&#10;η Spend 1 charge: Evade. This evasion attempt uses ά instead of ί. You get +3 ά for this evasion attempt. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a α, β, γ, δ, or ζ symbol is revealed during this evasion attempt, choose and discard a card from your hand."/>
+  </card>
+  <card id="655e57bc-72fc-4bb6-b971-dc8cb8d96519" name="Winging It">
+    <property name="Card Number" value="272"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Traits" value="Tactic. Improvised."/>
+    <property name="Text" value="You may play Winging It from your discard pile. If you do, shuffle it into your deck after resolving its effects.&#10;&#10;Investigate. Your location gets -1 shroud for this investigation. (If you played Winging It from your discard pile, discover 1 additional clue if you succeed.)"/>
+  </card>
+  <card id="2990c62d-efff-4442-9084-97e491b814e6" name="Old Hunting Rifle">
+    <property name="Card Number" value="273"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="3"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Slot" value="Hand x2"/>
+    <property name="Traits" value="Item. Weapon. Firearm."/>
+    <property name="Text" value="Uses (3 ammo).&#10;&#10;η Spend 1 ammo: Fight. You get +3 ή and deal +2 damage for this attack. If a α or ζ symbol is revealed during this attack, the rifle jams. (This attack automatically fails. Before you can activate this ability again, you must perform the following ability: &quot;η: You clear the jam.&quot;)"/>
+  </card>
+  <card id="83868b15-c1e5-40b7-b248-e7bb29904491" name="Thermos">
+    <property name="Card Number" value="274"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="Uses (3 supplies).&#10;&#10;η Spend 1 supply, exhaust Thermos: Heal 1 damage from an investigator at your location (2 damage instead if he or she has 2 or more physical trauma).&#10;&#10;η Spend 1 supply, exhaust Thermos: Heal 1 horror from an investigator at your location (2 horror instead if he or she has 2 or more mental trauma)."/>
+  </card>
+  <card id="d8c9c917-aec2-4bc1-93dc-3b3cd1d44135" name="Hemispheric Map">
+    <property name="Card Number" value="275"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έά"/>
+    <property name="Traits" value="Item. Relic."/>
+    <property name="Text" value="While your current location is connected to at least 2 other locations, you get +1 ά and +1 έ.&#10;&#10;While your current location is connected to at least 4 other locations, you get an additional +1 ά and +1 έ."/>
+  </card>
+  <card id="6705ff5f-bf95-4310-83d6-30fb1684e8ae" name="Timeworn Brand">
+    <property name="Card Number" value="276"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="5"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήά"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Relic. Weapon. Melee."/>
+    <property name="Text" value="η If Timeworn Brand is ready: Fight. You get +2 ή and deal +1 damage for this attack.&#10;&#10;η Exhaust Timeworn Brand: Fight. Add your ά to your skill value for this attack. This attack deals +3 damage. If this attack defeats an [[Elite]] enemy, draw 3 cards. (Max once per game.)"/>
+  </card>
+  <card id="6876db05-c1e2-4e46-b172-1739f700f716" name="The Depths of Yoth">
+    <property name="Card Number" value="277"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Easy / Standard&#10;&#10;α: -X. X is the current depth level.&#10;&#10;β: Reveal another token. If you fail, each [[Serpent]] enemy at your location or a connecting location heals 2 damage.&#10;&#10;γ: Reveal another token. If you fail, place 1 clue on your location (from the token pool).&#10;&#10;δ: -2. If there are 3 or more vengeance points in the victory display, you automatically fail this test, instead."/>
+    <alternate name="The Depths of Yoth" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Hard / Expert&#10;&#10;α: -X. X is the current depth level. If you fail, take 1 horror.&#10;&#10;β: Reveal another token. If you fail, each [[Serpent]] enemy at your location or a connecting location heals 2 damage.&#10;&#10;γ: Reveal another token. If you fail, place 1 clue on your location (from the token pool).&#10;&#10;δ: -4. If there are 3 or more vengeance points in the victory display, you automatically fail this test, instead."/>
+    </alternate>
+  </card>
+  <card id="3fc2759d-a3a7-45b2-be16-854895115bbc" name="The Descent Begins" size="HorizCard">
+    <property name="Card Number" value="278"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="3"/>
+    <alternate name="City of the Damned" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Find the enemy that is in pursuit with the highest evade value, and spawn it in the location where the investigators began at this depth level."/>
+    </alternate>
+  </card>
+  <card id="464121d8-849d-4945-a07d-7169286e7369" name="Horrific Descent" size="HorizCard">
+    <property name="Card Number" value="279"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="3"/>
+    <alternate name="Fountain of Venom" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Find the enemy that is in pursuit with the highest evade value, and spawn it at the location where the investigators began at this depth level.&#10;&#10;Check your supplies. If an investigator has a canteen, that investigator must decide: &#10;&#10;- This could be useful. Remember that you have &quot;collected a strange liquid.&quot;&#10;&#10;- I'm not going anywhere near that.You suffer no ill effects."/>
+    </alternate>
+  </card>
+  <card id="de6357c3-3817-404d-9272-8060ee0763f1" name="Endless Caverns" size="HorizCard">
+    <property name="Card Number" value="280"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="4"/>
+    <alternate name="Deep below the Earth" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Find the enemy that is in pursuit with the highest evade value, and spawn it at the location where the investigators began at this depth level.&#10;&#10;The lead investigator chooses one investigator to be the group's scout. That investigator checks his or her supplies.&#10;&#10;If the scout has rope, he or she is able to climb up with ease, and the investigators suffer no ill effects. &#10;&#10;If the scout does not have rope, he or she must test ή or ί (5). If the performing investigator fails, he or she makes it to the top but suffers 1 physical trauma from the exhaustion of the climb."/>
+    </alternate>
+  </card>
+  <card id="94b133fb-3875-4499-be79-a7bfbab1b78e" name="City of Blood" size="HorizCard">
+    <property name="Card Number" value="281"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="4"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="4"/>
+    <alternate name="The Sleeper's Pursuit" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="4"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If the Harbinger of Valusia is set aside, move it to the pursuit area.&#10;&#10;Find the enemy that is in pursuit with the highest evade value, and spawn it at the location where the investigators began at this depth level."/>
+    </alternate>
+  </card>
+  <card id="4a422def-881a-45e7-aeb8-31c4defb0e7c" name="Fury That Shakes the Earth" size="HorizCard">
+    <property name="Card Number" value="282"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="5"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <property name="Text" value="Forced - After the third doom is placed on this agenda: Find the enemy that is in pursuit with the highest evade value, and spawn it at the location where the investigators began at this depth level."/>
+    <alternate name="Yig Emerges" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="5"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Find the enemy that is in pursuit with the highest evade value, and spawn it at the location where the investigators began at this depth level.&#10;&#10;If Yig is set aside:&#10;&#10;The ground shakes with each of the massive creature's steps. He crushes the stone beneath his mighty feet, tearing through walls with his clawed, scaly hands. He sets his hateful eyes on you, unhinging his jaw in a cruel display of hunger.&#10;&#10;Spawn Yig in the location where the investigators began at this depth level."/>
+    </alternate>
+  </card>
+  <card id="3055b330-ea7e-47b0-8b7b-0db55b041b2e" name="The Red Depths" size="HorizCard">
+    <property name="Card Number" value="283"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="6"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="5"/>
+    <property name="Text" value="Forced - After any amount of doom is placed on this agenda: Find the enemy that is in pursuit with the highest evade value, and spawn it at the location where the investigators began at this depth level."/>
+    <alternate name="The Serpents' Final Bite" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="6"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Find the enemy that is in pursuit with the highest evade value, and spawn it in the location where the investigators began at this depth level.&#10;&#10;Until the end of the scenario, the current agenda gains: &quot;Forced - After any amount of doom is placed on the current agenda: Find the enemy that is in pursuit with the highest evade value, and spawn it in the location where the investigators began at this depth level.&quot;&#10;&#10;Place this card in the pursuit area with this side faceup, as a reminder."/>
+    </alternate>
+  </card>
+  <card id="895f706a-3263-4cc1-b5ff-3fc157def818" name="VENGEANCE" size="HorizCard">
+    <property name="Card Number" value="284"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="7"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Forced - At the end of the 'check doom threshold' step of the mythos phase: The investigators must draw 1 additional encounter card for each doom in play, in player order.&#10;&#10;Objective - If each investigator is defeated, advance this agenda."/>
+    <alternate name="The Chasm" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="7"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(->R1)"/>
+    </alternate>
+  </card>
+  <card id="1f204153-9aa1-4c95-9e5d-deb7b8b16481" name="Journey to the Nexus" size="HorizCard">
+    <property name="Card Number" value="285"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="3π"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η If there are no clues on your location: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;&#10;Objective - At the end of the round, if investigators at Steps of Yoth possess the requisite number of clues, they may advance. (Beware - any investigator who is not at Steps of Yoth will be defeated.)"/>
+    <alternate name="One Level Deeper" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Add 1 resource to the current depth level. If the current depth level is 5+ and you are playing in Campaign Mode, go to (->R2).&#10;&#10;Otherwise, perform the following:&#10;&#10;- Each investigator who is not at Steps of Yoth is left behind and is defeated. Each surviving investigator loses each of his or her clues. &#10;&#10;- Move each enemy in play to the pursuit area.&#10;&#10;- Remove all doom from locations in play. Set each location in play and in the exploration deck aside, out of play. Investigators are not defeated during this process.&#10;&#10;- Draw a random set-aside location other than Steps of Yoth, put it into play, and place each surviving investigator at that location.&#10;&#10;- Create a new exploration deck consisting of Steps of Yoth and 4 other random set-aside locations. Shuffle the exploration deck.&#10;&#10;- Flip this act back over. Journey as deep as you can…"/>
+    </alternate>
+  </card>
+  <card id="1ec867c4-b0c0-42e4-8b6a-f57f83c74eca" name="Steps of Yoth" size="EncounterCard">
+    <property name="Card Number" value="286"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Forgotten. Yoth."/>
+    <property name="Text" value="ι When adding to the current depth level, if investigators at Steps of Yoth possess 5π clues as a group, an investigator at Steps of Yoth crosses rope off from his or her supplies: Add 1 additional resource to the current depth level. (Max once per game.)"/>
+  </card>
+  <card id="93d0dc54-236b-40c9-abb0-60fac45d6b04" name="City of the Serpents" size="EncounterCard">
+    <property name="Card Number" value="287"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="1π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="While City of the Serpents has no clues on it, it is considered to be in the victory display (for the purposes of counting vengeance)."/>
+  </card>
+  <card id="0b0c6e37-8804-4eb2-a2e3-dfa2b6666114" name="Hall of Heresy" size="EncounterCard">
+    <property name="Card Number" value="288"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="1π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="While an investigator is in Hall of Heresy, it is considered to be in the victory display (for the purposes of counting vengeance)."/>
+  </card>
+  <card id="41fa1d15-e606-486f-bbc0-3c59a68e7ae4" name="Crumbling Precipice" size="EncounterCard">
+    <property name="Card Number" value="289"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="Forced - When you attempt to explore while at Crumbling Precipice: Test ά (4). If you fail, test ί (3). If you fail, test ή (2). If you fail, you fall to your death and are killed. (If you succeed at any of these tests, you explore as usual.)"/>
+  </card>
+  <card id="07ac1e64-3486-4504-b111-359b9049fa2f" name="Caverns of Yoth" size="EncounterCard">
+    <property name="Card Number" value="290"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="1"/>
+    <property name="Clues" value="1π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="Forced - After Caverns of Yoth enters play: Place clues on it equal to the current depth level."/>
+  </card>
+  <card id="b94c4560-7fe7-4d19-aea8-e0cac3781d47" name="Forked Path" size="EncounterCard">
+    <property name="Card Number" value="291"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="2π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="Forced - When you explore while at Forked Path, check your supplies. If you have a map: Continue drawing cards from the exploration deck until you have drawn 2 connecting locations, if able. Put both of those locations into play and choose 1 to move to."/>
+  </card>
+  <card id="84d4bc64-aa84-4ede-a0eb-ab858ad14ded" name="Bridge over N'kai" size="EncounterCard">
+    <property name="Card Number" value="292"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="1π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="Bridge over N'kai gets +1 shroud for each vengeance point in the victory display."/>
+  </card>
+  <card id="1b7152da-96ae-4bd9-a778-23bbcb4a3ed3" name="Broken Passage" size="EncounterCard">
+    <property name="Card Number" value="293"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="Forced - When you explore while at Broken Passage, check your supplies. If you do not have a pickaxe: Place 1 doom on Broken Passage."/>
+  </card>
+  <card id="48708e1a-6021-40d0-ad6c-7d9a5ef894ad" name="Abandoned Site" size="EncounterCard">
+    <property name="Card Number" value="294"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="-2"/>
+    <property name="Clues" value="1π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="X is the current depth level."/>
+  </card>
+  <card id="e6a9042c-94a9-4ee1-b485-c74086f2a36a" name="Bright Canyon" size="EncounterCard">
+    <property name="Card Number" value="295"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="2π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Cave. Yoth."/>
+    <property name="Text" value="Forced - After you enter Bright Canyon, if you are poisoned: Take 1 damage.&#10;&#10;η: Check your supplies. If you have binoculars, discover 2 clues on Bright Canyon. (Group limit once each depth level.)"/>
+  </card>
+  <card id="736032a4-bfdd-408e-8547-5148a271bc34" name="Yig" size="EncounterCard">
+    <property name="Card Number" value="296"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Subtitle" value="The Father of Serpents"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="6"/>
+    <property name="Damage" value="3"/>
+    <property name="Horror" value="3"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Traits" value="Ancient One. Serpent. Elite."/>
+    <property name="Text" value="Hunter. Massive.&#10;&#10;Yig gets +6π health.&#10;&#10;Yig cannot be damaged while there is another ready [[Serpent]] enemy at its location.&#10;&#10;Each other [[Serpent]] enemy at Yig's location gains alert and retaliate."/>
+  </card>
+  <card id="fd16f750-79d2-432a-ad22-410720cd76b0" name="Pit Warden" size="EncounterCard">
+    <property name="Card Number" value="297"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Monster. Serpent."/>
+    <property name="Text" value="Spawn - If Yig is in play, spawn Pit Warden at Yig's location. Otherwise, place Pit Warden in the pursuit area.&#10;&#10;Hunter."/>
+  </card>
+  <card id="47ce8ab2-7c1c-4f16-8940-125a8ba009e1" name="Eater of the Depths" size="EncounterCard">
+    <property name="Card Number" value="298"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="5"/>
+    <property name="Agility" value="X"/>
+    <property name="Health" value="6"/>
+    <property name="Damage" value="3"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Monster."/>
+    <property name="Text" value="Spawn - Put a random set-aside location into play and spawn Eater of the Depths there.&#10;&#10;Hunter. Massive.&#10;&#10;X is the current depth level."/>
+  </card>
+  <card id="7896d01c-88e8-4cd3-b8ba-d5f90e85c7f3" name="Children of Valusia" size="EncounterCard">
+    <property name="Card Number" value="299"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Scheme."/>
+    <property name="Text" value="Revelation - Put Children of Valusia into play next to the agenda deck.&#10;&#10;Each [[Serpent]] enemy gets +1 fight and +1 evade.&#10;&#10;Forced - At the end of the round: Discard 1 copy of Children of Valusia from play. (Max once per round.)"/>
+  </card>
+  <card id="7df4c15d-ddbe-4f7e-967e-7b584a6a864d" name="Lightless Shadow" size="EncounterCard">
+    <property name="Card Number" value="300"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Test ί (1). This test gets +X difficulty, where X is the current depth level. If you fail, take 2 damage."/>
+  </card>
+  <card id="fc7b7c62-7ef8-41c7-8574-27a8cdbeb1d8" name="Bathophobia" size="EncounterCard">
+    <property name="Card Number" value="301"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Test ά (1). This test gets +X difficulty, where X is the current depth level. If you fail, take 2 horror."/>
+  </card>
+  <card id="e9c86453-9774-48e1-8884-24feefa208ab" name="Serpent's Ire" size="EncounterCard">
+    <property name="Card Number" value="302"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Scheme."/>
+    <property name="Text" value="Revelation - If there are no [[Serpent]] enemies in pursuit, Serpent's Ire gains surge. Otherwise, find the [[Serpent]] enemy in pursuit with the highest fight value and spawn it engaged with you. If an enemy is spawned by this effect, test ί (X), where X is that enemy's fight value. If you fail, that enemy immediately attacks you."/>
+  </card>
+  <card id="e672cb77-056e-4f2e-95ba-3a8484e751c7" name="Relic of Ages">
+    <property name="Card Number" value="303"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Subtitle" value="Repossess the Past"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ΰΰΰ"/>
+    <property name="Traits" value="Item. Relic."/>
+    <property name="Text" value="θ Exhaust Relic of Ages: Test ά or έ (4). If you succeed, remove 1 doom from any card in play. (Max one success per game.)"/>
+  </card>
+ </cards>
+</set>
