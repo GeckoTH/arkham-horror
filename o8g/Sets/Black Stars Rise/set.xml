@@ -12,7 +12,7 @@
     <property name="Combat" value="1"/>
     <property name="Skill Icons" value="έή"/>
     <property name="Traits" value="Tactic."/>
-    <property name="Text" value="Fast. Play when you would draw an encounter card during the mythos phase.&#10;Instead, search the top 9 cards of the encounter deck for an enemy, spawn it engaged with you (instead of its normal spawn location), and shuffle the encounter deck. If you cannot, draw the top card of the encounter deck."/>
+    <property name="Text" value="Fast. Play when you would draw an encounter card during the mythos phase.&#10;&#10;Instead, search the top 9 cards of the encounter deck for an enemy, spawn it engaged with you (instead of its normal spawn location), and shuffle the encounter deck. If you cannot, draw the top card of the encounter deck."/>
   </card>
   <card id="26d95465-991f-4886-9ac6-de2abe08138a" name="Stick to the Plan">
     <property name="Card Number" value="264"/>
@@ -22,7 +22,8 @@
     <property name="Level" value="3"/>
     <property name="Cost" value="-"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Permanent. Exceptional.&#10;ι Before you draw your opening hand: Search your deck for up to 3 different Tactic and/or Supply events, and attach them to Stick to the Plan. Shuffle your deck.&#10;Cards attached to Stick to the Plan may be played as if they were in your hand. As an additional cost to play an attached card, exhaust Stick to the Plan."/>
+    <property name="Keywords" value="Permanent. Exceptional."/>
+    <property name="Text" value="ι Before you draw your opening hand: Search your deck for up to 3 different Tactic and/or Supply events, and attach them to Stick to the Plan. Shuffle your deck.&#10;&#10;Cards attached to Stick to the Plan may be played as if they were in your hand. As an additional cost to play an attached card, exhaust Stick to the Plan."/>
   </card>
   <card id="4deadac0-8415-4190-9e25-70624c7a6210" name="Guidance">
     <property name="Card Number" value="265"/>
@@ -47,7 +48,7 @@
     <property name="Skill Icons" value="άέ"/>
     <property name="Slot" value="Arcane"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Uses (3 charges).&#10;θ While an investigator is taking his or her turn, spend 1 charge: Your location gets -2 shroud until the end of this turn. (Limit once per turn.)"/>
+    <property name="Text" value="Uses (3 charges).&#10;&#10;θ While an investigator is taking his or her turn, spend 1 charge: Your location gets -2 shroud until the end of this turn. (Limit once per turn.)"/>
   </card>
   <card id="8ba88c3a-9a34-4b6a-aae5-a2febbc3dd0d" name="Narrow Escape">
     <property name="Card Number" value="267"/>
@@ -59,7 +60,7 @@
     <property name="Agility" value="2"/>
     <property name="Skill Icons" value="ίί"/>
     <property name="Traits" value="Fortune."/>
-    <property name="Text" value="Fast. Play when an enemy makes an attack of opportunity against you.&#10;Cancel that attack. You get +2 skill value for the next skill test you perform this turn."/>
+    <property name="Text" value="Fast. Play when an enemy makes an attack of opportunity against you.&#10;&#10;Cancel that attack. You get +2 skill value for the next skill test you perform this turn."/>
   </card>
   <card id="9f04e6f9-c8fb-4a20-97e9-45b9c1174141" name="Suggestion">
     <property name="Card Number" value="268"/>
@@ -73,7 +74,7 @@
     <property name="Skill Icons" value="άί"/>
     <property name="Slot" value="Arcane"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Uses (3 charges).&#10;η Exhaust Suggestion: Evade. Add your ά value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion.&#10;ι When a non-Elite enemy would attack you, spend 1 charge: Cancel that attack."/>
+    <property name="Text" value="Uses (3 charges).&#10;&#10;η Exhaust Suggestion: Evade. Add your ά value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion.&#10;&#10;ι When a non-Elite enemy would attack you, spend 1 charge: Cancel that attack."/>
   </card>
   <card id="f1a0bd1b-6be0-4d7f-8a9c-da26ebb3061f" name="St. Hubert's Key">
     <property name="Card Number" value="269"/>
@@ -88,7 +89,7 @@
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Charm."/>
-    <property name="Text" value="You get +1 ά, +1 έ, and -2 sanity.&#10;ι When you would be defeated by horror, discard St. Hubert's Key: Immediately heal 2 horror."/>
+    <property name="Text" value="You get +1 ά, +1 έ, and -2 sanity.&#10;&#10;ι When you would be defeated by horror, discard St. Hubert's Key: Immediately heal 2 horror."/>
   </card>
   <card id="1fcbfc2d-8abc-48c1-b262-4857cb40abcf" name="Ward of Protection">
     <property name="Card Number" value="270"/>
@@ -99,7 +100,7 @@
     <property name="Cost" value="1"/>
     <property name="Skill Icons" value="ΰ"/>
     <property name="Traits" value="Spell. Spirit."/>
-    <property name="Text" value="Fast. Play when an investigator at any location draws a non-weakness treachery card.&#10;Cancel that card's revelation effect. Then, take 1 horror."/>
+    <property name="Text" value="Fast. Play when an investigator at any location draws a non-weakness treachery card.&#10;&#10;Cancel that card's revelation effect. Then, take 1 horror."/>
   </card>
   <card id="f38579a6-210e-4437-8944-d8f18b0d2066" name="Arcane Initiate">
     <property name="Card Number" value="271"/>
@@ -115,7 +116,7 @@
     <property name="Skill Icons" value="άή"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Sorcerer."/>
-    <property name="Text" value="Forced - After Arcane Initiate enters play: Place 1 doom or 2 horror on it.&#10;θ Exhaust Arcane Initiate: Search the top 3 cards of your deck for a Spell card and draw it. Shuffle your deck."/>
+    <property name="Text" value="Forced - After Arcane Initiate enters play: Place 1 doom or 2 horror on it.&#10;&#10;θ Exhaust Arcane Initiate: Search the top 3 cards of your deck for a Spell card and draw it. Shuffle your deck."/>
   </card>
   <card id="0c95e29d-5667-45ed-963e-e4693709e66b" name="&quot;Not without a fight!&quot;">
     <property name="Card Number" value="272"/>
@@ -128,7 +129,7 @@
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="άήί"/>
     <property name="Traits" value="Innate."/>
-    <property name="Text" value="Commit to a skill test only if you are engaged with an enemy.&#10;For each enemy engaged with you, &quot;Not without a fight!&quot; gains ά ή ί."/>
+    <property name="Text" value="Commit to a skill test only if you are engaged with an enemy.&#10;&#10;For each enemy engaged with you, &quot;Not without a fight!&quot; gains ά ή ί."/>
   </card>
   <card id="2b551797-e19e-447c-acfc-677c909e109e" name="True Survivor">
     <property name="Card Number" value="273"/>
@@ -146,12 +147,12 @@
     <property name="Encounter Set" value="Black Stars Rise"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;α: -X. X is the highest amount of doom on an agenda in play.&#10;β: Reveal another token. If this token is revealed during an attack or evasion attempt against an enemy with doom on it, this skill test automatically fails instead.&#10;γ: Reveal another token. If you fail, place 1 doom on each agenda.&#10;δ: -2. If you fail, search the encounter deck and discard pile for a Byakhee enemy and draw it."/>
+    <property name="Text" value="Easy / Standard&#10;&#10;α: -X. X is the highest amount of doom on an agenda in play.&#10;&#10;β: Reveal another token. If this token is revealed during an attack or evasion attempt against an enemy with doom on it, this skill test automatically fails instead.&#10;&#10;γ: Reveal another token. If you fail, place 1 doom on each agenda.&#10;&#10;δ: -2. If you fail, search the encounter deck and discard pile for a Byakhee enemy and draw it."/>
     <alternate name="Black Stars Rise" type="B">
       <property name="Encounter Set" value="Black Stars Rise"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;α: -X. X is the total amount of doom on agendas in play.&#10;β: Reveal another token. If there is an enemy with 1 or more doom on it at your location, this test automatically fails instead.&#10;γ: Reveal another token. If you do not succeed by at least 1, place 1 doom on each agenda.&#10;δ: -3. If you fail, search the encounter deck and discard pile for a Byakhee enemy and draw it."/>
+      <property name="Text" value="Hard / Expert&#10;&#10;α: -X. X is the total amount of doom on agendas in play.&#10;&#10;β: Reveal another token. If there is an enemy with 1 or more doom on it at your location, this test automatically fails instead.&#10;&#10;γ: Reveal another token. If you do not succeed by at least 1, place 1 doom on each agenda.&#10;&#10;δ: -3. If you fail, search the encounter deck and discard pile for a Byakhee enemy and draw it."/>
     </alternate>
   </card>
   <card id="e435831f-c721-49a5-988f-1fe5f59cac1c" name="The Tide Rises" size="HorizCard">
@@ -173,7 +174,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Shuffle the encounter discard pile and both set-aside copies of Tidal Terror into the encounter deck.&#10;Check the current &quot;c&quot; agenda.&#10;- If agenda 1c has 2 or fewer doom on it, mark one Conviction in your Campaign Log.&#10;- If agenda 1c has 3 or more doom on it, mark one Doubt in your Campaign Log.&#10;- If agenda 1c is not the current &quot;c&quot; agenda, do not mark any Conviction or Doubt."/>
+      <property name="Text" value="Shuffle the encounter discard pile and both set-aside copies of Tidal Terror into the encounter deck.&#10;&#10;Check the current &quot;c&quot; agenda.&#10;&#10;- If agenda 1c has 2 or fewer doom on it, mark one Conviction in your Campaign Log.&#10;&#10;- If agenda 1c has 3 or more doom on it, mark one Doubt in your Campaign Log.&#10;&#10;- If agenda 1c is not the current &quot;c&quot; agenda, do not mark any Conviction or Doubt."/>
     </alternate>
   </card>
   <card id="fada603a-e868-4c93-9ada-1a2d61e9b43c" name="Let The Storm Rage" size="HorizCard">
@@ -186,7 +187,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="Each copy of Ancient Evils gains surge.&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator gains 2 resources. (Group limit once per round.)"/>
+    <property name="Text" value="Each copy of Ancient Evils gains surge.&#10;&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator gains 2 resources. (Group limit once per round.)"/>
     <alternate name="Worlds Intertwine" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Vortex Above"/>
       <property name="Type" value="Agenda"/>
@@ -195,7 +196,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy in the Abbey Tower.&#10;Check Campaign Log. If Ashleigh Clarke is not listed under &quot;VIPs Slain,&quot; search the collection for Ashleigh Clarke (Songs Die Unheard) and spawn her at Porte de l'Avancée.&#10;Remove the set-aside act 3a card from the game. Advance to agenda 3a.&#10;Your objective lies within the other agenda deck."/>
+      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy in the Abbey Tower.&#10;&#10;Check Campaign Log. If Ashleigh Clarke is not listed under &quot;VIPs Slain,&quot; search the collection for Ashleigh Clarke (Songs Die Unheard) and spawn her at Porte de l'Avancée.&#10;&#10;Remove the set-aside act 3a card from the game. Advance to agenda 3a.&#10;&#10;Your objective lies within the other agenda deck."/>
     </alternate>
   </card>
   <card id="330ea796-9967-4d58-9331-c52a88235d66" name="Let The Storm Rage" size="HorizCard">
@@ -208,7 +209,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="Each copy of Ancient Evils gains surge.&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator gains 2 resources. (Group limit once per round.)"/>
+    <property name="Text" value="Each copy of Ancient Evils gains surge.&#10;&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator gains 2 resources. (Group limit once per round.)"/>
     <alternate name="The Path to Carcosa" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Flood Below"/>
       <property name="Type" value="Agenda"/>
@@ -261,7 +262,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Shuffle the encounter discard pile and both set-aside copies of Rift Seeker into the encounter deck.&#10;Check the current &quot;a&quot; agenda.&#10;- If agenda 1a has 2 or fewer doom on it, mark one Conviction in your Campaign Log.&#10;- If agenda 1a has 3 or more doom on it, mark one Doubt in your Campaign Log.&#10;- If agenda 1a is not the current &quot;a&quot; agenda, do not mark any Conviction or Doubt."/>
+      <property name="Text" value="Shuffle the encounter discard pile and both set-aside copies of Rift Seeker into the encounter deck.&#10;&#10;Check the current &quot;a&quot; agenda.&#10;&#10;- If agenda 1a has 2 or fewer doom on it, mark one Conviction in your Campaign Log.&#10;&#10;- If agenda 1a has 3 or more doom on it, mark one Doubt in your Campaign Log.&#10;&#10;- If agenda 1a is not the current &quot;a&quot; agenda, do not mark any Conviction or Doubt."/>
     </alternate>
   </card>
   <card id="e5af2b0f-1c64-4419-bc1d-4f6b49b027fb" name="The Entity Above" size="HorizCard">
@@ -274,7 +275,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="Each Monster enemy gets +1 fight.&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator draws 1 card. (Group limit once per round.)"/>
+    <property name="Text" value="Each Monster enemy gets +1 fight.&#10;&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator draws 1 card. (Group limit once per round.)"/>
     <alternate name="Worlds Intertwine" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Flood Below"/>
       <property name="Type" value="Agenda"/>
@@ -283,7 +284,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy in the Chapel of St. Aubert.&#10;Check Campaign Log. If Ashleigh Clarke is not listed under &quot;VIPs Slain,&quot; search the collection for Ashleigh Clarke (Songs Die Unheard) and spawn her at Porte de l'Avancée.&#10;Remove the set-aside act 3c card from the game. Advance to agenda 3c.&#10;Your objective lies within the other agenda deck."/>
+      <property name="Text" value="Spawn the set-aside Beast of Aldebaran enemy in the Chapel of St. Aubert.&#10;&#10;Check Campaign Log. If Ashleigh Clarke is not listed under &quot;VIPs Slain,&quot; search the collection for Ashleigh Clarke (Songs Die Unheard) and spawn her at Porte de l'Avancée.&#10;&#10;Remove the set-aside act 3c card from the game. Advance to agenda 3c.&#10;&#10;Your objective lies within the other agenda deck."/>
     </alternate>
   </card>
   <card id="6b5e4477-4b8f-4913-b799-1d2e2b497f6c" name="The Entity Above" size="HorizCard">
@@ -296,7 +297,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="Each Monster enemy gets +1 fight.&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator draws 1 card. (Group limit once per round.)"/>
+    <property name="Text" value="Each Monster enemy gets +1 fight.&#10;&#10;θ The investigators spend 1π clues, as a group: Place 1 doom on this agenda (this effect can cause this agenda to advance). Each investigator draws 1 card. (Group limit once per round.)"/>
     <alternate name="The Path to Carcosa" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Vortex Above"/>
       <property name="Type" value="Agenda"/>
@@ -548,7 +549,7 @@
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
-      <property name="Text" value="If there are two agendas in play with different agenda numbers, Abbey Church gets +2 shroud.&#10;Forced - When Abbey Church is revealed: Put the set-aside Chœur Gothique, Knight's Hall, Cloister, Chapel of St. Aubert, and Abbey Tower locations into play."/>
+      <property name="Text" value="If there are two agendas in play with different agenda numbers, Abbey Church gets +2 shroud.&#10;&#10;Forced - When Abbey Church is revealed: Put the set-aside Chœur Gothique, Knight's Hall, Cloister, Chapel of St. Aubert, and Abbey Tower locations into play."/>
     </alternate>
   </card>
   <card id="6a9f0196-38f7-4043-8661-822c36c59ab4" name="Chœur Gothique" size="EncounterCard">
@@ -645,7 +646,7 @@
       <property name="Shroud" value="3"/>
       <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
-      <property name="Text" value="You can only discover clues in the Chapel of St. Aubert if you have 3 or fewer remaining sanity.&#10;η: Take up to 3 horror."/>
+      <property name="Text" value="You can only discover clues in the Chapel of St. Aubert if you have 3 or fewer remaining sanity.&#10;&#10;η: Take up to 3 horror."/>
     </alternate>
   </card>
   <card id="ee818778-2024-4969-b030-0e5855802f96" name="Chapel of St. Aubert" size="EncounterCard">
@@ -687,7 +688,7 @@
       <property name="Shroud" value="3"/>
       <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
-      <property name="Text" value="You can only discover clues in the Abbey Tower if you have no cards in your hand.&#10;η: Discard up to 3 cards from your hand."/>
+      <property name="Text" value="You can only discover clues in the Abbey Tower if you have no cards in your hand.&#10;&#10;η: Discard up to 3 cards from your hand."/>
     </alternate>
   </card>
   <card id="255c32f0-5c83-41c1-adb6-50c0dddc5fb7" name="Abbey Tower" size="EncounterCard">
@@ -723,7 +724,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="2"/>
     <property name="Traits" value="Monster."/>
-    <property name="Text" value="Spawn - Porte de l'Avancée or Chapel of St. Aubert.&#10;Hunter."/>
+    <property name="Text" value="Spawn - Porte de l'Avancée or Chapel of St. Aubert.&#10;&#10;Hunter."/>
   </card>
   <card id="58d141c9-57fb-4cde-8cb9-adba229e78f7" name="Rift Seeker" size="EncounterCard">
     <property name="Card Number" value="301"/>
@@ -737,7 +738,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Monster. Byakhee. Cultist."/>
-    <property name="Text" value="Forced - After Rift Seeker attacks you: You must either take 1 additional damage and 1 additional horror, or place 1 doom on each agenda in play.&#10;η Place 1 doom on each agenda in play and take 2 horror: Parley. Discard Rift Seeker."/>
+    <property name="Text" value="Forced - After Rift Seeker attacks you: You must either take 1 additional damage and 1 additional horror, or place 1 doom on each agenda in play.&#10;&#10;η Place 1 doom on each agenda in play and take 2 horror: Parley. Discard Rift Seeker."/>
   </card>
   <card id="247c2cdc-5a68-4c69-b25e-a45765dae307" name="Crashing Floods" size="EncounterCard">
     <property name="Card Number" value="302"/>
@@ -746,7 +747,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Omen."/>
-    <property name="Text" value="Revelation - Test ί (3). If you fail:&#10;- If agenda 1a is in play, take 1 damage and lose 1 action.&#10;- If agenda 2a is in play, take 2 damage and lose 2 actions.&#10;- If act 3a or agenda 3a is in play, take 3 damage and lose 3 actions."/>
+    <property name="Text" value="Revelation - Test ί (3). If you fail:&#10;&#10;- If agenda 1a is in play, take 1 damage and lose 1 action.&#10;&#10;- If agenda 2a is in play, take 2 damage and lose 2 actions.&#10;&#10;- If act 3a or agenda 3a is in play, take 3 damage and lose 3 actions."/>
   </card>
   <card id="b538f838-3f1a-4a70-984e-16bcaff53527" name="Worlds Merge" size="EncounterCard">
     <property name="Card Number" value="303"/>
@@ -755,7 +756,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Omen."/>
-    <property name="Text" value="Revelation - Test ά (3). If you fail:&#10;- If agenda 1c is in play, take 1 horror and discard 1 card from your hand.&#10;- If agenda 2c is in play, take 2 horror and discard 2 cards from your hand.&#10;- If act 3c or agenda 3c is in play, take 3 horror and discard 3 cards from your hand."/>
+    <property name="Text" value="Revelation - Test ά (3). If you fail:&#10;&#10;- If agenda 1c is in play, take 1 horror and discard 1 card from your hand.&#10;&#10;- If agenda 2c is in play, take 2 horror and discard 2 cards from your hand.&#10;&#10;- If act 3c or agenda 3c is in play, take 3 horror and discard 3 cards from your hand."/>
   </card>
  </cards>
 </set>

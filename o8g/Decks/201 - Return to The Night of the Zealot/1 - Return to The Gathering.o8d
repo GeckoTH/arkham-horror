@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="28a33b22-2f33-437c-8ca4-3c12e3d86fb2">What's Going On?!</card>
+    <card qty="1" id="4f5e8e19-637e-4d55-964b-05858ca2b898">Rise of the Ghouls</card>
+    <card qty="1" id="32df1a52-6101-4d15-9e9e-5cd7d386c791">They're Getting Out!</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="fb1b854b-b027-4d05-ab6f-c861110f06c7">Mysterious Gateway</card>
+    <card qty="1" id="9eda9a1d-b7a2-4dc8-8e52-acb6abcb6be0">The Barrier</card>
+    <card qty="1" id="8058eaaa-fb32-4a66-9501-8ca13c58e37c">What Have You Done?</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="e499d648-b5b0-4436-9821-becc4ef9f82a">Flesh-Eater</card>
+    <card qty="1" id="aa3d376b-6a82-4168-8ee9-7b50d1442100">Icy Ghoul</card>
+    <card qty="1" id="23361475-086f-491b-b649-c616a96ef554">Corpse-Hungry-Ghoul</card>
+    <card qty="1" id="452a12c3-b50c-44e6-b760-7dcc723c4750">Ghoul from the Depths</card>
+    <card qty="2" id="82b3b9f5-0f00-424a-829d-27e673528b3c">The Zealot's Seal</card>
+    <card qty="3" id="09cbf4b7-0112-49e1-86a5-62b655c433b5">Grave-Eater</card>
+    <card qty="1" id="49146909-d31f-4110-90f7-c75da63c9bfc">Acolyte of Umôrdhoth</card>
+    <card qty="3" id="4b84112d-91ca-4c27-aecd-f1f4953ac7ae">Chill from Below</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="8db65b5a-eb09-4034-9dc8-dd108852047b">Hole in the Wall</card>
+    <card qty="1" id="ebd0f687-cffa-4e23-b15a-81429fd0c3aa">Attic</card>
+    <card qty="1" id="29d5549f-ecca-4f23-8da1-6d9cbddae746">Attic</card>
+    <card qty="1" id="bae88f2a-456b-4822-a9cc-961c2b20d61f">Cellar</card>
+    <card qty="1" id="155a7647-26da-4ed2-a0eb-c62cb52f9a48">Cellar</card>
+    <card qty="1" id="6b29f6b9-13fb-41d5-9d5d-95a7d7243759">Parlor</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="1edc5230-8497-43cf-888b-d255270c9246">The Gathering</card>
+    <card qty="1" id="348b18f3-7de3-487b-89ea-c2aff969758e">Return to The Gathering</card>
+    <card qty="1" id="7219b004-6c68-41f1-8655-676acaa5f97e">Study</card>
+    <card qty="1" id="75defe19-b92c-4532-ae60-f0eafc33d70d">Guest Hall</card>
+    <card qty="1" id="5aff163d-84b7-45c3-b504-b62f4da591c6">Bedroom</card>
+    <card qty="1" id="c9d0339a-9289-4a86-8876-634725d3b293">Bathroom</card>
+    <card qty="1" id="6697716b-1ee1-4bef-9736-3700f7c48678">Far Above Your House</card>
+    <card qty="1" id="560d50f2-aa92-44fa-9ea9-2657b7a12468">Deep Below Your House</card>
+    <card qty="1" id="060db76e-909e-4b71-8798-a9494f29d63b">Ghoul Priest</card>
+    <card qty="1" id="d6eebc23-10bc-4686-9155-4b11783335c4">Lita Chantler</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

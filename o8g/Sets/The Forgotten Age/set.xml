@@ -15,14 +15,14 @@
     <property name="Health" value="8"/>
     <property name="Sanity" value="6"/>
     <property name="Traits" value="Veteran. Wayfarer."/>
-    <property name="Text" value="ι After your turn begins: Play an Ally asset, reducing its cost by 1.&#10;ε effect: +2. Search the top 3 cards of your deck for an Ally asset and draw it. Shuffle your deck."/>
+    <property name="Text" value="ι After your turn begins: Play an [[Ally]] asset, reducing its cost by 1.&#10;&#10;ε effect: +2. Search the top 3 cards of your deck for an [[Ally]] asset and draw it. Shuffle your deck."/>
     <alternate name="Leo Anderson" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Expedition Leader"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Guardian"/>
-      <property name="Traits" value="Veteran. Wayfarer"/>
-      <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Guardian cards (κ) level 0-5, Rogue cards (ν) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count towards deck size): Mitch Brown, Bought in Blood, 1 random basic weakness."/>
+      <property name="Traits" value="Veteran. Wayfarer."/>
+      <property name="Text" value="Deck Size: 30.&#10;&#10;Deckbuilding Options: Guardian cards (κ) level 0-5, Rogue cards (ν) level 0-2, Neutral cards level 0-5.&#10;&#10;Deckbuilding Requirements (do not count towards deck size): Mitch Brown, Bought in Blood, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="085654e5-4d3c-475b-84f5-857e93e19d03" name="Ursula Downs" size="InvestigatorCard">
@@ -39,14 +39,14 @@
     <property name="Health" value="7"/>
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Wayfarer."/>
-    <property name="Text" value="ι After you move to a location: Take an investigate action. (Limit once per round.)&#10;ε effect: +1. After this test ends, you may move to a connecting location."/>
+    <property name="Text" value="ι After you move to a location: Take an investigate action. (Limit once per round.)&#10;&#10;ε effect: +1. After this test ends, you may move to a connecting location."/>
     <alternate name="Ursula Downs" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Explorer"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Seeker"/>
-      <property name="Traits" value="Wayfarer"/>
-      <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Seeker cards (λ) level 0-5, Relic cards level 0-4, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count towards deck size): Jake Williams, Call of the Unknown, 1 random basic weakness."/>
+      <property name="Traits" value="Wayfarer."/>
+      <property name="Text" value="Deck Size: 30.&#10;&#10;Deckbuilding Options: Seeker cards (λ) level 0-5, [[Relic]] cards level 0-4, Neutral cards level 0-5.&#10;&#10;Deckbuilding Requirements (do not count towards deck size): Jake Williams, Call of the Unknown, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="9e5a4bc6-5547-49b9-807e-1c360ff71448" name="Finn Edwards" size="InvestigatorCard">
@@ -63,14 +63,14 @@
     <property name="Health" value="7"/>
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Criminal."/>
-    <property name="Text" value="You may take an additional action during your turn, which can only be used to evade.&#10;ε effect: +1 for each exhausted enemy in play. If you succeed by 2 or more, you may discover 1 clue at your location."/>
+    <property name="Text" value="You may take an additional action during your turn, which can only be used to evade.&#10;&#10;ε effect: +1 for each exhausted enemy in play. If you succeed by 2 or more, you may discover 1 clue at your location."/>
     <alternate name="Finn Edwards" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Bootlegger"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Rogue"/>
       <property name="Traits" value="Criminal."/>
-      <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Illicit cards level 0-5, Rogue cards (ν) level 0-3, Neutral cards level 0-5, up to five other level 0 Seeker and/or Survivor cards (λ and/or ξ).&#10;Deckbuilding Requirements (do not count towards deck size): Smuggled Goods, Finn’s Trusty .38, Caught Red-handed, 1 random basic weakness."/>
+      <property name="Text" value="Deck Size: 30.&#10;&#10;Deckbuilding Options: [[Illicit]] cards level 0-5, Rogue cards (ν) level 0-3, Neutral cards level 0-5, up to five other level 0 Seeker and/or Survivor cards (λ and/or ξ).&#10;&#10;Deckbuilding Requirements (do not count towards deck size): Smuggled Goods, Finn's Trusty .38, Caught Red-handed, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="08983f31-0d22-44d2-a1da-ff7fa0d538cc" name="Father Mateo" size="InvestigatorCard">
@@ -87,14 +87,14 @@
     <property name="Health" value="6"/>
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Believer. Warden."/>
-    <property name="Text" value="ι After an investigator reveals an ζ chaos token: Cancel that token and treat it as an ε token, instead. (Limit once per game.)&#10;ε effect: You automatically succeed. After this test ends, either (choose one):&#10;– Draw 1 card and gain 1 resource.&#10;– If it is your turn, you may take an additional action this turn."/>
+    <property name="Text" value="ι After an investigator reveals an ζ chaos token: Cancel that token and treat it as an ε token, instead. (Limit once per game.)&#10;&#10;ε effect: You automatically succeed. After this test ends, either (choose one):&#10;&#10; - Draw 1 card and gain 1 resource.&#10;&#10; - If it is your turn, you may take an additional action this turn."/>
     <alternate name="Father Mateo" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Priest"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Mystic"/>
       <property name="Traits" value="Believer. Warden."/>
-      <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Blessed cards level 0-3, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count towards deck size): The Codex of Ages, Serpents of Yig, 1 random basic weakness.&#10;Bonus Experience: You begin the campaign with 5 additional experience (this does not affect the number of weaknesses you must take in Standalone Mode)."/>
+      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding options: Mystic cards (μ) level 0-5, [[Blessed]] cards level 0-3, Neutral cards level 0-5.&#10;&#10;Deckbuilding requirements (do not count toward deck size): The Codex of Ages, Serpents of Yig, 1 random basic weakness.&#10;&#10;Bonus Experience: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode)."/>
     </alternate>
   </card>
   <card id="98162f0f-483a-47ee-84bd-d95b06831bd4" name="Calvin Wright" size="InvestigatorCard">
@@ -111,17 +111,17 @@
     <property name="Health" value="6"/>
     <property name="Sanity" value="6"/>
     <property name="Traits" value="Cursed. Drifter."/>
-    <property name="Text" value="You get +1 ά and +1 έ for each horror on you.&#10;You get +1 ή and +1 ί for each damage on you.&#10;ε effect: +0. You may either heal 1 damage or horror, or take 1 direct damage or direct horror."/>
+    <property name="Text" value="You get +1 ά and +1 έ for each horror on you.&#10;&#10;You get +1 ή and +1 ί for each damage on you.&#10;&#10;ε effect: +0. You may either heal 1 damage or horror, or take 1 direct damage or direct horror."/>
     <alternate name="Calvin Wright" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Haunted"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Survivor"/>
       <property name="Traits" value="Cursed. Drifter."/>
-      <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Survivor cards (ξ) level 0-5, Spirit cards level 0-3, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count towards deck size): Until the End of Time, Voice of the Messenger, 1 random basic weakness."/>
+      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding options: Survivor cards (ξ) level 0-5, [[Spirit]] cards level 0-3, Neutral cards level 0-5.&#10;&#10;Deckbuilding requirements (do not count toward deck size): Until the End of Time, Voice of the Messenger, 1 random basic weakness."/>
     </alternate>
   </card>
-  <card id="49f0c59a-54d4-4aa1-a395-e89f385ff771" name="Mich Brown">
+  <card id="49f0c59a-54d4-4aa1-a395-e89f385ff771" name="Mitch Brown">
     <property name="Card Number" value="6"/>
     <property name="Quantity" value="1"/>
     <property name="Subtitle" value="Sole Survivor"/>
@@ -134,7 +134,7 @@
     <property name="Skill Icons" value="ΰΰ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Wayfarer."/>
-    <property name="Text" value="Leo Anderson deck only.&#10;You have 2 additional ally slots, which can only be used to hold non-unique allies."/>
+    <property name="Text" value="Leo Anderson deck only.&#10;&#10;You have 2 additional ally slots, which can only be used to hold non-unique allies."/>
   </card>
   <card id="b226fad1-ccc0-4cd4-a730-cb8d7d68380b" name="Bought in Blood">
     <property name="Card Number" value="7"/>
@@ -143,7 +143,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Flaw."/>
-    <property name="Text" value="Revelation – You must either discard an Ally asset you control from play, or discard each Ally asset from your hand. If no assets are discarded by this effect, shuffle Bought in Blood back into your deck."/>
+    <property name="Text" value="Revelation - You must either discard an [[Ally]] asset you control from play, or discard each [[Ally]] asset from your hand. If no assets are discarded by this effect, shuffle Bought in Blood back into your deck."/>
   </card>
   <card id="ed378f6f-2166-49ed-b380-446df6275e02" name="Jake Williams">
     <property name="Card Number" value="8"/>
@@ -159,7 +159,7 @@
     <property name="Skill Icons" value="έΰ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Wayfarer."/>
-    <property name="Text" value="Ursula Downs deck only.&#10;The first move or investigate action you perform each turn does not provoke attacks of opportunity.&#10;ι After you reveal a location or put a new location into play, exhaust Jake Williams: Draw 1 card."/>
+    <property name="Text" value="Ursula Downs deck only.&#10;&#10;The first move or investigate action you perform each turn does not provoke attacks of opportunity.&#10;&#10;ι After you reveal a location or put a new location into play, exhaust Jake Williams: Draw 1 card."/>
   </card>
   <card id="96b9b8ef-8875-43b9-80f5-3c6c8ce71aba" name="Call of the Unknown">
     <property name="Card Number" value="9"/>
@@ -168,7 +168,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Task."/>
-    <property name="Text" value="Revelation – Put Call of the Unknown into play in your threat area.&#10;Forced – At the beginning of your turn: Choose a location other than your location. When your turn ends, if you did not successfully investigate the chosen location this turn, take 2 horror and shuffle Call of the Unknown back into your deck."/>
+    <property name="Text" value="Revelation - Put Call of the Unknown into play in your threat area.&#10;&#10;Forced - At the beginning of your turn: Choose a location other than your location. When your turn ends, if you did not successfully investigate the chosen location this turn, take 2 horror and shuffle Call of the Unknown back into your deck."/>
   </card>
   <card id="09e7f429-9fa3-45be-887f-e4ac51f8ab22" name="Smuggled Goods">
     <property name="Card Number" value="10"/>
@@ -178,11 +178,12 @@
     <property name="Cost" value="0"/>
     <property name="Skill Icons" value="ΰ"/>
     <property name="Traits" value="Supply. Illicit."/>
-    <property name="Text" value="Finn Edwards deck only.&#10;Play only if you are not engaged with an enemy.&#10;Search either your discard pile or the top 9 cards of your deck for an Illicit card and draw it. If you searched your deck, shuffle Smuggled Goods into your deck."/>
+    <property name="Text" value="Finn Edwards deck only.&#10;&#10;Play only if there are no ready enemies at your location.&#10;&#10;Search either your discard pile or the top 9 cards of your deck for an [[Illicit]] card and draw it. If you searched your deck, shuffle Smuggled Goods into your deck."/>
   </card>
   <card id="9e9db6d9-f51b-4d7b-be5b-ec4f8a50f926" name="Finn's Trusty .38">
     <property name="Card Number" value="11"/>
     <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Never Leave Home Without It"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
@@ -191,7 +192,7 @@
     <property name="Skill Icons" value="ίΰ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
-    <property name="Text" value="Finn Edwards deck only.&#10;Fast. Uses (3 ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. If the attacked enemy is not engaged with you, you deal +1 damage for this attack."/>
+    <property name="Text" value="Finn Edwards deck only. Fast. Uses (3 ammo).&#10;&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. If the attacked enemy is not engaged with you, you deal +1 damage for this attack."/>
   </card>
   <card id="22f2181b-f0b0-47cb-8a25-6cf909707ebe" name="Caught Red-Handed">
     <property name="Card Number" value="12"/>
@@ -200,11 +201,12 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Blunder."/>
-    <property name="Text" value="Revelation – Ready each enemy at your location or a connecting location. Each hunter enemy at a connecting location moves 1 location toward you. If no enemies move as a result of this effect, shuffle Caught Red-Handed back into your deck."/>
+    <property name="Text" value="Revelation - Ready each enemy at your location or a connecting location. Each hunter enemy at a connecting location moves 1 location toward you. If no enemies move as a result of this effect, shuffle Caught Red-Handed back into your deck."/>
   </card>
   <card id="33ae0c43-8b3a-4d77-af32-3ed7cab88259" name="The Codex of Ages">
     <property name="Card Number" value="13"/>
     <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="finis omnium nunc est"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
@@ -213,7 +215,7 @@
     <property name="Skill Icons" value="άΰ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Relic. Tome. Blessed."/>
-    <property name="Text" value="Father Mateo deck only.&#10;Seal (ε). You get +1 ά while there is a token sealed here.&#10;ι When you would reveal a chaos token from the chaos bag, discard The Codex of Ages: Resolve the ε token that was sealed here as if it were just revealed from the chaos bag (instead of revealing a token from the chaos bag)."/>
+    <property name="Text" value="Father Mateo deck only. Seal (ε).&#10;&#10;You get +1 ά while there is a token sealed here.&#10;&#10;ι When you would reveal a chaos token from the chaos bag, discard The Codex of Ages: Resolve the ε token that was sealed here as if it were just revealed from the chaos bag (instead of revealing a token from the chaos bag)."/>
   </card>
   <card id="148ca2da-f2ba-4be3-9a62-acbc2add44d2" name="Serpents of Yig">
     <property name="Card Number" value="14"/>
@@ -227,7 +229,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Serpent."/>
-    <property name="Text" value="Prey – Father Mateo only.&#10;Hunter.&#10;Revelation – Search the chaos bag for the ε chaos token and seal it on Serpents of Yig."/>
+    <property name="Text" value="Prey - Father Mateo only.&#10;&#10;Hunter.&#10;&#10;Revelation - Search the chaos bag for the ε chaos token and seal it on Serpents of Yig."/>
   </card>
   <card id="6b03c20d-c456-403b-9f91-495daed2107e" name="Until the End of Time">
     <property name="Card Number" value="15"/>
@@ -240,7 +242,7 @@
     <property name="Sanity" value="2"/>
     <property name="Skill Icons" value="ήΰ"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Calvin Wright deck only.&#10;Direct damage and direct horror may be assigned to Until the End of Time."/>
+    <property name="Text" value="Calvin Wright deck only.&#10;&#10;Direct damage and direct horror may be assigned to Until the End of Time."/>
   </card>
   <card id="57044336-db1f-4e8c-a547-8db0e2d777af" name="Voice of the Messenger">
     <property name="Card Number" value="16"/>
@@ -249,25 +251,27 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Curse. Pact."/>
-    <property name="Text" value="Revelation – You must either (choose one):&#10;–Take 1 direct damage and suffer 1 physical trauma.&#10;–Take 1 direct horror and suffer 1 mental trauma."/>
+    <property name="Text" value="Revelation - You must either (choose one):&#10;&#10; - Take 1 direct damage and suffer 1 physical trauma.&#10;&#10; - Take 1 direct horror and suffer 1 mental trauma."/>
   </card>
   <card id="071297dd-139f-4c06-bdc0-36579f0e1a4b" name="Survival Knife">
     <property name="Card Number" value="17"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Combat" value="1"/>
     <property name="Skill Icons" value="ή"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Weapon. Melee."/>
-    <property name="Text" value="η: Fight. You get +1 ή for this attack.&#10;ι After an enemy attack deals damage to you during the enemy phase, exhaust Survival Knife: Fight. This attack targets the attacking enemy. You get +2 ή and deal +1 damage for this attack."/>
+    <property name="Text" value="η: Fight. You get +1 ή for this attack.&#10;&#10;ι After an enemy attack deals damage to you during the enemy phase, exhaust Survival Knife: Fight. This attack targets the attacking enemy. You get +2 ή and deal +1 damage for this attack."/>
   </card>
   <card id="2922eaa2-b8ca-4784-970e-7a154ff923d4" name="Venturer">
     <property name="Card Number" value="18"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="4"/>
     <property name="Intellect" value="1"/>
     <property name="Health" value="2"/>
@@ -275,18 +279,19 @@
     <property name="Skill Icons" value="έ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Wayfarer."/>
-    <property name="Text" value="Uses (3 supplies).&#10;θ Spend 1 supply and exhaust Venturer: Place 1 supply or ammo on an asset controlled by an investigator at your location."/>
+    <property name="Text" value="Uses (3 supplies).&#10;&#10;θ Spend 1 supply and exhaust Venturer: Place 1 supply or ammo on an asset controlled by an investigator at your location."/>
   </card>
   <card id="3f0de4d2-244f-4125-8d12-43484818136d" name="Trusted">
     <property name="Card Number" value="19"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
     <property name="Willpower" value="1"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Traits" value="Upgrade."/>
-    <property name="Text" value="Fast. Play only during your turn.&#10;Attach to an Ally asset you control.&#10;Attached asset gets +1 health and +1 sanity."/>
+    <property name="Text" value="Fast. Play only during your turn.&#10;&#10;Attach to an [[Ally]] asset you control.&#10;&#10;Attached asset gets +1 health and +1 sanity."/>
   </card>
   <card id="648d6735-a917-4b21-8041-b7bdd012c4dd" name="Reliable">
     <property name="Card Number" value="20"/>
@@ -298,7 +303,7 @@
     <property name="Intellect" value="1"/>
     <property name="Skill Icons" value="έ"/>
     <property name="Traits" value="Upgrade."/>
-    <property name="Text" value="Fast. Play only during your turn.&#10;Attach to an Item asset you control.&#10;While resolving a triggered ability on attached asset, you get +1 to each of your skills."/>
+    <property name="Text" value="Fast. Play only during your turn.&#10;&#10;Attach to an [[Item]] asset you control.&#10;&#10;While resolving a triggered ability on attached asset, you get +1 to each of your skills."/>
   </card>
   <card id="ce034798-64fd-4a9c-8691-50c3e2477938" name="Dr. Elli Horowitz">
     <property name="Card Number" value="21"/>
@@ -307,6 +312,7 @@
     <property name="Unique" value="ο"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="3"/>
     <property name="Willpower" value="1"/>
     <property name="Health" value="1"/>
@@ -314,7 +320,7 @@
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Assistant."/>
-    <property name="Text" value="ι After Dr. Elli Horowitz enters play: Search the top 9 cards of your deck for a Relic asset and attach it to her. Shuffle your deck.&#10;Each Relic asset attached to Dr. Elli Horowitz does not take up any slots (it is still considered to be in play and under your control)."/>
+    <property name="Text" value="ι After Dr. Elli Horowitz enters play: Search the top 9 cards of your deck for a [[Relic]] asset and attach it to her. Shuffle your deck.&#10;&#10;Each [[Relic]] asset attached to Dr. Elli Horowitz does not take up any slots (it is still considered to be in play and under your control)."/>
   </card>
   <card id="7177aa07-e576-407d-a0ae-2c2e9ea6da57" name="Ancient Stone">
     <property name="Card Number" value="22"/>
@@ -328,7 +334,7 @@
     <property name="Skill Icons" value="έ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Relic."/>
-    <property name="Text" value="η: Investigate. Your location gets +3 shroud for this investigation. If you succeed, discover 1 additional clue at your location, discard Ancient Stone, and record in your Campaign Log that “you have identified the stone.” Next to this, in parentheses, record the difficulty of this skill test."/>
+    <property name="Text" value="η: Investigate. Your location gets +3 shroud for this investigation. If you succeed, discover 1 additional clue at your location, discard Ancient Stone, and record in your Campaign Log that &quot;you have identified the stone.&quot; Next to this, in parentheses, record the difficulty of this skill test."/>
   </card>
   <card id="ffdc9ae3-cbab-4998-8fde-44a84c35611e" name="Tooth of Eztli">
     <property name="Card Number" value="23"/>
@@ -336,23 +342,25 @@
     <property name="Subtitle" value="Mortal Reminder"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="3"/>
     <property name="Willpower" value="1"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Relic."/>
-    <property name="Text" value="You get +1 ά and +1 ί while resolving an ability on a treachery card.&#10;ι After you succeed at a skill test while resolving an ability on a treachery card, exhaust Tooth of Eztli: Draw 1 card."/>
+    <property name="Text" value="You get +1 ά and +1 ί while resolving an ability on a treachery card.&#10;&#10;ι After you succeed at a skill test while resolving an ability on a treachery card, exhaust Tooth of Eztli: Draw 1 card."/>
   </card>
   <card id="f325bfbf-5715-4c8f-8607-01d52a87e344" name="Unearth the Ancients">
     <property name="Card Number" value="24"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
     <property name="Intellect" value="2"/>
     <property name="Skill Icons" value="έέ"/>
     <property name="Traits" value="Insight."/>
-    <property name="Text" value="Investigate. Choose a λ asset in your hand. The difficulty of this skill test is equal to the chosen asset’s printed cost. If you succeed, instead of discovering clues, put the chosen asset into play. If that asset has the Relic trait, draw 1 card."/>
+    <property name="Text" value="Investigate. Choose a λ asset in your hand. The difficulty of this skill test is equal to the chosen asset's printed cost. If you succeed, instead of discovering clues, put the chosen asset into play. If that asset has the [[Relic]] trait, draw 1 card."/>
   </card>
   <card id="c5c0118e-1eda-46e5-978b-26451f83b1ff" name="Treasure Hunter">
     <property name="Card Number" value="25"/>
@@ -362,10 +370,12 @@
     <property name="Level" value="1"/>
     <property name="Cost" value="1"/>
     <property name="Intellect" value="1"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="2"/>
     <property name="Skill Icons" value="έ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Wayfarer."/>
-    <property name="Text" value="You get +1 έ.&#10;Forced – At the end of the upkeep phase: You must either pay 1 resource or discard Treasure Hunter."/>
+    <property name="Text" value="You get +1 έ.&#10;&#10;Forced - At the end of the upkeep phase: You must either pay 1 resource or discard Treasure Hunter."/>
   </card>
   <card id="bfec127a-821d-4603-89c0-9cb188e310c2" name="Decorated Skull">
     <property name="Card Number" value="26"/>
@@ -373,22 +383,24 @@
     <property name="Subtitle" value="Doom Begets Doom"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="0"/>
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ί"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Relic. Cursed."/>
-    <property name="Text" value="Uses (0 charges).&#10;ι After an investigator, Ally asset, or enemy at your location is defeated: Place 1 resource (from the token bank) on Decorated Skull, as a charge.&#10;η Spend 1 charge: Draw 1 card and gain 1 resource."/>
+    <property name="Text" value="Uses (0 charges).&#10;&#10;ι After an investigator, [[Ally]] asset, or enemy at your location is defeated: Place 1 resource (from the token bank) on Decorated Skull, as a charge.&#10;&#10;η Spend 1 charge: Draw 1 card and gain 1 resource."/>
   </card>
   <card id="28028b2d-a2d9-45d3-b01c-77710f5f8016" name="Eavesdrop">
     <property name="Card Number" value="27"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
     <property name="Intellect" value="1"/>
     <property name="Agility" value="1"/>
-    <property name="Skill Icons" value="έί"/>
+    <property name="Skill Icons" value="ίέ"/>
     <property name="Traits" value="Insight. Trick."/>
     <property name="Text" value="Choose an unengaged enemy at your location. Test έ (X), where X is the evade value of the chosen enemy. If you succeed, discover 2 clues at your location."/>
   </card>
@@ -397,24 +409,26 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="0"/>
     <property name="Intellect" value="1"/>
     <property name="Agility" value="1"/>
-    <property name="Skill Icons" value="έί"/>
+    <property name="Skill Icons" value="ίέ"/>
     <property name="Traits" value="Trick."/>
-    <property name="Text" value="Fast. Play after you draw a non-peril encounter card, but before resolving that card’s effects.&#10;Choose another investigator. That investigator is considered to have drawn that encounter card instead. Gain 1 resource."/>
+    <property name="Text" value="Fast. Play after you draw a non-peril encounter card, but before resolving that card's effects.&#10;&#10;Choose another investigator. That investigator is considered to have drawn that encounter card instead. Gain 1 resource."/>
   </card>
   <card id="d271e127-2cc4-4553-a5f6-5107236100d5" name="Mists of R'lyeh">
     <property name="Card Number" value="29"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ί"/>
     <property name="Slot" value="Arcane"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Uses (4 charges).&#10;η Spend 1 charge: Evade. This evasion attempt uses ά instead of ί. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a α, β, γ, δ, or ζ symbol is revealed during this evasion attempt, choose and discard a card from your hand."/>
+    <property name="Text" value="Uses (4 charges).&#10;&#10;η Spend 1 charge: Evade. This evasion attempt uses ά instead of ί. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a α, β, γ, δ, or ζ symbol is revealed during this evasion attempt, choose and discard a card from your hand."/>
   </card>
   <card id="57860818-e764-4e7b-91be-21c744ad22c8" name="The Chthonian Stone">
     <property name="Card Number" value="30"/>
@@ -423,12 +437,13 @@
     <property name="Unique" value="ο"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="3"/>
     <property name="Intellect" value="1"/>
     <property name="Skill Icons" value="έ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Relic. Cursed."/>
-    <property name="Text" value="Seal (α, β, γ, or δ).&#10;Forced – After you reveal an ζ symbol during a skill test: Return The Chthonian Stone to your hand."/>
+    <property name="Text" value="Seal (α, β, γ, or δ).&#10;&#10;Forced - After you reveal an ζ symbol during a skill test: Return The Chthonian Stone to your hand."/>
   </card>
   <card id="d0830ae8-fa1a-4fd4-9ab6-414e65e02464" name="Protective Incantation">
     <property name="Card Number" value="31"/>
@@ -441,39 +456,42 @@
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Arcane"/>
     <property name="Traits" value="Ritual. Blessed."/>
-    <property name="Text" value="Group limit 2 copies of Protective Incantation in play.&#10;Seal (any except ζ).&#10;Forced – At the end of your turn: You must either spend 1 resource or discard Protective Incantation."/>
+    <property name="Text" value="Group limit 2 copies of Protective Incantation in play.&#10;&#10;Seal (any except ζ).&#10;&#10;Forced - At the end of your turn: You must either spend 1 resource or discard Protective Incantation."/>
   </card>
   <card id="1361a141-20f1-49eb-b466-7dd2856ec15d" name="Dark Prophecy">
     <property name="Card Number" value="32"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
     <property name="Willpower" value="1"/>
     <property name="Agility" value="1"/>
-    <property name="Skill Icons" value="άί"/>
+    <property name="Skill Icons" value="ίά"/>
     <property name="Traits" value="Augury."/>
-    <property name="Text" value="Fast. Play when you would reveal a chaos token.&#10;Reveal 5 chaos tokens instead of 1. Choose one of those tokens with a α, β, γ, δ, or ζ symbol to resolve, and ignore the rest. (If no such token is revealed, choose any one of those tokens to resolve, and ignore the rest.)"/>
+    <property name="Text" value="Fast. Play when you would reveal a chaos token.&#10;&#10;Reveal 5 chaos tokens instead of 1. Choose one of those tokens with a α, β, γ, δ, or ζ symbol to resolve, and ignore the rest. (If no such token is revealed, choose any one of those tokens to resolve, and ignore the rest.)"/>
   </card>
   <card id="38e51b29-b8ec-43b9-8668-d284dd7ed06f" name="Improvised Weapon">
     <property name="Card Number" value="33"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
     <property name="Traits" value="Tactic. Improvised."/>
-    <property name="Text" value="You may play Improvised Weapon from your discard pile. If you do, shuffle it into your deck after resolving its effects.&#10;Fight. The attacked enemy gets –1 fight for this attack. (If you played Improvised Weapon from your discard pile, this attack deals +1 damage.)"/>
+    <property name="Text" value="You may play Improvised Weapon from your discard pile. If you do, shuffle it into your deck after resolving its effects.&#10;&#10;Fight. The attacked enemy gets -1 fight for this attack. (If you played Improvised Weapon from your discard pile, this attack deals +1 damage.)"/>
   </card>
   <card id="7fd1157f-32b6-46a0-a0b8-d64c5f6e34b0" name="Dumb Luck">
     <property name="Card Number" value="34"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Agility" value="2"/>
     <property name="Skill Icons" value="ίί"/>
     <property name="Traits" value="Fortune."/>
-    <property name="Text" value="Fast. Play after you fail a skill test by 2 or less during an evasion attempt against a non-Elite enemy.&#10;Place that enemy on top of the encounter deck."/>
+    <property name="Text" value="Fast. Play after you fail a skill test by 2 or less during an evasion attempt against a non-[[Elite]] enemy.&#10;&#10;Place that enemy on top of the encounter deck."/>
   </card>
   <card id="2f93c268-b201-4e83-ae34-b5b009296a8e" name="Yaotl">
     <property name="Card Number" value="35"/>
@@ -490,28 +508,30 @@
     <property name="Skill Icons" value="ά"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Wayfarer."/>
-    <property name="Text" value="θ Exhaust Yaotl: During this skill test, you get a bonus to each skill equal to the number of matching skill icons on the top card of your discard pile (not counting ΰ icons).&#10;θ: Discard the top card of your deck. (Limit once per turn.)"/>
+    <property name="Text" value="θ Exhaust Yaotl: During this skill test, you get a bonus to each skill equal to the number of matching skill icons on the top card of your discard pile (not counting ΰ icons).&#10;&#10;θ: Discard the top card of your deck. (Limit once per turn.)"/>
   </card>
   <card id="fc7e359f-8979-490a-bd24-a810c1ed9253" name="Last Chance">
     <property name="Card Number" value="36"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
     <property name="Skill Icons" value="ΰΰΰΰΰ"/>
     <property name="Traits" value="Gambit."/>
-    <property name="Text" value="Commit only to a skill test with no other cards committed to it. Other cards cannot be committed to this skill test.&#10;Last Chance loses ΰ for each card in your hand."/>
+    <property name="Text" value="Commit only to a skill test with no other cards committed to it. Other cards cannot be committed to this skill test.&#10;&#10;Last Chance loses ΰ for each card in your hand."/>
   </card>
   <card id="78abaa4c-d90b-4e4f-a14f-38ac41ae4904" name="Backpack">
     <property name="Card Number" value="37"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ί"/>
     <property name="Slot" value="Body"/>
     <property name="Traits" value="Item."/>
-    <property name="Text" value="ι After Backpack enters play: Search the top 6 cards of your deck for up to 3 non-weakness Item or Supply cards, and attach them facedown to Backpack. Shuffle your deck.&#10;Cards attached to Backpack may be played as if they were in your hand. If there are no cards attached to Backpack, discard it."/>
+    <property name="Text" value="ι After Backpack enters play: Search the top 6 cards of your deck for up to 3 non-weakness [[Item]] or [[Supply]] cards, and attach them facedown to Backpack. Shuffle your deck.&#10;&#10;Cards attached to Backpack may be played as if they were in your hand. If there are no cards attached to Backpack, discard it."/>
   </card>
   <card id="d2a6e29c-05d8-44d1-8359-87eee3f68597" name="Dark Pact">
     <property name="Card Number" value="38"/>
@@ -520,8 +540,8 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Cost" value="2"/>
-    <property name="Traits" value="Pact."/>
-    <property name="Text" value="Campaign Mode only.&#10;Deal 2 damage to an investigator at your location.&#10;Forced – When the game ends or you are eliminated, if Dark Pact is still in your hand: Remove Dark Pact from your deck. Search the collection for The Price of Failure and add it to your deck."/>
+    <property name="Traits" value="Pact"/>
+    <property name="Text" value="Campaign Mode only.&#10;&#10;Deal 2 damage to an investigator at your location.&#10;&#10;Forced - When the game ends or you are eliminated, if Dark Pact is still in your hand: Remove Dark Pact from your deck. Search the collection for The Price of Failure and add it to your deck."/>
   </card>
   <card id="c993d3ba-4af0-4ca6-b1c9-b2b1e4162b2f" name="The Price of Failure">
     <property name="Card Number" value="39"/>
@@ -529,8 +549,8 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
-    <property name="Traits" value="Pact."/>
-    <property name="Text" value="Revelation – Take 2 damage and 2 horror. Place 1 doom on the current agenda (this effect can cause the current agenda to advance). Remove The Price of Failure from your deck. Search the collection for Dark Pact and place it in your discard pile."/>
+    <property name="Traits" value="Pact"/>
+    <property name="Text" value="Revelation - Take 2 damage and 2 horror. Place 1 doom on the current agenda (this effect can cause thee current agenda to advance). Remove The Price of Failure from your deck. Search the collection for Dark Pact and place it in your discard pile."/>
   </card>
   <card id="14254816-3365-4c12-bb9f-02ba35920333" name="Doomed">
     <property name="Card Number" value="40"/>
@@ -539,7 +559,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Campaign Mode only.&#10;Revelation – Take 1 horror. In your Campaign Log, under your investigator’s earned story assets/weaknesses, record that “doom approaches.” If this was already recorded, remove Doomed from your deck, search the collection for Accursed Fate, and place it on the bottom of your deck."/>
+    <property name="Text" value="Campaign Mode only.&#10;&#10;Revelation - Take 1 horror. In your Campaign Log, under your investigator's earned story assets/weaknesses, record that &quot;doom approaches.&quot; If this was already recorded, remove Doomed from your deck, search the collection for Accursed Fate, and place it on the bottom of your deck."/>
   </card>
   <card id="63481a59-ebe6-41dd-a15e-ad374cb62d8e" name="Accursed Fate">
     <property name="Card Number" value="41"/>
@@ -548,7 +568,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Revelation – Take 2 horror. In your Campaign Log, under your investigator’s earned story assets/weaknesses, record that “the hour is nigh.” If this was already recorded, remove Accursed Fate from your deck, search the collection for The Bell Tolls, and place it on the bottom of your deck."/>
+    <property name="Text" value="Revelation - Take 2 horror. In your Campaign Log, under your investigator's earned story assets/weaknesses, record that &quot;the hour is nigh.&quot; If this was already recorded, remove Accursed Fate from your deck, search the collection for The Bell Tolls, and place it on the bottom of your deck."/>
   </card>
   <card id="7e128568-d28c-436f-9c73-1b5f6b3e40ee" name="The Bell Tolls">
     <property name="Card Number" value="42"/>
@@ -557,22 +577,20 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Revelation – The hour of your demise has arrived. You are killed."/>
+    <property name="Text" value="Revelation - The hour of your demise has arrived. You are killed."/>
   </card>
   <card id="6ea63fe0-6d47-49f8-aded-c891b70b6c63" name="The Untamed Wilds">
     <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Untamed Wilds"/>
-    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="α : –X. X is the number of vengeance points in the victory display.&#10;β: –X. X is the number of locations in play (max 5).&#10;γ: –X. X is the number of cards in the exploration deck (max 5).&#10;δ: –2. If you are poisoned, this test automatically fails instead."/>
+    <property name="Text" value="Easy / Standard&#10;&#10;α: -X. X is the number of vengeance points in the victory display.&#10;&#10;β: -X. X is the number of locations in play (max 5).&#10;&#10;γ: -X. X is the number of cards in the exploration deck (max 5).&#10;&#10;δ: -2. If you are poisoned, this test automatically fails instead."/>
     <alternate name="The Untamed Wilds" type="B">
       <property name="Encounter Set" value="The Untamed Wilds"/>
-      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="α : –X. X is 1 higher than the number of vengeance points in the victory display.&#10;β: –X. X is the number of locations in play.&#10;γ: –X. X is the number of cards in the exploration deck (min 3).&#10;δ: –3. If you are poisoned, this test automatically fails instead. If you are not poisoned and you fail, put a set-aside Poisoned weakness into play in your threat area."/>
+      <property name="Text" value="Hard / Expert&#10;&#10;α: -X. X is 1 higher than the number of vengeance points in the victory display.&#10;&#10;β: -X. X is the number of locations in play.&#10;&#10;γ: -X. X is the number of cards in the exploration deck (min 3).&#10;&#10;δ: -3. If you are poisoned, this test automatically fails instead. If you are not poisoned and you fail, put a set-aside Poisoned weakness into play in your threat area."/>
     </alternate>
   </card>
   <card id="cf16a4b5-94ef-48af-8493-39999789746f" name="Expedition into the Wild" size="HorizCard">
@@ -594,7 +612,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Shuffle the encounter discard pile and the set-aside Agents of Yig encounter set into the encounter deck.&#10;Each investigator tests ά (3). Each investigator who fails performs the following, in order: — If you are poisoned, take 1 damage and 1 horror. — If you are not poisoned, put a set-aside Poisoned weakness into play in your threat area."/>
+      <property name="Text" value="Shuffle the encounter discard pile and the set-aside Agents of Yig encounter set into the encounter deck.&#10;&#10;Each investigator tests ά (3). Each investigator who fails performs the following, in order:&#10;&#10;- If you are poisoned, take 1 damage and 1 horror.&#10;&#10;- If you are not poisoned, put a set-aside Poisoned weakness into play in your threat area."/>
     </alternate>
   </card>
   <card id="9156e93a-8c28-4ec3-aae0-ab1ecfa166a0" name="Intruders" size="HorizCard">
@@ -629,7 +647,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – When the round ends, investigators at any non-Campsite locations may spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - When the round ends, investigators at any non-[[Campsite]] locations may spend the requisite number of clues, as a group, to advance."/>
     <alternate name="The Natives" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Untamed Wilds"/>
       <property name="Type" value="Act"/>
@@ -638,7 +656,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Put the set-aside Ichtaca enemy into play at the lead investigator’s location.&#10;Shuffle the encounter discard pile into the encounter deck."/>
+      <property name="Text" value="Put the set-aside Ichtaca enemy into play at the lead investigator's location.&#10;&#10;Shuffle the encounter discard pile into the encounter deck."/>
     </alternate>
   </card>
   <card id="bf9a29c5-c5c9-453c-abd7-705d1abedad4" name="Huntress of the Eztli" size="HorizCard">
@@ -651,7 +669,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – If Ichtaca is defeated, advance.&#10;Objective – If there are 1π clues on Ichtaca, place her in the victory display and advance."/>
+    <property name="Text" value="Objective - If Ichtaca is defeated, advance.&#10;&#10;Objective - If there are 1π clues on Ichtaca, place her in the victory display and advance."/>
     <alternate name="Ichtaca's Response" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Untamed Wilds"/>
       <property name="Type" value="Act"/>
@@ -660,7 +678,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If Ichtaca has 1π clues on her: Remember that “Ichtaca is leading the way.” Add 1 β token to the chaos bag for the remainder of the campaign. Shuffle the 3 set-aside Ruins locations into the exploration deck and advance to Act 3a—“Search for the Ruins.”&#10;If you defeated Ichtaca: Remember that “you fought with Ichtaca.” Choose an investigator to take control of the set-aside Alejandro Vela asset. Add 1 γ token to the chaos bag for the remainder of the campaign. Shuffle the 3 set-aside Ruins locations into the exploration deck and advance to Act 3a—“The Guarded Ruins.”"/>
+      <property name="Text" value="If Ichtaca has 1π clues on her:&#10;&#10;&quot;Interesting. You are not simply here to shed blood,&quot; Ichtaca says with a spark of wonder in her voice, and you are stunned to hear her speaking in perfect English.&#10;&#10;Remember that &quot;Ichtaca is leading the way.&quot; Add 1 β token to the chaos bag for the remainder of the campaign.&#10;&#10;Shuffle the 3 set-aside [[Ruins]] locations into the exploration deck and advance to Act 3 - &quot;Search for the Ruins.&quot;&#10;&#10;If you defeated Ichtaca:&#10;&#10;&quot;Fools!&quot; Ichtaca shouts to you with a pained voice. &quot;You do not understand the forces you are meddling with. If you truly wish to die, you will find the temple over the river to the south.&quot;&#10;&#10;Remember that &quot;you fought with Ichtaca.&quot; Choose an investigator to take control of the set-aside Alejandro Vela asset. Add 1 γ token to the chaos bag for the remainder of the campaign.&#10;&#10;Shuffle the 3 set-aside [[Ruins]] locations into the exploration deck and advance to Act 3a - &quot;The Guarded Ruins.&quot;"/>
     </alternate>
   </card>
   <card id="8c8bbc06-beec-46e9-be4d-b332167db610" name="Search for the Ruins" size="HorizCard">
@@ -671,9 +689,9 @@
     <property name="Class" value="Mythos"/>
     <property name="Level" value="3"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="2π"/>
+    <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Each Eztli Guardian enemy cannot attack or be attacked. Ignore the effects of each Arrows from the Trees treachery.&#10;Objective – Only investigators at the Ruins of Eztli can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Each Eztli Guardian enemy cannot attack or be attacked. Ignore the effects of each Arrows from the Trees treachery.&#10;&#10;Objective - Only investigators at the Ruins of Eztli can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Discovery of a Lifetime" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Untamed Wilds"/>
       <property name="Type" value="Act"/>
@@ -695,7 +713,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Each Eztli Guardian enemy gets +1 fight and +1 evade. Each Arrows from the Trees treachery gains surge.&#10;Objective – Only investigators at the Ruins of Eztli can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Each Eztli Guardian enemy gets +1 fight and +1 evade. Each Arrows from the Trees treachery gains surge.&#10;&#10;Objective - Only investigators at the Ruins of Eztli can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Discovery of a Lifetime" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Untamed Wilds"/>
       <property name="Type" value="Act"/>
@@ -725,7 +743,7 @@
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Campsite. Jungle."/>
-      <property name="Text" value="η: Resign. The wilds are too dangerous!&#10;η: Check your supplies. If you have a map, look at the top 3 cards of the exploration deck. Place 1 on the bottom and the other 2 on top, in any order."/>
+      <property name="Text" value="η: Resign. The wilds are too dangerous!&#10;&#10;η: Check your supplies. If you have a map, look at the top 3 cards of the exploration deck. Place 1 on the bottom and the other 2 on top, in any order."/>
     </alternate>
   </card>
   <card id="1f751654-9485-433c-a9e4-d989155a316f" name="Alejandro Vela">
@@ -741,10 +759,10 @@
     <property name="Intellect" value="1"/>
     <property name="Health" value="2"/>
     <property name="Sanity" value="2"/>
-    <property name="Skill Icons" value="άέΰ"/>
+    <property name="Skill Icons" value="έάΰ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Wayfarer."/>
-    <property name="Text" value="You get +1 skill value while investigating an Ancient location.&#10;η If you are at an Ancient location, exhaust Alejandro Vela: Draw 2 cards."/>
+    <property name="Text" value="You get +1 skill value while investigating an [[Ancient]] location.&#10;&#10;η If you are at an [[Ancient]] location, exhaust Alejandro Vela: Draw 2 cards."/>
   </card>
   <card id="882f22d1-b171-4c18-8379-8a5e5e1d1a6d" name="Ichtaca" size="EncounterCard">
     <property name="Card Number" value="52"/>
@@ -760,8 +778,7 @@
     <property name="Damage" value="2"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Eztli. Elite."/>
-    <property name="Keywords" value="Alert. Retaliate."/>
-    <property name="Text" value="η: Parley. Test έ (4) to convince Ichtaca you are not her enemy. If you succeed, place 1 clue (from the token bank) on her. If you fail and Ichtaca is ready, she attacks you.&#10;Victory 1."/>
+    <property name="Text" value="Alert. Retaliate.&#10;&#10;η: Parley. Test έ (4) to convince Ichtaca you are not her enemy. If you succeed, place 1 clue on her. If you fail and Ichtaca is ready, she attacks you."/>
   </card>
   <card id="e99a8289-8797-4ac9-9ad5-dd1d10ca4827" name="Ruins of Eztli" size="EncounterCard">
     <property name="Card Number" value="53"/>
@@ -774,22 +791,20 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Ancient. Ruins."/>
-    <property name="Text" value="After you fail a skill test while investigating Ruins of Eztli: Draw the top card of the encounter deck.&#10;Victory 2."/>
+    <property name="Text" value="Forced - After you fail a skill test while investigating Ruins of Eztli: Draw the top card of the encounter deck."/>
   </card>
   <card id="879c1767-bb80-4859-876a-264845386d78" name="The Doom of Eztli">
     <property name="Card Number" value="54"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Doom of Eztli"/>
-    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="α : –1 (–3 instead if there is doom on your location).&#10;β or γ: –X. X is the number of locations with doom on them.&#10;δ: Reveal another chaos token. If you fail, place 1 doom on your location."/>
+    <property name="Text" value="Easy / Standard&#10;&#10;α: -1 (-3 instead if there is doom on your location).&#10;&#10;β γ: -X. X is the number of locations with doom on them.&#10;&#10;δ: Reveal another chaos token. If you fail, place 1 doom on your location."/>
     <alternate name="The Doom of Eztli" type="B">
       <property name="Encounter Set" value="The Doom of Eztli"/>
-      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="α : –2 (–4 instead if there is doom on your location).&#10;β or γ: –X. X is the total amount of doom on locations in play.&#10;δ: Reveal another chaos token. Place 1 doom on your location."/>
+      <property name="Text" value="Hard / Expert&#10;&#10;α: -2 (-4 instead if there is doom on your location).&#10;&#10;β γ: -X. X is the total amount of doom on locations in play.&#10;&#10;δ: Reveal another chaos token. Place 1 doom on your location."/>
     </alternate>
   </card>
   <card id="e8557d55-2e3e-4ecd-bea1-25560e5055c9" name="Something Stirs…" size="HorizCard">
@@ -801,8 +816,8 @@
     <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
-    <property name="Doom" value="6*"/>
-    <property name="Text" value="*This agenda gets +1π doom threshold.&#10;Forced – When this agenda advances: Do not remove doom from each location in play."/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="*This agenda gets +1π doom threshold.&#10;&#10;Forced - When this agenda advances: Do not remove doom from each location in play."/>
     <alternate name="The Ruins Awaken" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Doom of Eztli"/>
       <property name="Type" value="Agenda"/>
@@ -823,7 +838,7 @@
     <property name="Level" value="2"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
-    <property name="Doom" value="12*"/>
+    <property name="Doom" value="12"/>
     <property name="Text" value="*This agenda gets +1π doom threshold."/>
     <alternate name="Catastrophic Ruin" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Doom of Eztli"/>
@@ -855,7 +870,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Shuffle the set-aside Chamber of Time location into the exploration deck.&#10;Check your supplies. If any investigator has chalk, remove this act from the game. Otherwise, place this act in the victory display. It gains Vengeance 1."/>
+      <property name="Text" value="Shuffle the set-aside Chamber of Time location into the exploration deck.&#10;&#10;As you pass the strange glyphs in the walls, the ruins groan and creak in protest, and the carvings glow ominously. Years of deterioration have faded the pattern of these glyphs, and the surrounding stones seep with a venomous pus. If only you had some way to restore these glyphs…&#10;&#10;Check your supplies. If any investigator has chalk, remove this act from the game. Otherwise, place this act in the victory display. It gains Vengeance 1."/>
     </alternate>
   </card>
   <card id="15a7ae40-ec24-4d7d-b594-1a6063eb5a2e" name="Magic and Science" size="HorizCard">
@@ -868,7 +883,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;Objective – Only investigators in the Chamber of Time may spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;&#10;Objective - Only investigators in the Chamber of Time may spend the requisite number of clues, as a group, to advance."/>
     <alternate name="The Relic" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Doom of Eztli"/>
       <property name="Type" value="Act"/>
@@ -877,7 +892,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Choose an investigator in the Chamber of Time to take control of the Relic of Ages.&#10;Move the placement of each location to form a straight line, with the Chamber of Time on the left and the Entryway on the right. Each other location is placed from left to right in between these two locations, in order of how much doom is on them, from lowest to highest (in the event of a tie, you may decide the order).&#10;Until the end of the scenario, ignore all location connections. Instead, each location is connected to each location to its left and right."/>
+      <property name="Text" value="Choose an investigator in the Chamber of Time to take control of the Relic of Ages.&#10;&#10;Move the placement of each location to form a straight line, with the Chamber of Time on the left and the Entryway on the right. Each other location is placed from left to right in between these two locations, in order of how much doom is on them, from lowest to highest (in the event of a tie, you may decide the order).&#10;&#10;Until the end of the scenario, ignore all location connections. Instead, each location is connected to each location to its left and right."/>
     </alternate>
   </card>
   <card id="d174a49b-479f-431c-91ac-0d56b328dff8" name="Escape the Ruins" size="HorizCard">
@@ -890,7 +905,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="While there are 3 or more vengeance points in the victory display, each Serpent enemy gets +1 evade.&#10;Objective – If each undefeated investigator has resigned, advance."/>
+    <property name="Text" value="While there are 3 or more vengeance points in the victory display, each [[Serpent]] enemy gets +1 evade.&#10;&#10;Objective - If each undefeated investigator has resigned, advance."/>
     <alternate name="Avoiding Doom" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Doom of Eztli"/>
       <property name="Type" value="Act"/>
@@ -899,7 +914,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If an investigator resigned with the Relic of Ages under his or her control: (->R1)&#10;Otherwise:(->R3)"/>
+      <property name="Text" value="If an investigator resigned with the Relic of Ages under his or her control:&#10;&#10;The floor of the temple stops shaking, and the dull humming in the walls goes quiet. Without the relic in its chamber, the ruins appear to be sleeping once more. You still have no idea what the object is or what its purpose may be, but you dare not tarry any longer to find out.&#10;&#10;(->R1)&#10;&#10;Otherwise:&#10;&#10;For a moment, the temple continues to shudder, the architecture twisting and contorting strangely. Pleased that it is once again whole, the temple then returns to its dormant state.&#10;&#10;(->R3)"/>
     </alternate>
   </card>
   <card id="638c7211-68ec-451d-b38c-c2398126090d" name="Entryway" size="EncounterCard">
@@ -920,14 +935,14 @@
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ancient. Ruins."/>
-      <property name="Text" value="η: Resign. You’ve escaped…for now.&#10;η: Check your supplies. If you have torches, look at the top 2 cards of the exploration deck. Discard each treachery looked at by this effect. Shuffle the exploration deck."/>
+      <property name="Text" value="η: Resign. You've escaped… for now.&#10;&#10;η: Check your supplies. If you have torches, look at the top 2 cards of the exploration deck. Discard each treachery looked at by this effect. Shuffle the exploration deck."/>
     </alternate>
   </card>
   <card id="3e73a9f2-c47b-4cf4-b05a-810f19432a49" name="Relic of Ages">
     <property name="Card Number" value="61"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Doom of Eztli"/>
-    <property name="Subtitle" value="… A Device, of Some Sort"/>
+    <property name="Subtitle" value="…A Device, of Some Sort"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
@@ -949,8 +964,7 @@
     <property name="Damage" value="2"/>
     <property name="Horror" value="2"/>
     <property name="Traits" value="Humanoid. Monster. Serpent. Elite."/>
-    <property name="Keywords" value="Alert. Hunter. Retaliate."/>
-    <property name="Text" value="Harbinger of Valusia can retaliate while exhausted.&#10;Forced – After Harbinger of Valusia is successfully attacked or evaded: Place 1 resource on it. Then, if there are 2π resources on it, it vanishes with a sinister hiss. (Set it aside, out of play. It keeps all damage tokens.)&#10;Vengeance 5."/>
+    <property name="Text" value="Alert. Hunter. Retaliate.&#10;&#10;Harbinger of Valusia can retaliate while exhausted.&#10;&#10;Forced - After Harbinger of Valusia is successfully attacked or evaded: Place 1 resource on it. Then, if there are 2π resources on it, it vanishes with a sinister hiss. (Set it aside, out of play. It keeps all damage tokens.)&#10;Vengeance 5."/>
   </card>
   <card id="29b45f4f-ebbe-435e-ab30-278593e21f8c" name="Ancient Hall" size="EncounterCard">
     <property name="Card Number" value="63"/>
@@ -962,7 +976,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Ancient. Ruins."/>
-    <property name="Text" value="Forced – At the end of the round: Flip 1 of the clues on Ancient Hall to its doom side. Any investigator at Ancient Hall may spend 3 resources to cancel this effect."/>
+    <property name="Text" value="Forced - At the end of the round: Flip 1 of the clues on Ancient Hall to its doom side. Any investigator at Ancient Hall may spend 3 resources to cancel this effect."/>
   </card>
   <card id="1c400e14-07a5-4711-b075-0ebd839221f6" name="Grand Chamber" size="EncounterCard">
     <property name="Card Number" value="64"/>
@@ -975,7 +989,7 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Ancient. Ruins."/>
-    <property name="Text" value="Forced – When you investigate Grand Chamber and do not succeed by at least 2: Before resolving any other effects from this skill test, flip 1 of the clues on Grand Chamber to its doom side.&#10;Victory 1."/>
+    <property name="Text" value="Forced - When you investigate Grand Chamber and do not succeed by at least 2: Before resolving any other effects from this skill test, flip 1 of the clues on Grand Chamber to its doom side."/>
   </card>
   <card id="419e2e1d-23ab-4c8a-88df-982968e2891b" name="Burial Pit" size="EncounterCard">
     <property name="Card Number" value="65"/>
@@ -988,7 +1002,7 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Ancient. Ruins."/>
-    <property name="Text" value="Forced – After you put Burial Pit into play by exploring successfully: You must either draw 2 cards from the top of the encounter deck or place 2 doom on Burial Pit, or any combination thereof.&#10;Victory 1."/>
+    <property name="Text" value="Forced - After you put Burial Pit into play by exploring successfully: You must either draw 2 cards from the top of the encounter deck or place 2 doom on Burial Pit, or any combination thereof."/>
   </card>
   <card id="b504f6a9-95fc-4db6-957c-c128b810d77a" name="Underground Ruins" size="EncounterCard">
     <property name="Card Number" value="66"/>
@@ -1000,7 +1014,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Ancient. Ruins."/>
-    <property name="Text" value="While there is an enemy in Underground Ruins, Underground Ruins is considered to be in the victory display (for the purposes of counting vengeance).&#10;Forced – After an enemy in Underground Ruins leaves play: Place 1 doom on Underground Ruins.&#10;Vengeance 1."/>
+    <property name="Text" value="While there is an enemy in Underground Ruins, Underground Ruins is considered to be in the victory display (for the purposes of counting vengeance).&#10;&#10;Forced - After an enemy in Underground Ruins leaves play: Place 1 doom on Underground Ruins.&#10;Vengeance 1."/>
   </card>
   <card id="a3e5b78b-c05f-49d5-b674-97ff888b4f35" name="Secret Passage" size="EncounterCard">
     <property name="Card Number" value="67"/>
@@ -1013,7 +1027,7 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Ancient. Ruins."/>
-    <property name="Text" value="Forced – After you enter Secret Passage: You must either take 1 horror and 1 damage, or place 1 doom on Secret Passage. Check your supplies. If you or an investigator at Secret Passage has a rope, ignore this effect.&#10;Victory 1."/>
+    <property name="Text" value="Forced - After you enter Secret Passage: You must either take 1 horror and 1 damage, or place 1 doom on Secret Passage. Check your supplies. If you or an investigator at Secret Passage has a rope, ignore this effect."/>
   </card>
   <card id="30d4b977-2178-4471-89d1-c341c854bc04" name="Chamber of Time" size="EncounterCard">
     <property name="Card Number" value="68"/>
@@ -1026,7 +1040,7 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Forgotten. Ruins."/>
-    <property name="Text" value="Forced – After Chamber of Time enters play: Attach the set-aside Relic of Ages asset to the Chamber of Time. Place 1 doom on Chamber of Time.&#10;Vengeance 2. Victory 2."/>
+    <property name="Text" value="Forced - After Chamber of Time enters play: Attach the set-aside Relic of Ages asset to the Chamber of Time. Place 1 doom on Chamber of Time.&#10;Vengeance 2."/>
   </card>
   <card id="1666bdb1-e21b-4f02-b4b3-564593f2181f" name="Path of Thorns" size="EncounterCard">
     <property name="Card Number" value="69"/>
@@ -1038,7 +1052,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Jungle."/>
-    <property name="Text" value="Forced – After you fail a skill test while investigating Path of Thorns: Take 1 damage.&#10;Forced – After you explore while at Path of Thorns, if the exploration was not successful: Take 1 damage."/>
+    <property name="Text" value="Forced - After you fail a skill test while investigating Path of Thorns: Take 1 damage.&#10;&#10;Forced - After you explore while at Path of Thorns, if the exploration was not successful: Take 1 damage."/>
   </card>
   <card id="9d8dbfbb-91d0-4d1b-9343-1cf8c6903196" name="River Canyon" size="EncounterCard">
     <property name="Card Number" value="70"/>
@@ -1062,7 +1076,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Jungle."/>
-    <property name="Text" value="Forced – When you attempt to explore while at Rope Bridge: Test ί (2). If you fail, cancel the exploration, take 2 damage, lose all remaining actions, and end your turn. Place your investigator in the River Canyon (if it is not in play, search the exploration deck for River Canyon and put it into play first; shuffle the exploration deck)."/>
+    <property name="Text" value="Forced - When you attempt to explore while at Rope Bridge: Test ί (2). If you fail, cancel the exploration, take 2 damage, lose all remaining actions, and end your turn. Place your investigator in the River Canyon (if it is not in play, search the exploration deck for River Canyon and put it into play first; shuffle the exploration deck)."/>
   </card>
   <card id="bd95f839-567b-4b3c-9720-0015498baaf8" name="Serpent's Haven" size="EncounterCard">
     <property name="Card Number" value="72"/>
@@ -1075,7 +1089,7 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Jungle."/>
-    <property name="Text" value="Each Serpent enemy at Serpent’s Haven gets +1 fight.&#10;Forced – After you investigate or explore while at Serpent’s Haven, if you are poisoned: Take 1 damage.&#10;Victory 1."/>
+    <property name="Text" value="Each [[Serpent]] enemy at Serpent's Haven gets +1 fight.&#10;&#10;Forced - After you investigate or explore while at Serpent's Haven, if you are poisoned: Take 1 damage."/>
   </card>
   <card id="db538e9b-2c4e-4416-b41a-0c5972d46bd9" name="Circuitous Trail" size="EncounterCard">
     <property name="Card Number" value="73"/>
@@ -1088,7 +1102,7 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Jungle."/>
-    <property name="Text" value="As an additional cost for you to investigate or explore while at Circuitous Trail, check your supplies. If no investigator at your location has a compass, you must spend 3 resources.&#10;Victory 1."/>
+    <property name="Text" value="As an additional cost for you to investigate or explore while at Circuitous Trail, check your supplies. If no investigator at your location has a compass, you must spend 3 resources."/>
   </card>
   <card id="52025ebe-feb2-4d76-b420-be511c642bf1" name="Temple of the Fang" size="EncounterCard">
     <property name="Card Number" value="74"/>
@@ -1101,7 +1115,7 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Ancient. Ruins."/>
-    <property name="Text" value="Temple of the Fang gets +1 shroud for each vengeance point in the victory display.&#10;Victory 2."/>
+    <property name="Text" value="Temple of the Fang gets +1 shroud for each vengeance point in the victory display."/>
   </card>
   <card id="37b7a822-5ccc-4939-9810-f3f03cf8c6c2" name="Overgrown Ruins" size="EncounterCard">
     <property name="Card Number" value="75"/>
@@ -1114,7 +1128,7 @@
     <property name="Doom" value=""/>
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Ancient. Ruins."/>
-    <property name="Text" value="Forced – After you enter Overgrown Ruins, if you are poisoned: Lose all remaining actions and end your turn.&#10;Victory 2."/>
+    <property name="Text" value="Forced - After you enter this location, if you are poisoned: Lose all remaining actions and end your turn."/>
   </card>
   <card id="f4d0bee6-9086-448f-8408-0c4c0afc99f6" name="Overgrowth" size="EncounterCard">
     <property name="Card Number" value="76"/>
@@ -1123,7 +1137,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Obstacle."/>
-    <property name="Text" value="Revelation – Attach to your location. Limit 1 per location.&#10;You cannot explore at attached location.&#10;η: Test ή (4) to hack through the brush or έ (4) to find another route. If you succeed, discard Overgrowth."/>
+    <property name="Text" value="Revelation - Attach to your location. Limit 1 per location.&#10;&#10;You cannot explore at attached location.&#10;&#10;η: Test ή (4) to hack through the brush or έ (4) to find another route. If you succeed, discard Overgrowth."/>
   </card>
   <card id="db2a7d83-bc7d-4dea-ae92-fc02f9d62f0d" name="Voice of the Jungle" size="EncounterCard">
     <property name="Card Number" value="77"/>
@@ -1132,7 +1146,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Power."/>
-    <property name="Text" value="Revelation – Put Voice of the Jungle into play in your threat area.&#10;Forced – At the end of your turn, if you did not successfully explore this turn: Take 1 horror.&#10;η: Test ά (3). If you succeed, discard Voice of the Jungle."/>
+    <property name="Text" value="Revelation - Put Voice of the Jungle into play in your threat area.&#10;&#10;Forced - At the end of your turn, if you did not successfully explore this turn: Take 1 horror.&#10;&#10;η: Test ά (3). If you succeed, discard Voice of the Jungle."/>
   </card>
   <card id="20130830-bb18-44ac-b429-de7ab8ca1d6a" name="Pit Viper" size="EncounterCard">
     <property name="Card Number" value="78"/>
@@ -1145,7 +1159,7 @@
     <property name="Health" value="1"/>
     <property name="Damage" value="1"/>
     <property name="Traits" value="Creature. Serpent."/>
-    <property name="Text" value="Forced – After Pit Viper deals you damage from its attack: If you are not poisoned, put a set-aside Poisoned weakness into play in your threat area.&#10;Vengeance 1."/>
+    <property name="Text" value="Forced - After Pit Viper deals you damage from its attack: If you are not poisoned, put a set-aside Poisoned weakness into play in your threat area.&#10;Vengeance 1."/>
   </card>
   <card id="d1a5b69b-6d3a-48ab-bace-e33633b93b5a" name="Boa Constrictor" size="EncounterCard">
     <property name="Card Number" value="79"/>
@@ -1159,8 +1173,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Creature. Serpent."/>
-    <property name="Keywords" value="Hunter."/>
-    <property name="Text" value="Forced – After Boa Constrictor attacks you: During the next upkeep phase, your exhausted cards cannot ready.&#10;Vengeance 2."/>
+    <property name="Text" value="Hunter.&#10;&#10;Forced - After Boa Constrictor attacks you: During the next upkeep phase, your exhausted cards cannot ready.&#10;Vengeance 2."/>
   </card>
   <card id="39d0f46c-20e2-447d-acd4-24d6b2794d99" name="Snake Bite" size="EncounterCard">
     <property name="Card Number" value="80"/>
@@ -1169,7 +1182,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hazard. Poison."/>
-    <property name="Text" value="Revelation – Test ί (3). If you fail, you must either (choose one):&#10;–Deal 5 damage to an Ally asset you control.&#10;–Take 1 direct damage. If you are not poisoned, put a set-aside Poisoned weakness into play in your threat area."/>
+    <property name="Text" value="Revelation - Test ί (3). If you fail, you must either (choose one):&#10;&#10;- Deal 5 damage to an [[Ally]] asset you control.&#10;&#10;- Take 1 direct damage. If you are not poisoned, put a set-aside Poisoned weakness into play in your threat area."/>
   </card>
   <card id="1095c136-0cd2-4add-a70f-b0d1a91221b6" name="Lost in the Wilds" size="EncounterCard">
     <property name="Card Number" value="81"/>
@@ -1178,7 +1191,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Blunder."/>
-    <property name="Text" value="Revelation – Test ά (3). If you fail, take 1 horror for each point you fail by and add Lost in the Wilds to your threat area.&#10;You cannot move or explore.&#10;Forced – At the end of your turn: Discard Lost in the Wilds."/>
+    <property name="Text" value="Revelation - Test ά (3). If you fail, take 1 horror for each point you fail by and add Lost in the Wilds to your threat area.&#10;&#10;You cannot move or explore.&#10;&#10;Forced - At the end of your turn: Discard Lost in the Wilds."/>
   </card>
   <card id="fa2580af-7586-427c-b2c0-1536a80afe16" name="Low on Supplies" size="EncounterCard">
     <property name="Card Number" value="82"/>
@@ -1187,8 +1200,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Blunder."/>
-    <property name="Keywords" value="Peril."/>
-    <property name="Text" value="Revelation – You must decide (choose one):&#10;– Each investigator loses 2 resources.&#10;– Each investigator takes 1 damage.&#10;– Each investigator chooses and discards an asset he or she controls."/>
+    <property name="Text" value="Peril.&#10;&#10;Revelation - You must decide (choose one):&#10;&#10;- Each investigator loses 2 resources.&#10;&#10;- Each investigator takes 1 damage.&#10;&#10;- Each investigator chooses and discards an asset he or she controls."/>
   </card>
   <card id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc" name="Brood of Yig" size="EncounterCard">
     <property name="Card Number" value="83"/>
@@ -1202,8 +1214,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Serpent."/>
-    <property name="Keywords" value="Hunter."/>
-    <property name="Text" value="Brood of Yig gets +1 fight for each vengeance point in the victory display."/>
+    <property name="Text" value="Hunter.&#10;&#10;Brood of Yig gets +1 fight for each vengeance point in the victory display."/>
   </card>
   <card id="184cb383-35f8-4ecc-af00-33b427b1df7b" name="Serpent from Yoth" size="EncounterCard">
     <property name="Card Number" value="84"/>
@@ -1218,7 +1229,7 @@
     <property name="Horror" value="2"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Serpent."/>
-    <property name="Text" value="While there are 1 or more vengeance points in the victory display, Serpent from Yoth gains retaliate.&#10;While there are 2 or more vengeance points in the victory display, Serpent from Yoth gains hunter.&#10;While there are 3 or more vengeance points in the victory display, Serpent from Yoth takes 1 less damage from each attack made against it.&#10;Victory 1."/>
+    <property name="Text" value="While there are 1 or more vengeance points in the victory display, Serpent from Yoth gains retaliate.&#10;&#10;While there are 2 or more vengeance points in the victory display, Serpent from Yoth gains hunter.&#10;&#10;While there are 3 or more vengeance points in the victory display, Serpent from Yoth takes 1 less damage from each attack made against it."/>
   </card>
   <card id="56778b1f-923b-4618-b4ff-445a972d1bfe" name="Curse of Yig" size="EncounterCard">
     <property name="Card Number" value="85"/>
@@ -1227,7 +1238,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Revelation – Put Curse of Yig into play in your threat area.&#10;You get –1 ή, –1 health, and gain the Serpent trait.&#10;η: Test ά (2). This test gets +1 difficulty for each vengeance point in the victory display. If you succeed, discard Curse of Yig."/>
+    <property name="Text" value="Revelation - Put Curse of Yig into play in your threat area.&#10;&#10;You get -1 ή, -1 health, and gain the [[Serpent]] trait.&#10;&#10;η: Test ά (2). This test gets +1 difficulty for each vengeance point in the victory display. If you succeed, discard Curse of Yig."/>
   </card>
   <card id="cf96c698-ac9c-4d12-8aa8-bbc70a9ae088" name="Eztli Guardian" size="EncounterCard">
     <property name="Card Number" value="86"/>
@@ -1240,8 +1251,7 @@
     <property name="Health" value="2"/>
     <property name="Damage" value="1"/>
     <property name="Traits" value="Humanoid. Eztli."/>
-    <property name="Keywords" value="Spawn – Any empty location (Ancient, if able).&#10;Alert. Aloof."/>
-    <property name="Text" value="Forced – When enemies attack during the enemy phase, if Eztli Guardian is ready and unengaged: It attacks each investigator in each connecting location."/>
+    <property name="Text" value="Spawn - Any empty location ([[Ancient]], if able).&#10;&#10;Alert. Aloof.&#10;&#10;Forced - When enemies attack during the enemy phase, if Eztli Guardian is ready and unengaged: It attacks each investigator in each connecting location."/>
   </card>
   <card id="0c9b4bfc-b552-48de-9759-0f81ee668c92" name="Arrows from the Trees" size="EncounterCard">
     <property name="Card Number" value="87"/>
@@ -1250,7 +1260,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Scheme."/>
-    <property name="Text" value="Revelation – Take 1 damage, plus 1 additional damage for each Ally asset you control. Each other investigator at an Ancient location must also resolve that effect."/>
+    <property name="Text" value="Revelation - Take 1 damage, plus 1 additional damage for each [[Ally]] asset you control. Each other investigator at an [[Ancient]] location must also resolve that effect."/>
   </card>
   <card id="4a02ea48-d391-4a1f-af82-a66a31dccb73" name="Final Mistake" size="EncounterCard">
     <property name="Card Number" value="88"/>
@@ -1259,7 +1269,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Trap."/>
-    <property name="Text" value="Revelation – Test ί (2). This test gets +1 difficulty for each doom on your location. If you fail, take 2 damage."/>
+    <property name="Text" value="Revelation - Test ί (2). This test gets +1 difficulty for each doom on your location. If you fail, take 2 damage."/>
   </card>
   <card id="b7326daa-e159-43f2-bb23-af98316e4698" name="Entombed" size="EncounterCard">
     <property name="Card Number" value="89"/>
@@ -1268,7 +1278,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Trap."/>
-    <property name="Text" value="Revelation – Put Entombed into play in your threat area.&#10;You cannot disengage from enemies or move.&#10;η: Test ί (4) to escape the tomb or ή (4) to break out. If you succeed, discard Entombed. If you fail, reduce the difficulty of this test by 1 until the end of the round."/>
+    <property name="Text" value="Revelation - Put Entombed into play in your threat area.&#10;&#10;You cannot disengage from enemies or move.&#10;&#10;η: Test ί (4) to escape the tomb or ή (4) to break out. If you succeed, discard Entombed. If you fail, reduce the difficulty of this test by 1 until the end of the round."/>
   </card>
   <card id="712542a8-a8ee-438c-957c-b461e0aa7467" name="A Tear in Time" size="EncounterCard">
     <property name="Card Number" value="90"/>
@@ -1277,7 +1287,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex."/>
-    <property name="Text" value="Revelation – Test ά (3). For each point you fail by, you must either lose 1 action or take 1 horror."/>
+    <property name="Text" value="Revelation - Test ά (3). For each point you fail by, you must either lose 1 action or take 1 horror."/>
   </card>
   <card id="7d3e98bb-b186-43a4-8e35-f5d369cd2f09" name="Lost in Time" size="EncounterCard">
     <property name="Card Number" value="91"/>
@@ -1286,7 +1296,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex."/>
-    <property name="Text" value="Revelation – Shuffle a non-story asset you control into your deck, moving all damage and horror from that asset to your investigator. If no asset is shuffled into your deck by this effect, choose and discard 3 cards from your hand."/>
+    <property name="Text" value="Revelation - Shuffle a non-story asset you control into your deck, moving all damage and horror from that asset to your investigator. If no asset is shuffled into your deck by this effect, choose and discard 3 cards from your hand."/>
   </card>
   <card id="6d4b1487-e67b-44b9-97a3-0691039ef958" name="Ill Omen" size="EncounterCard">
     <property name="Card Number" value="92"/>
@@ -1295,8 +1305,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Omen. Terror."/>
-    <property name="Keywords" value="Peril."/>
-    <property name="Text" value="Revelation – Choose a location where there is at least 1 investigator. Place 1 doom on that location. Each investigator at the chosen location takes 1 horror."/>
+    <property name="Text" value="Peril.&#10;&#10;Revelation - Choose a location where there is at least 1 investigator. Place 1 doom on that location. Each investigator at the chosen location takes 1 horror."/>
   </card>
   <card id="c5645847-3aba-4c61-9afe-52367226f9c0" name="Ancestral Fear" size="EncounterCard">
     <property name="Card Number" value="93"/>
@@ -1305,8 +1314,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Terror."/>
-    <property name="Keywords" value="Peril. Surge."/>
-    <property name="Text" value="Revelation – You must either (choose one):&#10;–Place 1 doom on your location and discard Ancestral Fear (instead of placing it in the victory display).&#10;–Place Ancestral Fear in the victory display.&#10;engeance 1."/>
+    <property name="Text" value="Peril. Surge.&#10;&#10;Revelation - You must either (choose one):&#10;&#10;- Place 1 doom on your location and discard Ancestral Fear (instead of placing it in the victory display).&#10;&#10;- Place Ancestral Fear in the victory display.&#10;Vengeance 1."/>
   </card>
   <card id="13aff50c-dfa0-4058-a1f3-a3a79c191b74" name="Deep Dark" size="EncounterCard">
     <property name="Card Number" value="94"/>
@@ -1315,7 +1323,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hazard."/>
-    <property name="Text" value="Revelation – Put Deep Dark into play next to the agenda deck.&#10;No more than 1 clue may be discovered from each location by each investigator each round.&#10;Forced – At the end of the round: Discard 1 copy of Deep Dark from play. (Max once per round.)"/>
+    <property name="Text" value="Revelation - Put Deep Dark into play next to the agenda deck.&#10;&#10;No more than 1 clue may be discovered from each location by each investigator each round.&#10;&#10;Forced - At the end of the round: Discard 1 copy of Deep Dark from play. (Max once per round.)"/>
   </card>
   <card id="03096321-bfc0-457f-8026-6b37a8b7d7ff" name="Brotherhood Cultist" size="EncounterCard">
     <property name="Card Number" value="95"/>
@@ -1328,8 +1336,7 @@
     <property name="Health" value="3"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Cultist."/>
-    <property name="Keywords" value="Hunter."/>
-    <property name="Text" value="Brotherhood Cultist gets +1 fight and +1 evade for each doom on it.&#10;Forced – When you initiate an attack against Brotherhood Cultist: Place 1 doom on Brotherhood Cultist."/>
+    <property name="Text" value="Hunter.&#10;&#10;Brotherhood Cultist gets +1 fight and +1 evade for each doom on it.&#10;&#10;Forced - When you initiate an attack against Brotherhood Cultist: Place 1 doom on Brotherhood Cultist."/>
   </card>
   <card id="b631d81d-7794-48ba-894e-f1fcc5bc2ca4" name="Shadowed" size="EncounterCard">
     <property name="Card Number" value="96"/>
@@ -1338,7 +1345,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Scheme."/>
-    <property name="Text" value="Revelation – If there are no Cultist enemies in play, take 1 horror and Shadowed gains surge. Otherwise, find the Cultist enemy nearest to you. Place 1 doom on that enemy and test ά (X), where X is that enemy’s fight value. If you fail, take 2 horror."/>
+    <property name="Text" value="Revelation - If there are no [β] enemies in play, take 1 horror and Shadowed gains surge. Otherwise, find the [β] enemy nearest to you. Place 1 doom on that enemy and test ά (X), where X is that enemy's fight value. If you fail, take 2 horror."/>
   </card>
   <card id="bc5708bc-2e93-4840-9617-eb35944fe2f7" name="Words of Power" size="EncounterCard">
     <property name="Card Number" value="97"/>
@@ -1347,7 +1354,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex."/>
-    <property name="Text" value="Revelation – Put Words of Power into play in your threat area.&#10;If there are 1 or more enemies at your location with doom on them, you cannot damage those enemies or discover clues at your location.&#10;η η: Discard Words of Power."/>
+    <property name="Text" value="Revelation - Put Words of Power into play in your threat area.&#10;&#10;If there are 1 or more enemies at your location with doom on them, you cannot damage those enemies or discover clues at your location.&#10;&#10;ηη: Discard Words of Power."/>
   </card>
   <card id="fc9f9748-abfc-4765-934f-35e34aaf4e18" name="Fang of Yig" size="EncounterCard">
     <property name="Card Number" value="98"/>
@@ -1361,8 +1368,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Monster. Serpent."/>
-    <property name="Keywords" value="Prey – Poisoned investigator.&#10;Retaliate."/>
-    <property name="Text" value="While Fang of Yig is engaged with a poisoned investigator, that investigator cannot play cards or commit cards to skill tests."/>
+    <property name="Text" value="Prey - Poisoned investigator.&#10;&#10;Retaliate.&#10;&#10;While Fang of Yig is engaged with a poisoned investigator, that investigator cannot play cards or commit cards to skill tests."/>
   </card>
   <card id="51fa25ad-358e-4511-a25f-a72eab8f4264" name="Snakescourge" size="EncounterCard">
     <property name="Card Number" value="99"/>
@@ -1371,7 +1377,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Revelation – Put Snakescourge into play in your threat area. If you are poisoned, Snakescourge gains surge.&#10;Treat each of your non-weakness Item assets as if its text box were blank (except for Traits).&#10;Forced – At the end of the round: Discard Snakescourge."/>
+    <property name="Text" value="Revelation - Put Snakescourge into play in your threat area. If you are poisoned, Snakescourge gains surge.&#10;&#10;Treat each of your non-weakness [[Item]] assets as if its text box were blank (except for Traits).&#10;&#10;Forced - At the end of the round: Discard Snakescourge."/>
   </card>
   <card id="5836ef11-4edb-475d-ab6b-b6b8157a3fde" name="Serpent's Call" size="EncounterCard">
     <property name="Card Number" value="100"/>
@@ -1380,7 +1386,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Power."/>
-    <property name="Text" value="Revelation – You must either (choose one): Put a set-aside Poisoned weakness into play in your threat area, or draw the top 2 cards of the encounter deck."/>
+    <property name="Text" value="Revelation - You must either (choose one): Put a set-aside Poisoned weakness into play in your threat area, or draw the top 2 cards of the encounter deck."/>
   </card>
   <card id="525eb456-3976-4c7b-bcbc-e8d29ead83f9" name="Creeping Poison" size="EncounterCard">
     <property name="Card Number" value="101"/>
@@ -1389,8 +1395,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Poison."/>
-    <property name="Keywords" value="Surge."/>
-    <property name="Text" value="Revelation – Each investigator who is poisoned takes 1 damage."/>
+    <property name="Text" value="Surge.&#10;&#10;Revelation - Each investigator who is poisoned takes 1 damage."/>
   </card>
   <card id="826a83fd-9a59-4442-b934-6f961d9fbbbd" name="Poisoned">
     <property name="Card Number" value="102"/>
@@ -1400,8 +1405,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Poison."/>
-    <property name="Keywords" value="Limit 1 per investigator. Limit 1 per deck.&#10;Permanent."/>
-    <property name="Text" value="You are poisoned. (This has no game effect on its own. Other card effects may change or become stronger while you are poisoned.)"/>
+    <property name="Text" value="Limit 1 per investigator. Limit 1 per deck.&#10;&#10;Permanent.&#10;&#10;You are poisoned. (This has no game effect on its own. Other card effects may change or become stronger while you are poisoned.)"/>
   </card>
   <card id="fb6bbfb1-0c04-412c-a9b4-1b4a462e95c6" name="Leo Anderson" size="MiniCard">
     <property name="Card Number" value="995"/>

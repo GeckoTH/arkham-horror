@@ -6,12 +6,13 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Intellect" value="1"/>
     <property name="Combat" value="1"/>
     <property name="Skill Icons" value="έή"/>
     <property name="Traits" value="Insight. Bold."/>
-    <property name="Text" value="Play only as your first action.&#10;Discover 1 clue at your location (2 clues instead if there is an enemy at that location). This action does not provoke attacks of opportunity."/>
+    <property name="Text" value="Play only as your first action.&#10;&#10;Discover 1 clue at your location (2 clues instead if there is an enemy at that location). This action does not provoke attacks of opportunity."/>
   </card>
   <card id="932f8e80-96a5-4e69-85a0-35b5b86927f6" name="Marksmanship">
     <property name="Card Number" value="104"/>
@@ -22,37 +23,38 @@
     <property name="Cost" value="2"/>
     <property name="Combat" value="1"/>
     <property name="Agility" value="1"/>
-    <property name="Skill Icons" value="ήί"/>
+    <property name="Skill Icons" value="ίή"/>
     <property name="Traits" value="Tactic."/>
-    <property name="Text" value="Fast. Play when you activate the Fight ability on a Firearm or Ranged asset.&#10;This attack can target an enemy at a connecting location. Ignore the aloof and retaliate keywords for this attack. If this attack succeeds against an enemy not engaged with you, the attack deals +1 damage."/>
+    <property name="Text" value="Fast. Play when you activate the Fight ability on a [[Firearm]] or [[Ranged]] asset.&#10;&#10;This attack can target an enemy at a connecting location. Ignore the aloof and retaliate keywords for this attack. If this attack succeeds against an enemy not engaged with you, the attack deals +1 damage."/>
   </card>
   <card id="8cc2d9c7-68be-4c2e-ac73-255a2cef591b" name="Persuasion">
     <property name="Card Number" value="105"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Willpower" value="1"/>
     <property name="Intellect" value="1"/>
-    <property name="Skill Icons" value="άέ"/>
+    <property name="Skill Icons" value="έά"/>
     <property name="Traits" value="Insight. Trick."/>
-    <property name="Text" value="Parley. Choose a non-weakness Humanoid enemy at your location and test έ (3). This test gets +X difficulty, where X is that enemy’s horror value. If you succeed, shuffle the chosen enemy into the encounter deck. If the chosen enemy is Elite, automatically evade it instead."/>
+    <property name="Text" value="Parley. Choose a non-weakness [[Humanoid]] enemy at your location and test έ (3). This test gets +X difficulty, where X is that enemy's horror value. If you succeed, shuffle the chosen enemy into the encounter deck. If the chosen enemy is [[Elite]], automatically evade it instead."/>
   </card>
   <card id="fb699136-e5ee-442c-9c02-95e377190aa9" name="Shrewd Analysis">
     <property name="Card Number" value="106"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Seeker"/>
-    <property name="Cost" value="-"/>
+    <property name="Level" value="0"/>
     <property name="Traits" value="Talent."/>
-    <property name="Keywords" value="Permanent. Limit 1 per deck."/>
-    <property name="Text" value="Anytime you would upgrade a card with the (Unidentified) or (Untranslated) subtitle, you may upgrade a second copy of that card at no experience cost. If you do, the two upgraded versions are chosen at random from among the eligible options. (You must still meet all deckbuilding restrictions.)"/>
+    <property name="Text" value="Permanent. Limit 1 per deck.&#10;&#10;Anytime you upgrade a card with the (Unidentified) or (Untranslated) subtitle, you may upgrade a second copy of that card at no experience cost. If you do, the two upgraded versions are chosen at random from among the eligible options. (You must still meet all deckbuilding restrictions.)"/>
   </card>
   <card id="7c6aa8c3-705b-4a93-a1a5-7dc0975cba7e" name="Lucky Cigarette Case">
     <property name="Card Number" value="107"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Willpower" value="1"/>
     <property name="Skill Icons" value="ά"/>
@@ -70,17 +72,16 @@
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ί"/>
     <property name="Traits" value="Connection. Illicit."/>
-    <property name="Text" value="ι When you play an Illicit card during your turn, exhaust Fence: The Illicit card gains fast. If it was already fast, reduce its cost by 1 instead."/>
+    <property name="Text" value="ι When you play an [[Illicit]] card during your turn, exhaust Fence: The [[Illicit]] card gains fast. If it was already fast, reduce its cost by 1 instead."/>
   </card>
   <card id="0c55f421-9614-420e-b9e1-1b6a45ccf54f" name="Arcane Research">
     <property name="Card Number" value="109"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Mystic"/>
-    <property name="Cost" value="-"/>
+    <property name="Level" value="0"/>
     <property name="Traits" value="Talent."/>
-    <property name="Keywords" value="Permanent."/>
-    <property name="Text" value="When you purchase Arcane Research, suffer 1 mental trauma.&#10;After each scenario of a campaign, reduce the experience cost of the first Spell card you upgrade before the next scenario by 1."/>
+    <property name="Text" value="Permanent.&#10;&#10;When you purchase Arcane Research, suffer 1 mental trauma.&#10;&#10;After each scenario of a campaign, reduce the experience cost of the first [[Spell]] card you upgrade before the next scenario by 1."/>
   </card>
   <card id="410909a0-d960-43ff-8cc1-b92c69b52c08" name="Counterspell">
     <property name="Card Number" value="110"/>
@@ -91,26 +92,28 @@
     <property name="Cost" value="2"/>
     <property name="Willpower" value="1"/>
     <property name="Intellect" value="1"/>
-    <property name="Skill Icons" value="άέ"/>
+    <property name="Skill Icons" value="έά"/>
     <property name="Traits" value="Spell. Blessed."/>
-    <property name="Text" value="Fast. Play when a α, β, γ, or δ chaos token is revealed during a skill test at your location.&#10;Cancel that chaos token. (Do not reveal a new chaos token to replace it.)"/>
+    <property name="Text" value="Fast. Play when a α, β, γ, or δ chaos token is revealed during a skill test at your location.&#10;&#10;Cancel that chaos token. (Do not reveal a new chaos token to replace it.)"/>
   </card>
   <card id="edf0ac36-d2d1-4c12-9635-177e3f7e2d3e" name="Perseverance">
     <property name="Card Number" value="111"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Willpower" value="2"/>
     <property name="Skill Icons" value="άά"/>
     <property name="Traits" value="Spirit."/>
-    <property name="Text" value="Fast. Play when you are assigned damage and/or horror that would defeat you.&#10;Cancel up to 4 of that damage and/or horror."/>
+    <property name="Text" value="Fast. Play when you are assigned damage and/or horror that would defeat you.&#10;&#10;Cancel up to 4 of that damage and/or horror."/>
   </card>
   <card id="f7b0af4f-1d4c-43b3-bd58-4e343090d774" name="Stunning Blow">
     <property name="Card Number" value="112"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Skill"/>
     <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
     <property name="Combat" value="1"/>
     <property name="Skill Icons" value="ή"/>
     <property name="Traits" value="Practiced."/>
@@ -120,16 +123,14 @@
     <property name="Card Number" value="113"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Threads of Fate"/>
-    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="α : –X. X is the highest number of doom on a Cultist enemy.&#10;β: –2. If you do not succeed by at least 1, take 1 damage.&#10;γ: –2. If you do not succeed by at least 1, place 1 doom on the nearest Cultist enemy.&#10;δ: –2. If you fail, lose 1 of your clues."/>
+    <property name="Text" value="Easy / Standard&#10;&#10;α : -X. X is the highest number of doom on a [β] enemy.&#10;&#10;β: -2. If you do not succeed by at least 1, take 1 damage.&#10;&#10;γ: -2. If you do not succeed by at least 1, place 1 doom on the nearest [β] enemy.&#10;&#10;δ: -2. If you fail, lose 1 of your clues."/>
     <alternate name="Threads of Fate" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
-      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="α : –X. X is the total number of doom in play.&#10;β: –2. If you do not succeed by at least 2, take 1 direct damage.&#10;γ: –2. If you do not succeed by at least 2, place 1 doom on each Cultist enemy.&#10;δ: –3. If you fail, lose 1 of your clues."/>
+      <property name="Text" value="Hard / Expert&#10;&#10;α : -X. X is the total number of doom in play.&#10;&#10;β: -2. If you do not succeed by at least 2, take 1 direct damage.&#10;&#10;γ: -2. If you do not succeed by at least 2, place 1 doom on each [β] enemy.&#10;&#10;δ: -3. If you fail, lose 1 of your clues."/>
     </alternate>
   </card>
   <card id="c4993b69-869c-454a-9bba-9cc7eb6f884a" name="Three Fates" size="HorizCard">
@@ -142,8 +143,8 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="η: Resign. You don’t want to risk taking too long, so you head to safety with the information you’ve gathered."/>
-    <alternate name="At the Sun's Peak" size="HorizCard" type="B">
+    <property name="Text" value="η: Resign. You don't want to risk taking too long, so you head to safety with the information you've gathered."/>
+    <alternate name="At The Sun's Peak" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -151,7 +152,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;If there are only 2 act decks in play, place 1 doom on agenda 2a as it is revealed."/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;&#10;If there are only 2 act decks in play, place 1 doom on agenda 2a as it is revealed."/>
     </alternate>
   </card>
   <card id="816fe8c3-f374-4fe1-add3-f7acad18e294" name="Behind the Curtain" size="HorizCard">
@@ -164,7 +165,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="η: Resign. You don’t want to risk taking too long, so you head to safety with the information you’ve gathered."/>
+    <property name="Text" value="η: Resign. You don't want to risk taking too long, so you head to safety with the information you've gathered."/>
     <alternate name="The Sun Sets" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Agenda"/>
@@ -173,7 +174,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;If there are only 2 act decks in play, place 1 doom on agenda 3a as it is revealed.&#10;If there is only 1 act deck in play, place 2 doom on agenda 3a as it is revealed."/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;&#10;If there are only 2 act decks in play, place 1 doom on agenda 3a as it is revealed.&#10;&#10;If there is only 1 act deck in play, place 2 doom on agenda 3a as it is revealed."/>
     </alternate>
   </card>
   <card id="d2e20ace-26f5-4a59-b8a6-655a18dcfdc1" name="Hidden Entanglements" size="HorizCard">
@@ -186,7 +187,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="η: Resign. You don’t want to risk taking too long, so you head to safety with the information you’ve gathered."/>
+    <property name="Text" value="η: Resign. You don't want to risk taking too long, so you head to safety with the information you've gathered."/>
     <alternate name="Night Passes" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Agenda"/>
@@ -208,7 +209,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in Miskatonic University can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in Miskatonic University can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Eztli Exhibit" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -218,7 +219,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Miskatonic. Exhibit."/>
-      <property name="Text" value="Revelation – Put the Eztli Exhibit into play.&#10;Forced – After you reveal a α, β, γ, δ, or ζ symbol while investigating the Eztli Exhibit: Take 1 horror.&#10;Victory 1."/>
+      <property name="Text" value="Revelation - Put the Eztli Exhibit into play.&#10;&#10;Forced - After you reveal a α, β, γ, δ, or ζ symbol while investigating the Eztli Exhibit: Take 1 horror."/>
     </alternate>
   </card>
   <card id="c8d55c59-96cd-438b-afaa-366bfe19730c" name="Harlan Is in Danger!" size="HorizCard">
@@ -231,7 +232,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in Miskatonic University can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in Miskatonic University can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Harlan Earnstone" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Historical Theorist"/>
@@ -242,7 +243,7 @@
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Bystander. Miskatonic."/>
-      <property name="Text" value="Revelation – Put Harlan Earnstone into play in Easttown.&#10;η Discard the top 3 cards of your deck: Parley. You try to snap Earnstone out of his daze. Test ά (4). If you succeed, place 1 clue on him (from the token pool)."/>
+      <property name="Text" value="Revelation - Put Harlan Earnstone into play in Easttown.&#10;&#10;η Discard the top 3 cards of your deck: Parley. You try to snap Earnstone out of his daze. Test ά (4). If you succeed, place 1 clue on him (from the token pool)."/>
     </alternate>
   </card>
   <card id="da71f372-8c2b-4616-aae2-008483386f6a" name="At the Exhibit" size="HorizCard">
@@ -255,7 +256,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in the Eztli Exhibit can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in the Eztli Exhibit can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="The Relic's Location" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -264,7 +265,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Put the set-aside Town Hall location into play. If it was already in play, add add 1π clues to it. Attach the set-aside Relic of Ages to the Town Hall. &#10;If there are 2 or fewer act decks in play, add an additional 1π clues to the Town Hall.&#10;Advance to Act 3a–“Find the Relic.”"/>
+      <property name="Text" value="Put the set-aside Town Hall location into play. If it was already in play, add add 1π clues to it. Attach the set-aside Relic of Ages to the Town Hall.&#10;&#10;If there are 2 or fewer act decks in play, add an additional 1π clues to the Town Hall.&#10;&#10;Advance to Act 3a - &quot;Find the Relic.&quot;"/>
     </alternate>
   </card>
   <card id="7a519eb0-846d-412d-8d23-bf773ec5b4a3" name="At the Exhibit" size="HorizCard">
@@ -277,7 +278,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in the Eztli Exhibit can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in the Eztli Exhibit can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="The Brotherhood's Plot" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -286,7 +287,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Search the encounter deck, discard pile, and victory display for a Brotherhood Cultist and spawn it in the location farthest from all investigators. Heal all damage from each Brotherhood Cultist in play.&#10;Attach the set-aside Relic of Ages to the Brotherhood Cultist farthest from all investigators.&#10;If there are 2 or fewer act decks in play, add 1 doom to the Brotherhood Cultist with the attached Relic of Ages.&#10;Advance to Act 3a—“Recover the Relic.”"/>
+      <property name="Text" value="Search the encounter deck, discard pile, and victory display for a Brotherhood Cultist and spawn it in the location farthest from all investigators. Heal all damage from each Brotherhood Cultist in play.&#10;&#10;Attach the set-aside Relic of Ages to the Brotherhood Cultist farthest from all investigators.&#10;&#10;If there are 2 or fewer act decks in play, add 1 doom to the Brotherhood Cultist with the attached Relic of Ages.&#10;&#10;Advance to Act 3a - &quot;Recover the Relic.&quot;"/>
     </alternate>
   </card>
   <card id="c6b3c676-8d25-46d4-a43c-898324bbd6e0" name="Harlan's Curse" size="HorizCard">
@@ -299,7 +300,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – If there are 1π clues on Harlan Earnstone: You must remove them and immediately advance."/>
+    <property name="Text" value="Objective - If there are 1π clues on Harlan Earnstone: You must remove them and immediately advance."/>
     <alternate name="Safekeeping" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -308,7 +309,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Attach the set-aside Relic of Ages to the Curiositie Shoppe.&#10;If there are 2 or fewer act decks in play, search the encounter deck for 1 Acolyte (2 Acolytes instead if there are 3 or 4 investigators in the game). Spawn each searched-for Acolyte in the Curiositie Shoppe.&#10;Advance to Act 3a–“Find the Relic.”"/>
+      <property name="Text" value="Attach the set-aside Relic of Ages to the Curiositie Shoppe.&#10;&#10;If there are 2 or fewer act decks in play, search the encounter deck for 1 Acolyte (2 Acolytes instead if there are 3 or 4 investigators in the game). Spawn each searched-for Acolyte in the Curiositie Shoppe.&#10;&#10;Advance to Act 3a - &quot;Find the Relic.&quot;"/>
     </alternate>
   </card>
   <card id="d2aff041-a1f8-4b31-a630-651661ac22fc" name="Harlan's Curse" size="HorizCard">
@@ -321,7 +322,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – If there are 1π clues on Harlan Earnstone: You must remove them and immediately advance."/>
+    <property name="Text" value="Objective - If there are 1π clues on Harlan Earnstone: You must remove them and immediately advance."/>
     <alternate name="Harlan Earnstone" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Crazed by the Curse"/>
@@ -338,7 +339,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Humanoid. Cursed. Elite."/>
-      <property name="Text" value="Revelation – Switch this card with the Bystander version of Harlan Earnstone, removing that version from the game. Attach the set-aside Relic of Ages to Harlan Earnstone. Advance to Act 3a–“Recover the Relic.”&#10;Forced – After you successfully evade Harlan Earnstone by 3 or more: Add him to the victory display.&#10;Victory 1."/>
+      <property name="Text" value="Revelation - Switch this card with the [[Bystander]] version of Harlan Earnstone, removing that version from the game. Attach the set-aside Relic of Ages to Harlan Earnstone. Advance to Act 3a - &quot;Recover the Relic.&quot;&#10;&#10;Forced - After you successfully evade Harlan Earnstone by 3 or more: Add him to the victory display."/>
     </alternate>
   </card>
   <card id="71fc4500-eaf7-43b1-b6b4-165248055cdf" name="Find the Relic" size="HorizCard">
@@ -351,7 +352,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="While Relic of Ages is attached to a location, that location gets +2 shroud.&#10;Objective – If Relic of Ages is attached to a location with no remaining clues, advance."/>
+    <property name="Text" value="While Relic of Ages is attached to a location, that location gets +2 shroud.&#10;&#10;Objective - If Relic of Ages is attached to a location with no remaining clues, advance."/>
     <alternate name="The Relic Is Found" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -360,7 +361,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If the Relic of Ages is attached to the Town Hall:&#10;The investigator nearest to the Town Hall takes control of the Relic of Ages. Remove the remainder of the “a/b” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;If the Relic of Ages is attached to the Curiositie Shoppe:&#10;The investigator nearest to the Curiositie Shoppe takes control of the Relic of Ages. Remove the remainder of the “a/b” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
+      <property name="Text" value="If the Relic of Ages is attached to the Town Hall:&#10;&#10;After an hour of searching Arkham's Town Hall, you notice a faint blue glow emanating from underneath the door to the city planner's office. You break into the office without being noticed. The relic is lying on his desk, along with a map of the city that is covered in strange markings and iconography. Why is it here?&#10;&#10;The investigator nearest to the Town Hall takes control of the Relic of Ages. Remove the remainder of the &quot;a/b&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;&#10;If the Relic of Ages is attached to the Curiositie Shoppe:&#10;&#10;Sure enough, the relic is tucked away in a corner of the shop's storage room, hidden from sight.&#10;&#10;The investigator nearest to the Curiositie Shoppe takes control of the Relic of Ages. Remove the remainder of the &quot;a/b&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
     </alternate>
   </card>
   <card id="aa707a76-33be-4960-9a91-ce58e22b7728" name="Recover the Relic" size="HorizCard">
@@ -373,8 +374,8 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="While Relic of Ages is attached to an enemy, that enemy gets +2π health.&#10;Objective – If the enemy the Relic of Ages is attached to leaves play, advance."/>
-    <alternate name="The Relic Is Recovered" size="HorizCard" type="B">
+    <property name="Text" value="While Relic of Ages is attached to an enemy, that enemy gets +2π health.&#10;&#10;Objective - If the enemy the Relic of Ages is attached to leaves play, advance."/>
+    <alternate name="The Relic is Recovered" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -382,7 +383,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If the Relic of Ages was attached to a Brotherhood Cultist:&#10;the remainder of the “a/b” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;If the Relic of Ages was attached to Harlan Earnstone:&#10;The investigator nearest to Harlan Earnstone’s location takes control of the Relic of Ages. Remove the remainder of the “a/b” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
+      <property name="Text" value="If the Relic of Ages was attached to a Brotherhood Cultist:&#10;&#10;As the robed figure collapses, the relic falls out of his cloak, clattering to the ground and rolling to a stop nearby. It is pulsing with an odd glow, as though aware it is being searched for.&#10;&#10;The investigator nearest to the Brotherhood Cultist's location takes control of the Relic of Ages. Remove the remainder of the &quot;a/b&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;&#10;If the Relic of Ages was attached to Harlan Earnstone:&#10;&#10;Harlan snaps out of his daze and collapses, holding his head in pain. &quot;What was I - ?&quot; His eyes widen as he realizes what he has done, and he pulls the relic out of his coat, offering it to you. &quot;T-take it!&quot; He says. &quot;You can keep it safer than I can.&quot;&#10;&#10;The investigator nearest to Harlan Earnstone's location takes control of the Relic of Ages. Remove the remainder of the &quot;a/b&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
     </alternate>
   </card>
   <card id="7a75e4c5-445e-4159-925f-957163e47e29" name="Search for Alejandro" size="HorizCard">
@@ -395,7 +396,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in Easttown can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in Easttown can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Henry Deveau" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Friend of Alejandro"/>
@@ -406,7 +407,7 @@
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Bystander."/>
-      <property name="Text" value="Revelation – Put Henry Deveau into play in Velma’s Diner.&#10;η Choose and discard a card from your hand: Parley. You discuss Alejandro’s whereabouts. Test έ (3). If you succeed, place 1 clue on this card (from the token pool)."/>
+      <property name="Text" value="Revelation - Put Henry Deveau into play in Velma's Diner.&#10;&#10;η Choose and discard a card from your hand: Parley. You discuss Alejandro's whereabouts. Test έ (3). If you succeed, place 1 clue on this card (from the token pool)."/>
     </alternate>
   </card>
   <card id="1a414a99-25cc-4ec4-8463-c7301a87e6e9" name="Missing Persons" size="HorizCard">
@@ -419,7 +420,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in Easttown can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in Easttown can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Arkham Police Station" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -429,7 +430,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham."/>
-      <property name="Text" value="Revelation – Put the Arkham Police Station into play.&#10;Easttown is connected to Arkham Police Station.&#10;η: Search the top 6 cards of your deck for a Weapon card and add it to your hand. Shuffle your deck.&#10;Victory 1."/>
+      <property name="Text" value="Revelation - Put the Arkham Police Station into play.&#10;&#10;Easttown is connected to Arkham Police Station.&#10;&#10;η: Search the top 6 cards of your deck for a [[weapon]] card and add it to your hand. Shuffle your deck."/>
     </alternate>
   </card>
   <card id="c18e7c75-2d45-4e81-9df6-2d4a738c0992" name="At the Station" size="HorizCard">
@@ -442,7 +443,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in the Arkham Police Station can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in the Arkham Police Station can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="In Shadowed Talons" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -451,7 +452,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Search the encounter deck, discard pile, and victory display for a Hunting Nightgaunt and spawn it in the location farthest from all investigators. Heal all damage from each Hunting Nightgaunt in play.&#10;Attach the set-aside Alejandro Vela to the Hunting Nightgaunt farthest from all investigators.&#10;Advance to Act 3c—“Alejandro’s Plight.”"/>
+      <property name="Text" value="Search the encounter deck, discard pile, and victory display for a Hunting Nightgaunt and spawn it in the location farthest from all investigators. Heal all damage from each Hunting Nightgaunt in play.&#10;&#10;Attach the set-aside Alejandro Vela to the Hunting Nightgaunt farthest from all investigators.&#10;&#10;Advance to Act 3c - &quot;Alejandro's Plight.&quot;"/>
     </alternate>
   </card>
   <card id="10a58a3d-9813-4947-8737-88f77b3e7a9a" name="At the Station" size="HorizCard">
@@ -464,7 +465,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in the Arkham Police Station can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in the Arkham Police Station can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Train Tracks" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -473,7 +474,7 @@
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
-      <property name="Text" value="Revelation – Put Train Tracks into play. Attach the set-aside Alejandro Vela to Train Tracks. Advance to Act 3c—“Alejandro’s Prison.”&#10;Northside is connected to Train Tracks.&#10;η Spend 1 clue: Draw 4 cards. (Limit once per game.)"/>
+      <property name="Text" value="Revelation - Put Train Tracks into play. Attach the set-aside Alejandro Vela to Train Tracks. Advance to Act 3c - &quot;Alejandro's Prison.&quot;&#10;&#10;Northside is connected to Train Tracks.&#10;&#10;η Spend 1 clue: Draw 4 cards. (Limit once per game.)"/>
     </alternate>
   </card>
   <card id="a5a42d27-9725-4218-b8d3-eccb2523cd7c" name="Friends in High Places" size="HorizCard">
@@ -486,7 +487,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – If there are 1π clues on Henry Deveau: You must remove them and immediately advance."/>
+    <property name="Text" value="Objective - If there are 1π clues on Henry Deveau: You must remove them and immediately advance."/>
     <alternate name="Henry's Information" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -495,7 +496,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Put the set-aside Town Hall location into play, if it is not already in play.&#10;Attach the set-aside Alejandro Vela to the Town Hall.&#10;Advance to Act 3c–“Alejandro’s Prison.”"/>
+      <property name="Text" value="Put the set-aside Town Hall location into play, if it is not already in play.&#10;&#10;Attach the set-aside Alejandro Vela to the Town Hall.&#10;&#10;Advance to Act 3c - &quot;Alejandro's Prison.&quot;"/>
     </alternate>
   </card>
   <card id="4d53700c-093c-40fe-8019-4f88be99fe4e" name="Friends in High Places" size="HorizCard">
@@ -508,7 +509,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – If there are 1π clues on Henry Deveau: You must remove them and immediately advance."/>
+    <property name="Text" value="Objective - If there are 1π clues on Henry Deveau: You must remove them and immediately advance."/>
     <alternate name="Henry Deveau" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Alejandro's Kidnapper"/>
@@ -525,11 +526,10 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Humanoid. Conspirator. Elite."/>
-      <property name="Keywords" value="Retaliate."/>
-      <property name="Text" value="Revelation – Switch this card with the Bystander version of Henry Deveau, removing that version from the game. Attach the set-aside Alejandro Vela to Henry Deveau. Advance to Act 3c–“Alejandro’s Plight.”&#10;Victory 1."/>
+      <property name="Text" value="Revelation - Switch this card with the [[Bystander]] version of Henry Deveau, removing that version from the game. Attach the set-aside Alejandro Vela to Henry Deveau. Advance to Act 3c - &quot;Alejandro's Plight.&quot;&#10;&#10;Retaliate."/>
     </alternate>
   </card>
-  <card id="a67d45ac-5e24-4742-878c-4a5abab74085" name="Alejandro’s Prison" size="HorizCard">
+  <card id="a67d45ac-5e24-4742-878c-4a5abab74085" name="Alejandro's Prison" size="HorizCard">
     <property name="Card Number" value="131"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Threads of Fate"/>
@@ -539,7 +539,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="While Alejandro Vela is attached to a location, that location gets +2 shroud.&#10;Objective – If Alejandro Vela is attached to a location with no remaining clues, advance."/>
+    <property name="Text" value="While Alejandro Vela is attached to a location, that location gets +2 shroud.&#10;&#10;Objective - If Alejandro Vela is attached to a location with no remaining clues, advance."/>
     <alternate name="Alejandro Is Found" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -548,10 +548,10 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If Alejandro Vela is attached to the Train Tracks:&#10;The investigator nearest to the Train Tracks takes control of Alejandro Vela. Remove the remainder of the “c/d” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;If Alejandro Vela is attached to the Town Hall:&#10;The investigator nearest to the Town Hall takes control of Alejandro Vela. Remove the remainder of the “c/d” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
+      <property name="Text" value="If Alejandro Vela is attached to the Train Tracks:&#10;&#10;After searching up and down for nearly an hour, you hear a voice coming from one of the storage cars. Sealed inside is Alejandro, murmuring to himself. &quot;Thank goodness!&quot; he exclaims as you enter. &quot;I was just trying to figure out why they brought me here...&quot;&#10;&#10;The investigator nearest to the Train Tracks takes control of Alejandro Vela. Remove the remainder of the &quot;c/d&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;&#10;If Alejandro Vela is attached to the Town Hall:&#10;&#10;You manage to slip into the basement of the town hall without being spotted. You find Alejandro in one of the basement offices. He isn't restrained, but he is overjoyed to see you. &quot;Thank goodness! They brought me here by force. Though I don't know why...&quot;&#10;&#10;The investigator nearest to the Town Hall takes control of Alejandro Vela. Remove the remainder of the &quot;c/d&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
     </alternate>
   </card>
-  <card id="7dbfd611-3f62-4dca-ad0d-2613b1ce58a7" name="Alejandro’s Plight" size="HorizCard">
+  <card id="7dbfd611-3f62-4dca-ad0d-2613b1ce58a7" name="Alejandro's Plight" size="HorizCard">
     <property name="Card Number" value="132"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Threads of Fate"/>
@@ -561,7 +561,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="While Alejandro Vela is attached to an enemy, that enemy gets +2π health.&#10;Objective – If the enemy Alejandro Vela is attached to leaves play, advance."/>
+    <property name="Text" value="While Alejandro Vela is attached to an enemy, that enemy gets +2π health.&#10;&#10;Objective - If the enemy Alejandro Vela is attached to leaves play, advance."/>
     <alternate name="Alejandro Is Rescued" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -570,7 +570,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If Alejandro Vela was attached to a Hunting Nightgaunt:&#10;The investigator nearest to the Hunting Nightgaunt takes control of Alejandro Vela. Remove the remainder of the “c/d” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;If Alejandro Vela was attached to Henry Deveau:&#10;The investigator nearest to Henry Deveau takes control of Alejandro Vela. Remove the remainder of the “c/d” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
+      <property name="Text" value="If Alejandro Vela was attached to a Hunting Nightgaunt:&#10;&#10;Alejandro collapses to the ground along with the winged creature's body. He coughs and rises to his feet, shaking. &quot;Th-that beast! It had me in its clutches...Who knows where it was taking me?&quot;&#10;&#10;The investigator nearest to the Hunting Nightgaunt takes control of Alejandro Vela. Remove the remainder of the &quot;c/d&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;&#10;If Alejandro Vela was attached to Henry Deveau:&#10;&#10;Henry collapses to the ground, exhausted and bloodied. &quot;Wait! I... I'll tell you where to find Alejandro!&quot; He gives you an address in Rivertown, and you follow his directions. Inside the abandoned office building is Alejandro, not restrained but overjoyed to see you. &quot;Thank goodness! You have to get me out of here!&quot;&#10;&#10;The investigator nearest to Henry Deveau takes control of Alejandro Vela. Remove the remainder of the &quot;c/d&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
     </alternate>
   </card>
   <card id="9055bfa1-1073-4150-8106-3a7de023f891" name="Trial of the Huntress" size="HorizCard">
@@ -583,7 +583,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in Rivertown can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in Rivertown can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Black Cave" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -593,7 +593,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Cave."/>
-      <property name="Text" value="Revelation – Put Black Cave into play.&#10;Forced – At the end of your turn, if you are in the Black Cave: You must either take 1 horror or choose and discard 2 cards from your hand."/>
+      <property name="Text" value="Revelation - Put Black Cave into play.&#10;&#10;Forced - At the end of your turn, if you are in the Black Cave: You must either take 1 horror or choose and discard 2 cards from your hand."/>
     </alternate>
   </card>
   <card id="219d4017-96f6-4196-a72b-18330def361a" name="The Guardian's Inquiry" size="HorizCard">
@@ -606,7 +606,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in Northside can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Objective - Only investigators in Northside can spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Maria DeSilva" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Wealthy Patron"/>
@@ -617,7 +617,7 @@
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Bystander."/>
-      <property name="Text" value="Revelation – Put Maria DeSilva into play in Curiositie Shoppe.&#10;η Spend 1 resource: Parley. You chat with Maria about the artifacts on sale. Test έ (3). If you succeed, place 1 clue on her (from the token pool)."/>
+      <property name="Text" value="Revelation - Put Maria DeSilva into play in the Curiositie Shoppe.&#10;&#10;η Spend 1 resource: Parley. You chat with Maria about the artifacts on sale. Test έ (3). If you succeed, place 1 clue on her (from the token pool)."/>
     </alternate>
   </card>
   <card id="1e0e7df5-4c67-42e4-b1c6-74f4805da1fd" name="The Cave of Darkness" size="HorizCard">
@@ -630,7 +630,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in the Black Cave can spend the requisite number of clues, as a group, to advance. There must be no clues remaining on the Black Cave in order to advance this act."/>
+    <property name="Text" value="Objective - Only investigators in the Black Cave can spend the requisite number of clues, as a group, to advance. There must be no clues remaining on the Black Cave in order to advance this act."/>
     <alternate name="Embroiled in Battle" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -639,7 +639,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck. Discard cards from the top of the encounter deck until a Cultist enemy is discarded (2 Cultist enemies instead if there are 2 or fewer act decks remaining). &#10;Spawn those enemies in Black Cave (instead of their normal spawn location). Until the end of the scenario, remember that those enemies are “Ichtaca’s prey.”&#10;Advance to Act 3e–“The Brotherhood Is Revealed.”"/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck. Discard cards from the top of the encounter deck until a [[Cultist]] enemy is discarded (2 [[Cultist]] enemies instead if there are 2 or fewer act decks remaining).&#10;&#10;Spawn those enemies in Black Cave (instead of their normal spawn location). Until the end of the scenario, remember that those enemies are &quot;Ichtaca's prey.&quot;&#10;&#10;Advance to Act 3e - &quot;The Brotherhood Is Revealed.&quot;"/>
     </alternate>
   </card>
   <card id="dfd302e9-57ac-44ae-a817-54d195dc167f" name="The Cave of Darkness" size="HorizCard">
@@ -652,7 +652,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – Only investigators in the Black Cave can spend the requisite number of clues, as a group, to advance. There must be no clues remaining on the Black Cave in order to advance this act."/>
+    <property name="Text" value="Objective - Only investigators in the Black Cave can spend the requisite number of clues, as a group, to advance. There must be no clues remaining on the Black Cave in order to advance this act."/>
     <alternate name="Tunnels in the Dark" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -661,7 +661,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Put the set-aside Town Hall location into play, if it is not already in play. Remember that the Town Hall is “Ichtaca’s destination.” For the remainder of the game, Black Cave and Town Hall are connected to one another. &#10;One at a time, in player order, each investigator discards the top card of the encounter deck. Each investigator who discards a treachery card must draw that card.&#10;Advance to Act 3e–“Strange Occurrences.”"/>
+      <property name="Text" value="Put the set-aside Town Hall location into play, if it is not already in play. Remember that the Town Hall is &quot;Ichtaca's destination.&quot; For the remainder of the game, Black Cave and Town Hall are connected to one another.&#10;&#10;One at a time, in player order, each investigator discards the top card of the encounter deck. Each investigator who discards a treachery card must draw that card.&#10;&#10;Advance to Act 3e - &quot;Strange Occurrences.&quot;"/>
     </alternate>
   </card>
   <card id="74372f0c-0743-4e05-a8bc-18502b57c988" name="Strange Relics" size="HorizCard">
@@ -674,7 +674,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – If there are 1π clues on Maria DeSilva: You must remove them and immediately advance."/>
+    <property name="Text" value="Objective - If there are 1π clues on Maria DeSilva: You must remove them and immediately advance."/>
     <alternate name="Maria DeSilva" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Knows More Than She Lets On"/>
@@ -691,8 +691,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Humanoid. Conspirator. Elite."/>
-      <property name="Keywords" value="Retaliate."/>
-      <property name="Text" value="Revelation – Switch this card with the Bystander version of Maria DeSilva, removing that version from the game. Remember that she is “Ichtaca’s prey.” Advance to Act 3e–“The Brotherhood is Revealed.”&#10;Victory 1."/>
+      <property name="Text" value="Revelation - Switch this card with the [[Bystander]] version of Maria DeSilva, removing that version from the game. Remember that she is &quot;Ichtaca's prey.&quot; Advance to Act 3e - &quot;The Brotherhood is Revealed.&quot;&#10;&#10;Retaliate."/>
     </alternate>
   </card>
   <card id="9ce3c434-b63a-42d7-b986-4f502bbd5c52" name="Strange Relics" size="HorizCard">
@@ -705,7 +704,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Objective – If there are 1π clues on Maria DeSilva: You must remove them and immediately advance."/>
+    <property name="Text" value="Objective - If there are 1π clues on Maria DeSilva: You must remove them and immediately advance."/>
     <alternate name="Maria's Information" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -714,7 +713,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="One at a time, in player order, each investigator discards the top card of the encounter deck. Each investigator who discards a treachery card must draw that card.&#10;Advance to Act 3e–“Strange Occurrences.”"/>
+      <property name="Text" value="Remember that both Downtown and Rivertown are &quot;Ichtaca's destinations.&quot;&#10;&#10;One at a time, in player order, each investigator discards the top card of the encounter deck. Each investigator who discards a treachery card must draw that card.&#10;&#10;Advance to Act 3e - &quot;Strange Occurrences.&quot;"/>
     </alternate>
   </card>
   <card id="41c0621d-986b-454f-983a-868dc9d21330" name="Strange Occurrences" size="HorizCard">
@@ -727,8 +726,8 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="While you are at any of “Ichtaca’s destinations,” the first treachery you draw from the encounter deck each round gains surge.&#10;Objective – If there are no clues remaining on each of “Ichtaca’s destinations,” advance."/>
-    <alternate name="Uncovered the Conspiracy" size="HorizCard" type="B">
+    <property name="Text" value="While you are at any of &quot;Ichtaca's destinations,&quot; the first treachery you draw from the encounter deck each round gains surge.&#10;&#10;Objective - If there are no clues remaining on each of &quot;Ichtaca's destinations,&quot; advance."/>
+    <alternate name="Uncovering the Conspiracy" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -736,7 +735,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If “Ichtaca’s destination” was the Town Hall:&#10;The investigator nearest to the Town Hall takes control of the set-aside Ichtaca (The Forgotten Guardian). Remove the remainder of the “e/f” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;If “Ichtaca’s destinations” were Downtown and Rivertown:&#10;The investigator nearest to Rivertown takes control of the set‑aside Ichtaca (The Forgotten Guardian). Remove the remainder of the “e/f” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
+      <property name="Text" value="If &quot;Ichtaca's destination&quot; was the Town Hall:&#10;&#10;For some reason, the tunnels connect to a hidden passage in the basement of Arkham's town hall. You find Ichtaca in a dark room, browsing through several maps of the city. &quot;What are you doing here?&quot; she asks accusingly. &quot;No matter. You're here now. Help me read these documents and figure out what is going on here.&quot;&#10;&#10;The investigator nearest to the Town Hall takes control of the set-aside Ichtaca (The Forgotten Guardian). Remove the remainder of the &quot;e/f&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;&#10;If &quot;Ichtaca's destinations&quot; were Downtown and Rivertown:&#10;&#10;Using information from the bank, you track the bidders to a warehouse in Rivertown. Inside, you find a bounty of information about the Eztli relics and Alejandro's expedition.&#10;&#10;The investigator nearest to Rivertown takes control of the set-aside Ichtaca (The Forgotten Guardian). Remove the remainder of the &quot;e/f&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
     </alternate>
   </card>
   <card id="e5189103-fa67-4b13-8d55-673260fa4d8a" name="The Brotherhood Is Revealed" size="HorizCard">
@@ -749,7 +748,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="“Ichtaca’s prey” each get +1 fight, +1π health, and +1 evade while at a location with no clues on it.&#10;Objective – If each of “Ichtaca’s prey” is no longer in play, advance."/>
+    <property name="Text" value="&quot;Ichtaca's prey&quot; each get +1 fight, +1π health, and +1 evade while at a location with no clues on it.&#10;&#10;Objective - If each of &quot;Ichtaca's prey&quot; is no longer in play, advance."/>
     <alternate name="Close Call" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -758,10 +757,10 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If “Ichtaca’s prey” were 1 or more Cultist enemies:&#10;The investigator nearest to the Black Cave takes control of the set-aside Ichtaca (The Forgotten Guardian). Remove the remainder of the “e/f” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;If “Ichtaca’s prey” was Maria DeSilva:&#10;The investigator nearest to Maria DeSilva takes control of the set-aside Ichtaca (The Forgotten Guardian). Remove the remainder of the “e/f” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
+      <property name="Text" value="If &quot;Ichtaca's prey&quot; were 1 or more [[Cultist]] enemies:&#10;&#10;The final robed figure drops to the ground, and you breathe a sigh of relief. Ichtaca recovers her arrows and searches the bodies for clues. &quot;Why did you follow me?&quot; she asks accusingly. &quot;No matter. What's done is done. Now to uncover what these cretins knew.&quot;&#10;&#10;The investigator nearest to the Black Cave takes control of the set-aside Ichtaca (The Forgotten Guardian). Remove the remainder of the &quot;e/f&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1).&#10;&#10;If &quot;Ichtaca's prey&quot; was Maria DeSilva:&#10;&#10;You interrogate Maria while the angry Eztli warrior looms over her. &quot;Who do you work for? What is your purpose?&quot; Maria purses her lips tightly, then looks away, into the distance. &quot;I'll tell you what you need to know. I'll tell you about the Brotherhood.&quot;&#10;&#10;The investigator nearest to Maria DeSilva takes control of the set-aside Ichtaca (The Forgotten Guardian). Remove the remainder of the &quot;e/f&quot; act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (->R1)."/>
     </alternate>
   </card>
-  <card id="9c3d252b-4623-4e0c-b5eb-03a2a39b0186" name="Velma’s Diner" size="EncounterCard">
+  <card id="9c3d252b-4623-4e0c-b5eb-03a2a39b0186" name="Velma's Diner" size="EncounterCard">
     <property name="Card Number" value="141"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Threads of Fate"/>
@@ -771,7 +770,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Arkham."/>
-    <property name="Text" value="Easttown is connected to Velma’s Diner."/>
+    <property name="Text" value="Easttown is connected to Velma's Diner."/>
     <alternate name="Velma's Diner" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -780,7 +779,7 @@
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
-      <property name="Text" value="Easttown is connected to Velma’s Diner.&#10;η η η: You kill some time at the diner and listen to the conversations of the patrons around you. Gain 2 clues from the token pool. (Limit once per game.)"/>
+      <property name="Text" value="Easttown is connected to Velma's Diner.&#10;ηηη: You kill some time at the diner and listen to the conversations of the patrons around you. Gain 2 clues from the token pool. (Limit once per game.)"/>
     </alternate>
   </card>
   <card id="f6286165-890e-4c38-9524-0636de3905ac" name="Curiositie Shoppe" size="EncounterCard">
@@ -803,7 +802,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham."/>
-      <property name="Text" value="Northside is connected to Curiositie Shoppe.&#10;While you are in the Curiositie Shoppe, reduce the cost of each Relic asset you play by 2.&#10;Victory 1."/>
+      <property name="Text" value="Northside is connected to Curiositie Shoppe.&#10;While you are in the Curiositie Shoppe, reduce the cost of each [[Relic]] asset you play by 2."/>
     </alternate>
   </card>
   <card id="06176be8-6bd0-4a8a-b2f4-fd8989f41647" name="Town Hall" size="EncounterCard">
@@ -826,7 +825,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Arkham."/>
-      <property name="Text" value="Downtown is connected to Town Hall.&#10;Forced – After you enter Town Hall, if you have 4 or more cards in your hand: Choose and discard cards from your hand until you have 3 cards in your hand.&#10;Victory 1."/>
+      <property name="Text" value="Downtown is connected to Town Hall.&#10;Forced - After you enter Town Hall, if you have 4 or more cards in your hand: Choose and discard cards from your hand until you have 3 cards in your hand."/>
     </alternate>
   </card>
   <card id="d77ea283-6e6d-4991-8e3b-bb4b484dc3f9" name="The Secret Must Be Kept" size="EncounterCard">
@@ -836,8 +835,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Scheme."/>
-    <property name="Keywords" value="Peril."/>
-    <property name="Text" value="Revelation – Test ά (3). If you fail, take 1 damage and 1 horror. For each act deck the investigators have completed, this skill test gets +1 difficulty and deals +1 damage and +1 horror if it is failed."/>
+    <property name="Text" value="Peril.&#10;&#10;Revelation - Test ά (3). If you fail, take 1 damage and 1 horror. For each act deck the investigators have completed, this skill test gets +1 difficulty and deals +1 damage and +1 horror if it is failed."/>
   </card>
   <card id="57116f0c-4e7e-42a1-b461-dbad526a4c72" name="Nobody's Home" size="EncounterCard">
     <property name="Card Number" value="145"/>
@@ -846,7 +844,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Mystery."/>
-    <property name="Text" value="Revelation – Attach to your location. If there are no clues on your location, Nobody’s Home gains surge.&#10;You must spend 1 additional action to investigate attached location.&#10;Forced – If there are no clues on attached location: Discard Nobody’s Home."/>
+    <property name="Text" value="Revelation - Attach to your location. If there are no clues on your location, Nobody's Home gains surge.&#10;&#10;You must spend 1 additional action to investigate attached location.&#10;&#10;Forced - If there are no clues on attached location: Discard Nobody's Home."/>
   </card>
   <card id="1e47bdde-2704-4e41-aaa9-c589dec0cc34" name="Conspiracy of Blood" size="EncounterCard">
     <property name="Card Number" value="146"/>
@@ -855,12 +853,13 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex."/>
-    <property name="Text" value="Revelation – Attach Conspiracy of Blood to the current agenda.&#10;Attached agenda gets –1 doom threshold.&#10;Each Cultist enemy gains: “η Parley. Test ά (4). If you succeed, discard 1 copy of Conspiracy of Blood from play. If you fail, place 1 doom on this enemy.”"/>
+    <property name="Text" value="Revelation - Attach Conspiracy of Blood to the current agenda.&#10;&#10;Attached agenda gets -1 doom threshold.&#10;&#10;Each [[Cultist]] enemy gains: &quot;η Parley. Test ά (4). If you succeed, discard 1 copy of Conspiracy of Blood from play. If you fail, place 1 doom on this enemy.&quot;"/>
   </card>
   <card id="63aa6903-867f-4e4a-ae99-0b0bbff20634" name="Ichtaca">
     <property name="Card Number" value="147"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Threads of Fate"/>
+    <property name="Subtitle" value="The Forgotten Guardian"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
@@ -869,10 +868,10 @@
     <property name="Agility" value="1"/>
     <property name="Health" value="3"/>
     <property name="Sanity" value="2"/>
-    <property name="Skill Icons" value="ήίΰ"/>
+    <property name="Skill Icons" value="ίήΰ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Eztli. Wayfarer."/>
-    <property name="Text" value="You get +1 ή (+2 ή instead while attacking an enemy with Victory X).&#10;You get +1 ί (+2 ί instead while attempting to evade an enemy with Vengeance X).&#10;ι After you add an enemy to the victory display, exhaust Ichtaca: You and Ichtaca each heal 1 horror."/>
+    <property name="Text" value="You get +1 ή (+2 ή instead while attacking an enemy with Victory X).&#10;&#10;You get +1 ί (+2 ί instead while attempting to evade an enemy with Vengeance X).&#10;&#10;ι After you add an enemy to the victory display, exhaust Ichtaca: You and Ichtaca each heal 1 horror."/>
   </card>
   <card id="9e8742ef-347d-4191-9501-f952b2ddd871" name="Expedition Journal">
     <property name="Card Number" value="148"/>
