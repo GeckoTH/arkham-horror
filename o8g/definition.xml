@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.2"
-	version="1.0.0.20"
+	version="1.0.0.30"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -195,7 +195,7 @@
 		<counter name="Intellect" default="0" icon="groups/intellect.png" />
 		<counter name="Combat" default="0" icon="groups/combat.png" />
 		<counter name="Agility" default="0" icon="groups/agility.png" />
-		<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
+		<hand name="Hand" visibility="me" ordered="False" icon="groups/hand.png">
 			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
 			<cardaction menu="Play" default="True" execute="playCard" />
 			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
@@ -203,7 +203,7 @@
 			<groupaction menu="Mulligan" default="False" execute="mulligan" />
 			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToHand" />
 		</hand>
-		<group name="Deck" visibility="none" ordered="True" width="63" height="88" icon="groups/player.png" collapsed="False">
+		<group name="Deck" visibility="none" ordered="True" icon="groups/player.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw" default="True" shortcut="ctrl+D" execute="draw" />
 			<groupaction menu="Draw Many" default="False" shortcut="ctrl+shift+D" execute="drawMany" />
@@ -213,19 +213,19 @@
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
 			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToDeck" />
 		</group>
-		<group name="Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/discard.png" collapsed="False">
+		<group name="Discard Pile" visibility="all" ordered="True" icon="groups/discard.png" collapsed="False">
 			<groupaction menu="Shuffle All into Deck" default="True" execute="moveAllToPlayer" />
 		</group>
-		<group name="Secondary Deck" visibility="none" ordered="True" width="63" height="88" icon="groups/player2.png" collapsed="True">
+		<group name="Secondary Deck" visibility="none" ordered="True" icon="groups/player2.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw" default="True" execute="draw" />
 			<groupaction menu="Search X" default="False" execute="search" />
 			<groupaction menu="Toggle Debug" default="False" execute="toggleDebug" />
 		</group>
-		<group name="Sideboard" visibility="me" width="63" height="88" icon="groups/player-sideboard.png" collapsed="True">
+		<group name="Sideboard" visibility="me" icon="groups/player-sideboard.png" collapsed="True">
 			<groupaction menu="Shuffle" execute="shuffle" />
 		</group>
-		<group name="Basic Weaknesses" visibility="none" width="63" height="88" icon="groups/player.png" collapsed="True">
+		<group name="Basic Weaknesses" visibility="none" icon="groups/player.png" collapsed="True">
 			<groupaction menu="Load Deck" execute="loadBasicWeaknesses" />
 			<groupaction menu="Shuffle" execute="shuffle" />
 		</group>
@@ -234,37 +234,37 @@
 		<counter name="VictoryPoints" default="0" reset="True" icon="counters/victory.png" />
         <counter name="OpeningHandSize" default="5" reset="True" icon="counters/hand.png" />
         <counter name="Round" default="0" reset="True" icon="counters/round.png" />
-		<group name="Chaos Bag" visibility="none" ordered="True" width="126" height="88" icon="groups/agenda.png" collapsed="False">
+		<group name="Chaos Bag" visibility="none" ordered="True" icon="groups/agenda.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw a Chaos Token" default="True" execute="drawChaosToken" />
 		</group>
-		<group name="Agenda" visibility="all" ordered="True" width="126" height="88" icon="groups/agenda.png" collapsed="False">
+		<group name="Agenda" visibility="all" ordered="True" icon="groups/agenda.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Reveal Next Agenda" default="True" execute="nextAgenda" />
 		</group>
-		<group name="Act" visibility="all" ordered="True" width="126" height="88" icon="groups/act.png" collapsed="False">
+		<group name="Act" visibility="all" ordered="True" icon="groups/act.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Reveal Next Act" default="True" execute="nextAct" />
 		</group>
-		<group name="Location" visibility="all" ordered="True" width="63" height="88" icon="groups/location.png" collapsed="False">
+		<group name="Location" visibility="all" ordered="True" icon="groups/location.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Reveal Next Location" default="True" execute="addLocation" />
 		</group>
-		<group name="Agenda Discard Pile" visibility="all" ordered="True" width="126" height="88" icon="groups/discard.png" collapsed="True" />
-		<group name="Act Discard Pile" visibility="all" ordered="True" width="126" height="88" icon="groups/discard2.png" collapsed="True" />
-		<group name="Location Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/discard.png" collapsed="True" />
-		<group name="Encounter" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter.png" collapsed="False">
+		<group name="Agenda Discard Pile" visibility="all" ordered="True" icon="groups/discard.png" collapsed="True" />
+		<group name="Act Discard Pile" visibility="all" ordered="True" icon="groups/discard2.png" collapsed="True" />
+		<group name="Location Discard Pile" visibility="all" ordered="True" icon="groups/discard.png" collapsed="True" />
+		<group name="Encounter" visibility="none" ordered="True" icon="groups/encounter.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounter" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Secondary..." default="False" execute="moveMany" />
 		</group>
-		<group name="Encounter Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/dead.png" collapsed="False">
+		<group name="Encounter Discard Pile" visibility="all" ordered="True" icon="groups/dead.png" collapsed="False">
 			<groupaction menu="Shuffle into Encounter Deck" default="True" execute="moveAllToEncounter" />
 		</group>
-		<group name="Victory Display" visibility="all" ordered="False" width="63" height="88" icon="groups/victory.png" collapsed="False" />
-		<group name="Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter.png" collapsed="True">
+		<group name="Victory Display" visibility="all" ordered="False" icon="groups/victory.png" collapsed="False" />
+		<group name="Special" visibility="none" ordered="True" icon="groups/encounter.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
@@ -272,10 +272,10 @@
 			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounterSpecial" />
 		</group>
-		<group name="Special Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/dead2.png" collapsed="True">
+		<group name="Special Discard Pile" visibility="all" ordered="True" icon="groups/dead2.png" collapsed="True">
 			<groupaction menu="Shuffle into Special Deck" default="True" execute="moveAllToSpecial" />
 		</group>
-		<group name="2nd Special" visibility="none" ordered="True" width="63" height="88" icon="groups/encounter2.png" collapsed="True">
+		<group name="2nd Special" visibility="none" ordered="True" icon="groups/encounter2.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
@@ -283,10 +283,10 @@
 			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounterSpecial" />
 		</group>
-		<group name="2nd Special Discard Pile" visibility="all" ordered="True" width="63" height="88" icon="groups/dead.png" collapsed="True">
+		<group name="2nd Special Discard Pile" visibility="all" ordered="True" icon="groups/dead.png" collapsed="True">
 			<groupaction menu="Shuffle into Special Deck" default="True" execute="moveAllToSpecial" />
 		</group>
-		<group name="Setup" visibility="all" ordered="True" width="63" height="88" icon="groups/encounterS.png" collapsed="True">
+		<group name="Setup" visibility="all" ordered="True" icon="groups/encounterS.png" collapsed="True">
 		</group>
 	</shared>
 	<deck>
