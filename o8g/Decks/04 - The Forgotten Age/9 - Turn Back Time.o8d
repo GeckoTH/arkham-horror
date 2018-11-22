@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e8557d55-2e3e-4ecd-bea1-25560e5055c9">Something Stirs…</card>
+    <card qty="1" id="4995a39c-ec0a-44b2-8c15-8182f7271ecc">The Temple Warden</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="24fcae1d-8f27-41b7-9b4d-f4ed826cf0e1">Into the Ruins Once Again</card>
+    <card qty="1" id="c802ada6-af92-4074-80db-144588d0c244">The Chamber of Still Remains</card>
+    <card qty="1" id="3497fd96-86dd-4b4f-af60-8cca3ecc9729">Moment of Doom</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
+    <card qty="1" id="184cb383-35f8-4ecc-af00-33b427b1df7b">Serpent from Yoth</card>
+    <card qty="2" id="56778b1f-923b-4618-b4ff-445a972d1bfe">Curse of Yig</card>
+    <card qty="2" id="fc9f9748-abfc-4765-934f-35e34aaf4e18">Fang of Yig</card>
+    <card qty="2" id="51fa25ad-358e-4511-a25f-a72eab8f4264">Snakescourge</card>
+    <card qty="1" id="5836ef11-4edb-475d-ab6b-b6b8157a3fde">Serpent's Call</card>
+    <card qty="3" id="712542a8-a8ee-438c-957c-b461e0aa7467">A Tear in Time</card>
+    <card qty="2" id="7d3e98bb-b186-43a4-8e35-f5d369cd2f09">Lost in Time</card>
+    <card qty="1" id="6d4b1487-e67b-44b9-97a3-0691039ef958">Ill Omen</card>
+    <card qty="2" id="c5645847-3aba-4c61-9afe-52367226f9c0">Ancestral Fear</card>
+    <card qty="2" id="13aff50c-dfa0-4058-a1f3-a3a79c191b74">Deep Dark</card>
+    <card qty="2" id="4a02ea48-d391-4a1f-af82-a66a31dccb73">Final Mistake</card>
+    <card qty="1" id="b7326daa-e159-43f2-bb23-af98316e4698">Entombed</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="1" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="29b45f4f-ebbe-435e-ab30-278593e21f8c">Ancient Hall</card>
+    <card qty="1" id="1c400e14-07a5-4711-b075-0ebd839221f6">Grand Chamber</card>
+    <card qty="1" id="419e2e1d-23ab-4c8a-88df-982968e2891b">Burial Pit</card>
+    <card qty="1" id="b504f6a9-95fc-4db6-957c-c128b810d77a">Underground Ruins</card>
+    <card qty="1" id="a3e5b78b-c05f-49d5-b674-97ff888b4f35">Secret Passage</card>
+    <card qty="1" id="6d4b1487-e67b-44b9-97a3-0691039ef958">Ill Omen</card>
+    <card qty="1" id="13aff50c-dfa0-4058-a1f3-a3a79c191b74">Deep Dark</card>
+    <card qty="1" id="4a02ea48-d391-4a1f-af82-a66a31dccb73">Final Mistake</card>
+    <card qty="1" id="b7326daa-e159-43f2-bb23-af98316e4698">Entombed</card>
+    <card qty="1" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="88c8a01f-7824-4ff3-9df4-4437ec24d12e">Turn Back Time</card>
+    <card qty="1" id="638c7211-68ec-451d-b38c-c2398126090d">Entryway</card>
+    <card qty="1" id="bbff23f5-ba78-4cf4-908a-a9562c37d692">Harbinger of Valusia</card>
+    <card qty="1" id="30d4b977-2178-4471-89d1-c341c854bc04">Chamber of Time</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

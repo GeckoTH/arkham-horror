@@ -1,0 +1,1027 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Labyrinths of Lunacy" id="62050909-0089-4686-9ce5-12d9e7af2869" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="0319b932-9c94-4643-8240-97e05e9db3a6" name="The Labyrinths of Lunacy">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Standard&#10;&#10;α: -1. Reveal another token.&#10;&#10;β: -3. If you fail, place 1 of your clues on your location.&#10;&#10;γ: -4. If you fail, lose 2 resources.&#10;&#10;δ: -4. If you fail, discard a random card from your hand."/>
+    <alternate name="The Labyrinths of Lunacy" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Hard&#10;&#10;α: -1. Reveal another token. If you fail, you must either take 1&amp;nbsp;damage or 1 horror.&#10;&#10;β: -3. Place 1 of your clues on your location.&#10;&#10;γ: -4. Lose 2 resources.&#10;&#10;δ: -4. Discard a random card from your hand."/>
+    </alternate>
+  </card>
+  <card id="f555a583-ef14-428c-8382-f80a67ea873c" name="Awakening" size="HorizCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Forced - At the end of the round, if there is at least 1 doom on this agenda and no group has yet triggered this ability: The lead investigator of Group A chooses a random set-aside [[Act 1]] story card and draws it. Announce the chosen card's title to all three groups. Each other lead investigator draws that story card."/>
+    <alternate name="Hope Lingers" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Advance the current act card and follow its instructions.&#10;&#10;When you are instructed to resolve Act 2 Setup, those setup instructions can be found in the rules booklet (use the section for your Group)."/>
+    </alternate>
+  </card>
+  <card id="2708956f-ddda-4207-ad70-e10c9ba99d3c" name="Awakening" size="HorizCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <alternate name="Hope Lingers" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Advance the current act card and follow its instructions.&#10;&#10;When you are instructed to resolve Act 2 Setup, those setup instructions can be found in the rules booklet (use the section for your Group)."/>
+    </alternate>
+  </card>
+  <card id="c6c3a7fb-e872-4c2a-a533-591f191c684c" name="Agony and Despair" size="HorizCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Forced - At the end of the round, if there is at least 1 doom on this agenda and no group has yet triggered this ability: The lead investigator of Group A chooses a random set-aside [[Act 2]] story card and draws it. Announce the chosen card's title to all three groups. Each other lead investigator draws that story card."/>
+    <alternate name="Hope Fades" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Advance the current act card and follow its instructions.&#10;&#10;When you are instructed to resolve Act 3 Setup, those setup instructions can be found in the rules booklet (use the section for your Group)."/>
+    </alternate>
+  </card>
+  <card id="b49fd1c7-d7a9-457c-be01-6b2dbf032b5e" name="Agony and Despair" size="HorizCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <alternate name="Hope Fades" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Advance the current act card and follow its instructions.&#10;&#10;When you are instructed to resolve Act 3 Setup, those setup instructions can be found in the rules booklet (use the section for your Group)."/>
+    </alternate>
+  </card>
+  <card id="274bbc0d-1755-47ba-ab67-f2fbf3ed2a04" name="The Mastermind" size="HorizCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Each [[distortion]] location gains:&#10;&#10;&quot;η ξ4+1&amp;lt; T %2β+: &amp;lt;+@2 H &amp;lt;@6@~+ ά9 EIXODOLON. (Group limit once per game.)&quot;&#10;&#10;Objective - If each investigator is defeated, advance this agenda."/>
+    <alternate name="Hope is Lost" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="In this timeline, the ritual is complete.&#10;&#10;If you are playing in Epic Multiplayer Mode, move all damage from Eixodolon to another group's copy of Eixodolon.&#10;&#10;Each investigator in this group is killed. (->R1)"/>
+    </alternate>
+  </card>
+  <card id="162cd2e5-78fd-49f4-bd4f-ef8b55391546" name="Sealed In (Group A)" size="HorizCard">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2π"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Timed - Do not advance this act until you are instructed. By the time the agenda advances, investigators must possess the Key of Mysteries and the requisite number of clues. (Beware- If the agenda advanced and you do not meet this condition, each investigator in this group will be killed.)"/>
+    <alternate name="Success… Or Death" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If the investigators possess the Key of Mysteries and 2π clues:You push the key into the lock, and the wall of the chamber opens up, leading into a dark, narrow corridor of corrugated metal and concrete. The whistling of the pipes all around you dampens to a faint whimper.&#10;The investigators spend 2π clues, as a group. Remove the Key of Mysteries from the game. Resolve Act 2 Setup.&#10;If the investigators do not possess the Key of Mysteries and/or 2π clues:&#10;&#10;A powerful, noxious gas spews forth from the vents and fills the room. Your vision grow hazy and you collapse to the ground. &quot;The fate that inevitably awaits us all,&quot; a sinister voice explains. Everything goes dark.&#10;&#10;Each investigator in this group is killed. (->R1)"/>
+    </alternate>
+  </card>
+  <card id="6853489f-f727-4bea-adef-63b7751546c3" name="Watery Grave (Group B)" size="HorizCard">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2π"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Timed - Do not advance this act until you are instructed. By the time the agenda advances, investigators at the same location must possess the requisite number of clues. (Beware- If the agenda advances and you do not meet this condition, the investigator in the Chamber of Rain will be killed.)"/>
+    <alternate name="A Slow Death" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If investigators at the same location possess 2π clues:&#10;&#10;You breath a sigh of relief as the water drains harmlessly.&#10;&#10;Investigators at the same location spend 2π clues, as a group. Resolve Act 2 Setup.&#10;If investigators at the same location do not possess 2π clues:&#10;&#10;The water level continues to rise. It fills the tank and then your lungs. You struggle in futility against the glass. Freedom is so close, and yet so far.&#10;&#10;Each investigator loses each of his or her clues. &#10;&#10;The investigator in the Chamber of Rain is killed.&#10;&#10;Resolve Act 2 Setup."/>
+    </alternate>
+  </card>
+  <card id="500dfe08-f5ad-4659-8031-ec73ea11aa4f" name="The Levers (Group C)" size="HorizCard">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Timed - Do not advance this act until you are instructed. Before the agenda advances, one investigator must activate the η ability on the Chamber of Regret. (Beware- If you pull the wrong lever, you will be killed.)"/>
+    <alternate name="Which Lever?" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If an investigator activated the η ability on the Chamber of Regret, that investigator examines the Chamber of Secrets in Group A's play area to see if its flavor text matches the lever that was pulled.&#10;&#10;* If it does not match, rows of razor-sharp blades emerge from the walls of the chamber, dissecting you with horrifying precision. You are killed. Resolve Act 2 Setup.&#10;&#10;* If it matches, the gate ascends, and the door in the Chamber of Night opens. Resolve Act 2 Setup.&#10;If no investigator activated the η ability on the Chamber of Regret:Time is up. You rush to the levers, but you are too late. Rows of razor-sharp blades emerge from the walls of the chamber, dissecting you with horrifying precision.&#10;&#10;The investigator nearest to the Chamber of Regret is killed. In the event of a tie, the investigators decide. Resolve Act 2 Setup."/>
+    </alternate>
+  </card>
+  <card id="86b254c4-6ac5-4e0d-a81e-d5d8c1b1501e" name="The Levers (Group C)" size="HorizCard">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Timed - Do not advance this act until you are instructed. Before the agenda advances, one investigator must activate the η ability on the Chamber of Regret. Beware- If you pull the wrong lever, you will be killed"/>
+    <alternate name="Which Lever?" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If an investigator activated the η ability on the Chamber of Regret, that investigator examines the Chamber of Secrets location underneath the scenario reference card to see if its flavor text matches the lever that was pulled.&#10;&#10;* If it does not match, rows of razor-sharp blades emerge from the walls of the chamber, dissecting you with horrifying precision. You are killed. Resolve Act 2 Setup.&#10;&#10;* If it matches, the gate ascends, and the door in the Chamber of Night opens. Resolve Act 2 Setup.&#10;If no investigator activated the η ability on the Chamber of Regret:&#10;&#10;Time is up. You rush to the levers, but you are too late. Rows of razor-sharp blades emerge from the walls of the chamber, dissecting you with horrifying precision.&#10;&#10;The investigator nearest to the Chamber of Regret is killed. (In the vent of a tie, the investigators decide). Resolve Act 2 Setup."/>
+    </alternate>
+  </card>
+  <card id="b3c6471d-3649-414e-9aa7-6d30b43c5084" name="Distortions in Time (Group A)" size="HorizCard">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Timed - Do not advance this act until you are instructed. When the agenda advances, there must be at least 11 doom in play. (Beware- If the agenda advances and you do not meet this condition, each invesigator in this group will be killed.)"/>
+    <alternate name="Reverse Rhythm" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If there was at least 11 doom in play when the agenda advanced:&#10;&#10;You spin the dial on the device to its maximum value, struggling to keep hold of it as your muscles tighten and you begin to decay. The dial stops with a click, then slowly you are able to continue turning it in the same direction. You are in intense pain as it slowly turns, round and round, finally making it way back where it began. The air thins, and time returns to its original pace.&#10;&#10;Resolve Act 3 Setup.&#10;If there was less than 11 doom in play when the agenda advanced:Your muscles and skin tighten, and you feel your body draining of energy. You try to scream, but no air escapes your throat. Your organs shrivel and decay. The fate that inevitably awaits us all, a sinister voice explains. Within minutes, you are naught but dust.&#10;&#10;Each investigator in this group is killed. (->R1)"/>
+    </alternate>
+  </card>
+  <card id="edf519c4-d5c4-4473-8d83-a3dfdae1c225" name="Seeping Death (Group B)" size="HorizCard">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Timed - Do not advance this act until you are instructed. Before the agenda advances, one investigator must activate the η ability on the Chamber of Poison."/>
+    <alternate name="The Pit of Poison" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If an investigator activated the η ability on the Chamber of Poison, that investigator reads the following:&#10;&#10;* If you have been injected, the sludge is disgusting but harmless. Resolve Act 3 Setup.&#10;&#10;* If you have not been injected, its poison seeps through your skin, devouring your organs from inside. You are killed. Resolve Act 3 Setup.&#10;If no investigator activated the η ability on the Chamber of Poison:&#10;&#10;The floors and walls of the entire labyrinth shift and turn, and you lose your balance. Sliding along the floor as gravity twists, you are knocked into the poisonous pit.&#10;&#10;Move each investigator to the Chamber of Poison. Each investigator in this group who has not been injected is killed. Resolve Act 3 Setup."/>
+    </alternate>
+  </card>
+  <card id="f4f9a3bb-b647-4f6f-8450-f1625e2ade46" name="The Pet (Group C)" size="HorizCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Timed - Do not advance this act until you are instructed. Find a way to deal with Eixodolon's Pet before the agenda advances. (Beware- If the creature is still locked away when the agenda advances, it will break free.)"/>
+    <alternate name="Endless Hunger" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If you sent Eixodolon's Pet to another group:&#10;&#10;Choose another group, at random. At the end of the current round, that group spawns their set-aside copy of Eixodolon's Pet in one of their Labyrinthine Halls. Resolve Act 3 Setup.&#10;If Eixodolon's Pet is in the victory display:&#10;&#10;You breathe a sigh of relief as the creature crumples lifelessly to the ground.&#10;&#10;Resolve Act 3 Setup.&#10;If neither of the above are true:&#10;&#10;The creature smashes through the glass of its terrarium and lashes out hungrily at anyone nearby.&#10;&#10;Move Eixodolon's Pet to Chamber of Hunger. It attacks each investigator in the Chamber of Hunger, in player order. Resolve Act 3 Setup."/>
+    </alternate>
+  </card>
+  <card id="fefaab53-49ea-44df-b920-7bdac3f88425" name="The Escape" size="HorizCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - At the end of the round, if Eixodolon has no remaining health, you may move any damage on him in excess of his health to another group's copy of Eixodolon. Then, advance."/>
+    <alternate name="Parallel Labyrinths" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If any copy of Eixodolon in any surviving group's play area has health remaining:&#10;&#10;The figure distorts and shimmers through space-time.&#10;&#10;Flip this act back over.&#10;If each other surviving group's copy of Eixodolon has no health remaining:&#10;&#10;- If your group is the only surviving group, proceed to (->R2).&#10;&#10;- If only two groups survived, those groups proceed to (->R3).&#10;&#10;- If all three groups survived, all three groups proceed to (->R4)."/>
+    </alternate>
+  </card>
+  <card id="5919c177-00eb-4105-a07d-13b64cc4751a" name="The Escape" size="HorizCard">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If Eixodolon has no remaining health, advance."/>
+    <alternate name="Parallel Labyrinths" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If you are playing in standalone mode:&#10;&#10;Proceed to (->R2).&#10;&#10;If you are playing as a mini-campaign and this is the first or second group played:&#10;&#10;Begin as a new group to discover which resolution is reached.&#10;If you are playing as a mini-campaign, and this is the third group played:&#10;&#10;- If only one group survived, proceed to (->R2).&#10;&#10;- If two groups survived, proceed to (->R3).&#10;&#10;- If all three groups survived, proceed to (->R4)."/>
+    </alternate>
+  </card>
+  <card id="c52ad456-85c4-4186-ba30-d97bb58b55f6" name="Chamber of Secrets" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Prison. Distortion."/>
+    <alternate name="Chamber of Secrets" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Subtitle" value="Bloody Prison"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Prison. Distortion."/>
+      <property name="Text" value="η: You pound your fists on the wall of the chamber. Nobody responds."/>
+    </alternate>
+  </card>
+  <card id="71accc6d-c332-4b43-bb2b-7dce823b239f" name="Chamber of Secrets" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Prison. Distortion."/>
+    <alternate name="Chamber of Secrets" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Subtitle" value="Mysterious Prison"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Prison. Distortion."/>
+      <property name="Text" value="η: You pound your fists on the wall of the chamber. Nobody responds."/>
+    </alternate>
+  </card>
+  <card id="155bc3e4-bc00-4546-aba6-2331d69da40b" name="Chamber of Secrets" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Prison. Distortion."/>
+    <alternate name="Chamber of Secrets" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Subtitle" value="Enshrouded Prison"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Prison. Distortion."/>
+      <property name="Text" value="η: You pound your fists on the wall of the chamber. Nobody responds."/>
+    </alternate>
+  </card>
+  <card id="abcd74a9-9cd2-4a2b-bc30-5429d39a6871" name="Chamber of Rain" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Distortion."/>
+    <alternate name="Chamber of Rain" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Distortion."/>
+      <property name="Text" value="The Chamber of Rain is sealed shut while the water flows. While it is Act 1, this location gains:&#10;&#10;Investigators cannot move into or out of this location.&#10;&#10;Forced - When an investigator here draws an enemy card: Discard it and draw a new card to replace it."/>
+    </alternate>
+  </card>
+  <card id="62ff2676-2c68-41b2-9101-c91afde75d11" name="Chamber of Sorrows" size="EncounterCard">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Prison."/>
+    <alternate name="Chamber of Sorrows" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Prison."/>
+      <property name="Text" value="η: Test ή (1) to try to break down the door to the flooding terrarium. Regardless of whether you succeed or fail, it does not budge. Remember that you tried your best."/>
+    </alternate>
+  </card>
+  <card id="3ae10f16-2962-4f82-a442-8b3e0d695a29" name="Chamber of Sorrows" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Prison."/>
+    <alternate name="Chamber of Sorrows" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Prison."/>
+      <property name="Text" value="η: Test ά (2) to interpret the diagram inscribed on the glass. If you succeed, take control of 1 clue on an investigator in either Chamber of Sorrows or Chamber of Rain (or from that location if you are the only investigator in the game). Any investigator in either Chamber of Sorrows or Chamber of Rain may perform this action."/>
+    </alternate>
+  </card>
+  <card id="fb52a488-cc7f-449f-8f9a-76ba87819984" name="Chamber of Night" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Prison."/>
+    <alternate name="Chamber of Night" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Prison."/>
+      <property name="Text" value="η: You call out for help as loud as you can. Nobody responds."/>
+    </alternate>
+  </card>
+  <card id="1cc12b7c-5316-43f6-9ded-cb45fdddea9a" name="Chamber of Night" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Prison."/>
+    <alternate name="Chamber of Night" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Prison."/>
+      <property name="Text" value="η: Test έ (4). If you succeed, you notice strange writing inscribed along the wall; look at the revealed side of the location underneath the scenario reference card. When you are satisfied, place it back underneath the scenario reference card."/>
+    </alternate>
+  </card>
+  <card id="78f85a38-3188-4a3e-b3d2-d3653562ba94" name="Chamber of Regret" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Distortion."/>
+    <alternate name="Chamber of Regret" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Distortion."/>
+      <property name="Text" value="No more than one investigator may be in the Chamber of Regret at a time."/>
+    </alternate>
+  </card>
+  <card id="ba58c714-53ff-4d39-bea4-31d6ef8ef0d8" name="Labyrinthine Halls" size="EncounterCard">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Labyrinthine Halls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Subtitle" value="Foul-smelling Path"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="θ Choose and discard 2 cards from your hand: You find an old lockbox in a pile of refuse, and decide to leave something behind. At the end of the round, choose another investigator in any group. That investigator draws 2 cards. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="cacefbbf-36a4-4042-bfba-74287bdbc209" name="Labyrinthine Halls" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Labyrinthine Halls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Subtitle" value="Corpse-filled Path"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="θ Spend 4 resources: You find the corpse of someone you think you once knew, and wish you could have saved them. At the end of the round, choose another investigator in any group. That investigator gains 4 resources. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="9694b3b0-914a-4c42-9948-8f7818f73f60" name="Labyrinthine Halls" size="EncounterCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Labyrinthine Halls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Subtitle" value="Overgrown Path"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="η η: You peer through an overgrown mirror and see an unfamiliar reflection. At the end of the round, choose another investigator in any group. That investigator may take 2 additional actions during his or her next turn. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="a75a5edc-4232-4866-847b-e33bb49af072" name="Chamber of Hunger" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Distortion."/>
+    <alternate name="Chamber of Hunger" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Distortion."/>
+      <property name="Text" value="θ If there are no clues on Chamber of Hunger: There is something strange drawn on the glass. Take control of the set-aside Hunger Diagram."/>
+    </alternate>
+  </card>
+  <card id="3fa85904-9e4d-4edb-b4d9-0b2f42fb521b" name="Chamber of Decay" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Distortion."/>
+    <alternate name="Chamber of Decay" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Distortion."/>
+      <property name="Text" value="θ If there are no clues on Chamber of Decay: There's a journal here with some strange scribblings. Take control of the set-aside Decay Diagram."/>
+    </alternate>
+  </card>
+  <card id="ec3a83c6-789d-46e2-b80a-76eb265d6765" name="Chamber of Rot" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Distortion."/>
+    <alternate name="Chamber of Rot" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Distortion."/>
+      <property name="Text" value="θ If there are no clues on Chamber of Rot: There is something strange etched on the walls. Take control of the set-aside Rot Diagram."/>
+    </alternate>
+  </card>
+  <card id="a6434c25-d4d1-48b9-90f3-103ad50e7bcb" name="Chamber of Poison" size="EncounterCard">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <alternate name="Chamber of Poison" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="The ladder leading into the Chamber of Poison must be lowered. As an additional cost to enter the Chamber of Poison, investigators in the Chamber of Rot must spend 1π clues, as a group."/>
+    </alternate>
+  </card>
+  <card id="91dbe868-4e64-4001-980f-6b5f287f1a0f" name="Abandoned Warehouse" size="EncounterCard">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Distortion."/>
+    <alternate name="Abandoned Warehouse" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Distortion."/>
+    </alternate>
+  </card>
+  <card id="78b1daa0-8ef2-4d3a-9945-dcfb34884472" name="Arcane Runes">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Story"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Act 1."/>
+    <property name="Text" value="Revelation - Attach Arcane Runes to a [[Distortion]] location.&#10;&#10;θ If there are 1π resources on this card: Flip it over and follow the instructions on its other side.&#10;&#10;η: sTteέ)3(. fI uoy ucdee,cs ceapl 1 cesueorr no tsih cr.ad&#10;&#10;If an investigator in this group has successfully resolved the above ability, this card gains: η: es)3Tέ(t. oYu ancnto mctmio rdcsa ot htsi klisl e.tts fI uyo duec,esc ealcp 1 srcrouee no nhotera ugpro's coyp fo raeAnc nRues."/>
+    <alternate name="Deep Within the Labyrinth…" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Traits" value="Act 1."/>
+      <property name="Text" value="If you are in Group B:&#10;&#10;Etched upon the glass of the capsule slowly filling with water, you can see a blueprint begin to glow.&#10;&#10;Each investigator in this group may immediately trade clues among one another. Move any number of clues from Chamber of Rain to Chamber of Sorrows, or vice-versa. Flip this card back over.&#10;If you are in Group A:&#10;&#10;The runes glow, and a piece of the wall slides to reveal a secret compartment, filled with trinkets.&#10;&#10;Put the Key of Mysteries into play at the Chamber of Secrets. Flip this card back over.&#10;If you are in Group C:&#10;&#10;The runes in your chamber shift to form a word.&#10;&#10;The word you see is the same word inscribed upon the wall of the Chamber of Secrets in Group A's play area (you may examine Group A's play area) Flip this card back over."/>
+    </alternate>
+  </card>
+  <card id="182f682b-9f14-4c22-a977-c7a63ffd165c" name="The Rift">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Story"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Act 1. Act 2."/>
+    <property name="Text" value="Revelation - Attach The Rift to the current act. If it is act 1, Groups B and C put the set-aside Key of Mysteries into play at a [[Distortion]] location.&#10;&#10;Forced - At the end of the round, if there is at least 3 doom on each group's agenda: The rift opens wide enough for an investigator to step through. Choose an investigator at any location to enter the rift. Then, that investigator flips this card over and follows the instructions on its other side."/>
+    <alternate name="Deep Within the Labyrinth…" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Traits" value="Act 1. Act 2."/>
+      <property name="Text" value="Each investigator that entered the rift takes this story card and meets in private, away from each group. Investigators within the rift can speak freely, and may exchange any number of clues, resources, cards in hand, or story assets controlled. Once the investigators are satisfied, each investigator returns to his or her original group. Flip this card back over."/>
+    </alternate>
+  </card>
+  <card id="03fc5d18-fd91-424f-8fbe-01d267d25a5e" name="The Vent">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Story"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Act 1. Act 2."/>
+    <property name="Text" value="Revelation - Place The Vent in a [[Distortion]] location. If it is act 1, Groups B and C put the set-aside Key of Mysteries into play at that location.&#10;&#10;θ: Place any number of your resource tokens or clues on this card, and/or place any number of [[Item]] assets you control underneath this card. You may also place a written note underneath this card.&#10;&#10;η: Take control of any number of tokens, cards, or notes on/underneath this card.&#10;&#10;ι At the end of the round: You send all of the tokens and cards gathered here through the ventilation shaft. Flip this card over and follow the instructions on the other side."/>
+    <alternate name="Deep Within the Labyrinth…" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Traits" value="Act 1. Act 2."/>
+      <property name="Text" value="Take the cards, tokens, and notes on or underneath this card and place them on or underneath another group's copy of The Vent.&#10;&#10;Flip this card back over."/>
+    </alternate>
+  </card>
+  <card id="b6b4cd34-035a-4cc4-a45b-a00c70e18b3c" name="The Dilemma">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Story"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Act 2."/>
+    <property name="Text" value="Revelation - Put The Dilemma into play, next to the act deck. &#10;&#10;The current act gains:  At the end of the round: Desperate, you are willing to sacrifice yourself for the benefit of the other groups. Flip The Dilemma over and follow the instructions on the other side."/>
+    <alternate name="Deep Within the Labyrinth…" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Traits" value="Act 2."/>
+      <property name="Text" value="You must choose and discard all but X cards from your hand, and remove all but X resources from your resource pool. X is the amount of doom on the current agenda.&#10;Read the following to each group aloud:&#10;&#10;The words and letters on the note shift and change to form a strange diagram.&#10;&#10;The lead investigator of Group A takes control of the set-aside Rot Diagram.&#10;&#10;The lead investigator of Group B takes control of the set-aside Hunger Diagram.&#10;&#10;The lead investigator of Group C takes control of the set-aside Decay Diagram.&#10;&#10;Remove each group's copy of The Dilemma from the game."/>
+    </alternate>
+  </card>
+  <card id="a74f55de-c7e4-49de-9948-c5bc2248efa1" name="The Gate">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Story"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Act 2."/>
+    <property name="Text" value="Revelation - Attach The Gate to a [[Distortion]] location.&#10;&#10;η Spend 1 clue: You enter the doorway. Flip this story card over and follow the instructions on its other side."/>
+    <alternate name="Deep Within the Labyrinth…" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Traits" value="Act 2."/>
+      <property name="Text" value="Depending on which group you are in, put a different location into play, as follows:&#10;&#10;- If you are in Group A, put the Chamber of Rot into play.&#10;&#10;- If you are in Group B, put the Chamber of Hunger into play.&#10;&#10;- If you are in Group C, put the Chamber of Decay into play.&#10;&#10;Disengage from each enemy and move to the location just put into play.&#10;&#10;Until there is at least 5 doom on the current agenda, that location is not considered to be connected to any other location.&#10;&#10;Remove this card from the game."/>
+    </alternate>
+  </card>
+  <card id="61fb1a4c-b8c4-492e-b62c-d0ac5a6412c6" name="Encrypted Glyphs">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Story"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Act 2."/>
+    <property name="Text" value="Revelation - Attach Encrypted Glyphs to a [[Distortion]] location.&#10;&#10;Forced - If there is at least 1 horror and 1π damage on this card: Flip it over and follow the instructions on its other side.&#10;&#10;η: Test έ (2) to attempt to decipher the glyphs. If you succeed, place 1 damage on this card.&#10;&#10;η: Test ά (4) to move the glyphs to their proper order. If you succeed, place 1 horror on each group's copy of Encrypted Glyphs."/>
+    <alternate name="Deep Within the Labyrinth…" type="B">
+      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Traits" value="Act 2."/>
+      <property name="Text" value="If you are in Group A:&#10;&#10;Choose an investigator to take control of the set-aside Rot Diagram. Remove this card from the game.&#10;If you are in Group B:&#10;&#10;Choose an investigator to take control of the set-aside Hunger Diagram. Remove this card from the game.&#10;If you are in Group C:&#10;&#10;Choose an investigator to take control of the set-aside Decay Diagram. Remove this card from the game."/>
+    </alternate>
+  </card>
+  <card id="0a109bdc-b669-4300-853c-a321d0b48929" name="Eixodolon's Note">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Script."/>
+    <property name="Text" value="Forced - When you are defeated: Give control of Eixolodon's Note to another investigator."/>
+  </card>
+  <card id="655b63b0-7c6e-43b5-968c-3c15722b73c5" name="Key of Mysteries">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Key."/>
+    <property name="Text" value="Forced - When you are defeated: Place Key of Mysteries at your location.&#10;&#10;While the Key of Mysteries is uncontrolled, it gains: η: Investigate. If you succeed, instead of discovering clues, take control of the Key of Mysteries."/>
+  </card>
+  <card id="a2b55f0c-5180-44ab-bef2-12041c2659e6" name="Mysterious Syringe">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="Forced - When you are defeated: Give control of Mysterious Syringe to another investigator.&#10;&#10;η: Choose an investigator at your location and remove Mysterious Syringe from the game. Remember that the chosen investigator has been injected."/>
+  </card>
+  <card id="beff7428-875f-4616-9241-2c36f57a30aa" name="Rot Diagram">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Script."/>
+    <property name="Text" value="Forced - When you are defeated: Give control of Rot Diagram to another investigator.&#10;&#10;While you are in the Chamber of Decay, it gains: η: Place 1 doom here. Flip any number of your clues to their doom side and place them here."/>
+  </card>
+  <card id="cce2e5c7-4b6e-4d16-afaa-cf0ee40777c4" name="Rot Diagram">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Script."/>
+    <property name="Text" value="Forced - When you are defeated: Give control of Rot Diagram to another investigator.&#10;&#10;While you are in the Chamber of Rot, it gains: η: Investigate. If you succeed, instead of discovering clues, take control of the set-aside Mysterious Syringe."/>
+  </card>
+  <card id="447e1794-13e1-448a-adee-2739317beaf9" name="Hunger Diagram">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Script."/>
+    <property name="Text" value="Forced - When you are defeated: Give control of Hunger Diagram to another investigator.&#10;&#10;While you are in the Chamber of Rot, it gains: η: Investigate. If you succeed, instead of discovering clues, take control of the set-aside Mysterious Syringe."/>
+  </card>
+  <card id="d25f33d2-c4cd-4299-857f-e0ac2e3a2d73" name="Hunger Diagram">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Script."/>
+    <property name="Text" value="Forced - When you are defeated: Give control of Hunger Diagram to another investigator.&#10;&#10;While you are in the Chamber of Hunger, it gains: â€œη If Eixodolon's Pet is 'locked away,' spend 1 clue: Deal 4 damage to Eixodolon's Pet.â€"/>
+  </card>
+  <card id="9e268ce7-82fa-4b15-b0bc-a1f034203a44" name="Decay Diagram">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Script."/>
+    <property name="Text" value="Forced - When you are defeated: Give control of Decay Diagram to another investigator.&#10;&#10;While you are in the Chamber of Hunger, it gains: η If Eixodolon's Pet is 'locked away,' spend 1 clue: Deal 4 damage to Eixodolon's Pet."/>
+  </card>
+  <card id="2a04acb2-4b13-4bd7-bb65-954d817c6b47" name="Decay Diagram">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Item. Script."/>
+    <property name="Text" value="Forced - When you are defeated: Give control of Decay Diagram to another investigator.&#10;&#10;While you are in the Chamber of Decay, it gains: η: Place 1 doom here. Flip any number of your clues to their doom side and place them here."/>
+  </card>
+  <card id="675e2459-3ba9-4d1b-bfb2-9329599e8e85" name="Eixodolon" size="EncounterCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Subtitle" value="Your Anguish Is My Power"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="3"/>
+    <property name="Traits" value="Humanoid. Servitor. Elite."/>
+    <property name="Text" value="Hunter. Retaliate.&#10;&#10;Eixodolon gets +6π health and cannot be defeated by damage.&#10;&#10;Forced - When the enemy phase begins, if there is a copy of Harvested Pain in the victory display: Ready Eixodolon."/>
+  </card>
+  <card id="723de15a-c682-4880-bac6-7d9c9646026f" name="Eixodolon's Pet" size="EncounterCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Subtitle" value="You Are Not Its First Victim, Or Its Last"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="4π"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Monster. Elite."/>
+    <property name="Text" value="Hunter. Retaliate.&#10;&#10;While Eixodolon's Pet is locked away, it is immune to player card effects and Chamber of Hunger gains: η Investigators at Chamber of Hunger spend 1π clues, as a group: Set Eixodolon's Pet aside, out of play. Remember that you sent Eixodolon's Pet to another group."/>
+  </card>
+  <card id="cdd2f61c-e48e-48bb-8ad5-c0395e8192a3" name="Eixodolon's Pet" size="EncounterCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Subtitle" value="You Are Not Its First Victim, Or Its Last"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="4π"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Monster. Elite."/>
+    <property name="Text" value="Hunter. Retaliate.&#10;&#10;While Eixodolon's Pet is locked away, it is immune to player card effects."/>
+  </card>
+  <card id="e86a6253-1c9a-4e3a-834d-3d516d6ba780" name="The Jailor" size="EncounterCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="12"/>
+    <property name="Damage" value="2"/>
+    <property name="Victory Points" value="5"/>
+    <property name="Traits" value="Monster. Elite."/>
+    <property name="Text" value="Spawn - Nearest Labyrinthine Halls.&#10;&#10;Hunter.&#10;&#10;Eixodolon's Note gains: η Fight. Use only on The Jailor. Use either ά or ή for this attack. If you succeed, set The Jailor aside, out of play. At the end of the round, move The Jailor to another group's Labyrinthine Halls (it keeps all tokens and attachments)."/>
+  </card>
+  <card id="a0dda595-0a83-4fe6-bf4b-1b11c002ccf3" name="Faceless Abductor" size="EncounterCard">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="2"/>
+    <property name="Traits" value="Monster. Nightgaunt."/>
+    <property name="Text" value="Spawn - Nearest [[Prison]] location.&#10;&#10;Hunter.&#10;&#10;Forced - After Faceless Abductor attacks an investigator: Move that investigator to a [[Prison]] location."/>
+  </card>
+  <card id="e8de7e2c-0a50-4e5b-9052-6fad81db512d" name="Tortured Victim" size="EncounterCard">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Extradimensional."/>
+    <property name="Text" value="Revelation - You must either discard a random card from your hand, or Tortured Victim makes an immediate attack against you."/>
+  </card>
+  <card id="c4cbc597-a14f-418e-a29d-0ad507042021" name="Mi-Go Guard" size="EncounterCard">
+    <property name="Card Number" value="54"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Mi-Go."/>
+    <property name="Text" value="Prey - Most remaining health.&#10;&#10;For each α, β, γ, or δ token revealed during an attack against Mi-Go Guard, that attack deals 1 fewer damage."/>
+  </card>
+  <card id="8f6adac8-af71-4353-9d15-67e89b8fd247" name="Unnatural Weariness" size="EncounterCard">
+    <property name="Card Number" value="55"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Injury. Poison."/>
+    <property name="Text" value="Peril.&#10;&#10;Revelation - Test ά (3). For each point you fail by, you must choose a different option:&#10;&#10;- Lose 3 resources.&#10;&#10;- Lose 1 action.&#10;&#10;- Discard a random card from your hand."/>
+  </card>
+  <card id="3a70204f-91c5-4fff-8261-bc02e7d6ce96" name="Poisonous Gas" size="EncounterCard">
+    <property name="Card Number" value="56"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Trap. Poison."/>
+    <property name="Text" value="Revelation - Test ί (4). If you fail, lose 1 action (2 actions instead if you fail by 2 or more). When this skill test begins, an investigator at your location may place 1 of his or her clues on your location to reduce the difficulty of this test by 2."/>
+  </card>
+  <card id="61e38ecf-feb7-4f0b-bec0-a70817bff237" name="Dreadful Mechanism" size="EncounterCard">
+    <property name="Card Number" value="57"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Trap."/>
+    <property name="Text" value="Revelation - Put Dreadful Mechanism into play in your threat area.&#10;&#10;Forced - After you perform an action other than the η ability below: Take 1 damage, discard an asset taking up at least 1 hand slot, and discard Dreadful Mechanism.&#10;&#10;η: Test ή (2). If you succeed, discard Dreadful Mechanism."/>
+  </card>
+  <card id="3f93460c-2ed9-4059-980e-38bc3563841b" name="Blood and Rust" size="EncounterCard">
+    <property name="Card Number" value="58"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Trap."/>
+    <property name="Text" value="Revelation - Test ί (4). If you fail, take 1 damage (2 damage instead if you fail by 2 or more). When this skill test begins, an investigator at your location may place 1 of his or her clues on your location to reduce the difficulty of this test by 2."/>
+  </card>
+  <card id="859735ee-63a7-484c-b826-8a9cf68c64e1" name="Paradox Effect" size="EncounterCard">
+    <property name="Card Number" value="59"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Test ά (3). For each point you fail by, take 1 horror. If you succeed, put Paradox Effect into play in your threat area.&#10;&#10;Forced - At the end of the round: Discard Paradox Effect and choose an investigator in another group. You and that investigator may talk in private and may exchange resources, story assets, and cards in hand."/>
+  </card>
+  <card id="6deaf02c-fdb3-46a1-bb27-9da31837d320" name="Paradox Effect" size="EncounterCard">
+    <property name="Card Number" value="60"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Test ά (3). For each point you fail by, take 1 horror."/>
+  </card>
+  <card id="644831e1-17cd-4433-820c-8001dcf2361d" name="Harvested Pain" size="EncounterCard">
+    <property name="Card Number" value="61"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex."/>
+    <property name="Text" value="Peril.&#10;&#10;Revelation - If you have 3 or fewer remaining health or sanity, add Harvested Pain to the victory display. Otherwise, take 1 damage and 1 horror.&#10;&#10;While Harvested Pain is in the victory display, Eixodolon gets +1 fight."/>
+  </card>
+ </cards>
+</set>
