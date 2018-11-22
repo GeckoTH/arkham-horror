@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Shattered Aeons" id="16ba646f-1232-48eb-9489-8650ce9c2094" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="04d5f69a-a40f-49ac-914f-fa53687ea7b9" name="Kerosene">
+    <property name="Card Number" value="304"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="Uses (3 supplies). If Kerosene has no supplies, discard it.&#10;&#10;η If an enemy was defeated at this location this round, exhaust Kerosene and spend 1 supply: Heal up to 2 horror from among investigators and [[Ally]] assets at your location."/>
+  </card>
+  <card id="2d5a7b01-f50d-42a3-8db3-3c383cb17912" name="Flamethrower">
+    <property name="Card Number" value="305"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="4"/>
+    <property name="Combat" value="2"/>
+    <property name="Skill Icons" value="ήήΰ"/>
+    <property name="Slot" value="Body. Hand x2"/>
+    <property name="Traits" value="Item. Weapon. Firearm."/>
+    <property name="Text" value="Uses (4 ammo).&#10;&#10;η Spend 1 ammo: Fight. The enemy chosen for this attack must be the enemy engaged with you with the highest fight. You get +4 ή for this attack. If this attack is successful, instead of its standard damage, you may assign up to 4 damage among enemies engaged with you (any additional damage adds to this total)."/>
+  </card>
+  <card id="4bdb5e96-f6c5-488a-8c78-d71183239041" name="Vantage Point">
+    <property name="Card Number" value="306"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίέ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Fast. Play after a location enters play or is revealed during an investigator's turn.&#10;&#10;Until the end of the active investigator's turn, that location gets -1 shroud. You may move 1 clue to that location from any other location."/>
+  </card>
+  <card id="b4b13e0c-abd7-4a1e-93f7-0781cab068ee" name="Pnakotic Manuscripts">
+    <property name="Card Number" value="307"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Mind-Expanding Ideas"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="5"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έΰ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Relic. Tome."/>
+    <property name="Text" value="Uses (3 secrets).&#10;&#10;ι When an investigator at your location would perform a skill test during a revelation effect, spend 1 secret: Do not reveal chaos tokens for that test.&#10;&#10;η Spend 1 secret: Choose an investigator at your location. Do not reveal chaos tokens for the next skill test that investigator performs this round."/>
+  </card>
+  <card id="6b70667e-4179-4b6e-815b-440bef3b5606" name="Borrowed Time">
+    <property name="Card Number" value="308"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="1"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίά"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Ritual."/>
+    <property name="Text" value="Exceptional.&#10;&#10;η: Place 1 resource on Borrowed Time, as a click (to a maximum of 3 clicks on Borrowed Time). Does not provoke attacks of opportunity.&#10;&#10;Forced - When your turn begins: Remove all clicks from Borrowed Time. You may take that many additional actions this turn."/>
+  </card>
+  <card id="3394aa3b-c35a-49d3-b1b6-bc0bc0162ff9" name="All In">
+    <property name="Card Number" value="309"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="5"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Traits" value="Fortune."/>
+    <property name="Text" value="Max 1 committed per skill test.&#10;&#10;If this test is successful, draw 1 card for each point you succeeded by, to a maximum of 5. Shuffle each weakness drawn by this effect back into your deck without resolving it."/>
+  </card>
+  <card id="5e413d84-f3e8-4c40-8b83-fe1e69f73c6c" name="Shards of the Void">
+    <property name="Card Number" value="310"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήά"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Seal (0). Uses (3 charges).&#10;&#10;η Spend 1 charge or release a chaos token sealed here: Fight. This attack uses ά instead of ή and deals +1 damage. You get +2 ά for this attack for each &quot;0&quot; token sealed on Shards of the Void. For each &quot;0&quot; token revealed during this attack, seal that token on Shards of the Void and this attack deals 1 additional damage."/>
+  </card>
+  <card id="36561aa6-4bce-494e-80ec-c98b80088213" name="Seal of the Seventh Sign">
+    <property name="Card Number" value="311"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Over the Threshold and Beyond"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="5"/>
+    <property name="Cost" value="4"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="άΰ"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell. Ritual."/>
+    <property name="Text" value="Seal (ζ). Uses (7 charges). If Seal of the Seventh Sign has no charges, or if it leaves play, remove it from the game.&#10;&#10;Forced - After a α, β, γ, or δ token is revealed during any skill test: Remove 1 charge from Seal of the Seventh Sign."/>
+  </card>
+  <card id="52209ebb-4ac1-4b38-b47e-a85fb7ff22c0" name="Impromptu Barrier">
+    <property name="Card Number" value="312"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Traits" value="Tactic. Improvised."/>
+    <property name="Text" value="You may play Impromptu Barrier from your discard pile. If you do, shuffle it into your deck after resolving its effects.&#10;&#10;Evade. The chosen enemy gets -1 evade for this evasion attempt. (If you played Impromptu Barrier from your discard pile, you may evade an additional enemy at the same location with evade X or lower. X is the amount you succeed by.)"/>
+  </card>
+  <card id="f981c0dc-32f1-4646-b3a2-d93d45ba37d1" name="Alter Fate">
+    <property name="Card Number" value="313"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Spell. Blessed."/>
+    <property name="Text" value="Fast. Play during any θ player window.&#10;&#10;Choose and discard from play a non-weakness treachery that is not attached to an [[Elite]] enemy."/>
+  </card>
+  <card id="9595aa3f-07ec-4d79-8d74-b8a79256e49f" name="Shattered Aeons">
+    <property name="Card Number" value="314"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="α: -1 (-4 instead if the Relic of Ages is at your location).&#10;β: -2. If you do not succeed by at least 1, place 1 doom on the nearest [β] enemy.&#10;γ: -2. If you are poisoned, this test automatically fails instead.&#10;δ: -2. If you fail, shuffle the topmost [[hex]] treachery in the encounter discard pile into the exploration deck."/>
+    <alternate name="Shattered Aeons" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="α: -2 (-5 instead if the Relic of Ages is at your location).&#10;β: -3. Place 1 doom on each [β] enemy.&#10;γ: -3. If you are poisoned, this test automatically fails instead. If you are not poisoned and you fail, put a set-aside Poisoned weakness into play in your threat area.&#10;δ: -3. Shuffle the topmost [[hex]] treachery in the encounter discard pile into the exploration deck."/>
+    </alternate>
+  </card>
+  <card id="72c7e19e-d6f4-4b52-881d-50a629959432" name="Threads of Time" size="HorizCard">
+    <property name="Card Number" value="315"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Forced - If an investigator with the Relic of Ages in his or her hand, deck, discard pile, or play area is eliminated: Immediately advance to agenda 3b."/>
+    <alternate name="Threads of Time" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;Spawn the set-aside Formless Spawn in the Nexus of N'kai.&#10;Place this card in the victory display. It gains Vengeance 1."/>
+    </alternate>
+  </card>
+  <card id="1d947ab7-49e3-4937-82ec-65194ac53c69" name="Pendulous Threads" size="HorizCard">
+    <property name="Card Number" value="316"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="7"/>
+    <property name="Text" value="Forced - If an investigator with the Relic of Ages in his or her hand, deck, discard pile, or play area is eliminated: Immediately advance to agenda 3b."/>
+    <alternate name="Pendulous Threads" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;If Formless Spawn is in play, place 2 doom on the Nexus of N'kai. If Formless Spawn is in the victory display, shuffle it into the encounter deck.&#10;Place this card in the victory display. It gains Vengeance 1."/>
+    </alternate>
+  </card>
+  <card id="11348581-4801-44e1-b463-1ea2d11bd9a4" name="Snapped Threads" size="HorizCard">
+    <property name="Card Number" value="317"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="12"/>
+    <property name="Text" value="Forced - If an investigator with the Relic of Ages in his or her hand, deck, discard pile, or play area is eliminated: Immediately advance to agenda 3b."/>
+    <alternate name="Snapped Threads" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(->R4)"/>
+    </alternate>
+  </card>
+  <card id="b42714b0-c093-4cb4-a2f9-63cd2522369d" name="Worlds Beyond" size="HorizCard">
+    <property name="Card Number" value="318"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2π"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Forced - When an enemy would spawn at an empty location and there are no empty locations in play: Reveal cards from the exploration deck until a location is revealed. Put that location into play and spawn that enemy there. Shuffle the exploration deck."/>
+    <alternate name="Worlds Beyond" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the set-aside A Pocket in Time location into the exploration deck."/>
+    </alternate>
+  </card>
+  <card id="871beb2e-a160-4e9e-97a2-ca45c7e74453" name="Search for the Brotherhood" size="HorizCard">
+    <property name="Card Number" value="319"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Objective - If an investigator enters A Pocket in Time, advance."/>
+    <alternate name="Search for the Brotherhood" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the set-aside [[shattered]] locations into the exploration deck. Each investigator shuffles the topmost treachery in the encounter discard pile into the exploration deck.&#10;Check Campaign Log.&#10;Attach the set-aside Relic of Ages to A Pocket in Time, under no investigator's control.&#10;Advance to Act 3a-The Yithian Relic."/>
+    </alternate>
+  </card>
+  <card id="c68b083c-875c-4bbe-be2d-a9d133b10936" name="The Yithian Relic" size="HorizCard">
+    <property name="Card Number" value="320"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η: Search your deck or discard pile for the Relic of Ages and add it to your hand. Shuffle your deck.&#10;η If the Relic of Ages is attached to your location and there are no clues on that location: Take control of the Relic of Ages.&#10;Objective - If an investigator controls the Relic of Ages, advance."/>
+    <alternate name="The Yithian Relic" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If Ichtaca is set against you:&#10;Spawn the set-aside Ichtaca in the Nexus of N'kai.&#10;If Alejandro is set against you:&#10;&quot;Fools! Are you blind?&quot; Alejandro motions to the worlds before him. &quot;Your kind stands no chance against the ravages of time.&quot;&#10;Spawn the set-aside Alejandro in A Pocket in Time."/>
+    </alternate>
+  </card>
+  <card id="4789e966-5d6b-4fe3-a3d2-e540703d96e2" name="Mend the Shatter" size="HorizCard">
+    <property name="Card Number" value="321"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η If you are at a [[shattered]] location with no clues: Test ά or έ (3). If you succeed, attach your location facedown to the Relic of Ages. Each investigator and enemy at that location is moved to A Pocket in Time.&#10;Objective - If the number of locations attached to the Relic of Ages is equal to 1 plus the number of investigators who started the game, advance."/>
+    <alternate name="Mend the Shatter" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="If Relic of Ages (Repossess the Past) is the version of the Relic of Ages that the investigators control, proceed to (->R5).&#10;If the investigators control any other version of the Relic of Ages, proceed to (->R1)."/>
+    </alternate>
+  </card>
+  <card id="426e07e6-8729-484a-a0bc-73ca0281addd" name="Paradise Lost" size="HorizCard">
+    <property name="Card Number" value="322"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η If you are at a [[shattered]] location with no clues: Test ά or έ (3). If you succeed, attach your location facedown to the Relic of Ages. Each investigator and enemy at that location is moved to A Pocket in Time.&#10;Objective - If Valusia is attached to the Relic of Ages, advance."/>
+    <alternate name="Paradise Lost" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(->R2)"/>
+    </alternate>
+  </card>
+  <card id="1d817dd9-032c-441b-a49f-0efdce77d3be" name="Timelock" size="HorizCard">
+    <property name="Card Number" value="323"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η If you are at a [[shattered]] location with no clues: Test ά or έ (3). If you succeed, attach your location facedown to the Relic of Ages. Each investigator and enemy at that location is moved to A Pocket in Time.&#10;Objective - If Pnakotus is attached to the Relic of Ages, advance."/>
+    <alternate name="Timelock" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(->R3)"/>
+    </alternate>
+  </card>
+  <card id="9964782a-d79b-452f-8e16-20a890f9f700" name="Nexus of N'kai" size="EncounterCard">
+    <property name="Card Number" value="324"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Ancient. Ruins."/>
+    <alternate name="Nexus of N'kai" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Subtitle" value="Unraveling the Threads"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Ancient. Ruins."/>
+      <property name="Text" value="Forced - After you move from Nexus of N'kai to an [[otherworld]] location, or vice versa: Take 1 horror for each clue on that [[otherworld]] location.&#10;η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it. Do not take horror from the above Forced ability when moving via this effect."/>
+    </alternate>
+  </card>
+  <card id="74080182-a727-4a63-98b0-42e0909e4bdc" name="Ictaca" size="EncounterCard">
+    <property name="Card Number" value="325"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Subtitle" value="Scion of Yig"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="6π"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Humanoid. Monster. Serpent. Elite."/>
+    <property name="Text" value="Hunter. Retaliate.&#10;η: Parley. Test έ (5) to plead for your life. If a β symbol is revealed during this test, you automatically succeed. If you fail, Ichtaca attacks you. If you succeed, flip this card over and resolve its text."/>
+    <alternate name="Yig's Mercy" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Check Campaign Log. If there are 16 or more tally marks under &quot;Yig's Fury&quot;:&#10;Ichtaca refuses your plea. Flip this card back over.&#10;If there are 15 or fewer tally marks:&#10;Ichtaca ceases her assault and listens to your words. &quot;Valusia must be returned to glory. There is no other way,&quot; she decrees with bitter certainty. &quot;Help us to achieve this goal, and you can join with us. Yig will remake you in his image, and we shall live together in our timeless paradise of Valusia.&quot;&#10;The investigators must decide (choose one):&#10;&quot;I could never turn my back on humanity!&quot; Flip this card back over. For the remainder of the scenario, you cannot parley with Ichtaca.&#10;&quot;I accept.&quot; Remove this card and Act 4a &quot;Mend the Shatter&quot; from the game and advance to the set-aside Act 4a &quot;Paradise Lost&quot;. For the remainder of the scenario, you cannot parley with Alejandro Vela, and [[serpent]] enemies do not engage or attack you."/>
+    </alternate>
+  </card>
+  <card id="bbe64a25-336f-4deb-a46c-6dfb3909b5dd" name="Alejandro Vela" size="EncounterCard">
+    <property name="Card Number" value="326"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Subtitle" value="Or, Is He?"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="6"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="4π"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Humanoid. Cultist. Elite."/>
+    <property name="Text" value="Alert. Hunter.&#10;η: Parley. Test έ (5) to plead for your life. If a γ symbol is revealed during this test, you automatically succeed. If you fail, Alejandro Vela attacks you. If you succeed, flip this card over and resolve its text."/>
+    <alternate name="Another Way" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Story"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="Alejandro -if it is really him beneath that guise of humanity- contemplates your words. &quot;Very well. We will spare you, but only if you assist the Brotherhood.&quot; He motions to the gateways all around you. &quot;Your kind was not the first to inherit the Earth. You know this, now, from your travels. We tried to get you to understand, but in your stubbornness, you would not listen. Hear me now. The creatures that drove us to ruin will return. They will wipe humanity off this planet, and the only evidence of your existence will live on in Pnakotus. But together we can stop them. Join us, and you may yet save the Earth and yourselves.&quot;&#10;The investigators must decide (choose one):&#10;&quot;I could never turn my back on humanity!&quot; Flip this card back over. For the remainder of the scenario, you cannot parley with Alejandro Vela.&#10;&quot;I accept.&quot; Remove this card and Act 4a &quot;Mend the Shatter&quot; from the game and advance to the set-aside Act 4a &quot;Timelock&quot;. For the remainder of the scenario, you cannot parley with Ichtaca, and [β] enemies do not engage or attack you."/>
+    </alternate>
+  </card>
+  <card id="6490e55a-3fe2-4c4d-a1c4-4a135eb67270" name="Yuggoth" size="EncounterCard">
+    <property name="Card Number" value="327"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld."/>
+    <alternate name="Yuggoth" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Otherworld."/>
+      <property name="Text" value="η: Flip a clue on Yuggoth to its doom side. Draw 1 card."/>
+    </alternate>
+  </card>
+  <card id="21e1dea3-83a0-4e12-8030-f854c05d3599" name="Shores of R'lyeh" size="EncounterCard">
+    <property name="Card Number" value="328"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld."/>
+    <alternate name="Shores of R'lyeh" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Otherworld."/>
+      <property name="Text" value="Shores of R'lyeh gets +1 shroud for each doom on each card in Shores of R'lyeh (including itself).&#10;Forced - After Shores of R'lyeh enters play: Place 1 doom on it."/>
+    </alternate>
+  </card>
+  <card id="1d9a0644-1a4c-4458-acf8-0859124b94d7" name="City of the Unseen" size="EncounterCard">
+    <property name="Card Number" value="329"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld."/>
+    <alternate name="City of the Unseen" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Otherworld."/>
+      <property name="Text" value="Forced - After 1 or more doom is placed on a [β] enemy at City of the Unseen: Place 1 additional doom on that enemy."/>
+    </alternate>
+  </card>
+  <card id="eba05542-79ba-44d4-940b-029d53705c26" name="A Pocket in Time" size="EncounterCard">
+    <property name="Card Number" value="330"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Extradimensional."/>
+    <alternate name="A Pocket in Time" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="5"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Extradimensional."/>
+      <property name="Text" value="Forced - After you move from A Pocket in Time to a [[shattered]] location, or vice versa: Take 1 damage for each clue on that [[shattered]] location.&#10;η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it. Do not take damage from the above Forced ability when moving via this effect."/>
+    </alternate>
+  </card>
+  <card id="65d2d198-22f5-442e-8470-c52b9098de7d" name="Ruins of New York" size="EncounterCard">
+    <property name="Card Number" value="331"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Shattered. Future. Ruins."/>
+    <alternate name="Ruins of New York" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Shattered. Future. Ruins."/>
+      <property name="Text" value="Forced - After Ruins of New York enters play: Put the top card of the lead investigator's deck into play at this location, facedown (2 cards instead if there are 3 or 4 investigators in the game). Treat each of those cards as Flying Polyp enemies with 2 fight, 2 health, 2 evade, 1 damage, and the [[monster]] trait."/>
+    </alternate>
+  </card>
+  <card id="8e0afc24-98cd-4e26-a6a8-6bd2fb920741" name="Mu" size="EncounterCard">
+    <property name="Card Number" value="332"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Shattered. Ancient."/>
+    <alternate name="Mu" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="4π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Shattered. Ancient."/>
+      <property name="Text" value="While you are at Mu, the first α, β, γ, or δ symbol you reveal during each skill test gains: &quot;Reveal another token.&quot;"/>
+    </alternate>
+  </card>
+  <card id="08f10edb-be29-4429-8920-ea642aa7aece" name="Atlantis" size="EncounterCard">
+    <property name="Card Number" value="333"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Shattered. Ancient."/>
+    <alternate name="Atlantis" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Shattered. Ancient."/>
+      <property name="Text" value="Forced - After an ζ symbol is revealed during a skill test at any location: Place 1 doom on Atlantis. Then, if there are 3 or more doom on Atlantis, remove it from the game. Each enemy and investigator that was at Atlantis is defeated."/>
+    </alternate>
+  </card>
+  <card id="f1d78a4e-87ae-40cf-a508-f3e6380f8013" name="Pnakotus" size="EncounterCard">
+    <property name="Card Number" value="334"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Shattered. Ancient."/>
+    <alternate name="Pnakotus" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Shattered. Ancient."/>
+      <property name="Text" value="η If there are at least 3 γ tokens in the chaos bag or sealed on cards in play: Discover all of the clues on Pnakotus and draw that many cards. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="b8450b58-6cc4-4f93-b389-861a932b62dc" name="Valusia" size="EncounterCard">
+    <property name="Card Number" value="335"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Shattered. Ancient."/>
+    <alternate name="Valusia" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Shattered. Ancient."/>
+      <property name="Text" value="η If there are at least 3 β tokens in the chaos bag or sealed on cards in play: Heal 2 damage and 2 horror. Set Valusia's shroud to 0 for the remainder of the game. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="8fab82bd-d9ba-456f-bffc-63645029a15a" name="Plateau of Leng" size="EncounterCard">
+    <property name="Card Number" value="336"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Shattered. Present-Day."/>
+    <alternate name="Plateau of Leng" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Shattered. Present-Day."/>
+      <property name="Text" value="Forced - If you reveal an δ symbol during a skill test at Plateau of Leng: Take 1 horror."/>
+    </alternate>
+  </card>
+  <card id="f9b9ed93-13c5-48ed-9063-4d373a57fbde" name="Formless Spawn" size="EncounterCard">
+    <property name="Card Number" value="337"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Subtitle" value="From the Abyss"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="10"/>
+    <property name="Damage" value="3"/>
+    <property name="Horror" value="3"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Text" value="Spawn - Nexus of N'kai.&#10;Massive. Formless Spawn cannot move or be moved.&#10;Formless Spawn gets +1 fight and +1 evade for each doom on each card in Nexus of N'kai ."/>
+  </card>
+  <card id="f5a87d07-b721-49e0-aa1e-af668db9a863" name="Temporal Devourer" size="EncounterCard">
+    <property name="Card Number" value="338"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="5"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Extradimensional."/>
+    <property name="Text" value="Spawn - Farthest [[shattered]] or [[extradimensional]] location. If there are no such locations in play, Temporal Devourer gains surge.&#10;Hunter.&#10;Forced - After Temporal Devourer enters a Shattered or Extradimensional location: Place 1 clue on that location ."/>
+  </card>
+  <card id="dd7befc2-f6ed-4a64-afcf-269050618bab" name="Shattered Ages" size="EncounterCard">
+    <property name="Card Number" value="339"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex."/>
+    <property name="Text" value="Revelation - Test ά (4). If you fail, place 1 clue on each location other than Nexus of N'kai."/>
+  </card>
+  <card id="bf17be6b-e611-4bdc-98a6-4150e5041fa1" name="Between Worlds" size="EncounterCard">
+    <property name="Card Number" value="340"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex."/>
+    <property name="Text" value="Revelation - Put Between Worlds into play as an [[otherworld]] location with 3 shroud and 1 clue, and move to it. It is connected to the Nexus of N'kai. (If drawn from the exploration deck, this exploration is still considered unsuccessful.)&#10;Forced - At the end of the round: Each investigator in Between Worlds takes 1 damage and 1 horror. If there are no investigators in this location, discard it and move each enemy that was here to Nexus of N'kai."/>
+  </card>
+  <card id="72e4caaa-c2fc-45bd-982f-9dba075771e9" name="Wracked by Time" size="EncounterCard">
+    <property name="Card Number" value="341"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex."/>
+    <property name="Text" value="Revelation - Test ά (3). Each investigator at a [[shattered]] location must also perform this skill test. Each investigator who fails takes 2 damage. Each asset assigned damage by this effect that is not defeated is shuffled into its owner's deck."/>
+  </card>
+  <card id="59f90626-8415-4234-961f-62d156c824fb" name="Creeping Darkness" size="EncounterCard">
+    <property name="Card Number" value="342"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Attach to Nexus of N'kai. Place 1 doom on Creeping Darkness.&#10;Formless Spawn gets +1π health.&#10;η η: Test ά (3) or check your supplies. If you succeed, or if you have torches, Discard Creeping Shadows."/>
+  </card>
+  <card id="0511e933-fe25-4020-8014-cd4c8aa23cb1" name="Relic of Ages">
+    <property name="Card Number" value="343"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Subtitle" value="Unleash the Timestream"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="2"/>
+    <property name="Skill Icons" value="ΰΰΰ"/>
+    <property name="Traits" value="Item. Relic."/>
+    <property name="Text" value="Forced - After you resolve a treachery while exploring: Shuffle that treachery back into the exploration deck instead of discarding it."/>
+  </card>
+  <card id="88c8a01f-7824-4ff3-9df4-4437ec24d12e" name="Turn Back Time">
+    <property name="Card Number" value="344"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Turn Back Time"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="α: -X . X is the number of locations with doom on them.&#10;δ: -4. If you fail, place 1 doom on your location."/>
+    <alternate name="Turn Back Time" type="B">
+      <property name="Encounter Set" value="Turn Back Time"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="α: -X . X is the total amount of doom on locations.&#10;δ: -6. Place 1 doom on your location."/>
+    </alternate>
+  </card>
+  <card id="24fcae1d-8f27-41b7-9b4d-f4ed826cf0e1" name="Into the Ruins Once Again" size="HorizCard">
+    <property name="Card Number" value="345"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Turn Back Time"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="3π"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it."/>
+    <alternate name="Into the Ruins Once Again" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Turn Back Time"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Shuffle the set-aside Chamber of Time location into the exploration deck.&#10;Place this act in the victory display. It gains Vengeance 2."/>
+    </alternate>
+  </card>
+  <card id="c802ada6-af92-4074-80db-144588d0c244" name="The Chamber of Still Remains" size="HorizCard">
+    <property name="Card Number" value="346"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Turn Back Time"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="2π"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;Objective - Only investigators in the Chamber of Time may spend the requisite number of clues, as a group, to advance."/>
+    <alternate name="The Chamber of Still Remains" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Turn Back Time"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Choose an investigator in the Chamber of Time to take control of the Relic of Ages.&#10;Search the collection for Yig (The Forgotten Age card #296). Spawn it in the Chamber of Time.&#10;Place this act in the victory display. It gains Vengeance 2."/>
+    </alternate>
+  </card>
+  <card id="3497fd96-86dd-4b4f-af60-8cca3ecc9729" name="Moment of Doom" size="HorizCard">
+    <property name="Card Number" value="347"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Turn Back Time"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="Relic of Ages gains: &quot;η: Test ά or έ (4). If you succeed, flip a clue controlled by an investigator at your location to its doom side, and place it on your location. Then, deal 3 damage to Yig.&quot;&#10;Objective - If Yig is defeated, advance."/>
+    <alternate name="Moment of Doom" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Turn Back Time"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="(->R1)."/>
+    </alternate>
+  </card>
+ </cards>
+</set>
