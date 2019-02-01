@@ -931,7 +931,7 @@
       <property name="Text" value="Forced - After you reveal the Trap Room: Search the encounter deck and discard pile for 1 copy of Swarm of Rats and put it into play engaged with you (2 copies instead if there are 3 or 4 investigators in the game). Shuffle the encounter deck if it is searched."/>
     </alternate>
   </card>
-  <card id="0b579bc9-d109-441d-a684-107bd0074f4c" name="The Man in the Pallid Mask" size="EncounterCard">
+  <card id="0b579bc9-d109-441d-a684-107bd0074f4c" name="The Man in the Pallid Mask">
     <property name="Card Number" value="59"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Curtain Call"/>
