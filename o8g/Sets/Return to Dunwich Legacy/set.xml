@@ -1,0 +1,1101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Return to Dunwich Legacy" id="a07c684c-0e19-4938-bbf1-2a88e0e353a4" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="8c777114-0122-444a-b853-827bb67f2afa" name="Bandolier">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήά"/>
+    <property name="Slot" value="Body"/>
+    <property name="Traits" value="Item."/>
+    <property name="Text" value="You have two additional hand slots, which can only be used to hold [[Weapon]] assets.&#10;&#10;While you have [[Weapon]] assets held in 2 or more hand slots, you get +1 ά."/>
+  </card>
+  <card id="362acc37-0402-4bc2-bbf1-37b2e3ae12e6" name="Blackjack">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Melee."/>
+    <property name="Text" value="η: Fight. You get +2 ή for this attack. If you perform this attack againt an enemy engaged with another investigator, you deal +1 damage for this attack if you succeed, and no damage if you fail."/>
+  </card>
+  <card id="4a5056f1-3d65-4b08-95d8-0e28b36919de" name="Preposterous Sketches">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έά"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Play only if there is a clue on your location.&#10;&#10;Draw three cards."/>
+  </card>
+  <card id="a1fea95e-7df1-4a93-9295-3b8c7d03079b" name="Strange Solution">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Empowering Elixir"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="4"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Traits" value="Item. Science."/>
+    <property name="Text" value="You can only include this asset in your deck by upgrading it from Strange Solution (Unidentified), and only if you have &quot;identified the solution&quot; in your Campaign Log.&#10;&#10;Uses (3 supplies).&#10;&#10;η Spend 1 supply and exhaust Strange Solution: Choose an investigator at your location to gain 2 resources and draw 1 card."/>
+  </card>
+  <card id="ae54262f-7d83-4fb4-a4da-2579b365e7c9" name="Contraband">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέά"/>
+    <property name="Traits" value="Supply. Illicit."/>
+    <property name="Text" value="Choose an asset controlled by an investigator at your location. Either (choose one):&#10;&#10;- Place 2 ammo or supply tokens on that asset and draw 1 card.&#10;&#10;- Double the number of ammo or supply tokens on that asset."/>
+  </card>
+  <card id="be1bc76c-8781-4970-93e3-3490ca6e563c" name="Think on Your Feet">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="2"/>
+    <property name="Skill Icons" value="ίίέ"/>
+    <property name="Traits" value="Trick."/>
+    <property name="Text" value="Fast. Play when an enemy enters your location.&#10;&#10;Immediately move to a connecting location. (The enemy still enters your previous location.)"/>
+  </card>
+  <card id="7acfa3d3-3b31-4b29-ac63-8c35070d8375" name="Rite of Seeking">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="4"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (3 charges).&#10;&#10;η Spend 1 charge: Investigate. Investigate using ά instead of έ. You get +2 ά for this test. If you succeed you discover 1 additional clue at this location. If a α, β, γ, δ, or ζ symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn."/>
+  </card>
+  <card id="91d3766f-b81c-46fd-b7d3-cc461cff0ee1" name="Clarity of Mind">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="2"/>
+    <property name="Skill Icons" value="άά"/>
+    <property name="Slot" value="Arcane"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="Uses (4 charges).&#10;&#10;η Spend 1 charge: Heal 2 horror from among investigators at your location."/>
+  </card>
+  <card id="56009113-7758-4ebe-9eed-f36ea64edc39" name="Oops!">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="2"/>
+    <property name="Cost" value="2"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίήή"/>
+    <property name="Traits" value="Fortune."/>
+    <property name="Text" value="Fast. Play after you fail a skill test by 3 or less while attacking an enemy.&#10;&#10;Deal this attack's damage to any enemy at your location. If the attacked enemy is engaged with another investigator, this attack deals no damage to that investigator."/>
+  </card>
+  <card id="b27d9c77-b7a1-4427-a368-f148fdf51261" name="Rise to the Occasion">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="3"/>
+    <property name="Cost" value="1"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Slot" value="Accessory"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="Commit only to a skill test you are performing, and only if the difficulty of that test is higher than your base skill value.&#10;&#10;Rise to the Occasion gets +X ΰ icons, where X is the difference between your base skill and this test's difficulty (to a maximum of +3 ΰ icons)."/>
+  </card>
+  <card id="49b96c05-175b-4727-b9d0-8bbfdc22d608" name="Through the Gates">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Basic Weakness"/>
+    <property name="Traits" value="Pact. Mystery."/>
+    <property name="Text" value="Revelation - Draw the top card of your deck. If it is not a weakness, remove that card from the game. Then, search your deck, discard pile, hand, and all play areas for each other copy of that card you own, and remove them from the game, as well."/>
+  </card>
+  <card id="88718a2a-19b8-4045-86ea-7974c01b8f11" name="Return to Extracurricular Activities">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Extracurricular Activities"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Perform the setup as indicated in The Dunwich Legacy Campaign Guide, with the following exceptions:&#10;&#10;- When gathering encounter sets, also gather the new encounter sets for Return to Extracurricular Activities shown here.&#10;&#10;(Continued on reverse side.)"/>
+    <alternate name="Return to Extracurricular Activities" type="B">
+      <property name="Encounter Set" value="Return to Extracurricular Activities"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="- Randomly choose between Orne Library and Warren Observatory. Put the chosen location into play, along with the rest of the starting locations. Remove the other location from the game.&#10;&#10;- If you have completed Return to The House Always Wins, search the encounter sets for 1 copy of Enthralled Security Guard, and spawn it at the Administration Building."/>
+    </alternate>
+  </card>
+  <card id="7fbec8f4-d389-4249-8b5c-aa86ee49cd38" name="Warren Observatory" size="EncounterCard">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Extracurricular Activities"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic."/>
+    <alternate name="Warren Observatory" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Extracurricular Activities"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="Forced - After you discover 1 or more clues at Warren Observatory: Discard 3 cards from the top of your deck for each clue just discovered."/>
+    </alternate>
+  </card>
+  <card id="67150130-081e-4e9d-bf63-5b054f1dea87" name="Enthralled Security Guard" size="EncounterCard">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Return to Extracurricular Activities"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Traits" value="Humanoid. Abomination."/>
+    <property name="Text" value="Hunter. Retaliate.&#10;&#10;Forced - After Enthralled Security Guard attacks you: Discard the top 2 cards of your deck.&#10;&#10;Forced - After Enthralled Security Guard is evaded: It is defeated."/>
+  </card>
+  <card id="4e1daa6b-d846-49c0-959d-226cdaa21497" name="Return to The House Always Wins">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The House Always Wins"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Perform the setup as indicated in The Dunwich Legacy Campaign Guide, with the following exceptions:&#10;&#10;- When gathering encounter sets, also gather the new encounter sets for Return to The House Always Win shown here.&#10;&#10;(Continued on reverse side.)"/>
+    <alternate name="Return to The House Always Wins" type="B">
+      <property name="Encounter Set" value="Return to The House Always Wins"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="- Set the Clover Club Stage aside, out of play.&#10;&#10;- Choose one of the two Clover Club Lounge locations at random. Put the chosen location into play along with the rest of the starting locations. Remove the other version of Clover Club Lounge from the game."/>
+    </alternate>
+  </card>
+  <card id="7ab63941-b149-4aaf-98de-704e97b07070" name="Clover Club Lounge" size="EncounterCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The House Always Wins"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Clover Club."/>
+    <alternate name="Clover Club Lounge" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to The House Always Wins"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Clover Club."/>
+      <property name="Text" value="Forced - After Clover Club Lounge is revealed: Put the set-aside Clover Club Stage into play.&#10;&#10;While it is Act 1, Clover Club Lounge gains: &quot;η: Look at the top card of your deck. If it is an [[Ally]] asset, you may put it into play. Otherwise, draw it. (Limit once per round.)&quot;"/>
+    </alternate>
+  </card>
+  <card id="15d3b5bb-8c2d-426d-8ec3-9c5028ff66cc" name="Clover Club Stage" size="EncounterCard">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The House Always Wins"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Clover Club."/>
+    <alternate name="Clover Club Stage" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to The House Always Wins"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Clover Club."/>
+      <property name="Text" value="Clover Club Bar is connected to Clover Club Stage."/>
+    </alternate>
+  </card>
+  <card id="80800d2d-2133-4e98-be92-52ef45bf8153" name="Caught Cheating" size="EncounterCard">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Return to The House Always Wins"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Illicit."/>
+    <property name="Text" value="Surge.&#10;&#10;Revelation - Each player who has &quot;cheated&quot; must lose 2 resources and take 1 damage."/>
+  </card>
+  <card id="ab0dd597-1d80-4db9-a9cc-9bbb5cf54983" name="Raise the Stakes" size="EncounterCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Return to The House Always Wins"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Illicit."/>
+    <property name="Text" value="Revelation - You must (choose one):&#10;&#10;- Remember that you have &quot;cheated.&quot;&#10;&#10;- Lose 5 resources.&#10;&#10;- Put Raise the Stakes into play in your threat area. It gains: &quot;Each [[Criminal]] enemy at your location loses aloof. If it is Act 2 or 3, each [[Criminal]] enemy engaged with you gets +1 fight and +1 evade.&quot;"/>
+  </card>
+  <card id="ceff1f22-cc40-45e6-8290-bc342b8227c4" name="Return to The Miskatonic Museum">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Miskatonic Museum"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Perform the setup as indicated in The Dunwich Legacy Campaign Guide, with the following exceptions:&#10;&#10;- When gathering encounter sets, also gather the new encounter sets for Return to The Miskatonic Museum shown here.&#10;&#10;(Continued on reverse side.)"/>
+    <alternate name="Return to The Miskatonic Museum" type="B">
+      <property name="Encounter Set" value="Return to The Miskatonic Museum"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="- Before creatng the &quot;Exhibit Deck,&quot; add the 2 new Exhibit Hall locations to the original 6 Exhibit Hall locations. Set Exhibit Hall (Restricted Hall) aside and randomly remove 2 Exhibit Hall locations from the game. Then, continue creating the Exhibit Deck as normal.&#10;&#10;For the duration of this scenario, the following additional rule applies:&#10;&#10;&quot;While an investigator is resolving the text on agenda 1b and agenda 2b, the Forced ability on the next agenda in the agenda deck is considered to be active.&quot;&#10;&#10;Attach this card to the scenario reference card as a reminder."/>
+    </alternate>
+  </card>
+  <card id="9231feac-b813-4555-8c20-39b5d77a47d6" name="Exhibit Hall" size="EncounterCard">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to The Miskatonic Museum"/>
+      <property name="Subtitle" value="Medieval Exhibit"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="Forced - After you fail a skill test while investigating this location: Take 1 damage."/>
+    </alternate>
+  </card>
+  <card id="6c6495a9-3b5c-4700-92c8-fb799355fa4b" name="Exhibit Hall" size="EncounterCard">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Miskatonic Museum"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Miskatonic. Exhibit."/>
+    <alternate name="Exhibit Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to The Miskatonic Museum"/>
+      <property name="Subtitle" value="The Archives"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="5"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Miskatonic. Exhibit."/>
+      <property name="Text" value="η η: Gain 2 clues (from the token bank). Then, if Hunting Horror is in play, place 1 resource on Shadow-spawned. Otherwise, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it in the Museum Halls. Shuffle the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="ebb07765-76da-41fc-8da4-98d3da16ccfe" name="Dark Bidding" size="EncounterCard">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Return to The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Power."/>
+    <property name="Text" value="Revelation - Attach Dark Bidding to Hunting Horror, even if it is out of play. Dark Bidding remains attached to Hunting Horror if it enters the void.&#10;&#10;Forced - When Hunting Horror attacks an investigator: That investigator must take 1 additional damage and 1 additional horror. Heal 2 damage from Hunting Horror. Discard Dark Bidding. (Max once per attack.)"/>
+  </card>
+  <card id="4bb24867-11fb-4723-abd5-da67f161f081" name="Night Beyond Void" size="EncounterCard">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Return to The Miskatonic Museum"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Victory Points" value="0"/>
+    <property name="Traits" value="Power."/>
+    <property name="Text" value="Revelation - Place 1 resource on Shadow-spawned, even if it is out of play."/>
+  </card>
+  <card id="ac9fad31-26f1-4563-bb17-dc438cc9cd2c" name="Return to The Essex County Express">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Essex County Express"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Perform the setup as indicated in The Dunwich Legacy Campaign Guide, with the following exceptions:&#10;&#10;- When gathering encounter sets, also gather the new encounter sets for Return to The Essex County Express shown here.&#10;&#10;(Continued on reverse side.)"/>
+    <alternate name="Return to The Essex County Express" type="B">
+      <property name="Encounter Set" value="Return to The Essex County Express"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="- Remove Agenda 1a - &quot;A Tear in Reality,&quot; from the game and replace it with the new Agenda 0a - &quot;Where There's Smoke&quot; and the new agenda 1a - &quot;A Tear in Reality (v.II).&quot; (When you construct the agenda deck, agenda 0a should be on top.)&#10;&#10;- When choosing 6 Train Car locations to put into play at random, include the 2 new Train Car locations in this encounter set, for a total of 10 possible cards.&#10;&#10;- When choosing an Engine Car location to put into play at random, include the new Engine Car location in this encounter set, for a total of 4 possible cards.&#10;&#10;Set the Engineer story asset aside, out of play."/>
+    </alternate>
+  </card>
+  <card id="bde145c7-7917-4067-ba3f-6f30caebe18b" name="Where There's Smoke" size="HorizCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Essex County Express"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="0"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="2"/>
+  </card>
+  <card id="4f42702e-b199-439c-a2ee-94335ef8a315" name="The Conductor" size="EncounterCard">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Essex County Express"/>
+    <property name="Subtitle" value="Beast from beyond the Gate"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Monster. Elite."/>
+    <property name="Text" value="Spawn - Leftmost location.&#10;&#10;Hunter. Massive.&#10;&#10;Forced - When The Conductor is defeated: Attach it to the current agenda. After you advance the attached agenda, draw The Conductor.&#10;&#10;Forced - When The Conductor's location leaves play: Instead of discarding The Conductor, move it one location to the right."/>
+  </card>
+  <card id="ef5a7a89-35a3-44d1-897d-9920d2099093" name="A Tear in Reality (v.II)" size="HorizCard">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Essex County Express"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="1"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="2"/>
+    <alternate name="Keep Moving!" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Return to The Essex County Express"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="1"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Remove the leftmost location from the game (or place it in the victory display if it has Victory X and no clues on it). Each investigator at that location is defeated. Each enemy and asset at that location is discarded.&#10;&#10;Discard all clues controlled by the investigators."/>
+    </alternate>
+  </card>
+  <card id="c81f849a-64d5-4444-bc1a-314870e5ba56" name="Engine Car" size="EncounterCard">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <alternate name="Engine Car" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="1"/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Engine Car is connected to the location to the left of it.&#10;&#10;You cannot enter Engine Car unless all of the clues on the location to its left have been discovered."/>
+    </alternate>
+  </card>
+  <card id="0fa20844-7237-4ff4-be80-0f31fe6accfc" name="Freight Car" size="EncounterCard">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <alternate name="Train Car" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="2π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Train Car is connected to the locations to the left and right of it.&#10;&#10;You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    </alternate>
+  </card>
+  <card id="a152582d-bd8f-48ee-9939-7e8383067d95" name="Baggage Car" size="EncounterCard">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Essex County Express"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Train."/>
+    <alternate name="Train Car" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to The Essex County Express"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="3"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Train."/>
+      <property name="Text" value="Train Car is connected to the locations to the left and right of it.&#10;&#10;You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    </alternate>
+  </card>
+  <card id="7a1102fd-f1d5-4cf5-a99a-ea75b678b08d" name="Engineer">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to The Essex County Express"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="2"/>
+    <property name="Traits" value="Ally. Bystander."/>
+    <property name="Text" value="η If Engineer is ready: Parley. Test ά or έ (4). If you succeed, take control of Engineer. If you already control Engineer, discover 1 clue from your location instead. Any investigator at Engineer's location may trigger this action.&#10;&#10;Forced - When Engineer would be discarded: Instead, heal all damage and horror from it, lose control of it, and exhaust it."/>
+  </card>
+  <card id="268fed05-adc1-4adb-9576-24b91cd135d4" name="Return to Blood on the Altar">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Perform the setup as indicated in The Dunwich Legacy Campaign Guide, with the following exceptions:&#10;&#10;- When gathering encounter sets, also gather the new encounter sets for Return to Blood on the Altar shown here.&#10;&#10;- Set each copy of Hired Gun aside, out of play.&#10;&#10;- Remove the original Village Commons location from the game and replace it with the new Village Commons (Silent Decay).&#10;&#10;(Continued on reverse side.)"/>
+    <alternate name="Return to Blood on the Altar" type="B">
+      <property name="Encounter Set" value="Return to Blood on the Altar"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="- Add the new locations to the original locations from the Blood on the Altar encounter set. Remove 1 of the 3 copies of each of these locations from the game at random. Then, choose 1 of the 6 remaining locations at random and remove it from the game as well. Put the remaining locations into play.&#10;&#10;- When placing encounter cards underneath locations, do not include the 6 cards from the Naomi's Crew encounter set.&#10;&#10;- Check Campaign Log. If the O'Bannion gang has a bone to pick with the investigators: Spawn one set-aside Hired Gun at one of the locations not connected to Village Commons. Shuffle the other set-aside Hired Gun into the encounter deck."/>
+    </alternate>
+  </card>
+  <card id="2d3c2b40-d775-419e-8e88-efdade5ee5cb" name="Village Commons" size="EncounterCard">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich. Central."/>
+    <alternate name="Village Commons" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Blood on the Altar"/>
+      <property name="Subtitle" value="Silent Decay"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="0"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich. Central."/>
+      <property name="Text" value="Each investigator at Village Commons cannot take draw or resource actions.&#10;&#10;η: Resign. &quot;This is suicide! We're better off hiding out the night.&quot;"/>
+    </alternate>
+  </card>
+  <card id="07c26c59-f752-4300-bd1d-5b637c497f42" name="Bishop's Brook" size="EncounterCard">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Bishop's Brook" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Blood on the Altar"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="2"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Forced - After you reveal Bishop's Brook: Test ί (4). If you fail, take 2 damage.&#10;&#10;θ If there are no clues here: Draw the encounter card underneath Bishop's Brook. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="343b7334-2bdd-49f6-90f5-6f4549dc3abf" name="Burned Ruins" size="EncounterCard">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Burned Ruins" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Blood on the Altar"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="3"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Forced - After you successfully investigate Burned Ruins: Take 1 damage.&#10;&#10;θ If there are no clues here: Draw the encounter card underneath Burned Ruins. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="73664ed1-d664-4a91-8c09-8e2cac562424" name="Osborn's General Store" size="EncounterCard">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Osborn's General Store" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Blood on the Altar"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Forced - After you reveal Osborn's General Store: Gain 2 resources.&#10;&#10;θ If there are no clues here: Draw the encounter card underneath Osborn's General Store. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="5197081e-569a-4093-802f-8e4f22f592d9" name="Congregational Church" size="EncounterCard">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Congregational Church" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Blood on the Altar"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="1"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Forced - After you reveal Congregational Church: Search the encounter deck and discard pile for a copy of Kidnapped! and draw it. Shuffle the encounter deck.&#10;&#10;θ If there are no clues here: Draw the encounter card underneath Congregational Church. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="c29a7228-7b52-47d8-bc05-3160f1c6445b" name="House in the Reeds" size="EncounterCard">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="House in the Reeds" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Blood on the Altar"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="While you are in the House in the Reeds, you cannot play assets.&#10;&#10;θ If there are no clues here: Draw the encounter card underneath House in the Reeds. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="d7ec503a-473a-4f3f-87dc-b76caf8454b9" name="Schoolhouse" size="EncounterCard">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich."/>
+    <alternate name="Schoolhouse" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Blood on the Altar"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich."/>
+      <property name="Text" value="Forced - After you discover a clue from this location: Search the encounter deck and discard pile for a copy of Servant of Many Mouths and draw it. Shuffle the encounter deck.&#10;&#10;θ If there are no clues here: Draw the encounter card underneath Schoolhouse. (Group limit once per game.)"/>
+    </alternate>
+  </card>
+  <card id="8a32ab23-999b-4c7f-ad78-e417c4f6a8cf" name="Hired Gun" size="EncounterCard">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Return to Blood on the Altar"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Criminal. Syndicate."/>
+    <property name="Text" value="Each [[Criminal]] enemy (including Hired Gun) gains: &quot;Hunter. Prey - Most resources.&quot;&#10;&#10;Each copy of Hunted Down gains peril and surge."/>
+  </card>
+  <card id="0fab286f-04e0-4e7f-b888-5cb1ec5d4826" name="Return to Undimensioned and Unseen">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Undimensioned and Unseen"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Perform the setup as indicated in The Dunwich Legacy Campaign Guide, with the following exceptions:&#10;&#10;- When gathering encounter sets, also gather the new encounter sets for Return to Undimensioned and Unseen shown here.&#10;&#10;(Continued on reverse side.)"/>
+    <alternate name="Return to Undimensioned and Unseen" type="B">
+      <property name="Encounter Set" value="Return to Undimensioned and Unseen"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="- Remove 4 copies of Brood of Yog-Sothoth from the original scenario and replace them with the 4 new versions of Brood of Yog-Sothoth from the Return to Undimensioned and Unseen encounter set.&#10;&#10;For the duration of this scenario, the following additional rule applies:&#10;&#10;&quot;If a Brood of Yog-Sothoth would be put into play, it is chosen at random from among the set-aside versions of Brood of Yog-Sothoth.&quot;&#10;&#10;Attach this card to the scenario reference card as a reminder."/>
+    </alternate>
+  </card>
+  <card id="ba51ce1d-50b9-4d09-b88d-1d5c804179f5" name="Brood of Yog-Sothoth" size="EncounterCard">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Undimensioned and Unseen"/>
+    <property name="Subtitle" value="Charging Beast"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="5"/>
+    <property name="Agility" value="4"/>
+    <property name="Health" value="1"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Text" value="Massive.&#10;&#10;Brood of Yog-Sothoth gets +1 π health and cannot be damaged or attacked except using the ability on Esoteric Formula.&#10;&#10;Forced - After Brood of Yog-Sothoth moves for the first time each round, if it is unengaged: It immediately moves again toward a random location."/>
+  </card>
+  <card id="55628c36-70ad-4855-9e6f-4e1e04093d88" name="Brood of Yog-Sothoth" size="EncounterCard">
+    <property name="Card Number" value="43"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Undimensioned and Unseen"/>
+    <property name="Subtitle" value="Swelling Devourer"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="6"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="2"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Text" value="Massive.&#10;&#10;Brood of Yog-Sothoth gets +2 π health and cannot be damaged or attacked except using the ability on Esoteric Formula."/>
+  </card>
+  <card id="7bd6e269-bfe1-463c-a216-03faa3816201" name="Brood of Yog-Sothoth" size="EncounterCard">
+    <property name="Card Number" value="44"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Undimensioned and Unseen"/>
+    <property name="Subtitle" value="Thrashing Spawn"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="7"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="1"/>
+    <property name="Damage" value="2"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Text" value="Massive. Retaliate.&#10;&#10;Brood of Yog-Sothoth gets +1 π health and cannot be damaged or attacked except using the ability on Esoteric Formula."/>
+  </card>
+  <card id="0b8e1a78-4425-4c9f-a0de-d3477381629d" name="Brood of Yog-Sothoth" size="EncounterCard">
+    <property name="Card Number" value="45"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Undimensioned and Unseen"/>
+    <property name="Subtitle" value="Amorphous Terror"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="6"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="1"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="2"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Text" value="Massive. Retaliate.&#10;&#10;Brood of Yog-Sothoth gets +1 π health and cannot be damaged or attacked except using the ability on Esoteric Formula.&#10;&#10;Forced - After Brood of Yog-Sothoth enters your location, or vice versa: Test ά (3). If you fail, take 1 horror."/>
+  </card>
+  <card id="c49e03d3-66c3-4f2c-a949-58b7fe951ff9" name="Imperceptible Creature" size="EncounterCard">
+    <property name="Card Number" value="46"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Return to Undimensioned and Unseen"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Power."/>
+    <property name="Text" value="Surge.&#10;&#10;Revelation - Attach to a Brood of Yog-Sothoth enemy in play without a copy of Imperceptible Creature attached. Remove 1 clue from that enemy.&#10;&#10;Attached enemy gains [[Elite]]."/>
+  </card>
+  <card id="ab93d222-6c67-4e91-b473-b9e0c39b61e2" name="Return to Where Doom Awaits">
+    <property name="Card Number" value="47"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Perform the setup as indicated in The Dunwich Legacy Campaign Guide, with the following exceptions:&#10;&#10;- When gathering encounter sets, also gather the new encounter sets for Return to Where Doom Awaits shown here.&#10;&#10;- Set Naomi O'Bannion aside, out of play.&#10;&#10;(Continued on reverse side.)"/>
+    <alternate name="Return to Where Doom Awaits" type="B">
+      <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="- Replace the original Base of the Hill and Ascending Path with the new Base of the Hill (Warped and Twisted) and Ascending Path (Warped and Twisted).&#10;&#10;- Add the new Diverging Path and Altered Path to the original Diverging Paths and Altered Paths. Then, randomly remove 1 of each from the game. (You will remove an additional copy of each during standard setup.)&#10;&#10;- Check Campaign Log. If Naomi has your back: Instead of gaining clues from the token bank via the effect from Part 1 in the Campaign Guide, the lead investigator may choose an investigator to add the set-aside Naomi O'Bannion to his or her deck. This card does not count toward that investigator's deck size."/>
+    </alternate>
+  </card>
+  <card id="5e33616e-3251-498e-8b52-7765911e2d93" name="Base of the Hill" size="EncounterCard">
+    <property name="Card Number" value="48"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich. Sentinel Hill."/>
+    <alternate name="Base of the Hill" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+      <property name="Subtitle" value="Warped and Twisted"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="3"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich. Sentinel Hill."/>
+      <property name="Text" value="Base of the Hill is connected to each copy of Diverging Path.&#10;&#10;Forced - After you discover 1 or more clues from Base of the Hill: Spend those clues and put that many random set-aside Diverging Path locations into play.&#10;&#10;η: Resign. &quot;This is more than I signed up for!&quot;"/>
+    </alternate>
+  </card>
+  <card id="95721a1b-fc69-4fe7-8b8c-62bff3bc0df1" name="Ascending Path" size="EncounterCard">
+    <property name="Card Number" value="49"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich. Sentinel Hill."/>
+    <alternate name="Ascending Path" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+      <property name="Subtitle" value="Warped and Twisted"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="3"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich. Sentinel Hill."/>
+      <property name="Text" value="The path leading farther up the hill is masked. You cannot move into Ascending Path."/>
+    </alternate>
+  </card>
+  <card id="10ad9b62-60a3-46b2-bfa7-98cd0810a68a" name="Abandoned Camp" size="EncounterCard">
+    <property name="Card Number" value="50"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich. Woods."/>
+    <alternate name="Diverging Path" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich. Woods."/>
+      <property name="Text" value="Forced - After you reveal Abandoned Camp: Lose 2 resources for each action you have performed this round (including this one, if applicable)."/>
+    </alternate>
+  </card>
+  <card id="f29036d6-eb41-433e-af3a-6f4ac14a2429" name="Fathomless Lake" size="EncounterCard">
+    <property name="Card Number" value="51"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Dunwich. Woods. Altered."/>
+    <alternate name="Altered Path" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+      <property name="Type" value="Location"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Shroud" value="4"/>
+      <property name="Clues" value="1π"/>
+      <property name="Doom" value=""/>
+      <property name="Traits" value="Dunwich. Woods. Altered."/>
+      <property name="Text" value="Forced - After you reveal Fathomless Lake: If you have 2 or more actions remaining, place 1 doom on the current agenda."/>
+    </alternate>
+  </card>
+  <card id="4edb7393-4a73-4bc0-ab6d-4053e6feecc4" name="Naomi O'Bannion">
+    <property name="Card Number" value="52"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Where Doom Awaits"/>
+    <property name="Subtitle" value="Ruthless Tactician"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="5"/>
+    <property name="Intellect" value="2"/>
+    <property name="Combat" value="2"/>
+    <property name="Health" value="3"/>
+    <property name="Sanity" value="3"/>
+    <property name="Skill Icons" value="έέήή"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Criminal. Syndicate."/>
+    <property name="Text" value="You get +1 έ and +1 ή.&#10;&#10;ι When an investigator at your location reveals a non-ζ chaos token during an έ or ή test, exhaust Naomi O'Bannion: Cancel that chaos token and reveal a new chaos token. For the remainder of this test, if another copy of the canceled chaos token is revealed, cancel it and reveal a new chaos token."/>
+  </card>
+  <card id="23bb3a70-dfd7-494f-a295-17aa6592cffc" name="Return to Lost in Time and Space">
+    <property name="Card Number" value="53"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+    <property name="Type" value="Scenario"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Text" value="Perform the setup as indicated in The Dunwich Legacy Campaign Guide, with the following exceptions:&#10;&#10;- When gathering encounter sets, also gather the new encounter sets for Return to Lost in Time and Space shown here.&#10;&#10;- Set Seth Bishop (Thrall of Yog-Sothoth) aside, out of play.&#10;&#10;(Continued on reverse side.)"/>
+    <alternate name="Return to Lost in Time and Space" type="B">
+      <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+      <property name="Type" value="Scenario"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Text" value="- Check Campaign Log. If the Ritual was completed: Replace Act 2a - &quot;Into the Beyond&quot; with the new Act 2a - &quot;Into the Beyond (v. II)&quot; included in this encounter set.&#10;&#10;- Replace Agenda 3a - &quot;Breaking Through&quot; with the new Agenda 3a - &quot;Breaking Through (v. II)&quot; included in this encounter set.&#10;&#10;- Put the single-sided Realms Beyond location into play and spawn Yog-Sothoth there."/>
+    </alternate>
+  </card>
+  <card id="f2657fbe-2f44-4cb7-81ff-69139a45c68f" name="Breaking Through (v. II)" size="HorizCard">
+    <property name="Card Number" value="54"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+    <property name="Type" value="Agenda"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="3"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value=""/>
+    <property name="Doom" value="6"/>
+    <property name="Text" value="Forced - After you are moved to a location by an encounter card effect: Take 1 horror."/>
+    <alternate name="The Key and the Gate (v. II)" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+      <property name="Type" value="Agenda"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="3"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Revelation - Move Yog-Sothoth to The Edge of the Universe (or Another Dimension if The Edge of the Universe is not in play). Remove Realms Beyond from the game and advance to agenda 4a. Ignore the text on Realms Beyond while resolving this ability."/>
+    </alternate>
+  </card>
+  <card id="d0311731-da7a-4c3d-813a-db280d59fb68" name="Into the Beyond (v. II)" size="HorizCard">
+    <property name="Card Number" value="55"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+    <property name="Type" value="Act"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Level" value="2"/>
+    <property name="Shroud" value=""/>
+    <property name="Clues" value="-"/>
+    <property name="Doom" value=""/>
+    <property name="Text" value="η: Discard the top 3 cards of the encounter deck. Choose a location discarded by this effect and resolve its 'revelation' ability.&#10;&#10;Objective - If an investigator enters The Edge of the Universe, advance."/>
+    <alternate name="The Vessel Awaits" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+      <property name="Type" value="Act"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Level" value="2"/>
+      <property name="Shroud" value=""/>
+      <property name="Clues" value=""/>
+      <property name="Doom" value=""/>
+      <property name="Text" value="Spawn the set-aside Seth Bishop (Thrall of Yog-Sothoth) enemy at The Edge of the Universe."/>
+    </alternate>
+  </card>
+  <card id="fa3e7f58-8fd2-4a69-8e3c-c0be7a2b4fbe" name="Seth Bishop" size="EncounterCard">
+    <property name="Card Number" value="56"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+    <property name="Subtitle" value="Thrall of Yog-Sothoth"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="5"/>
+    <property name="Agility" value="5"/>
+    <property name="Health" value="4π"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="2"/>
+    <property name="Traits" value="Humanoid. Monster. Abomination. Elite."/>
+    <property name="Text" value="Retaliate.&#10;&#10;Forced - When Seth Bishop attacks you during the enemy phase: Either move to Another Dimension after this attack, or Seth Bishop deals +2 damage for this attack.&#10;&#10;Forced - After Yog-Sothoth enters Seth Bishop's location (or vice versa): Seth is devoured whole. Remove Seth Bishop from the game. Heal 6 damage from Yog-Sothoth."/>
+  </card>
+  <card id="2e2b554d-fc2d-4765-a06c-ee20fae32e28" name="Realms Beyond" size="EncounterCard">
+    <property name="Card Number" value="57"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+    <property name="Subtitle" value="All-In-One"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="9"/>
+    <property name="Clues" value="0"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld."/>
+    <property name="Text" value="Yog-Sothoth is immune to player card effects, cannot take damage, and cannot leave Realms Beyond.&#10;&#10;As an additional cost for you to leave Realms Beyond, test ά or ί (3). If you fail, cancel the effects of the move.&#10;&#10;Forced - When a forced effect would move an investigator or enemy to Another Dimension: Move them here instead. Cannot be canceled."/>
+  </card>
+  <card id="b2970210-868a-4163-a171-bb39efd669a4" name="Indecipherable Stairs" size="EncounterCard">
+    <property name="Card Number" value="58"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="1"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld. Extradimensional."/>
+    <property name="Text" value="Revelation - Put Indecipherable Stairs into play and discard the top 3 cards of your deck.&#10;&#10;Forced - After you leave Indecipherable Stairs: You must either take 2 horror, or discard Indecipherable Stairs."/>
+  </card>
+  <card id="725c30d2-7930-4244-ac72-d776caffb9c6" name="Towering Luminosity" size="EncounterCard">
+    <property name="Card Number" value="59"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="4"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld. Extradimensional."/>
+    <property name="Text" value="Revelation - Put Towering Luminosity into play and either place 1 doom on it or take 2 damage.&#10;&#10;Forced - After you fail a test while at this location: You  must either flip 1 clue on Towering Luminosity to its doom side, or discard Towering Luminosity."/>
+  </card>
+  <card id="9b909205-76dd-4092-b818-cfe82e216271" name="Unstable Vortex" size="EncounterCard">
+    <property name="Card Number" value="60"/>
+    <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Return to Lost in Time and Space"/>
+    <property name="Type" value="Location"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="1π"/>
+    <property name="Doom" value=""/>
+    <property name="Traits" value="Otherworld. Extradimensional."/>
+    <property name="Text" value="Revelation - Put Unstable Vortex into play and discard 1 copy of Tear Through Space, if able.&#10;&#10;Forced - At the end of your turn, if you are at Unstable Vortex: You must either draw the top card of the encounter deck, or shuffle Unstable Vortex into the encounter deck."/>
+  </card>
+  <card id="7f8eb721-f86c-49c4-8f16-539a12be2313" name="Haunting Recollections" size="EncounterCard">
+    <property name="Card Number" value="61"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Beyond the Threshold"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex."/>
+    <property name="Text" value="Revelation - For each card in your hand, if there is a copy of that card in your discard pile, take 1 horror (to a maximum of 3 horror). If you take no horror from this effect, discard the top 3 cards of your deck."/>
+  </card>
+  <card id="399509b0-154b-4ba5-818c-ac5464777152" name="A Baleful Welcome" size="EncounterCard">
+    <property name="Card Number" value="62"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Beyond the Threshold"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex."/>
+    <property name="Text" value="Peril.&#10;&#10;Revelation - Choose two of the following actions (investigate, fight, evade, move, or play). For the remainder of the round, each investigator cannot perform each chosen action. If this is not the first copy of A Baleful Welcome drawn this phase, choose three of those actions instead."/>
+  </card>
+  <card id="5ef6ba51-1346-408d-9b1d-2533ac6d96a8" name="Infinite Doorway" size="EncounterCard">
+    <property name="Card Number" value="63"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Beyond the Threshold"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hex."/>
+    <property name="Text" value="Revelation - Attach to your location.&#10;&#10;As an additional cost to move into or out of attached location, discard the top card of your deck. If the discarded card is a weakness, draw it. Otherwise, for each copy of the discarded card in your hand or play area, you must either take 1 horror or discard that card."/>
+  </card>
+  <card id="61dcba54-8642-4d1e-83ed-cc1d00b119ab" name="Resurgent Evils" size="EncounterCard">
+    <property name="Card Number" value="64"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Resurgent Evils"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Omen."/>
+    <property name="Text" value="Peril.&#10;&#10;Revelation - You must either (choose one):&#10;&#10;- Draw the top 2 cards of the encounter deck.&#10;&#10;- Place 1 doom on the current agenda. This effect can cause the current agenda to advance."/>
+  </card>
+  <card id="c8fad645-60f9-4af9-aced-624e43afee0a" name="Secret Door" size="EncounterCard">
+    <property name="Card Number" value="65"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Secret Doors"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Obstacle."/>
+    <property name="Text" value="Revelation - Attach to the location with the most investigators, and without a Secret Door attached.&#10;&#10;Investigators cannot leave this location.&#10;&#10;η: Test ά (3) to search for the passage or έ (3) to discern the way out. If you succeed, discard Secret Door."/>
+  </card>
+  <card id="7f293f19-090f-4d19-92fe-851f42b40e86" name="Inexplicable Cold" size="EncounterCard">
+    <property name="Card Number" value="66"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Creeping Cold"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Test ί (4). For each point you fail by, you must either choose and discard 1 card from your play area or from your hand, or take 1 damage."/>
+  </card>
+  <card id="4d7175b2-9fd6-49f0-91e2-42b7f7646417" name="Oppressive Mists" size="EncounterCard">
+    <property name="Card Number" value="67"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Creeping Cold"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Hazard."/>
+    <property name="Text" value="Revelation - Attach to your location. Limit 1 per location.&#10;&#10;Forced - After an investigator at this location draws 1 or more cards, that investigator must test ά (3). If that investigator fails, he or she chooses and discards an equal number of cards.&#10;&#10;η η: Discard Oppressive Mists."/>
+  </card>
+  <card id="b5ed3923-db68-4d89-9b62-17aff5f9f48b" name="Violent Commands" size="EncounterCard">
+    <property name="Card Number" value="68"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Erratic Fear"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Put Violent Commands into play in your threat area.&#10;&#10;η: Deal 2 damage to an investigator at your location and discard Violent Commands.&#10;&#10;Forced - At the end of your turn: Test ά (3). If you fail, take 1 horror."/>
+  </card>
+  <card id="8b5b3023-3ec8-4b05-97fb-986d8e811e94" name="Idle Hands" size="EncounterCard">
+    <property name="Card Number" value="69"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Erratic Fear"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - Put Idle Hands into play in your threat area.&#10;&#10;θ If Idle Hands is in your threat area, during your turn, take 2 damage and discard Idle Hands: You may take an additional action this turn.&#10;&#10;Forced - At the end of your turn: Take 1 horror."/>
+  </card>
+  <card id="d1772086-b9fa-43af-b50c-a06c276769e6" name="Need for Knowledge" size="EncounterCard">
+    <property name="Card Number" value="70"/>
+    <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Erratic Fear"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Terror."/>
+    <property name="Text" value="Revelation - If you have no clues, Need for Knowledge gains surge. Otherwise, test έ (X), where X equals the number of clues you have (to a maximum of 5). For each point you fail by, you must either take 1 horror or place 1 of your clues on your location."/>
+  </card>
+  <card id="29c7d134-fbc3-46bb-a04b-2873f982b4dd" name="Vassal of the Lurker" size="EncounterCard">
+    <property name="Card Number" value="71"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Yog Sothoth's Emissaries"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="4"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Victory Points" value="1"/>
+    <property name="Traits" value="Monster. Abomination."/>
+    <property name="Text" value="Hunter.&#10;&#10;Forced - At the end of the enemy phase: Each investigator at Vassal of the Lurker's location discards 1 card from the top of his or her deck."/>
+  </card>
+  <card id="db6854fb-64c1-4fd3-86b9-470410339d1a" name="Eldritch Accord" size="EncounterCard">
+    <property name="Card Number" value="72"/>
+    <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Yog Sothoth's Emissaries"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Traits" value="Pact."/>
+    <property name="Text" value="Peril.&#10;&#10;Revelation - You may draw 1 card. You may choose and discard up to 2 cards from your hand. Test ά (X). If you fail, take 2 horror. X equals the number of cards in your hand when this test begins."/>
+  </card>
+ </cards>
+</set>

@@ -29,6 +29,10 @@ class BasicWeakness:
         "the_forgotten_age": [
             "d2a6e29c-05d8-44d1-8359-87eee3f68597", # Dark Pact
             "14254816-3365-4c12-bb9f-02ba35920333", # Doomed
+        ],
+        "return_to_dunwich_legacy": [
+            "49b96c05-175b-4727-b9d0-8bbfdc22d608", # x2 Through the Gates
+            "49b96c05-175b-4727-b9d0-8bbfdc22d608",
         ]
     }
     PILE_NAME = 'Basic Weaknesses'

@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Circle Undone" id="c3e9e9fd-8230-4702-9fc9-9cabba506e34" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="1d67372b-eadc-4b3c-b0f8-67fa6dbb3634" name="Carolyn Fern" size="InvestigatorCard">
+    <property name="Card Number" value="1"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Psychologist"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Willpower" value="3"/>
+    <property name="Intellect" value="4"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="6"/>
+    <property name="Sanity" value="9"/>
+    <property name="Traits" value="Medic."/>
+    <property name="Text" value="ι After one of your card effects heals horror from an investigator or [[Ally]] asset: The healed card's controller gains 1 resource.&#10;&#10;ε effect: +1. You may heal 1 horror from an investigator or [[Ally]] asset at your location."/>
+    <alternate name="Carolyn Fern" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Psychologist"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Guardian"/>
+      <property name="Traits" value="Medic."/>
+      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding Options: Guardian cards (κ) level 0-3, Neutral cards level 0-5, cards that &quot;heal horror&quot; level 0-5, up to 15 Seeker and/or Mystic cards level 0-1 (λ and/or μ).&#10;&#10;Deckbuilding Requirements (do not count toward deck size): Hypnotic Therapy, Rational Thought, 1 random basic weakness.&#10;&#10;Additional Restrictions: No [[Weapon]] cards level 1-5."/>
+    </alternate>
+  </card>
+  <card id="b394f2bb-1494-4c61-866b-6f508dff1089" name="Joe Diamond" size="InvestigatorCard">
+    <property name="Card Number" value="2"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Private Investigator"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Willpower" value="2"/>
+    <property name="Intellect" value="4"/>
+    <property name="Combat" value="4"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="8"/>
+    <property name="Sanity" value="6"/>
+    <property name="Traits" value="Detective."/>
+    <property name="Text" value="Forced - When the investigation phase begins: Reveal the top card of your hunch deck. Until the end of the phase, you may play that card as if it were in your hand, at -2 cost. If it is still revealed at the end of the phase, shuffle it back into your hunch deck.&#10;&#10;ε effect: +1. You may move an [[Insight]] event from your discard pile to the bottom of your hunch deck."/>
+    <alternate name="Joe Diamond" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Private Investigator"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Seeker"/>
+      <property name="Traits" value="Detective."/>
+      <property name="Text" value="Deck size: 40.&#10;&#10;Deckbuilding options: Seeker cards (λ) level 0-5, Guardian cards (κ) level 0-2, Neutral cards level 0-5.&#10;&#10;Deckbuilding requirements (do not count toward deck size): Detective's Colt 1911s, Unsolved Case, 1 random basic weakness.&#10;&#10;Additional Requirements: Your deck must include at least 11 [[Insight]] events (including Unsolved Case). During the setup of each scenario, you must choose 11 [[Insight]] events from your deck (one of which must be Unsolved Case) and shuffle them into a separate &quot;hunch deck&quot;."/>
+    </alternate>
+  </card>
+  <card id="dda3a082-6554-4a1c-99e3-3e268f80c6e7" name="Preston Fairmont" size="InvestigatorCard">
+    <property name="Card Number" value="3"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Millionaire"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="7"/>
+    <property name="Sanity" value="7"/>
+    <property name="Traits" value="Silver Twilight. Socialite."/>
+    <property name="Text" value="Anytime you gain 1 or more resources from a card effect, place them on Family Inheritance instead of in your resource pool.&#10;&#10;ε effect: +0. You may spend 2 resources to automatically succeed, instead."/>
+    <alternate name="Preston Fairmont" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Millionaire"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Rogue"/>
+      <property name="Traits" value="Silver Twilight. Socialite."/>
+      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding Options: Rogue cards (ν) level 0-5, Survivor cards (ξ) level 0-2, Neutral cards level 0-5.&#10;&#10;Deckbuilding Requirements (do not count toward deck size): Family Inheritance, Lodge &quot;Debts,&quot; 1 random basic weakness.&#10;&#10;Deckbuilding Restrictions: No [[Illicit]] cards."/>
+    </alternate>
+  </card>
+  <card id="f64d745e-76e8-4b17-81a5-9d0db3ef956b" name="Diana Stanley" size="InvestigatorCard">
+    <property name="Card Number" value="4"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Redeemed Cultist"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="3"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="7"/>
+    <property name="Sanity" value="7"/>
+    <property name="Traits" value="Cultist. Silver Twilight."/>
+    <property name="Text" value="Diana Stanley gets +1 ά for each card beneath her.&#10;&#10;ι After a card you own cancels or ignores a card effect or game effect, if there are fewer than 5 cards beneath Diana Stanley: Place that card facedown beneath her. Draw 1 card and gain 1 resource. (Limit once per phase.)&#10;&#10;ε effect: +2. You may choose a card beneath Diana Stanley and add it to your hand."/>
+    <alternate name="Diana Stanley" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Redeemed Cultist"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Mystic"/>
+      <property name="Traits" value="Cultist. Silver Twilight."/>
+      <property name="Text" value="Deck size: 35.&#10;&#10;Deckbuilding options: Mystic cards (μ) level 0-5, Guardian cards (κ) level 0-2, Neutral cards level 0-5.&#10;&#10;Deckbuilding requirements (do not count toward deck size): Twilight Blade, Dark Insight, Terrible Secret, 1 random basic weakness.&#10;&#10;Additional Setup: You begin each game with Dark Insight as an additional card in your opening hand."/>
+    </alternate>
+  </card>
+  <card id="4cafe3c1-087e-4e0e-bcc3-ada58d5e1dbb" name="Rita Young" size="InvestigatorCard">
+    <property name="Card Number" value="5"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Athlete"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Willpower" value="3"/>
+    <property name="Intellect" value="2"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="5"/>
+    <property name="Health" value="9"/>
+    <property name="Sanity" value="5"/>
+    <property name="Traits" value="Miskatonic."/>
+    <property name="Text" value="ι After you evade an enemy: Either deal 1 damage to that enemy, or move to a connecting location. (Limit once per round.)&#10;&#10;ε effect: +2. Until the end of the round, ignore the limit on the above ι ability."/>
+    <alternate name="Rita Young" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Athlete"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Survivor"/>
+      <property name="Traits" value="Miskatonic."/>
+      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding Options: Survivor cards (ξ) level 0-5, Neutral cards level 0-5, [[Trick]] cards level 0-3.&#10;&#10;Deckbuilding Requirements (do not count toward deck size): &quot;I'm done runnin'!,&quot; Hoods, 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="bfb911bc-2214-4eff-95f5-b5b42a3d3431" name="Marie Lambeau" size="InvestigatorCard">
+    <property name="Card Number" value="6"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Entertainer"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Willpower" value="4"/>
+    <property name="Intellect" value="4"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="6"/>
+    <property name="Sanity" value="8"/>
+    <property name="Traits" value="Performer. Sorcerer."/>
+    <property name="Text" value="While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play [[Spell]] cards or activate [[Spell]] η abilities.&#10;&#10;ε effect: +1. You may add 1 doom to or remove 1 doom from a card you control."/>
+    <alternate name="Marie Lambeau" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Entertainer"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Mystic"/>
+      <property name="Traits" value="Performer. Sorcerer."/>
+      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding options: [[Spell]] cards level 0-5, Mystic cards (μ) level 0-3, Neutral cards level 0-5, [[Occult]] cards level 0, up to five other level 0 Seeker and/or Survivor cards (λ and/or ξ).&#10;&#10;Deckbuilding requirements (do not count toward deck size): Mystifying Song, Baron Samedi, 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="cf04f2cd-fe08-477d-9c91-2c166f42673d" name="Hypnotic Therapy">
+    <property name="Card Number" value="7"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έάΰ"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="Carolyn Fern deck only.&#10;&#10;η Exhaust Hypnotic Therapy: Test έ (2). If you succeed, heal 1 horror from an investigator at your location. Then, that investigator may draw 1 card.&#10;&#10;ι After one of your other card effects heals horror from an investigator, exhaust Hypnotic Therapy: That effect heals 1 additional horror."/>
+  </card>
+  <card id="3825c109-0aa5-49d9-b49c-b25c33788242" name="Rational Thought">
+    <property name="Card Number" value="8"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Flaw."/>
+    <property name="Text" value="Revelation - Put Rational Thought into play in your threat area, with 4 horror on it. Horror on Rational Thought may be healed as if it were on Carolyn Fern. If there is no horror on Rational Thought, discard it.&#10;&#10;You cannot heal horror from cards other than Rational Thought. You cannot gain resources from Carolyn Fern's ι ability."/>
+  </card>
+  <card id="19e8a7f7-881b-45fe-9af1-14b1e5978a92" name="Detective's Colt 1911s">
+    <property name="Card Number" value="9"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="4"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="έήΰ"/>
+    <property name="Slot" value="Hand x2"/>
+    <property name="Traits" value="Item. Weapon. Firearm."/>
+    <property name="Text" value="Joe Diamond deck only. Uses (4 ammo).&#10;&#10;Up to 2 [[Tool]] assets you control do not take up hand slots.&#10;&#10;η Spend 1 ammo: Fight. You get +1 ή and deal +1 damage for this attack. If this attack defeats an enemy, you may move an [[Insight]] event from your discard pile to the bottom of your hunch deck."/>
+  </card>
+  <card id="6b9f7126-ea28-4dbe-b2ee-53cca4f43487" name="Unsolved Case">
+    <property name="Card Number" value="10"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Cost" value="4"/>
+    <property name="Traits" value="Insight. Mystery."/>
+    <property name="Text" value="Place 1 of your clues on the location with the highest shroud. Remove Unsolved Case from the game.&#10;&#10;Forced - If Unsolved Case would be shuffled into your hunch deck: Add it to your threat area instead. For the remainder of the game, it gains: &quot;Forced - When the game ends: Joe Diamond earns 2 fewer experience for this scenario.&quot;"/>
+  </card>
+  <card id="ffd72944-9abf-4323-b32c-76877aa31684" name="Family Inheritance">
+    <property name="Card Number" value="11"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="A Windfall? Or a Burden?"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Traits" value="Boon."/>
+    <property name="Text" value="Permanent. Preston Fairmont deck only.&#10;&#10;η: Move all resources from this card to your resource pool.&#10;&#10;Forced - When your turn begins: Place 4 resources (from the token pool) on this card. Resources on this card may be spent as if they were in your resource pool. Discard all resources from this card at the end of your turn."/>
+  </card>
+  <card id="281c7fec-343f-43cf-8abe-5eb648691bfa" name="Lodge &quot;Debts&quot;">
+    <property name="Card Number" value="12"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Cost" value="10"/>
+    <property name="Traits" value="Pact."/>
+    <property name="Text" value="Remove Lodge &quot;Debts&quot; from the game.&#10;&#10;Forced - When the game ends or you are eliminated, if Lodge &quot;Debts&quot; is still in your hand: You suffer 1 mental trauma."/>
+  </card>
+  <card id="d4b63a20-a3af-45ba-b33d-31654dd194d2" name="Twilight Blade">
+    <property name="Card Number" value="13"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Sanctum's Reward"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήάΰ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Relic. Weapon."/>
+    <property name="Text" value="Diana Stanley deck only.&#10;&#10;η: Fight.</b. You may use ά instead of ή for this attack.&#10;&#10;You may play or commit events and skills beneath Diana Stanley as if they were in your hand. As an additional cost to play or commit a card in this way, exhaust Twlight Blade. You cannot trigger Diana Stanley's ι ability while playing or committing a card in this way."/>
+  </card>
+  <card id="cb173026-e2ea-4e55-b3aa-cb386e988658" name="Dark Insight">
+    <property name="Card Number" value="14"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="2"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Diana Stanley deck only.&#10;&#10;Fast. Play when an investigator at your location draws an encounter card or a weakness.&#10;&#10;Cancel all of that card's effects and shuffle it back into its deck. (Do not draw a new card to replace it.)"/>
+  </card>
+  <card id="d8ce9a2c-1943-452f-a2c9-2b0fc7e80126" name="Terrible Secret">
+    <property name="Card Number" value="15"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Madness."/>
+    <property name="Text" value="Revelation - If there are no card beneath Diana Stanley, shuffle Terrible Secret back into your deck. Otherwise, for each card beneath Diana Stanley, you must either discard that card or take 1 horror. Cannot be canceled."/>
+  </card>
+  <card id="f93044c1-8f80-4aba-97c6-f21288ee6a8c" name="&quot;I'm done runnin'!&quot;">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="0"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίήΰ"/>
+    <property name="Traits" value="Spirit."/>
+    <property name="Text" value="Rita Young deck only.&#10;&#10;Fast. Play only during your turn.&#10;&#10;Ready and engage all enemies at your location. For the remainder of your turn, whenever you evade an enemy, instead of exhausting and disengaging from that enemy, you may deal it 1 damage. (All other effects of the successful evasion still apply.)"/>
+  </card>
+  <card id="8d7c69e4-9ff4-4658-903d-eaabd6411a5c" name="Hoods">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Enemy"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="3"/>
+    <property name="Health" value="3"/>
+    <property name="Damage" value="1"/>
+    <property name="Horror" value="1"/>
+    <property name="Traits" value="Humanoid. Cultist."/>
+    <property name="Text" value="Prey - Rita Young only.&#10;&#10;Alert. Hunter.&#10;&#10;Forced - After you evade Hoods: It attacks you."/>
+  </card>
+  <card id="408e4162-24b4-4e93-a0f7-e8af22ca672e" name="Mystifying Song">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="3"/>
+    <property name="Skill Icons" value="ΰΰ"/>
+    <property name="Traits" value="Spell. Song."/>
+    <property name="Text" value="Marie Lambeau deck only.&#10;&#10;Fast. Play when the agenda would advance by reaching its doom threshold.&#10;&#10;Until the end of the phase, the agenda cannot advance by reaching its doom threshold. Remove Mystifying Song from the game."/>
+  </card>
+  <card id="99963b23-0d40-4758-8366-06bbd43c2c5b" name="Baron Samedi">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Lord of the Cemetery"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Avatar."/>
+    <property name="Text" value="Revelation - Put Baron Samedi into play. He cannot leave play while he has less than 3 doom on him.&#10;&#10;Forced â€“ When any amount of damage is placed on an investigator in Baron Samedi's location: Place 1 additional damage on that investigator.&#10;&#10;θ Exhaust Baron Samedi: Place 1 doom on Baron Samedi. If he has 3 or more doom on him, discard him."/>
+  </card>
+  <card id="43caf116-2a77-4168-a3cb-13885b676b25" name="Interrogate">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="έή"/>
+    <property name="Traits" value="Tactic. Insight."/>
+    <property name="Text" value="Parley. Choose a [[Humanoid]] enemy at your location and test ή (3). This test gets +X difficulty, where X is the chosen enemy's damage value. If you succeed, discover 1 clue at your location and 1 clue at any other location."/>
+  </card>
+  <card id="e6c87818-e603-49c0-8f09-0c7506745501" name="Delay the Inevitable">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Traits" value="Insight. Spirit. Tactic."/>
+    <property name="Text" value="Fast. Play only during your turn. Attach to an investigator at your location, under his or her control.&#10;&#10;ι When you are dealt damage and/or horror: Discard Delay the Inevitable and cancel all damage and/or horror just dealt.&#10;&#10;Forced - When the mythos phase ends: You must either spend 2 resources or discard Delay the Inevitable."/>
+  </card>
+  <card id="cdb3dc5a-bf08-4d23-842c-a4b50168df70" name="Steadfast">
+    <property name="Card Number" value="22"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ήά"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="While you have 5 or more total remaining health and sanity, Steadfast gains ά ή (while you have 10 or more total remaining health and sanity, Steadfast gains ά ά ή ή, instead)."/>
+  </card>
+  <card id="d3dbcdb1-4657-4ab8-b6cf-bf74def65486" name="Ace of Swords">
+    <property name="Card Number" value="23"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Let Your Arrow Fly True"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Guardian"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Slot" value="Tarot"/>
+    <property name="Traits" value="Tarot."/>
+    <property name="Text" value="You get +1 ή.&#10;&#10;ι When the game begins, if Ace of Swords is in your opening hand: Put it into play."/>
+  </card>
+  <card id="400e76f9-d8bf-4964-b9b6-516fe76a98fd" name="Fingerprint Kit">
+    <property name="Card Number" value="24"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="4"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tool"/>
+    <property name="Text" value="Uses (3 supplies).&#10;&#10;η Exhaust Fingerprint Kit and spend 1 supply: Investigate. You get +1 έ for this investigation. If you succeed, you discover 1 additional clue at your location."/>
+  </card>
+  <card id="b9ae78d7-eb00-4df5-a22f-df7badbf3922" name="Connect the Dots">
+    <property name="Card Number" value="25"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="4"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Fast. Play after you discover the last clue at your location.&#10;&#10;Discover 2 clues at a location with a lower printed shroud value than your location."/>
+  </card>
+  <card id="4a7794f9-c8be-4c42-b1ef-46d7dfdd4a0a" name="Curiosity">
+    <property name="Card Number" value="26"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έά"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="While you have 4 or more cards in hand, Curiosity gains ά έ (while you have 7 or more cards in hand, Curiosity gains ά ά έ έ, instead)."/>
+  </card>
+  <card id="cb477972-7436-4bcc-81a9-1f3829ff1afb" name="Death XIII">
+    <property name="Card Number" value="27"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Free from the Past"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Seeker"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Slot" value="Tarot"/>
+    <property name="Traits" value="Tarot."/>
+    <property name="Text" value="You get +1 έ.&#10;&#10;ι When the game begins, if Death â€¢ XIII is in your opening hand: Put it into play."/>
+  </card>
+  <card id="8ed7541a-893c-47db-96df-152e8950abc5" name="Well Connected">
+    <property name="Card Number" value="28"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Traits" value="Condition."/>
+    <property name="Text" value="Limit 1 per investigator.&#10;&#10;[fast] Exhaust Well Connected: You get +1 skill value for this skill test for every 5 resources you have."/>
+  </card>
+  <card id="6a2d7bfa-30e9-4cb0-ac13-60f103eca5c7" name="Money Talks">
+    <property name="Card Number" value="29"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Traits" value="Favor. Gambit."/>
+    <property name="Text" value="Fast. Play when you initiate a skill test.&#10;&#10;Instead of the skill type indicated for this test (ά, έ, ή, or ί), this is a resource skill test. Your base skill value for this test is equal to half the number of resources in your resource pool (rounded down)."/>
+  </card>
+  <card id="562dea47-be08-4c89-b1fc-2f03d3b7cf9f" name="Cunning">
+    <property name="Card Number" value="30"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίέ"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="While you have 5 or more resources, Cunning gains έ ί (while you have 10 or more resources, Cunning gains έ έ ί ί, instead)."/>
+  </card>
+  <card id="5979ffd1-1971-4802-abdd-c345fc60cb9c" name="The Moon XVIII">
+    <property name="Card Number" value="31"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Message from Your Inner Self"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Rogue"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Slot" value="Tarot"/>
+    <property name="Traits" value="Tarot."/>
+    <property name="Text" value="You get +1 ί.&#10;&#10;ι When the game begins, if The Moon â€¢ XVIII is in your opening hand: Put it into play."/>
+  </card>
+  <card id="fa4ac919-ac11-4699-91c6-ccb37d0900f4" name="Deny Existence">
+    <property name="Card Number" value="32"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Spell. Paradox."/>
+    <property name="Text" value="Fast. Play when an encounter card or an enemy attack would cause you to do one of the following (choose one): Discard cards from hand, lose resources, lose actions, take damage, or take horror.&#10;&#10;You ignore that aspect of the effect. (Each other aspect resolves normally.)"/>
+  </card>
+  <card id="c39b5679-d3a1-467d-8051-50047cc34281" name="Eldritch Inspiration">
+    <property name="Card Number" value="33"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Willpower" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έά"/>
+    <property name="Traits" value="Spell. Spirit."/>
+    <property name="Text" value="Fast. Play when you would resolve an effect on a μ card that triggers when a α, β, γ, δ, or ζ symbol is revealed.&#10;&#10;Either cancel that effect, or resolve it an additional time."/>
+  </card>
+  <card id="7be54dfa-9595-4c17-bc29-d678e593e8c4" name="Prophesy">
+    <property name="Card Number" value="34"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Skill Icons" value="ΰ"/>
+    <property name="Traits" value="Practiced."/>
+    <property name="Text" value="While there are 3 or more doom in play, Prophesy gains ΰ (while there are 6 or more doom in play, Prophesy gains ΰ ΰ, instead)."/>
+  </card>
+  <card id="d58e1b85-2760-4019-9951-5a43c74c7227" name="Four of Cups">
+    <property name="Card Number" value="35"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Chalice of the Heart"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Slot" value="Tarot"/>
+    <property name="Traits" value="Tarot."/>
+    <property name="Text" value="You get +1 ά.&#10;&#10;ι When the game begins, if Four of Cups is in your opening hand: Put it into play."/>
+  </card>
+  <card id="0046b1cf-c6d2-425d-bd02-d49686e400fa" name="Track Shoes">
+    <property name="Card Number" value="36"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Traits" value="Item. Clothing. Footwear."/>
+    <property name="Text" value="Limit 1 [[Footwear]] per investigator.&#10;&#10;You get +1 ί.&#10;&#10;ι After you move, but before enemies at your new location engage you, exhaust Track Shoes: Test ί (3). If you succeed, move to a connecting location."/>
+  </card>
+  <card id="4f8887d7-511b-4094-bb50-c873e4d778dc" name="Act of Desperation">
+    <property name="Card Number" value="37"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Event"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Combat" value="2"/>
+    <property name="Skill Icons" value="ήή"/>
+    <property name="Traits" value="Tactic. Gambit."/>
+    <property name="Text" value="As an additional cost to play Act of Desperation, choose and discard an [[Item]] asset that takes up at least 1 hand slot from your hand or play area.&#10;&#10;Fight. You get +X ή and deal +1 damage for this attack, where X is the chosen asset's printed resource cost. If you succeed and that asset was in your play area, gain X resources."/>
+  </card>
+  <card id="d5b60e5a-cb31-4b98-9c40-aed4322a2347" name="Able Bodied">
+    <property name="Card Number" value="38"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Skill"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Combat" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίή"/>
+    <property name="Traits" value="Innate."/>
+    <property name="Text" value="While you control 2 or fewer [[Item]] assets, Able Bodied gains ή ί (while you control 1 or fewer [[Item]] assets, Able Bodied gains ή ή ί ί, instead)."/>
+  </card>
+  <card id="f9ad6423-0640-4045-ac80-55dd103d113a" name="Five of Pentacles">
+    <property name="Card Number" value="39"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="From the Brink"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Survivor"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Slot" value="Tarot"/>
+    <property name="Traits" value="Tarot."/>
+    <property name="Text" value="You get +1 health and +1 sanity.&#10;&#10;ι When the game begins, if Five of Pentacles is in your opening hand: Put it into play."/>
+  </card>
+  <card id="78c05ca7-c225-40b4-9a58-5ec8d45f8e31" name="Ace of Rods">
+    <property name="Card Number" value="40"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="The Fateful Step"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="3"/>
+    <property name="Slot" value="Tarot"/>
+    <property name="Traits" value="Tarot."/>
+    <property name="Text" value="[fast] During your turn, remove Ace of Rods from the game: You may take an additional action this turn, during which you get +2 to each of your skills.&#10;&#10;ι When the game begins, if Ace of Rods is in your opening hand: Put it into play."/>
+  </card>
+  <card id="479a3456-8e6c-4df7-a778-dad99d0a0f9d" name="The Thirteenth Vision">
+    <property name="Card Number" value="41"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Mythos"/>
+    <property name="Subtype" value="Basic Weakness"/>
+    <property name="Traits" value="Omen."/>
+    <property name="Text" value="Revelation - Put The 13th Vision into play in your threat area.&#10;&#10;Investigators at your location fail ties during skill tests.&#10;&#10;η η: Discard The 13th Vision."/>
+  </card>
+  <card id="46163897-b6a8-4c6e-86ef-27c5eeb7f443" name="The Tower XVI">
+    <property name="Card Number" value="42"/>
+    <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="Circumstances Beyond Your Control"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Basic Weakness"/>
+    <property name="Cost" value="4"/>
+    <property name="Slot" value="Tarot"/>
+    <property name="Traits" value="Omen. Tarot."/>
+    <property name="Text" value="You cannot commit cards to skill tests while The Tower â€¢ XVI is in your hand.&#10;&#10;If The Tower â€¢ XVI is drawn in your opening hand during setup (before or after taking a mulligan), you cannot replace it. It must stay in your opening hand."/>
+  </card>
+  <card id="57e4c960-af10-44cc-9af3-e1f4db571445" name="Carolyn Fern" size="MiniCard">
+    <property name="Card Number" value="994"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Guardian"/>
+    <alternate name="Carolyn Fern" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Guardian"/>
+    </alternate>
+  </card>
+  <card id="009a9055-355a-4d33-80d1-6877af906369" name="Joe Diamond" size="MiniCard">
+    <property name="Card Number" value="995"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Seeker"/>
+    <alternate name="Joe Diamond" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Seeker"/>
+    </alternate>
+  </card>
+  <card id="bf62dc7a-2d9f-4a41-8d90-3852188df560" name="Preston Fairmont" size="MiniCard">
+    <property name="Card Number" value="996"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Rogue"/>
+    <alternate name="Preston Fairmont" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Rogue"/>
+    </alternate>
+  </card>
+  <card id="295aec50-d0a1-4934-b97d-d880573323d8" name="Diana Stanley" size="MiniCard">
+    <property name="Card Number" value="997"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Diana Stanley" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Mystic"/>
+    </alternate>
+  </card>
+  <card id="84d907e0-b23c-43e5-9c3e-d27436076a73" name="Rita Young" size="MiniCard">
+    <property name="Card Number" value="998"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Survivor"/>
+    <alternate name="Rita Young" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Survivor"/>
+    </alternate>
+  </card>
+  <card id="8f9953c8-71d5-4e2d-96d2-4d0b2f5c9937" name="Marie Lambeau" size="MiniCard">
+    <property name="Card Number" value="999"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Marie Lambeau" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Mystic"/>
+    </alternate>
+  </card>
+ </cards>
+</set>
