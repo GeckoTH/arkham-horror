@@ -365,22 +365,20 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="2"/>
-  </card>
-  <card id="4f42702e-b199-439c-a2ee-94335ef8a315" name="The Conductor" size="EncounterCard">
-    <property name="Card Number" value="26"/>
-    <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="Return to The Essex County Express"/>
-    <property name="Subtitle" value="Beast from beyond the Gate"/>
-    <property name="Unique" value="ο"/>
-    <property name="Type" value="Enemy"/>
-    <property name="Class" value="Mythos"/>
-    <property name="Combat" value="3"/>
-    <property name="Agility" value="3"/>
-    <property name="Health" value="4"/>
-    <property name="Damage" value="2"/>
-    <property name="Horror" value="1"/>
-    <property name="Traits" value="Monster. Elite."/>
-    <property name="Text" value="Spawn - Leftmost location.&#10;&#10;Hunter. Massive.&#10;&#10;Forced - When The Conductor is defeated: Attach it to the current agenda. After you advance the attached agenda, draw The Conductor.&#10;&#10;Forced - When The Conductor's location leaves play: Instead of discarding The Conductor, move it one location to the right."/>
+    <alternate name="The Conductor" type="B" size="EncounterCard">
+      <property name="Encounter Set" value="Return to The Essex County Express"/>
+      <property name="Subtitle" value="Beast from beyond the Gate"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Enemy"/>
+      <property name="Class" value="Mythos"/>
+      <property name="Combat" value="3"/>
+      <property name="Agility" value="3"/>
+      <property name="Health" value="4"/>
+      <property name="Damage" value="2"/>
+      <property name="Horror" value="1"/>
+      <property name="Traits" value="Monster. Elite."/>
+      <property name="Text" value="Spawn - Leftmost location.&#10;&#10;Hunter. Massive.&#10;&#10;Forced - When The Conductor is defeated: Attach it to the current agenda. After you advance the attached agenda, draw The Conductor.&#10;&#10;Forced - When The Conductor's location leaves play: Instead of discarding The Conductor, move it one location to the right."/>
+    </alternate>
   </card>
   <card id="ef5a7a89-35a3-44d1-897d-9920d2099093" name="A Tear in Reality (v.II)" size="HorizCard">
     <property name="Card Number" value="27"/>
