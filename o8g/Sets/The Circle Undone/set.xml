@@ -563,10 +563,12 @@
   <card id="2b4c8a33-a070-4ffc-9763-9bf014ab2ea0" name="Disappearance at the Twilight Estate">
     <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
     <property name="Text" value="Easy / Standard&#10;&#10;α: -3. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
     <alternate name="Disappearance at the Twilight Estate" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
       <property name="Text" value="Hard / Expert&#10;&#10;α: -5. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
@@ -575,6 +577,7 @@
   <card id="9b434397-cb1c-4534-affb-efb27e8dbd66" name="JUDGEMENT XX" size="HorizCard">
     <property name="Card Number" value="44"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -583,6 +586,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Forced - After doom is placed on any card: Each investigator must either take 1 damage or 1 horror (2 damage or 2 horror instead if there is 5 or more doom in play).&#10;&#10;Forced - When any investigator is defeated, that investigator must advance this agenda. Do not remove any doom from this agenda when it advances."/>
     <alternate name="Your Demise" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -595,6 +599,7 @@
   <card id="baea82d4-258f-47e7-b09b-b6b041641abb" name="The Disappearance" size="HorizCard">
     <property name="Card Number" value="45"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -603,6 +608,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Forced - When an investigator is eliminated: Place each of that investigator's clues on this act instead of his or her location.&#10;&#10;Objective - Discover as many clues as you can before your inevitable demise."/>
     <alternate name="…?" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -615,6 +621,7 @@
   <card id="ba64216c-8dfa-4aec-97d3-6b1e4720331e" name="Gavriella Mizrah" size="InvestigatorCard">
     <property name="Card Number" value="46"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Subtitle" value="Private Security"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Investigator"/>
@@ -628,6 +635,7 @@
     <property name="Traits" value="Veteran."/>
     <property name="Text" value="ι After an enemy attacks you, even if that attack was canceled: Discover 1 clue at your location. (Limit once per round.)&#10;&#10;ε effect: +1. Heal 1 damage and 1 horror."/>
     <alternate name="Gavriella Mizrah" size="InvestigatorCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Subtitle" value="Private Security"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
@@ -639,6 +647,7 @@
   <card id="a43df446-cc04-457f-b402-6c80e9a41f70" name="Jerome Davids" size="InvestigatorCard">
     <property name="Card Number" value="47"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Subtitle" value="Josef's Secretary"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Investigator"/>
@@ -652,6 +661,7 @@
     <property name="Traits" value="Assistant. Silver Twilight."/>
     <property name="Text" value="ι When an investigator at your location draws a treachery from the encounter deck, discard cards from your hand with a total of at least 2 έ icons: Cancel that card's revelation effect. (Limit once per round.)&#10;&#10;ε effect: +1. Discover 1 clue at your location."/>
     <alternate name="Jerome Davids" size="InvestigatorCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Subtitle" value="Josef's Secretary"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
@@ -663,6 +673,7 @@
   <card id="6e9e0773-f7e4-43ae-8ffa-620920faf22d" name="Valentino Rivas" size="InvestigatorCard">
     <property name="Card Number" value="48"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Subtitle" value="Wealthy Philanthropist"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Investigator"/>
@@ -676,6 +687,7 @@
     <property name="Traits" value="Silver Twilight. Socialite."/>
     <property name="Text" value="θ During a skill test you are performing, spend 2 resources: Reduce the difficulty of this test by 1. (Limit once per round.)&#10;&#10;ε effect: +1. Gain 2 resources."/>
     <alternate name="Valentino Rivas" size="InvestigatorCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Subtitle" value="Wealthy Philanthropist"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
@@ -687,6 +699,7 @@
   <card id="dfcb02c6-c641-4983-990a-61c07ebb6d4c" name="Penny White" size="InvestigatorCard">
     <property name="Card Number" value="49"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Subtitle" value="Josef's Housekeeper"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Investigator"/>
@@ -700,6 +713,7 @@
     <property name="Traits" value="Assistant."/>
     <property name="Text" value="ι After you succeed at a skill test during a revelation effect: Discover 1 clue at your location. (Limit once per round.)&#10;&#10;ε effect: +1. If this is a skill test during a revelation effect, you may take an additional action during your next turn."/>
     <alternate name="Penny White" size="InvestigatorCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Subtitle" value="Josef's Housekeeper"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
@@ -711,10 +725,12 @@
   <card id="ea36d8dc-fefc-43d2-93e5-6fe903c7ee4a" name="The Witching Hour">
     <property name="Card Number" value="50"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
     <property name="Text" value="Easy / Standard&#10;&#10;α: -1. For each point you fail by, discard the top card of the encounter deck.&#10;&#10;γ: -1. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;&#10;δ: -3. If you fail, choose an exhausted or damaged [[Witch]] enemy at your location or at a connecting location. Ready that enemy and heal all damage from it."/>
     <alternate name="The Witching Hour" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
       <property name="Text" value="Hard / Expert&#10;&#10;α: -2. Discard cards from the top of the encounter deck equal to this test's difficulty.&#10;&#10;γ: -2. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;&#10;δ: -4. If you fail, ready each [[Witch]] enemy at your location and at each connecting location. Heal all damage from each of those enemies."/>
@@ -723,6 +739,7 @@
   <card id="8b6df157-2727-43c9-840f-d5db8b69f723" name="TEMPERANCE XIV" size="HorizCard">
     <property name="Card Number" value="51"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -730,6 +747,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="8"/>
     <alternate name="The Rite Commences" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -742,6 +760,7 @@
   <card id="85432ea3-4681-4263-90e4-11ece040a439" name="The Night Howls" size="HorizCard">
     <property name="Card Number" value="52"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="2"/>
@@ -750,6 +769,7 @@
     <property name="Doom" value="12"/>
     <property name="Text" value="Forced - At the end of the round: Place 1 doom on this agenda for each [[Witch]] enemy at the Witches' Circle."/>
     <alternate name="Reincarnation" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="2"/>
@@ -762,6 +782,7 @@
   <card id="06e80e7e-f563-4923-a35c-c5b56a8dee2f" name="Lost in the Woods" size="HorizCard">
     <property name="Card Number" value="53"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -770,6 +791,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Locations in front of you are connected to one another. You cannot enter locations in front of other investigators.&#10;&#10;Objective - At the end of the round, investigators may spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Deeper into the Woods" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -782,6 +804,7 @@
   <card id="7eb0b4b6-4951-47f0-9a15-39b69d3df4df" name="Witch Hauntings" size="HorizCard">
     <property name="Card Number" value="54"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="2"/>
@@ -790,6 +813,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Locations in front of you are connected to one another. You cannot enter locations in front of other investigators.&#10;&#10;Objective - If a single investigator spends the requisite number of clues, advance."/>
     <alternate name="Strange Melodies" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="2"/>
@@ -802,6 +826,7 @@
   <card id="37ae251b-0dad-4b44-a467-5d64c1c8a78c" name="Paths into Twilight" size="HorizCard">
     <property name="Card Number" value="55"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="3"/>
@@ -813,6 +838,7 @@
   <card id="b68b2e09-a232-4578-9826-26ee1d12b424" name="Witches' Circle" size="EncounterCard">
     <property name="Card Number" value="55"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="3"/>
@@ -825,6 +851,7 @@
   <card id="93afdc93-d1d6-49be-bf47-792f4c3071f6" name="A Circle Unbroken" size="HorizCard">
     <property name="Card Number" value="56"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="4"/>
@@ -833,6 +860,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Locations in front of you are connected to one another.&#10;&#10;Objective - If Anette Mason is defeated, advance.&#10;&#10;Objective - If there are no clues on the Witches' Circle, advance."/>
     <alternate name="A Circle Undone" size="HorizCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="4"/>
@@ -845,6 +873,7 @@
   <card id="f3071036-a8cf-4cae-b4d2-435dd7d125b8" name="Anette Mason" size="EncounterCard">
     <property name="Card Number" value="57"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Subtitle" value="The High Priestess"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
@@ -861,6 +890,7 @@
   <card id="b38cbfe7-33ce-4da0-805e-ee768d55695f" name="Witch-Haunted Woods" size="EncounterCard">
     <property name="Card Number" value="58"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -868,6 +898,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
     <alternate name="Witch-Haunted Woods" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Subtitle" value="Abandoned Mine"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -882,6 +913,7 @@
   <card id="b18d6c04-3078-4f66-8d5c-b86828bfc74f" name="Witch-Haunted Woods" size="EncounterCard">
     <property name="Card Number" value="59"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -889,6 +921,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
     <alternate name="Witch-Haunted Woods" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Subtitle" value="Cairn Stones"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -903,6 +936,7 @@
   <card id="6c324a96-fa29-4be4-917f-3ada08da3c98" name="Witch-Haunted Woods" size="EncounterCard">
     <property name="Card Number" value="60"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -910,6 +944,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
     <alternate name="Witch-Haunted Woods" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Subtitle" value="The Lonely Tree"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -924,6 +959,7 @@
   <card id="725469f2-857d-4493-bc34-69246ac41e40" name="Witch-Haunted Woods" size="EncounterCard">
     <property name="Card Number" value="61"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -931,6 +967,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
     <alternate name="Witch-Haunted Woods" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Subtitle" value="Child's Tree House"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -945,6 +982,7 @@
   <card id="bec9dfae-3210-4788-9bb6-18ee2f9d493d" name="Witch-Haunted Woods" size="EncounterCard">
     <property name="Card Number" value="62"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -952,6 +990,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
     <alternate name="Witch-Haunted Woods" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Subtitle" value="Tainted Well"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -966,6 +1005,7 @@
   <card id="12db67ae-bcfb-430a-a327-fd6c187f6ea2" name="Witch-Haunted Woods" size="EncounterCard">
     <property name="Card Number" value="63"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -973,6 +1013,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
     <alternate name="Witch-Haunted Woods" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Subtitle" value="Hermit's House"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -987,6 +1028,7 @@
   <card id="35362464-8cb8-4431-90df-8002f357cb7b" name="Witch-Haunted Woods" size="EncounterCard">
     <property name="Card Number" value="64"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -994,6 +1036,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Woods."/>
     <alternate name="Witch-Haunted Woods" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Subtitle" value="Overgrown Barn"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -1008,10 +1051,12 @@
   <card id="da131e3a-b1fe-42e3-b6fd-b413266a7809" name="At Death's Doorstep">
     <property name="Card Number" value="65"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
     <property name="Text" value="Easy / Standard&#10;&#10;α: -1 (-3 instead if your location is haunted).&#10;&#10;γ: -2. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;&#10;δ: -2. If there is a [[Spectral]] enemy at your location, take 1 damage."/>
     <alternate name="At Death's Doorstep" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
       <property name="Text" value="Hard / Expert&#10;&#10;α: -2 (-4 instead if your location is haunted).&#10;&#10;γ: -3. If this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;&#10;δ: -4. If there is a [[Spectral]] enemy at your location, take 1 damage and 1 horror."/>
@@ -1020,6 +1065,7 @@
   <card id="f69b2d45-3917-4679-a48a-b6c32d47e874" name="JUSTICE XI" size="HorizCard">
     <property name="Card Number" value="66"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -1028,6 +1074,7 @@
     <property name="Doom" value="8"/>
     <property name="Text" value="[[Silver Twilight]] enemies cannot be damaged or defeated.&#10;&#10;Forced - When you draw a [[Monster]] enemy: Instead of spawning it, set it aside, out of play, and place 1 doom on this agenda. This effect can cause this agenda to advance."/>
     <alternate name="Pulled into the Shadows" size="HorizCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -1040,6 +1087,7 @@
   <card id="77bb8257-87a1-4d81-a4c1-4240b9fa338c" name="Over the Threshold" size="HorizCard">
     <property name="Card Number" value="67"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="2"/>
@@ -1048,6 +1096,7 @@
     <property name="Doom" value="11"/>
     <property name="Text" value="Each [[Silver Twilight]] enemy gains Victory 0, and counts as an investigator for the purpose of determining where hunter enemies move during the enemy phase.&#10;&#10;Forced - After the 'hunter enemies move' step of the enemy phase: Each ready [[Spectral]] enemy deals its damage value to each [[Humanoid]] enemy at its location."/>
     <alternate name="Escape, if You Can" size="HorizCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="2"/>
@@ -1060,6 +1109,7 @@
   <card id="bc27e822-45d7-4f1b-9e77-60cdc6dc0b1a" name="Hidden Agendas" size="HorizCard">
     <property name="Card Number" value="68"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -1068,6 +1118,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Find information about the disappearances by discovering as many clues as you can. (Do not advance until you are instructed.) (Hint: it may be worthwhile to investigate the last known locations of the missing persons.)"/>
     <alternate name="Death Approaches" size="HorizCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -1080,6 +1131,7 @@
   <card id="3828c13a-18ab-4dd5-9b3b-7347298e0c30" name="The Spectral Realm" size="HorizCard">
     <property name="Card Number" value="69"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="2"/>
@@ -1087,6 +1139,7 @@
     <property name="Clues" value="4π"/>
     <property name="Doom" value=""/>
     <alternate name="A Way Out" size="HorizCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="2"/>
@@ -1099,6 +1152,7 @@
   <card id="53513f10-8c8c-4de7-9588-854743c9ba00" name="Escape the Cage" size="HorizCard">
     <property name="Card Number" value="70"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="3"/>
@@ -1107,6 +1161,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Forced - At the end of the round: Each [[Silver Twilight]] enemy in the Entry Hall escapes; place them beneath the Entry Hall, out of play. Move each ready [[Silver Twilight]] enemy with the aloof keyword once toward the Entry Hall.&#10;&#10;Objective - If each undefeated investigator has resigned, advance."/>
     <alternate name="Alive… for Now" size="HorizCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="3"/>
@@ -1119,12 +1174,14 @@
   <card id="129ca894-e429-4581-8cbb-bd572ba9ad1d" name="Entry Hall" size="EncounterCard">
     <property name="Card Number" value="71"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <alternate name="Entry Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -1136,12 +1193,14 @@
   <card id="1ff7ca25-79c0-4c87-8493-101d6205162f" name="Victorian Halls" size="EncounterCard">
     <property name="Card Number" value="72"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <alternate name="Victorian Halls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="4"/>
@@ -1153,12 +1212,14 @@
   <card id="259a5244-c7c9-43d8-9c77-4676a85d28c7" name="Trophy Room" size="EncounterCard">
     <property name="Card Number" value="73"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <alternate name="Trophy Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="2"/>
@@ -1170,12 +1231,14 @@
   <card id="be515ada-a78c-4891-81fa-cf74d6ee004a" name="Billiards Room" size="EncounterCard">
     <property name="Card Number" value="74"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <alternate name="Billiards Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -1187,12 +1250,14 @@
   <card id="4074832b-b055-4b2a-9dca-c9a2e52d2bae" name="Master Bedroom" size="EncounterCard">
     <property name="Card Number" value="75"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <alternate name="Master Bedroom" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -1204,12 +1269,14 @@
   <card id="de0039c5-cce6-4f05-9c59-fc8189737913" name="Balcony" size="EncounterCard">
     <property name="Card Number" value="76"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <alternate name="Balcony" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="1"/>
@@ -1221,12 +1288,14 @@
   <card id="aa2c8718-f180-48db-9f85-cd9a3c6bf193" name="Office" size="EncounterCard">
     <property name="Card Number" value="77"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <alternate name="Office" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="4"/>
@@ -1238,6 +1307,7 @@
   <card id="60bd4780-50d7-4c4a-b6db-2d5fa91e8916" name="Entry Hall" size="EncounterCard">
     <property name="Card Number" value="78"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -1245,6 +1315,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Spectral."/>
     <alternate name="Entry Hall" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -1257,6 +1328,7 @@
   <card id="53df67ca-a8ed-48d7-9c25-b22bc945a0ef" name="Victorian Halls" size="EncounterCard">
     <property name="Card Number" value="79"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -1264,6 +1336,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Spectral."/>
     <alternate name="Victorian Halls" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="4"/>
@@ -1276,6 +1349,7 @@
   <card id="7ccc7735-ee59-405b-a10e-720c63a2a2b2" name="Trophy Room" size="EncounterCard">
     <property name="Card Number" value="80"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -1283,6 +1357,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Spectral."/>
     <alternate name="Trophy Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="2"/>
@@ -1295,6 +1370,7 @@
   <card id="3b155317-1d7b-45f3-b8bf-ca5d8ed9aa76" name="Billiards Room" size="EncounterCard">
     <property name="Card Number" value="81"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -1302,6 +1378,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Spectral."/>
     <alternate name="Billiards Room" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -1315,6 +1392,7 @@
   <card id="d8e506b6-e683-4ec0-8b0c-d029324ae8dc" name="Master Bedroom" size="EncounterCard">
     <property name="Card Number" value="82"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -1322,6 +1400,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Spectral."/>
     <alternate name="Master Bedroom" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -1335,6 +1414,7 @@
   <card id="a62b0420-de03-40a9-ac89-a24fa5603823" name="Balcony" size="EncounterCard">
     <property name="Card Number" value="83"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -1342,6 +1422,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Spectral."/>
     <alternate name="Balcony" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="1"/>
@@ -1354,6 +1435,7 @@
   <card id="a4a8c1ce-acbf-402a-a165-e6e56c176c03" name="Office" size="EncounterCard">
     <property name="Card Number" value="84"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -1361,6 +1443,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Spectral."/>
     <alternate name="Office" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="4"/>
@@ -1374,6 +1457,7 @@
   <card id="da12b973-ace4-4dbc-ae3d-4bb3b3e0cf1c" name="Josef Meiger" size="EncounterCard">
     <property name="Card Number" value="85"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Subtitle" value="Lodge Host"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
@@ -1390,6 +1474,7 @@
   <card id="8e1aa5ad-75a5-4740-bce4-e85fccbb4292" name="Josef's Plan">
     <property name="Card Number" value="85"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Text" value="Remove all doom from this card.&#10;&#10;For the remainder of the game, doom cannot be placed on [[Silver Twilight]] enemies, and Josef Meiger gains aloof.&#10;&#10;Flip this card back to its enemy side and disengage it from all investigators."/>
@@ -1397,6 +1482,7 @@
   <card id="f22407c7-4f91-44b6-9382-e889c4741131" name="The Spectral Watcher" size="EncounterCard">
     <property name="Card Number" value="86"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="The Watcher"/>
     <property name="Subtitle" value="You Are Its Prey"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
@@ -1412,6 +1498,7 @@
   <card id="3b041a9e-6978-46a6-bcef-a35f30ef7b7b" name="Watcher's Grasp" size="EncounterCard">
     <property name="Card Number" value="87"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="The Watcher"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Power. Spectral."/>
@@ -1420,6 +1507,7 @@
   <card id="dec4454d-05ef-49ca-8915-39429b037eea" name="Piper of Azathoth" size="EncounterCard">
     <property name="Card Number" value="88"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Agents of Azathoth"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="5"/>
@@ -1433,6 +1521,7 @@
   <card id="f13a2462-7466-4b9d-b000-5e2d8c4af564" name="Daemonic Piping" size="EncounterCard">
     <property name="Card Number" value="89"/>
     <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Agents of Azathoth"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Power. Terror."/>
@@ -1441,6 +1530,7 @@
   <card id="343b9330-c6b0-4ad3-90b0-aef7cab1ba12" name="Coven Initiate" size="EncounterCard">
     <property name="Card Number" value="90"/>
     <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Anette's Coven"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="2"/>
@@ -1453,6 +1543,7 @@
   <card id="6348e5e1-57f3-4f44-90f0-d3593e3c43ec" name="Priestess of the Coven" size="EncounterCard">
     <property name="Card Number" value="91"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Anette's Coven"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="2"/>
@@ -1465,6 +1556,7 @@
   <card id="a0ebb0e6-91c1-4839-be28-3410d18e47c0" name="Diabolic Voices" size="EncounterCard">
     <property name="Card Number" value="92"/>
     <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Witchcraft"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Curse."/>
@@ -1473,6 +1565,7 @@
   <card id="e008057c-20cd-4508-bfd0-457fe32ad15f" name="Wracked" size="EncounterCard">
     <property name="Card Number" value="93"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Witchcraft"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex."/>
@@ -1481,6 +1574,7 @@
   <card id="e3d19014-ace7-4ea4-8e05-57f33692dd9a" name="Bedeviled" size="EncounterCard">
     <property name="Card Number" value="94"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Witchcraft"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex."/>
@@ -1489,6 +1583,7 @@
   <card id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f" name="Lodge Neophyte" size="EncounterCard">
     <property name="Card Number" value="95"/>
     <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Silver Twilight Lodge"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="3"/>
@@ -1501,6 +1596,7 @@
   <card id="569ae12f-4a94-49f5-8cbd-3104502c13c6" name="Keeper of Secrets" size="EncounterCard">
     <property name="Card Number" value="96"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Silver Twilight Lodge"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="4"/>
@@ -1514,6 +1610,7 @@
   <card id="779ed398-8619-4fa1-bd77-8b7be2c44c75" name="Mysteries of the Lodge" size="EncounterCard">
     <property name="Card Number" value="97"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Silver Twilight Lodge"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Scheme."/>
@@ -1522,6 +1619,7 @@
   <card id="edbb082b-fdd8-42de-a328-fcd65398e1fc" name="Evil Past" size="EncounterCard">
     <property name="Card Number" value="98"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="City of Sins"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Curse."/>
@@ -1530,6 +1628,7 @@
   <card id="c082467f-92dd-493c-a00a-026c26e133f5" name="Centuries of Secrets" size="EncounterCard">
     <property name="Card Number" value="99"/>
     <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="City of Sins"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Curse."/>
@@ -1538,6 +1637,7 @@
   <card id="f7c74c76-84b8-4f5b-8cd8-a5e68cc0410b" name="Nether Mist" size="EncounterCard">
     <property name="Card Number" value="100"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Spectral Predators"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="3"/>
@@ -1552,6 +1652,7 @@
   <card id="4ded3644-33e3-42cb-9465-65905d322cc1" name="Shadow Hound" size="EncounterCard">
     <property name="Card Number" value="101"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Spectral Predators"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="2"/>
@@ -1564,6 +1665,7 @@
   <card id="3f445c62-94aa-4015-a1cb-700977b6b023" name="Whispers in the Dark" size="EncounterCard">
     <property name="Card Number" value="102"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Spectral Predators"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Omen. Spectral."/>
@@ -1572,6 +1674,7 @@
   <card id="98aa643b-46f1-48f1-9e5d-a10d6164490e" name="Wraith" size="EncounterCard">
     <property name="Card Number" value="103"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Trapped Spirits"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
     <property name="Combat" value="2"/>
@@ -1584,6 +1687,7 @@
   <card id="bcd6e177-8bba-4551-98c5-688a6d65ea81" name="Trapped Spirits" size="EncounterCard">
     <property name="Card Number" value="104"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Trapped Spirits"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Terror. Spectral."/>
@@ -1592,6 +1696,7 @@
   <card id="7b980f47-dc9b-4ca5-9362-f8d967d6b0fa" name="Realm of Torment" size="EncounterCard">
     <property name="Card Number" value="105"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Realm of Death"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Terror. Spectral."/>
@@ -1600,6 +1705,7 @@
   <card id="766e1693-b1eb-4590-954b-2e18072e18f9" name="Shapes in the Mist" size="EncounterCard">
     <property name="Card Number" value="106"/>
     <property name="Quantity" value="2"/>
+    <property name="Encounter Set" value="Realm of Death"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Terror. Spectral."/>
@@ -1608,6 +1714,7 @@
   <card id="2fc27237-5a64-4e53-9490-8e2f24a86465" name="Terror in the Night" size="EncounterCard">
     <property name="Card Number" value="107"/>
     <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Inexorable Fate"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Terror. Spectral."/>
@@ -1616,6 +1723,7 @@
   <card id="69fba3d3-9218-40c4-9f72-9d428de08a30" name="Fate of All Fools" size="EncounterCard">
     <property name="Card Number" value="108"/>
     <property name="Quantity" value="3"/>
+    <property name="Encounter Set" value="Inexorable Fate"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Omen. Spectral."/>
@@ -1684,9 +1792,11 @@
   <card id="32851c70-7805-46c9-bd17-47b70f323441" name="Gavriella Mizrah" size="MiniCard">
     <property name="Card Number" value="996"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Neutral"/>
     <alternate name="Gavriella Mizrah" size="MiniCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Neutral"/>
     </alternate>
@@ -1694,9 +1804,11 @@
   <card id="aa824e97-55e5-4ad0-97c4-fa2ab212a6a6" name="Jerome Davids" size="MiniCard">
     <property name="Card Number" value="997"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Neutral"/>
     <alternate name="Jerome Davids" size="MiniCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Neutral"/>
     </alternate>
@@ -1704,9 +1816,11 @@
   <card id="300e6ad9-dd9e-4565-b2e0-b4a16ed891ec" name="Valentino Rivas" size="MiniCard">
     <property name="Card Number" value="998"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Neutral"/>
     <alternate name="Valentino Rivas" size="MiniCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Neutral"/>
     </alternate>
@@ -1714,9 +1828,11 @@
   <card id="f136076f-a794-4979-a739-da6c51758aad" name="Penny White" size="MiniCard">
     <property name="Card Number" value="999"/>
     <property name="Quantity" value="1"/>
+    <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Neutral"/>
     <alternate name="Penny White" size="MiniCard" type="B">
+      <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Neutral"/>
     </alternate>
