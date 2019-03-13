@@ -797,7 +797,7 @@
       <property name="Text" value="The path leading farther up the hill is masked. You cannot move into Ascending Path."/>
     </alternate>
   </card>
-  <card id="10ad9b62-60a3-46b2-bfa7-98cd0810a68a" name="Abandoned Camp" size="EncounterCard">
+  <card id="10ad9b62-60a3-46b2-bfa7-98cd0810a68a" name="Diverging Path" size="EncounterCard">
     <property name="Card Number" value="50"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to Where Doom Awaits"/>
@@ -807,7 +807,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Dunwich. Woods."/>
-    <alternate name="Diverging Path" size="EncounterCard" type="B">
+    <alternate name="Abandoned Camp" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to Where Doom Awaits"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -818,7 +818,7 @@
       <property name="Text" value="Forced - After you reveal Abandoned Camp: Lose 2 resources for each action you have performed this round (including this one, if applicable)."/>
     </alternate>
   </card>
-  <card id="f29036d6-eb41-433e-af3a-6f4ac14a2429" name="Fathomless Lake" size="EncounterCard">
+  <card id="f29036d6-eb41-433e-af3a-6f4ac14a2429" name="Altered Path" size="EncounterCard">
     <property name="Card Number" value="51"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to Where Doom Awaits"/>
@@ -828,7 +828,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Dunwich. Woods. Altered."/>
-    <alternate name="Altered Path" size="EncounterCard" type="B">
+    <alternate name="Fathomless Lake" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to Where Doom Awaits"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
