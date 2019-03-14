@@ -33,6 +33,12 @@ class BasicWeakness:
         "return_to_dunwich_legacy": [
             "49b96c05-175b-4727-b9d0-8bbfdc22d608", # x2 Through the Gates
             "49b96c05-175b-4727-b9d0-8bbfdc22d608",
+        ],
+        "the_circle_undone": [
+            "479a3456-8e6c-4df7-a778-dad99d0a0f9d", # x2 The Thirteenth Vision
+            "479a3456-8e6c-4df7-a778-dad99d0a0f9d",
+            "46163897-b6a8-4c6e-86ef-27c5eeb7f443", # x2 The Tower XVI
+            "46163897-b6a8-4c6e-86ef-27c5eeb7f443",
         ]
     }
     PILE_NAME = 'Basic Weaknesses'

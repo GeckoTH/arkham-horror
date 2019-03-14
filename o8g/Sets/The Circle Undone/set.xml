@@ -397,7 +397,7 @@
     <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Traits" value="Condition."/>
-    <property name="Text" value="Limit 1 per investigator.&#10;&#10;[fast] Exhaust Well Connected: You get +1 skill value for this skill test for every 5 resources you have."/>
+    <property name="Text" value="Limit 1 per investigator.&#10;&#10;θ Exhaust Well Connected: You get +1 skill value for this skill test for every 5 resources you have."/>
   </card>
   <card id="6a2d7bfa-30e9-4cb0-ac13-60f103eca5c7" name="Money Talks">
     <property name="Card Number" value="29"/>
@@ -412,7 +412,7 @@
   <card id="562dea47-be08-4c89-b1fc-2f03d3b7cf9f" name="Cunning">
     <property name="Card Number" value="30"/>
     <property name="Quantity" value="2"/>
-    <property name="Type" value="Event"/>
+    <property name="Type" value="Skill"/>
     <property name="Class" value="Rogue"/>
     <property name="Level" value="0"/>
     <property name="Intellect" value="1"/>
@@ -583,7 +583,7 @@
     <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
-    <property name="Doom" value=""/>
+    <property name="Doom" value="-"/>
     <property name="Text" value="Forced - After doom is placed on any card: Each investigator must either take 1 damage or 1 horror (2 damage or 2 horror instead if there is 5 or more doom in play).&#10;&#10;Forced - When any investigator is defeated, that investigator must advance this agenda. Do not remove any doom from this agenda when it advances."/>
     <alternate name="Your Demise" size="HorizCard" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
