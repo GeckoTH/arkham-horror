@@ -396,20 +396,11 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld."/>
-    <alternate name="Yuggoth" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="2"/>
-      <property name="Clues" value="3π"/>
-      <property name="Doom" value=""/>
-      <property name="Traits" value="Otherworld."/>
-      <property name="Text" value="η: Flip a clue on Yuggoth to its doom side. Draw 1 card."/>
-    </alternate>
+    <property name="Text" value="η: Flip a clue on Yuggoth to its doom side. Draw 1 card."/>
   </card>
   <card id="21e1dea3-83a0-4e12-8030-f854c05d3599" name="Shores of R'lyeh" size="EncounterCard">
     <property name="Card Number" value="328"/>
@@ -417,20 +408,11 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="1"/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld."/>
-    <alternate name="Shores of R'lyeh" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="1"/>
-      <property name="Clues" value="2π"/>
-      <property name="Doom" value=""/>
-      <property name="Traits" value="Otherworld."/>
-      <property name="Text" value="Shores of R'lyeh gets +1 shroud for each doom on each card in Shores of R'lyeh (including itself).&#10;Forced - After Shores of R'lyeh enters play: Place 1 doom on it."/>
-    </alternate>
+    <property name="Text" value="Shores of R'lyeh gets +1 shroud for each doom on each card in Shores of R'lyeh (including itself).&#10;Forced - After Shores of R'lyeh enters play: Place 1 doom on it."/>
   </card>
   <card id="1d9a0644-1a4c-4458-acf8-0859124b94d7" name="City of the Unseen" size="EncounterCard">
     <property name="Card Number" value="329"/>
@@ -438,20 +420,11 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld."/>
-    <alternate name="City of the Unseen" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="4"/>
-      <property name="Clues" value="1π"/>
-      <property name="Doom" value=""/>
-      <property name="Traits" value="Otherworld."/>
-      <property name="Text" value="Forced - After 1 or more doom is placed on a [β] enemy at City of the Unseen: Place 1 additional doom on that enemy."/>
-    </alternate>
+    <property name="Text" value="Forced - After 1 or more doom is placed on a [β] enemy at City of the Unseen: Place 1 additional doom on that enemy."/>
   </card>
   <card id="eba05542-79ba-44d4-940b-029d53705c26" name="A Pocket in Time" size="EncounterCard">
     <property name="Card Number" value="330"/>
@@ -459,21 +432,12 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="5"/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
+    <property name="Victory Points" value="1"/>
     <property name="Traits" value="Extradimensional."/>
-    <alternate name="A Pocket in Time" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="5"/>
-      <property name="Clues" value="1π"/>
-      <property name="Doom" value=""/>
-      <property name="Victory Points" value="1"/>
-      <property name="Traits" value="Extradimensional."/>
-      <property name="Text" value="Forced - After you move from A Pocket in Time to a [[shattered]] location, or vice versa: Take 1 damage for each clue on that [[shattered]] location.&#10;η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it. Do not take damage from the above Forced ability when moving via this effect."/>
-    </alternate>
+    <property name="Text" value="Forced - After you move from A Pocket in Time to a [[shattered]] location, or vice versa: Take 1 damage for each clue on that [[shattered]] location.&#10;η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it. Do not take damage from the above Forced ability when moving via this effect."/>
   </card>
   <card id="65d2d198-22f5-442e-8470-c52b9098de7d" name="Ruins of New York" size="EncounterCard">
     <property name="Card Number" value="331"/>
@@ -481,20 +445,11 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="1"/>
+    <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Shattered. Future. Ruins."/>
-    <alternate name="Ruins of New York" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="1"/>
-      <property name="Clues" value="3π"/>
-      <property name="Doom" value=""/>
-      <property name="Traits" value="Shattered. Future. Ruins."/>
-      <property name="Text" value="Forced - After Ruins of New York enters play: Put the top card of the lead investigator's deck into play at this location, facedown (2 cards instead if there are 3 or 4 investigators in the game). Treat each of those cards as Flying Polyp enemies with 2 fight, 2 health, 2 evade, 1 damage, and the [[monster]] trait."/>
-    </alternate>
+    <property name="Text" value="Forced - After Ruins of New York enters play: Put the top card of the lead investigator's deck into play at this location, facedown (2 cards instead if there are 3 or 4 investigators in the game). Treat each of those cards as Flying Polyp enemies with 2 fight, 2 health, 2 evade, 1 damage, and the [[monster]] trait."/>
   </card>
   <card id="8e0afc24-98cd-4e26-a6a8-6bd2fb920741" name="Mu" size="EncounterCard">
     <property name="Card Number" value="332"/>
@@ -502,21 +457,12 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="1"/>
+    <property name="Clues" value="4π"/>
     <property name="Doom" value=""/>
+    <property name="Victory Points" value="1"/>
     <property name="Traits" value="Shattered. Ancient."/>
-    <alternate name="Mu" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="1"/>
-      <property name="Clues" value="4π"/>
-      <property name="Doom" value=""/>
-      <property name="Victory Points" value="1"/>
-      <property name="Traits" value="Shattered. Ancient."/>
-      <property name="Text" value="While you are at Mu, the first α, β, γ, or δ symbol you reveal during each skill test gains: &quot;Reveal another token.&quot;"/>
-    </alternate>
+    <property name="Text" value="While you are at Mu, the first α, β, γ, or δ symbol you reveal during each skill test gains: &quot;Reveal another token.&quot;"/>
   </card>
   <card id="08f10edb-be29-4429-8920-ea642aa7aece" name="Atlantis" size="EncounterCard">
     <property name="Card Number" value="333"/>
@@ -524,20 +470,11 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Shattered. Ancient."/>
-    <alternate name="Atlantis" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="3"/>
-      <property name="Clues" value="2π"/>
-      <property name="Doom" value=""/>
-      <property name="Traits" value="Shattered. Ancient."/>
-      <property name="Text" value="Forced - After an ζ symbol is revealed during a skill test at any location: Place 1 doom on Atlantis. Then, if there are 3 or more doom on Atlantis, remove it from the game. Each enemy and investigator that was at Atlantis is defeated."/>
-    </alternate>
+    <property name="Text" value="Forced - After an ζ symbol is revealed during a skill test at any location: Place 1 doom on Atlantis. Then, if there are 3 or more doom on Atlantis, remove it from the game. Each enemy and investigator that was at Atlantis is defeated."/>
   </card>
   <card id="f1d78a4e-87ae-40cf-a508-f3e6380f8013" name="Pnakotus" size="EncounterCard">
     <property name="Card Number" value="334"/>
@@ -545,21 +482,12 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="2"/>
+    <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
+    <property name="Victory Points" value="1"/>
     <property name="Traits" value="Shattered. Ancient."/>
-    <alternate name="Pnakotus" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="2"/>
-      <property name="Clues" value="3π"/>
-      <property name="Doom" value=""/>
-      <property name="Victory Points" value="1"/>
-      <property name="Traits" value="Shattered. Ancient."/>
-      <property name="Text" value="η If there are at least 3 γ tokens in the chaos bag or sealed on cards in play: Discover all of the clues on Pnakotus and draw that many cards. (Group limit once per game.)"/>
-    </alternate>
+    <property name="Text" value="η If there are at least 3 γ tokens in the chaos bag or sealed on cards in play: Discover all of the clues on Pnakotus and draw that many cards. (Group limit once per game.)"/>
   </card>
   <card id="b8450b58-6cc4-4f93-b389-861a932b62dc" name="Valusia" size="EncounterCard">
     <property name="Card Number" value="335"/>
@@ -567,21 +495,12 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="4"/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
+    <property name="Victory Points" value="1"/>
     <property name="Traits" value="Shattered. Ancient."/>
-    <alternate name="Valusia" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="4"/>
-      <property name="Clues" value="2π"/>
-      <property name="Doom" value=""/>
-      <property name="Victory Points" value="1"/>
-      <property name="Traits" value="Shattered. Ancient."/>
-      <property name="Text" value="η If there are at least 3 β tokens in the chaos bag or sealed on cards in play: Heal 2 damage and 2 horror. Set Valusia's shroud to 0 for the remainder of the game. (Group limit once per game.)"/>
-    </alternate>
+    <property name="Text" value="η If there are at least 3 β tokens in the chaos bag or sealed on cards in play: Heal 2 damage and 2 horror. Set Valusia's shroud to 0 for the remainder of the game. (Group limit once per game.)"/>
   </card>
   <card id="8fab82bd-d9ba-456f-bffc-63645029a15a" name="Plateau of Leng" size="EncounterCard">
     <property name="Card Number" value="336"/>
@@ -589,20 +508,11 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
-    <property name="Shroud" value=""/>
-    <property name="Clues" value=""/>
+    <property name="Shroud" value="3"/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Shattered. Present-Day."/>
-    <alternate name="Plateau of Leng" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Type" value="Location"/>
-      <property name="Class" value="Mythos"/>
-      <property name="Shroud" value="3"/>
-      <property name="Clues" value="1π"/>
-      <property name="Doom" value=""/>
-      <property name="Traits" value="Shattered. Present-Day."/>
-      <property name="Text" value="Forced - If you reveal an δ symbol during a skill test at Plateau of Leng: Take 1 horror."/>
-    </alternate>
+    <property name="Text" value="Forced - If you reveal an δ symbol during a skill test at Plateau of Leng: Take 1 horror."/>
   </card>
   <card id="f9b9ed93-13c5-48ed-9063-4d373a57fbde" name="Formless Spawn" size="EncounterCard">
     <property name="Card Number" value="337"/>
