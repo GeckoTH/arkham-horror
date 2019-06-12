@@ -834,19 +834,16 @@
     <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Locations in front of you are connected to one another."/>
-  </card>
-  <card id="b68b2e09-a232-4578-9826-26ee1d12b424" name="Witches' Circle" size="EncounterCard">
-    <property name="Card Number" value="55"/>
-    <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Witching Hour"/>
-    <property name="Type" value="Location"/>
-    <property name="Class" value="Mythos"/>
-    <property name="Shroud" value="3"/>
-    <property name="Clues" value="3π"/>
-    <property name="Doom" value=""/>
-    <property name="Victory Points" value="2"/>
-    <property name="Traits" value="Woods. Circle."/>
-    <property name="Text" value="Revelation - Put the Witches' Circle into play in the center of the play area, in front of none of the investigators. The lead investigator spawns the set-aside Anette Mason at the Witches' Circle.&#10;&#10;Forced - After the enemy phase begins: Move each ready, unengaged [[Witch]] enemy once toward the Witches' Circle."/>
+      <alternate name="Witches' Circle" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="The Witching Hour"/>
+      <property name="Type" value="Location"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="3π"/>
+      <property name="Doom" value=""/>
+      <property name="Victory Points" value="2"/>
+      <property name="Traits" value="Woods. Circle."/>
+      <property name="Text" value="Revelation - Put the Witches' Circle into play in the center of the play area, in front of none of the investigators. The lead investigator spawns the set-aside Anette Mason at the Witches' Circle.&#10;&#10;Forced - After the enemy phase begins: Move each ready, unengaged [[Witch]] enemy once toward the Witches' Circle."/>
+    </alternate>
   </card>
   <card id="93afdc93-d1d6-49be-bf47-792f4c3071f6" name="A Circle Unbroken" size="HorizCard">
     <property name="Card Number" value="56"/>
@@ -1470,14 +1467,11 @@
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Humanoid. Cultist. Silver Twilight. Elite."/>
     <property name="Text" value="Retaliate.&#10;&#10;η If no other [[Silver Twilight]] enemy has doom on it: Parley. Test έ (4) to convince Josef that this is not your doing. If you fail, Josef Meiger attacks you. If you succeed, flip this card over and resolve its text."/>
-  </card>
-  <card id="8e1aa5ad-75a5-4740-bce4-e85fccbb4292" name="Josef's Plan">
-    <property name="Card Number" value="85"/>
-    <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="At Death's Doorstep"/>
-    <property name="Type" value="Story"/>
-    <property name="Class" value="Mythos"/>
-    <property name="Text" value="Remove all doom from this card.&#10;&#10;For the remainder of the game, doom cannot be placed on [[Silver Twilight]] enemies, and Josef Meiger gains aloof.&#10;&#10;Flip this card back to its enemy side and disengage it from all investigators."/>
+    <alternate name="Josef's Plan" size="EncounterCard" type="B">
+      <property name="Encounter Set" value="At Death's Doorstep"/>
+      <property name="Type" value="Story"/>
+      <property name="Text" value="Remove all doom from this card.&#10;&#10;For the remainder of the game, doom cannot be placed on [[Silver Twilight]] enemies, and Josef Meiger gains aloof.&#10;&#10;Flip this card back to its enemy side and disengage it from all investigators."/>
+    </alternate>
   </card>
   <card id="f22407c7-4f91-44b6-9382-e889c4741131" name="The Spectral Watcher" size="EncounterCard">
     <property name="Card Number" value="86"/>
