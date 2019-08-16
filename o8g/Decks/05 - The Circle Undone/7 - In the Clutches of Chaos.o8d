@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e786c226-d4d7-48ff-a80a-4775a939dd91">THE CHARIOT · VII</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="d8c145e0-aef1-4e62-a68d-4d2cc1dd16f9">Dark Knowledge (v. I)</card>
+    <card qty="1" id="8f329d22-5e4c-4be6-9779-4f24f80159c7">Beyond the Grave</card>
+    <card qty="1" id="d200f45b-a3d2-4590-8117-6608ecb996eb">Dark Knowledge (v. II)</card>
+    <card qty="1" id="106a08d0-4732-4568-a864-c7c30752fe02">New World Order</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="e69a16e5-2d20-4f88-8691-9cf21ac05fb7">Chaos Manifest</card>
+    <card qty="2" id="2e096aff-2f1f-4590-92f3-0a0766d4fde0">Primordial Gateway</card>
+    <card qty="3" id="bb227dd9-c7cc-4b63-8479-1c16de046539">Terror Unleashed</card>
+    <card qty="3" id="f13a2462-7466-4b9d-b000-5e2d8c4af564">Daemonic Piping</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True">
+    <card qty="2" id="007690be-09a3-42ae-a691-a85543ffedb9">Witness of Chaos</card>
+    <card qty="2" id="dbe9eddf-d8f7-4f76-855a-44393619cea1">Toil and Trouble</card>
+    <card qty="3" id="343b9330-c6b0-4ad3-90b0-aef7cab1ba12">Coven Initiate</card>
+    <card qty="1" id="6348e5e1-57f3-4f44-90f0-d3593e3c43ec">Priestess of the Coven</card>
+    <card qty="2" id="edbb082b-fdd8-42de-a328-fcd65398e1fc">Evil Past</card>
+    <card qty="3" id="c082467f-92dd-493c-a00a-026c26e133f5">Centuries of Secrets</card>
+    <card qty="3" id="a0ebb0e6-91c1-4839-be28-3410d18e47c0">Diabolic Voices</card>
+    <card qty="2" id="e008057c-20cd-4508-bfd0-457fe32ad15f">Wracked</card>
+    <card qty="2" id="e3d19014-ace7-4ea4-8e05-57f33692dd9a">Bedeviled</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="2" id="2809f893-3aa8-468a-943a-372bef4f909b">Lodge Enforcer</card>
+    <card qty="2" id="e822c46c-76de-4827-8fd5-b84400c8b212">Secrets of the Beyond</card>
+    <card qty="3" id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f">Lodge Neophyte</card>
+    <card qty="1" id="569ae12f-4a94-49f5-8cbd-3104502c13c6">Keeper of Secrets</card>
+    <card qty="2" id="779ed398-8619-4fa1-bd77-8b7be2c44c75">Mysteries of the Lodge</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="af187725-013f-47b5-8f23-36439c776663">In the Clutches of Chaos</card>
+    <card qty="1" id="5b1b97df-7bc1-42e8-aa55-c45ab8e4129d">French Hill</card>
+    <card qty="1" id="96e24b77-d561-4726-a36a-fdc0c8d14cea">French Hill</card>
+    <card qty="1" id="a98aea8f-073e-41e0-a739-78599ece71b2">Rivertown</card>
+    <card qty="1" id="4c511cf5-07d3-4c4a-94ac-f3b392d863b8">Rivertown</card>
+    <card qty="1" id="939cecea-c846-4ffd-bb1b-39e848b75710">Southside</card>
+    <card qty="1" id="af069455-dd28-47ba-9e14-0c559695332b">Southside</card>
+    <card qty="1" id="e8f91327-fe0a-4a84-b953-2e78bef56ac0">Uptown</card>
+    <card qty="1" id="73b8bb44-802b-47ec-9bb8-ec31836671e7">Uptown</card>
+    <card qty="1" id="c2bb0fb9-fa46-4f7b-b33d-c0c0776050b8">South Church</card>
+    <card qty="1" id="94a14d03-9193-4f51-99dc-b08f8817d33c">South Church</card>
+    <card qty="1" id="140e4849-4849-4cb8-9888-0d7647da8a50">Merchant District</card>
+    <card qty="1" id="8fc7e31e-9a02-4896-8c98-7f7202bbd4ee">Merchant District</card>
+    <card qty="1" id="57b76424-5b5f-4a7d-b256-4e057055bdf5">Hangman’s Hill</card>
+    <card qty="1" id="2cc3aacd-9eb4-4c88-92a8-f421a5477ef3">Silver Twilight Lodge</card>
+    <card qty="1" id="b03f1a0d-3025-410c-861f-8524f860fc3c">Hangman’s Hill</card>
+    <card qty="1" id="954fe8ed-0104-4621-903f-f56ac91c961a">Silver Twilight Lodge</card>
+    <card qty="1" id="dec4454d-05ef-49ca-8915-39429b037eea">Piper of Azathoth</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

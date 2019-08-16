@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Act" shared="True">
+    <card qty="1" id="d54f38db-9a1e-4ef2-8d64-d5b6f4c0dcfc">Search for the Gate</card>
+    <card qty="1" id="94a8e53e-27e1-4fa4-9e57-1271d441d187">Into the Gate</card>
+    <card qty="1" id="65c41f55-1d72-4052-8ea9-c5a2bcb330a5">The Night’s Usurper</card>
+  </section>
+  <section name="Agenda" shared="True">
+    <card qty="1" id="74e12e40-655d-4475-b829-3d2feae1b6a5">The Brotherhood Bides Their Time</card>
+    <card qty="1" id="53072c63-caa4-4d1b-b602-d6748c68a4f3">Schemes in the Dark Beyond</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="47ba1874-fa8f-4ebf-a13a-6ba8443d06da">Swarm of Locusts</card>
+    <card qty="1" id="1d584d46-29fc-4236-bb66-3448657afbd5">Terror Under the Pyramids</card>
+    <card qty="1" id="f7aa7f85-2d45-4e5c-bf57-065e688acdb1">Abyssal Reach</card>
+    <card qty="1" id="bb043564-e25b-405d-a70d-3438a4ccfa85">The Black Wind</card>
+    <card qty="1" id="6f4123d8-df0f-40a2-a5c2-e01c8b676444">Sandswept Ruins</card>
+    <card qty="1" id="f8882391-13f3-4e1e-9614-79bd1d12c4de">Desert Oasis</card>
+    <card qty="1" id="f2cd435e-4d43-4128-be45-1a0a04dfa933">Faceless Sphinx</card>
+    <card qty="1" id="7de5bf96-e674-480b-8944-631473054e2d">Untouched Vault</card>
+    <card qty="1" id="520ddac8-f418-447d-949c-65e033ef3f0a">Dunes of the Sahara</card>
+    <card qty="1" id="35c1b734-a07b-48b2-8534-183323cb0a42">Sands of Dashur</card>
+    <card qty="1" id="ac578029-0943-47e4-b3ed-8575726802c7">Nile River</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="f7aa7f85-2d45-4e5c-bf57-065e688acdb1">Abyssal Reach</card>
+    <card qty="1" id="bb043564-e25b-405d-a70d-3438a4ccfa85">The Black Wind</card>
+    <card qty="2" id="8f1bf2cb-5bf1-41f6-9cea-f4ad0a5faac5">Dark Sacrifice</card>
+    <card qty="2" id="df1ce467-6df1-4f5a-ad8d-45da14b0e356">Slumber</card>
+    <card qty="2" id="47ba1874-fa8f-4ebf-a13a-6ba8443d06da">Swarm of Locusts</card>
+    <card qty="2" id="1d584d46-29fc-4236-bb66-3448657afbd5">Terror Under the Pyramids</card>
+    <card qty="3" id="06868b35-d2fd-4f77-8fac-8ea464edc3eb">Sandstorm</card>
+    <card qty="3" id="ced0d25b-5bb6-4d95-8d5c-ee67dccbcaad">Eclipse</card>
+    <card qty="2" id="c493e428-7118-4511-9061-443fc721553f">Thing in the Sarcophagus</card>
+    <card qty="2" id="6f83b462-b1b7-4a89-bf88-451107cfd372">Abyssal Revenant</card>
+    <card qty="2" id="72d4d7b8-2eac-4de9-9dd9-4a37183a1404">Speaker for the Dark Pharaoh</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="879846b9-e547-4c81-8119-ad8974e02798">The Night’s Usurper</card>
+    <card qty="1" id="c9035367-ebae-436e-9c7d-258c7a55baed">Expedition Camp</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="ee6c2283-3de1-42c3-b5a5-242cebabf330">Xzharah</card>
+    <card qty="2" id="6b903f61-70aa-4436-8985-d164cace2f70">Dreaded Shantak</card>
+    <card qty="1" id="c640bf96-f9c8-4f45-a60a-872d992eb8f1">Eldritch Gate</card>
+    <card qty="1" id="5b9fd7fb-e348-4a84-8ee0-8b5a8b413846">Mist-Filled Caverns</card>
+    <card qty="1" id="c0b5e8c9-477d-43b2-9eb8-467e08cd758a">Stairway to Sarkomand</card>
+    <card qty="1" id="66a80678-c5ed-48e8-9029-df6ecb33247b">Tunnels under Ngranek</card>
+    <card qty="1" id="154eac12-b7ef-406a-a3dc-a51f81cb7b20">The Great Abyss</card>
+    <card qty="1" id="766a822a-c927-4faf-b1c1-1b5cce3a8d10">A Dream Betwixt</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="9ebacd6c-7f37-4051-98ea-530141d18e30">Professor Nathaniel Taylor</card>
+    <card qty="1" id="8728bd85-572a-4ec9-b518-6e2676f267eb">Nassor</card>
+    <card qty="1" id="01a1356f-be9c-4cf2-94f8-544baa853d9f">Farid</card>
+    <card qty="1" id="76f6e377-7192-4ed6-81a7-6c8852090f8f">Nadia Nimr</card>
+    <card qty="1" id="24eef006-8861-42ea-aa67-950288e1e1de">Dr. Wentworth Moore</card>
+    <card qty="1" id="586f9776-c2f6-468b-afff-63b625902eae">Dr. Layla El Masri</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

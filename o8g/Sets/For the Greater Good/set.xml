@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" id="2d5e4280-e9d7-4f52-bee0-0f525bdc5a90" name="For the Greater Good" standalone="True" version="1.0.0" xmlns:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="2bdef0d1-34e4-4405-9fd1-d5c2daadada5" name=".45 Thompson">
+      <property name="Card Number" value="186" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (5 ammo).Ammo spent from .45 Thompson is placed in your resource pool, as resources.η Spend 1 ammo: Fight. You get +2 [ή] and deal +1 damage for this attack." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="6" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="2 Hand" />
+      <property name="Skill Icons" value="ήή" />
+    </card>
+    <card id="b83a5a1e-0562-4856-be25-6dda9fe4fb46" name=".45 Thompson">
+      <property name="Card Number" value="187" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (5 ammo).η Spend 1 ammo: Fight. You get +2 [ή] and deal +1 damage for this attack. If you succeed by at least X, you may spend 1 ammo to deal this attack’s damage to another enemy at your location, where X is that enemy’s fight value." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="5" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="2 Hand" />
+      <property name="Skill Icons" value="ήί" />
+    </card>
+    <card id="f6e6bd79-7d2a-4ee8-a469-6e72ebbfa25c" name="Scroll of Secrets">
+      <property name="Card Number" value="188" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (3 secrets).η Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom 3 cards of any investigator's deck or the encounter deck. You may discard 1 of those cards. You may add 1 of those cards to its owner’s hand. Place the rest of those cards on either the top or bottom of their deck, in any order." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="έέ" />
+    </card>
+    <card id="8c671c80-d9a1-400d-a11d-75678e3b5bd7" name="Scroll of Secrets">
+      <property name="Card Number" value="189" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (4 secrets).η Exhaust Scroll of Secrets and spend 1 secret: Look at the top or bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner’s hand, place it on the bottom of its deck, or place it on top of its deck." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="άέ" />
+    </card>
+    <card id="2226a4fd-80fe-484c-a0e6-c8c840197f16" name="Tennessee Sour Mash">
+      <property name="Card Number" value="190" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Illicit." />
+      <property name="Text" value="Fast. Uses (2 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +3 [ά] for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 [ή] and deal +1 damage for this attack." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="άή" />
+    </card>
+    <card id="4c2790b9-46b3-4a74-aa83-d36907c44fa0" name="Tennessee Sour Mash">
+      <property name="Card Number" value="191" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Illicit." />
+      <property name="Text" value="Uses (3 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 [ά] for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 [ή] for this attack. If this attack succeeds against a non-Elite enemy, automatically evade it." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="άί" />
+    </card>
+    <card id="d9fc5e84-83e4-473e-b58a-64f10dd5cbe1" name="Enchanted Blade">
+      <property name="Card Number" value="192" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Weapon. Melee." />
+      <property name="Text" value="Uses (3 charges).η: Fight. You get +2 [ή] for this attack. If you succeed, you may spend 1 charge to empower the blade, dealing +1 damage for this attack. If the blade is empowered and this attack defeats an enemy, draw 1 card and heal 1 horror." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Hand Arcane" />
+      <property name="Skill Icons" value="έή" />
+    </card>
+    <card id="06b78fc0-7600-424a-bded-c1aceb5add95" name="Enchanted Blade">
+      <property name="Card Number" value="193" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Weapon. Melee." />
+      <property name="Text" value="Uses (4 charges).η: Fight. You get +2 [ή] for this attack. As an additional cost to use this ability, you may spend up to 2 charges to empower the blade (for each charge spent in this way, you get +1 [ή] and deal +1 damage for this attack)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Hand Arcane" />
+      <property name="Skill Icons" value="άή" />
+    </card>
+    <card id="7ff054ba-8bea-4aca-a5e5-f60540a467ab" name="Grisly Totem">
+      <property name="Card Number" value="194" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm. Cursed." />
+      <property name="Text" value="ι After you commit a card to a skill test, exhaust Grisly Totem: That card gains another instance of one of its skill icons of your choice. If that skill test is successful, the performing investigator draws 1 card." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="άί" />
+    </card>
+    <card id="7ff43b1c-b97f-45e4-9b48-d695deb4479f" name="Grisly Totem">
+      <property name="Card Number" value="195" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm. Blessed." />
+      <property name="Text" value="ι After you commit a card to a skill test, exhaust Grisly Totem: That card gains another instance of one of its skill icons of your choice. If that skill test fails, return that card to your hand." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="άί" />
+    </card>
+    <card id="22e3ab3a-027d-4f4a-9a84-94e076bbc62f" name="The Council’s Coffer">
+      <property name="Card Number" value="196" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="Uses (1π locks). If there are no locks on The Council’s Coffer, each investigator searches his or her deck or discard pile for any card and immediately plays it at no cost. Exile The Council’s Coffer. (Max once per campaign.)η η: Test any skill (5). If you succeed, remove 1 lock. Any investigator at your location may activate this ability.Card design by The Council at Arkham Nights 2017." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Unique" value="*" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="37bb6382-1e06-43f8-98c1-9f4c46eae6ae" name="For the Greater Good" size="EncounterCard">
+      <property name="Card Number" value="197" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the highest number of doom on a Cultist enemy in play.β: –2. Reveal another token.γ: –3. If you fail, place 1 doom on the nearest Cultist enemy.δ: –3. If you fail, move 1 doom from the nearest Cultist enemy to the current agenda." />
+      <property name="Level" value="1" />
+      <alternate name="For the Greater Good" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is the total number of doom among Cultist enemies in play.β: –2. Reveal another token.γ: –3. If you fail, place 1 doom on each Cultist enemy in play. If there are no Cultist enemies in play, reveal another token.δ: –3. If you fail, move all doom from the Cultist enemy with the most doom on it to the current agenda. If no Cultist enemies in play have doom on them, reveal another token." />
+        <property name="Level" value="1" />
+      </alternate>
+    </card>
+    <card id="c558324e-609c-4490-9b1a-e8bd88ddba00" name="THE HIEROPHANT · V" size="HorizCard">
+      <property name="Card Number" value="198" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When you defeat a Silver Twilight enemy: You leave behind some evidence of the scuffle. Move 1 doom from each enemy at that location to the current agenda." />
+      <property name="Level" value="2" />
+      <property name="Doom" value="8" />
+      <alternate name="THE HIEROPHANT · V" size="HorizCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="As you explore the building, you almost wander into a heated debate between several members of the Lodge in a nearby hallway. Seeing an opportunity to learn more, you hide and eavesdrop on the conversation. “Mr. Sanford’s orders are to complete the geist-trap at any cost,” one of them says firmly. “If that means we must put lives in danger, so be it. The good of the many outweigh the good of the few; you know this.”Another member, a woman, pounds her fist on the wall. “No! Our first resort cannot be to spill blood. There must be another way.”“There is no time,” the other responds, and there is a murmur of agreement among the rest. “It is clear you do not have the will to proceed. Take her away. We will make her see for herself the sacrifices that must be made for the greater good.”“No! You can’t do this!” the woman yells. You wince as her screams echo down the corridor. What are they planning to do?Discard the top 5 cards of the encounter deck. In player order, each investigator must draw a Cultist enemy discarded in this way." />
+        <property name="Level" value="2" />
+      </alternate>
+    </card>
+    <card id="28df5d40-3637-4ddc-a344-5a7ffd499bbe" name="Ends and Means" size="HorizCard">
+      <property name="Card Number" value="199" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Silver Twilight enemy in a Sanctum location loses aloof.Forced – When you defeat a Silver Twilight enemy: You leave behind some evidence of the scuffle. Move 1 doom from each enemy at that location to the current agenda." />
+      <property name="Level" value="1" />
+      <property name="Doom" value="10" />
+      <alternate name="Ends and Means" size="HorizCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Revelation – Replace the act and agenda decks with The Greater Good. Spawn the set-aside Summoned Beast at the Puzzle Box’s location (or any Sanctum location if the Puzzle Box is not in play) and remove the Puzzle Box from the game." />
+        <property name="Level" value="1" />
+      </alternate>
+    </card>
+    <card id="4d17a25d-481f-4223-b994-611ad03f18c4" name="Warm Welcome" size="HorizCard">
+      <property name="Card Number" value="200" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Act" />
+      <property name="Level" value="1" />
+      <property name="Doom" value="3π" />
+      <alternate name="Warm Welcome" size="HorizCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="“Ah, it’s you.” You are approached by a member of the Lodge whom you recognize: one of Carl Sanford’s bodyguards from your previous meeting with the president. “I regret to inform you that Mr. Sanford and the other members of the Lodge are busy with an important task at the moment. I would suggest you come back at a later time.” You tell the man that your task is important, and offer to help in return for a meeting with Mr. Sanford. He considers you for a moment, then nods. “All right. We are attempting to open a device which we believe will help us bind the revenant you encountered earlier. You’ll want to speak with Nathan Wick if you want to help. You can find him in the library upstairs.” You thank him and turn to leave, but he grabs your arm and stops you, adding one final warning: “You should know that we intend to open this device at any cost. If you cannot stomach the consequences, once again, I suggest you leave.”If the Library is not in play, put it into play.Spawn the set-aside Nathan Wick enemy in the Library, (Master of Initiation) side faceup. Attach the set-aside Puzzle Box story asset to him." />
+        <property name="Level" value="1" />
+      </alternate>
+    </card>
+    <card id="39f80193-d3b1-4137-a14e-cae707519bb3" name="Infiltrating the Lodge" size="HorizCard">
+      <property name="Card Number" value="201" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="ι After you evade an enemy: Remove all doom from it." />
+      <property name="Level" value="2" />
+      <property name="Doom" value="2π" />
+      <alternate name="Infiltrating the Lodge" size="HorizCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="At first, your investigation yields few answers. There is indeed a meeting of some sort happening at the manor tonight, though you’re not sure why. Finally, you catch a break. On a nearby table, a written summons explains the reason for tonight’s gathering:“Our timetable has moved forward. We must complete the trap by midnight tonight. The device we found will aid us in binding the revenant, so it is imperative that we find a way to open it before the ceremony begins. We have no time to waste with prudence or cowardice. Report to Nathan Wick in the sanctum at once.”You are left with more questions than answers.If the Inner Sanctum is not in play, put it into play.Spawn the set-aside Nathan Wick enemy in the Inner Sanctum, (Master of Indoctrination) side faceup. Attach the set-aside Puzzle Box story asset to him.For the remainder of the game, the current act gains “ι After you evade an enemy: Remove all doom from it.” Place this card next to the act deck as a reminder, then advance to act 2a." />
+        <property name="Level" value="2" />
+      </alternate>
+    </card>
+    <card id="0bdfd6d5-3f5f-458a-99ae-208ae010afcb" name="Obtaining the Device" size="HorizCard">
+      <property name="Card Number" value="202" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If Nathan Wick is added to the victory display by any means, choose an investigator to take control of the attached Puzzle Box, and advance." />
+      <property name="Level" value="3" />
+      <alternate name="Obtaining the Device" size="HorizCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If you advanced by defeating Nathan Wick:You quickly pry the device from Nathan’s hands and flee before you are noticed.If you advanced by evading Nathan Wick:You wait until Nathan is not looking, then sweep in and steal the device from the table next to him. You are long gone by the time he realizes it is missing.If you advanced by parleying with Nathan Wick:“All right, listen,” Nathan explains quietly. “Truth is, there probably is a safer way for us to open the device. This building holds many secrets; more than you could possibly know. But time is running thin, and Mr. Sanford wants it open by midnight. If you can open it before then, great. If not, well... If I were you, I wouldn’t be around it when we try to force it open.” He hands you the device and walks away, leaving you in silence." />
+        <property name="Level" value="3" />
+      </alternate>
+    </card>
+    <card id="c458c425-9802-44fa-8ee0-fd42381d42af" name="The Four Keys" size="HorizCard">
+      <property name="Card Number" value="203" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If investigators at the same location control the Puzzle Box, the α key, the β key, the γ key, and the δ key, advance." />
+      <alternate name="The Four Keys" size="HorizCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Though the box itself seems to fight you at every turn, with all four key components in your possession, you finally manage to piece together how to open the contraption. First, you twist and contort the box’s many mechanical devices until the image on its lid lines up perfectly with the diagram in your possession (γ). Next, you chant the Latin incantation inscribed on the small wooden plaque you found (β). It takes a few tries to get it right, but eventually you hear a click as the surface of the wooden container shifts and changes. A round indentation has appeared on the side of the box, matching the size of your mysterious black onyx coin (δ). As soon as you place the coin inside, another wooden panel opens on the other side, revealing a keyhole. Finally, you insert the key of bone (α) into the keyhole and turn it. The lid begins to open, and suddenly the entirety of the room is engulfed in a rush of air as all light, color, sound, and matter is sucked into the box.Check Campaign Log. —If you are honorary members of the Lodge, (-&gt;R1).—If you are enemies of the Lodge, (-&gt;R2)." />
+      </alternate>
+    </card>
+    <card id="2cb4bbdf-869a-41a2-9e07-8f56caafbc56" name="Lodge Gates" size="EncounterCard">
+      <property name="Card Number" value="204" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="We've Been Expecting You" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <alternate name="Lodge Gates" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Subtitle" value="We've Been Expecting You" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="Enemies cannot spawn at the Lodge Gates.η: Resign. On second thought, maybe coming here was a bad idea." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="a272bb4a-f6e3-4d08-9db7-ba0c2c79a9e0" name="Lodge Gates" size="EncounterCard">
+      <property name="Card Number" value="205" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="Members Only" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <alternate name="Lodge Gates" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Subtitle" value="Members Only" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="Enemies cannot spawn at the Lodge Gates.η: Resign. On second thought, maybe coming here was a bad idea." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="941b7c4c-d30e-4ebe-b530-c4f740db0814" name="Lobby" size="EncounterCard">
+      <property name="Card Number" value="206" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="We've Been Expecting You" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <property name="Text" value="The entrance to the Silver Twilight Lodge is guarded. You cannot enter the Lobby.Lodge Gates gains: “η: Parley. The guards recognize you from the Meiger estate and let you pass. Reveal the Lobby.”" />
+      <alternate name="Lobby" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Subtitle" value="We've Been Expecting You" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="28fd06e0-798c-4be0-99c8-2484938f4acf" name="Lobby" size="EncounterCard">
+      <property name="Card Number" value="207" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="Members Only" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <alternate name="Lobby" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Subtitle" value="Members Only" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="Forced – After the Lobby is revealed: Place 1 random set-aside key on it." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="678f12f3-b7cb-4afe-96cb-fc5e29bcfeb9" name="Lodge Cellar" size="EncounterCard">
+      <property name="Card Number" value="208" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="We've Been Expecting You" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <alternate name="Lodge Cellar" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Subtitle" value="We've Been Expecting You" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="Forced – After the Lodge Cellar is revealed: Place 1 random set-aside key on it." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="29c9979d-08c7-4b46-8f4d-3882710b4dac" name="Lodge Cellar" size="EncounterCard">
+      <property name="Card Number" value="209" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="Members Only" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <property name="Text" value="The rear entrance to the Silver Twilight Lodge is hidden. You cannot enter the Lodge Cellar.Lodge Gates gains: “η Investigators at the Lodge Gates spend 1π clues, as a group: Reveal the Lodge Cellar.&quot;" />
+      <alternate name="Lodge Cellar" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Subtitle" value="Members Only" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="d31e3e02-9b3b-476e-b37f-80a80480c6bd" name="Lounge" size="EncounterCard">
+      <property name="Card Number" value="210" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <alternate name="Lounge" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="Forced – After the Lounge is revealed: Put the set-aside Vault and Library locations into play. Put the set-aside August Lindquist asset into play in the Lounge. Place 1 random set-aside key on him." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="64ed2a25-81dd-4889-9b41-f25796cdb361" name="Vault" size="EncounterCard">
+      <property name="Card Number" value="211" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <property name="Text" value="The door to the Vault is locked. You cannot enter the Vault unless you control the δ key." />
+      <alternate name="Vault" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="Forced – After the Vault is revealed: Place 1 random set-aside key on it." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="d1b5a0e2-82df-4b8e-b96d-67c5f446c986" name="Library" size="EncounterCard">
+      <property name="Card Number" value="212" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <alternate name="Library" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="While you are investigating the Library, if you control the γ key, the Library gets –3 shroud." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="0c55379a-9551-4b0b-a26e-dee84a2f4723" name="Lodge Catacombs" size="EncounterCard">
+      <property name="Card Number" value="213" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge. Sanctum." />
+      <property name="Text" value="The door to the catacombs is locked. You cannot enter the Lodge Catacombs unless you control at least 1 (α/β/γ/δ) key." />
+      <alternate name="Lodge Catacombs" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge. Sanctum." />
+        <property name="Text" value="Forced – When Lodge Catacombs is revealed: Put the set-aside Inner Sanctum and each of the set-aside Sanctum Doorway locations into play." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="d54c32cd-45e6-4bf2-b4cf-66769783ec78" name="Sanctum Doorway" size="EncounterCard">
+      <property name="Card Number" value="214" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge. Sanctum." />
+      <alternate name="Ceremony Room" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge. Sanctum." />
+        <property name="Text" value="Forced – When the round ends: Each investigator and each Ally asset in the Ceremony Room takes 1 direct horror. Cancel this effect if an investigator in the Ceremony Room controls the α key." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="2" />
+      </alternate>
+    </card>
+    <card id="9aecb0e7-3275-425b-95f8-99be1a99621d" name="Sanctum Doorway" size="EncounterCard">
+      <property name="Card Number" value="215" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge. Sanctum." />
+      <alternate name="Holding Cells" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge. Sanctum." />
+        <property name="Text" value="Forced – After Holding Cells is revealed: Search the encounter deck and discard pile for a Cultist enemy and spawn it in the Holding Cells. Shuffle the encounter deck." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="769f425e-cbbe-4f6d-97d4-85780c69730a" name="Inner Sanctum" size="EncounterCard">
+      <property name="Card Number" value="216" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge. Sanctum." />
+      <property name="Text" value="The door to the Inner Sanctum is locked. You cannot enter the Inner Sanctum unless you control the β key." />
+      <alternate name="Inner Sanctum" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge. Sanctum." />
+        <property name="Text" value="Forced – After the Inner Sanctum is revealed: Place 1 random set-aside key on it." />
+        <property name="Combat" value="3" />
+        <property name="Agility" value="4" />
+        <property name="Unique" value="*" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="d060ab82-c7c4-4154-b76a-e1f881a01159" name="Nathan Wick" size="EncounterCard">
+      <property name="Card Number" value="217" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="Master of Initiation" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Silver Twilight. Elite." />
+      <property name="Text" value="Retaliate.η: Parley. Test [ά] (3) to persuade Nathan to let you find another option. If you succeed, place 1 resource on Nathan Wick. Then, if there are 1π resources on him, add him to the victory display. If you fail, Nathan Wick attacks you." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="*" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+      <alternate name="Nathan Wick" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Subtitle" value="Master of Indoctrination" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Cultist. Silver Twilight. Elite." />
+        <property name="Text" value="Alert.Forced – After you evade Nathan Wick by 3 or more: You steal the puzzle box. Add Nathan Wick to the victory display." />
+        <property name="Health" value="5" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="1" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="781b618f-5555-4688-be9f-2f37e40dde5b" name="Lodge Jailor" size="EncounterCard">
+      <property name="Card Number" value="218" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
+      <property name="Text" value="Spawn – Any Sanctum location.Aloof.Forced – After Lodge Jailor enters play: Place 2 doom and 1 random set-aside key on it.η: Parley. Test [έ] (3). If you succeed, either remove 1 doom from Lodge Jailor, or take control of its key." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="d8483e0d-5b23-4214-97c1-dbc4249c384a" name="Cell Keeper" size="EncounterCard">
+      <property name="Card Number" value="219" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
+      <property name="Text" value="Spawn – Any Sanctum location.Alert.Forced – After Cell Keeper enters play: Place 2 doom and 1 random set-aside key on it.Forced – When you evade Cell Keeper by 2 or more: Take control of its key." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="91f8f06a-b8f8-4a6e-ab6b-3a42236d3d28" name="Summoned Beast" size="EncounterCard">
+      <property name="Card Number" value="220" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="Guardian of the Trap" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Silver Twilight. Elite." />
+      <property name="Text" value="Retaliate. Hunter.Summoned Beast gets +1 fight, +1 evade, +1 damage, and +1 horror for every 2 doom in play.Forced – At the start of the enemy phase: Summoned Beast defeats each Humanoid enemy at its location. Move all doom from each of those enemies to Summoned Beast.Objective – If the Summoned Beast is defeated, (→R3)" />
+      <property name="Health" value="6π" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="f4eb7915-243a-48e4-9aef-a0397687f600" name="Knight of the Inner Circle" size="EncounterCard">
+      <property name="Card Number" value="221" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
+      <property name="Text" value="Spawn – Any location connected to yours.Prey – Most (α/β/γ/δ) keys controlled.Alert. Aloof. Hunter.Forced – After you enter Knight of the Inner Circle’s location (or vice-versa): Test [ί] (4). If you fail, Knight of the Inner Circle engages you." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="f526eda8-9504-45d8-a710-f7b3279119fc" name="Knight of the Outer Void" size="EncounterCard">
+      <property name="Card Number" value="222" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
+      <property name="Text" value="Spawn – Any location connected to yours.Aloof. Peril. Retaliate.Revelation – After Knight of the Outer Void spawns, place either 1 or 2 doom on it.η: Parley. Test [ά] or [έ] (4). If you succeed, take control of 1 doom on Knight of the Outer Void, and flip it to its clue side. If you fail, Knight of the Outer Void attacks you." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="093c9a1a-a87d-4cdc-8832-824be87b0f07" name="Call to Order" size="EncounterCard">
+      <property name="Card Number" value="223" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Find the 2 topmost Cultist enemies in the encounter discard pile and spawn them in the empty location with the most remaining clues. If no Cultist enemies are spawned by this effect, Call to Order gains surge." />
+    </card>
+    <card id="d2c08b5e-afe7-44b3-81ab-26ec0866d3d3" name="Expulsion" size="EncounterCard">
+      <property name="Card Number" value="224" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – If there are no Cultist enemies in play, Expulsion gains surge. Otherwise, the nearest Cultist enemy readies, moves (one location at a time) until it reaches your location, engages you, and makes an immediate attack. Then, place each (α/β/γ/δ) key you control on that enemy." />
+    </card>
+    <card id="d0d83800-414d-4913-b66f-78b9f8dce82c" name="Beneath the Lodge" size="EncounterCard">
+      <property name="Card Number" value="225" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="If you control at least 1 (α/β/γ/δ) key, Beneath the Lodge gains peril and its skill test gets +1 difficulty.Revelation – Test [έ] (3). For each point you fail by, you must either lose 1 clue or take 1 horror." />
+    </card>
+    <card id="16a55402-d8cc-4d8a-ac73-11301f6ec9c3" name="Mark of the Order" size="EncounterCard">
+      <property name="Card Number" value="226" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Surge.Revelation – Check which investigator controls each key. Otherwise, the investigator who controls:–the α key takes 1 damage.–the β key takes 1 horror.–the γ key discards 2 random cards from hand.–the δ key loses 3 resources." />
+    </card>
+    <card id="5244c3f2-2039-4f6d-a49d-a00eb4c9b370" name="August Lindquist">
+      <property name="Card Number" value="227" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="Elegant and Elusive" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Cultist. Silver Twilight." />
+      <property name="Text" value="η If investigators at August Lindquist’s location spend 2π clues, as a group: Parley. Each investigator who spent at least 1 clue must either take 1 damage or 1 horror. Remove August Lindquist from the game and take control of his key." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="–" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c9ff7c61-70ef-4cf3-8776-41c5f2550c7b" name="Puzzle Box">
+      <property name="Card Number" value="228" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="Mysterious Device" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="Forced – When you are defeated: Give control of the Puzzle Box to another investigator.η: Unlight a brazier at your location, exhaust The Spectral Watcher, or deal 5 damage to The Spectral Watcher if it is exhausted. This action does not provoke attacks of opportunity from The Spectral Watcher. (Group limit once per game.)" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+  </cards>
+</set>
