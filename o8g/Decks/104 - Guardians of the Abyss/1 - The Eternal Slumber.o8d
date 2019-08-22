@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Act" shared="True">
+    <card qty="1" id="d7f62f90-8f21-46fe-8e6e-80dc5ee2f074">Curse of Endless Sleep</card>
+    <card qty="1" id="37bca18b-3e9a-4269-9909-bb14ac77525b">Secrets in the Sand</card>
+    <card qty="1" id="b8eec1aa-6855-4304-aa84-335c400fcb24">The Hour of Judgment</card>
+  </section>
+  <section name="Agenda" shared="True">
+    <card qty="1" id="c550a922-9c5f-4a6b-bab7-57c6726716fd">Jessie’s Request</card>
+    <card qty="1" id="316af1a0-ffac-48d7-a4b9-f6c157327d49">Curse of the Abyss</card>
+    <card qty="1" id="0c545af9-7363-4430-b350-73f636214099">Garden of Shadows</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="6f4123d8-df0f-40a2-a5c2-e01c8b676444">Sandswept Ruins</card>
+    <card qty="1" id="f8882391-13f3-4e1e-9614-79bd1d12c4de">Desert Oasis</card>
+    <card qty="1" id="f2cd435e-4d43-4128-be45-1a0a04dfa933">Faceless Sphinx</card>
+    <card qty="1" id="7de5bf96-e674-480b-8944-631473054e2d">Untouched Vault</card>
+    <card qty="1" id="520ddac8-f418-447d-949c-65e033ef3f0a">Dunes of the Sahara</card>
+    <card qty="1" id="35c1b734-a07b-48b2-8534-183323cb0a42">Sands of Dashur</card>
+    <card qty="1" id="ac578029-0943-47e4-b3ed-8575726802c7">Nile River</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="f7aa7f85-2d45-4e5c-bf57-065e688acdb1">Abyssal Reach</card>
+    <card qty="2" id="bb043564-e25b-405d-a70d-3438a4ccfa85">The Black Wind</card>
+    <card qty="2" id="8f1bf2cb-5bf1-41f6-9cea-f4ad0a5faac5">Dark Sacrifice</card>
+    <card qty="2" id="df1ce467-6df1-4f5a-ad8d-45da14b0e356">Slumber</card>
+    <card qty="3" id="47ba1874-fa8f-4ebf-a13a-6ba8443d06da">Swarm of Locusts</card>
+    <card qty="3" id="1d584d46-29fc-4236-bb66-3448657afbd5">Terror Under the Pyramids</card>
+    <card qty="3" id="06868b35-d2fd-4f77-8fac-8ea464edc3eb">Sandstorm</card>
+    <card qty="3" id="ced0d25b-5bb6-4d95-8d5c-ee67dccbcaad">Eclipse</card>
+    <card qty="2" id="c493e428-7118-4511-9061-443fc721553f">Thing in the Sarcophagus</card>
+    <card qty="2" id="55a4cdfe-8f94-40db-8b56-a979a60b0bc3">Creature from the Abyss</card>
+    <card qty="3" id="eb866de6-adfd-477c-9497-4d7c018fb6fc">Humble Supplicant</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="d75b87c4-c7ed-4b63-a22c-26b53ce329b1">The Eternal Slumber</card>
+    <card qty="1" id="2bf4d54f-e282-4ef1-b053-e3ede9fed974">Cairo Bazaar</card>
+    <card qty="1" id="b5def4cb-4ffb-4f1c-a392-bc04f93547ef">Streets of Cairo</card>
+    <card qty="1" id="c9035367-ebae-436e-9c7d-258c7a55baed">Expedition Camp</card>
+    <card qty="1" id="244db7a4-79c5-4b44-a3e1-8c367f6448fc">Temple Courtyard</card>
+    <card qty="1" id="f3f9f4c2-2d2a-43f4-abaf-fe22fa3fa661">Outskirts of Cairo</card>
+    <card qty="1" id="46f53b5c-30ec-49f6-b9a3-a985bf61d11b">Museum of Egyptian Antiquities</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="2" id="6f83b462-b1b7-4a89-bf88-451107cfd372">Abyssal Revenant</card>
+    <card qty="1" id="ba44ac48-e286-4f18-aac0-a06dcb16842d">Neith</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="9ebacd6c-7f37-4051-98ea-530141d18e30">Professor Nathaniel Taylor</card>
+    <card qty="1" id="8728bd85-572a-4ec9-b518-6e2676f267eb">Nassor</card>
+    <card qty="1" id="01a1356f-be9c-4cf2-94f8-544baa853d9f">Farid</card>
+    <card qty="1" id="76f6e377-7192-4ed6-81a7-6c8852090f8f">Nadia Nimr</card>
+    <card qty="1" id="24eef006-8861-42ea-aa67-950288e1e1de">Dr. Wentworth Moore</card>
+    <card qty="1" id="586f9776-c2f6-468b-afff-63b625902eae">Dr. Layla El Masri</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

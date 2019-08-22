@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="0a42e490-8234-4f13-a2ed-3275b2d82325">THE LOVERS · VI</card>
+    <card qty="1" id="c728e562-199b-4f9e-a54e-c2ff2f7f3088">Crossroads of Fate</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="b0e80ad3-fea9-4b02-a1ca-921f1da17b65">The Unvisited Isle</card>
+    <card qty="1" id="6127d4b4-147e-446d-95d1-11668ff3a8c7">Fated Souls</card>
+    <card qty="1" id="6ebfafbe-e588-48eb-9bfc-d5f99517a92b">Beyond the Mist (v. I)</card>
+    <card qty="1" id="efbe7666-ffae-44dd-9958-893a2ec90d4d">Beyond the Mist (v. II)</card>
+    <card qty="1" id="f0a7e46e-0754-4068-b868-a01fc790d039">Beyond the Mist (v. III)</card>
+    <card qty="1" id="e6eb679c-e554-4acd-a1b2-f1982e7e07b5">Beyond the Mist (v. IV)</card>
+    <card qty="1" id="06128107-071b-474e-9fa4-4b3ecb427fe8">The Binding Rite</card>
+    <card qty="1" id="624f440a-ecc7-47ff-9e67-8d9e33e938a0">The Broken Rite</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="626b2e7c-3dee-4522-b7bf-f5ac7c6bacab">Whippoorwill</card>
+    <card qty="2" id="13df574f-7ccd-470b-898c-5c50db2e60eb">Spectral Raven</card>
+    <card qty="2" id="260173d9-6c32-4a75-8844-eca23ffcec2b">Eager for Death</card>
+    <card qty="2" id="2c683365-691b-41f5-964a-65f41cd8314b">Psychopomp’s Song</card>
+    <card qty="2" id="0e75ebaa-4ace-49df-ab40-8c629d920efe">Death Approaches</card>
+    <card qty="2" id="4600ec24-0ac5-412b-a50e-dc0618a76276">Marked for Death</card>
+    <card qty="3" id="2fc27237-5a64-4e53-9490-8e2f24a86465">Terror in the Night</card>
+    <card qty="3" id="69fba3d3-9218-40c4-9f72-9d428de08a30">Fate of All Fools</card>
+    <card qty="2" id="7b980f47-dc9b-4ca5-9362-f8d967d6b0fa">Realm of Torment</card>
+    <card qty="2" id="766e1693-b1eb-4590-954b-2e18072e18f9">Shapes in the Mist</card>
+    <card qty="1" id="f7c74c76-84b8-4f5b-8cd8-a5e68cc0410b">Nether Mist</card>
+    <card qty="2" id="4ded3644-33e3-42cb-9465-65905d322cc1">Shadow Hound</card>
+    <card qty="2" id="3f445c62-94aa-4015-a1cb-700977b6b023">Whispers in the Dark</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="d4c52940-3935-4434-b9ef-42085bb8972b">Unvisited Isle</card>
+    <card qty="1" id="d5f6facc-cbb7-4043-9bc9-206a894d9570">Unvisited Isle</card>
+    <card qty="1" id="9863cb4c-7c67-4840-8136-7361dd98069e">Unvisited Isle</card>
+    <card qty="1" id="5811057e-efb5-49c1-9219-8c4175f747ef">Unvisited Isle</card>
+    <card qty="1" id="0d528e4a-be44-4fb3-b1ac-a85b0c78be19">Unvisited Isle</card>
+    <card qty="1" id="366502f7-2985-49ad-a6a2-495afb3a390b">Unvisited Isle</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="3" id="343b9330-c6b0-4ad3-90b0-aef7cab1ba12">Coven Initiate</card>
+    <card qty="1" id="6348e5e1-57f3-4f44-90f0-d3593e3c43ec">Priestess of the Coven</card>
+    <card qty="3" id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f">Lodge Neophyte</card>
+    <card qty="1" id="569ae12f-4a94-49f5-8cbd-3104502c13c6">Keeper of Secrets</card>
+    <card qty="2" id="779ed398-8619-4fa1-bd77-8b7be2c44c75">Mysteries of the Lodge</card>
+    <card qty="1" id="f22407c7-4f91-44b6-9382-e889c4741131">The Spectral Watcher</card>
+    <card qty="2" id="3b041a9e-6978-46a6-bcef-a35f30ef7b7b">Watcher's Grasp</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="c734e8ac-f666-4427-8bb8-59442a47ad50">Gavriella Mizrah</card>
+    <card qty="1" id="e89cab8c-6f2f-40b2-aec4-ac7bd1462c6c">Gavriella’s Fate</card>
+    <card qty="1" id="5303ae39-304b-40d4-a513-a669bcec20aa">Jerome Davids</card>
+    <card qty="1" id="caf24cd0-edec-48b7-b767-ef6f1af97b99">Jerome’s Fate</card>
+    <card qty="1" id="7acf3471-3b4d-4ee4-baba-0b51229a1f13">Penny White</card>
+    <card qty="1" id="70d9976e-4cdd-4d39-a298-482d315be13f">Penny’s Fate</card>
+    <card qty="1" id="b065e1a1-9612-45e3-a4e8-65105751b892">Valentino Rivas</card>
+    <card qty="1" id="4270635a-1270-4d7e-a83f-f76e00becc10">Valentino’s Fate</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="1585647b-56d3-4856-bd37-76fde6b807c7">Union and Disillusion</card>
+    <card qty="1" id="8c5e3281-80a0-41f0-9d38-7f988383ad80">Miskatonic River</card>
+    <card qty="1" id="301ef491-7012-41b0-8c48-d8747541cb4a">Forbidding Shore</card>
+    <card qty="1" id="2cf802b6-d0e0-4bb1-965a-2b61ef455515">The Geist-Trap</card>
+    <card qty="1" id="0932a14c-516b-40b2-a5ed-c3096388ac35">Watcher’s Gaze</card>
+    <card qty="1" id="f3071036-a8cf-4cae-b4d2-435dd7d125b8">Anette Mason</card>
+    <card qty="1" id="da12b973-ace4-4dbc-ae3d-4bb3b3e0cf1c">Josef Meiger</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

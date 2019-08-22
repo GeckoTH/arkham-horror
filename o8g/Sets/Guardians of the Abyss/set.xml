@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" id="ce3f5fac-f9cf-49e8-86db-52be4274bc8e" name="Guardians of the Abyss" standalone="True" version="1.0.0" xmlns:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="d75b87c4-c7ed-4b63-a22c-26b53ce329b1" name="The Eternal Slumber" size="EncounterCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 3 or lower, add 1 strength to the abyss.γ: 0. For this skill test, ignore any effect that would increase your skill value.δ: –5. You may add 1 strength to the abyss to automatically succeed, instead.Strength of the Abyss:" />
+      <alternate name="The Eternal Slumber" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.γ: –2. For this skill test, ignore any effect that would increase your skill value.δ: –6. You may add 1 strength to the abyss to automatically succeed, instead.Strength of the Abyss:" />
+      </alternate>
+    </card>
+    <card id="46f53b5c-30ec-49f6-b9a3-a985bf61d11b" name="Museum of Egyptian Antiquities" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cairo." />
+      <alternate name="Museum of Egyptian Antiquities" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cario." />
+        <property name="Text" value="η: Test έ (5). If you succeed, remember that you have “discovered an ancient tablet.”Forced – After you investigate Museum of Egyptian Antiquities, if you did not succeed by at least 2: Lose all remaining actions and immediately end your turn." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="f3f9f4c2-2d2a-43f4-abaf-fe22fa3fa661" name="Outskirts of Cairo" size="EncounterCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cairo." />
+      <alternate name="Outskirts of Cairo" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cairo." />
+        <property name="Text" value="η Choose and discard 5 cards from your hand: Remember that you have “sabotaged the train.”η If no investigator has “sabotaged the train”: Resign. You take the train out of Cairo, leaving the dreamers to their unceasing nightmare." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="244db7a4-79c5-4b44-a3e1-8c367f6448fc" name="Temple Courtyard" size="EncounterCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cairo." />
+      <alternate name="Temple Courtyard" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cairo." />
+        <property name="Text" value="While there are no clues remaining on Temple Courtyard, each copy of Humble Supplicant loses aloof.η: Test ή (5). If you succeed, remember that you have “broken into an abandoned temple.”" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="ba44ac48-e286-4f18-aac0-a06dcb16842d" name="Neith" size="EncounterCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Subtitle" value="Harbinger of the Abyss" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Brotherhood. Elite." />
+      <property name="Text" value="Hunter. Retaliate.Forced – After horror from Neith’s attack defeats an investigator or Ally asset: That card is “taken by the abyss.”Forced – When Neith is dealt any amount of damage from an attack, if there is at least 1 dreamer at her location: Remove 1 dreamer from her location and cancel 1 damage just dealt to Neith." />
+      <property name="Health" value="5π" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="eb866de6-adfd-477c-9497-4d7c018fb6fc" name="Humble Supplicant" size="EncounterCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Spawn – Any Cairo location (with a Brotherhood enemy, if able).Aloof.Each Brotherhood enemy at Humble Supplicant’s location cannot be attacked or damaged.Forced – When the enemy phase ends: Move Humble Supplicant once toward the nearest Brotherhood enemy, if able." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="55a4cdfe-8f94-40db-8b56-a979a60b0bc3" name="Creature from the Abyss" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Dreamlands." />
+      <property name="Text" value="Retaliate.X is the strength of the abyss.Forced – After Creature from the Abyss enters play, if the strength of the abyss is 2 or lower: Add 1 strength to the abyss.Forced – After Creature from the Abyss is defeated, if the strength of the abyss or 5 or higher: Remove 1 strength from the abyss." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="X" />
+      <property name="Agility" value="3" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="879846b9-e547-4c81-8119-ad8974e02798" name="The Night’s Usurper" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 3 or lower, add 1 strength to the abyss.γ: –1. For this skill test, ignore any effect that would increase your skill value.δ: –4. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.Strength of the Abyss:" />
+      <alternate name="The Night’s Usurper" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.γ: –3. For this skill test, ignore any effect that would increase your skill value.δ: –5. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.Strength of the Abyss:" />
+      </alternate>
+    </card>
+    <card id="74e12e40-655d-4475-b829-3d2feae1b6a5" name="The Brotherhood Bides Their Time" size="HorizCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Agenda" />
+      <property name="Level" value="1" />
+      <property name="Doom" value="6" />
+      <alternate name="The Brotherhood's Revenge!" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Having found the perfect moment to strike, the remaining members of the Brotherhood ambush you in the night. “For Nephren-Ka! For Xzharah!” they cry out in exultation as they surround your camp. Their eyes are burning red with unnatural power, their muscles bulging and their veins pulsing with bizarre fluid. Nothing you say deters their attack, and you wonder if there is any humanity left in their minds at all.In player order, each investigator takes a random Brotherhood enemy from under the scenario reference card and spawns it engaged with him or her, until either each of the enemies under the scenario reference card have been spawned, or each investigator has spawned an enemy in this way. Spawn each enemy still remaining under the scenario reference card, one at a time, at empty locations farthest from the Expedition Camp. (Ignore all “Spawn” instructions on those enemies.)Shuffle the encounter discard pile into the encounter deck.Add 1 strength to the abyss." />
+        <property name="Level" value="1" />
+      </alternate>
+    </card>
+    <card id="53072c63-caa4-4d1b-b602-d6748c68a4f3" name="Schemes in the Dark Beyond" size="HorizCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Investigators cannot Parley with Brotherhood enemies. Each Brotherhood enemy cannot be flipped over.Forced – After the 4th or 8th doom is placed on this agenda: Add 1 strength to the abyss." />
+      <property name="Level" value="2" />
+      <property name="Doom" value="12" />
+      <alternate name="A Prophecy Fulfilled" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="“It is done.” Xzharah plunges his blade into the last of the dreamers. Its starry surface, soaked in hot crimson blood, devours the victim’s life force. “With this soul, I am complete.”The abyss is plunged into a dreadful silence. None can question the authority and power of the realm’s new lord. Uncouth creatures of darkness crawl forth from their pits to pay tribute to their master. As Xzharah surveys his domain, the mist coils about his feet with each step he takes. Countless winged creatures bow in servitude as he passes.This world is his. Ours is next.Each investigator is defeated.Each defeated investigator is “taken by the abyss.”(-&gt;R1)" />
+        <property name="Level" value="2" />
+      </alternate>
+    </card>
+    <card id="d54f38db-9a1e-4ef2-8d64-d5b6f4c0dcfc" name="Search for the Gate" size="HorizCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it." />
+      <property name="Level" value="1" />
+      <property name="Clues" value="2π" />
+      <alternate name="Construct of the Ancients" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="It has been several weeks since you set forth from Cairo, but to your dismay, you have found no sign of the otherworldly gate to which the Brotherhood supposedly retreated. Just as you are considering returning to Cairo to conduct more research, you are summoned into Winlock’s tent, where the weary expedition leader is examining a map of Egypt with calloused hands. “Oh good, you’re here,” he says, fumbling through his pack for an old, half-burned tome, which he places on the table in front of you. “Thought you might want to see what we found in that crypt to the south.” You turn over the book, sifting through its charred pages, until you come to a map of the desert marked by Egyptian hieroglyphs. It is the same region depicted on the map in front of Winlock. “See that, right there?” He points to one of the hieroglyphs on the western side of the map. “It means ‘door’.” With a hint of a smirk, he then points to the same spot on his larger map, marking your destination.“That what you’re looking for?”Shuffle the set-aside Eldritch Gate into the exploration deck." />
+        <property name="Level" value="1" />
+      </alternate>
+    </card>
+    <card id="c550a922-9c5f-4a6b-bab7-57c6726716fd" name="Jessie’s Request" size="HorizCard">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="η Investigators spend 1[per investigator] clues, as a group: Randomly spawn one of the enemies beneath the scenario reference card." />
+      <property name="Level" value="1" />
+      <property name="Doom" value="7" />
+      <alternate name="They're on to You" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="You’ve found enough leads to confirm the existence of a shadowy organization within Cairo, and perhaps the origin of the curse afflicting the city. However, despite your best efforts, the secret cabal has vanished from the city without a trace. You’re going to need a lot more information if you are to cure this illness.Find each Brotherhood enemy currently in play (at a location or in an investigator’s threat area). Place each of those enemies beneath the scenario reference card, out of play.Shuffle each set-aside copy of Abyssal Revenant into the encounter deck, along with the encounter discard pile.Add 1 strength to the abyss.If it is act 1, advance the current act." />
+        <property name="Level" value="1" />
+      </alternate>
+    </card>
+    <card id="94a8e53e-27e1-4fa4-9e57-1271d441d187" name="Into the Gate" size="HorizCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.Objective – At the end of the round, if each undefeated investigator is at the Eldritch Gate and they spend the requisite number of clues, advance." />
+      <property name="Level" value="2" />
+      <property name="Clues" value="1π" />
+      <alternate name="Delve into Dreams" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Reality slips away as you cross the threshold of the gate. The sandy dunes fold into the foundation of the Earth, the firmament splits, and the colors of the world bleed into the archway. When next you open your eyes, you are in a place between worlds. At the opposite end of the corridor, a figure emerges from the doorway beyond, faceless and wielding a curved blade that pulses with dark power. “You shall be my next sacrifice,” his voice seethes.Put the set-aside A Dream Betwixt location into play, revealed location side faceup. Move each investigator there and remove all other locations from the game. Spawn the set-aside Xzharah enemy in A Dream Betwixt, enemy side faceup. Shuffle each set-aside copy of Dreaded Shantak into the encounter deck, along with the encounter discard pile.If the Ancient Ankh asset is in play:Your Ankh amulet glows with a blinding light, causing Xzharah to recoil. “So, Neith has abandoned us!” Xzharah hisses.Exhaust Xzharah and disengage him from all investigators." />
+        <property name="Level" value="2" />
+      </alternate>
+    </card>
+    <card id="65c41f55-1d72-4052-8ea9-c5a2bcb330a5" name="The Night’s Usurper" size="HorizCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – “We have to find a way to stop him!” If Xzharah is exhausted, an investigator at his location may choose to advance. (Limit once per phase.)" />
+      <property name="Level" value="3" />
+      <alternate name="Defeating Xzharah" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Xzharah cannot be stopped by means you alone possess. Perhaps if you learn more about the realm beyond the gateway, you can find a way to end this vile ritual.If at least three of the following requirements are met, you may proceed to (-&gt;R2). Otherwise, flip this act back to its “a” side.—Xzharah must have no remaining health.—Investigators must possess 3[per investigator] clues, as a group.—The strength of the abyss must be 4 or lower.—The investigators must have “freed the nightgaunts,” “warned the denizens of Sarkomand,” and “pled for help.”" />
+        <property name="Level" value="3" />
+      </alternate>
+    </card>
+    <card id="766a822a-c927-4faf-b1c1-1b5cce3a8d10" name="A Dream Betwixt" size="EncounterCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Extradimensional." />
+      <property name="Text" value="Forced – If the strength of the abyss is 0: Set the strength of the abyss to 1.ι After you successfully investigate A Dream Betwixt: Flip it over and resolve the text on its other side." />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="0" />
+      <alternate name="To the Dreamlands" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="The gateway beyond this corridor leads to a place beyond the physical world. A place where dreams and reality converge. You steady your thoughts and stare into the abyss. The abyss embraces you.Put each of the remaining set-aside locations into play, revealed location side faceup—The Great Abyss, Tunnels under Ngranek, Stairway to Sarkomand, and Mist-Filled Caverns. (Place clues on each of those locations equal to their clue value.)The investigator resolving this text disengages from each engaged enemy and moves to The Great Abyss.Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
+      </alternate>
+    </card>
+    <card id="154eac12-b7ef-406a-a3dc-a51f81cb7b20" name="The Great Abyss" size="EncounterCard">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Dreamlands." />
+      <property name="Text" value="ι After you discover the last remaining clue from The Great Abyss: Flip it over and resolve the text on its other side.Victory 1." />
+      <property name="Shroud" value="5" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+      <alternate name="Fate of the Dreamers" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="As you traverse the vast abyss, you are surprised to find others wandering through the cavernous mist, mesmerized and confused. You don’t recognize them as patients from the incident in Cairo. The Brotherhood must have sent these victims here recently. With the knowledge you have now, you could try to awaken them—or guide them to Xzharah as sacrifices.You must decide (choose one):–Remove 2 strength from the abyss.–Add 2 strength to the abyss.Regardless of your choice, flip this card back over. For the remainder of the game, it cannot be flipped over again." />
+      </alternate>
+    </card>
+    <card id="66a80678-c5ed-48e8-9029-df6ecb33247b" name="Tunnels under Ngranek" size="EncounterCard">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Dreamlands." />
+      <property name="Text" value="η: Test έ (2) to search for signs of life within these jagged tunnels. If you succeed, flip this location over and resolve the text on its other side." />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="1π" />
+      <alternate name="Prisoners of Conquest" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="As you explore the volcanic tunnels, you find the brutalized corpses of dozens of winged creatures: some black and faceless, with membranous wings and dark horns; others huge and scaly, with bat-like wings and heads like a horse's. Continuing deeper down the tunnels, you come across more of the faceless creatures restrained by thick iron chains. Prisoners of Xzharah, you imagine. They make no sound as you approach, their uncanny heads turning towards you.You must decide (choose one):–Test ί (4) to free the creatures. If you succeed, one of them hands you 3 black whistles before they fly off toward their master; take control of the set-aside Summoned Nightgaunt asset and remember that you “freed the nightgaunts.”–Test ή (4) to slay the creatures. If you succeed, remember that you “executed the nightgaunts.”Regardless of your choice and whether you succeed or fail the indicated skill test, flip this card back over." />
+      </alternate>
+    </card>
+    <card id="c0b5e8c9-477d-43b2-9eb8-467e08cd758a" name="Stairway to Sarkomand" size="EncounterCard">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Dreamlands." />
+      <property name="Text" value="η: Test ά (3) to navigate the bewildering and gravity-defying staircase. If you succeed, flip this location over and resolve the text on its other side." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1π" />
+      <alternate name="Ruins of Sarkomand" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="After what feels like an eternity, you finally reach the top of the subterranean stairs, where a trapdoor leads you to the surface. You find yourself in the large central plaza of a ruined city on the shoreline of a beautiful sky-blue ocean. A pair of colossal winged lion statues guards the entrance to the stairway.You must decide (choose one):–Test έ (3) to speak to the almost-humanoid creatures that dwell in these ruins. If you succeed, you warn them of the battle below and they flee; remember that you “warned the denizens of Sarkomand.”–Test ή (3) to block the trapdoor. If you succeed, you topple the lion statues and use them to block the entrance to the stairway as you descend back into the depths; remember that you “cut off all escape.”Regardless of your choice and whether you succeed or fail the indicated skill test, flip this card back over." />
+      </alternate>
+    </card>
+    <card id="5b9fd7fb-e348-4a84-8ee0-8b5a8b413846" name="Mist-Filled Caverns" size="EncounterCard">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Dreamlands." />
+      <property name="Text" value="η: Test ί (4) to traverse through the mist. If you succeed, flip this location over and resolve the text on its other side." />
+      <property name="Shroud" value="1" />
+      <property name="Clues" value="1π" />
+      <alternate name="Effigy of Nodens" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="The mist grows ever thicker as you make your way deeper into the depths of the abyss. Finally, you come across an open chamber where the mist has receded, and you are greeted by a tall statue of an elderly man with a great beard and a mane of long hair. He rides a chariot formed from a huge seashell, which is pulled by beasts both wondrous and strange.You must decide (choose one):–Test ά (2) to entreat the entity depicted in this statue for aid. If you succeed, remember that you “pled for help.”–Test ή (2) to overthrow the statue. If you succeed, it topples over and shatters into pieces on the jagged cavern floor; remember that you “affronted the ruler of this realm.”Regardless of your choice and whether you succeed or fail the indicated skill test, flip this card back over." />
+      </alternate>
+    </card>
+    <card id="ee6c2283-3de1-42c3-b5a5-242cebabf330" name="Xzharah" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Subtitle" value="Chosen of the Beast" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Servitor. Dreamlands. Conspirator. Elite." />
+      <property name="Text" value="Hunter. Retaliate.Xzharah gets +5[per investigator] health and cannot be defeated by damage.η: Parley. Test ά or έ (X), where X is the strength of the abyss. If you succeed, flip this enemy over and resolve the text on its other side. If you fail, Xzharah attacks you." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <alternate name="Usurp the Night" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="The Chosen One’s words are grim whispers that worm their way into your ears. “The Day of Nephren-Ka shall come, and the road shall be paved with blood,” he promises. “Prove your loyalty and you shall be rewarded. When the Day arrives, you alone shall be spared. Refuse, and be consumed. Then I alone shall rule this place.”If each of the following requirements are met, you may proceed to (-&gt;R3).—The strength of the abyss must be 5 or higher.—The investigators must have “executed the nightgaunts,” “cut off all escape,” and “affronted the ruler of this realm.”If the above requirements are not met, each investigator may choose whether or not to accept Xzharah’s mercy and immediately resign. If any investigators remain, flip this card back to its enemy side." />
+      </alternate>
+    </card>
+    <card id="c640bf96-f9c8-4f45-a60a-872d992eb8f1" name="Eldritch Gate" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Desert. Ruins." />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="6b903f61-70aa-4436-8985-d164cace2f70" name="Dreaded Shantak" size="EncounterCard">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Dreamlands. Shantak." />
+      <property name="Text" value="Hunter. Massive.While Dreaded Shantak is ready, η and ι abilities on its location cannot be triggered." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="316af1a0-ffac-48d7-a4b9-f6c157327d49" name="Curse of the Abyss" size="HorizCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – If the strength of the abyss is 0: Set the strength of the abyss to 1. Each investigator draws 1 card and heals 1 horror." />
+      <property name="Level" value="2" />
+      <property name="Doom" value="6" />
+      <alternate name="The Abyss Grows..." size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="As more and more fall victim to the curse that has infected Cairo, a silent terror grips the city. When night falls again, the streets are filled with a sudden panic. It starts with turmoil outside the hospital, as people demand to know what has happened to their loved ones and what the doctors are doing to solve the problem. Before long, rioting and looting erupt throughout the city. By midnight, the streets have descended into utter chaos.Shuffle the encounter discard pile into the encounter deck.Add 1 strength to the abyss." />
+        <property name="Level" value="2" />
+      </alternate>
+    </card>
+    <card id="72d4d7b8-2eac-4de9-9dd9-4a37183a1404" name="Speaker for the Dark Pharaoh" size="EncounterCard">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="While the strength of the abyss is 2 or lower, Speaker for the Dark Pharaoh gains hunter.Forced – After Speaker for the Dark Pharaoh is defeated, if the strength of the abyss is 3 or higher: Each investigator at its location takes 1 damage." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="586f9776-c2f6-468b-afff-63b625902eae" name="Dr. Layla El Masri" size="EncounterCard">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Brotherhood of the Beast" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
+      <property name="Text" value="Spawn – Expedition Camp.η As a group, investigators at Dr. Layla El Masri’s location discard cards from hand with a total of at least 4 ά icons among them: Parley. Add Dr. Layla El Masri to the victory display.Victory 1." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Translator’s Evidence" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Brotherhood of the Beast" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Evidence." />
+        <property name="Text" value="“I didn’t have a choice!” Layla cries. “The things I’ve read... The records I’ve translated... They all point to one thing,” she claims. “Destruction. Ruin. We can’t stop it. All we can do is forge a place for our loved ones in the rubble.” You tell her that you will do everything in your power to stop this ‘destruction’, but she shakes her head, tears in her eyes. “It’s a fool’s errand. But...” Layla takes a deep breath as she considers her options. “Promise you’ll keep my daughter and my son safe, and I’ll help you in any way I can.”After an investigator has “discovered an ancient tablet,” read the following (if an investigator has already completed this task, read the following immediately):You bring the tablet to Dr. El Masri, and she translates it to the best of her ability. “When the Choice is made, He shall be empowered by a thousand sacrifices from the sacred land.” She blinks a few times, trying to process what it means. “How many coma patients are there right now?” she asks, wide-eyed.Remove 1 strength from the abyss. (Group limit once per game.)Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="24eef006-8861-42ea-aa67-950288e1e1de" name="Dr. Wentworth Moore" size="EncounterCard">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Brotherhood of the Beast" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
+      <property name="Text" value="Spawn – Museum of Egyptian Antiquities.Dr. Wentworth Moore cannot be damaged while there is a ready Monster enemy at his location.Forced – After Dr. Wentworth Moore enters play: Search the encounter deck and discard pile for a Monster enemy, and spawn it at his location. Shuffle the encounter deck.Victory 1." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Supplicant’s Evidence" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Brotherhood of the Beast" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Evidence." />
+        <property name="Text" value="Despite your best efforts, Dr. Moore slips away while you are occupied by his ‘bodyguard’. With the creature defeated, and you hot on his trail, you suspect he will try to escape the city while he has the chance.————————————————————After an investigator has “sabotaged the train,” read the following (if an investigator has already completed this task, read the following immediately):You manage to corner Dr. Moore as he tries to escape the city on foot. “Very clever,” he admits. “But you’re already out of time. Lock me up, it doesn’t matter. The dreamers will be sacrificed, and our Chosen will lead us to a new age.” But after several hours, he is begging to be let out of the city. “Please, the reaper is coming! Neith is coming for us all. We’ll all be sacrificed, don’t you understand? You and me both! All of us need to flee the city while we still can!”Remove 1 strength from the abyss. (This effect can only be resolved once per game.)Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="76f6e377-7192-4ed6-81a7-6c8852090f8f" name="Nadia Nimr" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Brotherhood of the Beast" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
+      <property name="Text" value="Spawn – Temple Courtyard.η: Parley. Test ά (7). You may take up to 3 horror to reduce the difficulty of this test by 2 for each horror taken in this way. If you succeed, add Nadia Nimr to the victory display. If you fail, Nadia Nimr attacks you.Victory 1." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Priestess’s Evidence" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Brotherhood of the Beast" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Evidence." />
+        <property name="Text" value="Nadia’s faith is shaken. Scared and confused, she finally gives in. “There is only one residence in Cairo they told us to spare,” she explains. “None of us know why, or what their connection is to the Brotherhood. All we know is they were not to be disturbed.” She hesitantly gives you a small brass key. “...So maybe it’s time to disturb them. The building’s door is marked with lamb’s blood.”————————————————————After an investigator has “found a door marked with blood,” read the following (if an investigator has already completed this task, read the following immediately):Using the key Nadia gave you, you enter the marked residence. To your surprise, there is nobody inside—only the faint stench of rot and aged leather. The basement of the residence is littered with old books, records kept by the Brotherhood and its many agents. They will take some time to peruse, but a lead is a lead.Remove 1 strength from the abyss. (Group limit once per game.)Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="01a1356f-be9c-4cf2-94f8-544baa853d9f" name="Farid" size="EncounterCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Brotherhood of the Beast" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
+      <property name="Text" value="Spawn – Cairo Bazaar.η: Parley. Test έ (7). You may spend up to 5 resources to reduce the difficulty of this test by 1 for each resource spent in this way. If you succeed, add Farid to the victory display. If you fail, Farid attacks you.Victory 1." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Salesman’s Evidence" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Brotherhood of the Beast" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Evidence." />
+        <property name="Text" value="“All right, all right,” Farid relents, “I’m a businessman, not a soldier. Strike a deal with me, and I’ll tell you what I know. Then I’ll skip out of town and be out of your hair.” You ask what he wants. “There’s a vault in the abandoned temple to the east. Word is, there are a lot of old, valuable artifacts in there. The kind that would fetch a high price on the black market.” He grins toothily.”Get me into that temple, and I’m all yours. Deal?”————————————————————After an investigator has “broken into a deserted temple,” read the following (if an investigator has already completed this task, read the following immediately):Farid grins wide as he scoops golden idols into his rucksack. You press him for information before he gets too excited. “Look, they promised me wealth beyond my wildest dreams. Even I have my price, you know?” He throws up his hands, resigned. “Let me show you my records. I’ve done a lot of ‘business’ in the last few months. That’ll point you in the right direction.”Remove 1 strength from the abyss. (Group limit once per game.)Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="8728bd85-572a-4ec9-b518-6e2676f267eb" name="Nassor" size="EncounterCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Brotherhood of the Beast" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
+      <property name="Text" value="Spawn – Streets of Cairo.Retaliate.Forced – When Nassor attacks: Either add 1 strength to the abyss, or Nassor deals +1 damage and +1 horror for this attack (+2 damage and +2 horror instead if it is the enemy phase).Victory 1." />
+      <property name="Health" value="6" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Assassin’s Evidence" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Brotherhood of the Beast" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Evidence." />
+        <property name="Text" value="Despite his mortal wounds, the assassin grins wickedly. “The Day is coming,” he says between a fit of coughs. “You think killing me will stop it? Fools! The Beast will devour you all!” He cackles with his final breath, then falls silent.You are quick to search his belongings before any bystanders spot the body. Among the many strange curios on his person, you find a small leather-bound journal with a cryptic inscription:Our tribute soaks the abyssal bladeA thousand souls never to wakeWith this our Chosen shall ariseAnd the Day is ever nigh!Remove 1 strength from the abyss. (Group limit once per game.)Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="9ebacd6c-7f37-4051-98ea-530141d18e30" name="Professor Nathaniel Taylor" size="EncounterCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Brotherhood of the Beast" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
+      <property name="Text" value="Spawn – Outskirts of Cairo.η As a group, investigators at Professor Nathaniel Taylor’s location discard cards from hand with a total of at least 4 έ icons among them: Parley. Add Professor Nathaniel Taylor to the victory display.Victory 1." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Professor’s Evidence" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Brotherhood of the Beast" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Evidence." />
+        <property name="Text" value="“I’ll be dead soon anyway,” Professor Taylor admits with a deep sigh. “If it’s not you, or the Brotherhood, it’ll be the tumor in my lung.” He dumps the ashes in his pipe and sets it on his table before turning back towards you. “Fine. I’m certain it’ll be the death of both of us, but I’ll help you out. Don’t know what you expect from me, exactly. I suppose if you found one of the Brotherhood’s artifacts, I could study it for you.”————————————————————After an investigator has “bought an odd trinket,” read the following (if an investigator has already completed this task, read the following immediately):You set the trinket down on Professor Taylor’s desk. The elderly man puts on his monocle and examines it carefully. “Intriguing,” he says with an expression of surprise. “This could only have come from a particular tomb in the royal crypts of Dashur. One most scholars don’t believe exists.” He rises to his feet and shakes your hand. “Give me some time to study this further. Perhaps if we both make it out of this alive, I can resubmit my thesis,” he says with a morbid chuckle.Remove 1 strength from the abyss. (Group limit once per game.) Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="c9035367-ebae-436e-9c7d-258c7a55baed" name="Expedition Camp" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Cairo. Desert." />
+      <alternate name="Expedition Camp" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Sands of Egypt" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Expedition. Cairo. Desert." />
+        <property name="Text" value="η: Parley. Test έ (2) to speak to the researchers stationed here. If you succeed, look at the top X cards of either the exploration deck or the encounter deck, where X is the amount you succeeded by. Place up to 2 of those cards on the bottom of that deck. Place the rest on top in a random order. (Group limit once per round.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="ac578029-0943-47e4-b3ed-8575726802c7" name="Nile River" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Desert." />
+      <property name="Text" value="Forced – After you enter Nile River: You must either take 1 horror or discard 1 card from your hand at random." />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="35c1b734-a07b-48b2-8534-183323cb0a42" name="Sands of Dashur" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Desert." />
+      <property name="Text" value="As an additional cost for you to explore while at Sands of Dashur, you must spend 2 resources." />
+      <property name="Shroud" value="7" />
+      <property name="Clues" value="0" />
+    </card>
+    <card id="0c545af9-7363-4430-b350-73f636214099" name="Garden of Shadows" size="HorizCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – If the strength of the abyss is 0 or 1: Set the strength of the abyss to 2. Each investigator either draws 1 card or heals 1 horror." />
+      <property name="Level" value="3" />
+      <property name="Doom" value="5" />
+      <alternate name="The Eternal Slumber" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="You are too exhausted to go on. Your mind screams at your body to keep moving, but your muscles have betrayed you. You sink to the ground like a sack of bricks.You resist with all of your strength, but all it amounts to is a wiggling of your fingers. You feel as though a heavy weight is pressed upon your head, and a dark cloak is thrown over your eyes.If you fall asleep here, you are sure you’ll never wake again. And yet, somehow, deep within your mind, you’re too tired to care.You yawn.Add 1 strength to the abyss.Each investigator who has not resigned is defeated and is “taken by the abyss.”" />
+        <property name="Level" value="3" />
+      </alternate>
+    </card>
+    <card id="520ddac8-f418-447d-949c-65e033ef3f0a" name="Dunes of the Sahara" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Desert." />
+      <property name="Text" value="Forced – After you enter Dunes of the Sahara: You must either take 1 damage or lose 1 action." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="7de5bf96-e674-480b-8944-631473054e2d" name="Untouched Vault" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Ruins." />
+      <property name="Text" value="Each Monster enemy at Untouched Vault gets +2 fight and +1 damage value.η If a Monster enemy was defeated here this round: You stare into the creature’s dead eyes, and the abyss stares back at you. Remove 1 strength from the abyss. (Group limit once per game.)" />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="f2cd435e-4d43-4128-be45-1a0a04dfa933" name="Faceless Sphinx" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Desert. Ruins." />
+      <property name="Text" value="X is the strength of the abyss.η If you have at least 2 clues: You stare into the sphinx’s empty face, and the abyss stares back at you. Place 2 of your clues on Faceless Sphinx and remove 1 strength from the abyss. (Group limit once per game.)" />
+      <property name="Shroud" value="X" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="f8882391-13f3-4e1e-9614-79bd1d12c4de" name="Desert Oasis" size="EncounterCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Desert." />
+      <property name="Text" value="η: Heal 1 damage and 1 horror. (Limit once per game.)η η If you have no horror on you: You stare into the reflection on the water, and the abyss stares back at you. Take 3 horror and remove 1 strength from the abyss. (Group limit once per game.)" />
+      <property name="Shroud" value="5" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="6f4123d8-df0f-40a2-a5c2-e01c8b676444" name="Sandswept Ruins" size="EncounterCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Expedition. Desert. Ruins." />
+      <property name="Text" value="While you are investigating Sandswept Ruins, if you have 5 or more cards in your hand, it gets +3 shroud.η η If you have 8 or more cards in your hand: You stare into the swirling sands, and the abyss stares back at you. Discard 3 cards from your hand at random and remove 1 strength from the abyss. (Group limit once per game.)" />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="6f83b462-b1b7-4a89-bf88-451107cfd372" name="Abyssal Revenant" size="EncounterCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Dreamlands." />
+      <property name="Text" value="Spawn – Farthest Desert or Otherworld location.Hunter.Forced – When Abyssal Revenant attacks during the enemy phase: Instead of its standard damage, it deals X damage for this attack, where X is the strength of the abyss.  If this attack defeats an investigator or Ally asset, that card is “taken by the abyss.”" />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="c493e428-7118-4511-9061-443fc721553f" name="Thing in the Sarcophagus" size="EncounterCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster." />
+      <property name="Text" value="Spawn – The location with the most clues.While its location has no clues, Thing in the Sarcophagus gains hunter.Forced – When you attack Thing in the Sarcophagus by any means except a Ranged, Firearm, or Spell card, if it is ready: It immediately attacks you." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="ced0d25b-5bb6-4d95-8d5c-ee67dccbcaad" name="Eclipse" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="While you are at an Otherworld location, Eclipse gains peril.Revelation – Test ά (3). If you fail, you must either take 2 horror or choose an Ally asset at your location to be defeated and “taken by the abyss.”" />
+    </card>
+    <card id="06868b35-d2fd-4f77-8fac-8ea464edc3eb" name="Sandstorm" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="While you are at a Desert location, Sandstorm gains peril.Revelation – Test ί (3). If you fail, you must either take 2 damage or discard an asset you control." />
+    </card>
+    <card id="1d584d46-29fc-4236-bb66-3448657afbd5" name="Terror Under the Pyramids" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Test ά (3). For each point you fail by, choose and discard 1 card from your hand. For each card you cannot discard, take 1 horror." />
+    </card>
+    <card id="d7f62f90-8f21-46fe-8e6e-80dc5ee2f074" name="Curse of Endless Sleep" size="HorizCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – After a Brotherhood enemy enters the victory display: Flip it over and resolve the text on its other side.Objective – Find as many Evidence cards as you can and add them to the victory display before the agenda advances. (If there are 6 Evidence cards in the victory display, advance.)" />
+      <property name="Level" value="1" />
+      <alternate name="Into the Desert" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="You corner one of the organization’s agents in a dark alleyway as he attempts to flee the city. “It is too late to stop the prophecy,” he says with a frightened expression. “Please, just let me go.” Seeing weakness in the man’s heart, you tell him that he can help you stop what the organization is plotting, if he tells you everything he knows. “The Brotherhood of the Beast believes they have found their vessel,” he explains, stuttering nervously. “Now they’re giving their Chosen untold power. There’s no way you can stop them!” He struggles and breaks free from your grasp, fleeing back toward the main street. If you follow that man, perhaps he will lead you to the brotherhood’s hideout…Create the exploration deck by shuffling together each of the set-aside Expedition locations. Search the encounter deck and discard pile for 1 copy each of the following treachery cards: Terror Under the Pyramids, Swarm of Locusts, Abyssal Reach, Eclipse, and Sandstorm. Shuffle those cards into the exploration deck, then shuffle the encounter discard pile into the encounter deck.Each investigator loses each of his or her clues. Remove all clues from each Cairo location." />
+        <property name="Level" value="1" />
+      </alternate>
+    </card>
+    <card id="47ba1874-fa8f-4ebf-a13a-6ba8443d06da" name="Swarm of Locusts" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – Test ί (3). For each point you fail by, lose 1 resource. For each resource you cannot lose, take 1 damage." />
+    </card>
+    <card id="df1ce467-6df1-4f5a-ad8d-45da14b0e356" name="Slumber" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse. Abyss." />
+      <property name="Text" value="Revelation – Put Slumber into play in your threat area if there is no copy of it in your threat area (if there is, discard Slumber and it gains surge instead).Forced – When your turn begins: Test ά (2). If you fail, lose 1 action.ι After strength is removed from the abyss: Discard Slumber." />
+    </card>
+    <card id="8f1bf2cb-5bf1-41f6-9cea-f4ad0a5faac5" name="Dark Sacrifice" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse. Abyss." />
+      <property name="Text" value="Revelation – Put Dark Sacrifice into play in your threat area if there is no copy of it in your threat area (if there is, discard Dark Sacrifice and it gains surge instead).Forced – After strength is added to the abyss: Take 1 damage and 1 horror. If this effect defeats an investigator or Ally asset, that card is “taken by the abyss.”ι After strength is removed from the abyss: Discard Dark Sacrifice." />
+    </card>
+    <card id="bb043564-e25b-405d-a70d-3438a4ccfa85" name="The Black Wind" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Peril.Revelation – You must either (choose one): —Add 1 strength to the abyss and add The Black Wind to the victory display.—Discard The Black Wind and draw the top card of the encounter deck to replace it You get –1 to all skills for the remainder of this round.Victory 1." />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="f7aa7f85-2d45-4e5c-bf57-065e688acdb1" name="Abyssal Reach" size="EncounterCard">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Sands of Egypt" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse. Abyss." />
+      <property name="Text" value="Revelation – Test ά (X). X is the strength of the abyss. If you fail by:—exactly 1, place 1 of your clues on your location. —exactly 2, take 1 damage and 1 horror.—exactly 3, you cannot play cards this round.—4 or more, place 1 doom on the current agenda (this effect may cause the current agenda to advance)." />
+    </card>
+    <card id="6deae397-9ef0-4b65-94f8-7f18ae67bb2b" name="John &amp; Jessie Burke">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Abyssal Tribute" />
+      <property name="Subtitle" value="Relentless in Pursuit" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Government." />
+      <property name="Text" value="η Exhaust John &amp; Jessie Burke and deal them 1 damage: Choose an enemy in a connecting location. Move to that enemy’s location. Then, engage that enemy and deal it 1 damage." />
+      <property name="Health" value="4" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="ήίΰ" />
+    </card>
+    <card id="57c884d2-9b48-4eaa-b226-9332f5eb1519" name="Ancient Ankh">
+      <property name="Card Number" value="56" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Abyssal Tribute" />
+      <property name="Subtitle" value="Aegis of the Harbinger" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="Uses (4 charges).ι When an investigator at your location would fail a test by more than 1, spend 1 charge: That investigator fails by 1, instead (even if he or she automatically failed)." />
+      <property name="Health" value="–" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="άέΰ" />
+    </card>
+    <card id="90558a35-b226-4cd9-bd3e-303a6af0053b" name="Khopesh of the Abyss">
+      <property name="Card Number" value="57" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Abyssal Gifts" />
+      <property name="Subtitle" value="Manifested Malice" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Relic. Melee." />
+      <property name="Text" value="η: Fight. You get +3 ή and deal +1 damage for this attack. ι After you defeat an enemy using Khopesh of the Abyss, exhaust it: Choose an enemy at another revealed location. Disengage from each other enemy engaged with you and move to the chosen enemy’s location. Then, engage that enemy." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="2 Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="άήΰ" />
+    </card>
+    <card id="4e61c5c5-b665-472e-a324-ee76c1e6a727" name="Summoned Nightgaunt">
+      <property name="Card Number" value="58" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Abyssal Gifts" />
+      <property name="Subtitle" value="Gift from Nodens" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Monster. Nightgaunt. Power." />
+      <property name="Text" value="Uses (3 whistles). If Summoned Nightgaunt has no whistles, or if it leaves play, remove it from the game.η Spend 1 whistle and take 1 horror: Evade. Automatically evade all non-Nightgaunt enemies engaged with you and move to any revealed location." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="έίΰ" />
+    </card>
+    <card id="37bca18b-3e9a-4269-9909-bb14ac77525b" name="Secrets in the Sand" size="HorizCard">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Clues cannot be placed on Cairo locations.η If you are at an Expedition location: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it." />
+      <property name="Level" value="2" />
+      <property name="Clues" value="3π" />
+      <alternate name="All for the Chosen" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="You are unable to find the Brotherhood’s hideout, but you are able to find the agent you interrogated in Cairo…Or at least, what remains of him. Inside the halls of an ancient temple, dedicated to a long-forgotten pharaoh, the man’s corpse has been placed upon a stone altar. His body is riddled with fresh stab wounds. You can’t help but wonder if this was—in a way—your doing. Investigating the body and the remainder of the half-buried temple yields a troubling discovery. As you suspected, the Brotherhood of the Beast is behind the curse afflicting Cairo. You find several passages describing the spell in greater detail—though these descriptions do not match what you have seen with your own eyes. The Brotherhood’s tomes describe how to transport their victims to another realm, a place called the Abyss. A nightmarescape from which the dreamers cannot awaken. With each dreamer, their “Chosen” grows in strength…Place 1[per investigator] damage tokens on each Cairo location. Until the end of the scenario, damage tokens on locations represent “dreamers”—victims who have been cursed with eternal slumber.Put the set-aside Neith enemy into play in the Streets of Cairo." />
+        <property name="Level" value="2" />
+      </alternate>
+    </card>
+    <card id="b8eec1aa-6855-4304-aa84-335c400fcb24" name="The Hour of Judgment" size="HorizCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η If there is a dreamer at your location: Test ά or έ (X) to attempt to awaken a dreamer. X is the strength of the abyss. If you succeed, move a dreamer from your location to Neith, as damage.Objective – If Neith has no remaining health, advance." />
+      <property name="Level" value="3" />
+      <alternate name="The Harbinger's End" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="With each of the dreamers you set free, the arcane power wielded by Neith fades. Before long, she has collapsed to her knees, the power completely drained from her body. However, even with the spells and records you found in the Brotherhood’s temple, you’re unable to awaken all of the victims; only those most recently put under the spell’s sway. As for the remainder of the victims—including John Burke—their fate is inextricably tied to Neith. “If you believe that this is the end, you deserve the fate Xzharah has in store for you,” she warns you. “Slay me and you will be next in line to die.” You waver. But if she is allowed to live, those she has ensnared in sleep will never awaken. What is one life, compared to the lives of so many innocents?The investigators must decide (choose wisely):—Destroy Neith once and for all. By choosing this option, you believe those still under the curse of eternal slumber will be freed. (-&gt;R1)—Spare Neith and listen to what she has to say. By choosing this option, you believe you can learn more about the one Neith refers to as Xzharah. (-&gt;R2)" />
+        <property name="Level" value="3" />
+      </alternate>
+    </card>
+    <card id="b5def4cb-4ffb-4f1c-a392-bc04f93547ef" name="Streets of Cairo" size="EncounterCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cairo." />
+      <alternate name="Streets of Cairo" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cairo." />
+        <property name="Text" value="Forced – After you discover 2 or more clues at Streets of Cairo during a single turn: Take 1 horror.η If there are no clues on Streets of Cairo: Test ί (4). If you succeed, remember that you have “found a door marked with blood.”" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="2bf4d54f-e282-4ef1-b053-e3ede9fed974" name="Cairo Bazaar" size="EncounterCard">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cairo." />
+      <alternate name="Cairo Bazaar" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cairo." />
+        <property name="Text" value="While you are at Cairo Bazaar, reduce the cost of each Item asset you play by 1 and increase the cost of each other asset you play by 1.η Spend 10 resources: Remember that you “bought an odd trinket.”" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,689 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" id="5d37e9c1-1737-4b9e-8ae9-c649b30582bc" name="Union and Disillusion" standalone="True" version="1.0.0" xmlns:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="00776fb1-44a1-4419-820d-67f52d2f9b10" name="Warning Shot">
+      <property name="Card Number" value="229" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Trick." />
+      <property name="Text" value="As an additional cost to play Warning Shot, spend 1 ammo from a Firearm asset you control.Move all non-Elite enemies at your location to a connecting location. This action does not provoke attacks of opportunity." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="ήί" />
+    </card>
+    <card id="d5b0032a-c405-4564-a4a4-afedd20df99b" name="Telescopic Sight">
+      <property name="Card Number" value="230" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Item. Upgrade." />
+      <property name="Text" value="Fast. Attach to a Firearm asset you control that takes up two hand slots. Attached asset cannot be used to attack enemies engaged with you.ι When you perform a Fight action using attached asset, if you are engaged with no enemies, exhaust Telescopic Sight: This attack can target a non-Elite enemy at a connecting location. Ignore the aloof and retaliate keywords for this attack." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="έήί" />
+    </card>
+    <card id="89bc2232-5465-41e0-8ed9-3fccd32eb904" name="Knowledge is Power">
+      <property name="Card Number" value="231" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Fast. Play only during your turn.Choose a Tome or Spell asset you control, or reveal a Tome or Spell asset from your hand. Resolve an η or θ ability on that asset, ignoring all costs (including its η cost, if any). Then, if that asset was in your hand, you may discard it to draw 1 card." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="άέ" />
+    </card>
+    <card id="95cec491-6fd7-4d2c-a0f8-e0d4e0b0ec74" name="Esoteric Atlas">
+      <property name="Card Number" value="232" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (4 secrets).η Spend 1 secret and exhaust Esoteric Atlas: Choose a revealed location that is exactly 2 connections away from your location. Move to that location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="ί" />
+    </card>
+    <card id="9d070e2e-8347-4dee-862c-3ef2cad34aed" name="Investments">
+      <property name="Card Number" value="233" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Connection." />
+      <property name="Text" value="Uses (0 supplies). Limit 10 supplies on Investments.θ Exhaust Investments: Place 1 supply on it.η Exhaust and discard Investments: Move all supplies from it to your resource pool, as resources." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="έ" />
+    </card>
+    <card id="6eab252a-1fe5-4d43-a849-7c05882d21ba" name="Decoy">
+      <property name="Card Number" value="234" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Favor. Service." />
+      <property name="Text" value="Evade. Automatically evade a non-Elite enemy at your location.ι When you play Decoy, increase its cost by 2: Change “a non-Elite enemy” to “up to 2 non-Elite enemies.”ι When you play Decoy, increase its cost by 2: Change “at your location” to “at a location up to 2 connections away.”" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="ίί" />
+    </card>
+    <card id="691217c3-4d2b-4657-a773-29cec6140909" name="De Vermis Mysteriis">
+      <property name="Card Number" value="235" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Signs of the Black Stars" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="η Exhaust De Vermis Mysteriis and place 1 doom on it: Play a Spell or Insight event from your discard pile, reducing its resource cost by 1. After that event resolves, remove it from the game." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="έ" />
+    </card>
+    <card id="bcd654ff-e2ce-4096-adf3-cca425a45b05" name="Guiding Spirit">
+      <property name="Card Number" value="236" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Geist." />
+      <property name="Text" value="You get +1 [έ].Non-direct horror must be assigned to Guiding Spirit before it can be assigned to your investigator card.Forced – After Guiding Spirit is defeated by horror: Exile it." />
+      <property name="Health" value="–" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="ά" />
+    </card>
+    <card id="2f4e9f88-1f3e-47a8-8266-f6fa88276e97" name="Fortune or Fate">
+      <property name="Card Number" value="237" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune. Blessed." />
+      <property name="Text" value="Fast. Play when doom would be placed on any scenario card.Max 1 per game.Cancel 1 doom just placed on that card. Exile Fortune or Fate." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="1585647b-56d3-4856-bd37-76fde6b807c7" name="Union and Disillusion" size="EncounterCard">
+      <property name="Card Number" value="238" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –2. If this is a skill test during a circle action, reveal another token.β: –3. If you have no damage on you, take 1 damage. If you have no horror on you, take 1 horror.γ: –3. If you fail, a Spectral enemy at your location attacks you (even if it is exhausted).δ: –3. If this is a skill test during a circle action and you fail, resolve each haunted ability on your location." />
+      <alternate name="Union and Disillusion" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –3. If this is a skill test during a circle action, reveal another token.β: –4. If you have no damage on you, take 1 damage. If you have no horror on you, take 1 horror.γ: –4. If you fail, a Spectral enemy at your location attacks you (even if it is exhausted).δ: –4. If this is a skill test during a circle action and you fail, resolve each haunted ability on your location." />
+      </alternate>
+    </card>
+    <card id="0a42e490-8234-4f13-a2ed-3275b2d82325" name="THE LOVERS · VI" size="HorizCard">
+      <property name="Card Number" value="239" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="8" />
+      <alternate name="Stolen Souls" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="The mist obscures the moon, plunging the woods into darkness. A flock of birds suddenly scatter from the treetops.Shuffle the encounter discard pile into the encounter deck.———————Check the “Missing Persons” section of the Campaign Log. If at least 1 character was “taken by the watcher,” read the following:Beyond the spectral mist, an awful scream resounds through the woods. It is distant, as though heard through a pane of glass, but distinct enough for you to know it is real. For each character who was taken by the watcher, place 1 resource on The Spectral Watcher, as a stolen soul (even if The Spectral Watcher is currently out of play).Until the end of the scenario, The Spectral Watcher gains the following text: “For each stolen soul on The Spectral Watcher, it gets +1 fight and +1π health.” Keep this card next to the agenda deck as a reminder, and advance to agenda 2a." />
+      </alternate>
+    </card>
+    <card id="c728e562-199b-4f9e-a54e-c2ff2f7f3088" name="Crossroads of Fate" size="HorizCard">
+      <property name="Card Number" value="240" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="10" />
+      <alternate name="A Victor Emerges" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="A powerful gale sweeps through the island from its center, and the spectral pillar marking the site of the Lodge’s ritual suddenly bursts outward. Dozens of specters and phantasmal shapes fly across the treetops and weave through the woods. You will never forget their shrieks, like hundreds of deathcries sounding at once.With a final surge of power, the stone obelisk at the center of the island shatters. Trees bend from the tremendous force that is unleashed, and you are pummeled to the ground. Everything goes black.Each surviving investigator is defeated and suffers 1 physical trauma.(→ R5)" />
+      </alternate>
+    </card>
+    <card id="b0e80ad3-fea9-4b02-a1ca-921f1da17b65" name="The Unvisited Isle" size="HorizCard">
+      <property name="Card Number" value="241" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <alternate name="The Mist Returns" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="You venture deeper and deeper into the overgrown woods, a timid voice in the back of your mind urging you to flee this place and never return. The dark mist becomes so dense you can hardly see anything. You shout for any of your companions, but there is no response—just the sway of dying tree branches in the wind and the distant thump of your heart pounding in your chest.Each investigator must randomly choose 1 of the set-aside Unvisited Isle locations, put it into play in front of him or her, and immediately move to that location (cannot be canceled). If the investigators sided with the coven, the brazier at each of those locations is already lit. Place a resource token on each of those locations to signify this.Shuffle each of the story cards beneath the scenario reference card and deal 1 at random to each investigator until all of them have been dealt. In player order, resolve each of the dealt story cards." />
+      </alternate>
+    </card>
+    <card id="6127d4b4-147e-446d-95d1-11668ff3a8c7" name="Fated Souls" size="HorizCard">
+      <property name="Card Number" value="242" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each investigator cannot leave the location in front of him or her." />
+      <alternate name="From the Depths" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Before long, the revenant arrives. It rises from the depths of the Miskatonic River, unfazed by the water or the mist. Sensing fear and blood, it glides slowly toward the island with its arm outstretched. Its gaze brings dismay. Its grasp brings death.Spawn The Spectral Watcher at the Miskatonic River.Shuffle each set-aside copy of Watcher’s Grasp and Watcher’s Gaze into the encounter deck, along with the encounter discard pile.Return the location in front of each investigator to the center of the play area. (Investigators are no longer prevented from leaving their location.)Put the set-aside The Geist-Trap location into play. If the investigators sided with the coven, the brazier at The Geist-Trap is already lit. Place a resource token on it to signify this." />
+      </alternate>
+    </card>
+    <card id="6ebfafbe-e588-48eb-9bfc-d5f99517a92b" name="Beyond the Mist (v. I)" size="HorizCard">
+      <property name="Card Number" value="243" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ During a circle action, spend 1 clue: Reduce the difficulty of this skill test by 2.Objective – If each Unvisited Isle location in play is revealed and the brazier on each of them is lit, advance." />
+      <alternate name="Against the Witches" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="After nearly an hour spent searching through the dense mist, you finally arrive at the site of the Lodge’s ritual, only to find it in chaos. Members of the Silver Twilight Lodge, each wearing robes of blue and silver, are embroiled in battle with the witches. “Complete the ritual!” Carl Sanford commands you from across the clearing. “It is the only way!” Anette turns her attention to you, shocked and angered. “You again! I warned you we would not show mercy if we met a second time.” She calls to her coven: “Sisters! We must not let them interfere this time. Do not let their circle close!”Reveal The Geist-Trap location. Move each investigator at an Unvisited Isle location to The Geist-Trap.Check Campaign Log. If the witches’ spell was cast, spawn the set-aside Anette Mason at The Geist-Trap. If the witches’ spell was broken, spawn 1 set-aside Coven Initiate at The Geist-Trap (2 instead if there are 3 or 4 investigators in the game).Shuffle each remaining set-aside Witch enemy into the encounter deck, along with the encounter discard pile." />
+      </alternate>
+    </card>
+    <card id="efbe7666-ffae-44dd-9958-893a2ec90d4d" name="Beyond the Mist (v. II)" size="HorizCard">
+      <property name="Card Number" value="244" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ During a circle action, spend 1 clue: Reduce the difficulty of this skill test by 2.Objective – If each Unvisited Isle location in play is revealed and the brazier on each of them is unlit, advance." />
+      <alternate name="Loyalty is Earned" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="After nearly an hour spent searching through the dense mist, you finally arrive at the site of the Lodge’s ritual, only to find it in chaos. Members of the Silver Twilight Lodge, each wearing robes of blue and silver, are embroiled in battle with the witches. “The ritual has neared completion!” Carl Sanford yells to you from across the clearing. “Bring the revenant here and end this!” It is now or never. Glaring at the man, you throw the unlit braziers you snuffed along the way onto the ground, breaking the delicate wards placed upon them. Immediately, the dark mist invades, and hungry shapes in the mist descend upon the unfortunate members of the Lodge. “Traitor!” one yells. You try to ignore their cries of agony as you proceed towards the center of the clearing.Reveal The Geist-Trap location. Move each investigator at an Unvisited Isle location to The Geist-Trap.Remove all β tokens from the chaos bag (even if they are currently sealed on cards in play) for the remainder of the campaign." />
+      </alternate>
+    </card>
+    <card id="f0a7e46e-0754-4068-b868-a01fc790d039" name="Beyond the Mist (v. III)" size="HorizCard">
+      <property name="Card Number" value="245" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ During a circle action, spend 1 clue: Reduce the difficulty of this skill test by 2.Objective – If each Unvisited Isle location in play is revealed and the brazier on each of them is unlit, advance." />
+      <alternate name="True Colors" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="After nearly an hour spent searching through the dense mist, you finally arrive at the site of the Lodge’s ritual, only to find it in chaos. Members of the Silver Twilight Lodge, each wearing robes of blue and silver, are embroiled in battle with the witches. “The ritual has neared completion!” Carl Sanford yells to you from across the clearing. “Bring the revenant here and end this!” Glaring at the man, you refuse. “So, at last you show your true colors. I thought that might be the case.” The Lodge’s enforcers turn on you without hesitation.Reveal The Geist-Trap location. Move each investigator at an Unvisited Isle location to The Geist-Trap.Spawn 1 set-aside Lodge Neophyte enemy at The Geist-Trap (2 instead if there are 3 or 4 investigators in the game).Shuffle the remainder of the set-aside Silver Twilight Lodge encounter set into the encounter deck, along with the encounter discard pile.Check Campaign Log. If Josef is alive and well, spawn the set-aside Josef Meiger enemy at The Geist-Trap. Investigators cannot parley with Josef Meiger for the remainder of the game." />
+      </alternate>
+    </card>
+    <card id="e6eb679c-e554-4acd-a1b2-f1982e7e07b5" name="Beyond the Mist (v. IV)" size="HorizCard">
+      <property name="Card Number" value="246" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ During a circle action, spend 1 clue: Reduce the difficulty of this skill test by 2.Objective – If each Unvisited Isle location in play is revealed and the brazier on each of them is unlit, advance." />
+      <alternate name="Against the Lodge" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="After nearly an hour spent searching through the dense mist, you finally arrive at the site of the Lodge’s ritual, only to find it in chaos. Members of the Silver Twilight Lodge, each wearing robes of blue and silver, are embroiled in battle with the witches. “The ritual has neared completion!” Carl Sanford yells to you from across the clearing. “Bring the revenant here and end this!” Glaring at the man, you refuse. He looks surprised for a moment, then growls, “So, you are on their side after all. How disappointing.” He turns to his inner circle and commands, “Kill them! Do not let them interfere!”Reveal The Geist-Trap location. Move each investigator at an Unvisited Isle location to The Geist-Trap.Shuffle the set-aside Silver Twilight Lodge encounter set into the encounter deck, along with the encounter discard pile.Check Campaign Log. If Josef is alive and well, spawn the set-aside Josef Meiger enemy at The Geist-Trap. Investigators cannot parley with Josef Meiger for the remainder of the game." />
+      </alternate>
+    </card>
+    <card id="06128107-071b-474e-9fa4-4b3ecb427fe8" name="The Binding Rite" size="HorizCard">
+      <property name="Card Number" value="247" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Act 4a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ During a circle action, spend 1 clue: Reduce the difficulty of this skill test by 2.Objective – If The Spectral Watcher is defeated at The Geist-Trap while the brazier there is lit, advance." />
+      <alternate name="Disillusion" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Act 4b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="The watcher wails in agony as the shadow-wreath around its form is pulled away, exposing its true form. You and the members of the Lodge surround the shattered soul to prevent it from escaping. (→ R1)" />
+      </alternate>
+    </card>
+    <card id="624f440a-ecc7-47ff-9e67-8d9e33e938a0" name="The Broken Rite" size="HorizCard">
+      <property name="Card Number" value="248" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Act 4a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ During a circle action, spend 1 clue: Reduce the difficulty of this skill test by 2.Objective – If The Spectral Watcher is defeated at The Geist-Trap while the brazier there is unlit, advance." />
+      <alternate name="Union" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Act 4b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="As the blue flame of the brazier is snuffed out, the energy around the circle disperses. (→ R4)" />
+      </alternate>
+    </card>
+    <card id="8c5e3281-80a0-41f0-9d38-7f988383ad80" name="Miskatonic River" size="EncounterCard">
+      <property name="Card Number" value="249" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="River." />
+      <alternate name="Miskatonic River" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="River." />
+        <property name="Text" value="η: Resign. You take your rowboat back to the shore of the Miskatonic River, leaving the mysterious island behind." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="301ef491-7012-41b0-8c48-d8747541cb4a" name="Forbidding Shore" size="EncounterCard">
+      <property name="Card Number" value="250" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <alternate name="Forbidding Shore" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="η: Circle. Test [ά] or [έ] (3) to find the brazier by the wooded trail. If you succeed, you may light or unlight the brazier.Haunted – You must either lose 1 action or lose 2 resources." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="d4c52940-3935-4434-b9ef-42085bb8972b" name="Unvisited Isle" size="EncounterCard">
+      <property name="Card Number" value="251" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <property name="Text" value="Spectral mist blocks the way. Check Campaign Log.—If the investigators sided with the Lodge, you cannot enter this location unless the brazier at the Forbidding Shore is lit.—If the investigators sided with the coven, you cannot enter this location unless the brazier at the Forbidding Shore is unlit." />
+      <property name="Victory Points" value="1" />
+      <alternate name="Unvisited Isle" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Standing Stones" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="η: Circle. Test [ά]+[έ] (10) to examine the brazier in front of the standing stone. If you succeed, you may light or unlight the brazier.Haunted – Until the end of the round, increase the difficulty of each skill test during a circle action by 2." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="d5f6facc-cbb7-4043-9bc9-206a894d9570" name="Unvisited Isle" size="EncounterCard">
+      <property name="Card Number" value="252" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <property name="Text" value="Spectral mist blocks the way. Check Campaign Log.—If the investigators sided with the Lodge, you cannot enter this location unless the brazier at the Forbidding Shore is lit.—If the investigators sided with the coven, you cannot enter this location unless the brazier at the Forbidding Shore is unlit." />
+      <property name="Victory Points" value="1" />
+      <alternate name="Unvisited Isle" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Misty Clearing" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="η: Circle. Test [ά]+[ί] (11) to traverse the mist surrounding the brazier. If you succeed, you may light or unlight the brazier.Haunted – You must either place 1 doom on this location, or take 1 damage and 1 horror." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="9863cb4c-7c67-4840-8136-7361dd98069e" name="Unvisited Isle" size="EncounterCard">
+      <property name="Card Number" value="253" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <property name="Text" value="Spectral mist blocks the way. Check Campaign Log.—If the investigators sided with the Lodge, you cannot enter this location unless the brazier at the Forbidding Shore is lit.—If the investigators sided with the coven, you cannot enter this location unless the brazier at the Forbidding Shore is unlit." />
+      <property name="Victory Points" value="1" />
+      <alternate name="Unvisited Isle" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Forsaken Woods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="η: Circle. Test [ά]+[ή] (11) to clear a path through the woods. If you succeed, you may light or unlight the brazier.Haunted – You must either search the encounter deck and discard pile for a Whippoorwill and spawn it at this location, or the nearest Whippoorwill attacks you." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="5811057e-efb5-49c1-9219-8c4175f747ef" name="Unvisited Isle" size="EncounterCard">
+      <property name="Card Number" value="254" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <property name="Text" value="Spectral mist blocks the way. Check Campaign Log.—If the investigators sided with the Lodge, you cannot enter this location unless the brazier at the Forbidding Shore is lit.—If the investigators sided with the coven, you cannot enter this location unless the brazier at the Forbidding Shore is unlit." />
+      <property name="Victory Points" value="1" />
+      <alternate name="Unvisited Isle" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Moss-Covered Steps" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="η: Circle. Test [ή]+[ί] (10) to explore the mossy steps. If you succeed, you may light or unlight the brazier at the top.Haunted – Your next move action this round costs 1 additional action." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="0d528e4a-be44-4fb3-b1ac-a85b0c78be19" name="Unvisited Isle" size="EncounterCard">
+      <property name="Card Number" value="255" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <property name="Text" value="Spectral mist blocks the way. Check Campaign Log.—If the investigators sided with the Lodge, you cannot enter this location unless the brazier at the Forbidding Shore is lit.—If the investigators sided with the coven, you cannot enter this location unless the brazier at the Forbidding Shore is unlit." />
+      <property name="Victory Points" value="1" />
+      <alternate name="Unvisited Isle" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Haunted Spring" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="η: Circle. Test [έ]+[ί] (9) to reach the brazier in the center of the spring. If you succeed, you may light or unlight the brazier.Haunted – You must either discard an asset you control, or take 1 damage." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="366502f7-2985-49ad-a6a2-495afb3a390b" name="Unvisited Isle" size="EncounterCard">
+      <property name="Card Number" value="256" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <property name="Text" value="Spectral mist blocks the way. Check Campaign Log.—If the investigators sided with the Lodge, you cannot enter this location unless the brazier at the Forbidding Shore is lit.—If the investigators sided with the coven, you cannot enter this location unless the brazier at the Forbidding Shore is unlit." />
+      <property name="Victory Points" value="1" />
+      <alternate name="Unvisited Isle" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Decayed Willow" />
+        <property name="Type" value="Locatoin" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="η: Circle. Test [έ]+[ή] (9) to find the brazier inside the decaying tree. If you succeed, you may light or unlight the brazier.Haunted – Choose and discard 1 card from your hand." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="2cf802b6-d0e0-4bb1-965a-2b61ef455515" name="The Geist-Trap" size="EncounterCard">
+      <property name="Card Number" value="257" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods. Spectral." />
+      <property name="Text" value="The path leading to the site of the ritual is hidden by the spectral mist. You cannot enter The Geist-Trap." />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Geist-Trap" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Type" value="Lcoation" />
+        <property name="Traits" value="Woods. Spectral." />
+        <property name="Text" value="While The Spectral Watcher is at The Geist-Trap, it gains retaliate.η: Circle. Test [ά]+[έ]+[ή]+[ί] (20) to complete the ritual, or to disrupt it. If you succeed, you may either light or unlight the brazier here.Haunted – Take 1 damage and 1 horror." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="c734e8ac-f666-4427-8bb8-59442a47ad50" name="Gavriella Mizrah">
+      <property name="Card Number" value="258" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Not Going Down That Easily" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Veteran." />
+      <property name="Text" value="You get +1 [ή].ι After an enemy attacks you, even if that attack was canceled, exhaust Gavriella Mizrah: Discover 1 clue at your location." />
+      <property name="Health" value="4" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="ήΰ" />
+    </card>
+    <card id="5303ae39-304b-40d4-a513-a669bcec20aa" name="Jerome Davids">
+      <property name="Card Number" value="259" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="In Way Over His Head" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Assistant." />
+      <property name="Text" value="You get +1 [έ].ι When an investigator at your location draws a treachery from the encounter deck, exhaust Jerome Davids and discard cards from your hand with a total of at least 2 [έ] icons: Cancel that card's revelation effect." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="4" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="έΰ" />
+    </card>
+    <card id="7acf3471-3b4d-4ee4-baba-0b51229a1f13" name="Penny White">
+      <property name="Card Number" value="260" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="The Nightmare Is Over" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Assistant." />
+      <property name="Text" value="You get +1 [ά].ι After you succeed at a skill test during a revelation effect, exhaust Penny White: Discover 1 clue at your location." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="άΰ" />
+    </card>
+    <card id="b065e1a1-9612-45e3-a4e8-65105751b892" name="Valentino Rivas">
+      <property name="Card Number" value="261" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Subtitle" value="Took You Long Enough" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Socialite." />
+      <property name="Text" value="You get +1 [ί].θ During a skill test you are performing, spend 2 resources and exhaust Valentino Rivas: Reduce the difficulty of this test by 1." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="ίΰ" />
+    </card>
+    <card id="e89cab8c-6f2f-40b2-aec4-ac7bd1462c6c" name="Gavriella’s Fate">
+      <property name="Card Number" value="262" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Check the “Missing Persons” section of the Campaign Log. If Gavriella disappeared into the mist and you are on Gavriella’s trail:Gavriella stumbles out of the mist, her eyes bloodshot and her voice strained. “Where am I?... Who are you?”Take control of the set-aside Gavriella Mizrah asset. For the remainder of this scenario, she does not take up an ally slot. Next to Gavriella Mizrah’s profile, record Gavriella is alive.If Gavriella was claimed by specters:Flip this card to its enemy side and spawn it at your location. If you are on Gavriella’s trail, it spawns exhausted and unengaged. Otherwise, it spawns engaged with you.Otherwise:You find Gavriella’s weapon lying in the grass, decayed and broken. No other sign of her can be seen." />
+      <property name="Victory Points" value="0" />
+      <alternate name="Gavriella Mizrah" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="You're Next" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Geist. Sprectal. Elite." />
+        <property name="Text" value="Alert. Hunter.Forced – After you successfully attack Gavriella Mizrah, if she is ready: Take 1 horror." />
+        <property name="Health" value="4" />
+        <property name="Combat" value="5" />
+        <property name="Agility" value="2" />
+        <property name="Damage" value="2" />
+        <property name="Victory Points" value="0" />
+      </alternate>
+    </card>
+    <card id="caf24cd0-edec-48b7-b767-ef6f1af97b99" name="Jerome’s Fate">
+      <property name="Card Number" value="263" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Check the “Missing Persons” section of the Campaign Log. If Jerome disappeared into the mist and you are on Jerome’s trail:Jerome crawls out of the mist, and you help him to his feet. “My god... the mist...” he whispers. “It’s all connected... It’s all connected...”Take control of the set-aside Jerome Davids asset. For the remainder of this scenario, she does not take up an ally slot. Next to Jerome Davids’s profile, record Jerome is alive.If Jerome was claimed by specters:Flip this card to its enemy side and spawn it at your location. If you are on Jerome’s trail, it spawns exhausted and unengaged. Otherwise, it spawns engaged with you.Otherwise:You find a scrap of paper from Jerome’s pocket notebook on the ground. It simply reads: “HELP”" />
+      <property name="Victory Points" value="0" />
+      <alternate name="Jerome Davids" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Starved For Answers" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Geist. Sprectal. Elite." />
+        <property name="Text" value="Hunter.Forced – After Jerome Davids engages you: Choose and discard 2 cards from your hand." />
+        <property name="Health" value="4" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="4" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="1" />
+        <property name="Victory Points" value="0" />
+      </alternate>
+    </card>
+    <card id="70d9976e-4cdd-4d39-a298-482d315be13f" name="Penny’s Fate">
+      <property name="Card Number" value="264" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Check the “Missing Persons” section of the Campaign Log. If Penny disappeared into the mist and you are on her trail:Penny nearly runs directly into you. Her whole body shakes with panic as you hold her safe. “A–are you alive?” she cries. “Is this nightmare finally over?”Take control of the set-aside Penny White asset. For the remainder of this scenario, she does not take up an ally slot. Next to Penny White’s profile, record Penny is alive.If Penny was claimed by specters:Flip this card to its enemy side and spawn it at your location. If you are on Penny’s trail, it spawns exhausted and unengaged. Otherwise, it spawns engaged with you.Otherwise:You find Penny’s apron lying on the ground, covered in blood. There is no other sign of her." />
+      <property name="Victory Points" value="0" />
+      <alternate name="Penny White" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Tragic Loss" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Geist. Sprectal. Elite." />
+        <property name="Text" value="Hunter.Forced – After you successfully evade Penny White: Take 1 damage." />
+        <property name="Health" value="5" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="3" />
+        <property name="Horror" value="2" />
+        <property name="Victory Points" value="0" />
+      </alternate>
+    </card>
+    <card id="4270635a-1270-4d7e-a83f-f76e00becc10" name="Valentino’s Fate">
+      <property name="Card Number" value="265" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Check the “Missing Persons” section of the Campaign Log. If Valentino disappeared into the mist and you are on Valentino’s trail:Valentino limps out of the mist, leaning on a nearby tree. He chuckles morbidly as he spots you. “Cavalry’s finally here, eh?”Take control of the set-aside Valentino Rivas asset. For the remainder of this scenario, he does not take up an ally slot. Next to Valentino Rivas’s profile, record Valentino is alive.If Valentino was claimed by specters:Flip this card to its enemy side and spawn it at your location. If you are on Valentino’s trail, it spawns exhausted and unengaged. Otherwise, it spawns engaged with you.Otherwise:Valentino’s cane lies in the mud, cracked nearly in half. Its handle is stained with old blood." />
+      <property name="Victory Points" value="0" />
+      <alternate name="Valentino Rivas" type="B">
+        <property name="Encounter Set" value="Union and Disillusion" />
+        <property name="Subtitle" value="Ripped Asunder" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Geist. Sprectal. Elite." />
+        <property name="Text" value="Hunter. Retaliate.Forced – After Valentino Rivas engages you: Lose 2 resources." />
+        <property name="Health" value="5" />
+        <property name="Combat" value="3" />
+        <property name="Agility" value="4" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="1" />
+        <property name="Victory Points" value="0" />
+      </alternate>
+    </card>
+    <card id="626b2e7c-3dee-4522-b7bf-f5ac7c6bacab" name="Whippoorwill" size="EncounterCard">
+      <property name="Card Number" value="266" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Creature." />
+      <property name="Text" value="Aloof. Hunter.Each investigator at Whippoorwill’s location gets –1 [ά], –1 [έ], –1 [ή], and –1 [ί]." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="0" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="13df574f-7ccd-470b-898c-5c50db2e60eb" name="Spectral Raven" size="EncounterCard">
+      <property name="Card Number" value="267" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Creature. Spectral." />
+      <property name="Text" value="Prey – Lowest [έ].Alert. Hunter. Retaliate.Forced – After Spectral Raven engages you: You must either resolve each haunted ability on your location, or Spectral Raven gets +2 fight and +2 evade until the end of the investigation phase." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="260173d9-6c32-4a75-8844-eca23ffcec2b" name="Eager for Death" size="EncounterCard">
+      <property name="Card Number" value="268" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Omen." />
+      <property name="Text" value="Revelation – Test [ά] (2). Increase this skill test’s difficulty by 1 for each damage on you. If you fail, take 2 horror." />
+    </card>
+    <card id="2c683365-691b-41f5-964a-65f41cd8314b" name="Psychopomp’s Song" size="EncounterCard">
+      <property name="Card Number" value="269" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Omen." />
+      <property name="Text" value="Surge. Peril.Revelation – Add Psychopomp’s Song to any investigator’s threat area.Forced – When you would take 1 or more damage: Take 2 additional damage and discard Psychopomp’s Song." />
+    </card>
+    <card id="0e75ebaa-4ace-49df-ab40-8c629d920efe" name="Death Approaches" size="EncounterCard">
+      <property name="Card Number" value="270" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Surge. Peril.Revelation – Add Death Approaches to any investigator’s threat area.Forced – When you would take 1 or more horror: Take 2 additional horror and discard Death Approaches." />
+    </card>
+    <card id="4600ec24-0ac5-412b-a50e-dc0618a76276" name="Marked for Death" size="EncounterCard">
+      <property name="Card Number" value="271" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Test [ί] (2). Increase this skill test’s difficulty by 1 for each horror on you. If you fail, take 2 damage." />
+    </card>
+    <card id="0932a14c-516b-40b2-a5ed-c3096388ac35" name="Watcher’s Gaze" size="EncounterCard">
+      <property name="Card Number" value="272" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Union and Disillusion" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Each investigator tests [ά] (5). Each investigator who fails must resolve either the haunted ability on his or her location, or the haunted ability on The Spectral Watcher’s location." />
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" id="ca03fc9b-9415-4c6a-9155-e0b17f9253c3" name="In the Clutches of Chaos" standalone="True" version="1.0.0" xmlns:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="a15c7f7d-9134-4c3a-bf65-c75f6530f20a" name="Mk 1 Grenades">
+      <property name="Card Number" value="273" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Ranged." />
+      <property name="Text" value="Uses (3 supplies). If Mk 1 Grenades has no supplies, discard it.η Spend 1 supply: Fight. You get +2 [ή] for this attack. If this attack is successful, instead of its standard damage, this attack deals 2 damage to each enemy and investigator at your location, other than yourself (any additional damage is dealt to the attacked enemy)." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ή" />
+    </card>
+    <card id="0b821253-834a-4409-9369-f8064a5fc030" name="Agency Backup">
+      <property name="Card Number" value="274" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Agency." />
+      <property name="Text" value="Agency Backup may be assigned damage and/or horror dealt to other investigators at your location.θ Exhaust Agency Backup and deal 1 damage to it: Deal 1 damage to an enemy at your location.θ Exhaust Agency Backup and deal 1 horror to it: Discover 1 clue at your location." />
+      <property name="Health" value="4" />
+      <property name="Sanity" value="4" />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="7" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="άέή" />
+    </card>
+    <card id="ff3ca836-7e98-4377-a358-d0d34bbf9b7a" name="Ghastly Revelation">
+      <property name="Card Number" value="275" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Discover 3 clues at your location. Give any number of your clues to another investigator, or place any number of your clues on any location. You are defeated and suffer 1 mental trauma. This action does not provoke attacks of opportunity." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="έέ" />
+    </card>
+    <card id="181db218-da56-4d41-87e5-563fb65fb2b4" name="Studious">
+      <property name="Card Number" value="276" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Permanent.You begin each game with 1 additional card in your opening hand." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="–" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="82615ef6-61e4-4517-903d-d1ba8dc924de" name="Small Favor">
+      <property name="Card Number" value="277" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Favor. Service." />
+      <property name="Text" value="Deal 1 damage to a non-Elite enemy at your location.ι When you play Small Favor, increase its cost by 2: Change “Deal 1 damage” to “Deal 2 damage.”ι When you play Small Favor, increase its cost by 2: Change “at your location” to “at a location up to 2 connections away.”" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ήή" />
+    </card>
+    <card id="db60a14b-cd07-45ce-adf5-a3c2e10e689b" name="Another Day, Another Dollar">
+      <property name="Card Number" value="278" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Permanent.You begin each game with 2 additional resources." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="–" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a26c588a-1d36-4103-8fdc-1701649b7c83" name="Dayana Esperence">
+      <property name="Card Number" value="279" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Deals with &quot;Devils&quot;" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Witch." />
+      <property name="Text" value="Uses (3 secrets).θ: Attach a non-weakness Spell event from your hand to Dayana Esperence. Limit 1 event attached to her.The attached event may be played as if it were in your hand. It is not placed in your discard pile after it is played (it remains attached). As an additional cost to play the attached event, exhaust Dayana Esperence and spend 1 secret." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="άά" />
+    </card>
+    <card id="68025ea2-341e-450f-94e5-18d9399a13c2" name="Deny Existence">
+      <property name="Card Number" value="280" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Paradox." />
+      <property name="Text" value="Fast. Play when an encounter card or enemy attack would cause you to do one of the following (choose one): Discard cards from hand, lose resources, lose actions, take damage, or take horror.You ignore that aspect of the effect. Then, perform the opposite of that aspect (draw cards, gain resources, gain additional actions, heal damage, or heal horror, respectively)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="ff89e0fb-3f0a-4c71-9f8f-2fc3cf3fdb5c" name="Trial by Fire">
+      <property name="Card Number" value="281" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play only during your turn.Choose one of your skills. Until the end of your turn, set the base value of that skill to 5." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="c26d9995-fc22-4400-926f-dc49e3210432" name="Bait and Switch">
+      <property name="Card Number" value="282" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic." />
+      <property name="Text" value="Either (choose one):—Evade. If you succeed and the enemy is non-Elite, evade the enemy and move it to a connecting location.—Evade. Use only on a non-Elite enemy at a connecting location. If you succeed, evade that enemy and switch locations with it." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="έίί" />
+    </card>
+    <card id="6d30fb09-a286-44e7-b504-267493c4704a" name="Anna Kaslow">
+      <property name="Card Number" value="283" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Clairvoyant." />
+      <property name="Text" value="You have 2 additional tarot slots.ι When the game begins, if Anna Kaslow is in your opening hand: Put her into play.ι After Anna Kaslow enters play: Search your deck for a Tarot asset and put it into play." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="af187725-013f-47b5-8f23-36439c776663" name="In the Clutches of Chaos" size="EncounterCard">
+      <property name="Card Number" value="284" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the total amount of doom and breaches on your location.β: Reveal another token. If there are fewer than 3 breaches on your location, place 1 breach on your location.γ: –2. For each point you fail by, remove 1 breach from the current act.δ: –3. If you fail, place 1 breach on a random location." />
+      <alternate name="In the Clutches of Chaos" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 higher than the total amount of doom and breaches on your location.β: Reveal another token. If there are fewer than 3 breaches on your location, place 1 breach on your location.γ: –3. For each point you fail by, remove 1 breach from the current act.δ: –4. If you fail, place 1 breach on a random location." />
+      </alternate>
+    </card>
+    <card id="e786c226-d4d7-48ff-a80a-4775a939dd91" name="THE CHARIOT · VII" size="HorizCard">
+      <property name="Card Number" value="285" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When doom would be placed on this agenda: Instead, place 1 breach on a number of different random locations equal to 1 more than the number of investigators.Forced – When a breach would be placed on a location with 3 breaches: Instead, resolve an incursion at that location." />
+      <alternate name="The Final Incantation" size="HorizCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="The stars vanish in the night sky as the maw of the void swallows the horizon. The muffled beating of maddening drums and the thin whine of otherworldly flutes drift through the emptiness.Check Campaign Log.—If Anette Mason has been possessed, (→R3).—If Carl Sanford possesses the secrets of the universe, (→R4)." />
+      </alternate>
+    </card>
+    <card id="d8c145e0-aef1-4e62-a68d-4d2cc1dd16f9" name="Dark Knowledge (v. I)" size="HorizCard">
+      <property name="Card Number" value="286" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Music of the Damned" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance. When this act advances, move all of the breaches on it to the next act." />
+      <alternate name="Anette Mason" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Music of the Damned" />
+        <property name="Subtitle" value="Reincarnated Evil" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Witch. Servitor. Elite." />
+        <property name="Text" value="Spawn – Hangman’s Hill.Alert. Hunter.Anette Mason gets –2 health for each clue controlled by an investigator.Forced – After 1 or more breaches are placed on Anette Mason’s location: Each investigator must either take 1 damage or 1 horror." />
+        <property name="Health" value="6π" />
+        <property name="Combat" value="5" />
+        <property name="Agility" value="3" />
+        <property name="Unique" value="*" />
+        <property name="Damage" value="3" />
+        <property name="Horror" value="1" />
+        <property name="Victory Points" value="2" />
+      </alternate>
+    </card>
+    <card id="8f329d22-5e4c-4be6-9779-4f24f80159c7" name="Beyond the Grave" size="HorizCard">
+      <property name="Card Number" value="287" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Music of the Damned" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.Objective – If Anette Mason is defeated, advance." />
+      <alternate name="The Living and the Dead" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Music of the Damned" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Somehow, despite all odds, you have managed to defeat the resurrected spirit which torments Anette Mason. She passes out and collapses to the ground, but the revenant inside forces her eyes open and puppeteers her body in a lurid display. “Fools!” the ragged, disembodied voice of Keziah declares through Anette’s lips as she rises once more. “You are naught but insects. I have seen the truth. I have seen the face of Chaos itself, and you will soon be a part of it. Now, come; join me, kneel before the Black Throne, and be one with the universe!”You shudder as the words reach your ears. Nothing she says makes sense to you, but you can tell her intent is dark and wicked. “Leave this place,” you muster up the will to command, “Go back to the beyond from which you were summoned, and never return.”(→R1)" />
+      </alternate>
+    </card>
+    <card id="d200f45b-a3d2-4590-8117-6608ecb996eb" name="Dark Knowledge (v. II)" size="HorizCard">
+      <property name="Card Number" value="288" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Secrets of the Universe" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance. When this act advances, move all of the breaches on it to the next act." />
+      <alternate name="Carl Sanford" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Secrets of the Universe" />
+        <property name="Subtitle" value="Deathless Fanatic" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Silver Twilight. Elite." />
+        <property name="Text" value="Spawn – Silver Twilight Lodge.Hunter. Retaliate.Carl Sanford gets –2 health for each clue controlled by an investigator.Forced – After any number of breaches are removed from the current act: Place 1 of them on Carl Sanford’s location." />
+        <property name="Health" value="6π" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="4" />
+        <property name="Unique" value="*" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="3" />
+        <property name="Victory Points" value="2" />
+      </alternate>
+    </card>
+    <card id="106a08d0-4732-4568-a864-c7c30752fe02" name="New World Order" size="HorizCard">
+      <property name="Card Number" value="289" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Secrets of the Universe" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.Objective – If Carl Sanford is defeated, advance." />
+      <alternate name="Of Gods and Mortals" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Secrets of the Universe" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Using force and ingenuity, you have managed to defeat Carl Sanford at his own game. The power he was drawing from surges painfully through him. “You imbeciles,” he spits, “what do you think you have accomplished? We could have been immortal. Don’t you understand? We could have been gods!” he struggles to remain on his feet, his strength waning as he loses control of his power.“At what cost?” You reply, taking in the sight before you. “You would have made us slaves, not gods. Slaves to your greed and the Order’s power. I’d rather stay mortal than be your thrall.”“Then we will all perish,” Carl responds bitterly. “I could have made us into celestials. Instead, we will be extinct. I hope you are satisfied.”(→R2)" />
+      </alternate>
+    </card>
+    <card id="5b1b97df-7bc1-42e8-aa55-c45ab8e4129d" name="French Hill" size="EncounterCard">
+      <property name="Card Number" value="290" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="French Hill" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from French Hill to the current act, +1 additional breach for each [ά] icon on that card." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="96e24b77-d561-4726-a36a-fdc0c8d14cea" name="French Hill" size="EncounterCard">
+      <property name="Card Number" value="291" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="French Hill" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Test [ά] (2). For each point you succeed by, move 1 breach from French Hill to the current act." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="a98aea8f-073e-41e0-a739-78599ece71b2" name="Rivertown" size="EncounterCard">
+      <property name="Card Number" value="292" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Rivertown" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from Rivertown to the current act, +1 additional breach for each [έ] icon on that card." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="4c511cf5-07d3-4c4a-94ac-f3b392d863b8" name="Rivertown" size="EncounterCard">
+      <property name="Card Number" value="293" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Rivertown" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Test [έ] (2). For each point you succeed by, move 1 breach from Rivertown to the current act." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="939cecea-c846-4ffd-bb1b-39e848b75710" name="Southside" size="EncounterCard">
+      <property name="Card Number" value="294" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Central." />
+      <alternate name="Southside" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Central." />
+        <property name="Text" value="θ: Discard the top 3 cards of the encounter deck and move 1 breach from Southside to the current act. Choose a Power treachery discarded by this effect and resolve its revelation ability, if able." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="af069455-dd28-47ba-9e14-0c559695332b" name="Southside" size="EncounterCard">
+      <property name="Card Number" value="295" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Central." />
+      <alternate name="Southside" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Central." />
+        <property name="Text" value="θ Choose and discard any number of cards from your hand: For each card discarded in this way, move 1 breach from Southside to the current act." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="e8f91327-fe0a-4a84-b953-2e78bef56ac0" name="Uptown" size="EncounterCard">
+      <property name="Card Number" value="296" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Uptown" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from Uptown to the current act, +1 additional breach for each [ί] icon on that card." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="73b8bb44-802b-47ec-9bb8-ec31836671e7" name="Uptown" size="EncounterCard">
+      <property name="Card Number" value="297" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Uptown" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Test [ί] (2). For each point you succeed by, move 1 breach from Uptown to the current act." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="c2bb0fb9-fa46-4f7b-b33d-c0c0776050b8" name="South Church" size="EncounterCard">
+      <property name="Card Number" value="298" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="South Church" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Draw the top card of the encounter deck. Then, move all breaches from South Church to the current act.η: Resign. You hide through the night." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="94a14d03-9193-4f51-99dc-b08f8817d33c" name="South Church" size="EncounterCard">
+      <property name="Card Number" value="299" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="South Church" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η Discard an asset you control from play: Move all breaches from South Church to the current act.η: Resign. You hide through the night." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="140e4849-4849-4cb8-9888-0d7647da8a50" name="Merchant District" size="EncounterCard">
+      <property name="Card Number" value="300" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Merchant District" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η Discard the top 5, 10, or 15 cards of your deck: For every 5 cards discarded in this way, move 1 breach from Merchant District to the current act. Draw each weakness discarded in this way." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="8fc7e31e-9a02-4896-8c98-7f7202bbd4ee" name="Merchant District" size="EncounterCard">
+      <property name="Card Number" value="301" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Merchant District" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="θ Spend 2 resources: Move 1 breach from Merchant District to the current act." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="57b76424-5b5f-4a7d-b256-4e057055bdf5" name="Hangman’s Hill" size="EncounterCard">
+      <property name="Card Number" value="302" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Music of the Damned" />
+      <property name="Subtitle" value="Where It All Ends" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Hangman’s Hill" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Music of the Damned" />
+        <property name="Subtitle" value="Where It All Ends" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Search the encounter deck and discard pile for a Witch enemy and draw it. Then, move all breaches from Hangman’s Hill to the current act. Shuffle the encounter deck." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="2cc3aacd-9eb4-4c88-92a8-f421a5477ef3" name="Silver Twilight Lodge" size="EncounterCard">
+      <property name="Card Number" value="303" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Music of the Damned" />
+      <property name="Subtitle" value="Shrouded In Mystery" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Silver Twilight Lodge" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Music of the Damned" />
+        <property name="Subtitle" value="Shrouded In Mystery" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="θ Take 1 horror: Move 1 breach from Silver Twilight Lodge to the current act." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="b03f1a0d-3025-410c-861f-8524f860fc3c" name="Hangman’s Hill" size="EncounterCard">
+      <property name="Card Number" value="304" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Secrets of the Universe" />
+      <property name="Subtitle" value="Shrouded In Mystery" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Hangman’s Hill" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Secrets of the Universe" />
+        <property name="Subtitle" value="Shrouded In Mystery" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="θ Take 1 damage: Move 1 breach from Hangman’s Hill to the current act." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="954fe8ed-0104-4621-903f-f56ac91c961a" name="Silver Twilight Lodge" size="EncounterCard">
+      <property name="Card Number" value="305" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Secrets of the Universe" />
+      <property name="Subtitle" value="Where It All Ends" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Silver Twilight Lodge" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Secrets of the Universe" />
+        <property name="Subtitle" value="Where It All Ends" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Search the encounter deck and discard pile for a Silver Twilight enemy and draw it. Then, move all breaches from Silver Twilight Lodge to the current act. Shuffle the encounter deck." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="e69a16e5-2d20-4f88-8691-9cf21ac05fb7" name="Chaos Manifest" size="EncounterCard">
+      <property name="Card Number" value="306" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – Test [ά] (3). Place 1 breach on X different random locations, where X is the amount you failed by." />
+    </card>
+    <card id="2e096aff-2f1f-4590-92f3-0a0766d4fde0" name="Primordial Gateway" size="EncounterCard">
+      <property name="Card Number" value="307" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – Attach to a random location. Place breaches on attached location until there are exactly 3 breaches on it.Treat the attached location as if its printed text box were blank (except for Traits).η: Test [έ] or [ά] (4) to close the gateway. If you succeed, discard Primordial Gateway." />
+    </card>
+    <card id="bb227dd9-c7cc-4b63-8479-1c16de046539" name="Terror Unleashed" size="EncounterCard">
+      <property name="Card Number" value="308" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – If there are no breaches on your location, place 1 breach on your location. You must take X damage or horror, divided as you wish. X is the total amount of doom and breaches on your location." />
+    </card>
+    <card id="2809f893-3aa8-468a-943a-372bef4f909b" name="Lodge Enforcer" size="EncounterCard">
+      <property name="Card Number" value="309" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Secrets of the Universe" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
+      <property name="Text" value="Spawn – Most breaches (or Silver Twilight Lodge if there are no locations in play with breaches on them).Retaliate.Treat Lodge Enforcer’s location as if its printed text box were blank (except for Traits)." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="e822c46c-76de-4827-8fd5-b84400c8b212" name="Secrets of the Beyond" size="EncounterCard">
+      <property name="Card Number" value="310" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Secrets of the Universe" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Find the Cultist enemy in play with the most doom on it. For each doom on that enemy, place 1 breach on that enemy’s location. If no breaches are placed by this effect, Secrets of the Beyond gains surge." />
+    </card>
+    <card id="007690be-09a3-42ae-a691-a85543ffedb9" name="Witness of Chaos" size="EncounterCard">
+      <property name="Card Number" value="311" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Music of the Damned" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Witch." />
+      <property name="Text" value="Spawn – Fewest breaches.Hunter.Forced – After Witness of Chaos enters a location: Place 1 breach on that location." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="dbe9eddf-d8f7-4f76-855a-44393619cea1" name="Toil and Trouble" size="EncounterCard">
+      <property name="Card Number" value="312" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Music of the Damned" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Peril.Revelation – You must either (choose one):—Resolve the revelation ability on the topmost Power treachery in the encounter discard pile.—Resolve an incursion at your location." />
+    </card>
+  </cards>
+</set>
