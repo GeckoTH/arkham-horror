@@ -423,7 +423,7 @@
       <property name="Text" value="Engine Car is connected to the location to the left of it.&#10;&#10;You cannot enter Engine Car unless all of the clues on the location to its left have been discovered."/>
     </alternate>
   </card>
-  <card id="0fa20844-7237-4ff4-be80-0f31fe6accfc" name="Freight Car" size="EncounterCard">
+  <card id="0fa20844-7237-4ff4-be80-0f31fe6accfc" name="Train Car" size="EncounterCard">
     <property name="Card Number" value="29"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Essex County Express"/>
@@ -433,7 +433,8 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Train."/>
-    <alternate name="Train Car" size="EncounterCard" type="B">
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.&#10;&#10;You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Freight Car" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Essex County Express"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -441,10 +442,9 @@
       <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Train."/>
-      <property name="Text" value="Train Car is connected to the locations to the left and right of it.&#10;&#10;You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
     </alternate>
   </card>
-  <card id="a152582d-bd8f-48ee-9939-7e8383067d95" name="Baggage Car" size="EncounterCard">
+  <card id="a152582d-bd8f-48ee-9939-7e8383067d95" name="Train Car" size="EncounterCard">
     <property name="Card Number" value="30"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Essex County Express"/>
@@ -454,7 +454,8 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Train."/>
-    <alternate name="Train Car" size="EncounterCard" type="B">
+    <property name="Text" value="Train Car is connected to the locations to the left and right of it.&#10;&#10;You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
+    <alternate name="Baggage Car" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Essex County Express"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -462,7 +463,6 @@
       <property name="Clues" value="3"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Train."/>
-      <property name="Text" value="Train Car is connected to the locations to the left and right of it.&#10;&#10;You cannot enter Train Car unless all of the clues on the location to its left have been discovered."/>
     </alternate>
   </card>
   <card id="7a1102fd-f1d5-4cf5-a99a-ea75b678b08d" name="Engineer">
