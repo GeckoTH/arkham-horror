@@ -44,7 +44,7 @@ class BasicWeakness:
             "58a1eddf-4958-4e7f-aea0-30c045452688", # Unspeakable Oath (Bloodthirst)
             "3a95f99d-79f5-45d3-b1e9-f1bd0159e116", # Unspeakable Oath (Curiosity)
             "83f6bbac-9c75-444b-b923-afed2c67532f", # Unspeakable Oath (Cowardice)
-        ],
+        ]
     }
     PILE_NAME = 'Basic Weaknesses'
     SUBTYPE_NAME = 'Basic Weakness'
