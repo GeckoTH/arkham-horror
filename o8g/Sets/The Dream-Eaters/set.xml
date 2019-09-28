@@ -129,7 +129,7 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="ήίΰ" />
     </card>
-    <card id="29485f85-1aa8-40dd-8f9d-5e7f38c72e3e" name="Rookie Mistake" size="EncounterCard">
+    <card id="29485f85-1aa8-40dd-8f9d-5e7f38c72e3e" name="Rookie Mistake">
       <property name="Card Number" value="7" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -152,7 +152,7 @@
       <property name="Agility" value="0" />
       <property name="Skill Icons" value="ΰ" />
     </card>
-    <card id="ccc5dc08-1e90-45bd-9836-12ae0dc1a205" name="Shocking Discovery" size="EncounterCard">
+    <card id="ccc5dc08-1e90-45bd-9836-12ae0dc1a205" name="Shocking Discovery">
       <property name="Card Number" value="9" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -191,7 +191,7 @@
       <property name="Slot" value="1 Hand" />
       <property name="Skill Icons" value="έήΰ" />
     </card>
-    <card id="6ddeb014-a79f-481b-9303-df1d6d338ae3" name="Tony’s Quarry" size="EncounterCard">
+    <card id="6ddeb014-a79f-481b-9303-df1d6d338ae3" name="Tony’s Quarry">
       <property name="Card Number" value="12" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Enemy" />
@@ -220,7 +220,7 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="3237e087-eeb0-46e7-ab9f-0dcad4fb58b9" name="Detached from Reality" size="EncounterCard">
+    <card id="3237e087-eeb0-46e7-ab9f-0dcad4fb58b9" name="Detached from Reality">
       <property name="Card Number" value="14" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -228,7 +228,7 @@
       <property name="Traits" value="Madness." />
       <property name="Text" value="Revelation – If Dream-Gate (Wondrous Journey) is already in play, flip it over. Otherwise, search your bonded cards for Dream-Gate (Pointless Reality) location and put it into play. In either case, disengage from each enemy engaged with you and move to Dream-Gate." />
     </card>
-    <card id="3330e3db-e28a-4901-a3bd-077c7aceeb7f" name="Dream-Gate" size="EncounterCard">
+    <card id="3330e3db-e28a-4901-a3bd-077c7aceeb7f" name="Dream-Gate">
       <property name="Card Number" value="15" />
       <property name="Quantity" value="1" />
       <property name="Subtitle" value="Wonderous Journey" />
@@ -237,7 +237,7 @@
       <property name="Text" value="Bonded (Gate Box).Dream-Gate is connected to each other revealed location, and vice versa. Enemies and investigators other than Luke Robinson cannot enter Dream-Gate.Forced – At the end of the investigation phase: Set Dream-Gate aside, out of play. (If Luke Robinson is here, move him to any revealed location.)" />
       <property name="Shroud" value="1" />
       <property name="Clues" value="0" />
-      <alternate name="Dream-Gate" size="EncounterCard" type="B">
+      <alternate name="Dream-Gate" type="B">
         <property name="Subtitle" value="Pointless Reality" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Dreamlands." />
@@ -264,7 +264,7 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="άίΰ" />
     </card>
-    <card id="c804af95-577a-4958-a58f-cafbf11ed49b" name="Watcher from Another Dimension" size="EncounterCard">
+    <card id="c804af95-577a-4958-a58f-cafbf11ed49b" name="Watcher from Another Dimension">
       <property name="Card Number" value="17" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Enemy" />
@@ -295,7 +295,7 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="ή" />
     </card>
-    <card id="e3011174-2b79-4108-855a-ff1d2bbe8b08" name="Bloodlust" size="EncounterCard">
+    <card id="e3011174-2b79-4108-855a-ff1d2bbe8b08" name="Bloodlust">
       <property name="Card Number" value="19" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Treachery" />
@@ -382,7 +382,7 @@
       <property name="Slot" value="Accessory" />
       <property name="Skill Icons" value="ά" />
     </card>
-    <card id="fdc478bd-9fd5-4f4a-8af1-5531118133d3" name="Guardian of the Crystallizer" size="EncounterCard">
+    <card id="fdc478bd-9fd5-4f4a-8af1-5531118133d3" name="Guardian of the Crystallizer">
       <property name="Card Number" value="25" />
       <property name="Quantity" value="2" />
       <property name="Type" value="Enemy" />
@@ -424,7 +424,7 @@
       <property name="Agility" value="0" />
       <property name="Skill Icons" value="ΰ" />
     </card>
-    <card id="a5a49067-7af2-48bd-9389-f2a45e0dded8" name="The Stars Are Right">
+    <card id="a5a49067-7af2-48bd-9389-f2a45e0dded8" name="The Stars Are Right" size="EncounterCard">
       <property name="Card Number" value="28" />
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
@@ -1190,13 +1190,13 @@
         <property name="Clues" value="0" />
       </alternate>
     </card>
-    <card id="4f315e5b-2958-4036-ae66-0b27d965024c" name="The Infestation Begins...">
+    <card id="4f315e5b-2958-4036-ae66-0b27d965024c" name="The Infestation Begins..." size="EncounterCard">
       <property name="Card Number" value="78" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Type" value="Story" />
       <property name="Text" value="Place 1 damage token on the location with the most clues. For the remainder of the scenario, damage tokens on locations represent the spreading infestation. Each location with a damage token on it is an “infested” location.Create a separate bag consisting of the following tokens: α, γ, γ, γ, γ, β, β. (If you do not have a second bag, use a cup, bowl, or other opaque container.) This is the infestation bag, and these are infestation tokens. They are not chaos tokens.Some abilities will instruct the players to make an infestation test. An infestation test may cause the infestation to spread to other locations or endanger investigators at infested locations. To resolve an infestation test, an investigator must reveal a random infestation token from the infestation bag, and resolve the effects for that token as indicated on the other side of this card.Flip this card over and place it next to the scenario reference card." />
-      <alternate name="Infestation Test" type="B">
+      <alternate name="Infestation Test" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Type" value="Scenario" />
         <property name="Text" value="α : Set this token aside. Search the encounter deck and discard pile for a Spider enemy and spawn it at the infested location nearest to any investigator.γ: Set this token aside.β: Set this token aside. Choose a location connected to an infested location. That location becomes infested (place a damage token on it to mark this). Then, if there are 2 or more β tokens set aside,  return all set-aside infestation tokens to the infestation bag." />
@@ -1535,5 +1535,50 @@
       <property name="Traits" value="Hazard." />
       <property name="Text" value="Revelation – Test [ί] (3). For each point you fail by, add 1 swarm card to the nearest swarming Zoog enemy. If you fail and there are no such enemies in play, search the encounter deck and discard pile for a Zoog enemy, draw it, and shuffle the encounter deck." />
     </card>
+  <card id="bc7358e4-789c-4b68-b1ca-809b2f2ccb9d" name="Tommy Muldoon" size="MiniCard">
+    <property name="Card Number" value="990"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Guardian"/>
+    <alternate name="Tommy Muldoon" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Guardian"/>
+    </alternate>
+  <card id="95ab38d9-176e-451b-8d4d-e3d3c32f4d12" name="Mandy Thompson" size="MiniCard">
+    <property name="Card Number" value="991"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Seeker"/>
+    <alternate name="Mandy Thompson" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Seeker"/>
+    </alternate>
+  <card id="5f100052-d08e-4d6e-b410-15c2bc900deb" name="Tony Morgan" size="MiniCard">
+    <property name="Card Number" value="992"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Rogue"/>
+    <alternate name="Preston Fairmont" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Rogue"/>
+    </alternate>
+  <card id="ba844577-1948-4067-adcd-74864f906962" name="Luke Robinson" size="MiniCard">
+    <property name="Card Number" value="993"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Luke Robinson" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Mystic"/>
+    </alternate>
+  <card id="75fc0232-67a9-4507-bd1b-9b66fc0c413b" name="Patrice Hathaway" size="MiniCard">
+    <property name="Card Number" value="994"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Survivor"/>
+    <alternate name="Patrice Hathaway" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Survivor"/>
+    </alternate>
   </cards>
 </set>
