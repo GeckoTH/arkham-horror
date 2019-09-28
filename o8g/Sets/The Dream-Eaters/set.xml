@@ -1535,50 +1535,55 @@
       <property name="Traits" value="Hazard." />
       <property name="Text" value="Revelation – Test [ί] (3). For each point you fail by, add 1 swarm card to the nearest swarming Zoog enemy. If you fail and there are no such enemies in play, search the encounter deck and discard pile for a Zoog enemy, draw it, and shuffle the encounter deck." />
     </card>
-  <card id="bc7358e4-789c-4b68-b1ca-809b2f2ccb9d" name="Tommy Muldoon" size="MiniCard">
-    <property name="Card Number" value="990"/>
-    <property name="Quantity" value="1"/>
-    <property name="Type" value="Mini"/>
-    <property name="Class" value="Guardian"/>
-    <alternate name="Tommy Muldoon" size="MiniCard" type="B">
+	<card id="bc7358e4-789c-4b68-b1ca-809b2f2ccb9d" name="Tommy Muldoon" size="MiniCard">
+      <property name="Card Number" value="990"/>
+      <property name="Quantity" value="1"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Guardian"/>
-    </alternate>
-  <card id="95ab38d9-176e-451b-8d4d-e3d3c32f4d12" name="Mandy Thompson" size="MiniCard">
-    <property name="Card Number" value="991"/>
-    <property name="Quantity" value="1"/>
-    <property name="Type" value="Mini"/>
-    <property name="Class" value="Seeker"/>
-    <alternate name="Mandy Thompson" size="MiniCard" type="B">
+	  <alternate name="Tommy Muldoon" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Guardian"/>
+      </alternate>
+    </card>
+	<card id="95ab38d9-176e-451b-8d4d-e3d3c32f4d12" name="Mandy Thompson" size="MiniCard">
+      <property name="Card Number" value="991"/>
+      <property name="Quantity" value="1"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Seeker"/>
-    </alternate>
-  <card id="5f100052-d08e-4d6e-b410-15c2bc900deb" name="Tony Morgan" size="MiniCard">
-    <property name="Card Number" value="992"/>
-    <property name="Quantity" value="1"/>
-    <property name="Type" value="Mini"/>
-    <property name="Class" value="Rogue"/>
-    <alternate name="Preston Fairmont" size="MiniCard" type="B">
+      <alternate name="Mandy Thompson" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Seeker"/>
+      </alternate>
+    </card>
+	<card id="5f100052-d08e-4d6e-b410-15c2bc900deb" name="Tony Morgan" size="MiniCard">
+      <property name="Card Number" value="992"/>
+      <property name="Quantity" value="1"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Rogue"/>
-    </alternate>
-  <card id="ba844577-1948-4067-adcd-74864f906962" name="Luke Robinson" size="MiniCard">
-    <property name="Card Number" value="993"/>
-    <property name="Quantity" value="1"/>
-    <property name="Type" value="Mini"/>
-    <property name="Class" value="Mystic"/>
-    <alternate name="Luke Robinson" size="MiniCard" type="B">
+      <alternate name="Preston Fairmont" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Rogue"/>
+      </alternate>
+    </card>
+	<card id="ba844577-1948-4067-adcd-74864f906962" name="Luke Robinson" size="MiniCard">
+      <property name="Card Number" value="993"/>
+      <property name="Quantity" value="1"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Mystic"/>
-    </alternate>
-  <card id="75fc0232-67a9-4507-bd1b-9b66fc0c413b" name="Patrice Hathaway" size="MiniCard">
-    <property name="Card Number" value="994"/>
-    <property name="Quantity" value="1"/>
-    <property name="Type" value="Mini"/>
-    <property name="Class" value="Survivor"/>
-    <alternate name="Patrice Hathaway" size="MiniCard" type="B">
+      <alternate name="Luke Robinson" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Mystic"/>
+      </alternate>
+    </card>
+	<card id="75fc0232-67a9-4507-bd1b-9b66fc0c413b" name="Patrice Hathaway" size="MiniCard">
+      <property name="Card Number" value="994"/>
+      <property name="Quantity" value="1"/>
       <property name="Type" value="Mini"/>
       <property name="Class" value="Survivor"/>
-    </alternate>
+      <alternate name="Patrice Hathaway" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Survivor"/>
+      </alternate>
+    </card>
   </cards>
 </set>
