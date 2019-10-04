@@ -39,6 +39,17 @@ class BasicWeakness:
             "479a3456-8e6c-4df7-a778-dad99d0a0f9d",
             "46163897-b6a8-4c6e-86ef-27c5eeb7f443", # x2 The Tower XVI
             "46163897-b6a8-4c6e-86ef-27c5eeb7f443",
+        ],
+        "return_to_the_path_to_carcosa": [
+            "58a1eddf-4958-4e7f-aea0-30c045452688", # Unspeakable Oath (Bloodthirst)
+            "3a95f99d-79f5-45d3-b1e9-f1bd0159e116", # Unspeakable Oath (Curiosity)
+            "83f6bbac-9c75-444b-b923-afed2c67532f", # Unspeakable Oath (Cowardice)
+        ],
+        "the_dream-eaters": [
+            "600c6b88-339f-4f10-98b3-02536aec7b92", # Self-Centered
+            "1e1b819a-4bc3-4954-bea4-752fce9858bc", # Kleptomania
+            "97a9fa53-3c9e-444e-9c21-24e52354ed6c", # Narcolepsy
+            "2ecb16b4-a4db-4832-8e78-d3527b8c1bd6", # Your Worst Nightmare
         ]
     }
     PILE_NAME = 'Basic Weaknesses'

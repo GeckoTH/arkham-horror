@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="157a0781-961a-454e-9d54-15e69ece8ebe">The First Night</card>
+    <card qty="1" id="324ee029-91bc-47c5-8e10-fcad2d3feb81">The Second Night</card>
+    <card qty="1" id="9de8ddb2-2338-438b-984e-eaea32ebd3a2">The Third Night</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="fc98bb4c-d45c-4c79-b836-9fb9c82afc71">The Parisian Conspiracy (v. I)</card>
+    <card qty="1" id="96937b09-fd4f-482e-82c8-458c11c48f98">The Parisian Conspiracy (v. II)</card>
+    <card qty="1" id="1e4c5f96-2a48-48cf-bcaa-a74c21a716e8">Pursuing Shadows</card>
+    <card qty="1" id="202449e9-2c91-441b-b54a-9541371e419a">Stalked by Shadows</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="25536baa-19ef-414a-bd5d-24f3d690250f">Stealthy Byakhee</card>
+    <card qty="2" id="4e4fa455-091c-491e-8e2b-74c6c0ff53f3">Twin Suns</card>
+    <card qty="3" id="cc9074b9-0052-4233-8896-28222361b47d">Deadly Fate</card>
+    <card qty="3" id="ecba1d09-d125-4463-89f6-5ac24ce8e1a7">Torturous Chords</card>
+    <card qty="2" id="5606fe5d-d328-419f-9819-d81e55d056dc">Frozen in Fear</card>
+    <card qty="2" id="7e5ba644-8dc9-4979-8941-05cb8c1fcaba">Black Stars Rise</card>
+    <card qty="2" id="312db589-3f66-4154-b361-d1e733091b74">Spires of Carcosa</card>
+    <card qty="2" id="9b117a79-6e5e-4d03-bf60-73ac95886a2d">Twisted to His Will</card>
+    <card qty="2" id="3e6c4fca-7904-4011-9e5c-c7f326b70fca">Swift Byakhee</card>
+    <card qty="2" id="2c2200a9-17cc-4623-9681-707f91f4f67a">Hunted by Byakhee</card>
+    <card qty="2" id="f341e477-11b0-498b-b1e4-fbf6822e9097">Marked by the Sign</card>
+    <card qty="1" id="a7ec26bc-91c9-4351-a54e-7f13a0ed0a73">The Pale Mask Beckons</card>
+    <card qty="2" id="03659f75-41b7-401f-8f90-b5f706c8a7a2">The Sign of Hastur</card>
+    <card qty="2" id="0af88fd1-b8f4-4369-949e-e45e52f45c66">Preying Byakhee</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="2f2b29d1-5d89-4249-9a09-3e84d24f7590">A Phantom of Truth</card>
+    <card qty="1" id="55a9ec70-7ee3-440e-bb65-f5bd3bb0cbd8">Return to A Phantom of Truth</card>
+    <card qty="1" id="bd054df1-3678-49d3-9d47-077ef4718d48">The Organist</card>
+    <card qty="4" id="791a6d1e-844d-4078-b4cb-c005483a1790">Lost Soul</card>
+    <card qty="1" id="851280fa-b807-493c-9c3d-048f70e8a05d">Gare d'Orsay</card>
+    <card qty="1" id="96eca2b7-5f82-42a0-a4c8-58b5fe7fda73">Montmartre</card>
+    <card qty="1" id="4987715d-a84d-4380-a478-3ad0b1ac0bfa">Montmartre</card>
+    <card qty="1" id="a1e75f9c-befb-4cfb-aab4-5397f8f62c81">Opéra Garnier</card>
+    <card qty="1" id="c5d57cb3-ceb7-4c8b-800e-818d65414cc0">Opéra Garnier</card>
+    <card qty="1" id="83e73174-af32-4f5a-be59-24013a471171">Le Marais</card>
+    <card qty="1" id="0a3df1e4-0f7b-43de-be8a-808f2008f1a1">Le Marais</card>
+    <card qty="1" id="495872f9-5461-435b-bd1b-f830279b18bc">Montparnasse</card>
+    <card qty="1" id="a029b3dd-be49-4200-bb7a-e9135f261517">Montparnasse</card>
+    <card qty="1" id="42ae82fa-d26b-4b30-ae93-7cc3f2b81cea">Grand Guignol</card>
+    <card qty="1" id="b5186fd0-6adb-43be-ad2e-796edd4c2e56">Grand Guignol</card>
+    <card qty="1" id="05f0bf91-29ce-4925-8e3e-38d3b03e2542">Père Lachaise Cemetery</card>
+    <card qty="1" id="40658768-c2ba-4232-9cef-77b9a3af790b">Père Lachaise Cemetery</card>
+    <card qty="1" id="cc707388-cd37-4fbd-a38d-b4ef160569d2">Canal Saint-Martin</card>
+    <card qty="1" id="510420f2-b898-4467-a629-53afd946afab">Canal Saint-Martin</card>
+    <card qty="1" id="945d67fb-f8f4-4fe1-b646-9a2894acda75">Notre-Dame</card>
+    <card qty="1" id="a5b23b78-76ae-44d6-af03-b85e049c42a8">Notre-Dame</card>
+    <card qty="1" id="095ec4ac-d52e-4893-808d-acdaf9d97e47">Gardens of Luxembourg</card>
+    <card qty="1" id="db11be44-746d-4519-8fa9-4379b3d6d64d">Gardens of Luxembourg</card>
+    <card qty="1" id="d70b4ee5-f019-41e3-b646-5877ed6ed546">Sickening Reality</card>
+    <card qty="2" id="ba4ba157-edcd-44b7-837c-ad24791198bc">Figure in the Shadows</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

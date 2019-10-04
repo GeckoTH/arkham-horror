@@ -15,6 +15,115 @@
         <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.γ: –2. For this skill test, ignore any effect that would increase your skill value.δ: –6. You may add 1 strength to the abyss to automatically succeed, instead.Strength of the Abyss:" />
       </alternate>
     </card>
+    <card id="c550a922-9c5f-4a6b-bab7-57c6726716fd" name="Jessie’s Request" size="HorizCard">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="η Investigators spend 1[per investigator] clues, as a group: Randomly spawn one of the enemies beneath the scenario reference card." />
+      <property name="Doom" value="7" />
+      <alternate name="They're on to You" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="You’ve found enough leads to confirm the existence of a shadowy organization within Cairo, and perhaps the origin of the curse afflicting the city. However, despite your best efforts, the secret cabal has vanished from the city without a trace. You’re going to need a lot more information if you are to cure this illness.Find each Brotherhood enemy currently in play (at a location or in an investigator’s threat area). Place each of those enemies beneath the scenario reference card, out of play.Shuffle each set-aside copy of Abyssal Revenant into the encounter deck, along with the encounter discard pile.Add 1 strength to the abyss.If it is act 1, advance the current act." />
+      </alternate>
+    </card>
+    <card id="316af1a0-ffac-48d7-a4b9-f6c157327d49" name="Curse of the Abyss" size="HorizCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – If the strength of the abyss is 0: Set the strength of the abyss to 1. Each investigator draws 1 card and heals 1 horror." />
+      <property name="Doom" value="6" />
+      <alternate name="The Abyss Grows..." size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="As more and more fall victim to the curse that has infected Cairo, a silent terror grips the city. When night falls again, the streets are filled with a sudden panic. It starts with turmoil outside the hospital, as people demand to know what has happened to their loved ones and what the doctors are doing to solve the problem. Before long, rioting and looting erupt throughout the city. By midnight, the streets have descended into utter chaos.Shuffle the encounter discard pile into the encounter deck.Add 1 strength to the abyss." />
+      </alternate>
+    </card>
+    <card id="0c545af9-7363-4430-b350-73f636214099" name="Garden of Shadows" size="HorizCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – If the strength of the abyss is 0 or 1: Set the strength of the abyss to 2. Each investigator either draws 1 card or heals 1 horror." />
+      <property name="Doom" value="5" />
+      <alternate name="The Eternal Slumber" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="You are too exhausted to go on. Your mind screams at your body to keep moving, but your muscles have betrayed you. You sink to the ground like a sack of bricks.You resist with all of your strength, but all it amounts to is a wiggling of your fingers. You feel as though a heavy weight is pressed upon your head, and a dark cloak is thrown over your eyes.If you fall asleep here, you are sure you’ll never wake again. And yet, somehow, deep within your mind, you’re too tired to care.You yawn.Add 1 strength to the abyss.Each investigator who has not resigned is defeated and is “taken by the abyss.”" />
+      </alternate>
+    </card>
+    <card id="d7f62f90-8f21-46fe-8e6e-80dc5ee2f074" name="Curse of Endless Sleep" size="HorizCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – After a Brotherhood enemy enters the victory display: Flip it over and resolve the text on its other side.Objective – Find as many Evidence cards as you can and add them to the victory display before the agenda advances. (If there are 6 Evidence cards in the victory display, advance.)" />
+      <property name="Level" value="1" />
+      <alternate name="Into the Desert" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="You corner one of the organization’s agents in a dark alleyway as he attempts to flee the city. “It is too late to stop the prophecy,” he says with a frightened expression. “Please, just let me go.” Seeing weakness in the man’s heart, you tell him that he can help you stop what the organization is plotting, if he tells you everything he knows. “The Brotherhood of the Beast believes they have found their vessel,” he explains, stuttering nervously. “Now they’re giving their Chosen untold power. There’s no way you can stop them!” He struggles and breaks free from your grasp, fleeing back toward the main street. If you follow that man, perhaps he will lead you to the brotherhood’s hideout…Create the exploration deck by shuffling together each of the set-aside Expedition locations. Search the encounter deck and discard pile for 1 copy each of the following treachery cards: Terror Under the Pyramids, Swarm of Locusts, Abyssal Reach, Eclipse, and Sandstorm. Shuffle those cards into the exploration deck, then shuffle the encounter discard pile into the encounter deck.Each investigator loses each of his or her clues. Remove all clues from each Cairo location." />
+      </alternate>
+    </card>
+    <card id="37bca18b-3e9a-4269-9909-bb14ac77525b" name="Secrets in the Sand" size="HorizCard">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Clues cannot be placed on Cairo locations.η If you are at an Expedition location: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it." />
+      <property name="Level" value="2" />
+      <property name="Clues" value="3π" />
+      <alternate name="All for the Chosen" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="You are unable to find the Brotherhood’s hideout, but you are able to find the agent you interrogated in Cairo…Or at least, what remains of him. Inside the halls of an ancient temple, dedicated to a long-forgotten pharaoh, the man’s corpse has been placed upon a stone altar. His body is riddled with fresh stab wounds. You can’t help but wonder if this was—in a way—your doing. Investigating the body and the remainder of the half-buried temple yields a troubling discovery. As you suspected, the Brotherhood of the Beast is behind the curse afflicting Cairo. You find several passages describing the spell in greater detail—though these descriptions do not match what you have seen with your own eyes. The Brotherhood’s tomes describe how to transport their victims to another realm, a place called the Abyss. A nightmarescape from which the dreamers cannot awaken. With each dreamer, their “Chosen” grows in strength…Place 1[per investigator] damage tokens on each Cairo location. Until the end of the scenario, damage tokens on locations represent “dreamers”—victims who have been cursed with eternal slumber.Put the set-aside Neith enemy into play in the Streets of Cairo." />
+      </alternate>
+    </card>
+    <card id="b8eec1aa-6855-4304-aa84-335c400fcb24" name="The Hour of Judgment" size="HorizCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η If there is a dreamer at your location: Test ά or έ (X) to attempt to awaken a dreamer. X is the strength of the abyss. If you succeed, move a dreamer from your location to Neith, as damage.Objective – If Neith has no remaining health, advance." />
+      <property name="Level" value="3" />
+      <alternate name="The Harbinger's End" size="HorizCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="With each of the dreamers you set free, the arcane power wielded by Neith fades. Before long, she has collapsed to her knees, the power completely drained from her body. However, even with the spells and records you found in the Brotherhood’s temple, you’re unable to awaken all of the victims; only those most recently put under the spell’s sway. As for the remainder of the victims—including John Burke—their fate is inextricably tied to Neith. “If you believe that this is the end, you deserve the fate Xzharah has in store for you,” she warns you. “Slay me and you will be next in line to die.” You waver. But if she is allowed to live, those she has ensnared in sleep will never awaken. What is one life, compared to the lives of so many innocents?The investigators must decide (choose wisely):—Destroy Neith once and for all. By choosing this option, you believe those still under the curse of eternal slumber will be freed. (-&gt;R1)—Spare Neith and listen to what she has to say. By choosing this option, you believe you can learn more about the one Neith refers to as Xzharah. (-&gt;R2)" />
+      </alternate>
+    </card>
+    <card id="b5def4cb-4ffb-4f1c-a392-bc04f93547ef" name="Streets of Cairo" size="EncounterCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cairo." />
+      <alternate name="Streets of Cairo" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cairo." />
+        <property name="Text" value="Forced – After you discover 2 or more clues at Streets of Cairo during a single turn: Take 1 horror.η If there are no clues on Streets of Cairo: Test ί (4). If you succeed, remember that you have “found a door marked with blood.”" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="2bf4d54f-e282-4ef1-b053-e3ede9fed974" name="Cairo Bazaar" size="EncounterCard">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Eternal Slumber" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cairo." />
+      <alternate name="Cairo Bazaar" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="The Eternal Slumber" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cairo." />
+        <property name="Text" value="While you are at Cairo Bazaar, reduce the cost of each Item asset you play by 1 and increase the cost of each other asset you play by 1.η Spend 10 resources: Remember that you “bought an odd trinket.”" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
     <card id="46f53b5c-30ec-49f6-b9a3-a985bf61d11b" name="Museum of Egyptian Antiquities" size="EncounterCard">
       <property name="Card Number" value="10" />
       <property name="Quantity" value="1" />
@@ -152,21 +261,6 @@
         <property name="Encounter Set" value="The Night’s Usurper" />
         <property name="Type" value="Act" />
         <property name="Text" value="It has been several weeks since you set forth from Cairo, but to your dismay, you have found no sign of the otherworldly gate to which the Brotherhood supposedly retreated. Just as you are considering returning to Cairo to conduct more research, you are summoned into Winlock’s tent, where the weary expedition leader is examining a map of Egypt with calloused hands. “Oh good, you’re here,” he says, fumbling through his pack for an old, half-burned tome, which he places on the table in front of you. “Thought you might want to see what we found in that crypt to the south.” You turn over the book, sifting through its charred pages, until you come to a map of the desert marked by Egyptian hieroglyphs. It is the same region depicted on the map in front of Winlock. “See that, right there?” He points to one of the hieroglyphs on the western side of the map. “It means ‘door’.” With a hint of a smirk, he then points to the same spot on his larger map, marking your destination.“That what you’re looking for?”Shuffle the set-aside Eldritch Gate into the exploration deck." />
-        <property name="Level" value="1" />
-      </alternate>
-    </card>
-    <card id="c550a922-9c5f-4a6b-bab7-57c6726716fd" name="Jessie’s Request" size="HorizCard">
-      <property name="Card Number" value="2" />
-      <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Eternal Slumber" />
-      <property name="Type" value="Agenda" />
-      <property name="Text" value="η Investigators spend 1[per investigator] clues, as a group: Randomly spawn one of the enemies beneath the scenario reference card." />
-      <property name="Level" value="1" />
-      <property name="Doom" value="7" />
-      <alternate name="They're on to You" size="HorizCard" type="B">
-        <property name="Encounter Set" value="The Eternal Slumber" />
-        <property name="Type" value="Agenda" />
-        <property name="Text" value="You’ve found enough leads to confirm the existence of a shadowy organization within Cairo, and perhaps the origin of the curse afflicting the city. However, despite your best efforts, the secret cabal has vanished from the city without a trace. You’re going to need a lot more information if you are to cure this illness.Find each Brotherhood enemy currently in play (at a location or in an investigator’s threat area). Place each of those enemies beneath the scenario reference card, out of play.Shuffle each set-aside copy of Abyssal Revenant into the encounter deck, along with the encounter discard pile.Add 1 strength to the abyss.If it is act 1, advance the current act." />
         <property name="Level" value="1" />
       </alternate>
     </card>
@@ -316,21 +410,6 @@
       <property name="Agility" value="3" />
       <property name="Damage" value="2" />
       <property name="Horror" value="1" />
-    </card>
-    <card id="316af1a0-ffac-48d7-a4b9-f6c157327d49" name="Curse of the Abyss" size="HorizCard">
-      <property name="Card Number" value="3" />
-      <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Eternal Slumber" />
-      <property name="Type" value="Agenda" />
-      <property name="Text" value="Forced – If the strength of the abyss is 0: Set the strength of the abyss to 1. Each investigator draws 1 card and heals 1 horror." />
-      <property name="Level" value="2" />
-      <property name="Doom" value="6" />
-      <alternate name="The Abyss Grows..." size="HorizCard" type="B">
-        <property name="Encounter Set" value="The Eternal Slumber" />
-        <property name="Type" value="Agenda" />
-        <property name="Text" value="As more and more fall victim to the curse that has infected Cairo, a silent terror grips the city. When night falls again, the streets are filled with a sudden panic. It starts with turmoil outside the hospital, as people demand to know what has happened to their loved ones and what the doctors are doing to solve the problem. Before long, rioting and looting erupt throughout the city. By midnight, the streets have descended into utter chaos.Shuffle the encounter discard pile into the encounter deck.Add 1 strength to the abyss." />
-        <property name="Level" value="2" />
-      </alternate>
     </card>
     <card id="72d4d7b8-2eac-4de9-9dd9-4a37183a1404" name="Speaker for the Dark Pharaoh" size="EncounterCard">
       <property name="Card Number" value="30" />
@@ -505,21 +584,6 @@
       <property name="Shroud" value="7" />
       <property name="Clues" value="0" />
     </card>
-    <card id="0c545af9-7363-4430-b350-73f636214099" name="Garden of Shadows" size="HorizCard">
-      <property name="Card Number" value="4" />
-      <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Eternal Slumber" />
-      <property name="Type" value="Agenda" />
-      <property name="Text" value="Forced – If the strength of the abyss is 0 or 1: Set the strength of the abyss to 2. Each investigator either draws 1 card or heals 1 horror." />
-      <property name="Level" value="3" />
-      <property name="Doom" value="5" />
-      <alternate name="The Eternal Slumber" size="HorizCard" type="B">
-        <property name="Encounter Set" value="The Eternal Slumber" />
-        <property name="Type" value="Agenda" />
-        <property name="Text" value="You are too exhausted to go on. Your mind screams at your body to keep moving, but your muscles have betrayed you. You sink to the ground like a sack of bricks.You resist with all of your strength, but all it amounts to is a wiggling of your fingers. You feel as though a heavy weight is pressed upon your head, and a dark cloak is thrown over your eyes.If you fall asleep here, you are sure you’ll never wake again. And yet, somehow, deep within your mind, you’re too tired to care.You yawn.Add 1 strength to the abyss.Each investigator who has not resigned is defeated and is “taken by the abyss.”" />
-        <property name="Level" value="3" />
-      </alternate>
-    </card>
     <card id="520ddac8-f418-447d-949c-65e033ef3f0a" name="Dunes of the Sahara" size="EncounterCard">
       <property name="Card Number" value="40" />
       <property name="Quantity" value="1" />
@@ -618,20 +682,6 @@
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Scheme." />
       <property name="Text" value="Revelation – Test ά (3). For each point you fail by, choose and discard 1 card from your hand. For each card you cannot discard, take 1 horror." />
-    </card>
-    <card id="d7f62f90-8f21-46fe-8e6e-80dc5ee2f074" name="Curse of Endless Sleep" size="HorizCard">
-      <property name="Card Number" value="5" />
-      <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Eternal Slumber" />
-      <property name="Type" value="Act" />
-      <property name="Text" value="Forced – After a Brotherhood enemy enters the victory display: Flip it over and resolve the text on its other side.Objective – Find as many Evidence cards as you can and add them to the victory display before the agenda advances. (If there are 6 Evidence cards in the victory display, advance.)" />
-      <property name="Level" value="1" />
-      <alternate name="Into the Desert" size="HorizCard" type="B">
-        <property name="Encounter Set" value="The Eternal Slumber" />
-        <property name="Type" value="Act" />
-        <property name="Text" value="You corner one of the organization’s agents in a dark alleyway as he attempts to flee the city. “It is too late to stop the prophecy,” he says with a frightened expression. “Please, just let me go.” Seeing weakness in the man’s heart, you tell him that he can help you stop what the organization is plotting, if he tells you everything he knows. “The Brotherhood of the Beast believes they have found their vessel,” he explains, stuttering nervously. “Now they’re giving their Chosen untold power. There’s no way you can stop them!” He struggles and breaks free from your grasp, fleeing back toward the main street. If you follow that man, perhaps he will lead you to the brotherhood’s hideout…Create the exploration deck by shuffling together each of the set-aside Expedition locations. Search the encounter deck and discard pile for 1 copy each of the following treachery cards: Terror Under the Pyramids, Swarm of Locusts, Abyssal Reach, Eclipse, and Sandstorm. Shuffle those cards into the exploration deck, then shuffle the encounter discard pile into the encounter deck.Each investigator loses each of his or her clues. Remove all clues from each Cairo location." />
-        <property name="Level" value="1" />
-      </alternate>
     </card>
     <card id="47ba1874-fa8f-4ebf-a13a-6ba8443d06da" name="Swarm of Locusts" size="EncounterCard">
       <property name="Card Number" value="50" />
@@ -749,65 +799,6 @@
       <property name="Combat" value="0" />
       <property name="Agility" value="1" />
       <property name="Skill Icons" value="έίΰ" />
-    </card>
-    <card id="37bca18b-3e9a-4269-9909-bb14ac77525b" name="Secrets in the Sand" size="HorizCard">
-      <property name="Card Number" value="6" />
-      <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Eternal Slumber" />
-      <property name="Type" value="Act" />
-      <property name="Text" value="Clues cannot be placed on Cairo locations.η If you are at an Expedition location: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it." />
-      <property name="Level" value="2" />
-      <property name="Clues" value="3π" />
-      <alternate name="All for the Chosen" size="HorizCard" type="B">
-        <property name="Encounter Set" value="The Eternal Slumber" />
-        <property name="Type" value="Act" />
-        <property name="Text" value="You are unable to find the Brotherhood’s hideout, but you are able to find the agent you interrogated in Cairo…Or at least, what remains of him. Inside the halls of an ancient temple, dedicated to a long-forgotten pharaoh, the man’s corpse has been placed upon a stone altar. His body is riddled with fresh stab wounds. You can’t help but wonder if this was—in a way—your doing. Investigating the body and the remainder of the half-buried temple yields a troubling discovery. As you suspected, the Brotherhood of the Beast is behind the curse afflicting Cairo. You find several passages describing the spell in greater detail—though these descriptions do not match what you have seen with your own eyes. The Brotherhood’s tomes describe how to transport their victims to another realm, a place called the Abyss. A nightmarescape from which the dreamers cannot awaken. With each dreamer, their “Chosen” grows in strength…Place 1[per investigator] damage tokens on each Cairo location. Until the end of the scenario, damage tokens on locations represent “dreamers”—victims who have been cursed with eternal slumber.Put the set-aside Neith enemy into play in the Streets of Cairo." />
-        <property name="Level" value="2" />
-      </alternate>
-    </card>
-    <card id="b8eec1aa-6855-4304-aa84-335c400fcb24" name="The Hour of Judgment" size="HorizCard">
-      <property name="Card Number" value="7" />
-      <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Eternal Slumber" />
-      <property name="Type" value="Act" />
-      <property name="Text" value="η If there is a dreamer at your location: Test ά or έ (X) to attempt to awaken a dreamer. X is the strength of the abyss. If you succeed, move a dreamer from your location to Neith, as damage.Objective – If Neith has no remaining health, advance." />
-      <property name="Level" value="3" />
-      <alternate name="The Harbinger's End" size="HorizCard" type="B">
-        <property name="Encounter Set" value="The Eternal Slumber" />
-        <property name="Type" value="Act" />
-        <property name="Text" value="With each of the dreamers you set free, the arcane power wielded by Neith fades. Before long, she has collapsed to her knees, the power completely drained from her body. However, even with the spells and records you found in the Brotherhood’s temple, you’re unable to awaken all of the victims; only those most recently put under the spell’s sway. As for the remainder of the victims—including John Burke—their fate is inextricably tied to Neith. “If you believe that this is the end, you deserve the fate Xzharah has in store for you,” she warns you. “Slay me and you will be next in line to die.” You waver. But if she is allowed to live, those she has ensnared in sleep will never awaken. What is one life, compared to the lives of so many innocents?The investigators must decide (choose wisely):—Destroy Neith once and for all. By choosing this option, you believe those still under the curse of eternal slumber will be freed. (-&gt;R1)—Spare Neith and listen to what she has to say. By choosing this option, you believe you can learn more about the one Neith refers to as Xzharah. (-&gt;R2)" />
-        <property name="Level" value="3" />
-      </alternate>
-    </card>
-    <card id="b5def4cb-4ffb-4f1c-a392-bc04f93547ef" name="Streets of Cairo" size="EncounterCard">
-      <property name="Card Number" value="8" />
-      <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Eternal Slumber" />
-      <property name="Type" value="Location" />
-      <property name="Traits" value="Cairo." />
-      <alternate name="Streets of Cairo" size="EncounterCard" type="B">
-        <property name="Encounter Set" value="The Eternal Slumber" />
-        <property name="Type" value="Location" />
-        <property name="Traits" value="Cairo." />
-        <property name="Text" value="Forced – After you discover 2 or more clues at Streets of Cairo during a single turn: Take 1 horror.η If there are no clues on Streets of Cairo: Test ί (4). If you succeed, remember that you have “found a door marked with blood.”" />
-        <property name="Shroud" value="3" />
-        <property name="Clues" value="2π" />
-      </alternate>
-    </card>
-    <card id="2bf4d54f-e282-4ef1-b053-e3ede9fed974" name="Cairo Bazaar" size="EncounterCard">
-      <property name="Card Number" value="9" />
-      <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Eternal Slumber" />
-      <property name="Type" value="Location" />
-      <property name="Traits" value="Cairo." />
-      <alternate name="Cairo Bazaar" size="EncounterCard" type="B">
-        <property name="Encounter Set" value="The Eternal Slumber" />
-        <property name="Type" value="Location" />
-        <property name="Traits" value="Cairo." />
-        <property name="Text" value="While you are at Cairo Bazaar, reduce the cost of each Item asset you play by 1 and increase the cost of each other asset you play by 1.η Spend 10 resources: Remember that you “bought an odd trinket.”" />
-        <property name="Shroud" value="2" />
-        <property name="Clues" value="1π" />
-      </alternate>
     </card>
   </cards>
 </set>

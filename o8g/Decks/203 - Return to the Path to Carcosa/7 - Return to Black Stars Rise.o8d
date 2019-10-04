@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e435831f-c721-49a5-988f-1fe5f59cac1c">The Tide Rises</card>
+    <card qty="1" id="40c07bf1-1fa7-4366-a64a-5ce0e2b1d04a">The City Floods</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="4fe98f3f-a6ca-42d1-8601-a25d620e2c95">The Ritual Begins</card>
+    <card qty="1" id="004121d4-33ab-4b6e-8815-f01ebecf442d">Swallowed Sky</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="247c2cdc-5a68-4c69-b25e-a45765dae307">Crashing Floods</card>
+    <card qty="3" id="b538f838-3f1a-4a70-984e-16bcaff53527">Worlds Merge</card>
+    <card qty="2" id="7e5ba644-8dc9-4979-8941-05cb8c1fcaba">Black Stars Rise</card>
+    <card qty="2" id="312db589-3f66-4154-b361-d1e733091b74">Spires of Carcosa</card>
+    <card qty="2" id="9b117a79-6e5e-4d03-bf60-73ac95886a2d">Twisted to His Will</card>
+    <card qty="2" id="3e6c4fca-7904-4011-9e5c-c7f326b70fca">Swift Byakhee</card>
+    <card qty="2" id="2c2200a9-17cc-4623-9681-707f91f4f67a">Hunted by Byakhee</card>
+    <card qty="2" id="5cd3a00a-e928-4d2b-b39f-9195c52c39ad">Spawn of Hali</card>
+    <card qty="2" id="f341e477-11b0-498b-b1e4-fbf6822e9097">Marked by the Sign</card>
+    <card qty="1" id="a7ec26bc-91c9-4351-a54e-7f13a0ed0a73">The Pale Mask Beckons</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+    <card qty="3" id="d0d21e8a-6b3d-4d64-8348-f04d7578da6d">Delusory Evils</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="d8d74a85-4a6a-48ed-a1fb-757426ff9345">Cloister</card>
+    <card qty="1" id="f454e1fe-8169-4909-9c83-31ba37773e63">Cloister</card>
+    <card qty="1" id="65db3c0e-b915-4bec-b787-9171a354487d">Knight's Hall</card>
+    <card qty="1" id="76a049da-5d39-419e-b38a-ed64382f1a9a">Knight’s Hall</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="fada603a-e868-4c93-9ada-1a2d61e9b43c">Let The Storm Rage</card>
+    <card qty="1" id="330ea796-9967-4d58-9331-c52a88235d66">Let The Storm Rage</card>
+    <card qty="1" id="e5af2b0f-1c64-4419-bc1d-4f6b49b027fb">The Entity Above</card>
+    <card qty="1" id="6b5e4477-4b8f-4913-b799-1d2e2b497f6c">The Entity Above</card>
+    <card qty="1" id="a4ad2173-5ec7-44ea-af72-a00d99a072bb">Chapel of St. Aubert</card>
+    <card qty="1" id="ee818778-2024-4969-b030-0e5855802f96">Chapel of St. Aubert</card>
+    <card qty="1" id="2caaba71-47a4-4c07-b60f-298b7a9d7e87">Abbey Tower</card>
+    <card qty="1" id="255c32f0-5c83-41c1-adb6-50c0dddc5fb7">Abbey Tower</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="2" id="612c29d9-ad33-4f88-bc3e-54a60fe853cf">Tidal Terror</card>
+    <card qty="2" id="58d141c9-57fb-4cde-8cb9-adba229e78f7">Rift Seeker</card>
+    <card qty="1" id="32d8e03f-15f2-42eb-b5df-09142ae5304a">Open The Path Above</card>
+    <card qty="1" id="c93ae0ee-1732-450f-aae0-f773f0729ae3">Open The Path Below</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="0d7300da-ddb1-4d9b-81b0-ceab0a459f54">Black Stars Rise</card>
+    <card qty="1" id="5f4a731f-7586-4e59-af24-f6d1a72027aa">Return to Black Stars Rise</card>
+    <card qty="1" id="d4d2d531-fac1-4dfe-817d-9d83f4bf269c">Porte de l'Avancée</card>
+    <card qty="1" id="20662bde-0b4e-4bc8-b7ce-9b4d28663871">Grand Rue</card>
+    <card qty="1" id="c946f0fc-fbf3-4bc1-9b16-b05336f7ef52">Outer Wall</card>
+    <card qty="1" id="6582dde5-ac08-4e4a-9be3-323e57ccc4de">Outer Wall</card>
+    <card qty="1" id="53d6ccfb-ff2b-4227-b98e-a123b4b9b6b2">North Tower</card>
+    <card qty="1" id="76a9d31a-7568-44ff-88f3-e1b6fb6b2a75">North Tower</card>
+    <card qty="1" id="0697e1cf-7cb3-442b-a57c-6b29aa820ede">Broken Steps</card>
+    <card qty="1" id="23975c27-fd1d-4506-a467-d5ea277c0eb4">Broken Steps</card>
+    <card qty="1" id="af4ffe21-8410-4476-98b6-3ef1ccdb04ba">Abbey Church</card>
+    <card qty="1" id="6a9f0196-38f7-4043-8661-822c36c59ab4">Chœur Gothique</card>
+    <card qty="1" id="eedf9d37-e12f-4b7d-a3e4-812b102be6ee">Chœur Gothique</card>
+    <card qty="1" id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9">Beast of Aldebaran</card>
+    <card qty="1" id="cb30e8bc-cd3f-458d-8ed7-a862aca101b1">Sickening Reality</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

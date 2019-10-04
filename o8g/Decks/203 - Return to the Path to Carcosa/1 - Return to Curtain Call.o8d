@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="d2a7406a-71f5-470d-99e5-a66f03696117">The Third Act</card>
+    <card qty="1" id="2c6187a9-76e7-4b1c-8a43-2c19a8b5c50c">Encore</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="a93be08b-0678-47ce-8495-2fcf4f592e12">Awakening</card>
+    <card qty="1" id="bcac7d95-9727-48a6-9637-8b1cea4e9d09">The Stranger</card>
+    <card qty="1" id="25789be3-7924-4834-bf85-093a010025a9">The Stranger</card>
+    <card qty="1" id="362b14dc-33b6-438f-a880-0e1de96d2d15">The Stranger</card>
+    <card qty="1" id="ed238e6a-e591-4c98-aaa9-44ffd35f7342">The Stranger</card>
+    <card qty="1" id="080cb3f3-a9dc-4938-ae4c-fdb1ee3fb56c">The Stranger</card>
+    <card qty="1" id="ee878704-4147-4543-b93c-d2b9b709115d">The Stranger</card>
+    <card qty="1" id="fda5fc52-3076-45e0-aa8c-7438bbc8d763">Curtain Call</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="7e5ba644-8dc9-4979-8941-05cb8c1fcaba">Black Stars Rise</card>
+    <card qty="2" id="312db589-3f66-4154-b361-d1e733091b74">Spires of Carcosa</card>
+    <card qty="2" id="9b117a79-6e5e-4d03-bf60-73ac95886a2d">Twisted to His Will</card>
+    <card qty="1" id="a03995c7-7994-4221-a4c7-5af0844a4007">Visions in Your Mind (Horrors)</card>
+    <card qty="1" id="7c12a4da-e103-4890-9575-aa26dfefdbed">Visions in Your Mind (Failure)</card>
+    <card qty="1" id="af4d8b75-5694-4522-85ea-75627ccaebc4">Visions in Your Mind (Death)</card>
+    <card qty="1" id="6ee148c1-1e3a-4573-b541-4e08b7abffd8">Visions in Your Mind (Hatred)</card>
+    <card qty="2" id="2a950237-eb1b-4e23-ad24-16034a4995fb">Maddening Delusions</card>
+    <card qty="2" id="25f2b043-9b84-4462-911d-42dbaaea2a35">Poltergeist</card>
+    <card qty="2" id="4e1d5bce-18f2-49ec-9832-02a57a5ea992">Spirit's Torment</card>
+    <card qty="3" id="f2583909-73ce-4141-8a26-8bf7b86bba4e">Fanatic</card>
+    <card qty="1" id="f6577476-6f0f-452e-b689-1b0cbcb06701">Agent of the King</card>
+    <card qty="2" id="fb264d2c-d8ff-4b19-b87f-c6146763873f">The King's Edict</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+    <card qty="3" id="65f1f975-fa0d-4d72-96f1-10ecb85190db">Voice of Tru’nembra</card>
+    <card qty="2" id="86f38641-df06-40c8-8853-638fea005595">Melancholy</card>
+    <card qty="2" id="cf3e3ece-6aa7-43d1-bb9b-372ba6c1901e">Painful Reflection</card>
+    <card qty="1" id="128161fe-1d21-4a82-9c18-b633a2df44e5">La Comtesse</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="651dcc09-5555-4116-a5e7-1fc268f747ce">Lobby Doorway</card>
+    <card qty="1" id="4b6c39f1-489d-4865-a8c3-a06f501032d4">Lobby Doorway</card>
+    <card qty="1" id="5eb519b3-1c37-42fa-979f-85ee71f4d712">Lobby Doorway</card>
+    <card qty="1" id="340ddb9a-7839-4f14-97db-7283b1a4b9cb">Lobby Doorway</card>
+    <card qty="1" id="b883c3ab-1f79-4f66-8189-331f49eeed51">Backstage Doorway</card>
+    <card qty="1" id="b58d6e53-4dda-4a2a-9895-fafe78e0cb52">Backstage Doorway</card>
+    <card qty="1" id="54652fd6-0f52-419b-a56c-262587e974f4">Backstage Doorway</card>
+    <card qty="1" id="773f2e48-8685-4450-84b0-05aab8cdab15">Backstage Doorway</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="4f27752a-ef71-47c0-9b1e-2d4a192dd8af">Curtain Call</card>
+    <card qty="1" id="992edf59-e0ff-4e1c-bf46-656d35224f4a">Return to Curtain Call</card>
+    <card qty="1" id="9ea44e62-15f5-4a17-84e1-397faeed100a">Theatre</card>
+    <card qty="1" id="c30724d5-13d5-483e-9bc5-50e0a825100d">Lobby</card>
+    <card qty="1" id="e1d22038-00da-429e-930f-8ad7bf245bfe">Balcony</card>
+    <card qty="1" id="4d77df3a-b331-41c1-aacc-0b647595333f">Backstage</card>
+    <card qty="1" id="0b579bc9-d109-441d-a684-107bd0074f4c">The Man in the Pallid Mask</card>
+    <card qty="1" id="85b2ef57-9d11-41f7-a65b-a648df0c6870">Royal Emissary</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

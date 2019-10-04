@@ -1,0 +1,1006 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" id="5065b85b-3f4f-4072-a981-abb31b1e7633" name="Return to the Path to Carcosa" standalone="True" version="1.0.0" xmlns:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="dda6ee27-e9d1-458c-9e44-9e9c05cc0986" name=".32 Colt">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm." />
+      <property name="Text" value="Uses (6 ammo).η Spend 1 ammo: Fight. You deal +1 damage for this attack.θ Spend 1 resource: Return .32 Colt to your hand." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="ήή" />
+    </card>
+    <card id="c21457fa-89c3-4ab6-9f8c-e185f54350c9" name="“Eat lead!”">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic." />
+      <property name="Text" value="Fast. Play when you activate the Fight ability on a Firearm asset.Spend 1 additional ammo token from that asset. When you reveal chaos tokens for this attack, reveal 1 additional chaos token. Choose one to resolve and ignore the other." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="ήί" />
+    </card>
+    <card id="728d7391-7b94-49f6-b51a-53ae7212f992" name="Logical Reasoning">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="For each clue you have (to a maximum of 3), either heal 2 horror from an investigator at your location or discard a Terror card at your location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="3" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="άάά" />
+    </card>
+    <card id="1971a1d6-9883-4e9a-ab34-f814c9414338" name="Archaic Glyphs">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Archaic Glyphs (Untranslated), and only if “you have translated the glyphs” in your Campaign Log.Uses (3 charges).η Spend 1 charge: Investigate. If you succeed, you may put an asset with printed cost of X or lower into play from your hand. X is the amount you succeeded by." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="έή" />
+    </card>
+    <card id="50336e12-f86f-4473-919d-c204f4282784" name="Stealth">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="θ During your turn, exhaust Stealth: Evade. The chosen enemy gets –2 evade for this evasion attempt. If you successfully evade the enemy, disengage with it but do not exhaust it. Until the end of your turn, that enemy cannot engage you." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="ίί" />
+    </card>
+    <card id="a830a18b-0c79-4f02-b3de-c2bd2f1083ef" name="Suggestion">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges). If Suggestion has no charges, discard it.η Exhaust Suggestion: Evade. Add your [ά] value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="ά" />
+    </card>
+    <card id="75269548-4a48-4fbc-b974-5449610feb34" name="Alchemical Transmutation">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (4 charges).η Exhaust Alchemical Transmutation, spend 1 charge: Test [ά] (0). For each point you succeed by, gain 1 resource (to a maximum of 4). If a α, β, γ, δ, or ζ symbol is revealed during this test, take 1 damage." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="άέ" />
+    </card>
+    <card id="fbf08f85-baf9-4db3-a18e-31750bdffe4f" name="Storm of Spirits">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Fight. This attack uses [ά] instead of [ή]. You get +2 [ά] for this attack. If you succeed, instead of its standard damage, this attack deals 3 damage to each enemy at your location (any additional damage is dealt to the attacked enemy). If a α, β, γ, δ, or ζ symbol is revealed during this attack, deal 2 damage to each investigator at your location." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="άήή" />
+    </card>
+    <card id="675dd581-5708-485f-865a-dcd518ac7cfc" name="Lantern">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool." />
+      <property name="Text" value="η: Investigate. Your location gets –1 shroud for this investigation.η Discard Lantern: Deal 1 damage to an enemy at your location (or remove Lantern from the game to deal 2 damage, instead). This action does not provoke attacks of opportunity." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="έέ" />
+    </card>
+    <card id="21b12cda-3b0d-4c67-b9c7-8ba7a26033f5" name="Gravedigger’s Shovel">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool. Weapon. Melee." />
+      <property name="Text" value="η: Fight. You get +2 [ή] for this attack.η Discard Gravedigger’s Shovel: Discover 1 clue at your location (or remove Gravedigger’s Shovel from the game to discover 2 clues, instead)." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="ήή" />
+    </card>
+    <card id="58a1eddf-4958-4e7f-aea0-30c045452688" name="Unspeakable Oath (Bloodthirst)" size="EncounterCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Basic Weakness" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Madness. Pact." />
+      <property name="Text" value="Campaign Mode only. Peril. Hidden.Revelation – Secretly add this card to your hand.Forced – When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.ι When you deal damage to an enemy in excess of its remaining health: Discard this card from your hand." />
+    </card>
+    <card id="3a95f99d-79f5-45d3-b1e9-f1bd0159e116" name="Unspeakable Oath (Curiosity)" size="EncounterCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Basic Weakness" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Madness. Pact." />
+      <property name="Text" value="Campaign Mode only. Peril. Hidden.Revelation – Secretly add this card to your hand.Forced – When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.ι After you successfully investigate a location with no clues on it: Discard this card from your hand." />
+    </card>
+    <card id="83f6bbac-9c75-444b-b923-afed2c67532f" name="Unspeakable Oath (Cowardice)" size="EncounterCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Basic Weakness" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Madness. Pact." />
+      <property name="Text" value="Campaign Mode only. Peril. Hidden.Revelation – Secretly add this card to your hand.Forced – When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.η: Evade. Use only on an exhausted unengaged enemy at your location. If you succeed, discard this card from your hand." />
+    </card>
+    <card id="992edf59-e0ff-4e1c-bf46-656d35224f4a" name="Return to Curtain Call" size="EncounterCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Curtain Call" />
+      <property name="Type" value="Scenario" />
+      <property name="Traits" value="Return." />
+      <property name="Text" value="Perform the setup as indicated in The Path to Carcosa Campaign Guide, with the following exceptions:– When gathering encounter sets, also gather the new encounter sets for Return to Curtain Call shown here.– Construct the act deck using all six copies of Act 2a—“The Stranger.”" />
+      <alternate name="Return to Curtain Call" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Curtain Call" />
+        <property name="Type" value="Scenario" />
+        <property name="Traits" value="Return." />
+        <property name="Text" value="– Attach this card to Royal Emissary. It gains the following text:“This card cannot be detached from Royal Emissary (even if Royal Emissary leaves play).Forced – After Royal Emissary is added to the victory display: Place 1 resource on this card, as a warning.For each warning on this card, Royal Emissary gets +1π health.”" />
+      </alternate>
+    </card>
+    <card id="ed238e6a-e591-4c98-aaa9-44ffd35f7342" name="The Stranger" size="HorizCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Curtain Call" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – When The Man in the Pallid Mask would be discarded from play, advance." />
+      <alternate name="Alaran Mists" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Return to Curtain Call" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. Suddenly, his body dissolves into a vortex of silvery mist, which slams into your body and knocks you to the floor before whirling past you and spreading into the air.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 β and 1 γ token to the chaos bag.Place 1 horror on Backstage. Until the end of the scenario, horror on locations represents the creeping mist, and each location with horror gains: “Forced – When you would leave this location: Test [ά] (3). If you fail, you must either cancel the effects of the move or lose all remaining actions and end your turn after completing the effects of the move.”Keep this card next to the act deck as a reminder, and advance to act 3a." />
+      </alternate>
+    </card>
+    <card id="080cb3f3-a9dc-4938-ae4c-fdb1ee3fb56c" name="The Stranger" size="HorizCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Curtain Call" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – When The Man in the Pallid Mask would be discarded from play, advance." />
+      <alternate name="Under the City" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Return to Curtain Call" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. The ground shakes, and you hear an uproarious collapse from above as vines, tree roots, and alien overgrowth tear into the ceiling of the room. You turn back to the Stranger, but he is gone.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 β and 1 δ token to the chaos bag.Place 1 horror on the Balcony. Until the end of the scenario, horror on locations represents entangling overgrowth, and each location with horror gains: “Forced – After you leave this location: Test [ά] (4). If you fail, discard an Item or Ally asset you control (if you cannot, take 2 damage instead).”Keep this card next to the act deck as a reminder, and advance to act 3a." />
+      </alternate>
+    </card>
+    <card id="ee878704-4147-4543-b93c-d2b9b709115d" name="The Stranger" size="HorizCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Curtain Call" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – When The Man in the Pallid Mask would be discarded from play, advance." />
+      <alternate name="Here's My Reply" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Return to Curtain Call" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. Then he opens his mouth and out emerges the most horrifying sound you have ever heard. It is like the buzzing of a hundred locusts and the grating of rusted metal hide an even more terrible scream of pain and agony within. By the time you recover, the Stranger is gone.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 γ and 1 δ token to the chaos bag.Place 1 horror on the Lobby. Until the end of the scenario, horror on locations represents the awful screeching of the Stranger, and each location with horror gains: “Forced – After you enter this location or end your turn at this location: Test [ά] (2). If you fail, take 1 horror. (Limit once per round.)”Keep this card next to the act deck as a reminder, and advance to act 3a." />
+      </alternate>
+    </card>
+    <card id="340ddb9a-7839-4f14-97db-7283b1a4b9cb" name="Lobby Doorway" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Curtain Call" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Private." />
+      <alternate name="Theater Lounge" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Curtain Call" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Private." />
+        <property name="Text" value="Forced – After you reveal the Theatre Lounge: Shuffle the encounter discard pile into the encounter deck. Search the encounter deck for the 2 topmost hidden cards and secretly add both of those cards to your hand. Shuffle the encounter deck." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="773f2e48-8685-4450-84b0-05aab8cdab15" name="Backstage Doorway" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Curtain Call" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Private." />
+      <alternate name="Prop Shop" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Curtain Call" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Private." />
+        <property name="Text" value="While you are investigating Prop Shop, it gets –1 shroud for each horror on you.Forced – After you fail a skill test while investigating the Prop Shop: Take 1 horror." />
+        <property name="Shroud" value="7" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="128161fe-1d21-4a82-9c18-b633a2df44e5" name="La Comtesse" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Curtain Call" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Servitor." />
+      <property name="Text" value="Spawn – Balcony.Hunter.Forced – After you defeat La Comtesse: Place her in your hand, as a hidden card. While La Comtesse is in your hand, she gains: “La Comtesse counts as 4 cards instead of 1 while checking your hand size. Forced – After you discard 1 or more cards from your hand during the upkeep phase: Take 1 horror.”" />
+      <property name="Health" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="9574d23f-ddf8-44c8-af73-313db9a08cc5" name="Return to The Last King" size="EncounterCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Last King" />
+      <property name="Type" value="Scenario" />
+      <property name="Traits" value="Return." />
+      <property name="Text" value="Perform the setup as indicated in The Path to Carcosa Campaign Guide, with the following exceptions:– When gathering encounter sets, also gather the new encounter sets for Return to The Last King shown here.(continued on reverse side)." />
+      <alternate name="Return to The Last King" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to The Last King" />
+        <property name="Type" value="Scenario" />
+        <property name="Traits" value="Return." />
+        <property name="Text" value="– Remove Agenda 1a—“Fashionably Late” from the game and replace it with the new Agenda 1a—“Better Never Than Late.”– Remove the original Dianne Devine (Mercurial and Mischevious) from the game and replace it with the new version of Dianne Devine (Hiding an Oath Unspoken).– Place the 3 new “Sickening Reality” cards underneath the scenario reference card, along with the 5 original ones, for a total of 8.– Set the Shocking Display treachery aside, out of play." />
+      </alternate>
+    </card>
+    <card id="d4c38800-b7a5-4876-97a9-fc30895daad2" name="Better Never Than Late" size="HorizCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Last King" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="3" />
+      <alternate name="Guest of Honor" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Return to The Last King" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Find the Bystander asset with the fewest clues on it (among Bystander assets with at least one clue). Spawn the set-aside Dianne Devine asset at that asset’s location.Shuffle Shocking Display into the encounter deck, along with the encounter discard pile." />
+      </alternate>
+    </card>
+    <card id="b1dc5c6c-acd3-4996-96f4-0d6a1c07e860" name="Sickening Reality">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Last King" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="“It’s so good to see you again.” The woman in the yellow dress speaks fondly and quietly to one of the other VIPs, like they are old friends just seeing each other for the first time in years. Dianne’s voice is soothing at first, but there lies within it an undercurrent of something else—something primal, something menacing. “I trust you have held fast to our promise?” You don’t catch their reply, but Dianne’s smile spreads into a manic grin. Her skin begins to bubble and boil as though there is something hidden beneath the surface, threatening to escape. “Oh, is that so?” She turns directly toward you, her eyes ablaze with fury. “Is. That. So.”Each investigator at Dianne Devine’s location takes 1 horror.Flip this card to its enemy side, and switch it with the asset version of Dianne Devine, removing that version from the game." />
+      <alternate name="Dianne Devine" type="B">
+        <property name="Encounter Set" value="Return to The Last King" />
+        <property name="Subtitle" value="Knows What You're Up To" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Monster. Cultist. Lunatic. Elite." />
+        <property name="Text" value="Prey – Most clues.Hunter.Dianne Devine gets +3π health.Forced – After any investigator performs a parley action: Move Dianne Devine once toward that investigator.Victory 1." />
+        <property name="Health" value="3" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="2" />
+        <property name="Unique" value="ο" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="1" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="e7deb5b0-ea71-4bb9-9642-a86455b2b3cf" name="Sickening Reality">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to The Last King" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="If there are no Party Guests in play, place this card back underneath the scenario reference card and randomly choose a new Sickening Reality card to resolve. Otherwise, read the following:A chorus of laughter erupts nearby as one of the guests dances to the bizarre music. You head over to discover what is so funny, but what you find is no laughing matter at all. The guest’s dance partner lies sprawled on the floor, limp and bloodied, a gaping, gory hole in their chest. The guest turns to you with a disturbing look in their eye and a wicked grin spreading on their lips.Choose a Party Guest in play. Each investigator at that Party Guest’s location takes 1 damage.Place 1 doom on the current agenda.Flip this card to its enemy side, and switch it with the chosen version of Party Guest, removing that version from the game." />
+      <alternate name="Crazed Guest" type="B">
+        <property name="Encounter Set" value="Return to The Last King" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Monster. Lunatic." />
+        <property name="Text" value="Hunter.η: Parley. Test [έ] (4). If you succeed, you manage to get through to them for just a moment; automatically evade Crazed Guest. If you fail, your words fall on deaf ears.Victory 0." />
+        <property name="Health" value="5" />
+        <property name="Combat" value="3" />
+        <property name="Agility" value="4" />
+        <property name="Damage" value="1" />
+        <property name="Victory Points" value="0" />
+      </alternate>
+    </card>
+    <card id="4f06397a-07e8-466e-bea7-75105866723e" name="Dianne Devine">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Last King" />
+      <property name="Subtitle" value="Hiding an Oath Unspoken" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Cultist." />
+      <property name="Text" value="Each investigator at Dianne Devine's location cannot discover or take control of clues.Forced – At the beginning of the enemy phase: Find the Bystander asset with the fewest clues on it (among Bystander assets with at least one clue). Move Dianne Devine to that asset's location, if able." />
+      <property name="Level" value="0" />
+      <property name="Cost" value="–" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="adab407b-a429-4346-bc1f-ca2c3d8d54bf" name="Party Guest">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to The Last King" />
+      <property name="Type" value="Asset" />
+      <property name="Text" value="Revelation – Find the Bystander asset with the most clues on it, and put Party Guest into play at that asset’s location.Investigators cannot parley with Bystander assets at Party Guest’s location.η Spend 2 resources: Parley. Move Party Guest to a connecting location." />
+      <property name="Level" value="0" />
+      <property name="Cost" value="–" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1abe5d84-9016-4120-a83f-c7592c79e708" name="Shocking Display" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Last King" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Randomly resolve one of the Sickening Reality cards underneath the scenario reference card. Cannot be canceled." />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="231ee1da-c210-4b30-b6ea-fab37bf016df" name="Return to Echoes of the Past" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Echoes of the Past" />
+      <property name="Type" value="Scenario" />
+      <property name="Traits" value="Return." />
+      <property name="Text" value="Perform the setup as indicated in The Path to Carcosa Campaign Guide, with the following exceptions:– When gathering encounter sets, also gather the new encounter sets for Return to Echoes of the Past shown here.Return to Echoes of the PastDelusions --&gt; Maddening Delusions– Randomly choose one Basement Historical Society location and remove it from the game, without looking at its revealed side.(continued on reverse side)." />
+      <alternate name="Return to Echoes of the Past" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Echoes of the Past" />
+        <property name="Type" value="Scenario" />
+        <property name="Traits" value="Return." />
+        <property name="Text" value="– When putting locations into play, put all 3 copies of Quiet Halls into play, along with the remaining 8 Historical Society locations. (The 3 Basement locations should be placed to form a bottom row below the 3 Ground Floor locations.)– Set both Keeper of the Oath enemies aside, out of play.————————————————For the duration of this scenario, the following additional rule applies:“Forced – After the investigators advance to act 2 or act 3: Spawn a set‑aside Keeper of the Oath in any empty Historical Society location.”Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="57b91f8f-a917-4e08-b98d-0fee50b4d17a" name="Quiet Halls" size="EncounterCard">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Echoes of the Past" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Basement." />
+      <property name="Text" value="Entry Hall is connected to Quiet Halls.Quiet Halls is connected to each other Basement location." />
+      <alternate name="Quiet Halls" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Echoes of the Past" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Basement." />
+        <property name="Text" value="Entry Hall is connected to Quiet Halls.Quiet Halls is connected to each other Basement location.η If each location in play is revealed and there are no clues on locations in play: Place 1π clues on Quiet Halls (from the token bank)." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="2f8afca9-39c3-47d7-b3e5-d808d7295e8b" name="Historical Society" size="EncounterCard">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Echoes of the Past" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Basement." />
+      <property name="Text" value="Forced – When an enemy spawns at this location: Reveal this location." />
+      <alternate name="Historical Society" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Echoes of the Past" />
+        <property name="Subtitle" value="Dusty Archives" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Basement. Passageway." />
+        <property name="Text" value="While you have at least 1 hidden card in your hand, you cannot investigate this location." />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="3f365f4d-9dfb-4f71-a5e2-9f05f6265461" name="Historical Society" size="EncounterCard">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Echoes of the Past" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Basement." />
+      <property name="Text" value="Forced – When an enemy spawns at this location: Reveal this location." />
+      <alternate name="Historical Society" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Echoes of the Past" />
+        <property name="Subtitle" value="Museum Storage" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Basement. Passageway." />
+        <property name="Text" value="Forced – When you investigate this location, if there is at least 1 Cultist enemy in play: This location gets –3 shroud for this investigation. If a α, β, γ, δ, or ζ symbol is revealed during this test, move 1 clue from this location to the Cultist enemy farthest from you (before resolving the effects of the test)." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="0fcd3a8c-9791-4b7c-8f29-ab196bb68c89" name="Historical Society" size="EncounterCard">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Echoes of the Past" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Basement." />
+      <property name="Text" value="Forced – When an enemy spawns at this location: Reveal this location." />
+      <alternate name="Historical Society" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Echoes of the Past" />
+        <property name="Subtitle" value="Boiler Room" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Basement." />
+        <property name="Text" value="Forced – After you discover 1 or more clues at this location: One at a time, draw that many cards from the top of the encounter deck." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="325e4ee7-b616-4be6-8480-676eb04d6b70" name="Keeper of the Oath" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to Echoes of the Past" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="While the number of the current act is greater than the number of the current agenda, Keeper of the Oath gains hunter.Forced – At the end of the enemy phase: Find each investigator whose location shares a Trait with Keeper of the Oath’s location. Move 1 clue from each of those investigators to Keeper of the Oath." />
+      <property name="Health" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="93647b3d-a617-4d81-a5ff-ec5fcc8009d6" name="Return to The Unspeakable Oath" size="EncounterCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+      <property name="Type" value="Scenario" />
+      <property name="Traits" value="Return." />
+      <property name="Text" value="Perform the setup as indicated in The Path to Carcosa Campaign Guide, with the following exceptions:– When gathering encounter sets, also gather the new encounter sets for Return to The Unspeakable Oath shown here.(continued on reverse side)." />
+      <alternate name="Return to The Unspeakable Oath" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+        <property name="Type" value="Scenario" />
+        <property name="Traits" value="Return." />
+        <property name="Text" value="– Set the Host of Insanity enemy and the Radical Treatment treachery aside, out of play.– When determining which version of act 2 to use, do not follow the original setup instructions. Instead, remove the original versions of act 2 from the game, and check the Campaign Log. If you have more (or equal) Conviction than Doubt, use the new Act 2—“The Really Bad Ones” (v. III). If you have more Doubt than Conviction, use the new Act 2—“The Really Bad Ones” (v. IV)." />
+      </alternate>
+    </card>
+    <card id="02f2a6de-adc7-4d1e-bc5f-c09dda6946ef" name="“The Really Bad Ones” (v. III)" size="HorizCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Ignore the text on the unrevealed side of Arkham Asylum locations.Objective – Find the Patient Confinement location with Daniel Chesterfield. (It will instruct you when to advance.)" />
+      <alternate name="The Tale Retold" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="When you enter his cell, you find Daniel huddled in a corner of the room, sobbing and rocking back and forth on the ground. “No mask, no mask…” he stammers over and over. You help him to his feet and ask him what he remembers about The King in Yellow, but he interrupts you. “I already told you!” he exclaims frantically, his eyes wide with a yellow glow. “Don’t you remember? The last time you came here?” His words make no sense. You’ve only just arrived here…haven’t you? “No, no, no…” The man stammers, falling backward onto the dirty cot in the corner of his room. “It will never end. It will never end until HE is gone for good, and he will never be gone so long as you are here! Get me out! I want out—” Daniel screams for help, but the only response is the creature that suddenly emerges from beneath his cot. Before you can react, its tendrils have wrapped around his body, devouring him whole. His final screams are muffled by the creature’s enormity.Spawn the set-aside Host of Insanity at Patient Confinement (Daniel’s Cell). Shuffle the encounter discard pile and each enemy beneath the act deck into the encounter deck." />
+      </alternate>
+    </card>
+    <card id="4c4d5948-c18f-4ef8-9e9a-c4675e7b1e4a" name="“The Really Bad Ones” (v. IV)" size="HorizCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Ignore the text on the unrevealed side of Arkham Asylum locations.Objective – Find the Patient Confinement location with Daniel Chesterfield. (It will instruct you when to advance.)" />
+      <alternate name="Again and Again" size="HorizCard" type="B">
+        <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="When you enter Daniel’s cell, you see him sitting on a chair facing the corner of his room. He is scrawling something on the wall, his expression calm. No, not calm—almost devoid of emotion entirely. You ask him what he knows of The King in Yellow, and though he does not speak, you spot his reply written on the wall: “We both know how this ends.” Dumbfounded, you check the rest of his room. There are similar messages along the wall: “You already know of the oath,” “The price has been paid,” “The path has been opened again and again.” None of it makes any sense, but your instincts warn you there is more truth in these messages than there is lunacy. You help Daniel to his feet and try to usher him out of the room, hoping there is something you can do to help him.Choose an investigator at Patient Confinement (Daniel's Cell). Put the set-aside Daniel Chesterfield card (asset side faceup) into play under that investigator's control. Then, attach the set-aside Radical Treatment treachery to Daniel Chesterfield.Shuffle the encounter discard pile and each enemy beneath the act deck into the encounter deck." />
+      </alternate>
+    </card>
+    <card id="7bff9aef-4520-49e7-b08f-3c866858f21f" name="Host of Insanity" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Avatar. Elite." />
+      <property name="Text" value="Massive. Hunter.Host of Insanity gets +2π health.η If you control Clasp of Black Onyx: Parley. You reveal the clasp to the creature. It freezes in place, whispering a garbled prayer. Automatically evade Host of Insanity." />
+      <property name="Health" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="00f4d48d-279f-4b50-9786-f3ce2af21c75" name="Radical Treatment" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+      <property name="Type" value="Treachery" />
+      <property name="Text" value="Forced – At the end of the round: Daniel Chesterfield’s controller takes 2 horror.η If you are at Infirmary: Test [ά] or [έ] (6). If you succeed, detach Radical Treatment and add it to the victory display. If you control Clasp of Black Onyx, reduce the difficulty of this test by 3." />
+    </card>
+    <card id="e699fa44-127e-4841-bd59-c5e13eb47547" name="Clouded Memory" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Unspeakable Oath" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Peril.Revelation – You must either (choose one):— Forget something an investigator has “remembered” from an ability on a location (It is no longer true.)— Take 1 horror and Clouded Memory gains surge." />
+    </card>
+    <card id="55a9ec70-7ee3-440e-bb65-f5bd3bb0cbd8" name="Return to A Phantom of Truth" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to A Phantom of Truth" />
+      <property name="Type" value="Scenario" />
+      <property name="Traits" value="Return." />
+      <property name="Text" value="Perform the setup as indicated in The Path to Carcosa Campaign Guide, with the following exceptions:– When gathering encounter sets, also gather the new encounter sets for Return to A Phantom of Truth shown here.– Randomly choose 1 of the 2 Montparnasse locations, 1 of the 2 Grand Guignol locations, 1 of the 2 Père Lachaise Cemetery locations...(continued on reverse side)." />
+      <alternate name="Return to A Phantom of Truth" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to A Phantom of Truth" />
+        <property name="Type" value="Scenario" />
+        <property name="Traits" value="Return." />
+        <property name="Text" value="...1 of the 2 Canal Saint-Martin locations, 1 of the 2 Notre-Dame locations, and 1 of the 2 Gardens of Luxembourg locations. Put those locations into play. Remove the other versions of those locations from the game.– Set both copies of Figure in the Shadows aside, out of play.For the duration of this scenario, the following additional rules apply:“Forced – After The Organist enters play: Shuffle both set-aside copies of Figure in the Shadows into the encounter deck, along with the encounter discard pile.”Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="a029b3dd-be49-4200-bb7a-e9135f261517" name="Montparnasse" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to A Phantom of Truth" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Paris. Rail." />
+      <alternate name="Montparnasse" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to A Phantom of Truth" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Paris. Rail." />
+        <property name="Text" value="Forced – After you discover any number of clues from Montparnasse: Discard cards from your hand with that many [ά] icons among them. If you cannot, take 1 horror." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b5186fd0-6adb-43be-ad2e-796edd4c2e56" name="Grand Guignol" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to A Phantom of Truth" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Paris." />
+      <alternate name="Grand Guignol" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to A Phantom of Truth" />
+        <property name="Subtitle" value="Theater of the Great Puppet" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Paris." />
+        <property name="Text" value="η Spend 5 resources: Either place 1 doom on the current agenda, or remove 1 doom from the current agenda. (Group limit once per game.)" />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="40658768-c2ba-4232-9cef-77b9a3af790b" name="Père Lachaise Cemetery" size="EncounterCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to A Phantom of Truth" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Paris." />
+      <alternate name="Père Lachaise Cemetery" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to A Phantom of Truth" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Paris." />
+        <property name="Text" value="Forced – After an enemy moves into Père Lachaise Cemetery: It gets +1 horror value for the remainder of the round." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="510420f2-b898-4467-a629-53afd946afab" name="Canal Saint-Martin" size="EncounterCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to A Phantom of Truth" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Paris." />
+      <alternate name="Canal Saint-Martin" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to A Phantom of Truth" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Paris." />
+        <property name="Text" value="While you are at Canal Saint-Martin, you must use your [ή] in place of your [ί], and vice versa." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="a5b23b78-76ae-44d6-af03-b85e049c42a8" name="Notre-Dame" size="EncounterCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to A Phantom of Truth" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Paris. Rail." />
+      <alternate name="Notre-Dame" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to A Phantom of Truth" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Paris. Rail." />
+        <property name="Text" value="Each enemy at Notre-Dame gets +1 fight and –1 evade.ι After you successfully evade an enemy at Notre-Dame by 3 or more during your turn: You may take an additional action this turn. (Group limit once per round.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="db11be44-746d-4519-8fa9-4379b3d6d64d" name="Gardens of Luxembourg" size="EncounterCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to A Phantom of Truth" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Paris." />
+      <alternate name="Gardens of Luxembourg" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to A Phantom of Truth" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Paris." />
+        <property name="Text" value="Forced – After you enter Gardens of Luxembourg, if there is at least 1 Byakhee enemy in play: Reveal a random token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, each Byakhee enemy in play readies and moves to Gardens of Luxembourg." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="ba4ba157-edcd-44b7-837c-ad24791198bc" name="Figure in the Shadows" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to A Phantom of Truth" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Check Campaign Log. —If you have more (or equal) Doubt than Conviction, move The Organist 1 location away from the nearest investigator (to a location with no investigators, if possible).—If you have more Conviction than Doubt, resolve The Organist’s hunter keyword." />
+    </card>
+    <card id="248211c0-ccc3-483b-be2b-f8ab7dbf4aab" name="Return to The Pallid Mask" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Pallid Mask" />
+      <property name="Type" value="Scenario" />
+      <property name="Traits" value="Return." />
+      <property name="Text" value="Perform the setup as indicated in The Path to Carcosa Campaign Guide, with the following exceptions:– When gathering encounter sets, also gather the new encounter set for Return to The Pallid Mask shown here.– When building the Catacombs deck, first set aside the Tomb of Shadows and the Blocked Passage, as normal. – Next, add the 4 new Catacombs locations included in this encounter set with the remaining Catacombs locations, and determine your starting location, as normal.(continued on reverse side)." />
+      <alternate name="Return to The Pallid Mask" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to The Pallid Mask" />
+        <property name="Type" value="Scenario" />
+        <property name="Traits" value="Return." />
+        <property name="Text" value="– Next, randomly choose 4 Catacombs locations and remove them from the game, without looking at them.– Build the remainder of the Catacombs deck as normal.————————————————For the duration of this scenario, the following additional rules apply:“For the purposes of Corpse Dweller’s spawn ability, The Man in the Pallid Mask does not count as a Humanoid enemy. While it is act 2, The Man in the Pallid Mask cannot leave the Tomb of Shadows.”Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="a8346d67-56f5-4e01-b6c6-05b3d94af71b" name="Catacombs" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Pallid Mask" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group." />
+      <alternate name="Secret Passage" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to The Pallid Mask" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η If you control Clasp of Black Onyx: You place the clasp within the skull’s eye socket, and the passage opens. Reveal the Catacombs location to the right of Secret Passage.Forced – When Secret Passage is revealed: Put the topmost Catacombs in the Catacombs deck into play to the right of Secret Passage." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="2e578c6b-6f8c-4bdb-a354-2d5cb006dbae" name="Catacombs" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Pallid Mask" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group." />
+      <alternate name="Mound of Bones" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to The Pallid Mask" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="Forced – When Mound of Bones is revealed: Put the top 4 Catacombs in the Catacombs deck into play above, below, to the left, and to the right of Mound of Bones. At the end of the current round, search the encounter deck and discard pile for a Malformed Skeleton and spawn it at Mound of Bones." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="701f9dc7-e50f-41f7-a8b0-3419326eba09" name="Catacombs" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Pallid Mask" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group." />
+      <alternate name="Research Site" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to The Pallid Mask" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="ι After you successfully investigate Research Site: Reveal any Catacombs location. (Group limit once per game.)Forced – When Research Site is revealed: Put the topmost Catacombs in the Catacombs deck into play above, below, or to the right of any other location." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="99ad3268-dc50-4b4f-95d8-57c27cf5fbae" name="Catacombs" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Pallid Mask" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="As an additional cost for you to enter Catacombs, investigators at your location must spend 1π clues, as a group." />
+      <alternate name="Sea of Skulls" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to The Pallid Mask" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="Forced – After you end your turn at Sea of Skulls: You must either take 1 direct horror or choose and discard 3 cards from your hand.Forced – When Sea of Skulls is revealed: Put the topmost Catacombs in the Catacombs deck into play above, below, or to the right of the location farthest from Sea of Skulls and mark it with a horror token. For the remainder of the game, Sea of Skulls is connected to the marked location." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="2f8567af-14d2-41cc-8eed-8ade21a30dc7" name="Malformed Skeleton" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Pallid Mask" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster." />
+      <property name="Text" value="Hunter.Forced – When Malformed Skeleton would resolve its hunter keyword: If there are no investigators within 2 locations of Malformed Skeleton, instead of resolving its hunter keyword, move it to the Catacombs location nearest to an investigator.Forced – When Malformed Skeleton attacks you: It deals either its damage or its horror, instead of both." />
+      <property name="Health" value="4" />
+      <property name="Damage" value="3" />
+      <property name="Horror" value="3" />
+    </card>
+    <card id="5f4a731f-7586-4e59-af24-f6d1a72027aa" name="Return to Black Stars Rise" size="EncounterCard">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Black Stars Rise" />
+      <property name="Type" value="Scenario" />
+      <property name="Traits" value="Return." />
+      <property name="Text" value="Perform the setup as indicated in The Path to Carcosa Campaign Guide, with the following exceptions:– When gathering encounter sets, also gather the new encounter sets for Return to Black Stars Rise shown here.(continued on reverse side)." />
+      <alternate name="Return to Black Stars Rise" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Black Stars Rise" />
+        <property name="Type" value="Scenario" />
+        <property name="Traits" value="Return." />
+        <property name="Text" value="– Sort each copy of Cloister and Knight’s Hall into two piles, based on the encounter set icon on their reverse side. One pile should consist of the original versions of Cloister and Knight’s Hall, the other should consist of the new versions included in this encounter set. Flip each pile over so only the Black Stars Rise encounter set icon is showing. Randomize the two piles so you cannot tell which is which. Choose one pile at random to remove from the game and one pile at random to use throughout this scenario’s setup." />
+      </alternate>
+    </card>
+    <card id="f454e1fe-8169-4909-9c83-31ba37773e63" name="Cloister" size="EncounterCard">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Black Stars Rise" />
+      <property name="Type" value="Location" />
+      <alternate name="Cloister" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Black Stars Rise" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η If there are no clues on Cloister: Parley. Test [ά] or [έ] (4). If you succeed, remember that you have “found the tower key.”" />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="76a049da-5d39-419e-b38a-ed64382f1a9a" name="Knight’s Hall" size="EncounterCard">
+      <property name="Card Number" value="56" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Black Stars Rise" />
+      <property name="Type" value="Location" />
+      <alternate name="Knight’s Hall" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Black Stars Rise" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η If there are no clues on Knight’s Hall: Test [ή] or [ί] (3). If you succeed, remember that you have “found a guide.”" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="3da8ecad-349a-499a-aadf-35f7979760bc" name="Hastur’s Gaze" size="EncounterCard">
+      <property name="Card Number" value="57" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Black Stars Rise" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add Hastur’s Gaze to your hand.Forced – After 1 or more doom is placed on the “c” agenda: Take 2 horror and discard Hastur’s Gaze from your hand." />
+    </card>
+    <card id="8fc30854-8538-4485-aeb8-6348527e3cfd" name="Hastur’s Grasp" size="EncounterCard">
+      <property name="Card Number" value="58" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Black Stars Rise" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add Hastur’s Grasp to your hand.Forced – After 1 or more doom is placed on the “a” agenda: Take 2 damage and discard Hastur’s Grasp from your hand." />
+    </card>
+    <card id="f4acc208-4c76-44f7-acaf-fb94a6ccb409" name="Return to Dim Carcosa" size="EncounterCard">
+      <property name="Card Number" value="59" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Dim Carcosa" />
+      <property name="Type" value="Scenario" />
+      <property name="Traits" value="Return." />
+      <property name="Text" value="Perform the setup as indicated in The Path to Carcosa Campaign Guide, with the following exceptions:– When gathering encounter sets, also gather the new encounter sets for Return to Dim Carcosa shown here.(continued on reverse side)." />
+      <alternate name="Return to Dim Carcosa" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Dim Carcosa" />
+        <property name="Type" value="Scenario" />
+        <property name="Traits" value="Return." />
+        <property name="Text" value="– Remove the original Palace of the King location from the game and replace it with the new Palace of the King (Hastur’s Domain). Proceed with location setup as normal.– Set the following new locations aside, out of play: Recesses of Your Own Mind, The Throne Room, and Stage of the Ward Theatre.For the duration of this scenario, the following additional rules apply:“Hastur’s health cannot be reduced to less than 2  unless any investigator ‘knows the secret.’”Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="38782f64-766a-4790-ba9f-41bc23e70b70" name="Palace of the King" size="EncounterCard">
+      <property name="Card Number" value="60" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Dim Carcosa" />
+      <property name="Subtitle" value="Hastur's Domain" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <property name="Text" value="Palace of the King cannot be flipped over while Hastur has more than 2π remaining health." />
+      <property name="Shroud" value="1" />
+      <property name="Clues" value="1π" />
+      <alternate name="Hastur's Last Stand" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Dim Carcosa" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="You stand before the palace of the King. Hastur’s incessant whispering fills your mind, and you find it difficult to block his poisonous words from your thoughts. Seeing the palace in all its spectacle and glory, you realize its true nature. You know now what you must do.The doors to the palace open.Check Campaign Log:– If Hastur (The King in Yellow) is the version of Hastur that is in play: Put the set-aside Recesses of Your Own Mind location into play.– If Hastur (Lord of Carcosa) is the version of Hastur that is in play: Put the set-aside The Throne Room location into play. Move Hastur to The Throne Room.– If Hastur (The Tattered King) is the version of Hastur that is in play: Put the set-aside Stage of the Ward Theatre location into play.Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
+      </alternate>
+    </card>
+    <card id="0060fdb9-d8d0-4ee5-ac53-f031c5af1229" name="Recesses of Your Own Mind" size="EncounterCard">
+      <property name="Card Number" value="61" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Dim Carcosa" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="???." />
+      <property name="Text" value="While you are in the Recesses of Your Own Mind, set the base value of your [ά] to 0.Each investigator at Recesses of Your Own Mind is considered to be at a different copy of Recesses of Your Own Mind for the purposes of player card effects and committing cards to each other’s skill tests." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="2π" />
+      <alternate name="The Writer" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Dim Carcosa" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="You invented all of this, but that does not mean it is not real. It is the will of the Writer that makes it so. The stroke of a pen. The press of ink on paper. You hold within you the power to change your own fate. You are the author of your own demise.Remember that you “know the secret.”Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
+      </alternate>
+    </card>
+    <card id="33476df1-b91b-4113-b850-bd6be388b9df" name="The Throne Room" size="EncounterCard">
+      <property name="Card Number" value="62" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Dim Carcosa" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <property name="Text" value="Hastur cannot leave The Throne Room.Hastur cannot be exhausted.Hastur cannot make attacks of opportunity." />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="2π" />
+      <alternate name="The Entity" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Dim Carcosa" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="The king and the throne are one and the same. It is his seat of power and his final resting place.Remember that you “know the secret.”Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
+      </alternate>
+    </card>
+    <card id="9218c964-2ee4-4851-8e67-fc66c9ec9d7e" name="Stage of the Ward Theatre" size="EncounterCard">
+      <property name="Card Number" value="63" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Dim Carcosa" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="While Hastur is moving, if there is an investigator at Stage of the Ward Theatre, Hastur’s location is considered to be connected to Stage of the Ward Theatre.While you are at Stage of the Ward Theatre, you cannot attack Hastur." />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="2π" />
+      <alternate name="The Delusion" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="Return to Dim Carcosa" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="The crowd’s applause is thundering. Ceaseless. Your heart is filled with overflowing joy and accomplishment.The show must go on.Remember that you “know the secret.”Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
+      </alternate>
+    </card>
+    <card id="69f8a2a8-6d13-469e-a1e6-e7fe5d67b1e3" name="High Priest of Hastur" size="EncounterCard">
+      <property name="Card Number" value="64" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Dim Carcosa" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Elite." />
+      <property name="Text" value="Spawn – Palace of the King.Prey – Most cards in hand.Hunter.Forced – When High Priest of Hastur attacks you, if you have a copy of Possession in your hand: Reveal it. The high priest welcomes you into the grand company of the King. You are eliminated and driven insane." />
+      <property name="Health" value="4" />
+      <property name="Damage" value="0" />
+      <property name="Horror" value="0" />
+    </card>
+    <card id="d0d21e8a-6b3d-4d64-8348-f04d7578da6d" name="Delusory Evils" size="EncounterCard">
+      <property name="Card Number" value="65" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Delusory Evils" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Peril. Hidden.Revelation – You must either secretly add Delusory Evils to your hand, or place 1 doom on the current agenda and discard Delusory Evils (this effect may cause the current agenda to advance).Forced – When you would succeed at a skill test by 3 or more: You automatically fail, instead. Discard Delusory Evils from your hand." />
+    </card>
+    <card id="e976fc08-49cb-4acb-9e06-e23ab0509495" name="Bleeding Walls" size="EncounterCard">
+      <property name="Card Number" value="66" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Decaying Reality" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test [ά] (X). X is the shroud value of your location. If you fail, lose 1 action and take 1 horror." />
+    </card>
+    <card id="587caf33-f9e6-4a11-a93a-d484c7f989f6" name="Fragile Thoughts" size="EncounterCard">
+      <property name="Card Number" value="67" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Decaying Reality" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Discard events from your hand with a total printed resource cost of at least X, where X is the shroud value of your location. If no cards are discarded by this effect, Fragile Thoughts gains surge." />
+    </card>
+    <card id="f591f043-247d-400d-b946-2e0d36d6c324" name="Maggot Swarm" size="EncounterCard">
+      <property name="Card Number" value="68" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Decaying Reality" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Creature." />
+      <property name="Text" value="Maggot Swarm’s location gets +2 shroud.While Maggot Swarm is at a location with no clues, it gains hunter." />
+      <property name="Health" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="0af88fd1-b8f4-4369-949e-e45e52f45c66" name="Preying Byakhee" size="EncounterCard">
+      <property name="Card Number" value="69" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Hastur’s Envoys" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Byakhee." />
+      <property name="Text" value="Prey – Lowest remaining sanity only.Hunter.While engaged with an investigator with remaining sanity 4 or fewer, swap Preying Byakhee’s fight and evade values." />
+      <property name="Health" value="3" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="03659f75-41b7-401f-8f90-b5f706c8a7a2" name="The Sign of Hastur" size="EncounterCard">
+      <property name="Card Number" value="70" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Hastur’s Envoys" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Pact. Power." />
+      <property name="Text" value="Peril.Revelation – Attach The Sign of Hastur to either the current agenda or the current act.Limit 1 per agenda/act. Forced – Each time an investigator takes 1 or more horror: He or she takes 1 additional horror." />
+    </card>
+    <card id="a03995c7-7994-4221-a4c7-5af0844a4007" name="Visions in Your Mind (Horrors)" size="EncounterCard">
+      <property name="Card Number" value="71" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Maddening Delusions" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.Forced – When your turn ends, if you did not perform at least 1 play action during your turn: Discard this card from your hand and take 1 direct damage and 1 direct horror." />
+    </card>
+    <card id="7c12a4da-e103-4890-9575-aa26dfefdbed" name="Visions in Your Mind (Failure)" size="EncounterCard">
+      <property name="Card Number" value="72" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Maddening Delusions" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.Forced – When your turn ends, if you did not perform at least 1 resource action during your turn: Discard this card from your hand and take 1 direct damage and 1 direct horror." />
+    </card>
+    <card id="af4d8b75-5694-4522-85ea-75627ccaebc4" name="Visions in Your Mind (Death)" size="EncounterCard">
+      <property name="Card Number" value="73" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Maddening Delusions" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.Forced – When your turn ends, if you did not perform at least 1 move action during your turn: Discard this card from your hand and take 1 direct damage and 1 direct horror." />
+    </card>
+    <card id="6ee148c1-1e3a-4573-b541-4e08b7abffd8" name="Visions in Your Mind (Hatred)" size="EncounterCard">
+      <property name="Card Number" value="74" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Maddening Delusions" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.Forced – When your turn ends, if you did not perform at least 1 draw action during your turn: Discard this card from your hand and take 1 direct damage and 1 direct horror." />
+    </card>
+    <card id="2a950237-eb1b-4e23-ad24-16034a4995fb" name="Maddening Delusions" size="EncounterCard">
+      <property name="Card Number" value="75" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Maddening Delusions" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Surge.Revelation – If you have 1 or more hidden cards in your hand, take 1 horror." />
+    </card>
+    <card id="65f1f975-fa0d-4d72-96f1-10ecb85190db" name="Voice of Tru’nembra" size="EncounterCard">
+      <property name="Card Number" value="76" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Neurotic Fear" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Peril.Revelation – Test [ά] (3). For each point you fail by, you must choose a different option: – Lose 2 resources.– Take 1 horror.– Get –2 to the next skill test you perform this round." />
+    </card>
+    <card id="86f38641-df06-40c8-8853-638fea005595" name="Melancholy" size="EncounterCard">
+      <property name="Card Number" value="77" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Neurotic Fear" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Put Melancholy into play in your threat area.Increase the resource cost of each card in your hand by 1.Forced – At the end of your turn: Test [ά] (3). If you succeed, discard Melancholy." />
+    </card>
+    <card id="cf3e3ece-6aa7-43d1-bb9b-372ba6c1901e" name="Painful Reflection" size="EncounterCard">
+      <property name="Card Number" value="78" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Neurotic Fear" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Put Painful Reflection into play in your threat area.Forced – When you play an event: Reveal a random token from the chaos bag. If it is a α, β, γ, δ, or ζ token, cancel that event, take 1 horror, and discard Painful Reflection." />
+    </card>
+  </cards>
+</set>

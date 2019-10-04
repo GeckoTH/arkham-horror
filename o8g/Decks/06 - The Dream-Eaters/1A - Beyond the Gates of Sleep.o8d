@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="19db1533-dc1f-4aab-9293-ee128a21942a">Journey through the Gates</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="c03e0c7a-2438-4076-a38a-2d0b55e09852">Entering the Dreamlands</card>
+    <card qty="1" id="39840699-d759-44b3-82b1-b0024b4b4541">The Trial of Nasht and Kaman-Thah</card>
+    <card qty="1" id="423e507f-9941-4705-9fd9-efc3532672e6">The Final Descent</card>
+    <card qty="1" id="44ae8fdc-0fac-4f5e-9c92-9c7491ddd28e">The Path</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="d9a89d23-506c-4212-8186-2845e5f45ce4">Ancient Zoog</card>
+    <card qty="2" id="f373d406-2b86-46e0-b590-5e61470413e5">Lost in the Woods</card>
+    <card qty="1" id="8dcf798d-3cc6-49f1-b5be-8041be031dff">The Crawling Mist</card>
+    <card qty="1" id="3471373e-4939-4820-aad3-4615d261e2b1">Law of 'Ygiroth (Chaos)</card>
+    <card qty="1" id="618b2af7-8ee7-4a18-b409-33913a332cd0">Law of 'Ygiroth (Discord)</card>
+    <card qty="1" id="b1a94ce4-a4ab-49f1-be9f-3c29b2e070bc">Law of 'Ygiroth (Pandemonium)</card>
+    <card qty="2" id="16a6c6ee-a522-409c-ab5b-24ea270ed93e">Furtive Zoog</card>
+    <card qty="2" id="f145c66b-10dc-4c73-8bef-6e1db1b64ad1">Stealthy Zoog</card>
+    <card qty="1" id="26117838-1d10-486b-9549-c84fd3c0dba3">Inconspicuous Zoog</card>
+    <card qty="1" id="9a58c546-0f45-43f4-aaba-e96333c6ecdb">Zoog Burrow</card>
+    <card qty="2" id="aacf5498-11ae-4db5-ab5f-776aba8dd70e">Dreamer’s Curse</card>
+    <card qty="2" id="772b2236-afbd-41e5-9890-06e3527855fb">Somniphobia</card>
+    <card qty="2" id="d6249d61-f97f-4001-95c3-eb4d61bf6f48">Deeper Slumber</card>
+    <card qty="2" id="9b5a9f67-d71a-4b7e-9a21-7e6e9cee5dd8">Dreamlands Eclipse</card>
+    <card qty="2" id="e3b020cb-ecc8-4b62-9651-8dfb92f3a6f9">Prismatic Phenomenon</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="41e0c975-ed98-437d-8855-f8397975946e">Seven Hundred Steps</card>
+    <card qty="1" id="b0fe58f5-2862-4416-805f-2102d2ed1414">Base of the Steps</card>
+    <card qty="1" id="e8feb11b-4906-4db9-b4b6-a007406803a4">The Enchanted Path</card>
+    <card qty="1" id="2a7a36b4-7beb-4ffa-a57a-2e65e60726ea">Enchanted Woods</card>
+    <card qty="1" id="58b6b162-8187-4687-bf9c-dc822abe43fe">Enchanted Woods</card>
+    <card qty="1" id="8b505996-0602-403a-8795-46597186eb0f">Enchanted Woods</card>
+    <card qty="1" id="981cee7c-c262-4c5c-a417-631f9af54671">Enchanted Woods</card>
+    <card qty="1" id="671f4b0f-bcb1-4b98-9ede-dc8120ff0b96">Enchanted Woods</card>
+    <card qty="1" id="79fd6fb7-42fa-4bba-afc5-6847d6af7c24">Enchanted Woods</card>
+    <card qty="1" id="219ced4d-9d3d-4aa4-afd2-c252aa93834d">Enchanted Woods</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="28d63bf9-1e9a-4f62-8abd-fcf040e95326">Kaman-Thah</card>
+    <card qty="1" id="33bf8bf5-d32d-4cf9-82da-3e166025bb1f">Nasht</card>
+    <card qty="1" id="d144e242-5568-475d-9c88-be040b6e0960">Randolph Carter</card>
+    <card qty="1" id="617b6726-816e-474d-bf0a-62676ef87bfa">Laboring Gug</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="003e29bb-e6d0-4c1c-bf00-42f4f60eca04">Beyond the Gates of Sleep</card>
+    <card qty="1" id="7f19494d-b835-485e-83c4-e0633bab9074">Seventy Steps</card>
+    <card qty="1" id="85f32a4d-7c63-4a9b-88a2-1360accdc724">The Cavern of Flame</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
