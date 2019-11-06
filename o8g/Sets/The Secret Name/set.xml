@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<set gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" id="6bbb487e-76cf-4f8f-a25d-fe2b1e0593a1" name="The Secret Name" standalone="True" version="1.0.0" xmlns:noNamespaceSchemaLocation="CardSet.xsd">
+<set gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" id="6bbb487e-76cf-4f8f-a25d-fe2b1e0593a1" name="The Secret Name" version="1.0.0" xmlns:noNamespaceSchemaLocation="CardSet.xsd">
   <cards>
     <card id="e589f209-7f5a-4d21-929c-c1dea4cdbda3" name="Something Worth Fighting For">
       <property name="Card Number" value="109" />
@@ -100,7 +100,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
       <property name="Text" value="Uses (5 ammo).η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
-      <property name="Class" value="Neutral" />
+      <property name="Class" value="Guardian/Rogue" />
       <property name="Level" value="0" />
       <property name="Cost" value="6" />
       <property name="Willpower" value="0" />
@@ -116,7 +116,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome." />
       <property name="Text" value="Uses (3 secrets).η Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner’s hand, place it on the bottom of its deck, or place it on the top of its deck." />
-      <property name="Class" value="Neutral" />
+      <property name="Class" value="Seeker/Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="1" />
       <property name="Willpower" value="0" />
@@ -132,7 +132,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Illicit." />
       <property name="Text" value="Uses (2 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 ά for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 ή for this attack." />
-      <property name="Class" value="Neutral" />
+      <property name="Class" value="Rogue/Survivor" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
       <property name="Willpower" value="1" />
@@ -147,7 +147,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Weapon. Melee." />
       <property name="Text" value="Uses (3 charges).η: Fight. You get +1 ή for this attack. As an additional cost to initiate this ability, you may spend 1 charge to empower the blade. If you do, you get +1 ή and deal +1 damage for this attack." />
-      <property name="Class" value="Neutral" />
+      <property name="Class" value="Mystic/Guardian" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
       <property name="Willpower" value="0" />
@@ -163,7 +163,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Charm." />
       <property name="Text" value="ι After you commit a card to a skill test, exhaust Grisly Totem: That card gains another instance of one of its skill icons of your choice." />
-      <property name="Class" value="Neutral" />
+      <property name="Class" value="Survivor/Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
       <property name="Willpower" value="0" />
