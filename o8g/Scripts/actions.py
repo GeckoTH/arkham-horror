@@ -1615,6 +1615,7 @@ def sealToken(player, group, x = 0, y = 0):
     card = dlg.show()[0]
     card.moveToTable(ChaosTokenX, ChaosTokenY)
     card.Subtype = 'Sealed'
+    card.filter = "#99999999"
 
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
