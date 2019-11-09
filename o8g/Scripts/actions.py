@@ -1590,6 +1590,20 @@ def drawXChaosTokens(player, group, x = 0, y = 0):
         else:
             remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, replace, (xTokens * 10), (xTokens * 10)])
 
+def drawAddChaosToken(player, group, x = 0, y = 0):
+    mute()
+    num = 0
+    for card in table: #find out how many Tokens there already are
+        if card.Type == "Chaos Token":
+            num += 1
+
+    if chaosBag().controller == me:
+        drawChaosTokenForPlayer(me, chaosBag(), x, y, False, num*10, num*10)
+    else:
+        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, False, num*10, num*10])
+
+def sealChaosToken(player, group, x = 0, y = 0):
+    pass
 
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
