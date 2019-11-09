@@ -1604,7 +1604,16 @@ def drawAddChaosToken(player, group, x = 0, y = 0):
     else:
         remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, False, num*10, num*10])
 
-def sealToken(player, group, x = 0, y = 0):
+def sealToken(group, x = 0, y = 0, player = None):
+    mute()
+
+    if chaosBag().controller != me:
+        remoteCall(chaosBag().controller, "sealToken", [group, x, y, me])
+        return
+
+    if player == None:
+        player = me
+
     list = [card for card in table
                 if (card.Type == 'Chaos Token') and (card.Subtype != 'Sealed')]
     for card in chaosBag():
@@ -1612,10 +1621,15 @@ def sealToken(player, group, x = 0, y = 0):
     dlg = cardDlg(list)
     dlg.title = "Seal Chaos Token"
     dlg.text = "Select a Chaos Token to seal"
-    card = dlg.show()[0]
+    card = dlg.show()
+    if card == None:
+        return
+    card = card[0]
     card.moveToTable(ChaosTokenX, ChaosTokenY)
     card.Subtype = 'Sealed'
     card.filter = "#99999999"
+    card.controller = player
+    notify("{} seals {}.".format(player, card.name))
 
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
