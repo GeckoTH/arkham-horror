@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Chaos Bag" shared="True">
     <card qty="1" id="d8669f4c-aa2c-4ef1-ab0c-9202b08cf563">+1</card>
     <card qty="2" id="35137ccc-db2b-4fdd-b0a8-a5d91f453a43">0</card>
@@ -19,6 +19,7 @@
   <section name="Skill" shared="False" />
   <section name="Weakness" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True" />
   <section name="Act" shared="True" />
   <section name="Encounter" shared="True" />
