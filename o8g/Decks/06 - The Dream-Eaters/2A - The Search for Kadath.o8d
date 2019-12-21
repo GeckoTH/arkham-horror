@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="0fc565c2-467d-4419-9858-fa968ba5679f">Journey Across the Dreamlands</card>
+    <card qty="1" id="a01bee27-052a-4523-ad68-7c241ca16713">Agents of the Outer Gods</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="422b059a-35e0-4257-923d-61087631a057">Kingdom of the Skai</card>
+    <card qty="1" id="7cf72091-5047-40b5-8f10-3b7ef7d84db8">The Isle of Oriab</card>
+    <card qty="1" id="485ad7be-dd9f-45c2-8553-ca12f8c35ac5">The Doom That Came Before</card>
+    <card qty="1" id="8c47d8a1-29ec-4254-8af0-d49accd6185f">Seek Out the Night</card>
+    <card qty="1" id="203574c0-ae70-4ea3-9b93-c89f33b83946">The King’s Decree</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="ecd5cc99-58b4-444b-a3d7-fee257af881c">Nightriders</card>
+    <card qty="2" id="df8b2515-050a-4860-80ae-d16ad7be2d76">Song of the Magah Bird</card>
+    <card qty="2" id="9862cee6-ea22-48b9-827c-ea5e7f6ce5a2">Wondrous Lands</card>
+    <card qty="1" id="3471373e-4939-4820-aad3-4615d261e2b1">Law of 'Ygiroth (Chaos)</card>
+    <card qty="1" id="618b2af7-8ee7-4a18-b409-33913a332cd0">Law of 'Ygiroth (Discord)</card>
+    <card qty="1" id="b1a94ce4-a4ab-49f1-be9f-3c29b2e070bc">Law of 'Ygiroth (Pandemonium)</card>
+    <card qty="2" id="c60cd08c-9edf-4fe5-92a0-6db650163861">Hunted by Corsairs</card>
+    <card qty="2" id="978e6e57-bb6a-4591-a9a7-dbd29ad32a99">Corsair of Leng</card>
+    <card qty="2" id="9b5a9f67-d71a-4b7e-9a21-7e6e9cee5dd8">Dreamlands Eclipse</card>
+    <card qty="2" id="e3b020cb-ecc8-4b62-9651-8dfb92f3a6f9">Prismatic Phenomenon</card>
+    <card qty="3" id="8c648668-8d19-4f1f-94f1-b368b5b2b927">Whispers of Hypnos</card>
+    <card qty="2" id="16a6c6ee-a522-409c-ab5b-24ea270ed93e">Furtive Zoog</card>
+    <card qty="1" id="26117838-1d10-486b-9549-c84fd3c0dba3">Inconspicuous Zoog</card>
+    <card qty="1" id="f145c66b-10dc-4c73-8bef-6e1db1b64ad1">Stealthy Zoog</card>
+    <card qty="1" id="9a58c546-0f45-43f4-aaba-e96333c6ecdb">Zoog Burrow</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="5d118076-8242-4ab7-80c8-3dfaaf042455">Kadatheron</card>
+    <card qty="1" id="b684307d-31d6-4a2a-b95a-236b3799cec9">Sarnath</card>
+    <card qty="1" id="c69796e6-b787-4959-a3df-e3a348928f71">Ruins of Ib</card>
+    <card qty="1" id="86d5b865-9a87-4c9c-981c-edeb12693c3d">Ilek-Vad</card>
+    <card qty="1" id="5bba7fe8-4e45-4f5d-b398-9155c14ff6c6">Forbidden Lands</card>
+    <card qty="1" id="c25a400b-b8bb-4197-a11b-78cb58b96a0a">Zulan-Thek</card>
+    <card qty="1" id="291727d8-f85c-4675-af7c-c30b3f9a62ca">Baharna</card>
+    <card qty="1" id="0c084ca5-f944-46d4-b7a4-44898a88cc5e">Mt. Ngranek</card>
+    <card qty="1" id="09bd5a61-1fd5-4779-b774-840e5e9bf449">Nameless Ruins</card>
+    <card qty="1" id="cecbf33f-ad9b-4bf6-b2a5-9c449a13887d">Celephaïs</card>
+    <card qty="1" id="41939c48-8a7c-4a72-8056-46297ae016e1">Serannian</card>
+    <card qty="1" id="df9fe5a0-9cca-4a69-8cc2-c070d1df0521">Hazuth-Kleg</card>
+    <card qty="1" id="5bc84615-d445-4c2e-85d4-0041f243673e">Temple of Unattainable Desires</card>
+    <card qty="1" id="b5387fdc-b27a-43e1-8591-60853a213d13">City-Which-Appears-On-No-Map</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="867f9631-e042-4222-9719-a839a59163c5">Cats of Ulthar</card>
+    <card qty="1" id="126d4a91-f9ec-411b-b099-5853e89b5cbd">Stalking Manticore</card>
+    <card qty="1" id="8dcf798d-3cc6-49f1-b5be-8041be031dff">The Crawling Mist</card>
+    <card qty="1" id="c1ef9527-d51b-4a31-b221-7fbc5cc4c37a">Horde of Night</card>
+    <card qty="1" id="04b7286a-0347-4d07-9c95-9ec392729cae">Beings of Ib</card>
+    <card qty="2" id="34170c3b-40f6-4446-a876-8367ef10b487">Tenebrous Nightgaunt</card>
+    <card qty="2" id="978e6e57-bb6a-4591-a9a7-dbd29ad32a99">Corsair of Leng</card>
+    <card qty="3" id="b86ac064-38a4-403e-a96a-3907f2a12a70">Priest of a Thousand Masks</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="2830b4c1-5e19-4c4b-852c-1bbfe4e89164">The Search for Kadath</card>
+    <card qty="1" id="11620ca1-9e0d-4985-a34a-25c037637674">Ulthar</card>
+    <card qty="1" id="ae25adf7-9228-4776-9cc9-27b4609b77a7">Skai River</card>
+    <card qty="1" id="391c19fe-ad01-424e-bb56-fce1ad941e3a">Dylath-Leen</card>
+    <card qty="2" id="04aa64fc-6ec1-403b-9e17-7b608f5b5714">Pack of Vooniths</card>
+    <card qty="1" id="85906dbb-c1ab-4e83-97c0-3aa217986aef">Virgil Gray</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
