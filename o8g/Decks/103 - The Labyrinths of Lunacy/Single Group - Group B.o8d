@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="2708956f-ddda-4207-ad70-e10c9ba99d3c">Awakening</card>
+    <card qty="1" id="b49fd1c7-d7a9-457c-be01-6b2dbf032b5e">Agony and Despair</card>
+    <card qty="1" id="274bbc0d-1755-47ba-ab67-f2fbf3ed2a04">The Mastermind</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="6853489f-f727-4bea-adef-63b7751546c3">Watery Grave (Group B)</card>
+    <card qty="1" id="edf519c4-d5c4-4473-8d83-a3dfdae1c225">Seeping Death (Group B)</card>
+    <card qty="1" id="5919c177-00eb-4105-a07d-13b64cc4751a">The Escape</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="e8de7e2c-0a50-4e5b-9052-6fad81db512d">Tortured Victim</card>
+    <card qty="3" id="c4cbc597-a14f-418e-a29d-0ad507042021">Mi-Go Guard</card>
+    <card qty="3" id="8f6adac8-af71-4353-9d15-67e89b8fd247">Unnatural Weariness</card>
+    <card qty="3" id="3a70204f-91c5-4fff-8261-bc02e7d6ce96">Poisonous Gas</card>
+    <card qty="3" id="61e38ecf-feb7-4f0b-bec0-a70817bff237">Dreadful Mechanism</card>
+    <card qty="3" id="3f93460c-2ed9-4059-980e-38bc3563841b">Blood and Rust</card>
+    <card qty="3" id="644831e1-17cd-4433-820c-8001dcf2361d">Harvested Pain</card>
+    <card qty="3" id="6deaf02c-fdb3-46a1-bb27-9da31837d320">Paradox Effect</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="78f85a38-3188-4a3e-b3d2-d3653562ba94">Chamber of Regret</card>
+    <card qty="1" id="ba58c714-53ff-4d39-bea4-31d6ef8ef0d8">Labyrinthine Halls</card>
+    <card qty="1" id="cacefbbf-36a4-4042-bfba-74287bdbc209">Labyrinthine Halls</card>
+    <card qty="1" id="9694b3b0-914a-4c42-9948-8f7818f73f60">Labyrinthine Halls</card>
+    <card qty="1" id="a75a5edc-4232-4866-847b-e33bb49af072">Chamber of Hunger</card>
+    <card qty="1" id="3fa85904-9e4d-4edb-b4d9-0b2f42fb521b">Chamber of Decay</card>
+    <card qty="1" id="ec3a83c6-789d-46e2-b80a-76eb265d6765">Chamber of Rot</card>
+    <card qty="1" id="a6434c25-d4d1-48b9-90f3-103ad50e7bcb">Chamber of Poison</card>
+    <card qty="1" id="91dbe868-4e64-4001-980f-6b5f287f1a0f">Abandoned Warehouse</card>
+    <card qty="1" id="1cc12b7c-5316-43f6-9ded-cb45fdddea9a">Chamber of Night</card>
+    <card qty="1" id="c52ad456-85c4-4186-ba30-d97bb58b55f6">Chamber of Secrets</card>
+    <card qty="1" id="71accc6d-c332-4b43-bb2b-7dce823b239f">Chamber of Secrets</card>
+    <card qty="1" id="155bc3e4-bc00-4546-aba6-2331d69da40b">Chamber of Secrets</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="655b63b0-7c6e-43b5-968c-3c15722b73c5">Key of Mysteries</card>
+    <card qty="1" id="a2b55f0c-5180-44ab-bef2-12041c2659e6">Mysterious Syringe</card>
+    <card qty="1" id="675e2459-3ba9-4d1b-bfb2-9329599e8e85">Eixodolon</card>
+    <card qty="1" id="cdd2f61c-e48e-48bb-8ad5-c0395e8192a3">Eixodolon's Pet</card>
+    <card qty="1" id="cce2e5c7-4b6e-4d16-afaa-cf0ee40777c4">Rot Diagram</card>
+    <card qty="1" id="d25f33d2-c4cd-4299-857f-e0ac2e3a2d73">Hunger Diagram</card>
+    <card qty="1" id="2a04acb2-4b13-4bd7-bb65-954d817c6b47">Decay Diagram</card>
+    <card qty="2" id="a0dda595-0a83-4fe6-bf4b-1b11c002ccf3">Faceless Abductor</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="0319b932-9c94-4643-8240-97e05e9db3a6">The Labyrinths of Lunacy</card>
+    <card qty="1" id="abcd74a9-9cd2-4a2b-bc30-5429d39a6871">Chamber of Rain</card>
+    <card qty="1" id="3ae10f16-2962-4f82-a442-8b3e0d695a29">Chamber of Sorrows</card>
+    <card qty="1" id="0a109bdc-b669-4300-853c-a321d0b48929">Eixodolon's Note</card>
+    <card qty="2" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

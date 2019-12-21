@@ -18,7 +18,7 @@
   <card id="f555a583-ef14-428c-8382-f80a67ea873c" name="Awakening" size="HorizCard">
     <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -27,7 +27,7 @@
     <property name="Doom" value="6"/>
     <property name="Text" value="Forced - At the end of the round, if there is at least 1 doom on this agenda and no group has yet triggered this ability: The lead investigator of Group A chooses a random set-aside [[Act 1]] story card and draws it. Announce the chosen card's title to all three groups. Each other lead investigator draws that story card."/>
     <alternate name="Hope Lingers" size="HorizCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -40,7 +40,7 @@
   <card id="2708956f-ddda-4207-ad70-e10c9ba99d3c" name="Awakening" size="HorizCard">
     <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -48,7 +48,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
     <alternate name="Hope Lingers" size="HorizCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Single Group"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -61,7 +61,7 @@
   <card id="c6c3a7fb-e872-4c2a-a533-591f191c684c" name="Agony and Despair" size="HorizCard">
     <property name="Card Number" value="4"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="2"/>
@@ -70,7 +70,7 @@
     <property name="Doom" value="7"/>
     <property name="Text" value="Forced - At the end of the round, if there is at least 1 doom on this agenda and no group has yet triggered this ability: The lead investigator of Group A chooses a random set-aside [[Act 2]] story card and draws it. Announce the chosen card's title to all three groups. Each other lead investigator draws that story card."/>
     <alternate name="Hope Fades" size="HorizCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="2"/>
@@ -83,7 +83,7 @@
   <card id="b49fd1c7-d7a9-457c-be01-6b2dbf032b5e" name="Agony and Despair" size="HorizCard">
     <property name="Card Number" value="5"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Agenda"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="2"/>
@@ -91,7 +91,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
     <alternate name="Hope Fades" size="HorizCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Single Group"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="2"/>
@@ -170,7 +170,7 @@
   <card id="500dfe08-f5ad-4659-8031-ec73ea11aa4f" name="The Levers (Group C)" size="HorizCard">
     <property name="Card Number" value="9"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -179,7 +179,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Timed - Do not advance this act until you are instructed. Before the agenda advances, one investigator must activate the η ability on the Chamber of Regret. (Beware- If you pull the wrong lever, you will be killed.)"/>
     <alternate name="Which Lever?" size="HorizCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -192,7 +192,7 @@
   <card id="86b254c4-6ac5-4e0d-a81e-d5d8c1b1501e" name="The Levers (Group C)" size="HorizCard">
     <property name="Card Number" value="10"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
@@ -201,7 +201,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Timed - Do not advance this act until you are instructed. Before the agenda advances, one investigator must activate the η ability on the Chamber of Regret. Beware- If you pull the wrong lever, you will be killed"/>
     <alternate name="Which Lever?" size="HorizCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Single Group"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="1"/>
@@ -280,7 +280,7 @@
   <card id="fefaab53-49ea-44df-b920-7bdac3f88425" name="The Escape" size="HorizCard">
     <property name="Card Number" value="14"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="3"/>
@@ -289,7 +289,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - At the end of the round, if Eixodolon has no remaining health, you may move any damage on him in excess of his health to another group's copy of Eixodolon. Then, advance."/>
     <alternate name="Parallel Labyrinths" size="HorizCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="3"/>
@@ -302,7 +302,7 @@
   <card id="5919c177-00eb-4105-a07d-13b64cc4751a" name="The Escape" size="HorizCard">
     <property name="Card Number" value="15"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Act"/>
     <property name="Class" value="Mythos"/>
     <property name="Level" value="3"/>
@@ -311,7 +311,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If Eixodolon has no remaining health, advance."/>
     <alternate name="Parallel Labyrinths" size="HorizCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Single Group"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
       <property name="Level" value="3"/>
@@ -411,7 +411,7 @@
   <card id="62ff2676-2c68-41b2-9101-c91afde75d11" name="Chamber of Sorrows" size="EncounterCard">
     <property name="Card Number" value="20"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -419,7 +419,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Prison."/>
     <alternate name="Chamber of Sorrows" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="2"/>
@@ -432,7 +432,7 @@
   <card id="3ae10f16-2962-4f82-a442-8b3e0d695a29" name="Chamber of Sorrows" size="EncounterCard">
     <property name="Card Number" value="21"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -440,7 +440,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Prison."/>
     <alternate name="Chamber of Sorrows" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Single Group"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="2"/>
@@ -453,7 +453,7 @@
   <card id="fb52a488-cc7f-449f-8f9a-76ba87819984" name="Chamber of Night" size="EncounterCard">
     <property name="Card Number" value="22"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -461,7 +461,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Prison."/>
     <alternate name="Chamber of Night" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -474,7 +474,7 @@
   <card id="1cc12b7c-5316-43f6-9ded-cb45fdddea9a" name="Chamber of Night" size="EncounterCard">
     <property name="Card Number" value="23"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -482,7 +482,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Prison."/>
     <alternate name="Chamber of Night" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Single Group"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value="3"/>
@@ -678,13 +678,13 @@
   <card id="78b1daa0-8ef2-4d3a-9945-dcfb34884472" name="Arcane Runes">
     <property name="Card Number" value="33"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 1."/>
     <property name="Text" value="Revelation - Attach Arcane Runes to a [[Distortion]] location.&#10;&#10;θ If there are 1π resources on this card: Flip it over and follow the instructions on its other side.&#10;&#10;η: sTteέ)3(. fI uoy ucdee,cs ceapl 1 cesueorr no tsih cr.ad&#10;&#10;If an investigator in this group has successfully resolved the above ability, this card gains: η: es)3Tέ(t. oYu ancnto mctmio rdcsa ot htsi klisl e.tts fI uyo duec,esc ealcp 1 srcrouee no nhotera ugpro's coyp fo raeAnc nRues."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
       <property name="Class" value="Mythos"/>
       <property name="Traits" value="Act 1."/>
@@ -694,13 +694,13 @@
   <card id="182f682b-9f14-4c22-a977-c7a63ffd165c" name="The Rift">
     <property name="Card Number" value="34"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 1. Act 2."/>
     <property name="Text" value="Revelation - Attach The Rift to the current act. If it is act 1, Groups B and C put the set-aside Key of Mysteries into play at a [[Distortion]] location.&#10;&#10;Forced - At the end of the round, if there is at least 3 doom on each group's agenda: The rift opens wide enough for an investigator to step through. Choose an investigator at any location to enter the rift. Then, that investigator flips this card over and follows the instructions on its other side."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
       <property name="Class" value="Mythos"/>
       <property name="Traits" value="Act 1. Act 2."/>
@@ -710,13 +710,13 @@
   <card id="03fc5d18-fd91-424f-8fbe-01d267d25a5e" name="The Vent">
     <property name="Card Number" value="35"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 1. Act 2."/>
     <property name="Text" value="Revelation - Place The Vent in a [[Distortion]] location. If it is act 1, Groups B and C put the set-aside Key of Mysteries into play at that location.&#10;&#10;θ: Place any number of your resource tokens or clues on this card, and/or place any number of [[Item]] assets you control underneath this card. You may also place a written note underneath this card.&#10;&#10;η: Take control of any number of tokens, cards, or notes on/underneath this card.&#10;&#10;ι At the end of the round: You send all of the tokens and cards gathered here through the ventilation shaft. Flip this card over and follow the instructions on the other side."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
       <property name="Class" value="Mythos"/>
       <property name="Traits" value="Act 1. Act 2."/>
@@ -726,13 +726,13 @@
   <card id="b6b4cd34-035a-4cc4-a45b-a00c70e18b3c" name="The Dilemma">
     <property name="Card Number" value="36"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 2."/>
     <property name="Text" value="Revelation - Put The Dilemma into play, next to the act deck. &#10;&#10;The current act gains:  At the end of the round: Desperate, you are willing to sacrifice yourself for the benefit of the other groups. Flip The Dilemma over and follow the instructions on the other side."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
       <property name="Class" value="Mythos"/>
       <property name="Traits" value="Act 2."/>
@@ -742,13 +742,13 @@
   <card id="a74f55de-c7e4-49de-9948-c5bc2248efa1" name="The Gate">
     <property name="Card Number" value="37"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 2."/>
     <property name="Text" value="Revelation - Attach The Gate to a [[Distortion]] location.&#10;&#10;η Spend 1 clue: You enter the doorway. Flip this story card over and follow the instructions on its other side."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
       <property name="Class" value="Mythos"/>
       <property name="Traits" value="Act 2."/>
@@ -758,13 +758,13 @@
   <card id="61fb1a4c-b8c4-492e-b62c-d0ac5a6412c6" name="Encrypted Glyphs">
     <property name="Card Number" value="38"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 2."/>
     <property name="Text" value="Revelation - Attach Encrypted Glyphs to a [[Distortion]] location.&#10;&#10;Forced - If there is at least 1 horror and 1π damage on this card: Flip it over and follow the instructions on its other side.&#10;&#10;η: Test έ (2) to attempt to decipher the glyphs. If you succeed, place 1 damage on this card.&#10;&#10;η: Test ά (4) to move the glyphs to their proper order. If you succeed, place 1 horror on each group's copy of Encrypted Glyphs."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
-      <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
       <property name="Class" value="Mythos"/>
       <property name="Traits" value="Act 2."/>
@@ -801,7 +801,7 @@
   <card id="beff7428-875f-4616-9241-2c36f57a30aa" name="Rot Diagram">
     <property name="Card Number" value="42"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Traits" value="Item. Script."/>
@@ -810,7 +810,7 @@
   <card id="cce2e5c7-4b6e-4d16-afaa-cf0ee40777c4" name="Rot Diagram">
     <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Traits" value="Item. Script."/>
@@ -819,7 +819,7 @@
   <card id="447e1794-13e1-448a-adee-2739317beaf9" name="Hunger Diagram">
     <property name="Card Number" value="44"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Traits" value="Item. Script."/>
@@ -828,7 +828,7 @@
   <card id="d25f33d2-c4cd-4299-857f-e0ac2e3a2d73" name="Hunger Diagram">
     <property name="Card Number" value="45"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Traits" value="Item. Script."/>
@@ -837,7 +837,7 @@
   <card id="9e268ce7-82fa-4b15-b0bc-a1f034203a44" name="Decay Diagram">
     <property name="Card Number" value="46"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Traits" value="Item. Script."/>
@@ -846,7 +846,7 @@
   <card id="2a04acb2-4b13-4bd7-bb65-954d817c6b47" name="Decay Diagram">
     <property name="Card Number" value="47"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Traits" value="Item. Script."/>
@@ -872,7 +872,7 @@
   <card id="723de15a-c682-4880-bac6-7d9c9646026f" name="Eixodolon's Pet" size="EncounterCard">
     <property name="Card Number" value="49"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Subtitle" value="You Are Not Its First Victim, Or Its Last"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
@@ -889,7 +889,7 @@
   <card id="cdd2f61c-e48e-48bb-8ad5-c0395e8192a3" name="Eixodolon's Pet" size="EncounterCard">
     <property name="Card Number" value="50"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Subtitle" value="You Are Not Its First Victim, Or Its Last"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
@@ -906,7 +906,7 @@
   <card id="e86a6253-1c9a-4e3a-834d-3d516d6ba780" name="The Jailor" size="EncounterCard">
     <property name="Card Number" value="51"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
     <property name="Class" value="Mythos"/>
@@ -999,7 +999,7 @@
   <card id="859735ee-63a7-484c-b826-8a9cf68c64e1" name="Paradox Effect" size="EncounterCard">
     <property name="Card Number" value="59"/>
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Epic Multiplayer"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hazard."/>
@@ -1008,7 +1008,7 @@
   <card id="6deaf02c-fdb3-46a1-bb27-9da31837d320" name="Paradox Effect" size="EncounterCard">
     <property name="Card Number" value="60"/>
     <property name="Quantity" value="3"/>
-    <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Encounter Set" value="Single Group"/>
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hazard."/>
