@@ -1299,6 +1299,8 @@ def discardSpecial(card, x=0, y=0):
 
 def doDiscard(player, card, pile):
     mute()
+    if (card.Subtype == "Sealed") and (pile == chaosBag()):
+        card.Subtype = ""
     card.moveTo(pile)
 
 def shuffleIntoDeck(card, x=0, y=0, player=me):
@@ -1560,7 +1562,7 @@ def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 
         if replace:
             # check for existing chaos token on table
             table_chaos_tokens = [card for card in table
-                if card.Type == 'Chaos Token']
+                if (card.Type == 'Chaos Token') and (card.Subtype != 'Sealed')]
             for token in table_chaos_tokens:
                 if token.controller == me:
                     token.moveTo(chaosBag())
@@ -1590,6 +1592,44 @@ def drawXChaosTokens(player, group, x = 0, y = 0):
         else:
             remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, replace, (xTokens * 10), (xTokens * 10)])
 
+def drawAddChaosToken(player, group, x = 0, y = 0):
+    mute()
+    num = 0
+    for card in table: #find out how many Tokens there already are
+        if card.Type == "Chaos Token":
+            num += 1
+
+    if chaosBag().controller == me:
+        drawChaosTokenForPlayer(me, chaosBag(), x, y, False, num*10, num*10)
+    else:
+        remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, False, num*10, num*10])
+
+def sealToken(group, x = 0, y = 0, player = None):
+    mute()
+
+    if chaosBag().controller != me:
+        remoteCall(chaosBag().controller, "sealToken", [group, x, y, me])
+        return
+
+    if player == None:
+        player = me
+
+    list = [card for card in table
+                if (card.Type == 'Chaos Token') and (card.Subtype != 'Sealed')]
+    for card in chaosBag():
+        list.append(card)
+    dlg = cardDlg(list)
+    dlg.title = "Seal Chaos Token"
+    dlg.text = "Select a Chaos Token to seal"
+    card = dlg.show()
+    if card == None:
+        return
+    card = card[0]
+    card.moveToTable(ChaosTokenX, ChaosTokenY)
+    card.Subtype = 'Sealed'
+    card.filter = "#99999999"
+    card.controller = player
+    notify("{} seals {}.".format(player, card.name))
 
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
