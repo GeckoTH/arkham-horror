@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" id="c4db1860-0253-4dc0-a3e9-873204f472ac" name="A Thousand Shapes of Horror" version="1.0.0" xmlns:noNamespaceSchemaLocation="CardSet.xsd">
+  <cards>
+    <card id="8a5d582c-8082-4b79-a682-9941aebe01be" name="Tetsuo Mori">
+      <property name="Card Number" value="155" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Too Noble for His Own Good" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Police." />
+      <property name="Text" value="Tetsuo Mori may be assigned damage and/or horror dealt to other investigators at your location.&#10;ι When Tetsuo Mori is defeated: Choose an investigator at your location. That investigator searches either their discard pile or the top 9 cards of their deck for an Item asset and adds it to their hand. Shuffle their deck if it is searched." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="έ" />
+    </card>
+    <card id="c07bddcd-f425-41e1-8cd6-78f68e3ba5dd" name="“Fool me once…”">
+      <property name="Card Number" value="156" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Tactic." />
+      <property name="Text" value="Fast. Play when you would discard a treachery card after resolving any of its effects.&#10;Put “Fool me once…” into play in your play area and attach that treachery to it.&#10;ι When any investigator draws a copy of the attached treachery card, discard “Fool me once…”: Cancel that card’s revelation effect." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="3756f628-0112-4ca2-85cb-e412d3cdad02" name="Self-Sacrifice">
+      <property name="Card Number" value="157" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Commit only to a skill test (of any type) being performed by another investigator at your location.&#10;If this test fails, you must resolve all effects from the failed test, instead of the performing investigator. Then, either you draw 2 cards, or the performing investigator draws 2 cards." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a624162d-d343-4398-a74a-f2bd67920741" name="Otherworld Codex">
+      <property name="Card Number" value="158" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (3 secrets).&#10;η Exhaust Otherworld Codex and spend 1 secret: Search the top 9 cards of the encounter deck and choose a non-Elite card among them. Discard a copy of the chosen card from play. Shuffle all of the searched cards back into the encounter deck." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="άέ" />
+    </card>
+    <card id="914848c7-c854-45a1-baa8-074087f6b7d3" name="Dream-Enhancing Serum">
+      <property name="Card Number" value="159" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Science." />
+      <property name="Text" value="Only the first copy of each card in your hand counts toward your maximum hand size.&#10;ι After you draw a copy of a card that is already in your hand, reveal both copies and exhaust Dream-Enhancing Serum: Draw 1 card." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="ά" />
+    </card>
+    <card id="32d5fc8d-d784-4dec-b747-7be41b6d95f8" name="“Let God sort them out...”">
+      <property name="Card Number" value="160" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Fated." />
+      <property name="Text" value="Play only during one of your turns in which you defeated enemies with a total of at least 6 health.&#10;Add “Let God sort them out...” to the victory display and immediately end your turn. When earning experience during the resolution of a scenario, if this card is in the victory display, you earn 1 additional experience." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ή" />
+    </card>
+    <card id="3adc4e56-ba55-43f9-adb2-1627970462df" name="Swift Reload">
+      <property name="Card Number" value="161" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Trick." />
+      <property name="Text" value="Fast. Play only during your turn.&#10;Choose a Firearm asset you control with fewer ammo tokens than its uses (X) value. Place ammo on that asset until it has ammo equal to its uses (X) value." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="ί" />
+    </card>
+    <card id="dfe88206-90fd-4e7f-8c20-4b477b27adb2" name="Gregory Gry">
+      <property name="Card Number" value="162" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Criminal. Dreamer." />
+      <property name="Text" value="Uses (9 resources).&#10;ι When you initiate a skill test, spend up to 3 resources from Gregory Gry: If this test succeeds by at least that amount, gain that many resources." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="έ" />
+    </card>
+    <card id="12058d3a-0dcb-4dd2-9dc4-9ce5d89ea8f0" name="Healing Words">
+      <property name="Card Number" value="163" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Heal 1 damage from an investigator at your location." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="ά" />
+    </card>
+    <card id="d2bcdc16-7611-4c0b-8e61-49608a6c9647" name="Ethereal Form">
+      <property name="Card Number" value="164" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Evade. Add your [ά] value to your skill value for this evasion attempt. If you succeed, disengage from each other enemy engaged with you, and for the remainder of the round, you are ethereal (enemies cannot engage or be engaged with you, and you cannot attack or deal damage to enemies)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="άί" />
+    </card>
+    <card id="80d711bb-c2b0-42a8-8b0e-a02b021185f2" name="Scrounge for Supplies">
+      <property name="Card Number" value="165" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune." />
+      <property name="Text" value="Choose a level 0 card in your discard pile. Add the chosen card to your hand." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1de9ea93-251f-46e7-b083-81f010054dd9" name="Brute Force">
+      <property name="Card Number" value="166" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;While Brute Force is committed during a basic fight action, it gains [ή] [ή] and the text: “If this test is successful by 2 or more, this attack deals +2 damage.”" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ή" />
+    </card>
+    <card id="80350445-5108-498b-8e9f-c1a064dcaa5c" name="Versatile">
+      <property name="Card Number" value="167" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Permanent.&#10;You get +5 Deck Size.&#10;Your investigator’s Deckbuilding Options gains: “one other level 0 card from any class (κ, λ, ν, μ, or ξ).”" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="–" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="eeaeb226-36ec-444c-828b-0b6989595170" name="A Thousand Shapes of Horror" size="EncounterCard">
+      <property name="Card Number" value="168" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 (–3 instead if you are at a Graveyard location).&#10;β: Reveal another token. If you fail and The Unnamable is in play, it attacks you (regardless of its current location).&#10;γ: +2. The black cat causes a distraction. If this test is successful, choose and evade an enemy at any location with a fight value of X or lower, where X is the amount you succeeded by.&#10;δ: –2. If you fail, you must either place 1 of your clues on your location or take 1 damage." />
+      <alternate name="A Thousand Shapes of Horror" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –2 (–4 instead if you are at a Graveyard location).&#10;β: Reveal another token. If you fail and The Unnamable is in play, it attacks you (regardless of its current location).&#10;γ: +1. The black cat causes a distraction. If this test is successful, choose and evade an enemy at any location with a fight value of X or lower, where X is the amount you succeeded by.&#10;δ: –3. If you fail, you must either place 1 of your clues on your location or take 1 damage." />
+      </alternate>
+    </card>
+    <card id="34ad0b4d-79dd-45ec-b404-47285be739f5" name="The House with No Name" size="HorizCard">
+      <property name="Card Number" value="169" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="3" />
+      <alternate name="The Unnameable" size="HorizCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Subtitle" value="The Ultimate Abomination" />
+        <property name="Type" value="Enemy" />
+        <property name="Text" value="Spawn – Attic or Upstairs Hallway.&#10;Aloof. Hunter. Cannot be defeated.&#10;For each of the following which are true, The Unnamable gets –1 fight and –1 evade (the investigators “found a cracked mirror,” “studied a vandalized portrait,” or “examined the monstrous bones”)." />
+        <property name="Health" value="–" />
+        <property name="Combat" value="5" />
+        <property name="Agility" value="5" />
+        <property name="Damage" value="2&#10;" />
+        <property name="Horror" value="2" />
+      </alternate>
+    </card>
+    <card id="e489c7d9-276c-4a77-8b5e-dbbe973e791b" name="The Thing with No Name" size="HorizCard">
+      <property name="Card Number" value="170" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Swarm of Rats gains swarming 1.&#10;Forced – At the start of your turn, if The Unnamable is ready and at your location: Test [ά] (2). If you fail, it attacks you (even if it is not engaged with you)." />
+      <property name="Doom" value="6" />
+      <alternate name="It Grows Bolder" size="HorizCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Time is running short. The entity, which before had seemed content to loom and observe you from afar, now swells with power and pursues you with relentless ferocity. It writhes and thrashes, seemingly everywhere at once. You have to hurry and confront your fears, or you will never find your way into the Dreamlands.&#10;Shuffle the encounter discard pile into the encounter deck." />
+      </alternate>
+    </card>
+    <card id="9702c427-ac1d-468a-bb51-4d4f36fca638" name="The Dead with No Name" size="HorizCard">
+      <property name="Card Number" value="171" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Swarm of Rats gains swarming 2.&#10;The Unnamable loses aloof and gains massive.&#10;Forced – At the start of your turn, if The Unnamable is ready and at your location: Test [ά] (2). If you fail, it attacks you (even if it is not engaged with you)." />
+      <property name="Doom" value="7" />
+      <alternate name="Is It Real" size="HorizCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="To your surprise, the most dreadful sound—the one that will forever burn in your memory of the night’s events—is not the echoing, despondent cries of the unnamable monstrosity or the papery crunch of dry corpses being devoured in the graveyard. It is the simple creaking of a lattice window.&#10;Randolph turns rigid and pale. You realize the implication just after he recalls the sound. All of the window frames in the house had fallen long ago—all save for one. It was the attic window that kept hidden the accursed demonic darkness: the thing with no name. It reaches out for you.&#10;(-&gt;R2)" />
+      </alternate>
+    </card>
+    <card id="4dd1eac1-af2d-4c36-9c9b-3cc1cc08b242" name="Searching the Unnamable" size="HorizCard">
+      <property name="Card Number" value="172" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Explore the house to find a way into the Dreamlands. (Find and complete an objective on another scenario card to advance.)" />
+      <property name="Clues" value="–" />
+      <alternate name="Into the Depths" size="HorizCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="The tomb opens into a staircase that stretches deep underground before disappearing into darkness.&#10;Set The Unnamable aside. Remove each location from the game (or place it in the victory display if it has Victory X and no clues on it). Investigators are not defeated during this process. (Other enemies and attachments at those locations are discarded.)&#10;Shuffle the set-aside Mysterious Stairs locations and put 5 of them into play in a vertical line. Remove the remaining Mysterious Stairs location from the game.&#10;Place each investigator and the set-aside The Unnamable enemy at the topmost Mysterious Stairs location, revealing it.&#10;Search the encounter deck and discard pile for both copies of Locked Door and both copies of Secrets in the Attic, and remove them from the game.&#10;Shuffle each set-aside copy of Endless Descent into the encounter deck, along with the encounter discard pile." />
+      </alternate>
+    </card>
+    <card id="0cf55c05-9521-4231-9ead-6e96635eeb88" name="The Endless Stairs" size="HorizCard">
+      <property name="Card Number" value="173" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="While the bottommost Mysterious Stairs location is revealed, it gains: “η: Resign.&#10;”Objective – Reach the bottom of the stairs. If each undefeated investigator has resigned, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Forced Entry" size="HorizCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="The forlorn cries of the unnamable creature—whatever it is or once was—echo throughout the unnatural cavern from far above you. “It cannot reach us down here,” Randolph says, letting out a sigh of relief. It was a harrowing descent, but you are finally safe from the indescribable thing. Even so, your safety is fleeting. The stairway coils below you with no end in sight. Windows in the spire’s stone wall overlook an endless landscape of rocky crags and barren peaks, dimly lit by a grey phosphorous light. You are still many miles above the floor of this subterranean world, and who knows what horrors you may find once you arrive?&#10;“This is only the beginning,” Randolph warns you. “There is no turning back now. Are you ready to proceed?”&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="fb31bcf4-f8a5-44d0-b0e2-5bfe27fcca23" name="Burial Ground" size="EncounterCard">
+      <property name="Card Number" value="174" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Graveyard." />
+      <alternate name="Burial Ground" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Graveyard." />
+        <property name="Text" value="Each Ghoul enemy drawn spawns at Burial Ground instead of at its normal location.&#10;θ Investigators in the Burial Ground spend 1π clues, as a group: Remember that the investigators “noticed the missing bones.”&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="3a12d325-0e86-465c-9c6a-4cfbfdc8991e" name="Front Porch" size="EncounterCard">
+      <property name="Card Number" value="175" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <alternate name="Entryway" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="θ Investigators in the Entryway spend 1π clues, as a group: Reveal the Upstairs Hallway.&#10;θ If The Unnamable has 1π or more damage on it: Smoke trails off of the creature, leading to a tomb near the center of the cemetery outside. Put the set‑aside Unmarked Tomb location into play." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="849b1a75-311a-4bad-8080-f0781347ca80" name="Downstairs Doorway" size="EncounterCard">
+      <property name="Card Number" value="176" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <alternate name="Den" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="ι After you successfully investigate the Den, discard 1 card from your hand: Discover an additional clue at this location.&#10;θ Investigators in the Den spend 1π clues, as a group: Remember that the investigators “studied a desecrated portrait.”&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="56612f33-4448-4f1c-91a6-5f340a9de66b" name="Downstairs Doorway" size="EncounterCard">
+      <property name="Card Number" value="177" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <alternate name="Parlor" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="For each investigator at the Parlor, it gets +1 shroud.&#10;θ If The Unnamable has 2π or more damage on it: The mirror gleams unnaturally, revealing a glint of silver. Remember that the investigators “recovered a strange key.”&#10;Victory 1." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="7dcabadc-547c-47a5-bcfc-e285744b692d" name="Upstairs Hallway" size="EncounterCard">
+      <property name="Card Number" value="178" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="A malodorous presence prevents you from venturing upstairs. You cannot enter the Upstairs Hallway." />
+      <alternate name="Upstairs Hallway" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="θ Investigators in the Upstairs Hallway spend 1π clues, as a group: Put the set-aside Attic location into play." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="27573113-d95c-41e7-acf1-d65e73c8011b" name="Upstairs Doorway" size="EncounterCard">
+      <property name="Card Number" value="179" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <alternate name="Library" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="As an additional cost to investigate the Library, you must either lose 1 action or take 1 horror.θ Investigators in the Library spend 1π clues, as a group: You read a strange journal entry regarding one of the graves in the burial ground outside. Put the set-aside Unmarked Tomb location into play.&#10;Victory 1." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="3708f8e1-09fe-4fab-859c-7d481b9cc6ea" name="Upstairs Doorway" size="EncounterCard">
+      <property name="Card Number" value="180" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <alternate name="Bedroom" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="ηη: Discard all non-weakness treachery cards from your threat area.&#10;θ Investigators in the Bedroom spend 1π clues, as a group: Remember that the investigators “found a cracked mirror.”&#10;Victory 1." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="c2c744a5-9590-488c-9d6a-5043e0fd1c9a" name="Attic" size="EncounterCard">
+      <property name="Card Number" value="181" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <alternate name="Attic" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="θ Investigators in the Attic spend 1π clues, as a group: Deep within a pile of monstrous bones, you see a glint of silver. Remember that the investigators “recovered a strange key.”&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="a98c127b-22b2-4714-a1d9-1eecbc4511d1" name="Unmarked Tomb" size="EncounterCard">
+      <property name="Card Number" value="182" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Graveyard." />
+      <alternate name="Unmarked Tomb" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Graveyard." />
+        <property name="Text" value="Objective – At the end of the round, if each undefeated investigator is at Unmarked Tomb and the investigators “recovered a strange key,” advance the act.&#10;Victory 1." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="0d1b21ac-aecc-4da3-b9ba-8e35a3a25fc9" name="Mysterious Stairs" size="EncounterCard">
+      <property name="Card Number" value="183" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Graveyard." />
+      <property name="Text" value="Mysterious Stairs is connected to the locations above and below it." />
+      <alternate name="Mysterious Stairs" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Graveyard." />
+        <property name="Text" value="Mysterious Stairs is connected to the locations above and below it.&#10;Forced  – After you enter this location: Lose 1 action." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="f57b8266-d3a6-4e91-8cd9-ac24d7c657aa" name="Mysterious Stairs" size="EncounterCard">
+      <property name="Card Number" value="184" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Graveyard." />
+      <property name="Text" value="Mysterious Stairs is connected to the locations above and below it." />
+      <alternate name="Mysterious Stairs" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Graveyard." />
+        <property name="Text" value="Mysterious Stairs is connected to the locations above and below it.&#10;While there are clues on this location, investigators at this location cannot move or resign." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="2c520d28-2df9-4098-9b5f-3abc3ad906e6" name="Mysterious Stairs" size="EncounterCard">
+      <property name="Card Number" value="185" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Graveyard." />
+      <property name="Text" value="Mysterious Stairs is connected to the locations above and below it." />
+      <alternate name="Mysterious Stairs" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Graveyard." />
+        <property name="Text" value="Mysterious Stairs is connected to the locations above and below it.&#10;While there is a ready enemy at this location, investigators at this location cannot move or resign.&#10;Forced –  When this location is revealed: Search the encounter deck and discard pile for a Ghoul enemy and spawn it at this location. Shuffle the encounter deck." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="b00f1f2b-d29b-4f36-9a7b-e70bb13fffa0" name="Mysterious Stairs" size="EncounterCard">
+      <property name="Card Number" value="186" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Graveyard." />
+      <property name="Text" value="Mysterious Stairs is connected to the locations above and below it." />
+      <alternate name="Mysterious Stairs" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Graveyard." />
+        <property name="Text" value="Mysterious Stairs is connected to the locations above and below it.&#10;Forced – When this location is revealed: Place 1π resources on it. While there are resources on this location, investigators at this location cannot move or resign.&#10;η: Test your lowest skill (2). If successful, discard 1 resource from this location." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="d56122b8-bf1a-40d3-a2a7-eb3faa42c5f8" name="Mysterious Stairs" size="EncounterCard">
+      <property name="Card Number" value="187" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Graveyard." />
+      <property name="Text" value="Mysterious Stairs is connected to the locations above and below it." />
+      <alternate name="Mysterious Stairs" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Graveyard." />
+        <property name="Text" value="Mysterious Stairs is connected to the locations above and below it.&#10;Forced – When this location is revealed: Move The Unnamable to it.&#10;While The Unnamable is at this location and has fewer than 1π damage on it, investigators at this location cannot move or resign." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="23b6e596-5281-4c4f-ac5a-6ce9d440e798" name="Mysterious Stairs" size="EncounterCard">
+      <property name="Card Number" value="188" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Graveyard." />
+      <property name="Text" value="Mysterious Stairs is connected to the locations above and below it." />
+      <alternate name="Mysterious Stairs" size="EncounterCard" type="B">
+        <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Graveyard." />
+        <property name="Text" value="Mysterious Stairs is connected to the locations above and below it.&#10;As an additional cost for you to move or resign at this location, you must discard 1 or more cards from your hand with at least 2 instances of the same skill icon among them." />
+      </alternate>
+    </card>
+    <card id="12fff7cf-deca-4b8e-8b97-a0e96ae0165d" name="The Silver Key">
+      <property name="Card Number" value="189" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Subtitle" value="Key to the Gate of Dreams" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm. Relic." />
+      <property name="Text" value="ι When you would take horror, exhaust The Silver Key: Cancel 1 of that horror." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="άΰΰ" />
+    </card>
+    <card id="88e5fb4d-c7ca-47b0-adea-2946724e4128" name="Endless Descent" size="EncounterCard">
+      <property name="Card Number" value="190" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Move each investigator and enemy at the topmost location to the location below it. Flip the topmost location to its unrevealed side, remove all tokens and attachments from it, and place it below the bottommost location. Shuffle the positions of each unrevealed location so you cannot tell which is which. Add this card to the victory display." />
+    </card>
+    <card id="6fa536bb-da64-49ca-9af3-0f8b131c90de" name="Indescribable Apparition" size="EncounterCard">
+      <property name="Card Number" value="191" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Put Indescribable Apparition into play in your threat area.You get –1 to each of your skills while The Unnamable is at your location.&#10;η η: Discard Indescribable Apparition." />
+    </card>
+    <card id="957bed29-2cc8-4049-8778-25f7109e3c73" name="Glowing Eyes" size="EncounterCard">
+      <property name="Card Number" value="192" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Put Glowing Eyes into play in your threat area.Forced – At the end of the round: Take 1 horror for each card in your threat area, to a maximum of 3 horror. Discard Glowing Eyes." />
+    </card>
+    <card id="c5e4b8ca-d975-4298-bc12-88a0537cb2da" name="Deceptive Memories" size="EncounterCard">
+      <property name="Card Number" value="193" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Put Deceptive Memories into play in your threat area.&#10;Forced – After another card enters your threat area: Choose and discard 1 card from your hand.&#10;η: Test [ά] (3). If you succeed, discard Deceptive Memories." />
+    </card>
+    <card id="427049b0-eca4-4a65-8ee3-2fed344676d3" name="Secrets in the Attic" size="EncounterCard">
+      <property name="Card Number" value="194" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Test [ά] (3). If you fail, take 1 horror and put Secrets in the Attic into play next to the agenda deck.&#10;θ abilities on locations cannot be triggered.Forced – At the end of the round: Discard 1 copy of Secrets in the Attic from play. (Max once per round.)" />
+    </card>
+  </cards>
+</set>

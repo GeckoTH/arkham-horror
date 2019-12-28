@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="a3c0d6f8-b99f-3379-18cc-dfcbd78f34e2">Calling Forth the Old Ones</card>
+    <card qty="1" id="97bdedbd-8cea-3c3a-383f-1cea0ca32897">Beckoning for Power</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="4c38913a-a772-3062-ab03-bf41506990d3">The Path to the Hill</card>
+    <card qty="1" id="96aeb454-c632-3826-9434-837a14f86d71">Ascending the Hill (v. I)</card>
+    <card qty="1" id="ee4ecf60-0175-3a53-6e3e-61aefdccc66e">Ascending the Hill (v. II)</card>
+    <card qty="1" id="dbc77522-691c-348c-78a4-a2a867140219">Ascending the Hill (v. III)</card>
+    <card qty="1" id="5fc311d8-66eb-39a8-9b35-4e004a67bd53">The Gate Opens</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="d03df51a-f505-3b5b-2384-f9b2866ca302">Devotee of the Key</card>
+    <card qty="1" id="07d85d4c-3766-3a12-b5c9-1b06f0cae54c">Crazed Shoggoth</card>
+    <card qty="3" id="557b00ba-0fa5-3ce8-8b17-42ad93ef4171">Rites Howled</card>
+    <card qty="3" id="df5d978a-eb40-3fba-3867-7bc2d0257d53">Spaces Between</card>
+    <card qty="3" id="f2e7e825-2ff3-3b06-7b2f-0106b89748e5">Vortex of Time</card>
+    <card qty="2" id="c7c44fe4-5d7b-4d9a-a7cd-477ca7d74e69">Avian Thrall</card>
+    <card qty="2" id="cbf5db4c-f319-41c7-b8b9-726c26695453">Lupine Thrall</card>
+    <card qty="2" id="a5bd2fc7-6f66-4192-b0d9-52bcbccaefd4">Altered Beast</card>
+    <card qty="3" id="b4d33590-94ad-4092-80d8-460c4fcbb54a">Visions of Futures Past</card>
+    <card qty="3" id="0d20810c-b434-45c9-8258-cb9652017a12">Beyond the Veil</card>
+    <card qty="2" id="1dc185eb-7c88-452b-831c-340659280f30">Light of Aforgomon</card>
+    <card qty="3" id="46be7d48-af4a-4459-b35d-37e92e2eb917">Thrall</card>
+    <card qty="1" id="4f2da478-90bc-4325-8f8c-4d3568a0b0e6">Wizard of Yog-Sothoth</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="8ff015b2-9c54-3500-e748-9496efb74949">Diverging Path</card>
+    <card qty="1" id="37f30f94-f621-3b6e-b8f9-9da7404504d6">Diverging Path</card>
+    <card qty="1" id="c366685d-37e4-3b81-6c4e-37797290dea1">Diverging Path</card>
+    <card qty="1" id="4bdb897e-7b25-3990-420c-8f629cd15c6b">Diverging Path</card>
+    <card qty="1" id="c7b0add2-3f51-3956-2de1-e41cdbb7bcf5">Altered Path</card>
+    <card qty="1" id="7fd45260-1c98-3d6a-feb0-2689ff51e1c4">Altered Path</card>
+    <card qty="1" id="25b6e5e5-a0cf-3fdb-252b-1dd2e676d2c0">Altered Path</card>
+    <card qty="1" id="ba8e0fa8-e151-3a57-f1d0-7707cc7e8f7c">Altered Path</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="2" id="43a5ec05-0bd1-4f2c-b7e8-0fd93d372d8c">Conglomeration of Spheres</card>
+    <card qty="1" id="f47b2774-3148-444b-94ea-5696db0c6342">Servant of the Lurker</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="03fe08bf-2232-336d-c9b6-2eb4d6d7cbab">Where Doom Awaits</card>
+    <card qty="1" id="0a0ee2c3-45e6-39d6-baab-9e1b95da27f5">Base of the Hill</card>
+    <card qty="1" id="5f2ec12f-3aa8-3508-a97b-6fac4e2fb6a2">Ascending Path</card>
+    <card qty="1" id="28edb79d-36af-3c02-60bb-5364b092fa79">Sentinel Peak</card>
+    <card qty="1" id="5734f99e-a1a5-3307-c97c-449ec0f3abad">Seth Bishop</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

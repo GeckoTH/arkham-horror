@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="34ad0b4d-79dd-45ec-b404-47285be739f5">The House with No Name</card>
+    <card qty="1" id="e489c7d9-276c-4a77-8b5e-dbbe973e791b">The Thing with No Name</card>
+    <card qty="1" id="9702c427-ac1d-468a-bb51-4d4f36fca638">The Dead with No Name</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="4dd1eac1-af2d-4c36-9c9b-3cc1cc08b242">Searching the Unnamable</card>
+    <card qty="1" id="0cf55c05-9521-4231-9ead-6e96635eeb88">The Endless Stairs</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="6fa536bb-da64-49ca-9af3-0f8b131c90de">Indescribable Apparition</card>
+    <card qty="2" id="957bed29-2cc8-4049-8778-25f7109e3c73">Glowing Eyes</card>
+    <card qty="2" id="c5e4b8ca-d975-4298-bc12-88a0537cb2da">Deceptive Memories</card>
+    <card qty="2" id="427049b0-eca4-4a65-8ee3-2fed344676d3">Secrets in the Attic</card>
+    <card qty="3" id="86c1f9a1-31cf-4cd9-991c-08455112131b">Hunting Ghast</card>
+    <card qty="1" id="2c918533-8316-4f39-a1fa-4b3985361ae6">Lumbering Gug</card>
+    <card qty="2" id="a4949e5f-8dd4-4b1a-aedf-a13cc588da96">Night Terrors</card>
+    <card qty="2" id="bb3cdd08-e365-4a33-8d63-7fe5b764fc7c">Glimpse of the Underworld</card>
+    <card qty="2" id="7e421c9b-09d3-4364-b578-12cf95add22b">Threads of Reality</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="3" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
+    <card qty="1" id="a70a2df7-2520-47ea-97b9-374714113140">Ravenous Ghoul</card>
+    <card qty="3" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="c2c744a5-9590-488c-9d6a-5043e0fd1c9a">Attic</card>
+    <card qty="1" id="a98c127b-22b2-4714-a1d9-1eecbc4511d1">Unmarked Tomb</card>
+    <card qty="1" id="0d1b21ac-aecc-4da3-b9ba-8e35a3a25fc9">Mysterious Stairs</card>
+    <card qty="1" id="f57b8266-d3a6-4e91-8cd9-ac24d7c657aa">Mysterious Stairs</card>
+    <card qty="1" id="2c520d28-2df9-4098-9b5f-3abc3ad906e6">Mysterious Stairs</card>
+    <card qty="1" id="b00f1f2b-d29b-4f36-9a7b-e70bb13fffa0">Mysterious Stairs</card>
+    <card qty="1" id="d56122b8-bf1a-40d3-a2a7-eb3faa42c5f8">Mysterious Stairs</card>
+    <card qty="1" id="23b6e596-5281-4c4f-ac5a-6ce9d440e798">Mysterious Stairs</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="12fff7cf-deca-4b8e-8b97-a0e96ae0165d">The Silver Key</card>
+    <card qty="4" id="88e5fb4d-c7ca-47b0-adea-2946724e4128">Endless Descent</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="eeaeb226-36ec-444c-828b-0b6989595170">A Thousand Shapes of Horror</card>
+    <card qty="1" id="fb31bcf4-f8a5-44d0-b0e2-5bfe27fcca23">Burial Ground</card>
+    <card qty="1" id="3a12d325-0e86-465c-9c6a-4cfbfdc8991e">Front Porch</card>
+    <card qty="1" id="849b1a75-311a-4bad-8080-f0781347ca80">Downstairs Doorway</card>
+    <card qty="1" id="56612f33-4448-4f1c-91a6-5f340a9de66b">Downstairs Doorway</card>
+    <card qty="1" id="7dcabadc-547c-47a5-bcfc-e285744b692d">Upstairs Hallway</card>
+    <card qty="1" id="27573113-d95c-41e7-acf1-d65e73c8011b">Upstairs Doorway</card>
+    <card qty="1" id="3708f8e1-09fe-4fab-859c-7d481b9cc6ea">Upstairs Doorway</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
