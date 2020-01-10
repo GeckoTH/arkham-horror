@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Dark Side of the Moon" id="35612097-ba18-4228-a688-5b0b8aa21a9c" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="56924231-f626-4110-a6cb-110051423225" name=".35 Winchester">
+      <property name="Card Number" value="195" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm." />
+      <property name="Text" value="Uses (5 ammo).η: Fight. You get +2 ή for this attack. If a +1, 0, or ε chaos token is revealed during this attack, this attack deals +2 damage." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Slot" value="2 Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="74751cc2-48c5-4c5e-8308-e55603146481" name="Safeguard">
+      <property name="Card Number" value="196" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="ι During another investigator’s turn, exhaust Safeguard: For the remainder of that investigator’s turn, as they move from your location to a connecting location, you may move to that location as well." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="694f0f2b-efa3-4baa-a961-8dbd1a19d6ca" name="Practice Makes Perfect">
+      <property name="Card Number" value="197" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Gambit. Tactic." />
+      <property name="Text" value="Fast. Play during a skill test at your location.Search the top 9 cards of your deck for a Practiced skill and commit it to this skill test, if able. Shuffle the remaining cards back into your deck. After this test ends, if it was successful, add that skill to your hand instead of discarding it." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="faeee67c-e3ed-4424-b967-a1a9cf3c7551" name="Extensive Research">
+      <property name="Card Number" value="198" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Reduce the cost to play Extensive Research by 1 for each other card in your hand.Discover 2 clues at your location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="10" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="583a859c-01f8-4a2f-b963-4bccef10ca34" name="Three Aces">
+      <property name="Card Number" value="199" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Fortune. Practiced." />
+      <property name="Text" value="Myriad.If you commit 3 copies of Three Aces to a skill test, that test automatically succeeds (do not reveal chaos tokens from the chaos bag). Then, draw 3 cards and gain 3 resources (max once per test)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="1" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="4fda4f88-6f1d-45af-af8d-333ca720acb8" name="Burglary">
+      <property name="Card Number" value="200" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent. Illicit." />
+      <property name="Text" value="η Exhaust Burglary: Investigate. If you succeed, instead of discovering clues, gain 2 resources, +1 additional resource for each point you succeed by (to a maximum of +3 resources)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2e902b38-52fc-4c58-a414-75513aca3287" name="Spectral Razor">
+      <property name="Card Number" value="201" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Fight. Add your ά value to your skill value for this attack. Immediately before this attack, you may engage the attacked enemy. This attack deals +1 damage (+2 damage instead if the enemy is non-Elite)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="792e40c3-a88e-46ad-b05e-0395440df058" name="Word of Command">
+      <property name="Card Number" value="202" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Name a Spell card. Search your deck for 1 copy of the named card and draw it. Shuffle your deck." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4f5961ae-6c3e-4619-b57e-3df5ddb4303c" name="Moonstone">
+      <property name="Card Number" value="203" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Dreamlands." />
+      <property name="Text" value="You get +1 ά and +1 ί.You cannot play or commit Moonstone from your hand.ι After you discard Moonstone from your hand: Play it (paying its cost)." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b87a5da6-12bc-415d-bbb6-f18ab38dfb05" name="Sharp Vision">
+      <property name="Card Number" value="204" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="Max 1 committed per skill test.While Sharp Vision is committed during a basic investigate action, it gains έ έ and the text: “If this test is successful by 2 or more, discover 1 additional clue at this location.”" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8e085a79-e838-484b-a99d-956e15353a8b" name="Lucid Dreaming">
+      <property name="Card Number" value="205" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Choose a card in your play area or reveal a card in your hand. Search your deck for another copy of that card and draw it. Shuffle your deck." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cadd4c3f-d852-467f-a5b9-ca338eb7b029" name="Dark Side of the Moon" size="EncounterCard">
+      <property name="Card Number" value="206" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="EASY/STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is half your alarm level (rounded up).&#10;β: Reveal another token. If you fail and your alarm level is higher than your modified skill value, after this skill test ends, draw the top card of the encounter deck.&#10;γ: –1. If you fail, raise your alarm level by 1.&#10;δ: +1. The black cat summons several other cats to help. If this token is revealed during an evasion attempt and you succeed, deal 2 damage to the evaded enemy." />
+      <alternate name="Dark Side of the Moon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="HARD/EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is your alarm level.&#10;β: Reveal another token. If you fail and your alarm level is higher than your modified skill value, after this skill test ends, draw the top card of the encounter deck.&#10;γ: –2. If you fail, raise your alarm level by 1.&#10;δ: 0. The black cat summons several other cats to help. If this token is revealed during an evasion attempt and you succeed, deal 2 damage to the evaded enemy." />
+      </alternate>
+    </card>
+    <card id="a6ec1b64-9dec-420b-9efb-69f5c6b31c6f" name="Silent Stirring" size="HorizCard">
+      <property name="Card Number" value="207" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="5" />
+      <alternate name="Throw Away the Key" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;Raise each investigator’s alarm level by 1." />
+      </alternate>
+    </card>
+    <card id="6dce8ee9-dcff-4089-b4a0-62eedf069c45" name="The Alarm Is Raised" size="HorizCard">
+      <property name="Card Number" value="208" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="5" />
+      <alternate name="Run, Rabbit, Run!" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.Raise each investigator’s alarm level by 1.&#10;Check Campaign Log. If the investigators forced their way into the temple, read the following:&#10;…but nobody comes.&#10;The lead investigator searches the encounter deck and discard pile for 1 copy of Cats from Saturn and draws it.&#10;Otherwise, read the following:&#10;…and to your surprise, an army of cats lands in front of you, having leaped through the void of space itself. You recognize the cat at the head of the formation as the grey old cat with the scar you met months ago. “Go, human!” he yells. “We will hold them off!”" />
+      </alternate>
+    </card>
+    <card id="3fca932c-908c-45bf-bc5c-053bd9e926b0" name="They Are Upon You!" size="HorizCard">
+      <property name="Card Number" value="209" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="(Hint—The game will not end when this agenda advances…but the agents of Nyarlathotep will tighten their noose.)" />
+      <property name="Doom" value="4" />
+      <alternate name="Time to Kill" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="There is nowhere left to run.&#10;Raise each investigator’s alarm level by 1. Each investigator takes horror equal to half their alarm level (rounded up).&#10;Reset the agenda deck to agenda 3a. Then, place 2 doom on that agenda." />
+      </alternate>
+    </card>
+    <card id="0943e60e-9ae7-4256-a2a1-fec8e0883eb8" name="In the Belly of the Moon-Beast" size="HorizCard">
+      <property name="Card Number" value="210" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Only investigators at the City of the Moon-Beasts may spend the requisite number of clues, as a group, to advance." />
+      <property name="Doom" value="3π" />
+      <alternate name="Timely Rescue" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Choose an investigator at City of the Moon-Beasts to take control of the set-aside Virgil Gray (Truly Inspired) story asset.&#10;Check Campaign Log: If Randolph was captured, that card’s owner puts the set-aside Randolph Carter (Expert Dreamer) story asset into their hand." />
+      </alternate>
+    </card>
+    <card id="165f9de8-c431-45a8-9973-7749e2f698f0" name="Exploring the Moon" size="HorizCard">
+      <property name="Card Number" value="211" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Only investigators at the Temple of the Moon Lizard may spend the requisite number of clues, as a group, to advance." />
+      <property name="Doom" value="1π" />
+      <alternate name="Through the Center" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Put the set-aside Caverns Beneath the Moon (Dark Side) and The Black Core locations into play.&#10;Spawn the set-aside Moon Lizard at The Black Core, exhausted.&#10;Shuffle the encounter discard pile into the encounter deck." />
+      </alternate>
+    </card>
+    <card id="7feab49f-e188-45b9-8a8e-57316af09d40" name="The Moon’s Core" size="HorizCard">
+      <property name="Card Number" value="212" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Clues cannot be discovered from The Black Core except as a result of a successful investigation.&#10;Objective – If each surviving investigator is at The Black Core and it has no clues on it, advance." />
+      <property name="Doom" value="–" />
+      <alternate name="To the Other Side" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Put the set-aside Caverns Beneath the Moon (Light Side), Light Side of the Moon, and The White Ship locations into play." />
+      </alternate>
+    </card>
+    <card id="3f511eec-fd1e-468b-94d7-626b4a27463c" name="Unexpected Rescue" size="HorizCard">
+      <property name="Card Number" value="213" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Act 4a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Find a way off the Moon. (You will be instructed when to advance.)" />
+      <property name="Doom" value="–" />
+      <alternate name="The Captain" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Act 4b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="0853654d-d6ef-4c3b-bf22-243b8cea794a" name="Moon-Beast Galley" size="EncounterCard">
+      <property name="Card Number" value="214" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ship." />
+      <property name="Text" value="Investigators cannot enter or leave Moon-Beast Galley via player card effects.&#10;θ If there are no clues remaining on Moon-Beast Galley: Flip it over.Forced – At the end of the round, if there are 3 or more doom in play: Flip Moon-Beast Galley over." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1" />
+      <alternate name="Off the Galley" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="If there were no clues on this card when it was flipped, read the following:&#10;Move each investigator here to the Moon-Forest. Remove this card from the game, discarding all enemies here.&#10;&#10;If there were 1 or more clues on this card when it was flipped, read the following:&#10;Each investigator here raises their alarm level by 1.&#10;Move each investigator here to the City of the Moon-Beasts, along with each enemy here. Remove this card from the game." />
+      </alternate>
+    </card>
+    <card id="95e9e1f2-3d9e-4973-aac6-81155b63eea9" name="City of the Moon-Beasts" size="EncounterCard">
+      <property name="Card Number" value="215" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Surface. City." />
+      <alternate name="City of the Moon-Beasts" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Surface. City." />
+        <property name="Text" value="X is the highest alarm level among all investigators.&#10;Forced – At the end of the round: Each investigator at the City of the Moon-Beasts tests ί (2). Each investigator who fails must raise their alarm level by 1." />
+        <property name="Shroud" value="X" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="55724c8b-2fba-4056-a8f2-f27931e50ba2" name="The Dark Crater" size="EncounterCard">
+      <property name="Card Number" value="216" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Surface." />
+      <alternate name="The Dark Crater" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Surface." />
+        <property name="Text" value="η: Test έ (5) to hide within the crater. If you succeed, reduce your alarm level by 1. (Limit 1 success per game.)&#10;Forced – At the end of your turn, if you are at The Dark Crater and have discovered 1 or more of its clues this turn: Test ά (3). If you fail, raise your alarm level by 1." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="f79b8490-720b-4afd-b5f9-e87add877bbf" name="Temple of the Moon Lizard" size="EncounterCard">
+      <property name="Card Number" value="217" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Surface." />
+      <alternate name="Temple of the Moon Lizard" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Surface." />
+        <property name="Text" value="η: Test ά (5) to hide inside the forbidden temple. If you succeed, reduce your alarm level by 1. (Limit 1 success per game.)&#10;Forced – After you discover any number of clues at the Temple of the Moon Lizard: You must either take that much horror or discard that many cards from your hand." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="3733e870-d9f0-49d5-b261-2825a083c997" name="Moon-Forest" size="EncounterCard">
+      <property name="Card Number" value="218" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Surface. Woods." />
+      <alternate name="Moon-Forest" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Surface. Woods." />
+        <property name="Text" value="η: Test ί (5) to hide among the strange trees. If you succeed, reduce your alarm level by 1. (Limit 1 success per game.)&#10;θ During your turn, except during another action: Evade. If you fail, raise your alarm level by 1. (Limit once per round.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="05fb88f2-c911-4335-840c-062d629ebe74" name="Caverns Beneath the Moon" size="EncounterCard">
+      <property name="Card Number" value="219" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Dark Side" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Caverns Beneath the Moon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Dark Side" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After you fail a skill test while investigating Caverns Beneath the Moon: Until the end of your turn, reduce its shroud by 2." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="1a6d43d9-56a2-4e4e-90b6-60b21e32abc6" name="The Black Core" size="EncounterCard">
+      <property name="Card Number" value="220" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <property name="Text" value="The path to the Moon’s core is long and winding. You cannot enter The Black Core while Caverns Beneath the Moon (Dark Side) has clues on it." />
+      <alternate name="The Black Core" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="X is the number of depth tokens on The Black Core.&#10;Forced – After The Black Core is revealed: Place 3 resources on it, as depth tokens, plus an additional 3π depth tokens.&#10;η: Test ά (2) or ή (2) to swim through the dark lake at the Moon’s core. For each point you succeed by, remove 1 depth token from The Black Core." />
+        <property name="Shroud" value="X" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="3ba13acd-03fd-4434-9265-26a1816eced8" name="Caverns Beneath the Moon" size="EncounterCard">
+      <property name="Card Number" value="221" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Light Side" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Caverns Beneath the Moon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Subtitle" value="Light Side" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After you fail a skill test while investigating Caverns Beneath the Moon: Until the end of your turn, reduce its shroud by 2." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="5fc55569-d30c-4985-a030-3bc1881d93b0" name="Light Side of the Moon" size="EncounterCard">
+      <property name="Card Number" value="222" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Surface. Ruins." />
+      <property name="Text" value="The path to the Moon’s surface is long and winding. You cannot enter Light Side of the Moon while Caverns Beneath the Moon (Light Side) has clues on it." />
+      <alternate name="Light Side of the Moon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Surface. Ruins." />
+        <property name="Text" value="η: Test έ (1) or ί (1) to attempt to hide among the ruins. For every 3 points you succeed by, reduce your alarm level by 1. (Limit one success per round.)" />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π&#10;" />
+        <property name="Victory Points" value="2" />
+      </alternate>
+    </card>
+    <card id="22fbbb31-7da1-4648-8d3f-b8ae11d4f50b" name="The White Ship" size="EncounterCard">
+      <property name="Card Number" value="223" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ship." />
+      <property name="Text" value="The mysterious ship’s captain cannot let you board until the pursuing moon-beasts have retreated. You cannot enter The White Ship while your alarm level is 5 or higher." />
+      <alternate name="The White Ship" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Dark Side of the Moon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ship." />
+        <property name="Text" value="You cannot enter The White Ship while your alarm level is 5 or higher.&#10;Forced – After The White Ship is revealed: Put the set-aside The Captain story asset into play at The White Ship." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="de6eec48-c243-429a-81ce-f3b1503cf9e2" name="Virgil Gray">
+      <property name="Card Number" value="224" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Truly Inspired" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Dreamer." />
+      <property name="Text" value="ι After your alarm level is raised: Either draw 1 card, gain 1 resource, or heal 1 horror from Virgil Gray. If there is more than 1 investigator in the game, give control of Virgil Gray to another investigator.&#10;Forced – If Virgil Gray is defeated: Remove him from the game." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="3" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="–" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8f869fd2-a1ed-4b7f-bc90-bd6ef871e7e0" name="The Captain">
+      <property name="Card Number" value="225" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Subtitle" value="Dreamlands Navigator" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Dreamer." />
+      <property name="Text" value="η If each undefeated investigator is at The White Ship: Parley. Test ά (X) or έ (X) to convince the captain to sail you away from the moon. X is the highest alarm level among the investigators. If you succeed, advance the act. Any investigator at The White Ship may activate this ability." />
+      <property name="Level" value="0" />
+      <property name="Cost" value="–" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fc1eb481-65c7-401e-a488-6d4a18f3fe34" name="Moon Lizard" size="EncounterCard">
+      <property name="Card Number" value="226" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Elite." />
+      <property name="Text" value="Hunter.Moon Lizard can only enter Cave locations.While Moon Lizard is engaged with an investigator, X is that investigator’s alarm level. Otherwise, X is 5.&#10;Victory 2." />
+      <property name="Health" value="4π&#10;" />
+      <property name="Combat" value="X" />
+      <property name="Agility" value="X" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="e593a072-15dd-4ddc-b8c2-224d8f7eaa08" name="Moonbound Byakhee" size="EncounterCard">
+      <property name="Card Number" value="227" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Byakhee." />
+      <property name="Text" value="Spawn – Nearest Surface location.&#10;Prey – Highest alarm level (3 or more only).Alert. Hunter.&#10;While moving or engaging, Moonbound Byakhee ignores investigators with an alarm level of 2 or less." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="3" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="dcebee18-d903-497f-96cb-4809be406cfb" name="Cats from Saturn" size="EncounterCard">
+      <property name="Card Number" value="228" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Creature. Monster." />
+      <property name="Text" value="Hunter. Swarming X.&#10;X is your alarm level (or the highest alarm level among investigators if there is no active investigator).&#10;Forced – After the host Cats from Saturn moves or is evaded: Discard 1 of its swarm cards." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="f0a5ba96-c0c8-4764-bf33-d1c37eb874bb" name="Moon-Beast" size="EncounterCard">
+      <property name="Card Number" value="229" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Servitor." />
+      <property name="Text" value="Retaliate.&#10;Forced – After Moon-Beast enters play: Raise each investigator’s alarm level by 1.&#10;Forced – After you defeat Moon-Beast: Reduce each investigator’s alarm level by 1.&#10;Victory 1." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="5755e008-e8b7-4d87-9c39-615e254efa06" name="Close Watch" size="EncounterCard">
+      <property name="Card Number" value="230" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Test ί (4). If you fail, you must either discard the asset you control with the highest printed cost, or raise your alarm level by 1." />
+    </card>
+    <card id="c377da17-7f7a-4de3-ae2c-56ba84a48c81" name="Forced into Hiding" size="EncounterCard">
+      <property name="Card Number" value="231" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ά (X), where X is your alarm level.&#10;—If you fail, lose 1 action.&#10;—If you fail by 3 or more, lose 2 actions instead.&#10;—If you fail by 5 or more, lose 3 actions instead." />
+    </card>
+    <card id="375e97cc-20c4-4e8f-8ac1-0d0287cd4a15" name="Lunar Patrol" size="EncounterCard">
+      <property name="Card Number" value="232" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Attach to your location.&#10;η: Test ί (3) to lose the patrol. If you succeed, discard Lunar Patrol.&#10;Forced – When an investigator leaves attached location: Raise that investigator’s alarm level by 1." />
+    </card>
+    <card id="7a3d07b5-ba1f-42ec-b208-ce67d762c6ea" name="False Awakening" size="EncounterCard">
+      <property name="Card Number" value="233" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Side of the Moon" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="False Awakening begins each game next to the agenda deck, with 1 doom on it.&#10;η: Test any skill (2). This test gets +1π difficulty. If you succeed, remove False Awakening from the game. Any investigator may trigger this ability." />
+    </card>
+  </cards>
+</set>
