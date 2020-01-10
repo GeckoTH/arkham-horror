@@ -11,7 +11,7 @@
       <property name="Level" value="0" />
       <property name="Cost" value="4" />
       <property name="Slot" value="2 Hand" />
-      <property name="Skill Icons" value="" />
+      <property name="Skill Icons" value="ί" />
     </card>
     <card id="74751cc2-48c5-4c5e-8308-e55603146481" name="Safeguard">
       <property name="Card Number" value="196" />
@@ -22,7 +22,7 @@
       <property name="Class" value="Guardian" />
       <property name="Level" value="2" />
       <property name="Cost" value="2" />
-      <property name="Skill Icons" value="" />
+      <property name="Skill Icons" value="άί" />
     </card>
     <card id="694f0f2b-efa3-4baa-a961-8dbd1a19d6ca" name="Practice Makes Perfect">
       <property name="Card Number" value="197" />
@@ -33,7 +33,7 @@
       <property name="Class" value="Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="1" />
-      <property name="Skill Icons" value="" />
+      <property name="Skill Icons" value="άέ" />
     </card>
     <card id="faeee67c-e3ed-4424-b967-a1a9cf3c7551" name="Extensive Research">
       <property name="Card Number" value="198" />
@@ -44,7 +44,7 @@
       <property name="Class" value="Seeker" />
       <property name="Level" value="1" />
       <property name="Cost" value="10" />
-      <property name="Skill Icons" value="" />
+      <property name="Skill Icons" value="έέ" />
     </card>
     <card id="583a859c-01f8-4a2f-b963-4bccef10ca34" name="Three Aces">
       <property name="Card Number" value="199" />
@@ -65,7 +65,7 @@
       <property name="Class" value="Rogue" />
       <property name="Level" value="2" />
       <property name="Cost" value="1" />
-      <property name="Skill Icons" value="" />
+      <property name="Skill Icons" value="έέ" />
     </card>
     <card id="2e902b38-52fc-4c58-a414-75513aca3287" name="Spectral Razor">
       <property name="Card Number" value="201" />
@@ -76,7 +76,7 @@
       <property name="Class" value="Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
-      <property name="Skill Icons" value="" />
+      <property name="Skill Icons" value="άή" />
     </card>
     <card id="792e40c3-a88e-46ad-b05e-0395440df058" name="Word of Command">
       <property name="Card Number" value="202" />
@@ -109,7 +109,7 @@
       <property name="Text" value="Max 1 committed per skill test.While Sharp Vision is committed during a basic investigate action, it gains έ έ and the text: “If this test is successful by 2 or more, discover 1 additional clue at this location.”" />
       <property name="Class" value="Survivor" />
       <property name="Level" value="1" />
-      <property name="Skill Icons" value="" />
+      <property name="Skill Icons" value="έ" />
     </card>
     <card id="8e085a79-e838-484b-a99d-956e15353a8b" name="Lucid Dreaming">
       <property name="Card Number" value="205" />
