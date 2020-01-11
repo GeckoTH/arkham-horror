@@ -116,7 +116,8 @@
 		<groupaction menu="Hidden Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+H" execute="addHiddenSpecial" />
 		<groupaction menu="Draw Token from ChaosBag" default="False" shortcut="ctrl+S" execute="drawChaosToken" />
 		<groupaction menu="Draw X Tokens from ChaosBag" default="False" shortcut="" execute="drawXChaosTokens" />
-		
+		<groupaction menu="Draw additional Token from ChaosBag" default="False" shortcut="" execute="drawAddChaosToken" />
+		<groupaction menu="Seal Token from Chaosbag" default="False" shortcut="" execute="sealToken" />
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
