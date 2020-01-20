@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="a6ec1b64-9dec-420b-9efb-69f5c6b31c6f">Silent Stirring</card>
+    <card qty="1" id="6dce8ee9-dcff-4089-b4a0-62eedf069c45">The Alarm Is Raised</card>
+    <card qty="1" id="3fca932c-908c-45bf-bc5c-053bd9e926b0">They Are Upon You!</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="0943e60e-9ae7-4256-a2a1-fec8e0883eb8">In the Belly of the Moon-Beast</card>
+    <card qty="1" id="165f9de8-c431-45a8-9973-7749e2f698f0">Exploring the Moon</card>
+    <card qty="1" id="7feab49f-e188-45b9-8a8e-57316af09d40">The Moon’s Core</card>
+    <card qty="1" id="3f511eec-fd1e-468b-94d7-626b4a27463c">Unexpected Rescue</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="e593a072-15dd-4ddc-b8c2-224d8f7eaa08">Moonbound Byakhee</card>
+    <card qty="3" id="dcebee18-d903-497f-96cb-4809be406cfb">Cats from Saturn</card>
+    <card qty="2" id="f0a5ba96-c0c8-4764-bf33-d1c37eb874bb">Moon-Beast</card>
+    <card qty="3" id="5755e008-e8b7-4d87-9c39-615e254efa06">Close Watch</card>
+    <card qty="3" id="c377da17-7f7a-4de3-ae2c-56ba84a48c81">Forced into Hiding</card>
+    <card qty="2" id="375e97cc-20c4-4e8f-8ac1-0d0287cd4a15">Lunar Patrol</card>
+    <card qty="2" id="c60cd08c-9edf-4fe5-92a0-6db650163861">Hunted by Corsairs</card>
+    <card qty="2" id="978e6e57-bb6a-4591-a9a7-dbd29ad32a99">Corsair of Leng</card>
+    <card qty="2" id="aacf5498-11ae-4db5-ab5f-776aba8dd70e">Dreamer’s Curse</card>
+    <card qty="2" id="772b2236-afbd-41e5-9890-06e3527855fb">Somniphobia</card>
+    <card qty="2" id="d6249d61-f97f-4001-95c3-eb4d61bf6f48">Deeper Slumber</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="05fb88f2-c911-4335-840c-062d629ebe74">Caverns Beneath the Moon</card>
+    <card qty="1" id="1a6d43d9-56a2-4e4e-90b6-60b21e32abc6">The Black Core</card>
+    <card qty="1" id="3ba13acd-03fd-4434-9265-26a1816eced8">Caverns Beneath the Moon</card>
+    <card qty="1" id="5fc55569-d30c-4985-a030-3bc1881d93b0">Light Side of the Moon</card>
+    <card qty="1" id="22fbbb31-7da1-4648-8d3f-b8ae11d4f50b">The White Ship</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="fc1eb481-65c7-401e-a488-6d4a18f3fe34">Moon Lizard</card>
+    <card qty="1" id="de6eec48-c243-429a-81ce-f3b1503cf9e2">Virgil Gray</card>
+    <card qty="1" id="8f869fd2-a1ed-4b7f-bc90-bd6ef871e7e0">The Captain</card>
+    <card qty="1" id="7a3d07b5-ba1f-42ec-b208-ce67d762c6ea">False Awakening</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="cadd4c3f-d852-467f-a5b9-ca338eb7b029">Dark Side of the Moon</card>
+    <card qty="1" id="95e9e1f2-3d9e-4973-aac6-81155b63eea9">City of the Moon-Beasts</card>
+    <card qty="1" id="f79b8490-720b-4afd-b5f9-e87add877bbf">Temple of the Moon Lizard</card>
+    <card qty="1" id="3733e870-d9f0-49d5-b261-2825a083c997">Moon-Forest</card>
+    <card qty="1" id="55724c8b-2fba-4056-a8f2-f27931e50ba2">The Dark Crater</card>
+    <card qty="1" id="0853654d-d6ef-4c3b-bf22-243b8cea794a">Moon-Beast Galley</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

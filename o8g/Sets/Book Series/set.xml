@@ -26,7 +26,7 @@
     </alternate>
   </card>
   <card id="71890fe8-1acf-4ea2-9e34-f42ae1314e27" name="Jenny Barnes" size="MiniCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="901"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Rogue"/>
     <alternate name="Jenny Barnes" size="MiniCard" type="B">
@@ -83,7 +83,7 @@
     </alternate>
   </card>
   <card id="76ff41d5-274d-438b-8e3e-1137d77fe6e7" name="Roland Banks" size="MiniCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="902"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Guardian"/>
     <alternate name="Roland Banks" size="MiniCard" type="B">
@@ -136,7 +136,7 @@
     </alternate>
   </card>
   <card id="863c6958-209b-4b4e-984d-2b0c70d3fa0d" name="Norman Withers" size="MiniCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="903"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Seeker"/>
     <alternate name="Norman Withers" size="MiniCard" type="B">
@@ -195,7 +195,7 @@
     </alternate>
   </card>
   <card id="db2f10c2-1167-4107-b53a-95047d4683c2" name="Carolyn Fern" size="MiniCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="904"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Guardian"/>
     <alternate name="Carolyn Fern" size="MiniCard" type="B">
@@ -251,7 +251,7 @@
     </alternate>
   </card>
   <card id="988e98b0-78c3-47ac-bebd-361b8b535bde" name="Silas Marsh" size="MiniCard">
-    <property name="Quantity" value="1"/>
+    <property name="Quantity" value="905"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Survivor"/>
     <alternate name="Silas Marsh" size="MiniCard" type="B">
@@ -279,6 +279,62 @@
     <property name="Skill Icons" value="ΰΰ"/>
     <property name="Traits" value="Curse."/>
     <property name="Text" value="Silas Marsh deck only. Replacement.This skill's icons subtract from your skill value instead of adding to it.If this skill test fails, return this skill to your hand.Forced - If Dreams of the Deep is in your hand at the end of your turn: Reveal it and take 2 damage."/>
+  </card>
+  <card id="d47f1653-8eff-4bc1-aea6-90d7eb7fbaa9" name="Dexter Drake" size="InvestigatorCard">
+    <property name="Card Number" value="16"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Magician"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Willpower" value="5"/>
+    <property name="Intellect" value="2"/>
+    <property name="Combat" value="3"/>
+    <property name="Agility" value="2"/>
+    <property name="Health" value="6"/>
+    <property name="Sanity" value="8"/>
+    <property name="Traits" value="Sorcerer. Veteran."/>
+    <property name="Text" value="θ During your turn, discard an asset you control: Play an asset with a different title from your hand, reducing its cost by 1. (Limit once per round.).&#10;ε effect: +2. You may return an asset from your play area to your hand. Then, draw 1 card."/>
+    <alternate name="Dexter Drake" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Magician"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Mystic"/>
+      <property name="Traits" value="Sorcerer. Veteran."/>
+      <property name="Text" value="TBD"/>
+    </alternate>
+  </card>
+  <card id="026cb382-cca7-4043-9c14-07c9592700ec" name="Dexter Drake" size="MiniCard">
+    <property name="Quantity" value="906"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Dexter Drake" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="c71da431-85ee-4a76-b041-ae1b73b0de56" name="Molly Maxwell">
+    <property name="Card Number" value="17"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Exotic Morgana"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="4"/>
+    <property name="Skill Icons" value="άίΰ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Assistant."/>
+    <property name="Text" value="Dexter Drake deck only. Replacement.&#10;Exhaust Molly Maxwell and deal her 1 horror: Name any trait. One at a time, reveal cards from the top of your deck until an asset with the named trait is revealed. Draw that asset. Shuffle each other revealed card back into your deck."/>
+  </card>
+  <card id="04883b22-3c62-4b06-845f-d592237c9ead" name="Yaztaroth">
+    <property name="Card Number" value="18"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Curse. Pact."/>
+    <property name="Text" value="Dexter Drake deck only. Replacement.&#10;Revelation - Put Yaztaroth into play in your threat area.&#10;You cannot put assets into play.&#10;ηη: Discard Yaztaroth."/>
   </card>
  </cards>
 </set>
