@@ -8,29 +8,19 @@
     <card qty="1" id="c649bd6a-77f3-4ef1-8dfc-b20c0a034702">THE HANGED MAN · XII</card>
     <card qty="1" id="ef33243d-ba84-495f-9eb8-2efc9e1a98f5">Death’s Approach</card>
   </section>
-  <section name="Location" shared="True">
-    <card qty="2" id="fe1d32d4-ba8e-49ae-b0a4-58b4a207c453">Bane of the Living</card>
-    <card qty="2" id="6709f629-17f6-42bf-aa4a-f106840e8ae9">Burdens of the Past</card>
-    <card qty="2" id="1dafb518-3669-4a12-8f27-6b0a6335227f">Malevolent Spirit</card>
-    <card qty="3" id="39f45715-7bb8-4130-a4ab-e3e2aa9b09ae">Fate of All Fools</card>
-    <card qty="3" id="f8a088dc-787f-4b12-b4d9-6eb417547745">Terror in the Night</card>
-    <card qty="2" id="31b852a4-8199-4e3e-a062-e0624b954bfa">Shapes in the Mist</card>
-    <card qty="2" id="9e1a0a3f-b47d-463b-852f-af0b39557984">Realm of Torment</card>
-    <card qty="2" id="2abaf9f5-7308-436e-8c2e-de4aa74df0cf">Trapped Spirits</card>
-    <card qty="2" id="57197e20-ec0a-4383-bc8c-6c60a2a37e0b">Wraith</card>
-  </section>
+  <section name="Location" shared="True" />
   <section name="Encounter" shared="True">
     <card qty="2" id="1529b14f-ab18-4db9-841a-b0b603f1efde">Grave-light</card>
     <card qty="2" id="288969bc-3df6-431e-b04d-f0d150af3be4">Ominous Portents</card>
     <card qty="2" id="051bcbce-880a-4a89-a41c-48e6dc451815">Punishment</card>
     <card qty="2" id="ff76e088-1395-4e10-8a43-17de4c914049">Vengeful Witch</card>
-    <card qty="3" id="eddfac33-2e84-4de0-94cf-1e8a66dceefe">Centuries of Secrets</card>
-    <card qty="2" id="6b25fd79-437b-4ce0-8405-82e9c2d541be">Evil Past</card>
-    <card qty="2" id="90cb11ac-0ded-48c0-9323-d3b3df0bff11">Bedeviled</card>
-    <card qty="2" id="bfbfda7f-1527-4564-a3bc-3660f5890596">Wracked</card>
-    <card qty="3" id="a964717e-3126-4ff0-9eb5-d1e7884ee538">Diabolic Voices</card>
-    <card qty="1" id="8d15e313-41f9-4e94-92a2-f62aafb96742">Priestess of the Coven</card>
-    <card qty="3" id="501730c1-6f1a-47c3-9683-719bff03ca76">Coven Initiate</card>
+    <card qty="3" id="c082467f-92dd-493c-a00a-026c26e133f5">Centuries of Secrets</card>
+    <card qty="2" id="edbb082b-fdd8-42de-a328-fcd65398e1fc">Evil Past</card>
+    <card qty="2" id="e3d19014-ace7-4ea4-8e05-57f33692dd9a">Bedeviled</card>
+    <card qty="2" id="e008057c-20cd-4508-bfd0-457fe32ad15f">Wracked</card>
+    <card qty="3" id="a0ebb0e6-91c1-4839-be28-3410d18e47c0">Diabolic Voices</card>
+    <card qty="1" id="6348e5e1-57f3-4f44-90f0-d3593e3c43ec">Priestess of the Coven</card>
+    <card qty="3" id="343b9330-c6b0-4ad3-90b0-aef7cab1ba12">Coven Initiate</card>
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="a263c7a7-7641-479b-bb07-926c93371e15">The Wages of Sin</card>
@@ -47,11 +37,20 @@
     <card qty="1" id="3353c57b-4def-4ddb-93bc-5c58ec8be27c">Hangman’s Brook</card>
   </section>
   <section name="Special" shared="True">
-    <card qty="4" id="11b99268-8d50-4863-9b24-7aa2f2f3f0ef">Spectral Web</card>
-    <card qty="2" id="6b11ef39-6fc6-4c90-b96b-7f32a6ca8b6b">Watcher's Grasp</card>
-    <card qty="1" id="5c226792-755e-4ad3-b74b-f42864cda61b">The Spectral Watcher</card>
+    <card qty="2" id="fe1d32d4-ba8e-49ae-b0a4-58b4a207c453">Bane of the Living</card>
+    <card qty="2" id="6709f629-17f6-42bf-aa4a-f106840e8ae9">Burdens of the Past</card>
+    <card qty="2" id="1dafb518-3669-4a12-8f27-6b0a6335227f">Malevolent Spirit</card>
+    <card qty="3" id="69fba3d3-9218-40c4-9f72-9d428de08a30">Fate of All Fools</card>
+    <card qty="3" id="2fc27237-5a64-4e53-9490-8e2f24a86465">Terror in the Night</card>
+    <card qty="2" id="766e1693-b1eb-4590-954b-2e18072e18f9">Shapes in the Mist</card>
+    <card qty="2" id="7b980f47-dc9b-4ca5-9362-f8d967d6b0fa">Realm of Torment</card>
+    <card qty="2" id="bcd6e177-8bba-4551-98c5-688a6d65ea81">Trapped Spirits</card>
+    <card qty="2" id="98aa643b-46f1-48f1-9e5d-a10d6164490e">Wraith</card>
   </section>
   <section name="Second Special" shared="True">
+    <card qty="4" id="11b99268-8d50-4863-9b24-7aa2f2f3f0ef">Spectral Web</card>
+    <card qty="2" id="3b041a9e-6978-46a6-bcef-a35f30ef7b7b">Watcher's Grasp</card>
+    <card qty="1" id="f22407c7-4f91-44b6-9382-e889c4741131">The Spectral Watcher</card>
     <card qty="1" id="c2e303a2-88fa-40b4-aba3-eeb7f65f136f">Heretic</card>
     <card qty="1" id="2db09a66-5db7-4e52-8e91-0eed039312cb">Heretic</card>
     <card qty="1" id="b1b9b253-81ec-4429-85f3-44641924844d">Heretic</card>

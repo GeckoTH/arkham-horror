@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="c245ad9e-f251-4a20-b493-3203c65bd639">A Sinister Realm</card>
+    <card qty="1" id="f0ad532c-d82c-40f7-9423-f5552f4fa6d3">Beset by Monsters</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="0b9483ae-595a-4e6b-8ac6-94de25833905">Entering the Underworld (v. I)</card>
+    <card qty="1" id="bb2e903f-fbb0-4a89-9989-f4026afc8545">Entering the Underworld (v. II)</card>
+    <card qty="1" id="15a1e527-ba5c-4adb-ba6b-7d12b8a10cc8">The Descent</card>
+    <card qty="1" id="5c1b7598-1a6d-495e-bb02-cf38b6fda95f">The Black Expanse</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="4911e8e6-ab02-41dc-93ea-bb25f4d673a0">Taste of Lifeblood</card>
+    <card qty="2" id="326fab2f-4cfc-4916-bbdf-794a8cbc1747">Lit by Death-Fire</card>
+    <card qty="2" id="6e0e3262-9145-4070-9351-f9ed30825d88">Unexpected Ambush</card>
+    <card qty="3" id="86c1f9a1-31cf-4cd9-991c-08455112131b">Hunting Ghast</card>
+    <card qty="1" id="2c918533-8316-4f39-a1fa-4b3985361ae6">Lumbering Gug</card>
+    <card qty="3" id="8c648668-8d19-4f1f-94f1-b368b5b2b927">Whispers of Hypnos</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="3" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
+    <card qty="1" id="a70a2df7-2520-47ea-97b9-374714113140">Ravenous Ghoul</card>
+    <card qty="3" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="ad344cf3-5f93-4a5d-9527-99879afbbf0d">Crag of the Ghouls</card>
+    <card qty="1" id="49dcc9e8-60c3-4aaa-8c90-8e358bb63e44">Sea of Bones</card>
+    <card qty="1" id="d9590436-810f-4a03-b993-5f96d9a72f47">Peaks of Thok</card>
+    <card qty="1" id="b2bb11c5-a12b-4cfb-9c66-366e36b8f0b1">Vale of Pnath</card>
+    <card qty="1" id="91235250-92e9-4aef-aac0-08ff99ed4263">Sea of Pitch</card>
+    <card qty="1" id="7678a6d1-7c96-4684-929f-875448a2d58c">Sea of Pitch</card>
+    <card qty="1" id="2f90bae8-339b-4d03-80e4-33c151945875">Sea of Pitch</card>
+    <card qty="1" id="bee16195-9e18-4518-bffc-cb6ecd0aa4a1">Sea of Pitch</card>
+    <card qty="1" id="981cee7c-c262-4c5c-a417-631f9af54671">Enchanted Woods</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="3d6d91b0-659e-41de-af6b-724a816a6646">Gug Sentinel</card>
+    <card qty="1" id="d215c2e0-73a4-4acf-80d6-6ef4695e7f16">Richard Upton Pickman</card>
+    <card qty="1" id="d447e7a0-f43b-43a1-9f34-7f9bad133493">Slithering Dhole</card>
+    <card qty="3" id="0c38e836-4cea-48e6-9785-9ed4364d2252">Dhole Tunnel</card>
+    <card qty="2" id="4d0272c2-ef93-4bc5-b63d-4e8372f6322a">Pitch Spider</card>
+    <card qty="2" id="1558ef7b-0a36-4531-b039-f35c4d9157da">Shadow of Atlach-Nacha</card>
+    <card qty="2" id="c0866625-0f2d-4223-9fea-c9ad99a30e24">Grey Weaver</card>
+    <card qty="2" id="731203b3-42bb-414b-b780-ca7205632611">Will of the Spider-Mother</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
+    <card qty="1" id="d12f3c25-1c50-4fb7-973b-68f18079b650">False Awakening</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="8b05dbfa-68f7-4ae5-ba88-1ce7ddf0dbd0">Point of No Return</card>
+    <card qty="1" id="f1a512f4-5b34-4dd5-aa82-09f1792135e9">Vaults of Zin</card>
+    <card qty="1" id="224bf3dc-3ee7-47dc-b711-decb263c6c70">City of Gugs</card>
+    <card qty="1" id="ba45ac2a-5149-47ef-841c-917bfda7ac31">Tower of Koth</card>
+    <card qty="1" id="a07363db-a62a-48e1-9acb-38643679d0b7">Plain of the Ghouls</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

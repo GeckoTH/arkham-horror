@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="1243ebf8-6f47-466c-9202-7534c9fc1a34">WHEEL OF FORTUNE · X</card>
     <card qty="1" id="cb7c6a83-05c2-4210-a1e7-9130b806ab72">It Awaits</card>
@@ -39,17 +31,26 @@
     <card qty="1" id="12b495bf-d262-4462-85b3-baf8388c23fb">Cosmos</card>
     <card qty="2" id="f0883c1c-1ad2-46b9-bd87-1d3d5cd8f342">Cosmos</card>
   </section>
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="6febb6ad-ef14-4445-8bc7-717919cc26b8">Before the Black Throne</card>
     <card qty="1" id="fd8a0dd1-5c6f-423c-9bf9-8c65f9fa9532">Cosmic Ingress</card>
     <card qty="1" id="8474e4b7-2f14-4a5f-811e-32a24106eb6c">Cosmos</card>
+    <card qty="1" id="ab2ec5e1-6170-410a-a5b2-767dbfa02f17">Azathoth</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True">
     <card qty="1" id="bd10b235-6a1c-4744-91ff-e2684507e0ee">Cosmos</card>
     <card qty="1" id="a02f9ddf-b3f2-45d8-9717-4097857ac31c">Cosmos</card>
     <card qty="1" id="dec4454d-05ef-49ca-8915-39429b037eea">Piper of Azathoth</card>
-    <card qty="1" id="ab2ec5e1-6170-410a-a5b2-767dbfa02f17">Azathoth</card>
   </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

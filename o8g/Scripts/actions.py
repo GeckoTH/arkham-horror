@@ -979,7 +979,6 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             nextAgendaStage()
             nextActStage()
             shuffle(encounterDeck())
-            shuffle(specialDeck())  
         
     if not clearLock():
         notify("Players performed setup at the same time causing problems, please reset and try again")
