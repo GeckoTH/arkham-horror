@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Point of No Return" id="7e4a760a-3978-4b6a-ab16-fa9fede64cda" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="69da2687-a3b8-4e89-a4aa-b2f68db25f32" name="Heroic Rescue">
+      <property name="Card Number" value="234" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit. Tactic." />
+      <property name="Text" value="Fast. Play when a non-Elite enemy would attack another investigator at your location or a connecting location.&#10;Move to that location if you are not already there. Engage that enemy and resolve its attack against you instead. Then, deal it 1 damage." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="άήί" />
+    </card>
+    <card id="72458aae-e379-430e-ad6b-7c8bec8eefc9" name="Leadership">
+      <property name="Card Number" value="235" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced." />
+      <property name="Text" value="While Leadership is committed to a skill test being performed by another investigator, Leadership gains [ά]  ? .&#10;If this test is successful, gain 2 resources. If Leadership is committed to a skill test being performed by another investigator, that investigator also gains 2 resources." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="34b57151-b143-41bf-8bf8-7a9607824f88" name="Dream Diary">
+      <property name="Card Number" value="236" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Dreams of an Explorer" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Charm." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Dream Diary (Untranslated), and only if “you have interpreted the dreams” in your Campaign Log.&#10;While you are at a location with 4 or more shroud, your Essence of the Dream gains ? ?.&#10;ι When your turn begins: Search your bonded cards for Essence of the Dream and add it to your hand." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="άί" />
+    </card>
+    <card id="a381dd40-1854-411e-9634-bdf032a6d075" name="Dream Diary">
+      <property name="Card Number" value="237" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Dreams of an Madman" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Charm." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Dream Diary (Untranslated), and only if “you have interpreted the dreams” in your Campaign Log.&#10;While you are engaged with an enemy, your Essence of the Dream gains ? ?.&#10;ι When your turn begins: Search your bonded cards for Essence of the Dream and add it to your hand." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="άή" />
+    </card>
+    <card id="14cd2f4b-3437-48e0-a49c-b10055a6ad7f" name="Dream Diary">
+      <property name="Card Number" value="238" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Dreams of an Child" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Charm." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Dream Diary (Untranslated), and only if “you have interpreted the dreams” in your Campaign Log.&#10;While you have 8 or more cards in hand, your Essence of the Dream gains ? ?.&#10;ι When your turn begins: Search your bonded cards for Essence of the Dream and add it to your hand." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="άέ" />
+    </card>
+    <card id="6699a20d-a299-4826-96de-cc1461f275db" name="Haste">
+      <property name="Card Number" value="239" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Limit 1 per investigator.&#10;ι After you perform the same type of action twice in a row, exhaust Haste: Take another action of that type again (types include activate, draw, engage, evade, fight, investigate, move, play, resource, and draw)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="ί" />
+    </card>
+    <card id="96b64cc0-1de0-4226-a713-f34a9196759d" name="Daredevil">
+      <property name="Card Number" value="240" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Fortune. Practiced." />
+      <property name="Text" value="After you commit Daredevil to a skill test, reveal cards from the top of your deck until you reveal a ν skill you can commit to this test. Commit it. Shuffle each other revealed card back into your deck." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="da4fb1ed-8b0a-45a0-9627-1fbce0c0637d" name="Empower Self">
+      <property name="Card Number" value="241" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Stamina" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Myriad. Limit 1 Empower Self (Stamina) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use [ά] instead of [ή], you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 [ή] for this test." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="ήή" />
+    </card>
+    <card id="a22af06f-e75c-45e1-a5aa-32dd6ccdd70c" name="Empower Self">
+      <property name="Card Number" value="242" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Acclarity" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Myriad. Limit 1 Empower Self (Alacrity) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use [ά] instead of [ί], you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 [ί] for this test." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="2" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="ίί" />
+    </card>
+    <card id="eaa8acfd-c17a-4f69-b742-3afeb06daa25" name="Empower Self">
+      <property name="Card Number" value="243" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Accuity" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Myriad. Limit 1 Empower Self (Acuity) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use [ά] instead of [έ], you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 [έ] for this test." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Arcane" />
+      <property name="Skill Icons" value="έέ" />
+    </card>
+    <card id="934b4ff0-c241-4506-a432-24296169de7b" name="Twila Katherine Price">
+      <property name="Card Number" value="244" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Lost in a Dream" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Artist. Dreamer." />
+      <property name="Text" value="ι After you spend 1 or more charges from a Spell asset, exhaust Twila Katherine Price: Place 1 charge on that asset." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="έί" />
+    </card>
+    <card id="72b8e1a9-0b35-45b1-bce0-8c843f20d65d" name="A Glimmer of Hope">
+      <property name="Card Number" value="245" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Blessed. Fortune." />
+      <property name="Text" value="Myriad.&#10;A Glimmer of Hope can only be played from your discard pile.&#10;Add all copies of A Glimmer of Hope in your discard pile to your hand (including this copy)." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="291e27b1-e709-4b72-b2b9-36cae73c0a73" name="Expeditious Retreat">
+      <property name="Card Number" value="246" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;While Expeditious Retreat is committed during a basic evade action, it gains [ί] [ί] and the text: “If this test is successful by 2 or more, you may automatically evade another enemy at your location.”" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="ί" />
+    </card>
+    <card id="8b05dbfa-68f7-4ae5-ba88-1ce7ddf0dbd0" name="Point of No Return" size="EncounterCard">
+      <property name="Card Number" value="247" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the amount of damage on this card.&#10;β: Reveal another token. If you fail, after this skill test ends, draw the top card of the encounter deck.&#10;γ: +1. The black cat helps you navigate through the death-fire. If this token is revealed during an investigation and you succeed, draw 1 card.&#10;δ: –3. If you fail by 2 or more, choose a ready enemy at your location or a connecting location. That enemy moves to your location, engages you, and makes an immediate attack." />
+      <alternate name="Point of No Return" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 more than the amount of damage on this card.&#10;β: Reveal another token. If you fail, after this skill test ends, draw the top card of the encounter deck.&#10;γ: 0. The black cat helps you navigate through the death-fire. If this token is revealed during an investigation and you succeed, draw 1 card.&#10;δ: –4. If you fail by 2 or more, choose a ready enemy at your location or a connecting location. That enemy moves to your location, engages you, and makes an immediate attack." />
+      </alternate>
+    </card>
+    <card id="c245ad9e-f251-4a20-b493-3203c65bd639" name="A Sinister Realm" size="HorizCard">
+      <property name="Card Number" value="248" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="5" />
+      <alternate name="The Path Darkens" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;Place 1 damage on the scenario reference card." />
+      </alternate>
+    </card>
+    <card id="f0ad532c-d82c-40f7-9423-f5552f4fa6d3" name="Beset by Monsters" size="HorizCard">
+      <property name="Card Number" value="249" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Subtitle" value="Agenda 2a&#10;" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="(Hint—The game will not necessarily end when this agenda advances…but the stability of reality will continue to unravel.)" />
+      <property name="Doom" value="4" />
+      <alternate name="The Weaver Approaches" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each investigator must either discard 1 card at random from their hand or lose 2 resources.&#10;Shuffle the encounter discard pile into the encounter deck.&#10;Place 1 damage on the scenario reference card. Then:&#10;—If there are 5 or more damage tokens on the scenario reference card, proceed to (-&gt;R2).&#10;—Otherwise, flip this agenda back over." />
+      </alternate>
+    </card>
+    <card id="0b9483ae-595a-4e6b-8ac6-94de25833905" name="Entering the Underworld (v. I)" size="HorizCard">
+      <property name="Card Number" value="250" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – After an enemy with 1 or more clues on it is defeated: Take control of each of those clues.&#10;Objective – Explore this region. (You will be instructed when to advance.)" />
+      <property name="Clues" value="–" />
+      <alternate name="A Mournful Ally" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Put each set-aside Vale location into play.&#10;Find each card from the Ghouls encounter set and the Striking Fear encounter set (even if they are out of play). Remove them from the game.&#10;Shuffle the set-aside Terror of the Vale and Nightgaunts encounter sets into the encounter deck, along with the discard pile." />
+      </alternate>
+    </card>
+    <card id="bb2e903f-fbb0-4a89-9989-f4026afc8545" name="Entering the Underworld (v. II)" size="HorizCard">
+      <property name="Card Number" value="251" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – After an enemy with 1 or more clues on it is defeated: Take control of each of those clues.&#10;Objective – Find Richard Upton Pickman. (You will be instructed when to advance.)" />
+      <property name="Clues" value="–" />
+      <alternate name="An Unlikely Ally" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Choose an investigator to take control of the set-aside Richard Upton Pickman story-asset. For the remainder of the scenario, if Richard Upton Pickman leaves play, remove him from the game.&#10;Put each set-aside Vale location into play.&#10;Find each card from the Striking Fear encounter set (even if they are out of play). Remove them from the game.&#10;Shuffle the set-aside Terror of the Vale and Nightgaunts encounter sets into the encounter deck, along with the discard pile." />
+      </alternate>
+    </card>
+    <card id="15a1e527-ba5c-4adb-ba6b-7d12b8a10cc8" name="The Descent" size="HorizCard">
+      <property name="Card Number" value="252" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – After an enemy with 1 or more clues on it is defeated: Take control of each of those clues.&#10;Objective – Find the way to the Sea of Pitch. (You will be instructed when to advance.)" />
+      <property name="Clues" value="–" />
+      <alternate name="A Way Across" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Subtitle" value="Act 2b&#10;" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Put each set-aside Depths location into play.&#10;Shuffle the set-aside Descent into the Pitch and Agents of Atlach-Nacha encounter sets into the encounter deck, along with the discard pile." />
+      </alternate>
+    </card>
+    <card id="5c1b7598-1a6d-495e-bb02-cf38b6fda95f" name="The Black Expanse" size="HorizCard">
+      <property name="Card Number" value="253" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – After an enemy with 1 or more clues on it is defeated: Place those clues on this act.&#10;Objective – Find the source of the distortion. (You will be instructed when to advance.)" />
+      <property name="Clues" value="–" />
+      <alternate name="Under the Sea of Pitch" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="f1a512f4-5b34-4dd5-aa82-09f1792135e9" name="Vaults of Zin" size="EncounterCard">
+      <property name="Card Number" value="254" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="Veiled." />
+      <property name="Victory Points" value="1" />
+      <alternate name="Ghastly Tunnels" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Search the encounter deck and discard pile for a Ghast enemy and spawn it here exhausted and with 1 clue on it. Shuffle the encounter deck.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="224bf3dc-3ee7-47dc-b711-decb263c6c70" name="City of Gugs" size="EncounterCard">
+      <property name="Card Number" value="255" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="Forced – After you enter City of Gugs: Flip it over and resolve the text on its other side." />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Sentry" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Spawn the set-aside Gug Sentinel enemy at this location, with 1π clues on it. Test [ί] (3). If you succeed, Gug Sentinel enters play exhausted and unengaged. Otherwise, it enters play engaged with you.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="ba45ac2a-5149-47ef-841c-917bfda7ac31" name="Tower of Koth" size="EncounterCard">
+      <property name="Card Number" value="256" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="η: Test [ή] (5) to lift the heavy stone trapdoor at the top of the tower. If you succeed, flip this card over and resolve the text on its other side." />
+      <alternate name="Another Path" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Put the set-aside Enchanted Woods (Stone Trapdoor) into play, revealed.&#10;Record in your Campaign Log the investigators found a way out of the Underworld.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="a07363db-a62a-48e1-9acb-38643679d0b7" name="Plain of the Ghouls" size="EncounterCard">
+      <property name="Card Number" value="257" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Central." />
+      <property name="Text" value="Veiled.&#10;Gug enemies cannot enter the Plain of the Ghouls. If a Gug enemy would spawn at the Plain of the Ghouls, spawn it at the City of Gugs instead." />
+      <property name="Victory Points" value="1" />
+      <alternate name="A Strange Ghoul" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="If the investigators possess fewer than 3π clues:&#10;Flip this card back over. Come back when you have a greater understanding of this region. This card may be flipped over again when you are ready.&#10;If the investigators possess at least 3π clues:&#10;The investigators must spend 3π clues, as a group.&#10;Advance the current act.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="ad344cf3-5f93-4a5d-9527-99879afbbf0d" name="Crag of the Ghouls" size="EncounterCard">
+      <property name="Card Number" value="258" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Vale." />
+      <property name="Text" value="Veiled.&#10;The first treachery drawn during the mythos phase by an investigator at this location gains surge." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+      <alternate name="Scouting the Vale" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Look at the top 2π cards of the encounter deck. You may discard up to half of those cards. Return the rest to the top of the encounter deck, in any order.&#10;For the remainder of the game, ignore the text on Crag of the Ghouls.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="49dcc9e8-60c3-4aaa-8c90-8e358bb63e44" name="Sea of Bones" size="EncounterCard">
+      <property name="Card Number" value="259" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Vale." />
+      <property name="Text" value="Forced – After you discover 1 or more clues at Sea of Bones: Flip it over." />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+      <alternate name="Something Below" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="If there is no Dhole Tunnel at this location, search the encounter deck and discard pile for a Dhole Tunnel and attach it to this location, if able. Shuffle the encounter deck.&#10;If Slithering Dhole is in play, move it to this location and add 2 clues to it. Otherwise, search the encounter deck, discard pile, and victory display for Slithering Dhole, and spawn it at this location, exhausted and with 2 clues on it.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="d9590436-810f-4a03-b993-5f96d9a72f47" name="Peaks of Thok" size="EncounterCard">
+      <property name="Card Number" value="260" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Vale. Central." />
+      <property name="Text" value="η: Test [ί] (5) to attempt to scale the treacherous peaks. If you succeed, flip this card over and resolve the text on its other side.&#10;Forced – When you leave Peaks of Thok: You must test [ί] (2) to climb down safely. If you fail, take 1 damage." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="0" />
+      <alternate name="Inhabitants of the Vale" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Search the encounter deck and discard pile for a Hunting Nightgaunt and spawn it at Vale of Pnath, exhausted.&#10;Each investigator at Peaks of Thok may draw 2 cards.Choose any enemy in play and place 2 clues on it.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="b2bb11c5-a12b-4cfb-9c66-366e36b8f0b1" name="Vale of Pnath" size="EncounterCard">
+      <property name="Card Number" value="261" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Vale." />
+      <property name="Text" value="Veiled.&#10;While there are clues remaining on Vale of Pnath, investigators at Vale of Pnath cannot play cards or commit cards to skill tests." />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+      <alternate name="The Way Out" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="If the investigators possess fewer than 3π clues:&#10;Flip this card back over. Come back when you have a greater understanding of this region. This card may be flipped over again when you are ready.&#10;If the investigators possess at least 3π clues:&#10;The investigators must spend 3π clues, as a group.&#10;Advance the current act.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="91235250-92e9-4aef-aac0-08ff99ed4263" name="Sea of Pitch" size="EncounterCard">
+      <property name="Card Number" value="262" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Depths." />
+      <property name="Text" value="Veiled.&#10;X is the number of damage tokens on the scenario reference card." />
+      <property name="Shroud" value="X" />
+      <property name="Clues" value="1π" />
+      <alternate name="Spider-Infested Waters" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Shuffle the encounter discard pile into the encounter deck and discard cards from the top until a Spider enemy is discarded. Spawn that enemy here with 1π clues on it (if it is swarming, place those clues on the host enemy).&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="7678a6d1-7c96-4684-929f-875448a2d58c" name="Sea of Pitch" size="EncounterCard">
+      <property name="Card Number" value="263" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Depths." />
+      <property name="Text" value="Veiled.&#10;X is the number of damage tokens on the scenario reference card." />
+      <property name="Shroud" value="X" />
+      <property name="Clues" value="1π" />
+      <alternate name="Still Surface" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Look at the other side of another copy of Sea of Pitch.&#10;Flip this card back over." />
+      </alternate>
+    </card>
+    <card id="2f90bae8-339b-4d03-80e4-33c151945875" name="Sea of Pitch" size="EncounterCard">
+      <property name="Card Number" value="264" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Depths." />
+      <property name="Text" value="Veiled.&#10;X is the number of damage tokens on the scenario reference card." />
+      <property name="Shroud" value="X" />
+      <property name="Clues" value="1π" />
+      <alternate name="Rolling Pits" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Set all of the clues from each Sea of Pitch aside.&#10;Discard all other tokens and attachments from each Sea of Pitch.&#10;Flip this card back over and shuffle the positions of each copy of Sea of Pitch so you do not know which is which (investigators and enemies remain at their current position).&#10;Distribute the previously set-aside clues among each copy of Sea of Pitch, as evenly as possible.&#10;Each Sea of Pitch may be flipped over again using their veiled keyword." />
+      </alternate>
+    </card>
+    <card id="bee16195-9e18-4518-bffc-cb6ecd0aa4a1" name="Sea of Pitch" size="EncounterCard">
+      <property name="Card Number" value="265" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Depths." />
+      <property name="Text" value="Veiled.&#10;X is the number of damage tokens on the scenario reference card." />
+      <property name="Shroud" value="X" />
+      <property name="Clues" value="1π" />
+      <alternate name="Center of the Sea" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Point of No Return" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="If the investigators possess fewer than 3π clues:&#10;Flip this card back over. Come back when you have a greater understanding of this region. This card may be flipped over again when you are ready.&#10;If the investigators possess at least 3π clues:&#10;The investigators must spend 3π clues, as a group.&#10;Flip this card back over and advance the current act." />
+      </alternate>
+    </card>
+    <card id="d215c2e0-73a4-4acf-80d6-6ef4695e7f16" name="Richard Upton Pickman">
+      <property name="Card Number" value="266" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Subtitle" value="Venerable Ghoul" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Ghoul. Artist." />
+      <property name="Text" value="θ Exhaust Richard Upton Pickman: Choose a Ghoul enemy at your location and attach it to him, facedown.&#10;η Exhaust Richard Upton Pickman: Fight. You attack with a base [ή] of 5. Instead of its standard damage, this attack deals damage equal to the number of facedown encounter cards attached to Richard Upton Pickman." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3d6d91b0-659e-41de-af6b-724a816a6646" name="Gug Sentinel" size="EncounterCard">
+      <property name="Card Number" value="267" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Gug." />
+      <property name="Text" value="Gug Sentinel gets +2π health.&#10;Forced – After Gug Sentinel readies: Deal 1 horror to each investigator at its location." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="4911e8e6-ab02-41dc-93ea-bb25f4d673a0" name="Taste of Lifeblood" size="EncounterCard">
+      <property name="Card Number" value="268" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Test [ά] (3). For each point you fail by, you must (choose one): Place 1 of your clues on your location, place 1 of your clues on the nearest enemy, or take 1 damage." />
+    </card>
+    <card id="326fab2f-4cfc-4916-bbdf-794a8cbc1747" name="Lit by Death-Fire" size="EncounterCard">
+      <property name="Card Number" value="269" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Each investigator loses 1 resource. Each investigator at a Vale or Depths location chooses and discards 1 card from their hand. Each investigator at a Depths location loses 1 action." />
+    </card>
+    <card id="6e0e3262-9145-4070-9351-f9ed30825d88" name="Unexpected Ambush" size="EncounterCard">
+      <property name="Card Number" value="270" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – If there are no enemies in play, take 1 damage and 1 horror. Otherwise, test [έ] (4) or [ί] (4). If you fail, the nearest enemy readies, moves (one location at a time) until it reaches your location, and engages you. Then, if you failed by 3 or more, it makes an immediate attack." />
+    </card>
+    <card id="d447e7a0-f43b-43a1-9f34-7f9bad133493" name="Slithering Dhole" size="EncounterCard">
+      <property name="Card Number" value="271" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Terror of the Vale" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Dhole. Elite." />
+      <property name="Text" value="Spawn – Nearest location with an attached Dhole Tunnel. (Otherwise, shuffle Slithering Dhole back into the encounter deck and it gains surge.)&#10;Hunter. Massive.&#10;While Slithering Dhole is moving, each location with an attached Dhole Tunnel is considered to be connected to one another." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="0c38e836-4cea-48e6-9785-9ed4364d2252" name="Dhole Tunnel" size="EncounterCard">
+      <property name="Card Number" value="272" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Terror of the Vale" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – If Slithering Dhole is in play, it moves and attacks as if it were the enemy phase. Otherwise, attach Dhole Tunnel to a location at least 2 connections away from the nearest Dhole Tunnel (or to your location if you cannot). Then, if Slithering Dhole is in the victory display, spawn it at attached location, exhausted." />
+    </card>
+    <card id="4d0272c2-ef93-4bc5-b63d-4e8372f6322a" name="Pitch Spider" size="EncounterCard">
+      <property name="Card Number" value="273" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Descent into the Pitch" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Spider." />
+      <property name="Text" value="Spawn – Any Sea of Pitch location (empty, if able).&#10;Swarming X. X is the amount of damage on the scenario reference card.&#10;Forced – When Pitch Spider attacks you: It deals either its damage or its horror, instead of both." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="1558ef7b-0a36-4531-b039-f35c4d9157da" name="Shadow of Atlach-Nacha" size="EncounterCard">
+      <property name="Card Number" value="274" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Descent into the Pitch" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Test [ά] (2). This test gets +1 difficulty for each damage on the scenario reference card. If you fail, take 1 damage and 1 horror." />
+    </card>
+    <card id="d12f3c25-1c50-4fb7-973b-68f18079b650" name="False Awakening">
+      <property name="Card Number" value="275" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Point of No Return" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="False Awakening begins each game next to the agenda deck, with 1 doom on it.η: Test any skill (2). This test gets +1π difficulty. If you succeed, remove False Awakening from the game. Any investigator may trigger this ability." />
+    </card>
+  </cards>
+</set>
