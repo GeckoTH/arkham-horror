@@ -1549,6 +1549,9 @@ def drawPileToTable(player, group, x, y):
 
     card = group[0]
     card.moveToTable(x, y)
+    #failsave for sealed attribute
+    if card.Type == "Chaos Token" and card.Subtype == "Sealed":
+        card.Subtype = ""
     notify("{} draws {} from the {}.".format(player, card.name, group.name))
     return card
     
@@ -1603,6 +1606,23 @@ def drawAddChaosToken(player, group, x = 0, y = 0):
         drawChaosTokenForPlayer(me, chaosBag(), x, y, False, num*10, num*10)
     else:
         remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, False, num*10, num*10])
+
+def sealTokenCard(card, x = 0, y = 0, player = None):
+    if card.controller != me:
+        remoteCall(card.controller, "sealTokenCard", [card, x, y, me])
+        return
+
+    if player == None:
+        player = me
+
+    #failsave
+    if card == None:
+        return
+
+    card.Subtype = 'Sealed'
+    card.filter = "#99999999"
+    card.controller = player
+    notify("{} seals {}.".format(player, card.name))
 
 def sealToken(group, x = 0, y = 0, player = None):
     mute()
