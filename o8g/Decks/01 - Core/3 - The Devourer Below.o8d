@@ -31,14 +31,7 @@
     <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
     <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
   </section>
-  <section name="Location" shared="True">
-    <card qty="1" id="cedfc228-4770-4d64-99e9-495a3b629da9">Arkham Woods</card>
-    <card qty="1" id="a7a16b01-49da-4e9f-8818-18ddd3cbc153">Arkham Woods</card>
-    <card qty="1" id="6773a3ce-8cc1-4125-add8-96f716e6c807">Arkham Woods</card>
-    <card qty="1" id="5b7c1138-a82a-44d8-801e-9da8334977e6">Arkham Woods</card>
-    <card qty="1" id="531433a8-fb9b-4820-a492-b75916c38c32">Arkham Woods</card>
-    <card qty="1" id="3d5d6da0-c7e0-4cc5-b80c-7649a424706a">Arkham Woods</card>
-  </section>
+  <section name="Location" shared="True" />
   <section name="Special" shared="True">
     <card qty="2" id="d6b11251-f337-4437-bb24-d9baa52b164f">Screeching Byakhee</card>
     <card qty="2" id="5d3f4670-272f-4665-9812-3a40b5837d97">The Yellow Sign</card>
@@ -65,6 +58,12 @@
     <card qty="1" id="0db17bb7-4da6-4118-95a1-aca37aba251c">The Devourer Below</card>
     <card qty="1" id="51ab34b7-c6bc-4759-8b5c-f9c1476f66f1">Main Path</card>
     <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
+    <card qty="1" id="cedfc228-4770-4d64-99e9-495a3b629da9">Arkham Woods</card>
+    <card qty="1" id="a7a16b01-49da-4e9f-8818-18ddd3cbc153">Arkham Woods</card>
+    <card qty="1" id="6773a3ce-8cc1-4125-add8-96f716e6c807">Arkham Woods</card>
+    <card qty="1" id="5b7c1138-a82a-44d8-801e-9da8334977e6">Arkham Woods</card>
+    <card qty="1" id="531433a8-fb9b-4820-a492-b75916c38c32">Arkham Woods</card>
+    <card qty="1" id="3d5d6da0-c7e0-4cc5-b80c-7649a424706a">Arkham Woods</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>
