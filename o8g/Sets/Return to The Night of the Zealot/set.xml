@@ -155,7 +155,7 @@
     <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the Guest Hall may spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="Mysterious Gateway" size="HorizCard" type="B">
+    <alternate name="Breaking the Wall" size="HorizCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -170,6 +170,7 @@
     <property name="Card Number" value="13"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Gathering"/>
+	<property name="Subtitle" value="Aberrant Gateway"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value=""/>
@@ -243,7 +244,7 @@
       <property name="Text" value="Forced - After you reveal a α, β, γ, or ζ symbol while investigating the Bathroom: Lose all remaining actions and end your turn."/>
     </alternate>
   </card>
-  <card id="8db65b5a-eb09-4034-9dc8-dd108852047b" name="Hallway" size="EncounterCard">
+  <card id="8db65b5a-eb09-4034-9dc8-dd108852047b" name="Hole in the Wall" size="EncounterCard">
     <property name="Card Number" value="17"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Gathering"/>
@@ -252,7 +253,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Hole in the Wall" size="EncounterCard" type="B">
+    <alternate name="Hallway" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -281,7 +282,7 @@
       <property name="Text" value="Forced - After you reveal the Attic: Put the set-aside Far Above Your House location into play."/>
     </alternate>
   </card>
-  <card id="6697716b-1ee1-4bef-9736-3700f7c48678" name="Field of Graves" size="EncounterCard">
+  <card id="6697716b-1ee1-4bef-9736-3700f7c48678" name="Far Above Your House" size="EncounterCard">
     <property name="Card Number" value="19"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Gathering"/>
@@ -290,7 +291,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Far Above Your House" size="EncounterCard" type="B">
+    <alternate name="Field of Graves" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
@@ -320,7 +321,7 @@
       <property name="Text" value="Forced - After you reveal the Cellar: Put the set-aside Deep Below Your House location into play."/>
     </alternate>
   </card>
-  <card id="560d50f2-aa92-44fa-9ea9-2657b7a12468" name="Ghoul Pits" size="EncounterCard">
+  <card id="560d50f2-aa92-44fa-9ea9-2657b7a12468" name="Deep Below Your House" size="EncounterCard">
     <property name="Card Number" value="21"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Return to The Gathering"/>
@@ -329,7 +330,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <alternate name="Deep Below Your House" size="EncounterCard" type="B">
+    <alternate name="Ghoul Pits" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Return to The Gathering"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
