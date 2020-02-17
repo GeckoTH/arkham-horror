@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="a3789f6e-a6a7-48e6-838b-8bec7ae6a952">Locked Inside</card>
     <card qty="1" id="8768248d-47b1-486c-ac58-b113aa5f064d">Torturous Descent</card>
@@ -36,7 +28,6 @@
     <card qty="2" id="1b887e33-712e-457c-b62d-2c16a4495f3e">Roach Swarm</card>
     <card qty="2" id="5d3f4670-272f-4665-9812-3a40b5837d97">The Yellow Sign</card>
   </section>
-  <section name="Location" shared="True" />
   <section name="Special" shared="True">
     <card qty="2" id="27a9be8b-70cf-46e9-95c0-80c97f0f03db">Asylum Gorger</card>
     <card qty="1" id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9">Beast of Aldebaran</card>
@@ -52,8 +43,8 @@
     <card qty="1" id="3752a8a3-037b-43be-bcd8-b88e29c0a58d">Patient Confinement</card>
     <card qty="1" id="fad29500-4419-41e6-91ee-3530e68652ec">Patient Confinement</card>
     <card qty="1" id="f7a4ab83-879c-46a0-ad77-c792926db949">Daniel Chesterfield</card>
+    <card qty="1" id="d46cc2e1-a35d-43d0-8d97-6191c036c752">Sickening Reality</card>
   </section>
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="195987b5-9d93-41ef-be97-6c53e31abb47">The Unspeakable Oath</card>
     <card qty="1" id="b337f881-96c3-47c2-8809-b3c2d25e6ec4">Asylum Halls</card>
@@ -67,5 +58,15 @@
     <card qty="1" id="e301eb71-4a94-4ff3-baa1-22eee71467d6">Garden</card>
     <card qty="1" id="016ceae0-74d5-433c-82ae-845093efe794">Basement Hall</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

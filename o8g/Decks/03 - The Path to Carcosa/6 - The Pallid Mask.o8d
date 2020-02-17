@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="7cc80dae-6a90-4d31-9e4b-b892ad1ff4ba">Empire of the Dead</card>
     <card qty="1" id="ecc3ad11-fd0a-4ca3-ac7b-e8288cc31bad">Empire of the Undead</card>
@@ -42,14 +34,24 @@
     <card qty="1" id="29e1e060-81b3-49fd-ba16-bc9cbf7ff0c9">Catacombs</card>
     <card qty="1" id="94b94f6c-ce58-4602-a872-9e8c3a59ccaf">Catacombs</card>
   </section>
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="e748e010-c470-4757-913b-3cdbd22ead1d">The Pallid Mask</card>
     <card qty="1" id="91849ee0-abf0-45a9-b354-e90cd10c1a6d">Catacombs</card>
     <card qty="1" id="2cf0e837-8ba9-4944-9d75-65d8e4cebb14">Catacombs</card>
     <card qty="1" id="2633cdbb-a532-47f2-ad6c-8a92237984aa">Catacombs</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="28cb5d3e-f01b-45bb-855d-c485ee013856">Sickening Reality</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
