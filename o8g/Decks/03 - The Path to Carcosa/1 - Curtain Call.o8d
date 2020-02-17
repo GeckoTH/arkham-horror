@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
   <section name="Asset" shared="False" />
@@ -38,16 +38,18 @@
     <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
     <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
   </section>
-  <section name="Location" shared="True">
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
     <card qty="1" id="651dcc09-5555-4116-a5e7-1fc268f747ce">Lobby Doorway</card>
     <card qty="1" id="4b6c39f1-489d-4865-a8c3-a06f501032d4">Lobby Doorway</card>
     <card qty="1" id="5eb519b3-1c37-42fa-979f-85ee71f4d712">Lobby Doorway</card>
     <card qty="1" id="b883c3ab-1f79-4f66-8189-331f49eeed51">Backstage Doorway</card>
     <card qty="1" id="b58d6e53-4dda-4a2a-9895-fafe78e0cb52">Backstage Doorway</card>
     <card qty="1" id="54652fd6-0f52-419b-a56c-262587e974f4">Backstage Doorway</card>
+    <card qty="1" id="0b579bc9-d109-441d-a684-107bd0074f4c">The Man in the Pallid Mask</card>
+    <card qty="1" id="85b2ef57-9d11-41f7-a65b-a648df0c6870">Royal Emissary</card>
   </section>
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="4f27752a-ef71-47c0-9b1e-2d4a192dd8af">Curtain Call</card>
@@ -55,8 +57,6 @@
     <card qty="1" id="c30724d5-13d5-483e-9bc5-50e0a825100d">Lobby</card>
     <card qty="1" id="e1d22038-00da-429e-930f-8ad7bf245bfe">Balcony</card>
     <card qty="1" id="4d77df3a-b331-41c1-aacc-0b647595333f">Backstage</card>
-    <card qty="1" id="0b579bc9-d109-441d-a684-107bd0074f4c">The Man in the Pallid Mask</card>
-    <card qty="1" id="85b2ef57-9d11-41f7-a65b-a648df0c6870">Royal Emissary</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

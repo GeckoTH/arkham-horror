@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="db645ddc-72b0-4ada-9e05-49bcae6f85a5">The Truth is Hidden</card>
     <card qty="1" id="f675c7f0-b292-414f-a2a1-7dc24a573544">Ransacking the Manor</card>
@@ -11,7 +19,6 @@
     <card qty="1" id="2c12ad8f-8b49-43e3-9481-eae4c5704b39">The Oath</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="3" id="d79af316-217c-452b-8929-9b88efa8182b">Seeker of Carcosa</card>
     <card qty="3" id="4caf5b58-a20e-4f5b-a1af-889225a55a53">Led Astray</card>
     <card qty="2" id="e488c8da-e380-40b1-9dd9-535772418241">The Cult's Search</card>
     <card qty="3" id="f2583909-73ce-4141-8a26-8bf7b86bba4e">Fanatic</card>
@@ -29,38 +36,31 @@
     <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
     <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
   </section>
-  <section name="Location" shared="True">
-    <card qty="1" id="993bb8e9-34d5-40c3-a203-16527e8041b5">Historical Society</card>
-    <card qty="1" id="f40bcedc-8679-4525-b267-8acda4017da9">Historical Society</card>
-    <card qty="1" id="92d52f13-6801-4c56-92dd-871fe8eddb17">Historical Society</card>
-    <card qty="1" id="a46dd824-28ef-4e50-a08b-6615f606e9d5">Historical Society</card>
-    <card qty="1" id="8bf4b009-1ba2-4535-804c-d1df7b8bc01a">Historical Society</card>
-    <card qty="1" id="3c1beb7e-4080-45e9-bc25-fbedb75586bc">Historical Society</card>
-    <card qty="1" id="2eb3f14e-8a82-44e3-8919-83e505af71d8">Historical Society</card>
-    <card qty="1" id="b60cff3c-de68-440f-95a7-ad5f0563bff8">Historical Society</card>
-    <card qty="1" id="7a50f11d-59c1-4109-86c4-06d483df7891">Historical Society</card>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
     <card qty="1" id="0e4d0bcf-ff36-4d5d-849d-64d6914e43e8">Hidden Library</card>
-  </section>
-  <section name="Setup" shared="True">
-    <card qty="1" id="d789bb63-a4a4-478c-800f-9b618b76d0d9">Echoes of the Past</card>
-    <card qty="1" id="e539a9e8-b1f7-47c7-be85-8e2d1b07da19">Entry Hall</card>
-    <card qty="1" id="a13cbbd4-e860-48df-bd05-55e7959a47ae">Quiet Halls</card>
-    <card qty="1" id="55d2f185-d653-4853-a20b-0699c10f85ca">Quiet Halls</card>
     <card qty="1" id="6ad7589a-4c69-4376-ab12-eeac1deee852">Possessed Oathspeaker</card>
     <card qty="1" id="cc41dfc7-71be-4b1e-a88b-24127b9f0318">Mr. Peabody</card>
     <card qty="1" id="ca68f0da-59e9-45d8-8ba4-10d1339ac0f4">Clasp of Black Onyx</card>
     <card qty="1" id="73f0528f-9fd5-4ba1-8680-d67ac2c4fae2">The Tattered Cloak</card>
   </section>
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="d789bb63-a4a4-478c-800f-9b618b76d0d9">Echoes of the Past</card>
+    <card qty="1" id="e539a9e8-b1f7-47c7-be85-8e2d1b07da19">Entry Hall</card>
+    <card qty="1" id="7a50f11d-59c1-4109-86c4-06d483df7891">Historical Society</card>
+    <card qty="1" id="b60cff3c-de68-440f-95a7-ad5f0563bff8">Historical Society</card>
+    <card qty="1" id="2eb3f14e-8a82-44e3-8919-83e505af71d8">Historical Society</card>
+    <card qty="1" id="a13cbbd4-e860-48df-bd05-55e7959a47ae">Quiet Halls</card>
+    <card qty="1" id="3c1beb7e-4080-45e9-bc25-fbedb75586bc">Historical Society</card>
+    <card qty="1" id="8bf4b009-1ba2-4535-804c-d1df7b8bc01a">Historical Society</card>
+    <card qty="1" id="a46dd824-28ef-4e50-a08b-6615f606e9d5">Historical Society</card>
+    <card qty="1" id="55d2f185-d653-4853-a20b-0699c10f85ca">Quiet Halls</card>
+    <card qty="1" id="92d52f13-6801-4c56-92dd-871fe8eddb17">Historical Society</card>
+    <card qty="1" id="f40bcedc-8679-4525-b267-8acda4017da9">Historical Society</card>
+    <card qty="1" id="993bb8e9-34d5-40c3-a203-16527e8041b5">Historical Society</card>
+    <card qty="3" id="d79af316-217c-452b-8929-9b88efa8182b">Seeker of Carcosa</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>
