@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Agenda" shared="True">
     <card qty="1" id="cf16a4b5-94ef-48af-8493-39999789746f">Expedition into the Wild</card>
     <card qty="1" id="9156e93a-8c28-4ec3-aae0-ab1ecfa166a0">Intruders</card>
@@ -19,13 +11,13 @@
     <card qty="1" id="193b5971-e931-474a-a8c6-8280f5def4bf">The Guarded Ruins</card>
   </section>
   <section name="Encounter" shared="True">
+    <card qty="1" id="d1a5b69b-6d3a-48ab-bace-e33633b93b5a">Boa Constrictor</card>
     <card qty="1" id="f4d0bee6-9086-448f-8408-0c4c0afc99f6">Overgrowth</card>
     <card qty="2" id="db2a7d83-bc7d-4dea-ae92-fc02f9d62f0d">Voice of the Jungle</card>
-    <card qty="3" id="20130830-bb18-44ac-b429-de7ab8ca1d6a">Pit Viper</card>
-    <card qty="1" id="d1a5b69b-6d3a-48ab-bace-e33633b93b5a">Boa Constrictor</card>
-    <card qty="3" id="39d0f46c-20e2-447d-acd4-24d6b2794d99">Snake Bite</card>
     <card qty="2" id="1095c136-0cd2-4add-a70f-b0d1a91221b6">Lost in the Wilds</card>
     <card qty="1" id="fa2580af-7586-427c-b2c0-1536a80afe16">Low on Supplies</card>
+    <card qty="3" id="20130830-bb18-44ac-b429-de7ab8ca1d6a">Pit Viper</card>
+    <card qty="2" id="39d0f46c-20e2-447d-acd4-24d6b2794d99">Snake Bite</card>
     <card qty="2" id="cf96c698-ac9c-4d12-8aa8-bbc70a9ae088">Eztli Guardian</card>
     <card qty="1" id="0c9b4bfc-b552-48de-9759-0f81ee668c92">Arrows from the Trees</card>
     <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
@@ -38,27 +30,35 @@
     <card qty="1" id="bd95f839-567b-4b3c-9720-0015498baaf8">Serpent's Haven</card>
     <card qty="1" id="db538e9b-2c4e-4416-b41a-0c5972d46bd9">Circuitous Trail</card>
     <card qty="1" id="1095c136-0cd2-4add-a70f-b0d1a91221b6">Lost in the Wilds</card>
-    <card qty="1" id="fa2580af-7586-427c-b2c0-1536a80afe16">Low on Supplies</card>
     <card qty="1" id="f4d0bee6-9086-448f-8408-0c4c0afc99f6">Overgrowth</card>
+    <card qty="1" id="fa2580af-7586-427c-b2c0-1536a80afe16">Low on Supplies</card>
     <card qty="1" id="39d0f46c-20e2-447d-acd4-24d6b2794d99">Snake Bite</card>
     <card qty="1" id="0c9b4bfc-b552-48de-9759-0f81ee668c92">Arrows from the Trees</card>
   </section>
-  <section name="Special" shared="True">
+  <section name="Second Special" shared="True">
+    <card qty="1" id="1f751654-9485-433c-a9e4-d989155a316f">Alejandro Vela</card>
+    <card qty="1" id="882f22d1-b171-4c18-8379-8a5e5e1d1a6d">Ichtaca</card>
+    <card qty="1" id="e99a8289-8797-4ac9-9ad5-dd1d10ca4827">Ruins of Eztli</card>
+    <card qty="1" id="37b7a822-5ccc-4939-9810-f3f03cf8c6c2">Overgrown Ruins</card>
+    <card qty="1" id="52025ebe-feb2-4d76-b420-be511c642bf1">Temple of the Fang</card>
     <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
     <card qty="1" id="184cb383-35f8-4ecc-af00-33b427b1df7b">Serpent from Yoth</card>
     <card qty="2" id="56778b1f-923b-4618-b4ff-445a972d1bfe">Curse of Yig</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
   </section>
-  <section name="Second Special" shared="True" />
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="6ea63fe0-6d47-49f8-aded-c891b70b6c63">The Untamed Wilds</card>
     <card qty="1" id="7f70d751-9b35-486c-b588-688b30ec2954">Expedition Camp</card>
-    <card qty="1" id="e99a8289-8797-4ac9-9ad5-dd1d10ca4827">Ruins of Eztli</card>
-    <card qty="1" id="52025ebe-feb2-4d76-b420-be511c642bf1">Temple of the Fang</card>
-    <card qty="1" id="37b7a822-5ccc-4939-9810-f3f03cf8c6c2">Overgrown Ruins</card>
-    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
-    <card qty="1" id="1f751654-9485-433c-a9e4-d989155a316f">Alejandro Vela</card>
-    <card qty="1" id="882f22d1-b171-4c18-8379-8a5e5e1d1a6d">Ichtaca</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

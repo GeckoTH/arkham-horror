@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
   <section name="Asset" shared="False" />
@@ -21,7 +21,7 @@
     <card qty="1" id="1f204153-9aa1-4c95-9e5d-deb7b8b16481">Journey to the Nexus</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="2" id="fd16f750-79d2-432a-ad22-410720cd76b0">Pit Warden</card>
+    <card qty="3" id="fd16f750-79d2-432a-ad22-410720cd76b0">Pit Warden</card>
     <card qty="1" id="47ce8ab2-7c1c-4f16-8940-125a8ba009e1">Eater of the Depths</card>
     <card qty="3" id="7896d01c-88e8-4cd3-b8ba-d5f90e85c7f3">Children of Valusia</card>
     <card qty="3" id="7df4c15d-ddbe-4f7e-967e-7b584a6a864d">Lightless Shadow</card>
@@ -41,12 +41,7 @@
     <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
   </section>
   <section name="Location" shared="True" />
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
-  <section name="Chaos Bag" shared="True" />
-  <section name="Setup" shared="True">
-    <card qty="1" id="6876db05-c1e2-4e46-b172-1739f700f716">The Depths of Yoth</card>
-    <card qty="1" id="1ec867c4-b0c0-42e4-8b6a-f57f83c74eca">Steps of Yoth</card>
+  <section name="Special" shared="True">
     <card qty="1" id="93d0dc54-236b-40c9-abb0-60fac45d6b04">City of the Serpents</card>
     <card qty="1" id="0b0c6e37-8804-4eb2-a2e3-dfa2b6666114">Hall of Heresy</card>
     <card qty="1" id="41fa1d15-e606-486f-bbc0-3c59a68e7ae4">Crumbling Precipice</card>
@@ -56,10 +51,17 @@
     <card qty="1" id="1b7152da-96ae-4bd9-a778-23bbcb4a3ed3">Broken Passage</card>
     <card qty="1" id="48708e1a-6021-40d0-ad6c-7d9a5ef894ad">Abandoned Site</card>
     <card qty="1" id="e6a9042c-94a9-4ee1-b485-c74086f2a36a">Bright Canyon</card>
+  </section>
+  <section name="Second Special" shared="True">
     <card qty="1" id="736032a4-bfdd-408e-8547-5148a271bc34">Yig</card>
-    <card qty="1" id="e672cb77-056e-4f2e-95ba-3a8484e751c7">Relic of Ages</card>
     <card qty="1" id="bbff23f5-ba78-4cf4-908a-a9562c37d692">Harbinger of Valusia</card>
+    <card qty="1" id="e672cb77-056e-4f2e-95ba-3a8484e751c7">Relic of Ages</card>
     <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="6876db05-c1e2-4e46-b172-1739f700f716">The Depths of Yoth</card>
+    <card qty="1" id="1ec867c4-b0c0-42e4-8b6a-f57f83c74eca">Steps of Yoth</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>
