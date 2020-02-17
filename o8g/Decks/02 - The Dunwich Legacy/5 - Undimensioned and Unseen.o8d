@@ -34,7 +34,9 @@
     <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
   </section>
   <section name="Location" shared="True" />
-  <section name="Special" shared="True" />
+  <section name="Special" shared="True">
+    <card qty="5" id="53354184-415b-37e9-cb94-e1079c75fe23">Brood of Yog-Sothoth</card>
+  </section>
   <section name="Second Special" shared="True">
     <card qty="4" id="404128bb-f298-33c3-2067-1cb06c0b32d0">Esoteric Formula</card>
   </section>
@@ -53,7 +55,6 @@
     <card qty="1" id="19139758-ff4e-3728-7bd9-8524b115a0e2">Whateley Ruins</card>
     <card qty="1" id="133dea2e-5ded-3c05-59f7-4a7ba47256b3">Devil's Hop Yard</card>
     <card qty="1" id="d7ff2904-e1fd-3c21-bccc-207ac14bf965">Devil's Hop Yard</card>
-    <card qty="5" id="53354184-415b-37e9-cb94-e1079c75fe23">Brood of Yog-Sothoth</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>
