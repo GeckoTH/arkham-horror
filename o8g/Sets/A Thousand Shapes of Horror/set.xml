@@ -225,7 +225,7 @@
       <property name="Subtitle" value="Agenda 1a" />
       <property name="Type" value="Agenda" />
       <property name="Doom" value="3" />
-      <alternate name="The Unnameable" size="HorizCard" type="B">
+      <alternate name="The Unnameable" size="EncounterCard" type="B">
         <property name="Encounter Set" value="A Thousand Shapes of Horror" />
         <property name="Subtitle" value="The Ultimate Abomination" />
         <property name="Type" value="Enemy" />

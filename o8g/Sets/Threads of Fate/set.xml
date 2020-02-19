@@ -233,7 +233,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Miskatonic University can spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="Harlan Earnstone" type="B">
+    <alternate name="Harlan Earnstone" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Historical Theorist"/>
       <property name="Unique" value="ο"/>
@@ -397,7 +397,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Easttown can spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="Henry Deveau" type="B">
+    <alternate name="Henry Deveau" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Friend of Alejandro"/>
       <property name="Unique" value="ο"/>
@@ -607,7 +607,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Northside can spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="Maria DeSilva" type="B">
+    <alternate name="Maria DeSilva" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Wealthy Patron"/>
       <property name="Unique" value="ο"/>
