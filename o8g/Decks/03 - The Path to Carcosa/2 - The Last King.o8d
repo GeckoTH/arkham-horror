@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="decc0b1b-abfa-4f69-8c34-e6ca0dfb4d43">Fashionably Late</card>
+    <card qty="1" id="62b1be18-861f-4c79-850b-f65181aaaa75">The Terrifying Truth</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="2783c24c-09ee-40ea-bf94-c176b1c875e3">Discovering the Truth</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="89caa5e2-c572-41ba-ac2d-d9fb15776ccc">Fine Dining</card>
+    <card qty="2" id="f3ba042e-0168-42c5-b8cb-3f7c6db9aa18">Tough Crowd</card>
+    <card qty="2" id="8edcf3f3-0cb5-4ba6-8fe1-3386835a0b15">Maniac</card>
+    <card qty="2" id="95a412a2-e6d5-4adc-ab32-d6c15578680d">Young Psychopath</card>
+    <card qty="2" id="45be8e5a-86ba-4461-81b5-b26ed5667d83">Dance of the Yellow King</card>
+    <card qty="2" id="3cba18b0-e2d2-4583-a7fe-f42dc278e847">Ooze and Filth</card>
+    <card qty="2" id="757ba65c-af72-40b0-a8e6-bf5828260733">Corrosion</card>
+    <card qty="2" id="1b887e33-712e-457c-b62d-2c16a4495f3e">Roach Swarm</card>
+    <card qty="2" id="f341e477-11b0-498b-b1e4-fbf6822e9097">Marked by the Sign</card>
+    <card qty="1" id="a7ec26bc-91c9-4351-a54e-7f13a0ed0a73">The Pale Mask Beckons</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True">
+    <card qty="1" id="d46cc2e1-a35d-43d0-8d97-6191c036c752">Sickening Reality</card>
+    <card qty="1" id="d70b4ee5-f019-41e3-b646-5877ed6ed546">Sickening Reality</card>
+    <card qty="1" id="28cb5d3e-f01b-45bb-855d-c485ee013856">Sickening Reality</card>
+    <card qty="1" id="e2a657d8-5022-4c24-a583-db5af2f0ffe9">Sickening Reality</card>
+    <card qty="1" id="cb30e8bc-cd3f-458d-8ed7-a862aca101b1">Sickening Reality</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="6c253516-6ee4-4de9-8a4d-29c9f70b34aa">Dianne Devine</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="8ccc73e7-0522-40ab-a2ce-8f2840118c14">The Last King</card>
+    <card qty="1" id="1a2e05a3-449d-42ee-9acb-bcbcb74b8fb8">Foyer</card>
+    <card qty="1" id="817c6c3c-a012-4cb6-a971-7f635b9a40c9">Ballroom</card>
+    <card qty="1" id="fa39401d-1c22-48b3-90a3-491fdc3986a8">Living Room</card>
+    <card qty="1" id="e8c328f7-614e-4cca-9bc0-5a8c98b17191">Gallery</card>
+    <card qty="1" id="1e3ae66b-e3b2-4c47-b01b-74a84a7199d9">Courtyard</card>
+    <card qty="1" id="55d22c8d-180a-4f65-a976-2578b32004fa">Dining Room</card>
+    <card qty="1" id="95e0c5b0-e5c0-447b-a56c-cd3e0c33ed48">Constance Dumaine</card>
+    <card qty="1" id="d857e12b-849f-4d96-ac84-6b4800b22d33">Jordan Perry</card>
+    <card qty="1" id="618a7e11-07d9-4cd3-ae9e-51c655675115">Ishimaru Haruko</card>
+    <card qty="1" id="7468dc22-72ba-440f-b2c6-db5e996c439b">Sebastien Moreau</card>
+    <card qty="1" id="16cf8478-335a-4a07-9367-5ef3b984bf5d">Ashleigh Clarke</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

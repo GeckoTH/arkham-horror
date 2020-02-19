@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
   <section name="Asset" shared="False" />
@@ -7,6 +7,7 @@
   <section name="Skill" shared="False" />
   <section name="Weakness" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="ee40c4bb-7167-413a-9f74-f90314347767">All is One</card>
     <card qty="1" id="8544cff6-a5a1-4f0d-a592-2277f3fc00cb">Past, Present and Future</card>
@@ -42,14 +43,15 @@
   </section>
   <section name="Location" shared="True" />
   <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="ea62e87a-fc31-43de-9b71-2b551fd0c99f">The Edge of the Universe</card>
+    <card qty="1" id="c9821a47-be23-45a0-bf4a-1e42a6274404">Tear Through Time</card>
+    <card qty="1" id="a798b77c-003c-4f9d-bf25-523751a3b408">Yog-Sothoth</card>
+  </section>
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="6fbfa8ce-a2c5-4507-877f-5418b6a0c124">Lost in Time and Space</card>
     <card qty="1" id="6a9bbf1a-bc69-4a2e-80db-203384bc5a3c">Another Dimension</card>
-    <card qty="1" id="ea62e87a-fc31-43de-9b71-2b551fd0c99f">The Edge of the Universe</card>
-    <card qty="1" id="c9821a47-be23-45a0-bf4a-1e42a6274404">Tear Through Time</card>
-    <card qty="1" id="a798b77c-003c-4f9d-bf25-523751a3b408">Yog-Sothoth</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

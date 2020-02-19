@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="28a33b22-2f33-437c-8ca4-3c12e3d86fb2">What's Going On?!</card>
     <card qty="1" id="4f5e8e19-637e-4d55-964b-05858ca2b898">Rise of the Ghouls</card>
@@ -24,26 +32,20 @@
     <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
     <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
   </section>
-  <section name="Location" shared="True">
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
     <card qty="1" id="cdb15fc9-92c3-4dc6-8db1-f6d00dcf63a1">Hallway</card>
     <card qty="1" id="ebd0f687-cffa-4e23-b15a-81429fd0c3aa">Attic</card>
     <card qty="1" id="155a7647-26da-4ed2-a0eb-c62cb52f9a48">Cellar</card>
     <card qty="1" id="6b29f6b9-13fb-41d5-9d5d-95a7d7243759">Parlor</card>
-  </section>
-  <section name="Setup" shared="True">
-    <card qty="1" id="1edc5230-8497-43cf-888b-d255270c9246">The Gathering</card>
-    <card qty="1" id="f2e936b3-445e-43ce-8a38-7919499c0209">Study</card>
     <card qty="1" id="060db76e-909e-4b71-8798-a9494f29d63b">Ghoul Priest</card>
     <card qty="1" id="d6eebc23-10bc-4686-9155-4b11783335c4">Lita Chantler</card>
   </section>
-  <section name="Investigator" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="1edc5230-8497-43cf-888b-d255270c9246">The Gathering</card>
+    <card qty="1" id="f2e936b3-445e-43ce-8a38-7919499c0209">Study</card>
+  </section>
   <notes><![CDATA[]]></notes>
 </deck>

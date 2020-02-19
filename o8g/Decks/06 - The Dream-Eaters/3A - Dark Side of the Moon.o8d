@@ -33,28 +33,27 @@
     <card qty="2" id="d6249d61-f97f-4001-95c3-eb4d61bf6f48">Deeper Slumber</card>
     <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
   </section>
-  <section name="Location" shared="True">
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="0853654d-d6ef-4c3b-bf22-243b8cea794a">Moon-Beast Galley</card>
     <card qty="1" id="05fb88f2-c911-4335-840c-062d629ebe74">Caverns Beneath the Moon</card>
     <card qty="1" id="1a6d43d9-56a2-4e4e-90b6-60b21e32abc6">The Black Core</card>
     <card qty="1" id="3ba13acd-03fd-4434-9265-26a1816eced8">Caverns Beneath the Moon</card>
     <card qty="1" id="5fc55569-d30c-4985-a030-3bc1881d93b0">Light Side of the Moon</card>
     <card qty="1" id="22fbbb31-7da1-4648-8d3f-b8ae11d4f50b">The White Ship</card>
-  </section>
-  <section name="Special" shared="True">
-    <card qty="1" id="fc1eb481-65c7-401e-a488-6d4a18f3fe34">Moon Lizard</card>
     <card qty="1" id="de6eec48-c243-429a-81ce-f3b1503cf9e2">Virgil Gray</card>
     <card qty="1" id="8f869fd2-a1ed-4b7f-bc90-bd6ef871e7e0">The Captain</card>
+    <card qty="1" id="fc1eb481-65c7-401e-a488-6d4a18f3fe34">Moon Lizard</card>
     <card qty="1" id="7a3d07b5-ba1f-42ec-b208-ce67d762c6ea">False Awakening</card>
   </section>
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="cadd4c3f-d852-467f-a5b9-ca338eb7b029">Dark Side of the Moon</card>
     <card qty="1" id="95e9e1f2-3d9e-4973-aac6-81155b63eea9">City of the Moon-Beasts</card>
+    <card qty="1" id="55724c8b-2fba-4056-a8f2-f27931e50ba2">The Dark Crater</card>
     <card qty="1" id="f79b8490-720b-4afd-b5f9-e87add877bbf">Temple of the Moon Lizard</card>
     <card qty="1" id="3733e870-d9f0-49d5-b261-2825a083c997">Moon-Forest</card>
-    <card qty="1" id="55724c8b-2fba-4056-a8f2-f27931e50ba2">The Dark Crater</card>
-    <card qty="1" id="0853654d-d6ef-4c3b-bf22-243b8cea794a">Moon-Beast Galley</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

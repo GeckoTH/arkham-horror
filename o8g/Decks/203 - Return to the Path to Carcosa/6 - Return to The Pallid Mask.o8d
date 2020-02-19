@@ -26,7 +26,6 @@
     <card qty="1" id="2f8567af-14d2-41cc-8eed-8ade21a30dc7">Malformed Skeleton</card>
   </section>
   <section name="Location" shared="True">
-    <card qty="1" id="2633cdbb-a532-47f2-ad6c-8a92237984aa">Catacombs</card>
     <card qty="2" id="a2d57d45-fb42-4968-80d0-feb751d6f3e5">Catacombs</card>
     <card qty="1" id="bbce8064-cb86-4697-b45f-89cb1834f88f">Catacombs</card>
     <card qty="1" id="76b0fffe-f335-4b93-90e6-37def05e571b">Catacombs</card>
@@ -45,8 +44,7 @@
     <card qty="1" id="248211c0-ccc3-483b-be2b-f8ab7dbf4aab">Return to The Pallid Mask</card>
     <card qty="1" id="91849ee0-abf0-45a9-b354-e90cd10c1a6d">Catacombs</card>
     <card qty="1" id="2cf0e837-8ba9-4944-9d75-65d8e4cebb14">Catacombs</card>
-    <card qty="1" id="0b579bc9-d109-441d-a684-107bd0074f4c">The Man in the Pallid Mask</card>
-    <card qty="1" id="28cb5d3e-f01b-45bb-855d-c485ee013856">Sickening Reality</card>
+    <card qty="1" id="2633cdbb-a532-47f2-ad6c-8a92237984aa">Catacombs</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
@@ -57,7 +55,9 @@
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
   <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="28cb5d3e-f01b-45bb-855d-c485ee013856">Sickening Reality</card>
+  </section>
   <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

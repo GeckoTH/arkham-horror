@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
   <section name="Asset" shared="False" />
@@ -7,6 +7,7 @@
   <section name="Skill" shared="False" />
   <section name="Weakness" shared="False" />
   <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="6566fbf5-5332-4710-b25d-732161ecfb55">Quiet Halls</card>
     <card qty="1" id="bc83f534-0039-46ab-ac89-8a1397a81810">Dead of Night</card>
@@ -35,7 +36,16 @@
   </section>
   <section name="Location" shared="True" />
   <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="f2a1a2ce-85ed-4cd8-b921-8a345a33da17">Dormitories</card>
+    <card qty="1" id="15529356-18d0-4148-bbf1-b6bd4fc2a2cb">Faculty Offices</card>
+    <card qty="1" id="41ea5c25-5bca-493d-b91f-ebd5fdbc4957">Faculty Offices</card>
+    <card qty="1" id="3c08ff87-0ea6-42b3-a177-088ee958588c">Alchemy Labs</card>
+    <card qty="1" id="27fef106-be25-4c4a-9732-95d4f3a64c76">The Experiment</card>
+    <card qty="1" id="c6918c7e-efaf-4524-b2ac-69c07a8ddd40">Alchemical Concoction</card>
+    <card qty="1" id="cf7346b9-b7eb-4f13-92fa-4468f3e9158a">"Jazz" Mulligan</card>
+    <card qty="1" id="348b3d51-a526-420d-95d0-8a65df600c52">Professor Warren Rice</card>
+  </section>
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="b08a7c06-5d1b-4bcb-b207-ff248bcf634d">Extracurricular Activity</card>
@@ -43,16 +53,8 @@
     <card qty="1" id="a461af68-19d3-46dc-ada5-d5311515ad54">Humanities Building</card>
     <card qty="1" id="4ff2fd3f-fa5c-41f0-87c9-6408cc8dbf6d">Orne Library</card>
     <card qty="1" id="9fe83ed1-f28a-47fd-8a83-f0e603d5afe2">Student Union</card>
-    <card qty="1" id="f5a6a23b-fb3b-492c-a57c-28a992fe8012">Administration</card>
+    <card qty="1" id="f5a6a23b-fb3b-492c-a57c-28a992fe8012">Administration Building</card>
     <card qty="1" id="6e289bf2-c433-451d-8d44-efd339a16f27">Science Building</card>
-    <card qty="1" id="15529356-18d0-4148-bbf1-b6bd4fc2a2cb">Faculty Offices</card>
-    <card qty="1" id="41ea5c25-5bca-493d-b91f-ebd5fdbc4957">Faculty Offices</card>
-    <card qty="1" id="f2a1a2ce-85ed-4cd8-b921-8a345a33da17">Dormitories</card>
-    <card qty="1" id="3c08ff87-0ea6-42b3-a177-088ee958588c">Alchemy Labs</card>
-    <card qty="1" id="cf7346b9-b7eb-4f13-92fa-4468f3e9158a">"Jazz" Mulligan</card>
-    <card qty="1" id="348b3d51-a526-420d-95d0-8a65df600c52">Professor Warren Rice</card>
-    <card qty="1" id="c6918c7e-efaf-4524-b2ac-69c07a8ddd40">Alchemical Concoction</card>
-    <card qty="1" id="27fef106-be25-4c4a-9732-95d4f3a64c76">The Experiment</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

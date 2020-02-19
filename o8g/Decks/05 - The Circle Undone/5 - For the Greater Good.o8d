@@ -19,35 +19,36 @@
     <card qty="1" id="c458c425-9802-44fa-8ee0-fd42381d42af">The Four Keys</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="1" id="093c9a1a-a87d-4cdc-8832-824be87b0f07">Call to Order</card>
-    <card qty="1" id="d2c08b5e-afe7-44b3-81ab-26ec0866d3d3">Expulsion</card>
+    <card qty="1" id="781b618f-5555-4688-be9f-2f37e40dde5b">Lodge Jailor</card>
+    <card qty="1" id="d8483e0d-5b23-4214-97c1-dbc4249c384a">Cell Keeper</card>
+    <card qty="2" id="f4eb7915-243a-48e4-9aef-a0397687f600">Knight of the Inner Circle</card>
+    <card qty="2" id="f526eda8-9504-45d8-a710-f7b3279119fc">Knight of the Outer Void</card>
+    <card qty="2" id="093c9a1a-a87d-4cdc-8832-824be87b0f07">Call to Order</card>
+    <card qty="2" id="d2c08b5e-afe7-44b3-81ab-26ec0866d3d3">Expulsion</card>
     <card qty="2" id="d0d83800-414d-4913-b66f-78b9f8dce82c">Beneath the Lodge</card>
     <card qty="2" id="16a55402-d8cc-4d8a-ac73-11301f6ec9c3">Mark of the Order</card>
     <card qty="2" id="edbb082b-fdd8-42de-a328-fcd65398e1fc">Evil Past</card>
     <card qty="3" id="c082467f-92dd-493c-a00a-026c26e133f5">Centuries of Secrets</card>
-    <card qty="2" id="779ed398-8619-4fa1-bd77-8b7be2c44c75">Mysteries of the Lodge</card>
+    <card qty="3" id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f">Lodge Neophyte</card>
+    <card qty="1" id="569ae12f-4a94-49f5-8cbd-3104502c13c6">Keeper of Secrets</card>
     <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
     <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
     <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
   </section>
-  <section name="Location" shared="True">
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
     <card qty="1" id="64ed2a25-81dd-4889-9b41-f25796cdb361">Vault</card>
     <card qty="1" id="d1b5a0e2-82df-4b8e-b96d-67c5f446c986">Library</card>
     <card qty="1" id="d54c32cd-45e6-4bf2-b4cf-66769783ec78">Sanctum Doorway</card>
     <card qty="1" id="9aecb0e7-3275-425b-95f8-99be1a99621d">Sanctum Doorway</card>
     <card qty="1" id="769f425e-cbbe-4f6d-97d4-85780c69730a">Inner Sanctum</card>
-  </section>
-  <section name="Special" shared="True">
-    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
-    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
-    <card qty="2" id="f4eb7915-243a-48e4-9aef-a0397687f600">Knight of the Inner Circle</card>
-    <card qty="1" id="d8483e0d-5b23-4214-97c1-dbc4249c384a">Cell Keeper</card>
-  </section>
-  <section name="Second Special" shared="True">
-    <card qty="3" id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f">Lodge Neophyte</card>
-    <card qty="1" id="569ae12f-4a94-49f5-8cbd-3104502c13c6">Keeper of Secrets</card>
-    <card qty="2" id="f526eda8-9504-45d8-a710-f7b3279119fc">Knight of the Outer Void</card>
-    <card qty="1" id="781b618f-5555-4688-be9f-2f37e40dde5b">Lodge Jailor</card>
+    <card qty="1" id="5244c3f2-2039-4f6d-a49d-a00eb4c9b370">August Lindquist</card>
+    <card qty="1" id="d060ab82-c7c4-4154-b76a-e1f881a01159">Nathan Wick</card>
+    <card qty="1" id="91f8f06a-b8f8-4a6e-ab6b-3a42236d3d28">Summoned Beast</card>
+    <card qty="1" id="c9ff7c61-70ef-4cf3-8776-41c5f2550c7b">Puzzle Box</card>
   </section>
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
@@ -60,10 +61,6 @@
     <card qty="1" id="29c9979d-08c7-4b46-8f4d-3882710b4dac">Lodge Cellar</card>
     <card qty="1" id="d31e3e02-9b3b-476e-b37f-80a80480c6bd">Lounge</card>
     <card qty="1" id="0c55379a-9551-4b0b-a26e-dee84a2f4723">Lodge Catacombs</card>
-    <card qty="1" id="c9ff7c61-70ef-4cf3-8776-41c5f2550c7b">Puzzle Box</card>
-    <card qty="1" id="91f8f06a-b8f8-4a6e-ab6b-3a42236d3d28">Summoned Beast</card>
-    <card qty="1" id="5244c3f2-2039-4f6d-a49d-a00eb4c9b370">August Lindquist</card>
-    <card qty="1" id="d060ab82-c7c4-4154-b76a-e1f881a01159">Nathan Wick</card>
     <card qty="1" id="49d18b2f-a191-4569-9ce4-06a5bdd33bf6">Skull</card>
     <card qty="1" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
     <card qty="1" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>

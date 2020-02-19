@@ -50,7 +50,7 @@
     <card id="a381dd40-1854-411e-9634-bdf032a6d075" name="Dream Diary">
       <property name="Card Number" value="237" />
       <property name="Quantity" value="2" />
-      <property name="Subtitle" value="Dreams of an Madman" />
+      <property name="Subtitle" value="Dreams of a Madman" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome. Charm." />
       <property name="Text" value="You can only include this asset in your deck by upgrading it from Dream Diary (Untranslated), and only if “you have interpreted the dreams” in your Campaign Log.&#10;While you are engaged with an enemy, your Essence of the Dream gains ? ?.&#10;ι When your turn begins: Search your bonded cards for Essence of the Dream and add it to your hand." />
@@ -67,7 +67,7 @@
     <card id="14cd2f4b-3437-48e0-a49c-b10055a6ad7f" name="Dream Diary">
       <property name="Card Number" value="238" />
       <property name="Quantity" value="2" />
-      <property name="Subtitle" value="Dreams of an Child" />
+      <property name="Subtitle" value="Dreams of a Child" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome. Charm." />
       <property name="Text" value="You can only include this asset in your deck by upgrading it from Dream Diary (Untranslated), and only if “you have interpreted the dreams” in your Campaign Log.&#10;While you have 8 or more cards in hand, your Essence of the Dream gains ? ?.&#10;ι When your turn begins: Search your bonded cards for Essence of the Dream and add it to your hand." />
@@ -131,7 +131,7 @@
     <card id="a22af06f-e75c-45e1-a5aa-32dd6ccdd70c" name="Empower Self">
       <property name="Card Number" value="242" />
       <property name="Quantity" value="1" />
-      <property name="Subtitle" value="Acclarity" />
+      <property name="Subtitle" value="Alacrity" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ritual." />
       <property name="Text" value="Myriad. Limit 1 Empower Self (Alacrity) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use [ά] instead of [ί], you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 [ί] for this test." />

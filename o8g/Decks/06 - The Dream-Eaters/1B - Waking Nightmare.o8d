@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="93f1ba7c-ee75-4780-ae78-737f3b2abfff">Halls of St. Mary’s</card>
     <card qty="1" id="4a7a8b53-2d37-4333-86b0-ab60344405f4">The Infestation Spreads</card>
@@ -21,27 +29,30 @@
     <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
     <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
   </section>
-  <section name="Location" shared="True">
-    <card qty="1" id="0285ebb6-ae3a-44dd-8304-463e1307c291">Stairwell</card>
-    <card qty="1" id="8db8d24b-acb8-4d01-aa13-bdde215a94b6">Basement Door</card>
-    <card qty="1" id="1420b710-1e53-4d7f-9c85-40fd06aecc6d">Basement Door</card>
-    <card qty="1" id="a74523c6-6037-4499-84bf-4401246e3c16">Basement Door</card>
-  </section>
+  <section name="Location" shared="True" />
   <section name="Special" shared="True">
-    <card qty="1" id="4f315e5b-2958-4036-ae66-0b27d965024c">The Infestation Begins...</card>
-    <card qty="1" id="8f1582a0-4686-4dfd-8b46-4f17944efdfe">Spider of Leng</card>
-    <card qty="3" id="9f74e2e9-5c16-4c0a-ab6b-a2dd7f8b1882">Swarm of Spiders</card>
-    <card qty="2" id="8387d538-c00f-471e-b560-8b6d562e1cba">Sickening Webs</card>
-    <card qty="3" id="f06ea8e3-84ca-4c65-924f-623d97dc6280">Outbreak</card>
     <card qty="1" id="49d18b2f-a191-4569-9ce4-06a5bdd33bf6">Skull</card>
     <card qty="4" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>
     <card qty="2" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
   </section>
   <section name="Second Special" shared="True">
+    <card qty="1" id="0285ebb6-ae3a-44dd-8304-463e1307c291">Stairwell</card>
+    <card qty="1" id="8db8d24b-acb8-4d01-aa13-bdde215a94b6">Basement Door</card>
+    <card qty="1" id="1420b710-1e53-4d7f-9c85-40fd06aecc6d">Basement Door</card>
+    <card qty="1" id="a74523c6-6037-4499-84bf-4401246e3c16">Basement Door</card>
+    <card qty="1" id="8f1582a0-4686-4dfd-8b46-4f17944efdfe">Spider of Leng</card>
+    <card qty="3" id="9f74e2e9-5c16-4c0a-ab6b-a2dd7f8b1882">Swarm of Spiders</card>
+    <card qty="2" id="8387d538-c00f-471e-b560-8b6d562e1cba">Sickening Webs</card>
+    <card qty="3" id="f06ea8e3-84ca-4c65-924f-623d97dc6280">Outbreak</card>
+    <card qty="1" id="4f315e5b-2958-4036-ae66-0b27d965024c">The Infestation Begins...</card>
     <card qty="2" id="9e01fd73-3281-4345-9087-8a3831017adf">Corrupted Orderly</card>
     <card qty="2" id="c0866625-0f2d-4223-9fea-c9ad99a30e24">Grey Weaver</card>
     <card qty="2" id="731203b3-42bb-414b-b780-ca7205632611">Will of the Spider-Mother</card>
+    <card qty="1" id="49d18b2f-a191-4569-9ce4-06a5bdd33bf6">Skull</card>
+    <card qty="1" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
+    <card qty="1" id="ed2a88cf-0b8e-405d-bda2-75b695904fd4">Randolph Carter</card>
   </section>
+  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="697ccc8c-d21e-4e7c-9d6c-5cbac8542294">Waking Nightmare</card>
     <card qty="1" id="28677dfe-6620-4b6b-b50f-c64158d95348">Waiting Room</card>
@@ -49,16 +60,6 @@
     <card qty="1" id="036fbc7a-d0f6-4a21-ab20-58ca5d4c6022">Experimental Therapies Ward</card>
     <card qty="1" id="a13e6744-9f50-433c-bb4b-2080dfc468d3">Records Office</card>
     <card qty="1" id="2c651b37-6007-4ff3-af6f-4a2929f3716c">Dr. Shivani Maheswaran</card>
-    <card qty="1" id="ed2a88cf-0b8e-405d-bda2-75b695904fd4">Randolph Carter</card>
   </section>
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
-  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

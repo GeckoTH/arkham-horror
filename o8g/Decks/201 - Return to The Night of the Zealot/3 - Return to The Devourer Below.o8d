@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Agenda" shared="True">
     <card qty="1" id="12eb456d-9abb-4a7b-9b7f-ebb252772874">The Arkham Woods</card>
     <card qty="1" id="ce8bd1a5-d504-41cb-a537-3cef1737fada">The Ritual Begins</card>
@@ -11,19 +11,20 @@
     <card qty="1" id="bc574b92-fb2b-464f-b040-6c55a106f4da">Disrupting the Ritual</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="2" id="013a94df-b579-4670-9dc6-0176dad396a8">Umôrdhoth's Wrath</card>
-    <card qty="2" id="5e0ae575-24d3-439c-bfbe-4a74a1869b2d">Umôrdhoth’s Hunger</card>
-    <card qty="3" id="09cbf4b7-0112-49e1-86a5-62b655c433b5">Grave-Eater</card>
-    <card qty="1" id="49146909-d31f-4110-90f7-c75da63c9bfc">Acolyte of Umôrdhoth</card>
-    <card qty="3" id="4b84112d-91ca-4c27-aecd-f1f4953ac7ae">Chill from Below</card>
+    <card qty="3" id="013a94df-b579-4670-9dc6-0176dad396a8">Umôrdhoth's Wrath</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
     <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
     <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
     <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
-    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="3" id="09cbf4b7-0112-49e1-86a5-62b655c433b5">Grave-Eater</card>
+    <card qty="1" id="49146909-d31f-4110-90f7-c75da63c9bfc">Acolyte of Umôrdhoth</card>
+    <card qty="3" id="4b84112d-91ca-4c27-aecd-f1f4953ac7ae">Chill from Below</card>
     <card qty="3" id="9b005319-813a-4dfb-91a3-6a2ed4ec7ddb">Disciple of the Devourer</card>
     <card qty="1" id="fdcf1086-a86d-4542-bd7a-572a5f2b6058">Corpse-Taker</card>
     <card qty="2" id="96df8c6f-d47f-4d9b-ac14-89226ad948f2">Mask of Umôrdhoth</card>
+    <card qty="2" id="5e0ae575-24d3-439c-bfbe-4a74a1869b2d">Umôrdhoth's Hunger</card>
   </section>
+  <section name="Location" shared="True" />
   <section name="Special" shared="True">
     <card qty="2" id="d6b11251-f337-4437-bb24-d9baa52b164f">Screeching Byakhee</card>
     <card qty="2" id="5d3f4670-272f-4665-9812-3a40b5837d97">The Yellow Sign</card>
@@ -36,22 +37,24 @@
   </section>
   <section name="Second Special" shared="True">
     <card qty="1" id="060db76e-909e-4b71-8798-a9494f29d63b">Ghoul Priest</card>
+    <card qty="1" id="d533f5ae-53fc-4bbb-96b9-d0f26364c387">Predator or Prey</card>
     <card qty="1" id="0c7de731-8902-4514-89dc-efaea8796661">Wolf-man Drew</card>
     <card qty="1" id="8ebd7f12-7dfd-46fa-9df9-5a869e752740">Herman Collins</card>
     <card qty="1" id="2dc5134a-a78c-4063-bcca-be24ee436798">Peter Warren</card>
     <card qty="1" id="2eabec3d-6cc1-4b54-8fd0-f4640da8986b">Victoria Devereux</card>
     <card qty="1" id="fc6b957f-5e19-46a7-b742-029f8f9fa5b5">Ruth Turner</card>
+    <card qty="1" id="88bddeac-9738-45c5-b8d1-a80aa0526af3">Predator or Prey?</card>
     <card qty="1" id="18006f11-385d-4557-bd62-2db39fe64af7">Jeremiah Pierce</card>
     <card qty="1" id="9a76a809-4675-40bf-b161-423a3c5dcc82">Billy Cooper</card>
     <card qty="1" id="386b3309-1666-4955-933f-0f011b7174a8">Alma Hill</card>
-    <card qty="1" id="947bb975-8eb2-45a7-bc68-ea58a50190da">The Masked Hunter</card>
-    <card qty="1" id="88bddeac-9738-45c5-b8d1-a80aa0526af3">Predator or Prey</card>
+    <card qty="1" id="96ae3844-8204-4f49-bf21-3fe67a03df98">Ritual Site</card>
+    <card qty="1" id="2b4c8caa-4e83-444e-b73d-bee8a0a96063">Umordhoth</card>
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="0db17bb7-4da6-4118-95a1-aca37aba251c">The Devourer Below</card>
     <card qty="1" id="d5cfae27-f999-4a39-846b-90badc9c5224">Return to The Devourer Below</card>
-    <card qty="1" id="2b4c8caa-4e83-444e-b73d-bee8a0a96063">Umordhoth</card>
-    <card qty="1" id="96ae3844-8204-4f49-bf21-3fe67a03df98">Ritual Site</card>
+    <card qty="1" id="51ab34b7-c6bc-4759-8b5c-f9c1476f66f1">Main Path</card>
+    <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
     <card qty="1" id="cedfc228-4770-4d64-99e9-495a3b629da9">Arkham Woods</card>
     <card qty="1" id="a7a16b01-49da-4e9f-8818-18ddd3cbc153">Arkham Woods</card>
     <card qty="1" id="6773a3ce-8cc1-4125-add8-96f716e6c807">Arkham Woods</card>
@@ -62,8 +65,6 @@
     <card qty="1" id="6acc6ff2-3090-4ac8-9b77-72d27b858ca6">Arkham Woods</card>
     <card qty="1" id="f2c23f02-f085-4d59-939a-aafe534c82d2">Arkham Woods</card>
     <card qty="1" id="b2dbfd62-653e-4488-a3e7-413af8103ca0">Arkham Woods</card>
-    <card qty="1" id="51ab34b7-c6bc-4759-8b5c-f9c1476f66f1">Main Path</card>
-    <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
@@ -73,7 +74,6 @@
   <section name="Weakness" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
-  <section name="Location" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

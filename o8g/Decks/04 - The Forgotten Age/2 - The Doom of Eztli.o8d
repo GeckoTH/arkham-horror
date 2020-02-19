@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
   <section name="Asset" shared="False" />
@@ -48,15 +48,16 @@
     <card qty="1" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
   </section>
   <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="3e73a9f2-c47b-4cf4-b05a-810f19432a49">Relic of Ages</card>
+    <card qty="1" id="bbff23f5-ba78-4cf4-908a-a9562c37d692">Harbinger of Valusia</card>
+    <card qty="1" id="30d4b977-2178-4471-89d1-c341c854bc04">Chamber of Time</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="879c1767-bb80-4859-876a-264845386d78">The Doom of Eztli</card>
     <card qty="1" id="638c7211-68ec-451d-b38c-c2398126090d">Entryway</card>
-    <card qty="1" id="bbff23f5-ba78-4cf4-908a-a9562c37d692">Harbinger of Valusia</card>
-    <card qty="1" id="30d4b977-2178-4471-89d1-c341c854bc04">Chamber of Time</card>
-    <card qty="1" id="3e73a9f2-c47b-4cf4-b05a-810f19432a49">Relic of Ages</card>
-    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

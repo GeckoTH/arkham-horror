@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="58c35bbb-2bee-4931-a1e3-0d56ece7f152">Madness Coils</card>
     <card qty="1" id="f5fa0bb2-ca31-49a6-9582-bb5eda16b49c">Madness Drowns</card>
@@ -15,12 +23,12 @@
   <section name="Encounter" shared="True">
     <card qty="1" id="d846c215-d9e8-4c36-8ba4-1146bdf2975b">Creature Out of Demhe</card>
     <card qty="1" id="a3b192f5-6ab7-4abf-9d67-6ceae3c98ea3">Winged One</card>
+    <card qty="3" id="728cadf7-43a2-4bdb-9da1-d9e0b10ad5da">Dismal Curse</card>
+    <card qty="2" id="72091e61-bcef-4624-9563-57ad2867866b">Realm of Madness</card>
     <card qty="1" id="6b5eae88-493c-4b3f-a519-f6f971da8678">The Final Act</card>
     <card qty="1" id="e0c8a708-b24c-4024-b02b-460e60f0eb53">Possession (Traitorous)</card>
     <card qty="1" id="9aadb360-7370-4d0f-9436-f554afcdeeff">Possession (Torturous)</card>
     <card qty="1" id="883e170b-f28f-48ca-a745-94bd400150aa">Possession (Murderous)</card>
-    <card qty="2" id="72091e61-bcef-4624-9563-57ad2867866b">Realm of Madness</card>
-    <card qty="3" id="728cadf7-43a2-4bdb-9da1-d9e0b10ad5da">Dismal Curse</card>
     <card qty="1" id="ee0b0617-fb92-4044-8c5b-4557d585a57f">Whispers in Your Head (Anxiety)</card>
     <card qty="1" id="9a97899b-05b3-48c8-a887-d81e51ad7b9a">Whispers in Your Head (Dismay)</card>
     <card qty="1" id="dadb5b8c-ae6d-461d-beab-3c9bbda307f9">Whispers in Your Head (Doubt)</card>
@@ -28,7 +36,6 @@
     <card qty="2" id="ce65fdd4-895d-424f-b5f6-0832c37bdbc9">Descent into Madness</card>
     <card qty="3" id="f2583909-73ce-4141-8a26-8bf7b86bba4e">Fanatic</card>
     <card qty="1" id="f6577476-6f0f-452e-b689-1b0cbcb06701">Agent of the King</card>
-    <card qty="2" id="fb264d2c-d8ff-4b19-b87f-c6146763873f">The King's Edict</card>
     <card qty="2" id="5cd3a00a-e928-4d2b-b39f-9195c52c39ad">Spawn of Hali</card>
     <card qty="2" id="d6b11251-f337-4437-bb24-d9baa52b164f">Screeching Byakhee</card>
     <card qty="2" id="5d3f4670-272f-4665-9812-3a40b5837d97">The Yellow Sign</card>
@@ -38,7 +45,13 @@
   </section>
   <section name="Location" shared="True" />
   <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9">Beast of Aldebaran</card>
+    <card qty="1" id="c2628010-0e80-40a9-8490-647b32f48333">Hastur</card>
+    <card qty="1" id="27abf289-ee16-4d4e-8e90-1684f9983016">Hastur</card>
+    <card qty="1" id="ae36c6af-dc75-4238-821f-6b2969b9aa74">Hastur</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="7b719e54-f67a-4246-b4be-a71576be036c">Dim Carcosa</card>
     <card qty="1" id="e9a2a67a-4d57-447c-9538-7785e962a90f">Shores of Hali</card>
@@ -54,19 +67,6 @@
     <card qty="1" id="efc219c5-b3d7-4158-82d3-b6a6e2f24799">Depths of Demhe</card>
     <card qty="1" id="1d60614c-5984-4025-ab89-2b5f4a2ff0a2">Dark Spires</card>
     <card qty="1" id="2c6dc0ba-9ab5-4697-8415-60c438b4a5a2">Palace of the King</card>
-    <card qty="1" id="c2628010-0e80-40a9-8490-647b32f48333">Hastur</card>
-    <card qty="1" id="27abf289-ee16-4d4e-8e90-1684f9983016">Hastur</card>
-    <card qty="1" id="ae36c6af-dc75-4238-821f-6b2969b9aa74">Hastur</card>
-    <card qty="1" id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9">Beast of Aldebaran</card>
   </section>
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
-  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

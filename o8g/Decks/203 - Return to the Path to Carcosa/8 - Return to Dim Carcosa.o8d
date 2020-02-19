@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="58c35bbb-2bee-4931-a1e3-0d56ece7f152">Madness Coils</card>
     <card qty="1" id="f5fa0bb2-ca31-49a6-9582-bb5eda16b49c">Madness Drowns</card>
@@ -15,27 +23,39 @@
   <section name="Encounter" shared="True">
     <card qty="1" id="d846c215-d9e8-4c36-8ba4-1146bdf2975b">Creature Out of Demhe</card>
     <card qty="1" id="a3b192f5-6ab7-4abf-9d67-6ceae3c98ea3">Winged One</card>
+    <card qty="3" id="728cadf7-43a2-4bdb-9da1-d9e0b10ad5da">Dismal Curse</card>
+    <card qty="2" id="72091e61-bcef-4624-9563-57ad2867866b">Realm of Madness</card>
     <card qty="1" id="6b5eae88-493c-4b3f-a519-f6f971da8678">The Final Act</card>
     <card qty="1" id="e0c8a708-b24c-4024-b02b-460e60f0eb53">Possession (Traitorous)</card>
     <card qty="1" id="9aadb360-7370-4d0f-9436-f554afcdeeff">Possession (Torturous)</card>
     <card qty="1" id="883e170b-f28f-48ca-a745-94bd400150aa">Possession (Murderous)</card>
-    <card qty="2" id="72091e61-bcef-4624-9563-57ad2867866b">Realm of Madness</card>
-    <card qty="3" id="728cadf7-43a2-4bdb-9da1-d9e0b10ad5da">Dismal Curse</card>
+    <card qty="3" id="f2583909-73ce-4141-8a26-8bf7b86bba4e">Fanatic</card>
+    <card qty="1" id="f6577476-6f0f-452e-b689-1b0cbcb06701">Agent of the King</card>
+    <card qty="2" id="5cd3a00a-e928-4d2b-b39f-9195c52c39ad">Spawn of Hali</card>
     <card qty="1" id="a03995c7-7994-4221-a4c7-5af0844a4007">Visions in Your Mind (Horrors)</card>
     <card qty="1" id="7c12a4da-e103-4890-9575-aa26dfefdbed">Visions in Your Mind (Failure)</card>
     <card qty="1" id="af4d8b75-5694-4522-85ea-75627ccaebc4">Visions in Your Mind (Death)</card>
     <card qty="1" id="6ee148c1-1e3a-4573-b541-4e08b7abffd8">Visions in Your Mind (Hatred)</card>
     <card qty="2" id="2a950237-eb1b-4e23-ad24-16034a4995fb">Maddening Delusions</card>
-    <card qty="3" id="f2583909-73ce-4141-8a26-8bf7b86bba4e">Fanatic</card>
-    <card qty="1" id="f6577476-6f0f-452e-b689-1b0cbcb06701">Agent of the King</card>
-    <card qty="2" id="fb264d2c-d8ff-4b19-b87f-c6146763873f">The King's Edict</card>
-    <card qty="2" id="0af88fd1-b8f4-4369-949e-e45e52f45c66">Preying Byakhee</card>
-    <card qty="2" id="03659f75-41b7-401f-8f90-b5f706c8a7a2">The Sign of Hastur</card>
-    <card qty="2" id="5cd3a00a-e928-4d2b-b39f-9195c52c39ad">Spawn of Hali</card>
     <card qty="3" id="65f1f975-fa0d-4d72-96f1-10ecb85190db">Voice of Tru’nembra</card>
     <card qty="2" id="86f38641-df06-40c8-8853-638fea005595">Melancholy</card>
     <card qty="2" id="cf3e3ece-6aa7-43d1-bb9b-372ba6c1901e">Painful Reflection</card>
+    <card qty="2" id="0af88fd1-b8f4-4369-949e-e45e52f45c66">Preying Byakhee</card>
+    <card qty="2" id="03659f75-41b7-401f-8f90-b5f706c8a7a2">The Sign of Hastur</card>
+    <card qty="1" id="69f8a2a8-6d13-469e-a1e6-e7fe5d67b1e3">High Priest of Hastur</card>
   </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9">Beast of Aldebaran</card>
+    <card qty="1" id="c2628010-0e80-40a9-8490-647b32f48333">Hastur</card>
+    <card qty="1" id="27abf289-ee16-4d4e-8e90-1684f9983016">Hastur</card>
+    <card qty="1" id="ae36c6af-dc75-4238-821f-6b2969b9aa74">Hastur</card>
+    <card qty="1" id="0060fdb9-d8d0-4ee5-ac53-f031c5af1229">Recesses of Your Own Mind</card>
+    <card qty="1" id="33476df1-b91b-4113-b850-bd6be388b9df">The Throne Room</card>
+    <card qty="1" id="9218c964-2ee4-4851-8e67-fc66c9ec9d7e">Stage of the Ward Theatre</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="7b719e54-f67a-4246-b4be-a71576be036c">Dim Carcosa</card>
     <card qty="1" id="f4acc208-4c76-44f7-acaf-fb94a6ccb409">Return to Dim Carcosa</card>
@@ -52,26 +72,6 @@
     <card qty="1" id="efc219c5-b3d7-4158-82d3-b6a6e2f24799">Depths of Demhe</card>
     <card qty="1" id="1d60614c-5984-4025-ab89-2b5f4a2ff0a2">Dark Spires</card>
     <card qty="1" id="38782f64-766a-4790-ba9f-41bc23e70b70">Palace of the King</card>
-    <card qty="1" id="c2628010-0e80-40a9-8490-647b32f48333">Hastur</card>
-    <card qty="1" id="27abf289-ee16-4d4e-8e90-1684f9983016">Hastur</card>
-    <card qty="1" id="ae36c6af-dc75-4238-821f-6b2969b9aa74">Hastur</card>
-    <card qty="1" id="06c32bd9-6555-4ba4-8cd6-32f0d24c89d9">Beast of Aldebaran</card>
   </section>
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
-  <section name="Location" shared="True">
-    <card qty="1" id="0060fdb9-d8d0-4ee5-ac53-f031c5af1229">Recesses of Your Own Mind</card>
-    <card qty="1" id="33476df1-b91b-4113-b850-bd6be388b9df">The Throne Room</card>
-    <card qty="1" id="9218c964-2ee4-4851-8e67-fc66c9ec9d7e">Stage of the Ward Theatre</card>
-  </section>
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
-  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

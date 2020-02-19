@@ -34,28 +34,27 @@
     <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
   </section>
   <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="981cee7c-c262-4c5c-a417-631f9af54671">Enchanted Woods</card>
+    <card qty="1" id="3d6d91b0-659e-41de-af6b-724a816a6646">Gug Sentinel</card>
+    <card qty="1" id="d215c2e0-73a4-4acf-80d6-6ef4695e7f16">Richard Upton Pickman</card>
     <card qty="1" id="ad344cf3-5f93-4a5d-9527-99879afbbf0d">Crag of the Ghouls</card>
     <card qty="1" id="49dcc9e8-60c3-4aaa-8c90-8e358bb63e44">Sea of Bones</card>
     <card qty="1" id="d9590436-810f-4a03-b993-5f96d9a72f47">Peaks of Thok</card>
     <card qty="1" id="b2bb11c5-a12b-4cfb-9c66-366e36b8f0b1">Vale of Pnath</card>
+    <card qty="1" id="d447e7a0-f43b-43a1-9f34-7f9bad133493">Slithering Dhole</card>
+    <card qty="3" id="0c38e836-4cea-48e6-9785-9ed4364d2252">Dhole Tunnel</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
     <card qty="1" id="91235250-92e9-4aef-aac0-08ff99ed4263">Sea of Pitch</card>
     <card qty="1" id="7678a6d1-7c96-4684-929f-875448a2d58c">Sea of Pitch</card>
     <card qty="1" id="2f90bae8-339b-4d03-80e4-33c151945875">Sea of Pitch</card>
     <card qty="1" id="bee16195-9e18-4518-bffc-cb6ecd0aa4a1">Sea of Pitch</card>
-    <card qty="1" id="981cee7c-c262-4c5c-a417-631f9af54671">Enchanted Woods</card>
-  </section>
-  <section name="Special" shared="True">
-  <section name="Second Special" shared="True">
-    <card qty="1" id="3d6d91b0-659e-41de-af6b-724a816a6646">Gug Sentinel</card>
-    <card qty="1" id="d215c2e0-73a4-4acf-80d6-6ef4695e7f16">Richard Upton Pickman</card>
-    <card qty="1" id="d447e7a0-f43b-43a1-9f34-7f9bad133493">Slithering Dhole</card>
-    <card qty="3" id="0c38e836-4cea-48e6-9785-9ed4364d2252">Dhole Tunnel</card>
     <card qty="2" id="4d0272c2-ef93-4bc5-b63d-4e8372f6322a">Pitch Spider</card>
     <card qty="2" id="1558ef7b-0a36-4531-b039-f35c4d9157da">Shadow of Atlach-Nacha</card>
     <card qty="2" id="c0866625-0f2d-4223-9fea-c9ad99a30e24">Grey Weaver</card>
     <card qty="2" id="731203b3-42bb-414b-b780-ca7205632611">Will of the Spider-Mother</card>
-    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
-    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
     <card qty="1" id="d12f3c25-1c50-4fb7-973b-68f18079b650">False Awakening</card>
   </section>
   <section name="Chaos Bag" shared="True" />

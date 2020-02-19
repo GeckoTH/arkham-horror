@@ -11,51 +11,52 @@
     <card qty="1" id="2c12ad8f-8b49-43e3-9481-eae4c5704b39">The Oath</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="3" id="d79af316-217c-452b-8929-9b88efa8182b">Seeker of Carcosa</card>
     <card qty="3" id="4caf5b58-a20e-4f5b-a1af-889225a55a53">Led Astray</card>
     <card qty="2" id="e488c8da-e380-40b1-9dd9-535772418241">The Cult's Search</card>
     <card qty="3" id="f2583909-73ce-4141-8a26-8bf7b86bba4e">Fanatic</card>
     <card qty="1" id="f6577476-6f0f-452e-b689-1b0cbcb06701">Agent of the King</card>
     <card qty="2" id="fb264d2c-d8ff-4b19-b87f-c6146763873f">The King's Edict</card>
-    <card qty="1" id="a03995c7-7994-4221-a4c7-5af0844a4007">Visions in Your Mind (Horrors)</card>
-    <card qty="1" id="7c12a4da-e103-4890-9575-aa26dfefdbed">Visions in Your Mind (Failure)</card>
-    <card qty="1" id="af4d8b75-5694-4522-85ea-75627ccaebc4">Visions in Your Mind (Death)</card>
-    <card qty="1" id="6ee148c1-1e3a-4573-b541-4e08b7abffd8">Visions in Your Mind (Hatred)</card>
-    <card qty="2" id="2a950237-eb1b-4e23-ad24-16034a4995fb">Maddening Delusions</card>
     <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
     <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
     <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
     <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
     <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
     <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+    <card qty="1" id="a03995c7-7994-4221-a4c7-5af0844a4007">Visions in Your Mind (Horrors)</card>
+    <card qty="1" id="7c12a4da-e103-4890-9575-aa26dfefdbed">Visions in Your Mind (Failure)</card>
+    <card qty="1" id="af4d8b75-5694-4522-85ea-75627ccaebc4">Visions in Your Mind (Death)</card>
+    <card qty="1" id="6ee148c1-1e3a-4573-b541-4e08b7abffd8">Visions in Your Mind (Hatred)</card>
+    <card qty="2" id="2a950237-eb1b-4e23-ad24-16034a4995fb">Maddening Delusions</card>
   </section>
-  <section name="Location" shared="True">
-    <card qty="1" id="993bb8e9-34d5-40c3-a203-16527e8041b5">Historical Society</card>
-    <card qty="1" id="f40bcedc-8679-4525-b267-8acda4017da9">Historical Society</card>
-    <card qty="1" id="92d52f13-6801-4c56-92dd-871fe8eddb17">Historical Society</card>
-    <card qty="1" id="a46dd824-28ef-4e50-a08b-6615f606e9d5">Historical Society</card>
-    <card qty="1" id="8bf4b009-1ba2-4535-804c-d1df7b8bc01a">Historical Society</card>
-    <card qty="1" id="3c1beb7e-4080-45e9-bc25-fbedb75586bc">Historical Society</card>
-    <card qty="1" id="2eb3f14e-8a82-44e3-8919-83e505af71d8">Historical Society</card>
-    <card qty="1" id="b60cff3c-de68-440f-95a7-ad5f0563bff8">Historical Society</card>
-    <card qty="1" id="7a50f11d-59c1-4109-86c4-06d483df7891">Historical Society</card>
-    <card qty="1" id="2f8afca9-39c3-47d7-b3e5-d808d7295e8b">Historical Society</card>
-    <card qty="1" id="3f365f4d-9dfb-4f71-a5e2-9f05f6265461">Historical Society</card>
-    <card qty="1" id="0fcd3a8c-9791-4b7c-8f29-ab196bb68c89">Historical Society</card>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="cc41dfc7-71be-4b1e-a88b-24127b9f0318">Mr. Peabody</card>
     <card qty="1" id="0e4d0bcf-ff36-4d5d-849d-64d6914e43e8">Hidden Library</card>
+    <card qty="1" id="6ad7589a-4c69-4376-ab12-eeac1deee852">Possessed Oathspeaker</card>
+    <card qty="1" id="e2a657d8-5022-4c24-a583-db5af2f0ffe9">Sickening Reality</card>
+    <card qty="1" id="ca68f0da-59e9-45d8-8ba4-10d1339ac0f4">Clasp of Black Onyx</card>
+    <card qty="1" id="73f0528f-9fd5-4ba1-8680-d67ac2c4fae2">The Tattered Cloak</card>
+    <card qty="2" id="325e4ee7-b616-4be6-8480-676eb04d6b70">Keeper of the Oath</card>
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="d789bb63-a4a4-478c-800f-9b618b76d0d9">Echoes of the Past</card>
     <card qty="1" id="231ee1da-c210-4b30-b6ea-fab37bf016df">Return to Echoes of the Past</card>
     <card qty="1" id="e539a9e8-b1f7-47c7-be85-8e2d1b07da19">Entry Hall</card>
+    <card qty="1" id="7a50f11d-59c1-4109-86c4-06d483df7891">Historical Society</card>
+    <card qty="1" id="b60cff3c-de68-440f-95a7-ad5f0563bff8">Historical Society</card>
+    <card qty="1" id="2eb3f14e-8a82-44e3-8919-83e505af71d8">Historical Society</card>
     <card qty="1" id="a13cbbd4-e860-48df-bd05-55e7959a47ae">Quiet Halls</card>
-    <card qty="1" id="57b91f8f-a917-4e08-b98d-0fee50b4d17a">Quiet Halls</card>
+    <card qty="1" id="3c1beb7e-4080-45e9-bc25-fbedb75586bc">Historical Society</card>
+    <card qty="1" id="8bf4b009-1ba2-4535-804c-d1df7b8bc01a">Historical Society</card>
+    <card qty="1" id="a46dd824-28ef-4e50-a08b-6615f606e9d5">Historical Society</card>
     <card qty="1" id="55d2f185-d653-4853-a20b-0699c10f85ca">Quiet Halls</card>
-    <card qty="1" id="6ad7589a-4c69-4376-ab12-eeac1deee852">Possessed Oathspeaker</card>
-    <card qty="1" id="cc41dfc7-71be-4b1e-a88b-24127b9f0318">Mr. Peabody</card>
-    <card qty="1" id="ca68f0da-59e9-45d8-8ba4-10d1339ac0f4">Clasp of Black Onyx</card>
-    <card qty="1" id="73f0528f-9fd5-4ba1-8680-d67ac2c4fae2">The Tattered Cloak</card>
-    <card qty="2" id="325e4ee7-b616-4be6-8480-676eb04d6b70">Keeper of the Oath</card>
+    <card qty="1" id="92d52f13-6801-4c56-92dd-871fe8eddb17">Historical Society</card>
+    <card qty="1" id="f40bcedc-8679-4525-b267-8acda4017da9">Historical Society</card>
+    <card qty="1" id="993bb8e9-34d5-40c3-a203-16527e8041b5">Historical Society</card>
+    <card qty="1" id="57b91f8f-a917-4e08-b98d-0fee50b4d17a">Quiet Halls</card>
+    <card qty="1" id="2f8afca9-39c3-47d7-b3e5-d808d7295e8b">Historical Society</card>
+    <card qty="1" id="3f365f4d-9dfb-4f71-a5e2-9f05f6265461">Historical Society</card>
+    <card qty="1" id="0fcd3a8c-9791-4b7c-8f29-ab196bb68c89">Historical Society</card>
+    <card qty="3" id="d79af316-217c-452b-8929-9b88efa8182b">Seeker of Carcosa</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
@@ -65,8 +66,8 @@
   <section name="Weakness" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
   <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

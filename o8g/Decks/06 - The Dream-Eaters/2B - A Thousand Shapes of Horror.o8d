@@ -35,21 +35,20 @@
     <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
     <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
   </section>
-  <section name="Location" shared="True">
-    <card qty="1" id="c2c744a5-9590-488c-9d6a-5043e0fd1c9a">Attic</card>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
     <card qty="1" id="a98c127b-22b2-4714-a1d9-1eecbc4511d1">Unmarked Tomb</card>
+    <card qty="1" id="c2c744a5-9590-488c-9d6a-5043e0fd1c9a">Attic</card>
     <card qty="1" id="0d1b21ac-aecc-4da3-b9ba-8e35a3a25fc9">Mysterious Stairs</card>
     <card qty="1" id="f57b8266-d3a6-4e91-8cd9-ac24d7c657aa">Mysterious Stairs</card>
     <card qty="1" id="2c520d28-2df9-4098-9b5f-3abc3ad906e6">Mysterious Stairs</card>
     <card qty="1" id="b00f1f2b-d29b-4f36-9a7b-e70bb13fffa0">Mysterious Stairs</card>
     <card qty="1" id="d56122b8-bf1a-40d3-a2a7-eb3faa42c5f8">Mysterious Stairs</card>
     <card qty="1" id="23b6e596-5281-4c4f-ac5a-6ce9d440e798">Mysterious Stairs</card>
-  </section>
-  <section name="Special" shared="True">
-    <card qty="1" id="12fff7cf-deca-4b8e-8b97-a0e96ae0165d">The Silver Key</card>
     <card qty="4" id="88e5fb4d-c7ca-47b0-adea-2946724e4128">Endless Descent</card>
+    <card qty="1" id="12fff7cf-deca-4b8e-8b97-a0e96ae0165d">The Silver Key</card>
   </section>
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="eeaeb226-36ec-444c-828b-0b6989595170">A Thousand Shapes of Horror</card>

@@ -262,7 +262,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Each investigator cannot discover clues.&#10;The Man in the Pallid Mask cannot be defeated.&#10;Objective – While the lead investigator is at The Man in the Pallid Mask’s location, he or she may spend ηηη to advance."/>
-    <alternate name="The Palid Mask" type="B">
+    <alternate name="The Palid Mask" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
       <property name="Subtitle" value="Chasing Tails"/>
       <property name="Unique" value="ο"/>

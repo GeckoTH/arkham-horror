@@ -36,7 +36,11 @@
     <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
     <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
   </section>
-  <section name="Location" shared="True">
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="28d63bf9-1e9a-4f62-8abd-fcf040e95326">Kaman-Thah</card>
+    <card qty="1" id="33bf8bf5-d32d-4cf9-82da-3e166025bb1f">Nasht</card>
     <card qty="1" id="41e0c975-ed98-437d-8855-f8397975946e">Seven Hundred Steps</card>
     <card qty="1" id="b0fe58f5-2862-4416-805f-2102d2ed1414">Base of the Steps</card>
     <card qty="1" id="e8feb11b-4906-4db9-b4b6-a007406803a4">The Enchanted Path</card>
@@ -47,14 +51,9 @@
     <card qty="1" id="671f4b0f-bcb1-4b98-9ede-dc8120ff0b96">Enchanted Woods</card>
     <card qty="1" id="79fd6fb7-42fa-4bba-afc5-6847d6af7c24">Enchanted Woods</card>
     <card qty="1" id="219ced4d-9d3d-4aa4-afd2-c252aa93834d">Enchanted Woods</card>
-  </section>
-  <section name="Special" shared="True">
-    <card qty="1" id="28d63bf9-1e9a-4f62-8abd-fcf040e95326">Kaman-Thah</card>
-    <card qty="1" id="33bf8bf5-d32d-4cf9-82da-3e166025bb1f">Nasht</card>
-    <card qty="1" id="d144e242-5568-475d-9c88-be040b6e0960">Randolph Carter</card>
     <card qty="1" id="617b6726-816e-474d-bf0a-62676ef87bfa">Laboring Gug</card>
+    <card qty="1" id="d144e242-5568-475d-9c88-be040b6e0960">Randolph Carter</card>
   </section>
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="003e29bb-e6d0-4c1c-bf00-42f4f60eca04">Beyond the Gates of Sleep</card>

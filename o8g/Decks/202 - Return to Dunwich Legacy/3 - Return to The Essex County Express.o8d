@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Agenda" shared="True">
     <card qty="1" id="bde145c7-7917-4067-ba3f-6f30caebe18b">Where There's Smoke</card>
     <card qty="1" id="ef5a7a89-35a3-44d1-897d-9920d2099093">A Tear in Reality (v.II)</card>
@@ -12,6 +12,27 @@
     <card qty="1" id="c6ee1772-439f-4aec-9753-74a004781ab6">Run!</card>
     <card qty="1" id="5c6c0ff3-6a0b-4e07-aad1-0900bb1561e4">Get the Engine Running!</card>
   </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="6046fa8a-0995-4fd0-b65c-b406e8e46d87">Helpless Passenger</card>
+    <card qty="3" id="5aeeb6cb-d92c-4faa-9d67-a6c1237fee10">Claws of Steam</card>
+    <card qty="3" id="e0ca7fde-38e2-4420-b70d-0d65335ba33d">Broken Rails</card>
+    <card qty="2" id="eb014f0d-976e-482e-965b-4e726cfcb252">Grappling Horror</card>
+    <card qty="2" id="359656d6-7ab1-478f-a2bb-3a86232a3a2f">Emergent Monstrosity</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+    <card qty="2" id="7f8eb721-f86c-49c4-8f16-539a12be2313">Haunting Recollections</card>
+    <card qty="2" id="399509b0-154b-4ba5-818c-ac5464777152">A Baleful Welcome</card>
+    <card qty="2" id="5ef6ba51-1346-408d-9b1d-2533ac6d96a8">Infinite Doorway</card>
+    <card qty="3" id="61dcba54-8642-4d1e-83ed-cc1d00b119ab">Resurgent Evils</card>
+    <card qty="2" id="b5ed3923-db68-4d89-9b62-17aff5f9f48b">Violent Commands</card>
+    <card qty="2" id="8b5b3023-3ec8-4b05-97fb-986d8e811e94">Idle Hands</card>
+    <card qty="3" id="d1772086-b9fa-43af-b50c-a06c276769e6">Need for Knowledge</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="7a1102fd-f1d5-4cf5-a99a-ea75b678b08d">Engineer</card>
+    <card qty="4" id="5653d003-ce1a-49b0-87c1-a77ebd5f5d5e">Across Space and Time</card>
+  </section>
   <section name="Setup" shared="True">
     <card qty="1" id="40b38553-7230-4d42-a49a-6a0642043795">The Essex County Express</card>
     <card qty="1" id="ac9fad31-26f1-4563-bb17-dc438cc9cd2c">Return to The Essex County Express</card>
@@ -23,31 +44,12 @@
     <card qty="1" id="185db0e8-83d8-4eb1-893e-efc8fc29957c">Train Car</card>
     <card qty="1" id="54373a69-f67d-411e-871f-da380d1a0f6f">Train Car</card>
     <card qty="1" id="dbacf932-2cdc-41b0-b66e-0e1bc1b27ea6">Train Car</card>
-    <card qty="1" id="0fa20844-7237-4ff4-be80-0f31fe6accfc">Freight Car</card>
-    <card qty="1" id="a152582d-bd8f-48ee-9939-7e8383067d95">Baggage Car</card>
+    <card qty="1" id="0fa20844-7237-4ff4-be80-0f31fe6accfc">Train Car</card>
+    <card qty="1" id="a152582d-bd8f-48ee-9939-7e8383067d95">Train Car</card>
     <card qty="1" id="f9a869b9-eaba-4399-a2fc-028f4405ffe2">Engine Car</card>
     <card qty="1" id="3188db25-0991-49a3-85ec-649aa625d496">Engine Car</card>
     <card qty="1" id="b0945cec-dda6-49de-b46f-863e00c340e9">Engine Car</card>
     <card qty="1" id="c81f849a-64d5-4444-bc1a-314870e5ba56">Engine Car</card>
-    <card qty="1" id="7a1102fd-f1d5-4cf5-a99a-ea75b678b08d">Engineer</card>
-    <card qty="4" id="5653d003-ce1a-49b0-87c1-a77ebd5f5d5e">Across Space and Time</card>
-  </section>
-  <section name="Encounter" shared="True">
-    <card qty="3" id="6046fa8a-0995-4fd0-b65c-b406e8e46d87">Helpless Passenger</card>
-    <card qty="3" id="5aeeb6cb-d92c-4faa-9d67-a6c1237fee10">Claws of Steam</card>
-    <card qty="3" id="e0ca7fde-38e2-4420-b70d-0d65335ba33d">Broken Rails</card>
-    <card qty="2" id="eb014f0d-976e-482e-965b-4e726cfcb252">Grappling Horror</card>
-    <card qty="2" id="359656d6-7ab1-478f-a2bb-3a86232a3a2f">Emergent Monstrosity</card>
-    <card qty="2" id="7f8eb721-f86c-49c4-8f16-539a12be2313">Haunting Recollections</card>
-    <card qty="2" id="399509b0-154b-4ba5-818c-ac5464777152">A Baleful Welcome</card>
-    <card qty="2" id="5ef6ba51-1346-408d-9b1d-2533ac6d96a8">Infinite Doorway</card>
-    <card qty="3" id="61dcba54-8642-4d1e-83ed-cc1d00b119ab">Resurgent Evils</card>
-    <card qty="2" id="b5ed3923-db68-4d89-9b62-17aff5f9f48b">Violent Commands</card>
-    <card qty="2" id="8b5b3023-3ec8-4b05-97fb-986d8e811e94">Idle Hands</card>
-    <card qty="3" id="d1772086-b9fa-43af-b50c-a06c276769e6">Need for Knowledge</card>
-    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
-    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
-    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
@@ -59,7 +61,6 @@
   <section name="Basic Weaknesses" shared="False" />
   <section name="Location" shared="True" />
   <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

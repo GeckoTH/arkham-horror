@@ -1,22 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Agenda" shared="True">
+    <card qty="1" id="d533f5ae-53fc-4bbb-96b9-d0f26364c387">Predator or Prey</card>
+    <card qty="1" id="88bddeac-9738-45c5-b8d1-a80aa0526af3">Predator or Prey?</card>
     <card qty="1" id="193ea5c4-b871-4b10-9672-dde886264264">Time is Running Short</card>
   </section>
   <section name="Act" shared="True">
     <card qty="1" id="bc8fc57c-2629-40c0-9da3-634e0dbc4d7c">Uncovering the Conspiracy</card>
   </section>
   <section name="Encounter" shared="True">
-    <card qty="2" id="11c05026-4172-4726-9912-aa3f38826335">Masked Horrors</card>
     <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
     <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
     <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
     <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
-    <card qty="1" id="fdcf1086-a86d-4542-bd7a-572a5f2b6058">Corpse-Taker</card>
-    <card qty="2" id="96df8c6f-d47f-4d9b-ac14-89226ad948f2">Mask of Umôrdhoth</card>
     <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
     <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
     <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="1" id="fdcf1086-a86d-4542-bd7a-572a5f2b6058">Corpse-Taker</card>
+    <card qty="2" id="96df8c6f-d47f-4d9b-ac14-89226ad948f2">Mask of Umôrdhoth</card>
+    <card qty="2" id="11c05026-4172-4726-9912-aa3f38826335">Masked Horrors</card>
   </section>
   <section name="Special" shared="True">
     <card qty="1" id="0c7de731-8902-4514-89dc-efaea8796661">Wolf-man Drew</card>
@@ -28,11 +30,12 @@
     <card qty="1" id="9a76a809-4675-40bf-b161-423a3c5dcc82">Billy Cooper</card>
     <card qty="1" id="386b3309-1666-4955-933f-0f011b7174a8">Alma Hill</card>
   </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="060db76e-909e-4b71-8798-a9494f29d63b">Ghoul Priest</card>
+  </section>
   <section name="Setup" shared="True">
     <card qty="1" id="29338631-d9fc-425d-95e1-5dc408ca5355">The Midnight Masks</card>
     <card qty="1" id="f81bfa10-12e0-45ca-9f65-1f52090277f6">Return to The Midnight Masks</card>
-    <card qty="1" id="d533f5ae-53fc-4bbb-96b9-d0f26364c387">Predator or Prey</card>
-    <card qty="1" id="88bddeac-9738-45c5-b8d1-a80aa0526af3">Predator or Prey</card>
     <card qty="1" id="6429b20f-f3c1-4964-9f06-68211b7c7f8a">Your House</card>
     <card qty="1" id="2e8e4d5e-5c7d-412b-9971-73b7b920de6d">Rivertown</card>
     <card qty="1" id="1b559c70-1531-43e2-b228-a194eccfdab6">Rivertown</card>
@@ -49,7 +52,6 @@
     <card qty="1" id="8fc61c54-6c1b-4109-9f64-6cd6bc0f4c50">Northside</card>
     <card qty="1" id="d586b6ec-bf06-4f75-a75b-e072dc00b17f">Northside</card>
     <card qty="3" id="9b005319-813a-4dfb-91a3-6a2ed4ec7ddb">Disciple of the Devourer</card>
-    <card qty="1" id="060db76e-909e-4b71-8798-a9494f29d63b">Ghoul Priest</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
@@ -60,7 +62,6 @@
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
   <section name="Location" shared="True" />
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
