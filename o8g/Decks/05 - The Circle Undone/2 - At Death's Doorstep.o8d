@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf" sleeveid="0">
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
   <section name="Asset" shared="False" />
@@ -18,6 +18,8 @@
     <card qty="1" id="53513f10-8c8c-4de7-9588-854743c9ba00">Escape the Cage</card>
   </section>
   <section name="Encounter" shared="True">
+    <card qty="3" id="2fc27237-5a64-4e53-9490-8e2f24a86465">Terror in the Night</card>
+    <card qty="3" id="69fba3d3-9218-40c4-9f72-9d428de08a30">Fate of All Fools</card>
     <card qty="3" id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f">Lodge Neophyte</card>
     <card qty="1" id="569ae12f-4a94-49f5-8cbd-3104502c13c6">Keeper of Secrets</card>
     <card qty="2" id="779ed398-8619-4fa1-bd77-8b7be2c44c75">Mysteries of the Lodge</card>
@@ -26,12 +28,12 @@
     <card qty="2" id="3f445c62-94aa-4015-a1cb-700977b6b023">Whispers in the Dark</card>
     <card qty="2" id="98aa643b-46f1-48f1-9e5d-a10d6164490e">Wraith</card>
     <card qty="2" id="bcd6e177-8bba-4551-98c5-688a6d65ea81">Trapped Spirits</card>
-    <card qty="3" id="2fc27237-5a64-4e53-9490-8e2f24a86465">Terror in the Night</card>
-    <card qty="3" id="69fba3d3-9218-40c4-9f72-9d428de08a30">Fate of All Fools</card>
     <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
     <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
   </section>
-  <section name="Location" shared="True">
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
     <card qty="1" id="60bd4780-50d7-4c4a-b6db-2d5fa91e8916">Entry Hall</card>
     <card qty="1" id="53df67ca-a8ed-48d7-9c25-b22bc945a0ef">Victorian Halls</card>
     <card qty="1" id="7ccc7735-ee59-405b-a10e-720c63a2a2b2">Trophy Room</card>
@@ -39,14 +41,12 @@
     <card qty="1" id="d8e506b6-e683-4ec0-8b0c-d029324ae8dc">Master Bedroom</card>
     <card qty="1" id="a62b0420-de03-40a9-ac89-a24fa5603823">Balcony</card>
     <card qty="1" id="a4a8c1ce-acbf-402a-a165-e6e56c176c03">Office</card>
-  </section>
-  <section name="Special" shared="True">
-    <card qty="2" id="7b980f47-dc9b-4ca5-9362-f8d967d6b0fa">Realm of Torment</card>
-    <card qty="2" id="766e1693-b1eb-4590-954b-2e18072e18f9">Shapes in the Mist</card>
     <card qty="1" id="f22407c7-4f91-44b6-9382-e889c4741131">The Spectral Watcher</card>
     <card qty="2" id="3b041a9e-6978-46a6-bcef-a35f30ef7b7b">Watcher's Grasp</card>
+    <card qty="2" id="7b980f47-dc9b-4ca5-9362-f8d967d6b0fa">Realm of Torment</card>
+    <card qty="2" id="766e1693-b1eb-4590-954b-2e18072e18f9">Shapes in the Mist</card>
+    <card qty="1" id="da12b973-ace4-4dbc-ae3d-4bb3b3e0cf1c">Josef Meiger</card>
   </section>
-  <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="da131e3a-b1fe-42e3-b6fd-b413266a7809">At Death's Doorstep</card>
@@ -57,7 +57,6 @@
     <card qty="1" id="4074832b-b055-4b2a-9dca-c9a2e52d2bae">Master Bedroom</card>
     <card qty="1" id="de0039c5-cce6-4f05-9c59-fc8189737913">Balcony</card>
     <card qty="1" id="aa2c8718-f180-48db-9f85-cd9a3c6bf193">Office</card>
-    <card qty="1" id="da12b973-ace4-4dbc-ae3d-4bb3b3e0cf1c">Josef Meiger</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

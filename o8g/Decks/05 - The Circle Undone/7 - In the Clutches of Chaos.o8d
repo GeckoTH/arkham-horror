@@ -26,7 +26,9 @@
     <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
   </section>
   <section name="Location" shared="True" />
-  <section name="Special" shared="True">
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="dec4454d-05ef-49ca-8915-39429b037eea">Piper of Azathoth</card>
     <card qty="2" id="007690be-09a3-42ae-a691-a85543ffedb9">Witness of Chaos</card>
     <card qty="2" id="dbe9eddf-d8f7-4f76-855a-44393619cea1">Toil and Trouble</card>
     <card qty="3" id="343b9330-c6b0-4ad3-90b0-aef7cab1ba12">Coven Initiate</card>
@@ -36,8 +38,6 @@
     <card qty="3" id="a0ebb0e6-91c1-4839-be28-3410d18e47c0">Diabolic Voices</card>
     <card qty="2" id="e008057c-20cd-4508-bfd0-457fe32ad15f">Wracked</card>
     <card qty="2" id="e3d19014-ace7-4ea4-8e05-57f33692dd9a">Bedeviled</card>
-  </section>
-  <section name="Second Special" shared="True">
     <card qty="2" id="2809f893-3aa8-468a-943a-372bef4f909b">Lodge Enforcer</card>
     <card qty="2" id="e822c46c-76de-4827-8fd5-b84400c8b212">Secrets of the Beyond</card>
     <card qty="3" id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f">Lodge Neophyte</card>
@@ -68,7 +68,6 @@
     <card qty="1" id="2cc3aacd-9eb4-4c88-92a8-f421a5477ef3">Silver Twilight Lodge</card>
     <card qty="1" id="b03f1a0d-3025-410c-861f-8524f860fc3c">Hangman’s Hill</card>
     <card qty="1" id="954fe8ed-0104-4621-903f-f56ac91c961a">Silver Twilight Lodge</card>
-    <card qty="1" id="dec4454d-05ef-49ca-8915-39429b037eea">Piper of Azathoth</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>

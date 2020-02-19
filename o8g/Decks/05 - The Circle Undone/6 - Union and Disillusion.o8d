@@ -40,42 +40,40 @@
     <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
     <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
   </section>
-  <section name="Location" shared="True">
-    <card qty="1" id="d4c52940-3935-4434-b9ef-42085bb8972b">Unvisited Isle</card>
-    <card qty="1" id="d5f6facc-cbb7-4043-9bc9-206a894d9570">Unvisited Isle</card>
-    <card qty="1" id="9863cb4c-7c67-4840-8136-7361dd98069e">Unvisited Isle</card>
-    <card qty="1" id="5811057e-efb5-49c1-9219-8c4175f747ef">Unvisited Isle</card>
-    <card qty="1" id="0d528e4a-be44-4fb3-b1ac-a85b0c78be19">Unvisited Isle</card>
-    <card qty="1" id="366502f7-2985-49ad-a6a2-495afb3a390b">Unvisited Isle</card>
-  </section>
-  <section name="Special" shared="True">
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="2cf802b6-d0e0-4bb1-965a-2b61ef455515">The Geist-Trap</card>
+    <card qty="1" id="0932a14c-516b-40b2-a5ed-c3096388ac35">Watcher’s Gaze</card>
+    <card qty="1" id="c734e8ac-f666-4427-8bb8-59442a47ad50">Gavriella Mizrah</card>
+    <card qty="1" id="5303ae39-304b-40d4-a513-a669bcec20aa">Jerome Davids</card>
+    <card qty="1" id="7acf3471-3b4d-4ee4-baba-0b51229a1f13">Penny White</card>
+    <card qty="1" id="b065e1a1-9612-45e3-a4e8-65105751b892">Valentino Rivas</card>
+    <card qty="1" id="e89cab8c-6f2f-40b2-aec4-ac7bd1462c6c">Gavriella’s Fate</card>
+    <card qty="1" id="caf24cd0-edec-48b7-b767-ef6f1af97b99">Jerome’s Fate</card>
+    <card qty="1" id="70d9976e-4cdd-4d39-a298-482d315be13f">Penny’s Fate</card>
+    <card qty="1" id="4270635a-1270-4d7e-a83f-f76e00becc10">Valentino’s Fate</card>
+    <card qty="1" id="f22407c7-4f91-44b6-9382-e889c4741131">The Spectral Watcher</card>
+    <card qty="2" id="3b041a9e-6978-46a6-bcef-a35f30ef7b7b">Watcher's Grasp</card>
     <card qty="3" id="343b9330-c6b0-4ad3-90b0-aef7cab1ba12">Coven Initiate</card>
     <card qty="1" id="6348e5e1-57f3-4f44-90f0-d3593e3c43ec">Priestess of the Coven</card>
     <card qty="3" id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f">Lodge Neophyte</card>
     <card qty="1" id="569ae12f-4a94-49f5-8cbd-3104502c13c6">Keeper of Secrets</card>
     <card qty="2" id="779ed398-8619-4fa1-bd77-8b7be2c44c75">Mysteries of the Lodge</card>
-    <card qty="1" id="f22407c7-4f91-44b6-9382-e889c4741131">The Spectral Watcher</card>
-    <card qty="2" id="3b041a9e-6978-46a6-bcef-a35f30ef7b7b">Watcher's Grasp</card>
-  </section>
-  <section name="Second Special" shared="True">
-    <card qty="1" id="c734e8ac-f666-4427-8bb8-59442a47ad50">Gavriella Mizrah</card>
-    <card qty="1" id="e89cab8c-6f2f-40b2-aec4-ac7bd1462c6c">Gavriella’s Fate</card>
-    <card qty="1" id="5303ae39-304b-40d4-a513-a669bcec20aa">Jerome Davids</card>
-    <card qty="1" id="caf24cd0-edec-48b7-b767-ef6f1af97b99">Jerome’s Fate</card>
-    <card qty="1" id="7acf3471-3b4d-4ee4-baba-0b51229a1f13">Penny White</card>
-    <card qty="1" id="70d9976e-4cdd-4d39-a298-482d315be13f">Penny’s Fate</card>
-    <card qty="1" id="b065e1a1-9612-45e3-a4e8-65105751b892">Valentino Rivas</card>
-    <card qty="1" id="4270635a-1270-4d7e-a83f-f76e00becc10">Valentino’s Fate</card>
+    <card qty="1" id="f3071036-a8cf-4cae-b4d2-435dd7d125b8">Anette Mason</card>
+    <card qty="1" id="da12b973-ace4-4dbc-ae3d-4bb3b3e0cf1c">Josef Meiger</card>
   </section>
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="1585647b-56d3-4856-bd37-76fde6b807c7">Union and Disillusion</card>
     <card qty="1" id="8c5e3281-80a0-41f0-9d38-7f988383ad80">Miskatonic River</card>
     <card qty="1" id="301ef491-7012-41b0-8c48-d8747541cb4a">Forbidding Shore</card>
-    <card qty="1" id="2cf802b6-d0e0-4bb1-965a-2b61ef455515">The Geist-Trap</card>
-    <card qty="1" id="0932a14c-516b-40b2-a5ed-c3096388ac35">Watcher’s Gaze</card>
-    <card qty="1" id="f3071036-a8cf-4cae-b4d2-435dd7d125b8">Anette Mason</card>
-    <card qty="1" id="da12b973-ace4-4dbc-ae3d-4bb3b3e0cf1c">Josef Meiger</card>
+    <card qty="1" id="d4c52940-3935-4434-b9ef-42085bb8972b">Unvisited Isle</card>
+    <card qty="1" id="d5f6facc-cbb7-4043-9bc9-206a894d9570">Unvisited Isle</card>
+    <card qty="1" id="9863cb4c-7c67-4840-8136-7361dd98069e">Unvisited Isle</card>
+    <card qty="1" id="5811057e-efb5-49c1-9219-8c4175f747ef">Unvisited Isle</card>
+    <card qty="1" id="0d528e4a-be44-4fb3-b1ac-a85b0c78be19">Unvisited Isle</card>
+    <card qty="1" id="366502f7-2985-49ad-a6a2-495afb3a390b">Unvisited Isle</card>
   </section>
   <notes><![CDATA[]]></notes>
 </deck>
