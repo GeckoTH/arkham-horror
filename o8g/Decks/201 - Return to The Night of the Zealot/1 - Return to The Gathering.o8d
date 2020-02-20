@@ -27,7 +27,8 @@
     <card qty="1" id="49146909-d31f-4110-90f7-c75da63c9bfc">Acolyte of Umôrdhoth</card>
     <card qty="3" id="4b84112d-91ca-4c27-aecd-f1f4953ac7ae">Chill from Below</card>
   </section>
-  <section name="Location" shared="True">
+  <section name="Location" shared="True" />
+  <section name="Second Special" shared="True">
     <card qty="1" id="8db65b5a-eb09-4034-9dc8-dd108852047b">Hole in the Wall</card>
     <card qty="1" id="ebd0f687-cffa-4e23-b15a-81429fd0c3aa">Attic</card>
     <card qty="1" id="29d5549f-ecca-4f23-8da1-6d9cbddae746">Attic</card>
@@ -36,8 +37,6 @@
     <card qty="1" id="6697716b-1ee1-4bef-9736-3700f7c48678">Far Above Your House</card>
     <card qty="1" id="560d50f2-aa92-44fa-9ea9-2657b7a12468">Deep Below Your House</card>
     <card qty="1" id="6b29f6b9-13fb-41d5-9d5d-95a7d7243759">Parlor</card>
-  </section>
-  <section name="Second Special" shared="True">
     <card qty="1" id="060db76e-909e-4b71-8798-a9494f29d63b">Ghoul Priest</card>
     <card qty="1" id="d6eebc23-10bc-4686-9155-4b11783335c4">Lita Chantler</card>
   </section>

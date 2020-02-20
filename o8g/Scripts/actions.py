@@ -978,6 +978,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         if count == 0:
             nextAgendaStage()
             nextActStage()
+            shuffle(locationDeck())
             shuffle(encounterDeck())
             shuffle(specialDeck())  
         
