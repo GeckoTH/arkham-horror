@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="457e17e9-7ae2-4762-984f-503a6ca7a194">The Eye of Chaos</card>
+    <card qty="1" id="acfcc852-70d7-49d7-a0b1-923339a3e9f9">The Shape of Chaos</card>
+    <card qty="1" id="134463a3-0762-4aec-8b9e-8cd2f7c209bd">Chaos Incarnate</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="2c08d762-f9c5-495b-8a60-be7343c30bff">Journey Through the Cold Wastes</card>
+    <card qty="1" id="2f42b783-2e44-4f8b-a6b8-492589aeaaed">The Thing in the Robes</card>
+    <card qty="1" id="6f5bdc54-4c99-47b0-8acd-f6725e123380">Beyond Dreams</card>
+    <card qty="1" id="ab180fc3-d890-4657-96b8-3f6cd9e198ca">Truth and Lies</card>
+    <card qty="1" id="8ac1ec8c-1ca6-4c97-91ab-5323d7383eb7">The Dream-Eaters</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="9ecc75e1-207d-472a-b10c-d324991b17d3">Dhole of the Wastes</card>
+    <card qty="3" id="aaefad35-45fe-48fc-b7e5-397fc4fb333a">Liar with No Face</card>
+    <card qty="1" id="b71163c5-0a33-4f4d-9837-f6a436a14225">Restless Journey (Fallacy)</card>
+    <card qty="1" id="d596b36b-7f07-4849-90e2-7f44b4863733">Restless Journey (Hardship)</card>
+    <card qty="1" id="f9368c71-e19f-4627-ae1f-0340b2aa0b44">Restless Journey (Lies)</card>
+    <card qty="2" id="5eeb9e23-03c9-461d-8fd6-6911091f05bd">Abandoned by the Gods</card>
+    <card qty="1" id="3471373e-4939-4820-aad3-4615d261e2b1">Law of 'Ygiroth (Chaos)</card>
+    <card qty="1" id="618b2af7-8ee7-4a18-b409-33913a332cd0">Law of 'Ygiroth (Discord)</card>
+    <card qty="1" id="b1a94ce4-a4ab-49f1-be9f-3c29b2e070bc">Law of 'Ygiroth (Pandemonium)</card>
+    <card qty="2" id="aacf5498-11ae-4db5-ab5f-776aba8dd70e">Dreamer’s Curse</card>
+    <card qty="2" id="772b2236-afbd-41e5-9890-06e3527855fb">Somniphobia</card>
+    <card qty="2" id="d6249d61-f97f-4001-95c3-eb4d61bf6f48">Deeper Slumber</card>
+    <card qty="3" id="8c648668-8d19-4f1f-94f1-b368b5b2b927">Whispers of Hypnos</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="fa8ef23d-0a0c-48c3-a002-c2c6384d187e">High Priest Not to Be Described</card>
+    <card qty="1" id="d747454c-b2c4-4bd7-9a64-67861f5a748d">Nyarlathotep</card>
+    <card qty="1" id="ac061090-dcd0-4e7c-9024-b2af1f868450">Nyarlathotep</card>
+    <card qty="1" id="32b29a2e-5f8c-476d-a2f0-e6f8ff2a7e68">Nyarlathotep</card>
+    <card qty="1" id="b8310f62-b822-457e-ab36-d36aa5bb8cf3">Nyarlathotep</card>
+    <card qty="1" id="cdf6e23f-e3be-4572-b974-fea69fb48a1e">Nyarlathotep</card>
+    <card qty="1" id="bb7887b8-46c6-4b99-bdff-6210adcbdd48">Whispering Chaos (North)</card>
+    <card qty="1" id="20e73d9d-e482-420c-842c-92ddb33ec9a4">Whispering Chaos (East)</card>
+    <card qty="1" id="caa58964-55fb-477e-995a-14f00f527e23">Whispering Chaos (South)</card>
+    <card qty="1" id="78ffad40-fae3-4b56-83dd-56641512e9ac">Whispering Chaos (West)</card>
+    <card qty="2" id="66a2c0ec-a83e-40b0-bb20-ea26eaeb13df">Myriad Forms</card>
+    <card qty="1" id="8dcf798d-3cc6-49f1-b5be-8041be031dff">The Crawling Mist</card>
+    <card qty="1" id="fb823874-75b3-4fc5-a82d-9ae5430c98ae">Forsaken Tower</card>
+    <card qty="1" id="e49793b6-fb26-477c-8806-750ad01c48af">Forsaken Tower</card>
+    <card qty="1" id="60cd08c8-cc32-4710-a1cd-3a1286295057">Forsaken Tower</card>
+    <card qty="1" id="2b027de6-090c-44ef-bf8f-d499658ca819">Forsaken Tower</card>
+    <card qty="1" id="450a6bfd-1cc2-4ee9-86cf-f62da92030bf">Forsaken Tower</card>
+    <card qty="1" id="b488a2bc-1ee7-4d56-aa6b-db63be66db61">Forsaken Tower</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="8bc7f7e2-561b-44e6-b84c-3d495bf9b2c4">Where the Gods Dwell</card>
+    <card qty="1" id="26dad461-5899-4a34-8db6-638dbbcce6bf">Plateau of Leng</card>
+    <card qty="1" id="ab62465c-c111-44bc-9157-3e1746033896">Cold Wastes</card>
+    <card qty="1" id="bed7c277-e238-4de8-8b60-e5000210d1b9">Monastery of Leng</card>
+    <card qty="1" id="61753432-a892-4512-85fe-b4d32d86742b">Onyx Gates</card>
+    <card qty="1" id="bc3f5571-ab60-440e-8b7a-dac60b18e944">The Onyx Castle</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

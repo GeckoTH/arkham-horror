@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Where the Gods Dwell" id="a0c9827c-0d25-413f-a368-3a74b7705aa0" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="5c7acc5c-7b6f-4019-a835-d45b12a044ca" name="Empty Vessel">
+      <property name="Card Number" value="276" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Abandoned by the Gods" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Blessed." />
+      <property name="Text" value="Limit 1 per deck. Uses (0 charges).&#10;ι After you defeat an enemy: Place 1 charge on Empty Vessel.&#10;θ If there are at least 3 charges on Empty Vessel: Search your bonded cards for Wish Eater and swap it with Empty Vessel, moving all charges from Empty Vessel to Wish Eater." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="άΰ" />
+    </card>
+    <card id="cc7a738c-f3dd-4871-a929-6fedf37cb854" name="Wish Eater">
+      <property name="Card Number" value="277" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Jewel of the Gods" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Blessed." />
+      <property name="Text" value="Bonded (Empty Vessel).&#10;ι When you reveal a α, β, γ, or δ chaos token during a skill test, spend 1 charge: Cancel that chaos token. Heal 1 damage and 1 horror.&#10;Forced – If Wish Eater has no charges: Search your bonded cards for Empty Vessel and swap it with Wish Eater." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4b003c2f-ec72-434b-bf2d-354226be4566" name="Surprising Find">
+      <property name="Card Number" value="278" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Fortune. Research." />
+      <property name="Text" value="Myriad.&#10;ι When you search your deck and Surprising Find is among the searched cards: Put it into play in your play area. You must commit it to the next eligible skill test you perform. If that test is successful, draw 1 card. (Max one Research ability per search.)" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="d548116f-7ded-4dc8-8457-cfba3ee719ba" name="Old Book of Lore">
+      <property name="Card Number" value="279" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (2 secrets).&#10;η Exhaust Old Book of Lore: Choose an investigator at your location. That investigator searches the top 3 cards of their deck for a card, draws it, and shuffles their deck. Then, you may spend 1 secret to have that investigator immediately play that card, reducing its cost by 2." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="1 Hand" />
+      <property name="Skill Icons" value="άέ" />
+    </card>
+    <card id="c32f1588-5b49-44b3-a7cc-ca0c50ba758a" name="Garrote Wire">
+      <property name="Card Number" value="280" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon." />
+      <property name="Text" value="θ During your turn, exhaust Garrote Wire: Fight. You get +2 [ή] for this attack. Use only on an enemy with exactly 1 remaining health." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="ή" />
+    </card>
+    <card id="c0e5f253-8d59-4754-9a03-d14bdd8c73bc" name="Delilah O'Rourke">
+      <property name="Card Number" value="281" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Syndicate Assassin" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Criminal. Syndicate." />
+      <property name="Text" value="You get +1 [ή] and +1 [ί].&#10;θ Exhaust Delilah O'Rourke and spend X resources: Choose an enemy at your location. Deal 1 damage to the chosen enemy (2 damage instead if that enemy is exhausted). X is the chosen enemy’s evade value." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="ήί" />
+    </card>
+    <card id="c97cd0c6-8800-43b2-b3f8-dfb16f90bb44" name="Summoned Hound">
+      <property name="Card Number" value="282" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Summon." />
+      <property name="Text" value="As an additional cost to play Summoned Hound, you must search your bonded cards for 1 copy of Unbound Beast and shuffle it into your deck.&#10;θ During your turn, exhaust Summoned Hound: Fight/Investigate. Either attack with a base [ή] skill of 5, or investigate with a base [έ] skill of 5." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally Arcane" />
+      <property name="Skill Icons" value="έή" />
+    </card>
+    <card id="f03e3511-0a6c-4a83-8de9-2dda716d7775" name="Unbound Beast" size="EncounterCard">
+      <property name="Card Number" value="283" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Enemy" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Monster. Extradimensional. Tindalos." />
+      <property name="Text" value="Bonded (Summoned Hound).&#10;Prey – Bearer.&#10;Hunter. Retaliate.&#10;Revelation – If there is no copy of Summoned Hound in play, set Unbound Beast aside, out of play. Otherwise, set an investigator’s Summoned Hound aside, out of play, and spawn Unbound Beast engaged with the same investigator." />
+      <property name="Health" value="3" />
+      <property name="Level" value="–" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="298ee4a4-4a9f-4475-b6bb-9a00f4301878" name="Nothing Left to Lose">
+      <property name="Card Number" value="284" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="If you have fewer than 5 resources, gain resources until you have 5 resources.If you have fewer than 5 cards in your hand, draw cards until you have 5 cards in your hand.&#10;Remove Nothing Left to Lose from the game." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="cade5db1-861f-4d26-984d-8d09d4b8baba" name="The Black Cat">
+      <property name="Card Number" value="285" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="A Liar, or a Prophet, or Both" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Avatar. Dreamlands." />
+      <property name="Text" value="Anytime you reveal a γ, δ, or ε symbol during a skill test, you may choose to use the following effects instead of that symbol’s normal effects:&#10;γ effect: –1. The Black Cat takes 1 direct damage.&#10;δ effect: –1. The Black Cat takes 1 direct horror.&#10;ε effect: +5. Heal all damage and horror from The Black Cat." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="0" />
+      <property name="Intellect" value="0" />
+      <property name="Combat" value="0" />
+      <property name="Agility" value="0" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="ΰΰ" />
+    </card>
+    <card id="8bc7f7e2-561b-44e6-b84c-3d495bf9b2c4" name="Where the Gods Dwell" size="EncounterCard">
+      <property name="Card Number" value="286" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the number of the current act.&#10;β: Reveal another token. If you fail, place 1 doom on the current agenda.&#10;γ: –4. If you fail, choose and reveal a copy of Nyarlathotep in your hand. It attacks you and is shuffled into the encounter deck.&#10;δ: 0. The black cat reminds you that it’s all a dream." />
+      <alternate name="Where the Gods Dwell" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is the number of the current act plus the number of the current agenda.&#10;β: Reveal another token. If you fail, place 1 doom on the current agenda. This effect may cause the current agenda to advance.&#10;γ: –6. If you fail, choose and reveal a copy of Nyarlathotep in your hand. It attacks you and is shuffled into the encounter deck.&#10;δ: –1. The black cat reminds you that it’s all a dream." />
+      </alternate>
+    </card>
+    <card id="457e17e9-7ae2-4762-984f-503a6ca7a194" name="The Eye of Chaos" size="HorizCard">
+      <property name="Card Number" value="287" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="7" />
+      <alternate name="The Mire of Dreams" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If it is act 4, read the following:&#10;Place clues on each Forsaken Tower location until it has clues equal to its clue value.&#10;Reveal each copy of Nyarlathotep in each investigator’s hand. Each investigator who did not reveal a copy of Nyarlathotep must take either 1 damage or 1 horror. For each copy of Nyarlathotep revealed by an investigator, that investigator must choose:&#10;– Nyarlathotep immediately attacks that investigator and is shuffled into the encounter deck.&#10;– Nyarlathotep immediately attacks that investigator three times and is returned to that investigator’s hand." />
+      </alternate>
+    </card>
+    <card id="acfcc852-70d7-49d7-a0b1-923339a3e9f9" name="The Shape of Chaos" size="HorizCard">
+      <property name="Card Number" value="288" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="5" />
+      <alternate name="The Last Dream" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If it is act 4, read the following:&#10;Place clues on each Forsaken Tower location until it has clues equal to its clue value.&#10;Reveal each copy of Nyarlathotep in each investigator’s hand. Each investigator who did not reveal a copy of Nyarlathotep must take either 1 damage or 1 horror. For each copy of Nyarlathotep revealed by an investigator, that investigator must choose:&#10;– Nyarlathotep immediately attacks that investigator and is shuffled into the encounter deck.&#10;– Nyarlathotep immediately attacks that investigator three times and is returned to that investigator’s hand." />
+      </alternate>
+    </card>
+    <card id="134463a3-0762-4aec-8b9e-8cd2f7c209bd" name="Chaos Incarnate" size="HorizCard">
+      <property name="Card Number" value="289" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="5" />
+      <alternate name="A Dream Devoured" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each investigator is defeated and driven insane." />
+      </alternate>
+    </card>
+    <card id="2c08d762-f9c5-495b-8a60-be7343c30bff" name="Journey Through the Cold Wastes" size="HorizCard">
+      <property name="Card Number" value="290" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Clues" value="2π" />
+      <alternate name="The Monastery" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Reveal the Monastery of Leng.&#10;Spawn the set-aside High Priest Not to Be Described enemy in the Monastery of Leng." />
+      </alternate>
+    </card>
+    <card id="2f42b783-2e44-4f8b-a6b8-492589aeaaed" name="The Thing in the Robes" size="HorizCard">
+      <property name="Card Number" value="291" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η If an investigator “uncovered a bottomless pit,” and an investigator “maneuvered the priest closer”: Defeat the High Priest Not to Be Described.&#10;Objective – If the High Priest Not to Be Described is defeated, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="A Foul Fate" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If you defeated the High Priest Not to Be Described with damage, read the following:&#10;As you strike it down, the creature spits foul curses at you in tongues that can scarcely be described. Its last breath is filled with hate.&#10;If you defeated the High Priest Not to Be Described using the ability on act 2a, read the following:&#10;Despite your fear—or perhaps as a result—you discover a means to escape the creature’s grasp. With the creature distracted, you shove with all of your might, and it topples into the gaping well in the center of the room, letting out a hideous screech in its wake.&#10;No matter how it was defeated, also read the following:&#10;With the monster dispatched, you can explore its monastery in relative peace. Along the ruined walls of the stone building, tapestries depict the history of this land, a history of blood and suffering that you have no desire to remember when this is all said and done. Great snowcapped peaks loom over each of these scenes. In just one of them, a castle is woven in black thread." />
+      </alternate>
+    </card>
+    <card id="6f5bdc54-4c99-47b0-8acd-f6725e123380" name="Beyond Dreams" size="HorizCard">
+      <property name="Card Number" value="292" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If each investigator is at the Onyx Gates, and no clues are on it, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Where the Gods Dwell" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Each investigator loses all of their clues.&#10;Read Scenario Interlude: Grand Design in the Campaign Guide. Then, advance to Act 4a—“Truth and Lies.”" />
+      </alternate>
+    </card>
+    <card id="ab180fc3-d890-4657-96b8-3f6cd9e198ca" name="Truth and Lies" size="HorizCard">
+      <property name="Card Number" value="293" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Act 4a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η Spend 1 clue: Look at the top 3 cards of the encounter deck. Draw each of those cards with the hidden keyword and discard the rest.&#10;Objective – Find and expose Nyarlathotep’s true form by adding copies of Nyarlathotep to the victory display. If 1π copies are in the victory display, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="The True Shape" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Act 4b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Check Campaign Log. If the black cat knows the truth and the investigators possess the Silver Key:&#10;Each investigator loses each of their clues. Each copy of Nyarlathotep in the victory display combines to form a single enemy with:&#10;—Fight/Evade values equal to the highest fight/evade value among attached copies of itself.—Health/damage/horror/victory values equal to the total combined health/damage/horror/victory values of all attached copies of itself.&#10;—All keywords from all attached copies of itself.&#10;Spawn this monstrosity in The Great Hall. It is Nyarlathotep’s True Shape. Place clues on each Forsaken Tower location until it has clues equal to its clue value.&#10;Otherwise, proceed to (-&gt;R1)." />
+      </alternate>
+    </card>
+    <card id="8ac1ec8c-1ca6-4c97-91ab-5323d7383eb7" name="The Dream-Eaters" size="HorizCard">
+      <property name="Card Number" value="294" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Act 5a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Nyarlathotep’s True Shape gets –1 health for each clue the investigators possess, as a group.&#10;Objective – If Nyarlathotep’s True Shape is defeated, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="The Black Cat" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Act 5b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(-&gt;R2)" />
+      </alternate>
+    </card>
+    <card id="26dad461-5899-4a34-8db6-638dbbcce6bf" name="Plateau of Leng" size="EncounterCard">
+      <property name="Card Number" value="295" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Leng." />
+      <alternate name="Plateau of Leng" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Leng." />
+        <property name="Text" value="Forced – When an enemy attempts to spawn at an empty location, and there are no empty locations in play: Spawn that enemy here, instead." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="ab62465c-c111-44bc-9157-3e1746033896" name="Cold Wastes" size="EncounterCard">
+      <property name="Card Number" value="296" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Leng." />
+      <alternate name="Cold Wastes" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Leng." />
+        <property name="Text" value="Forced – After you reveal a α, β, γ, δ, or ζ chaos token while investigating Cold Wastes: You must either take 1 damage or lose 1 action." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="bed7c277-e238-4de8-8b60-e5000210d1b9" name="Monastery of Leng" size="EncounterCard">
+      <property name="Card Number" value="297" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Leng." />
+      <property name="Text" value="The door to the Monastery of Leng is sealed shut. You cannot enter the Monastery of Leng." />
+      <alternate name="Monastery of Leng" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Leng." />
+        <property name="Text" value="θ Investigators at Monastery of Leng spend 1π clues, as a group: Remember that the investigators “maneuvered the priest closer.”" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="61753432-a892-4512-85fe-b4d32d86742b" name="Onyx Gates" size="EncounterCard">
+      <property name="Card Number" value="298" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Leng. Kadath." />
+      <alternate name="Onyx Gates" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Leng. Kadath." />
+        <property name="Text" value="Onyx Gates gets +1π shroud.&#10;Forced – After Onyx Gates is revealed: Check Campaign Log. Remove 1 clue from Onyx Gates for each tally mark recorded next to “Evidence of Kadath.”" />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="12" />
+      </alternate>
+    </card>
+    <card id="bc3f5571-ab60-440e-8b7a-dac60b18e944" name="The Onyx Castle" size="EncounterCard">
+      <property name="Card Number" value="299" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Kadath." />
+      <property name="Text" value="The way to The Onyx Castle is hidden. You cannot enter The Onyx Castle." />
+      <alternate name="The Great Hall" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Kadath." />
+        <property name="Text" value="η: Choose another investigator at your location. Add a hidden card in your hand to the chosen investigator’s hand." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="fb823874-75b3-4fc5-a82d-9ae5430c98ae" name="Forsaken Tower" size="EncounterCard">
+      <property name="Card Number" value="300" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Kadath." />
+      <alternate name="Forsaken Tower" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Of Illusion and Myth" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Kadath." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Investigate. Choose and reveal a copy of Nyarlathotep from your hand. For this investigation, this location’s shroud is equal to Nyarlathotep’s printed health. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="e49793b6-fb26-477c-8806-750ad01c48af" name="Forsaken Tower" size="EncounterCard">
+      <property name="Card Number" value="301" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Kadath." />
+      <alternate name="Forsaken Tower" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Of Life and Death" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Kadath." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Fight. Reveal a copy of Nyarlathotep from your hand and fight it as if it were at your location, using [ά] instead of [ή]. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="60cd08c8-cc32-4710-a1cd-3a1286295057" name="Forsaken Tower" size="EncounterCard">
+      <property name="Card Number" value="302" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Kadath." />
+      <alternate name="Forsaken Tower" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Of Infinite Truth" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Kadath." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Evade. Reveal a copy of Nyarlathotep from your hand and attempt to evade it as if it were at your location, using [έ] instead of [ί]. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="2b027de6-090c-44ef-bf8f-d499658ca819" name="Forsaken Tower" size="EncounterCard">
+      <property name="Card Number" value="303" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Kadath." />
+      <alternate name="Forsaken Tower" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Of Eternal Flame" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Kadath." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Fight. Reveal a copy of Nyarlathotep from your hand and fight it as if it were at your location. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="450a6bfd-1cc2-4ee9-86cf-f62da92030bf" name="Forsaken Tower" size="EncounterCard">
+      <property name="Card Number" value="304" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Kadath." />
+      <alternate name="Forsaken Tower" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Of the Queen of Night" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Kadath." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Evade. Reveal a copy of Nyarlathotep from your hand and attempt to evade it as if it were at your location. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b488a2bc-1ee7-4d56-aa6b-db63be66db61" name="Forsaken Tower" size="EncounterCard">
+      <property name="Card Number" value="305" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Kadath." />
+      <alternate name="Forsaken Tower" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Where the Gods Dwell" />
+        <property name="Subtitle" value="Of Primeval Light" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Kadath." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Reveal a copy of Nyarlathotep from your hand and test [ά] (X), where X is Nyarlathotep’s printed health. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="d747454c-b2c4-4bd7-9a64-67861f5a748d" name="Nyarlathotep" size="EncounterCard">
+      <property name="Card Number" value="306" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="The Crawling Chaos" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="Peril. Hidden. Hunter.&#10;Revelation – Secretly add Nyarlathotep to your hand. If you speak of this card while it is in your hand and unrevealed, you are immediately driven insane." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="ac061090-dcd0-4e7c-9024-b2af1f868450" name="Nyarlathotep" size="EncounterCard">
+      <property name="Card Number" value="307" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="The Faceless Whisperer" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="Peril. Hidden. Retaliate.&#10;Revelation – Secretly add Nyarlathotep to your hand. If you speak of this card while it is in your hand and unrevealed, you are immediately driven insane." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="32b29a2e-5f8c-476d-a2f0-e6f8ff2a7e68" name="Nyarlathotep" size="EncounterCard">
+      <property name="Card Number" value="308" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Messenger of the Outer Gods" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="Peril. Hidden. Alert.&#10;Revelation – Secretly add Nyarlathotep to your hand. If you speak of this card while it is in your hand and unrevealed, you are immediately driven insane." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="b8310f62-b822-457e-ab36-d36aa5bb8cf3" name="Nyarlathotep" size="EncounterCard">
+      <property name="Card Number" value="309" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="God of a Thousand Forms" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="Peril. Hidden. Hunter.&#10;Revelation – Secretly add Nyarlathotep to your hand. If you speak of this card while it is in your hand and unrevealed, you are immediately driven insane." />
+      <property name="Health" value="6" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="cdf6e23f-e3be-4572-b974-fea69fb48a1e" name="Nyarlathotep" size="EncounterCard">
+      <property name="Card Number" value="310" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Stalker Among the Stars" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="Peril. Hidden. Massive.&#10;Revelation – Secretly add Nyarlathotep to your hand. If you speak of this card while it is in your hand and unrevealed, you are immediately driven insane." />
+      <property name="Health" value="7" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="fa8ef23d-0a0c-48c3-a002-c2c6384d187e" name="High Priest Not to Be Described" size="EncounterCard">
+      <property name="Card Number" value="311" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Subtitle" value="Agent of the Other Gods" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Cultist. Avatar. Elite." />
+      <property name="Text" value="Alert. Massive. Retaliate.&#10;This enemy cannot make attacks of opportunity.&#10;θ If this enemy is exhausted, spend 1π clues: Remember that you “stunned the priest.” Until the end of the scenario, this enemy gets –3 fight.&#10;Victory 2." />
+      <property name="Health" value="3π" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="9ecc75e1-207d-472a-b10c-d324991b17d3" name="Dhole of the Wastes" size="EncounterCard">
+      <property name="Card Number" value="312" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster." />
+      <property name="Text" value="Spawn – Cold Wastes or The Great Hall (whichever is farther).&#10;Prey – Lowest [ί].&#10;Hunter.&#10;Victory 1." />
+      <property name="Health" value="6" />
+      <property name="Combat" value="6" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1&#10;" />
+    </card>
+    <card id="aaefad35-45fe-48fc-b7e5-397fc4fb333a" name="Liar with No Face" size="EncounterCard">
+      <property name="Card Number" value="313" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Cultist. Servitor." />
+      <property name="Text" value="Prey – Most cards in hand.&#10;Hunter.&#10;Forced – When Liar with No Face attacks you, if Whispering Chaos is in your hand: Reveal it. Liar with No Face deals +2 damage for this attack." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="bb7887b8-46c6-4b99-bdff-6210adcbdd48" name="Whispering Chaos (North)" size="EncounterCard">
+      <property name="Card Number" value="314" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;While this card is in your hand, you may activate the ability on the Northern Tower if you reveal this card from your hand. If the ability on the Northern Tower resolves successfully, discard this card. If it fails, shuffle this card back into the encounter deck." />
+    </card>
+    <card id="20e73d9d-e482-420c-842c-92ddb33ec9a4" name="Whispering Chaos (East)" size="EncounterCard">
+      <property name="Card Number" value="315" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;While this card is in your hand, you may activate the ability on the Eastern Tower if you reveal this card from your hand. If the ability on the Eastern Tower resolves successfully, discard this card. If it fails, shuffle this card back into the encounter deck." />
+    </card>
+    <card id="caa58964-55fb-477e-995a-14f00f527e23" name="Whispering Chaos (South)" size="EncounterCard">
+      <property name="Card Number" value="316" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;While this card is in your hand, you may activate the ability on the Southern Tower if you reveal this card from your hand. If the ability on the Southern Tower resolves successfully, discard this card. If it fails, shuffle this card back into the encounter deck." />
+    </card>
+    <card id="78ffad40-fae3-4b56-83dd-56641512e9ac" name="Whispering Chaos (West)" size="EncounterCard">
+      <property name="Card Number" value="317" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;While this card is in your hand, you may activate the ability on the Western Tower if you reveal this card from your hand. If the ability on the Western Tower resolves successfully, discard this card. If it fails, shuffle this card back into the encounter deck." />
+    </card>
+    <card id="66a2c0ec-a83e-40b0-bb20-ea26eaeb13df" name="Myriad Forms" size="EncounterCard">
+      <property name="Card Number" value="318" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – If Nyarlathotep’s True Shape is in play, it moves and attacks as if it were the enemy phase. If 1 or more copies of Nyarlathotep are in your hand, reveal them. Each one attacks you and is shuffled into the encounter deck. If no attacks are made a result of this effect, Myriad Forms gains surge." />
+    </card>
+    <card id="b71163c5-0a33-4f4d-9837-f6a436a14225" name="Restless Journey (Fallacy)" size="EncounterCard">
+      <property name="Card Number" value="319" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test [έ] (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
+    </card>
+    <card id="d596b36b-7f07-4849-90e2-7f44b4863733" name="Restless Journey (Hardship)" size="EncounterCard">
+      <property name="Card Number" value="320" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test [ή] (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
+    </card>
+    <card id="f9368c71-e19f-4627-ae1f-0340b2aa0b44" name="Restless Journey (Lies)" size="EncounterCard">
+      <property name="Card Number" value="321" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test [ί] (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
+    </card>
+    <card id="5eeb9e23-03c9-461d-8fd6-6911091f05bd" name="Abandoned by the Gods" size="EncounterCard">
+      <property name="Card Number" value="322" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Where the Gods Dwell" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Peril.&#10;Revelation – Test [ά] (3). For each point you fail by, you must choose a different number between 0 and 4. Each player must discard each event and asset from his or her hand with a printed resource cost equal to any of the chosen numbers." />
+    </card>
+  </cards>
+</set>
