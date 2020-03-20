@@ -44,7 +44,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άί" />
     </card>
     <card id="a381dd40-1854-411e-9634-bdf032a6d075" name="Dream Diary">
@@ -61,7 +61,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άή" />
     </card>
     <card id="14cd2f4b-3437-48e0-a49c-b10055a6ad7f" name="Dream Diary">
@@ -78,7 +78,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="6699a20d-a299-4826-96de-cc1461f275db" name="Haste">
@@ -94,7 +94,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ί" />
     </card>
     <card id="96b64cc0-1de0-4226-a713-f34a9196759d" name="Daredevil">
@@ -125,7 +125,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="a22af06f-e75c-45e1-a5aa-32dd6ccdd70c" name="Empower Self">
@@ -142,7 +142,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="2" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ίί" />
     </card>
     <card id="eaa8acfd-c17a-4f69-b742-3afeb06daa25" name="Empower Self">
@@ -159,7 +159,7 @@
       <property name="Intellect" value="2" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="έέ" />
     </card>
     <card id="934b4ff0-c241-4506-a432-24296169de7b" name="Twila Katherine Price">

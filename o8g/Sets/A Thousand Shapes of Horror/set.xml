@@ -63,7 +63,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="914848c7-c854-45a1-baa8-074087f6b7d3" name="Dream-Enhancing Serum">
@@ -79,7 +79,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="32d5fc8d-d784-4dec-b747-7be41b6d95f8" name="“Let God sort them out...”">
@@ -144,7 +144,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="d2bcdc16-7611-4c0b-8e61-49608a6c9647" name="Ethereal Form">

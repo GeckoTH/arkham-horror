@@ -14,7 +14,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="2 Hand" />
+      <property name="Slot" value="Hand x2" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="b83a5a1e-0562-4856-be25-6dda9fe4fb46" name=".45 Thompson">
@@ -30,7 +30,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="2 Hand" />
+      <property name="Slot" value="Hand x2" />
       <property name="Skill Icons" value="ήί" />
     </card>
     <card id="f6e6bd79-7d2a-4ee8-a469-6e72ebbfa25c" name="Scroll of Secrets">
@@ -46,7 +46,7 @@
       <property name="Intellect" value="2" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έέ" />
     </card>
     <card id="8c671c80-d9a1-400d-a11d-75678e3b5bd7" name="Scroll of Secrets">
@@ -62,7 +62,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="2226a4fd-80fe-484c-a0e6-c8c840197f16" name="Tennessee Sour Mash">

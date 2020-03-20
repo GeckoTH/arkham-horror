@@ -14,7 +14,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="c21457fa-89c3-4ab6-9f8c-e185f54350c9" name="“Eat lead!”">
@@ -60,7 +60,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="έή" />
     </card>
     <card id="50336e12-f86f-4473-919d-c204f4282784" name="Stealth">
@@ -91,7 +91,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="75269548-4a48-4fbc-b974-5449610feb34" name="Alchemical Transmutation">
@@ -107,7 +107,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="fbf08f85-baf9-4db3-a18e-31750bdffe4f" name="Storm of Spirits">
@@ -138,7 +138,7 @@
       <property name="Intellect" value="2" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έέ" />
     </card>
     <card id="21b12cda-3b0d-4c67-b9c7-8ba7a26033f5" name="Gravedigger’s Shovel">
@@ -154,7 +154,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="58a1eddf-4958-4e7f-aea0-30c045452688" name="Unspeakable Oath (Bloodthirst)">

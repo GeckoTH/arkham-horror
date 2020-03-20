@@ -59,7 +59,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ί" />
     </card>
     <card id="9d070e2e-8347-4dee-862c-3ef2cad34aed" name="Investments">
@@ -106,7 +106,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έ" />
     </card>
     <card id="bcd654ff-e2ce-4096-adf3-cca425a45b05" name="Guiding Spirit">

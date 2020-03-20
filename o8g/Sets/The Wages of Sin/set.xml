@@ -69,7 +69,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="9ad7df7c-2878-4171-aacc-4327851265f7" name="Henry Wan">
@@ -120,7 +120,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ή" />
     </card>
     <card id="7a495d34-c4c0-4e04-bcec-2a31d0799963" name="Sixth Sense">
@@ -136,7 +136,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="έ" />
     </card>
     <card id="e723c262-3e6b-4e60-a464-377dbc29a45f" name="Drawing Thin">

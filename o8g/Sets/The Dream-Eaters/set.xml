@@ -125,7 +125,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="2 Hand" />
+      <property name="Slot" value="Hand x2" />
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="ήίΰ" />
     </card>
@@ -188,7 +188,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έήΰ" />
     </card>
     <card id="6ddeb014-a79f-481b-9303-df1d6d338ae3" name="Tony’s Quarry">
@@ -260,7 +260,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="άίΰ" />
     </card>
@@ -291,7 +291,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="ή" />
     </card>

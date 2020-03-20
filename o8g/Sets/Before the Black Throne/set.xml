@@ -60,7 +60,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έ" />
     </card>
     <card id="d0f4baa1-b066-47a0-a43f-9160efe57818" name="Blood-Rite">
@@ -121,7 +121,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="6287a4d3-694e-4d93-83f1-85a8a4c73c16" name="Wither">
@@ -137,7 +137,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="5c700a72-b4ec-4c7a-bfa9-dc6dc4fc6144" name="Sixth Sense">
@@ -153,7 +153,7 @@
       <property name="Intellect" value="2" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="έέ" />
     </card>
     <card id="21b8d017-25a0-4d2e-b4ea-52490b8f19c9" name="Lure">
