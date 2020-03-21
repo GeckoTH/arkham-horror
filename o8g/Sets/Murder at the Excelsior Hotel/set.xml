@@ -276,7 +276,7 @@
         <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Crime Scene." />
-        <property name="Text" value="η: Test έ (1). If you succeed, move a Humanoid enemy at this location any location once toward the Basement.&#10;ι After you defeat an enemy in the Basement: Move any number of clues controlled by investigators at the Basement to Tome of Rituals (if it is in play)." />
+        <property name="Text" value="η: Test έ (1). If you succeed, move a Humanoid enemy at any location once toward the Basement.&#10;ι After you defeat an enemy in the Basement: Move any number of clues controlled by investigators at the Basement to Tome of Rituals (if it is in play)." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
@@ -337,7 +337,7 @@
       <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – If there are no Humanoid enemies in play, Driven to Madness gains surge. Otherwise, attach Driven to Madness to the nearest Humanoid enemy.&#10;Attached enemy gets +1 fight, +1 health and +1 evade. Attached enemy loses aloof. Investigators cannot parley with attached enemy.&#10;Forced – After enemy is evaded: Discard Driven to Madness." />
+      <property name="Text" value="Revelation – If there are no Humanoid enemies in play, Driven to Madness gains surge. Otherwise, attach Driven to Madness to the nearest Humanoid enemy.&#10;Attached enemy gets +1 fight, +1 health, and +1 evade. Attached enemy loses aloof. Investigators cannot parley with attached enemy.&#10;Forced – After attached enemy is evaded: Discard Driven to Madness." />
     </card>
     <card id="e50fc91a-73f7-497f-82a1-b672bca583eb" name="Blood on Your Hands" size="EncounterCard">
       <property name="Card Number" value="25" />
@@ -361,7 +361,7 @@
       <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – If there are no Humanoid enemies in play, search the encounter deck and discard pile for a Humanoid enemy, draw it, and shuffle the encounter deck. Otherwise, the nearest Humanoid enemy readies, moves (one location at a time) until it reaches your location, engages you and makes an immediate attack." />
+      <property name="Text" value="Revelation – If there are no Humanoid enemies in play, search the encounter deck and discard pile for a Humanoid enemy, draw it, and shuffle the encounter deck. Otherwise, the nearest Humanoid enemy readies, moves (one location at a time) until it reaches your location, engages you, and makes an immediate attack." />
     </card>
     <card id="14db3c74-3079-43e4-95e7-9f8e81ceefb7" name="Alien Device" size="EncounterCard">
       <property name="Card Number" value="28" />
@@ -492,7 +492,7 @@
       <property name="Encounter Set" value="Vile Experiments" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Hazard." />
-      <property name="Text" value="Revelation – Test ά (6). Reduce the difficulty of this test by 1 for each location away from Room 212 you are. If you fail, you msut either place 1 of your clues on your location, or take 2 horror." />
+      <property name="Text" value="Revelation – Test ά (6). Reduce the difficulty of this test by 1 for each location away from Room 212 you are. If you fail, you must either place 1 of your clues on your location, or take 2 horror." />
     </card>
     <card id="e65e6c0d-18f5-4957-a5eb-300f3dbc779f" name="Time-Worn Locket" size="EncounterCard">
       <property name="Card Number" value="40" />
@@ -560,7 +560,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Alien Device gains: &quot;η Exhausted Alien Device and remove 2 clues from it: Add a Staff enemy at your location to the victory display (or deal it 2 damage if it is Elite). Does not provoke attacks of opportunity.&quot;&#10;Objective – If Hotel Manager is defeated, advance." />
+      <property name="Text" value="Alien Device gains: &quot;η Exhaust Alien Device and remove 2 clues from it: Add a Staff enemy at your location to the victory display (or deal it 2 damage if it is Elite). Does not provoke attacks of opportunity.&quot;&#10;Objective – If Hotel Manager is defeated, advance." />
       <property name="Doom" value="6" />
       <alternate name="Pawn on the Eternal Board" type="B" size="HorizCard">
         <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
@@ -658,7 +658,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each Guest enemy loses Victory 0, loses Innocent, and gains Cultist.&#10;Basement gains: &quot;η: Test ά (4) or ί (4). You may remove 1 clue from a Lead asset in the Basement to reduce the difficulty of this test by 2. If you succeed, remove 1 doom from the agenda.&#10;If there is no doom on this agenda, advance." />
+      <property name="Text" value="Each Guest enemy loses Victory 0, loses Innocent, and gains Cultist.&#10;Basement gains: &quot;η: Test ά (4) or ί (4). You may remove 1 clue from a Lead asset in the Basement to reduce the difficulty of this test by 2. If you succeed, remove 1 doom from the agenda.&#10;Objective – If there is no doom on this agenda, advance." />
       <property name="Doom" value="12" />
       <alternate name="Pawn on the Otherworldly Board" type="B" size="HorizCard">
         <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
