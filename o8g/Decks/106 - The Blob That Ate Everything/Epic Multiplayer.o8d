@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="21babb73-23ac-4e9a-966f-d36ee8ee714c">The Anomaly Spreads</card>
+    <card qty="1" id="72ffa4cc-b59d-4b71-9ab9-8fa335b7a30e">The Anomaly Swells</card>
+    <card qty="1" id="cab7cd30-c516-4251-b522-3aa2c0ffffd5">The Anomaly Consumes</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="fa2ac37c-f845-4790-acbc-b12d61e6a649">Expose the Anomaly</card>
+    <card qty="1" id="87a2c12b-7f2f-4c24-8850-c508d1ec0861">Extra terrestrial Physiology</card>
+    <card qty="1" id="fee539c0-c753-482f-8c5f-a07534da6f45">Blackwater's Bane</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="6c413a91-c8d2-45df-a7ec-347a65bce5d2">Oozeling</card>
+    <card qty="1" id="e09f1dae-22f5-4015-927e-c821c5b01145">Oozeling</card>
+    <card qty="1" id="f93d76d1-2dda-446f-ba2a-c7ce2b79fb14">Oozeling</card>
+    <card qty="1" id="7780c293-77e6-4d46-8efd-ad46778a4110">Oozeling</card>
+    <card qty="1" id="e8d1d004-24b2-4644-87a8-0b0dec8c9489">Grasping Ooze</card>
+    <card qty="1" id="2e991608-ccd0-4081-a3db-3a031096d575">Cubic Ooze</card>
+    <card qty="4" id="1d7a25a4-561e-4859-afbc-30d8d7d8dda1">Reality Acid</card>
+    <card qty="2" id="274b22f3-4079-485c-a8a7-8ed829ce1086">Devouring Ooze</card>
+    <card qty="2" id="af9dc071-9a46-4518-9d2f-4689bfa252cc">Corrosive Slime</card>
+    <card qty="3" id="e6498d58-fb07-4dea-910a-4a1ac3109c74">Consuming Maw</card>
+    <card qty="3" id="2fc94494-2ebb-4a1d-9bf2-e4717d7ff4ba">Wave of Ooze</card>
+    <card qty="2" id="9de45556-62e1-411c-b804-f3992586bd05">Caustic Dissemination</card>
+    <card qty="2" id="cbde1d7b-8d53-40bf-984b-37b1720141f5">Sticky Feet</card>
+    <card qty="2" id="7c9d8cd4-3402-472d-ab85-ad88e40dd910">Replication</card>
+    <card qty="2" id="08f6c325-aa0f-4a8e-97db-c1321aac17cd">"It's got me!"</card>
+    <card qty="2" id="215f4435-311d-4f8a-9867-f26b7514fd9b">Alien Food Chain</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="24e78cc8-42b0-4b49-9bbe-f198d3afda58">Quarantine Zone</card>
+    <card qty="1" id="dd617c4a-a830-4334-8c36-42bfd4b54eb5">Quarantine Zone</card>
+    <card qty="1" id="12bb4d1b-e166-4e5e-ba60-98b4a71f6f7a">Quarantine Zone</card>
+    <card qty="1" id="cc1b1dc2-2c30-4b8c-bbce-85cc127a305b">Quarantine Zone</card>
+    <card qty="2" id="f2727fea-7e17-4fc0-9f69-5b70d2088c40">Quarantine Zone</card>
+    <card qty="2" id="9035970a-7116-4e40-bc14-3f913f7b4050">Quarantine Zone</card>
+    <card qty="2" id="7f5f76f9-a260-4c9a-a13c-ff4b01974b30">Quarantine Zone</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="4060e485-b95c-466a-a300-b0f336159fbd">Rescue the Chemist</card>
+    <card qty="1" id="30a82de8-2e20-476a-a0ea-f2bbb9886123">Recover the Sample</card>
+    <card qty="1" id="6fa4281b-c89c-42f0-822e-f8d7e77c402b">Drive Off the Mi-Go</card>
+    <card qty="1" id="09d183dc-790f-4bf2-a479-c4a07d39103d">Defuse the Explosives</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="8db3e57c-a1bc-4aaf-92ce-342161cf97c6">Vulnerable Heart</card>
+    <card qty="1" id="e8d1d004-24b2-4644-87a8-0b0dec8c9489">Grasping Ooze</card>
+    <card qty="1" id="2e991608-ccd0-4081-a3db-3a031096d575">Cubic Ooze</card>
+    <card qty="2" id="4dfd5154-c079-4fb3-b234-a901c6298a6d">Oozewraith</card>
+    <card qty="1" id="e72a14f9-07bb-4363-8d49-2a2ef1a9609e">University Chemist</card>
+    <card qty="1" id="a07e47ad-4733-4632-b479-dae074a3b20b">Mi-Go Abductor</card>
+    <card qty="1" id="c8c6c350-aa52-4a62-95b2-1bc653dba81b">Meteorite Sample</card>
+    <card qty="1" id="6d3d13aa-a5b8-4d26-ba6f-e0187d3c8769">Mi-Go Harvester</card>
+    <card qty="1" id="dfcd7dfe-86da-4b5d-b3f7-d30efe951196">Mi-Go General</card>
+    <card qty="3" id="702dce29-673e-42d3-88b6-40b71a5d8cf9">Mi-Go Drone</card>
+    <card qty="1" id="938f2a33-b92b-47b4-9b04-ba53cb3756c2">The Military's Plan</card>
+    <card qty="1" id="b088ddc6-03ff-4fad-985d-b40c3fc208cf">Mi-Go Meddler</card>
+    <card qty="1" id="4c82562e-bdca-4e28-b0c9-2f5b641fd2d1">Universal Solvent</card>
+    <card qty="1" id="ce97a96b-676e-47e9-91ab-1671124eb46e">Pet Oozeling</card>
+    <card qty="1" id="f3c87c45-7487-482f-90ff-003479404f5f">Mi-Go Weapon</card>
+    <card qty="1" id="3fd3df23-7240-4223-bbac-2c5f4d3ce6fc">Lt. Wilson Stewart</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="c8f2a44d-ac1b-423b-96a5-3a8468ca426d">The Blob That Ate Everything</card>
+    <card qty="1" id="a8b92736-7b54-49ec-b84e-a1a2973fe18d">Subject 8L-08</card>
+    <card qty="1" id="537f55af-37e9-4768-b189-7160c01eefa5">The Crater</card>
+    <card qty="1" id="30fa1a40-fe62-477e-a0ef-9827f8bbfeb6">Research Site</card>
+    <card qty="1" id="493950da-7bec-417c-9d09-fa7818f723ca">Temporary HQ</card>
+    <card qty="1" id="17f09572-f07d-483c-8084-4699edf80b14">Fungus Mound</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
