@@ -25,7 +25,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <property name="Text" value="Forced - At the end of the round, if there is at least 1 doom on this agenda and no group has yet triggered this ability: The lead investigator of Group A chooses a random set-aside [[Act 1]] story card and draws it. Announce the chosen card's title to all three groups. Each other lead investigator draws that story card."/>
+    <property name="Text" value="Forced - At the end of the round, if there is at least 1 doom on this agenda and no group has yet triggered this ability: The lead investigator of Group A chooses a random set-aside Act 1 story card and draws it. Announce the chosen card's title to all three groups. Each other lead investigator draws that story card."/>
     <alternate name="Hope Lingers" size="HorizCard" type="B">
       <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Agenda"/>
@@ -68,7 +68,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <property name="Text" value="Forced - At the end of the round, if there is at least 1 doom on this agenda and no group has yet triggered this ability: The lead investigator of Group A chooses a random set-aside [[Act 2]] story card and draws it. Announce the chosen card's title to all three groups. Each other lead investigator draws that story card."/>
+    <property name="Text" value="Forced - At the end of the round, if there is at least 1 doom on this agenda and no group has yet triggered this ability: The lead investigator of Group A chooses a random set-aside Act 2 story card and draws it. Announce the chosen card's title to all three groups. Each other lead investigator draws that story card."/>
     <alternate name="Hope Fades" size="HorizCard" type="B">
       <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Agenda"/>
@@ -111,7 +111,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <property name="Text" value="Each [[distortion]] location gains:&#10;&#10;&quot;η ξ4+1&amp;lt; T %2β+: &amp;lt;+@2 H &amp;lt;@6@~+ ά9 EIXODOLON. (Group limit once per game.)&quot;&#10;&#10;Objective - If each investigator is defeated, advance this agenda."/>
+    <property name="Text" value="Each Distortion location gains:&#10;&#10;&quot;η ξ4+1&amp;lt; T %2β+: &amp;lt;+@2 H &amp;lt;@6@~+ ά9 EIXODOLON. (Group limit once per game.)&quot;&#10;&#10;Objective - If each investigator is defeated, advance this agenda."/>
     <alternate name="Hope is Lost" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
       <property name="Type" value="Agenda"/>
@@ -682,7 +682,7 @@
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 1."/>
-    <property name="Text" value="Revelation - Attach Arcane Runes to a [[Distortion]] location.&#10;&#10;θ If there are 1π resources on this card: Flip it over and follow the instructions on its other side.&#10;&#10;η: sTteέ)3(. fI uoy ucdee,cs ceapl 1 cesueorr no tsih cr.ad&#10;&#10;If an investigator in this group has successfully resolved the above ability, this card gains: η: es)3Tέ(t. oYu ancnto mctmio rdcsa ot htsi klisl e.tts fI uyo duec,esc ealcp 1 srcrouee no nhotera ugpro's coyp fo raeAnc nRues."/>
+    <property name="Text" value="Revelation - Attach Arcane Runes to a Distortion location.&#10;&#10;θ If there are 1π resources on this card: Flip it over and follow the instructions on its other side.&#10;&#10;η: sTteέ)3(. fI uoy ucdee,cs ceapl 1 cesueorr no tsih cr.ad&#10;&#10;If an investigator in this group has successfully resolved the above ability, this card gains: η: es)3Tέ(t. oYu ancnto mctmio rdcsa ot htsi klisl e.tts fI uyo duec,esc ealcp 1 srcrouee no nhotera ugpro's coyp fo raeAnc nRues."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
       <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
@@ -698,7 +698,7 @@
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 1. Act 2."/>
-    <property name="Text" value="Revelation - Attach The Rift to the current act. If it is act 1, Groups B and C put the set-aside Key of Mysteries into play at a [[Distortion]] location.&#10;&#10;Forced - At the end of the round, if there is at least 3 doom on each group's agenda: The rift opens wide enough for an investigator to step through. Choose an investigator at any location to enter the rift. Then, that investigator flips this card over and follows the instructions on its other side."/>
+    <property name="Text" value="Revelation - Attach The Rift to the current act. If it is act 1, Groups B and C put the set-aside Key of Mysteries into play at a Distortion location.&#10;&#10;Forced - At the end of the round, if there is at least 3 doom on each group's agenda: The rift opens wide enough for an investigator to step through. Choose an investigator at any location to enter the rift. Then, that investigator flips this card over and follows the instructions on its other side."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
       <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
@@ -714,7 +714,7 @@
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 1. Act 2."/>
-    <property name="Text" value="Revelation - Place The Vent in a [[Distortion]] location. If it is act 1, Groups B and C put the set-aside Key of Mysteries into play at that location.&#10;&#10;θ: Place any number of your resource tokens or clues on this card, and/or place any number of [[Item]] assets you control underneath this card. You may also place a written note underneath this card.&#10;&#10;η: Take control of any number of tokens, cards, or notes on/underneath this card.&#10;&#10;ι At the end of the round: You send all of the tokens and cards gathered here through the ventilation shaft. Flip this card over and follow the instructions on the other side."/>
+    <property name="Text" value="Revelation - Place The Vent in a Distortion location. If it is act 1, Groups B and C put the set-aside Key of Mysteries into play at that location.&#10;&#10;θ: Place any number of your resource tokens or clues on this card, and/or place any number of Item assets you control underneath this card. You may also place a written note underneath this card.&#10;&#10;η: Take control of any number of tokens, cards, or notes on/underneath this card.&#10;&#10;ι At the end of the round: You send all of the tokens and cards gathered here through the ventilation shaft. Flip this card over and follow the instructions on the other side."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
       <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
@@ -746,7 +746,7 @@
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 2."/>
-    <property name="Text" value="Revelation - Attach The Gate to a [[Distortion]] location.&#10;&#10;η Spend 1 clue: You enter the doorway. Flip this story card over and follow the instructions on its other side."/>
+    <property name="Text" value="Revelation - Attach The Gate to a Distortion location.&#10;&#10;η Spend 1 clue: You enter the doorway. Flip this story card over and follow the instructions on its other side."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
       <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
@@ -762,7 +762,7 @@
     <property name="Type" value="Story"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Act 2."/>
-    <property name="Text" value="Revelation - Attach Encrypted Glyphs to a [[Distortion]] location.&#10;&#10;Forced - If there is at least 1 horror and 1π damage on this card: Flip it over and follow the instructions on its other side.&#10;&#10;η: Test έ (2) to attempt to decipher the glyphs. If you succeed, place 1 damage on this card.&#10;&#10;η: Test ά (4) to move the glyphs to their proper order. If you succeed, place 1 horror on each group's copy of Encrypted Glyphs."/>
+    <property name="Text" value="Revelation - Attach Encrypted Glyphs to a Distortion location.&#10;&#10;Forced - If there is at least 1 horror and 1π damage on this card: Flip it over and follow the instructions on its other side.&#10;&#10;η: Test έ (2) to attempt to decipher the glyphs. If you succeed, place 1 damage on this card.&#10;&#10;η: Test ά (4) to move the glyphs to their proper order. If you succeed, place 1 horror on each group's copy of Encrypted Glyphs."/>
     <alternate name="Deep Within the Labyrinth…" type="B">
       <property name="Encounter Set" value="Epic Multiplayer"/>
       <property name="Type" value="Story"/>
@@ -930,7 +930,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="2"/>
     <property name="Traits" value="Monster. Nightgaunt."/>
-    <property name="Text" value="Spawn - Nearest [[Prison]] location.&#10;&#10;Hunter.&#10;&#10;Forced - After Faceless Abductor attacks an investigator: Move that investigator to a [[Prison]] location."/>
+    <property name="Text" value="Spawn - Nearest Prison location.&#10;&#10;Hunter.&#10;&#10;Forced - After Faceless Abductor attacks an investigator: Move that investigator to a Prison location."/>
   </card>
   <card id="e8de7e2c-0a50-4e5b-9052-6fad81db512d" name="Tortured Victim" size="EncounterCard">
     <property name="Card Number" value="53"/>

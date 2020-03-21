@@ -52,7 +52,7 @@
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ίέά"/>
     <property name="Traits" value="Insight. Tactic."/>
-    <property name="Text" value="Attach to your location.&#10;&#10;Non-[[Elite]] enemies cannot move into or spawn at attached location. Each time an enemy would spawn at attached location, spawn it at a connecting location instead, if able.&#10;&#10;Forced - When an investigator leaves attached location: Discard Barricade."/>
+    <property name="Text" value="Attach to your location.&#10;&#10;Non-Elite enemies cannot move into or spawn at attached location. Each time an enemy would spawn at attached location, spawn it at a connecting location instead, if able.&#10;&#10;Forced - When an investigator leaves attached location: Discard Barricade."/>
   </card>
   <card id="06ca5c79-9a97-4169-a5ed-0178d2fd7c83" name="Hard Knocks">
     <property name="Card Number" value="5"/>
@@ -103,7 +103,7 @@
     <property name="Combat" value="1"/>
     <property name="Skill Icons" value="ήά"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Fast. Play after a phase begins.&#10;&#10;Choose a non-[[Elite]] enemy in your location. Until the end of the phase, reduce the chosen enemy's damage and horror values by 1, and treat its printed text box as if it were blank (except for [[Traits]])."/>
+    <property name="Text" value="Fast. Play after a phase begins.&#10;&#10;Choose a non-Elite enemy in your location. Until the end of the phase, reduce the chosen enemy's damage and horror values by 1, and treat its printed text box as if it were blank (except for Traits)."/>
   </card>
   <card id="450ee5ca-c143-4770-992f-030b38fb7f00" name="Dig Deep">
     <property name="Card Number" value="9"/>
@@ -391,7 +391,7 @@
       <property name="Encounter Set" value="Return to The Midnight Masks"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value=" - Choose one of the two Easttown locations, one of the two Northside locations, one of the two Rivertown locations, and one of the two Miskatonic University locations at random. Put those locations into play. Remove the other versions of Easttown, Northside, Rivertown, and Miskatonic University from the game.&#10; - When creating the &quot;Cultist deck,&quot; include the 3 new Cult of Umôrdhoth cards included in this expansion. Shuffle the Cultist deck and remove 3 random cards from it, without looking at them. (You should be left with a 5-card Cultist deck.)&#10; - If you are instructed to search the encounter deck for an Acolyte, search the encounter deck for any 1-health [[Cultist]] enemy, instead."/>
+      <property name="Text" value=" - Choose one of the two Easttown locations, one of the two Northside locations, one of the two Rivertown locations, and one of the two Miskatonic University locations at random. Put those locations into play. Remove the other versions of Easttown, Northside, Rivertown, and Miskatonic University from the game.&#10; - When creating the &quot;Cultist deck,&quot; include the 3 new Cult of Umôrdhoth cards included in this expansion. Shuffle the Cultist deck and remove 3 random cards from it, without looking at them. (You should be left with a 5-card Cultist deck.)&#10; - If you are instructed to search the encounter deck for an Acolyte, search the encounter deck for any 1-health Cultist enemy, instead."/>
     </alternate>
   </card>
   <card id="88bddeac-9738-45c5-b8d1-a80aa0526af3" name="Predator or Prey?" size="HorizCard">
@@ -421,7 +421,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="2"/>
       <property name="Traits" value="Humanoid. Monster. Cultist. Elite."/>
-      <property name="Text" value="Spawn - Engaged with Prey.&#10;Prey - Nearest to another [[Cultist]] enemy.&#10;Hunter.&#10;Narôgath gets +3 health per investigator.&#10;While Narôgath is ready, each investigator at its location or a connecting location cannot Parley with [[Cultist]] enemies."/>
+      <property name="Text" value="Spawn - Engaged with Prey.&#10;Prey - Nearest to another Cultist enemy.&#10;Hunter.&#10;Narôgath gets +3 health per investigator.&#10;While Narôgath is ready, each investigator at its location or a connecting location cannot Parley with Cultist enemies."/>
     </alternate>
   </card>
   <card id="044fef90-d736-4096-bdd9-9690686cc3fc" name="Easttown" size="EncounterCard">
@@ -466,7 +466,7 @@
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
-      <property name="Text" value="η: Move to any [[Arkham]] location. (Limit once per game.)"/>
+      <property name="Text" value="η: Move to any Arkham location. (Limit once per game.)"/>
     </alternate>
   </card>
   <card id="fdf83f91-9221-4969-86f8-7a00f2db4c57" name="Miskatonic University" size="EncounterCard">
@@ -510,7 +510,7 @@
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham. Central."/>
-      <property name="Text" value="η Discard a card with X ά icons: Remove X doom from a [[Cultist]] enemy in play. (Group limit once per game.)"/>
+      <property name="Text" value="η Discard a card with X ά icons: Remove X doom from a Cultist enemy in play. (Group limit once per game.)"/>
     </alternate>
   </card>
   <card id="11c05026-4172-4726-9912-aa3f38826335" name="Masked Horrors" size="EncounterCard">
@@ -705,7 +705,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Item. Mask."/>
-    <property name="Text" value="Revelation - Attach to the farthest [[Cultist]] enemy and place 1 doom on that enemy. If there are no [[Cultist]] enemies in play, search the encounter deck and discard pile for a [[Cultist]] enemy, draw it, and attach Mask of Umôrdhoth to it. Shuffle the encounter deck.&#10;Attached enemy gets +2 health. If attached enemy is unique, it gains retaliate. If it is non-unique, it gains aloof instead."/>
+    <property name="Text" value="Revelation - Attach to the farthest Cultist enemy and place 1 doom on that enemy. If there are no Cultist enemies in play, search the encounter deck and discard pile for a Cultist enemy, draw it, and attach Mask of Umôrdhoth to it. Shuffle the encounter deck.&#10;Attached enemy gets +2 health. If attached enemy is unique, it gains retaliate. If it is non-unique, it gains aloof instead."/>
   </card>
   <card id="18006f11-385d-4557-bd62-2db39fe64af7" name="Jeremiah Pierce" size="EncounterCard">
     <property name="Card Number" value="44"/>
@@ -738,7 +738,7 @@
     <property name="Damage" value="2"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Humanoid. Cultist."/>
-    <property name="Text" value="Spawn - Easttown.&#10;Forced - After a [[Monster]] enemy is defeated at Billy Cooper's location: Add Billy Cooper to the victory display."/>
+    <property name="Text" value="Spawn - Easttown.&#10;Forced - After a Monster enemy is defeated at Billy Cooper's location: Add Billy Cooper to the victory display."/>
   </card>
   <card id="386b3309-1666-4955-933f-0f011b7174a8" name="Alma Hill" size="EncounterCard">
     <property name="Card Number" value="46"/>

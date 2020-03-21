@@ -20,7 +20,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Eternal Slumber" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="η Investigators spend 1[per investigator] clues, as a group: Randomly spawn one of the enemies beneath the scenario reference card." />
+      <property name="Text" value="η Investigators spend 1π clues, as a group: Randomly spawn one of the enemies beneath the scenario reference card." />
       <property name="Doom" value="7" />
       <alternate name="They're on to You" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Eternal Slumber" />
@@ -78,7 +78,7 @@
       <alternate name="All for the Chosen" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Eternal Slumber" />
         <property name="Type" value="Act" />
-        <property name="Text" value="You are unable to find the Brotherhood’s hideout, but you are able to find the agent you interrogated in Cairo…Or at least, what remains of him. Inside the halls of an ancient temple, dedicated to a long-forgotten pharaoh, the man’s corpse has been placed upon a stone altar. His body is riddled with fresh stab wounds. You can’t help but wonder if this was—in a way—your doing. Investigating the body and the remainder of the half-buried temple yields a troubling discovery. As you suspected, the Brotherhood of the Beast is behind the curse afflicting Cairo. You find several passages describing the spell in greater detail—though these descriptions do not match what you have seen with your own eyes. The Brotherhood’s tomes describe how to transport their victims to another realm, a place called the Abyss. A nightmarescape from which the dreamers cannot awaken. With each dreamer, their “Chosen” grows in strength…Place 1[per investigator] damage tokens on each Cairo location. Until the end of the scenario, damage tokens on locations represent “dreamers”—victims who have been cursed with eternal slumber.Put the set-aside Neith enemy into play in the Streets of Cairo." />
+        <property name="Text" value="You are unable to find the Brotherhood’s hideout, but you are able to find the agent you interrogated in Cairo…Or at least, what remains of him. Inside the halls of an ancient temple, dedicated to a long-forgotten pharaoh, the man’s corpse has been placed upon a stone altar. His body is riddled with fresh stab wounds. You can’t help but wonder if this was—in a way—your doing. Investigating the body and the remainder of the half-buried temple yields a troubling discovery. As you suspected, the Brotherhood of the Beast is behind the curse afflicting Cairo. You find several passages describing the spell in greater detail—though these descriptions do not match what you have seen with your own eyes. The Brotherhood’s tomes describe how to transport their victims to another realm, a place called the Abyss. A nightmarescape from which the dreamers cannot awaken. With each dreamer, their “Chosen” grows in strength…Place 1π damage tokens on each Cairo location. Until the end of the scenario, damage tokens on locations represent “dreamers”—victims who have been cursed with eternal slumber.Put the set-aside Neith enemy into play in the Streets of Cairo." />
       </alternate>
     </card>
     <card id="b8eec1aa-6855-4304-aa84-335c400fcb24" name="The Hour of Judgment" size="HorizCard">
@@ -289,7 +289,7 @@
       <alternate name="Defeating Xzharah" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Night’s Usurper" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Xzharah cannot be stopped by means you alone possess. Perhaps if you learn more about the realm beyond the gateway, you can find a way to end this vile ritual.If at least three of the following requirements are met, you may proceed to (-&gt;R2). Otherwise, flip this act back to its “a” side.—Xzharah must have no remaining health.—Investigators must possess 3[per investigator] clues, as a group.—The strength of the abyss must be 4 or lower.—The investigators must have “freed the nightgaunts,” “warned the denizens of Sarkomand,” and “pled for help.”" />
+        <property name="Text" value="Xzharah cannot be stopped by means you alone possess. Perhaps if you learn more about the realm beyond the gateway, you can find a way to end this vile ritual.If at least three of the following requirements are met, you may proceed to (-&gt;R2). Otherwise, flip this act back to its “a” side.—Xzharah must have no remaining health.—Investigators must possess 3π clues, as a group.—The strength of the abyss must be 4 or lower.—The investigators must have “freed the nightgaunts,” “warned the denizens of Sarkomand,” and “pled for help.”" />
         <property name="Level" value="3" />
       </alternate>
     </card>
@@ -376,7 +376,7 @@
       <property name="Subtitle" value="Chosen of the Beast" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Servitor. Dreamlands. Conspirator. Elite." />
-      <property name="Text" value="Hunter. Retaliate.Xzharah gets +5[per investigator] health and cannot be defeated by damage.η: Parley. Test ά or έ (X), where X is the strength of the abyss. If you succeed, flip this enemy over and resolve the text on its other side. If you fail, Xzharah attacks you." />
+      <property name="Text" value="Hunter. Retaliate.Xzharah gets +5π health and cannot be defeated by damage.η: Parley. Test ά or έ (X), where X is the strength of the abyss. If you succeed, flip this enemy over and resolve the text on its other side. If you fail, Xzharah attacks you." />
       <property name="Health" value="5" />
       <property name="Combat" value="4" />
       <property name="Agility" value="4" />
