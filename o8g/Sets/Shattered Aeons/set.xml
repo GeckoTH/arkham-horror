@@ -334,8 +334,7 @@
     <property name="Doom" value=""/>
     <property name="Traits" value="Ancient. Ruins."/>
     <alternate name="Nexus of N'kai" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Subtitle" value="Unraveling the Threads"/>
+      <property name="Encounter Set" value="Shattered Aeons"/>      
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
 	  <property name="Subtitle" value="Unraveling the Threads"/>
