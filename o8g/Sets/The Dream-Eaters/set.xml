@@ -1205,7 +1205,7 @@
     <card id="ed2a88cf-0b8e-405d-bda2-75b695904fd4" name="Randolph Carter">
       <property name="Card Number" value="79" />
       <property name="Quantity" value="1" />
-   <property name="Subtitle" value="Chained to the Waking World" />
+	  <property name="Subtitle" value="Chained to the Waking World" />
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Dreamer." />

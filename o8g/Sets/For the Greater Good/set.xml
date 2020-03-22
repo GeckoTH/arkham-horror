@@ -613,7 +613,7 @@
       <property name="Traits" value="Scheme." />
       <property name="Text" value="Surge.Revelation – Check which investigator controls each key. Otherwise, the investigator who controls:–the α key takes 1 damage.–the β key takes 1 horror.–the γ key discards 2 random cards from hand.–the δ key loses 3 resources." />
     </card>
-    <card id="5244c3f2-2039-4f6d-a49d-a00eb4c9b370" name="August Lindquist">
+    <card id="5244c3f2-2039-4f6d-a49d-a00eb4c9b370" name="August Lindquist" size="EncounterCard">
       <property name="Card Number" value="227" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="For the Greater Good" />

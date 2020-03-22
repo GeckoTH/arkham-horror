@@ -347,7 +347,7 @@
         <property name="Victory Points" value="0" />
       </alternate>
     </card>
-    <card id="4f06397a-07e8-466e-bea7-75105866723e" name="Dianne Devine">
+    <card id="4f06397a-07e8-466e-bea7-75105866723e" name="Dianne Devine" size="EncounterCard">
       <property name="Card Number" value="25" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Return to The Last King" />
@@ -364,7 +364,7 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="adab407b-a429-4346-bc1f-ca2c3d8d54bf" name="Party Guest">
+    <card id="adab407b-a429-4346-bc1f-ca2c3d8d54bf" name="Party Guest" size="EncounterCard">
       <property name="Card Number" value="26" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Return to The Last King" />

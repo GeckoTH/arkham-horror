@@ -124,7 +124,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="5"/>
     <property name="Text" value="Investigators cannot put [[item]] assets into play (including [[item]] weaknesses)."/>
-    <alternate name="City of the Great Race" size="HorizCard" type="B">
+    <alternate name="The Replicator" size="HorizCard" type="B">
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -144,7 +144,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
     <property name="Text" value="Each investigator's maximum hand size is reduced by 2."/>
-    <alternate name="Lost Memories" size="HorizCard" type="B">
+    <alternate name="Final Recollection" size="HorizCard" type="B">
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -164,7 +164,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
     <property name="Text" value="Each investigator's maximum hand size is reduced by 4."/>
-    <alternate name="Humanity Fading" size="HorizCard" type="B">
+    <alternate name="Alien Existance" size="HorizCard" type="B">
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -184,7 +184,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Each copy of Yithian Observer gains aloof."/>
-    <alternate name="Exploring Pnakotus" size="HorizCard" type="B">
+    <alternate name="Finding Your Way" size="HorizCard" type="B">
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -204,7 +204,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If three of the following are true, you must advance:&#10;&amp;mdash;An investigator &quot;found the process.&quot;&#10;&amp;mdash;An investigator &quot;dissected an organ.&quot;&#10;&amp;mdash;An investigator &quot;interviewed a subject.&quot;&#10;&amp;mdash;An investigator &quot;realized what year it is.&quot;&#10;&amp;mdash;An investigator &quot;activated the device.&quot;&#10;&amp;mdash;An investigator controls The Custodian."/>
-    <alternate name="Restricted Access" size="HorizCard" type="B">
+    <alternate name="The Process" size="HorizCard" type="B">
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -224,7 +224,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Each Yithian Observer gains hunter.&#10;η Spend 1 clue: Draw. Draw 2 cards instead of 1. If your hand exceeds your maximum hand size, draw 1 additional card.&#10;Objective - If each surviving investigator has 10 or more cards in his or her hand, immediately advance. "/>
-    <alternate name="Repossession" size="HorizCard" type="B">
+    <alternate name="Back to the Future" size="HorizCard" type="B">
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -270,11 +270,12 @@
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
+	  <property name="Subtitle" value="Arrival Chamber"/>
+      <property name="Shroud" value="2"/>
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ancient. Pnakotus."/>
-      <property name="Text" value="ι After you begin your turn in this location, if there is a [[yithian]] enemy in this location: Draw 1 card."/>
+      <property name="Text" value="ι After you begin your turn in this location, if there is a [[Yithian]] enemy in this location: Draw 1 card."/>
     </alternate>
   </card>
   <card id="76af5c04-caf0-4ffd-9fe4-f301ead1bd95" name="Interview Room" size="EncounterCard">
@@ -291,7 +292,8 @@
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
+	  <property name="Subtitle" value="Restraining Chamber"/>
+      <property name="Shroud" value="4"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
@@ -313,7 +315,8 @@
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
+	  <property name="Subtitle" value="Ichor-Filled Chamber"/>
+      <property name="Shroud" value="1"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
@@ -336,8 +339,8 @@
       <property name="Subtitle" value="Northern Corridors"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
-      <property name="Clues" value="1π"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ancient. Pnakotus."/>
       <property name="Text" value="θ During your turn, choose and discard a card from your hand: Move to another copy of Halls of Pnakotus. (Limit once per turn.)"/>
@@ -358,8 +361,8 @@
       <property name="Subtitle" value="Eastern Corridors"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
-      <property name="Clues" value="1π"/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="1"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ancient. Pnakotus."/>
       <property name="Text" value="θ During your turn, choose and discard a card from your hand: Move to another copy of Halls of Pnakotus. (Limit once per turn.)"/>
@@ -381,7 +384,7 @@
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
       <property name="Shroud" value=""/>
-      <property name="Clues" value="1π"/>
+      <property name="Clues" value="1"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ancient. Pnakotus."/>
       <property name="Text" value="θ During your turn, choose and discard a card from your hand: Move to another copy of Halls of Pnakotus. (Limit once per turn.)"/>
@@ -401,8 +404,8 @@
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
-      <property name="Clues" value="4π"/>
+      <property name="Shroud" value="2"/>
+      <property name="Clues" value="4"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ancient. Pnakotus."/>
       <property name="Text" value="η Spend 1π clues: Test έ (3) to decipher the information you've found. If you succeed, remember that you have &quot;found the process.&quot;&#10;Forced - At the end of the round, if there are fewer than 4 clues on Great Library: Add clues to Great Library until there are 4 clues on it."/>
@@ -422,7 +425,7 @@
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
+      <property name="Shroud" value="4"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
@@ -444,7 +447,7 @@
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
+      <property name="Shroud" value="2"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ancient. Pnakotus."/>
@@ -465,7 +468,7 @@
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
+      <property name="Shroud" value="3"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
@@ -487,7 +490,7 @@
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
+      <property name="Shroud" value="2"/>
       <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="2"/>
