@@ -14,7 +14,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="c21457fa-89c3-4ab6-9f8c-e185f54350c9" name="“Eat lead!”">
@@ -60,7 +60,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="έή" />
     </card>
     <card id="50336e12-f86f-4473-919d-c204f4282784" name="Stealth">
@@ -83,7 +83,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="Uses (3 charges). If Suggestion has no charges, discard it.η Exhaust Suggestion: Evade. Add your [ά] value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion." />
+      <property name="Text" value="Uses (3 charges). If Suggestion has no charges, discard it.η Exhaust Suggestion: Evade. Add your ά value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="1" />
       <property name="Cost" value="3" />
@@ -91,7 +91,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="75269548-4a48-4fbc-b974-5449610feb34" name="Alchemical Transmutation">
@@ -99,7 +99,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="Uses (4 charges).η Exhaust Alchemical Transmutation, spend 1 charge: Test [ά] (0). For each point you succeed by, gain 1 resource (to a maximum of 4). If a α, β, γ, δ, or ζ symbol is revealed during this test, take 1 damage." />
+      <property name="Text" value="Uses (4 charges).η Exhaust Alchemical Transmutation, spend 1 charge: Test ά (0). For each point you succeed by, gain 1 resource (to a maximum of 4). If a α, β, γ, δ, or ζ symbol is revealed during this test, take 1 damage." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="2" />
       <property name="Cost" value="0" />
@@ -107,7 +107,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="fbf08f85-baf9-4db3-a18e-31750bdffe4f" name="Storm of Spirits">
@@ -115,7 +115,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="Fight. This attack uses [ά] instead of [ή]. You get +2 [ά] for this attack. If you succeed, instead of its standard damage, this attack deals 3 damage to each enemy at your location (any additional damage is dealt to the attacked enemy). If a α, β, γ, δ, or ζ symbol is revealed during this attack, deal 2 damage to each investigator at your location." />
+      <property name="Text" value="Fight. This attack uses ά instead of ή. You get +2 ά for this attack. If you succeed, instead of its standard damage, this attack deals 3 damage to each enemy at your location (any additional damage is dealt to the attacked enemy). If a α, β, γ, δ, or ζ symbol is revealed during this attack, deal 2 damage to each investigator at your location." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="3" />
       <property name="Cost" value="3" />
@@ -138,7 +138,7 @@
       <property name="Intellect" value="2" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έέ" />
     </card>
     <card id="21b12cda-3b0d-4c67-b9c7-8ba7a26033f5" name="Gravedigger’s Shovel">
@@ -146,7 +146,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tool. Weapon. Melee." />
-      <property name="Text" value="η: Fight. You get +2 [ή] for this attack.η Discard Gravedigger’s Shovel: Discover 1 clue at your location (or remove Gravedigger’s Shovel from the game to discover 2 clues, instead)." />
+      <property name="Text" value="η: Fight. You get +2 ή for this attack.η Discard Gravedigger’s Shovel: Discover 1 clue at your location (or remove Gravedigger’s Shovel from the game to discover 2 clues, instead)." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="2" />
       <property name="Cost" value="1" />
@@ -154,7 +154,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="58a1eddf-4958-4e7f-aea0-30c045452688" name="Unspeakable Oath (Bloodthirst)">
@@ -206,7 +206,7 @@
         <property name="Encounter Set" value="Return to Curtain Call" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. Suddenly, his body dissolves into a vortex of silvery mist, which slams into your body and knocks you to the floor before whirling past you and spreading into the air.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 β and 1 γ token to the chaos bag.Place 1 horror on Backstage. Until the end of the scenario, horror on locations represents the creeping mist, and each location with horror gains: “Forced – When you would leave this location: Test [ά] (3). If you fail, you must either cancel the effects of the move or lose all remaining actions and end your turn after completing the effects of the move.”Keep this card next to the act deck as a reminder, and advance to act 3a." />
+        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. Suddenly, his body dissolves into a vortex of silvery mist, which slams into your body and knocks you to the floor before whirling past you and spreading into the air.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 β and 1 γ token to the chaos bag.Place 1 horror on Backstage. Until the end of the scenario, horror on locations represents the creeping mist, and each location with horror gains: “Forced – When you would leave this location: Test ά (3). If you fail, you must either cancel the effects of the move or lose all remaining actions and end your turn after completing the effects of the move.”Keep this card next to the act deck as a reminder, and advance to act 3a." />
       </alternate>
     </card>
     <card id="080cb3f3-a9dc-4938-ae4c-fdb1ee3fb56c" name="The Stranger" size="HorizCard">
@@ -220,7 +220,7 @@
         <property name="Encounter Set" value="Return to Curtain Call" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. The ground shakes, and you hear an uproarious collapse from above as vines, tree roots, and alien overgrowth tear into the ceiling of the room. You turn back to the Stranger, but he is gone.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 β and 1 δ token to the chaos bag.Place 1 horror on the Balcony. Until the end of the scenario, horror on locations represents entangling overgrowth, and each location with horror gains: “Forced – After you leave this location: Test [ά] (4). If you fail, discard an Item or Ally asset you control (if you cannot, take 2 damage instead).”Keep this card next to the act deck as a reminder, and advance to act 3a." />
+        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. The ground shakes, and you hear an uproarious collapse from above as vines, tree roots, and alien overgrowth tear into the ceiling of the room. You turn back to the Stranger, but he is gone.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 β and 1 δ token to the chaos bag.Place 1 horror on the Balcony. Until the end of the scenario, horror on locations represents entangling overgrowth, and each location with horror gains: “Forced – After you leave this location: Test ά (4). If you fail, discard an Item or Ally asset you control (if you cannot, take 2 damage instead).”Keep this card next to the act deck as a reminder, and advance to act 3a." />
       </alternate>
     </card>
     <card id="ee878704-4147-4543-b93c-d2b9b709115d" name="The Stranger" size="HorizCard">
@@ -234,7 +234,7 @@
         <property name="Encounter Set" value="Return to Curtain Call" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. Then he opens his mouth and out emerges the most horrifying sound you have ever heard. It is like the buzzing of a hundred locusts and the grating of rusted metal hide an even more terrible scream of pain and agony within. By the time you recover, the Stranger is gone.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 γ and 1 δ token to the chaos bag.Place 1 horror on the Lobby. Until the end of the scenario, horror on locations represents the awful screeching of the Stranger, and each location with horror gains: “Forced – After you enter this location or end your turn at this location: Test [ά] (2). If you fail, take 1 horror. (Limit once per round.)”Keep this card next to the act deck as a reminder, and advance to act 3a." />
+        <property name="Text" value="As you face off with the Stranger, you get the sense that he is grinning beneath his pale, faceless mask. “Where is everyone?” you ask, but he does not respond. “What is going on?” He remains silent and steps back as you approach, until his back is against the corner of the room. Then he opens his mouth and out emerges the most horrifying sound you have ever heard. It is like the buzzing of a hundred locusts and the grating of rusted metal hide an even more terrible scream of pain and agony within. By the time you recover, the Stranger is gone.Instead of discarding The Man in the Pallid Mask, move him to the Lobby.Add 1 γ and 1 δ token to the chaos bag.Place 1 horror on the Lobby. Until the end of the scenario, horror on locations represents the awful screeching of the Stranger, and each location with horror gains: “Forced – After you enter this location or end your turn at this location: Test ά (2). If you fail, take 1 horror. (Limit once per round.)”Keep this card next to the act deck as a reminder, and advance to act 3a." />
       </alternate>
     </card>
     <card id="340ddb9a-7839-4f14-97db-7283b1a4b9cb" name="Lobby Doorway" size="EncounterCard">
@@ -339,7 +339,7 @@
         <property name="Encounter Set" value="Return to The Last King" />
         <property name="Type" value="Enemy" />
         <property name="Traits" value="Humanoid. Monster. Lunatic." />
-        <property name="Text" value="Hunter.η: Parley. Test [έ] (4). If you succeed, you manage to get through to them for just a moment; automatically evade Crazed Guest. If you fail, your words fall on deaf ears.Victory 0." />
+        <property name="Text" value="Hunter.η: Parley. Test έ (4). If you succeed, you manage to get through to them for just a moment; automatically evade Crazed Guest. If you fail, your words fall on deaf ears.Victory 0." />
         <property name="Health" value="5" />
         <property name="Combat" value="3" />
         <property name="Agility" value="4" />
@@ -347,7 +347,7 @@
         <property name="Victory Points" value="0" />
       </alternate>
     </card>
-    <card id="4f06397a-07e8-466e-bea7-75105866723e" name="Dianne Devine">
+    <card id="4f06397a-07e8-466e-bea7-75105866723e" name="Dianne Devine" size="EncounterCard">
       <property name="Card Number" value="25" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Return to The Last King" />
@@ -364,7 +364,7 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="adab407b-a429-4346-bc1f-ca2c3d8d54bf" name="Party Guest">
+    <card id="adab407b-a429-4346-bc1f-ca2c3d8d54bf" name="Party Guest" size="EncounterCard">
       <property name="Card Number" value="26" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Return to The Last King" />
@@ -536,7 +536,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Return to The Unspeakable Oath" />
       <property name="Type" value="Treachery" />
-      <property name="Text" value="Forced – At the end of the round: Daniel Chesterfield’s controller takes 2 horror.η If you are at Infirmary: Test [ά] or [έ] (6). If you succeed, detach Radical Treatment and add it to the victory display. If you control Clasp of Black Onyx, reduce the difficulty of this test by 3." />
+      <property name="Text" value="Forced – At the end of the round: Daniel Chesterfield’s controller takes 2 horror.η If you are at Infirmary: Test ά or έ (6). If you succeed, detach Radical Treatment and add it to the victory display. If you control Clasp of Black Onyx, reduce the difficulty of this test by 3." />
     </card>
     <card id="e699fa44-127e-4841-bd59-c5e13eb47547" name="Clouded Memory" size="EncounterCard">
       <property name="Card Number" value="39" />
@@ -570,7 +570,7 @@
         <property name="Encounter Set" value="Return to A Phantom of Truth" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Paris. Rail." />
-        <property name="Text" value="Forced – After you discover any number of clues from Montparnasse: Discard cards from your hand with that many [ά] icons among them. If you cannot, take 1 horror." />
+        <property name="Text" value="Forced – After you discover any number of clues from Montparnasse: Discard cards from your hand with that many ά icons among them. If you cannot, take 1 horror." />
         <property name="Shroud" value="1" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -618,7 +618,7 @@
         <property name="Encounter Set" value="Return to A Phantom of Truth" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Paris." />
-        <property name="Text" value="While you are at Canal Saint-Martin, you must use your [ή] in place of your [ί], and vice versa." />
+        <property name="Text" value="While you are at Canal Saint-Martin, you must use your ή in place of your ί, and vice versa." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
@@ -766,7 +766,7 @@
       <alternate name="Cloister" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Return to Black Stars Rise" />
         <property name="Type" value="Location" />
-        <property name="Text" value="η If there are no clues on Cloister: Parley. Test [ά] or [έ] (4). If you succeed, remember that you have “found the tower key.”" />
+        <property name="Text" value="η If there are no clues on Cloister: Parley. Test ά or έ (4). If you succeed, remember that you have “found the tower key.”" />
         <property name="Shroud" value="1" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -779,7 +779,7 @@
       <alternate name="Knight’s Hall" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Return to Black Stars Rise" />
         <property name="Type" value="Location" />
-        <property name="Text" value="η If there are no clues on Knight’s Hall: Test [ή] or [ί] (3). If you succeed, remember that you have “found a guide.”" />
+        <property name="Text" value="η If there are no clues on Knight’s Hall: Test ή or ί (3). If you succeed, remember that you have “found a guide.”" />
         <property name="Shroud" value="3" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -836,7 +836,7 @@
       <property name="Encounter Set" value="Return to Dim Carcosa" />
       <property name="Type" value="Location" />
       <property name="Traits" value="???." />
-      <property name="Text" value="While you are in the Recesses of Your Own Mind, set the base value of your [ά] to 0.Each investigator at Recesses of Your Own Mind is considered to be at a different copy of Recesses of Your Own Mind for the purposes of player card effects and committing cards to each other’s skill tests." />
+      <property name="Text" value="While you are in the Recesses of Your Own Mind, set the base value of your ά to 0.Each investigator at Recesses of Your Own Mind is considered to be at a different copy of Recesses of Your Own Mind for the purposes of player card effects and committing cards to each other’s skill tests." />
       <property name="Shroud" value="3" />
       <property name="Clues" value="2π" />
       <alternate name="The Writer" size="EncounterCard" type="B">
@@ -899,7 +899,7 @@
       <property name="Encounter Set" value="Decaying Reality" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Revelation – Test [ά] (X). X is the shroud value of your location. If you fail, lose 1 action and take 1 horror." />
+      <property name="Text" value="Revelation – Test ά (X). X is the shroud value of your location. If you fail, lose 1 action and take 1 horror." />
     </card>
     <card id="587caf33-f9e6-4a11-a93a-d484c7f989f6" name="Fragile Thoughts" size="EncounterCard">
       <property name="Card Number" value="67" />
@@ -984,7 +984,7 @@
       <property name="Encounter Set" value="Neurotic Fear" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Peril.Revelation – Test [ά] (3). For each point you fail by, you must choose a different option: – Lose 2 resources.– Take 1 horror.– Get –2 to the next skill test you perform this round." />
+      <property name="Text" value="Peril.Revelation – Test ά (3). For each point you fail by, you must choose a different option: – Lose 2 resources.– Take 1 horror.– Get –2 to the next skill test you perform this round." />
     </card>
     <card id="86f38641-df06-40c8-8853-638fea005595" name="Melancholy" size="EncounterCard">
       <property name="Card Number" value="77" />
@@ -992,7 +992,7 @@
       <property name="Encounter Set" value="Neurotic Fear" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Revelation – Put Melancholy into play in your threat area.Increase the resource cost of each card in your hand by 1.Forced – At the end of your turn: Test [ά] (3). If you succeed, discard Melancholy." />
+      <property name="Text" value="Revelation – Put Melancholy into play in your threat area.Increase the resource cost of each card in your hand by 1.Forced – At the end of your turn: Test ά (3). If you succeed, discard Melancholy." />
     </card>
     <card id="cf3e3ece-6aa7-43d1-bb9b-372ba6c1901e" name="Painful Reflection" size="EncounterCard">
       <property name="Card Number" value="78" />

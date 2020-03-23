@@ -64,7 +64,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="c32f1588-5b49-44b3-a7cc-ca0c50ba758a" name="Garrote Wire">
@@ -72,7 +72,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon." />
-      <property name="Text" value="θ During your turn, exhaust Garrote Wire: Fight. You get +2 [ή] for this attack. Use only on an enemy with exactly 1 remaining health." />
+      <property name="Text" value="θ During your turn, exhaust Garrote Wire: Fight. You get +2 ή for this attack. Use only on an enemy with exactly 1 remaining health." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="2" />
       <property name="Cost" value="2" />
@@ -89,7 +89,7 @@
       <property name="Subtitle" value="Syndicate Assassin" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Criminal. Syndicate." />
-      <property name="Text" value="You get +1 [ή] and +1 [ί].&#10;θ Exhaust Delilah O'Rourke and spend X resources: Choose an enemy at your location. Deal 1 damage to the chosen enemy (2 damage instead if that enemy is exhausted). X is the chosen enemy’s evade value." />
+      <property name="Text" value="You get +1 ή and +1 ί.&#10;θ Exhaust Delilah O'Rourke and spend X resources: Choose an enemy at your location. Deal 1 damage to the chosen enemy (2 damage instead if that enemy is exhausted). X is the chosen enemy’s evade value." />
       <property name="Health" value="3" />
       <property name="Sanity" value="2" />
       <property name="Class" value="Rogue" />
@@ -108,7 +108,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Summon." />
-      <property name="Text" value="As an additional cost to play Summoned Hound, you must search your bonded cards for 1 copy of Unbound Beast and shuffle it into your deck.&#10;θ During your turn, exhaust Summoned Hound: Fight/Investigate. Either attack with a base [ή] skill of 5, or investigate with a base [έ] skill of 5." />
+      <property name="Text" value="As an additional cost to play Summoned Hound, you must search your bonded cards for 1 copy of Unbound Beast and shuffle it into your deck.&#10;θ During your turn, exhaust Summoned Hound: Fight/Investigate. Either attack with a base ή skill of 5, or investigate with a base έ skill of 5." />
       <property name="Health" value="3" />
       <property name="Sanity" value="–" />
       <property name="Class" value="Mystic" />
@@ -403,7 +403,7 @@
         <property name="Subtitle" value="Of Life and Death" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Kadath." />
-        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Fight. Reveal a copy of Nyarlathotep from your hand and fight it as if it were at your location, using [ά] instead of [ή]. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Fight. Reveal a copy of Nyarlathotep from your hand and fight it as if it were at your location, using ά instead of ή. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -419,7 +419,7 @@
         <property name="Subtitle" value="Of Infinite Truth" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Kadath." />
-        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Evade. Reveal a copy of Nyarlathotep from your hand and attempt to evade it as if it were at your location, using [έ] instead of [ί]. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Evade. Reveal a copy of Nyarlathotep from your hand and attempt to evade it as if it were at your location, using έ instead of ί. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -467,7 +467,7 @@
         <property name="Subtitle" value="Of Primeval Light" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Kadath." />
-        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Reveal a copy of Nyarlathotep from your hand and test [ά] (X), where X is Nyarlathotep’s printed health. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
+        <property name="Text" value="You cannot use this location’s η ability unless another card explicitly allows you to do so.&#10;η: Reveal a copy of Nyarlathotep from your hand and test ά (X), where X is Nyarlathotep’s printed health. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -570,7 +570,7 @@
       <property name="Encounter Set" value="Where the Gods Dwell" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster." />
-      <property name="Text" value="Spawn – Cold Wastes or The Great Hall (whichever is farther).&#10;Prey – Lowest [ί].&#10;Hunter.&#10;Victory 1." />
+      <property name="Text" value="Spawn – Cold Wastes or The Great Hall (whichever is farther).&#10;Prey – Lowest ί.&#10;Hunter.&#10;Victory 1." />
       <property name="Health" value="6" />
       <property name="Combat" value="6" />
       <property name="Agility" value="2" />
@@ -636,7 +636,7 @@
       <property name="Encounter Set" value="Where the Gods Dwell" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test [έ] (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test έ (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
     </card>
     <card id="d596b36b-7f07-4849-90e2-7f44b4863733" name="Restless Journey (Hardship)" size="EncounterCard">
       <property name="Card Number" value="320" />
@@ -644,7 +644,7 @@
       <property name="Encounter Set" value="Where the Gods Dwell" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test [ή] (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test ή (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
     </card>
     <card id="f9368c71-e19f-4627-ae1f-0340b2aa0b44" name="Restless Journey (Lies)" size="EncounterCard">
       <property name="Card Number" value="321" />
@@ -652,7 +652,7 @@
       <property name="Encounter Set" value="Where the Gods Dwell" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test [ί] (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
+      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.&#10;You cannot commit more than 1 card to skill tests each round.&#10;θ: Discard Restless Journey and test ί (3). If you fail, place 1 doom on the current agenda. This effect can cause the current agenda to advance." />
     </card>
     <card id="5eeb9e23-03c9-461d-8fd6-6911091f05bd" name="Abandoned by the Gods" size="EncounterCard">
       <property name="Card Number" value="322" />
@@ -660,7 +660,7 @@
       <property name="Encounter Set" value="Where the Gods Dwell" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Peril.&#10;Revelation – Test [ά] (3). For each point you fail by, you must choose a different number between 0 and 4. Each player must discard each event and asset from his or her hand with a printed resource cost equal to any of the chosen numbers." />
+      <property name="Text" value="Peril.&#10;Revelation – Test ά (3). For each point you fail by, you must choose a different number between 0 and 4. Each player must discard each event and asset from his or her hand with a printed resource cost equal to any of the chosen numbers." />
     </card>
   </cards>
 </set>

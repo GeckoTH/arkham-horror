@@ -44,7 +44,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="0481911c-f906-40ee-acef-d4ad39c2d767" name="Essence of the Dream">
@@ -66,7 +66,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Tactic." />
-      <property name="Text" value="Investigate. Choose an enemy at your location. You get +1 [έ] for this investigation for each damage on the chosen enemy (to a maximum of +5 [έ]). If you succeed, discover 1 additional clue at this location. This action does not provoke attacks of opportunity from the chosen enemy." />
+      <property name="Text" value="Investigate. Choose an enemy at your location. You get +1 έ for this investigation for each damage on the chosen enemy (to a maximum of +5 έ). If you succeed, discover 1 additional clue at this location. This action does not provoke attacks of opportunity from the chosen enemy." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -103,7 +103,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="876cc5d6-9a27-4ebe-a693-74d02123b9de" name="Read the Signs">
@@ -111,7 +111,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="Investigate. Add your [ά] value to your skill value for this investigation. You may ignore any effect or keyword on your location which would trigger during this investigation. If you succeed, discover 1 additional clue at this location." />
+      <property name="Text" value="Investigate. Add your ά value to your skill value for this investigation. You may ignore any effect or keyword on your location which would trigger during this investigation. If you succeed, discover 1 additional clue at this location." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -127,7 +127,7 @@
       <property name="Subtitle" value="Wrong Place, Wrong Time" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Wayfarer. Cursed." />
-      <property name="Text" value="You get +1 [ή].Jessica Hyde enters play with 2 damage on her.ι After your turn ends: Heal 1 damage from Jessica Hyde." />
+      <property name="Text" value="You get +1 ή.Jessica Hyde enters play with 2 damage on her.ι After your turn ends: Heal 1 damage from Jessica Hyde." />
       <property name="Health" value="3" />
       <property name="Sanity" value="1" />
       <property name="Class" value="Survivor" />
@@ -279,7 +279,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Skai. River." />
-      <property name="Text" value="Forced – When you attempt to leave Skai River, if it has not yet been flipped over: Test [ά] (2) or [ί] (2). If you fail, flip this card over and resolve the text on its other side." />
+      <property name="Text" value="Forced – When you attempt to leave Skai River, if it has not yet been flipped over: Test ά (2) or ί (2). If you fail, flip this card over and resolve the text on its other side." />
       <property name="Shroud" value="2" />
       <property name="Clues" value="0" />
       <alternate name="Dreamlike Horrors" size="EncounterCard" type="B">
@@ -372,7 +372,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Forbidden. Wastes." />
-      <property name="Text" value="η: Test [ή] (1). If you succeed, test [ί] (2). If you succeed, test [ά] (3). If you succeed, flip this card over. If you fail any of these tests, take 1 damage." />
+      <property name="Text" value="η: Test ή (1). If you succeed, test ί (2). If you succeed, test ά (3). If you succeed, flip this card over. If you fail any of these tests, take 1 damage." />
       <property name="Shroud" value="6" />
       <property name="Clues" value="0" />
       <alternate name="A Shrine to the Gods" size="EncounterCard" type="B">
@@ -419,7 +419,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Oriab. Mountain." />
-      <property name="Text" value="Veiled.Forced – After you enter Mt. Ngranek or discover 1 or more clues at Mt. Ngranek, if the investigators have not “obtained supplies from Baharna”: Test [ή] (3) or [ί] (3). If you fail, lose your remaining actions and immediately end your turn." />
+      <property name="Text" value="Veiled.Forced – After you enter Mt. Ngranek or discover 1 or more clues at Mt. Ngranek, if the investigators have not “obtained supplies from Baharna”: Test ή (3) or ί (3). If you fail, lose your remaining actions and immediately end your turn." />
       <property name="Shroud" value="3" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="1" />
@@ -653,7 +653,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – Attach to your location.Forced –  After you move out of attached location: Take 1 horror, place 1 doom on the current agenda, and discard Song of the Magah Bird. This effect can cause the current agenda to advance.η: Test [ά] (4) to resist the call or [ή] (4) to drive away the birds. If you succeed, discard Song of the Magah Bird." />
+      <property name="Text" value="Revelation – Attach to your location.Forced –  After you move out of attached location: Take 1 horror, place 1 doom on the current agenda, and discard Song of the Magah Bird. This effect can cause the current agenda to advance.η: Test ά (4) to resist the call or ή (4) to drive away the birds. If you succeed, discard Song of the Magah Bird." />
     </card>
     <card id="9862cee6-ea22-48b9-827c-ea5e7f6ce5a2" name="Wondrous Lands" size="EncounterCard">
       <property name="Card Number" value="154" />

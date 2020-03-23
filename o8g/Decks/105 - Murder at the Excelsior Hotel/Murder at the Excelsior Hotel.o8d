@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="5cbf5f55-0237-48c0-a50f-7b71b4fe2a1b">The Murder</card>
+    <card qty="1" id="a68d8449-7b6a-442e-bea5-dc4ecc22b6be">Special Investigation</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="e213e107-f819-4a5d-a15a-bc11cf663978">What Happened...?</card>
+    <card qty="1" id="38e71265-e32f-47e4-bfc6-43420b611c96">Following Leads</card>
+    <card qty="1" id="564e6f39-449c-4a8b-bbd1-cc75750b6547">Suite Balcony</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="c0157e6d-8b4a-43bb-bfa8-06b89faa4fde">Mr. Trombly</card>
+    <card qty="3" id="074a39fa-c149-45df-85ff-195171ab4816">Conspicuous Staff</card>
+    <card qty="4" id="db68839b-2620-414a-8738-4665c189716a">Hotel Guest</card>
+    <card qty="2" id="06c218bb-4e65-40e4-a8fe-ad483357d4aa">Noxious Fumes</card>
+    <card qty="3" id="d72c7201-e897-4612-b0b8-c69ff9256f2d">Driven to Madness</card>
+    <card qty="4" id="e50fc91a-73f7-497f-82a1-b672bca583eb">Blood on Your Hands</card>
+    <card qty="2" id="45454298-9c5c-4731-ba5a-510d7bfbdb09">Incriminating Evidence</card>
+    <card qty="3" id="7889999c-f9f4-46f1-a5ed-f0ec5a7311d7">Violent Outburst</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True">
+    <card qty="1" id="14db3c74-3079-43e4-95e7-9f8e81ceefb7">Alien Device</card>
+    <card qty="1" id="43cfe0fc-9e06-4021-be9e-ce26c4494290">Manager's Key</card>
+    <card qty="1" id="e2adda07-d39d-4c86-a36b-c27a6059bbac">Tome of Rituals</card>
+    <card qty="1" id="752b9145-c184-4104-9992-a9189e904e15">Sinister Solution</card>
+    <card qty="1" id="e65e6c0d-18f5-4957-a5eb-300f3dbc779f">Time-Worn Locket</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="341b77e6-f7ab-45a5-b59d-86a3010d22f1">Sergeant Monroe</card>
+    <card qty="3" id="fc15c7b2-8c3b-4506-93d1-82bcd0cfd6f3">Arkham Officer</card>
+    <card qty="1" id="2482d6c2-1a39-4e6d-b96e-365fa37f419a">What Have You Done?</card>
+    <card qty="1" id="1935a7f1-2d3f-46ce-a9b5-6582f28918d2">Hotel Roof</card>
+    <card qty="1" id="4ea97dff-141d-4b83-a561-5343095bba42">Room 212</card>
+    <card qty="1" id="37a4cfd7-c4e6-49bc-8cbc-8f0b1c7af86e">Room 245</card>
+    <card qty="1" id="5652eb18-df80-43fa-b244-d7fa3ed48e59">Office</card>
+    <card qty="1" id="fa2b5ed5-f4e4-4fb1-a570-571e7211f36f">Basement</card>
+    <card qty="1" id="1c263962-cbe5-4fd1-be90-0caebeb56389">Otherworldly Meddler</card>
+    <card qty="3" id="b13d1f98-481c-4ed5-9545-1714f2c722b2">Encephalon Signal</card>
+    <card qty="1" id="c346b385-c0a7-43fe-a509-943dec9aec3e">Hotel Manager</card>
+    <card qty="3" id="86000a76-9623-4401-ad6f-6a767e002000">Hotel Security</card>
+    <card qty="1" id="e51636c4-7aa8-4225-9c3a-331c8f11d9e3">Dimensional Shambler</card>
+    <card qty="3" id="c3f7b52e-794e-46d3-9dee-793fdc691f72">Cultist of the Enclave</card>
+    <card qty="1" id="4aeee469-db36-4097-a157-05efd0a687a0">Harvested Brain</card>
+    <card qty="3" id="b2d94680-a7db-49cb-b195-6c0f5adec9db">Morbid Awareness</card>
+    <card qty="1" id="03e713db-6f72-4469-b936-020732e9be99">Vengeful Specter</card>
+    <card qty="3" id="3c75ecce-c8c0-48b1-a39a-e4c9d932f045">Chilling Presence</card>
+    <card qty="1" id="124d61c8-2dae-428c-9ab1-8e933997720c">The True Culprit (v. I)</card>
+    <card qty="1" id="3f2fa34a-21c3-41df-9b40-e6a3232fedf4">The True Culprit (v. II)</card>
+    <card qty="1" id="e21df0a7-3f29-477b-9fc1-d3ba92768914">The True Culprit (v. III)</card>
+    <card qty="1" id="eba4fbcb-ef41-46f7-8491-4fd7e80dcd49">The True Culprit (v. IV)</card>
+    <card qty="1" id="43a9663b-4086-4e33-bc07-9854ec7e59f4">The True Culprit (v. V)</card>
+    <card qty="1" id="c66a93ed-356c-4b0c-9c8b-255bc495241c">The True Culprit (v. VI)</card>
+    <card qty="1" id="fcc5e3c0-4d8b-40e7-8459-225b6940d33a">The True Culprit (v. VII)</card>
+    <card qty="1" id="ffb67694-0c43-4ffb-a58d-b96ea37eb52d">The True Culprit (v. VIII)</card>
+    <card qty="1" id="a7ad9bd7-0fdb-4970-9464-32a32c4b1d21">The True Culprit (v. IX)</card>
+    <card qty="1" id="f5aaba04-6b13-433c-9db7-330373164232">The True Culprit (v. X)</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="3059f16c-c231-422e-a7a0-709e5b09f46f">Murder at the Excelsior Hotel</card>
+    <card qty="1" id="3190f093-3fb5-4c46-9cd9-27866d686f47">Bloodstained Dagger</card>
+    <card qty="1" id="c53752c2-1eec-42ad-8a7f-5e2f26f27b0c">Room 225</card>
+    <card qty="1" id="564e6f39-449c-4a8b-bbd1-cc75750b6547">Suite Balcony</card>
+    <card qty="1" id="520c5924-9157-4340-8e37-217e733483f7">Second Floor Hall</card>
+    <card qty="1" id="c0209c91-cac2-4849-b4c0-3dd41d08df1e">Restaurant</card>
+    <card qty="1" id="b8d96b11-9468-45db-a605-6ac77dc24ee2">Foyer</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

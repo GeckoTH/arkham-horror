@@ -60,7 +60,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="8a472fd7-bd16-456b-b390-37d52203e49a" name="Banish">
@@ -91,7 +91,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ή" />
     </card>
     <card id="ceb0189a-107b-41ce-8892-2c6cf36bc161" name=".45 Thompson">
@@ -107,7 +107,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="2 Hand" />
+      <property name="Slot" value="Hand x2" />
       <property name="Skill Icons" value="ή" />
     </card>
     <card id="a9990ab5-25b1-40aa-9436-e24bd889bfd7" name="Scroll of Secrets">
@@ -123,7 +123,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έ" />
     </card>
     <card id="a6a7aee0-dff7-4ed1-8bc0-1283c7862276" name="Tennessee Sour Mash">
@@ -357,7 +357,7 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Witch House." />
-      <property name="Text" value="The door to Walter Gilman’s room is locked. As an additional cost to enter Walter Gilman’s room, investigators in the Moldy Halls must spend 1[per investigator] clues, as a group." />
+      <property name="Text" value="The door to Walter Gilman’s room is locked. As an additional cost to enter Walter Gilman’s room, investigators in the Moldy Halls must spend 1π clues, as a group." />
       <alternate name="Walter Gilman’s Room" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Type" value="Location" />
@@ -503,7 +503,7 @@
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Extradimensional. Witch House." />
-        <property name="Text" value="η Investigators at this location spend 1[per investigator] clues, as a group: Remove 1 doom from Nahab. This action does not provoke attacks of opportunity from Nahab.Forced – At the end of the round: Add clues to this location until it has 3[per investigator] clues on it.Haunted – You must either place 1 doom on Nahab, or Nahab attacks you." />
+        <property name="Text" value="η Investigators at this location spend 1π clues, as a group: Remove 1 doom from Nahab. This action does not provoke attacks of opportunity from Nahab.Forced – At the end of the round: Add clues to this location until it has 3π clues on it.Haunted – You must either place 1 doom on Nahab, or Nahab attacks you." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="3π" />
       </alternate>
@@ -603,7 +603,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Unique" value="*" />
       <property name="Skill Icons" value="άέΰ" />
     </card>

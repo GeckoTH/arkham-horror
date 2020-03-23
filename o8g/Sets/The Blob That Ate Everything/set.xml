@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Blob That Ate Everything" id="aaac4091-c8f9-4bb0-862a-a58c13774cfd" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="c8f2a44d-ac1b-423b-96a5-3a8468ca426d" name="The Blob That Ate Everything" size="EncounterCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 for every 5 cards Subject 8L-08 has devoured.&#10;β: –2. If this token is revealed during an attack against an enemy, that enemy gains retaliate for this attack.&#10;γ: –3. After this skill test ends, Subject 8L-08 devours each card that was committed to this test.&#10;δ: –5. Choose up to 5 cards from your hand. Subject 8L-08 devours each of those cards. You get +1 skill value for this test for each card devoured this way." />
+      <alternate name="The Blob That Ate Everything" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –1 for every 3 cards Subject 8L-08 has devoured.&#10;β: –3. If this token is revealed during an attack against an enemy, it gains retaliate for this test.&#10;γ: –4. After this skill test ends, Subject 8L-08 devours each card that was committed to this test.&#10;δ: –7. Choose up to 7 cards from your hand. Subject 8L-08 devours each of those cards. You get +1 skill value for this test for each card devoured this way." />
+      </alternate>
+    </card>
+    <card id="21babb73-23ac-4e9a-966f-d36ee8ee714c" name="The Anomaly Spreads" size="HorizCard">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each location is connected to each location to it (orthogonally)." />
+      <property name="Doom" value="6" />
+      <alternate name="Cracks in the Earth" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Choose 2 Oozified locations, other than The Crater, without a copy of Vulnerable Heart. Subject 8L-08 devours both of those locations (Ooze enemies are instead discarded).&#10;Shuffle 1 set-aside copy of Cubic Ooze and 1 set-aside copy of Grasping Ooze into the encounter deck, along with the encounter discard pile." />
+      </alternate>
+    </card>
+    <card id="72ffa4cc-b59d-4b71-9ab9-8fa335b7a30e" name="The Anomaly Swells" size="HorizCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each location is connected to each location to it (orthogonally)." />
+      <property name="Doom" value="6" />
+      <alternate name="Unfettered Growth" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Choose 2 Oozified locations, other than The Crater, without a copy of Vulnerable Heart. Subject 8L-08 devours both of those locations (Ooze enemies are instead discarded).&#10;Shuffle both set-aside copy of Oozewraith into the encounter deck, along with the encounter discard pile." />
+      </alternate>
+    </card>
+    <card id="cab7cd30-c516-4251-b522-3aa2c0ffffd5" name="The Anomaly Consumes" size="HorizCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each location is connected to each location to it (orthogonally)." />
+      <property name="Doom" value="8" />
+      <alternate name="The Blob Ate Everything" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Subject 8L-08 devours all cards in play and out of play, all cards in your collection, all cards that ever were, and all cards that ever will be. (-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="fa2ac37c-f845-4790-acbc-b12d61e6a649" name="Expose the Anomaly" size="HorizCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Epic Multiplayer" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="*This act has a global clue threshold (see page 6 of the rules for details). Only clues on copies of this act among all groups contribute to the global clue threshold.&#10;θ Place up to 3 of your clues on this act. (Limit once per round.)&#10;Objective – At the start of the round, if the global clue threshold has been reached, you must advance. The event organizer will announce when this threshold has been reached. (Beware—advancing will expose the anomaly's weak spot. Be ready for a fight.)" />
+      <property name="Clues" value="*" />
+      <alternate name="It Is Exposed!" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Epic Multiplayer" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If this is the first time this act has advanced, read the following:&#10;—&#10;Regardless of how many times this act has advanced, read the following:&#10;Choose any Oozified location. Spawn the set-aside Vulnerable Heart enemy at the chosen location." />
+      </alternate>
+    </card>
+    <card id="f575a61f-83dc-447e-90b4-5a608329b4d6" name="Expose the Anomaly" size="HorizCard">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Single Group" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – At the start of the round, investigators may spend the requisite number of clues, as a group, to advance. (Beware—advancing will expose the anomaly's weak spot. Be ready for a fight.)" />
+      <property name="Clues" value="2π" />
+      <alternate name="It Is Exposed!" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Single Group" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If this is the first time this act has advanced, read the following:&#10;—&#10;Regardless of how many times this act has advanced, read the following:&#10;Choose any Oozified location. Spawn the set-aside Vulnerable Heart enemy at the chosen location." />
+      </alternate>
+    </card>
+    <card id="87a2c12b-7f2f-4c24-8850-c508d1ec0861" name="Extra terrestrial Physiology" size="HorizCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – After any amount of damage is placed on Vulnerable Heart: Place twice that much damage on Subject 8L-08 as well.&#10;θ While an investigator at your location is attacking Vulnerable Heart, spend 1 clue: That investigator gets +2 ή for this attack.&#10;Objective – At the end of the round, you must advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Rain of Ooze" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Remove all damage from Vulnerable Heart and set it aside, out of play. The amount of damage that is removed from Vulnerable Heart in this way is X.&#10;—&#10;If X is at least 1, read the following:&#10;Shuffle the encounter discard pile into the encounter deck and discard cards from the top until Manifold enemies with a total of at least X health have been discarded. One at a time, in a random order, spawn each of those enemies at different Oozified locations." />
+      </alternate>
+    </card>
+    <card id="fee539c0-c753-482f-8c5f-a07534da6f45" name="Blackwater's Bane" size="HorizCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Epic Multiplayer" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each Ooze enemy gains retaliate and loses the Blob X keyword.&#10;Objective – At the end of the round, you must advance. (The scenario will not end when this act advances.)" />
+      <property name="Clues" value="–" />
+      <alternate name="A Moment of Respite" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Epic Multiplayer" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If this is the first time this act has advanced, read the following:&#10;Shuffle each of the set-aside Mi-Go Drone enemies into the encounter deck, along with the encounter discard pile.&#10;—&#10;Regardless of how many times this act has advanced, read the following:&#10;Place 1π clues on each revealed Oozified location, to a maximum of its clue value.&#10;Draw the set-aside story card chosen as determined by the event organizer, resolving the side with the Part 1 trait.&#10;Reset the act deck to act 1a." />
+      </alternate>
+    </card>
+    <card id="11ba3263-ffc5-4b8e-a8a6-acc55d0b2091" name="Blackwater's Bane" size="HorizCard">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Single Group" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each Ooze enemy gains retaliate and loses the Blob X keyword.&#10;Objective – At the end of the round, you must advance. (The scenario will not end when this act advances.)" />
+      <property name="Clues" value="–" />
+      <alternate name="A Moment of Respite" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Single Group" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If this is the first time this act has advanced, read the following:&#10;Shuffle each of the set-aside Mi-Go Drone enemies into the encounter deck, along with the encounter discard pile.&#10;—&#10;Regardless of how many times this act has advanced, read the following:&#10;Place 1π clues on each revealed Oozified location, to a maximum of its clue value.&#10;The lead investigator chooses a random set-aside story card and draw it, resolving the side with the Part 1 trait.&#10;Reset the act deck to act 1a." />
+      </alternate>
+    </card>
+    <card id="537f55af-37e9-4768-b189-7160c01eefa5" name="The Crater" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="The Crater" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="η Spend 1 countermeasure: Deal 3 damage to Subject 8L-08 or a Manifold enemy at any location.&#10;Forced – At the end of the round: Each investigator at The Crater takes 1 damage." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="30fa1a40-fe62-477e-a0ef-9827f8bbfeb6" name="Research Site" size="EncounterCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <alternate name="Research Site" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η Spend 2 clues: Gain 1 countermeasure.&#10;η Spend 1 countermeasure: Place 2 clues on Research Site (from the token pool)." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="493950da-7bec-417c-9d09-fa7818f723ca" name="Temporary HQ" size="EncounterCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <alternate name="Temporary HQ" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η Spend 1 countermeasure: Choose one –&#10;— Heal 3 damage.&#10;— Heal 3 horror.&#10;— Gain 5 resources.&#10;— Draw 3 cards." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="17f09572-f07d-483c-8084-4699edf80b14" name="Fungus Mound" size="EncounterCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <alternate name="Fungus Mound" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η Spend 1 countermeasure: Choose a Mi-Go enemy at any location and test έ (0). For each point you succeed by, deal 1 damage to the chosen enemy (to a maximum of 5)." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="24e78cc8-42b0-4b49-9bbe-f198d3afda58" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Sewer" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="η: Test έ (1). If you suceed, move to a location up to X connections away from the Sewer, where X is the amount you succeed by." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="dd617c4a-a830-4334-8c36-42bfd4b54eb5" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Bridge" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="θ: Choose an exhausted Manifold enemy at Bridge and test έ (X), where X is that enemy's evade value. If you succeed, defeat the chosen enemy. (Max one success per game.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="12bb4d1b-e166-4e5e-ba60-98b4a71f6f7a" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Water Tower" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="η If there are no clues on Water Tower: Test έ (3) to find the structure's weakness. If you succeed, deal 3 damage to each Ooze enemy at Water Tower and at each conneting location. (Max one success per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="cc1b1dc2-2c30-4b8c-bbce-85cc127a305b" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Church" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="η If there are no clues on Church: Choose an Ooze enemy at Church, or a connecting location. Move the chosen enemy one location away from Church and automatically evade it. (Group limit once per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="f2727fea-7e17-4fc0-9f69-5b70d2088c40" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Oozy Lakebed" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="Forced – After a Manifold enemy spawns at Oozy Lakebed: Place 1 clue on Oozy Lakebed. That enemy cannot take damage this round." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="9035970a-7116-4e40-bc14-3f913f7b4050" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Slimy Streets" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="Forced – After you discover any number of clues from Slimy Streets: Reveal that many random tokens from the chaos bag. For each α or ζ token revealed by this effect, take 1 damage or horror." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="7f5f76f9-a260-4c9a-a13c-ff4b01974b30" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Desiccated Farmland" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="While you are Desiccated Farmland, you cannot gain resources.&#10;Forced – After you end your turn at Desiccated Farmland: Lose 1 resource." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="4060e485-b95c-466a-a300-b0f336159fbd" name="Rescue the Chemist">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Part 1." />
+      <property name="Text" value="Revelation – Spawn the set-aside Mi-Go Abductor at the Fungus Mound. Put the set-aside University Chemist asset into play at the location farthest away from all investigators. Put this card into play, next to the act deck.&#10;Forced – After an investigator who controls University Chemist enters the Temporary HQ: Remember that &quot;the chemist was saved.&quot; Flip this card over.&#10;Forced – If University Chemist is defeated or devoured: Remember that &quot;the formula was not completed.&quot; Flip this card over." />
+      <alternate name="Rescue the Chemist" type="B">
+        <property name="Encounter Set" value="Mi-Go Incursion" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Part 2." />
+        <property name="Text" value="Read only if &quot;the formula was not completed:&quot;&#10;Remove Mi-Go Abductor, University Chemist, and this card from the game. Each investigator takes 1 horror. Lose 1 countermeasure.&#10;—&#10;Read only if &quot;the chemist was saved:&quot;&#10;Put the set-aside Universal Solvent story asset into play under any investigator's control. Remove University Chemist from the game. Add Mi-Go Abductor and this card to the victory display. Deal 3 damage to any Ooze enemy in play.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="30a82de8-2e20-476a-a0ea-f2bbb9886123" name="Recover the Sample">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Part 1." />
+      <property name="Text" value="Revelation – Spawn the set-aside Mi-Go Harvester at the Fungus Mound. Put the set-aside Meteorite Sample asset into play at The Crater. Put this card into play, next to the act deck.&#10;Forced – After an investigator who controls a Meteorite Sample Research Site: Remember that &quot;the sample was recovered.&quot; Flip this card over.&#10;Forced – If Meteorite Sample is attached to the Mi-Go Harvester and it is at the Fungus Mound: Remember that &quot;the sample was lost.&quot; Flip this card over." />
+      <alternate name="Recover the Sample" type="B">
+        <property name="Encounter Set" value="Mi-Go Incursion" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Part 2." />
+        <property name="Text" value="Read only if &quot;the sample was lost:&quot;&#10;Remove Mi-Go Harvester, Meteorite Sample, and this card from the game. Lose 2 countermeasures.&#10;—&#10;Read only if &quot;the sample was recovered:&quot;&#10;Put the set-aside Pet Oozling story asset into play under any investigator's control. Remove Meteorite Sample from the game. Add Mi-Go Harvester and this card to the victory display. Gain 2 countermeasures.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="6fa4281b-c89c-42f0-822e-f8d7e77c402b" name="Drive Off the Mi-Go">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Part 1." />
+      <property name="Text" value="Revelation – Spawn the set-aside Mi-Go General at the Fungus Mound. Place 1π clues on the Fungus Mound. Put this card into play, next to the act deck.&#10;Forced – If Mi-Go General is defeated, or if there are no clues on the Fungus Mound: Remember that &quot;the Mi-Go were driven off.&quot; Flip this card over.&#10;Forced – If there are 4π or more clues on Fungus Mound: Remember that &quot;the secret of the ooze was stolen.&quot; Flip this card over." />
+      <alternate name="Drive Off the Mi-Go" type="B">
+        <property name="Encounter Set" value="Mi-Go Incursion" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Part 2." />
+        <property name="Text" value="Read only if &quot;the secret of the ooze was stolen:&quot;&#10;Remove Mi-Go General and this card from the game. Until the end of the game, each Mi-Go Drone gets +2 health and +2 evade. Place this card next to the scenario reference card, as a reminder.&#10;—&#10;Read only if &quot;the Mi-Go were driven off:&quot;&#10;Put the set-aside Mi-Go Weapon story asset into play under any investigator's control. Add Mi-Go General and this card to the victory display. Search the encounter deck, discard pile and all play areas for each copy of Mi-Go Drone and remove them from the game. Gain 1 countermeasure.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="09d183dc-790f-4bf2-a479-c4a07d39103d" name="Defuse the Explosives">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Part 1." />
+      <property name="Text" value="Revelation – Spawn the set-aside Mi-Go Meddler at the Fungus Mound. Put this card and the set-aside The Military's Plan asset into play next to the act deck, with 5 damage tokens on it. Place 1 horror token on 1π different Oozified locations farthest from the Crater. Horror tokens on locations represent explosives.&#10;Forced – If there are no explosives among locations in play: Remember that &quot;the explosives were defused.&quot; Flip this card over.&#10;Forced – If The Military's Plan has no damage on it: Remember that &quot;the explosives were detonated.&quot; Flip this card over." />
+      <alternate name="Defuse the Explosives" type="B">
+        <property name="Encounter Set" value="Mi-Go Incursion" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Part 2." />
+        <property name="Text" value="Read only if &quot;the explosives were detonated:&quot;&#10;Remove Mi-Go Meddler, The Military's Plan, and this card from the game. Remove each explosives from each location. Each investigator and Ally asset at one of those locations take 3 direct damage. Heal 5 damage from Subject 8L-08.&#10;—&#10;Read only if &quot;the explosives were defused:&quot;&#10;Put the set-aside Lt. Wilson Stewart story asset into play under any investigator's control. Remove The Military's Plan from the game. Add Mi-Go Meddler and this card to the victory display. Each investigator heals 1 horror. Gain 1 countermeasure.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="e72a14f9-07bb-4363-8d49-2a2ef1a9609e" name="University Chemist" size="EncounterCard">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Bystander. Miskatonic." />
+      <property name="Text" value="η: Parley. Test ά or έ (3). If you succeed, place 1 resource (from the token pool) on University Chemist. Then, if there are 1π resources on it, take control of it." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c8c6c350-aa52-4a62-95b2-1bc653dba81b" name="Meteorite Sample" size="EncounterCard">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item." />
+      <property name="Text" value="If uncontrolled and unattached, attach Meteorite Sample to its location. If attached to a location with no clues on it, Meteorite Sample gains: &quot;η Test ά or ί (6). If you succeed, detach Meteorite Sample and take control of it.&quot;" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="dfcd7dfe-86da-4b5d-b3f7-d30efe951196" name="Mi-Go General" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Servitor. Mi-Go. Elite." />
+      <property name="Text" value="Hunter.&#10;Forced – After Mi-Go General attacks you: Move 1 of your clues to Fungus Mound." />
+      <property name="Health" value="4π" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="938f2a33-b92b-47b4-9b04-ba53cb3756c2" name="The Military's Plan" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Asset" />
+      <property name="Text" value="Horror tokens on locations represent explosives.&#10;Each location with explosives gain: &quot;η: Test έ or ί (3). If you succeed, remove the horror token on this location.&quot;&#10;Forced – At the end of the round: Remove 1 damage from this card." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4c82562e-bdca-4e28-b0c9-2f5b641fd2d1" name="Universal Solvent">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Science." />
+      <property name="Text" value="Uses (4 supplies).&#10;η Spend 1 supply: Test έ (1). If you succeed, discard an Obstacle treachery at your location.&#10;η Spend 1 supply: Choose a non-Elite enemy at your location and test έ (X), where X is 1 more than that enemy's remaining health. If you succeed, that enemy is defeated. Does not provoke attacks of opportunity." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="έΰ" />
+    </card>
+    <card id="ce97a96b-676e-47e9-91ab-1671124eb46e" name="Pet Oozeling">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Monster. Ooze." />
+      <property name="Text" value="θ Defeat a non-Elite enemy at your location with 2 or less remaining health. Then, heal all damage from Pet Oozeling, place 1 resource on it, and reveal X chaos token, where X is the number of resources on it. If an ζ symbol is revealed, you are defeated and suffer 1 physical trauma." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="ίΰ" />
+    </card>
+    <card id="f3c87c45-7487-482f-90ff-003479404f5f" name="Mi-Go Weapon">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Weapon. Science." />
+      <property name="Text" value="Uses (3 ammo).&#10;η Spend 1 ammo: Fight. The device fires a blast of entropic energy. You get +2 ή and deal +1 damage for this attack. If you succeed and the enemy is not defeated, move it one location away from you. (If you succeed by 3 or more, deal +1 damage and move the enemy an additional location away.)" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="ήΰ" />
+    </card>
+    <card id="3fd3df23-7240-4223-bbac-2c5f4d3ce6fc" name="Lt. Wilson Stewart">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Subtitle" value="Logistical Genius" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Agency. Veteran." />
+      <property name="Text" value="θ Exhaust Lt. Wilson Stewart: Discard a card from your hand or from the top of your deck. Then, for each...&#10;...ά icon on that card, get +1 for your next test this round.&#10;...έ icon on that card, draw 1 card.&#10;...ή icon on that card, heal 1 damage or horror from him.&#10;...ί icon on that card, gain 1 resource." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="άΰ" />
+    </card>
+    <card id="702dce29-673e-42d3-88b6-40b71a5d8cf9" name="Mi-Go Drone" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Mi-Go." />
+      <property name="Text" value="Spawn – Location with the most clues (other than Fungus Mound).&#10;Surge.&#10;Forced – At the start of the enemy phase, if Mi-Go Drone is ready: Move 1 clue from Mi-Go Drone's location to Fungus Mound." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="6d3d13aa-a5b8-4d26-ba6f-e0187d3c8769" name="Mi-Go Harvester" size="EncounterCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Mi-Go. Elite." />
+      <property name="Text" value="While Mi-Go Harvester is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: If Meteorite Sample is attached to Mi-Go Harvester, move it once toward the Fungus Mound. Otherwise, move Mi-Go Harvester once toward Meteorite Sample's location. Then, if it is at the same location as Meteorite Sample, attach Meteorite Sample to it.&quot;&#10;Victory 1." />
+      <property name="Health" value="2π" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="b088ddc6-03ff-4fad-985d-b40c3fc208cf" name="Mi-Go Meddler" size="EncounterCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Mi-Go. Elite." />
+      <property name="Text" value="While Mi-Go Meddler is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: If If Mi-Go Meddler is at a location with explosives, remove 1 damage from The Military's Plan. Otherwise, move Mi-Go once toward a location with explosives.&quot;&#10;Victory 1." />
+      <property name="Health" value="2π" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="a07e47ad-4733-4632-b479-dae074a3b20b" name="Mi-Go Abductor" size="EncounterCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Mi-Go. Elite." />
+      <property name="Text" value="While Mi-Go Meddler is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: If If Mi-Go Meddler is at University Chemist's location, deal 1 direct damage to University Chemist. Otherwise, move Mi-Go Abductor once toward University Chemist's location.&quot;&#10;Victory 1." />
+      <property name="Health" value="2π" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="a8b92736-7b54-49ec-b84e-a1a2973fe18d" name="Subject 8L-08"  size="HorizCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Epic Multiplayer" />
+      <property name="Subtitle" value="Extraspacial Anomaly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Elite." />
+      <property name="Text" value="*Subject 8L-08 has a global health pool (see page 6 of the rules for details).&#10;If Subject 8L-08 is defeated, proceed to (-&gt;R2)." />
+      <property name="Health" value="*" />
+      <property name="Unique" value="ο" />
+    </card>
+    <card id="b2e49df8-eeda-4fed-858e-f3eda3d27db9" name="Subject 8L-08"  size="HorizCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Single Group" />
+      <property name="Subtitle" value="Extraspacial Anomaly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Elite." />
+      <property name="Text" value="Subject 8L-08 gets +15 health.&#10;If Subject 8L-08 is defeated, proceed to (-&gt;R2)." />
+      <property name="Health" value="15π" />
+      <property name="Unique" value="ο" />
+    </card>
+    <card id="6c413a91-c8d2-45df-a7ec-347a65bce5d2" name="Oozeling" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Spawn – Any empty Oozified location.&#10;Blob 1." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="e09f1dae-22f5-4015-927e-c821c5b01145" name="Oozeling" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Spawn – Any empty Oozified location.&#10;Blob 1." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="f93d76d1-2dda-446f-ba2a-c7ce2b79fb14" name="Oozeling" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Spawn – Any empty Oozified location.&#10;Blob 1." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="7780c293-77e6-4d46-8efd-ad46778a4110" name="Oozeling" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Spawn – Any empty Oozified location.&#10;Blob 1." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="e8d1d004-24b2-4644-87a8-0b0dec8c9489" name="Grasping Ooze" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Spawn – Nearest Oozified location.&#10;Hunter.&#10;Forced – After you perform an attack against Grasping Ooze using a Melee card: Subject 8L-08 devours that card.&#10;Blob 3." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="2e991608-ccd0-4081-a3db-3a031096d575" name="Cubic Ooze" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Revelation – Immediately attempt to evade Cubic Ooze (without spending an action). If you fail, spawn Cubic Ooze engaged with you, and it attacks you. If you succeed, spawn Cubic Ooze at your location, exhausted and unengaged.&#10;Blob 2." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="4dfd5154-c079-4fb3-b234-a901c6298a6d" name="Oozewraith" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Spawn – Farthest Oozified location.&#10;Alert. Hunter. Retaliate.&#10;Victory 1.&#10;Blob 5." />
+      <property name="Health" value="7" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="8db3e57c-a1bc-4aaf-92ce-342161cf97c6" name="Vulnerable Heart" size="EncounterCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Elite." />
+      <property name="Text" value="Massive. Retaliate.&#10;X is the amount of damage on Vulnerable Heart.&#10;Vulnerable Heart cannot be evaded and cannot make attacks of opportunity.&#10;Vulnerable Heart cannot have more than 15 damage on it. All excess damage is canceled." />
+      <property name="Health" value="–" />
+      <property name="Combat" value="X" />
+      <property name="Agility" value="–" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="1d7a25a4-561e-4859-afbc-30d8d7d8dda1" name="Reality Acid" size="EncounterCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – Subject 8L-08 devours a random aspect of reality. Reveal two random chaos tokens from the chaos bag and consult page 16-19 of the rules to determine what is devoured. (If the combination of chaos tokens revealed is not listed, or if the listed aspect cannot be devoured, reveal two new chaos tokens and consult the chart again.)" />
+    </card>
+    <card id="274b22f3-4079-485c-a8a7-8ed829ce1086" name="Devouring Ooze" size="EncounterCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Attack." />
+      <property name="Text" value="Revelation – Test ί (4). If you fail, choose an Ally or Item asset you control. Subject 8L-08 devours that asset. (If you cannot, take 2 damage instead.)" />
+    </card>
+    <card id="af9dc071-9a46-4518-9d2f-4689bfa252cc" name="Corrosive Slime" size="EncounterCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Attack." />
+      <property name="Text" value="Revelation – Test ά (4). For each point you fail by, Subject 8L-08 devours either one of your resources or a random card from your hand." />
+    </card>
+    <card id="e6498d58-fb07-4dea-910a-4a1ac3109c74" name="Consuming Maw" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Attack." />
+      <property name="Text" value="Revelation – Test ί (3). Take 1 damage for each point you fail by. Subject 8L-08 devours each card defeated by this effect." />
+    </card>
+    <card id="2fc94494-2ebb-4a1d-9bf2-e4717d7ff4ba" name="Wave of Ooze" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Attack." />
+      <property name="Text" value="Revelation – Test ά (3). Take 1 horror for each point you fail by. Subject 8L-08 devours each card defeated by this effect." />
+    </card>
+    <card id="9de45556-62e1-411c-b804-f3992586bd05" name="Caustic Dissemination" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Ooze. Hazard." />
+      <property name="Text" value="Revelation – Put Caustic Dissemination into play next to the agenda deck.&#10;Forced – At the end of the round: Each investigator at an Oozified location takes 1 damage and 1 horror. Subject 8L-08 devours each card defeated by this effect. Discard Caustic Dissemination. (Max once per round.)" />
+    </card>
+    <card id="cbde1d7b-8d53-40bf-984b-37b1720141f5" name="Sticky Feet" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Ooze. Obstacle." />
+      <property name="Text" value="Revelation – Attach to the nearest Oozified location.&#10;As an additional cost to enter or leave attached location, an investigator must spend an action.&#10;η Spend 1 countermeasure: Discard Sticky Feet." />
+    </card>
+    <card id="7c9d8cd4-3402-472d-ab85-ad88e40dd910" name="Replication" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – Find the Manifold enemy with the most damage on it. Discard cards from the top of the encounter deck until another Manifold enemy with equal or lower printed health is discarded. Spawn that enemy at the same location, then distribute the damage that is on both enemies so that the remaining health on both enemies is as equal as possible. If no enemy is spawned by this effect, Replication gains surge." />
+    </card>
+    <card id="08f6c325-aa0f-4a8e-97db-c1321aac17cd" name="&quot;It's got me!&quot;" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Put &quot;It's got me!&quot; into play in your threat area.&#10;Forced – At the end of the round: Place 1 resources on &quot;It's got me!&quot; Then, if there are 6 or more resources on it, Subject 8L-08 devours you.&#10;η If you are at the Research Site, spend 1 countermeasure: Discard &quot;It's got me!&quot;" />
+    </card>
+    <card id="215f4435-311d-4f8a-9867-f26b7514fd9b" name="Alien Food Chain" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Blob That Ate Everything" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Ooze. Power." />
+      <property name="Text" value="Revelation – If there are no Manifold enemies in play, Alien Food Chain gains surge. Otherwise, attach to the Manifold enemy with the least remaining health and fully heal that enemy.&#10;Attached enemy gets +1 fight, +1 evade, and gains hunter." />
+    </card>
+  </cards>
+</set>

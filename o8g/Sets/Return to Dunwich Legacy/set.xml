@@ -13,7 +13,7 @@
     <property name="Skill Icons" value="ήά"/>
     <property name="Slot" value="Body"/>
     <property name="Traits" value="Item."/>
-    <property name="Text" value="You have two additional hand slots, which can only be used to hold [[Weapon]] assets.&#10;&#10;While you have [[Weapon]] assets held in 2 or more hand slots, you get +1 ά."/>
+    <property name="Text" value="You have two additional hand slots, which can only be used to hold Weapon assets.&#10;&#10;While you have Weapon assets held in 2 or more hand slots, you get +1 ά."/>
   </card>
   <card id="362acc37-0402-4bc2-bbf1-37b2e3ae12e6" name="Blackjack">
     <property name="Card Number" value="2"/>
@@ -221,7 +221,7 @@
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Clover Club."/>
-      <property name="Text" value="Forced - After Clover Club Lounge is revealed: Put the set-aside Clover Club Stage into play.&#10;&#10;While it is Act 1, Clover Club Lounge gains: &quot;η: Look at the top card of your deck. If it is an [[Ally]] asset, you may put it into play. Otherwise, draw it. (Limit once per round.)&quot;"/>
+      <property name="Text" value="Forced - After Clover Club Lounge is revealed: Put the set-aside Clover Club Stage into play.&#10;&#10;While it is Act 1, Clover Club Lounge gains: &quot;η: Look at the top card of your deck. If it is an Ally asset, you may put it into play. Otherwise, draw it. (Limit once per round.)&quot;"/>
     </alternate>
   </card>
   <card id="15d3b5bb-8c2d-426d-8ec3-9c5028ff66cc" name="Clover Club Stage" size="EncounterCard">
@@ -261,7 +261,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Illicit."/>
-    <property name="Text" value="Revelation - You must (choose one):&#10;&#10;- Remember that you have &quot;cheated.&quot;&#10;&#10;- Lose 5 resources.&#10;&#10;- Put Raise the Stakes into play in your threat area. It gains: &quot;Each [[Criminal]] enemy at your location loses aloof. If it is Act 2 or 3, each [[Criminal]] enemy engaged with you gets +1 fight and +1 evade.&quot;"/>
+    <property name="Text" value="Revelation - You must (choose one):&#10;&#10;- Remember that you have &quot;cheated.&quot;&#10;&#10;- Lose 5 resources.&#10;&#10;- Put Raise the Stakes into play in your threat area. It gains: &quot;Each Criminal enemy at your location loses aloof. If it is Act 2 or 3, each Criminal enemy engaged with you gets +1 fight and +1 evade.&quot;"/>
   </card>
   <card id="ceff1f22-cc40-45e6-8290-bc342b8227c4" name="Return to The Miskatonic Museum">
     <property name="Card Number" value="20"/>
@@ -650,7 +650,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Criminal. Syndicate."/>
-    <property name="Text" value="Each [[Criminal]] enemy (including Hired Gun) gains: &quot;Hunter. Prey - Most resources.&quot;&#10;&#10;Each copy of Hunted Down gains peril and surge."/>
+    <property name="Text" value="Each Criminal enemy (including Hired Gun) gains: &quot;Hunter. Prey - Most resources.&quot;&#10;&#10;Each copy of Hunted Down gains peril and surge."/>
   </card>
   <card id="0fab286f-04e0-4e7f-b888-5cb1ec5d4826" name="Return to Undimensioned and Unseen">
     <property name="Card Number" value="41"/>
@@ -737,7 +737,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Power."/>
-    <property name="Text" value="Surge.&#10;&#10;Revelation - Attach to a Brood of Yog-Sothoth enemy in play without a copy of Imperceptible Creature attached. Remove 1 clue from that enemy.&#10;&#10;Attached enemy gains [[Elite]]."/>
+    <property name="Text" value="Surge.&#10;&#10;Revelation - Attach to a Brood of Yog-Sothoth enemy in play without a copy of Imperceptible Creature attached. Remove 1 clue from that enemy.&#10;&#10;Attached enemy gains Elite."/>
   </card>
   <card id="ab93d222-6c67-4e91-b473-b9e0c39b61e2" name="Return to Where Doom Awaits">
     <property name="Card Number" value="47"/>

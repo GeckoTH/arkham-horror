@@ -6,7 +6,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Ranged." />
-      <property name="Text" value="Uses (3 supplies). If Mk 1 Grenades has no supplies, discard it.η Spend 1 supply: Fight. You get +2 [ή] for this attack. If this attack is successful, instead of its standard damage, this attack deals 2 damage to each enemy and investigator at your location, other than yourself (any additional damage is dealt to the attacked enemy)." />
+      <property name="Text" value="Uses (3 supplies). If Mk 1 Grenades has no supplies, discard it.η Spend 1 supply: Fight. You get +2 ή for this attack. If this attack is successful, instead of its standard damage, this attack deals 2 damage to each enemy and investigator at your location, other than yourself (any additional damage is dealt to the attacked enemy)." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="4" />
       <property name="Cost" value="3" />
@@ -276,7 +276,7 @@
         <property name="Encounter Set" value="In the Clutches of Chaos" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Arkham." />
-        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from French Hill to the current act, +1 additional breach for each [ά] icon on that card." />
+        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from French Hill to the current act, +1 additional breach for each ά icon on that card." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="0" />
       </alternate>
@@ -291,7 +291,7 @@
         <property name="Encounter Set" value="In the Clutches of Chaos" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Arkham." />
-        <property name="Text" value="η: Test [ά] (2). For each point you succeed by, move 1 breach from French Hill to the current act." />
+        <property name="Text" value="η: Test ά (2). For each point you succeed by, move 1 breach from French Hill to the current act." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="0" />
       </alternate>
@@ -306,7 +306,7 @@
         <property name="Encounter Set" value="In the Clutches of Chaos" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Arkham." />
-        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from Rivertown to the current act, +1 additional breach for each [έ] icon on that card." />
+        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from Rivertown to the current act, +1 additional breach for each έ icon on that card." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="0" />
       </alternate>
@@ -321,7 +321,7 @@
         <property name="Encounter Set" value="In the Clutches of Chaos" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Arkham." />
-        <property name="Text" value="η: Test [έ] (2). For each point you succeed by, move 1 breach from Rivertown to the current act." />
+        <property name="Text" value="η: Test έ (2). For each point you succeed by, move 1 breach from Rivertown to the current act." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="0" />
       </alternate>
@@ -366,7 +366,7 @@
         <property name="Encounter Set" value="In the Clutches of Chaos" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Arkham." />
-        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from Uptown to the current act, +1 additional breach for each [ί] icon on that card." />
+        <property name="Text" value="η Choose and discard a card from your hand: Move 1 breach from Uptown to the current act, +1 additional breach for each ί icon on that card." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="0" />
       </alternate>
@@ -381,7 +381,7 @@
         <property name="Encounter Set" value="In the Clutches of Chaos" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Arkham." />
-        <property name="Text" value="η: Test [ί] (2). For each point you succeed by, move 1 breach from Uptown to the current act." />
+        <property name="Text" value="η: Test ί (2). For each point you succeed by, move 1 breach from Uptown to the current act." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="0" />
       </alternate>
@@ -522,7 +522,7 @@
       <property name="Encounter Set" value="In the Clutches of Chaos" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – Test [ά] (3). Place 1 breach on X different random locations, where X is the amount you failed by." />
+      <property name="Text" value="Revelation – Test ά (3). Place 1 breach on X different random locations, where X is the amount you failed by." />
     </card>
     <card id="2e096aff-2f1f-4590-92f3-0a0766d4fde0" name="Primordial Gateway" size="EncounterCard">
       <property name="Card Number" value="307" />
@@ -530,7 +530,7 @@
       <property name="Encounter Set" value="In the Clutches of Chaos" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – Attach to a random location. Place breaches on attached location until there are exactly 3 breaches on it.Treat the attached location as if its printed text box were blank (except for Traits).η: Test [έ] or [ά] (4) to close the gateway. If you succeed, discard Primordial Gateway." />
+      <property name="Text" value="Revelation – Attach to a random location. Place breaches on attached location until there are exactly 3 breaches on it.Treat the attached location as if its printed text box were blank (except for Traits).η: Test έ or ά (4) to close the gateway. If you succeed, discard Primordial Gateway." />
     </card>
     <card id="bb227dd9-c7cc-4b63-8479-1c16de046539" name="Terror Unleashed" size="EncounterCard">
       <property name="Card Number" value="308" />

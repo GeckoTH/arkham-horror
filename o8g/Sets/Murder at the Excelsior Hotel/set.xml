@@ -1,0 +1,671 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Murder at the Excelsior Hotel" id="15592940-5df5-4845-b2bd-579863b6778f" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="3059f16c-c231-422e-a7a0-709e5b09f46f" name="Murder at the Excelsior Hotel" size="EncounterCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: -X. X is the number of Guest enemies in play.&#10;β: -1. If there is an Innocent enemy in the victory display, reveal another chaos token.&#10;γ: -3. You may place one of your clues on your location to treat this as a -1 instead.&#10;δ: -3. If you fail and there is an Innocent enemy in the victory display, take 1 horror." />
+      <alternate name="Murder at the Excelsior Hotel" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: -X. X is the number of Innocent enemies in play.&#10;β: -2. If there is an Innocent enemy in the victory display, reveal another chaos token.&#10;γ: -5. You may place one of your clues on your location to treat this as a -2 instead.&#10;δ: -3. If you fail, take 1 horror for each Innocent enemy in the victory display." />
+      </alternate>
+    </card>
+    <card id="5cbf5f55-0237-48c0-a50f-7b71b4fe2a1b" name="The Murder" size="HorizCard">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Doom" value="3" />
+      <alternate name="Arousing Suspicions" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Put the set-aside Sergeant Monroe into play in the Foyer.&#10;Spawn 1 set-aside Arkham Officer enemy at the Second Floor Hall (if there are 3 or 4 investigators in the game, spawn another set-aside Arkham Officer enemy at the Foyer). Then shuffle each other set-aside Arkham Officer enemy into the encounter deck, along with the encounter discard pile.&#10;The lead investigator draws the set-aside What Have You Done? weakness.&#10;For each of the following circumstances which is true, place 1 clue on Room 225 (from the token bank) and place 1 doom on an Arkham Officer:&#10;— The investigators have not &quot;cleaned up the blood.&quot;&#10;— The investigators have not &quot;hid the body.&quot;&#10;— The investigators have not &quot;tidied up the room.&quot;" />
+      </alternate>
+    </card>
+    <card id="a68d8449-7b6a-442e-bea5-dc4ecc22b6be" name="Special Investigation" size="HorizCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – After an investigator at the same location as a ready Police enemy discovers 1 or more clues at that location or deals damage to a Humanoid enemy: Each ready Police enemy at that location engages that investigator and makes an immediate attack." />
+      <property name="Doom" value="12" />
+      <alternate name="More Than Meets the Eye" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="The investigators failed to solve the crime and clear their names! (-&gt;R3)" />
+      </alternate>
+    </card>
+    <card id="e213e107-f819-4a5d-a15a-bc11cf663978" name="What Happened...?" size="HorizCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η Spend 1π clues as a group: Draw the top card of the Leads deck.&#10;Objective – If the investigators control two Lead assets, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Gotta Start Somewhere..." type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Put each of the set-aside locations into play.&#10;Remove the remainder of the Leads deck from the game.&#10;Depending on which Lead assets are in play, shuffle 6 cards into the encounter deck, as follows, along with the encounter discard pile:&#10;— If Alien Device is in play, shuffle the 3 set-aside copies of Encephalon Signal into the encounter deck.&#10;— If Manager's Key is in play, shuffle the 3 set-aside copies of Hotel Security into the encounter deck.&#10;— If Tome of Rituals is in play, shuffle the 3 set-aside copies of Cultist of the Enclave into the encounter deck.&#10;— If Sinister Solution is in play, shuffle the 3 set-aside copies of Morbid Awareness into the encounter deck.&#10;— If Time-Worn Locket is in play, shuffle the 3 set-aside copies of Chilling Presence into the encounter deck." />
+      </alternate>
+    </card>
+    <card id="38e71265-e32f-47e4-bfc6-43420b611c96" name="Following Leads" size="HorizCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Learn more about your leads by placing clues on them (using abilities on some locations). The more clues, the better. At the end of the round, you may choose to advance if each Lead asset has at least 1π clues on it. (Hint: If you wish to present this evidence to the police, you may wish to have at least 2π clues on each Lead asset, instead.)" />
+      <property name="Clues" value="–" />
+      <alternate name="The Truth" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Text" value="Read Scenario Interlude: The Truth on page 10 of the Rules Booklet." />
+      </alternate>
+    </card>
+    <card id="3190f093-3fb5-4c46-9cd9-27866d686f47" name="Bloodstained Dagger">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Subtitle" value="The Murder Weapon" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Melee. Cursed?" />
+      <property name="Text" value="η: Fight. You get +2 ή for this attack.&#10;η Exhaust Bloodstained Dagger and take 1 horror: Fight. You get +2 ή and deal +1 damage for this attack. If this attack defeats an enemy, draw 1 card." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="ΰ" />
+    </card>
+    <card id="2482d6c2-1a39-4e6d-b96e-365fa37f419a" name="What Have You Done?">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Madness." />
+      <property name="Text" value="Revelation – Put What Have You Done? into play in your threat area.&#10;As an additional cost for you to parley, you must discard a card at random from your hand.&#10;η: Shuffle What Have You Done? into your deck." />
+    </card>
+    <card id="341b77e6-f7ab-45a5-b59d-86a3010d22f1" name="Sergeant Monroe">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Subtitle" value="Two Days Until Retirement" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Police." />
+      <property name="Text" value="Sergeant Monroe may be assigned damage and/or horror dealt to any investigator at his location, even if he is uncontrolled.&#10;ι When Sergeant Monroe is dealt any amount of damage or horror, exhaust him: Deal that much damage to a non-Innocent enemy at his location. Any investigator at Sergeant Monroe's location may trigger this ability." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="5" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="άήΰ" />
+    </card>
+    <card id="fc15c7b2-8c3b-4506-93d1-82bcd0cfd6f3" name="Arkham Officer" size="EncounterCard">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Police. Innocent." />
+      <property name="Text" value="Aloof. Patrol (nearest location with clues).&#10;Forced – At the end of the enemy phase: Move 1 clue to Arkham Officer from its location, flipping it to its doom side.&#10;η: Parley. Test ά (3). If you succeed, either automatically evade Arkham Officer, or flip one of its doom to its clue side and take control of it.&#10;Victory 0." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="c53752c2-1eec-42ad-8a7f-5e2f26f27b0c" name="Room 225" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Crime Scene." />
+      <alternate name="Room 225" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Scene of the Crime" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Crime Scene." />
+        <property name="Text" value="η: Test ά (3). If you succeed, remember that the investigators &quot;cleaned up the blood.&quot;&#10;η: Test ή (3). If you succeed, remember that the investigators &quot;hid the body.&quot;&#10;η: Test έ (3). If you succeed, remember that the investigators &quot;tidied up the room.&quot;&#10;" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="564e6f39-449c-4a8b-bbd1-cc75750b6547" name="Suite Balcony" size="EncounterCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Crime Scene." />
+      <alternate name="Suite Balcony" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Crime Scene." />
+        <property name="Text" value="η: Choose a Humanoid enemy at Suite Balcony and test ή or ί (4). If you succeed, take 1 direct horror and defeat the chosen enemy (if that enemy is Elite, deal 2 damage to it instead). This action does not provoke attacks of opportunity." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="520c5924-9157-4340-8e37-217e733483f7" name="Second Floor Hall" size="EncounterCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Hall." />
+      <alternate name="Second Floor Hall" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Hall." />
+        <property name="Text" value="ι After you enter this location: You may immediately move to a connecting location. If you do, reveal a random token from the chaos bag. If a α, β, γ, δ, or ζ symbol is revealed, draw the top card of the encounter deck." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b8d96b11-9468-45db-a605-6ac77dc24ee2" name="Foyer" size="EncounterCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Hall." />
+      <alternate name="Foyer" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Hall." />
+        <property name="Text" value="η: Resign. You flee the scene of the crime.&#10;Forced – When you attempt to move out of the Foyer while there is at least 1 Guest enemy here: Test ί (X), where X is the number of Guest enemies here. If you fail, you must spend 1 additional action to move out of the Foyer." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="c0209c91-cac2-4849-b4c0-3dd41d08df1e" name="Restaurant" size="EncounterCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Hall." />
+      <alternate name="Restaurant" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Hall." />
+        <property name="Text" value="η Spend 2 resources: You place an order while enduring the withering glares of the entire waitstaff. At the end of your turn, if you are still at the Restaurant, you may take 1 horror to heal 3 damage. (Limit once per game.)&#10;θ If each location in play is revealed and there are no clues on locations in play: Place 1π clues on Restaurant (from the token bank.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="1935a7f1-2d3f-46ce-a9b5-6582f28918d2" name="Hotel Roof" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <alternate name="Hotel Roof" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η: Test ί (4) or ή (4). If you succeed, move to either Room 212, Room 225, or Room 245.&#10;η: Test ά (3). If you succeed, move any number of clues controlled by investigators at this location to Alien Device (if it is in play)." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="4ea97dff-141d-4b83-a561-5343095bba42" name="Room 212" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Crime Scene." />
+      <property name="Text" value="The door to Room 212 is locked. You cannot enter Room 212 from the Second Floor Hall.&#10;Second Floor Hall gains: &quot;η: Test ί (4) to attempt to pick the lock. If you succeed, reveal Room 212 and immediately move to it.&quot;" />
+      <alternate name="Room 212" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Crime Scene." />
+        <property name="Text" value="η: Test έ (3). If you succeed, move any number of clues controlled by investigators at this location to Sinister Solution (if it is in play)." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="37a4cfd7-c4e6-49bc-8cbc-8f0b1c7af86e" name="Room 245" size="EncounterCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Crime Scene." />
+      <alternate name="Room 245" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Crime Scene." />
+        <property name="Text" value="η: Test έ (3). Only the top card of your discard pile may be committed to this skill test (place it on the bottom of your deck after this test resolves). If you succeed, move any number of clues controlled by investigators in Room 245 to Time-Worn Locket (if it is in play)." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="5652eb18-df80-43fa-b244-d7fa3ed48e59" name="Office" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="The door to the Office is locked. You cannot enter the Office unless you control the Manager's Key.&#10;Basement gains: &quot;η: Test ί (3) to attempt to pick the lock. If you succeed, reveal Office and immediately move to it.&quot;" />
+      <alternate name="Office" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η: Test έ (0). For each point you succeed by, you may move 1 clue controlled by an investigator in the Office to Manager's key (if it is in play)." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="fa2b5ed5-f4e4-4fb1-a570-571e7211f36f" name="Basement" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Crime Scene." />
+      <alternate name="Basement" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Crime Scene." />
+        <property name="Text" value="η: Test έ (1). If you succeed, move a Humanoid enemy at any location once toward the Basement.&#10;ι After you defeat an enemy in the Basement: Move any number of clues controlled by investigators at the Basement to Tome of Rituals (if it is in play)." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="c0157e6d-8b4a-43bb-bfa8-06b89faa4fde" name="Mr. Trombly" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Subtitle" value="Maddened Concierge" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Staff." />
+      <property name="Text" value="Spawn – Foyer.&#10;Hunter.&#10;Forced – After Mr. Trombly enters play: Immediately resolve the hunter and patrol keywords on each other Staff enemy in play.&#10;Victory 1." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="074a39fa-c149-45df-85ff-195171ab4816" name="Conspicuous Staff" size="EncounterCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Staff." />
+      <property name="Text" value="Spawn – Nearest Crime Scene location.&#10;Prey – Most clues.&#10;Hunter" />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="db68839b-2620-414a-8738-4665c189716a" name="Hotel Guest" size="EncounterCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Guest. Innocent." />
+      <property name="Text" value="Spawn – Nearest Hall location.&#10;Aloof. Patrol (nearest Crime Scene location).&#10;Forced – At the end of the enemy phase, if Hotel Guest is at a Crime Scene location: Add 1 doom to Hotel Guest.&#10;η: Parley. Test ά or έ (3). If you succeed, discard Hotel Guest.&#10;Victory 0." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="06c218bb-4e65-40e4-a8fe-ad483357d4aa" name="Noxious Fumes" size="EncounterCard">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – In player order, each investigator at your location must choose:&#10;— Test ί (3) to attempt to flee before the gas fills the room. If you succeed, move to a connecting location. If you fail, take 2 damage.&#10;— Test ή (3) to attempt to hold your breath. For each point you fail by, take 1 damage." />
+    </card>
+    <card id="d72c7201-e897-4612-b0b8-c69ff9256f2d" name="Driven to Madness" size="EncounterCard">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – If there are no Humanoid enemies in play, Driven to Madness gains surge. Otherwise, attach Driven to Madness to the nearest Humanoid enemy.&#10;Attached enemy gets +1 fight, +1 health, and +1 evade. Attached enemy loses aloof. Investigators cannot parley with attached enemy.&#10;Forced – After attached enemy is evaded: Discard Driven to Madness." />
+    </card>
+    <card id="e50fc91a-73f7-497f-82a1-b672bca583eb" name="Blood on Your Hands" size="EncounterCard">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ά (2). Increase the difficulty of this test by 1 for each Innocent enemy in the victory display. If you fail, take 2 horror (if you are at a Crime Scene location, you must also choose and discard a card from your hand)." />
+    </card>
+    <card id="45454298-9c5c-4731-ba5a-510d7bfbdb09" name="Incriminating Evidence" size="EncounterCard">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Evidence." />
+      <property name="Text" value="Revelation – Attach to the nearest non-Crime Scene location.&#10;Attached location gains the Crime Scene trait and gets +2 shroud.&#10;ι When you successfully investigate attached location: Instead of discovering clues, discard Incriminating Evidence." />
+    </card>
+    <card id="7889999c-f9f4-46f1-a5ed-f0ec5a7311d7" name="Violent Outburst" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – If there are no Humanoid enemies in play, search the encounter deck and discard pile for a Humanoid enemy, draw it, and shuffle the encounter deck. Otherwise, the nearest Humanoid enemy readies, moves (one location at a time) until it reaches your location, engages you, and makes an immediate attack." />
+    </card>
+    <card id="14db3c74-3079-43e4-95e7-9f8e81ceefb7" name="Alien Device" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Alien Interference" />
+      <property name="Subtitle" value="Machinations from Beyond" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Lead. Extraterrestrial." />
+      <property name="Text" value="Revelation – Put into play in your play area.&#10;Forced – When you are defeated: Give control of Alien Device to another investigator." />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1c263962-cbe5-4fd1-be90-0caebeb56389" name="Otherworldly Meddler" size="EncounterCard">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Alien Interference" />
+      <property name="Subtitle" value="Presence from Beyond the Stars" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Mi-Go. Elite." />
+      <property name="Text" value="Retaliate.&#10;Forced – When Otherworldly Meddler would take damage from an attack: Remove 1 doom from Otherworldly Meddler and reduce that damage by 1.&#10;Forced – After an investigator is defeated: Add 3 doom to Otherworldly Meddler.&#10;Victory 2." />
+      <property name="Health" value="5π" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="b13d1f98-481c-4ed5-9545-1714f2c722b2" name="Encephalon Signal" size="EncounterCard">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Alien Interference" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Peril.&#10;Revelation – Place 1 doom on Otherworldly Meddler (if it is in play) and test ά (4). If you fail, you must either (choose one):&#10;— Take 2 horror.&#10;— Deal 2 damage to an investigator or Humanoid enemy at your location.&#10;" />
+    </card>
+    <card id="43cfe0fc-9e06-4021-be9e-ce26c4494290" name="Manager's Key" size="EncounterCard">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Excelsior Management" />
+      <property name="Subtitle" value="Stained by Blood" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Lead. Key." />
+      <property name="Text" value="Revelation – Put into play in your play area.&#10;Forced – When you are defeated: Give control of Manager's Key to another investigator." />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c346b385-c0a7-43fe-a509-943dec9aec3e" name="Hotel Manager" size="EncounterCard">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Excelsior Management" />
+      <property name="Subtitle" value="Let the Feast Begin" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Staff. Elite." />
+      <property name="Text" value="Massive. Retaliate.&#10;Each Guest enemy loses patrol and gains surge.&#10;Forced – At the start of the enemy phase: Add 1 Guest enemy at Hotel Manager's location to the victory display, then place 2 doom on Hotel Manager. Move each other Guest enemy one location toward Hotel Manager." />
+      <property name="Health" value="6π" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="86000a76-9623-4401-ad6f-6a767e002000" name="Hotel Security" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Excelsior Management" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Staff." />
+      <property name="Text" value="Spawn – Nearest empty location.&#10;Hunter. Retaliate.&#10;If there is at least 1 Guest enemy in play, Hotel Security loses hunter and gains &quot;Patrol (nearest location with a Guest enemy).&quot;" />
+      <property name="Health" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="e2adda07-d39d-4c86-a36b-c27a6059bbac" name="Tome of Rituals" size="EncounterCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Rituals" />
+      <property name="Subtitle" value="Blasphemous Volume" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Lead. Tome." />
+      <property name="Text" value="Revelation – Put into play in your play area.&#10;Forced – When you are defeated: Give control of Tome of Rituals to another investigator." />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e51636c4-7aa8-4225-9c3a-331c8f11d9e3" name="Dimensional Shambler" size="EncounterCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Dark Rituals" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensional. Elite." />
+      <property name="Text" value="Hunter.&#10;Forced – After Dimensional Shambler deals you damage from its attack: Reveal a random token from the chaos bag. If an ζ symbol is revealed, it snatches you from this dimension; remove Dimensional Shambler from the game and you are defeated." />
+      <property name="Health" value="4π" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="c3f7b52e-794e-46d3-9dee-793fdc691f72" name="Cultist of the Enclave" size="EncounterCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Dark Rituals" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Spawn – Basement.&#10;Hunter.&#10;Forced – After Cultist of the Enclave attacks: Reveal a random token from the chaos bag. If a α, β, γ, δ, or ζ symbol is revealed, place 1 doom on the current agenda." />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="752b9145-c184-4104-9992-a9189e904e15" name="Sinister Solution" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Vile Experiments" />
+      <property name="Subtitle" value="Vile Concoction" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Lead. Science." />
+      <property name="Text" value="Revelation – Put into play in your play area.&#10;Forced – When you are defeated: Give control of Sinister Solution to another investigator." />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4aeee469-db36-4097-a157-05efd0a687a0" name="Harvested Brain" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Vile Experiments" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Ancient. Science." />
+      <property name="Text" value="Forced – At the end of the investigation phase: Each investigator at attached location takes 1 damage and 1 horror. Each other investigator must either take 1 damage or 1 horror (their choice)." />
+    </card>
+    <card id="b2d94680-a7db-49cb-b195-6c0f5adec9db" name="Morbid Awareness" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Vile Experiments" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Test ά (6). Reduce the difficulty of this test by 1 for each location away from Room 212 you are. If you fail, you must either place 1 of your clues on your location, or take 2 horror." />
+    </card>
+    <card id="e65e6c0d-18f5-4957-a5eb-300f3dbc779f" name="Time-Worn Locket" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sins of the Past" />
+      <property name="Subtitle" value="Mournful Vision of the Past" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Lead. Charm." />
+      <property name="Text" value="Revelation – Put into play in your play area.&#10;Forced – When you are defeated: Give control of Time-Worn Locket to another investigator." />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="03e713db-6f72-4469-b936-020732e9be99" name="Vengeful Specter" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Sins of the Past" />
+      <property name="Subtitle" value="The First Victim" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Geist. Elite." />
+      <property name="Text" value="Patrol (Room 245). Retaliate.&#10;Forced – When damage would be placed on Vengeful Specter: Reduce that damage to 1 unless it was dealt by a Spell, Relic, Charm, or encounter card.&#10;Victory 2." />
+      <property name="Health" value="4π" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="3c75ecce-c8c0-48b1-a39a-e4c9d932f045" name="Chilling Presence" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Sins of the Past" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ά (3). For each point you fail by, take 1 horror. For each point you succeed by, you may deal 1 damage to a Geist enemy at your location. If an ε symbol is revealed during this test, you may deal 2 damage to a Geist enemy at any location." />
+    </card>
+    <card id="124d61c8-2dae-428c-9ab1-8e933997720c" name="The True Culprit (v. I)" size="HorizCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Alien Device gains: &quot;η If Vengeful Specter is exhausted and at your location, remove 2 clues from Alien Device: Deal 2 damage to Vengeful Specter.&quot;&#10;Objective – If Vengeful Specter is defeated, advance." />
+      <property name="Doom" value="6" />
+      <alternate name="Pawn on the Paranormal Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="3f2fa34a-21c3-41df-9b40-e6a3232fedf4" name="The True Culprit (v. II)" size="HorizCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Sinister Solution gains: &quot;η If you are in Room 212: Test έ (2). If you succeed, you may remove 2 clues from Sinister Solution to either exhaust Otherworldly Meddler or deal it 2 damage.&quot;&#10;Objective – If Otherworldly Meddler is defeated, advance." />
+      <property name="Doom" value="8" />
+      <alternate name="Pawn on the Cosmic Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="e21df0a7-3f29-477b-9fc1-d3ba92768914" name="The True Culprit (v. III)" size="HorizCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Alien Device gains: &quot;η Exhaust Alien Device and remove 2 clues from it: Add a Staff enemy at your location to the victory display (or deal it 2 damage if it is Elite). Does not provoke attacks of opportunity.&quot;&#10;Objective – If Hotel Manager is defeated, advance." />
+      <property name="Doom" value="6" />
+      <alternate name="Pawn on the Eternal Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="eba4fbcb-ef41-46f7-8491-4fd7e80dcd49" name="The True Culprit (v. IV)" size="HorizCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Tome of Rituals gains: &quot;η Remove 2 clues from Tome of Rituals: Fight. This attack uses ά instead of ή. If you succeed, instead of dealing damage, remove 3 doom from the attacked enemy.&#10;Obective – If Otherworldly Meddler is defeated or has no doom on it, advance.&quot;" />
+      <property name="Doom" value="14" />
+      <alternate name="Pawn on the Cosmic Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="43a9663b-4086-4e33-bc07-9854ec7e59f4" name="The True Culprit (v. V)" size="HorizCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Sinister Solution gains: &quot;η If Vengeful Specter is at y our location: Test έ (1). For each point you succeed by, move 1 clue from Sinister Solution to Vengeful Specter. Does not provoke attacks of opportunity.&quot;&#10;Objective – If Vengeful Specter is defeated or has clues on it equal to its remaining health, advance." />
+      <property name="Doom" value="6" />
+      <alternate name="Pawn on the Paranormal Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="c66a93ed-356c-4b0c-9c8b-255bc495241c" name="The True Culprit (v. VI)" size="HorizCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Time-Worn Locket gains: &quot;ι When Hotel Manager would attack an investigator at your location, remove 2 clues from Time-Worn Locket: Cancel that attack.&quot;&#10;Objective – If Hotel Manager is defeated, advance." />
+      <property name="Doom" value="6" />
+      <alternate name="Pawn on the Eternal Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="fcc5e3c0-4d8b-40e7-8459-225b6940d33a" name="The True Culprit (v. VII)" size="HorizCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Guest enemy loses Victory 0, loses Innocent, and gains Cultist.&#10;Each Lead asset gains: &quot;η If Dimensional Shambler is at your location, remove 1 clue from this asset: Evade. Automatically evade Dimensional Shambler.&#10;Objective – If there are no Cultist enemies in play, advance." />
+      <property name="Doom" value="8" />
+      <alternate name="Pawn on the Otherworldly Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="ffb67694-0c43-4ffb-a58d-b96ea37eb52d" name="The True Culprit (v. VIII)" size="HorizCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Lead asset gains: &quot;η Remove 1 clue from this asset: Search the encounter deck and discard pile for a Staff enemy and draw it. Shuffle the encounter deck.&quot;&#10;ι After a Staff enemy is defeated, Deal 1 horror to Harvested Brain.&#10;Objective – If there is 2 plus 1π horror on Harvested Brain, advance." />
+      <property name="Doom" value="6" />
+      <alternate name="Pawn on the Cerebral Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="a7ad9bd7-0fdb-4970-9464-32a32c4b1d21" name="The True Culprit (v. IX)" size="HorizCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Room 212 gains: &quot;η If Tome of Rituals is at this location: Test Willlpower (5) or έ (5). If you succeed, move up to 1π clues from Tome of Rituals to Harvested Brain.&#10;Objective – If Harvested Brain has 3π clues on it, advance." />
+      <property name="Doom" value="6" />
+      <alternate name="Pawn on the Cerebral Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="f5aaba04-6b13-433c-9db7-330373164232" name="The True Culprit (v. X)" size="HorizCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Guest enemy loses Victory 0, loses Innocent, and gains Cultist.&#10;Basement gains: &quot;η: Test ά (4) or ί (4). You may remove 1 clue from a Lead asset in the Basement to reduce the difficulty of this test by 2. If you succeed, remove 1 doom from the agenda.&#10;Objective – If there is no doom on this agenda, advance." />
+      <property name="Doom" value="12" />
+      <alternate name="Pawn on the Otherworldly Board" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Murder at the Excelsior Hotel" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If this agenda advanced by reaching its doom threshold:&#10;(-&gt;R2)&#10;If this agenda advanced because you completed its objective:&#10;(-&gt;R1)" />
+      </alternate>
+    </card>
+  </cards>
+</set>

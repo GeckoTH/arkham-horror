@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True">
+    <card qty="1" id="d8669f4c-aa2c-4ef1-ab0c-9202b08cf563">+1</card>
+    <card qty="3" id="35137ccc-db2b-4fdd-b0a8-a5d91f453a43">0</card>
+    <card qty="1" id="c74d422c-d209-48c9-bc5a-caacb8c8b402">-1</card>
+    <card qty="2" id="92df60c3-7d56-4e2d-99e2-c0e7e0d9994a">-2</card>
+    <card qty="1" id="eac1c4b1-43ac-49d9-b2ac-55c3b1340bd8">-3</card>
+    <card qty="1" id="6d3049df-5584-42a8-9c5b-b64e48f16a4a">-4</card>
+    <card qty="1" id="02c506c6-c012-4072-bc62-3074847bbcdb">-5</card>
+    <card qty="2" id="49d18b2f-a191-4569-9ce4-06a5bdd33bf6">Skull</card>
+    <card qty="1" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
+    <card qty="1" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>
+    <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
+    <card qty="1" id="9bdf31e9-51c4-4080-9e8d-53c9965ba214">Auto Fail</card>
+    <card qty="1" id="ca0b7b2a-8992-483b-8094-b3c515af8967">Elder Sign</card>
+  </section>
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

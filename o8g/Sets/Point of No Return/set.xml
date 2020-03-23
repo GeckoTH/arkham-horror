@@ -21,7 +21,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Skill" />
       <property name="Traits" value="Practiced." />
-      <property name="Text" value="While Leadership is committed to a skill test being performed by another investigator, Leadership gains [ά]  ? .&#10;If this test is successful, gain 2 resources. If Leadership is committed to a skill test being performed by another investigator, that investigator also gains 2 resources." />
+      <property name="Text" value="While Leadership is committed to a skill test being performed by another investigator, Leadership gains ά  ? .&#10;If this test is successful, gain 2 resources. If Leadership is committed to a skill test being performed by another investigator, that investigator also gains 2 resources." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="2" />
       <property name="Willpower" value="0" />
@@ -44,7 +44,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άί" />
     </card>
     <card id="a381dd40-1854-411e-9634-bdf032a6d075" name="Dream Diary">
@@ -61,7 +61,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άή" />
     </card>
     <card id="14cd2f4b-3437-48e0-a49c-b10055a6ad7f" name="Dream Diary">
@@ -78,7 +78,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="6699a20d-a299-4826-96de-cc1461f275db" name="Haste">
@@ -94,7 +94,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ί" />
     </card>
     <card id="96b64cc0-1de0-4226-a713-f34a9196759d" name="Daredevil">
@@ -117,7 +117,7 @@
       <property name="Subtitle" value="Stamina" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ritual." />
-      <property name="Text" value="Myriad. Limit 1 Empower Self (Stamina) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use [ά] instead of [ή], you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 [ή] for this test." />
+      <property name="Text" value="Myriad. Limit 1 Empower Self (Stamina) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use ά instead of ή, you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 ή for this test." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="2" />
       <property name="Cost" value="3" />
@@ -125,7 +125,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="a22af06f-e75c-45e1-a5aa-32dd6ccdd70c" name="Empower Self">
@@ -134,7 +134,7 @@
       <property name="Subtitle" value="Alacrity" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ritual." />
-      <property name="Text" value="Myriad. Limit 1 Empower Self (Alacrity) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use [ά] instead of [ί], you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 [ί] for this test." />
+      <property name="Text" value="Myriad. Limit 1 Empower Self (Alacrity) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use ά instead of ί, you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 ί for this test." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="2" />
       <property name="Cost" value="3" />
@@ -142,7 +142,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="2" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ίί" />
     </card>
     <card id="eaa8acfd-c17a-4f69-b742-3afeb06daa25" name="Empower Self">
@@ -151,7 +151,7 @@
       <property name="Subtitle" value="Accuity" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ritual." />
-      <property name="Text" value="Myriad. Limit 1 Empower Self (Acuity) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use [ά] instead of [έ], you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 [έ] for this test." />
+      <property name="Text" value="Myriad. Limit 1 Empower Self (Acuity) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use ά instead of έ, you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 έ for this test." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="2" />
       <property name="Cost" value="3" />
@@ -159,7 +159,7 @@
       <property name="Intellect" value="2" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="έέ" />
     </card>
     <card id="934b4ff0-c241-4506-a432-24296169de7b" name="Twila Katherine Price">
@@ -202,7 +202,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Skill" />
       <property name="Traits" value="Innate. Developed." />
-      <property name="Text" value="Max 1 committed per skill test.&#10;While Expeditious Retreat is committed during a basic evade action, it gains [ί] [ί] and the text: “If this test is successful by 2 or more, you may automatically evade another enemy at your location.”" />
+      <property name="Text" value="Max 1 committed per skill test.&#10;While Expeditious Retreat is committed during a basic evade action, it gains ί ί and the text: “If this test is successful by 2 or more, you may automatically evade another enemy at your location.”" />
       <property name="Class" value="Survivor" />
       <property name="Level" value="1" />
       <property name="Willpower" value="0" />
@@ -337,7 +337,7 @@
       <alternate name="The Sentry" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Point of No Return" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Spawn the set-aside Gug Sentinel enemy at this location, with 1π clues on it. Test [ί] (3). If you succeed, Gug Sentinel enters play exhausted and unengaged. Otherwise, it enters play engaged with you.&#10;Flip this card back over." />
+        <property name="Text" value="Spawn the set-aside Gug Sentinel enemy at this location, with 1π clues on it. Test ί (3). If you succeed, Gug Sentinel enters play exhausted and unengaged. Otherwise, it enters play engaged with you.&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="ba45ac2a-5149-47ef-841c-917bfda7ac31" name="Tower of Koth" size="EncounterCard">
@@ -345,7 +345,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Location" />
-      <property name="Text" value="η: Test [ή] (5) to lift the heavy stone trapdoor at the top of the tower. If you succeed, flip this card over and resolve the text on its other side." />
+      <property name="Text" value="η: Test ή (5) to lift the heavy stone trapdoor at the top of the tower. If you succeed, flip this card over and resolve the text on its other side." />
       <alternate name="Another Path" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Point of No Return" />
         <property name="Type" value="Story" />
@@ -404,7 +404,7 @@
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Vale. Central." />
-      <property name="Text" value="η: Test [ί] (5) to attempt to scale the treacherous peaks. If you succeed, flip this card over and resolve the text on its other side.&#10;Forced – When you leave Peaks of Thok: You must test [ί] (2) to climb down safely. If you fail, take 1 damage." />
+      <property name="Text" value="η: Test ί (5) to attempt to scale the treacherous peaks. If you succeed, flip this card over and resolve the text on its other side.&#10;Forced – When you leave Peaks of Thok: You must test ί (2) to climb down safely. If you fail, take 1 damage." />
       <property name="Shroud" value="3" />
       <property name="Clues" value="0" />
       <alternate name="Inhabitants of the Vale" type="B" size="EncounterCard">
@@ -496,7 +496,7 @@
       <property name="Subtitle" value="Venerable Ghoul" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Ghoul. Artist." />
-      <property name="Text" value="θ Exhaust Richard Upton Pickman: Choose a Ghoul enemy at your location and attach it to him, facedown.&#10;η Exhaust Richard Upton Pickman: Fight. You attack with a base [ή] of 5. Instead of its standard damage, this attack deals damage equal to the number of facedown encounter cards attached to Richard Upton Pickman." />
+      <property name="Text" value="θ Exhaust Richard Upton Pickman: Choose a Ghoul enemy at your location and attach it to him, facedown.&#10;η Exhaust Richard Upton Pickman: Fight. You attack with a base ή of 5. Instead of its standard damage, this attack deals damage equal to the number of facedown encounter cards attached to Richard Upton Pickman." />
       <property name="Health" value="3" />
       <property name="Sanity" value="–" />
       <property name="Class" value="Neutral" />
@@ -529,7 +529,7 @@
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Hazard." />
-      <property name="Text" value="Revelation – Test [ά] (3). For each point you fail by, you must (choose one): Place 1 of your clues on your location, place 1 of your clues on the nearest enemy, or take 1 damage." />
+      <property name="Text" value="Revelation – Test ά (3). For each point you fail by, you must (choose one): Place 1 of your clues on your location, place 1 of your clues on the nearest enemy, or take 1 damage." />
     </card>
     <card id="326fab2f-4cfc-4916-bbdf-794a8cbc1747" name="Lit by Death-Fire" size="EncounterCard">
       <property name="Card Number" value="269" />
@@ -545,7 +545,7 @@
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Scheme." />
-      <property name="Text" value="Revelation – If there are no enemies in play, take 1 damage and 1 horror. Otherwise, test [έ] (4) or [ί] (4). If you fail, the nearest enemy readies, moves (one location at a time) until it reaches your location, and engages you. Then, if you failed by 3 or more, it makes an immediate attack." />
+      <property name="Text" value="Revelation – If there are no enemies in play, take 1 damage and 1 horror. Otherwise, test έ (4) or ί (4). If you fail, the nearest enemy readies, moves (one location at a time) until it reaches your location, and engages you. Then, if you failed by 3 or more, it makes an immediate attack." />
     </card>
     <card id="d447e7a0-f43b-43a1-9f34-7f9bad133493" name="Slithering Dhole" size="EncounterCard">
       <property name="Card Number" value="271" />
@@ -588,7 +588,7 @@
       <property name="Encounter Set" value="Descent into the Pitch" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – Test [ά] (2). This test gets +1 difficulty for each damage on the scenario reference card. If you fail, take 1 damage and 1 horror." />
+      <property name="Text" value="Revelation – Test ά (2). This test gets +1 difficulty for each damage on the scenario reference card. If you fail, take 1 damage and 1 horror." />
     </card>
     <card id="d12f3c25-1c50-4fb7-973b-68f18079b650" name="False Awakening">
       <property name="Card Number" value="275" />

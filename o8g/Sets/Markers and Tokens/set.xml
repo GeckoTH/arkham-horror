@@ -115,6 +115,48 @@
         <property name="Subtype" value="DirectionalMarker"/>
       </alternate>
     </card>
+	<card id="62f3d5d3-c545-4d35-803e-ac8a4d440c80" name="Guardian" size="MiniCard">
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Guardian"/>
+    <alternate name="Guardian" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+	</card>
+	<card id="c4e73f34-01ad-472b-ba46-042a5f60cd4a" name="Seeker" size="MiniCard">
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Seeker"/>
+    <alternate name="Seeker" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+	</card>
+	<card id="e27cff7a-fbfa-4f74-8d2f-4a0528684c34" name="Rogue" size="MiniCard">
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Rogue"/>
+    <alternate name="Rogue" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+	</card>
+	<card id="04c3908d-2d54-4d46-8606-c3122e4806ed" name="Mystic" size="MiniCard">
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Mystic" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+	</card>
+	<card id="b6f04e62-a314-4347-9bc6-514bf1e34795" name="Survivor" size="MiniCard">
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Survivor"/>
+    <alternate name="Survivor" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+	</card>
+	<card id="f8aed1c0-a2bc-4926-99e4-d462a763d804" name="Neutral" size="MiniCard">
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Neutral"/>
+    <alternate name="Neutral" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+	</card>
   </cards>
 	
 </set>

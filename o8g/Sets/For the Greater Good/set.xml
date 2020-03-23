@@ -6,7 +6,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
-      <property name="Text" value="Uses (5 ammo).Ammo spent from .45 Thompson is placed in your resource pool, as resources.η Spend 1 ammo: Fight. You get +2 [ή] and deal +1 damage for this attack." />
+      <property name="Text" value="Uses (5 ammo).Ammo spent from .45 Thompson is placed in your resource pool, as resources.η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="3" />
       <property name="Cost" value="6" />
@@ -14,7 +14,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="2 Hand" />
+      <property name="Slot" value="Hand x2" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="b83a5a1e-0562-4856-be25-6dda9fe4fb46" name=".45 Thompson">
@@ -22,7 +22,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
-      <property name="Text" value="Uses (5 ammo).η Spend 1 ammo: Fight. You get +2 [ή] and deal +1 damage for this attack. If you succeed by at least X, you may spend 1 ammo to deal this attack’s damage to another enemy at your location, where X is that enemy’s fight value." />
+      <property name="Text" value="Uses (5 ammo).η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack. If you succeed by at least X, you may spend 1 ammo to deal this attack’s damage to another enemy at your location, where X is that enemy’s fight value." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="3" />
       <property name="Cost" value="5" />
@@ -30,7 +30,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="1" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="2 Hand" />
+      <property name="Slot" value="Hand x2" />
       <property name="Skill Icons" value="ήί" />
     </card>
     <card id="f6e6bd79-7d2a-4ee8-a469-6e72ebbfa25c" name="Scroll of Secrets">
@@ -46,7 +46,7 @@
       <property name="Intellect" value="2" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έέ" />
     </card>
     <card id="8c671c80-d9a1-400d-a11d-75678e3b5bd7" name="Scroll of Secrets">
@@ -62,7 +62,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="2226a4fd-80fe-484c-a0e6-c8c840197f16" name="Tennessee Sour Mash">
@@ -70,7 +70,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Illicit." />
-      <property name="Text" value="Fast. Uses (2 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +3 [ά] for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 [ή] and deal +1 damage for this attack." />
+      <property name="Text" value="Fast. Uses (2 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +3 ά for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 ή and deal +1 damage for this attack." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="3" />
       <property name="Cost" value="3" />
@@ -85,7 +85,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Illicit." />
-      <property name="Text" value="Uses (3 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 [ά] for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 [ή] for this attack. If this attack succeeds against a non-Elite enemy, automatically evade it." />
+      <property name="Text" value="Uses (3 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 ά for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 ή for this attack. If this attack succeeds against a non-Elite enemy, automatically evade it." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="3" />
       <property name="Cost" value="2" />
@@ -100,7 +100,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Weapon. Melee." />
-      <property name="Text" value="Uses (3 charges).η: Fight. You get +2 [ή] for this attack. If you succeed, you may spend 1 charge to empower the blade, dealing +1 damage for this attack. If the blade is empowered and this attack defeats an enemy, draw 1 card and heal 1 horror." />
+      <property name="Text" value="Uses (3 charges).η: Fight. You get +2 ή for this attack. If you succeed, you may spend 1 charge to empower the blade, dealing +1 damage for this attack. If the blade is empowered and this attack defeats an enemy, draw 1 card and heal 1 horror." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="3" />
       <property name="Cost" value="3" />
@@ -116,7 +116,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Weapon. Melee." />
-      <property name="Text" value="Uses (4 charges).η: Fight. You get +2 [ή] for this attack. As an additional cost to use this ability, you may spend up to 2 charges to empower the blade (for each charge spent in this way, you get +1 [ή] and deal +1 damage for this attack)." />
+      <property name="Text" value="Uses (4 charges).η: Fight. You get +2 ή for this attack. As an additional cost to use this ability, you may spend up to 2 charges to empower the blade (for each charge spent in this way, you get +1 ή and deal +1 damage for this attack)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="3" />
       <property name="Cost" value="3" />
@@ -497,7 +497,7 @@
       <property name="Subtitle" value="Master of Initiation" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight. Elite." />
-      <property name="Text" value="Retaliate.η: Parley. Test [ά] (3) to persuade Nathan to let you find another option. If you succeed, place 1 resource on Nathan Wick. Then, if there are 1π resources on him, add him to the victory display. If you fail, Nathan Wick attacks you." />
+      <property name="Text" value="Retaliate.η: Parley. Test ά (3) to persuade Nathan to let you find another option. If you succeed, place 1 resource on Nathan Wick. Then, if there are 1π resources on him, add him to the victory display. If you fail, Nathan Wick attacks you." />
       <property name="Health" value="5" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -523,7 +523,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
-      <property name="Text" value="Spawn – Any Sanctum location.Aloof.Forced – After Lodge Jailor enters play: Place 2 doom and 1 random set-aside key on it.η: Parley. Test [έ] (3). If you succeed, either remove 1 doom from Lodge Jailor, or take control of its key." />
+      <property name="Text" value="Spawn – Any Sanctum location.Aloof.Forced – After Lodge Jailor enters play: Place 2 doom and 1 random set-aside key on it.η: Parley. Test έ (3). If you succeed, either remove 1 doom from Lodge Jailor, or take control of its key." />
       <property name="Health" value="3" />
       <property name="Combat" value="2" />
       <property name="Agility" value="3" />
@@ -562,7 +562,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
-      <property name="Text" value="Spawn – Any location connected to yours.Prey – Most (α/β/γ/δ) keys controlled.Alert. Aloof. Hunter.Forced – After you enter Knight of the Inner Circle’s location (or vice-versa): Test [ί] (4). If you fail, Knight of the Inner Circle engages you." />
+      <property name="Text" value="Spawn – Any location connected to yours.Prey – Most (α/β/γ/δ) keys controlled.Alert. Aloof. Hunter.Forced – After you enter Knight of the Inner Circle’s location (or vice-versa): Test ί (4). If you fail, Knight of the Inner Circle engages you." />
       <property name="Health" value="4" />
       <property name="Combat" value="4" />
       <property name="Agility" value="2" />
@@ -574,7 +574,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
-      <property name="Text" value="Spawn – Any location connected to yours.Aloof. Peril. Retaliate.Revelation – After Knight of the Outer Void spawns, place either 1 or 2 doom on it.η: Parley. Test [ά] or [έ] (4). If you succeed, take control of 1 doom on Knight of the Outer Void, and flip it to its clue side. If you fail, Knight of the Outer Void attacks you." />
+      <property name="Text" value="Spawn – Any location connected to yours.Aloof. Peril. Retaliate.Revelation – After Knight of the Outer Void spawns, place either 1 or 2 doom on it.η: Parley. Test ά or έ (4). If you succeed, take control of 1 doom on Knight of the Outer Void, and flip it to its clue side. If you fail, Knight of the Outer Void attacks you." />
       <property name="Health" value="3" />
       <property name="Combat" value="3" />
       <property name="Agility" value="4" />
@@ -603,7 +603,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Scheme." />
-      <property name="Text" value="If you control at least 1 (α/β/γ/δ) key, Beneath the Lodge gains peril and its skill test gets +1 difficulty.Revelation – Test [έ] (3). For each point you fail by, you must either lose 1 clue or take 1 horror." />
+      <property name="Text" value="If you control at least 1 (α/β/γ/δ) key, Beneath the Lodge gains peril and its skill test gets +1 difficulty.Revelation – Test έ (3). For each point you fail by, you must either lose 1 clue or take 1 horror." />
     </card>
     <card id="16a55402-d8cc-4d8a-ac73-11301f6ec9c3" name="Mark of the Order" size="EncounterCard">
       <property name="Card Number" value="226" />
@@ -613,7 +613,7 @@
       <property name="Traits" value="Scheme." />
       <property name="Text" value="Surge.Revelation – Check which investigator controls each key. Otherwise, the investigator who controls:–the α key takes 1 damage.–the β key takes 1 horror.–the γ key discards 2 random cards from hand.–the δ key loses 3 resources." />
     </card>
-    <card id="5244c3f2-2039-4f6d-a49d-a00eb4c9b370" name="August Lindquist">
+    <card id="5244c3f2-2039-4f6d-a49d-a00eb4c9b370" name="August Lindquist" size="EncounterCard">
       <property name="Card Number" value="227" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="For the Greater Good" />

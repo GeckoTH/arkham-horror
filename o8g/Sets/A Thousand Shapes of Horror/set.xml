@@ -63,7 +63,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="914848c7-c854-45a1-baa8-074087f6b7d3" name="Dream-Enhancing Serum">
@@ -79,7 +79,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="32d5fc8d-d784-4dec-b747-7be41b6d95f8" name="“Let God sort them out...”">
@@ -144,7 +144,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ά" />
     </card>
     <card id="d2bcdc16-7611-4c0b-8e61-49608a6c9647" name="Ethereal Form">
@@ -152,7 +152,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="Evade. Add your [ά] value to your skill value for this evasion attempt. If you succeed, disengage from each other enemy engaged with you, and for the remainder of the round, you are ethereal (enemies cannot engage or be engaged with you, and you cannot attack or deal damage to enemies)." />
+      <property name="Text" value="Evade. Add your ά value to your skill value for this evasion attempt. If you succeed, disengage from each other enemy engaged with you, and for the remainder of the round, you are ethereal (enemies cannot engage or be engaged with you, and you cannot attack or deal damage to enemies)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -182,7 +182,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Skill" />
       <property name="Traits" value="Innate. Developed." />
-      <property name="Text" value="Max 1 committed per skill test.&#10;While Brute Force is committed during a basic fight action, it gains [ή] [ή] and the text: “If this test is successful by 2 or more, this attack deals +2 damage.”" />
+      <property name="Text" value="Max 1 committed per skill test.&#10;While Brute Force is committed during a basic fight action, it gains ή ή and the text: “If this test is successful by 2 or more, this attack deals +2 damage.”" />
       <property name="Class" value="Survivor" />
       <property name="Level" value="1" />
       <property name="Willpower" value="0" />
@@ -243,7 +243,7 @@
       <property name="Encounter Set" value="A Thousand Shapes of Horror" />
       <property name="Subtitle" value="Agenda 2a" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each Swarm of Rats gains swarming 1.&#10;Forced – At the start of your turn, if The Unnamable is ready and at your location: Test [ά] (2). If you fail, it attacks you (even if it is not engaged with you)." />
+      <property name="Text" value="Each Swarm of Rats gains swarming 1.&#10;Forced – At the start of your turn, if The Unnamable is ready and at your location: Test ά (2). If you fail, it attacks you (even if it is not engaged with you)." />
       <property name="Doom" value="6" />
       <alternate name="It Grows Bolder" size="HorizCard" type="B">
         <property name="Encounter Set" value="A Thousand Shapes of Horror" />
@@ -258,7 +258,7 @@
       <property name="Encounter Set" value="A Thousand Shapes of Horror" />
       <property name="Subtitle" value="Agenda 3a" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each Swarm of Rats gains swarming 2.&#10;The Unnamable loses aloof and gains massive.&#10;Forced – At the start of your turn, if The Unnamable is ready and at your location: Test [ά] (2). If you fail, it attacks you (even if it is not engaged with you)." />
+      <property name="Text" value="Each Swarm of Rats gains swarming 2.&#10;The Unnamable loses aloof and gains massive.&#10;Forced – At the start of your turn, if The Unnamable is ready and at your location: Test ά (2). If you fail, it attacks you (even if it is not engaged with you)." />
       <property name="Doom" value="7" />
       <alternate name="Is It Real" size="HorizCard" type="B">
         <property name="Encounter Set" value="A Thousand Shapes of Horror" />
@@ -569,7 +569,7 @@
       <property name="Encounter Set" value="A Thousand Shapes of Horror" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Revelation – Put Deceptive Memories into play in your threat area.&#10;Forced – After another card enters your threat area: Choose and discard 1 card from your hand.&#10;η: Test [ά] (3). If you succeed, discard Deceptive Memories." />
+      <property name="Text" value="Revelation – Put Deceptive Memories into play in your threat area.&#10;Forced – After another card enters your threat area: Choose and discard 1 card from your hand.&#10;η: Test ά (3). If you succeed, discard Deceptive Memories." />
     </card>
     <card id="427049b0-eca4-4a65-8ee3-2fed344676d3" name="Secrets in the Attic" size="EncounterCard">
       <property name="Card Number" value="194" />
@@ -577,7 +577,7 @@
       <property name="Encounter Set" value="A Thousand Shapes of Horror" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Scheme." />
-      <property name="Text" value="Revelation – Test [ά] (3). If you fail, take 1 horror and put Secrets in the Attic into play next to the agenda deck.&#10;θ abilities on locations cannot be triggered.Forced – At the end of the round: Discard 1 copy of Secrets in the Attic from play. (Max once per round.)" />
+      <property name="Text" value="Revelation – Test ά (3). If you fail, take 1 horror and put Secrets in the Attic into play next to the agenda deck.&#10;θ abilities on locations cannot be triggered.Forced – At the end of the round: Discard 1 copy of Secrets in the Attic from play. (Max once per round.)" />
     </card>
   </cards>
 </set>

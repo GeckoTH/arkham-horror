@@ -218,7 +218,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="5"/>
     <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it."/>
-    <alternate name="The Jungle's Heart" size="HorizCard" type="B">
+    <alternate name="Are We Alone?" size="HorizCard" type="B">
       <property name="Encounter Set" value="Pillars of Judgment"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -238,7 +238,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="5"/>
     <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it."/>
-    <alternate name="Setting Sun" size="HorizCard" type="B">
+    <alternate name="Night Falls in the Jungle" size="HorizCard" type="B">
       <property name="Encounter Set" value="Pillars of Judgment"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -281,7 +281,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η Investigators at the Mouth of K'n-yan spend 1π clues, as a group: You solve one piece of the puzzle. Add 1 resource to the Mouth of K'n-yan, as a pillar token.&#10;Objective - Solve the puzzle of the six pillars in order to enter K'n-yan. If there are 6 pillar tokens on the Mouth of K'n-yan, advance to act 2b."/>
-    <alternate name="Opening the Maw" size="HorizCard" type="B">
+    <alternate name="Entering K'n-yan" size="HorizCard" type="B">
       <property name="Encounter Set" value="Pillars of Judgment"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -301,7 +301,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
     <property name="Text" value="η If there are no clues on your location: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;Forced - When this agenda advances: Do not remove doom from each location in play."/>
-    <alternate name="The Lonely Caverns" size="HorizCard" type="B">
+    <alternate name="Serpents' Revenge" size="HorizCard" type="B">
       <property name="Encounter Set" value="Knyan"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -321,7 +321,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="12"/>
     <property name="Text" value="η If there are no clues on your location: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;*This agenda gets +1π doom threshold."/>
-    <alternate name="Eyes in the Dark" size="HorizCard" type="B">
+    <alternate name="Crumbling Caverns" size="HorizCard" type="B">
       <property name="Encounter Set" value="Knyan"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -340,7 +340,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
-    <alternate name="Cavern of the Forgotten Age" size="HorizCard" type="B">
+    <alternate name="In Circles" size="HorizCard" type="B">
       <property name="Encounter Set" value="Knyan"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -360,7 +360,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If each surviving investigator is at the Descent to Yoth and there is no doom on it, you may advance."/>
-    <alternate name="Descent into Dark" size="HorizCard" type="B">
+    <alternate name="To Yoth" size="HorizCard" type="B">
       <property name="Encounter Set" value="Knyan"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>

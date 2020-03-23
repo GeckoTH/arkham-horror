@@ -59,7 +59,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
       <property name="Agility" value="1" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="ί" />
     </card>
     <card id="9d070e2e-8347-4dee-862c-3ef2cad34aed" name="Investments">
@@ -106,7 +106,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έ" />
     </card>
     <card id="bcd654ff-e2ce-4096-adf3-cca425a45b05" name="Guiding Spirit">
@@ -114,7 +114,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Geist." />
-      <property name="Text" value="You get +1 [έ].Non-direct horror must be assigned to Guiding Spirit before it can be assigned to your investigator card.Forced – After Guiding Spirit is defeated by horror: Exile it." />
+      <property name="Text" value="You get +1 έ.Non-direct horror must be assigned to Guiding Spirit before it can be assigned to your investigator card.Forced – After Guiding Spirit is defeated by horror: Exile it." />
       <property name="Health" value="–" />
       <property name="Sanity" value="3" />
       <property name="Class" value="Survivor" />
@@ -320,7 +320,7 @@
         <property name="Encounter Set" value="Union and Disillusion" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Woods." />
-        <property name="Text" value="η: Circle. Test [ά] or [έ] (3) to find the brazier by the wooded trail. If you succeed, you may light or unlight the brazier.Haunted – You must either lose 1 action or lose 2 resources." />
+        <property name="Text" value="η: Circle. Test ά or έ (3) to find the brazier by the wooded trail. If you succeed, you may light or unlight the brazier.Haunted – You must either lose 1 action or lose 2 resources." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -338,7 +338,7 @@
         <property name="Subtitle" value="Standing Stones" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Woods." />
-        <property name="Text" value="η: Circle. Test [ά]+[έ] (10) to examine the brazier in front of the standing stone. If you succeed, you may light or unlight the brazier.Haunted – Until the end of the round, increase the difficulty of each skill test during a circle action by 2." />
+        <property name="Text" value="η: Circle. Test ά+έ (10) to examine the brazier in front of the standing stone. If you succeed, you may light or unlight the brazier.Haunted – Until the end of the round, increase the difficulty of each skill test during a circle action by 2." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="2π" />
         <property name="Victory Points" value="1" />
@@ -357,7 +357,7 @@
         <property name="Subtitle" value="Misty Clearing" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Woods." />
-        <property name="Text" value="η: Circle. Test [ά]+[ί] (11) to traverse the mist surrounding the brazier. If you succeed, you may light or unlight the brazier.Haunted – You must either place 1 doom on this location, or take 1 damage and 1 horror." />
+        <property name="Text" value="η: Circle. Test ά+ί (11) to traverse the mist surrounding the brazier. If you succeed, you may light or unlight the brazier.Haunted – You must either place 1 doom on this location, or take 1 damage and 1 horror." />
         <property name="Shroud" value="1" />
         <property name="Clues" value="2π" />
         <property name="Victory Points" value="1" />
@@ -376,7 +376,7 @@
         <property name="Subtitle" value="Forsaken Woods" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Woods." />
-        <property name="Text" value="η: Circle. Test [ά]+[ή] (11) to clear a path through the woods. If you succeed, you may light or unlight the brazier.Haunted – You must either search the encounter deck and discard pile for a Whippoorwill and spawn it at this location, or the nearest Whippoorwill attacks you." />
+        <property name="Text" value="η: Circle. Test ά+ή (11) to clear a path through the woods. If you succeed, you may light or unlight the brazier.Haunted – You must either search the encounter deck and discard pile for a Whippoorwill and spawn it at this location, or the nearest Whippoorwill attacks you." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="2π" />
         <property name="Victory Points" value="1" />
@@ -395,7 +395,7 @@
         <property name="Subtitle" value="Moss-Covered Steps" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Woods." />
-        <property name="Text" value="η: Circle. Test [ή]+[ί] (10) to explore the mossy steps. If you succeed, you may light or unlight the brazier at the top.Haunted – Your next move action this round costs 1 additional action." />
+        <property name="Text" value="η: Circle. Test ή+ί (10) to explore the mossy steps. If you succeed, you may light or unlight the brazier at the top.Haunted – Your next move action this round costs 1 additional action." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="2π" />
         <property name="Victory Points" value="1" />
@@ -414,7 +414,7 @@
         <property name="Subtitle" value="Haunted Spring" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Woods." />
-        <property name="Text" value="η: Circle. Test [έ]+[ί] (9) to reach the brazier in the center of the spring. If you succeed, you may light or unlight the brazier.Haunted – You must either discard an asset you control, or take 1 damage." />
+        <property name="Text" value="η: Circle. Test έ+ί (9) to reach the brazier in the center of the spring. If you succeed, you may light or unlight the brazier.Haunted – You must either discard an asset you control, or take 1 damage." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="2π" />
         <property name="Victory Points" value="1" />
@@ -433,7 +433,7 @@
         <property name="Subtitle" value="Decayed Willow" />
         <property name="Type" value="Locatoin" />
         <property name="Traits" value="Woods." />
-        <property name="Text" value="η: Circle. Test [έ]+[ή] (9) to find the brazier inside the decaying tree. If you succeed, you may light or unlight the brazier.Haunted – Choose and discard 1 card from your hand." />
+        <property name="Text" value="η: Circle. Test έ+ή (9) to find the brazier inside the decaying tree. If you succeed, you may light or unlight the brazier.Haunted – Choose and discard 1 card from your hand." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="2π" />
         <property name="Victory Points" value="1" />
@@ -451,7 +451,7 @@
         <property name="Encounter Set" value="Union and Disillusion" />
         <property name="Type" value="Lcoation" />
         <property name="Traits" value="Woods. Spectral." />
-        <property name="Text" value="While The Spectral Watcher is at The Geist-Trap, it gains retaliate.η: Circle. Test [ά]+[έ]+[ή]+[ί] (20) to complete the ritual, or to disrupt it. If you succeed, you may either light or unlight the brazier here.Haunted – Take 1 damage and 1 horror." />
+        <property name="Text" value="While The Spectral Watcher is at The Geist-Trap, it gains retaliate.η: Circle. Test ά+έ+ή+ί (20) to complete the ritual, or to disrupt it. If you succeed, you may either light or unlight the brazier here.Haunted – Take 1 damage and 1 horror." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
@@ -464,7 +464,7 @@
       <property name="Subtitle" value="Not Going Down That Easily" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Veteran." />
-      <property name="Text" value="You get +1 [ή].ι After an enemy attacks you, even if that attack was canceled, exhaust Gavriella Mizrah: Discover 1 clue at your location." />
+      <property name="Text" value="You get +1 ή.ι After an enemy attacks you, even if that attack was canceled, exhaust Gavriella Mizrah: Discover 1 clue at your location." />
       <property name="Health" value="4" />
       <property name="Sanity" value="1" />
       <property name="Class" value="Neutral" />
@@ -484,7 +484,7 @@
       <property name="Subtitle" value="In Way Over His Head" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Assistant." />
-      <property name="Text" value="You get +1 [έ].ι When an investigator at your location draws a treachery from the encounter deck, exhaust Jerome Davids and discard cards from your hand with a total of at least 2 [έ] icons: Cancel that card's revelation effect." />
+      <property name="Text" value="You get +1 έ.ι When an investigator at your location draws a treachery from the encounter deck, exhaust Jerome Davids and discard cards from your hand with a total of at least 2 έ icons: Cancel that card's revelation effect." />
       <property name="Health" value="1" />
       <property name="Sanity" value="4" />
       <property name="Class" value="Neutral" />
@@ -504,7 +504,7 @@
       <property name="Subtitle" value="The Nightmare Is Over" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Assistant." />
-      <property name="Text" value="You get +1 [ά].ι After you succeed at a skill test during a revelation effect, exhaust Penny White: Discover 1 clue at your location." />
+      <property name="Text" value="You get +1 ά.ι After you succeed at a skill test during a revelation effect, exhaust Penny White: Discover 1 clue at your location." />
       <property name="Health" value="3" />
       <property name="Sanity" value="2" />
       <property name="Class" value="Neutral" />
@@ -524,7 +524,7 @@
       <property name="Subtitle" value="Took You Long Enough" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Socialite." />
-      <property name="Text" value="You get +1 [ί].θ During a skill test you are performing, spend 2 resources and exhaust Valentino Rivas: Reduce the difficulty of this test by 1." />
+      <property name="Text" value="You get +1 ί.θ During a skill test you are performing, spend 2 resources and exhaust Valentino Rivas: Reduce the difficulty of this test by 1." />
       <property name="Health" value="2" />
       <property name="Sanity" value="3" />
       <property name="Class" value="Neutral" />
@@ -625,7 +625,7 @@
       <property name="Encounter Set" value="Union and Disillusion" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature." />
-      <property name="Text" value="Aloof. Hunter.Each investigator at Whippoorwill’s location gets –1 [ά], –1 [έ], –1 [ή], and –1 [ί]." />
+      <property name="Text" value="Aloof. Hunter.Each investigator at Whippoorwill’s location gets –1 ά, –1 έ, –1 ή, and –1 ί." />
       <property name="Health" value="1" />
       <property name="Combat" value="2" />
       <property name="Agility" value="4" />
@@ -638,7 +638,7 @@
       <property name="Encounter Set" value="Union and Disillusion" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Spectral." />
-      <property name="Text" value="Prey – Lowest [έ].Alert. Hunter. Retaliate.Forced – After Spectral Raven engages you: You must either resolve each haunted ability on your location, or Spectral Raven gets +2 fight and +2 evade until the end of the investigation phase." />
+      <property name="Text" value="Prey – Lowest έ.Alert. Hunter. Retaliate.Forced – After Spectral Raven engages you: You must either resolve each haunted ability on your location, or Spectral Raven gets +2 fight and +2 evade until the end of the investigation phase." />
       <property name="Health" value="2" />
       <property name="Combat" value="2" />
       <property name="Agility" value="2" />
@@ -651,7 +651,7 @@
       <property name="Encounter Set" value="Union and Disillusion" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Omen." />
-      <property name="Text" value="Revelation – Test [ά] (2). Increase this skill test’s difficulty by 1 for each damage on you. If you fail, take 2 horror." />
+      <property name="Text" value="Revelation – Test ά (2). Increase this skill test’s difficulty by 1 for each damage on you. If you fail, take 2 horror." />
     </card>
     <card id="2c683365-691b-41f5-964a-65f41cd8314b" name="Psychopomp’s Song" size="EncounterCard">
       <property name="Card Number" value="269" />
@@ -675,7 +675,7 @@
       <property name="Encounter Set" value="Union and Disillusion" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – Test [ί] (2). Increase this skill test’s difficulty by 1 for each horror on you. If you fail, take 2 damage." />
+      <property name="Text" value="Revelation – Test ί (2). Increase this skill test’s difficulty by 1 for each horror on you. If you fail, take 2 damage." />
     </card>
     <card id="0932a14c-516b-40b2-a5ed-c3096388ac35" name="Watcher’s Gaze" size="EncounterCard">
       <property name="Card Number" value="272" />
@@ -683,7 +683,7 @@
       <property name="Encounter Set" value="Union and Disillusion" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – Each investigator tests [ά] (5). Each investigator who fails must resolve either the haunted ability on his or her location, or the haunted ability on The Spectral Watcher’s location." />
+      <property name="Text" value="Revelation – Each investigator tests ά (5). Each investigator who fails must resolve either the haunted ability on his or her location, or the haunted ability on The Spectral Watcher’s location." />
     </card>
   </cards>
 </set>

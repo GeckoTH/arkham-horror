@@ -60,7 +60,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Hand" />
+      <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έ" />
     </card>
     <card id="d0f4baa1-b066-47a0-a43f-9160efe57818" name="Blood-Rite">
@@ -121,7 +121,7 @@
       <property name="Intellect" value="1" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="άέ" />
     </card>
     <card id="6287a4d3-694e-4d93-83f1-85a8a4c73c16" name="Wither">
@@ -129,7 +129,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="η: Fight. This attack uses [ά] instead of [ή]. You get +2 [ά] for this attack. If a α, β, γ, or δ symbol is revealed during this attack, the attacked enemy gets –1 fight, –1 health, and –1 evade for the remainder of the turn (to a minimum of 1)." />
+      <property name="Text" value="η: Fight. This attack uses ά instead of ή. You get +2 ά for this attack. If a α, β, γ, or δ symbol is revealed during this attack, the attacked enemy gets –1 fight, –1 health, and –1 evade for the remainder of the turn (to a minimum of 1)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="4" />
       <property name="Cost" value="2" />
@@ -137,7 +137,7 @@
       <property name="Intellect" value="0" />
       <property name="Combat" value="2" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ήή" />
     </card>
     <card id="5c700a72-b4ec-4c7a-bfa9-dc6dc4fc6144" name="Sixth Sense">
@@ -145,7 +145,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="η: Investigate. Investigate using [ά] instead of [έ]. You get +2 [ά] for this investigation. If a α, β, γ, or δ symbol is revealed during this test, you may choose a revealed location up to 2 connections away from your location; you are now investigating as if you were at the chosen location instead of your location (you may use either shroud value)." />
+      <property name="Text" value="η: Investigate. Investigate using ά instead of έ. You get +2 ά for this investigation. If a α, β, γ, or δ symbol is revealed during this test, you may choose a revealed location up to 2 connections away from your location; you are now investigating as if you were at the chosen location instead of your location (you may use either shroud value)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="4" />
       <property name="Cost" value="3" />
@@ -153,7 +153,7 @@
       <property name="Intellect" value="2" />
       <property name="Combat" value="0" />
       <property name="Agility" value="0" />
-      <property name="Slot" value="1 Arcane" />
+      <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="έέ" />
     </card>
     <card id="21b8d017-25a0-4d2e-b4ea-52490b8f19c9" name="Lure">
@@ -227,7 +227,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="Agenda 2b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="Each Cultist enemy commits ritual suicide. Discard each Cultist enemy in play and move all doom from them to Azathoth.The lead investigator must search the encounter deck and discard pile for a copy of Daemonic Piping and draw it.In this oblivion outside time, nothing is as it should be. The mist dances and churns around you. Laughter mocks you from beyond, and out from the dark nebulae emerges a familiar wraith, a being which should be long dead.Check Campaign Log. If Worn Crucifix is listed under “Mementos Discovered,” the wraith recognizes the crucifix you stole from Walter Gilman’s room and backs away slowly, slinking into the darkness beyond.Otherwise, the wraith attacks you; each investigator must test [ά] (4). Each investigator who fails takes 1 damage and 1 horror." />
+        <property name="Text" value="Each Cultist enemy commits ritual suicide. Discard each Cultist enemy in play and move all doom from them to Azathoth.The lead investigator must search the encounter deck and discard pile for a copy of Daemonic Piping and draw it.In this oblivion outside time, nothing is as it should be. The mist dances and churns around you. Laughter mocks you from beyond, and out from the dark nebulae emerges a familiar wraith, a being which should be long dead.Check Campaign Log. If Worn Crucifix is listed under “Mementos Discovered,” the wraith recognizes the crucifix you stole from Walter Gilman’s room and backs away slowly, slinking into the darkness beyond.Otherwise, the wraith attacks you; each investigator must test ά (4). Each investigator who fails takes 1 damage and 1 horror." />
       </alternate>
     </card>
     <card id="a1a82dd1-3db2-4ebd-b73c-b54f43e7e4a4" name="The Final Countdown" size="HorizCard">
@@ -443,7 +443,7 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – Test [ά] (4). If you fail, attach Ultimate Chaos to Azathoth. If you fail by 2 or more, take 1 damage and 1 horror. If you fail by 3 or more, Ultimate Chaos gains surge. Cannot be canceled.If there are 3 copies of Ultimate Chaos attached to Azathoth, discard them and either place 1 doom on Azathoth, or Azathoth attacks each investigator in player order. Cannot be canceled." />
+      <property name="Text" value="Revelation – Test ά (4). If you fail, attach Ultimate Chaos to Azathoth. If you fail by 2 or more, take 1 damage and 1 horror. If you fail by 3 or more, Ultimate Chaos gains surge. Cannot be canceled.If there are 3 copies of Ultimate Chaos attached to Azathoth, discard them and either place 1 doom on Azathoth, or Azathoth attacks each investigator in player order. Cannot be canceled." />
     </card>
     <card id="d56e90f0-5778-4f3d-8648-7736f402dbe3" name="Whispered Bargain" size="EncounterCard">
       <property name="Card Number" value="343" />
@@ -459,7 +459,7 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Endtimes." />
-      <property name="Text" value="Revelation – Test [ά] (1). This test gets +X difficulty, where X is the current agenda number. If there is no agenda in play, X is 4. If you fail, place 1 doom on Azathoth." />
+      <property name="Text" value="Revelation – Test ά (1). This test gets +X difficulty, where X is the current agenda number. If there is no agenda in play, X is 4. If you fail, place 1 doom on Azathoth." />
     </card>
     <card id="f5245cce-527b-4ea8-9394-f8a45cea9ea1" name="A World in Darkness" size="EncounterCard">
       <property name="Card Number" value="345" />

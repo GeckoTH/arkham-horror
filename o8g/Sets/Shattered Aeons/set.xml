@@ -152,7 +152,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
     <property name="Text" value="Forced - If an investigator with the Relic of Ages in his or her hand, deck, discard pile, or play area is eliminated: Immediately advance to agenda 3b."/>
-    <alternate name="Threads of Time" size="HorizCard" type="B">
+    <alternate name="The Spawn of N'kai" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -172,7 +172,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
     <property name="Text" value="Forced - If an investigator with the Relic of Ages in his or her hand, deck, discard pile, or play area is eliminated: Immediately advance to agenda 3b."/>
-    <alternate name="Pendulous Threads" size="HorizCard" type="B">
+    <alternate name="The Nexus Falters" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -192,7 +192,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="12"/>
     <property name="Text" value="Forced - If an investigator with the Relic of Ages in his or her hand, deck, discard pile, or play area is eliminated: Immediately advance to agenda 3b."/>
-    <alternate name="Snapped Threads" size="HorizCard" type="B">
+    <alternate name="Shattered Aeons" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -212,7 +212,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Forced - When an enemy would spawn at an empty location and there are no empty locations in play: Reveal cards from the exploration deck until a location is revealed. Put that location into play and spawn that enemy there. Shuffle the exploration deck."/>
-    <alternate name="Worlds Beyond" size="HorizCard" type="B">
+    <alternate name="Return to Another Time" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -232,7 +232,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If an investigator enters A Pocket in Time, advance."/>
-    <alternate name="Search for the Brotherhood" size="HorizCard" type="B">
+    <alternate name="Gateways to Other Times" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -252,7 +252,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η: Search your deck or discard pile for the Relic of Ages and add it to your hand. Shuffle your deck.&#10;η If the Relic of Ages is attached to your location and there are no clues on that location: Take control of the Relic of Ages.&#10;Objective - If an investigator controls the Relic of Ages, advance."/>
-    <alternate name="The Yithian Relic" size="HorizCard" type="B">
+    <alternate name="The Relic Is the Key" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -272,7 +272,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η If you are at a [[shattered]] location with no clues: Test ά or έ (3). If you succeed, attach your location facedown to the Relic of Ages. Each investigator and enemy at that location is moved to A Pocket in Time.&#10;Objective - If the number of locations attached to the Relic of Ages is equal to 1 plus the number of investigators who started the game, advance."/>
-    <alternate name="Mend the Shatter" size="HorizCard" type="B">
+    <alternate name="It Is Done" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -292,7 +292,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η If you are at a [[shattered]] location with no clues: Test ά or έ (3). If you succeed, attach your location facedown to the Relic of Ages. Each investigator and enemy at that location is moved to A Pocket in Time.&#10;Objective - If Valusia is attached to the Relic of Ages, advance."/>
-    <alternate name="Paradise Lost" size="HorizCard" type="B">
+    <alternate name="Glory to Valusia" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -312,7 +312,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η If you are at a [[shattered]] location with no clues: Test ά or έ (3). If you succeed, attach your location facedown to the Relic of Ages. Each investigator and enemy at that location is moved to A Pocket in Time.&#10;Objective - If Pnakotus is attached to the Relic of Ages, advance."/>
-    <alternate name="Timelock" size="HorizCard" type="B">
+    <alternate name="Survival of Pnakotus" size="HorizCard" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -328,20 +328,21 @@
     <property name="Encounter Set" value="Shattered Aeons"/>
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
+    <property name="Subtitle" value="Unraveling the Threads"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Ancient. Ruins."/>
     <alternate name="Nexus of N'kai" size="EncounterCard" type="B">
-      <property name="Encounter Set" value="Shattered Aeons"/>
-      <property name="Subtitle" value="Unraveling the Threads"/>
+      <property name="Encounter Set" value="Shattered Aeons"/>      
       <property name="Type" value="Location"/>
       <property name="Class" value="Mythos"/>
-      <property name="Shroud" value=""/>
+	  <property name="Subtitle" value="Unraveling the Threads"/>
+      <property name="Shroud" value="4"/>
       <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ancient. Ruins."/>
-      <property name="Text" value="Forced - After you move from Nexus of N'kai to an [[otherworld]] location, or vice versa: Take 1 horror for each clue on that [[otherworld]] location.&#10;η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it. Do not take horror from the above Forced ability when moving via this effect."/>
+      <property name="Text" value="Forced - After you move from Nexus of N'kai to an [[Otherworld]] location, or vice versa: Take 1 horror for each clue on that [[Otherworld]] location.&#10;η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it. Do not take horror from the above Forced ability when moving via this effect."/>
     </alternate>
   </card>
   <card id="74080182-a727-4a63-98b0-42e0909e4bdc" name="Ictaca" size="EncounterCard">
@@ -616,7 +617,7 @@
     <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it."/>
-    <alternate name="Into the Ruins Once Again" size="HorizCard" type="B">
+    <alternate name="Sleeping Corridors" size="HorizCard" type="B">
       <property name="Encounter Set" value="Turn Back Time"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -636,7 +637,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;Objective - Only investigators in the Chamber of Time may spend the requisite number of clues, as a group, to advance."/>
-    <alternate name="The Chamber of Still Remains" size="HorizCard" type="B">
+    <alternate name="Reversal" size="HorizCard" type="B">
       <property name="Encounter Set" value="Turn Back Time"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -656,7 +657,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Relic of Ages gains: &quot;η: Test ά or έ (4). If you succeed, flip a clue controlled by an investigator at your location to its doom side, and place it on your location. Then, deal 3 damage to Yig.&quot;&#10;Objective - If Yig is defeated, advance."/>
-    <alternate name="Moment of Doom" size="HorizCard" type="B">
+    <alternate name="Yig's Fall" size="HorizCard" type="B">
       <property name="Encounter Set" value="Turn Back Time"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
