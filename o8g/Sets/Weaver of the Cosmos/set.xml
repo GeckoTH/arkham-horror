@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Weaver of the Cosmos" id="2d0fb152-9b8e-40fa-8ef0-2aa3c7fa5f6a" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="b51e7293-f15e-436c-abb4-0d95a9db1256" name="Spiritual Resolve">
+      <property name="Card Number" value="323" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Myriad.&#10;θ Discard a copy of Spiritual Resolve from your hand: Heal all damage and horror from this copy of Spiritual Resolve." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="399f96c1-f02d-43de-8f8c-cb9ad7514109" name="Abigail Foreman">
+      <property name="Card Number" value="324" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Library Intern" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Miskatonic." />
+      <property name="Text" value="θ: Attach a Tome asset in your play area to Abigail Foreman, or switch a Tome asset in your play area with an attached asset. The asset attached to her takes up no hand slots. (Limit 1 attached asset.)&#10;ι After you resolve an η ability on the attached Tome asset, exhaust Abigail Foreman: Resolve its effects again." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0d00055a-08fb-44b0-bf99-ea2483354da5" name="The Eye of Truth">
+      <property name="Card Number" value="325" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Spell. Practiced." />
+      <property name="Text" value="If this skill test is on a treachery and the test is successful, add that treachery to the victory display and attach The Eye of Truth to it.&#10;While attached, The Eye of Truth contributes its skill icons to all tests on copies of the attached treachery." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="5" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f60eb168-c513-4547-ad3e-f8e33ccc26d2" name="Joey &quot;The Rat&quot; Vigil">
+      <property name="Card Number" value="326" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Lookin' Out For #1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Criminal." />
+      <property name="Text" value="θ: Spend 1 resource: Choose an Item asset from your hand and play it (paying its cost).&#10;θ: Discard an Item asset from play: Gain 2 resources." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f7667096-5ed4-48e2-8806-10c8169974a1" name="Sawed-Off Shotgun">
+      <property name="Card Number" value="327" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (2 ammo).&#10;η Spend 1 ammo: Fight. Instead of its standard damage, this attack deals 1 damage for each point you succeed by (to a minimum of 1, to a maximum of 6). If you fail and would damage another investigator, this attack deals 1 damage for each point you fail by (to a minimum of 1, to a maximum of 6)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e4d1f4c1-5c04-4137-8e55-b9dab886a6f0" name="Mind's Eye">
+      <property name="Card Number" value="328" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Myriad.&#10;ι When you would test your [Intellect[, ή, or ί, spend 1 secret: Test your ά instead.&#10;θ Discard a copy of Mind's Eye from your hand: Place 2 secrets on this copy of Mind's Eye." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Arcane x2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0fe9a02e-f163-4434-9f9f-11915c59f115" name="Shining Trapezohedron">
+      <property name="Card Number" value="329" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="ι When you would pay the cost of a Spell card, exhaust Shining Trapezohedron: Instead, test ά (X), where X is that card's resource cost. If you succeed, its resource cost is considered paid. If you fail, cancel the playing of that card without paying any of its costs (including its action cost). For the remainder of the round, you cannot play copies of that card." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="10f4ae8e-bd52-4652-a2cb-e168b7bae56f" name="Nightmare Bauble">
+      <property name="Card Number" value="330" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm. Cursed." />
+      <property name="Text" value="Limit 1 per deck.&#10;Forced – After Nightmare Bauble enters play: Search your bonded cards for 3 copies of Dream Parasite and attach them to Nightmare Bauble. When Nightmare Bauble leaves play, set each attached Dream Parasite aside, out of play.&#10;ι When you reveal an ζ chaos token, shuffle an attached Dream Parasite into your deck: Cancel that token." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c5cb7f4a-968f-484c-860d-c8fcef53014b" name="Dream Parasite">
+      <property name="Card Number" value="331" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Skill" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Bonded (Nightmare Bauble).&#10;While Dream Parasite is in your hand, you must commit it to the next skill test you perform, if able.&#10;This skill's icons subtract from your skill value instead of adding to it.&#10;If this skill test fails, take 1 damage and 1 horror." />
+      <property name="Class" value="Neutral" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5b7fed63-ca88-4da4-a4c1-349bb1484ebf" name="Scavenging">
+      <property name="Card Number" value="332" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="ι After you successfully investigate by 2 or more, exhaust Scavenging: Choose an Item card in your discard pile and either add it to your hand or play it (paying its cost)." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ad67cccf-1548-4f2c-8ed3-31adef3e865f" name="Weaver of the Cosmos" size="EncounterCard">
+      <property name="Card Number" value="333" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the highest amount of doom on a location in play.&#10;β: Reveal another token. If you fail, and there is an Ancient One enemy at your location, it attacks you.&#10;γ: 0. The black cat tears at the web with its claws. If you succeed by 2 or more, remove 1 doom from your location.&#10;δ: –3. If this skill test fails during an attack against a Spider enemy, place 1 doom on that enemy's location." />
+      <alternate name="Weaver of the Cosmos" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is amount of doom on locations in play.&#10;β: Reveal another token. If you fail, and there is an Ancient One enemy at your location, it attacks you.&#10;γ: –1. The black cat tears at the web with its claws. If you succeed by 2 or more, remove 1 doom from your location.&#10;δ: –4. If this skill test fails during an attack against a Spider enemy, place 1 doom on that enemy's location." />
+      </alternate>
+    </card>
+    <card id="ce72ed72-a484-4450-9fb8-0fc732aee4db" name="The Bridge of Webs" size="HorizCard">
+      <property name="Card Number" value="334" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda gets +2π doom threshold.&#10;Forced – When this agenda advances: Do not remove doom from locations in play." />
+      <property name="Doom" value="7*" />
+      <alternate name="A Breath of Fresh Air" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Shuffle the encounter discard pile into the encounter deck." />
+      </alternate>
+    </card>
+    <card id="b5c64a97-16d1-48a6-af24-a880d12a45be" name="A Trail of Twists" size="HorizCard">
+      <property name="Card Number" value="335" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda gets +2π doom threshold.&#10;Forced – When this agenda advances: Do not remove doom from locations in play." />
+      <property name="Doom" value="9*" />
+      <alternate name="Of Stars and Webs" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Shuffle the encounter discard pile into the encounter deck." />
+      </alternate>
+    </card>
+    <card id="54966e5e-4c40-4f29-b317-7a328c6c21e1" name="Realities Interwoven" size="HorizCard">
+      <property name="Card Number" value="336" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda gets +2π doom threshold.&#10;" />
+      <property name="Doom" value="11*" />
+      <alternate name="Worlds Collide" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(-&gt;R2)" />
+      </alternate>
+    </card>
+    <card id="c19da6e6-e3b3-4628-a71f-e11fae99c187" name="Journey Across the Bridge" size="HorizCard">
+      <property name="Card Number" value="337" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each location is connected to each location above and below it.&#10;Objective – If each investigator is at the bottomost location, they may spend the requisite number of clues, as a group, to advance." />
+      <property name="Clues" value="3π" />
+      <alternate name="The Edge of Dreams" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Text" value="Read the Scenario Interlude: The Spider Queen in the Campaign Guide. Then, advance to Act 2a—&quot;The Weaver of the Cosmos.&quot;" />
+      </alternate>
+    </card>
+    <card id="8750375d-9b42-40a9-b029-9ab91195b445" name="The Weaver of the Cosmos" size="HorizCard">
+      <property name="Card Number" value="338" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η Spend 1 clue: Deal 3 damage to an Ancient One enemy at your location.&#10;Forced – When the mythos phase begins: Reveal a random token from the chaos bag. If the modifier is negative, spin Atlach-Nacha clockwise X times. X is the token's negative modifier.&#10;Objective – If 4 Legs of Atlach-Nacha are in the victory display, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="The Queen's Wrath" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Flip Atlach-Nacha's center card over, to its enemy side. Place it at the location with the most doom on it." />
+      </alternate>
+    </card>
+    <card id="01cdb03c-5d2f-4df7-8454-24ff7dcad511" name="The Scheme's Demise" size="HorizCard">
+      <property name="Card Number" value="339" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η Spend 1 clue: Deal 3 damage to an Ancient One enemy at your location.&#10;Forced – When the mythos phase begins: Reveal a random token from the chaos bag. If the modifier is negative, move Atlach-Nacha clockwise X times. X is the token's negative modifier.&#10;Objective – If Atlach-Nacha is defeated, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Falling Down" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="0f33f05a-67af-4aef-8888-fd6bd84f6037" name="The Great Web" size="EncounterCard">
+      <property name="Card Number" value="340" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Extradimensional." />
+      <alternate name="The Great Web" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Web-Stairs" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Extradimensional." />
+        <property name="Text" value="Forced – After this location is revealed: Place 1 doom on it." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b78b3ec4-15cd-4329-9a3e-3b3d6e47ed02" name="The Great Web" size="EncounterCard">
+      <property name="Card Number" value="341" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Extradimensional." />
+      <alternate name="The Great Web" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Cosmic Web" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Extradimensional." />
+        <property name="Text" value="Forced – After you enter this location: Test ά (3). If you fail, you must either choose and discard 1 card from your hand for each point you fail by, or place 1 doom on this location." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="8f8d3c90-7f4f-4303-ad94-b9fa8257744e" name="The Great Web" size="EncounterCard">
+      <property name="Card Number" value="342" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Extradimensional." />
+      <alternate name="The Great Web" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Tangled Web" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Extradimensional." />
+        <property name="Text" value="Forced – When the investigation phase ends, if there is at least 1 investigator at this location: Place 1 doom on this location." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="90041ce7-d53f-435d-900b-21ff98e749a1" name="The Great Web" size="EncounterCard">
+      <property name="Card Number" value="343" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Extradimensional." />
+      <alternate name="The Great Web" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Prison of Cocoons" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Extradimensional." />
+        <property name="Text" value="Forced – After you enter this location: Test ί (3). If you fail, you must either lose 1 action for each point you failed by, or place 1 doom on this location." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="1a55059e-a566-42b7-8667-9a69e4b2280a" name="The Great Web" size="EncounterCard">
+      <property name="Card Number" value="344" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Extradimensional." />
+      <alternate name="The Great Web" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Vast Web" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Extradimensional." />
+        <property name="Text" value="η If it is not act 1, and there are 1π or fewer clues on this location: Move. Move to the location directly across from this location." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="696d7664-6fe8-4790-9cfd-003ae9d98b8c" name="The Great Web" size="EncounterCard">
+      <property name="Card Number" value="345" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld. Extradimensional." />
+      <alternate name="The Great Web" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="Web-Woven island" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Extradimensional." />
+        <property name="Text" value="As an additional cost to investigate this location, you must either spend 1 action or place 1 doom on this location." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="32afa344-b50a-45b8-ac7c-4591c504e1c2" name="Legs of Atlach-Nacha" size="EncounterCard">
+      <property name="Card Number" value="347" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Spider. Elite." />
+      <property name="Text" value="Massive.&#10;This enemy cannot make attacks of opportunity.&#10;X is the shroud value of this enemy's location.&#10;Forced – When you would evade this enemy: Instead of exhausting it, choose an investigator at your location. This enemy cannot attack the chosen investigator this round.&#10;Victory 1." />
+      <property name="Health" value="3π" />
+      <property name="Combat" value="X" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="d2a699aa-19a6-4324-8885-feeedb084a6e" name="Legs of Atlach-Nacha" size="EncounterCard">
+      <property name="Card Number" value="348" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Spider. Elite." />
+      <property name="Text" value="Massive.&#10;This enemy cannot make attacks of opportunity.&#10;X is the shroud value of this enemy's location.&#10;Forced – When you would evade this enemy: Instead of exhausting it, choose an investigator at your location. This enemy cannot attack the chosen investigator this round.&#10;Victory 1." />
+      <property name="Health" value="3π" />
+      <property name="Combat" value="X" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="3f2c4e3a-9fd4-44c8-bb54-2a0ad8140743" name="Legs of Atlach-Nacha" size="EncounterCard">
+      <property name="Card Number" value="349" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Spider. Elite." />
+      <property name="Text" value="Massive.&#10;This enemy cannot make attacks of opportunity.&#10;X is the shroud value of this enemy's location.&#10;Forced – When you would evade this enemy: Instead of exhausting it, choose an investigator at your location. This enemy cannot attack the chosen investigator this round.&#10;Victory 1." />
+      <property name="Health" value="3π" />
+      <property name="Combat" value="X" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="9e2d453b-9004-46af-adbd-8b7d7fe4bec4" name="Legs of Atlach-Nacha" size="EncounterCard">
+      <property name="Card Number" value="350" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Spider. Elite." />
+      <property name="Text" value="Massive.&#10;This enemy cannot make attacks of opportunity.&#10;X is the shroud value of this enemy's location.&#10;Forced – When you would evade this enemy: Instead of exhausting it, choose an investigator at your location. This enemy cannot attack the chosen investigator this round.&#10;Victory 1." />
+      <property name="Health" value="3π" />
+      <property name="Combat" value="X" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="1e126970-8de1-4b13-b585-6c29e9623054" name="Web-Spinner" size="EncounterCard">
+      <property name="Card Number" value="351" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Spider." />
+      <property name="Text" value="Spawn – Any empty location.&#10;Aloof.&#10;Forced – At the end of the round, if Web-Spinner is ready: Place 1 doom on Web-Spinner's location." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="81b620dc-aa09-46e1-803b-3dee3d882a78" name="The Spinner in Darkness" size="EncounterCard">
+      <property name="Card Number" value="352" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – Attach to the nearest Ancient One enemy.&#10;The attached enemy gets +1 damage and +1 horror.&#10;η: Test any skill (5). If you succeed, discard The Spinner in Darkness." />
+    </card>
+    <card id="924e7fe6-8562-43f5-ac5f-67cb832206c1" name="Caught in a Web" size="EncounterCard">
+      <property name="Card Number" value="353" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Put Caught in a Web into play in your threat area.&#10;You get –1 ί and cannot take more than one move action each round.&#10;η: Test ή (3). If you succeed, discard Caught in a Web." />
+    </card>
+    <card id="dc26de4d-2b8e-48a9-bfd5-f40298ddd506" name="Endless Weaving" size="EncounterCard">
+      <property name="Card Number" value="354" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Choose a Spider enemy in play. If it is engaged with an investigator, it makes an immediate attack, along with each of its swarm/host cards. Otherwise, place 1 doom on its location. If there are no Spider enemies in play, search the encounter deck and discard pile for a Spider enemy and draw it. Shuffle the encounter deck." />
+    </card>
+  </cards>
+</set>
