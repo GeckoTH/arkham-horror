@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="ce72ed72-a484-4450-9fb8-0fc732aee4db">The Bridge of Webs</card>
+    <card qty="1" id="b5c64a97-16d1-48a6-af24-a880d12a45be">A Trail of Twists</card>
+    <card qty="1" id="54966e5e-4c40-4f29-b317-7a328c6c21e1">Realities Interwoven</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="c19da6e6-e3b3-4628-a71f-e11fae99c187">Journey Across the Bridge</card>
+    <card qty="1" id="8750375d-9b42-40a9-b029-9ab91195b445">The Weaver of the Cosmos</card>
+    <card qty="1" id="01cdb03c-5d2f-4df7-8454-24ff7dcad511">The Scheme's Demise</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="1e126970-8de1-4b13-b585-6c29e9623054">Web-Spinner</card>
+    <card qty="2" id="81b620dc-aa09-46e1-803b-3dee3d882a78">The Spinner in Darkness</card>
+    <card qty="3" id="924e7fe6-8562-43f5-ac5f-67cb832206c1">Caught in a Web</card>
+    <card qty="3" id="dc26de4d-2b8e-48a9-bfd5-f40298ddd506">Endless Weaving</card>
+    <card qty="2" id="c0866625-0f2d-4223-9fea-c9ad99a30e24">Grey Weaver</card>
+    <card qty="2" id="731203b3-42bb-414b-b780-ca7205632611">Will of the Spider-Mother</card>
+    <card qty="1" id="8f1582a0-4686-4dfd-8b46-4f17944efdfe">Spider of Leng</card>
+    <card qty="3" id="9f74e2e9-5c16-4c0a-ab6b-a2dd7f8b1882">Swarm of Spiders</card>
+    <card qty="2" id="8387d538-c00f-471e-b560-8b6d562e1cba">Sickening Webs</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="3" id="0f33f05a-67af-4aef-8888-fd6bd84f6037">The Great Web</card>
+    <card qty="2" id="b78b3ec4-15cd-4329-9a3e-3b3d6e47ed02">The Great Web</card>
+    <card qty="3" id="8f8d3c90-7f4f-4303-ad94-b9fa8257744e">The Great Web</card>
+    <card qty="2" id="90041ce7-d53f-435d-900b-21ff98e749a1">The Great Web</card>
+    <card qty="2" id="1a55059e-a566-42b7-8667-9a69e4b2280a">The Great Web</card>
+    <card qty="3" id="696d7664-6fe8-4790-9cfd-003ae9d98b8c">The Great Web</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="79103852-ae23-4722-89da-065d65469ec2">Atlach-Nacha</card>
+    <card qty="1" id="32afa344-b50a-45b8-ac7c-4591c504e1c2">Legs of Atlach-Nacha</card>
+    <card qty="1" id="d2a699aa-19a6-4324-8885-feeedb084a6e">Legs of Atlach-Nacha</card>
+    <card qty="1" id="3f2c4e3a-9fd4-44c8-bb54-2a0ad8140743">Legs of Atlach-Nacha</card>
+    <card qty="1" id="9e2d453b-9004-46af-adbd-8b7d7fe4bec4">Legs of Atlach-Nacha</card>
+    <card qty="2" id="81b620dc-aa09-46e1-803b-3dee3d882a78">The Spinner in Darkness</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="ad67cccf-1548-4f2c-8ed3-31adef3e865f">Weaver of the Cosmos</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
