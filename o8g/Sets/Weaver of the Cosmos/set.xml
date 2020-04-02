@@ -338,6 +338,24 @@
         <property name="Clues" value="1π" />
       </alternate>
     </card>
+	<card id="79103852-ae23-4722-89da-065d65469ec2" name="Atlach-Nacha" size="EncounterCard">
+      <property name="Card Number" value="346" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Weaver of the Cosmos" />
+	  <alternate name="Atlach-Nacha" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Weaver of the Cosmos" />
+        <property name="Subtitle" value="The Spider God" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Ancient One. Spider. Elite." />
+        <property name="Text" value="Massive&#10;Forced - When Atlach-Nacha leaves a location: If there are no investigators at that location, place 1 doom there. Otherwise, if attacks each investigator at that location/&#10;Forced - After you evade Atlach-Nacha: Instead of exhausting it, choose an investigator at your location. It cannot attack the chosen investigator this round.&#10;Victory 1." />
+        <property name="Health" value="4π" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="4" />
+        <property name="Damage" value="2" />
+        <property name="Horror" value="2" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
     <card id="32afa344-b50a-45b8-ac7c-4591c504e1c2" name="Legs of Atlach-Nacha" size="EncounterCard">
       <property name="Card Number" value="347" />
       <property name="Quantity" value="1" />
