@@ -32,16 +32,6 @@
     <card qty="3" id="61dcba54-8642-4d1e-83ed-cc1d00b119ab">Resurgent Evils</card>
   </section>
   <section name="Second Special" shared="True">
-    <card qty="1" id="8ff015b2-9c54-3500-e748-9496efb74949">Diverging Path</card>
-    <card qty="1" id="37f30f94-f621-3b6e-b8f9-9da7404504d6">Diverging Path</card>
-    <card qty="1" id="c366685d-37e4-3b81-6c4e-37797290dea1">Diverging Path</card>
-    <card qty="1" id="4bdb897e-7b25-3990-420c-8f629cd15c6b">Diverging Path</card>
-    <card qty="1" id="10ad9b62-60a3-46b2-bfa7-98cd0810a68a">Diverging Path</card>
-    <card qty="1" id="c7b0add2-3f51-3956-2de1-e41cdbb7bcf5">Altered Path</card>
-    <card qty="1" id="7fd45260-1c98-3d6a-feb0-2689ff51e1c4">Altered Path</card>
-    <card qty="1" id="25b6e5e5-a0cf-3fdb-252b-1dd2e676d2c0">Altered Path</card>
-    <card qty="1" id="ba8e0fa8-e151-3a57-f1d0-7707cc7e8f7c">Altered Path</card>
-    <card qty="1" id="f29036d6-eb41-433e-af3a-6f4ac14a2429">Altered Path</card>
     <card qty="1" id="5734f99e-a1a5-3307-c97c-449ec0f3abad">Seth Bishop</card>
     <card qty="2" id="43a5ec05-0bd1-4f2c-b7e8-0fd93d372d8c">Conglomeration of Spheres</card>
     <card qty="1" id="f47b2774-3148-444b-94ea-5696db0c6342">Servant of the Lurker</card>
@@ -53,6 +43,16 @@
     <card qty="1" id="5e33616e-3251-498e-8b52-7765911e2d93">Base of the Hill</card>
     <card qty="1" id="95721a1b-fc69-4fe7-8b8c-62bff3bc0df1">Ascending Path</card>
     <card qty="1" id="28edb79d-36af-3c02-60bb-5364b092fa79">Sentinel Peak</card>
+    <card qty="1" id="8ff015b2-9c54-3500-e748-9496efb74949">Diverging Path</card>
+    <card qty="1" id="37f30f94-f621-3b6e-b8f9-9da7404504d6">Diverging Path</card>
+    <card qty="1" id="c366685d-37e4-3b81-6c4e-37797290dea1">Diverging Path</card>
+    <card qty="1" id="4bdb897e-7b25-3990-420c-8f629cd15c6b">Diverging Path</card>
+    <card qty="1" id="10ad9b62-60a3-46b2-bfa7-98cd0810a68a">Diverging Path</card>
+    <card qty="1" id="c7b0add2-3f51-3956-2de1-e41cdbb7bcf5">Altered Path</card>
+    <card qty="1" id="7fd45260-1c98-3d6a-feb0-2689ff51e1c4">Altered Path</card>
+    <card qty="1" id="25b6e5e5-a0cf-3fdb-252b-1dd2e676d2c0">Altered Path</card>
+    <card qty="1" id="ba8e0fa8-e151-3a57-f1d0-7707cc7e8f7c">Altered Path</card>
+    <card qty="1" id="f29036d6-eb41-433e-af3a-6f4ac14a2429">Altered Path</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />

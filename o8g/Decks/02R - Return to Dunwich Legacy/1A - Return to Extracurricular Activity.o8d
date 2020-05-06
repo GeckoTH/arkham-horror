@@ -29,8 +29,6 @@
   </section>
   <section name="Second Special" shared="True">
     <card qty="1" id="f2a1a2ce-85ed-4cd8-b921-8a345a33da17">Dormitories</card>
-    <card qty="1" id="15529356-18d0-4148-bbf1-b6bd4fc2a2cb">Faculty Offices</card>
-    <card qty="1" id="41ea5c25-5bca-493d-b91f-ebd5fdbc4957">Faculty Offices</card>
     <card qty="1" id="3c08ff87-0ea6-42b3-a177-088ee958588c">Alchemy Labs</card>
     <card qty="1" id="27fef106-be25-4c4a-9732-95d4f3a64c76">The Experiment</card>
     <card qty="1" id="c6918c7e-efaf-4524-b2ac-69c07a8ddd40">Alchemical Concoction</card>
@@ -47,6 +45,8 @@
     <card qty="1" id="9fe83ed1-f28a-47fd-8a83-f0e603d5afe2">Student Union</card>
     <card qty="1" id="f5a6a23b-fb3b-492c-a57c-28a992fe8012">Administration Building</card>
     <card qty="1" id="6e289bf2-c433-451d-8d44-efd339a16f27">Science Building</card>
+    <card qty="1" id="15529356-18d0-4148-bbf1-b6bd4fc2a2cb">Faculty Offices</card>
+    <card qty="1" id="41ea5c25-5bca-493d-b91f-ebd5fdbc4957">Faculty Offices</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
