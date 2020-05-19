@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="ad791cfa-33ee-4ac5-856d-ddc8e0aaffc4">Mortal Inquiry</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="4748a80e-9868-4732-abb1-6ef68d1fe881">Speed Reading</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="b4d33590-94ad-4092-80d8-460c4fcbb54a">Visions of Futures Past</card>
+    <card qty="3" id="0d20810c-b434-45c9-8258-cb9652017a12">Beyond the Veil</card>
+    <card qty="2" id="8955b254-0c41-4df9-a761-ff9c2d3b7fb0">Pushed into the Beyond</card>
+    <card qty="2" id="e891952e-a2c6-4250-aa05-2a93c8d06316">Terror from Beyond</card>
+    <card qty="2" id="7613d6d2-e223-416d-a753-958c776fc6d7">Arcane Barrier</card>
+    <card qty="2" id="1dc185eb-7c88-452b-831c-340659280f30">Light of Aforgomon</card>
+    <card qty="3" id="46be7d48-af4a-4459-b35d-37e92e2eb917">Thrall</card>
+    <card qty="1" id="4f2da478-90bc-4325-8f8c-4d3568a0b0e6">Wizard of Yog-Sothoth</card>
+    <card qty="3" id="315c1f0b-7284-4aa5-87ef-1008c491138f">Whippoorwill</card>
+    <card qty="2" id="fc0c9068-69da-4be8-a786-60d448fe0557">Eager for Death</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="2" id="6ea5fdd2-d464-42f1-b734-6a34edcf0329">Yithian Observer</card>
+    <card qty="2" id="085d8d82-3331-4eda-bcba-e51285fa9b0e">Offer of Power</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="258c7dcd-3ec1-4fbf-b9f7-6cf2160561d0">Read or Die</card>
+    <card qty="1" id="87da9861-7082-4841-9cac-a0feb18330ce">Miskatonic Quad</card>
+    <card qty="1" id="4ff2fd3f-fa5c-41f0-87c9-6408cc8dbf6d">Orne Library</card>
+    <card qty="1" id="a461af68-19d3-46dc-ada5-d5311515ad54">Humanities Building</card>
+    <card qty="1" id="9fe83ed1-f28a-47fd-8a83-f0e603d5afe2">Student Union</card>
+    <card qty="1" id="f2a1a2ce-85ed-4cd8-b921-8a345a33da17">Dormitories</card>
+    <card qty="1" id="6e289bf2-c433-451d-8d44-efd339a16f27">Science Building</card>
+    <card qty="1" id="f5a6a23b-fb3b-492c-a57c-28a992fe8012">Administration Building</card>
+    <card qty="1" id="15529356-18d0-4148-bbf1-b6bd4fc2a2cb">Faculty Offices</card>
+    <card qty="1" id="cf7346b9-b7eb-4f13-92fa-4468f3e9158a">"Jazz" Mulligan</card>
+    <card qty="1" id="a5a3434b-4073-4fd7-b3ab-71f4c66ab6ef">Namer of the Dead</card>
+    <card qty="1" id="7fc5f1e2-a4bc-4023-a7cd-315d3912bd79">Dr. Henry Armitage</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Read or Die" id="97fd6a3e-f616-41d3-a596-b1a178ff6435" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="4001688d-78b6-4519-a186-2cee2a61b4a0" name="Daisy Walker" size="InvestigatorCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Librarian" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Miskatonic." />
+      <property name="Text" value="You get +1 ά and +1 sanity for each Tome asset you control.&#10;θ: One at a time, resolve an η ability on each Tome asset you control, ignoring their η cost. (Limit once per game.)&#10;ε effect: +1. You may return a Tome asset from your discard pile to your hand." />
+      <property name="Health" value="5" />
+      <property name="Sanity" value="7" />
+      <property name="Class" value="Seeker" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="5" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <alternate name="Daisy Walker" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Librarian" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Tome cards level 0-5, Seeker cards (λ) level 0-3, Neutral cards level 0-5, up to five other level 0 Guardian and/or Mystic cards (κ and/or μ).&#10;Deckbuilding Requirements (do not count toward deck size): Daisy's Tote Bag, The Necronomicon (John Dee Translation), 1 random basic weakness." />
+        <property name="Class" value="Seeker" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="e7c58551-63ff-49a8-864c-814a729e313f" name="Daisy's Tote Bag">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item." />
+      <property name="Text" value="Daisy Walker deck only. Advanced.&#10;You have 2 additional hand slots, which can only be used to hold Tome assets.&#10;ι When you play a Tome asset during your turn, exhaust Daisy's Tote Bag: That asset gains fast." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d6a3eeb6-ef97-41a8-890c-0e7311aba9a8" name="The Necronomicon">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="John Dee Translation" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Advanced.&#10;Revelation – Put this card into play in your threat area, with 3 horror on it. It cannot leave play while it has 1 or more horror on it. While it is in play, treat each ε you reveal on a chaos token as β, γ, and δ (resolve all three).&#10;η: Move 1 horror from this card to Daisy Walker. Then, if this card has no horror on it, discard it." />
+      <property name="Cost" value="–" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="258c7dcd-3ec1-4fbf-b9f7-6cf2160561d0" name="Read or Die" size="EncounterCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Read or Die" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the number of Tome assets Daisy Walker controls.&#10;β: Reveal another token. If you fail, discard the top 2 cards of your deck.&#10;γ: –2. If this is an attack or evasion attempt against Namer of the Dead and you do not succeed by at least 2, it attacks you.&#10;δ: –3. If you fail, Daisy Walker takes 1 horror." />
+      <alternate name="Read or Die" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Read or Die" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 more than the number of Tome assets Daisy Walker controls.&#10;β: Reveal another token. If you fail, discard the top 3 cards of your deck.&#10;γ: –3. If this is an attack or evasion attempt against Namer of the Dead and you do not succeed by at least 3, it attacks you.&#10;δ: –5. If you fail, Daisy Walker takes 1 horror." />
+      </alternate>
+    </card>
+    <card id="ad791cfa-33ee-4ac5-856d-ddc8e0aaffc4" name="Mortal Inquiry" size="HorizCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Read or Die" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Dr. Henry Armitage does not take up an ally slot and gains: &quot;You have 2 additional hand slots, which can only be used to hold Tome assets.&quot;&#10;&quot;Jazz&quot; Mulligan gains: &quot;η: Move to a Miskatonic location up to 3 connections away.&quot;" />
+      <property name="Doom" value="12" />
+      <alternate name="Reading Can Be Deadly" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Read or Die" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(–&gt; R2)" />
+      </alternate>
+    </card>
+    <card id="4748a80e-9868-4732-abb1-6ef68d1fe881" name="Speed Reading" size="HorizCard">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Read or Die" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Ignore all Objectives on locations.&#10;θ If you are Daisy Walker, investigators at your location spend 1 π clues: Shuffle 1 facedown player card beneath this location into your deck.&#10;Objective – Find a way to banish the Namer of the Dead before it is too late." />
+      <property name="Clues" value="–" />
+      <alternate name="Page-turner" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Read or Die" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(–&gt; R1)" />
+      </alternate>
+    </card>
+    <card id="a5a3434b-4073-4fd7-b3ab-71f4c66ab6ef" name="Namer of the Dead" size="EncounterCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Read or Die" />
+      <property name="Subtitle" value="Presence Within the Grimoire" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Geist. Elite." />
+      <property name="Text" value="Hunter.&#10;Prey – Daisy Walker only.&#10;Forced – When Namer of the Dead would be defeated: Instead, fully heal it, exhaust it, and move it to Orne Library.&#10;η If you are Daisy Walker and you control at least 4 non-weakness Tome assets: Parley. Test ά (18). This test gets –2 difficulty for each Tome asset you control. If you succeed, advance the act." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+  </cards>
+</set>
