@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.2"
-	version="1.6.6.5"
+	version="1.6.6.6"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -108,7 +108,16 @@
 	    <size name="DiagThreeWayPath" width="76" height="76" back="cards/card.jpg" front="cards/card.jpg" />
 	    <size name="DiagDirectionalMarker" width="20" height="25" back="cards/card.jpg" front="cards/card.jpg" />
 	</card>
-	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
+	<markers>
+		<marker id="6eb6d990-007a-4f4d-b76c-b35685922b22" name="Resource" src="Markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" />
+		<marker id="3abb22bb-b259-4857-ae8f-f2cdf93de5e0" name="Damage" src="Markers/3abb22bb-b259-4857-ae8f-f2cdf93de5e0.png" />
+		<marker id="9461c5e5-1aa8-4286-88f1-01661a8aaa02" name="Horror" src="Markers/9461c5e5-1aa8-4286-88f1-01661a8aaa02.png" />
+		<marker id="33d9ed22-458b-4c7f-9901-5daf2fa43a23" name="Clue" src="Markers/33d9ed22-458b-4c7f-9901-5daf2fa43a23.png" />
+		<marker id="a6605071-57d2-4e7f-b6b4-7809147a565a" name="Doom" src="Markers/a6605071-57d2-4e7f-b6b4-7809147a565a.png" />
+		<marker id="62d688a4-46ef-45be-9414-2257a1221351" name="Lock" src="Markers/62d688a4-46ef-45be-9414-2257a1221351.png" />
+		<marker id="654ac64a-ff25-42dd-946f-cc15c03448cf" name="Action" src="Markers/654ac64a-ff25-42dd-946f-cc15c03448cf.png" />
+	</markers>
+  	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
 		<groupaction menu="Reveal Encounter Card" default="False" shortcut="ctrl+E" execute="addEncounter" />
 		<groupaction menu="Reveal Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+E" execute="addEncounterSpecial" />

@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Markers and Tokens" id="0ab2f6e6-efd6-434e-95aa-ba10c3cf8ccd" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0.0">
-  <markers>
-    <marker id="6eb6d990-007a-4f4d-b76c-b35685922b22" name="Resource" />
-    <marker id="3abb22bb-b259-4857-ae8f-f2cdf93de5e0" name="Damage" />
-    <marker id="9461c5e5-1aa8-4286-88f1-01661a8aaa02" name="Horror" />
-    <marker id="33d9ed22-458b-4c7f-9901-5daf2fa43a23" name="Clue" />
-    <marker id="a6605071-57d2-4e7f-b6b4-7809147a565a" name="Doom" />
-    <marker id="62d688a4-46ef-45be-9414-2257a1221351" name="Lock" />
-    <marker id="654ac64a-ff25-42dd-946f-cc15c03448cf" name="Action" />
-  </markers>
-  
+
   <cards>
     <card id="d8669f4c-aa2c-4ef1-ab0c-9202b08cf563" name="+1" size="ChaosToken">
       <property name="Type" value="Chaos Token" />
