@@ -206,14 +206,14 @@
 		<counter name="Intellect" default="0" icon="groups/intellect.png" />
 		<counter name="Combat" default="0" icon="groups/combat.png" />
 		<counter name="Agility" default="0" icon="groups/agility.png" />
-		<hand name="Hand" visibility="me" ordered="False" icon="groups/hand.png">
+		<group name="Hand" visibility="me" ordered="False" icon="groups/hand.png">
 			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
 			<cardaction menu="Play" default="True" execute="playCard" />
 			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 			<cardaction menu="Swap with top card" default="False" shortcut="ctrl+S" execute="swapCard" />
 			<groupaction menu="Mulligan" default="False" execute="mulligan" />
 			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToHand" />
-		</hand>
+		</group>
 		<group name="Deck" visibility="none" ordered="True" icon="groups/player.png" collapsed="False">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw" default="True" shortcut="ctrl+D" execute="draw" />
