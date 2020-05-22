@@ -15,14 +15,14 @@
     <property name="Health" value="6"/>
     <property name="Sanity" value="9"/>
     <property name="Traits" value="Medic."/>
-    <property name="Text" value="ι After one of your card effects heals horror from an investigator or Ally asset: The healed card's controller gains 1 resource.&#10;&#10;ε effect: +1. You may heal 1 horror from an investigator or Ally asset at your location."/>
+    <property name="Text" value="ι After one of your card effects heals horror from an investigator or Ally asset: The healed card's controller gains 1 resource.&#10;ε effect: +1. You may heal 1 horror from an investigator or Ally asset at your location."/>
     <alternate name="Carolyn Fern" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Psychologist"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Guardian"/>
       <property name="Traits" value="Medic."/>
-      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding Options: Guardian cards (κ) level 0-3, Neutral cards level 0-5, cards that &quot;heal horror&quot; level 0-5, up to 15 Seeker and/or Mystic cards level 0-1 (λ and/or μ).&#10;&#10;Deckbuilding Requirements (do not count toward deck size): Hypnotic Therapy, Rational Thought, 1 random basic weakness.&#10;&#10;Additional Restrictions: No Weapon cards level 1-5."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding Options: Guardian cards (κ) level 0-3, Neutral cards level 0-5, cards that &quot;heal horror&quot; level 0-5, up to 15 Seeker and/or Mystic cards level 0-1 (λ and/or μ).&#10;Deckbuilding Requirements (do not count toward deck size): Hypnotic Therapy, Rational Thought, 1 random basic weakness.&#10;Additional Restrictions: No Weapon cards level 1-5."/>
     </alternate>
   </card>
   <card id="b394f2bb-1494-4c61-866b-6f508dff1089" name="Joe Diamond" size="InvestigatorCard">
@@ -39,14 +39,14 @@
     <property name="Health" value="8"/>
     <property name="Sanity" value="6"/>
     <property name="Traits" value="Detective."/>
-    <property name="Text" value="Forced - When the investigation phase begins: Reveal the top card of your hunch deck. Until the end of the phase, you may play that card as if it were in your hand, at -2 cost. If it is still revealed at the end of the phase, shuffle it back into your hunch deck.&#10;&#10;ε effect: +1. You may move an Insight event from your discard pile to the bottom of your hunch deck."/>
+    <property name="Text" value="Forced - When the investigation phase begins: Reveal the top card of your hunch deck. Until the end of the phase, you may play that card as if it were in your hand, at -2 cost. If it is still revealed at the end of the phase, shuffle it back into your hunch deck.&#10;ε effect: +1. You may move an Insight event from your discard pile to the bottom of your hunch deck."/>
     <alternate name="Joe Diamond" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Private Investigator"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Seeker"/>
       <property name="Traits" value="Detective."/>
-      <property name="Text" value="Deck size: 40.&#10;&#10;Deckbuilding options: Seeker cards (λ) level 0-5, Guardian cards (κ) level 0-2, Neutral cards level 0-5.&#10;&#10;Deckbuilding requirements (do not count toward deck size): Detective's Colt 1911s, Unsolved Case, 1 random basic weakness.&#10;&#10;Additional Requirements: Your deck must include at least 11 Insight events (including Unsolved Case). During the setup of each scenario, you must choose 11 Insight events from your deck (one of which must be Unsolved Case) and shuffle them into a separate &quot;hunch deck&quot;."/>
+      <property name="Text" value="Deck size: 40.&#10;Deckbuilding options: Seeker cards (λ) level 0-5, Guardian cards (κ) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding requirements (do not count toward deck size): Detective's Colt 1911s, Unsolved Case, 1 random basic weakness.&#10;Additional Requirements: Your deck must include at least 11 Insight events (including Unsolved Case). During the setup of each scenario, you must choose 11 Insight events from your deck (one of which must be Unsolved Case) and shuffle them into a separate &quot;hunch deck&quot;."/>
     </alternate>
   </card>
   <card id="dda3a082-6554-4a1c-99e3-3e268f80c6e7" name="Preston Fairmont" size="InvestigatorCard">
@@ -63,14 +63,14 @@
     <property name="Health" value="7"/>
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Silver Twilight. Socialite."/>
-    <property name="Text" value="Anytime you gain 1 or more resources from a card effect, place them on Family Inheritance instead of in your resource pool.&#10;&#10;ε effect: +0. You may spend 2 resources to automatically succeed, instead."/>
+    <property name="Text" value="Anytime you gain 1 or more resources from a card effect, place them on Family Inheritance instead of in your resource pool.&#10;ε effect: +0. You may spend 2 resources to automatically succeed, instead."/>
     <alternate name="Preston Fairmont" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Millionaire"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Rogue"/>
       <property name="Traits" value="Silver Twilight. Socialite."/>
-      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding Options: Rogue cards (ν) level 0-5, Survivor cards (ξ) level 0-2, Neutral cards level 0-5.&#10;&#10;Deckbuilding Requirements (do not count toward deck size): Family Inheritance, Lodge &quot;Debts,&quot; 1 random basic weakness.&#10;&#10;Deckbuilding Restrictions: No Illicit cards."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding Options: Rogue cards (ν) level 0-5, Survivor cards (ξ) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Family Inheritance, Lodge &quot;Debts,&quot; 1 random basic weakness.&#10;Deckbuilding Restrictions: No Illicit cards."/>
     </alternate>
   </card>
   <card id="f64d745e-76e8-4b17-81a5-9d0db3ef956b" name="Diana Stanley" size="InvestigatorCard">
@@ -87,14 +87,14 @@
     <property name="Health" value="7"/>
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Cultist. Silver Twilight."/>
-    <property name="Text" value="Diana Stanley gets +1 ά for each card beneath her.&#10;&#10;ι After a card you own cancels or ignores a card effect or game effect, if there are fewer than 5 cards beneath Diana Stanley: Place that card facedown beneath her. Draw 1 card and gain 1 resource. (Limit once per phase.)&#10;&#10;ε effect: +2. You may choose a card beneath Diana Stanley and add it to your hand."/>
+    <property name="Text" value="Diana Stanley gets +1 ά for each card beneath her.&#10;ι After a card you own cancels or ignores a card effect or game effect, if there are fewer than 5 cards beneath Diana Stanley: Place that card facedown beneath her. Draw 1 card and gain 1 resource. (Limit once per phase.)&#10;ε effect: +2. You may choose a card beneath Diana Stanley and add it to your hand."/>
     <alternate name="Diana Stanley" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Redeemed Cultist"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Mystic"/>
       <property name="Traits" value="Cultist. Silver Twilight."/>
-      <property name="Text" value="Deck size: 35.&#10;&#10;Deckbuilding options: Mystic cards (μ) level 0-5, Guardian cards (κ) level 0-2, Neutral cards level 0-5.&#10;&#10;Deckbuilding requirements (do not count toward deck size): Twilight Blade, Dark Insight, Terrible Secret, 1 random basic weakness.&#10;&#10;Additional Setup: You begin each game with Dark Insight as an additional card in your opening hand."/>
+      <property name="Text" value="Deck size: 35.&#10;Deckbuilding options: Mystic cards (μ) level 0-5, Guardian cards (κ) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding requirements (do not count toward deck size): Twilight Blade, Dark Insight, Terrible Secret, 1 random basic weakness.&#10;Additional Setup: You begin each game with Dark Insight as an additional card in your opening hand."/>
     </alternate>
   </card>
   <card id="4cafe3c1-087e-4e0e-bcc3-ada58d5e1dbb" name="Rita Young" size="InvestigatorCard">
@@ -111,14 +111,14 @@
     <property name="Health" value="9"/>
     <property name="Sanity" value="5"/>
     <property name="Traits" value="Miskatonic."/>
-    <property name="Text" value="ι After you evade an enemy: Either deal 1 damage to that enemy, or move to a connecting location. (Limit once per round.)&#10;&#10;ε effect: +2. Until the end of the round, ignore the limit on the above ι ability."/>
+    <property name="Text" value="ι After you evade an enemy: Either deal 1 damage to that enemy, or move to a connecting location. (Limit once per round.)&#10;ε effect: +2. Until the end of the round, ignore the limit on the above ι ability."/>
     <alternate name="Rita Young" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Athlete"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Survivor"/>
       <property name="Traits" value="Miskatonic."/>
-      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding Options: Survivor cards (ξ) level 0-5, Neutral cards level 0-5, Trick cards level 0-3.&#10;&#10;Deckbuilding Requirements (do not count toward deck size): &quot;I'm done runnin'!,&quot; Hoods, 1 random basic weakness."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding Options: Survivor cards (ξ) level 0-5, Neutral cards level 0-5, Trick cards level 0-3.&#10;Deckbuilding Requirements (do not count toward deck size): &quot;I'm done runnin'!,&quot; Hoods, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="bfb911bc-2214-4eff-95f5-b5b42a3d3431" name="Marie Lambeau" size="InvestigatorCard">
@@ -135,14 +135,14 @@
     <property name="Health" value="6"/>
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Performer. Sorcerer."/>
-    <property name="Text" value="While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play Spell cards or activate Spell η abilities.&#10;&#10;ε effect: +1. You may add 1 doom to or remove 1 doom from a card you control."/>
+    <property name="Text" value="While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play Spell cards or activate Spell η abilities.&#10;ε effect: +1. You may add 1 doom to or remove 1 doom from a card you control."/>
     <alternate name="Marie Lambeau" size="InvestigatorCard" type="B">
       <property name="Subtitle" value="The Entertainer"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Mystic"/>
       <property name="Traits" value="Performer. Sorcerer."/>
-      <property name="Text" value="Deck size: 30.&#10;&#10;Deckbuilding options: Spell cards level 0-5, Mystic cards (μ) level 0-3, Neutral cards level 0-5, Occult cards level 0, up to five other level 0 Seeker and/or Survivor cards (λ and/or ξ).&#10;&#10;Deckbuilding requirements (do not count toward deck size): Mystifying Song, Baron Samedi, 1 random basic weakness."/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding options: Spell cards level 0-5, Mystic cards (μ) level 0-3, Neutral cards level 0-5, Occult cards level 0, up to five other level 0 Seeker and/or Survivor cards (λ and/or ξ).&#10;Deckbuilding requirements (do not count toward deck size): Mystifying Song, Baron Samedi, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="cf04f2cd-fe08-477d-9c91-2c166f42673d" name="Hypnotic Therapy">
@@ -155,7 +155,7 @@
     <property name="Intellect" value="1"/>
     <property name="Skill Icons" value="έάΰ"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Carolyn Fern deck only.&#10;&#10;η Exhaust Hypnotic Therapy: Test έ (2). If you succeed, heal 1 horror from an investigator at your location. Then, that investigator may draw 1 card.&#10;&#10;ι After one of your other card effects heals horror from an investigator, exhaust Hypnotic Therapy: That effect heals 1 additional horror."/>
+    <property name="Text" value="Carolyn Fern deck only.&#10;η Exhaust Hypnotic Therapy: Test έ (2). If you succeed, heal 1 horror from an investigator at your location. Then, that investigator may draw 1 card.&#10;ι After one of your other card effects heals horror from an investigator, exhaust Hypnotic Therapy: That effect heals 1 additional horror."/>
   </card>
   <card id="3825c109-0aa5-49d9-b49c-b25c33788242" name="Rational Thought">
     <property name="Card Number" value="8"/>
@@ -164,7 +164,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Flaw."/>
-    <property name="Text" value="Revelation - Put Rational Thought into play in your threat area, with 4 horror on it. Horror on Rational Thought may be healed as if it were on Carolyn Fern. If there is no horror on Rational Thought, discard it.&#10;&#10;You cannot heal horror from cards other than Rational Thought. You cannot gain resources from Carolyn Fern's ι ability."/>
+    <property name="Text" value="Revelation - Put Rational Thought into play in your threat area, with 4 horror on it. Horror on Rational Thought may be healed as if it were on Carolyn Fern. If there is no horror on Rational Thought, discard it.&#10;You cannot heal horror from cards other than Rational Thought. You cannot gain resources from Carolyn Fern's ι ability."/>
   </card>
   <card id="19e8a7f7-881b-45fe-9af1-14b1e5978a92" name="Detective's Colt 1911s">
     <property name="Card Number" value="9"/>
@@ -177,7 +177,7 @@
     <property name="Skill Icons" value="έήΰ"/>
     <property name="Slot" value="Hand x2"/>
     <property name="Traits" value="Item. Weapon. Firearm."/>
-    <property name="Text" value="Joe Diamond deck only. Uses (4 ammo).&#10;&#10;Up to 2 Tool assets you control do not take up hand slots.&#10;&#10;η Spend 1 ammo: Fight. You get +1 ή and deal +1 damage for this attack. If this attack defeats an enemy, you may move an Insight event from your discard pile to the bottom of your hunch deck."/>
+    <property name="Text" value="Joe Diamond deck only. Uses (4 ammo).&#10;Up to 2 Tool assets you control do not take up hand slots.&#10;η Spend 1 ammo: Fight. You get +1 ή and deal +1 damage for this attack. If this attack defeats an enemy, you may move an Insight event from your discard pile to the bottom of your hunch deck."/>
   </card>
   <card id="6b9f7126-ea28-4dbe-b2ee-53cca4f43487" name="Unsolved Case">
     <property name="Card Number" value="10"/>
@@ -187,7 +187,7 @@
     <property name="Subtype" value="Weakness"/>
     <property name="Cost" value="4"/>
     <property name="Traits" value="Insight. Mystery."/>
-    <property name="Text" value="Place 1 of your clues on the location with the highest shroud. Remove Unsolved Case from the game.&#10;&#10;Forced - If Unsolved Case would be shuffled into your hunch deck: Add it to your threat area instead. For the remainder of the game, it gains: &quot;Forced - When the game ends: Joe Diamond earns 2 fewer experience for this scenario.&quot;"/>
+    <property name="Text" value="Place 1 of your clues on the location with the highest shroud. Remove Unsolved Case from the game.&#10;Forced - If Unsolved Case would be shuffled into your hunch deck: Add it to your threat area instead. For the remainder of the game, it gains: &quot;Forced - When the game ends: Joe Diamond earns 2 fewer experience for this scenario.&quot;"/>
   </card>
   <card id="ffd72944-9abf-4323-b32c-76877aa31684" name="Family Inheritance">
     <property name="Card Number" value="11"/>
@@ -197,7 +197,7 @@
     <property name="Type" value="Asset"/>
     <property name="Class" value="Neutral"/>
     <property name="Traits" value="Boon."/>
-    <property name="Text" value="Permanent. Preston Fairmont deck only.&#10;&#10;η: Move all resources from this card to your resource pool.&#10;&#10;Forced - When your turn begins: Place 4 resources (from the token pool) on this card. Resources on this card may be spent as if they were in your resource pool. Discard all resources from this card at the end of your turn."/>
+    <property name="Text" value="Permanent. Preston Fairmont deck only.&#10;η: Move all resources from this card to your resource pool.&#10;Forced - When your turn begins: Place 4 resources (from the token pool) on this card. Resources on this card may be spent as if they were in your resource pool. Discard all resources from this card at the end of your turn."/>
   </card>
   <card id="281c7fec-343f-43cf-8abe-5eb648691bfa" name="Lodge &quot;Debts&quot;">
     <property name="Card Number" value="12"/>
@@ -207,7 +207,7 @@
     <property name="Subtype" value="Weakness"/>
     <property name="Cost" value="10"/>
     <property name="Traits" value="Pact."/>
-    <property name="Text" value="Remove Lodge &quot;Debts&quot; from the game.&#10;&#10;Forced - When the game ends or you are eliminated, if Lodge &quot;Debts&quot; is still in your hand: You suffer 1 mental trauma."/>
+    <property name="Text" value="Remove Lodge &quot;Debts&quot; from the game.&#10;Forced - When the game ends or you are eliminated, if Lodge &quot;Debts&quot; is still in your hand: You suffer 1 mental trauma."/>
   </card>
   <card id="d4b63a20-a3af-45ba-b33d-31654dd194d2" name="Twilight Blade">
     <property name="Card Number" value="13"/>
@@ -222,7 +222,7 @@
     <property name="Skill Icons" value="ήάΰ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Relic. Weapon."/>
-    <property name="Text" value="Diana Stanley deck only.&#10;&#10;η: Fight. You may use ά instead of ή for this attack.&#10;&#10;You may play or commit events and skills beneath Diana Stanley as if they were in your hand. As an additional cost to play or commit a card in this way, exhaust Twlight Blade. You cannot trigger Diana Stanley's ι ability while playing or committing a card in this way."/>
+    <property name="Text" value="Diana Stanley deck only.&#10;η: Fight. You may use ά instead of ή for this attack.&#10;You may play or commit events and skills beneath Diana Stanley as if they were in your hand. As an additional cost to play or commit a card in this way, exhaust Twlight Blade. You cannot trigger Diana Stanley's ι ability while playing or committing a card in this way."/>
   </card>
   <card id="cb173026-e2ea-4e55-b3aa-cb386e988658" name="Dark Insight">
     <property name="Card Number" value="14"/>
@@ -231,7 +231,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Cost" value="2"/>
     <property name="Traits" value="Insight."/>
-    <property name="Text" value="Diana Stanley deck only.&#10;&#10;Fast. Play when an investigator at your location draws an encounter card or a weakness.&#10;&#10;Cancel all of that card's effects and shuffle it back into its deck. (Do not draw a new card to replace it.)"/>
+    <property name="Text" value="Diana Stanley deck only.&#10;Fast. Play when an investigator at your location draws an encounter card or a weakness.&#10;Cancel all of that card's effects and shuffle it back into its deck. (Do not draw a new card to replace it.)"/>
   </card>
   <card id="d8ce9a2c-1943-452f-a2c9-2b0fc7e80126" name="Terrible Secret">
     <property name="Card Number" value="15"/>
@@ -252,7 +252,7 @@
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ίήΰ"/>
     <property name="Traits" value="Spirit."/>
-    <property name="Text" value="Rita Young deck only.&#10;&#10;Fast. Play only during your turn.&#10;&#10;Ready and engage all enemies at your location. For the remainder of your turn, whenever you evade an enemy, instead of exhausting and disengaging from that enemy, you may deal it 1 damage. (All other effects of the successful evasion still apply.)"/>
+    <property name="Text" value="Rita Young deck only.&#10;Fast. Play only during your turn.&#10;Ready and engage all enemies at your location. For the remainder of your turn, whenever you evade an enemy, instead of exhausting and disengaging from that enemy, you may deal it 1 damage. (All other effects of the successful evasion still apply.)"/>
   </card>
   <card id="8d7c69e4-9ff4-4658-903d-eaabd6411a5c" name="Hoods">
     <property name="Card Number" value="17"/>
@@ -266,7 +266,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Cultist."/>
-    <property name="Text" value="Prey - Rita Young only.&#10;&#10;Alert. Hunter.&#10;&#10;Forced - After you evade Hoods: It attacks you."/>
+    <property name="Text" value="Prey - Rita Young only.&#10;Alert. Hunter.&#10;Forced - After you evade Hoods: It attacks you."/>
   </card>
   <card id="408e4162-24b4-4e93-a0f7-e8af22ca672e" name="Mystifying Song">
     <property name="Card Number" value="18"/>
@@ -276,7 +276,7 @@
     <property name="Cost" value="3"/>
     <property name="Skill Icons" value="ΰΰ"/>
     <property name="Traits" value="Spell. Song."/>
-    <property name="Text" value="Marie Lambeau deck only.&#10;&#10;Fast. Play when the agenda would advance by reaching its doom threshold.&#10;&#10;Until the end of the phase, the agenda cannot advance by reaching its doom threshold. Remove Mystifying Song from the game."/>
+    <property name="Text" value="Marie Lambeau deck only.&#10;Fast. Play when the agenda would advance by reaching its doom threshold.&#10;Until the end of the phase, the agenda cannot advance by reaching its doom threshold. Remove Mystifying Song from the game."/>
   </card>
   <card id="99963b23-0d40-4758-8366-06bbd43c2c5b" name="Baron Samedi">
     <property name="Card Number" value="19"/>
@@ -288,7 +288,7 @@
     <property name="Subtype" value="Weakness"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Avatar."/>
-    <property name="Text" value="Revelation - Put Baron Samedi into play. He cannot leave play while he has less than 3 doom on him.&#10;&#10;Forced - When any amount of damage is placed on an investigator in Baron Samedi's location: Place 1 additional damage on that investigator.&#10;&#10;θ Exhaust Baron Samedi: Place 1 doom on Baron Samedi. If he has 3 or more doom on him, discard him."/>
+    <property name="Text" value="Revelation - Put Baron Samedi into play. He cannot leave play while he has less than 3 doom on him.&#10;Forced - When any amount of damage is placed on an investigator in Baron Samedi's location: Place 1 additional damage on that investigator.&#10;θ Exhaust Baron Samedi: Place 1 doom on Baron Samedi. If he has 3 or more doom on him, discard him."/>
   </card>
   <card id="43caf116-2a77-4168-a3cb-13885b676b25" name="Interrogate">
     <property name="Card Number" value="20"/>
@@ -314,7 +314,7 @@
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ίή"/>
     <property name="Traits" value="Insight. Spirit. Tactic."/>
-    <property name="Text" value="Fast. Play only during your turn. Attach to an investigator at your location, under his or her control.&#10;&#10;ι When you are dealt damage and/or horror: Discard Delay the Inevitable and cancel all damage and/or horror just dealt.&#10;&#10;Forced - When the mythos phase ends: You must either spend 2 resources or discard Delay the Inevitable."/>
+    <property name="Text" value="Fast. Play only during your turn. Attach to an investigator at your location, under his or her control.&#10;ι When you are dealt damage and/or horror: Discard Delay the Inevitable and cancel all damage and/or horror just dealt.&#10;Forced - When the mythos phase ends: You must either spend 2 resources or discard Delay the Inevitable."/>
   </card>
   <card id="cdb3dc5a-bf08-4d23-842c-a4b50168df70" name="Steadfast">
     <property name="Card Number" value="22"/>
@@ -338,7 +338,7 @@
     <property name="Cost" value="3"/>
     <property name="Slot" value="Tarot"/>
     <property name="Traits" value="Tarot."/>
-    <property name="Text" value="You get +1 ή.&#10;&#10;ι When the game begins, if Ace of Swords is in your opening hand: Put it into play."/>
+    <property name="Text" value="You get +1 ή.&#10;ι When the game begins, if Ace of Swords is in your opening hand: Put it into play."/>
   </card>
   <card id="400e76f9-d8bf-4964-b9b6-516fe76a98fd" name="Fingerprint Kit">
     <property name="Card Number" value="24"/>
@@ -351,7 +351,7 @@
     <property name="Skill Icons" value="έ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Tool"/>
-    <property name="Text" value="Uses (3 supplies).&#10;&#10;η Exhaust Fingerprint Kit and spend 1 supply: Investigate. You get +1 έ for this investigation. If you succeed, you discover 1 additional clue at your location."/>
+    <property name="Text" value="Uses (3 supplies).&#10;η Exhaust Fingerprint Kit and spend 1 supply: Investigate. You get +1 έ for this investigation. If you succeed, you discover 1 additional clue at your location."/>
   </card>
   <card id="b9ae78d7-eb00-4df5-a22f-df7badbf3922" name="Connect the Dots">
     <property name="Card Number" value="25"/>
@@ -363,7 +363,7 @@
     <property name="Intellect" value="2"/>
     <property name="Skill Icons" value="έέ"/>
     <property name="Traits" value="Insight."/>
-    <property name="Text" value="Fast. Play after you discover the last clue at your location.&#10;&#10;Discover 2 clues at a location with a lower printed shroud value than your location."/>
+    <property name="Text" value="Fast. Play after you discover the last clue at your location.&#10;Discover 2 clues at a location with a lower printed shroud value than your location."/>
   </card>
   <card id="4a7794f9-c8be-4c42-b1ef-46d7dfdd4a0a" name="Curiosity">
     <property name="Card Number" value="26"/>
@@ -387,7 +387,7 @@
     <property name="Cost" value="3"/>
     <property name="Slot" value="Tarot"/>
     <property name="Traits" value="Tarot."/>
-    <property name="Text" value="You get +1 έ.&#10;&#10;ι When the game begins, if Death XIII is in your opening hand: Put it into play."/>
+    <property name="Text" value="You get +1 έ.&#10;ι When the game begins, if Death XIII is in your opening hand: Put it into play."/>
   </card>
   <card id="8ed7541a-893c-47db-96df-152e8950abc5" name="Well Connected">
     <property name="Card Number" value="28"/>
@@ -397,7 +397,7 @@
     <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Traits" value="Condition."/>
-    <property name="Text" value="Limit 1 per investigator.&#10;&#10;θ Exhaust Well Connected: You get +1 skill value for this skill test for every 5 resources you have."/>
+    <property name="Text" value="Limit 1 per investigator.&#10;θ Exhaust Well Connected: You get +1 skill value for this skill test for every 5 resources you have."/>
   </card>
   <card id="6a2d7bfa-30e9-4cb0-ac13-60f103eca5c7" name="Money Talks">
     <property name="Card Number" value="29"/>
@@ -407,7 +407,7 @@
     <property name="Level" value="0"/>
     <property name="Cost" value="0"/>
     <property name="Traits" value="Favor. Gambit."/>
-    <property name="Text" value="Fast. Play when you initiate a skill test.&#10;&#10;Instead of the skill type indicated for this test (ά, έ, ή, or ί), this is a resource skill test. Your base skill value for this test is equal to half the number of resources in your resource pool (rounded down)."/>
+    <property name="Text" value="Fast. Play when you initiate a skill test.&#10;Instead of the skill type indicated for this test (ά, έ, ή, or ί), this is a resource skill test. Your base skill value for this test is equal to half the number of resources in your resource pool (rounded down)."/>
   </card>
   <card id="562dea47-be08-4c89-b1fc-2f03d3b7cf9f" name="Cunning">
     <property name="Card Number" value="30"/>
@@ -431,7 +431,7 @@
     <property name="Cost" value="3"/>
     <property name="Slot" value="Tarot"/>
     <property name="Traits" value="Tarot."/>
-    <property name="Text" value="You get +1 ί.&#10;&#10;ι When the game begins, if The Moon XVIII is in your opening hand: Put it into play."/>
+    <property name="Text" value="You get +1 ί.&#10;ι When the game begins, if The Moon XVIII is in your opening hand: Put it into play."/>
   </card>
   <card id="fa4ac919-ac11-4699-91c6-ccb37d0900f4" name="Deny Existence">
     <property name="Card Number" value="32"/>
@@ -442,7 +442,7 @@
     <property name="Cost" value="0"/>
     <property name="Skill Icons" value="ΰ"/>
     <property name="Traits" value="Spell. Paradox."/>
-    <property name="Text" value="Fast. Play when an encounter card or an enemy attack would cause you to do one of the following (choose one): Discard cards from hand, lose resources, lose actions, take damage, or take horror.&#10;&#10;You ignore that aspect of the effect. (Each other aspect resolves normally.)"/>
+    <property name="Text" value="Fast. Play when an encounter card or an enemy attack would cause you to do one of the following (choose one): Discard cards from hand, lose resources, lose actions, take damage, or take horror.&#10;You ignore that aspect of the effect. (Each other aspect resolves normally.)"/>
   </card>
   <card id="c39b5679-d3a1-467d-8051-50047cc34281" name="Eldritch Inspiration">
     <property name="Card Number" value="33"/>
@@ -455,7 +455,7 @@
     <property name="Intellect" value="1"/>
     <property name="Skill Icons" value="έά"/>
     <property name="Traits" value="Spell. Spirit."/>
-    <property name="Text" value="Fast. Play when you would resolve an effect on a μ card that triggers when a α, β, γ, δ, or ζ symbol is revealed.&#10;&#10;Either cancel that effect, or resolve it an additional time."/>
+    <property name="Text" value="Fast. Play when you would resolve an effect on a μ card that triggers when a α, β, γ, δ, or ζ symbol is revealed.&#10;Either cancel that effect, or resolve it an additional time."/>
   </card>
   <card id="7be54dfa-9595-4c17-bc29-d678e593e8c4" name="Prophesy">
     <property name="Card Number" value="34"/>
@@ -477,7 +477,7 @@
     <property name="Cost" value="3"/>
     <property name="Slot" value="Tarot"/>
     <property name="Traits" value="Tarot."/>
-    <property name="Text" value="You get +1 ά.&#10;&#10;ι When the game begins, if Four of Cups is in your opening hand: Put it into play."/>
+    <property name="Text" value="You get +1 ά.&#10;ι When the game begins, if Four of Cups is in your opening hand: Put it into play."/>
   </card>
   <card id="0046b1cf-c6d2-425d-bd02-d49686e400fa" name="Track Shoes">
     <property name="Card Number" value="36"/>
@@ -489,7 +489,7 @@
     <property name="Agility" value="1"/>
     <property name="Skill Icons" value="ί"/>
     <property name="Traits" value="Item. Clothing. Footwear."/>
-    <property name="Text" value="Limit 1 Footwear per investigator.&#10;&#10;You get +1 ί.&#10;&#10;ι After you move, but before enemies at your new location engage you, exhaust Track Shoes: Test ί (3). If you succeed, move to a connecting location."/>
+    <property name="Text" value="Limit 1 Footwear per investigator.&#10;You get +1 ί.&#10;ι After you move, but before enemies at your new location engage you, exhaust Track Shoes: Test ί (3). If you succeed, move to a connecting location."/>
   </card>
   <card id="4f8887d7-511b-4094-bb50-c873e4d778dc" name="Act of Desperation">
     <property name="Card Number" value="37"/>
@@ -501,7 +501,7 @@
     <property name="Combat" value="2"/>
     <property name="Skill Icons" value="ήή"/>
     <property name="Traits" value="Tactic. Gambit."/>
-    <property name="Text" value="As an additional cost to play Act of Desperation, choose and discard an Item asset that takes up at least 1 hand slot from your hand or play area.&#10;&#10;Fight. You get +X ή and deal +1 damage for this attack, where X is the chosen asset's printed resource cost. If you succeed and that asset was in your play area, gain X resources."/>
+    <property name="Text" value="As an additional cost to play Act of Desperation, choose and discard an Item asset that takes up at least 1 hand slot from your hand or play area.&#10;Fight. You get +X ή and deal +1 damage for this attack, where X is the chosen asset's printed resource cost. If you succeed and that asset was in your play area, gain X resources."/>
   </card>
   <card id="d5b60e5a-cb31-4b98-9c40-aed4322a2347" name="Able Bodied">
     <property name="Card Number" value="38"/>
@@ -525,7 +525,7 @@
     <property name="Cost" value="3"/>
     <property name="Slot" value="Tarot"/>
     <property name="Traits" value="Tarot."/>
-    <property name="Text" value="You get +1 health and +1 sanity.&#10;&#10;ι When the game begins, if Five of Pentacles is in your opening hand: Put it into play."/>
+    <property name="Text" value="You get +1 health and +1 sanity.&#10;ι When the game begins, if Five of Pentacles is in your opening hand: Put it into play."/>
   </card>
   <card id="78c05ca7-c225-40b4-9a58-5ec8d45f8e31" name="Ace of Rods">
     <property name="Card Number" value="40"/>
@@ -537,7 +537,7 @@
     <property name="Cost" value="3"/>
     <property name="Slot" value="Tarot"/>
     <property name="Traits" value="Tarot."/>
-    <property name="Text" value="θ During your turn, remove Ace of Rods from the game: You may take an additional action this turn, during which you get +2 to each of your skills.&#10;&#10;ι When the game begins, if Ace of Rods is in your opening hand: Put it into play."/>
+    <property name="Text" value="θ During your turn, remove Ace of Rods from the game: You may take an additional action this turn, during which you get +2 to each of your skills.&#10;ι When the game begins, if Ace of Rods is in your opening hand: Put it into play."/>
   </card>
   <card id="479a3456-8e6c-4df7-a778-dad99d0a0f9d" name="The Thirteenth Vision">
     <property name="Card Number" value="41"/>
@@ -546,7 +546,7 @@
     <property name="Class" value="Mythos"/>
     <property name="Subtype" value="Basic Weakness"/>
     <property name="Traits" value="Omen."/>
-    <property name="Text" value="Revelation - Put The 13th Vision into play in your threat area.&#10;&#10;Investigators at your location fail ties during skill tests.&#10;&#10;η η: Discard The 13th Vision."/>
+    <property name="Text" value="Revelation - Put The 13th Vision into play in your threat area.&#10;Investigators at your location fail ties during skill tests.&#10;η η: Discard The 13th Vision."/>
   </card>
   <card id="46163897-b6a8-4c6e-86ef-27c5eeb7f443" name="The Tower XVI">
     <property name="Card Number" value="42"/>
@@ -558,7 +558,7 @@
     <property name="Cost" value="4"/>
     <property name="Slot" value="Tarot"/>
     <property name="Traits" value="Omen. Tarot."/>
-    <property name="Text" value="You cannot commit cards to skill tests while The Tower XVI is in your hand.&#10;&#10;If The Tower XVI is drawn in your opening hand during setup (before or after taking a mulligan), you cannot replace it. It must stay in your opening hand."/>
+    <property name="Text" value="You cannot commit cards to skill tests while The Tower XVI is in your hand.&#10;If The Tower XVI is drawn in your opening hand during setup (before or after taking a mulligan), you cannot replace it. It must stay in your opening hand."/>
   </card>
   <card id="2b4c8a33-a070-4ffc-9763-9bf014ab2ea0" name="Disappearance at the Twilight Estate">
     <property name="Card Number" value="43"/>
@@ -566,12 +566,12 @@
     <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;&#10;α: -3. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
+    <property name="Text" value="Easy / Standard&#10;α: -3. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
     <alternate name="Disappearance at the Twilight Estate" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;&#10;α: -5. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
+      <property name="Text" value="Hard / Expert&#10;α: -5. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
     </alternate>
   </card>
   <card id="9b434397-cb1c-4534-affb-efb27e8dbd66" name="JUDGEMENT XX" size="HorizCard">
@@ -584,7 +584,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="-"/>
-    <property name="Text" value="Forced - After doom is placed on any card: Each investigator must either take 1 damage or 1 horror (2 damage or 2 horror instead if there is 5 or more doom in play).&#10;&#10;Forced - When any investigator is defeated, that investigator must advance this agenda. Do not remove any doom from this agenda when it advances."/>
+    <property name="Text" value="Forced - After doom is placed on any card: Each investigator must either take 1 damage or 1 horror (2 damage or 2 horror instead if there is 5 or more doom in play).&#10;Forced - When any investigator is defeated, that investigator must advance this agenda. Do not remove any doom from this agenda when it advances."/>
     <alternate name="Your Demise" size="HorizCard" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Agenda"/>
@@ -593,7 +593,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="In the &quot;Missing Persons&quot; section of your Campaign Log, next to your character's profile, make a record of that character's fate, as follows. Then flip this agenda back over.&#10;&#10;- If you were defeated by The Spectral Watcher's attack, record (character's name) was taken by the Watcher.&#10;&#10;- If you were defeated by a Monster enemy's attack, record (character's name) was claimed by specters.&#10;&#10;- If there was 7 or more doom in play when this agenda advanced, and you were defeated by horror or damage dealt by the Forced ability on agenda 1a, record (character's name) disappeared into the mist.&#10;&#10;- If you were defeated by any other effect, record(character's name) was pulled into the spectral realm."/>
+      <property name="Text" value="In the &quot;Missing Persons&quot; section of your Campaign Log, next to your character's profile, make a record of that character's fate, as follows. Then flip this agenda back over.&#10;- If you were defeated by The Spectral Watcher's attack, record (character's name) was taken by the Watcher.&#10;- If you were defeated by a Monster enemy's attack, record (character's name) was claimed by specters.&#10;- If there was 7 or more doom in play when this agenda advanced, and you were defeated by horror or damage dealt by the Forced ability on agenda 1a, record (character's name) disappeared into the mist.&#10;- If you were defeated by any other effect, record(character's name) was pulled into the spectral realm."/>
     </alternate>
   </card>
   <card id="baea82d4-258f-47e7-b09b-b6b041641abb" name="The Disappearance" size="HorizCard">
@@ -606,7 +606,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Forced - When an investigator is eliminated: Place each of that investigator's clues on this act instead of his or her location.&#10;&#10;Objective - Discover as many clues as you can before your inevitable demise."/>
+    <property name="Text" value="Forced - When an investigator is eliminated: Place each of that investigator's clues on this act instead of his or her location.&#10;Objective - Discover as many clues as you can before your inevitable demise."/>
     <alternate name="…?" size="HorizCard" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Type" value="Act"/>
@@ -615,7 +615,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Record in your Campaign Log you are being hunted.&#10;&#10;Flip back to Act 1a."/>
+      <property name="Text" value="Record in your Campaign Log you are being hunted.&#10;Flip back to Act 1a."/>
     </alternate>
   </card>
   <card id="ba64216c-8dfa-4aec-97d3-6b1e4720331e" name="Gavriella Mizrah" size="InvestigatorCard">
@@ -633,7 +633,7 @@
     <property name="Health" value="8"/>
     <property name="Sanity" value="4"/>
     <property name="Traits" value="Veteran."/>
-    <property name="Text" value="ι After an enemy attacks you, even if that attack was canceled: Discover 1 clue at your location. (Limit once per round.)&#10;&#10;ε effect: +1. Heal 1 damage and 1 horror."/>
+    <property name="Text" value="ι After an enemy attacks you, even if that attack was canceled: Discover 1 clue at your location. (Limit once per round.)&#10;ε effect: +1. Heal 1 damage and 1 horror."/>
     <alternate name="Gavriella Mizrah" size="InvestigatorCard" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Subtitle" value="Private Security"/>
@@ -641,7 +641,7 @@
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Neutral"/>
       <property name="Traits" value="Veteran."/>
-      <property name="Text" value="Setup: You begin play in the Victorian Halls. Place 1 damage on The Spectral Watcher. Search the gathered cards for 1 copy of Fate of All Fools and put it into play in your threat area. You begin with 1 resource instead of 5.&#10;&#10;Starting Play Area: .45 Automatic (Core 16) with 2 ammo tokens remaining, Physical Training (Core 17).&#10;&#10;Opening Hand: First Aid (Core 19), Guard Dog (Core 21), Evidence! (Core 22), Dodge (Core 23), Extra Ammunition (level 1) (Core 26), 2 copies of Delay the Inevitable (TCU 21)."/>
+      <property name="Text" value="Setup: You begin play in the Victorian Halls. Place 1 damage on The Spectral Watcher. Search the gathered cards for 1 copy of Fate of All Fools and put it into play in your threat area. You begin with 1 resource instead of 5.&#10;Starting Play Area: .45 Automatic (Core 16) with 2 ammo tokens remaining, Physical Training (Core 17).&#10;Opening Hand: First Aid (Core 19), Guard Dog (Core 21), Evidence! (Core 22), Dodge (Core 23), Extra Ammunition (level 1) (Core 26), 2 copies of Delay the Inevitable (TCU 21)."/>
     </alternate>
   </card>
   <card id="a43df446-cc04-457f-b402-6c80e9a41f70" name="Jerome Davids" size="InvestigatorCard">
@@ -659,7 +659,7 @@
     <property name="Health" value="4"/>
     <property name="Sanity" value="8"/>
     <property name="Traits" value="Assistant. Silver Twilight."/>
-    <property name="Text" value="ι When an investigator at your location draws a treachery from the encounter deck, discard cards from your hand with a total of at least 2 έ icons: Cancel that card's revelation effect. (Limit once per round.)&#10;&#10;ε effect: +1. Discover 1 clue at your location."/>
+    <property name="Text" value="ι When an investigator at your location draws a treachery from the encounter deck, discard cards from your hand with a total of at least 2 έ icons: Cancel that card's revelation effect. (Limit once per round.)&#10;ε effect: +1. Discover 1 clue at your location."/>
     <alternate name="Jerome Davids" size="InvestigatorCard" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Subtitle" value="Josef's Secretary"/>
@@ -667,7 +667,7 @@
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Neutral"/>
       <property name="Traits" value="Assistant. Silver Twilight."/>
-      <property name="Text" value="Setup: You begin play in the Office. Search the gathered cards for 1 copy of Nether Mist and 1 copy of Obscuring Fog. Spawn the Nether Mist in the Office and attach Obscuring Fog to the Office. You begin with 3 resources instead of 5.&#10;&#10;Starting Play Area: Nothing.&#10;&#10;Opening Hand: Hyperawareness (Core 34), Mind over Matter (Core 36), Working a Hunch (Core 37), Barricade (Core 38), Deduction (Core 39), Magnifying Glass (level 1) (Core 40), Fingerprint Kit (TCU 24), Connect the Dots (TCU 25), 2 copies of Curiosity (TCU 26)."/>
+      <property name="Text" value="Setup: You begin play in the Office. Search the gathered cards for 1 copy of Nether Mist and 1 copy of Obscuring Fog. Spawn the Nether Mist in the Office and attach Obscuring Fog to the Office. You begin with 3 resources instead of 5.&#10;Starting Play Area: Nothing.&#10;Opening Hand: Hyperawareness (Core 34), Mind over Matter (Core 36), Working a Hunch (Core 37), Barricade (Core 38), Deduction (Core 39), Magnifying Glass (level 1) (Core 40), Fingerprint Kit (TCU 24), Connect the Dots (TCU 25), 2 copies of Curiosity (TCU 26)."/>
     </alternate>
   </card>
   <card id="6e9e0773-f7e4-43ae-8ffa-620920faf22d" name="Valentino Rivas" size="InvestigatorCard">
@@ -685,7 +685,7 @@
     <property name="Health" value="5"/>
     <property name="Sanity" value="7"/>
     <property name="Traits" value="Silver Twilight. Socialite."/>
-    <property name="Text" value="θ During a skill test you are performing, spend 2 resources: Reduce the difficulty of this test by 1. (Limit once per round.)&#10;&#10;ε effect: +1. Gain 2 resources."/>
+    <property name="Text" value="θ During a skill test you are performing, spend 2 resources: Reduce the difficulty of this test by 1. (Limit once per round.)&#10;ε effect: +1. Gain 2 resources."/>
     <alternate name="Valentino Rivas" size="InvestigatorCard" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Subtitle" value="Wealthy Philanthropist"/>
@@ -693,7 +693,7 @@
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Neutral"/>
       <property name="Traits" value="Silver Twilight. Socialite."/>
-      <property name="Text" value="Setup: You begin play in the Billiards Room. Search the gathered cards for 1 copy of Shadow Hound and 1 copy of Terror in the Night. Spawn the Shadow Hound engaged with you and put Terror in the Night into play next to the agenda deck. You begin with 10 resources instead of 5.&#10;&#10;Starting Play Area: Well Connected (TCU 28).&#10;&#10;Opening Hand: .41 Derringer (Core 47), Opportunist (Core 53), Sure Gamble (level 3) (Core 56), 2 copies of Money Talks (TCU 29), 2 copies of Cunning (TCU 30)."/>
+      <property name="Text" value="Setup: You begin play in the Billiards Room. Search the gathered cards for 1 copy of Shadow Hound and 1 copy of Terror in the Night. Spawn the Shadow Hound engaged with you and put Terror in the Night into play next to the agenda deck. You begin with 10 resources instead of 5.&#10;Starting Play Area: Well Connected (TCU 28).&#10;Opening Hand: .41 Derringer (Core 47), Opportunist (Core 53), Sure Gamble (level 3) (Core 56), 2 copies of Money Talks (TCU 29), 2 copies of Cunning (TCU 30)."/>
     </alternate>
   </card>
   <card id="dfcb02c6-c641-4983-990a-61c07ebb6d4c" name="Penny White" size="InvestigatorCard">
@@ -711,7 +711,7 @@
     <property name="Health" value="7"/>
     <property name="Sanity" value="5"/>
     <property name="Traits" value="Assistant."/>
-    <property name="Text" value="ι After you succeed at a skill test during a revelation effect: Discover 1 clue at your location. (Limit once per round.)&#10;&#10;ε effect: +1. If this is a skill test during a revelation effect, you may take an additional action during your next turn."/>
+    <property name="Text" value="ι After you succeed at a skill test during a revelation effect: Discover 1 clue at your location. (Limit once per round.)&#10;ε effect: +1. If this is a skill test during a revelation effect, you may take an additional action during your next turn."/>
     <alternate name="Penny White" size="InvestigatorCard" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
       <property name="Subtitle" value="Josef's Housekeeper"/>
@@ -719,7 +719,7 @@
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Neutral"/>
       <property name="Traits" value="Assistant."/>
-      <property name="Text" value="Setup: You begin play at the Balcony. Search the gathered cards for 1 copy of Wraith and 1 copy of Whispers in the Dark. Spawn the Wraith engaged with you and put Whispers in the Dark into play next to the agenda deck. You begin with 2 resources instead of 5.&#10;&#10;Starting Play Area: Dig Deep (Core 77), Knife (Core 86), Flashlight (Core 87) with 2 supply tokens remaining.&#10;&#10;Opening Hand: Stray Cat (Core 76), Lucky! (Core 80), Knife (Core 86), Flashlight (Core 87), 2 copies of Act of Desperation (TCU 37), 2 copies of Able Bodied (TCU 38)."/>
+      <property name="Text" value="Setup: You begin play at the Balcony. Search the gathered cards for 1 copy of Wraith and 1 copy of Whispers in the Dark. Spawn the Wraith engaged with you and put Whispers in the Dark into play next to the agenda deck. You begin with 2 resources instead of 5.&#10;Starting Play Area: Dig Deep (Core 77), Knife (Core 86), Flashlight (Core 87) with 2 supply tokens remaining.&#10;Opening Hand: Stray Cat (Core 76), Lucky! (Core 80), Knife (Core 86), Flashlight (Core 87), 2 copies of Act of Desperation (TCU 37), 2 copies of Able Bodied (TCU 38)."/>
     </alternate>
   </card>
   <card id="ea36d8dc-fefc-43d2-93e5-6fe903c7ee4a" name="The Witching Hour">
@@ -728,12 +728,12 @@
     <property name="Encounter Set" value="The Witching Hour"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;&#10;α: -1. For each point you fail by, discard the top card of the encounter deck.&#10;&#10;γ: -1. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;&#10;δ: -3. If you fail, choose an exhausted or damaged Witch enemy at your location or at a connecting location. Ready that enemy and heal all damage from it."/>
+    <property name="Text" value="Easy / Standard&#10;α: -1. For each point you fail by, discard the top card of the encounter deck.&#10;γ: -1. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;δ: -3. If you fail, choose an exhausted or damaged Witch enemy at your location or at a connecting location. Ready that enemy and heal all damage from it."/>
     <alternate name="The Witching Hour" type="B">
       <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;&#10;α: -2. Discard cards from the top of the encounter deck equal to this test's difficulty.&#10;&#10;γ: -2. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;&#10;δ: -4. If you fail, ready each Witch enemy at your location and at each connecting location. Heal all damage from each of those enemies."/>
+      <property name="Text" value="Hard / Expert&#10;α: -2. Discard cards from the top of the encounter deck equal to this test's difficulty.&#10;γ: -2. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;δ: -4. If you fail, ready each Witch enemy at your location and at each connecting location. Heal all damage from each of those enemies."/>
     </alternate>
   </card>
   <card id="8b6df157-2727-43c9-840f-d5db8b69f723" name="TEMPERANCE XIV" size="HorizCard">
@@ -789,7 +789,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Locations in front of you are connected to one another. You cannot enter locations in front of other investigators.&#10;&#10;Objective - At the end of the round, investigators may spend the requisite number of clues, as a group, to advance."/>
+    <property name="Text" value="Locations in front of you are connected to one another. You cannot enter locations in front of other investigators.&#10;Objective - At the end of the round, investigators may spend the requisite number of clues, as a group, to advance."/>
     <alternate name="Deeper into the Woods" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Act"/>
@@ -798,7 +798,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Each investigator must randomly choose 1 of the set-aside Arkham Woods locations, put it into play in front of him or her, and immediately move to that location (cannot be canceled).&#10;&#10;Each investigator spawns a set-aside Goat Spawn at his or her location (if there are 4 investigators in the game, the lead investigator spawns the set-aside Relentless Dark Young, and each other investigator spawns a set-aside Goat Spawn, instead). Each investigator then tests ά or ί (3). Each investigator who succeeds exhausts that enemy and disengages from it.&#10;&#10;Shuffle one of the set-aside copies of Daemonic Piping into the encounter deck. Place the other two copies in the encounter discard pile."/>
+      <property name="Text" value="Each investigator must randomly choose 1 of the set-aside Arkham Woods locations, put it into play in front of him or her, and immediately move to that location (cannot be canceled).&#10;Each investigator spawns a set-aside Goat Spawn at his or her location (if there are 4 investigators in the game, the lead investigator spawns the set-aside Relentless Dark Young, and each other investigator spawns a set-aside Goat Spawn, instead). Each investigator then tests ά or ί (3). Each investigator who succeeds exhausts that enemy and disengages from it.&#10;Shuffle one of the set-aside copies of Daemonic Piping into the encounter deck. Place the other two copies in the encounter discard pile."/>
     </alternate>
   </card>
   <card id="7eb0b4b6-4951-47f0-9a15-39b69d3df4df" name="Witch Hauntings" size="HorizCard">
@@ -811,7 +811,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Locations in front of you are connected to one another. You cannot enter locations in front of other investigators.&#10;&#10;Objective - If a single investigator spends the requisite number of clues, advance."/>
+    <property name="Text" value="Locations in front of you are connected to one another. You cannot enter locations in front of other investigators.&#10;Objective - If a single investigator spends the requisite number of clues, advance."/>
     <alternate name="Strange Melodies" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Act"/>
@@ -842,7 +842,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="2"/>
       <property name="Traits" value="Woods. Circle."/>
-      <property name="Text" value="Revelation - Put the Witches' Circle into play in the center of the play area, in front of none of the investigators. The lead investigator spawns the set-aside Anette Mason at the Witches' Circle.&#10;&#10;Forced - After the enemy phase begins: Move each ready, unengaged Witch enemy once toward the Witches' Circle."/>
+      <property name="Text" value="Revelation - Put the Witches' Circle into play in the center of the play area, in front of none of the investigators. The lead investigator spawns the set-aside Anette Mason at the Witches' Circle.&#10;Forced - After the enemy phase begins: Move each ready, unengaged Witch enemy once toward the Witches' Circle."/>
     </alternate>
   </card>
   <card id="93afdc93-d1d6-49be-bf47-792f4c3071f6" name="A Circle Unbroken" size="HorizCard">
@@ -855,7 +855,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Locations in front of you are connected to one another.&#10;&#10;Objective - If Anette Mason is defeated, advance.&#10;&#10;Objective - If there are no clues on the Witches' Circle, advance."/>
+    <property name="Text" value="Locations in front of you are connected to one another.&#10;Objective - If Anette Mason is defeated, advance.&#10;Objective - If there are no clues on the Witches' Circle, advance."/>
     <alternate name="A Circle Undone" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Witching Hour"/>
       <property name="Type" value="Act"/>
@@ -864,7 +864,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If you advanced by defeating Anette Mason:&#10;&#10;&quot;Stop!&quot; the coven's leader yells in a commanding voice, grimacing from the wounds you've inflicted. You're not sure if she's speaking to you or to the hooded women surrounding you, but regardless, there is a sudden stillness in the clearing around the circle&#10;&#10;(->R1)&#10;&#10;If you advanced by discovering all of the clues in the Witches' Circle:&#10;&#10;A loud crack echoes throughout the woods as you break the circle and reverse the witches' spell. &quot;No! They have broken the ritual!&quot; one of the witches screams as the spell's energy backfires. White-hot lightning strikes the center of the field, sending dirt and debris flying in every direction. You duck for cover.&#10;&#10;(->R2)"/>
+      <property name="Text" value="If you advanced by defeating Anette Mason:&#10;&quot;Stop!&quot; the coven's leader yells in a commanding voice, grimacing from the wounds you've inflicted. You're not sure if she's speaking to you or to the hooded women surrounding you, but regardless, there is a sudden stillness in the clearing around the circle&#10;(->R1)&#10;If you advanced by discovering all of the clues in the Witches' Circle:&#10;A loud crack echoes throughout the woods as you break the circle and reverse the witches' spell. &quot;No! They have broken the ritual!&quot; one of the witches screams as the spell's energy backfires. White-hot lightning strikes the center of the field, sending dirt and debris flying in every direction. You duck for cover.&#10;(->R2)"/>
     </alternate>
   </card>
   <card id="f3071036-a8cf-4cae-b4d2-435dd7d125b8" name="Anette Mason" size="EncounterCard">
@@ -882,7 +882,7 @@
     <property name="Horror" value="1"/>
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Humanoid. Witch. Elite."/>
-    <property name="Text" value="Retaliate.&#10;&#10;Forced - After the enemy phase begins: Discard the top 3 cards of the encounter deck. Spawn each Witch enemy discarded by this effect at Anette Mason's location. If no Witch enemies are discarded by this effect, ready her."/>
+    <property name="Text" value="Retaliate.&#10;Forced - After the enemy phase begins: Discard the top 3 cards of the encounter deck. Spawn each Witch enemy discarded by this effect at Anette Mason's location. If no Witch enemies are discarded by this effect, ready her."/>
   </card>
   <card id="b38cbfe7-33ce-4da0-805e-ee768d55695f" name="Witch-Haunted Woods" size="EncounterCard">
     <property name="Card Number" value="58"/>
@@ -904,7 +904,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Woods."/>
-      <property name="Text" value="You cannot investigate this location while you have between 3 and 10 resources.&#10;&#10;θ: Choose an investigator at a different Witch-Haunted Woods. Move up to 3 of your resources to that investigator's resource pool, or vice versa. (Group limit once per round.)"/>
+      <property name="Text" value="You cannot investigate this location while you have between 3 and 10 resources.&#10;θ: Choose an investigator at a different Witch-Haunted Woods. Move up to 3 of your resources to that investigator's resource pool, or vice versa. (Group limit once per round.)"/>
     </alternate>
   </card>
   <card id="b18d6c04-3078-4f66-8d5c-b86828bfc74f" name="Witch-Haunted Woods" size="EncounterCard">
@@ -950,7 +950,7 @@
       <property name="Doom" value=""/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Woods."/>
-      <property name="Text" value="You cannot investigate this location while you have between 3 and 5 cards in hand.&#10;&#10;θ: You choose and discard 1 card from your hand, then an investigator at a different Witch-Haunted Woods draws 1 card, or vice versa. (Limit once per round.)"/>
+      <property name="Text" value="You cannot investigate this location while you have between 3 and 5 cards in hand.&#10;θ: You choose and discard 1 card from your hand, then an investigator at a different Witch-Haunted Woods draws 1 card, or vice versa. (Limit once per round.)"/>
     </alternate>
   </card>
   <card id="725469f2-857d-4493-bc34-69246ac41e40" name="Witch-Haunted Woods" size="EncounterCard">
@@ -1051,12 +1051,12 @@
     <property name="Encounter Set" value="At Death's Doorstep"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;&#10;α: -1 (-3 instead if your location is haunted).&#10;&#10;γ: -2. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;&#10;δ: -2. If there is a Spectral enemy at your location, take 1 damage."/>
+    <property name="Text" value="Easy / Standard&#10;α: -1 (-3 instead if your location is haunted).&#10;γ: -2. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;δ: -2. If there is a Spectral enemy at your location, take 1 damage."/>
     <alternate name="At Death's Doorstep" type="B">
       <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;&#10;α: -2 (-4 instead if your location is haunted).&#10;&#10;γ: -3. If this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;&#10;δ: -4. If there is a Spectral enemy at your location, take 1 damage and 1 horror."/>
+      <property name="Text" value="Hard / Expert&#10;α: -2 (-4 instead if your location is haunted).&#10;γ: -3. If this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;δ: -4. If there is a Spectral enemy at your location, take 1 damage and 1 horror."/>
     </alternate>
   </card>
   <card id="f69b2d45-3917-4679-a48a-b6c32d47e874" name="JUSTICE XI" size="HorizCard">
@@ -1069,7 +1069,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="8"/>
-    <property name="Text" value="Silver Twilight enemies cannot be damaged or defeated.&#10;&#10;Forced - When you draw a Monster enemy: Instead of spawning it, set it aside, out of play, and place 1 doom on this agenda. This effect can cause this agenda to advance."/>
+    <property name="Text" value="Silver Twilight enemies cannot be damaged or defeated.&#10;Forced - When you draw a Monster enemy: Instead of spawning it, set it aside, out of play, and place 1 doom on this agenda. This effect can cause this agenda to advance."/>
     <alternate name="Pulled into the Shadows" size="HorizCard" type="B">
       <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Agenda"/>
@@ -1078,7 +1078,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="If the investigators do not possess 3 π clues as a group, they lose all of their clues.&#10;&#10;If the investigators possess at least 3 π clues as a group, they must spend 3 π clues and spawn the set-aside Josef Meiger enemy at the location other than the Entry Hall that is farthest from all investigators.&#10;&#10;Open the Campaign Guide and proceed to Interlude I: A Record of Those Lost.&#10;&#10;Once this interlude has been resolved, remove all clues from each location in play, and advance to act 1b."/>
+      <property name="Text" value="If the investigators do not possess 3 π clues as a group, they lose all of their clues.&#10;If the investigators possess at least 3 π clues as a group, they must spend 3 π clues and spawn the set-aside Josef Meiger enemy at the location other than the Entry Hall that is farthest from all investigators.&#10;Open the Campaign Guide and proceed to Interlude I: A Record of Those Lost.&#10;Once this interlude has been resolved, remove all clues from each location in play, and advance to act 1b."/>
     </alternate>
   </card>
   <card id="77bb8257-87a1-4d81-a4c1-4240b9fa338c" name="Over the Threshold" size="HorizCard">
@@ -1091,7 +1091,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="11"/>
-    <property name="Text" value="Each Silver Twilight enemy gains Victory 0, and counts as an investigator for the purpose of determining where hunter enemies move during the enemy phase.&#10;&#10;Forced - After the 'hunter enemies move' step of the enemy phase: Each ready Spectral enemy deals its damage value to each Humanoid enemy at its location."/>
+    <property name="Text" value="Each Silver Twilight enemy gains Victory 0, and counts as an investigator for the purpose of determining where hunter enemies move during the enemy phase.&#10;Forced - After the 'hunter enemies move' step of the enemy phase: Each ready Spectral enemy deals its damage value to each Humanoid enemy at its location."/>
     <alternate name="Escape, if You Can" size="HorizCard" type="B">
       <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Agenda"/>
@@ -1100,7 +1100,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="- If the investigators are at act 2, they are trapped inside the spectral realm. (->R3)&#10;&#10;- If the investigators are at act 3, they barely escape with their lives. Each investigator who has not resigned is defeated and suffers 1 physical trauma."/>
+      <property name="Text" value="- If the investigators are at act 2, they are trapped inside the spectral realm. (->R3)&#10;- If the investigators are at act 3, they barely escape with their lives. Each investigator who has not resigned is defeated and suffers 1 physical trauma."/>
     </alternate>
   </card>
   <card id="bc27e822-45d7-4f1b-9e77-60cdc6dc0b1a" name="Hidden Agendas" size="HorizCard">
@@ -1122,7 +1122,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Move each investigator and each enemy currently in the Entry Hall to the Victorian Halls.&#10;&#10;For each location in play, find the set-aside Spectral version of that location and swap them (all tokens and cards at the former location are now considered to be at the new location). If there is an investigator at that location, reveal it.&#10;&#10;In player order, each investigator spawns one of the set-aside Monster enemies at his or her location, until each of the set-aside Monster enemies has been spawned.&#10;&#10;Spawn the set-aside The Spectral Watcher enemy in the Entry Hall. Shuffle the remainder of the set-aside The Watcher encounter set and the set-aside Realm of Death encounter set into the encounter deck, along with the encounter discard pile."/>
+      <property name="Text" value="Move each investigator and each enemy currently in the Entry Hall to the Victorian Halls.&#10;For each location in play, find the set-aside Spectral version of that location and swap them (all tokens and cards at the former location are now considered to be at the new location). If there is an investigator at that location, reveal it.&#10;In player order, each investigator spawns one of the set-aside Monster enemies at his or her location, until each of the set-aside Monster enemies has been spawned.&#10;Spawn the set-aside The Spectral Watcher enemy in the Entry Hall. Shuffle the remainder of the set-aside The Watcher encounter set and the set-aside Realm of Death encounter set into the encounter deck, along with the encounter discard pile."/>
     </alternate>
   </card>
   <card id="3828c13a-18ab-4dd5-9b3b-7347298e0c30" name="The Spectral Realm" size="HorizCard">
@@ -1143,7 +1143,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="The mist blocking your escape recedes. Reveal the Entry Hall.&#10;&#10;Shuffle the encounter discard pile into the encounter deck."/>
+      <property name="Text" value="The mist blocking your escape recedes. Reveal the Entry Hall.&#10;Shuffle the encounter discard pile into the encounter deck."/>
     </alternate>
   </card>
   <card id="53513f10-8c8c-4de7-9588-854743c9ba00" name="Escape the Cage" size="HorizCard">
@@ -1156,7 +1156,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="Forced - At the end of the round: Each Silver Twilight enemy in the Entry Hall escapes; place them beneath the Entry Hall, out of play. Move each ready Silver Twilight enemy with the aloof keyword once toward the Entry Hall.&#10;&#10;Objective - If each undefeated investigator has resigned, advance."/>
+    <property name="Text" value="Forced - At the end of the round: Each Silver Twilight enemy in the Entry Hall escapes; place them beneath the Entry Hall, out of play. Move each ready Silver Twilight enemy with the aloof keyword once toward the Entry Hall.&#10;Objective - If each undefeated investigator has resigned, advance."/>
     <alternate name="Alive… for Now" size="HorizCard" type="B">
       <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Act"/>
@@ -1466,11 +1466,11 @@
     <property name="Horror" value="1"/>
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Humanoid. Cultist. Silver Twilight. Elite."/>
-    <property name="Text" value="Retaliate.&#10;&#10;η If no other Silver Twilight enemy has doom on it: Parley. Test έ (4) to convince Josef that this is not your doing. If you fail, Josef Meiger attacks you. If you succeed, flip this card over and resolve its text."/>
+    <property name="Text" value="Retaliate.&#10;η If no other Silver Twilight enemy has doom on it: Parley. Test έ (4) to convince Josef that this is not your doing. If you fail, Josef Meiger attacks you. If you succeed, flip this card over and resolve its text."/>
     <alternate name="Josef's Plan" size="EncounterCard" type="B">
       <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Story"/>
-      <property name="Text" value="Remove all doom from this card.&#10;&#10;For the remainder of the game, doom cannot be placed on Silver Twilight enemies, and Josef Meiger gains aloof.&#10;&#10;Flip this card back to its enemy side and disengage it from all investigators."/>
+      <property name="Text" value="Remove all doom from this card.&#10;For the remainder of the game, doom cannot be placed on Silver Twilight enemies, and Josef Meiger gains aloof.&#10;Flip this card back to its enemy side and disengage it from all investigators."/>
     </alternate>
   </card>
   <card id="f22407c7-4f91-44b6-9382-e889c4741131" name="The Spectral Watcher" size="EncounterCard">
@@ -1487,7 +1487,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Ancient One. Spectral. Elite."/>
-    <property name="Text" value="Alert. Hunter.&#10;&#10;Forced - When The Spectral Watcher is defeated: Instead of discarding it, heal all damage from it, disengage it from all investigators, and exhaust it. It does not ready during the upkeep phase this round."/>
+    <property name="Text" value="Alert. Hunter.&#10;Forced - When The Spectral Watcher is defeated: Instead of discarding it, heal all damage from it, disengage it from all investigators, and exhaust it. It does not ready during the upkeep phase this round."/>
   </card>
   <card id="3b041a9e-6978-46a6-bcef-a35f30ef7b7b" name="Watcher's Grasp" size="EncounterCard">
     <property name="Card Number" value="87"/>
@@ -1510,7 +1510,7 @@
     <property name="Horror" value="2"/>
     <property name="Victory Points" value="2"/>
     <property name="Traits" value="Monster. Elite."/>
-    <property name="Text" value="Prey - Least remaining sanity.&#10;&#10;Alert. Hunter. Retaliate.&#10;&#10;Forced - When the enemy phase ends: Piper of Azathoth attacks each investigator it is not engaged with at its location (regardless of whether it is ready or exhausted)."/>
+    <property name="Text" value="Prey - Least remaining sanity.&#10;Alert. Hunter. Retaliate.&#10;Forced - When the enemy phase ends: Piper of Azathoth attacks each investigator it is not engaged with at its location (regardless of whether it is ready or exhausted)."/>
   </card>
   <card id="f13a2462-7466-4b9d-b000-5e2d8c4af564" name="Daemonic Piping" size="EncounterCard">
     <property name="Card Number" value="89"/>
@@ -1519,7 +1519,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Power. Terror."/>
-    <property name="Text" value="Surge.&#10;&#10;Revelation - If Piper of Azathoth is in play, deal 1 horror to each investigator at its location and at each connecting location. Otherwise, put Daemonic Piping into play next to the agenda deck.&#10;&#10;If there are 3 copies of Daemonic Piping in play, discard them and spawn the Piper of Azathoth engaged with its prey (from any out of play area)."/>
+    <property name="Text" value="Surge.&#10;Revelation - If Piper of Azathoth is in play, deal 1 horror to each investigator at its location and at each connecting location. Otherwise, put Daemonic Piping into play next to the agenda deck.&#10;If there are 3 copies of Daemonic Piping in play, discard them and spawn the Piper of Azathoth engaged with its prey (from any out of play area)."/>
   </card>
   <card id="343b9330-c6b0-4ad3-90b0-aef7cab1ba12" name="Coven Initiate" size="EncounterCard">
     <property name="Card Number" value="90"/>
@@ -1545,7 +1545,7 @@
     <property name="Health" value="3"/>
     <property name="Damage" value="2"/>
     <property name="Traits" value="Humanoid. Witch."/>
-    <property name="Text" value="Retaliate.&#10;&#10;Priestess of the Coven gets +1 fight and +1 evade for each Witch enemy in the encounter discard pile (to a maximum of +3 fight and +3 evade).&#10;&#10;Forced - When the encounter deck runs out of cards: Priestess of the Coven readies and attacks each investigator at its location."/>
+    <property name="Text" value="Retaliate.&#10;Priestess of the Coven gets +1 fight and +1 evade for each Witch enemy in the encounter discard pile (to a maximum of +3 fight and +3 evade).&#10;Forced - When the encounter deck runs out of cards: Priestess of the Coven readies and attacks each investigator at its location."/>
   </card>
   <card id="a0ebb0e6-91c1-4839-be28-3410d18e47c0" name="Diabolic Voices" size="EncounterCard">
     <property name="Card Number" value="92"/>
@@ -1563,7 +1563,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex."/>
-    <property name="Text" value="Revelation - Put Wracked into play in your threat area.&#10;&#10;You get -1 to each of your skills during the first skill test you perform each round.&#10;&#10;η: Test ά (3). If you succeed, discard Wracked. If there is an exhausted Witch enemy at your location, this test is automatically successful."/>
+    <property name="Text" value="Revelation - Put Wracked into play in your threat area.&#10;You get -1 to each of your skills during the first skill test you perform each round.&#10;η: Test ά (3). If you succeed, discard Wracked. If there is an exhausted Witch enemy at your location, this test is automatically successful."/>
   </card>
   <card id="e3d19014-ace7-4ea4-8e05-57f33692dd9a" name="Bedeviled" size="EncounterCard">
     <property name="Card Number" value="94"/>
@@ -1572,7 +1572,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Hex."/>
-    <property name="Text" value="Revelation - Put Bedeviled into play in your threat area.&#10;&#10;You cannot trigger η abilities on cards you control.&#10;&#10;η: Test ά (3). If you succeed, discard Bedeviled. If there is an exhausted Witch enemy at your location, this test is automatically successful."/>
+    <property name="Text" value="Revelation - Put Bedeviled into play in your threat area.&#10;You cannot trigger η abilities on cards you control.&#10;η: Test ά (3). If you succeed, discard Bedeviled. If there is an exhausted Witch enemy at your location, this test is automatically successful."/>
   </card>
   <card id="2cfe6d4e-1ded-4217-be8f-f30c4989f16f" name="Lodge Neophyte" size="EncounterCard">
     <property name="Card Number" value="95"/>
@@ -1585,7 +1585,7 @@
     <property name="Health" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Cultist. Silver Twilight."/>
-    <property name="Text" value="Spawn - Any empty location.&#10;&#10;Aloof.&#10;&#10;Forced - After Lodge Neophyte enters play: Place 1 doom on it.&#10;&#10;η: Parley. Test ά (2). If you succeed, remove all doom from Lodge Neophyte."/>
+    <property name="Text" value="Spawn - Any empty location.&#10;Aloof.&#10;Forced - After Lodge Neophyte enters play: Place 1 doom on it.&#10;η: Parley. Test ά (2). If you succeed, remove all doom from Lodge Neophyte."/>
   </card>
   <card id="569ae12f-4a94-49f5-8cbd-3104502c13c6" name="Keeper of Secrets" size="EncounterCard">
     <property name="Card Number" value="96"/>
@@ -1599,7 +1599,7 @@
     <property name="Damage" value="1"/>
     <property name="Horror" value="1"/>
     <property name="Traits" value="Humanoid. Cultist. Silver Twilight."/>
-    <property name="Text" value="Spawn - Any empty location.&#10;&#10;Aloof. Retaliate.&#10;&#10;Forced - When the mythos phase ends: Place 1 doom on Keeper of Secrets.&#10;&#10;η: Parley. Test έ (3). If you succeed, remove all doom from Keeper of Secrets."/>
+    <property name="Text" value="Spawn - Any empty location.&#10;Aloof. Retaliate.&#10;Forced - When the mythos phase ends: Place 1 doom on Keeper of Secrets.&#10;η: Parley. Test έ (3). If you succeed, remove all doom from Keeper of Secrets."/>
   </card>
   <card id="779ed398-8619-4fa1-bd77-8b7be2c44c75" name="Mysteries of the Lodge" size="EncounterCard">
     <property name="Card Number" value="97"/>
@@ -1617,7 +1617,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Revelation - Put Evil Past into play in your threat area if there is no copy of it in your threat area (if there is, discard Evil Past and it gains surge instead).&#10;&#10;Forced - When the encounter deck runs out of cards: Take 2 horror and test ά (3). If you succeed, discard Evil Past."/>
+    <property name="Text" value="Revelation - Put Evil Past into play in your threat area if there is no copy of it in your threat area (if there is, discard Evil Past and it gains surge instead).&#10;Forced - When the encounter deck runs out of cards: Take 2 horror and test ά (3). If you succeed, discard Evil Past."/>
   </card>
   <card id="c082467f-92dd-493c-a00a-026c26e133f5" name="Centuries of Secrets" size="EncounterCard">
     <property name="Card Number" value="99"/>
@@ -1641,7 +1641,7 @@
     <property name="Horror" value="1"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Monster. Spectral."/>
-    <property name="Text" value="Prey - Investigator at the location with the most clues.&#10;&#10;Aloof. Hunter.&#10;&#10;Nether Mist's location gains: &quot;Haunted - Nether Mist attacks you.&quot;"/>
+    <property name="Text" value="Prey - Investigator at the location with the most clues.&#10;Aloof. Hunter.&#10;Nether Mist's location gains: &quot;Haunted - Nether Mist attacks you.&quot;"/>
   </card>
   <card id="4ded3644-33e3-42cb-9465-65905d322cc1" name="Shadow Hound" size="EncounterCard">
     <property name="Card Number" value="101"/>
@@ -1654,7 +1654,7 @@
     <property name="Health" value="3"/>
     <property name="Damage" value="1"/>
     <property name="Traits" value="Monster. Spectral."/>
-    <property name="Text" value="Prey - Lowest ί.&#10;&#10;Hunter. Retaliate.&#10;&#10;Forced - After Shadow Hound attacks you: Resolve each haunted ability on your location."/>
+    <property name="Text" value="Prey - Lowest ί.&#10;Hunter. Retaliate.&#10;Forced - After Shadow Hound attacks you: Resolve each haunted ability on your location."/>
   </card>
   <card id="3f445c62-94aa-4015-a1cb-700977b6b023" name="Whispers in the Dark" size="EncounterCard">
     <property name="Card Number" value="102"/>
@@ -1663,7 +1663,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Omen. Spectral."/>
-    <property name="Text" value="Revelation - Put Whispers in the Dark into play next to the agenda deck.&#10;&#10;Each location gains: &quot;Haunted - Take 1 horror.&quot;&#10;&#10;Forced - When the round ends: Discard Whispers in the Dark."/>
+    <property name="Text" value="Revelation - Put Whispers in the Dark into play next to the agenda deck.&#10;Each location gains: &quot;Haunted - Take 1 horror.&quot;&#10;Forced - When the round ends: Discard Whispers in the Dark."/>
   </card>
   <card id="98aa643b-46f1-48f1-9e5d-a10d6164490e" name="Wraith" size="EncounterCard">
     <property name="Card Number" value="103"/>
@@ -1676,7 +1676,7 @@
     <property name="Health" value="2"/>
     <property name="Horror" value="2"/>
     <property name="Traits" value="Monster. Geist. Spectral."/>
-    <property name="Text" value="Hunter.&#10;&#10;Forced - When Wraith is defeated by damage (except from a Spell or Relic): Instead of discarding it, attach it to its location. Attached location gains: &quot;Haunted - Spawn Wraith at this location.&quot;"/>
+    <property name="Text" value="Hunter.&#10;Forced - When Wraith is defeated by damage (except from a Spell or Relic): Instead of discarding it, attach it to its location. Attached location gains: &quot;Haunted - Spawn Wraith at this location.&quot;"/>
   </card>
   <card id="bcd6e177-8bba-4551-98c5-688a6d65ea81" name="Trapped Spirits" size="EncounterCard">
     <property name="Card Number" value="104"/>
@@ -1694,7 +1694,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Terror. Spectral."/>
-    <property name="Text" value="Revelation - Put Realm of Torment into play in your threat area.&#10;&#10;Forced - When your turn begins: Resolve each haunted ability on your location.&#10;&#10;Forced - When your turn ends: Test ά (3). If you succeed, discard Realm of Torment."/>
+    <property name="Text" value="Revelation - Put Realm of Torment into play in your threat area.&#10;Forced - When your turn begins: Resolve each haunted ability on your location.&#10;Forced - When your turn ends: Test ά (3). If you succeed, discard Realm of Torment."/>
   </card>
   <card id="766e1693-b1eb-4590-954b-2e18072e18f9" name="Shapes in the Mist" size="EncounterCard">
     <property name="Card Number" value="106"/>
@@ -1703,7 +1703,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Terror. Spectral."/>
-    <property name="Text" value="Surge.&#10;&#10;Revelation - Resolve each haunted ability on your location."/>
+    <property name="Text" value="Surge.&#10;Revelation - Resolve each haunted ability on your location."/>
   </card>
   <card id="2fc27237-5a64-4e53-9490-8e2f24a86465" name="Terror in the Night" size="EncounterCard">
     <property name="Card Number" value="107"/>
@@ -1712,7 +1712,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Terror. Spectral."/>
-    <property name="Text" value="Revelation - Test ά (4). If you fail, put Terror in the Night into play next to the agenda deck. If you fail by 3 or more, Terror in the Night gains surge.&#10;&#10;If there are 3 copies of Terror in the Night next to the agenda deck, discard them and each investigator takes 3 horror."/>
+    <property name="Text" value="Revelation - Test ά (4). If you fail, put Terror in the Night into play next to the agenda deck. If you fail by 3 or more, Terror in the Night gains surge.&#10;If there are 3 copies of Terror in the Night next to the agenda deck, discard them and each investigator takes 3 horror."/>
   </card>
   <card id="69fba3d3-9218-40c4-9f72-9d428de08a30" name="Fate of All Fools" size="EncounterCard">
     <property name="Card Number" value="108"/>
@@ -1721,7 +1721,7 @@
     <property name="Type" value="Treachery"/>
     <property name="Class" value="Mythos"/>
     <property name="Traits" value="Omen. Spectral."/>
-    <property name="Text" value="Peril.&#10;&#10;Revelation - You must decide (choose one):&#10;&#10;- If there is no other copy of Fate of All Fools in play, put Fate of All Fools into play in your threat area.&#10;&#10;- An investigator with another copy of Fate of All Fools in his or her threat area takes 2 direct damage.&#10;&#10;- Place 1 doom on another copy of Fate of All Fools."/>
+    <property name="Text" value="Peril.&#10;Revelation - You must decide (choose one):&#10;- If there is no other copy of Fate of All Fools in play, put Fate of All Fools into play in your threat area.&#10;- An investigator with another copy of Fate of All Fools in his or her threat area takes 2 direct damage.&#10;- Place 1 doom on another copy of Fate of All Fools."/>
   </card>
   <card id="57e4c960-af10-44cc-9af3-e1f4db571445" name="Carolyn Fern" size="MiniCard">
     <property name="Card Number" value="990"/>
