@@ -434,6 +434,7 @@ def startOfGame():
     # NEW
     #---------------------------------------------------------------------------
     setGlobalVariable("currentPlayers",str([]))
+    setGlobalVariable(str(me._id)+"LimitHand", "8")
 
 
 #Triggered event OnLoadDeck
@@ -891,10 +892,11 @@ def doUpkeepPhase(setPhaseVar = True):
     draw(me.deck)
     
     # Check for hand size!
-    if len(me.hand) > 8:
-        discardCount = len(me.hand) - 8
+    sizeHand = int(getGlobalVariable(str(me._id)+"LimitHand")) 
+    if len(me.hand) > sizeHand:
+        discardCount = len(me.hand) - sizeHand
         dlg = cardDlg(me.hand)
-        dlg.title = "You have more than the allowed 8 cards in hand."
+        dlg.title = "You have more than the allowed "+ str(sizeHand) +" cards in hand."
         dlg.text = "Select " + str(discardCount) + " Card(s):"
         dlg.min = 0
         dlg.max = discardCount
@@ -1432,6 +1434,19 @@ def drawMany(group, count = None):
     for c in group.top(count):
         c.moveTo(me.hand)
         notify("{} draws '{}'".format(me, c))
+        
+def limitHand(group, count = None):
+    mute()
+    if len(group) == 0: return
+    if deckLocked():
+        whisper("Your deck is locked, you cannot draw cards at this time")
+        return
+    if count is None:
+        count = askInteger("Limit hand size ?", 8)
+    if count is None or count <= 0:
+        whisper("limitHand: invalid card count")
+        return 
+    setGlobalVariable(str(me._id)+"LimitHand", str(count))
  
 def search(group, count = None):
     mute()

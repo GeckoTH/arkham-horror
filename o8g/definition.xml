@@ -222,6 +222,7 @@
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
+			<groupaction menu="Limit Hand Size" default="False" execute="limitHand" />
 			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToDeck" />
 		</group>
 		<group name="Discard Pile" visibility="all" ordered="True" icon="groups/discard.png" collapsed="False">
