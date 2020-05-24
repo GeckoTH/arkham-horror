@@ -206,7 +206,8 @@
 		<counter name="Intellect" default="0" icon="groups/intellect.png" />
 		<counter name="Combat" default="0" icon="groups/combat.png" />
 		<counter name="Agility" default="0" icon="groups/agility.png" />
-		<group name="Hand" visibility="me" ordered="False" icon="groups/hand.png" viewState="expanded">
+		<counter name="Limit Hand Size" default="8" reset="True" icon="groups/hand.png" />
+		<group name="Hand" visibility="me" ordered="False" icon="groups/hand.png" viewState="expanded">>
 			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
 			<cardaction menu="Play" default="True" execute="playCard" />
 			<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
@@ -222,7 +223,6 @@
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
-			<groupaction menu="Limit Hand Size" default="False" execute="limitHand" />
 			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToDeck" />
 		</group>
 		<group name="Discard Pile" visibility="all" ordered="True" icon="groups/discard.png" collapsed="False">
