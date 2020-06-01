@@ -137,7 +137,7 @@
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
 		</groupactions>
-		
+		<groupaction menu="Take control of Global cards" default="False" shortcut="ctrl+G" execute="takeControlGlobal" />
 		<groupactions menu="Saving Tools">
 			<groupaction menu="Save Player Deck ..." default="False" execute="saveDeck" />
 			<groupaction menu="Save Table State..." default="False" execute="saveTable" />

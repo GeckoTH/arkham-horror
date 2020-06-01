@@ -1427,7 +1427,7 @@ def drawMany(group, count = None):
         whisper("Your deck is locked, you cannot draw cards at this time")
         return
     if count is None:
-        count = askInteger("Draw how many cards?", 5)
+        count = askInteger("Draw how many cards?", 4)
     if count is None or count <= 0:
         whisper("drawMany: invalid card count")
         return
