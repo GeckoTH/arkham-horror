@@ -863,7 +863,7 @@ def setAbilityCounters(investigatorCard):
     me.counters['Intellect'].value = num(investigatorCard.Intellect)
     me.counters['Combat'].value = num(investigatorCard.Combat)
     me.counters['Agility'].value = num(investigatorCard.Agility)
-    me.counters['Limit Hand Size'].value = num("8")
+    me.counters['Maximum Hand Size'].value = num("8")
     
     
 def readyForNextRound(group=table, x=0, y=0):
@@ -892,7 +892,7 @@ def doUpkeepPhase(setPhaseVar = True):
     draw(me.deck)
     
     # Check for hand size!
-    sizeHand = me.counters['Limit Hand Size'].value
+    sizeHand = me.counters['Maximum Hand Size'].value
     if len(me.hand) > sizeHand:
         discardCount = len(me.hand) - sizeHand
         dlg = cardDlg(me.hand)
@@ -1427,7 +1427,7 @@ def drawMany(group, count = None):
         whisper("Your deck is locked, you cannot draw cards at this time")
         return
     if count is None:
-        count = askInteger("Draw how many cards?", 6)
+        count = askInteger("Draw how many cards?", 4)
     if count is None or count <= 0:
         whisper("drawMany: invalid card count")
         return

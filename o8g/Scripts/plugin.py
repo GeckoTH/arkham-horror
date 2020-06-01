@@ -10,7 +10,7 @@ from System.Web.Script.Serialization import JavaScriptSerializer as json #since 
 PLAYER_DECK = ['Investigator', 'Special', 'Asset', 'Event', 'Skill', 'Weakness', 'Sideboard', 'Basic Weaknesses']
 
 def takeControlGlobal(group, x=0, y=0):
-    notify( me.name + " take control of the table")
+    notify( me.name + " takes control of shared cards")
     mute()
 	#Take control of each not player card on table
     for card in table:
@@ -20,7 +20,7 @@ def takeControlGlobal(group, x=0, y=0):
 	for p in shared.piles:
             if shared.piles[p].controller != me:
                 shared.piles[p].controller = me
-				
+
 def saveTable(group, x=0, y=0):
 	mute()
 	

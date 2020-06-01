@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.2"
-	version="1.6.6.6"
+	version="1.6.6.8"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -137,7 +137,7 @@
 			<groupaction menu="Turn off Management" default="False" execute="automationOff" />
 			<groupaction menu="Enable Turn Management" default="False" execute="turnManagementOn" />
 		</groupactions>
-		<groupaction menu="Take Global Control" default="False" shortcut="ctrl+G" execute="takeControlGlobal" />
+		<groupaction menu="Take control of Global cards" default="False" shortcut="ctrl+G" execute="takeControlGlobal" />
 		<groupactions menu="Saving Tools">
 			<groupaction menu="Save Player Deck ..." default="False" execute="saveDeck" />
 			<groupaction menu="Save Table State..." default="False" execute="saveTable" />
@@ -206,7 +206,7 @@
 		<counter name="Intellect" default="0" icon="groups/intellect.png" />
 		<counter name="Combat" default="0" icon="groups/combat.png" />
 		<counter name="Agility" default="0" icon="groups/agility.png" />
-		<counter name="Limit Hand Size" default="8" reset="True" icon="groups/hand.png" />
+		<counter name="Maximum Hand Size" default="8" reset="True" icon="groups/hand.png" />
 		<group name="Hand" visibility="me" ordered="False" icon="groups/hand.png" viewState="expanded">
 			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
 			<cardaction menu="Play" default="True" execute="playCard" />
