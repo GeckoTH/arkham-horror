@@ -426,7 +426,7 @@ def startOfGame():
     unlockDeck()
     setActivePlayer(None)   
     if me._id == 1:
-        setGlobalVariable("playersSetup", "")
+        setGlobalVariable("playersSetup", "")       
         setGlobalVariable("game", str(num(getGlobalVariable("game"))+1))
         notify("Starting Game {}".format(getGlobalVariable("game")))
 
@@ -434,7 +434,8 @@ def startOfGame():
     # NEW
     #---------------------------------------------------------------------------
     setGlobalVariable("currentPlayers",str([]))
-
+    
+  
 
 #Triggered event OnLoadDeck
 # args: player, groups
@@ -862,7 +863,7 @@ def setAbilityCounters(investigatorCard):
     me.counters['Intellect'].value = num(investigatorCard.Intellect)
     me.counters['Combat'].value = num(investigatorCard.Combat)
     me.counters['Agility'].value = num(investigatorCard.Agility)
-    
+    me.counters['Limit Hand Size'].value = num("8")
     
     
 def readyForNextRound(group=table, x=0, y=0):
@@ -891,10 +892,11 @@ def doUpkeepPhase(setPhaseVar = True):
     draw(me.deck)
     
     # Check for hand size!
-    if len(me.hand) > 8:
-        discardCount = len(me.hand) - 8
+    sizeHand = me.counters['Limit Hand Size'].value
+    if len(me.hand) > sizeHand:
+        discardCount = len(me.hand) - sizeHand
         dlg = cardDlg(me.hand)
-        dlg.title = "You have more than the allowed 8 cards in hand."
+        dlg.title = "You have more than the allowed "+ str(sizeHand) +" cards in hand."
         dlg.text = "Select " + str(discardCount) + " Card(s):"
         dlg.min = 0
         dlg.max = discardCount
@@ -1432,7 +1434,7 @@ def drawMany(group, count = None):
     for c in group.top(count):
         c.moveTo(me.hand)
         notify("{} draws '{}'".format(me, c))
- 
+
 def search(group, count = None):
     mute()
     if len(group) == 0: return
