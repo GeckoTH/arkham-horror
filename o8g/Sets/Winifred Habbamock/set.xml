@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Winifred Habbamock" id="15661ba0-80fd-48a8-9c1e-a3f5bcd891dd" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="98bdd22f-d65e-480e-b01a-3017fea6775e" name="Winifred Habbamock" size="InvestigatorCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Aviatrix" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Criminal." />
+      <property name="Text" value="θ If 2 different non-weakness cards you control are committed to this skill test: Draw 1 card. (Limit once per test.)&#10;ε effet: +1. After this skill test ends, for every 2 points you succeeded by, return a card you committed to this test to your hand." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="7" />
+      <property name="Class" value="Rogue" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <alternate name="Winifred Habbamock" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Aviatrix" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Rogue cards (ν) level 0-5, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Anything You Can Do, Better; Arrogance; 1 random basic weakness." />
+        <property name="Class" value="Rogue" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="9e6abd13-fdd3-4d34-ba5a-a743ba798785" name="Anything You Can Do, Better">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="Winifred Habbamock deck only.&#10;Commit only to a skill test you are performing." />
+      <property name="Class" value="Rogue" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5c25438a-e33b-4cde-8902-c01dc6903a58" name="Arrogance">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Skill" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Flaw." />
+      <property name="Text" value="You must commit Arrogance to each eligible skill test you perform.&#10;This skill's icons subtract from your skill value instead of adding to it.&#10;If this test succeeds, return this skill to your hand." />
+      <property name="Class" value="Neutral" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ab48b372-c8d2-4c3e-b97d-5bdd42e78b27" name="Reckless">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Skill" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Flaw." />
+      <property name="Text" value="Commit only to a skill test you are performing (of any type) that has no other cards committed to it. Other cards cannot be committed to this skill test.&#10;If this test fails, return this skill to your hand.&#10;Forced – If Reckless is in your hand at the end of your turn: Reveal it and lose 2 resources." />
+      <property name="Class" value="Neutral" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8ea48ed7-4f5a-4af5-99d9-cccc6fbd1aa4" name="Lockpicks">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool. Illicit." />
+      <property name="Text" value="η Exhaust Lockpicks: Investigate. Add your ί value to your skill value for this investigation. If you do not succeed by a least 2, discard Lockpicks." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f7b46a50-f42f-4706-8e3d-9ff4a5b859bf" name="Mauser C96">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (5 ammo).&#10;η Exhaust Mauser C96 and spend 1 ammo: Fight. You get +1 ή and deal +1 damage for this attack. If you succeed by 2 or more, either ready Mauser C96 or gain 1 resource." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9cc9a8cd-296d-406f-9e1d-d20338bd64b3" name="Switchblade">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Melee. Illicit." />
+      <property name="Text" value="Fast.&#10;η: Fight. If you succeed by 2 or more, this attack deals +1 damage." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1a87f390-3bbf-4c3e-a7a5-67dee664546a" name="Lucky Cigarette Case">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="ι After you succeed at a skill test by 2 or more, exhaust Lucky Cigarette Case: Draw 1 card." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="03d925ff-000b-462e-abfb-791101d90f55" name="Lonnie Ritter">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Feisty Mechanic" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally." />
+      <property name="Text" value="You get +1 ή.&#10;θ Exhaust Lonnie Ritter and spend 1 resource: Choose an item asset controled by an investigator at your location. Heal 1 damage from that asset and 1 horror from Lonnie Ritter." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9c8613ac-b4f2-4040-a321-4de72f7567aa" name="Leather Jacket">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Armor." />
+      <property name="Text" value="Fast." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Body" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="899eb1cf-90fc-445a-8f15-ba21a1efba25" name="Streetwise">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="θ Spend 2 resources: You get +2 έ for this skill test.&#10;θ Spend 2 resources: You get +2 ί for this skill test." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7c11da9b-0283-48a8-ab80-4cf24ee22228" name="Cheap Shot">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick." />
+      <property name="Text" value="Fight. Add your ί value to your skill value for this attack. If you succeed by 2 or more, automatically evade the attacked enemy." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ce98b3de-2197-4c8c-bdc2-327729a87842" name="Daring Maneuver">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Gambit." />
+      <property name="Text" value="Fast. Play when you would succeed at a skill test.&#10;You get +2 skill value for this test." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9117e53c-2408-4931-97ae-056eddbee5b4" name="Slip Away">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick." />
+      <property name="Text" value="Evade. Add your έ to your skill value for this evasion attempt. If you succeed by 2 or more and the evaded enemy is non-Elite, it does not ready during the next upkeep phase." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0719dfff-a6ec-470a-bf72-e53597a8b07e" name="Pilfer">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick." />
+      <property name="Text" value="Investigate. This investigation uses ί instead of έ. If you succeed, discover 2 additional clues at your location." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5fd0b8d7-1642-436e-a8eb-eedbc59d1982" name="Sneak By">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick." />
+      <property name="Text" value="Evade. When this action begins, gain 2 resources." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6ca1e46a-e66d-4bb2-bd34-6ec3401273b3" name="Nimble">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="For each point this skill test succeeds by, after it resolves, you may immediately move to a connecting location (to a maximum of 3 times)" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bbf5e8a6-692a-4107-8baf-8d3cef431f67" name="Daredevil">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Fortune. Practiced." />
+      <property name="Text" value="After you commit Daredevil to a skill test, discard cards rom the top of your deck until you discard a ν skill you can commit to this test. Comit it. Shuffle each weakness that was discarded by this effect back into your deck." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e6f58b4a-3847-42de-b7d7-275b41a7cc52" name="Opportunist">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Commit only to a skill test you are performing.&#10;If you succeed by 3 or more, return Opportunist to your hand after this test instead of discarding it." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b4506138-3136-4f64-b7c3-8d9e1cda7b81" name="Liquid Courage">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Illicit." />
+      <property name="Text" value="Uses (4 supplies).&#10;η Spend 1 supply: Choose an investigator at your location to heal 1 horror. Then, that investigator tests ά (2). If the test succeeds, they draw 1 card. If the test fails, they heal 1 additional horror and discard 1 card at random from their hand." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3c7ff367-8c9f-4e2a-be8c-c2694346d499" name="Mauser C96">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (5 ammo).&#10;η Exhaust Mauser C96 and spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack. If you succeed by 2 or more, either ready Mauser C96 or gain 1 resource if you succeed by 4 or more, do both)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e8efb90c-5a60-41b9-8275-45f11ca373d8" name="Daring Maneuver">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Gambit." />
+      <property name="Text" value="Fast. Play when you would succeed at a skill test.&#10;You get +3 skill value for this test. Draw 1 card." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="58bc51b8-9e21-4fb5-86c8-2b882ce81654" name="Cheap Shot">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick." />
+      <property name="Text" value="Fight. Add your ί value to your skill value for this attack. If you succeed by 1 or more, automatically evade the attacked enemy. If you succeed by 3 or more, return Cheap Shot to your hand at the end of your turn." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9b177615-172e-481c-bc94-b4912620543d" name="Slip Away">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick." />
+      <property name="Text" value="Evade. Add your έ to your skill value for this evasion attempt. If you succeed by 1 or more and the evaded enemy is non-Elite, it does not ready during the next upkeep phase. If you succeed by 3 or more, return Slip Away to your hand at the end of your turn." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="504ca477-ff6e-464e-8a74-5185f7acb957" name="Manual Dexterity">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;If this test is successful, draw 1 card (2 cards instead if it succeeds by 2 or more)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="aa4aef04-a7e7-4021-809f-07c1b512dda1" name="Lucky Cigarette Case">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="ι After you succeed at a skill test by 1 or more, exhaust Lucky Cigarette Case: Search the top X cards of your deck for a card, draw it, and shuffle the remaining cards into your deck. X is the amount you succeed by." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fa1a5a19-59c9-4e3d-8271-a02991e8cf28" name="Sharpshooter">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="ι When you use a fight ability on a Firearm asset, exhaust Sharpshooter: Choose one, or both:&#10;— This attack uses ί instead of ή. All modifiers to your ή for this attack modify your ί instead.&#10;— Use the attacked enemy's evade value for this test instead of their fight value.&#10;" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2b9c2062-ed82-4ebe-af57-de7fd9046f76" name="Pilfer">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick." />
+      <property name="Text" value="Investigate. This investigation uses ί instead of έ. If you succeed, discover 2 additional clues at your location. If you succeed by 2 or more, return Pilfer to your hand at the end of your turn." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="4" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3e9c1da1-f0d6-4a38-b625-3f6d200262c2" name="Backstab">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic." />
+      <property name="Text" value="Fight. This attack uses ί instead of ή. This attack deals +2 damage. If you succeed by 2 or more, return Backstab to your hand at the end of your turn." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f5216a95-5c9a-4f18-9134-ef84bfbb57d7" name="Copycat">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Gambit." />
+      <property name="Text" value="After you commit Copycat to a skill test, seach the discard pile of another investigator for a skill you can commit to this test, and commit it. After this test ends, place that card on the bottom of its owner's deck." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bfa5b013-2d40-4cbc-a7b8-16d0f487a0ab" name="Beretta M1918">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (4 ammo).&#10;η Exhaust Beretta M1918 and spend 1 ammo: Fight. You get +4 ή and deal +1 damage for this attack. If you succeed by 2 or more, either ready Beretta M1918, or this attack deals an additional +1 damage (if you succeed by 4 or more, do both)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand x2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="55892b16-a33b-41b8-a175-3268cc32a1e9" name="Chuck Fergus">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="O'Bannion Driver" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Criminal" />
+      <property name="Text" value="ι When you play a Tactic or Trick event, exhaust Chuck Fergus: Choose two –&#10;— That event gains fast.&#10;— That event costs 2 fewer resources to play.&#10;— You get +2 skill value while performing a test during the resolution of that event." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+  </cards>
+</set>

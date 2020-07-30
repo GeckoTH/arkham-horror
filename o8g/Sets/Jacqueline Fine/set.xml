@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Jacqueline Fine" id="feeaa0d6-0fcf-4135-835d-ac89907aa633" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="1d70c48b-77e2-439d-bba1-8747799ec121" name="Jacqueline Fine" size="InvestigatorCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Psychic" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Clairvoyant." />
+      <property name="Text" value="ι When an investigator at your location would reveal any number of chaos tokens: Reveal 2 additional tokens. Of the revealed tokens, choose and cancel 2 non-ζ tokens, or 1 ζ token. (Limit once per round.)&#10;[Elder sign] effect: +1. If this effect is canceled or ignored, draw 1 card." />
+      <property name="Health" value="6" />
+      <property name="Sanity" value="9" />
+      <property name="Class" value="Mystic" />
+      <property name="Willpower" value="5" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <alternate name="Jacqueline Fine" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Psychic" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Mystic cards (μ) level 0-5, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Abiter of Fates, Dark Future, 1 random basic weakness." />
+        <property name="Class" value="Mystic" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="6deb4b98-2f16-4d0f-813b-63bb5dedd0e9" name="Arbiter of Fates">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Jacqueline Fine deck only.&#10;ι When you use Jacqueline Fine's &quot;ι&quot; ability, exhaust Arbiter of Fates: This use of her ability does not count towards its limit." />
+      <property name="Class" value="Mystic" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4b247941-3ade-4cc0-83c3-7d3791696a00" name="Dark Future" size="EncounterCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Omen. Endtimes." />
+      <property name="Text" value="Revelation – Put Dark Future into play in your threat area.&#10;You cannot cancel or ignore ε, α, β, γ, δ, and ζ tokens.&#10;Forced – At the end of your turn: Reveal 5 random tokens from the chaos bag. If an ε symbol is revealed, discard Dark Future." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="21e8b71b-751c-461a-8514-e001d1ed5bda" name="Nihilism">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Madness." />
+      <property name="Text" value="Revelation – Put Nihilism into play in your threat area.&#10;Forced – After you reveal, cancel or ignore an ζ token: Take 1 damage and 1 horror.&#10;ηη: Discard Nihilism." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="9ddb253a-4643-4522-bdbc-998aa9eb2ecc" name="Ritual Candles">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item." />
+      <property name="Text" value="ι After a α, β, γ, or δ symbol is revealed during a test you are performing: You get +1 skill value for this test." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cae0d842-ecee-4646-a1a8-532187e1cbb4" name="Scrying Mirror">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="Uses (4 secrets).&#10;ι After a skill test at your location begins, exhaust Scrying Mirrorand spend 1 secret: Perform the &quot;reveal chaos token&quot; step of the test now (before committing cards), instead of after committing cards." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="00cf220f-967b-420c-8691-8c2f7afca3b1" name="Azure Flame">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (4 charges).&#10;η Spend 1 charge: Fight. This attack uses ά instead of ή and deals +1 damage. If an ε, &quot;+1,&quot; or &quot;0&quot; token is revealed during this attack, take 1 damage." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="746450d2-1e72-4f56-bf36-98966d2e5b01" name="Clairvoyance">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Investigate. Investigate using ά instead of έ. If you succeed, discover 1 additional clue at this location. If an ε, &quot;+1,&quot; or &quot;0&quot; token is revealed during this investigation, take 1 horror." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c5e0cd81-ec4e-4f44-901f-f65c8ba4b289" name="Ineffable Truth">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Evade. This evasion attempt uses [WIllpower] instead of ί. If you succeed, deal 1 damage to the evaded enemy. If an ε, &quot;+1&quot;, &quot;0&quot; token is revealed during this evasion attempt, lose 1 resource." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7d4080a0-5686-4133-bdff-19d03edd6207" name="Familiar Spirit">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Creature. Summon." />
+      <property name="Text" value="You have 1 additional arcane slot, which can only be used to hold a Spell asset." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="102f50bb-bb4e-414d-9c7a-ba49b63c9356" name="Crystal Pendulum">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="You get +1 ά.&#10;ι After a skill test at your location begins, exhaust Crystal Pendulum: Name a number. If this test succeeds by that number or fails by that number, draw 1 card." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0c860b89-0f1f-464d-bbbd-fbc91cbf4be9" name="Robes of Endless Night">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Clothing." />
+      <property name="Text" value="ι When you play a Spell ard, exhaust Robes of Endless Night: Reduce the cost of that card by 1." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Body" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4b1f69a5-362f-4b0a-8fa7-26c9defbfb63" name="Astral Travel">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Move. Move to any revealed location and reveal a random token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, you must discard an Item or Ally asset you control (if you cannot, take 1 damage)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bdf30ab8-7b79-4ec1-8655-0ced90d7ad73" name="Hypnotic Gaze">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Fast. Play when an enemy attacks an investigator at your location.&#10;Cancel the attack. Then, reveal a random token from the chaos bag. If it has a α, β, γ, δ, or ζ symbol, deal the attacking enemy's damage to itself." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c4e87ce2-7aaa-40b4-aae8-4454ba6ddfe9" name="Parallel Fates">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Augury." />
+      <property name="Text" value="Look a the top 4 cards of the encounter deck. Reveal a random token from the chaos bag. If it has a α, β, γ, δ, or ζ symbol, shuffle those ards into the encounter deck. Otherwise, return them to the top of the encounter deck in any order." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="43e01cef-8b84-4247-8257-f4f628a4c8e6" name="Voice of Ra">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Gain 1 resource. Reveal 3 random tokens from the chaos bag. For each α, β, γ, δ, or ζ symbol revealed, gain an additional 2 resources." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="99d3898b-a9d2-4f7e-8b95-f859e9233db6" name="Dark Prophecy">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Augury." />
+      <property name="Text" value="Fast. Play when you would reveal a chaos token.&#10;Reveal 5 chaos tokens instead of 1. Choose one of those tokens with a α, β, γ, δ, or ζ symbol to resolve, and ignore the rest. (If no such token is revealed, choose any one of those tokens to resolve, and ignore the rest.)" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6f49e5b1-f32e-4836-9dc9-1a552c0582d5" name="Defiance">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Before revealing chaos tokens for this test, choose one of the following symbols: (α, β, γ, or δ). Ignore the effects of the chosen symbol during this test (including its modifier)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6fde2197-82e0-44bb-b1c0-09e31450df68" name="Prescient">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced. Augury." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;After you commit Prescient to a skill test, name &quot;even,&quot; &quot;odd,&quot; or &quot;symbol.&quot; After this test ends, if a chaos token of the named type was revealed during this test, you may return a Spell card from your discard pile to your hand." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="29eeb106-81be-47f0-bf52-41f860115b45" name="Eldritch Inspiration">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Spirit." />
+      <property name="Text" value="Fast. Play when you would resolve an effect on a μ card that triggers &quot;when,&quot; &quot;if,&quot; or &quot;after&quot; a chaos token is revealed.&#10;Either cancel that effect, or resolve it an additional time." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f62f3f96-daea-4c49-bb32-9b380df172a8" name="Grotesque Statue">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="Uses (3 charges). If Grotesque Statue has no charges, discard it.&#10;ι When you would reveal a chaos token, spend 1 charge: Reveal 2 chaos tokens instead of 1. Choose one of those tokens to resolve, and ignore the other." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="dee547af-3c7c-4342-aa8c-9d5b27fcc75d" name="Robes of Endless Night">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Clothing." />
+      <property name="Text" value="ι When you play a Spell card, exhaust Robes of Endless Night: Reduce the cost of that card by 1. Playing that card does not provoke attacks of opportunity." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Body" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bc02d4a7-9caf-4bc7-b4be-e2b85985e320" name="Hypnotic Gaze">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Fast. Play when an enemy attacks an investigator at your location.&#10;Cancel the attack. Then, reveal a random token from the chaos bag. If it has a α, β, γ, δ, or ζ symbol, deal damage to the attacking enemy equal to its damage or horror." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="19979cf2-dfcb-4177-b62e-42b1f4e05952" name="Guts">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;If this test is successful, draw 1 card (2 cards instead if it succeeds by 2 or more)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Willpower" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e5c4e0f2-083a-470e-9ec5-ca8c3536a18b" name="Azure Flame">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (4 charges).&#10;η Spend 1 charge: Fight. This attack uses ά instead of ή. You get +2 ά and deal +1 damage for this attack. If an ε, &quot;+1,&quot; or &quot;0&quot; token is revealed during this attack, take 1 damage." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="89273392-9b2a-488e-b8e9-33d975a4480d" name="Clairvoyance">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Investigate. Investigate using ά instead of έ. You get +2 ά for this investigation. If you succeed, discover 1 additional clue at this location. If an ε, &quot;+1,&quot; or &quot;0&quot; token is revealed during this investigation, take 1 horror." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b1f90d47-bc4a-41e6-9f58-052186f5c564" name="Ineffable Truth">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Evade. This evasion attempt uses [WIllpower] instead of ί. You get +2 ά for this evasion attempt. If you succeed, deal 1 damage to the evaded enemy. If an ε, &quot;+1&quot;, &quot;0&quot; token is revealed during this evasion attempt, lose 1 resource." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="72a63358-3051-48cc-b037-20d20de50a21" name="Arcane Studies">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Uses (2 resources). Replenish these resources at the start of each round.&#10;θ Spend 1 resource from your resource pool or from Arcane Studies: You get +1 ά or +1 έ for this skill test." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d574dcd3-766f-4f6e-a82e-316489946be5" name="Recharge">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Choose a Spell or Relic asset you controlled by an investigator at your location and reveal a random chaos token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, add 1 charge to the chosen asset. Otherwise, add 4 charges to the chosen asset." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="575cdf20-588b-4138-88a0-494a21d4803e" name="Azure Flame">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (4 charges).&#10;η Spend 1 charge: Fight. This attack uses ά instead of ή. You get +3 ά and deal +2 damage for this attack. If an ε, &quot;+1,&quot; or &quot;0&quot; token is revealed during this attack, take 2 damage." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="788eebc8-dd2c-4d50-808b-fcbab84fd98a" name="Clairvoyance">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Investigate. Investigate using ά instead of έ. You get +3 ά for this investigation. If you succeed, discover 2 additional clue at this location. If an ε, &quot;+1,&quot; or &quot;0&quot; token is revealed during this investigation, take 2 horror." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="2" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9cb49ff8-faf3-43ad-b6bc-525203e202a8" name="Ineffable Truth">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Evade. This evasion attempt uses [WIllpower] instead of ί. You get +3 ά for this evasion attempt. If you succeed, deal 2 damage to the evaded enemy. If an ε, &quot;+1&quot;, &quot;0&quot; token is revealed during this evasion attempt, lose 2 resource." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+  </cards>
+</set>

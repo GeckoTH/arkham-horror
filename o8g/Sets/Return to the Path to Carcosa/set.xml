@@ -537,6 +537,7 @@
       <property name="Encounter Set" value="Return to The Unspeakable Oath" />
       <property name="Type" value="Treachery" />
       <property name="Text" value="Forced – At the end of the round: Daniel Chesterfield’s controller takes 2 horror.η If you are at Infirmary: Test ά or έ (6). If you succeed, detach Radical Treatment and add it to the victory display. If you control Clasp of Black Onyx, reduce the difficulty of this test by 3." />
+	  <property name="Victory" value="1" />
     </card>
     <card id="e699fa44-127e-4841-bd59-c5e13eb47547" name="Clouded Memory" size="EncounterCard">
       <property name="Card Number" value="39" />
