@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="98bdd22f-d65e-480e-b01a-3017fea6775e">Harvey Walters</card>
+  </section>
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False">
+    <card qty="1" id="9e6abd13-fdd3-4d34-ba5a-a743ba798785">Vault of Knowledge</card>
+    <card qty="2" id="8ea48ed7-4f5a-4af5-99d9-cccc6fbd1aa4">Arcane Enlightenment</card>
+    <card qty="2" id="f7b46a50-f42f-4706-8e3d-9ff4a5b859bf">Celaeno Fragments</card>
+    <card qty="2" id="9cc9a8cd-296d-406f-9e1d-d20338bd64b3">Disc of Itzamna</card>
+    <card qty="2" id="1a87f390-3bbf-4c3e-a7a5-67dee664546a">Encyclopedia</card>
+    <card qty="2" id="03d925ff-000b-462e-abfb-791101d90f55">Feed the Mind</card>
+    <card qty="2" id="9c8613ac-b4f2-4040-a321-4de72f7567aa">Forbidden Tome</card>
+    <card qty="2" id="899eb1cf-90fc-445a-8f15-ba21a1efba25">Higher Education</card>
+    <card qty="2" id="7c11da9b-0283-48a8-ab80-4cf24ee22228">Laboratory Assistant</card>
+    <card qty="2" id="ce98b3de-2197-4c8c-bdc2-327729a87842">Thitton Greene</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="2" id="9117e53c-2408-4931-97ae-056eddbee5b4">Burning the Midnight Oil</card>
+    <card qty="2" id="0719dfff-a6ec-470a-bf72-e53597a8b07e">Cryptic Writings</card>
+    <card qty="2" id="5fd0b8d7-1642-436e-a8eb-eedbc59d1982">Extensive Research</card>
+    <card qty="2" id="6ca1e46a-e66d-4bb2-bd34-6ec3401273b3">Occult Invocation</card>
+    <card qty="2" id="bbf5e8a6-692a-4107-8baf-8d3cef431f67">Preposterous Sketches</card>
+  </section>
+  <section name="Skill" shared="False">
+    <card qty="2" id="e6f58b4a-3847-42de-b7d7-275b41a7cc52">Deduction</card>
+  </section>
+  <section name="Weakness" shared="False">
+    <card qty="1" id="5c25438a-e33b-4cde-8902-c01dc6903a58">Thrice-Damned Curiosity</card>
+    <card qty="1" id="ab48b372-c8d2-4c3e-b97d-5bdd42e78b27">Obsessive</card>
+  </section>
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

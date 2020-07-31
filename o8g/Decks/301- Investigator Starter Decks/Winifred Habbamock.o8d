@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="7bf4c9c4-a269-4587-8dd4-ce7927e592fb">Winifred Habbamock</card>
+  </section>
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False">
+    <card qty="2" id="76c6d453-123f-4b0b-8d63-72950a3d3924">Lockpicks</card>
+    <card qty="2" id="c5908381-ab82-4bf3-82f4-2b0442a52509">Mauser C96</card>
+    <card qty="2" id="8877836d-6b0b-48ce-9a6a-88492a524b38">Switchblade</card>
+    <card qty="2" id="06a77f62-9d1c-459c-8df7-134fa5044c01">Lucky Cigarette Case</card>
+    <card qty="2" id="9dc13193-ddbe-42e2-ae1b-9dabe0f279a1">Lonnie Ritter</card>
+    <card qty="2" id="d0c77b59-c79b-4580-a0a1-d70d790aef83">Leather Jacket</card>
+    <card qty="2" id="5decad9f-6336-4ab5-b49d-56e840b19cdd">Streetwise</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="2" id="056f9fa2-d968-4b10-adc4-c6b52d3022c3">Cheap Shot</card>
+    <card qty="2" id="c3349f30-1ebc-4473-b7a7-8d834dcede9b">Daring Maneuver</card>
+    <card qty="2" id="bb19347a-6e6e-48f2-a3c2-257eb7854963">Slip Away</card>
+    <card qty="2" id="cd035979-cf99-4fcb-afac-b9fb6dc191cb">Pilfer</card>
+    <card qty="2" id="87b3b753-fe86-4643-8c49-ac2b6a1adbcd">Sneak By</card>
+  </section>
+  <section name="Skill" shared="False">
+    <card qty="1" id="830ca00e-7980-45ac-8d04-6c637b3f054e">Anything You Can Do, Better</card>
+    <card qty="2" id="15a5b333-3001-46dc-b693-4d49a46674bf">Nimble</card>
+    <card qty="2" id="5a8f5e1c-3603-4662-bdb3-824eef31b70b">Daredevil</card>
+    <card qty="2" id="ac0f56a9-957c-4cc0-aedb-c6352737612a">Opportunist</card>
+  </section>
+  <section name="Weakness" shared="False">
+    <card qty="1" id="3a2eefbd-d053-43ef-8b9d-879d928febb6">Arrogance</card>
+    <card qty="1" id="76f173ef-2c26-4d7e-b55e-2d1a27a77793">Reckless</card>
+  </section>
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
