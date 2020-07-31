@@ -50,6 +50,13 @@ class BasicWeakness:
             "1e1b819a-4bc3-4954-bea4-752fce9858bc", # Kleptomania
             "97a9fa53-3c9e-444e-9c21-24e52354ed6c", # Narcolepsy
             "2ecb16b4-a4db-4832-8e78-d3527b8c1bd6", # Your Worst Nightmare
+        ],
+        "investigator_starter_decks": [
+            "2f20aca0-a61a-4623-9d6d-4825fe73aa26", # Self-Destructive
+            "ab48b372-c8d2-4c3e-b97d-5bdd42e78b27", # Obsessive
+            "76f173ef-2c26-4d7e-b55e-2d1a27a77793", # Reckless
+            "21e8b71b-751c-461a-8514-e001d1ed5bda", # Nihilism
+            "c1464011-1ebf-48b9-b1c1-291b8fc7b4cf", # Atychiphobia
         ]
     }
     PILE_NAME = 'Basic Weaknesses'
