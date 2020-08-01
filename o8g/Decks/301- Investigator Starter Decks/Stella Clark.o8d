@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="836d17a2-7389-4c62-8231-b3421836fe9b">Stella Clark</card>
+  </section>
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False">
+    <card qty="2" id="647c16f4-2f90-4e4a-adb2-3735007db376">.18 Derringer</card>
+    <card qty="2" id="b293f961-11c2-4ae9-8bc6-0b5763e6b87f">Grimm's Fairy Tales</card>
+    <card qty="2" id="3fc49b60-6585-4bee-a92d-46ff76ece3d4">Old Keyring</card>
+    <card qty="2" id="03f33865-546b-472c-986d-a64555ddc4f0">Granny Orne</card>
+    <card qty="2" id="bd1af7e0-2193-4335-a29d-5c8cef7fa08b">Mysterious Raven</card>
+    <card qty="2" id="592f03f6-fb40-4416-bc79-a5d05bef872c">Rabbit's Foot</card>
+    <card qty="2" id="0d61336f-21ef-493c-85ea-13f80f47bd21">Scrapper</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="2" id="f8a01c4a-125c-4850-864e-c82e51153575">Will to Survive</card>
+    <card qty="2" id="b15c965a-c546-4971-af2f-92a422a17bce">A Test of Will</card>
+    <card qty="2" id="87f80ea0-f41b-4b3c-972a-a451206dde64">Dumb Luck</card>
+    <card qty="2" id="ab8b7950-0b92-4384-80ca-eeb0a0590cfb">Grit Your Teeth</card>
+    <card qty="2" id="7c93a825-c7d7-4873-9843-df1ac584411d">Live and Learn</card>
+    <card qty="2" id="012ada16-cdc8-42bd-9fdf-5cd996a47872">"Look what I found!"</card>
+    <card qty="2" id="5a71485d-84f6-4be9-925d-7a0bda596b66">Oops!</card>
+  </section>
+  <section name="Skill" shared="False">
+    <card qty="3" id="6f5ec3f2-a33c-46f4-b783-740889255748">Neither Rain nor Snow</card>
+    <card qty="2" id="ff2091cf-94f0-4114-a5ec-c77d2e7bd64c">Take Heart</card>
+  </section>
+  <section name="Weakness" shared="False">
+    <card qty="1" id="2f4dd9c4-95fb-4265-ab02-63ab05de87a4">Called by the Mists</card>
+    <card qty="1" id="c1464011-1ebf-48b9-b1c1-291b8fc7b4cf">Atychiphobia</card>
+  </section>
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

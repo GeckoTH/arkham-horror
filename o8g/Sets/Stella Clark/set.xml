@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Stella Clark" id="4570992c-8a41-48ea-a47b-fd4733629af6" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="836d17a2-7389-4c62-8231-b3421836fe9b" name="Stella Clark" size="InvestigatorCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Letter Carrier" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Chosen. Civic." />
+      <property name="Text" value="ι After you fail a skill test: You may take an additional action during your turn this round. (Limit once per round.)&#10;ε effect: +1. You may instead choose to automatically fail this skill test to heal 1 damage and1 horror." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="8" />
+      <property name="Class" value="Survivor" />
+      <property name="Willpower" value="3" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <alternate name="Stella Clark" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Letter Carrier" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Survivor cards (ξ) level 0-5, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): 3 copies of Neither Rain nor Snow, 1 copy of Called by the Mists, 1 random basic weakness." />
+        <property name="Class" value="Survivor" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="6f5ec3f2-a33c-46f4-b783-740889255748" name="Neither Rain nor Snow">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Stella Clark deck only.&#10;If this skill test fails, cancel all effects of the failed test." />
+      <property name="Class" value="Survivor" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2f4dd9c4-95fb-4265-ab02-63ab05de87a4" name="Called by the Mists" size="EncounterCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Put Called by the Mists into play in your threat area.&#10;Forced – After you initiate a skill test with a difficulty of 4 or higher: Take 1 damage.&#10;ηη: Discard Called by the Mists." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="c1464011-1ebf-48b9-b1c1-291b8fc7b4cf" name="Atychiphobia">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Madness." />
+      <property name="Text" value="Revelation – Put Atychiphobia into play in your threat area.&#10;Forced – After you fail a skill test: Take 1 horror.&#10;ηη: Discard Atychiphobia." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="647c16f4-2f90-4e4a-adb2-3735007db376" name=".18 Derringer">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (2 ammo).&#10;[Action[ Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b293f961-11c2-4ae9-8bc6-0b5763e6b87f" name="Grimm's Fairy Tales">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (4 secrets).&#10;ι After an investigator at your location fails a skill test by 2 or more, exhaust Grimm's Fairy Tales and spend 1 secret: Heal 1 horror from that investigator." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3fc49b60-6585-4bee-a92d-46ff76ece3d4" name="Old Keyring">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool." />
+      <property name="Text" value="Uses (2 keys). If there are no keys on Old Keyring, discard it.&#10;η: Investigate. Your location gets –2 shroud for this investigation. If you succeed, remove 1 key from Old Keyring." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="03f33865-546b-472c-986d-a64555ddc4f0" name="Granny Orne">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Tough Old Bird" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally." />
+      <property name="Text" value="You get +1 ά.&#10;ι When an investigator at your location would fail a skill test, exhaust Granny Orne: That investigator fails by either 1 less or 1 more." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bd1af7e0-2193-4335-a29d-5c8cef7fa08b" name="Mysterious Raven">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Creature." />
+      <property name="Text" value="θ Discard Mysterious Raven and take 1 horror: Discover 1 clue at your location." />
+      <property name="Health" value="–" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="592f03f6-fb40-4416-bc79-a5d05bef872c" name="Rabbit's Foot">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="ι After you fail a skill test, exhaust Rabbit's Foot: Draw 1 card." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Slot" value="Accesory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0d61336f-21ef-493c-85ea-13f80f47bd21" name="Scrapper">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="θ Spend 1 resource: You get +1 ή for this skill test.&#10;θ Spend 1 resource: You get +1 ί for this skill test." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f8a01c4a-125c-4850-864e-c82e51153575" name="Will to Survive">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play only during your turn.&#10;Do not reveal chaos tokens for the next skill test you perform this turn." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b15c965a-c546-4971-af2f-92a422a17bce" name="A Test of Will">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play when an investigator at your location draws a non-weakness treachery card.&#10;Test ά (3). If you succeed, cancel that card's revelation effect." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="87f80ea0-f41b-4b3c-972a-a451206dde64" name="Dumb Luck">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune." />
+      <property name="Text" value="Fast. Play after you fail a skill test by 2 or less during an evasion attempt against a non-Elite enemy.&#10;Place that enemy on top of the encounter deck." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ab8b7950-0b92-4384-80ca-eeb0a0590cfb" name="Grit Your Teeth">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play after you fail a skill test.&#10;You get +1 to each of your skills for the remainder of the round." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7c93a825-c7d7-4873-9843-df1ac584411d" name="Live and Learn">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play after a skill test you failed ends (after resolving all effects from the failed test).&#10;Attempt that test again. You get +2 skill value for this test." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="012ada16-cdc8-42bd-9fdf-5cd996a47872" name="&quot;Look what I found!&quot;">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune." />
+      <property name="Text" value="Fast. Play after you fail a skill test by 2 or less while investigating.&#10;Discover 2 clues in your location." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5a71485d-84f6-4be9-925d-7a0bda596b66" name="Oops!">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune." />
+      <property name="Text" value="Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.&#10;Deal this attack's damage to a different enemy at your location." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ff2091cf-94f0-4114-a5ec-c77d2e7bd64c" name="Take Heart">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;You may commit Take Heart to any type of test.&#10;If this test fails, the performing investigator draws 2 cards and gains 2 resources." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="79f4a037-7c91-4951-8f59-c64a1e612b75" name="Cherished Keepsake">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="Forced – When Cherished Keepsake is defeated by horror: Exile it." />
+      <property name="Health" value="–" />
+      <property name="Sanity" value="4" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0382be19-0b6d-4dc1-9675-31b3c22c8549" name="Leather Coat">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Armor." />
+      <property name="Text" value="Forced – When Leather Coat is defeated by damage: Exile it." />
+      <property name="Health" value="4" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Body" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a2753061-4e4f-4ceb-b364-9026a457afed" name=".18 Derringer">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (3 ammo).&#10;[Action[ Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer and the next time you trigger this ability this round, you get an additional +1 ή for that attack." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d25e38b1-287f-46e3-93e0-0cfa5bac29f3" name="A Test of Will">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play when an investigator at your location draws a non-weakness treachery card.&#10;Cancel that card's revelation effect. Then, test ά (3). If you fail, exile A Test of Will." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1fa59f3a-2e6f-4393-a407-750d47b18b6c" name="&quot;Look what I found!&quot;">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune." />
+      <property name="Text" value="Fast. Play after you fail a skill test by 3 or less while investigating.&#10;Discover 2 total clues from among your location and connecting locations." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d11976e2-bd2b-4775-9ad3-89182aaf11ca" name="Dumb Luck">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune." />
+      <property name="Text" value="Fast. Play after you fail a skill test by 3 or less during an evasion attempt against a non-Elite enemy.&#10;Place that enemy on the bottom of the encounter deck." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2e01c7b9-19f1-484c-baff-8fdb794dda99" name="Unexpected Courage">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;If this test fails, return Unexpected Courage to your hand." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f411d07c-6059-404c-a4a8-0393f4c99823" name="Granny Orne">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Tough Old Bird" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally." />
+      <property name="Text" value="You get +1 ά and +1 έ.&#10;ι When an investigator at your location would fail a skill test, exhaust Granny Orne: That investigator either gets +1 skill value or –1 skill value for that test." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="566e4248-2ff8-4758-878c-a8f61a351e04" name="Lucky">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune." />
+      <property name="Text" value="Fast. Play when an investigator at your location would fail a skill test.&#10;They get +3 to their skil value for that test. That investigator draws 1 card." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d8172ba8-16f4-4bb5-842c-7931e8fda52e" name="Chainsaw">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool. Weapon. Melee." />
+      <property name="Text" value="Uses (3 supplies).&#10;η Spend 1 supply: Fight. You get +2 ή and deal +2 damage for this attack. If this attack fails, either place 1 supply on Chainsaw or deal 1 damage to the attacked enemy." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Slot" value="Hand x2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cbe0d660-90c4-4b4f-a250-4b5510ad7406" name="Quick Learner">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Condition." />
+      <property name="Text" value="Permanent.&#10;During or before your first action of each of your turns, each skill test you perform gets +1 difficulty.&#10;During or after your third action of each of your turns, each skill test you perform gets -1 difficulty." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="142687f0-d447-4a68-a8e0-528ff4d48fef" name="Déjà Vu">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent. Cursed." />
+      <property name="Text" value="Permanent.&#10;In between two scenarios of a campaign, reduce the experience cost to repurchase up to 3 cards that you exiled during the last scenario by 1 each." />
+      <property name="Class" value="Survivor" />
+      <property name="Skill Icons" value="" />
+    </card>
+  </cards>
+</set>

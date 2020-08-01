@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="1d70c48b-77e2-439d-bba1-8747799ec121">Jacqueline Fine</card>
+  </section>
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False">
+    <card qty="1" id="6deb4b98-2f16-4d0f-813b-63bb5dedd0e9">Arbiter of Fates</card>
+    <card qty="2" id="9ddb253a-4643-4522-bdbc-998aa9eb2ecc">Ritual Candles</card>
+    <card qty="2" id="cae0d842-ecee-4646-a1a8-532187e1cbb4">Scrying Mirror</card>
+    <card qty="2" id="00cf220f-967b-420c-8691-8c2f7afca3b1">Azure Flame</card>
+    <card qty="2" id="746450d2-1e72-4f56-bf36-98966d2e5b01">Clairvoyance</card>
+    <card qty="2" id="c5e0cd81-ec4e-4f44-901f-f65c8ba4b289">Ineffable Truth</card>
+    <card qty="2" id="7d4080a0-5686-4133-bdff-19d03edd6207">Familiar Spirit</card>
+    <card qty="2" id="102f50bb-bb4e-414d-9c7a-ba49b63c9356">Crystal Pendulum</card>
+    <card qty="2" id="0c860b89-0f1f-464d-bbbd-fbc91cbf4be9">Robes of Endless Night</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="2" id="4b1f69a5-362f-4b0a-8fa7-26c9defbfb63">Astral Travel</card>
+    <card qty="2" id="bdf30ab8-7b79-4ec1-8655-0ced90d7ad73">Hypnotic Gaze</card>
+    <card qty="2" id="c4e87ce2-7aaa-40b4-aae8-4454ba6ddfe9">Parallel Fates</card>
+    <card qty="2" id="43e01cef-8b84-4247-8257-f4f628a4c8e6">Voice of Ra</card>
+    <card qty="2" id="99d3898b-a9d2-4f7e-8b95-f859e9233db6">Dark Prophecy</card>
+  </section>
+  <section name="Skill" shared="False">
+    <card qty="2" id="6f49e5b1-f32e-4836-9dc9-1a552c0582d5">Defiance</card>
+    <card qty="2" id="6fde2197-82e0-44bb-b1c0-09e31450df68">Prescient</card>
+  </section>
+  <section name="Weakness" shared="False">
+    <card qty="1" id="4b247941-3ade-4cc0-83c3-7d3791696a00">Dark Future</card>
+    <card qty="1" id="21e8b71b-751c-461a-8514-e001d1ed5bda">Nihilism</card>
+  </section>
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Harvey Walters" id="981cd74b-e96e-497a-bc05-098b46db8e71" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="98bdd22f-d65e-480e-b01a-3017fea6775e" name="Harvey Walters" size="InvestigatorCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Professor" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Miskatonic." />
+      <property name="Text" value="ι After an investigator at your location draws 1 or more cards from their deck during the invesigation phase: That investigator draws 1 card. (Limit once per round.)&#10;ε effect: +1. Draw 1 card." />
+      <property name="Health" value="7" />
+      <property name="Sanity" value="8" />
+      <property name="Class" value="Seeker" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="5" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <alternate name="Harvey Walters" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Professor" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Seeker cards (λ) level 0-5, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Vault of Knowledge, Thrice-Damned Curiosity, 1 random basic weakness." />
+        <property name="Class" value="Seeker" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="9e6abd13-fdd3-4d34-ba5a-a743ba798785" name="Vault of Knowledge">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Harvey Walters deck only.&#10;Your maximum hand size is increased by 2.&#10;ι After you successfully investigate, exhaust Vault of Knowledge and choose an investigator at your location: That investigatr draws 1 card." />
+      <property name="Class" value="Seeker" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5c25438a-e33b-4cde-8902-c01dc6903a58" name="Thrice-Damned Curiosity" size="EncounterCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Flaw." />
+      <property name="Text" value="Revelation – For every 3 cards in your hand: Take 1 damage." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="ab48b372-c8d2-4c3e-b97d-5bdd42e78b27" name="Obsessive">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Flaw." />
+      <property name="Text" value="Revelation – Put Obsessive into play in your threat area.&#10;Forced – When your turn begins: Discard 1 non-weakness card at random from your hand.&#10;ηη: Discard Obsessive." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="8ea48ed7-4f5a-4af5-99d9-cccc6fbd1aa4" name="Arcane Enlightenment">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Your maximum hand size is increased by 1.&#10;You have 1 additional hand slot, which can only be used to hold a Tome asset." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f7b46a50-f42f-4706-8e3d-9ff4a5b859bf" name="Celaeno Fragments">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Book of Books" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="While you have...&#10;— ...5 or more cards in hand, you get +1 έ.&#10;— ...10 or more cards in hand, you get +1 ά.&#10;— ...15 or more cards in hand, you get +1 έ." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9cc9a8cd-296d-406f-9e1d-d20338bd64b3" name="Disc of Itzamna">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Protective Amulet" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="ι When a non-Elite enemy spawns at your location, discard Disc of Itzamna: Automatically evade that enemy or deal it 2 damage." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1a87f390-3bbf-4c3e-a7a5-67dee664546a" name="Encyclopedia">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (5 secrets).&#10;η Exhaust Encyclopedia and spend 1 secret: Choose and investigator at your location. That investigator gets +2 to a skill of your choice until the end of the phase." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="03d925ff-000b-462e-abfb-791101d90f55" name="Feed the Mind">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 secrets).&#10;η Exhaust Feed the Mind and spend 1 secret: Test έ (1). For each point you suceed by (to a maximum of 3), draw 1 card." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9c8613ac-b4f2-4040-a321-4de72f7567aa" name="Forbidden Tome">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Untranslated" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Tome." />
+      <property name="Text" value="Uses (5 secrets).&#10;η Exhaust Forbidden Tome and spend 1 secret: draw 1 card. Then, if you have 10 or more cards in your hand and there are no secrets on Forbidden Tome, you may discard it to record in your Campaign Log that &quot;you have translated the tome.&quot;" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="899eb1cf-90fc-445a-8f15-ba21a1efba25" name="Higher Education">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="While you have 5 or more cards in your hand, Higher Education gains:&#10;θ Spend 1 resource: You get +1 ά for this skill test.&#10;θ Spend 1 resource: You get +1 έ for this skill test." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7c11da9b-0283-48a8-ab80-4cf24ee22228" name="Laboratory Assistant">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Miskatonic. Science." />
+      <property name="Text" value="Your maximum hand size is increased by 2.&#10;ι After Laboratory Assistant enters play: Draw 2 cards." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ce98b3de-2197-4c8c-bdc2-327729a87842" name="Thitton Greene">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Hunter or Rare Books" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Miskatonic." />
+      <property name="Text" value="While you control a Tome or Relic asset, you get +1 έ.&#10;ι After you reveal a location or put a new location into play, exhaust Whitton Greene: Search the top 6 cards of your deck for a Tome or Relic asset and draw it. Shuffle you deck." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9117e53c-2408-4931-97ae-056eddbee5b4" name="Burning the Midnight Oil">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Investigate. When this action begins, gain 2 resources." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0719dfff-a6ec-470a-bf72-e53597a8b07e" name="Cryptic Writings">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Gain 2 resources.&#10;ι After you draw Cryptic Writings during your turn: Play it." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5fd0b8d7-1642-436e-a8eb-eedbc59d1982" name="Extensive Research">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Reduce the cost to play Extensive Research by 1 for each other card in your hand.&#10;Discover 2 clues at your location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="12" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6ca1e46a-e66d-4bb2-bd34-6ec3401273b3" name="Occult Invocation">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="As an additional cost to play Occult Invocation, discard up to 2 cards from your hand.&#10;Fight. This attack uses έ instead of ή. You get +1 έ and deal +1 damage for this attack for each card discarded as part of this card's cost." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bbf5e8a6-692a-4107-8baf-8d3cef431f67" name="Preposterous Sketches">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Play only if there is a clue on your location.&#10;Draw 3 cards." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e6f58b4a-3847-42de-b7d7-275b41a7cc52" name="Deduction">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced." />
+      <property name="Text" value="If this skill test is successful while investigating a location, discover 1 additional clue at that location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b4506138-3136-4f64-b7c3-8d9e1cda7b81" name="Library Docent">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Miskatonic." />
+      <property name="Text" value="ι After Library Docent enters play, return a Tome asset you control to its owner's hand: Play a different Tome asset (by title) from your hand, reducing its cost by 2." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1739d08a-6f3c-4549-8445-94ae9411a1fa" name="Glimpse the Unthinkable">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Draw 1 card. Shuffle any number of non-weakness cards from your hand into your deck. Then, draw that many cards." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e8efb90c-5a60-41b9-8275-45f11ca373d8" name="Esoteric Atlas">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (4 secrets).&#10;η Spend 1 secret: Choose a revealed location up to 3 connections away from your location. Move to that location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="58bc51b8-9e21-4fb5-86c8-2b882ce81654" name="Whitton Greene">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Hunter of Rare Books" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Miskatonic." />
+      <property name="Text" value="While you control a Tome or Relic asset, you get +1 ά and +1 έ.&#10;ι After you reveal a location or put a new location into play, exhaust Whitton Greene: Search the top 9 cards of your deck for a Tome or Relic asset and draw it. Shuffle you deck." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9b177615-172e-481c-bc94-b4912620543d" name="Cryptic Writings">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Gain 3 resources (4 resources instead if you have 10 or more other cards in hand).&#10;ι Aftery ou draw Cryptic Writings during your turn: Play it." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="504ca477-ff6e-464e-8a74-5185f7acb957" name="&quot;I've got a plan!&quot;">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Tactic." />
+      <property name="Text" value="Fight. This attack uses έ instead of ή. You get +2 έ for this test. You deal +1 damage for this attack for each clue you have (max +3 damage)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="aa4aef04-a7e7-4021-809f-07c1b512dda1" name="Mind Over Matter">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Fast. Play during your turn.&#10;Until the end of the round, add your έ to your ή and ί. Draw 1 card." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fa1a5a19-59c9-4e3d-8271-a02991e8cf28" name="Seeking Answers">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Investigate. If you succeed, discover 2 total clues from among your location and connecting locations." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2b9c2062-ed82-4ebe-af57-de7fd9046f76" name="Perception">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced. Expert." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;If this test is successful, draw 1 card (2 cards instead if it succeeds by 2 or more)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Intellect" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3e9c1da1-f0d6-4a38-b625-3f6d200262c2" name="Forbidden Tome">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Dark Knowledge" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Tome." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Forbidden Tome (Untranslated), and only if &quot;you have translated the tome&quot; in your Campaign Log.&#10;ηηηη Exhaust Forbidden Tome: Move 1 damage from a player card at your location to an enemy at your location. Reduce this ability's cost by 1 action for every 4 cards in your hand (to a minimum of η)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f5216a95-5c9a-4f18-9134-ef84bfbb57d7" name="Forbidden Tome">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Secrets Revealed" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Tome." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Forbidden Tome (Untranslated), and only if &quot;you have translated the tome&quot; in your Campaign Log.&#10;ηηηη Exhaust Forbidden Tome: Discover 1 clue at your location. Reduce this ability's cost by 1 action for every 4 cards in your hand (to a minimum of η)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bfa5b013-2d40-4cbc-a7b8-16d0f487a0ab" name="Farsight">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="θ During your turn, if you have 8 or more cards in your hand, exhaust Farsight: Play an event from your hand (paying its cost)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="55892b16-a33b-41b8-a175-3268cc32a1e9" name="Miskatonic Archaeology Funding">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Grant." />
+      <property name="Text" value="Permanent. Limit 1 per deck.&#10;You have 2 additional ally slots, which can only be used to hold Miskatonic assets.&#10;Forced – When you take damage or horror: No more than 1 of that damage/horror can be assigned to a Miskatonic asset." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a9f273be-3907-4d7d-881e-b5b6a77605dd" name="The Necronomicon">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Petrus de Dacia Translation" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (6 secrets). Limit 1 per deck.&#10;θ Spend 1 secret: You get +2 skill value for this test.&#10;θ Spend 2 secrets: Draw 2 cards.&#10;θ Spend 3 secrets: Discover 1 clue at any location.&#10;θ Spend 4 secrets: Deal 3 damage to an enemy engaged with you." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="5" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="7355d9be-267d-40cb-bb97-270001207e82">Nathaniel Cho</card>
+  </section>
+  <section name="Asset" shared="False">
+    <card qty="1" id="846ebfab-5320-4299-8de6-e9dcdd9ea3aa">Randall Cho</card>
+    <card qty="2" id="c7596c16-3d7b-4162-8218-666d33f48ad5">Boxing Gloves</card>
+    <card qty="2" id="2bc2db7c-ebdf-47b7-b70a-7952573d67b1">Flesh Ward</card>
+    <card qty="2" id="f6117501-586c-433d-8f32-c0eedb380e14">Grete Wagner</card>
+    <card qty="2" id="6f3a42cc-7b00-40c8-9070-c41e68263ba3">Physical Training</card>
+    <card qty="2" id="77b34b10-efbc-4819-9bdf-2e78205c70af">Relentless</card>
+    <card qty="2" id="d2c13fdb-d189-4441-9ba0-4fa8c8a2ddb3">Safeguard</card>
+  </section>
+  <section name="Weakness" shared="False">
+    <card qty="1" id="7e582c0e-d2fb-45a3-9b23-acb55799f67c">Tommy Malloy</card>
+    <card qty="1" id="2f20aca0-a61a-4623-9d6d-4825fe73aa26">Self-Destructive</card>
+  </section>
+  <section name="Special" shared="False" />
+  <section name="Event" shared="False">
+    <card qty="2" id="68703d00-d427-4e0e-8f8b-2a6001152e62">Clean Them Out</card>
+    <card qty="2" id="50145a10-bb9d-4773-9d73-7925cb839a86">Counterpunch</card>
+    <card qty="2" id="ad79f5ff-5839-43c9-b0a6-f55be2572297">Dodge</card>
+    <card qty="2" id="da1e2b46-cdd7-4dac-96ec-2d65269da9a1">"Get over here!"</card>
+    <card qty="2" id="0d4ff6c3-2c7d-4d2d-9801-401b9f7bd5f1">Glory</card>
+    <card qty="2" id="a9b55946-f999-4e31-a9fe-a50c7d027e30">Monster Slayer</card>
+    <card qty="2" id="977aa9cc-dbc6-4295-9f62-7977fb7f0cf8">One-Two Punch</card>
+    <card qty="2" id="30911a11-9927-4fbd-a443-79831808434a">Stand Together</card>
+  </section>
+  <section name="Skill" shared="False">
+    <card qty="2" id="4d99eba4-16bb-425a-8928-907119583f18">Vicious Blow</card>
+  </section>
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
