@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="3d3fd4fe-bfce-41ff-bcb3-9c8a258ad564">The Boundary, Broken</card>
+    <card qty="1" id="ef661a14-2bb8-48b0-bf3c-feaf352409ab">The Barrier Is Thin</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="5bcc94c1-3e46-4c92-b49c-5c5f906b7c93">Crossing the Threshold</card>
+    <card qty="1" id="ee2ad72d-9dbb-4601-aa61-7920214dd760">Past and Present</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="be92e541-6197-46cc-9a1d-e46aa37a20ed">Serpent of Tenochtitlán</card>
+    <card qty="2" id="217c55b0-246d-4d1a-b3b4-9247d801361b">Hand of the Brotherhood</card>
+    <card qty="3" id="4126d465-1d9f-4c17-9deb-53e5f9c155ec">Window to Another Time</card>
+    <card qty="3" id="d4831e98-6970-4555-b926-35baba48e738">Timeline Destabilization</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="3" id="0798fa71-7ce3-40e5-b3e4-cbbc84b80915">Merging Timelines</card>
+    <card qty="2" id="c2dd2e36-4356-4316-98d8-def2a0f90215">Tindalos Alpha</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="bb0049f0-7c38-46d3-91ec-9554eb5fa179">Templo Mayor</card>
+    <card qty="1" id="3e11f271-4b3e-4c62-9b94-023e6d03e415">Templo Mayor</card>
+    <card qty="1" id="66095a11-4d8f-47e2-bcbf-cf11235038b0">Temples of Tenochtitlán</card>
+    <card qty="1" id="50281769-5fe9-41d0-a355-90857a821e2e">Temples of Tenochtitlán</card>
+    <card qty="1" id="1845b147-b9a2-4f8c-91f3-d9673eadeddc">Chapultepec Hill</card>
+    <card qty="1" id="20883941-4b9b-451e-85ed-addb50eaeab9">Chapultepec Hill</card>
+    <card qty="1" id="04a6bbcb-9ac2-4df3-a3a7-0715042cf9fd">Canals of Tenochtitlán</card>
+    <card qty="1" id="f25f276b-96cb-4a26-89fa-f208791f021e">Canals of Tenochtitlán</card>
+    <card qty="1" id="5068a7ae-dc6b-48c1-b93b-7eff6e1a31e2">Lake Xochimilco</card>
+    <card qty="1" id="5567c210-8e7f-4946-88d2-2bcb81968e8e">Lake Xochimilco</card>
+    <card qty="1" id="6ec0c6be-83f2-4b98-9fdf-7105fdcf6797">Sacred Woods</card>
+    <card qty="1" id="58e10649-fe3b-4913-ac57-e5387f6dfbeb">Sacred Woods</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="6576bdd0-ef2b-4618-885c-e57e9eea8d12">Time Collapsing</card>
+    <card qty="1" id="7d505495-a311-4e22-a1cc-c9617f00d241">The Return Trip</card>
+    <card qty="1" id="23842e82-18ea-4a61-8c58-0436fc725e31">Padma Amrita</card>
+    <card qty="1" id="934e9a43-c350-4a2d-9376-6a38a0a396a7">Relic of Ages</card>
+    <card qty="1" id="a17b44f2-5be1-4417-93cc-2630ab5aa270">Harbinger of Valusia</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="10d7ffc2-11ee-4e1a-9353-c64e9ad9a245">The Boundary Beyond</card>
+    <card qty="1" id="ffabc5ca-54ed-4ad4-9dc2-811911039950">Return to The Boundary Beyond</card>
+    <card qty="1" id="0cc02a27-d77d-418b-a42e-0bd84cf3b841">Temple Ruins</card>
+    <card qty="1" id="03e0d756-e881-4cab-82b9-d06df975f77d">Temple Ruins</card>
+    <card qty="1" id="f4918778-ed40-4144-94d2-db13495da686">Metropolitan Cathedral</card>
+    <card qty="1" id="97c1e976-2f67-4849-8564-99a186663cda">Metropolitan Cathedral</card>
+    <card qty="1" id="2a2417e0-13f5-4bd2-b86d-72573795e801">Chapultepec Park</card>
+    <card qty="1" id="e28b9e53-fa39-45d3-bfc1-834134491eb5">Chapultepec Park</card>
+    <card qty="1" id="fa1be958-7a53-4da6-ad67-4b6310296f87">Zócalo</card>
+    <card qty="1" id="f7cdc040-d336-41c2-b17c-cbf3920144c1">Zócalo</card>
+    <card qty="1" id="0130f5b9-b52a-4633-b8bd-bf0d8d48d9e0">Xochimilco</card>
+    <card qty="1" id="7a9f7c96-1e84-406f-a152-6defe4c409fd">Xochimilco</card>
+    <card qty="1" id="9edefb21-d770-40d1-89d7-268ce6d68f66">Coyoacán</card>
+    <card qty="1" id="229f61e5-8209-44a1-b42e-553b2192c011">Coyoacán</card>
+    <card qty="2" id="03096321-bfc0-457f-8026-6b37a8b7d7ff">Brotherhood Cultist</card>
+    <card qty="2" id="b631d81d-7794-48ba-894e-f1fcc5bc2ca4">Shadowed</card>
+    <card qty="2" id="bc5708bc-2e93-4840-9617-eb35944fe2f7">Words of Power</card>
+    <card qty="2" id="cf96c698-ac9c-4d12-8aa8-bbc70a9ae088">Eztli Guardian</card>
+    <card qty="2" id="0c9b4bfc-b552-48de-9759-0f81ee668c92">Arrows from the Trees</card>
+    <card qty="3" id="089ede13-5c29-4411-9b0a-8ce143c7d129">Vengeful Serpent</card>
+    <card qty="1" id="64f6aef0-c65b-4246-aca5-da4dba2985b4">Serpent Guardian</card>
+    <card qty="1" id="a5685b4f-335a-4127-9b12-e1f5146212a3">Wrath of Yig</card>
+    <card qty="3" id="971c49fd-6c77-4181-bddb-5aaf46b41db8">Brotherhood Acolyte</card>
+    <card qty="1" id="1aaf8c4d-3a8c-4a6a-a5f2-5e10468dce5c">Stolen Mind</card>
+    <card qty="2" id="15f9e2c3-531e-4854-a5c6-53919b6b679f">From Another Time</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

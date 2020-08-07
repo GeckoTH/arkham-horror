@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="3fc2759d-a3a7-45b2-be16-854895115bbc">The Descent Begins</card>
+    <card qty="1" id="464121d8-849d-4945-a07d-7169286e7369">Horrific Descent</card>
+    <card qty="1" id="de6357c3-3817-404d-9272-8060ee0763f1">Endless Caverns</card>
+    <card qty="1" id="94b133fb-3875-4499-be79-a7bfbab1b78e">City of Blood</card>
+    <card qty="1" id="4a422def-881a-45e7-aeb8-31c4defb0e7c">Fury That Shakes the Earth</card>
+    <card qty="1" id="3055b330-ea7e-47b0-8b7b-0db55b041b2e">The Red Depths</card>
+    <card qty="1" id="895f706a-3263-4cc1-b5ff-3fc157def818">VENGEANCE</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="1f204153-9aa1-4c95-9e5d-deb7b8b16481">Journey to the Nexus</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="fd16f750-79d2-432a-ad22-410720cd76b0">Pit Warden</card>
+    <card qty="1" id="47ce8ab2-7c1c-4f16-8940-125a8ba009e1">Eater of the Depths</card>
+    <card qty="3" id="7896d01c-88e8-4cd3-b8ba-d5f90e85c7f3">Children of Valusia</card>
+    <card qty="3" id="7df4c15d-ddbe-4f7e-967e-7b584a6a864d">Lightless Shadow</card>
+    <card qty="3" id="fc7b7c62-7ef8-41c7-8574-27a8cdbeb1d8">Bathophobia</card>
+    <card qty="2" id="e9c86453-9774-48e1-8884-24feefa208ab">Serpent's Ire</card>
+    <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
+    <card qty="1" id="184cb383-35f8-4ecc-af00-33b427b1df7b">Serpent from Yoth</card>
+    <card qty="2" id="56778b1f-923b-4618-b4ff-445a972d1bfe">Curse of Yig</card>
+    <card qty="2" id="6d4b1487-e67b-44b9-97a3-0691039ef958">Ill Omen</card>
+    <card qty="2" id="c5645847-3aba-4c61-9afe-52367226f9c0">Ancestral Fear</card>
+    <card qty="3" id="13aff50c-dfa0-4058-a1f3-a3a79c191b74">Deep Dark</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="3" id="089ede13-5c29-4411-9b0a-8ce143c7d129">Vengeful Serpent</card>
+    <card qty="1" id="64f6aef0-c65b-4246-aca5-da4dba2985b4">Serpent Guardian</card>
+    <card qty="1" id="a5685b4f-335a-4127-9b12-e1f5146212a3">Wrath of Yig</card>
+    <card qty="2" id="30c52e7c-0f3d-4c61-9ad6-2fc9fd730f31">Resentful Wilds</card>
+    <card qty="3" id="64dd018a-0bbe-4580-81e9-800591730239">Best-Laid Plans</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="736032a4-bfdd-408e-8547-5148a271bc34">Yig</card>
+    <card qty="1" id="a17b44f2-5be1-4417-93cc-2630ab5aa270">Harbinger of Valusia</card>
+    <card qty="1" id="e672cb77-056e-4f2e-95ba-3a8484e751c7">Relic of Ages</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="6876db05-c1e2-4e46-b172-1739f700f716">The Depths of Yoth</card>
+    <card qty="1" id="0a8e6b32-5d1c-4ddf-9abf-031d84133235">Return to The Depths of Yoth</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True">
+    <card qty="1" id="910d50a7-da2c-41b3-8459-23e66bc90944">Perils of Yoth</card>
+    <card qty="1" id="1ec867c4-b0c0-42e4-8b6a-f57f83c74eca">Steps of Yoth</card>
+    <card qty="1" id="93d0dc54-236b-40c9-abb0-60fac45d6b04">City of the Serpents</card>
+    <card qty="1" id="0b0c6e37-8804-4eb2-a2e3-dfa2b6666114">Hall of Heresy</card>
+    <card qty="1" id="41fa1d15-e606-486f-bbc0-3c59a68e7ae4">Crumbling Precipice</card>
+    <card qty="1" id="07ac1e64-3486-4504-b111-359b9049fa2f">Caverns of Yoth</card>
+    <card qty="1" id="b94c4560-7fe7-4d19-aea8-e0cac3781d47">Forked Path</card>
+    <card qty="1" id="84d4bc64-aa84-4ede-a0eb-ab858ad14ded">Bridge over N'kai</card>
+    <card qty="1" id="1b7152da-96ae-4bd9-a778-23bbcb4a3ed3">Broken Passage</card>
+    <card qty="1" id="48708e1a-6021-40d0-ad6c-7d9a5ef894ad">Abandoned Site</card>
+    <card qty="1" id="e6a9042c-94a9-4ee1-b485-c74086f2a36a">Bright Canyon</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

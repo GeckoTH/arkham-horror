@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e8557d55-2e3e-4ecd-bea1-25560e5055c9">Something Stirs…</card>
+    <card qty="1" id="4995a39c-ec0a-44b2-8c15-8182f7271ecc">The Temple Warden</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="8073f966-3ada-45a9-8d80-8e0721b95aeb">Into the Ruins</card>
+    <card qty="1" id="15a7ae40-ec24-4d7d-b594-1a6063eb5a2e">Magic and Science</card>
+    <card qty="1" id="d174a49b-479f-431c-91ac-0d56b328dff8">Escape the Ruins</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
+    <card qty="1" id="184cb383-35f8-4ecc-af00-33b427b1df7b">Serpent from Yoth</card>
+    <card qty="2" id="56778b1f-923b-4618-b4ff-445a972d1bfe">Curse of Yig</card>
+    <card qty="3" id="4a02ea48-d391-4a1f-af82-a66a31dccb73">Final Mistake</card>
+    <card qty="2" id="b7326daa-e159-43f2-bb23-af98316e4698">Entombed</card>
+    <card qty="2" id="6d4b1487-e67b-44b9-97a3-0691039ef958">Ill Omen</card>
+    <card qty="2" id="c5645847-3aba-4c61-9afe-52367226f9c0">Ancestral Fear</card>
+    <card qty="3" id="13aff50c-dfa0-4058-a1f3-a3a79c191b74">Deep Dark</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="3" id="089ede13-5c29-4411-9b0a-8ce143c7d129">Vengeful Serpent</card>
+    <card qty="1" id="64f6aef0-c65b-4246-aca5-da4dba2985b4">Serpent Guardian</card>
+    <card qty="1" id="a5685b4f-335a-4127-9b12-e1f5146212a3">Wrath of Yig</card>
+    <card qty="3" id="0798fa71-7ce3-40e5-b3e4-cbbc84b80915">Merging Timelines</card>
+    <card qty="2" id="c2dd2e36-4356-4316-98d8-def2a0f90215">Tindalos Alpha</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="e23e2765-2928-41f8-b365-f89aa7535a98">Sealed Passage</card>
+    <card qty="1" id="55538624-de36-4043-afe5-3d7cb4bf8c28">Mosaic Chamber</card>
+    <card qty="1" id="f6ee00d8-5781-4969-b1ff-e002f3b7291f">Tomb of the Ancients</card>
+    <card qty="1" id="472778dc-0506-4a0a-aab4-a502cf58dada">Throne Room</card>
+    <card qty="1" id="632b03bb-85e8-429f-9f0b-540bcbcb5bf9">Snake Pit</card>
+    <card qty="1" id="71eea013-680f-4356-affd-40c87f82fb94">Ancient Hall</card>
+    <card qty="1" id="ece0c867-b38a-4359-9528-5c932f0bd06f">Grand Chamber</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="5428faa7-f2ea-47d2-a46c-bcccce426a21">Chamber of Time</card>
+    <card qty="1" id="3e73a9f2-c47b-4cf4-b05a-810f19432a49">Relic of Ages</card>
+    <card qty="1" id="a17b44f2-5be1-4417-93cc-2630ab5aa270">Harbinger of Valusia</card>
+    <card qty="3" id="20130830-bb18-44ac-b429-de7ab8ca1d6a">Pit Viper</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="879c1767-bb80-4859-876a-264845386d78">The Doom of Eztli</card>
+    <card qty="1" id="1a8b03a4-bf0a-49bf-b096-adcf9fa9188a">Return to The Doom of Eztli</card>
+    <card qty="1" id="d47deff1-322e-4f8e-a2e7-ed3ffe397311">Entryway</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

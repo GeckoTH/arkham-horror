@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="a17a85b7-08cd-4083-94bd-5280bde0643f">The Jungle's Heart</card>
+    <card qty="1" id="f17ee367-77de-486b-a725-2f5a5993c54e">Setting Sun</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="0a59374f-55bc-4196-8ba1-23fe7a59161d">A Familiar Pattern</card>
+    <card qty="1" id="b05d9c8f-6a52-4438-b5fa-0bfde9d21473">Opening the Maw</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="c1bb241d-3c5b-43d6-bfa7-6b1ad371d45b">Pitfall</card>
+    <card qty="3" id="952e15c3-8d01-40bc-b990-1e6137c06952">Poisonous Spores</card>
+    <card qty="2" id="8b19a9e2-aa55-4183-8e58-e947743f98ae">Apex Strangleweed</card>
+    <card qty="2" id="e307bd15-105c-4c70-845e-174396214342">Basilisk</card>
+    <card qty="3" id="7b5f3366-ac09-463f-903a-587c77859210">Ants!</card>
+    <card qty="2" id="f4d0bee6-9086-448f-8408-0c4c0afc99f6">Overgrowth</card>
+    <card qty="2" id="db2a7d83-bc7d-4dea-ae92-fc02f9d62f0d">Voice of the Jungle</card>
+    <card qty="3" id="20130830-bb18-44ac-b429-de7ab8ca1d6a">Pit Viper</card>
+    <card qty="1" id="d1a5b69b-6d3a-48ab-bace-e33633b93b5a">Boa Constrictor</card>
+    <card qty="3" id="39d0f46c-20e2-447d-acd4-24d6b2794d99">Snake Bite</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="2" id="30c52e7c-0f3d-4c61-9ad6-2fc9fd730f31">Resentful Wilds</card>
+    <card qty="3" id="64dd018a-0bbe-4580-81e9-800591730239">Best-Laid Plans</card>
+    <card qty="2" id="df660e5d-d365-485e-944b-e457ca69d7d5">Feathered Serpent</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="965b70a3-735a-4ebd-a3c1-5cab0367cf65">Time-Wracked Woods</card>
+    <card qty="1" id="9d8dbfbb-91d0-4d1b-9343-1cf8c6903196">River Canyon</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="b7b888ce-c247-4faf-9c0b-cb0908273f97">Rope Bridge</card>
+    <card qty="1" id="349742df-827a-4e18-9f0b-dd730e279ecb">Waterfall</card>
+    <card qty="1" id="bd95f839-567b-4b3c-9720-0015498baaf8">Serpent's Haven</card>
+    <card qty="1" id="76498aac-ea82-4071-9d64-cebedeca1134">Trail of the Dead</card>
+    <card qty="1" id="1666bdb1-e21b-4f02-b4b3-564593f2181f">Path of Thorns</card>
+    <card qty="1" id="4cdb49bb-31ba-4767-89e5-689c9f6db133">Riverside Temple</card>
+    <card qty="1" id="db538e9b-2c4e-4416-b41a-0c5972d46bd9">Circuitous Trail</card>
+    <card qty="1" id="1c29d2f3-a5a8-4a37-997e-1d28dc399a33">Cloud Forest</card>
+    <card qty="1" id="c09da216-9316-4598-a4fa-d045889e367b">Stone Altar</card>
+    <card qty="1" id="52025ebe-feb2-4d76-b420-be511c642bf1">Temple of the Fang</card>
+    <card qty="1" id="37b7a822-5ccc-4939-9810-f3f03cf8c6c2">Overgrown Ruins</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="1a76e271-589d-4e28-8d0e-015c4c81ebbc">Heart of the Elders</card>
+    <card qty="1" id="e8cbbe0b-5760-469f-b355-6619ab96b183">Return to Heart of the Elders, Part 1</card>
+    <card qty="1" id="d2035cb9-d1e5-49ad-9453-2f337d0c38de">Mouth of K'n-yan</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
