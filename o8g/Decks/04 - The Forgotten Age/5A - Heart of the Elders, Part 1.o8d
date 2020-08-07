@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="a17a85b7-08cd-4083-94bd-5280bde0643f">The Jungle's Heart</card>
     <card qty="1" id="f17ee367-77de-486b-a725-2f5a5993c54e">Setting Sun</card>
@@ -43,17 +35,25 @@
     <card qty="1" id="1095c136-0cd2-4add-a70f-b0d1a91221b6">Lost in the Wilds</card>
     <card qty="1" id="fa2580af-7586-427c-b2c0-1536a80afe16">Low on Supplies</card>
   </section>
-  <section name="Special" shared="True" />
   <section name="Second Special" shared="True">
+    <card qty="1" id="c09da216-9316-4598-a4fa-d045889e367b">Stone Altar</card>
+    <card qty="1" id="37b7a822-5ccc-4939-9810-f3f03cf8c6c2">Overgrown Ruins</card>
+    <card qty="1" id="52025ebe-feb2-4d76-b420-be511c642bf1">Temple of the Fang</card>
     <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
   </section>
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="1a76e271-589d-4e28-8d0e-015c4c81ebbc">Heart of the Elders</card>
     <card qty="1" id="d2035cb9-d1e5-49ad-9453-2f337d0c38de">Mouth of K'n-yan</card>
-    <card qty="1" id="c09da216-9316-4598-a4fa-d045889e367b">Stone Altar</card>
-    <card qty="1" id="52025ebe-feb2-4d76-b420-be511c642bf1">Temple of the Fang</card>
-    <card qty="1" id="37b7a822-5ccc-4939-9810-f3f03cf8c6c2">Overgrown Ruins</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
