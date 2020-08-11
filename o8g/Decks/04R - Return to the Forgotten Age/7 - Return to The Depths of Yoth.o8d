@@ -22,25 +22,26 @@
     <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
     <card qty="1" id="184cb383-35f8-4ecc-af00-33b427b1df7b">Serpent from Yoth</card>
     <card qty="2" id="56778b1f-923b-4618-b4ff-445a972d1bfe">Curse of Yig</card>
-    <card qty="2" id="fc9f9748-abfc-4765-934f-35e34aaf4e18">Fang of Yig</card>
-    <card qty="2" id="51fa25ad-358e-4511-a25f-a72eab8f4264">Snakescourge</card>
-    <card qty="1" id="5836ef11-4edb-475d-ab6b-b6b8157a3fde">Serpent's Call</card>
-    <card qty="3" id="1095c136-0cd2-4add-a70f-b0d1a91221b6">Lost in the Wilds</card>
-    <card qty="2" id="fa2580af-7586-427c-b2c0-1536a80afe16">Low on Supplies</card>
     <card qty="2" id="6d4b1487-e67b-44b9-97a3-0691039ef958">Ill Omen</card>
     <card qty="2" id="c5645847-3aba-4c61-9afe-52367226f9c0">Ancestral Fear</card>
     <card qty="3" id="13aff50c-dfa0-4058-a1f3-a3a79c191b74">Deep Dark</card>
     <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="3" id="089ede13-5c29-4411-9b0a-8ce143c7d129">Vengeful Serpent</card>
+    <card qty="1" id="64f6aef0-c65b-4246-aca5-da4dba2985b4">Serpent Guardian</card>
+    <card qty="1" id="a5685b4f-335a-4127-9b12-e1f5146212a3">Wrath of Yig</card>
+    <card qty="2" id="30c52e7c-0f3d-4c61-9ad6-2fc9fd730f31">Resentful Wilds</card>
+    <card qty="3" id="64dd018a-0bbe-4580-81e9-800591730239">Best-Laid Plans</card>
   </section>
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True">
     <card qty="1" id="736032a4-bfdd-408e-8547-5148a271bc34">Yig</card>
-    <card qty="1" id="bbff23f5-ba78-4cf4-908a-a9562c37d692">Harbinger of Valusia</card>
+    <card qty="1" id="a17b44f2-5be1-4417-93cc-2630ab5aa270">Harbinger of Valusia</card>
     <card qty="1" id="e672cb77-056e-4f2e-95ba-3a8484e751c7">Relic of Ages</card>
     <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="6876db05-c1e2-4e46-b172-1739f700f716">The Depths of Yoth</card>
+    <card qty="1" id="0a8e6b32-5d1c-4ddf-9abf-031d84133235">Return to The Depths of Yoth</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
@@ -51,16 +52,17 @@
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
   <section name="Location" shared="True">
+    <card qty="1" id="910d50a7-da2c-41b3-8459-23e66bc90944">Perils of Yoth</card>
     <card qty="1" id="1ec867c4-b0c0-42e4-8b6a-f57f83c74eca">Steps of Yoth</card>
-    <card qty="1" id="48708e1a-6021-40d0-ad6c-7d9a5ef894ad">Abandoned Site</card>
-    <card qty="1" id="84d4bc64-aa84-4ede-a0eb-ab858ad14ded">Bridge over N'kai</card>
-    <card qty="1" id="e6a9042c-94a9-4ee1-b485-c74086f2a36a">Bright Canyon</card>
-    <card qty="1" id="1b7152da-96ae-4bd9-a778-23bbcb4a3ed3">Broken Passage</card>
-    <card qty="1" id="07ac1e64-3486-4504-b111-359b9049fa2f">Caverns of Yoth</card>
     <card qty="1" id="93d0dc54-236b-40c9-abb0-60fac45d6b04">City of the Serpents</card>
-    <card qty="1" id="41fa1d15-e606-486f-bbc0-3c59a68e7ae4">Crumbling Precipice</card>
-    <card qty="1" id="b94c4560-7fe7-4d19-aea8-e0cac3781d47">Forked Path</card>
     <card qty="1" id="0b0c6e37-8804-4eb2-a2e3-dfa2b6666114">Hall of Heresy</card>
+    <card qty="1" id="41fa1d15-e606-486f-bbc0-3c59a68e7ae4">Crumbling Precipice</card>
+    <card qty="1" id="07ac1e64-3486-4504-b111-359b9049fa2f">Caverns of Yoth</card>
+    <card qty="1" id="b94c4560-7fe7-4d19-aea8-e0cac3781d47">Forked Path</card>
+    <card qty="1" id="84d4bc64-aa84-4ede-a0eb-ab858ad14ded">Bridge over N'kai</card>
+    <card qty="1" id="1b7152da-96ae-4bd9-a778-23bbcb4a3ed3">Broken Passage</card>
+    <card qty="1" id="48708e1a-6021-40d0-ad6c-7d9a5ef894ad">Abandoned Site</card>
+    <card qty="1" id="e6a9042c-94a9-4ee1-b485-c74086f2a36a">Bright Canyon</card>
   </section>
   <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>

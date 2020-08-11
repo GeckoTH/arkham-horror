@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="599b455a-1ed9-4a8b-8de3-cd48b86652d4">City of the Great Race</card>
+    <card qty="1" id="dbf77b74-a17d-40ee-a041-370f2aaa9404">Lost Memories</card>
+    <card qty="1" id="d55da96b-dbd1-44d3-9ea0-98b122650084">Humanity Fading</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="dc9a837f-a9af-42d4-88da-0c4c5efcb6cf">Exploring Pnakotus</card>
+    <card qty="1" id="47351ee0-db99-46a9-a218-268f96611760">Unrestricted Access</card>
+    <card qty="1" id="79f204a4-f23c-45a4-a458-991a1d937be1">Repossession</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="fa6a4eb4-99e3-4ec7-84b8-6240210ae17e">Keeper of the Great Library</card>
+    <card qty="2" id="01d8d99d-4dc5-4b98-b4d0-ed83234ac273">Scientist of Yith</card>
+    <card qty="3" id="106716f8-2a94-4498-a102-64282773748d">Scholar from Yith</card>
+    <card qty="3" id="62fd2bb4-1038-4b5a-8d28-bdbdcca3addf">Yithian Presence</card>
+    <card qty="3" id="54633634-7289-4f53-851c-e5bac5357a95">Cruel Interrogations</card>
+    <card qty="2" id="68c31db5-b57c-4731-818d-aef7a2f33c3d">Lost Humanity</card>
+    <card qty="2" id="21efd226-a2fa-435b-aa90-97b3835182e4">Captive Mind</card>
+    <card qty="1" id="6ea5fdd2-d464-42f1-b734-6a34edcf0329">Yithian Observer</card>
+    <card qty="2" id="085d8d82-3331-4eda-bcba-e51285fa9b0e">Offer of Power</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+    <card qty="2" id="b0a2d5ee-955e-4a62-b9dc-141cd2ddbcb3">Captive Subjects</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="7a1c36e7-cf5a-478a-bf7a-484fcc58bed4">Great Library</card>
+    <card qty="1" id="983d581c-e0bf-4839-b14d-dda873a3d8ce">Yithian Orrery</card>
+    <card qty="1" id="cbb0161d-f354-42b8-964c-48236d081ff3">Laboratory of the Great Race</card>
+    <card qty="1" id="1b282c6f-6180-4039-907d-fba422f6d0c5">Deconstruction Room</card>
+    <card qty="1" id="9a533506-45fd-44ea-af5d-f4f79c059506">Towers of Pnakotus</card>
+    <card qty="1" id="c0aad81b-7c5e-49c0-b630-3a357959b073">Cyclopean Vaults</card>
+    <card qty="1" id="83d14608-190a-45fe-8dca-a7b3bb0e9c2b">Alien Conservatory</card>
+    <card qty="1" id="4a836c1f-5395-422a-b0e7-86102e8dd0ab">The Custodian</card>
+    <card qty="4" id="1d9c6e6a-498c-4226-b6a3-bdb13eb12a5a">Out of Body Experience</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="629942d1-f571-4e0b-99a8-87f2901cf9ea">The City of Archives</card>
+    <card qty="1" id="beddc4d4-32c2-436b-a306-0d9a3642766e">Return to The City of Archives</card>
+    <card qty="4" id="866e3e89-94bb-4f57-9caf-96904f3ee338">Body of a Yithian</card>
+    <card qty="1" id="c97a01d0-caa1-428a-8afa-2b8777ac0b64">Interview Room</card>
+    <card qty="1" id="76af5c04-caf0-4ffd-9fe4-f301ead1bd95">Interview Room</card>
+    <card qty="1" id="30261f4d-dbc1-4589-8a95-77e638145a0d">Interview Room</card>
+    <card qty="1" id="25aaacaa-f161-47e7-8338-d22b7230f270">Halls of Pnakotus</card>
+    <card qty="1" id="e8644784-196c-49f0-b8e0-4f7e27723a85">Halls of Pnakotus</card>
+    <card qty="1" id="38f8fe16-06e2-4309-9226-71bb5d904c9d">Halls of Pnakotus</card>
+    <card qty="1" id="14bfd636-f03f-4057-a784-c49f789f2698">Halls of Pnakotus</card>
+    <card qty="1" id="6ea5fdd2-d464-42f1-b734-6a34edcf0329">Yithian Observer</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

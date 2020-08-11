@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="cf16a4b5-94ef-48af-8493-39999789746f">Expedition into the Wild</card>
+    <card qty="1" id="9156e93a-8c28-4ec3-aae0-ab1ecfa166a0">Intruders</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="08b4e0e4-9da1-47c4-98e3-3599fc9292dc">Exploring the Rainforest</card>
+    <card qty="1" id="bf9a29c5-c5c9-453c-abd7-705d1abedad4">Huntress of the Eztli</card>
+    <card qty="1" id="8c8bbc06-beec-46e9-be4d-b332167db610">Search for the Ruins</card>
+    <card qty="1" id="193b5971-e931-474a-a8c6-8280f5def4bf">The Guarded Ruins</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="f4d0bee6-9086-448f-8408-0c4c0afc99f6">Overgrowth</card>
+    <card qty="2" id="db2a7d83-bc7d-4dea-ae92-fc02f9d62f0d">Voice of the Jungle</card>
+    <card qty="3" id="20130830-bb18-44ac-b429-de7ab8ca1d6a">Pit Viper</card>
+    <card qty="1" id="d1a5b69b-6d3a-48ab-bace-e33633b93b5a">Boa Constrictor</card>
+    <card qty="3" id="39d0f46c-20e2-447d-acd4-24d6b2794d99">Snake Bite</card>
+    <card qty="2" id="cf96c698-ac9c-4d12-8aa8-bbc70a9ae088">Eztli Guardian</card>
+    <card qty="2" id="0c9b4bfc-b552-48de-9759-0f81ee668c92">Arrows from the Trees</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="30c52e7c-0f3d-4c61-9ad6-2fc9fd730f31">Resentful Wilds</card>
+    <card qty="3" id="64dd018a-0bbe-4580-81e9-800591730239">Best-Laid Plans</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="9d8dbfbb-91d0-4d1b-9343-1cf8c6903196">River Canyon</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="b7b888ce-c247-4faf-9c0b-cb0908273f97">Rope Bridge</card>
+    <card qty="1" id="349742df-827a-4e18-9f0b-dd730e279ecb">Waterfall</card>
+    <card qty="1" id="bd95f839-567b-4b3c-9720-0015498baaf8">Serpent's Haven</card>
+    <card qty="1" id="76498aac-ea82-4071-9d64-cebedeca1134">Trail of the Dead</card>
+    <card qty="1" id="1666bdb1-e21b-4f02-b4b3-564593f2181f">Path of Thorns</card>
+    <card qty="1" id="4cdb49bb-31ba-4767-89e5-689c9f6db133">Riverside Temple</card>
+    <card qty="1" id="db538e9b-2c4e-4416-b41a-0c5972d46bd9">Circuitous Trail</card>
+    <card qty="1" id="1c29d2f3-a5a8-4a37-997e-1d28dc399a33">Cloud Forest</card>
+    <card qty="1" id="1f751654-9485-433c-a9e4-d989155a316f">Alejandro Vela</card>
+    <card qty="1" id="882f22d1-b171-4c18-8379-8a5e5e1d1a6d">Ichtaca</card>
+    <card qty="1" id="e99a8289-8797-4ac9-9ad5-dd1d10ca4827">Ruins of Eztli</card>
+    <card qty="1" id="37b7a822-5ccc-4939-9810-f3f03cf8c6c2">Overgrown Ruins</card>
+    <card qty="1" id="52025ebe-feb2-4d76-b420-be511c642bf1">Temple of the Fang</card>
+    <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
+    <card qty="1" id="184cb383-35f8-4ecc-af00-33b427b1df7b">Serpent from Yoth</card>
+    <card qty="2" id="56778b1f-923b-4618-b4ff-445a972d1bfe">Curse of Yig</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="6ea63fe0-6d47-49f8-aded-c891b70b6c63">The Untamed Wilds</card>
+    <card qty="1" id="789d3a7d-7ab0-47c6-8cdf-24bc20f04cc3">Return to The Untamed Wilds</card>
+    <card qty="1" id="7f70d751-9b35-486c-b588-688b30ec2954">Expedition Camp</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

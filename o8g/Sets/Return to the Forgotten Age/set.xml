@@ -1,0 +1,1010 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Return to the Forgotten Age" id="f844dcbc-ff4e-401f-8d0a-46a905cfceae" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="ba7a55d9-fb93-4f5f-8871-4ff1e6242716" name="Blood Eclipse">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Spirit." />
+      <property name="Text" value="As an additional cost to play Blood Eclipse, take 2 damage.Fight. This attack uses ά instead of ή. You get +2 ά and deal +2 damage for this attack." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1d55d0eb-056a-46aa-9f30-374510273180" name="Survival Knife">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Melee." />
+      <property name="Text" value="η: Fight. You get +2 ή for this attack.&#10;ι When an enemy attacks you during the enemy phase (before resolving that attack), exhaust Survival Knife: Fight. This attack targets the attacking enemy. You get +2 ή and deal +1 damage for this attack." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d271dfd4-9c74-482f-8ef6-8c536ef3432d" name="Truth from Fiction">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Place 2 secrets among assets controlled by investigators at your location (3 secrets instead if there is a clue on your location)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="094ec3da-db62-4485-a0ef-fc21d87da796" name="Ancient Stone">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Transient Thoughts" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Ancient Stone (Unidentified), and only if &quot;you have identified the stone&quot; in your Campaign Log.&#10;Uses (X secrets). X is the number in parentheses next to “you have identified the stone.”&#10;ι When you draw any number of cards, spend that many secrets: Move to a connecting location that many times." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ef645f0a-2ec2-4ea4-acfa-717c903875c7" name="Decorated Skull">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Doom Begets Doom" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Cursed." />
+      <property name="Text" value="Uses (0 charges).&#10;ι After an investigator, Ally asset, or enemy at your location is defeated: Place 1 resource (from the token bank) on Decorated Skull, as a charge.&#10;η Spend up to 3 charges: Draw that many cards and gain that many resources." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="646f6cb9-948a-4c1f-adb8-c139720c057e" name="Colt Vest Pocket">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (5 ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. This attack deals +1 damage.&#10;Forced – At the end of the round, if you triggered Colt Vest Pocket’s “η” ability: Discard it." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="de45d54d-e7cb-43e8-b03b-58b63311a499" name="Mists of R’lyeh">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (5 charges).&#10;η Spend 1 charge: Evade. This evasion attempt uses ά instead of ί. You get +1 ά for this evasion attempt. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a α, β, γ, δ, or ζ symbol is revealed during this evasion attempt, choose and discard a card from your hand." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fd34744c-3bc9-4897-ba7f-9a984c2a5949" name="The Chthonian Stone">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Stygian Waymark" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Cursed." />
+      <property name="Text" value="Seal (α, β, γ, or δ). Uses (3 charges). If The Chthonian Stone has no charges, return it to your hand.Forced – After you reveal an ζ symbol during a skill test: Remove 1 charge from The Chthonian Stone." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="62b82d2b-8a13-4111-9ef8-140dbfedcfce" name="Alter Fate">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Blessed." />
+      <property name="Text" value="Choose and discard from play a non-weakness treachery that is not attached to an Elite enemy." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bb4dbbe7-9610-46c0-acfd-e3722a7d2d2c" name="On Your Own">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Exceptional. Permanent.&#10;Your investigator gains: “Deckbuilding Restrictions: No assets that take up an ally slot.”&#10;ι When you play a ξ event, exhaust On Your Own: Reduce that event’s cost by 2." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2f3b5064-f56c-49e0-b212-901fa5d4a914" name="Backpack">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item." />
+      <property name="Text" value="ι After Backpack enters play: Search the top 12 cards of your deck for up to 3 non-weakness Item or Supply cards, and attach them facedown to Backpack. Shuffle your deck.&#10;Cards attached to Backpack may be played as if they were in your hand. If there are no cards attached to Backpack, discard it." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Body" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d5591fb8-20d3-4a01-899e-147edb197e89" name="Dendromorphosis">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="&quot;Natural&quot; Transformation" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Curse. Flora." />
+      <property name="Text" value="Revelation – Put Dendromorphosis into play in your threat area. It cannot leave play while it has no damage on it.&#10;θ Take 1 direct damage: Deal 1 damage to Dendromorphosis.&#10;Card design by the Botanists at Arkham Nights 2018." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Slot" value="Hand x2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8513832c-d3d7-4f95-a829-1ea3eab40ebe" name="Offer You Cannot Refuse">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Pact." />
+      <property name="Text" value="Campaign Mode only.&#10;When you become the bearer of this weakness, gain 2 experience.&#10;Revelation – Lose 5 resources. If you cannot, instead remove Offer You Cannot Refuse from your deck, search the collection for Fine Print, and place it in your discard pile." />
+    </card>
+    <card id="148aaee3-3ba8-4af4-8e1c-eb49a11228e3" name="Fine Print" size="EncounterCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Pact." />
+      <property name="Text" value="Revelation – Lose 7 resources. If you cannot, instead remove Fine Print from your deck, search the collection for Sell Your Soul, and place it in your discard pile." />
+    </card>
+    <card id="c6b1b151-1d27-4ecc-9b32-50b8410bd229" name="Sell Your Soul" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Pact." />
+      <property name="Text" value="Revelation – Lose 10 resources. If you cannot, your dark patron tears your consciousness from your body. You are driven insane." />
+    </card>
+    <card id="789d3a7d-7ab0-47c6-8cdf-24bc20f04cc3" name="Return to The Untamed Wilds" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Untamed Wilds" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to The Untamed Wilds shown here.&#10;(Continued on reverse side.)" />
+      <alternate name="Return to The Untamed Wilds" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Untamed Wilds" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="When building the exploration deck, only use one of the two locations with each of the following four connection symbols, chosen at random:&#10;Remove the other four Jungle locations from the game without looking at them. Do not include any of the other encounter cards listed in the original setup instructions. (There should be a total of 5 cards.)&#10;—————&#10;For the duration of this scenario, the following additional rules apply:&#10;“The ‘check your supplies’ ability on the Expedition Camp can be used from any location.&#10;Forced – After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.”&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="1a8b03a4-bf0a-49bf-b096-adcf9fa9188a" name="Return to The Doom of Eztli" size="EncounterCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to The Doom of Eztli shown here.&#10;● Gather the 3 Pit Viper cards from the Serpents encounter set and set them aside, out of play.&#10;● Before setup, remove the original Burial Pit, Underground Ruins, and Secret Passage locations from the game.&#10;(Continued on reverse side.)" />
+      <alternate name="Return to The Doom of Eztli" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Doom of Eztli" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="● Before setup, replace the original Entryway, Ancient Hall, Grand Chamber, and Chamber of Time locations with the new versions from this encounter set.&#10;● Before setup, replace the original Harbinger of Valusia enemy with the new Harbinger of Valusia (The Sleeper Returns).&#10;● When building the exploration deck, use only Sealed Passage, Mosaic Chamber, Tomb of the Ancients, Throne Room, Snake Pit, Ancient Hall, and Grand Chamber. Do not include any of the other encounter cards listed in the original setup instructions.&#10;—————&#10;For the duration of this scenario, the following additional rule applies:&#10;“Forced – After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.”&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="a17b44f2-5be1-4417-93cc-2630ab5aa270" name="Harbinger of Valusia" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Subtitle" value="The Sleeper Returns" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Serpent. Elite." />
+      <property name="Text" value="Alert. Hunter. Retaliate.&#10;While this enemy has 5π or more damage on it, it gets +2 fight and –2 evade.&#10;Forced – After a successful attack or evasion attempt against this enemy ends: Place 1 resource on it. Then, if there are 2π resources on it, it vanishes with a sinister hiss. (Set it aside, out of play. It keeps all damage tokens.)&#10;Vengeance 5." />
+      <property name="Health" value="10π" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="d47deff1-322e-4f8e-a2e7-ed3ffe397311" name="Entryway" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Subtitle" value="Rearranged by Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <alternate name="Entryway" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Doom of Eztli" />
+        <property name="Subtitle" value="Rearranged by Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ancient. Ruins." />
+        <property name="Text" value="η: Resign. You’ve escaped…for now.&#10;η Check your supplies. If you have torches: Look at the top 2 cards of the exploration deck. Discard 1 treachery or enemy looked at by this effect. Shuffle the exploration deck. This ability can be used at any location." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="e23e2765-2928-41f8-b365-f89aa7535a98" name="Sealed Passage" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="η Check your supplies. If you have the Key of Eztli: Search the exploration deck and all set-aside cards for Chamber of Time and put it into play. If it is act 1a, skip directly to act 2a. For the remainder of this act, Sealed Passage is connected to Chamber of Time and vice versa. (Group limit once per game.)" />
+      <property name="Shroud" value="9" />
+      <property name="Clues" value="0" />
+    </card>
+    <card id="55538624-de36-4043-afe5-3d7cb4bf8c28" name="Mosaic Chamber" size="EncounterCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="η Check your supplies. If you have a canteen: The chamber accepts your gift of water. Remove 1 doom from any location in play. (Group limit once per game.)" />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="f6ee00d8-5781-4969-b1ff-e002f3b7291f" name="Tomb of the Ancients" size="EncounterCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="η Check your supplies. If an investigator at Tomb of the Ancients has rope: Move to a revealed location up to 3 connections away. Until the end of the round, Tomb of the Ancients is considered to be connected to that location, and vice versa. (Group limit once per round.)" />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="472778dc-0506-4a0a-aab4-a502cf58dada" name="Throne Room" size="EncounterCard">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="While Throne Room has doom on it, it is considered to be in the victory display (for the purposes of counting vengeance).&#10;η If there are no clues or doom on Throne Room: Record “mysterious scepter” in your supplies. (Group limit once per game.)&#10;Vengeance 1." />
+      <property name="Shroud" value="5" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="632b03bb-85e8-429f-9f0b-540bcbcb5bf9" name="Snake Pit" size="EncounterCard">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="Forced – After you put Snake Pit into play by exploring successfully, but before moving to it: Spawn 1π set-aside Pit Viper enemies in Snake Pit (to a maximum of 3). Check your supplies. If an investigator at your location has binoculars, you may choose not to move to Snake Pit. Otherwise, you must move to it." />
+      <property name="Shroud" value="1" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="71eea013-680f-4356-affd-40c87f82fb94" name="Ancient Hall" size="EncounterCard">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Subtitle" value="Rearranged by Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="Ancient Hall enters play with 1π doom on it.&#10;η: Flip 1 doom on Ancient Hall to its clue side.&#10;θ: Check your supplies. If you have a compass, flip 1 doom on Ancient Hall to its clue side. (Group limit once per round.)" />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="ece0c867-b38a-4359-9528-5c932f0bd06f" name="Grand Chamber" size="EncounterCard">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Subtitle" value="Rearranged by Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="η Check your supplies. If you have a map and there are no clues on Grand Chamber: For the remainder of the scenario (and its resolution), Grand Chamber loses Vengeance 1 and gains Victory 1. (Group limit once per game.)&#10;Vengeance 1." />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="5428faa7-f2ea-47d2-a46c-bcccce426a21" name="Chamber of Time" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Doom of Eztli" />
+      <property name="Subtitle" value="Rearranged by Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Forgotten. Ruins." />
+      <property name="Text" value="Forced – After Chamber of Time enters play: Attach the set-aside Relic of Ages asset to Chamber of Time. Place 1 doom on Chamber of Time.&#10;Vengeance 2." />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="2π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="8878eefa-e958-4b1f-9801-5c4127411fcc" name="Return to Threads of Fate" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to Threads of Fate shown here.&#10;● Set the Veda Whitsley story-asset aside, out of play.&#10;(Continued on reverse side.)" />
+      <alternate name="Return to Threads of Fate" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="● This encounter set contains a fourth “g/h” act deck. Adjust the contents of the “g/h” act deck as follows. The investigators must decide (choose one):&#10;If you wish to find the source named in the Advertiser’s story, remove the following act cards from the “g/h” deck: Search for the Meaning, both copies of The Overgrown Estate, and 1 of the 2 copies of Seeking Trouble, at random.&#10;If you wish to find the root of the problem, remove the following act cards from the “g/h” deck: Search for the Source, both copies of Seeking Trouble, and 1 of the 2 copies of The Overgrown Estate, at random." />
+      </alternate>
+    </card>
+    <card id="6986f0ca-fc8e-420e-ae92-6410fab73785" name="Search for the Meaning" size="HorizCard">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Subtitle" value="Act 1g" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Only investigators in Rivertown can spend the requisite number of clues, as a group, to advance." />
+      <property name="Clues" value="1π" />
+      <alternate name="The Hastings Estate" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="Revelation – Put The Hastings Estate into play.&#10;η Cross medicine off from your supplies: Discover all of the clues on The Hastings Estate." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="3faf9ca8-2d4a-4327-b365-2332cbf76401" name="Search for the Source" size="HorizCard">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Subtitle" value="Act 1g" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Only investigators in Northside can spend the requisite number of clues, as a group, to advance." />
+      <property name="Clues" value="1π" />
+      <alternate name="Merle Garvin" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Subtitle" value="Unhelpful Guide" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Bystander. Wayfarer." />
+        <property name="Text" value="Revelation – Put Merle Garvin into play at Miskatonic University.&#10;η: Parley. Mr. Garvin tries to give you the slip. Test ί (2). If you succeed, place 1 clue on Merle Garvin (from the token pool) and move him 1 location away from you. If you fail, move him 2 locations away from you." />
+        <property name="Class" value="Neutral" />
+        <property name="Cost" value="–" />
+        <property name="Unique" value="ο" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="33b24489-91a6-4eae-9164-082b357abd14" name="The Overgrown Estate" size="HorizCard">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Subtitle" value="Act 2g" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Only investigators at The Hastings Estate can spend the requisite number of clues, as a group, to advance." />
+      <property name="Clues" value="2π" />
+      <alternate name="Sent from Another Time" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Subtitle" value="Act 2h" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Search the collection for the Harbinger of Valusia (The Sleeper Returns) and spawn it at The Hastings Estate. It enters play with damage on it equal to the amount of damage recorded in parentheses in your Campaign Log. If there are 5 or fewer tally marks under &quot;Yig's Fury&quot; in your Campaign Log, it enters play exhausted.&#10;Advance to Act 3g—“Impossible Pursuit.”" />
+      </alternate>
+    </card>
+    <card id="24bf56dc-3b0f-45db-b633-6428a5ffd784" name="The Overgrown Estate" size="HorizCard">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Subtitle" value="Act 2g" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Only investigators at The Hastings Estate can spend the requisite number of clues, as a group, to advance." />
+      <property name="Clues" value="2π" />
+      <alternate name="Clinton Freeman" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Bystander. Wayfarer." />
+        <property name="Text" value="Revelation – Put Clinton Freeman into play at Velma’s Diner. Advance to Act 3g—“Discover the Truth.”&#10;η: Parley. Test ά or έ (3). If you succeed, place 1 clue on Clinton Freeman (from the token pool) and take 1 horror. If you fail, take 1 horror for each point you failed by." />
+        <property name="Class" value="Neutral" />
+        <property name="Unique" value="ο" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="af6113e6-6f03-4685-824f-11016b51b50f" name="Seeking Trouble" size="HorizCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Subtitle" value="Act 2g" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If there are 1π clues on Merle Garvin: You must remove them and immediately advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Sent from Another Time" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Subtitle" value="Act 2h" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Search the collection for the Harbinger of Valusia (The Sleeper Returns) and spawn it at Merle Garvin’s location. It enters play with damage on it equal to the amount of damage recorded in parentheses in your Campaign Log. If there are 5 or fewer tally marks under &quot;Yig's Fury&quot; in your Campaign Log, it enters play exhausted.&#10;Advance to Act 3g—“Impossible Pursuit.”" />
+      </alternate>
+    </card>
+    <card id="2ac2cfc8-aa2b-406b-a950-1a273d7cb1cf" name="Seeking Trouble" size="HorizCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Subtitle" value="Act 2g" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If there are 1π clues on Merle Garvin: You must remove them and immediately advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Loading Docks" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="Revelation – Put Loading Docks into play with 4 resources on it. Advance to Act 3g—“Discover the Truth.”&#10;While there are no resources on Loading Docks, clues on it cannot be discovered by any means.&#10;Forced – At the end of the round: Remove 1 resource from Loading Docks." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="0d36127e-b441-4f49-af22-7bf13aaa0253" name="Discover the Truth" size="HorizCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Subtitle" value="Act 3g" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If there are 1π clues on Clinton Freeman: You must remove them and immediately advance.&#10;Objective – If Loading Docks is in play and there are no clues remaining on it: You must immediately advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Another Expedition" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Subtitle" value="Act 3h" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If Clinton Freeman is in play:&#10;The investigator nearest to Clinton Freeman takes control of the set-aside Veda Whitsley. Remove the remainder of the “g/h” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (-&gt;R1).&#10;If Loading Docks is in play:&#10;The investigator nearest to Loading Docks takes control of the set-aside Veda Whitsley. Remove the remainder of the “g/h” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (-&gt;R1)." />
+      </alternate>
+    </card>
+    <card id="9b2376a8-7317-4652-9f61-ff31c7d15e0b" name="Impossible Pursuit" size="HorizCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Subtitle" value="Act 3g" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If the Harbinger of Valusia leaves play, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Another Expedition" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Subtitle" value="Act 3h" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="The investigator nearest to the Harbinger of Valusia takes control of the set-aside Veda Whitsley.&#10;Remove the remainder of the “g/h” act deck from the game. If another act card is in play, continue playing. Otherwise, proceed to (-&gt;R1)." />
+      </alternate>
+    </card>
+    <card id="fa371c67-b293-4735-9b77-631ec63ec006" name="Veda Whitsley">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Threads of Fate" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Wayfarer." />
+      <property name="Text" value="θ Exhaust Veda Whitsley: Look at the top card of the exploration deck or encounter deck. If it is an enemy, you may deal 1 damage to Veda Whitsley to discard it. If it is a treachery, you may deal 1 horror to Veda Whitsley to discard it. Otherwise, return it to the top of its deck." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ffabc5ca-54ed-4ad4-9dc2-811911039950" name="Return to The Boundary Beyond" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Boundary Beyond" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to The Boundary Beyond shown here.&#10;(Continued on reverse side.)" />
+      <alternate name="Return to The Boundary Beyond" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Boundary Beyond" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="● Add the new Present-Day locations to the original locations from The Boundary Beyond encounter set. Remove 1 of the 2 copies of each of these locations from the game at random. Put the remaining locations into play.&#10;● After setup, search the collection for the new Harbinger of Valusia (The Sleeper Returns) and set it aside, out of play. If the Harbinger of Valusia would enter play during this scenario, use this version instead of the original one.&#10;● When building the exploration deck, use only the 12 single-sided Ancient locations. Do not include any of the other encounter cards listed in the original setup instructions." />
+      </alternate>
+    </card>
+    <card id="03e0d756-e881-4cab-82b9-d06df975f77d" name="Temple Ruins" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Boundary Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Mexico City. Present-day." />
+      <alternate name="Temple Ruins" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Boundary Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Mexico City. Present-day." />
+        <property name="Text" value="ι After you successfully investigate Temple Ruins: Explore. Draw the top card of the exploration deck. If it is a location with a matching location symbol in the upper-left corner, place it on top of this location, taking its place." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="97c1e976-2f67-4849-8564-99a186663cda" name="Metropolitan Cathedral" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Boundary Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Mexico City. Present-day." />
+      <alternate name="Metropolitan Cathedral" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Boundary Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Mexico City. Present-day." />
+        <property name="Text" value="η Take 1 horror: Gain 2 resources.&#10;η If you have 10 or more resources: Explore. Draw the top card of the exploration deck. If it is a location with a matching location symbol in the upper-left corner, place it on top of this location, taking its place." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="e28b9e53-fa39-45d3-bfc1-834134491eb5" name="Chapultepec Park" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Boundary Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Mexico City. Present-day." />
+      <alternate name="Chapultepec Park" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Boundary Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Mexico City. Present-day." />
+        <property name="Text" value="Forced – After you fail an ί test while at Chapultepec Park: Take 1 damage.&#10;η: Explore. Test ί (3). If you succeed, draw the top card of the exploration deck. If it is a location with a matching location symbol in the upper-left corner, place it on top of this location, taking its place." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="f7cdc040-d336-41c2-b17c-cbf3920144c1" name="Zócalo" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Boundary Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Mexico City. Present-day." />
+      <alternate name="Zócalo" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Boundary Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Mexico City. Present-day." />
+        <property name="Text" value="η Discard cards with a combined total of at least 4 skill icons from your hand: Explore. Draw the top card of the exploration deck. If it is a location with a matching location symbol in the upper-left corner, place it on top of this location, taking its place." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="7a9f7c96-1e84-406f-a152-6defe4c409fd" name="Xochimilco" size="EncounterCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Boundary Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Mexico City. Present-day." />
+      <alternate name="Xochimilco" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Boundary Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Mexico City. Present-day." />
+        <property name="Text" value="ι After you successfully fight or evade an enemy at Xochimilco: Explore. Draw the top card of the exploration deck. If it is a location with a matching location symbol in the upper-left corner, place it on top of this location, taking its place." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="229f61e5-8209-44a1-b42e-553b2192c011" name="Coyoacán" size="EncounterCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Boundary Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Mexico City. Present-day." />
+      <alternate name="Coyoacán" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Boundary Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Mexico City. Present-day." />
+        <property name="Text" value="While you are at Coyoacán, damage/horror cannot be healed from cards you control.&#10;η If you have 5 or more total damage and/or horror on your investigator: Explore. Draw the top card of the exploration deck. If it is a location with a matching location symbol in the upper-left corner, place it on top of this location, taking its place." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="e8cbbe0b-5760-469f-b355-6619ab96b183" name="Return to Heart of the Elders, Part 1" size="EncounterCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Heart of the Elders, Part 1" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to Heart of the Elders shown here.&#10;● Remove Act 1a—“Search for the Pattern” from the game and replace it with the new Act 1a—“A Familiar Pattern.”" />
+      <alternate name="Return to Heart of the Elders, Part 1" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Heart of the Elders, Part 1" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="● When building the exploration deck, only use one of the two locations with each of the following four connection symbols, chosen at random:&#10;Remove the other four Jungle locations from the game without looking at them. Do not include any of the other encounter cards listed in the original setup instructions. (There should be a total of 6 cards.)&#10;—————&#10;For the duration of this scenario, use the following alternative exploration rules:&#10;“The ‘check your supplies’ ability on the Mouth of K’n-yan can be used from any location.&#10;Forced – After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.”&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="0a59374f-55bc-4196-8ba1-23fe7a59161d" name="A Familiar Pattern" size="HorizCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Pillars of Judgment" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance." />
+      <property name="Clues" value="2π" />
+      <alternate name="The Winged Serpent" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Pillars of Judgment" />
+        <property name="Subtitle" value="The Fury of Yig" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Monster. Serpent. Elite." />
+        <property name="Text" value="Spawn – Mouth of K’n-yan.&#10;Hunter. Massive.&#10;Cannot be defeated. Cannot make attacks of opportunity.&#10;Forced – If there is 5 or more damage on this enemy, or after a pillar token is placed on the Mouth of K’n-yan: Heal all damage from this enemy and exhaust it. It does not ready during the upkeep phase this round." />
+        <property name="Health" value="–" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="4" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="1" />
+      </alternate>
+    </card>
+    <card id="df660e5d-d365-485e-944b-e457ca69d7d5" name="Feathered Serpent" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to Pillars of Judgment" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Creature. Serpent." />
+      <property name="Text" value="X is the number of pillar tokens on Mouth of K’n-yan. While X is 3 or higher, Feathered Serpent gains alert and hunter.&#10;η: Evade. Check your supplies. If you have a mysterious scepter, you automatically evade the serpent and command it to deal its damage to another enemy at its location.&#10;Vengeance 1." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="X" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="e4dfe2cd-224c-4749-a966-132b8f084cce" name="Return to Heart of the Elders, Part 2" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Heart of the Elders, Part 2" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to Heart of the Elders shown here.&#10;● After setup, search the collection for the new Harbinger of Valusia (The Sleeper Returns) and set it aside, out of play. If the Harbinger of Valusia would enter play during this scenario, use this version instead of the original one." />
+      <alternate name="Return to Heart of the Elders, Part 2" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Heart of the Elders, Part 2" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="● When building the exploration deck, only use one of the two locations with each of the following four connection symbols, chosen at random:&#10;Remove the other four Ancient locations from the game without looking at them. Do not include any of the other encounter cards listed in the original setup instructions. (There should be a total of 5 cards, not counting the set-aside Descent to Yoth.)&#10;—————&#10;For the duration of this scenario, the following additional rules apply:&#10;“The ‘check your supplies’ ability on the Mouth of K’n-yan can be used from any location, and it discards enemies as well as treacheries.&#10;Forced – After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.”&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="2b2a910b-fa55-493e-ad89-a1d5157efe76" name="Ruins of K’n-yan" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to K’n-yan" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Cave. Ruins. " />
+      <property name="Text" value="η η: Check your supplies. If you have a compass, discover 2 clues on Ruins of K’n-yan. (Group limit once per game.)" />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="2π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="33a12c23-8414-45a5-b0a8-e1f8027684e3" name="Subterranean Swamp" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to K’n-yan" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Cave. " />
+      <property name="Text" value="θ If there are no clues on Subterranean Swamp: Check your supplies. If you have a canteen, place 1 doom on this location and record “sticky goop” in your supplies. (Group limit once per game.)&#10;Forced – After you fail a skill test while investigating Subterranean Swamp: Check your supplies. If you do not have a pocketknife, lose all remaining actions and end your turn." />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="2π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="aa5b4fb3-f7cc-4e5a-9242-4ed8952cef57" name="Chthonian Depths" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to K’n-yan" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Cave. " />
+      <property name="Text" value="Forced – After the last clue is discovered from Chthonian Depths: Check your supplies. If no investigator at this location has torches, place 1 doom on it." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="dc233585-ff6b-4acd-8274-b37e62eb6d4f" name="Treacherous Descent" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to K’n-yan" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Cave. " />
+      <property name="Text" value="η: Check your supplies. If you have a pickaxe, reduce the shroud value of Treacherous Descent by 2 for the remainder of the scenario. (Group limit 3 times per game.)" />
+      <property name="Shroud" value="6" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="beddc4d4-32c2-436b-a306-0d9a3642766e" name="Return to The City of Archives" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The City of Archives" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to The City of Archives shown here.&#10;● Put Halls of Pnakotus (Southern Corridors) into play.&#10;(Continued on reverse side.)" />
+      <alternate name="Return to The City of Archives" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The City of Archives" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="● Set Cyclopean Vaults and Alien Conservatory aside, out of play. (These locations should be put into play during act 1b when the remainder of the set-aside locations are put into play.)&#10;● Remove Act 2a—“Restricted Access” from the game and replace it with the new Act 2a—“Unrestricted Access.”" />
+      </alternate>
+    </card>
+    <card id="47351ee0-db99-46a9-a218-268f96611760" name="Unrestricted Access" size="HorizCard">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The City of Archives" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If three of the following are true, you must advance:&#10;— An investigator &quot;found the process.&quot;&#10;— An investigator &quot;dissected an organ.&quot;&#10;— An investigator &quot;interviewed a subject.&quot;&#10;— An investigator &quot;realized what year it is.&quot;&#10;— An investigator &quot;activated the device.&quot;&#10;— An investigator controls The Custodian.&#10;— An investigator &quot;read about Earth.&quot;&#10;— An investigator &quot;saw a familiar specimen.&quot;" />
+      <alternate name="The Process" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to The City of Archives" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="You no longer have to perform any of the following tasks. However, the more you have performed by the time the scenario ends, the easier the transition to your human body will be, and the less likely the process is to fail or backfire. Be careful...&#10;Place this act in the victory display with this side faceup, as a reminder.&#10;— An investigator &quot;found the process.&quot;&#10;— An investigator &quot;dissected an organ.&quot;&#10;— An investigator &quot;interviewed a subject.&quot;&#10;— An investigator &quot;realized what year it is.&quot;&#10;— An investigator &quot;activated the device.&quot;&#10;— An investigator controls The Custodian.&#10;— An investigator &quot;read about Earth.&quot;&#10;— An investigator &quot;saw a familiar specimen.&quot;" />
+        <property name="Clues" value="–" />
+      </alternate>
+    </card>
+    <card id="14bfd636-f03f-4057-a784-c49f789f2698" name="Halls of Pnakotus" size="EncounterCard">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The City of Archives" />
+      <property name="Subtitle" value="Southern Corridors" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Pnakotus." />
+      <property name="Text" value="This location is connected to Halls of Pnakotus (Eastern Corridors) and Halls of Pnakotus (Western Corridors), and vice versa." />
+      <alternate name="Halls of Pnakotus" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The City of Archives" />
+        <property name="Subtitle" value="Southern Corridors" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ancient. Pnakotus." />
+        <property name="Text" value="This location is connected to Halls of Pnakotus (Eastern Corridors) and Halls of Pnakotus (Western Corridors), and vice versa.&#10;θ During your turn, choose and discard a card from your hand: Move to another copy of Halls of Pnakotus. (Limit once per turn.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1" />
+      </alternate>
+    </card>
+    <card id="c0aad81b-7c5e-49c0-b630-3a357959b073" name="Cyclopean Vaults" size="EncounterCard">
+      <property name="Card Number" value="56" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The City of Archives" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Pnakotus." />
+      <alternate name="Cyclopean Vaults" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The City of Archives" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ancient. Pnakotus." />
+        <property name="Text" value="η: Discard all of the cards in your hand.&#10;η If you have no cards in your hand: Remember that you “read about Earth.”&#10;η η If you have fewer than 5 cards in your hand: Draw cards until you have exactly 5 cards in your hand." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="83d14608-190a-45fe-8dca-a7b3bb0e9c2b" name="Alien Conservatory" size="EncounterCard">
+      <property name="Card Number" value="57" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The City of Archives" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Pnakotus." />
+      <alternate name="Alien Conservatory" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The City of Archives" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ancient. Pnakotus." />
+        <property name="Text" value="While you are in the Alien Conservatory, decrease your maximum hand size by 2.&#10;η: Test ά (1). If you succeed, test ί (2). If you succeed, test έ (3). If you succeed, remember that you “saw a familiar specimen.”" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b0a2d5ee-955e-4a62-b9dc-141cd2ddbcb3" name="Captive Subjects" size="EncounterCard">
+      <property name="Card Number" value="58" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to The City of Archives" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster." />
+      <property name="Text" value="Spawn – Alien Conservatory.&#10;Aloof. Retaliate.&#10;If an investigator has “read about Earth” or “saw a familiar specimen,” Captive Subjects loses aloof and gains hunter." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="4" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="0a8e6b32-5d1c-4ddf-9abf-031d84133235" name="Return to The Depths of Yoth" size="EncounterCard">
+      <property name="Card Number" value="59" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Depths of Yoth" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to The Depths of Yoth shown here.&#10;● After setup, search the collection for the new Harbinger of Valusia (The Sleeper Returns) and set it aside, out of play. If the Harbinger of Valusia would enter play during this scenario, use this version instead of the original one." />
+      <alternate name="Return to The Depths of Yoth" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Depths of Yoth" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="After building the exploration deck during setup, shuffle the Perils of Yoth treachery into the exploration deck.&#10;—————&#10;For the duration of this scenario, the following additional rule applies:&#10;“Forced – After a new exploration deck is created during act 1b: Search the encounter deck, discard pile, and all out-of-play areas for Perils of Yoth and shuffle it into the exploration deck. Shuffle the encounter deck if it was searched.”&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="910d50a7-da2c-41b3-8459-23e66bc90944" name="Perils of Yoth" size="EncounterCard">
+      <property name="Card Number" value="60" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Depths of Yoth" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Peril.&#10;Revelation – You must either (choose one):&#10;● Set Perils of Yoth aside, out of play. (This exploration fails.)&#10;● Set Perils of Yoth aside, out of play; take horror or damage equal to the current depth level; and continue exploring as if you had not drawn Perils of Yoth." />
+    </card>
+    <card id="901acd41-cec5-4092-822e-1ff35fbae014" name="Return to Shattered Aeons" size="EncounterCard">
+      <property name="Card Number" value="61" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Shattered Aeons" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to Shattered Aeons shown here.&#10;● When building the exploration deck, use only the 4 single-sided Otherworld locations. Do not include any of the other encounter cards listed in the original setup instructions." />
+      <alternate name="Return to Shattered Aeons" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Shattered Aeons" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="● Set the new Shattered locations aside, out of play.&#10;—————&#10;For the duration of this scenario, the following additional rule applies:&#10;“Forced – After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.”&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="a5c8b4b4-31a3-4ca5-93c9-5ed4063f6eb2" name="Great Hall of Celeano" size="EncounterCard">
+      <property name="Card Number" value="62" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Shattered Aeons" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <property name="Text" value="ι After you move to Great Hall of Celeano, place 1 doom on it: Look at the top card of the encounter deck, the exploration deck, or any player deck. You may discard that card." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="3" />
+    </card>
+    <card id="e196b16b-e09e-4b7a-b174-1ecdc13521c1" name="Buenos Aires" size="EncounterCard">
+      <property name="Card Number" value="63" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Shattered Aeons" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Shattered." />
+      <property name="Text" value="Buenos Aires gets –2 shroud for each doom on it.&#10;Forced – At the end of the mythos phase: Place 1 doom on Buenos Aires." />
+      <property name="Shroud" value="5" />
+      <property name="Clues" value="3" />
+    </card>
+    <card id="8e508717-7df8-44f5-8e38-cb78fe64534e" name="Ultima Thule" size="EncounterCard">
+      <property name="Card Number" value="64" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Shattered Aeons" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Shattered." />
+      <property name="Text" value="Forced – After Ultima Thule enters play: Search the chaos bag for the ε chaos token and seal it on Ultima Thule." />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="2" />
+    </card>
+    <card id="24ddae73-1f7a-4ea2-b7f5-f2a93931fefb" name="Unknowable Past" size="EncounterCard">
+      <property name="Card Number" value="65" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to Shattered Aeons" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Peril.&#10;Revelation – You must either (choose one):&#10;— Reveal 4 chaos tokens. For each α, β, γ, δ, or ζ symbol revealed, take 1 damage and 1 horror.&#10;— Choose and discard 1 card from your hand and shuffle Unknowable Past into the exploration deck. You cannot choose this option if Unknowable Past was drawn from the exploration deck." />
+    </card>
+    <card id="3a459f09-4010-40b3-92d1-94cbc200b70b" name="Return to Turn Back Time" size="EncounterCard">
+      <property name="Card Number" value="66" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Turn Back Time" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Forgotten Age Campaign Guide, with the following exceptions:&#10;● When gathering encounter sets, also gather the new encounter set for Return to The Doom of Eztli shown here.&#10;● Gather the 3 Pit Viper cards from the Serpents encounter set and set them aside, out of play.&#10;● Before setup, remove the original Burial Pit, Underground Ruins, and Secret Passage locations from the game.&#10;(Continued on reverse side.)" />
+      <alternate name="Return to Turn Back Time" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Turn Back Time" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="● Before setup, replace the original Entryway, Ancient Hall, Grand Chamber, and Chamber of Time locations with the new versions from this encounter set.&#10;● Before setup, replace the original Harbinger of Valusia enemy with the new Harbinger of Valusia (The Sleeper Returns).&#10;● When building the exploration deck, use only Sealed Passage, Mosaic Chamber, Tomb of the Ancients, Throne Room, Snake Pit, Ancient Hall, and Grand Chamber. Do not include any of the other encounter cards listed in the original setup instructions.&#10;—————&#10;For the duration of this scenario, the following additional rule applies:“Forced – After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.”&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="4cdb49bb-31ba-4767-89e5-689c9f6db133" name="Riverside Temple" size="EncounterCard">
+      <property name="Card Number" value="67" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to the Rainforest" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Jungle." />
+      <property name="Text" value="Forced – After any number of clues are discovered from Riverside Temple: Check your supplies. If no investigator at Riverside Temple has chalk, shuffle an equal number of cards from the top of the encounter deck into the exploration deck." />
+      <property name="Shroud" value="1" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="349742df-827a-4e18-9f0b-dd730e279ecb" name="Waterfall" size="EncounterCard">
+      <property name="Card Number" value="68" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to the Rainforest" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Jungle." />
+      <property name="Text" value="ι When you investigate Waterfall: Check your supplies. If an investigator at Waterfall has rope, reduce Waterfall’s shroud by 3 for this investigation.&#10;Forced – After you fail a skill test while investigating Waterfall: Discard 1 card at random from your hand." />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="1π" />
+    </card>
+    <card id="76498aac-ea82-4071-9d64-cebedeca1134" name="Trail of the Dead" size="EncounterCard">
+      <property name="Card Number" value="69" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to the Rainforest" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Jungle." />
+      <property name="Text" value="Forced – After you investigate or explore while at Trail of the Dead: Check your supplies. If no investigator at Trail of the Dead has binoculars, take 1 horror." />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="1c29d2f3-a5a8-4a37-997e-1d28dc399a33" name="Cloud Forest" size="EncounterCard">
+      <property name="Card Number" value="70" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to the Rainforest" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Jungle." />
+      <property name="Text" value="Forced – When an enemy at Cloud Forest would be dealt any amount of damage: Check your supplies. If no investigator at Cloud Forest has torches, cancel that damage." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="2π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="971c49fd-6c77-4181-bddb-5aaf46b41db8" name="Brotherhood Acolyte" size="EncounterCard">
+      <property name="Card Number" value="71" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Cult of Pnakotus" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Spawn – Location with the most Cultist enemies.&#10;Aloof.&#10;Forced – After Brotherhood Acolyte enters play: Place 1 doom on each other Cultist enemy at its location." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="1aaf8c4d-3a8c-4a6a-a5f2-5e10468dce5c" name="Stolen Mind" size="EncounterCard">
+      <property name="Card Number" value="72" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Cult of Pnakotus" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Spawn – Any empty location.&#10;Retaliate.&#10;Stolen Mind gets +1 fight for each doom on it.&#10;Forced – At the end of the mythos phase: Place 1 doom on Stolen Mind." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="15f9e2c3-531e-4854-a5c6-53919b6b679f" name="From Another Time" size="EncounterCard">
+      <property name="Card Number" value="73" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Cult of Pnakotus" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Test έ (4). Place X doom on Cultist enemies in play, divided as evenly as possible. X is the amount you failed by. If you fail and there are no Cultist enemies in play, instead search the encounter deck and discard pile for a Cultist enemy and draw it (shuffle the encounter deck)." />
+    </card>
+    <card id="30c52e7c-0f3d-4c61-9ad6-2fc9fd730f31" name="Resentful Wilds" size="EncounterCard">
+      <property name="Card Number" value="74" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Doomed Expedition" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Take 1 horror and attach Resentful Wilds to the nearest location without a copy of Resentful Wilds attached.&#10;Forced – After you successfully explore at attached location: Add Resentful Wilds to the victory display.&#10;Vengeance 1." />
+    </card>
+    <card id="64dd018a-0bbe-4580-81e9-800591730239" name="Best-Laid Plans" size="EncounterCard">
+      <property name="Card Number" value="75" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Doomed Expedition" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Blunder." />
+      <property name="Text" value="Peril.Revelation – You must either (choose one):&#10;— Lose 2 actions.&#10;— Shuffle the top card of the encounter deck into the exploration deck." />
+    </card>
+    <card id="0798fa71-7ce3-40e5-b3e4-cbbc84b80915" name="Merging Timelines" size="EncounterCard">
+      <property name="Card Number" value="76" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Temporal Hunters" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Discard the top 5 cards of your deck. For each card in your hand that matches one of the discarded cards (by title), discard that card from your hand and lose 1 action. Shuffle each weakness discarded by this effect into your deck." />
+    </card>
+    <card id="c2dd2e36-4356-4316-98d8-def2a0f90215" name="Tindalos Alpha" size="EncounterCard">
+      <property name="Card Number" value="77" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Temporal Hunters" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensional. Tindalos." />
+      <property name="Text" value="Alert. Retaliate.&#10;Forced – After Tindalos Alpha attacks you: Shuffle a non-story asset you control into your deck, moving all damage and horror from that asset to your investigator. Discard Tindalos Alpha.&#10;Forced – At the end of the enemy phase: Discard Tindalos Alpha." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="089ede13-5c29-4411-9b0a-8ce143c7d129" name="Vengeful Serpent" size="EncounterCard">
+      <property name="Card Number" value="78" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Venomous Hate" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Serpent." />
+      <property name="Text" value="Hunter.&#10;Forced – After you draw Vengeful Serpent: Draw each Vengeful Serpent in the victory display as well.&#10;Vengeance 0." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="64f6aef0-c65b-4246-aca5-da4dba2985b4" name="Serpent Guardian" size="EncounterCard">
+      <property name="Card Number" value="79" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Venomous Hate" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Construct. Serpent." />
+      <property name="Text" value="Spawn – Nearest location with at least 1 clue.&#10;Aloof.&#10;While Serpent Guardian is unengaged, its location gets +2 shroud.&#10;While there are 3 or more vengeance points in the victory display, Serpent Guardian loses aloof and gains hunter." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="a5685b4f-335a-4127-9b12-e1f5146212a3" name="Wrath of Yig" size="EncounterCard">
+      <property name="Card Number" value="80" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Venomous Hate" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – Test ά (2). This test gets +1 difficulty for each vengeance point in the victory display. If you fail, put a set-aside Poisoned weakness into play in your threat area (if you cannot, take 2 damage)." />
+    </card>
+  </cards>
+</set>

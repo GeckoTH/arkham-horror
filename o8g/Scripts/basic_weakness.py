@@ -57,6 +57,10 @@ class BasicWeakness:
             "76f173ef-2c26-4d7e-b55e-2d1a27a77793", # Reckless
             "21e8b71b-751c-461a-8514-e001d1ed5bda", # Nihilism
             "c1464011-1ebf-48b9-b1c1-291b8fc7b4cf", # Atychiphobia
+        ],
+        "return_to_the_forgotten_age": [
+            "d5591fb8-20d3-4a01-899e-147edb197e89", # Dendromorphosis
+            "8513832c-d3d7-4f95-a829-1ea3eab40ebe", # Offer You Cannot Refuse
         ]
     }
     PILE_NAME = 'Basic Weaknesses'

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="455b99f1-3666-443c-9e5e-378c3f4575ad">The Lonely Caverns</card>
+    <card qty="1" id="d3e1ec38-8054-4fce-9c7b-6c751a045608">Eyes in the Dark</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="5400f3d8-3f46-48a9-99f3-d139501745ea">Cavern of the Forgotten Age</card>
+    <card qty="1" id="049b3091-6d43-4f22-bc10-579fdc5f2ca6">Descent into Dark</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="c1bb241d-3c5b-43d6-bfa7-6b1ad371d45b">Pitfall</card>
+    <card qty="3" id="952e15c3-8d01-40bc-b990-1e6137c06952">Poisonous Spores</card>
+    <card qty="3" id="2a99b5b6-ff41-4885-9740-36682660760d">No Turning Back</card>
+    <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
+    <card qty="1" id="184cb383-35f8-4ecc-af00-33b427b1df7b">Serpent from Yoth</card>
+    <card qty="2" id="56778b1f-923b-4618-b4ff-445a972d1bfe">Curse of Yig</card>
+    <card qty="2" id="6d4b1487-e67b-44b9-97a3-0691039ef958">Ill Omen</card>
+    <card qty="2" id="c5645847-3aba-4c61-9afe-52367226f9c0">Ancestral Fear</card>
+    <card qty="3" id="13aff50c-dfa0-4058-a1f3-a3a79c191b74">Deep Dark</card>
+    <card qty="3" id="4a02ea48-d391-4a1f-af82-a66a31dccb73">Final Mistake</card>
+    <card qty="2" id="b7326daa-e159-43f2-bb23-af98316e4698">Entombed</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="3" id="089ede13-5c29-4411-9b0a-8ce143c7d129">Vengeful Serpent</card>
+    <card qty="1" id="64f6aef0-c65b-4246-aca5-da4dba2985b4">Serpent Guardian</card>
+    <card qty="1" id="a5685b4f-335a-4127-9b12-e1f5146212a3">Wrath of Yig</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="5e1d3be4-003b-40e0-a9b9-646dda980aa6">Vast Passages</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="0f666fd7-4793-4812-a921-c3b427d4d1f1">Crystal Pillars</card>
+    <card qty="1" id="dc233585-ff6b-4acd-8274-b37e62eb6d4f">Treacherous Descent</card>
+    <card qty="1" id="33b5d9ed-a1cd-49ad-bdc9-bb20aac1f55f">Dark Hollow</card>
+    <card qty="1" id="2b2a910b-fa55-493e-ad89-a1d5157efe76">Ruins of K’n-yan</card>
+    <card qty="1" id="af3c30e0-1bf1-48e5-be93-10bd663adc26">Hall of Idolatry</card>
+    <card qty="1" id="aa5b4fb3-f7cc-4e5a-9242-4ed8952cef57">Chthonian Depths</card>
+    <card qty="1" id="1d1a577e-ac74-4865-bcf9-a6942e3d30f5">Perilous Gulch</card>
+    <card qty="1" id="33a12c23-8414-45a5-b0a8-e1f8027684e3">Subterranean Swamp</card>
+    <card qty="1" id="1f682288-9581-47fb-b6a7-478d71d42bd5">Descent to Yoth</card>
+    <card qty="1" id="a17b44f2-5be1-4417-93cc-2630ab5aa270">Harbinger of Valusia</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="1a76e271-589d-4e28-8d0e-015c4c81ebbc">Heart of the Elders</card>
+    <card qty="1" id="e4dfe2cd-224c-4749-a966-132b8f084cce">Return to Heart of the Elders, Part 2</card>
+    <card qty="1" id="d2035cb9-d1e5-49ad-9453-2f337d0c38de">Mouth of K'n-yan</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
