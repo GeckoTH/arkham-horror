@@ -34,7 +34,6 @@
       <property name="Cost" value="2" />
       <property name="Willpower" value="1" />
       <property name="Intellect" value="1" />
-      <property name="Unique" value="ο" />
       <property name="Skill Icons" value="" />
     </card>
     <card id="d6a3eeb6-ef97-41a8-890c-0e7311aba9a8" name="The Necronomicon">
@@ -45,9 +44,11 @@
       <property name="Subtype" value="Weakness" />
       <property name="Traits" value="Item. Tome." />
       <property name="Text" value="Advanced.&#10;Revelation – Put this card into play in your threat area, with 3 horror on it. It cannot leave play while it has 1 or more horror on it. While it is in play, treat each ε you reveal on a chaos token as β, γ, and δ (resolve all three).&#10;η: Move 1 horror from this card to Daisy Walker. Then, if this card has no horror on it, discard it." />
+      <property name="Class" value="Neutral" />
       <property name="Cost" value="–" />
       <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="" />
+      <property name="Unique" value="ο" />
     </card>
     <card id="258c7dcd-3ec1-4fbf-b9f7-6cf2160561d0" name="Read or Die" size="EncounterCard">
       <property name="Card Number" value="4" />
