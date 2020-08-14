@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="All or Nothing" id="b5f6f275-7fe1-409a-8047-753f8193bd94" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="254a442e-3e33-4a9f-ace2-5e192442f221" name="&quot;Skids&quot; O'Toole" size="InvestigatorCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Ex-Con" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Criminal." />
+      <property name="Text" value="θ Spend up to 3 resources: Test a base skill value of 3 against a difficulty equal to the amount of resources just spent. If you succeed, gain twice the number of spent resources. Only ί and ΰ skill icons may be committed to this test. (Limit once per round.)&#10;ε effect: +1. Choose a level 2 or less card in our discard pile. Add the chosen card to your hand." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Rogue" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <alternate name="&quot;Skids&quot; O'Toole" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Librarian" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 25.&#10;Deckbulding Options: Rogue cards (ν) level 0-5, Fortune cards level 0-3, Gambit cards level 0-3, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): On the Lam, Hospital Debts, 1 random basic weakness.&#10;Additional Options: When you upgrade a Fortune or Gambit card, you may instead pay the full experience cost of the higher level version and leave the lower level version in your deck (it does not count towards your deck size or the number of copies of that card in your deck)." />
+        <property name="Class" value="Seeker" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="48c80748-4739-45e8-89bb-71baad4dcc98" name="On the Lam">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic." />
+      <property name="Text" value="&quot;Skids&quot; O'Toole deck only. Advanced.&#10;Fast. Play during any θ window.&#10;Until the end of the round, non-Elite enemies cannot attack you. At the end of the round, you may disengage from each engaged enemy and move up to 2 locations away." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6f283086-2830-4893-9b63-9277b4c16815" name="Hospital Debts" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Task." />
+      <property name="Text" value="Advanced.&#10;Revelation – Put this card into play in your threat area.&#10;θ: Move 1 resource from your resource pool to Hospital Debts. (Limit three times per round.)&#10;Forced – When the game ends, if Hospital Debts has fewer than 9 resources on it: You earn 2 fewer experience for this scenario." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="a2bbdb9b-1b0e-4711-a088-2941db7b1782" name="All or Nothing" size="EncounterCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="All or Nothing" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 for each clue you have.&#10;β: –2 (–4 instead if you have 10 or more resources).&#10;γ: –2. If you fail, lose 3 resources.&#10;δ: –3. If you fail, &quot;Skids&quot; O'Toole takes 1 horror." />
+      <alternate name="All or Nothing" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="All or Nothing" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –2 for each clue you have.&#10;β: –4 (–8 instead if you have 10 or more resources).&#10;γ: –3. Lose 3 resources.&#10;δ: –5. If you fail, &quot;Skids&quot; O'Toole takes 1 horror." />
+      </alternate>
+    </card>
+    <card id="201b23c2-a112-45f7-84cc-58a5e0ed69f8" name="Eyes All Around You" size="HorizCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="All or Nothing" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="η If you are in the Clover Club Cardroom, spend any number of &#10;clues: You cash in your chips. Gain 5 resources for each clue just &#10;spent.&#10;Forced – If &quot;Skids&quot; O'Toole is defeated: (–&gt; R2)" />
+      <property name="Doom" value="11" />
+      <alternate name="The Mob Always Wins" type="B" size="HorizCard">
+        <property name="Encounter Set" value="All or Nothing" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each investigator who has not resigned is defeated and suffers 1 physical trauma.&#10;If &quot;Skids&quot; O'Toole has resigned, proceed to (–&gt; R1). Otherwise, proceed to (–&gt; R2)" />
+      </alternate>
+    </card>
+    <card id="35cd2a16-2837-4a6d-98b3-bb9ab456cb86" name="Playing Cards" size="HorizCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="All or Nothing" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Investigators cannot resign.&#10;Clover Club Pit Boss gains aloof.&#10;Forced – After a Criminal enemy is defeated: Place 1 doom on the agenda.&#10;Objective – At the end of the round: If an investigator has 15 or more resources, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Feeling the Heat" type="B" size="HorizCard">
+        <property name="Encounter Set" value="All or Nothing" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Spawn the set-aside Siobhan Riley enemy in La Bella Luna. Each investigator spawns 1 set-aside Clover Club Bouncer enemy engaged with them." />
+      </alternate>
+    </card>
+    <card id="c3f274df-bc96-40f5-aea7-c500ea46a567" name="Hot on Your Tail" size="HorizCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="All or Nothing" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each Criminal enemy gains hunter and gets +1 health.&#10;Forced – When an investigator resigns: Place each of that investigator's resources on this act.&#10;Objective – Collect as many resources as you can and get out.&#10;When each undefeated investigator has resigned, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="The Thrill of Victory" type="B" size="HorizCard">
+        <property name="Encounter Set" value="All or Nothing" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(–&gt; R1)" />
+      </alternate>
+    </card>
+    <card id="e2a2dd7d-29ac-42be-90c6-84bcff5e55a4" name="Siobhan Riley" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="All or Nothing" />
+      <property name="Subtitle" value="O'Bannion Enforcer" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Criminal. Elite." />
+      <property name="Text" value="Forced – After Siobhan Riley engages you: For every 5 resources you have, lose 1 resource.&#10;Forced – After an investigator at Siobhan Riley's location gains 1 or more resources during the investigation phase: Siobhan Riley readies, engages that investigator, and makes an attack." />
+      <property name="Health" value="6" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="60f80573-4f69-4ada-a4b0-9a04f38290af" name="Clover Club Bouncer" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="All or Nothing" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Criminal." />
+      <property name="Text" value="While Clover Club Bouncer is engaged with you, it gets +1 fight and +1 evade for every 5 resources you have.&#10;η Spend 3 resources: Parley. Test έ (2). If you succeed, disengage from Clover Club Bouncer and exhaust it. It does not ready during the next upkeep phase." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="2" />
+      <property name="Victory Points" value="0" />
+    </card>
+  </cards>
+</set>

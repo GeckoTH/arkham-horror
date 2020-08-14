@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="201b23c2-a112-45f7-84cc-58a5e0ed69f8">Eyes All Around You</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="35cd2a16-2837-4a6d-98b3-bb9ab456cb86">Playing Cards</card>
+    <card qty="1" id="c3f274df-bc96-40f5-aea7-c500ea46a567">Hot on Your Tail</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="9f8bba21-d2b3-4b5a-8a98-22ee78d592d2">Something in the Drinks</card>
+    <card qty="2" id="01b32aa7-2a0d-4041-b562-3fb47b2ce697">Arousing Suspicions</card>
+    <card qty="3" id="ada6d61b-5f6f-4c36-ad24-d454e835bbf4">Cursed Luck</card>
+    <card qty="3" id="fafc853e-e498-4829-bb4f-6d5622b9f6bf">Twist of Fate</card>
+    <card qty="2" id="4ae24039-09f8-40d4-bb5c-f0ed1ac302c0">O'Bannion's Thug</card>
+    <card qty="2" id="8a82e394-d5fa-43cd-8047-fd3610918a72">Mobster</card>
+    <card qty="2" id="cc7e7896-37a6-471c-9c2c-86a21acce22b">Hunted Down</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="d28e263f-2712-4ba3-916c-9c02e4073b40">Back Hall Doorway</card>
+    <card qty="1" id="a43dcccb-fb2b-4051-bd2c-cbd26dcbbd81">Back Hall Doorway</card>
+    <card qty="1" id="4916cef3-9842-42a0-bcc8-d39fb08f3032">Back Hall Doorway</card>
+    <card qty="4" id="60f80573-4f69-4ada-a4b0-9a04f38290af">Clover Club Bouncer</card>
+    <card qty="1" id="e2a2dd7d-29ac-42be-90c6-84bcff5e55a4">Siobhan Riley</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="a2bbdb9b-1b0e-4711-a088-2941db7b1782">All or Nothing</card>
+    <card qty="1" id="f354c097-9674-43e9-8a77-2ccd5f51eb09">La Bella Luna</card>
+    <card qty="1" id="6b14f253-95a4-4dbe-819d-afb8bdba7fbf">Clover Club Lounge</card>
+    <card qty="1" id="9c147569-3b78-487f-a2e1-c7fc27fc5c5a">Clover Club Bar</card>
+    <card qty="1" id="a05ba6f5-01c3-4915-9591-54ee19d8071e">Clover Club Cardroom</card>
+    <card qty="1" id="92e00d83-0337-4b11-a54a-234d4ab391df">Darkened Hall</card>
+    <card qty="1" id="fff0c40c-d0b4-4042-a64b-8a7f45b1eae4">Clover Club Pit Boss</card>
+    <card qty="1" id="7ab63941-b149-4aaf-98de-704e97b07070">Clover Club Lounge</card>
+    <card qty="1" id="15d3b5bb-8c2d-426d-8ec3-9c5028ff66cc">Clover Club Stage</card>
+    <card qty="2" id="80800d2d-2133-4e98-be92-52ef45bf8153">Caught Cheating</card>
+    <card qty="2" id="ab0dd597-1d80-4db9-a9cc-9bbb5cf54983">Raise the Stakes</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
