@@ -171,7 +171,7 @@
       <property name="Traits" value="Pact." />
       <property name="Text" value="Campaign Mode only.&#10;When you become the bearer of this weakness, gain 2 experience.&#10;Revelation – Lose 5 resources. If you cannot, instead remove Offer You Cannot Refuse from your deck, search the collection for Fine Print, and place it in your discard pile." />
     </card>
-    <card id="148aaee3-3ba8-4af4-8e1c-eb49a11228e3" name="Fine Print" size="EncounterCard">
+    <card id="148aaee3-3ba8-4af4-8e1c-eb49a11228e3" name="Fine Print">
       <property name="Card Number" value="14" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -179,7 +179,7 @@
       <property name="Traits" value="Pact." />
       <property name="Text" value="Revelation – Lose 7 resources. If you cannot, instead remove Fine Print from your deck, search the collection for Sell Your Soul, and place it in your discard pile." />
     </card>
-    <card id="c6b1b151-1d27-4ecc-9b32-50b8410bd229" name="Sell Your Soul" size="EncounterCard">
+    <card id="c6b1b151-1d27-4ecc-9b32-50b8410bd229" name="Sell Your Soul">
       <property name="Card Number" value="15" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -346,7 +346,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – Only investigators in Rivertown can spend the requisite number of clues, as a group, to advance." />
       <property name="Clues" value="1π" />
-      <alternate name="The Hastings Estate" type="B" size="HorizCard">
+      <alternate name="The Hastings Estate" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Arkham." />
@@ -364,7 +364,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – Only investigators in Northside can spend the requisite number of clues, as a group, to advance." />
       <property name="Clues" value="1π" />
-      <alternate name="Merle Garvin" type="B" size="HorizCard">
+      <alternate name="Merle Garvin" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Subtitle" value="Unhelpful Guide" />
         <property name="Type" value="Asset" />
@@ -399,7 +399,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – Only investigators at The Hastings Estate can spend the requisite number of clues, as a group, to advance." />
       <property name="Clues" value="2π" />
-      <alternate name="Clinton Freeman" type="B" size="HorizCard">
+      <alternate name="Clinton Freeman" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Type" value="Asset" />
         <property name="Traits" value="Bystander. Wayfarer." />
@@ -432,7 +432,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – If there are 1π clues on Merle Garvin: You must remove them and immediately advance." />
       <property name="Clues" value="–" />
-      <alternate name="Loading Docks" type="B" size="HorizCard">
+      <alternate name="Loading Docks" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Arkham." />
@@ -611,7 +611,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance." />
       <property name="Clues" value="2π" />
-      <alternate name="The Winged Serpent" type="B" size="HorizCard">
+      <alternate name="The Winged Serpent" type="B">
         <property name="Encounter Set" value="Return to Pillars of Judgment" />
         <property name="Subtitle" value="The Fury of Yig" />
         <property name="Type" value="Enemy" />

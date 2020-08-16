@@ -2,8 +2,8 @@
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False">
     <card qty="1" id="7bf4c9c4-a269-4587-8dd4-ce7927e592fb">Winifred Habbamock</card>
+    <card qty="1" id="e57f3e08-3746-4511-b9d7-654a7e17a0d8">Winifred Habbamock</card>
   </section>
-  <section name="Special" shared="False" />
   <section name="Asset" shared="False">
     <card qty="2" id="76c6d453-123f-4b0b-8d63-72950a3d3924">Lockpicks</card>
     <card qty="2" id="c5908381-ab82-4bf3-82f4-2b0442a52509">Mauser C96</card>
@@ -30,6 +30,7 @@
     <card qty="1" id="3a2eefbd-d053-43ef-8b9d-879d928febb6">Arrogance</card>
     <card qty="1" id="76f173ef-2c26-4d7e-b55e-2d1a27a77793">Reckless</card>
   </section>
+  <section name="Special" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True" />

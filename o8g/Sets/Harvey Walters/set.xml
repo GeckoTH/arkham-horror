@@ -36,7 +36,7 @@
       <property name="Agility" value="1" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="5c25438a-e33b-4cde-8902-c01dc6903a58" name="Thrice-Damned Curiosity" size="EncounterCard">
+    <card id="5c25438a-e33b-4cde-8902-c01dc6903a58" name="Thrice-Damned Curiosity">
       <property name="Card Number" value="3" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -441,6 +441,16 @@
       <property name="Intellect" value="5" />
       <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="" />
+    </card>
+	<card id="3831e65d-b3a5-43d7-a169-f66b00150cab" name="Harvey Walters" size="MiniCard">
+      <property name="Card Number" value="999"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Seeker"/>
+	  <alternate name="Harvey Walters" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Seeker"/>
+      </alternate>
     </card>
   </cards>
 </set>

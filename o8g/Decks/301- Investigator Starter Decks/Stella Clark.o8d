@@ -2,8 +2,8 @@
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False">
     <card qty="1" id="836d17a2-7389-4c62-8231-b3421836fe9b">Stella Clark</card>
+    <card qty="1" id="4fea8050-9864-4c31-8d35-aceabbff1f8d">Stella Clark</card>
   </section>
-  <section name="Special" shared="False" />
   <section name="Asset" shared="False">
     <card qty="2" id="647c16f4-2f90-4e4a-adb2-3735007db376">.18 Derringer</card>
     <card qty="2" id="b293f961-11c2-4ae9-8bc6-0b5763e6b87f">Grimm's Fairy Tales</card>
@@ -30,6 +30,7 @@
     <card qty="1" id="2f4dd9c4-95fb-4265-ab02-63ab05de87a4">Called by the Mists</card>
     <card qty="1" id="c1464011-1ebf-48b9-b1c1-291b8fc7b4cf">Atychiphobia</card>
   </section>
+  <section name="Special" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True" />

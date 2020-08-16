@@ -33,7 +33,7 @@
       <property name="Class" value="Survivor" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="2f4dd9c4-95fb-4265-ab02-63ab05de87a4" name="Called by the Mists" size="EncounterCard">
+    <card id="2f4dd9c4-95fb-4265-ab02-63ab05de87a4" name="Called by the Mists">
       <property name="Card Number" value="3" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -393,6 +393,16 @@
       <property name="Text" value="Permanent.&#10;In between two scenarios of a campaign, reduce the experience cost to repurchase up to 3 cards that you exiled during the last scenario by 1 each." />
       <property name="Class" value="Survivor" />
       <property name="Skill Icons" value="" />
+    </card>
+	<card id="4fea8050-9864-4c31-8d35-aceabbff1f8d" name="Stella Clark" size="MiniCard">
+      <property name="Card Number" value="999"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Survivor"/>
+	  <alternate name="Stella Clark" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Survivor"/>
+      </alternate>
     </card>
   </cards>
 </set>
