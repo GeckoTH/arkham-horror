@@ -411,5 +411,15 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="" />
     </card>
+	<card id="e57f3e08-3746-4511-b9d7-654a7e17a0d8" name="Winifred Habbamock" size="MiniCard">
+      <property name="Card Number" value="999"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Rogue"/>
+	  <alternate name="Winifred Habbamock" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Rogue"/>
+      </alternate>
+    </card>
   </cards>
 </set>

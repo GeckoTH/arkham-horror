@@ -41,7 +41,7 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="7e582c0e-d2fb-45a3-9b23-acb55799f67c" name="Tommy Malloy" size="EncounterCard">
+    <card id="7e582c0e-d2fb-45a3-9b23-acb55799f67c" name="Tommy Malloy">
       <property name="Card Number" value="3" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Enemy" />
@@ -426,6 +426,16 @@
       <property name="Cost" value="2" />
       <property name="Combat" value="4" />
       <property name="Skill Icons" value="" />
+    </card>
+	<card id="1effbc6c-40da-413a-bcb2-3d0df7238b88" name="Nathaniel Cho" size="MiniCard">
+      <property name="Card Number" value="999"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Guardian"/>
+	  <alternate name="Nathaniel Cho" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Guardian"/>
+      </alternate>
     </card>
   </cards>
 </set>

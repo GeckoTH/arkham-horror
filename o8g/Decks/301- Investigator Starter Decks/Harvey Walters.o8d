@@ -2,8 +2,8 @@
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False">
     <card qty="1" id="98bdd22f-d65e-480e-b01a-3017fea6775e">Harvey Walters</card>
+    <card qty="1" id="3831e65d-b3a5-43d7-a169-f66b00150cab">Harvey Walters</card>
   </section>
-  <section name="Special" shared="False" />
   <section name="Asset" shared="False">
     <card qty="1" id="9e6abd13-fdd3-4d34-ba5a-a743ba798785">Vault of Knowledge</card>
     <card qty="2" id="8ea48ed7-4f5a-4af5-99d9-cccc6fbd1aa4">Arcane Enlightenment</card>
@@ -30,6 +30,7 @@
     <card qty="1" id="5c25438a-e33b-4cde-8902-c01dc6903a58">Thrice-Damned Curiosity</card>
     <card qty="1" id="ab48b372-c8d2-4c3e-b97d-5bdd42e78b27">Obsessive</card>
   </section>
+  <section name="Special" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True" />

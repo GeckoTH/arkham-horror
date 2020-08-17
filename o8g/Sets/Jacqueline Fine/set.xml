@@ -36,7 +36,7 @@
       <property name="Agility" value="1" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="4b247941-3ade-4cc0-83c3-7d3791696a00" name="Dark Future" size="EncounterCard">
+    <card id="4b247941-3ade-4cc0-83c3-7d3791696a00" name="Dark Future">
       <property name="Card Number" value="3" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -420,6 +420,16 @@
       <property name="Agility" value="2" />
       <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="" />
+    </card>
+	<card id="88beaa32-c400-4527-ba28-971574cba718" name="Jacqueline Fine" size="MiniCard">
+      <property name="Card Number" value="999"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Mystic"/>
+	  <alternate name="Jacqueline Fine" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Mystic"/>
+      </alternate>
     </card>
   </cards>
 </set>

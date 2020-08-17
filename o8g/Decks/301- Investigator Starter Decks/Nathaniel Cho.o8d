@@ -2,6 +2,7 @@
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
   <section name="Investigator" shared="False">
     <card qty="1" id="7355d9be-267d-40cb-bb97-270001207e82">Nathaniel Cho</card>
+    <card qty="1" id="1effbc6c-40da-413a-bcb2-3d0df7238b88">Nathaniel Cho</card>
   </section>
   <section name="Asset" shared="False">
     <card qty="1" id="846ebfab-5320-4299-8de6-e9dcdd9ea3aa">Randall Cho</card>
@@ -16,7 +17,6 @@
     <card qty="1" id="7e582c0e-d2fb-45a3-9b23-acb55799f67c">Tommy Malloy</card>
     <card qty="1" id="2f20aca0-a61a-4623-9d6d-4825fe73aa26">Self-Destructive</card>
   </section>
-  <section name="Special" shared="False" />
   <section name="Event" shared="False">
     <card qty="2" id="68703d00-d427-4e0e-8f8b-2a6001152e62">Clean Them Out</card>
     <card qty="2" id="50145a10-bb9d-4773-9d73-7925cb839a86">Counterpunch</card>
@@ -30,6 +30,7 @@
   <section name="Skill" shared="False">
     <card qty="2" id="4d99eba4-16bb-425a-8928-907119583f18">Vicious Blow</card>
   </section>
+  <section name="Special" shared="False" />
   <section name="Sideboard" shared="False" />
   <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True" />
