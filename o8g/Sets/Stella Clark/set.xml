@@ -56,7 +56,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
-      <property name="Text" value="Uses (2 ammo).&#10;[Action[ Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer." />
+      <property name="Text" value="Uses (2 ammo).&#10;[Action] Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
