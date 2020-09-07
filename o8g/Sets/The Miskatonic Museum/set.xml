@@ -6,6 +6,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Skill Icons" value="ίέ"/>
     <property name="Traits" value="Insight. Science."/>
@@ -31,6 +32,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="3"/>
     <property name="Skill Icons" value="έή"/>
     <property name="Traits" value="Insight. Tactic."/>
@@ -52,6 +54,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="4"/>
     <property name="Skill Icons" value="έά"/>
     <property name="Traits" value="Supply. Illicit."/>
@@ -73,6 +76,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
     <property name="Victory Points" value="1"/>
     <property name="Traits" value="Insight."/>
@@ -95,6 +99,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Skill Icons" value="ήή"/>
     <property name="Traits" value="Fortune."/>

@@ -6,6 +6,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Guardian"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Health" value="1"/>
     <property name="Sanity" value="-"/>
@@ -30,6 +31,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Seeker"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="2"/>
     <property name="Health" value="1"/>
     <property name="Sanity" value="2"/>
@@ -53,6 +55,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Rogue"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="0"/>
     <property name="Skill Icons" value="ίί"/>
     <property name="Traits" value="Trick. Spirit."/>
@@ -75,6 +78,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Mystic"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="3"/>
     <property name="Skill Icons" value="ίή"/>
     <property name="Slot" value="Arcane"/>
@@ -98,6 +102,7 @@
     <property name="Quantity" value="2"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Survivor"/>
+    <property name="Level" value="0"/>
     <property name="Cost" value="1"/>
     <property name="Skill Icons" value="έ"/>
     <property name="Slot" value="Hand"/>
