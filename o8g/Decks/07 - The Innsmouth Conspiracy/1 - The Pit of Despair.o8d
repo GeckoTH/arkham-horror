@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="d1fbe03b-a161-4e78-9fe9-c3f478a82a5a">Awakening</card>
+    <card qty="1" id="bdc9b1f4-7c96-4feb-b183-2cf87876e4ed">The Water Rises</card>
+    <card qty="1" id="62e7b3cb-c49b-41a8-b510-52b1e90f838a">Sacrifice for the Deep</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="30165cdc-f43e-425a-914e-761b18375dbe">The Pit</card>
+    <card qty="1" id="2578773c-8407-4258-9963-810e93fe7f3b">The Escape</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="8cb9eeaa-d308-4e42-a7e3-8aa2fd918a63">Deep One Bull</card>
+    <card qty="3" id="391bd985-3a45-4cfd-9352-5f9de4b2de57">Lurking Deep One</card>
+    <card qty="2" id="bc9313d6-9726-4a75-a980-28b389c46124">Undertow</card>
+    <card qty="2" id="d304fcd1-2352-4431-8a7b-0fa23124ac2a">Rising Tides</card>
+    <card qty="2" id="7d7aaf41-b118-409a-aaef-810e7339c2d5">Riptide</card>
+    <card qty="2" id="88c75882-60c7-471e-9662-40ff8b69377a">Macabre Memento</card>
+    <card qty="2" id="0a0fe2b2-14dc-4817-9db8-0cfa27a9e1e2">Fractured Consciousness</card>
+    <card qty="2" id="ae97a872-d519-4038-b23f-907bf712047e">Memory of Oblivion</card>
+    <card qty="2" id="93ab8531-db48-4ee6-b818-4da27752d578">Young Deep One</card>
+    <card qty="2" id="395200b6-5e2f-4217-9cb2-005590d81407">Dreams of R'lyeh</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="d30bd3a0-c398-46cc-b1b0-23173b94d0e1">Tidal Tunnel</card>
+    <card qty="1" id="0fe88677-ceef-4c0c-9754-2d264c3c0c94">Tidal Tunnel</card>
+    <card qty="2" id="cea09c79-187f-47ed-8025-78149add2a67">Tidal Tunnel</card>
+    <card qty="2" id="cc48648c-9863-4a54-a5e1-de417d343fe1">Tidal Tunnel</card>
+    <card qty="2" id="ec41c5f3-740c-457c-83aa-acf6a8106621">Tidal Tunnel</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="886dfb3e-a983-4434-8ca1-3ce038ac0685">Unidentified Key</card>
+    <card qty="1" id="7be6a43f-c466-493d-b8ee-52bd2127b6a3">Unidentified Key</card>
+    <card qty="1" id="810ae644-a5c2-4a89-bd56-c649377c767b">Unidentified Key</card>
+    <card qty="1" id="fc958f71-9bb4-4c4d-bc59-9351f43745c4">Tidal Tunnel</card>
+    <card qty="1" id="ebaef541-8b0a-4394-9eb3-348b6b1d88e4">Tidal Tunnel</card>
+    <card qty="1" id="6f7c9843-68b5-4754-9feb-b3f888ca8330">Tidal Tunnel</card>
+    <card qty="1" id="3ad2a2ef-b540-48db-9bb8-491865898691">The Amalgam</card>
+    <card qty="2" id="b63ea51c-24cf-4b3b-930f-ffb5fc265be7">Blindsense</card>
+    <card qty="3" id="1ea5cc28-8cdb-4511-9764-686b40d6e320">From the Depths</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="6c513e5f-385f-47e8-bfbe-9f5396519751">The Pit of Despair</card>
+    <card qty="1" id="cbfef32f-9e2e-43c1-8e6e-1e74c17ff929">Unfamiliar Chamber</card>
+    <card qty="1" id="d0dc772e-3d01-41c6-b836-25513b1a150e">Unidentified Key</card>
+    <card qty="1" id="b3839fb3-d093-46ab-87ef-20e8c9a7a69f">Unidentified Key</card>
+    <card qty="1" id="ebaef541-8b0a-4394-9eb3-348b6b1d88e4">Tidal Tunnel</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

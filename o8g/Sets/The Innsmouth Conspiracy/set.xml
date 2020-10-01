@@ -1,0 +1,1489 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Innsmouth Conspiracy" id="4d735216-35dd-4e59-912d-02111c87ac4b" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="5e4cded1-b7ce-45dd-8c23-aa4e6e49c0c1" name="Sister Mary" size="InvestigatorCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Nun" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Believer. Blessed." />
+      <property name="Text" value="During setup, add 2 [Bless] tokens to the chaos bag.&#10;ι When the round ends: Add 1 [Bless] token to the chaos bag.&#10;ε effect: +1. If you succeed, add 1 [Bless] token to the chaos bag." />
+      <property name="Health" value="5" />
+      <property name="Sanity" value="9" />
+      <property name="Class" value="Guardian" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Sister Mary" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Nun" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Guardian cards (κ) level 0-5, Neutral cards level 0-5, Mystic cards (μ) level 0-2.&#10;Deckbuilding Requirements (do not count towards deck size): Guardian Angel, Crisis of Faith, 1 random basic weakness." />
+        <property name="Class" value="Guardian" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="2683e442-0f2f-415b-aa47-72837f65eda5" name="Amanda Sharpe" size="InvestigatorCard">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Student" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Miskatonic. Scholar." />
+      <property name="Text" value="Forced – At the start of the investigation phase: Draw 1 card. Discard the card beneath Amanda Sharpe. Choose a card from your hand and place it beneath her.&#10;ι At the start of a skill test you are performing: Commit the card beneath Amanda Sharpe, if able. Do not discard it when the test ends.&#10;ε effect: +0. For this test, you may double the number of skill icons on the card beneath Amanda Sharpe." />
+      <property name="Health" value="7" />
+      <property name="Sanity" value="7" />
+      <property name="Class" value="Seeker" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <alternate name="Amanda Sharpe" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Student" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Seeker cards (λ) level 0-5, Neutral cards level 0-5, Practiced skills level 0-3.&#10;Deckbuilding Requirements (do not count towards deck size): Occult Studies, Whispers from the Deep, 1 random basic weakness." />
+        <property name="Class" value="Seeker" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="6c5337f6-ca5d-4120-846b-7f5770c50adc" name="Trish Scarborough" size="InvestigatorCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Spy" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Agency. Detective." />
+      <property name="Text" value="ι After you discover 1 or more clues at a location with an enemy: Either discover 1 additional clue at that location, or automatically evade that enemy. (Limit once per round.)&#10;ε effect: +2. If this is an investigation, you may choose any revealed location; you are now investigating as if you were at that location instead." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Rogue" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <alternate name="Trish Scarborough" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Spy" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Rogue cards (ν) level 0-5, Neutral cards level 0-5, Seeker cards (λ) level 0-2.&#10;Deckbuilding Requirements (do not count towards deck size): In the Shadows, Shadow Agents, 1 random basic weakness." />
+        <property name="Class" value="Rogue" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="cf7500c7-27d4-4dbd-8c26-dd3869436409" name="Dexter Drake" size="InvestigatorCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Magician" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Sorcerer. Veteran." />
+      <property name="Text" value="θ During your turn, discard an asset you control: Play an asset with a different title from your hand, reducing its cost by 1. (Limit once per round.)&#10;ε effect: +2. You may return an asset from your play area to your hand. Then, draw 1 card." />
+      <property name="Health" value="6" />
+      <property name="Sanity" value="8" />
+      <property name="Class" value="Mystic" />
+      <property name="Willpower" value="5" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <alternate name="Dexter Drake" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Magician" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Rogue cards (ν) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count towards deck size): Showmanship, Occult Scraps, 1 random basic weakness." />
+        <property name="Class" value="Mystic" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="a9aa7920-5f38-47bf-98f9-ed5b843a3040" name="Silas Marsh" size="InvestigatorCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Sailor" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Drifter." />
+      <property name="Text" value="ι After you reveal a chaos token during a skill test you are performing: Return a skill you committed to this test to your hand. (Limit once per turn.)&#10;ε effect: +0. You may commit a skill from your discard pile to this test. After this test ends, return that skill to your hand instead of discarding it." />
+      <property name="Health" value="9" />
+      <property name="Sanity" value="5" />
+      <property name="Class" value="Survivor" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <alternate name="Silas Marsh" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Sailor" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Survivor cards (ξ) level 0-5, Neutral cards level 0-5, Innate skills level 0-2.&#10;Deckbuilding Requirements (do not count towards deck size): Sea Change Harpoon, Silas’s Net, Siren Call, 1 random basic weakness." />
+        <property name="Class" value="Survivor" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="f7662786-e2df-48e9-b4da-f28b17f0b1c9" name="Guardian Angel">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Blessed." />
+      <property name="Text" value="Sister Mary deck only.&#10;Guardian Angel may be assigned damage dealt to other investigators at your location.&#10;ι When any amount of damage is assigned to Guardian Angel: Add that many [Bless] tokens to the chaos bag." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7120af41-c122-4cbc-bb13-7436aabf4b53" name="Crisis of Faith">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Madness." />
+      <property name="Text" value="Revelation – For each [Bless] token in the chaos bag, you must either replace it with a [Curse] token or take 1 horror." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="ada62105-c085-4d16-a9f4-33806b15a29d" name="Obscure Studies">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Amanda Sharpe deck only.&#10;Fast. Play when you initiate a skill test.&#10;Return the card beneath Amanda Sharpe to your hand and place Obscure Studies beneath her." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1ada5bc4-2ba3-4b09-9000-d171b3eb439d" name="Whispers from the Deep">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Skill" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="This skill’s icons subtract from your skill value instead of adding to it.&#10;Forced – When choosing a card to place beneath Amanda Sharpe, if Whispers from the Deep is in your hand: You must choose it." />
+      <property name="Class" value="Neutral" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1272df91-0770-4710-88c3-819ea44cb07b" name="In the Shadows">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic." />
+      <property name="Text" value="Trish Scarborough deck only.&#10;Fast. Play after your turn begins.&#10;Disengage from each enemy engaged with you. Until the end of the round, enemies cannot engage you and you cannot deal damage to enemies." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="0" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4c50363c-cbef-491b-a7a8-fd0f7e1a036e" name="Shadow Agents">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Enemy" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Prey – Trish Scarborough only.&#10;Hunter.&#10;While Shadow Agents is engaged with you, you cannot discover clues except by investigating.&#10;Forced – After Shadow Agents is evaded: Discard it." />
+      <property name="Health" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="5" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="d20b770f-797e-4a38-a9f9-bd8a78c4417d" name="Showmanship">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Dexter Drake deck only.&#10;ι After an asset enters play under your control: Until the end of the round, you get +2 to each of your skills while resolving a triggered ability on that asset." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fafd8e46-84b0-4c66-ab33-8cce2ed27199" name="Occult Scraps">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Item." />
+      <property name="Text" value="Occult Scraps cannot be played using a play action.&#10;While Occult Scraps is in your hand, you get –2 ά.&#10;While Occult Scraps is in play, you get –1 ά." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="23c9be8e-e658-475a-aea3-7476b1b1f6f1" name="Sea Change Harpoon">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Melee." />
+      <property name="Text" value="Silas Marsh deck only.&#10;η: Fight. You get +1 ή for this attack. If you committed 1 or more skills to this skill test, this attack deals +1 damage. When this skill test ends, you may return Sea Change Harpoon to your hand to return all of your committed skills to your hand instead of discarding them." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="790835aa-d58d-4f9d-9fdc-0e3cddb690a6" name="Silas’s Net">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool." />
+      <property name="Text" value="Silas Marsh deck only.&#10;η: Evade. You get +1 ί for this evasion attempt. If you succeed and you committed 1 or more skills to this skill test, you may automatically evade another enemy engaged with you. When this skill test ends, you may return Silas’s Net to your hand to return all of your committed skills to your hand instead of discarding them." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5896de0c-8901-4c5f-8cd4-6601383d34c7" name="Siren Call">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Put Siren Call into play in your threat area.&#10;As an additional cost to commit 1 or more cards to a skill test, you must pay 1 resource for each matching skill icon those cards have.&#10;η η: Discard Siren Call." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="1768b8dd-d017-404b-afe2-2e4f20030c25" name="Book of Psalms">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Blessed." />
+      <property name="Text" value="Uses (4 secrets).&#10;η Exhaust Book of Psalms and spend 1 secret: Heal 1 horror from an investigator at your location. Add 2 [Bless] tokens to the chaos bag." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fe42d193-b403-4b77-a04e-537f672c600a" name="Blessed Blade">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Melee. Blessed." />
+      <property name="Text" value="η If Blessed Blade is ready: Fight. You get +1 ή for this attack. If a [Bless] or ε token is revealed during this attack, this attack deals +1 damage. Before revealing chaos token(s) for this attack, you may exhaust Blessed Blade to add 1 [Bless] token to the chaos bag." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b7909cac-e5b2-4ebf-a59e-d5defc8feb76" name="Rite of Sanctification">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Blessed." />
+      <property name="Text" value="Seal (up top 5 [Bless]). If Rite of Sanctification has no tokens sealed on it, discard it.&#10;ι When an investigator at your location plays a card, exhaust Rite of Sanctification and release a chaos token sealed here: Reduce the cost of that card by 2." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4fb99423-f20a-44b3-9f06-da8f1b4cf66d" name="Hand of Fate">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Blessed." />
+      <property name="Text" value="Fast. Play when an enemy attacks an investigator at your location.&#10;Cancel that attack. Then, add [Bless] tokens to the chaos bag equal to the attacking enemy’s total combined damage and horror values." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0ac535ad-c2de-4cb0-bfdf-fd2f986e83a0" name="Cryptographic Cipher">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool." />
+      <property name="Text" value="Uses (3 secrets).&#10;θ Exhaust Cryptographic Cipher and spend 1 secret: Investigate. Your location gets +1 shroud for this investigation.&#10;η Exhaust Cryptographic Cipher and spend 1 secret: Investigate. Your location gets –2 shroud for this investigation." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6f2746d3-b81c-4759-b5ad-35dd7665c1d1" name="Cryptic Grimoire">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Untranslated" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Occult." />
+      <property name="Text" value="η: Add 1 [Curse] token to the chaos bag.&#10;η If there are 10 [Curse] tokens in the chaos bag, discard Cryptic Grimoire: Record in your Campaign Log that “you have translated the grimoire.” Replace 5 [Curse] tokens in the chaos bag with 5 [Bless] tokens." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="73ff9872-a6b9-4324-a47d-d68b6f236580" name="Deep Knowledge">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Cursed." />
+      <property name="Text" value="As an additional cost to play Deep Knowledge, add 2 [Curse] tokens to the chaos bag.&#10;Investigators at your location draw a combined total of 3 cards (you decide how many cards each investigator draws)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="77413b6a-220e-49c0-8462-e7dcfb844a08" name="Plan of Action">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced." />
+      <property name="Text" value="If this skill test is during or before the first action of this turn, Plan of Action gains ά ί.&#10;If this skill test is between the first and third actions of this turn, draw 1 card if it succeeds.&#10;If this skill test is during or after the third action of this turn, Plan of Action gains ή έ." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d6a3fe98-2ff6-4327-aa05-0fb0b2dafdcb" name=".25 Automatic">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Fast. Uses (4 ammo).&#10;η Spend 1 ammo: Fight. If the attacked enemy is exhausted, you get +2 ή and deal +1 damage for this attack." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5897a5ff-f7a9-467b-8edd-083b7bad940a" name="Dark Ritual">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Cursed." />
+      <property name="Text" value="Seal (up to 5 [Curse]).&#10;Forced – At the end of the mythos phase: You must either spend 1 resource or discard Dark Ritual." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d468ecdc-f783-43c8-816b-826e9095572d" name="Obfuscation">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Fast. Uses (3 charges).&#10;ι When an enemy makes an attack of opportunity against you, spend 1 charge: Cancel that attack." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="16457b2f-df46-4e31-b712-c93a413f4b14" name="Faustian Bargain">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Pact. Cursed." />
+      <property name="Text" value="As an additional cost to play Faustian Bargain, add 2 [Curse] tokens to the chaos bag.&#10;Investigators at your location gain a total of 5 resources, distributed as you wish." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1b4ef2c2-db87-466e-a4ee-1cbc81147b6b" name="Sword Cane">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Weapon. Melee." />
+      <property name="Text" value="Playing Sword Cane does not provoke attacks of opportunity.&#10;ι After Sword Cane enters play: Immediately trigger its “η” ability without paying its cost.&#10;η Exhaust Sword Cane: Fight/Evade. You may use your ά place of your ή or ί for this attack or evasion attempt." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="41c9c744-06e5-4e0a-b07c-2bd914be3ba4" name="Tides of Fate">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Blessed." />
+      <property name="Text" value="Fast. Play during any θ window, or at the start of the round.&#10;Replace all [Curse] tokens in the chaos bag with an equal number of [Bless] tokens. At the end of the round, replace all [Bless] tokens in the chaos bag with an equal number of [Curse] tokens." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9f93bad3-2e61-4031-b70c-1f9fc74bc8d1" name="Ward of Radiance">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Blessed." />
+      <property name="Text" value="Fast. Play when an investigator at your location draws a non-weakness treachery card.&#10;Reveal 5 random chaos tokens from the chaos bag. If a [Bless] or ε token is revealed, cancel that treachery card’s revelation effect." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8cafddfc-1e63-4652-9a6c-15966dc71664" name="Promise of Power">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced. Cursed." />
+      <property name="Text" value="After you commit Promise of Power to a skill test, add 1 [Curse] token to the chaos bag. If you cannot, take 2 horror instead." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d1b87873-67db-4a4a-9c79-1e7294682f0c" name="Token of Faith">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="ι After a skill test ends in which 1 or more [Curse] or ζ tokens were revealed, exhaust Token of Faith: Add that many [Bless] tokens to the chaos bag." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7960927a-af1c-4cba-8fee-5363c21c4131" name="Keep Faith">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune. Blessed." />
+      <property name="Text" value="Fast. Play during any θ window.&#10;Add 4 [Bless] tokens to the chaos bag." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="84145efb-6da7-43b1-b56a-8a5cf1cfb9c1" name="Predestined">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Fortune. Blessed." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;You may commit Predestined to any type of test.&#10;If this test fails, either add 2 [Bless] tokens to the chaos bag or remove 2 [Curse] tokens from the chaos bag." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="117ded01-3629-4c39-93b2-7c4ecfad5e20" name="Beloved">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Blessed." />
+      <property name="Text" value="If a [Bless] token is revealed during this test, you may remove Beloved from the game to replace that token’s effects with the following: “You automatically succeed. (Do not reveal another token. Return this token to the chaos bag after this test ends).”" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3e7d79cf-ad96-44e3-872a-7f10d846f70a" name="Tempt Fate">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune. Blessed. Cursed." />
+      <property name="Text" value="Fast. Play during any θ window.&#10;Add 3 [Curse] tokens to the chaos bag. Then, add 3 [Bless] tokens to the chaos bag and draw 1 card." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="652a06aa-92ac-45d2-a07f-dcbad6e92e12" name="Accursed Follower">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Basic Weakness" />
+      <property name="Type" value="Enemy" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Humanoid. Cultist. Cursed." />
+      <property name="Text" value="Spawn – Location farthest from you.&#10;Aloof.&#10;Forced – At the end of the enemy phase: Add 1 [Curse] token to the chaos bag." />
+      <property name="Health" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="fd0e9977-6338-4fa5-836f-74271d423ccf" name="Dread Curse">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Basic Weakness" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Add 5 [Curse] tokens to the chaos bag." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="b455d3cc-34f7-4a7c-8e02-179088edb6e3" name="Day of Reckoning">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Basic Weakness" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Endtimes." />
+      <property name="Text" value="Revelation – Attach Day of Reckoning to the current agenda. Then, search the chaos bag for an ε token and seal it on Day of Reckoning.&#10;&#10;Card design inspired by the events of Arkham Nights 2018." />
+    </card>
+    <card id="6c513e5f-385f-47e8-bfbe-9f5396519751" name="The Pit of Despair" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 (–2 instead if your location is partially flooded; –3 instead if your location is fully flooded).&#10;β: –2. If you fail and your location is flooded, take 1 damage.&#10;γ: –2. If you fail and you control a key, take 1 horror.&#10;δ: –3. If you fail and The Amalgam is in the depths, put it into play engaged with you." />
+      <alternate name="The Pit of Despair" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –2 (–3 instead if your location is partially flooded; –4 instead if your location is fully flooded).&#10;β: –2. If your location is flooded, take 1 damage.&#10;γ: –2. If you control a key, take 1 horror.&#10;δ: –3. If The Amalgam is in the depths, put it into play engaged with you." />
+      </alternate>
+    </card>
+    <card id="d1fbe03b-a161-4e78-9fe9-c3f478a82a5a" name="Awakening" size="HorizCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 direct damage." />
+      <property name="Doom" value="7" />
+      <alternate name="The Flood Begins" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Increase the flood level of each revealed location.&#10;Until the end of the game, each time a location is revealed, it becomes fully flooded.&#10;Keep this card next to the act deck as a reminder, and advance to agenda 2a." />
+      </alternate>
+    </card>
+    <card id="bdc9b1f4-7c96-4feb-b183-2cf87876e4ed" name="The Water Rises" size="HorizCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 direct damage." />
+      <property name="Doom" value="8" />
+      <alternate name="High Tide" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each revealed location becomes fully flooded.&#10;Until the end of the game, each time a location is revealed, it enters play fully flooded. &#10;Keep this card next to the act deck as a reminder (replacing agenda 1b), and advance to agenda 3a." />
+      </alternate>
+    </card>
+    <card id="62e7b3cb-c49b-41a8-b510-52b1e90f838a" name="Sacrifice for the Deep" size="HorizCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 direct damage." />
+      <property name="Doom" value="4" />
+      <alternate name="Out of Air" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each surviving investigator is defeated and takes 1 physical trauma." />
+      </alternate>
+    </card>
+    <card id="30165cdc-f43e-425a-914e-761b18375dbe" name="The Pit" size="HorizCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Clues" value="3π" />
+      <alternate name="Recognition" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Spawn the set-aside The Amalgam enemy engaged with the lead investigator. &#10;Shuffle each set-aside copy of Blindsense and From the Depths into the encounter deck, along with the encounter discard pile.&#10;Shuffle each of the set-aside Tidal Tunnel locations together to form the Tidal Tunnel deck (including the set-aside Altar to Dagon, Idol Chamber, and Exit locations). Put locations from the top of the Tidal Tunnel deck into play below, to the left, and to the right of each revealed location.&#10;Read Flashback I in the Campaign Guide." />
+      </alternate>
+    </card>
+    <card id="2578773c-8407-4258-9963-810e93fe7f3b" name="The Escape" size="HorizCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – After a location is revealed: Put locations from the top of the Tidal Tunnel deck into play below, to the left, and to the right of that location.&#10;Objective – There must be a way out of here somewhere. If each surviving investigator has resigned, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="To the Coast" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="cbfef32f-9e2e-43c1-8e6e-1e74c17ff929" name="Unfamiliar Chamber" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Unfamiliar Chamber" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After Unfamiliar Chamber is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Unfamiliar Chamber without looking at it." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="d30bd3a0-c398-46cc-b1b0-23173b94d0e1" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Bone-Ridden Pit" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="For each key controlled by an investigator at Bone-Ridden Pit, it gets –1 shroud.&#10;θ If there are no clues on Bone-Ridden Pit and you control the yellow key: You notice an odd joint socket near the skeleton’s midsection that matches the shape of the yellow key. Read Flashback II in the Campaign Guide." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="0fe88677-ceef-4c0c-9754-2d264c3c0c94" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Fish Graveyard" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After you end your turn at Fish Graveyard, if you do not control a key: Take 1 horror.&#10;θ If there are no clues on Fish Graveyard and you control the red key: Inside a pile of half-rotten fish guts, you find a strange figurine the red key fits into perfectly. Read Flashback III in the Campaign Guide." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="fc958f71-9bb4-4c4d-bc59-9351f43745c4" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Altar to Dagon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="η If investigators at Altar to Dagon control the blue key or three or more other keys, they may spend 2π clues, as a group: Take control of the set-aside green key." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="ebaef541-8b0a-4394-9eb3-348b6b1d88e4" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Idol Chamber" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After Idol Chamber is revealed: Place the set-aside blue key on it, faceup.&#10;θ If there are no clues on Idol Chamber and you control the purple key: The purple key opens the stone door at the far end of the chamber, revealing a shrine with two familiar statues, one of white marble, the other of onyx. Read Flashback IV in the Campaign Guide." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="6f7c9843-68b5-4754-9feb-b3f888ca8330" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Sealed Exit" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Pit of Despair" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="η If an investigator at Sealed Exit controls the green key: Resign.&#10; You unlock the grate and swim through the tunnel to freedom. Return all of your clues to the token pool and place all of your keys on this location when you resign.&#10;Forced – After Sealed Exit is revealed: It becomes fully flooded." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="3ad2a2ef-b540-48db-9bb8-491865898691" name="The Amalgam" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Abomination. Deep One. Elite." />
+      <property name="Text" value="Hunter.&#10;ι After you successfully evade The Amalgam by 2 or more: Take control of 1 key on it.&#10;Forced – After The Amalgam engages you, if you control a key: Either place 1 of your keys on it, or it attacks you&#10;Forced – When The Amalgam is defeated: Place it in the depths." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="b63ea51c-24cf-4b3b-930f-ffb5fc265be7" name="Blindsense" size="EncounterCard">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Test ί (3). If you fail and The Amalgam…&#10;— …is in play, it readies, moves directly to your location, engages you, and makes an immediate attack.&#10;— …is in the depths, put it into play engaged with you. It makes an immediate attack." />
+    </card>
+    <card id="1ea5cc28-8cdb-4511-9764-686b40d6e320" name="From the Depths" size="EncounterCard">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Pit of Despair" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – If The Amalgam is in the depths, put it into play engaged with you. Otherwise, place The Amalgam in the depths and From the Depths gains surge." />
+    </card>
+    <card id="2c405797-c45b-4aa6-9ebf-2372c40641f0" name="The Vanishing of Elina Harper" size="EncounterCard">
+      <property name="Card Number" value="56" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the current agenda number.&#10;β: –2. If you fail, place 1 doom on the nearest enemy.&#10;γ: –3. If you fail, take 1 horror.&#10;δ: –4. If you fail, place 1 of your clues on your location." />
+      <alternate name="The Vanishing of Elina Harper" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 more than the current agenda number.&#10;β: –2. Place 1 doom on the nearest Cultist enemy (2 doom instead if you failed).&#10;γ: –3. Take 1 horror (1 horror and 1 damage instead if you failed).&#10;δ: –4. Place 1 of your clues on your location (2 clues instead if you failed)." />
+      </alternate>
+    </card>
+    <card id="478588b6-bd61-457c-9051-6abd52845621" name="Decrepit Decay" size="HorizCard">
+      <property name="Card Number" value="57" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – If you defeat a Suspect enemy other than the kidnapper: Take control of each clue on that enemy. Record in your Campaign Log (name of enemy) is out for blood." />
+      <property name="Doom" value="6" />
+      <alternate name="Followed" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Shuffle the set-aside Winged One and both Hunting Nightgaunts into the encounter deck, along with the encounter discard pile.&#10;If a decision to stick together is listed under “Memories Recovered” in your Campaign Log:&#10;Choose an investigator to take control of the set-aside Thomas Dawson story asset. For the remainder of this scenario, he does not take up an ally slot." />
+      </alternate>
+    </card>
+    <card id="7a7fd399-ef6d-468e-83c9-967e0e33132f" name="Growing Suspicion" size="HorizCard">
+      <property name="Card Number" value="58" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – If you defeat a Suspect enemy other than the kidnapper: Take control of each clue on that enemy. Record in your Campaign Log (name of enemy) is out for blood.&#10;(Hint—If you do not make an accusation by the time this agenda advances, you will run out of time!)" />
+      <property name="Doom" value="7" />
+      <alternate name="Driven Out" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="bba6c07f-b4fe-43d1-9061-a17a0a9ffb7c" name="Frantic Pursuit" size="HorizCard">
+      <property name="Card Number" value="59" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – If you defeat a Suspect enemy other than the kidnapper: Take control of each clue on that enemy. Record in your Campaign Log (name of enemy) is out for blood." />
+      <property name="Doom" value="7" />
+      <alternate name="Driven Out" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="98b1ee91-0eaa-40c6-9fc0-a6cb3bc084a6" name="The Search for Agent Harper" size="HorizCard">
+      <property name="Card Number" value="60" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ The investigators spend Xπ clues, as a group: Parley. Reveal the top X cards of the Leads deck (to a maximum of 3) and draw 1 of them. Shuffle the rest back into the Leads deck, along with the top card of the encounter deck. (Group limit once per round.)&#10;Objective – You may advance at the end of any round. (Hint—You will have to make an accusation when you advance. Advance when you believe you have narrowed down Agent Harper’s kidnapper and whereabouts.)" />
+      <property name="Clues" value="–" />
+      <alternate name="The Accusation" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Read Scenario Interlude: The Accusation in the Campaign Guide." />
+      </alternate>
+    </card>
+    <card id="6c511a6a-a963-4180-b139-9d8e92f88585" name="The Rescue" size="HorizCard">
+      <property name="Card Number" value="61" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="The kidnapper loses aloof, gets +1π health, and cannot be parleyed with.&#10;Objective – If either the kidnapper is in the victory display, or there are no clues on Elina Harper’s location, advance (if there are 2 or more investigators in the game, both conditions must be fulfilled, instead)." />
+      <property name="Clues" value="–" />
+      <alternate name="Found Her!" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If Brian Burnham was the kidnapper, proceed to (-&gt;R2).&#10;If Othera Gilman was the kidnapper, proceed to (-&gt;R3).&#10;If Joyce Little was the kidnapper, proceed to (-&gt;R4).&#10;If Barnabas Marsh was the kidnapper, proceed to (-&gt;R5).&#10;If Zadok Allen was the kidnapper, proceed to (-&gt;R6).&#10;If Robert Friendly was the kidnapper, proceed to (-&gt;R7)." />
+      </alternate>
+    </card>
+    <card id="8251e93d-11b5-487c-bf58-e1608bf89d1f" name="Finding Agent Harper">
+      <property name="Card Number" value="62" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Possible Suspects:&#10;Brian Burnham&#10;Othera Gilman&#10;Joyce Little&#10;Barnabas Marsh&#10;Zadok Allen&#10;Robert Friendly&#10;&#10;Possible Hideouts:&#10;Innsmouth Jail&#10;Shoreward Slums&#10;Sawbone Alley&#10;The House on Water Street&#10;Esoteric Order of Dagon&#10;New Church Green" />
+      <alternate name="Angry Mob" type="B">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Elite." />
+        <property name="Text" value="Hunter. Massive. Retaliate.&#10;Angry Mob gets +4π health.&#10;Angry Mob cannot make attacks of opportunity." />
+        <property name="Health" value="4" />
+        <property name="Combat" value="3" />
+        <property name="Agility" value="3" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="1" />
+        <property name="Victory Points" value="0" />
+      </alternate>
+    </card>
+    <card id="08ff1414-5f5b-4a22-9992-9c553878e781" name="Marsh Refinery" size="EncounterCard">
+      <property name="Card Number" value="63" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="Marsh Refinery" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="η η: Draw 4 cards. (Limit once per game.)" />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="eccaa8c9-2676-4028-b553-4972cfff0069" name="Gilman House" size="EncounterCard">
+      <property name="Card Number" value="64" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="Gilman House" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="η: Heal 2 damage or 2 horror (or any combination thereof). (Limit once per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="8fbfa818-76dd-4791-9556-54c1e3f954b5" name="Innsmouth Square" size="EncounterCard">
+      <property name="Card Number" value="65" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Central." />
+      <alternate name="Innsmouth Square" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Central." />
+        <property name="Text" value="η: Resign. You decide to lay low for a while.&#10;θ Spend 2 resources: Move. Move to a connecting  location." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="f6ebeb5d-bf7a-4636-a37f-394d9321faff" name="Innsmouth Harbour" size="EncounterCard">
+      <property name="Card Number" value="66" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="Innsmouth Harbour" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="Forced – After you successfully investigate Innsmouth Harbour by 3 or more: Look at the top card of the Leads deck. Then, shuffle the Leads deck. (Group limit once per round.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="14cb64bc-14e4-4e31-89d8-5f2e309c6fa5" name="First National Grocery" size="EncounterCard">
+      <property name="Card Number" value="67" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="First National Grocery" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="η: Search the top 6 cards of your deck for an Item card and add it to your hand. Shuffle your deck. (Limit once per game.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="df6a2f1a-d36d-4ae0-b94a-3b3429c8572c" name="Fish Street Bridge" size="EncounterCard">
+      <property name="Card Number" value="68" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="Fish Street Bridge" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="η η: Gain 4 resources. (Limit once per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="8cbd7e9e-b534-4a8f-95c1-e63e74c0a07d" name="The Little Bookshop" size="EncounterCard">
+      <property name="Card Number" value="69" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="The Little Bookshop" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="Forced – After you fail a skill test while investigating The Little Bookshop: Shuffle the top card of the encounter deck into the Leads deck." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="c3222800-fc66-4be0-9820-5beaba110878" name="Esoteric Order of Dagon" size="EncounterCard">
+      <property name="Card Number" value="70" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Hideout." />
+      <property name="Text" value="Revelation – Put Esoteric Order of Dagon into play.&#10;Forced – After the last remaining clue is discovered from Esoteric Order of Dagon: Remove the top card of the Leads deck from the game (without looking at it)." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="783ba29e-a4fd-42a6-a589-7052a0c5a969" name="Sawbone Alley" size="EncounterCard">
+      <property name="Card Number" value="71" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Hideout." />
+      <property name="Text" value="Revelation – Put Sawbone Alley into play.&#10;Each Humanoid enemy at Sawbone Alley gets +2 fight and –2 evade." />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="2π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="aca1cd78-f945-4e64-a0eb-712f4cffaf6d" name="Shoreward Slums" size="EncounterCard">
+      <property name="Card Number" value="72" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Hideout." />
+      <property name="Text" value="Revelation – Put Shoreward Slums into play.&#10;Shoreward Slums gets –2 shroud for each doom on it.&#10;Forced – After you fail a skill test while investigating Shoreward Slums: Place 1 doom on it." />
+      <property name="Shroud" value="5" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="59fdfe35-a045-4867-9aee-176d0111cd0a" name="The House on Water Street" size="EncounterCard">
+      <property name="Card Number" value="73" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Hideout." />
+      <property name="Text" value="Revelation – Put The House on Water Street into play.&#10;Forced – After you successfully investigate The House on Water Street by 3 or more: Either draw the top card of the encounter deck, or shuffle that card into the Leads deck." />
+      <property name="Shroud" value="1" />
+      <property name="Clues" value="2π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="8d11b6b4-7942-41f6-8ebe-7705419dd800" name="Innsmouth Jail" size="EncounterCard">
+      <property name="Card Number" value="74" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Hideout." />
+      <property name="Text" value="Revelation – Put Innsmouth Jail into play.&#10;Forced – When you defeat an enemy at Innsmouth Jail: Instead of discarding that enemy, shuffle it into the Leads deck." />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="65f7bf50-bc13-46d7-a005-efdb8fa06d53" name="New Church Green" size="EncounterCard">
+      <property name="Card Number" value="75" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Hideout." />
+      <property name="Text" value="Revelation – Put New Church Green into play.&#10;η η If there are no clues on New Church Green: Look at the top card of the Leads deck. If it does not have Victory X, discard it. (Group limit once per game.)" />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="2π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="e8d46363-6c2c-4b5b-a5f0-a383e2040b66" name="Robert Friendly" size="EncounterCard">
+      <property name="Card Number" value="76" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Disgruntled Dockworker" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Suspect. Elite." />
+      <property name="Text" value="Revelation – Put Robert Friendly into play at the Innsmouth Harbour, with 1π clues on him. &#10;Aloof.&#10;η: Parley. Test ί (2). If you fail, take 1 damage. If you succeed, take control of 1 of the clues on Robert Friendly. Then, if there are no clues on him, add him to the victory display." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="1" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="d5482954-c76e-4896-aa13-d234b8abcd4c" name="Zadok Allen" size="EncounterCard">
+      <property name="Card Number" value="77" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Drunk and Disorderly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Suspect. Elite." />
+      <property name="Text" value="Revelation – Put Zadok Allen into play at the Fish Street Bridge, with 1π clues on him. &#10;Aloof.&#10;η: Parley. Test ά (3). If you succeed, take control of 1 of the clues on Zadok Allen. Then, if there are no clues on him, add him to the victory display." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="76c27387-96fd-4f9b-9195-cd15319705e7" name="Brian Burnham" size="EncounterCard">
+      <property name="Card Number" value="78" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Wants Out" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Suspect. Elite." />
+      <property name="Text" value="Revelation – Put Brian Burnham into play at the First National Grocery, with 1π clues on him. &#10;Aloof.&#10;η Discard cards from your hand with at least 3 total skill icons among them: Parley. Take control of 1 of the clues on Brian Burnham. Then, if there are no clues on him, add him to the victory display." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="e741caac-306b-4333-9822-b53c1ab377f4" name="Barnabas Marsh" size="EncounterCard">
+      <property name="Card Number" value="79" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="The Change Is upon Him" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Suspect. Elite." />
+      <property name="Text" value="Revelation – Put Barnabas Marsh into play at the Marsh Refinery, with 1π clues on him.&#10;Aloof.&#10;η: Parley. Test ί (2). If you fail, take 1 horror. If you succeed, take control of 1 of the clues on Barnabas Marsh. Then, if there are no clues on him, add him to the victory display." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="1ca29b57-de4b-419d-b4f1-aae9951407ab" name="Joyce Little" size="EncounterCard">
+      <property name="Card Number" value="80" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Bookshop Owner" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Suspect. Elite." />
+      <property name="Text" value="Revelation – Put Joyce Little into play at The Little Bookshop, with 1π clues on her.&#10;Aloof.&#10;η: Parley. Test ά (3). If you succeed, take control of 1 of the clues on Joyce Little. Then, if there are no clues on her, add her to the victory display." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="ebe93147-cad6-40d9-acc7-5e33f817b6d5" name="Othera Gilman" size="EncounterCard">
+      <property name="Card Number" value="81" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Proprietress of the Hotel" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Suspect. Elite." />
+      <property name="Text" value="Revelation – Put Othera Gilman into play at the Gilman House, with 1π clues on her.&#10;Aloof.&#10;η Spend 3 resources: Parley. Take control of 1 of the clues on Othera Gilman. Then, if there are no clues on her, add her to the victory display." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="e88e566b-a66e-4e9c-ae16-335614582181" name="Thomas Dawson">
+      <property name="Card Number" value="82" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Soldier in a New War" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Agency. Veteran." />
+      <property name="Text" value="You get +1 ά and +1 ή.&#10;ι After an enemy attacks an investigator at your location, even if that attack was canceled, exhaust Thomas Dawson: That investigator draws 1 card." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="75d460b3-f20f-4fc7-83d2-8ef0fa08d3d1" name="Elina Harper">
+      <property name="Card Number" value="83" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Vanishing of Elina Harper" />
+      <property name="Subtitle" value="Knows Too Much" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Agency. Detective." />
+      <property name="Text" value="You get +1 έ and +1 ί.&#10;The first action you perform each turn does not provoke attacks of opportunity." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="4" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3547d569-0730-4e48-b3cc-6c549c9ea268" name="Priest of Dagon" size="EncounterCard">
+      <property name="Card Number" value="84" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Agents of Dagon" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Spawn – Any empty location.&#10;Forced – When Priest of Dagon would be defeated or evaded, if there is no doom on it: Instead, heal all damage from it, ready it, and place 1 doom on it.&#10;Forced – At the end of the round, if Priest of Dagon is ready and there is no doom on it: Place 1 doom on it." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="57fd8b41-5302-403b-ac24-a5ec09ee3c24" name="Initiate of Dagon" size="EncounterCard">
+      <property name="Card Number" value="85" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Agents of Dagon" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Hybrid. Cultist." />
+      <property name="Text" value="Spawn – Any empty location.&#10;While Initiate of Dagon has no doom on it, it gets +2 fight and +2 evade.&#10;Forced – At the end of the round, if Initiate of Dagon is ready and there is no doom on it: Place 1 doom on it." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="bf9afb4a-745b-4196-a4ba-b1b56cfd2eea" name="Lloigor" size="EncounterCard">
+      <property name="Card Number" value="86" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Agents of Hydra" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster." />
+      <property name="Text" value="Prey – Fewest cards in hand.&#10;Aloof. Hunter.&#10;While an investigator at Lloigor’s location has no cards in hand, Lloigor loses aloof.&#10;Forced – At the end of the enemy phase: Each investigator at Lloigor’s location or a connecting location discards 1 random card from their hand." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="9830bf03-a410-4ac0-804b-d5546ed21b8f" name="Psychic Pull" size="EncounterCard">
+      <property name="Card Number" value="87" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Agents of Hydra" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – If you have no cards in your hand, Psychic Pull gains surge. Otherwise, discard 1 random card from your hand. Then, test ά (X), where X is the printed cost of the discarded card. If you fail, lose 1 action." />
+    </card>
+    <card id="8cb9eeaa-d308-4e42-a7e3-8aa2fd918a63" name="Deep One Bull" size="EncounterCard">
+      <property name="Card Number" value="88" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Creatures of the Deep" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Forced – After Deep One Bull engages you: Choose and discard 1 card from your hand.&#10;Forced – After an investigator defeats another Deep One enemy at any location: Ready Deep One Bull and move it once toward that investigator’s location." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="391bd985-3a45-4cfd-9352-5f9de4b2de57" name="Lurking Deep One" size="EncounterCard">
+      <property name="Card Number" value="89" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Creatures of the Deep" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Prey – Lowest ί.&#10;Forced – After Lurking Deep One engages you: Take 1 damage." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="41ce48de-71df-40bb-ab77-974f3a22854f" name="Deep One Assault" size="EncounterCard">
+      <property name="Card Number" value="90" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Creatures of the Deep" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Disengage from each Deep One enemy at your location. Each Deep One enemy at your location and each connecting location engages you. If no enemies engage you from this effect, search the encounter deck and discard pile for a Deep One enemy, spawn it engaged with you, and shuffle the encounter deck." />
+    </card>
+    <card id="bc9313d6-9726-4a75-a980-28b389c46124" name="Undertow" size="EncounterCard">
+      <property name="Card Number" value="91" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Rising Tides" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – If your location is unflooded, Undertow gains surge. Otherwise, put Undertow into play in your threat area.&#10;Forced – After you move: Take 2 damage and 2 horror. Discard Undertow.&#10;θ Discard 1 card from your hand: Test ή (3) or ί (3) to fight the pull of the tides. If you succeed, discard Undertow." />
+    </card>
+    <card id="d304fcd1-2352-4431-8a7b-0fa23124ac2a" name="Rising Tides" size="EncounterCard">
+      <property name="Card Number" value="92" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Rising Tides" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Increase the flood level of the nearest location that can have its flood level increased. If no location’s flood level is increased by this effect, Rising Tides gains surge." />
+    </card>
+    <card id="7d7aaf41-b118-409a-aaef-810e7339c2d5" name="Riptide" size="EncounterCard">
+      <property name="Card Number" value="93" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Rising Tides" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – If your location is unflooded, Riptide gains surge. Otherwise, test ί (3) (4 instead if your location is fully flooded). If you fail, choose and discard 1 asset you control. If you cannot, lose 1 resource for each point you fail by instead." />
+    </card>
+    <card id="24740cd0-b6d1-4852-82da-f66c110d7ff3" name="Winged One" size="EncounterCard">
+      <property name="Card Number" value="94" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fog Over Innsmouth" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Creature. Monster." />
+      <property name="Text" value="Hunter. &#10;X is the shroud value of Winged One’s location.&#10;Winged One takes 1 fewer damage from attacks except by Ranged, Firearm, or Spell cards (to a minimum of 1 damage)." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="X" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="08367391-a0dc-4710-8c36-e3aa7e8dd043" name="Fog over Innsmouth" size="EncounterCard">
+      <property name="Card Number" value="95" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Fog Over Innsmouth" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Test ά (3). If you succeed, either take 1 horror or put Fog over Innsmouth into play next to the agenda deck. If you fail, do both.&#10;Each location gets +1 shroud.&#10;Forced – At the end of the round: Discard 1 copy of Fog over Innsmouth from play. (Max once per round.)" />
+    </card>
+    <card id="88c75882-60c7-471e-9662-40ff8b69377a" name="Macabre Memento" size="EncounterCard">
+      <property name="Card Number" value="96" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Shattered Memories" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ά (3). If you reveal a β token during this test, you automatically fail. If you fail, take 2 horror." />
+    </card>
+    <card id="0a0fe2b2-14dc-4817-9db8-0cfa27a9e1e2" name="Fractured Consciousness" size="EncounterCard">
+      <property name="Card Number" value="97" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Shattered Memories" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test έ (3). If you reveal a γ token during this test, you automatically fail. If you fail, take 2 damage." />
+    </card>
+    <card id="ae97a872-d519-4038-b23f-907bf712047e" name="Memory of Oblivion" size="EncounterCard">
+      <property name="Card Number" value="98" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Shattered Memories" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ά (4) or έ (4). If you reveal a δ token during this test, you automatically fail. For each point you fail by, choose and discard 1 card from your hand." />
+    </card>
+    <card id="b03235f6-2ff4-4a81-8348-10aca8cfefcf" name="Malfunction" size="EncounterCard">
+      <property name="Card Number" value="99" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Malfunction" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Blunder." />
+      <property name="Text" value="Revelation – Attach to the nearest Vehicle asset.&#10;“η” abilities on attached asset cannot be triggered.&#10;η: Test έ (3). If you succeed, discard Malfunction." />
+    </card>
+    <card id="d562fa63-5211-4e61-aa5c-43262f02a758" name="Tidal Alignment" size="EncounterCard">
+      <property name="Card Number" value="100" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Syzygy" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Omen." />
+      <property name="Text" value="Peril.&#10;Revelation – Choose a location where there is at least 1 investigator. Increase that location’s flood level. Each investigator at the chosen location takes 1 damage. If the chosen location’s flood level is not increased by this effect, Tidal Alignment gains surge." />
+    </card>
+    <card id="b58c74c7-88c8-4b1f-b1b8-96851ed1b00e" name="Syzygy" size="EncounterCard">
+      <property name="Card Number" value="101" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Syzygy" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Omen." />
+      <property name="Text" value="Peril.&#10;Revelation – You must decide (choose one): &#10;– Each investigator loses 3 resources.&#10;– Each investigator takes 2 horror.&#10;– Place 1 doom on the current agenda (this effect can cause the current agenda to advance)." />
+    </card>
+    <card id="cea09c79-187f-47ed-8025-78149add2a67" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="102" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Flooded Caverns" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Underwater Cavern" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Flooded Caverns" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="η: Move. Move from Underwater Cavern to any flooded Cave location.&#10;Forced – After Underwater Cavern is revealed: It becomes fully flooded." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="cc48648c-9863-4a54-a5e1-de417d343fe1" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="103" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Flooded Caverns" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Tidal Pool" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Flooded Caverns" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Tidal Pool gets +1 shroud while it is partially flooded and +2 shroud while it is fully flooded.&#10;Forced – After Tidal Pool is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Tidal Pool without looking at it." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="ec41c5f3-740c-457c-83aa-acf6a8106621" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="104" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Flooded Caverns" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Underground River" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Flooded Caverns" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Underground River cannot be fully flooded.&#10;Forced – After Underground River is revealed: Increase its flood level." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="41d6da20-b172-45e3-9763-030c346c8826" name="Innsmouth Troublemaker" size="EncounterCard">
+      <property name="Card Number" value="105" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Locals" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Hybrid. Criminal." />
+      <property name="Text" value="Spawn – Location with the most clues.&#10;Hunter.&#10;η Place 1 of your clues on your location: Parley. Exhaust Innsmouth Troublemaker. It does not ready during the next upkeep phase. This ability may be triggered by an investigator at a connecting location." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="f09ddcd1-fbc5-4c6e-8a7b-80a2237db1f1" name="Innsmouth Look" size="EncounterCard">
+      <property name="Card Number" value="106" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Locals" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse. Terror." />
+      <property name="Text" value="Revelation – Put Innsmouth Look into play in your threat area.&#10;You get –1 έ and –1 sanity, and you gain the Deep One trait.&#10;η: Test ά (3). If you succeed, discard Innsmouth Look." />
+    </card>
+    <card id="f6b84074-67e5-4446-bb58-9e3ebfd94cde" name="Furtive Locals" size="EncounterCard">
+      <property name="Card Number" value="107" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Locals" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test έ (3). If you succeed, either take 1 damage or put Furtive Locals into play next to the agenda deck. If you fail, do both.&#10;Investigators cannot parley.&#10;Forced – At the end of the round: Discard 1 copy of Furtive Locals from play. (Max once per round.)" />
+    </card>
+	<card id="9ad2d437-cd34-4dc3-b0a6-d7f7321d076f" name="Sister Mary" size="MiniCard">
+      <property name="Card Number" value="991"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Guardian"/>
+	  <alternate name="Sister Mary" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Guardian"/>
+      </alternate>
+    </card>
+	<card id="ba02bbf8-115b-44c7-badf-10f94f84349a" name="Amanda Sharpe" size="MiniCard">
+      <property name="Card Number" value="992"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Seeker"/>
+      <alternate name="Amanda Sharpe" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Seeker"/>
+      </alternate>
+    </card>
+	<card id="e1ae45d6-b2a8-4540-8fa2-803f7f3a2bd3" name="Trish Scarborough" size="MiniCard">
+      <property name="Card Number" value="993"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Rogue"/>
+      <alternate name="Trish Scarborough" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Rogue"/>
+      </alternate>
+    </card>
+	<card id="995ae8b9-fb6b-4bdf-8574-bc8c42aa6f84" name="Dexter Drake" size="MiniCard">
+      <property name="Card Number" value="994"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Mystic"/>
+      <alternate name="Dexter Drake" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Mystic"/>
+      </alternate>
+    </card>
+	<card id="3e2782b4-0d25-4020-bdb4-22081c2b4382" name="Silas Marsh" size="MiniCard">
+      <property name="Card Number" value="995"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Survivor"/>
+      <alternate name="Silas Marsh" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Survivor"/>
+      </alternate>
+    </card>
+    <card id="886dfb3e-a983-4434-8ca1-3ce038ac0685" name="Unidentified Key" size="KeyToken">
+      <property name="Type" value="Key Token" />
+      <alternate name="Red Key" size="KeyToken" type="B">
+		<property name="Type" value="Key Token" />
+      </alternate>
+    </card>
+    <card id="d0dc772e-3d01-41c6-b836-25513b1a150e" name="Unidentified Key" size="KeyToken">
+      <property name="Type" value="Key Token" />
+      <alternate name="Blue Key" size="KeyToken" type="B">
+		<property name="Type" value="Key Token" />
+      </alternate>
+    </card>
+    <card id="b3839fb3-d093-46ab-87ef-20e8c9a7a69f" name="Unidentified Key" size="KeyToken">
+      <property name="Type" value="Key Token" />
+      <alternate name="Green Key" size="KeyToken" type="B">
+		<property name="Type" value="Key Token" />
+      </alternate>
+    </card>
+    <card id="7be6a43f-c466-493d-b8ee-52bd2127b6a3" name="Unidentified Key" size="KeyToken">
+      <property name="Type" value="Key Token" />
+      <alternate name="Yellow Key" size="KeyToken" type="B">
+		<property name="Type" value="Key Token" />
+      </alternate>
+    </card>
+    <card id="810ae644-a5c2-4a89-bd56-c649377c767b" name="Unidentified Key" size="KeyToken">
+      <property name="Type" value="Key Token" />
+      <alternate name="Purple Key" size="KeyToken" type="B">
+		<property name="Type" value="Key Token" />
+      </alternate>
+    </card>
+    <card id="c1013de0-742a-4627-b8fa-a347951fc00d" name="Unidentified Key" size="KeyToken">
+      <property name="Type" value="Key Token" />
+      <alternate name="Black Key" size="KeyToken" type="B">
+		<property name="Type" value="Key Token" />
+      </alternate>
+    </card>
+    <card id="8f2e9c68-13bb-4760-98cb-d4f03e02ae85" name="Unidentified Key" size="KeyToken">
+      <property name="Type" value="Key Token" />
+      <alternate name="White Key" size="KeyToken" type="B">
+		<property name="Type" value="Key Token" />
+      </alternate>
+    </card>
+  </cards>
+</set>
