@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="6ef41f22-4d75-48a5-a523-add0fc3bb014">Of Cats and Dogs</card>
+    <card qty="1" id="397402c7-e02e-4129-9da1-3610c802c70f">Meowlathotep's Scheme</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="28566be6-f640-4f3e-92fd-d96e5ff7adb3">Nine Lives</card>
+    <card qty="1" id="9235ce98-a301-475f-9d43-fd19b6db632d">The Cat and the Mouse</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="bbfe61b8-545a-4e3b-b810-737e0f7fc712">Estranged Cat</card>
+    <card qty="2" id="badefc83-d53c-4b11-92d3-f1ba730c0bc0">Rodent-Killer</card>
+    <card qty="1" id="54b9ae38-50b5-4def-bd79-9ef0fdc06850">Order Cultist</card>
+    <card qty="2" id="20803bb1-be31-4be7-8e3b-d72c63791ce9">Servent of Dog-Sothoth</card>
+    <card qty="2" id="0303e512-ab8f-45f1-aaf9-01f846a461fd">SQUIRREL!</card>
+    <card qty="2" id="24f2621e-4491-40a2-9f49-e7f13ae82562">Hunted  by Byakats</card>
+    <card qty="2" id="4b39c01c-82da-46ee-8555-31c484e6cdbe">On Your Tail</card>
+    <card qty="3" id="b15d210d-270b-48af-9eaa-e2123e91f2a9">Cats in the Mist</card>
+    <card qty="3" id="67b1f57c-1842-4879-b87d-f75144405e5d">Scratching Paws</card>
+    <card qty="2" id="0f3983e2-2b89-42d1-95bd-1fe9740608b0">Meowsks of Meolathotep</card>
+    <card qty="2" id="c89a8002-5a66-4561-9554-7e60aa5e7d2c">Stubborn Cat</card>
+    <card qty="2" id="2f0115b6-5176-49a2-af40-6b1e3fa41d29">Mischief and Chaos</card>
+    <card qty="2" id="d53d8c07-3966-4c87-97f0-bc5c224e923b">Gaze of the Ceiling Cat</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="c72dbde0-7f29-4856-beb9-459f12efb461">The Hisser in the Dark</card>
+    <card qty="1" id="abcb5528-91eb-4eaa-bc71-98d124b1be42">Cat of Tindalos</card>
+    <card qty="1" id="4df902a0-f08f-4905-989f-1e88451d5b77">The Dweller in the Deep</card>
+    <card qty="1" id="8fec1758-902f-4303-a4d5-f2297cf26d2e">The Mewling Hunger</card>
+    <card qty="1" id="ee14ed70-1f4c-4c7f-94cd-04f23ec3627a">GHOST CAT!</card>
+    <card qty="1" id="a29885ce-d037-4f1f-b9cd-cc086773b5aa">Cat Riding on a Byakat</card>
+    <card qty="1" id="4ed85e93-a9f4-4ab3-9d37-da43068f6cea">Pouncer in the Night</card>
+    <card qty="1" id="7af82f02-4404-4392-995f-43897fb3b694">Meowlathotep</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="2592302c-c7a3-4316-b200-597fe5584d5c">The Meddling of Meowlathotep</card>
+    <card qty="1" id="af3cdaca-0b73-4c2f-aa19-c28608308437">Beasttown</card>
+    <card qty="1" id="7648e808-e3da-4dc5-80b2-36e34a4c31e6">Tailside</card>
+    <card qty="1" id="28f2496f-e128-4b5b-a514-f289ac544eb6">Snoutside</card>
+    <card qty="1" id="2e1df6b5-fa14-49b3-87f7-f66bf9395101">Slobbertown</card>
+    <card qty="1" id="2ba7578d-1ff6-4180-8954-369e65433414">Barkham Asylum</card>
+    <card qty="1" id="0fb6aabc-0022-4288-b736-bff5c241838e">Boneyard</card>
+    <card qty="1" id="72b880be-ea3c-4a89-9823-369888c3904c">Muttskatonic University</card>
+    <card qty="1" id="6f5eb980-93f4-4ffe-92c9-6eb058e8586e">Barkham City Pound</card>
+    <card qty="1" id="0285f2ab-61eb-4805-a7e7-0556fa204f6b">St. Mary's Animal Hospital</card>
+    <card qty="1" id="6b5f0133-c0c8-41e4-bbce-54bb4b8dee8c">Velma's Doghouse</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

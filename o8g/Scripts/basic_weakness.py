@@ -61,6 +61,13 @@ class BasicWeakness:
         "return_to_the_forgotten_age": [
             "d5591fb8-20d3-4a01-899e-147edb197e89", # Dendromorphosis
             "8513832c-d3d7-4f95-a829-1ea3eab40ebe", # Offer You Cannot Refuse
+        ],
+        "the_innsmouth_conspiracy": [
+            "652a06aa-92ac-45d2-a07f-dcbad6e92e12", # x2 Accursed Follower
+            "652a06aa-92ac-45d2-a07f-dcbad6e92e12",
+            "fd0e9977-6338-4fa5-836f-74271d423ccf", # x2 Dread Curse
+            "fd0e9977-6338-4fa5-836f-74271d423ccf",
+            "b455d3cc-34f7-4a7c-8e02-179088edb6e3", # Day of Reckoning
         ]
     }
     PILE_NAME = 'Basic Weaknesses'

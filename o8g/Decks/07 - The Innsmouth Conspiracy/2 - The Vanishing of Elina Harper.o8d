@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="478588b6-bd61-457c-9051-6abd52845621">Decrepit Decay</card>
+    <card qty="1" id="7a7fd399-ef6d-468e-83c9-967e0e33132f">Growing Suspicion</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="98b1ee91-0eaa-40c6-9fc0-a6cb3bc084a6">The Search for Agent Harper</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="3547d569-0730-4e48-b3cc-6c549c9ea268">Priest of Dagon</card>
+    <card qty="3" id="57fd8b41-5302-403b-ac24-a5ec09ee3c24">Initiate of Dagon</card>
+    <card qty="2" id="08367391-a0dc-4710-8c36-e3aa7e8dd043">Fog over Innsmouth</card>
+    <card qty="2" id="41d6da20-b172-45e3-9763-030c346c8826">Innsmouth Troublemaker</card>
+    <card qty="2" id="f09ddcd1-fbc5-4c6e-8a7b-80a2237db1f1">Innsmouth Look</card>
+    <card qty="2" id="f6b84074-67e5-4446-bb58-9e3ebfd94cde">Furtive Locals</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="e8d46363-6c2c-4b5b-a5f0-a383e2040b66">Robert Friendly</card>
+    <card qty="1" id="d5482954-c76e-4896-aa13-d234b8abcd4c">Zadok Allen</card>
+    <card qty="1" id="76c27387-96fd-4f9b-9195-cd15319705e7">Brian Burnham</card>
+    <card qty="1" id="e741caac-306b-4333-9822-b53c1ab377f4">Barnabas Marsh</card>
+    <card qty="1" id="1ca29b57-de4b-419d-b4f1-aae9951407ab">Joyce Little</card>
+    <card qty="1" id="ebe93147-cad6-40d9-acc7-5e33f817b6d5">Othera Gilman</card>
+    <card qty="1" id="c3222800-fc66-4be0-9820-5beaba110878">Esoteric Order of Dagon</card>
+    <card qty="1" id="783ba29e-a4fd-42a6-a589-7052a0c5a969">Sawbone Alley</card>
+    <card qty="1" id="aca1cd78-f945-4e64-a0eb-712f4cffaf6d">Shoreward Slums</card>
+    <card qty="1" id="59fdfe35-a045-4867-9aee-176d0111cd0a">The House on Water Street</card>
+    <card qty="1" id="8d11b6b4-7942-41f6-8ebe-7705419dd800">Innsmouth Jail</card>
+    <card qty="1" id="65f7bf50-bc13-46d7-a005-efdb8fa06d53">New Church Green</card>
+    <card qty="1" id="24740cd0-b6d1-4852-82da-f66c110d7ff3">Winged One</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="1" id="bba6c07f-b4fe-43d1-9061-a17a0a9ffb7c">Frantic Pursuit</card>
+    <card qty="1" id="6c511a6a-a963-4180-b139-9d8e92f88585">The Rescue</card>
+    <card qty="1" id="e88e566b-a66e-4e9c-ae16-335614582181">Thomas Dawson</card>
+    <card qty="1" id="75d460b3-f20f-4fc7-83d2-8ef0fa08d3d1">Elina Harper</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="2c405797-c45b-4aa6-9ebf-2372c40641f0">The Vanishing of Elina Harper</card>
+    <card qty="1" id="8251e93d-11b5-487c-bf58-e1608bf89d1f">Finding Agent Harper</card>
+    <card qty="1" id="08ff1414-5f5b-4a22-9992-9c553878e781">Marsh Refinery</card>
+    <card qty="1" id="eccaa8c9-2676-4028-b553-4972cfff0069">Gilman House</card>
+    <card qty="1" id="8fbfa818-76dd-4791-9556-54c1e3f954b5">Innsmouth Square</card>
+    <card qty="1" id="f6ebeb5d-bf7a-4636-a37f-394d9321faff">Innsmouth Harbour</card>
+    <card qty="1" id="14cb64bc-14e4-4e31-89d8-5f2e309c6fa5">First National Grocery</card>
+    <card qty="1" id="df6a2f1a-d36d-4ae0-b94a-3b3429c8572c">Fish Street Bridge</card>
+    <card qty="1" id="8cbd7e9e-b534-4a8f-95c1-e63e74c0a07d">The Little Bookshop</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
