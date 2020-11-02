@@ -301,7 +301,7 @@
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Mystic"/>
       <property name="Traits" value="Sorcerer. Veteran."/>
-      <property name="Text" value="TBD"/>
+      <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Rogue cards (ν) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count towards deck size): Showmanship, Occult Scraps, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="026cb382-cca7-4043-9c14-07c9592700ec" name="Dexter Drake" size="MiniCard">
@@ -335,6 +335,62 @@
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Curse. Pact."/>
     <property name="Text" value="Dexter Drake deck only. Replacement.&#10;Revelation - Put Yaztaroth into play in your threat area.&#10;You cannot put assets into play.&#10;ηη: Discard Yaztaroth."/>
+  </card>
+  <card id="a55535cb-d1d1-48e7-bc73-ea8abe9088ea" name="Gloria Goldberg" size="InvestigatorCard">
+    <property name="Card Number" value="19"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="The Writer"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Investigator"/>
+    <property name="Class" value="Mystic"/>
+    <property name="Willpower" value="5"/>
+    <property name="Intellect" value="4"/>
+    <property name="Combat" value="2"/>
+    <property name="Agility" value="1"/>
+    <property name="Health" value="5"/>
+    <property name="Sanity" value="9"/>
+    <property name="Traits" value="Clairvoyant."/>
+    <property name="Text" value="You choose the investigator order during the mythos phase.&#10;ι When you look at 1 or more cards from the encounter deck: Look at 1 additional card and choose 1 non-Elite card among them. Either discard it, put it on top of the encounter deck, or place it facedown beneath Gloria Goldberg (max 3 cards beneath her).&#10;ε effect: +1. Look at the top card of the encounter deck."/>
+    <alternate name="Gloria Goldberg" size="InvestigatorCard" type="B">
+      <property name="Subtitle" value="The Writer"/>
+      <property name="Unique" value="ο"/>
+      <property name="Type" value="Investigator"/>
+      <property name="Class" value="Mystic"/>
+      <property name="Traits" value="Clairvoyant."/>
+      <property name="Text" value="Deck Size: 30.&#10;Secondary Class Choise: At deck creation, choose Guardian (κ), Seeker (λ), or Rogue (ν).&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Neutral cards level 0-5, up to 10 level 0-1 events and/or skills of your chosen secondary class.&#10;Deckbuilding Requirements (do not count toward deck size): 3 copies of Psychic Sensitivity, 3 copies of Prophecy of the End (shuffled into the encounter deck), 1 random basic weakness."/>
+    </alternate>
+  </card>
+  <card id="a6d5e2f7-e621-49c7-af77-5a2c21d6c403" name="Gloria Goldberg" size="MiniCard">
+    <property name="Quantity" value="907"/>
+    <property name="Type" value="Mini"/>
+    <property name="Class" value="Mystic"/>
+    <alternate name="Gloria Goldberg" size="MiniCard" type="B">
+      <property name="Type" value="Mini"/>
+    </alternate>
+  </card>
+  <card id="2de6b4ca-c987-40c4-a6bf-ebe85f56106f" name="Ruth Westmacott">
+    <property name="Card Number" value="20"/>
+    <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Dark Revelations"/>
+    <property name="Unique" value="ο"/>
+    <property name="Type" value="Asset"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Cost" value="3"/>
+    <property name="Health" value="2"/>
+    <property name="Sanity" value="3"/>
+    <property name="Skill Icons" value="έέΰ"/>
+    <property name="Slot" value="Ally"/>
+    <property name="Traits" value="Ally. Artist."/>
+    <property name="Text" value="Gloria Goldberg deck only. Replacement.&#10;ι When an investigator fights, attempts to evade, or initiates a skill test on an encounter card, discard an encounter card that shares a Trait with that encounter card from beneath Gloria Goldberg: Reduce the difficulty of this skill test by 2."/>
+  </card>
+  <card id="84e617a0-5833-4799-b61a-46f547fd6653" name="Liber Omnium Finium">
+    <property name="Card Number" value="21"/>
+    <property name="Quantity" value="1"/>
+    <property name="Type" value="Treachery"/>
+    <property name="Class" value="Neutral"/>
+    <property name="Subtype" value="Weakness"/>
+    <property name="Traits" value="Endtimes."/>
+    <property name="Text" value="Gloria Goldberg deck only. Replacement.&#10;Revelation - Draw a random non-weakness encounter card from beneath Gloria Goldberg. That card gains peril, its effects cannot be canceled, and you get -2 to all skills while resolving its effects. If that card is an enemy, it immediately attacks you. If no card is drawn by this effect, shuffle this card back into your deck."/>
   </card>
  </cards>
 </set>
