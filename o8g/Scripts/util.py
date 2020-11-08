@@ -64,6 +64,8 @@ def deserizlizeCard(cardData):
 		card.isFaceUp = cardData['isFaceUp']
 	if 'alternate' in cardData:
 		card.alternate = cardData['alternate']
+	if 'anchor' in cardData:
+	    card.anchor = cardData['anchor']
 	return card
 		
 def serializeCard(card):
@@ -74,6 +76,7 @@ def serializeCard(card):
 	cardData['position'] = card.position
 	cardData['isFaceUp'] = card.isFaceUp
 	cardData['alternate'] = card.alternate
+	cardData['anchor'] = card.anchor
 	#notify("cardData {}".format(str(cardData)))
 	return cardData
 
