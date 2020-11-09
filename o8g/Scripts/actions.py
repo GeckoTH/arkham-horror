@@ -342,6 +342,9 @@ def isEncounterCard(card):
     def isEncounterCard(card):
 	return (card.Type == 'Enemy' or card.Type == 'Treachery') and not(card.Subtype == "Basic Weakness" or card.Subtype == "Weakness")
 
+def isPath(card):
+    return card.Type == 'Path'
+    
 #------------------------------------------------------------
 # Global variable manipulations function
 #------------------------------------------------------------
@@ -1258,6 +1261,10 @@ def discard(card, x=0, y=0):
         notify("{} discards '{}'".format(me, card))
         nextActStage()
         return
+
+    if isPath(card):
+        card.delete()
+        return	        
 	
     if isEncounterCard(card):
         pile = encounterDiscard()   
