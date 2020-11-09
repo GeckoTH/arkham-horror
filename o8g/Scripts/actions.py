@@ -339,7 +339,8 @@ def isChaosToken(card):
     return card.Type == 'Chaos Token'
 
 def isEncounterCard(card):
-    return card.Type == 'Enemy' or card.Type == 'Treachery'
+    def isEncounterCard(card):
+	return (card.Type == 'Enemy' or card.Type == 'Treachery') and not(card.Subtype == "Basic Weakness" or card.Subtype == "Weakness")
 
 #------------------------------------------------------------
 # Global variable manipulations function
