@@ -338,6 +338,13 @@ def isLocationCard(card):
 def isChaosToken(card):
     return card.Type == 'Chaos Token'
 
+def isEncounterCard(card):
+    def isEncounterCard(card):
+	return (card.Type == 'Enemy' or card.Type == 'Treachery') and not(card.Subtype == "Basic Weakness" or card.Subtype == "Weakness")
+
+def isPath(card):
+    return card.Type == 'Path'
+    
 #------------------------------------------------------------
 # Global variable manipulations function
 #------------------------------------------------------------
@@ -1289,16 +1296,20 @@ def discard(card, x=0, y=0):
         notify("{} discards '{}'".format(me, card))
         nextActStage()
         return
-		
-    if isPlayerCard(card):
-        pile = card.owner.piles['Discard Pile']
+
+    if isPath(card):
+        card.delete()
+        return	        
+	
+    if isEncounterCard(card):
+        pile = encounterDiscard()   
     elif isLocationCard(card):
         pile = locationDiscard()
     elif isChaosToken(card):
         pile = chaosBag()
-    else:
-        pile = encounterDiscard()
-        
+    else: #Last choice is player discard
+        pile = card.owner.piles['Discard Pile']
+       
     who = pile.controller
     notify("{} discards '{}'".format(me, card))
     if who != me:
