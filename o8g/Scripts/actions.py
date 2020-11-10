@@ -133,10 +133,10 @@ def getPlayer(id):
             return p
     return None
 
-def countInvestigators(p):
+def countInvestigators():
     investigators = 0
     for card in table:
-        if card.controller == p and card.Type == "Investigator":
+        if card.Type == "Investigator":
             investigators += 1
     return investigators
 
@@ -979,7 +979,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     unlockDeck()
     if doPlayer:
         id = myID() # This ensures we have a unique ID based on our position in the setup order
-        investigatorCount = countInvestigators(me)
+        investigatorCount = countInvestigators()
         
         # Find any Permanent cards
         permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
@@ -1112,7 +1112,17 @@ def inspectCard(card, x = 0, y = 0):
     for k in card.properties:
         if len(card.properties[k]) > 0:
             whisper("{}: {}".format(k, card.properties[k]))
-                                
+
+def autoClues(card):
+    if card.Type == "Location" and card.isFaceUp and card.Clues != '' and card.markers[Clue] == 0:
+        notify("{} adds {} clue(s) on '{}'".format(me, str(card.Clues),card.Name))        
+        if 'π' in card.Clues:
+            nbClue = countInvestigators() * int((card.Clues).replace('π', ''))
+        else:
+            nbClue = int(card.Clues)    
+        for i in repeat(None, nbClue):
+            addToken(card, Clue)
+
 def flipcard(card, x = 0, y = 0):
     mute()
     
@@ -1137,7 +1147,7 @@ def flipcard(card, x = 0, y = 0):
     else:
         card.isFaceUp = True
         notify("{} turns '{}' face up.".format(me, card))
-
+    autoClues(card)
 
 def rotateRight(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
