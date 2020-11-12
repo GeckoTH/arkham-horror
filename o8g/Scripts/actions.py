@@ -1216,7 +1216,14 @@ def markerChanged(args):
         inMythosPhase = True
     
     if card.Type == "Agenda" and args.marker == Doom[0] and inMythosPhase == True and card.properties[Doom[0]] != "":
-        if card.markers[Doom] >= int(card.properties[Doom[0]]):
+        maxDoom = int(card.properties[Doom[0]])
+        agendaId = card._id
+        totalDoom = 0
+        for card in table:
+            if card.markers[Doom] is not None:
+                totalDoom = totalDoom + card.markers[Doom]
+        card = Card(agendaId)
+        if totalDoom >= maxDoom:
             card.highlight = EliminatedColour
         else:
             card.highlight = None
