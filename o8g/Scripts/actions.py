@@ -10,6 +10,9 @@ Doom = ("Doom", "a6605071-57d2-4e7f-b6b4-7809147a565a")
 Lock = ("Lock", "62d688a4-46ef-45be-9414-2257a1221351")
 Action = ("Action", "654ac64a-ff25-42dd-946f-cc15c03448cf")
 
+CurseID = '81df3f18-e341-401d-a6bb-528940a9c39e'
+BlessID = '360db0ee-c362-4bbe-9554-b1fbf101d9ab'
+
 BoardWidth = 1100
 Spacing = 92
 InvestigatorSpacing = 10
@@ -720,6 +723,42 @@ def nextEncounter(group, x, y, facedown, who=me):
     card.controller = who
     if len(group) == 0:
         resetEncounterDeck(group)
+
+def addBless(group=None, x=0, y=0):
+    addBlessCurse(group, True)
+
+def addCurse(group=None, x=0, y=0):
+    addBlessCurse(group, False)
+
+def addBlessCurse(group, isBless, who=me):
+    mute()
+    if chaosBag().controller != me:
+        remoteCall(chaosBag().controller, "addBlessCurse", [group, isBless, me])
+        return
+
+    #Find ChaosBag
+    cb = None
+    for card in table:
+        if card.name != "ChaosBag":
+            continue
+        cb = card
+        break
+
+    if cb == None:
+        notify("You need a Chaos Bag first.")
+        return
+
+    if isBless:
+        token = table.create(BlessID, 0, 0, 1, True)
+        notify("{} puts a Bless Token into the Chaos Bag".format(who))
+        addToken(cb, Damage)
+    else:
+        token = table.create(CurseID, 0, 0, 1, True)
+        notify("{} puts a Curse Token into the Chaos Bag".format(who))
+        addToken(cb, Horror)
+
+    token.moveTo(chaosBag())
+    chaosBag().shuffle()
 
 def nextLocation(group, x, y, who=me):
     mute()
