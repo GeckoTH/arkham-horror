@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="d1fbe03b-a161-4e78-9fe9-c3f478a82a5a">Awakening</card>
     <card qty="1" id="bdc9b1f4-7c96-4feb-b183-2cf87876e4ed">The Water Rises</card>
@@ -37,7 +29,6 @@
     <card qty="2" id="cc48648c-9863-4a54-a5e1-de417d343fe1">Tidal Tunnel</card>
     <card qty="2" id="ec41c5f3-740c-457c-83aa-acf6a8106621">Tidal Tunnel</card>
   </section>
-  <section name="Special" shared="True" />
   <section name="Second Special" shared="True">
     <card qty="1" id="886dfb3e-a983-4434-8ca1-3ce038ac0685">Unidentified Key</card>
     <card qty="1" id="7be6a43f-c466-493d-b8ee-52bd2127b6a3">Unidentified Key</card>
@@ -49,13 +40,21 @@
     <card qty="2" id="b63ea51c-24cf-4b3b-930f-ffb5fc265be7">Blindsense</card>
     <card qty="3" id="1ea5cc28-8cdb-4511-9764-686b40d6e320">From the Depths</card>
   </section>
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="6c513e5f-385f-47e8-bfbe-9f5396519751">The Pit of Despair</card>
     <card qty="1" id="cbfef32f-9e2e-43c1-8e6e-1e74c17ff929">Unfamiliar Chamber</card>
     <card qty="1" id="d0dc772e-3d01-41c6-b836-25513b1a150e">Unidentified Key</card>
     <card qty="1" id="b3839fb3-d093-46ab-87ef-20e8c9a7a69f">Unidentified Key</card>
-    <card qty="1" id="ebaef541-8b0a-4394-9eb3-348b6b1d88e4">Tidal Tunnel</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

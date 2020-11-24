@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="In Too Deep" id="10a93b72-81d0-4dc4-ab12-adde4b119a38" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="b8a96a63-b515-4d9d-8710-2cb8a9c857d8" name="Riot Whistle">
+      <property name="Card Number" value="108" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool." />
+      <property name="Text" value="You may take an additional action during your turn, which can only be used to engage." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fe4f0344-2f70-4c90-9772-d2f46474c080" name="Righteous Hunt">
+      <property name="Card Number" value="109" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Blessed." />
+      <property name="Text" value="Engage. Choose an enemy up to 2 locations away. Move (one location at a time) to that enemy’s location, engage it, and add [Bless] tokens to the chaos bag equal to that enemy’s horror value." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="710b0bc9-9018-4724-9b93-03c1afe49c9e" name="Sacred Covenant">
+      <property name="Card Number" value="110" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Covenant. Blessed." />
+      <property name="Text" value="Permanent. Limit 1 Covenant per deck.&#10;ι After an investigator at any location performs the “reveal chaos token” step of a skill test, exhaust Sacred Covenant: Return any number of [Bless] tokens revealed during this test to the chaos bag, ignoring their modifiers for this test." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7900a33a-4b68-4004-a036-9c243a2aee00" name="Eldritch Sophist">
+      <property name="Card Number" value="111" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Miskatonic." />
+      <property name="Text" value="Uses (3 secrets).&#10;θ Exhaust Eldritch Sophist: Move 1 secret or charge from an asset you control to another asset controlled by an investigator at your location." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bd7f9181-57c6-4b8d-99be-57af47fb2980" name="Stirring Up Trouble">
+      <property name="Card Number" value="112" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Cursed." />
+      <property name="Text" value="As an additional cost to play Stirring Up Trouble, add [Curse] tokens to the chaos bag equal to your location’s shroud value.&#10;Discover 2 clues at your location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="88eb5a9e-37c2-47af-b7a4-1503349b922c" name="Blasphemous Covenant">
+      <property name="Card Number" value="113" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Covenant. Cursed." />
+      <property name="Text" value="Permanent. Limit 1 Covenant per deck.&#10;ι When an investigator at your location reveals a [Curse] token during a skill test, exhaust Blasphemous Covenant: Treat that token’s modifier as +1 instead of its normal modifier. After this test ends, return that token to the chaos bag." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="33a3ef72-65cc-4ce2-a616-8af053d89bd3" name="Breaking and Entering">
+      <property name="Card Number" value="114" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick." />
+      <property name="Text" value="Investigate. Add your ί value to your skill value for this investigation. If you succeed by 2 or more, you may automatically evade an enemy at this location. This action does not provoke attacks of opportunity." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d158111b-e4d3-4a3b-9c0b-08ff4ecb8c19" name="Skeptic">
+      <property name="Card Number" value="115" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced." />
+      <property name="Text" value="During this skill test, treat the modifier of each [Bless] and each [Curse] token as +1 instead of its normal modifier." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9af28f4b-a49c-4d94-8108-c68a098832cf" name="False Covenant">
+      <property name="Card Number" value="116" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Covenant. Cursed." />
+      <property name="Text" value="Permanent. Limit 1 Covenant per deck.ι When an investigator at your location reveals a [Curse] token during a skill test, exhaust False Covenant: Cancel that chaos token, return it to the token pool, and reveal another token." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fc4bb903-2d2b-49fe-a49a-c20883ed1d83" name="Armageddon">
+      <property name="Card Number" value="117" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell. Cursed." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Fight. This attack uses ά instead of ή and deals +1 damage. If a [Curse] token is revealed during this attack, you may deal 1 damage to an enemy at your location or place 1 charge on Armageddon." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="adc65c42-5c49-40f6-afc6-b63d6849b6ce" name="Eye of Chaos">
+      <property name="Card Number" value="118" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell. Cursed." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Investigate. Investigate using ά instead of έ. If you succeed, discover 1 additional clue at this location. If a [Curse] token is revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="5" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="763bc26f-4252-4165-9891-909d2d87bd3b" name="Shroud of Shadows">
+      <property name="Card Number" value="119" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell. Cursed." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Evade. This evasion attempt uses ά instead of ί. If you succeed and the evaded enemy is non-Elite, you may move that enemy to a connecting location. If a [Curse] token is revealed during this evasion attempt, you may move to a connecting location or place 1 charge on Shroud of Shadows." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="80732eef-d5bc-4416-95a0-3f43903ffdb4" name="Paradoxical Covenant">
+      <property name="Card Number" value="120" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Covenant. Blessed. Cursed." />
+      <property name="Text" value="Permanent. Limit 1 Covenant per deck.&#10;ι After an investigator at your location performs the “reveal chaos token” step of a skill test, if both a [Bless] token and a [Curse] token were revealed during that test, exhaust Paradoxical Covenant: This test automatically succeeds. (Remove each [Bless] and [Curse] token revealed from the chaos bag after this test ends.)" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="56355c22-7b1b-473a-9f1c-788a1d6d66fe" name="Mariner’s Compass">
+      <property name="Card Number" value="121" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool." />
+      <property name="Text" value="η Exhaust Mariner’s Compass: Investigate. If you succeed and have no resources in your resource pool, discover 1 additional clue at your location.&#10;θ During an investigation using Mariner’s Compass, spend 1 resource: You get +1 έ for this skill test. (Limit three times per investigation.)" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="08e6c853-6f84-45be-92a7-2c5c1a69f108" name="Ancient Covenant">
+      <property name="Card Number" value="122" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Covenant. Blessed." />
+      <property name="Text" value="Permanent. Limit 1 Covenant per deck.&#10;ι When an investigator at your location resolves a [Bless] token during a skill test, exhaust Ancient Covenant: Do not reveal another token as part of this [Bless] token’s effect." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="969bd6ba-0813-452c-bdc0-a845ac25b146" name="In Too Deep" size="EncounterCard">
+      <property name="Card Number" value="123" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 for each location to the east of your location (on the same row).&#10;β: –2. If you fail, move to the connecting location to the east, ignoring all barriers.&#10;γ: –3. If you fail, choose a connecting location with no barriers between it and your location. Place 1 barrier between the two locations.&#10;δ: –X. X is the number of barriers between your location and all connecting locations." />
+      <alternate name="In Too Deep" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –2 for each location to the east of your location (on the same row).&#10;β: –4. If you fail, move to the connecting location to the east, ignoring all barriers.&#10;γ: –5. If you fail, choose a connecting location with no barriers between it and your location. Place 1 barrier between the two locations.&#10;δ: –X. X is twice the number of barriers between your location and all connecting locations." />
+      </alternate>
+    </card>
+    <card id="cc6d2023-8118-4452-91ea-7dca26dfb05b" name="Barricaded Streets" size="HorizCard">
+      <property name="Card Number" value="124" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Suspect enemy loses aloof and cannot be parleyed with.&#10;Forced – When your turn ends, if you are at a fully flooded location: Take 1 damage." />
+      <property name="Doom" value="6" />
+      <alternate name="Chased by Deep Ones" type="B" size="HorizCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Increase the flood level of each Coastal location.&#10;Shuffle each set-aside Ravager from the Deep and Young Deep One enemy into the encounter deck, along with the encounter discard pile." />
+      </alternate>
+    </card>
+    <card id="41a9a475-5a5a-40b1-ac2c-4cabe3d41c71" name="Relentless Tide" size="HorizCard">
+      <property name="Card Number" value="125" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Suspect enemy loses aloof and cannot be parleyed with.&#10;Forced – When your turn ends, if you are at a fully flooded location: Take 1 damage and 1 horror." />
+      <property name="Doom" value="5" />
+      <alternate name="Pursued by Townsfolk" type="B" size="HorizCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Increase the flood level of each Midtown location.&#10;Spawn the set-aside Angry Mob at Innsmouth Square. Randomly choose 1 of the set-aside facedown keys and place it on Angry Mob without looking at it." />
+      </alternate>
+    </card>
+    <card id="6d678069-407d-42f9-86d7-eda7ebed5015" name="Flooded Streets" size="HorizCard">
+      <property name="Card Number" value="126" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Suspect enemy loses aloof and cannot be parleyed with.&#10;Forced – When your turn ends, if you are at a fully flooded location: Take 1 damage, 1 horror, and discard 1 card at random from your hand." />
+      <property name="Doom" value="4" />
+      <alternate name="Closing In" type="B" size="HorizCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Increase the flood level of each location.&#10;In player order, each investigator draws 1 encounter card." />
+      </alternate>
+    </card>
+    <card id="8a703d53-612e-4647-86d6-b873ec8c25fb" name="Rage of the Deep" size="HorizCard">
+      <property name="Card Number" value="127" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Subtitle" value="Agenda 4a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each Suspect enemy loses aloof and cannot be parleyed with.&#10;Forced – When your turn ends, if you are at a fully flooded location: Take 1 damage, 1 horror, and discard 2 cards at random from your hand." />
+      <property name="Doom" value="3" />
+      <alternate name="Swallowed by the Sea" type="B" size="HorizCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Subtitle" value="Agenda 4b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="In your Campaign Log, record Innsmouth was consumed by the rising tide.&#10;Each investigator that has not resigned is defeated and suffers 1 physical trauma." />
+      </alternate>
+    </card>
+    <card id="9d62504b-f5e5-4a7e-84e3-d1bea24310de" name="Through the Labyrinth" size="HorizCard">
+      <property name="Card Number" value="128" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Spend 1π+1 clues, as a group: Remove 1 barrier between your location and a connecting location.&#10;Objective – Get to the Railroad Station! If each surviving investigator has resigned, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Out of Town" type="B" size="HorizCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="In your Campaign Log, record the investigators made it safely to their vehicles.&#10;(→R1)" />
+      </alternate>
+    </card>
+    <card id="693ca7d8-ee57-4166-9ed6-48f623fc8f94" name="Esoteric Order of Dagon" size="EncounterCard">
+      <property name="Card Number" value="129" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Midtown." />
+      <alternate name="Esoteric Order of Dagon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Midtown." />
+        <property name="Text" value="Forced – After this location is revealed: Randomly choose 1 of the set-aside facedown keys and place it on this location without looking at it.&#10;η η: Parley. Test έ (3). If you succeed, remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="1605c7ba-0314-46b2-97c0-19f10c262546" name="Sawbone Alley" size="EncounterCard">
+      <property name="Card Number" value="130" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="Sawbone Alley" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="η: Parley. Test ά (1π). If you succeed, remove 1 barrier between this location and a connecting location.&#10;θ If the investigators control 7 keys, as a group: Parley. Read Flashback VII in the Campaign Guide." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="c0b1d438-bdfe-41dd-a4ef-d3d1b00aab92" name="Shoreward Slums" size="EncounterCard">
+      <property name="Card Number" value="131" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Coastal. Midtown." />
+      <alternate name="Shoreward Slums" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Coastal. Midtown." />
+        <property name="Text" value="Forced – After this location is revealed: Randomly choose 1 of the set-aside facedown keys and place it on this location without looking at it.&#10;θ Take 1 damage: Parley. Remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="efa4e39c-3c5f-42b2-ba6b-8c650838d7ba" name="The House on Water Street" size="EncounterCard">
+      <property name="Card Number" value="132" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Coastal." />
+      <alternate name="The House on Water Street" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Coastal." />
+        <property name="Text" value="Forced – After this location is revealed: Randomly choose 1 of the set-aside facedown keys and place it on this location without looking at it.&#10;θ Choose and discard 1 card from your hand: Parley. Remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="861496ad-39b2-4300-a1fd-12d27d822250" name="Innsmouth Jail" size="EncounterCard">
+      <property name="Card Number" value="133" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Midtown." />
+      <alternate name="Innsmouth Jail" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Midtown." />
+        <property name="Text" value="η Spend 3 resources: Parley. Remove 1 barrier between this location and a connecting location.&#10;θ If you control the black key: Parley. Read Flashback VIII in the Campaign Guide." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="37663194-dedb-450b-aab5-1f46811ef613" name="New Church Green" size="EncounterCard">
+      <property name="Card Number" value="134" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Midtown." />
+      <alternate name="New Church Green" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Midtown." />
+        <property name="Text" value="Forced – After this location is revealed: Randomly choose 1 of the set-aside facedown keys and place it on this location without looking at it.&#10;η If there are no clues on this location: Parley. Remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="560dedc9-2058-4bca-a981-48f4a56b13c2" name="The Little Bookshop" size="EncounterCard">
+      <property name="Card Number" value="135" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="The Little Bookshop" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="η η Draw the top card of the encounter deck: Parley. Remove 1 barrier between this location and a connecting location.&#10;θ If the investigators control 5 or more keys, as a group: Parley. Read Flashback VI in the Campaign Guide." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="7fc45f01-5bd3-4ab4-a558-f02f33168726" name="Fish Street Bridge" size="EncounterCard">
+      <property name="Card Number" value="136" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Coastal. Midtown." />
+      <alternate name="Fish Street Bridge" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Coastal. Midtown." />
+        <property name="Text" value="Fish Street Bridge gets +1 shroud for each barrier between it and any connecting location.&#10;η Add 2 [Curse] tokens to the chaos bag: Parley. Remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="c8ad1bf6-d3a2-4607-9000-f4904804e744" name="First National Grocery" size="EncounterCard">
+      <property name="Card Number" value="137" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Midtown." />
+      <alternate name="First National Grocery" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Midtown." />
+        <property name="Text" value="Forced – After you enter this location from a connecting location: Place 1 barrier between both locations.&#10;η: Parley. Test your lowest skill (2). If you succeed, remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="78cec4e1-0565-4355-9ef8-d533bf832f74" name="Innsmouth Harbour" size="EncounterCard">
+      <property name="Card Number" value="138" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Coastal." />
+      <alternate name="Innsmouth Harbour" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Coastal." />
+        <property name="Text" value="ι After you enter this location: Move to The House on Water Street.&#10;η η: Parley. Remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="350c5d61-d8e8-41ec-8c3d-79ce4596ec2e" name="Innsmouth Square" size="EncounterCard">
+      <property name="Card Number" value="139" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Midtown." />
+      <alternate name="Innsmouth Square" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Midtown." />
+        <property name="Text" value="Forced – After this location is revealed: Spawn the set-aside Innsmouth Shoggoth at this location, exhausted.&#10;η: Parley. Move 1 barrier between this location and a connecting location so it is between this location and a different connecting location.&#10;θ If the investigators control 2 or more keys, as a group: Parley. Read Flashback V in the Campaign Guide." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="dcd0aa39-3be3-4ebb-a2da-55786e357391" name="Gilman House" size="EncounterCard">
+      <property name="Card Number" value="140" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Midtown." />
+      <alternate name="Gilman House" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Midtown." />
+        <property name="Text" value="Forced – After this location is revealed: Randomly choose 1 of the set-aside facedown keys and place it on this location without looking at it.&#10;η: Parley. Test ή (2) or ί (2). If you succeed, remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="fe00f48b-3d14-4e64-9ec8-373e271cd3c6" name="Marsh Refinery" size="EncounterCard">
+      <property name="Card Number" value="141" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Coastal. Midtown." />
+      <alternate name="Marsh Refinery" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Coastal. Midtown." />
+        <property name="Text" value="θ If you control 1 or more keys: Move to a connecting location.&#10;η Discard an asset you control: Parley. Remove 1 barrier between this location and a connecting location." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="933d06de-bf43-4eb5-9054-70ccf087376c" name="Railroad Station" size="EncounterCard">
+      <property name="Card Number" value="142" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth." />
+      <alternate name="Railroad Station" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth." />
+        <property name="Text" value="Forced – After you enter this location, if it is flooded: Test ί (2). If you fail, take 1 damage.&#10;η: Resign. You escape the submerged town." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="ff98004f-c081-4734-a4b6-e7b6fdfbd4d1" name="Desolate Coastline" size="EncounterCard">
+      <property name="Card Number" value="143" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Innsmouth. Coastal." />
+      <alternate name="Desolate Coastline" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="In Too Deep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Innsmouth. Coastal." />
+        <property name="Text" value="Card effects cannot place barriers between Desolate Coastline and connecting locations." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1" />
+      </alternate>
+    </card>
+    <card id="1efd7adc-6a27-4fbd-8a1a-aa8180505220" name="Innsmouth Shoggoth" size="EncounterCard">
+      <property name="Card Number" value="144" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Shoggoth. Elite." />
+      <property name="Text" value="Hunter. Massive.&#10;Innsmouth Shoggoth gets +2π health.&#10;When Innsmouth Shoggoth moves via its hunter keyword, it ignores all barriers.&#10;Forced – After Innsmouth Shoggoth moves: Remove each barrier it moved through." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="73728685-799d-4258-9e9f-1c5ae3577d1f" name="Ravager from the Deep" size="EncounterCard">
+      <property name="Card Number" value="145" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Hunter.&#10;While its location is flooded, Ravager from the Deep gets +1 fight and +1 evade (+2 fight and +2 evade instead if its location is fully flooded).&#10;Forced – After Ravager from the Deep engages you: Test ή (2). If you fail, place 1 barrier between your location and the connecting location to the west." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="cb28b4dc-09ea-4131-b7da-725b52244fd2" name="Emerging Deep One" size="EncounterCard">
+      <property name="Card Number" value="146" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Hunter.&#10;Revelation – Emerging Deep One enters play exhausted and unengaged unless its location is fully flooded.&#10;Forced – After Emerging Deep One engages you, if your location is flooded: It attacks you." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="0795099a-ddc0-4f6f-8297-f85a04778bc8" name="Deep One Invasion" size="EncounterCard">
+      <property name="Card Number" value="147" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Shuffle the encounter discard pile into the encounter deck. For each location to the east of your location (on the same row), discard cards from the top of the encounter deck until a Deep One enemy with the hunter keyword is discarded and spawn that enemy at that location." />
+    </card>
+    <card id="46bff8cb-0f41-4563-aa59-7b29f78bd3b7" name="Pulled Back" size="EncounterCard">
+      <property name="Card Number" value="148" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ά (3). If you fail, move to the connecting location to the east, ignoring all barriers. Then place each key you control on your location." />
+    </card>
+    <card id="64f9c498-efc5-4e46-a705-d7ba78e2a615" name="Inundated" size="EncounterCard">
+      <property name="Card Number" value="149" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Place 1 barrier between this location and each connecting location with no barriers between them. If no barriers are placed by this effect, Inundated gains surge." />
+    </card>
+    <card id="8a1a2a4b-92ee-43a6-a9b9-48911e1e7cfd" name="Joe Sargent">
+      <property name="Card Number" value="150" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Subtitle" value="Rattletrap Bus Driver" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Hybrid." />
+      <property name="Text" value="Uses (3 tickets).&#10;Forced – When Joe Sargent leaves play: Remove him from the game.&#10;θ Spend 1 ticket: Move to a connecting location that is not fully flooded." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="0" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="48dc5e9f-0496-4dcb-8b37-0aeaf043dc35" name="Teachings of the Order">
+      <property name="Card Number" value="151" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="In Too Deep" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Permanent.&#10;θ Exhaust Teachings of the Order and choose one effect you have not yet chosen this campaign:&#10;– Remove all [Curse] tokens from the chaos bag.&#10;– Remove a flood token from a non-Sanctum location.&#10;– Defeat a non-Elite enemy at your location." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+  </cards>
+</set>
