@@ -9,6 +9,8 @@ Horror = ("Horror", "9461c5e5-1aa8-4286-88f1-01661a8aaa02")
 Doom = ("Doom", "a6605071-57d2-4e7f-b6b4-7809147a565a")
 Lock = ("Lock", "62d688a4-46ef-45be-9414-2257a1221351")
 Action = ("Action", "654ac64a-ff25-42dd-946f-cc15c03448cf")
+Curse = ("Curse", "f59396af-8536-4a82-96d3-6cefdc849103")
+Bless = ("Bless", "aad7ef0b-5806-4884-b420-c36a2d417bf7")
 
 CurseID = '81df3f18-e341-401d-a6bb-528940a9c39e'
 BlessID = '360db0ee-c362-4bbe-9554-b1fbf101d9ab'
@@ -730,6 +732,23 @@ def addBless(group=None, x=0, y=0):
 def addCurse(group=None, x=0, y=0):
     addBlessCurse(group, False)
 
+def updateBlessCurse():
+    c = 0
+    b = 0
+    for t in chaosBag():
+        if t.Name == "Bless":
+            b += 1
+        elif t.Name == "Curse":
+            c += 1
+    cb = None
+    for card in table:
+        if card.name != "ChaosBag":
+            continue
+        cb = card
+        break
+    cb.markers[Curse] = c
+    cb.markers[Bless] = b
+
 def addBlessCurse(group, isBless, who=me):
     mute()
     if chaosBag().controller != me:
@@ -748,15 +767,22 @@ def addBlessCurse(group, isBless, who=me):
         notify("You need a Chaos Bag first.")
         return
 
+    #check current Tokens in Bag
+    updateBlessCurse()
+    if ((cb.markers[Bless] >= 10) and isBless) or ((cb.markers[Curse] >= 10) and not isBless):
+        notify("There are only 10 Bless and Curse tokens each allowed.")
+        return
+
     if isBless:
         token = table.create(BlessID, 0, 0, 1, True)
         notify("{} puts a Bless Token into the Chaos Bag".format(who))
-        addToken(cb, Damage)
+        addToken(cb, Bless)
     else:
         token = table.create(CurseID, 0, 0, 1, True)
         notify("{} puts a Curse Token into the Chaos Bag".format(who))
-        addToken(cb, Horror)
+        addToken(cb, Curse)
 
+    token.SubType = "Blurse"
     token.moveTo(chaosBag())
     chaosBag().shuffle()
 
@@ -1341,8 +1367,12 @@ def discardSpecial(card, x=0, y=0):
 
 def doDiscard(player, card, pile):
     mute()
-    if (card.Subtype == "Sealed") and (pile == chaosBag()):
-        card.Subtype = ""
+    if pile == chaosBag():
+        if card.Subtype == "Sealed":
+            card.Subtype = ""
+        if (card.Name == "Bless") or (card.Name == "Curse"):
+            card.delete()
+            return
     card.moveTo(pile)
 
 def shuffleIntoDeck(card, x=0, y=0, player=me):
@@ -1593,7 +1623,10 @@ def drawPileToTable(player, group, x, y):
     card.moveToTable(x, y)
     #failsave for sealed attribute
     if card.Type == "Chaos Token" and card.Subtype == "Sealed":
-        card.Subtype = ""
+        if (card.Name == "Bless") or (card.Name == "Curse"):
+            card.Subtype = "Blurse"
+        else:
+            card.Subtype = ""
     notify("{} draws {} from the {}.".format(player, card.name, group.name))
     return card
     
@@ -1607,7 +1640,7 @@ def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 
         if replace:
             # check for existing chaos token on table
             table_chaos_tokens = [card for card in table
-                if (card.Type == 'Chaos Token') and (card.Subtype != 'Sealed')]
+                if (card.Type == 'Chaos Token') and (card.Subtype != 'Sealed') and (card.Subtype != 'Blurse')]
             for token in table_chaos_tokens:
                 if token.controller == me:
                     token.moveTo(chaosBag())
@@ -1616,7 +1649,7 @@ def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 
             chaosBag().shuffle()
   
         drawPileToTable(player, chaosBag(), ChaosTokenX + xMod, ChaosTokenY + yMod)
-        
+        updateBlessCurse()
     else:
         remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me, chaosBag(), x, y, replace])
     
