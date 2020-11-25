@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="cc6d2023-8118-4452-91ea-7dca26dfb05b">Barricaded Streets</card>
+    <card qty="1" id="41a9a475-5a5a-40b1-ac2c-4cabe3d41c71">Relentless Tide</card>
+    <card qty="1" id="6d678069-407d-42f9-86d7-eda7ebed5015">Flooded Streets</card>
+    <card qty="1" id="8a703d53-612e-4647-86d6-b873ec8c25fb">Rage of the Deep</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="9d62504b-f5e5-4a7e-84e3-d1bea24310de">Through the Labyrinth</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="cb28b4dc-09ea-4131-b7da-725b52244fd2">Emerging Deep One</card>
+    <card qty="1" id="0795099a-ddc0-4f6f-8297-f85a04778bc8">Deep One Invasion</card>
+    <card qty="2" id="46bff8cb-0f41-4563-aa59-7b29f78bd3b7">Pulled Back</card>
+    <card qty="3" id="64f9c498-efc5-4e46-a705-d7ba78e2a615">Inundated</card>
+    <card qty="1" id="8cb9eeaa-d308-4e42-a7e3-8aa2fd918a63">Deep One Bull</card>
+    <card qty="3" id="391bd985-3a45-4cfd-9352-5f9de4b2de57">Lurking Deep One</card>
+    <card qty="2" id="41ce48de-71df-40bb-ab77-974f3a22854f">Deep One Assault</card>
+    <card qty="2" id="bc9313d6-9726-4a75-a980-28b389c46124">Undertow</card>
+    <card qty="2" id="d304fcd1-2352-4431-8a7b-0fa23124ac2a">Rising Tides</card>
+    <card qty="2" id="7d7aaf41-b118-409a-aaef-810e7339c2d5">Riptide</card>
+    <card qty="2" id="d562fa63-5211-4e61-aa5c-43262f02a758">Tidal Alignment</card>
+    <card qty="2" id="b58c74c7-88c8-4b1f-b1b8-96851ed1b00e">Syzygy</card>
+    <card qty="2" id="41d6da20-b172-45e3-9763-030c346c8826">Innsmouth Troublemaker</card>
+    <card qty="2" id="f09ddcd1-fbc5-4c6e-8a7b-80a2237db1f1">Innsmouth Look</card>
+    <card qty="2" id="f6b84074-67e5-4446-bb58-9e3ebfd94cde">Furtive Locals</card>
+    <card qty="2" id="395200b6-5e2f-4217-9cb2-005590d81407">Dreams of R'lyeh</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="886dfb3e-a983-4434-8ca1-3ce038ac0685">Unidentified Key</card>
+    <card qty="1" id="d0dc772e-3d01-41c6-b836-25513b1a150e">Unidentified Key</card>
+    <card qty="1" id="b3839fb3-d093-46ab-87ef-20e8c9a7a69f">Unidentified Key</card>
+    <card qty="1" id="7be6a43f-c466-493d-b8ee-52bd2127b6a3">Unidentified Key</card>
+    <card qty="1" id="810ae644-a5c2-4a89-bd56-c649377c767b">Unidentified Key</card>
+    <card qty="1" id="8f2e9c68-13bb-4760-98cb-d4f03e02ae85">Unidentified Key</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="2" id="73728685-799d-4258-9e9f-1c5ae3577d1f">Ravager from the Deep</card>
+    <card qty="2" id="93ab8531-db48-4ee6-b818-4da27752d578">Young Deep One</card>
+    <card qty="1" id="8a1a2a4b-92ee-43a6-a9b9-48911e1e7cfd">Joe Sargent</card>
+    <card qty="1" id="48dc5e9f-0496-4dcb-8b37-0aeaf043dc35">Teachings of the Order</card>
+    <card qty="1" id="1efd7adc-6a27-4fbd-8a1a-aa8180505220">Innsmouth Shoggoth</card>
+    <card qty="1" id="8251e93d-11b5-487c-bf58-e1608bf89d1f">Finding Agent Harper</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="969bd6ba-0813-452c-bdc0-a845ac25b146">In Too Deep</card>
+    <card qty="1" id="693ca7d8-ee57-4166-9ed6-48f623fc8f94">Esoteric Order of Dagon</card>
+    <card qty="1" id="1605c7ba-0314-46b2-97c0-19f10c262546">Sawbone Alley</card>
+    <card qty="1" id="c0b1d438-bdfe-41dd-a4ef-d3d1b00aab92">Shoreward Slums</card>
+    <card qty="1" id="efa4e39c-3c5f-42b2-ba6b-8c650838d7ba">The House on Water Street</card>
+    <card qty="1" id="861496ad-39b2-4300-a1fd-12d27d822250">Innsmouth Jail</card>
+    <card qty="1" id="37663194-dedb-450b-aab5-1f46811ef613">New Church Green</card>
+    <card qty="1" id="560dedc9-2058-4bca-a981-48f4a56b13c2">The Little Bookshop</card>
+    <card qty="1" id="7fc45f01-5bd3-4ab4-a558-f02f33168726">Fish Street Bridge</card>
+    <card qty="1" id="c8ad1bf6-d3a2-4607-9000-f4904804e744">First National Grocery</card>
+    <card qty="1" id="78cec4e1-0565-4355-9ef8-d533bf832f74">Innsmouth Harbour</card>
+    <card qty="1" id="350c5d61-d8e8-41ec-8c3d-79ce4596ec2e">Innsmouth Square</card>
+    <card qty="1" id="dcd0aa39-3be3-4ebb-a2da-55786e357391">Gilman House</card>
+    <card qty="1" id="fe00f48b-3d14-4e64-9ec8-373e271cd3c6">Marsh Refinery</card>
+    <card qty="1" id="933d06de-bf43-4eb5-9054-70ccf087376c">Railroad Station</card>
+    <card qty="1" id="ff98004f-c081-4734-a4b6-e7b6fdfbd4d1">Desolate Coastline</card>
+    <card qty="1" id="c1013de0-742a-4627-b8fa-a347951fc00d">Unidentified Key</card>
+    <card qty="24" id="9daa887c-a121-4a4b-8346-a6249f68f43d">Resource Token</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
