@@ -448,7 +448,7 @@ def autoCharges(args):
     if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
         if len(args.cards) == 1:
             card = args.cards[0]
-            if card.controller == me:
+            if card.controller == me and card.properties["Type"] == "Asset":
                 #Capture text between (...)
                 description_search = re.search('.*\((.*)\).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
