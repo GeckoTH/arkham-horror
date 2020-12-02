@@ -453,25 +453,27 @@ def autoCharges(args):
                 description_search = re.search('.*\((.*)\).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
                     strCharges = description_search.group(1)
-                    if "ammo"  in strCharges:
-                        word = "ammo"
-                        strCharges = strCharges.replace("ammo", "")
-                    elif "charges" in strCharges:
-                        word = "charges"
-                        strCharges = strCharges.replace("charges", "")
-                    elif "secrets" in strCharges:
-                        word = "secrets"
-                        strCharges = strCharges.replace("secrets", "")         
-                    elif "supplies" in strCharges:
-                        word = "supplies"
-                        strCharges = strCharges.replace("supplies", "")
-                    strCharges = strCharges.replace(" ", "")
-                    if strCharges == "X":
-                        notify("Sorry, no automate for X on {}".format(card.name))
-                    elif strCharges.isnumeric():
-                        notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
-                        for i in range(0, int(strCharges)):
-                            addResource(card)
+                    # it 's only test like (4)
+                    if not strCharges.isnumeric():
+                        if "ammo"  in strCharges:
+                            word = "ammo"
+                            strCharges = strCharges.replace("ammo", "")
+                        elif "charges" in strCharges:
+                            word = "charges"
+                            strCharges = strCharges.replace("charges", "")
+                        elif "secrets" in strCharges:
+                            word = "secrets"
+                            strCharges = strCharges.replace("secrets", "")         
+                        elif "supplies" in strCharges:
+                            word = "supplies"
+                            strCharges = strCharges.replace("supplies", "")
+                        strCharges = strCharges.replace(" ", "")
+                        if strCharges == "X":
+                            notify("Sorry, no automate for X on {}".format(card.name))
+                        elif strCharges.isnumeric():
+                            notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
+                            for i in range(0, int(strCharges)):
+                                addResource(card)
 
 #Triggered event OnLoadDeck
 # args: player, cards, fromGroups, toGroups, indexs, xs, ys, highlights, markers, faceups, filters, alternates
