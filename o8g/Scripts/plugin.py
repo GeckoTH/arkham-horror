@@ -54,20 +54,20 @@ def saveTable(group, x=0, y=0):
 		players = sorted(getPlayers(), key=lambda x: x._id, reverse=False)
 		tab['players'] = [serializePlayer(pl) for pl in players]
 	
-		dir = wd('table-state-{}.json'.format('{:%Y%m%d%H%M%S}'.format(dt.now())))
-		if 'GameDatabase' in dir:
-			filename = dir.replace('GameDatabase','Decks').replace('a6d114c7-2e2a-4896-ad8c-0330605c90bf','Arkham Horror - The Card Game')
-		else:
-			filename = "Decks\Arkham Horror - The Card Game".join(dir.rsplit('OCTGN',1))
+		#dir = wd('table-state-{}.json'.format('{:%Y%m%d%H%M%S}'.format(dt.now())))
+		#if 'GameDatabase' in dir:
+		#	filename = dir.replace('GameDatabase','Decks').replace('a6d114c7-2e2a-4896-ad8c-0330605c90bf','Arkham Horror - The Card Game')
+		#else:
+		#	filename = "Decks\Arkham Horror - The Card Game".join(dir.rsplit('OCTGN',1))
 		
-		filename = askString('Please input the path to save the game state', filename)
-		
+		#filename = askString('Please input the path to save the game state', filename)
+		filename = saveFileDlg('', '', 'Json Files|*.json')
 		if filename == None:
 			return
 		
 		with open(filename, 'w+') as f:
 			f.write(json().Serialize(tab))
-		
+				
 		notify("Table state saves to {}".format(filename))
 	finally:
 		clearLock()
@@ -84,17 +84,18 @@ def loadTable(group, x=0, y=0):
 		return
 	
 	try:
-		dir = wd('table-state.json')
-		if 'GameDatabase' in dir:
-			filename = dir.replace('GameDatabase','Decks').replace('a6d114c7-2e2a-4896-ad8c-0330605c90bf','Arkham Horror - The Card Game')
-		else:
-			filename = "Decks\Arkham Horror - The Card Game".join(dir.rsplit('OCTGN',1))
+		#dir = wd('table-state.json')
+		#if 'GameDatabase' in dir:
+		#	filename = dir.replace('GameDatabase','Decks').replace('a6d114c7-2e2a-4896-ad8c-0330605c90bf','Arkham Horror - The Card Game')
+		#else:
+		#	filename = "Decks\Arkham Horror - The Card Game".join(dir.rsplit('OCTGN',1))
 
-		filename = askString('Please provide the file path to load the table states', filename)
+		#filename = askString('Please provide the file path to load the table states', filename)
 		
-		if filename == None:
-			return
-		
+		#if filename == None:
+		#	return
+		filename = openFileDlg('', '', 'Json Files|*.json')
+
 		with open(filename, 'r') as f:
 			tab = json().DeserializeObject(f.read())
 		
@@ -115,8 +116,11 @@ def loadTable(group, x=0, y=0):
 		if tab['players'] is not None and len(tab['players']) > 0:
 			for player in tab['players']:
 				deserializePlayer(player)
-
-		notify("Successfully load table state from {}".format(filename))
+		
+		if "Setup.json" in filename:	
+			for cardT in table:
+				loadClues(cardT)
+		
 	finally:
 		clearLock()
 
