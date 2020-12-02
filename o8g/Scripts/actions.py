@@ -138,10 +138,10 @@ def getPlayer(id):
             return p
     return None
 
-def countInvestigators(p):
+def countInvestigators():
     investigators = 0
     for card in table:
-        if card.controller == p and card.Type == "Investigator":
+        if card.Type == "Investigator":
             investigators += 1
     return investigators
 
@@ -343,6 +343,12 @@ def isLocationCard(card):
 def isChaosToken(card):
     return card.Type == 'Chaos Token'
 
+def isEncounterCard(card):
+	return (card.Type == 'Enemy' or card.Type == 'Treachery') and card.Subtype not in ["Weakness", "Basic Weakness"]
+
+def isPath(card):
+    return card.Type == 'Path'
+    
 #------------------------------------------------------------
 # Global variable manipulations function
 #------------------------------------------------------------
@@ -439,8 +445,55 @@ def startOfGame():
     # NEW
     #---------------------------------------------------------------------------
     setGlobalVariable("currentPlayers",str([]))
-    
-  
+
+def autoClues(args):
+    mute()
+    #Only for move card from Pile to Table
+    if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
+        if len(args.cards) == 1:
+            card = args.cards[0]
+            if card.controller == me and card.properties["Type"] == "Location":
+                loadClues(card) 
+
+def autoCharges(args):
+    mute()
+    #Only for move card from Pile to Table
+    if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
+        if len(args.cards) == 1:
+            card = args.cards[0]
+            if card.controller == me and card.properties["Type"] == "Asset":
+                #Capture text between (...)
+                description_search = re.search('.*\((.*)\).*', card.properties["Text"], re.IGNORECASE)
+                if description_search:
+                    strCharges = description_search.group(1)
+                    # it 's only test like (4)
+                    if not strCharges.isnumeric():
+                        if "ammo"  in strCharges:
+                            word = "ammo"
+                            strCharges = strCharges.replace("ammo", "")
+                        elif "charges" in strCharges:
+                            word = "charges"
+                            strCharges = strCharges.replace("charges", "")
+                        elif "secrets" in strCharges:
+                            word = "secrets"
+                            strCharges = strCharges.replace("secrets", "")         
+                        elif "supplies" in strCharges:
+                            word = "supplies"
+                            strCharges = strCharges.replace("supplies", "")
+                        strCharges = strCharges.replace(" ", "")
+                        if strCharges == "X":
+                            notify("Sorry, no automate for X on {}".format(card.name))
+                        elif strCharges.isnumeric():
+                            notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
+                            for i in range(0, int(strCharges)):
+                                addResource(card)
+
+#Triggered event OnLoadDeck
+# args: player, cards, fromGroups, toGroups, indexs, xs, ys, highlights, markers, faceups, filters, alternates
+def moveCards(args):
+    mute()
+    autoCharges(args)
+    autoClues(args)   
 
 #Triggered event OnLoadDeck
 # args: player, groups
@@ -486,6 +539,8 @@ def deckLoaded(args):
 
     update()
     playerSetup(table, 0, 0, isPlayer, isShared)
+    for cardT in table:
+        loadClues(cardT)
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
     #   playerSetup(table, 0, 0, isPlayer, isShared)
 
@@ -1002,7 +1057,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     unlockDeck()
     if doPlayer:
         id = myID() # This ensures we have a unique ID based on our position in the setup order
-        investigatorCount = countInvestigators(me)
+        investigatorCount = countInvestigators()
         
         # Find any Permanent cards
         permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
@@ -1135,7 +1190,17 @@ def inspectCard(card, x = 0, y = 0):
     for k in card.properties:
         if len(card.properties[k]) > 0:
             whisper("{}: {}".format(k, card.properties[k]))
-                                
+
+def loadClues(card):
+    if card.Type == "Location" and card.isFaceUp and card.Clues != '' and card.markers[Clue] == 0:
+        notify("{} adds {} clue(s) on '{}'".format(me, str(card.Clues),card.Name))        
+        if 'π' in card.Clues:
+            nbClue = countInvestigators() * int((card.Clues).replace('π', ''))
+        else:
+            nbClue = int(card.Clues)    
+        for i in repeat(None, nbClue):
+            addToken(card, Clue)
+
 def flipcard(card, x = 0, y = 0):
     mute()
     
@@ -1160,7 +1225,7 @@ def flipcard(card, x = 0, y = 0):
     else:
         card.isFaceUp = True
         notify("{} turns '{}' face up.".format(me, card))
-
+    loadClues(card)
 
 def rotateRight(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
@@ -1281,7 +1346,12 @@ def markerChanged(args):
         inMythosPhase = True
     
     if card.Type == "Agenda" and args.marker == Doom[0] and inMythosPhase == True and card.properties[Doom[0]] != "":
-        if card.markers[Doom] >= int(card.properties[Doom[0]]):
+        maxDoom = int(card.properties[Doom[0]])
+        totalDoom = 0
+        for cardT in table:
+            if cardT.markers[Doom] is not None:
+                totalDoom = totalDoom + cardT.markers[Doom]
+        if totalDoom >= maxDoom:
             card.highlight = EliminatedColour
         else:
             card.highlight = None
@@ -1319,16 +1389,20 @@ def discard(card, x=0, y=0):
         notify("{} discards '{}'".format(me, card))
         nextActStage()
         return
-		
-    if isPlayerCard(card):
-        pile = card.owner.piles['Discard Pile']
+
+    if isPath(card):
+        card.delete()
+        return	        
+	
+    if isEncounterCard(card):
+        pile = encounterDiscard()   
     elif isLocationCard(card):
         pile = locationDiscard()
     elif isChaosToken(card):
         pile = chaosBag()
-    else:
-        pile = encounterDiscard()
-        
+    else: #Last choice is player discard
+        pile = card.owner.piles['Discard Pile']
+       
     who = pile.controller
     notify("{} discards '{}'".format(me, card))
     if who != me:

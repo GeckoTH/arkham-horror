@@ -19,13 +19,7 @@ def deserializePlayer(plData):
 		return
 	
 	deserializeCounters(plData['counters'], player)
-	
-	if plData['hand'] is not None and len(plData['hand']) > 0:
-		if player != me:
-			remoteCall(player, "deserializePile", [plData['hand'], player.hand])
-		else:
-			deserializePile(plData['hand'], player.hand)
-	
+		
 	if plData['piles'] is not None and len(plData['piles']) > 0:
 		for k in plData['piles'].Keys:
 			if k not in player.piles:
@@ -64,6 +58,8 @@ def deserizlizeCard(cardData):
 		card.isFaceUp = cardData['isFaceUp']
 	if 'alternate' in cardData:
 		card.alternate = cardData['alternate']
+	if 'anchor' in cardData:
+	    card.anchor = cardData['anchor']
 	return card
 		
 def serializeCard(card):
@@ -74,20 +70,16 @@ def serializeCard(card):
 	cardData['position'] = card.position
 	cardData['isFaceUp'] = card.isFaceUp
 	cardData['alternate'] = card.alternate
+	cardData['anchor'] = card.anchor
 	#notify("cardData {}".format(str(cardData)))
 	return cardData
 
 def serializePlayer(player):
-	plData = {'_id':None, 'name': None, 'counters':None, 'hand':[], 'piles': {}}
+	plData = {'_id':None, 'name': None, 'counters':None, 'piles': {}}
 	plData['_id'] = player._id
 	plData['name'] = player.name
 	plData['counters'] = serializeCounters(player.counters)
-	
-	# serialize player hand
-	if len(player.hand) > 0:
-		for card in player.hand:
-			plData['hand'].append(serializeCard(card))
-			
+				
 	# serialize player's piles
 	for k,v in player.piles.items():
 		if len(v) == 0:
