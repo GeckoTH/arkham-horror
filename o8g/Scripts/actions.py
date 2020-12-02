@@ -339,8 +339,7 @@ def isChaosToken(card):
     return card.Type == 'Chaos Token'
 
 def isEncounterCard(card):
-    def isEncounterCard(card):
-	return (card.Type == 'Enemy' or card.Type == 'Treachery') and not(card.Subtype == "Basic Weakness" or card.Subtype == "Weakness")
+	return (card.Type == 'Enemy' or card.Type == 'Treachery') and card.Subtype not in ["Weakness", "Basic Weakness"]
 
 def isPath(card):
     return card.Type == 'Path'
