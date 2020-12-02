@@ -440,7 +440,16 @@ def startOfGame():
     # NEW
     #---------------------------------------------------------------------------
     setGlobalVariable("currentPlayers",str([]))
-    
+
+def autoClues(args):
+    mute()
+    #Only for move card from Pile to Table
+    if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
+        if len(args.cards) == 1:
+            card = args.cards[0]
+            if card.controller == me and card.properties["Type"] == "Location":
+                loadClues(card) 
+
 def autoCharges(args):
     mute()
     #Only for move card from Pile to Table
@@ -478,7 +487,8 @@ def autoCharges(args):
 # args: player, cards, fromGroups, toGroups, indexs, xs, ys, highlights, markers, faceups, filters, alternates
 def moveCards(args):
     mute()
-    autoCharges(args)  
+    autoCharges(args)
+    autoClues(args)   
 
 #Triggered event OnLoadDeck
 # args: player, groups
@@ -524,6 +534,8 @@ def deckLoaded(args):
 
     update()
     playerSetup(table, 0, 0, isPlayer, isShared)
+    for cardT in table:
+        loadClues(cardT)
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
     #   playerSetup(table, 0, 0, isPlayer, isShared)
 
@@ -1114,7 +1126,7 @@ def inspectCard(card, x = 0, y = 0):
         if len(card.properties[k]) > 0:
             whisper("{}: {}".format(k, card.properties[k]))
 
-def autoClues(card):
+def loadClues(card):
     if card.Type == "Location" and card.isFaceUp and card.Clues != '' and card.markers[Clue] == 0:
         notify("{} adds {} clue(s) on '{}'".format(me, str(card.Clues),card.Name))        
         if 'π' in card.Clues:
@@ -1148,7 +1160,7 @@ def flipcard(card, x = 0, y = 0):
     else:
         card.isFaceUp = True
         notify("{} turns '{}' face up.".format(me, card))
-    autoClues(card)
+    loadClues(card)
 
 def rotateRight(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
