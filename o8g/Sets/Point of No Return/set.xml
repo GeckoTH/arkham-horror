@@ -320,6 +320,7 @@
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Location" />
       <property name="Text" value="Veiled." />
+      <property name="Clues" value="1π"/>
       <property name="Victory Points" value="1" />
       <alternate name="Ghastly Tunnels" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Point of No Return" />
@@ -333,6 +334,7 @@
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Location" />
       <property name="Text" value="Forced – After you enter City of Gugs: Flip it over and resolve the text on its other side." />
+      <property name="Clues" value="1π"/>
       <property name="Victory Points" value="1" />
       <alternate name="The Sentry" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Point of No Return" />
@@ -346,6 +348,7 @@
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Location" />
       <property name="Text" value="η: Test ή (5) to lift the heavy stone trapdoor at the top of the tower. If you succeed, flip this card over and resolve the text on its other side." />
+      <property name="Clues" value="0"/>
       <alternate name="Another Path" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Point of No Return" />
         <property name="Type" value="Story" />
@@ -359,6 +362,7 @@
       <property name="Type" value="Location" />
       <property name="Traits" value="Central." />
       <property name="Text" value="Veiled.&#10;Gug enemies cannot enter the Plain of the Ghouls. If a Gug enemy would spawn at the Plain of the Ghouls, spawn it at the City of Gugs instead." />
+      <property name="Clues" value="1π"/>
       <property name="Victory Points" value="1" />
       <alternate name="A Strange Ghoul" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Point of No Return" />
