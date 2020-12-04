@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Bad Blood" id="4dad1dd9-75f4-4ef4-b176-499689d3e32f" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="0ef49985-b5cf-4873-9000-ecc3a511297d" name="Agnes Baker" size="InvestigatorCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Waitress" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Sorcerer." />
+      <property name="Text" value="As an additional cost to play a Spell event, you may take 1 damage. If you do, reduce the cost to play that event by 2, and you may shuffle that event back into your deck instead of discarding it.&#10;ε effect: +1. You may heal 1 damage." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Mystic" />
+      <property name="Willpower" value="5" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Agnes Baker" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Waitress" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 25.&#10;Deckbulding Options: Mystic cards (μ) level 0-5, Spell cards level 0-3, Occult cards level 0-3, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Heirloom of Hyperborea, Dark Memory, 1 random basic weakness.&#10;Additional Options: When you upgrade a Spell card, you may instead pay the full experience cost of the higher level version and leave the lower level version in your deck (it does not count towards your deck size or the number of copies of that card in your deck)." />
+        <property name="Class" value="Mystic" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="e95b2d00-fe2e-41e6-9d82-b3223cfb3483" name="Heirloom of Hyperborea">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Artifact from Another Life" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="Agnes Baker deck only. Advanced.&#10;Only damage and/or horror from player card effects can be assiged to Heirloom Hyperborea.&#10;ι After you play a Spell card: Draw 1 card." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e9accdd5-fa09-4648-a0f2-1a6599b1311f" name="Dark Memory">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Spell" />
+      <property name="Text" value="Advanced.&#10;Place 1 doom on the current agenda. This effect can cause the current agenda to advance.&#10;Forced – If Dark Memory is in your hand at the end of your turn: Reveal it and take 2 horror." />
+      <property name="Class" value="Neutral" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="01218ae6-27cf-4827-a256-7557c4ca2341" name="Bad Blood" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Bad Blood" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: X. X is the number of memories Agnes Baker has collected.&#10;β: –2. Ready Elspeth Baudin and resolve her patrol keyword.&#10;γ: –3. If you fail and there is a memory at Elspeth Baudin's location, place this token on that location.&#10;δ: –6. Agnes Baker may take up to 3 damage to increase your skill value by 2 for each damage taken." />
+      <alternate name="Bad Blood" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Bad Blood" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: X. X is 1 more than the number of memories Agnes Baker has collected.&#10;β: –3. Ready Elspeth Baudin and resolve her patrol keyword. If she is engaged with an investigator, she makes an attack.&#10;γ: –5. If you fail and there is a memory at Elspeth Baudin's location, place this token on that location.&#10;δ: –8. Agnes Baker may take up to 3 damage to increase your skill value by 2 for each damage taken." />
+      </alternate>
+    </card>
+    <card id="34f90a79-beec-41f5-90d4-30484f81fa96" name="Hyperborean Blood" size="HorizCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Bad Blood" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – At the end of the enemy phase, if Elspeth Baudin is ready and there is a memory at her location: Reveal a random token from the chaos bag and place it on that location.&#10;Forced – If there are 1 or more chaos tokens on a location without a memory: Return them to the chaos bag.&#10;Forced – If there are chaos tokens on a location with a memory that have a combined value of 6 or more (ignoring +/–  and treating each ζ and ε token as a –6): Return them to the chaos bag, and Elspeth Baudin collects that memory." />
+      <property name="Doom" value="8" />
+      <alternate name="Out for Blood" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Bad Blood" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Elspeth Baudin attacks each investigator in player order, regardless of their current location (even if she is exhausted).&#10;Flip this agenda back over." />
+      </alternate>
+    </card>
+    <card id="a01ed55e-b84c-4934-baaa-a2ce7624ae94" name="A Walk Down Memory Lane" size="HorizCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Bad Blood" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Investigators at Agnes Baker's location spend 2π clues, as a group: Agnes Baker collects the memory at her location.&#10;Forced – If Agnes Baker is defeated, proceed to (→R2)&#10;Objective – Collect more memories than Elspeth. If all 9 memories have been collected (by either party), advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Memory of Eternal Conquest" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Bad Blood" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If Agnes collected more memories than Elspeth:&#10;(–&gt; R1)&#10;If Elspeth collected more memories than Agnes:&#10;(–&gt; R2)" />
+      </alternate>
+    </card>
+    <card id="dc7298c9-a22b-4b56-9783-70561d3358e7" name="Elspeth Baudin" size="EncounterCard">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Bad Blood" />
+      <property name="Subtitle" value="Hyperborean Sorceress" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Sorcerer. Elite." />
+      <property name="Text" value="Alert. Patrol (nearest location with at least 1 memory). Retaliate.&#10;Elspeth Baudin cannot be automatically evaded and gets –1 fight and –1 evade for each memory she has collected.&#10;Forced – When Elspeth Baudin would be defeated: Instead, heal all damage from her, flip her over, and resolve the text on her other side." />
+      <property name="Health" value="4π" />
+      <property name="Combat" value="8" />
+      <property name="Agility" value="8" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <alternate name="Triumph and Subjugation" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Bad Blood" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Agnes Baker must decide (choose one):&#10;— Agnes Baker collects 1 memory from Elspeth Baudin.&#10;— Agnes Baker gains 2π clues from the token bank.&#10;Then, flip this card back over, exhausted and unengaged." />
+      </alternate>
+    </card>
+  </cards>
+</set>
