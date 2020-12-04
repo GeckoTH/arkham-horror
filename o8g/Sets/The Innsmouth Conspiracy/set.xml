@@ -637,7 +637,6 @@
     <card id="d30bd3a0-c398-46cc-b1b0-23173b94d0e1" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="48" />
       <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Pit of Despair" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Bone-Ridden Pit" type="B" size="EncounterCard">
@@ -652,7 +651,6 @@
     <card id="0fe88677-ceef-4c0c-9754-2d264c3c0c94" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="49" />
       <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Pit of Despair" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Fish Graveyard" type="B" size="EncounterCard">
@@ -667,7 +665,6 @@
     <card id="fc958f71-9bb4-4c4d-bc59-9351f43745c4" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="50" />
       <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Pit of Despair" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Altar to Dagon" type="B" size="EncounterCard">
@@ -682,7 +679,6 @@
     <card id="ebaef541-8b0a-4394-9eb3-348b6b1d88e4" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="51" />
       <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Pit of Despair" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Idol Chamber" type="B" size="EncounterCard">
@@ -697,7 +693,6 @@
     <card id="6f7c9843-68b5-4754-9feb-b3f888ca8330" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="52" />
       <property name="Quantity" value="1" />
-      <property name="Encounter Set" value="The Pit of Despair" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Sealed Exit" type="B" size="EncounterCard">
@@ -1322,7 +1317,6 @@
     <card id="cea09c79-187f-47ed-8025-78149add2a67" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="102" />
       <property name="Quantity" value="2" />
-      <property name="Encounter Set" value="Flooded Caverns" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Underwater Cavern" type="B" size="EncounterCard">
@@ -1337,7 +1331,6 @@
     <card id="cc48648c-9863-4a54-a5e1-de417d343fe1" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="103" />
       <property name="Quantity" value="2" />
-      <property name="Encounter Set" value="Flooded Caverns" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Tidal Pool" type="B" size="EncounterCard">
@@ -1352,7 +1345,6 @@
     <card id="ec41c5f3-740c-457c-83aa-acf6a8106621" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="104" />
       <property name="Quantity" value="2" />
-      <property name="Encounter Set" value="Flooded Caverns" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Underground River" type="B" size="EncounterCard">

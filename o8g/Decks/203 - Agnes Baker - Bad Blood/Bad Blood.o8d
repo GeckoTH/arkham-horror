@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="34f90a79-beec-41f5-90d4-30484f81fa96">Hyperborean Blood</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="a01ed55e-b84c-4934-baaa-a2ce7624ae94">A Walk Down Memory Lane</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="d77ea283-6e6d-4991-8e3b-bb4b484dc3f9">The Secret Must Be Kept</card>
+    <card qty="2" id="57116f0c-4e7e-42a1-b461-dbad526a4c72">Nobody's Home</card>
+    <card qty="2" id="1e47bdde-2704-4e41-aaa9-c589dec0cc34">Conspiracy of Blood</card>
+    <card qty="2" id="03096321-bfc0-457f-8026-6b37a8b7d7ff">Brotherhood Cultist</card>
+    <card qty="2" id="b631d81d-7794-48ba-894e-f1fcc5bc2ca4">Shadowed</card>
+    <card qty="2" id="bc5708bc-2e93-4840-9617-eb35944fe2f7">Words of Power</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="1" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="896613e6-b4a2-488a-8460-929df1a72bf4">The Relic Is Missing!</card>
+    <card qty="1" id="9055bfa1-1073-4150-8106-3a7de023f891">Trial of the Huntress</card>
+    <card qty="1" id="10a58a3d-9813-4947-8737-88f77b3e7a9a">At the Station</card>
+    <card qty="1" id="1a414a99-25cc-4ec4-8463-c7301a87e6e9">Missing Persons</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="01218ae6-27cf-4827-a256-7557c4ca2341">Bad Blood</card>
+    <card qty="1" id="8fc61c54-6c1b-4109-9f64-6cd6bc0f4c50">Northside</card>
+    <card qty="1" id="eb341e79-1eb1-46f9-9d25-eff09fe096c9">Downtown</card>
+    <card qty="1" id="2a79a0a2-400e-464f-a956-95550312101c">East Town</card>
+    <card qty="1" id="945f53f9-9302-4010-812d-c7b717b2a81d">Miskatonic University</card>
+    <card qty="1" id="2e8e4d5e-5c7d-412b-9971-73b7b920de6d">Rivertown</card>
+    <card qty="1" id="06176be8-6bd0-4a8a-b2f4-fd8989f41647">Town Hall</card>
+    <card qty="1" id="9c3d252b-4623-4e0c-b5eb-03a2a39b0186">Velma's Diner</card>
+    <card qty="1" id="f6286165-890e-4c38-9524-0636de3905ac">Curiositie Shoppe</card>
+    <card qty="1" id="dc7298c9-a22b-4b56-9783-70561d3358e7">Elspeth Baudin</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

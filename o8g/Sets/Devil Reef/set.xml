@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Devil Reef" id="4b25ab1c-cd9f-447c-a131-59b0a714f660" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="4d665a7a-61f8-4047-be9f-4d91fcfea062" name="Keen Eye">
+      <property name="Card Number" value="152" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="θ Spend 2 resources: You get +1 έ until the end of the phase.&#10;θ Spend 2 resources: You get +1 ή until the end of the phase." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c4f96457-0a1e-4bf6-97c4-3f41075f51fa" name="Radiant Smite">
+      <property name="Card Number" value="153" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Spirit. Blessed." />
+      <property name="Text" value="Fight. You may use ά instead of ή for this attack. When you initiate this attack, search the chaos bag for up to 3 [Bless] tokens and seal them here. For each [Bless] token sealed on Radiant Smite, you get +1 skill value and deal +1 damage for this attack. If this attack defeats the attacked enemy, return the sealed tokens to the token pool. Otherwise, release them." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6cbbb4ea-43e6-451e-a17d-dfcb18d00d32" name="The Truth Beckons">
+      <property name="Card Number" value="154" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Play only if you are not engaged with an enemy.Move. Choose an unrevealed location. Move (one location at a time) along the shortest path toward that location, until you enter that location. End this effect if you reveal a location, if an enemy engages you, or if your movement is blocked." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e662857f-4cd6-4862-8943-b6d5a71050f4" name="Gaze of Ouraxsh">
+      <property name="Card Number" value="155" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Cursed." />
+      <property name="Text" value="Reveal 7 random chaos tokens from the chaos bag. Deal a total of 1 damage plus 1 additional damage for each [Curse] or ζ token revealed, divided as you choose among enemies at your location. This action does not provoke attacks of opportunity." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="74495203-978d-4ef9-b865-648a57458ee0" name="Priest of Two Faiths">
+      <property name="Card Number" value="156" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Blessed. Cursed." />
+      <property name="Text" value="ι After Priest of Two Faiths enters play: Add 3 [Bless] tokens to the chaos bag.Forced – At the end of the upkeep phase: You must either add 1 [Curse] token to the chaos bag or discard Priest of Two Faiths." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="da0bdc2a-0d98-4670-a0e4-ed8b4a54dc61" name="Under Surveillance">
+      <property name="Card Number" value="157" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Trap." />
+      <property name="Text" value="Attach to your location. Limit 1 per location.&#10;Forced – After a non-Elite enemy enters attached location, discard Under Surveillance: Automatically evade that enemy and discover 1 clue at attached location. That enemy does not ready during the next upkeep phase." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f87ee4c1-f0fb-4546-a5bb-c680dab53ad5" name="Blood Pact">
+      <property name="Card Number" value="158" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell. Pact." />
+      <property name="Text" value="θ Add 1 doom to Blood Pact: You get +2 ά for this skill test. (Limit once per test.)&#10;θ Add 1 doom to Blood Pact: You get +2 ή for this skill test. (Limit once per test.)" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d32716f7-8609-4a4e-9bc5-e8de9ac817f4" name="Abyssal Tome">
+      <property name="Card Number" value="159" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="η Exhaust Abyssal Tome: Fight. You must use either έ or ά for this attack, instead of ή. When you initiate this attack, you may place 1 doom on Abyssal Tome (to a maximum of 3). You get +1 skill value and deal +1 damage for this attack for each doom on Abyssal Tome." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="65d59ffc-6991-4fe0-ad29-b0253a85e50a" name="Butterfly Effect">
+      <property name="Card Number" value="160" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Paradox. Blessed. Cursed." />
+      <property name="Text" value="Fast. Play when a chaos token with a symbol is revealed during a skill test at your location (before resolving its effects).You or the performing investigator may either commit a card to this skill test, or return a card they committed to this test to their hand." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7c8777ee-44ac-47df-9ad8-3bda7fc829e9" name="Third Time’s a Charm">
+      <property name="Card Number" value="161" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play when a skill test at your location begins.&#10;Twice during this test, when an investigator reveals a chaos token, they may cancel it, return it to the chaos bag, and reveal a new chaos token." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="adffee5e-a71c-4799-9f36-8ed4ae3e8bc0" name="Manipulate Destiny">
+      <property name="Card Number" value="162" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Reveal tokens from the chaos bag until you reveal a [Curse], ζ, [Bless], or ε token. If you revealed...&#10;—...a [Curse] or ζ token, deal 2 damage to an enemy at your location.&#10;—...a [Bless] or ε token, heal 2 damage from an investigator or Ally asset at your location.&#10;This action does not provoke attacks of opportunity." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1d4c41d9-5fed-46ef-8f22-0d4384cb713a" name="Devil Reef" size="EncounterCard">
+      <property name="Card Number" value="163" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the number of keys the investigators control.&#10;β: –2. If you fail and this is an attack or evasion attempt against a Deep One enemy, that enemy engages you. (If it is already engaged with you, it disengages first, then re-engages you.)&#10;γ: –3. If you fail and you are not in a vehicle, take 1 damage.&#10;δ: –4. If you fail and your location has a key on it, take 1 horror." />
+      <alternate name="Devil Reef" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 more than the number of keys the investigators control.&#10;β: –3. If this is an attack or evasion attempt against a Deep One enemy, that enemy engages you. (If it is already engaged with you, it disengages first, then re-engages you.)&#10;γ: –4. If you are not in a vehicle, take 1 damage.&#10;δ: –5. If your location has a key on it, take 1 horror." />
+      </alternate>
+    </card>
+    <card id="1a50ba4a-b311-4141-9fb8-e7c3cabe32b6" name="Secrets of the Sea (v. I)" size="HorizCard">
+      <property name="Card Number" value="164" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="As an additional cost for you to move from one Ocean location to another while not in a vehicle, you must spend 2 actions.&#10;Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded location, partially flooded location, or a vehicle during your turn, take 5 direct damage." />
+      <property name="Doom" value="9" />
+      <alternate name="The Terror of Devil Reef" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Subtitle" value="Grasping Abomination" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Monster. Elite." />
+        <property name="Text" value="Spawn – Fishing Vessel’s location.&#10;Hunter. Massive. Retaliate.&#10;The Terror of Devil Reef cannot enter Cave locations.&#10;The Terror of Devil Reef gets +3π health." />
+        <property name="Health" value="6" />
+        <property name="Combat" value="3" />
+        <property name="Agility" value="3" />
+        <property name="Unique" value="ο" />
+        <property name="Damage" value="2" />
+        <property name="Horror" value="2" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="cf72a198-6257-4e52-b2d4-820bf28dae67" name="Secrets of the Sea (v. II)" size="HorizCard">
+      <property name="Card Number" value="165" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="As an additional cost for you to move from one Ocean location to another while not in a vehicle, you must spend 2 actions.&#10;Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded location, partially flooded location, or a vehicle during your turn, take 5 direct damage." />
+      <property name="Doom" value="9" />
+      <alternate name="The Terror of Devil Reef" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Subtitle" value="Writhing in the Deep" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Monster. Elite." />
+        <property name="Text" value="Spawn – Fishing Vessel’s location.&#10;Hunter. Massive. Retaliate.&#10;The Terror of Devil Reef cannot enter Cave locations.&#10;Forced – When The Terror of Devil Reef would be defeated: Instead, remove all damage from it and exhaust it. It cannot ready for the remainder of the round (including the upkeep phase)." />
+        <property name="Health" value="6" />
+        <property name="Combat" value="3" />
+        <property name="Agility" value="3" />
+        <property name="Unique" value="ο" />
+        <property name="Damage" value="2" />
+        <property name="Horror" value="2" />
+      </alternate>
+    </card>
+    <card id="6dee0f83-1331-4966-8be8-27b9cc174727" name="The Devil of the Depths" size="HorizCard">
+      <property name="Card Number" value="166" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="As an additional cost for you to move from one Ocean location to another while not in a vehicle, you must spend 2 actions.&#10;Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded location, partially flooded location, or a vehicle during your turn, take 5 direct damage." />
+      <property name="Doom" value="9" />
+      <alternate name="Triumph of the Waves" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(→R1)" />
+      </alternate>
+    </card>
+    <card id="9604be5c-034c-437e-a0fe-b830e20508ed" name="Reef of Mysteries" size="HorizCard">
+      <property name="Card Number" value="167" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Keys can only be claimed from Y’ha-nthlei locations using the θ ability on those locations.&#10;Objective – Find and claim as many of the following keys as you can from Y’ha-nthlei locations (purple, white, and black). If you control all 3 of these keys, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Secrets Uncovered" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(→R1)" />
+      </alternate>
+    </card>
+    <card id="cb5163a1-8680-4b61-93ef-01da2a1f5a53" name="Churning Waters" size="EncounterCard">
+      <property name="Card Number" value="168" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ocean." />
+      <alternate name="Churning Waters" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ocean." />
+        <property name="Text" value="Churning Waters enters play fully flooded.η If you are in Fishing Vessel: Resign. Each investigator in Fishing Vessel resigns. Remove Fishing Vessel from the game. Each resigning investigator places each of their purple, black, or white keys on the current act. All other investigators are left to fend for themselves." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="8a8ba7a9-57f8-416f-8875-a07ea59d4de1" name="Devil Reef" size="EncounterCard">
+      <property name="Card Number" value="169" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ocean. Island." />
+      <alternate name="Lonely Isle" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ocean. Island." />
+        <property name="Text" value="Forced – After Lonely Isle is revealed: Put 2 random set-aside Tidal Tunnels into play, each adjacent to Lonely Isle (but not to one another)." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="b8cff46c-aef7-4312-8f3a-00e335eebdab" name="Devil Reef" size="EncounterCard">
+      <property name="Card Number" value="170" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ocean. Island." />
+      <alternate name="Hidden Cove" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ocean. Island." />
+        <property name="Text" value="Forced – After you reveal Hidden Cove: Put 1 set-aside Tidal Tunnel into play adjacent to Hidden Cove, then put 1 set-aside Unfathomable Depths into play adjacent to that Tidal Tunnel." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="21f0d414-c867-460d-a22f-aa0070c1aff0" name="Devil Reef" size="EncounterCard">
+      <property name="Card Number" value="171" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ocean. Island." />
+      <alternate name="Waveworn Island" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ocean. Island." />
+        <property name="Text" value="Waveworn Island enters play partially flooded&#10;Force – After you reveal Waveworn Island: Put 1 random set-aside Unfathomable Depths and 2 random set-aside Tidal Tunnels into play, each adjacent to Waveworn Island (but not to one another)." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="78bb4594-55ed-4d63-8415-7eeaa8bb10fa" name="Devil Reef" size="EncounterCard">
+      <property name="Card Number" value="172" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ocean. Island." />
+      <alternate name="Salt Marshes" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ocean. Island." />
+        <property name="Text" value="Salt Marshes enters play fully flooded.&#10;η If you control the purple key: Look at the revealed side of any Tidal Tunnels or Unfathomable Depths location in play. (Group limit once per game.)&#10;Forced – After you reveal Salt Marshes: Put 1 random set-aside Tidal Tunnel into play adjacent to Salt Marshes." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="88b7b21e-9b10-44f4-a697-749c6c18b32e" name="Devil Reef" size="EncounterCard">
+      <property name="Card Number" value="173" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ocean. Island." />
+      <alternate name="Black Reef" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ocean. Island." />
+        <property name="Text" value="Black Reef enters play partially flooded.&#10;Forced – After you reveal Black Reef: Put 2 random set-aside Tidal Tunnels into play, each adjacent to Black Reef (but not to one another). Then, put 1 random set-aside Unfathomable Depths into play adjacent to both of those Tidal Tunnels." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="fcef1b2a-3f58-46f3-9f70-7fa862f64bc0" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="174" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Bootlegger's Hideaway" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After Bootlegger’s Hideaway is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Bootlegger’s Hideaway without looking at it.&#10;η If you control the white key: Draw 3 cards. (Group limit once per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="d372b35c-745b-4180-a5a1-c509a9c9f46a" name="Unfathomable Depths" size="EncounterCard">
+      <property name="Card Number" value="175" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave. Y’ha-nthlei." />
+      <alternate name="Deep One Grotto" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave. Y’ha-nthlei." />
+        <property name="Text" value="This location enters play partially flooded.&#10;Forced – After this location is revealed: Place the set-aside purple key on it.&#10;θ If investigators at this location control both the red key and the blue key and spend 2π clues, as a group: Take control of the purple key and read Flashback IX in the Campaign Guide." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="4ec6c722-0375-46a2-9439-d8f8633766f5" name="Unfathomable Depths" size="EncounterCard">
+      <property name="Card Number" value="176" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave. Y’ha-nthlei." />
+      <alternate name="Cyclopean Ruins" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave. Y’ha-nthlei." />
+        <property name="Text" value="This location enters play fully flooded.&#10;Forced – After this location is revealed: Place the set-aside white key on it.&#10;θ If investigators at this location control both the red key and the yellow key and spend 2π clues, as a group: Take control of the white key and read Flashback X in the Campaign Guide." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="a63865a0-7d83-4656-bf27-bd34f16b1b1c" name="Unfathomable Depths" size="EncounterCard">
+      <property name="Card Number" value="177" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave. Y’ha-nthlei." />
+      <alternate name="Temple of the Union" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave. Y’ha-nthlei." />
+        <property name="Text" value="Forced – After this location is revealed: Place the set‑aside black key on it.&#10;θ If investigators at this location control both the red key and the green key and spend 2π clues, as a group: Take control of the black key and read Flashback XI in the Campaign Guide." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="515689d5-6251-4a8f-976d-e07c67a9bdce" name="Fishing Vessel">
+      <property name="Card Number" value="178" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Vehicle." />
+      <property name="Text" value="Vehicle.&#10;While you are in this vehicle, treat your location as if it were unflooded.&#10;η: Move Fishing Vessel to a connecting Ocean location." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="34ab9ce9-305e-4aeb-856a-e8b6797a552d" name="Waveworn Idol">
+      <property name="Card Number" value="179" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="ι After your location’s flood level changes, or after a Deep One enemy spawns at your location, exhaust Waveworn Idol: Immediately take an action as if it were your turn (this action does not count toward the number of actions you can take each turn)." />
+      <property name="Health" value="–" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1b34016b-b67d-4e98-a699-25e61525a15a" name="Awakened Mantle">
+      <property name="Card Number" value="180" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Clothing." />
+      <property name="Text" value="θ If your location is flooded, exhaust Awakened Mantle: Move to a connecting location that is also flooded." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0047679a-fc91-489f-9fe0-2bff73368cd9" name="Headdress of Y’ha-nthlei">
+      <property name="Card Number" value="181" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="You get +1 skill value while investigating a flooded location or while attacking or evading an enemy at a flooded location." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="853a7d76-811b-464e-8042-5b3d18119854" name="Deep One Predator" size="EncounterCard">
+      <property name="Card Number" value="182" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Hunter.&#10;Forced – After Deep One Predator engages you: Move 1 of your clues or keys to Deep One Predator.&#10;Forced – When you defeat or evade Deep One Predator: Take control of all of its clues and keys." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="e8c314d7-aeec-4fc5-90a4-9bcf5438da23" name="Hunting Deep One" size="EncounterCard">
+      <property name="Card Number" value="183" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Hunter.&#10;While Hunting Deep One is engaged with you, you cannot enter vehicles or gain resources.&#10;Forced – After Hunting Deep One engages you: If you are not in a vehicle, lose 2 resources. If you are in a vehicle, leave your vehicle." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="1577de9b-5c22-4e3c-8c69-f4fdd0b05339" name="Shapes in the Water" size="EncounterCard">
+      <property name="Card Number" value="184" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ά (2). If you fail, take 2 horror. This test gets +1 difficulty if your location is flooded (+2 difficulty instead if it is fully flooded)." />
+    </card>
+    <card id="6c679965-bece-4137-88e3-410465b46dd3" name="Aquatic Ambush" size="EncounterCard">
+      <property name="Card Number" value="185" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Put Aquatic Ambush into play next to the agenda deck.&#10;Forced – When you reveal a chaos token while attacking an enemy at a flooded location: Reveal an additional chaos token. (Max once per test.)&#10;Forced – At the end of the round: Discard 1 copy of Aquatic Ambush from play. (Max once per round.)" />
+    </card>
+    <card id="5b6a741f-6421-421a-b81d-6f9314afa449" name="Horrors from the Deep" size="EncounterCard">
+      <property name="Card Number" value="186" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ί (2). If you fail, take 2 damage. This test gets +1 difficulty if your location is flooded (+2 difficulty instead if it is fully flooded)." />
+    </card>
+    <card id="dba5460c-e34b-4877-b2ee-a1d49f69a4d0" name="Stowaway" size="EncounterCard">
+      <property name="Card Number" value="187" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – If no investigators are in a vehicle, Stowaway gains surge. Otherwise, each investigator in a vehicle must either take 1 damage and 1 horror or leave that vehicle. Each investigator who left a vehicle cannot enter that vehicle for the remainder of the round." />
+    </card>
+    <card id="3367d214-7cfc-40fa-9b90-bcda6368a672" name="Dragged Under" size="EncounterCard">
+      <property name="Card Number" value="188" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme. Terror." />
+      <property name="Text" value="Revelation – Put Dragged Under into play in your threat area. If you are in a vehicle, leave it.&#10;You cannot enter vehicles.&#10;η: Test ή (3) or ί (3). If you succeed, discard Dragged Under." />
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="1a50ba4a-b311-4141-9fb8-e7c3cabe32b6">Secrets of the Sea (v. I)</card>
+    <card qty="1" id="cf72a198-6257-4e52-b2d4-820bf28dae67">Secrets of the Sea (v. II)</card>
+    <card qty="1" id="6dee0f83-1331-4966-8be8-27b9cc174727">The Devil of the Depths</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="9604be5c-034c-437e-a0fe-b830e20508ed">Reef of Mysteries</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="853a7d76-811b-464e-8042-5b3d18119854">Deep One Predator</card>
+    <card qty="2" id="e8c314d7-aeec-4fc5-90a4-9bcf5438da23">Hunting Deep One</card>
+    <card qty="2" id="1577de9b-5c22-4e3c-8c69-f4fdd0b05339">Shapes in the Water</card>
+    <card qty="2" id="6c679965-bece-4137-88e3-410465b46dd3">Aquatic Ambush</card>
+    <card qty="2" id="5b6a741f-6421-421a-b81d-6f9314afa449">Horrors from the Deep</card>
+    <card qty="2" id="dba5460c-e34b-4877-b2ee-a1d49f69a4d0">Stowaway</card>
+    <card qty="3" id="3367d214-7cfc-40fa-9b90-bcda6368a672">Dragged Under</card>
+    <card qty="1" id="bf9afb4a-745b-4196-a4ba-b1b56cfd2eea">Lloigor</card>
+    <card qty="3" id="9830bf03-a410-4ac0-804b-d5546ed21b8f">Psychic Pull</card>
+    <card qty="1" id="8cb9eeaa-d308-4e42-a7e3-8aa2fd918a63">Deep One Bull</card>
+    <card qty="3" id="391bd985-3a45-4cfd-9352-5f9de4b2de57">Lurking Deep One</card>
+    <card qty="2" id="41ce48de-71df-40bb-ab77-974f3a22854f">Deep One Assault</card>
+    <card qty="2" id="b03235f6-2ff4-4a81-8348-10aca8cfefcf">Malfunction</card>
+    <card qty="2" id="bc9313d6-9726-4a75-a980-28b389c46124">Undertow</card>
+    <card qty="2" id="d304fcd1-2352-4431-8a7b-0fa23124ac2a">Rising Tides</card>
+    <card qty="2" id="7d7aaf41-b118-409a-aaef-810e7339c2d5">Riptide</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="2" id="cea09c79-187f-47ed-8025-78149add2a67">Tidal Tunnel</card>
+    <card qty="2" id="cc48648c-9863-4a54-a5e1-de417d343fe1">Tidal Tunnel</card>
+    <card qty="2" id="ec41c5f3-740c-457c-83aa-acf6a8106621">Tidal Tunnel</card>
+    <card qty="2" id="fcef1b2a-3f58-46f3-9f70-7fa862f64bc0">Tidal Tunnel</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="886dfb3e-a983-4434-8ca1-3ce038ac0685">Unidentified Key</card>
+    <card qty="1" id="d0dc772e-3d01-41c6-b836-25513b1a150e">Unidentified Key</card>
+    <card qty="1" id="b3839fb3-d093-46ab-87ef-20e8c9a7a69f">Unidentified Key</card>
+    <card qty="1" id="7be6a43f-c466-493d-b8ee-52bd2127b6a3">Unidentified Key</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="34ab9ce9-305e-4aeb-856a-e8b6797a552d">Waveworn Idol</card>
+    <card qty="1" id="1b34016b-b67d-4e98-a699-25e61525a15a">Awakened Mantle</card>
+    <card qty="1" id="0047679a-fc91-489f-9fe0-2bff73368cd9">Headdress of Y’ha-nthlei</card>
+    <card qty="1" id="d372b35c-745b-4180-a5a1-c509a9c9f46a">Unfathomable Depths</card>
+    <card qty="1" id="4ec6c722-0375-46a2-9439-d8f8633766f5">Unfathomable Depths</card>
+    <card qty="1" id="a63865a0-7d83-4656-bf27-bd34f16b1b1c">Unfathomable Depths</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="1d4c41d9-5fed-46ef-8f22-0d4384cb713a">Devil Reef</card>
+    <card qty="1" id="810ae644-a5c2-4a89-bd56-c649377c767b">Unidentified Key</card>
+    <card qty="1" id="c1013de0-742a-4627-b8fa-a347951fc00d">Unidentified Key</card>
+    <card qty="1" id="8f2e9c68-13bb-4760-98cb-d4f03e02ae85">Unidentified Key</card>
+    <card qty="1" id="cb5163a1-8680-4b61-93ef-01da2a1f5a53">Churning Waters</card>
+    <card qty="1" id="515689d5-6251-4a8f-976d-e07c67a9bdce">Fishing Vessel</card>
+    <card qty="1" id="8a8ba7a9-57f8-416f-8875-a07ea59d4de1">Devil Reef</card>
+    <card qty="1" id="b8cff46c-aef7-4312-8f3a-00e335eebdab">Devil Reef</card>
+    <card qty="1" id="21f0d414-c867-460d-a22f-aa0070c1aff0">Devil Reef</card>
+    <card qty="1" id="78bb4594-55ed-4d63-8415-7eeaa8bb10fa">Devil Reef</card>
+    <card qty="1" id="88b7b21e-9b10-44f4-a697-749c6c18b32e">Devil Reef</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
