@@ -95,7 +95,7 @@
     <property name="Skill Icons" value="ήά"/>
     <property name="Slot" value="Arcane"/>
     <property name="Traits" value="Spell."/>
-    <property name="Text" value="Uses: 4 charges.&#10;η, Spend one charge: Fight. This attack uses ά instead of ή. You get +2 ά and deal +1 damage for this attack. If a α, β, γ, δ, or ζ symbol is revealed during this attack, take 1 horror. "/>
+    <property name="Text" value="Uses: (4 charges).&#10;η, Spend one charge: Fight. This attack uses ά instead of ή. You get +2 ά and deal +1 damage for this attack. If a α, β, γ, δ, or ζ symbol is revealed during this attack, take 1 horror. "/>
   </card>
   <card id="5be07212-70ea-46da-abfa-e93ae7284c4a" name="Newspaper">
     <property name="Card Number" value="155"/>
