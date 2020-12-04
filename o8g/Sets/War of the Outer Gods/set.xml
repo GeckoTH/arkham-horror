@@ -1,0 +1,734 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="War of the Outer Gods" id="05928b29-c632-4228-9feb-7b75b9a6764d" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="836f643b-081c-41fd-b2d4-fc4b25e1574b" name="War of the Outer Gods" size="EncounterCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 for each clue you have.&#10;β: –3. If you fail, place 1 resource on the nearest Mutated enemy, as a mutation.&#10;γ: –3. If you fail, draw the top Hex card in the encounter discard pile.&#10;δ: –4. If you fail, place one card committed to this skill test facedown underneath an Insect enemy, as a swarm card." />
+      <alternate name="War of the Outer Gods" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –2 for each clue you have.&#10;β: –4. Place 1 resource on each Mutated enemy, as a mutation.&#10;γ: –4. Draw the top Hex card in the encounter discard pile.&#10;δ: –5. Place each card committed to this skill test facedown underneath an Insect enemy, as a swarm card." />
+      </alternate>
+    </card>
+    <card id="b6908546-3053-4ca6-8c95-2d58f1579310" name="The Summoning of Silenus" size="HorizCard">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next blue agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next blue agenda." />
+      <alternate name="Reinforcement" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 γ token to the chaos bag.&#10;Shuffle the 2 set-aside Ethereal Entity enemies, the 3 Inevitable End treacheries, and the encounter discard pile into the encounter deck.&#10;If this is the first agenda to advance to 1b, spawn the set-aside Hune-Stitched Herald enemy at the Athenaeum of the Empty Sky." />
+      </alternate>
+    </card>
+    <card id="a7344473-799d-4588-9cf2-2dc59dc0cdb5" name="The Summoning Progresses" size="HorizCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next blue agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next blue agenda." />
+      <alternate name="Summoning of the Servitor" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 γ token to the chaos bag.&#10;If the Hune-Stitched Herald enemy is set-aside, shuffle it into the encounter deck.&#10;If this is the first agenda to advance to 2b, spawn the set-aside The Inescapable Maw enemy at the Athenaeum of the Empty Sky." />
+      </alternate>
+    </card>
+    <card id="a3b8223b-751d-4a4a-a167-0b3a6197b559" name="The Summoning Nears Completion" size="HorizCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the set-aside Silenus Descends agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the set-aside Silenus Descends agenda." />
+      <alternate name="War is Over" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 γ token to the chaos bag.&#10;Flip Hub Dimension to its (Gateway to Destruction) side. If Hub Dimension is not in play, put it into play, (Gateway to Destruction) side faceup.&#10;Spawn the set-aside Silenus enemy at Hub Dimension.&#10;Search the encounter deck, encounter discard pile, and each play area for all green and red encounter cards and remove them from the game. Shuffle the encounter deck. Remove each agenda and act from the game and put the set-aside Silenus Descends agenda into play." />
+      </alternate>
+    </card>
+    <card id="f7f2322f-f721-42cb-9235-09803a6e6a08" name="The Incubation of the Egg" size="HorizCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next green agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next green agenda." />
+      <alternate name="Reinforcement" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 β token to the chaos bag.&#10;If the Horrific Shoggoth enemy is set-aside, shuffle it into the encounter deck.&#10;If this is the first agenda to advance to 1b, spawn the set-aside Vile Broodmaster enemy at the Shrine of Magh’an Ark’at." />
+      </alternate>
+    </card>
+    <card id="9a82930a-489f-4b8f-a3c9-1109e1229e91" name="The Incubation Progresses" size="HorizCard">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next green agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next green agenda." />
+      <alternate name="Summoning of the Servitor" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 β token to the chaos bag.&#10;If the Horrific Shoggoth enemy is set-aside, shuffle it into the encounter deck.&#10;If this is the first agenda to advance to 2b, spawn the set-aside Vile Broodmaster enemy at the Shrine of Magh’an Ark’at." />
+      </alternate>
+    </card>
+    <card id="5d6fca93-2f01-43a7-9ed1-b614c44a6785" name="The Incubation Nears Completion" size="HorizCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the set-aside The Egg Hatches agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the set-aside The Egg Hatches agenda." />
+      <alternate name="War is Over" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 β token to the chaos bag.&#10;Flip Hub Dimension to its (Gateway to Destruction) side. If Hub Dimension is not in play, put it into play, (Gateway to Destruction) side faceup.&#10;Spawn the set-aside Magh’an Ark’at enemy at Hub Dimension.&#10;Search the encounter deck, encounter discard pile, and each play area for all blue and red encounter cards and remove them from the game. Shuffle the encounter deck. Remove each agenda and act from the game and put the set-aside The Egg Hatches agenda into play." />
+      </alternate>
+    </card>
+    <card id="90b5f8a3-c81c-4424-89ff-a723f3a6408a" name="The Proliferation of the Swarm" size="HorizCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next red agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next red agenda." />
+      <alternate name="Reinforcement" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 δ token to the chaos bag.&#10;Shuffle 3 of the 4 set-aside Trylogog enemies, the 2 Transmogrify treacheries, and the encounter discard pile into the encounter deck.&#10;If this is the first agenda to advance to 1b, spawn the remaining set-aside Trylogog enemy. That enemy gains an additional swarming 2." />
+      </alternate>
+    </card>
+    <card id="d119691b-36f6-4e54-82e4-e12264b3520a" name="The Swarm Spreads" size="HorizCard">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next red agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next red agenda." />
+      <alternate name="Summoning of the Servitor" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 δ token to the chaos bag.&#10;If a copy of Trylogog is set-aside, shuffle it into the encounter deck.&#10;If this is the first agenda to advance to 2b, spawn the set-aside Droning Horde enemy at the Burning Pit." />
+      </alternate>
+    </card>
+    <card id="e6495c66-75c1-461e-b3a3-a1c463476589" name="The Proliferation Nears Completion" size="HorizCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the set-aside Ezel-zen-rezl Emerges agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the set-aside Ezel-zen-rezl Emerges agenda." />
+      <alternate name="War is Over" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 δ token to the chaos bag.&#10;Flip Hub Dimension to its (Gateway to Destruction) side. If Hub Dimension is not in play, put it into play, (Gateway to Destruction) side faceup.&#10;Spawn the set-aside Ezel-zen-rezl enemy at Hub Dimension.&#10;Search the encounter deck, encounter discard pile, and each play area for all blue and green encounter cards and remove them from the game. Shuffle the encounter deck. Remove each agenda and act from the game and put the set-aside The Swarm Spreads agenda into play." />
+      </alternate>
+    </card>
+    <card id="dc674602-0be0-4878-8583-2fdeb2d71aa8" name="War of the Outer Gods" size="HorizCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Forced – When any amount of doom is placed on a player card: Place that amount of doom on any agenda as well.&#10;Objective – Investigators may only spend the requisite number of clues if no Cultist enemies are in play." />
+      <property name="Clues" value="–" />
+      <alternate name="A Portal Opens" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Put the set-aside Hub Dimension location into play, (Unsealed) side faceup." />
+      </alternate>
+    </card>
+    <card id="546e14ea-22ea-4893-9343-b5b0dcfaf027" name="Close the Portal" size="HorizCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η If you are at a Ritual Site: You try to seal off the portal. Place 1 of your clues around Hub Dimension. Then you may test.ά (2) or έ (2). If you succeed, place 1 of your clues around Hub Dimension.&#10;Forced – When any amount of doom is placed on a player card: Place that amount of doom on any agenda as well.&#10;Objective – If your group has &quot;sealed off the Hub Dimension,&quot; advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Sealed Off" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If you are playing in Single Group Mode:&#10;The investigators have sealed Earth away from the cataclysmic war of the Outer Gods. (→R1)&#10;If you are playing in Epic Multiplayer Mode:&#10;Place 2 wards on each agenda. Advance to act 3a." />
+      </alternate>
+    </card>
+    <card id="93cd04a8-9d14-471f-9943-046790a3a6fe" name="Close All Portals" size="HorizCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η: If you are at a Ritual Site: You try to seal off another portal. Test ά (3) or έ (3). If you succeed, place 1 of your clues around another group’s Hub Dimension.&#10;Forced – When any amount of doom is placed on a player card: Place that amount of doom on any agenda as well.&#10;Objective – If each group has &quot;sealed off the Hub Dimension,&quot; advance." />
+      <property name="Clues" value="–" />
+      <alternate name="The World is Saved" type="B" size="HorizCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="The investigators have sealed Earth away from the cataclysmic war of the Outer Gods.&#10;(→R1)" />
+      </alternate>
+    </card>
+    <card id="93f5324f-0708-4297-91e8-8eac69117276" name="Arkham" size="EncounterCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ritual Site. Town." />
+      <alternate name="Arkham" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ritual Site. Town." />
+        <property name="Text" value="Arkham cannot have attachments.&#10;θ Spend 1π resources: Move to a connecting location." />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="695e3bdf-c738-4c79-b5b3-58d02d25f24a" name="Streets of Providence" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Providence." />
+      <alternate name="Streets of Providence" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Providence." />
+        <property name="Text" value="η η Deal 3 damage to a non-Ancient One enemy at a Providence location in any group. (Group limit once per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="49527bd2-e98a-488a-8fcb-929c9e3eab44" name="Athenaeum of the Empty Sky" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ritual Site. Providence." />
+      <alternate name="Athenaeum of the Empty Sky" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ritual Site. Providence." />
+        <property name="Text" value="θ Draw the top card of the encounter deck: Place 1 ward on the blue agenda. (Group limit once per round.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="94a238a0-9188-41ca-a613-be8e5ba500bc" name="The Arcade" size="EncounterCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Providence." />
+      <alternate name="The Arcade" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Providence." />
+        <property name="Text" value="η Test ί (4). If you succeed, gain 1 clue (from the token pool)." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="f51c51cb-535d-4dea-9ef7-34fdebc52df8" name="Streets of Montreal" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Montreal." />
+      <alternate name="Streets of Montreal" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Montreal." />
+        <property name="Text" value="η η Deal 3 damage to a non-Ancient One enemy at a Montreal location in any group. (Group limit once per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="b83396fc-88a0-4d7b-a692-f084cf81cd7c" name="Chateau Ramezay" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Montreal." />
+      <alternate name="Chateau Ramezay" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Montreal." />
+        <property name="Text" value="η Test ά (4). If you succeed, gain 1 clue (from the token pool)." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="fd0d578e-c030-48d3-a718-859fa91c8134" name="Shrine of Magh’an Ark’at" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ritual Site. Montreal." />
+      <alternate name="Shrine of Magh’an Ark’at" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ritual Site. Montreal." />
+        <property name="Text" value="θ Draw the top card of the encounter deck: Place 1 ward on the green agenda. (Group limit once per round.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="336787ae-5ebc-4104-ae27-7543293d002d" name="Streets of New York City" size="EncounterCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="New York City." />
+      <alternate name="Streets of New York City" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="New York City." />
+        <property name="Text" value="η η Deal 3 damage to a non-Ancient One enemy at a New York City location in any group. (Group limit once per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="69cb2bda-6821-4490-a449-ebd6e2c72dc6" name="The Burning Pit" size="EncounterCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ritual Site. New York City." />
+      <alternate name="The Burning Pit" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ritual Site. New York City." />
+        <property name="Text" value="θ Draw the top card of the encounter deck: Place 1 ward on the red agenda. (Group limit once per round.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="249201d1-db47-4557-a199-5192dd9d0dd7" name="The Penthouse" size="EncounterCard">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="New York City." />
+      <alternate name="The Penthouse" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="New York City." />
+        <property name="Text" value="η Test ή (4). If you succeed, gain 1 clue (from the token pool)." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="ef7c213f-651c-4492-99f7-fb3bf4032af6" name="Hub Dimension" size="EncounterCard">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Unsealed" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Portal." />
+      <property name="Text" value="While there are 6π or more clues around Hub Dimension, your group has “sealed off the Hub Dimension.”" />
+      <alternate name="Hub Dimension" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="War of the Outer Gods" />
+        <property name="Subtitle" value="Gateway to Destruction" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Portal." />
+        <property name="Text" value="Hub Dimension cannot have attachments.&#10;Hub Dimension is connected to each Ritual Site, and vice versa.&#10;η Test ά (2) or έ (2). If you succeed, spend 3 clues or remove 2 clues from around Hub Dimension to deal 2 damage to an Ancient One enemy (if you succeed by 3 or more, instead deal 3 damage)." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="f6d4aa90-8ae1-4c03-9b58-a9644025c6ae" name="Nihilistic Stargazer" size="EncounterCard">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Aloof. Warring.&#10;Spawn – Athenaeum of the Empty Sky.&#10;Forced – At the end of the round, if no green or red enemies are in play: Place 1 doom on the blue agenda." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="fc145e0b-86e4-4635-97b3-6fda88f04d0b" name="Death and Decay" size="EncounterCard">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – You must decide (choose one):&#10;– Place 1 doom on the blue agenda.&#10;– You and each asset you control take 1 direct damage.&#10;– Choose an Item asset you control and remove it from the game." />
+    </card>
+    <card id="9f825f47-688b-4f03-8b69-1a8d4e0413b4" name="Zealot of Paradise" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Aloof. Warring.&#10;Spawn – Shrine of Magh’an Ark’at.&#10;Forced – At the end of the round, if no blue or red enemies are in play: Place 1 doom on the green agenda." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="4a18549c-6cca-4099-a7ec-ad644962de3f" name="Predator’s Call" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Attach Predator’s Call to the nearest green enemy. If that enemy is Mutated, place 1 resource on it, as a mutation. If no green enemies are in play, Predator’s Call gains surge.&#10;Attached enemy gets +1 fight, +1 evade, +1 damage, and +1 horror." />
+    </card>
+    <card id="3c578c89-2bec-48e9-816e-014e64c38dd6" name="Disciple of the Swarm" size="EncounterCard">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Aloof. Warring.&#10;Spawn – Burning Pit.&#10;Forced – At the end of the round, if no blue or green enemies are in play: Place 1 doom on the red agenda." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="3322a4c1-3e29-4f12-a5f8-949748706cbb" name="Feast of Locusts" size="EncounterCard">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Test ά (2). Increase the difficulty of this test by 1 for each swarm card in play. If you fail, take 2 horror (if you fail by 4 or more, instead take 3 horror)." />
+    </card>
+    <card id="f813ebc2-16db-4064-a1c1-d92644cf4dd3" name="Hellfire" size="EncounterCard">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Test ί (4). If you fail, either take 2 damage or place 2 of your clues on your location (if you fail and have 4 or more clues, do both instead)." />
+    </card>
+    <card id="25f01ccb-6ad6-4ee7-a3ff-4a0614c00c31" name="Ravages of War" size="EncounterCard">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Each non-Elite enemy moves and attacks as if it were the enemy phase. Enemies do not exhaust after attacking in this way. If no attacks were made as a result of this effect, Ravages of War gains surge." />
+    </card>
+    <card id="ec246b8e-daf2-4e0e-b026-87723ca5b2db" name="While They Sleep" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Omen." />
+      <property name="Text" value="Revelation – For each Faction that has the most enemies in play, place 1 doom on that Faction’s agenda. If no enemies are in play, place no doom and While They Sleep gains surge." />
+    </card>
+    <card id="db1ca67a-33f9-4f23-ba8a-85bf0726300a" name="Silenus Descends" size="HorizCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Death of Stars" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each blue enemy loses aloof, loses warring, and gains hunter.&#10;Objective – If Silenus is defeated, (→R3)." />
+      <property name="Doom" value="9" />
+      <alternate name="The Death of All" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Death of Stars" />
+        <property name="Subtitle" value="Agenda 4b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(→R6)" />
+      </alternate>
+    </card>
+    <card id="57e194af-0a9c-41b8-803f-8e075ee10a8c" name="Silenus" size="EncounterCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Death of Stars" />
+      <property name="Subtitle" value="The Empty Sky" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="*Silenus has a global health pool of 8π.&#10;Hunter. Massive.&#10;Forced – When the mythos phase ends: Each investigator at Silenus’s location must decide (choose one) –&#10;– Place 1 doom on the blue agenda.&#10;– Remove each card in their hand from the game.&#10;– Take 3 horror." />
+      <property name="Health" value="*" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="3" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="1b0a42d6-2f25-468b-a48a-ed64a4601231" name="The Inescapable Maw" size="EncounterCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Death of Stars" />
+      <property name="Subtitle" value="Servant of Silenus" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Servitor. Elite." />
+      <property name="Text" value="Hunter.&#10;Anytime an investigator is forced to “decide” by an ability on a blue card, they must choose two options instead of one." />
+      <property name="Health" value="8" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="1e4500d7-6ee5-4075-8db2-32eddae1f93e" name="Hune-Stitched Herald" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Death of Stars" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster." />
+      <property name="Text" value="Warring.&#10;Forced – After Rune-Stitched Herald engages you: You must decide (choose one) –&#10;– Place 1 doom on the blue agenda.&#10;– Remove 2 clues from around Hub Dimension.&#10;– Hune-Stitched Herald attacks you." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="c6f14190-ecff-4a2d-b52a-bbb60aff8789" name="Ethereal Entity" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Death of Stars" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster." />
+      <property name="Text" value="Warring.&#10;Spawn – Athenaeum of the Empty Sky.&#10;Forced – After Ethereal Entity engages you: You must decide (choose one) –&#10;– Place 1 doom on the blue agenda.&#10;– Place 1 of your clues on your location.&#10;– Take 2 horror." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="93a44a29-622d-42ea-b40d-7ef40f887425" name="Inevitable End" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Death of Stars" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – You must decide (choose one):&#10;– Place 1 doom on the blue agenda.&#10;– Remove the top 6 cards of your deck from the game. Shuffle each weakness removed this way into your deck.&#10;– Choose 3 cards in your hand and remove them from the game." />
+    </card>
+    <card id="d7b2edca-13b2-48ae-ab2c-5de2aed021b6" name="The Egg Hatches" size="HorizCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Children of Paradise" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each green enemy loses aloof, loses warring, and  gains hunter.&#10;Objective – If Magh’an Ark’at is defeated,  (→R4)." />
+      <property name="Doom" value="9" />
+      <alternate name="The Rampage of Ark'at" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Children of Paradise" />
+        <property name="Subtitle" value="Agenda 4b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(→R7)" />
+      </alternate>
+    </card>
+    <card id="48d22212-f3bb-4e59-bf32-b4b155d7e8e8" name="Magh’an Ark’at" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Children of Paradise" />
+      <property name="Subtitle" value="The Child of Paradise" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Mutated. Elite." />
+      <property name="Text" value="*Magh’an Ark’at has a global health pool of 8π.&#10;Hunter. Massive. Retaliate.&#10;Forced – When the mythos phase ends: Place 1 resource on each Mutated enemy at Magh’an Ark’at’s location. Deal 1 damage to each investigator at this location for each mutation on Magh’an Ark’at." />
+      <property name="Health" value="*" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="3" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="79bafd9e-b3c6-4f4b-9f40-ab9b7d62153e" name="Vile Broodmaster" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Children of Paradise" />
+      <property name="Subtitle" value="Grotesque Abomination" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Servitor. Mutated. Elite." />
+      <property name="Text" value="Hunter. Retaliate.&#10;Vile Broodmaster gets +1 health for each mutation on it.&#10;Forced – When 1 or more mutations would be placed on an enemy: Place 1 additional mutation on that enemy." />
+      <property name="Health" value="7" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="728df0de-929f-4f87-8a88-0d84d01abad9" name="Horrific Shoggoth" size="EncounterCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Children of Paradise" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Shoggoth. Mutated." />
+      <property name="Text" value="Retaliate. Warring.&#10;Horrific Shoggoth gets +1 damage for each mutation on it.&#10;Forced – After Horrific Shoggoth attacks: Place 1 resource on it, as a mutation." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="ec7a17e6-4447-49ca-9b41-65bd901a392e" name="Bringer of Paradise" size="EncounterCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Children of Paradise" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Mutated." />
+      <property name="Text" value="Aloof. Retaliate. Warring.&#10;Spawn – Shrine of Magh’an Ark’at.&#10;Forced – When the round ends: Place 1 resource on Bringer of Paradise, as a mutation. Then, if there are 3 or more mutations on it, remove 2 of them and place 2 doom on the green agenda." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="35ca3e3d-a4c7-4632-a1af-7621778c9e3d" name="Hunt Down" size="EncounterCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Children of Paradise" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Place 1 resource on  the Mutated enemy with the highest fight, as a mutation. That enemy readies, moves (one location at a time) until it reaches your location, and engages you. Then, it attacks you. If no Mutated enemies are in play, Hunt Down gains surge." />
+    </card>
+    <card id="c9ed7b13-b95f-4188-89a2-9b53922e6057" name="Ezel-zen-rezl Emerges" size="HorizCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Swarm of Assimilation" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Each red enemy loses aloof, loses warring, and gains hunter.&#10;Objective – If Ezel-zen-rezl is defeated, (→R2)." />
+      <property name="Doom" value="9" />
+      <alternate name="Assimilation of Earth" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Swarm of Assimilation" />
+        <property name="Subtitle" value="Agenda 4b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(→R5)" />
+      </alternate>
+    </card>
+    <card id="aaa4c4bb-5aa6-47a2-b5c8-19240aac70ad" name="Ezel-zen-rezl" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Swarm of Assimilation" />
+      <property name="Subtitle" value="The Lord of Swarms" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="*Ezel-zen-rezl has a global health pool of 7π.&#10;Hunter. Massive.&#10;Forced – When the mythos phase ends Each investigator at Ezel-zen-rezl’s location chooses both a card from their hand and an asset they control and places them facedown underneath an Insect enemy as swarm cards." />
+      <property name="Health" value="*" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="a901fba9-4d5a-4960-8fc3-3e6b939a2d5f" name="Droning Horde" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Swarm of Assimilation" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Insect. Servitor. Elite." />
+      <property name="Text" value="Hunter. Swarming 6.&#10;Forced – After Droning Horde enters play: Each investigator chooses a card from their hand and places it facedown underneath an Insect enemy as a swarm card.&#10;Forced – When Droning Horde attacks: It deals either its damage or its horror, instead of both." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="71c39d27-fa30-431a-8ce7-466b960b67d6" name="Trylogog" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="5" />
+      <property name="Encounter Set" value="Swarm of Assimilation" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Creature. Insect." />
+      <property name="Text" value="Swarming 2. Warring.&#10;Spawn – Burning Pit.&#10;Forced – When Trylogog attacks: It deals either its damage or its horror, instead of both." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="c267eaaf-3666-4ea2-ba8a-a728648e3391" name="Transmogrify" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Swarm of Assimilation" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Place an asset you control facedown underneath an Insect enemy as a swarm card. If no Insect is in play, search the encounter deck and discard pile for a Trylogog and spawn it. Shuffle the encounter deck." />
+    </card>
+    <card id="2eb2efb7-f332-4780-8df6-1f0efe5fb684" name="Cloak of the Outer Realm">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Interwoven Distortion" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Clothing." />
+      <property name="Text" value="Uses (4 charges).&#10;ι When a non-Elite enemy would engage you, spend 1 charge: Exhaust that enemy instead." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Slot" value="Body" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="591e17cb-197c-4a61-b2d7-5fb8976fe389" name="Pocket Portal">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Doorway to Another World" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Fast.&#10;Forced – After Pocket Portal enters play: Place your investigator mini-card onto Pocket Portal and immediately end your turn. While your mini-card is on Pocket Portal, you are not at any location and enemies cannot spawn engaged with you. At the start of your turn, discard Pocket Portal and move to any revealed location." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="57f0ec05-c5e4-41a4-8df8-dc47a7dbb752" name="Dreaded End">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Gift of the Void" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Choose one –&#10;– Place a non-Elite enemy at your location on top of the encounter deck.&#10;– Look at the top 5 cards of the encounter deck. Discard 2 of them and return the rest to the top, in any order." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="2" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9a23f33b-8ee2-4856-8990-12f8b88fcca4" name="Blade of Ark’at">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Shellblade Tribute" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Weapon. Melee." />
+      <property name="Text" value="θ Exhaust Blade of Ark’at and spend 1 resource: Place 1 resource on Blade of Ark’at (from the token pool).&#10;η Fight. You get +1 ή for each resource on Blade of Ark’at. If you succeed, remove up to 3 resources from Blade of Ark’at to deal that much additional damage to the attacked enemy." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ebc0b4cb-2aca-498a-9e60-a369f811306d" name="Enchanted Skull">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
+      <property name="Subtitle" value="Mask of the Burning Pit" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="θ Exhaust Enchanted Skull: Place the top card of your deck facedown underneath Enchanted Skull.&#10;θ You get +1 to this skill test for each card underneath Enchanted Skull. Then discard 1 card from underneath Enchanted Skull, at random. (Limit once per turn.)" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="2" />
+      <property name="Slot" value="Accessory, Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+  </cards>
+</set>

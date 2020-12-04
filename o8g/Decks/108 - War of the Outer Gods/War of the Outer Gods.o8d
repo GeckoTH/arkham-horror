@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="f7f2322f-f721-42cb-9235-09803a6e6a08">The Incubation of the Egg</card>
+    <card qty="1" id="9a82930a-489f-4b8f-a3c9-1109e1229e91">The Incubation Progresses</card>
+    <card qty="1" id="5d6fca93-2f01-43a7-9ed1-b614c44a6785">The Incubation Nears Completion</card>
+    <card qty="1" id="b6908546-3053-4ca6-8c95-2d58f1579310">The Summoning of Silenus</card>
+    <card qty="1" id="a7344473-799d-4588-9cf2-2dc59dc0cdb5">The Summoning Progresses</card>
+    <card qty="1" id="a3b8223b-751d-4a4a-a167-0b3a6197b559">The Summoning Nears Completion</card>
+    <card qty="1" id="90b5f8a3-c81c-4424-89ff-a723f3a6408a">The Proliferation of the Swarm</card>
+    <card qty="1" id="d119691b-36f6-4e54-82e4-e12264b3520a">The Swarm Spreads</card>
+    <card qty="1" id="e6495c66-75c1-461e-b3a3-a1c463476589">The Proliferation Nears Completion</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="dc674602-0be0-4878-8583-2fdeb2d71aa8">War of the Outer Gods</card>
+    <card qty="1" id="546e14ea-22ea-4893-9343-b5b0dcfaf027">Close the Portal</card>
+    <card qty="1" id="93cd04a8-9d14-471f-9943-046790a3a6fe">Close All Portals</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="f6d4aa90-8ae1-4c03-9b58-a9644025c6ae">Nihilistic Stargazer</card>
+    <card qty="2" id="fc145e0b-86e4-4635-97b3-6fda88f04d0b">Death and Decay</card>
+    <card qty="1" id="9f825f47-688b-4f03-8b69-1a8d4e0413b4">Zealot of Paradise</card>
+    <card qty="2" id="4a18549c-6cca-4099-a7ec-ad644962de3f">Predator’s Call</card>
+    <card qty="1" id="3c578c89-2bec-48e9-816e-014e64c38dd6">Disciple of the Swarm</card>
+    <card qty="2" id="3322a4c1-3e29-4f12-a5f8-949748706cbb">Feast of Locusts</card>
+    <card qty="3" id="f813ebc2-16db-4064-a1c1-d92644cf4dd3">Hellfire</card>
+    <card qty="2" id="25f01ccb-6ad6-4ee7-a3ff-4a0614c00c31">Ravages of War</card>
+    <card qty="2" id="ec246b8e-daf2-4e0e-b026-87723ca5b2db">While They Sleep</card>
+    <card qty="1" id="c6f14190-ecff-4a2d-b52a-bbb60aff8789">Ethereal Entity</card>
+    <card qty="1" id="ec7a17e6-4447-49ca-9b41-65bd901a392e">Bringer of Paradise</card>
+    <card qty="1" id="71c39d27-fa30-431a-8ce7-466b960b67d6">Trylogog</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="ef7c213f-651c-4492-99f7-fb3bf4032af6">Hub Dimension</card>
+    <card qty="1" id="d7b2edca-13b2-48ae-ab2c-5de2aed021b6">The Egg Hatches</card>
+    <card qty="1" id="48d22212-f3bb-4e59-bf32-b4b155d7e8e8">Magh’an Ark’at</card>
+    <card qty="1" id="79bafd9e-b3c6-4f4b-9f40-ab9b7d62153e">Vile Broodmaster</card>
+    <card qty="1" id="728df0de-929f-4f87-8a88-0d84d01abad9">Horrific Shoggoth</card>
+    <card qty="2" id="ec7a17e6-4447-49ca-9b41-65bd901a392e">Bringer of Paradise</card>
+    <card qty="3" id="35ca3e3d-a4c7-4632-a1af-7621778c9e3d">Hunt Down</card>
+    <card qty="1" id="db1ca67a-33f9-4f23-ba8a-85bf0726300a">Silenus Descends</card>
+    <card qty="1" id="57e194af-0a9c-41b8-803f-8e075ee10a8c">Silenus</card>
+    <card qty="1" id="1b0a42d6-2f25-468b-a48a-ed64a4601231">The Inescapable Maw</card>
+    <card qty="1" id="1e4500d7-6ee5-4075-8db2-32eddae1f93e">Hune-Stitched Herald</card>
+    <card qty="2" id="c6f14190-ecff-4a2d-b52a-bbb60aff8789">Ethereal Entity</card>
+    <card qty="3" id="93a44a29-622d-42ea-b40d-7ef40f887425">Inevitable End</card>
+    <card qty="1" id="c9ed7b13-b95f-4188-89a2-9b53922e6057">Ezel-zen-rezl Emerges</card>
+    <card qty="1" id="aaa4c4bb-5aa6-47a2-b5c8-19240aac70ad">Ezel-zen-rezl</card>
+    <card qty="1" id="a901fba9-4d5a-4960-8fc3-3e6b939a2d5f">Droning Horde</card>
+    <card qty="4" id="71c39d27-fa30-431a-8ce7-466b960b67d6">Trylogog</card>
+    <card qty="2" id="c267eaaf-3666-4ea2-ba8a-a728648e3391">Transmogrify</card>
+    <card qty="1" id="2eb2efb7-f332-4780-8df6-1f0efe5fb684">Cloak of the Outer Realm</card>
+    <card qty="1" id="591e17cb-197c-4a61-b2d7-5fb8976fe389">Pocket Portal</card>
+    <card qty="1" id="57f0ec05-c5e4-41a4-8df8-dc47a7dbb752">Dreaded End</card>
+    <card qty="1" id="9a23f33b-8ee2-4856-8990-12f8b88fcca4">Blade of Ark’at</card>
+    <card qty="1" id="ebc0b4cb-2aca-498a-9e60-a369f811306d">Enchanted Skull</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="836f643b-081c-41fd-b2d4-fc4b25e1574b">War of the Outer Gods</card>
+    <card qty="1" id="93f5324f-0708-4297-91e8-8eac69117276">Arkham</card>
+    <card qty="1" id="695e3bdf-c738-4c79-b5b3-58d02d25f24a">Streets of Providence</card>
+    <card qty="1" id="49527bd2-e98a-488a-8fcb-929c9e3eab44">Athenaeum of the Empty Sky</card>
+    <card qty="1" id="94a238a0-9188-41ca-a613-be8e5ba500bc">The Arcade</card>
+    <card qty="1" id="f51c51cb-535d-4dea-9ef7-34fdebc52df8">Streets of Montreal</card>
+    <card qty="1" id="b83396fc-88a0-4d7b-a692-f084cf81cd7c">Chateau Ramezay</card>
+    <card qty="1" id="fd0d578e-c030-48d3-a718-859fa91c8134">Shrine of Magh’an Ark’at</card>
+    <card qty="1" id="336787ae-5ebc-4104-ae27-7543293d002d">Streets of New York City</card>
+    <card qty="1" id="69cb2bda-6821-4490-a449-ebd6e2c72dc6">The Burning Pit</card>
+    <card qty="1" id="249201d1-db47-4557-a199-5192dd9d0dd7">The Penthouse</card>
+    <card qty="1" id="f6d4aa90-8ae1-4c03-9b58-a9644025c6ae">Nihilistic Stargazer</card>
+    <card qty="1" id="9f825f47-688b-4f03-8b69-1a8d4e0413b4">Zealot of Paradise</card>
+    <card qty="1" id="3c578c89-2bec-48e9-816e-014e64c38dd6">Disciple of the Swarm</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
