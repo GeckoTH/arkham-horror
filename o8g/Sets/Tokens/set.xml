@@ -56,6 +56,9 @@
     <card id="81df3f18-e341-401d-a6bb-528940a9c39e" name="Curse" size="ChaosToken">
       <property name="Type" value="Chaos Token" />
     </card>
+    <card id="9daa887c-a121-4a4b-8346-a6249f68f43d" name="Curse" size="ResourceToken">
+      <property name="Type" value="Path" />
+    </card>
     <card id="faa82643-1dda-4af7-96ad-298bc2d5b2dd" name="ChaosBag">
       <property name="Type" value="Chaos Bag" />
     </card>

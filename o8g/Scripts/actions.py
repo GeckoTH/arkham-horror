@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import time
 import re
 from itertools import repeat
@@ -1051,7 +1053,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
 
     if not getLock():
-        whisper("Others players are setting up, please try manual setup again (Ctrl+Shift+S)")
+        whisper("Others players are setting up, please try manual setup again")
         return
         
     unlockDeck()
