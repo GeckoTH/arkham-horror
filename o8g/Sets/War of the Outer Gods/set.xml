@@ -501,8 +501,20 @@
     </card>
     <card id="c6f14190-ecff-4a2d-b52a-bbb60aff8789" name="Ethereal Entity" size="EncounterCard">
       <property name="Card Number" value="38" />
-      <property name="Quantity" value="3" />
+      <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Death of Stars" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster." />
+      <property name="Text" value="Warring.&#10;Spawn – Athenaeum of the Empty Sky.&#10;Forced – After Ethereal Entity engages you: You must decide (choose one) –&#10;– Place 1 doom on the blue agenda.&#10;– Place 1 of your clues on your location.&#10;– Take 2 horror." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="32144bf6-92bd-4480-a6c0-5e380281e175" name="Ethereal Entity" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster." />
       <property name="Text" value="Warring.&#10;Spawn – Athenaeum of the Empty Sky.&#10;Forced – After Ethereal Entity engages you: You must decide (choose one) –&#10;– Place 1 doom on the blue agenda.&#10;– Place 1 of your clues on your location.&#10;– Take 2 horror." />
@@ -579,8 +591,20 @@
     </card>
     <card id="ec7a17e6-4447-49ca-9b41-65bd901a392e" name="Bringer of Paradise" size="EncounterCard">
       <property name="Card Number" value="44" />
-      <property name="Quantity" value="3" />
+      <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Children of Paradise" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Mutated." />
+      <property name="Text" value="Aloof. Retaliate. Warring.&#10;Spawn – Shrine of Magh’an Ark’at.&#10;Forced – When the round ends: Place 1 resource on Bringer of Paradise, as a mutation. Then, if there are 3 or more mutations on it, remove 2 of them and place 2 doom on the green agenda." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="0b7de2b7-5af3-40ab-9d82-7b3c418fcbe5" name="Bringer of Paradise" size="EncounterCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Mutated." />
       <property name="Text" value="Aloof. Retaliate. Warring.&#10;Spawn – Shrine of Magh’an Ark’at.&#10;Forced – When the round ends: Place 1 resource on Bringer of Paradise, as a mutation. Then, if there are 3 or more mutations on it, remove 2 of them and place 2 doom on the green agenda." />
@@ -643,8 +667,21 @@
     </card>
     <card id="71c39d27-fa30-431a-8ce7-466b960b67d6" name="Trylogog" size="EncounterCard">
       <property name="Card Number" value="49" />
-      <property name="Quantity" value="5" />
+      <property name="Quantity" value="4" />
       <property name="Encounter Set" value="Swarm of Assimilation" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Creature. Insect." />
+      <property name="Text" value="Swarming 2. Warring.&#10;Spawn – Burning Pit.&#10;Forced – When Trylogog attacks: It deals either its damage or its horror, instead of both." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="a57480cb-8eeb-49df-b08c-08f2a5af3295" name="Trylogog" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="War of the Outer Gods" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Insect." />
       <property name="Text" value="Swarming 2. Warring.&#10;Spawn – Burning Pit.&#10;Forced – When Trylogog attacks: It deals either its damage or its horror, instead of both." />
