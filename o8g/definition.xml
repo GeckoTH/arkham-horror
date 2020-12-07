@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.1.162.361"
 	scriptVersion ="3.1.0.2"
-	version="1.7.2.0"
+	version="1.7.2.1"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -94,7 +94,7 @@
 		<size name="MiniCard" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
 		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
 		<size name="KeyToken" width="30" height="30" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="30" backHeight="30" />
-		<size name="ResourceToken" width="20" height="20" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="20" backHeight="20" />
+		<size name="ResourceToken" width="20" height="20" back="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" front="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" cornerRadius="4" backWidth="20" backHeight="20" />
 	    <size name="LongPath" width="140" height="20" back="cards/card.jpg" front="cards/card.jpg" />
 	    <size name="MediumPath" width="70" height="20" back="cards/card.jpg" front="cards/card.jpg" />
 	    <size name="ShortPath" width="35" height="20" back="cards/card.jpg" front="cards/card.jpg" />
@@ -123,7 +123,7 @@
 		<marker id="aad7ef0b-5806-4884-b420-c36a2d417bf7" name="Bless" src="Markers/aad7ef0b-5806-4884-b420-c36a2d417bf7.png" />
 	</markers>
   	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" board="background/tabletop.png" boardPosition="-575,-268,1150,536" background="background/background.jpg" backgroundStyle="uniformToFill">
-		<groupaction menu="Player Setup ..." default="False" shortcut="ctrl+shift+S" execute="playerSetup" />
+		<groupaction menu="Player Setup ..." default="False" shortcut="" execute="playerSetup" />
 		<groupaction menu="Reveal Encounter Card" default="False" shortcut="ctrl+E" execute="addEncounter" />
 		<groupaction menu="Reveal Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+E" execute="addEncounterSpecial" />
 		<groupaction menu="Hidden Encounter Card" default="False" shortcut="ctrl+H" execute="addHidden" />
