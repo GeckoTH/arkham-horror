@@ -325,13 +325,27 @@
     </card>
     <card id="fcef1b2a-3f58-46f3-9f70-7fa862f64bc0" name="Tidal Tunnel" size="EncounterCard">
       <property name="Card Number" value="174" />
-      <property name="Quantity" value="2" />
+      <property name="Quantity" value="1" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Bootlegger's Hideaway" type="B" size="EncounterCard">
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave." />
         <property name="Text" value="Forced – After Bootlegger’s Hideaway is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Bootlegger’s Hideaway without looking at it.&#10;η If you control the white key: Draw 3 cards. (Group limit once per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="edec904f-c285-4842-bc8b-3ddb049423e7" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="174" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Bootlegger's Hideaway" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After Bootlegger’s Hideaway is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Bootlegger’s Hideaway without looking at it.&#10;η If you control the black key: Gain 5 resources. (Group limit once per game.)" />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
@@ -352,9 +366,24 @@
         <property name="Clues" value="1π" />
       </alternate>
     </card>
+    <card id="6ae7c850-7728-4921-acae-bafd26b5c44a" name="Unfathomable Depths" size="EncounterCard">
+      <property name="Card Number" value="175" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave. Y’ha-nthlei." />
+      <alternate name="Deep One Grotto" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave. Y’ha-nthlei." />
+        <property name="Text" value="Forced – After this location is revealed: Increase its flood level. Place the set-aside purple key on it.&#10;θ If investigators at this location control both the green key and the yellow key and spend 3π clues, as a group: Take control of the purple key and read Flashback IX in the Campaign Guide." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
     <card id="4ec6c722-0375-46a2-9439-d8f8633766f5" name="Unfathomable Depths" size="EncounterCard">
       <property name="Card Number" value="176" />
-      <property name="Quantity" value="2" />
+      <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Devil’s Reef" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave. Y’ha-nthlei." />
@@ -367,9 +396,24 @@
         <property name="Clues" value="1π" />
       </alternate>
     </card>
+    <card id="9397321f-a895-4ca7-b91c-ed22f786fd9e" name="Unfathomable Depths" size="EncounterCard">
+      <property name="Card Number" value="176" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave. Y’ha-nthlei." />
+      <alternate name="Cyclopean Ruins" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave. Y’ha-nthlei." />
+        <property name="Text" value="Forced – After this location is revealed: It becomes fully flooded. Place the set-aside white key on it.&#10;θ If investigators at this location control both the blue key and the green key and spend 3π clues, as a group: Take control of the white key and read Flashback X in the Campaign Guide." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
     <card id="a63865a0-7d83-4656-bf27-bd34f16b1b1c" name="Unfathomable Depths" size="EncounterCard">
       <property name="Card Number" value="177" />
-      <property name="Quantity" value="2" />
+      <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Devil’s Reef" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave. Y’ha-nthlei." />
@@ -377,9 +421,24 @@
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave. Y’ha-nthlei." />
-        <property name="Text" value="Forced – After this location is revealed: Place the set‑aside black key on it.&#10;θ If investigators at this location control both the red key and the green key and spend 2π clues, as a group: Take control of the black key and read Flashback XI in the Campaign Guide." />
+        <property name="Text" value="Forced – After this location is revealed: Place the set-aside black key on it.&#10;θ If investigators at this location control both the red key and the green key and spend 2π clues, as a group: Take control of the black key and read Flashback XI in the Campaign Guide." />
         <property name="Shroud" value="5" />
         <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="6bb430fd-7a41-4e2d-bea6-e4ba9ed73848" name="Unfathomable Depths" size="EncounterCard">
+      <property name="Card Number" value="177" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Devil’s Reef" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave. Y’ha-nthlei." />
+      <alternate name="Temple of the Union" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave. Y’ha-nthlei." />
+        <property name="Text" value="Forced – After this location is revealed: Place the set-aside black key on it.&#10;θ If investigators at this location control both the blue key and the yellow key and spend 2π clues, as a group: Take control of the black key and read Flashback XI in the Campaign Guide." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
       </alternate>
     </card>
     <card id="515689d5-6251-4a8f-976d-e07c67a9bdce" name="Fishing Vessel">
