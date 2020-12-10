@@ -42,16 +42,16 @@
     <card qty="1" id="46f53b5c-30ec-49f6-b9a3-a985bf61d11b">Museum of Egyptian Antiquities</card>
   </section>
   <section name="Special" shared="True">
-    <card qty="2" id="6f83b462-b1b7-4a89-bf88-451107cfd372">Abyssal Revenant</card>
-    <card qty="1" id="ba44ac48-e286-4f18-aac0-a06dcb16842d">Neith</card>
-  </section>
-  <section name="Second Special" shared="True">
     <card qty="1" id="9ebacd6c-7f37-4051-98ea-530141d18e30">Professor Nathaniel Taylor</card>
     <card qty="1" id="8728bd85-572a-4ec9-b518-6e2676f267eb">Nassor</card>
     <card qty="1" id="01a1356f-be9c-4cf2-94f8-544baa853d9f">Farid</card>
-    <card qty="1" id="76f6e377-7192-4ed6-81a7-6c8852090f8f">Nadia Nimr</card>
     <card qty="1" id="24eef006-8861-42ea-aa67-950288e1e1de">Dr. Wentworth Moore</card>
+    <card qty="1" id="76f6e377-7192-4ed6-81a7-6c8852090f8f">Nadia Nimr</card>
     <card qty="1" id="586f9776-c2f6-468b-afff-63b625902eae">Dr. Layla El Masri</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="ba44ac48-e286-4f18-aac0-a06dcb16842d">Neith</card>
+    <card qty="2" id="6f83b462-b1b7-4a89-bf88-451107cfd372">Abyssal Revenant</card>
     <card qty="1" id="6deae397-9ef0-4b65-94f8-7f18ae67bb2b">John &amp; Jessie Burke</card>
     <card qty="1" id="57c884d2-9b48-4eaa-b226-9332f5eb1519">Ancient Ankh</card>
   </section>
