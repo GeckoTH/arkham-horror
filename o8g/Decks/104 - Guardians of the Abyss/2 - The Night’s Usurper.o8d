@@ -39,23 +39,24 @@
     <card qty="1" id="879846b9-e547-4c81-8119-ad8974e02798">The Night’s Usurper</card>
     <card qty="1" id="c9035367-ebae-436e-9c7d-258c7a55baed">Expedition Camp</card>
   </section>
-  <section name="Special" shared="True">
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="c640bf96-f9c8-4f45-a60a-872d992eb8f1">Eldritch Gate</card>
+    <card qty="1" id="766a822a-c927-4faf-b1c1-1b5cce3a8d10">A Dream Betwixt</card>
     <card qty="1" id="ee6c2283-3de1-42c3-b5a5-242cebabf330">Xzharah</card>
     <card qty="2" id="6b903f61-70aa-4436-8985-d164cace2f70">Dreaded Shantak</card>
-    <card qty="1" id="c640bf96-f9c8-4f45-a60a-872d992eb8f1">Eldritch Gate</card>
-    <card qty="1" id="5b9fd7fb-e348-4a84-8ee0-8b5a8b413846">Mist-Filled Caverns</card>
-    <card qty="1" id="c0b5e8c9-477d-43b2-9eb8-467e08cd758a">Stairway to Sarkomand</card>
-    <card qty="1" id="66a80678-c5ed-48e8-9029-df6ecb33247b">Tunnels under Ngranek</card>
     <card qty="1" id="154eac12-b7ef-406a-a3dc-a51f81cb7b20">The Great Abyss</card>
-    <card qty="1" id="766a822a-c927-4faf-b1c1-1b5cce3a8d10">A Dream Betwixt</card>
-  </section>
-  <section name="Second Special" shared="True">
+    <card qty="1" id="66a80678-c5ed-48e8-9029-df6ecb33247b">Tunnels under Ngranek</card>
+    <card qty="1" id="c0b5e8c9-477d-43b2-9eb8-467e08cd758a">Stairway to Sarkomand</card>
+    <card qty="1" id="5b9fd7fb-e348-4a84-8ee0-8b5a8b413846">Mist-Filled Caverns</card>
     <card qty="1" id="9ebacd6c-7f37-4051-98ea-530141d18e30">Professor Nathaniel Taylor</card>
     <card qty="1" id="8728bd85-572a-4ec9-b518-6e2676f267eb">Nassor</card>
     <card qty="1" id="01a1356f-be9c-4cf2-94f8-544baa853d9f">Farid</card>
     <card qty="1" id="76f6e377-7192-4ed6-81a7-6c8852090f8f">Nadia Nimr</card>
     <card qty="1" id="24eef006-8861-42ea-aa67-950288e1e1de">Dr. Wentworth Moore</card>
     <card qty="1" id="586f9776-c2f6-468b-afff-63b625902eae">Dr. Layla El Masri</card>
+    <card qty="1" id="90558a35-b226-4cd9-bd3e-303a6af0053b">Khopesh of the Abyss</card>
+    <card qty="1" id="4e61c5c5-b665-472e-a324-ee76c1e6a727">Summoned Nightgaunt</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
