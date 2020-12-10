@@ -469,7 +469,7 @@
         <property name="Traits" value="Innsmouth. Coastal. Midtown." />
         <property name="Text" value="θ If you control 1 or more keys: Move to a connecting location.&#10;η Discard an asset you control: Parley. Remove 1 barrier between this location and a connecting location." />
         <property name="Shroud" value="3" />
-        <property name="Clues" value="1π" />
+        <property name="Clues" value="1" />
       </alternate>
     </card>
     <card id="933d06de-bf43-4eb5-9054-70ccf087376c" name="Railroad Station" size="EncounterCard">
