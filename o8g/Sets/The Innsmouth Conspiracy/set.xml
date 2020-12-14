@@ -1477,5 +1477,11 @@
 		<property name="Type" value="Key Token" />
       </alternate>
     </card>
+    <card id="44dd06cd-10b7-4cc8-921e-444488fbb494" name="Flood Token" size="KeyToken">
+      <property name="Type" value="Flood Token" />
+      <alternate name="Flood Token" size="KeyToken" type="B">
+		<property name="Type" value="Flood Token" />
+      </alternate>
+    </card>
   </cards>
 </set>
