@@ -1347,7 +1347,7 @@ def markerChanged(args):
     if getGlobalVariable("phase") == "Mythos" or thisPhase[1] == 1:
         inMythosPhase = True
     
-    if card.Type == "Agenda" and args.marker == Doom[0] and inMythosPhase == True and card.properties[Doom[0]] != "":
+    if card.Type == "Agenda" and args.marker == Doom[0] and inMythosPhase == True and card.properties[Doom[0]] not in ["","-","X"]:
         maxDoom = int(card.properties[Doom[0]])
         totalDoom = 0
         for cardT in table:
