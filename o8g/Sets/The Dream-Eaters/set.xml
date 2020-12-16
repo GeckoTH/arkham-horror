@@ -7,7 +7,7 @@
       <property name="Subtitle" value="The Rookie Cop" />
       <property name="Type" value="Investigator" />
       <property name="Traits" value="Police. Warden." />
-      <property name="Text" value="ι When an asset you control is defeated: Gain X resources, where X is the total amount of damage and horror on that asset. Shuffle that asset into your deck.ε effect: +2. You may move up to 2 damage and/or horror from Tommy Muldoon to an asset you control, or vice versa." />
+      <property name="Text" value="ι When an asset you control is defeated: Gain X resources, where X is the total amount of damage and horror on that asset. Shuffle that asset into your deck.&#10;ε effect: +2. You may move up to 2 damage and/or horror from Tommy Muldoon to an asset you control, or vice versa." />
       <property name="Health" value="8" />
       <property name="Sanity" value="6" />
       <property name="Class" value="Guardian" />
@@ -19,7 +19,7 @@
       <alternate name="Tommy Muldoon" size="InvestigatorCard" type="B">
         <property name="Type" value="Investigator" />
 		<property name="Subtitle" value="The Rookie Cop" />
-        <property name="Text" value="Deck Size: 30.Deckbuilding Options: Guardian cards (κ) level 0-5, Neutral cards level 0-5, Survivor cards (ξ) level 0-2.Deckbuilding Requirements (do not count toward deck size): Becky, Rookie Mistake, 1 random basic weakness." />
+        <property name="Text" value="Deck Size: 30.Deckbuilding Options: Guardian cards (κ) level 0-5, Neutral cards level 0-5, Survivor cards (ξ) level 0-2.&#10;Deckbuilding Requirements (do not count toward deck size): Becky, Rookie Mistake, 1 random basic weakness." />
         <property name="Unique" value="ο" />
       </alternate>
     </card>
@@ -29,7 +29,7 @@
       <property name="Subtitle" value="The Researcher" />
       <property name="Type" value="Investigator" />
       <property name="Traits" value="Assistant. Scholar." />
-      <property name="Text" value="ι When an investigator at your location would search their deck or the encounter deck: They may either search 3 additional cards or resolve 1 additional target of the search. (Limit once per round.)ε effect: +0. Search the top 3 cards of your deck for a card and either draw it or commit it to this test, if able. Shuffle your deck." />
+      <property name="Text" value="ι When an investigator at your location would search their deck or the encounter deck: They may either search 3 additional cards or resolve 1 additional target of the search. (Limit once per round.)&#10;ε effect: +0. Search the top 3 cards of your deck for a card and either draw it or commit it to this test, if able. Shuffle your deck." />
       <property name="Health" value="6" />
       <property name="Sanity" value="8" />
       <property name="Class" value="Seeker" />
@@ -41,7 +41,7 @@
       <alternate name="Mandy Thompson" size="InvestigatorCard" type="B">
         <property name="Type" value="Investigator" />
 		<property name="Subtitle" value="The Researcher" />
-        <property name="Text" value="Deck Size: At deck creation, choose 30, 40, or 50.Secondary Class Choice: At deck creation, choose Mystic (μ), Rogue (ν), or Survivor (ξ).Deckbuilding Options: Seeker cards (λ) level 0-5, Neutral cards level 0-5, up to 10 level 0–1 events and/or skills of your chosen class.Deckbuilding Requirements (do not count toward deck size): 1 copy of Occult Evidence (2 copies instead if your deck size is 40; 3 copies instead if your deck size is 50), Shocking Discovery, 1 random basic weakness." />
+        <property name="Text" value="Deck Size: At deck creation, choose 30, 40, or 50.&#10;Secondary Class Choice: At deck creation, choose Mystic (μ), Rogue (ν), or Survivor (ξ).&#10;Deckbuilding Options: Seeker cards (λ) level 0-5, Neutral cards level 0-5, up to 10 level 0–1 events and/or skills of your chosen class.&#10;Deckbuilding Requirements (do not count toward deck size): 1 copy of Occult Evidence (2 copies instead if your deck size is 40; 3 copies instead if your deck size is 50), Shocking Discovery, 1 random basic weakness." />
         <property name="Unique" value="ο" />
       </alternate>
     </card>
@@ -51,7 +51,7 @@
       <property name="Subtitle" value="The Bounty Hunter" />
       <property name="Type" value="Investigator" />
       <property name="Traits" value="Criminal. Hunter." />
-      <property name="Text" value="You may take an additional action during your turn, which can only be used to engage or fight an enemy with 1 or more bounties on it.ε effect: +2. Place 1 bounty on Bounty Contracts." />
+      <property name="Text" value="You may take an additional action during your turn, which can only be used to engage or fight an enemy with 1 or more bounties on it.&#10;ε effect: +2. Place 1 bounty on Bounty Contracts." />
       <property name="Health" value="9" />
       <property name="Sanity" value="5" />
       <property name="Class" value="Rogue" />
@@ -63,7 +63,7 @@
       <alternate name="Tony Morgan" size="InvestigatorCard" type="B">
         <property name="Type" value="Investigator" />
 		<property name="Subtitle" value="The Bounty Hunter" />
-        <property name="Text" value="Deck Size: 30.Secondary Class Choice: At deck creation, choose Guardian (κ), Seeker (λ), or Survivor (ξ).Deckbuilding Options: Rogue cards (ν) level 0-5, Neutral cards level 0-5, up to 10 level 0–1 events and/or skills of your secondary chosen class.Deckbuilding Requirements (do not count toward deck size): Bounty Contracts, 2 copies of Tony’s .38 Long Colt, Tony’s Quarry, 1 random basic weakness." />
+        <property name="Text" value="Deck Size: 30.Secondary Class Choice: At deck creation, choose Guardian (κ), Seeker (λ), or Survivor (ξ).&#10;Deckbuilding Options: Rogue cards (ν) level 0-5, Neutral cards level 0-5, up to 10 level 0–1 events and/or skills of your secondary chosen class.&#10;Deckbuilding Requirements (do not count toward deck size): Bounty Contracts, 2 copies of Tony’s .38 Long Colt, Tony’s Quarry, 1 random basic weakness." />
         <property name="Unique" value="ο" />
       </alternate>
     </card>
@@ -73,7 +73,7 @@
       <property name="Subtitle" value="The Dreamer" />
       <property name="Type" value="Investigator" />
       <property name="Traits" value="Dreamer. Drifter. Wayfarer." />
-      <property name="Text" value="You begin the game with Gate Box in play.You may play one event each turn as if you were at a connecting location and engaged with each enemy at that location.ε effect: +1. Place 1 charge on Gate Box." />
+      <property name="Text" value="You begin the game with Gate Box in play.You may play one event each turn as if you were at a connecting location and engaged with each enemy at that location.&#10;ε effect: +1. Place 1 charge on Gate Box." />
       <property name="Health" value="5" />
       <property name="Sanity" value="9" />
       <property name="Class" value="Mystic" />
@@ -85,7 +85,7 @@
       <alternate name="Luke Robinson" size="InvestigatorCard" type="B">
         <property name="Type" value="Investigator" />
 		<property name="Subtitle" value="The Dreamer" />
-        <property name="Text" value="Deck Size: 30.Deckbuilding Options: Mystic cards (μ) level 0-5, Seeker cards (λ) level 0-2, Neutral cards level 0-5.Deckbuilding Requirements (do not count toward deck size): Gate Box, Detached from Reality, 1 random basic weakness." />
+        <property name="Text" value="Deck Size: 30.Deckbuilding Options: Mystic cards (μ) level 0-5, Seeker cards (λ) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Gate Box, Detached from Reality, 1 random basic weakness." />
         <property name="Unique" value="ο" />
       </alternate>
     </card>
@@ -95,7 +95,7 @@
       <property name="Subtitle" value="The Violinist" />
       <property name="Type" value="Investigator" />
       <property name="Traits" value="Performer. Cursed." />
-      <property name="Text" value="Your maximum hand size is reduced by 3.During each upkeep phase, instead of drawing 1 card, discard all non-weakness cards in your hand and draw until you have 5 cards in hand.ε effect: +1. After this test ends, you may shuffle all but 1 card from your discard pile into your deck." />
+      <property name="Text" value="Your maximum hand size is reduced by 3.&#10;During each upkeep phase, instead of drawing 1 card, discard all non-weakness cards in your hand and draw until you have 5 cards in hand.&#10;ε effect: +1. After this test ends, you may shuffle all but 1 card from your discard pile into your deck." />
       <property name="Health" value="7" />
       <property name="Sanity" value="7" />
       <property name="Class" value="Survivor" />
@@ -107,7 +107,7 @@
       <alternate name="Patrice Hathaway" size="InvestigatorCard" type="B">
         <property name="Type" value="Investigator" />
 		<property name="Subtitle" value="The Violinist" />
-        <property name="Text" value="Deck Size: 42.Deckbuilding Options: Survivor cards (ξ) level 0-5, Mystic cards (μ) level 0-2, Neutral cards level 0-5.Deckbuilding Requirements (do not count toward deck size): Patrice’s Violin, Watcher from Another Dimension, 1 random basic weakness." />
+        <property name="Text" value="Deck Size: 42.Deckbuilding Options: Survivor cards (ξ) level 0-5, Mystic cards (μ) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Patrice’s Violin, Watcher from Another Dimension, 1 random basic weakness." />
         <property name="Unique" value="ο" />
       </alternate>
     </card>
@@ -117,7 +117,7 @@
       <property name="Subtitle" value="Custom Marlin Model 1894" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm." />
-      <property name="Text" value="Tommy Muldoon deck only. Uses (2 ammo).Each resource gained from Tommy Muldoon’s ι ability may instead be placed on Becky, as ammo.η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
+      <property name="Text" value="Tommy Muldoon deck only. Uses (2 ammo).&#10;Each resource gained from Tommy Muldoon’s ι ability may instead be placed on Becky, as ammo.&#10;η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
       <property name="Class" value="Neutral" />
       <property name="Level" value="–" />
       <property name="Cost" value="2" />
@@ -142,7 +142,7 @@
       <property name="Quantity" value="3" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Insight. Research." />
-      <property name="Text" value="Mandy Thompson deck only.Shuffle Occult Evidence into your deck.ι When you search your deck and Occult Evidence is among the searched cards, reveal it: Draw it and discover 1 clue at your location. (Max one Research ability per search.)" />
+      <property name="Text" value="Mandy Thompson deck only.&#10;Shuffle Occult Evidence into your deck.&#10;ι When you search your deck and Occult Evidence is among the searched cards, reveal it: Draw it and discover 1 clue at your location. (Max one Research ability per search.)" />
       <property name="Class" value="Neutral" />
       <property name="Level" value="–" />
       <property name="Cost" value="0" />
@@ -158,14 +158,14 @@
       <property name="Type" value="Treachery" />
       <property name="Subtype" value="Weakness" />
       <property name="Traits" value="Blunder. Mystery." />
-      <property name="Text" value="Revelation – Shuffle Shocking Discovery back into your deck. (If you cannot, discard it and draw the top card of the encounter deck, instead.)Forced – When you search your deck and Shocking Discovery is among the searched cards: Discard it. Cancel the search and all of its effects. Shuffle the searched deck. Draw the top card of the encounter deck." />
+      <property name="Text" value="Revelation – Shuffle Shocking Discovery back into your deck. (If you cannot, discard it and draw the top card of the encounter deck, instead.)&#10;Forced – When you search your deck and Shocking Discovery is among the searched cards: Discard it. Cancel the search and all of its effects. Shuffle the searched deck. Draw the top card of the encounter deck." />
     </card>
     <card id="dfa8e930-a431-43a9-9d38-5a8363ef7cf4" name="Bounty Contracts">
       <property name="Card Number" value="10" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Job." />
-      <property name="Text" value="Permanent. Tony Morgan deck only. Uses (6 bounties).ι After an enemy enters play: Move 1–3 bounties from Bounty Contracts to that enemy, to a maximum of that enemy’s health.Forced – After you defeat an enemy with 1 or more bounties on it: Move its bounties to your resource pool, as resources." />
+      <property name="Text" value="Permanent. Tony Morgan deck only. Uses (6 bounties).&#10;ι After an enemy enters play: Move 1–3 bounties from Bounty Contracts to that enemy, to a maximum of that enemy’s health.&#10;Forced – After you defeat an enemy with 1 or more bounties on it: Move its bounties to your resource pool, as resources." />
       <property name="Class" value="Neutral" />
       <property name="Level" value="–" />
       <property name="Cost" value="–" />
@@ -180,7 +180,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm." />
-      <property name="Text" value="Tony Morgan deck only. Uses (3 ammo).ι After you play Tony’s .38 Long Colt: Play another Tony’s .38 Long Colt from your hand, at no cost.η Spend 1 ammo: Fight. You get +1 ή for each bounty on the attacked enemy. This attack deals +1 damage. If this attack defeats an enemy with 1 or more bounties on it, place 1 bounty on Bounty Contracts." />
+      <property name="Text" value="Tony Morgan deck only. Uses (3 ammo).&#10;ι After you play Tony’s .38 Long Colt: Play another Tony’s .38 Long Colt from your hand, at no cost.&#10;η Spend 1 ammo: Fight. You get +1 ή for each bounty on the attacked enemy. This attack deals +1 damage. If this attack defeats an enemy with 1 or more bounties on it, place 1 bounty on Bounty Contracts." />
       <property name="Class" value="Neutral" />
       <property name="Level" value="–" />
       <property name="Cost" value="3" />
@@ -197,7 +197,7 @@
       <property name="Type" value="Enemy" />
       <property name="Subtype" value="Weakness" />
       <property name="Traits" value="Humanoid. Monster. Deep One." />
-      <property name="Text" value="Spawn – Location farthest from Tony Morgan.Aloof.Forced – After Tony’s Quarry enters play: Place 1 doom on it. Then, place 1 resource on it (from the token pool), as a bounty." />
+      <property name="Text" value="Spawn – Location farthest from Tony Morgan.&#10;Aloof.&#10;Forced – After Tony’s Quarry enters play: Place 1 doom on it. Then, place 1 resource on it (from the token pool), as a bounty." />
       <property name="Health" value="3" />
       <property name="Combat" value="4" />
       <property name="Agility" value="1" />
@@ -209,7 +209,7 @@
       <property name="Quantity" value="1" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
-      <property name="Text" value="Luke Robinson deck only. Uses (3 charges).θ Exhaust Gate Box and spend 1 charge: Disengage from each enemy engaged with you, search your bonded cards for Dream-Gate (Wondrous Journey), put it into play, and move to it." />
+      <property name="Text" value="Luke Robinson deck only. Uses (3 charges).&#10;θ Exhaust Gate Box and spend 1 charge: Disengage from each enemy engaged with you, search your bonded cards for Dream-Gate (Wondrous Journey), put it into play, and move to it." />
       <property name="Class" value="Neutral" />
       <property name="Level" value="–" />
       <property name="Cost" value="3" />
@@ -234,14 +234,14 @@
       <property name="Subtitle" value="Wonderous Journey" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Dreamlands." />
-      <property name="Text" value="Bonded (Gate Box).Dream-Gate is connected to each other revealed location, and vice versa. Enemies and investigators other than Luke Robinson cannot enter Dream-Gate.Forced – At the end of the investigation phase: Set Dream-Gate aside, out of play. (If Luke Robinson is here, move him to any revealed location.)" />
+      <property name="Text" value="Bonded (Gate Box).&#10;Dream-Gate is connected to each other revealed location, and vice versa. Enemies and investigators other than Luke Robinson cannot enter Dream-Gate.&#10;Forced – At the end of the investigation phase: Set Dream-Gate aside, out of play. (If Luke Robinson is here, move him to any revealed location.)" />
       <property name="Shroud" value="1" />
       <property name="Clues" value="0" />
       <alternate name="Dream-Gate" type="B">
         <property name="Subtitle" value="Pointless Reality" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Dreamlands." />
-        <property name="Text" value="Bonded (Detached From Reality).Enemies and investigators other than Luke Robinson cannot enter Dream-Gate.ι After you successfully investigate Dream-Gate: Flip it.Forced – At the end of the investigation phase: Set Dream-Gate aside, out of play. (If Luke Robinson is here, move him to any revealed location, and he takes 2 horror.)" />
+        <property name="Text" value="Bonded (Detached From Reality).&#10;Enemies and investigators other than Luke Robinson cannot enter Dream-Gate.&#10;ι After you successfully investigate Dream-Gate: Flip it.&#10;Forced – At the end of the investigation phase: Set Dream-Gate aside, out of play. (If Luke Robinson is here, move him to any revealed location, and he takes 2 horror.)" />
         <property name="Shroud" value="6" />
         <property name="Clues" value="0" />
       </alternate>
@@ -252,7 +252,7 @@
       <property name="Subtitle" value="My Muse" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Instrument." />
-      <property name="Text" value="Patrice Hathaway deck only.ι Choose and discard 1 card from your hand and exhaust Patrice’s Violin: Choose an investigator at your location to either gain 1 resource or draw 1 card." />
+      <property name="Text" value="Patrice Hathaway deck only.&#10;ι Choose and discard 1 card from your hand and exhaust Patrice’s Violin: Choose an investigator at your location to either gain 1 resource or draw 1 card." />
       <property name="Class" value="Neutral" />
       <property name="Level" value="–" />
       <property name="Cost" value="2" />
@@ -270,7 +270,7 @@
       <property name="Type" value="Enemy" />
       <property name="Subtype" value="Weakness" />
       <property name="Traits" value="Monster. Extradimensional." />
-      <property name="Text" value="Peril. Hidden. Hunter.Revelation –  Secretly add this enemy to your hand.You may fight or evade this enemy while it is in your hand (as if it were at your location). If you succeed, discard it from your hand. If you fail, spawn it engaged with you.Forced – When your deck runs out of cards, if Watcher from Another Dimension is in your hand: It attacks you (from your hand)." />
+      <property name="Text" value="Peril. Hidden. Hunter.&#10;Revelation –  Secretly add this enemy to your hand.&#10;You may fight or evade this enemy while it is in your hand (as if it were at your location). If you succeed, discard it from your hand. If you fail, spawn it engaged with you.&#10;Forced – When your deck runs out of cards, if Watcher from Another Dimension is in your hand: It attacks you (from your hand)." />
       <property name="Health" value="2" />
       <property name="Combat" value="5" />
       <property name="Agility" value="5" />
@@ -283,7 +283,7 @@
       <property name="Subtitle" value="Calamitous Blade of Celephaïs" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Melee. Relic. Cursed." />
-      <property name="Text" value="Limit 1 per deck. As an additional cost to put this card into play, you must search your bonded cards for 3 copies of Bloodlust and shuffle them into your deck.η: Fight. You get +1 ή for this attack (and +1 ή for each attached copy of Bloodlust). This attack deals +1 damage. If this attack defeats an enemy, place 1 resource on this card (from the token bank), as an offering." />
+      <property name="Text" value="Limit 1 per deck. As an additional cost to put this card into play, you must search your bonded cards for 3 copies of Bloodlust and shuffle them into your deck.&#10;η: Fight. You get +1 ή for this attack (and +1 ή for each attached copy of Bloodlust). This attack deals +1 damage. If this attack defeats an enemy, place 1 resource on this card (from the token bank), as an offering." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="1" />
       <property name="Cost" value="3" />
@@ -301,14 +301,14 @@
       <property name="Type" value="Treachery" />
       <property name="Subtype" value="Weakness" />
       <property name="Traits" value="Madness." />
-      <property name="Text" value="Bonded (The Hungering Blade).Revelation – Remove 2 offerings from The Hungering Blade to attach Bloodlust to it. If you cannot, take 1 horror and shuffle Bloodlust back into your deck.θ While attacking with The Hungering Blade, shuffle Bloodlust into your deck: You deal +1 damage for this attack. (Max once per attack.)" />
+      <property name="Text" value="Bonded (The Hungering Blade).&#10;Revelation – Remove 2 offerings from The Hungering Blade to attach Bloodlust to it. If you cannot, take 1 horror and shuffle Bloodlust back into your deck.&#10;θ While attacking with The Hungering Blade, shuffle Bloodlust into your deck: You deal +1 damage for this attack. (Max once per attack.)" />
     </card>
     <card id="16f46f4c-ddc9-49e2-b738-add3380bc0c1" name="Solemn Vow">
       <property name="Card Number" value="20" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Spirit." />
-      <property name="Text" value="Myriad. Fast.Play Solemn Vow under the control of another investigator at your location.θ If the owner of Solemn Vow is at your location, exhaust Solemn Vow: Move 1 damage or horror from a card you control to a card that investigator controls." />
+      <property name="Text" value="Myriad. Fast.&#10;Play Solemn Vow under the control of another investigator at your location.&#10;θ If the owner of Solemn Vow is at your location, exhaust Solemn Vow: Move 1 damage or horror from a card you control to a card that investigator controls." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="0" />
       <property name="Cost" value="0" />
@@ -323,7 +323,7 @@
       <property name="Quantity" value="3" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Occult." />
-      <property name="Text" value="Myriad. Fast.θ If you have 3 copies of Segment of Onyx in play: Set them aside, out of play. Search your bonded cards for Pendant of the Queen and put it into play." />
+      <property name="Text" value="Myriad. Fast.&#10;θ If you have 3 copies of Segment of Onyx in play: Set them aside, out of play. Search your bonded cards for Pendant of the Queen and put it into play." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="1" />
       <property name="Cost" value="1" />
@@ -339,7 +339,7 @@
       <property name="Subtitle" value="Of Nothing at All" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
-      <property name="Text" value="Bonded (Segment of Onyx). Uses (3 charges). If this card has no charges, set it aside, out of play, and shuffle 3 set-aside copies of Segment of Onyx into your deck.θ Exhaust Pendant of the Queen and spend 1 charge: Choose a revealed location and select one – move to that location, discover 1 clue at that location, or automatically evade an enemy at that location." />
+      <property name="Text" value="Bonded (Segment of Onyx). Uses (3 charges). If this card has no charges, set it aside, out of play, and shuffle 3 set-aside copies of Segment of Onyx into your deck.&#10;θ Exhaust Pendant of the Queen and spend 1 charge: Choose a revealed location and select one – move to that location, discover 1 clue at that location, or automatically evade an enemy at that location." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="–" />
       <property name="Cost" value="–" />
@@ -356,7 +356,7 @@
       <property name="Quantity" value="3" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Research." />
-      <property name="Text" value="Myriad.Astounding Revelation cannot be played.ι When you search your deck and Astounding Revelation is among the searched cards, discard it: Either gain 2 resources or place 1 secret on an asset you control. (Max one Research ability per search.)" />
+      <property name="Text" value="Myriad.&#10;Astounding Revelation cannot be played.&#10;ι When you search your deck and Astounding Revelation is among the searched cards, discard it: Either gain 2 resources or place 1 secret on an asset you control. (Max one Research ability per search.)" />
       <property name="Class" value="Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="–" />
@@ -371,7 +371,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
-      <property name="Text" value="As an additional cost to put this card into play, you must search your bonded cards for 1 copy of Guardian of the Crystallizer and shuffle it into your deck.ι After you play an event: Attach it facedown to Crystallizer of Dreams instead of discarding it (to a maximum of 5 attached events). Attached events may be committed to skill tests as if they were in your hand." />
+      <property name="Text" value="As an additional cost to put this card into play, you must search your bonded cards for 1 copy of Guardian of the Crystallizer and shuffle it into your deck.&#10;ι After you play an event: Attach it facedown to Crystallizer of Dreams instead of discarding it (to a maximum of 5 attached events). Attached events may be committed to skill tests as if they were in your hand." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="0" />
       <property name="Cost" value="1" />
@@ -387,7 +387,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster." />
-      <property name="Text" value="Bonded (Crystallizer of Dreams). Hunter.Prey – Investigator with a Crystallizer of Dreams only.Guardian of the Crystallizer enters play exhausted.Forced – If there is no Crystallizer of Dreams in play: Set Guardian of the Crystallizer aside, out of play." />
+      <property name="Text" value="Bonded (Crystallizer of Dreams). Hunter.&#10;Prey – Investigator with a Crystallizer of Dreams only.&#10;Guardian of the Crystallizer enters play exhausted.&#10;Forced – If there is no Crystallizer of Dreams in play: Set Guardian of the Crystallizer aside, out of play." />
       <property name="Health" value="3" />
       <property name="Combat" value="3" />
       <property name="Agility" value="3" />
@@ -399,7 +399,7 @@
       <property name="Quantity" value="3" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Trick." />
-      <property name="Text" value="Myriad.Gain 2 resources and draw 1 card.ι After you play Easy Mark: Play another Easy Mark from your hand, at no cost." />
+      <property name="Text" value="Myriad.&#10;Gain 2 resources and draw 1 card.&#10;ι After you play Easy Mark: Play another Easy Mark from your hand, at no cost." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="1" />
       <property name="Cost" value="0" />
@@ -414,7 +414,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Insight. Augury." />
-      <property name="Text" value="Max twice per game.Play only if there are 10 or more cards in the encounter deck.Search your bonded cards for 1 copy of The Stars Are Right and shuffle it into the top 10 cards of the encounter deck." />
+      <property name="Text" value="Max twice per game.&#10;Play only if there are 10 or more cards in the encounter deck.&#10;Search your bonded cards for 1 copy of The Stars Are Right and shuffle it into the top 10 cards of the encounter deck." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="1" />
       <property name="Cost" value="0" />
@@ -429,7 +429,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Augury." />
-      <property name="Text" value="Bonded (Stargazing).Revelation – Remove The Stars Are Right from the game. Choose an investigator. That investigator draws 1 card, gains 1 resource, and may take an immediate action as if it were their turn (this action does not count toward the number of actions that investigator can take each turn)." />
+      <property name="Text" value="Bonded (Stargazing).&#10;Revelation – Remove The Stars Are Right from the game. Choose an investigator. That investigator draws 1 card, gains 1 resource, and may take an immediate action as if it were their turn (this action does not count toward the number of actions that investigator can take each turn)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="–" />
       <property name="Cost" value="–" />
@@ -444,7 +444,7 @@
       <property name="Quantity" value="3" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="Myriad. Fast. Play only during your turn.Attach to your location. Group limit 3 in play.Investigators may move between any two locations with an attached Open Gate as if the locations were connected." />
+      <property name="Text" value="Myriad. Fast. Play only during your turn.Attach to your location. Group limit 3 in play.&#10;Investigators may move between any two locations with an attached Open Gate as if the locations were connected." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="1" />
@@ -460,7 +460,7 @@
       <property name="Subtitle" value="Cat General of Ulthar" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Creature. Dreamlands." />
-      <property name="Text" value="Limit 1 per deck.Forced – After Miss Doyle enters play: Search your bonded cards for Hope, Zeal, and Augur. Randomly choose 1 to put into play and shuffle the other 2 into your deck. When Miss Doyle leaves play, find each of those assets (even if they are out of play) and remove them from the game." />
+      <property name="Text" value="Limit 1 per deck.&#10;Forced – After Miss Doyle enters play: Search your bonded cards for Hope, Zeal, and Augur. Randomly choose 1 to put into play and shuffle the other 2 into your deck. When Miss Doyle leaves play, find each of those assets (even if they are out of play) and remove them from the game." />
       <property name="Health" value="2" />
       <property name="Sanity" value="2" />
       <property name="Class" value="Survivor" />
@@ -479,7 +479,7 @@
       <property name="Quantity" value="1" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Creature. Dreamlands." />
-      <property name="Text" value="Bonded (Miss Doyle). Fast.Forced – After Hope enters play: Discard Zeal and Augur.η If Hope is ready, exhaust or discard him: Evade. Attempt to evade with a base ί value of 5. (If you discarded Hope, this test is automatically successful. Then, you may shuffle Hope into your deck to put Zeal or Augur into play from your discard pile.)" />
+      <property name="Text" value="Bonded (Miss Doyle). Fast.&#10;Forced – After Hope enters play: Discard Zeal and Augur.&#10;η If Hope is ready, exhaust or discard him: Evade. Attempt to evade with a base ί value of 5. (If you discarded Hope, this test is automatically successful. Then, you may shuffle Hope into your deck to put Zeal or Augur into play from your discard pile.)" />
       <property name="Health" value="–" />
       <property name="Sanity" value="–" />
       <property name="Class" value="Survivor" />
@@ -497,7 +497,7 @@
       <property name="Quantity" value="1" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Creature. Dreamlands." />
-      <property name="Text" value="Bonded (Miss Doyle). Fast.Forced – After Zeal enters play: Discard Hope and Augur.η If Zeal is ready, exhaust or discard her: Fight. Fight with a base ή value of 5. (If you discarded Zeal, this test is automatically successful. Then, you may shuffle Zeal into your deck to put Hope or Augur into play from your discard pile.)" />
+      <property name="Text" value="Bonded (Miss Doyle). Fast.&#10;Forced – After Zeal enters play: Discard Hope and Augur.&#10;η If Zeal is ready, exhaust or discard her: Fight. Fight with a base ή value of 5. (If you discarded Zeal, this test is automatically successful. Then, you may shuffle Zeal into your deck to put Hope or Augur into play from your discard pile.)" />
       <property name="Health" value="–" />
       <property name="Sanity" value="–" />
       <property name="Class" value="Survivor" />
@@ -515,7 +515,7 @@
       <property name="Quantity" value="1" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Creature. Dreamlands." />
-      <property name="Text" value="Bonded (Miss Doyle). Fast.Forced – After Augur enters play: Discard Hope and Zeal.η If Augur is ready, exhaust or discard her: Investigate. Investigate with a base έ value of 5. (If you discarded Augur, this test is automatically successful. Then, you may shuffle Augur into your deck to put Hope or Zeal into play from your discard pile.)" />
+      <property name="Text" value="Bonded (Miss Doyle). Fast.&#10;Forced – After Augur enters play: Discard Hope and Zeal.&#10;η If Augur is ready, exhaust or discard her: Investigate. Investigate with a base έ value of 5. (If you discarded Augur, this test is automatically successful. Then, you may shuffle Augur into your deck to put Hope or Zeal into play from your discard pile.)" />
       <property name="Health" value="–" />
       <property name="Sanity" value="–" />
       <property name="Class" value="Survivor" />
@@ -533,7 +533,7 @@
       <property name="Quantity" value="3" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Fortune. Insight." />
-      <property name="Text" value="Myriad.X is the number of other copies of Fortuitous Discovery in your discard pile.Investigate. You get +X έ for this investigation. If you succeed, discover X additional clues at your location." />
+      <property name="Text" value="Myriad.&#10;X is the number of other copies of Fortuitous Discovery in your discard pile.Investigate. You get +X έ for this investigation. If you succeed, discover X additional clues at your location." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="0" />
       <property name="Cost" value="X" />
@@ -549,7 +549,7 @@
       <property name="Type" value="Treachery" />
       <property name="Subtype" value="Basic Weakness" />
       <property name="Traits" value="Flaw." />
-      <property name="Text" value="Multiplayer only.Revelation – Put Self-Centered into play in your threat area.You cannot commit cards to other investigators’ skill tests or affect other investigators with player card effects (except aspects that cause damage or horror).η η: Discard Self-Centered." />
+      <property name="Text" value="Multiplayer only.&#10;Revelation – Put Self-Centered into play in your threat area.&#10;You cannot commit cards to other investigators’ skill tests or affect other investigators with player card effects (except aspects that cause damage or horror).&#10;η η: Discard Self-Centered." />
     </card>
     <card id="1e1b819a-4bc3-4954-bea4-752fce9858bc" name="Kleptomania">
       <property name="Card Number" value="36" />
@@ -557,7 +557,7 @@
       <property name="Type" value="Asset" />
       <property name="Subtype" value="Basic Weakness" />
       <property name="Traits" value="Madness. Talent." />
-      <property name="Text" value="Multiplayer only.Revelation – Put Kleptomania into play in your play area.η: Take control of an Item asset or 2 resources from another investigator at your location. Then, shuffle Kleptomania into your deck.Forced – At the end of your turn: Take 1 horror." />
+      <property name="Text" value="Multiplayer only.&#10;Revelation – Put Kleptomania into play in your play area.&#10;η: Take control of an Item asset or 2 resources from another investigator at your location. Then, shuffle Kleptomania into your deck.&#10;Forced – At the end of your turn: Take 1 horror." />
       <property name="Level" value="–" />
       <property name="Cost" value="–" />
       <property name="Willpower" value="0" />
@@ -572,7 +572,7 @@
       <property name="Type" value="Treachery" />
       <property name="Subtype" value="Basic Weakness" />
       <property name="Traits" value="Madness." />
-      <property name="Text" value="Multiplayer only.Revelation – Put Narcolepsy into play in your threat area.You cannot take actions, trigger abilities, or play cards.η: “Wake up!” Discard Narcolepsy.Forced – After you take damage or horror: Discard Narcolepsy." />
+      <property name="Text" value="Multiplayer only.&#10;Revelation – Put Narcolepsy into play in your threat area.&#10;You cannot take actions, trigger abilities, or play cards.&#10;η: “Wake up!” Discard Narcolepsy.&#10;Forced – After you take damage or horror: Discard Narcolepsy." />
     </card>
     <card id="2ecb16b4-a4db-4832-8e78-d3527b8c1bd6" name="Your Worst Nightmare">
       <property name="Card Number" value="38" />
@@ -580,7 +580,7 @@
       <property name="Type" value="Enemy" />
       <property name="Subtype" value="Basic Weakness" />
       <property name="Traits" value="Monster." />
-      <property name="Text" value="Multiplayer only. Hunter.Prey – Bearer only.The bearer of Your Worst Nightmare cannot attack, damage, or defeat it." />
+      <property name="Text" value="Multiplayer only. Hunter.&#10;Prey – Bearer only.&#10;The bearer of Your Worst Nightmare cannot attack, damage, or defeat it." />
       <property name="Health" value="3" />
       <property name="Combat" value="2" />
       <property name="Agility" value="2" />
@@ -592,12 +592,12 @@
       <property name="Encounter Set" value="Beyond the Gates of Sleep" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α : –X. X is half the number of cards in your hand (rounded up).β: –X. X is the number of revealed Enchanted Woods locations.γ: –2. If you fail and this is an attack or evasion attempt against a swarming enemy, add 1 swarm card to it." />
+      <property name="Text" value="α : –X. X is half the number of cards in your hand (rounded up).&#10;β: –X. X is the number of revealed Enchanted Woods locations.&#10;γ: –2. If you fail and this is an attack or evasion attempt against a swarming enemy, add 1 swarm card to it." />
       <alternate name="Beyond the Gates of Sleep" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α : –X. X is the number of cards in your hand.β: –X. X is the number of revealed Woods locations.γ: –2. If this is an attack or evasion attempt against a swarming enemy, add 1 swarm card to it." />
+        <property name="Text" value="α : –X. X is the number of cards in your hand.&#10;β: –X. X is the number of revealed Woods locations.&#10;γ: –2. If this is an attack or evasion attempt against a swarming enemy, add 1 swarm card to it." />
       </alternate>
     </card>
     <card id="19db1533-dc1f-4aab-9293-ee128a21942a" name="Journey through the Gates" size="HorizCard">
@@ -612,7 +612,7 @@
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="If it is act 1, 2, or 3, read the following:The steps begin to twist like a snake uncoiling from its sleep. You try to keep your balance, but there is nothing for you to cling to for safety as the stairs tilt and flip.Each surviving investigator is defeated and suffers 1 physical trauma. Each of those investigators may test ά (3) before being defeated to remember that this is all a dream. Each investigator who succeeds suffers 1 mental trauma, instead.If it is act 4, read the following:“Help! Please! Anyone!” The voice called out from the trees, far from the path. Normally, this sort of trick would not have fooled you, but the voice was too familiar to ignore. A loved one, perhaps, or someone you once failed in a time of need. It doesn’t matter. It’s too late now. You spin and look for the path, but it is nowhere to be found.Record in your Campaign Log the dreamers strayed from the path. Each surviving investigator is defeated and suffers 1 mental trauma." />
+        <property name="Text" value="If it is act 1, 2, or 3, read the following:&#10;Each surviving investigator is defeated and suffers 1 physical trauma. Each of those investigators may test ά (3) before being defeated to remember that this is all a dream. Each investigator who succeeds suffers 1 mental trauma, instead.&#10;If it is act 4, read the following:&#10;Record in your Campaign Log the dreamers strayed from the path. Each surviving investigator is defeated and suffers 1 mental trauma." />
       </alternate>
     </card>
     <card id="c03e0c7a-2438-4076-a38a-2d0b55e09852" name="Entering the Dreamlands" size="HorizCard">
@@ -621,13 +621,13 @@
       <property name="Encounter Set" value="Beyond the Gates of Sleep" />
       <property name="Subtitle" value="Act 1a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Do not draw cards from the encounter deck during the mythos phase.Objective – If an investigator enters The Cavern of Flame, immediately advance." />
+      <property name="Text" value="Do not draw cards from the encounter deck during the mythos phase.&#10;Objective – If an investigator enters The Cavern of Flame, immediately advance." />
       <property name="Clues" value="–" />
       <alternate name="Priests of the Dreamlands" size="HorizCard" type="B">
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Subtitle" value="Act 1b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="At the center of the cavern is a pillar of flame flanked by two robed, bearded men. You recognize this scene from the writings of Virgil Gray. The priests, the cavern: it is all just as he described. Either you have ventured into the same dreamscape, or you are sharing in his delusions. “You must be tested,” one of the priests says enigmatically. “Your ordeal will be great, and thus, so too will be your trial.”Each investigator loses all of their clues.Put the set-aside Nasht and Kaman-Thah enemies into play in The Cavern of Flame.Your slumber grows deeper. Add 1 α token to the chaos bag for the remainder of the campaign." />
+        <property name="Text" value="Each investigator loses all of their clues.&#10;Put the set-aside Nasht and Kaman-Thah enemies into play in The Cavern of Flame.&#10;Your slumber grows deeper. Add 1 α token to the chaos bag for the remainder of the campaign." />
       </alternate>
     </card>
     <card id="39840699-d759-44b3-82b1-b0024b4b4541" name="The Trial of Nasht and Kaman-Thah" size="HorizCard">
@@ -636,13 +636,13 @@
       <property name="Encounter Set" value="Beyond the Gates of Sleep" />
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Do not draw cards from the encounter deck during the mythos phase.Objective – If neither Nasht nor Kaman-Thah are in play, immediately advance." />
+      <property name="Text" value="Do not draw cards from the encounter deck during the mythos phase.&#10;Objective – If neither Nasht nor Kaman-Thah are in play, immediately advance." />
       <property name="Clues" value="–" />
       <alternate name="Beware the Road Ahead" size="HorizCard" type="B">
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Satisfied that you are worthy to enter the Dreamlands, the priests step aside to let you pass, and the gate beyond opens. Before you step through, one of them grabs you by the wrist and gives you a final warning: “Your journey shall take you beyond the lands of the gods. The eye of chaos is upon you now. Follow the path, and you shall be safe. But beware­!” He tightens his grip. “Stray not from the path!”Each investigator loses all of their clues.Put the set-aside Seven Hundred Steps, Base of the Steps, and The Enchanted Path locations into play.Your slumber grows deeper. Add 1 α token to the chaos bag for the remainder of the campaign." />
+        <property name="Text" value="Each investigator loses all of their clues.&#10;Put the set-aside Seven Hundred Steps, Base of the Steps, and The Enchanted Path locations into play.&#10;Your slumber grows deeper. Add 1 α token to the chaos bag for the remainder of the campaign." />
       </alternate>
     </card>
     <card id="423e507f-9941-4705-9fd9-efc3532672e6" name="The Final Descent" size="HorizCard">
@@ -651,13 +651,13 @@
       <property name="Encounter Set" value="Beyond the Gates of Sleep" />
       <property name="Subtitle" value="Act 3a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Do not draw cards from the encounter deck during the mythos phase.Objective – If each investigator is at The Enchanted Path, immediately advance." />
+      <property name="Text" value="Do not draw cards from the encounter deck during the mythos phase.&#10;Objective – If each investigator is at The Enchanted Path, immediately advance." />
       <property name="Clues" value="–" />
       <alternate name="Into Enchantment" size="HorizCard" type="B">
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Subtitle" value="Act 3b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="When you reach the base of the stairway, you find yourself in an otherworldly oak forest. The forest floor is thick with countless years of fallen leaves, and you are surrounded by glowing fungi of all shapes and sorts. The soil is pierced with gnarled roots, and the trees are strangled by invasive vines. A winding dirt path leads deeper into the woods.Each investigator loses all of their clues.Your slumber grows deeper. Add 1 α token to the chaos bag for the remainder of the campaign.Remove each Steps location from the game.Randomly choose 6 of the set-aside Enchanted Woods locations to put into play. Remove the other copy from the game.Shuffle all of the remaining set-aside scenario cards, except for Laboring Gug and Randolph Carter (Expert Dreamer), to form the encounter deck. (From now on, investigators draw cards from the encounter deck during each mythos phase, as normal.)" />
+        <property name="Text" value="Each investigator loses all of their clues.&#10;Your slumber grows deeper. Add 1 α token to the chaos bag for the remainder of the campaign.&#10;Remove each Steps location from the game.&#10;Randomly choose 6 of the set-aside Enchanted Woods locations to put into play. Remove the other copy from the game.&#10;Shuffle all of the remaining set-aside scenario cards, except for Laboring Gug and Randolph Carter (Expert Dreamer), to form the encounter deck. (From now on, investigators draw cards from the encounter deck during each mythos phase, as normal.)" />
       </alternate>
     </card>
     <card id="44ae8fdc-0fac-4f5e-9c92-9c7491ddd28e" name="The Path" size="HorizCard">
@@ -666,13 +666,13 @@
       <property name="Encounter Set" value="Beyond the Gates of Sleep" />
       <property name="Subtitle" value="Act 4a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Forced – After the first time any investigator enters an Enchanted Woods location: Record in your Campaign Log the dreamers strayed from the path.Objective – Only investigators at The Enchanted Path may spend the requisite number of clues, as a group, to advance." />
+      <property name="Text" value="Forced – After the first time any investigator enters an Enchanted Woods location: Record in your Campaign Log the dreamers strayed from the path.&#10;Objective – Only investigators at The Enchanted Path may spend the requisite number of clues, as a group, to advance." />
       <property name="Clues" value="5π" />
       <alternate name="New Visitors" size="HorizCard" type="B">
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Subtitle" value="Act 4b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="As you near the edge of the wood, more of the rodent-like creatures emerge, swarming out of burrows and honeycombed trees. Soon, the whole forest is alive with them. They surround you and chitter in a language you somehow understand: “Intruders.” “They are with the cats.” “New dreamers.” “No, they followed the black cat.” “But the black cat is not here.” “We are many; they are few.” Several of them emit low growls as they begin to close in. Just then, you hear a human voice call out, “What is the meaning of all this?” The owner of the voice is a blond young man with an unfazed expression. He is flanked by a pack of angry cats, each of whom falls into step beside him, save for one scarred old cat who takes the lead. You realize that the man speaks not to you, but to the creatures all around you, who slink backward as they are scolded. Then, to your ever-growing surprise, the scarred cat speaks: “Your tribute is late!”The investigators must decide (choose one):– Step back and watch this surreal scene play out. (-&gt;R1)– Interrupt the scarred cat and handle this yourself. (-&gt;R2)" />
+        <property name="Text" value="The investigators must decide (choose one):&#10;– Step back and watch this surreal scene play out. (-&gt;R1)&#10;– Interrupt the scarred cat and handle this yourself. (-&gt;R2)" />
       </alternate>
     </card>
     <card id="7f19494d-b835-485e-83c4-e0633bab9074" name="Seventy Steps" size="EncounterCard">
@@ -687,7 +687,7 @@
         <property name="Subtitle" value="Of Lighter Slumber" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Steps." />
-        <property name="Text" value="Forced – When you leave the Seventy Steps: Take 1 horror for each card in your hand in excess of 5.θ: Choose and discard 1 card from your hand." />
+        <property name="Text" value="Forced – When you leave the Seventy Steps: Take 1 horror for each card in your hand in excess of 5.&#10;θ: Choose and discard 1 card from your hand." />
         <property name="Shroud" value="1" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -720,7 +720,7 @@
         <property name="Subtitle" value="Of Deeper Slumber" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Steps." />
-        <property name="Text" value="Forced – When you leave the Seven Hundred Steps: Take 1 horror for each card in your hand in excess of 3.θ: Choose and discard 1 card from your hand." />
+        <property name="Text" value="Forced – When you leave the Seven Hundred Steps: Take 1 horror for each card in your hand in excess of 3.&#10;θ: Choose and discard 1 card from your hand." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -752,7 +752,7 @@
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Woods." />
-        <property name="Text" value="The Enchanted Path is connected to each Enchanted Woods location.The Enchanted Path gets +1 shroud for each unrevealed Enchanted Woods location in play.η η η: You do as you were told...but you feel as though you are missing something. Place 1 clue on The Enchanted Path (from the token pool)." />
+        <property name="Text" value="The Enchanted Path is connected to each Enchanted Woods location.&#10;The Enchanted Path gets +1 shroud for each unrevealed Enchanted Woods location in play.&#10;η η η: You do as you were told... but you feel as though you are missing something. Place 1 clue on The Enchanted Path (from the token pool)." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="0" />
       </alternate>
@@ -883,12 +883,12 @@
       <property name="Subtitle" value="Priest of the Dreamlands" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Dreamlands. Warden. Elite." />
-      <property name="Text" value="Aloof. Retaliate.η: Parley. Test ά or έ (2) to prove that you are worthy to enter the Dreamlands. This test gets +1π difficulty. If you succeed, flip Kaman-Thah over and resolve the text on his other side. If you fail, Kaman-Thah attacks each investigator at his location.Forced – After you defeat Kaman-Thah: Flip him over and resolve the text on his other side." />
+      <property name="Text" value="Aloof. Retaliate.η: Parley. Test ά or έ (2) to prove that you are worthy to enter the Dreamlands. This test gets +1π difficulty. If you succeed, flip Kaman-Thah over and resolve the text on his other side. If you fail, Kaman-Thah attacks each investigator at his location.&#10;Forced – After you defeat Kaman-Thah: Flip him over and resolve the text on his other side." />
       <property name="Unique" value="ο" />
       <alternate name="The Trial of Kaman-Thah" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Type" value="Story" />
-        <property name="Text" value="If you parleyed with Kaman-Thah, read the following:“Your mind is strong,” the guardian admits, “but are you ready to shed your concept of truth? Of reality? If so, alter your clothing.” You protest out of confusion. “This is a land of wills,” the priest continues. “If your resolve is truly strong enough, prove it to me.” You close your eyes and imagine a different outfit, straining to recall its texture, its color, its smell. Each and every thread of fabric. When you open your eyes, you are wearing it. “Good,” Kaman-Thah says, stepping aside.Add this card to the victory display.If you defeated Kaman-Thah, read the following:The priest entertains your silly notion of resistance for a few moments before his eyes turn fiery. He is completely unharmed. “You are fierce. But ferocity will only get you so far. You may pass, but heed me: not all problems can be solved with violence.”Add this card to the victory display." />
+        <property name="Text" value="If you parleyed with Kaman-Thah, read the following:&#10;Add this card to the victory display.&#10;If you defeated Kaman-Thah, read the following:&#10;Add this card to the victory display." />
       </alternate>
     </card>
     <card id="33bf8bf5-d32d-4cf9-82da-3e166025bb1f" name="Nasht" size="EncounterCard">
@@ -898,12 +898,12 @@
       <property name="Subtitle" value="Priest of the Dreamlands" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Dreamlands. Warden. Elite." />
-      <property name="Text" value="Aloof. Retaliate.η Parley. Test ή or ί (2) to prove that you are worthy to enter the Dreamlands. This test gets +1π difficulty. If you succeed, flip Nasht over and resolve the text on his other side. If you fail, Nasht attacks each investigator at his location.Forced – After you defeat Nasht: Flip him over and resolve the text on his other side." />
+      <property name="Text" value="Aloof. Retaliate.&#10;η Parley. Test ή or ί (2) to prove that you are worthy to enter the Dreamlands. This test gets +1π difficulty. If you succeed, flip Nasht over and resolve the text on his other side. If you fail, Nasht attacks each investigator at his location.&#10;Forced – After you defeat Nasht: Flip him over and resolve the text on his other side." />
       <property name="Unique" value="ο" />
       <alternate name="The Trial of Nasht" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Type" value="Story" />
-        <property name="Text" value="If you parleyed with Nasht, read the following:“Your quest will lead to death,” the priest foretells. “Prove that you can survive what is to come, and I shall let you pass. Show me your weapon.” You open your hand and reveal the first weapon that comes to your mind. Nasht slaps it out of your hand. “That is not a weapon. Show me your true weapon.” You think for a moment. What weapon could the guardian possibly be referring to? What weapon could help you survive a place like this? Then the answer hits you, plain as day. You point to your temple, and Nasht nods. “Very well.”Add this card to the victory display.If you defeated Nasht, read the following:The guardian dismisses you with a gentle wave of his hand, and you are sent hurtling into the wall of the cavern. “Your eyes mistake me for a feeble old man. This is your lesson: Do not trust your eyes, for they will lie to you.” He steps aside to let you pass.Add this card to the victory display." />
+        <property name="Text" value="Add this card to the victory display.&#10;If you defeated Nasht, read the following:&#10;Add this card to the victory display." />
       </alternate>
     </card>
     <card id="d144e242-5568-475d-9c88-be040b6e0960" name="Randolph Carter">
@@ -947,7 +947,7 @@
       <property name="Encounter Set" value="Beyond the Gates of Sleep" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Zoog. Elite." />
-      <property name="Text" value="Spawn – Any Enchanted Woods location (unrevealed, if able).Aloof.Forced – At the start of the enemy phase, if Ancient Zoog is ready: Add 1 swarm card to each swarming Zoog enemy in play." />
+      <property name="Text" value="Spawn – Any Enchanted Woods location (unrevealed, if able).&#10;Aloof.&#10;Forced – At the start of the enemy phase, if Ancient Zoog is ready: Add 1 swarm card to each swarming Zoog enemy in play." />
       <property name="Health" value="3" />
       <property name="Combat" value="3" />
       <property name="Agility" value="3" />
@@ -968,12 +968,12 @@
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α : –1 (–3 instead if you are engaged with a Staff enemy).β: Reveal another chaos token. If you fail and it is agenda 2 or 3, make an infestation test.δ: –X. X is the number of infested locations." />
+      <property name="Text" value="α : –1 (–3 instead if you are engaged with a Staff enemy).β: Reveal another chaos token. If you fail and it is agenda 2 or 3, make an infestation test.&#10;δ: –X. X is the number of infested locations." />
       <alternate name="Waking Nightmare" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α : –2 (–4 instead if you are engaged with a Staff enemy).β: Reveal another chaos token. If it is agenda 2 or 3, make an infestation test.δ: –X. X is 1 higher than the number of infested locations." />
+        <property name="Text" value="α : –2 (–4 instead if you are engaged with a Staff enemy).&#10;β: Reveal another chaos token. If it is agenda 2 or 3, make an infestation test.&#10;δ: –X. X is 1 higher than the number of infested locations." />
       </alternate>
     </card>
     <card id="93f1ba7c-ee75-4780-ae78-737f3b2abfff" name="Halls of St. Mary’s" size="HorizCard">
@@ -987,7 +987,7 @@
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="As you continue to explore the hospital, the oddities you have observed become more and more frequent. Thick, dark cobwebs now cover the corners of every room. Spiders crawl along the walls and the ceilings, emerging from seemingly nowhere and vanishing just as quickly. It’s not just your imagination—an infestation of spiders has taken root within the hospital. And not just any spiders: they are larger than average, with long, jagged, barbed legs and great hairy abdomens. Perhaps even more worrying is the complete lack of hospital staff roaming the halls. Aside from several wary and frightened orderlies, you see no other staff members, not even any nurses or doctors. Where has everyone gone?Shuffle the set-aside Spiders encounter set and each set-aside copy of Outbreak into the encounter deck, along with the encounter discard pile.Draw the set-aside The Infestation Begins story card and resolve its text." />
+        <property name="Text" value="Shuffle the set-aside Spiders encounter set and each set-aside copy of Outbreak into the encounter deck, along with the encounter discard pile.&#10;Draw the set-aside The Infestation Begins story card and resolve its text." />
       </alternate>
     </card>
     <card id="4a7a8b53-2d37-4333-86b0-ab60344405f4" name="The Infestation Spreads" size="HorizCard">
@@ -1002,7 +1002,7 @@
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Subtitle" value="Agenda 2b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="Suddenly, chaos breaks out in the hospital. The sound of chittering and crashing emerges from the walls. In the darkness, you can barely make out the shapes of bizarre spiderlike creatures scurrying in the distance. As you round a corner, you spot an orderly writhing on the polished floor, convulsing violently as though possessed by an insidious force. You rush to his side and flip him onto his back…and find that nearly all of his face is covered in thick webbing, and his eyes are wide and glazed over. He does not react as you shake him.Find each Suspicious Orderly enemy in play and replace it with a set-aside Corrupted Orderly enemy (it keeps its game state and all tokens and attachments).Search the encounter deck and discard pile for each copy of Suspicious Orderly and remove them from the game.Shuffle the set-aside Agents of Atlach-Nacha encounter set, each remaining set-aside Corrupted Orderly enemy, and the encounter discard pile into the encounter deck.Add 1 α token and 1 β token to the infestation bag." />
+        <property name="Text" value="Find each Suspicious Orderly enemy in play and replace it with a set-aside Corrupted Orderly enemy (it keeps its game state and all tokens and attachments).&#10;Search the encounter deck and discard pile for each copy of Suspicious Orderly and remove them from the game.&#10;Shuffle the set-aside Agents of Atlach-Nacha encounter set, each remaining set-aside Corrupted Orderly enemy, and the encounter discard pile into the encounter deck.&#10;Add 1 α token and 1 β token to the infestation bag." />
       </alternate>
     </card>
     <card id="f8dcefad-a7cb-4e3a-8304-9378cf38d477" name="Hospital of Horrors" size="HorizCard">
@@ -1011,13 +1011,13 @@
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Subtitle" value="Agenda 3a" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Forced – At the end of the mythos phase: Make an infestation test.Each Spider enemy at an infested location gets +1 fight and +1 evade." />
+      <property name="Text" value="Forced – At the end of the mythos phase: Make an infestation test.&#10;Each Spider enemy at an infested location gets +1 fight and +1 evade." />
       <property name="Doom" value="8" />
       <alternate name="Desperate Escape" size="HorizCard" type="B">
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Subtitle" value="Agenda 3b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="The infestation has claimed the hospital in its entirety. Not a single room has been left untouched. You race through its halls, searching desperately for a way out, and find only web-covered walls, victims wrapped in silken cocoons, and dead hospital staff hanging from the ceiling.In your Campaign Log, record 8 steps of the bridge have been completed.(-&gt;R2)" />
+        <property name="Text" value="In your Campaign Log, record 8 steps of the bridge have been completed.(-&gt;R2)" />
       </alternate>
     </card>
     <card id="9ac3113f-d10d-4813-b409-7bd2c95ab561" name="Looking for Answers" size="HorizCard">
@@ -1031,7 +1031,7 @@
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Subtitle" value="Act 1b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="From hospital records and snippets of hushed conversation, you are able to glean that there was recently another patient in the hospital whose condition closely mirrored that of your friends. After being comatose for weeks, the patient abruptly and inexplicably awakened just this morning. Baffled, the doctors have quarantined the patient somewhere in the basement of the hospital, below the eastern ward.Put the set-aside Stairwell and Basement Door locations into play.Check the current agenda.– If it is agenda 2 or 3, make an infestation test.– If it is agenda 1, immediately advance to agenda 2." />
+        <property name="Text" value="Put the set-aside Stairwell and Basement Door locations into play.&#10;Check the current agenda.– If it is agenda 2 or 3, make an infestation test.&#10;– If it is agenda 1, immediately advance to agenda 2." />
       </alternate>
     </card>
     <card id="1add2f33-3864-4b2c-b2f2-87285d6117e4" name="Search for the Patient" size="HorizCard">
@@ -1046,7 +1046,7 @@
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="After some persuading, you manage to convince the blond-haired man to listen to your story. Once you explain to him what has happened to your companions, he shakes his head in solemn understanding. “I knew this Virgil fellow would cause trouble. If only I had convinced him not to write that story...” You ask him what he means, and he lets out a long sigh before elaborating: “It’s all true. All of it. The Dreamlands is real. And I believe that something is causing it to merge with the waking world. That’s where all of this is coming from,” he explains, motioning to the spiderwebs in the corners of the room. “With your help, I may be able to temporarily stop the infestation from spreading. Then we can investigate this matter further.” He rises from his cot and shakes your hand. “My name is Randolph, by the way. Randolph Carter.”Shuffle the encounter discard pile into the encounter deck." />
+        <property name="Text" value="Shuffle the encounter discard pile into the encounter deck." />
       </alternate>
     </card>
     <card id="43dd4b55-fbe3-4030-9393-6849f32f4ee9" name="Containing the Outbreak" size="HorizCard">
@@ -1061,7 +1061,7 @@
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Subtitle" value="Act 3b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="With the final rift sealed, the infestation ceases, and the hospital returns to normal. “Good work,” Randolph says. “Still, I believe this matter warrants further investigation. We do not know what caused this to happen.” You remind him that there is also the matter of your companions, who still refuse to wake. “Yes, of course—that too. Come, let us go somewhere private where we can discuss what our next step should be. Sadly, I do not believe there is anything more we can do to aid your friends here.” You don’t know if Randolph means “here” as in “the hospital” or “here” as in “the waking world,” but either way, it does not bode well for your companions.Check Campaign Log.– If Dr. Maheswaran joined the investigation and she was in play when the scenario ended, (-&gt;R1).– If Dr. Maheswaran joined the investigation and she was not in play when the scenario ended, (-&gt;R2).– If Dr. Maheswaran stayed with her patients, (-&gt;R3)." />
+        <property name="Text" value="Check Campaign Log.– If Dr. Maheswaran joined the investigation and she was in play when the scenario ended, (-&gt;R1).&#10;– If Dr. Maheswaran joined the investigation and she was not in play when the scenario ended, (-&gt;R2).&#10;– If Dr. Maheswaran stayed with her patients, (-&gt;R3)." />
       </alternate>
     </card>
     <card id="28677dfe-6620-4b6b-b50f-c64158d95348" name="Waiting Room" size="EncounterCard">
@@ -1137,7 +1137,7 @@
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Type" value="Location" />
         <property name="Traits" value="St. Mary’s." />
-        <property name="Text" value="ι After you enter Stairwell from a non-Basement location: Move to a Basement location. Then, test ί (4). If you fail, take 2 damage.Forced – After Stairwell becomes infested: Make an infestation test." />
+        <property name="Text" value="ι After you enter Stairwell from a non-Basement location: Move to a Basement location. Then, test ί (4). If you fail, take 2 damage.&#10;Forced – After Stairwell becomes infested: Make an infestation test." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
@@ -1153,7 +1153,7 @@
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Type" value="Location" />
         <property name="Traits" value="St. Mary’s. Basement." />
-        <property name="Text" value="η: Test ά (3). If you succeed, discover 1 clue at this location. If you fail, take 1 horror.Forced – After the last remaining clue is discovered from Morgue: Make an infestation test." />
+        <property name="Text" value="η: Test ά (3). If you succeed, discover 1 clue at this location. If you fail, take 1 horror.&#10;Forced – After the last remaining clue is discovered from Morgue: Make an infestation test." />
         <property name="Shroud" value="5" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="2" />
@@ -1195,11 +1195,11 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Type" value="Story" />
-      <property name="Text" value="Place 1 damage token on the location with the most clues. For the remainder of the scenario, damage tokens on locations represent the spreading infestation. Each location with a damage token on it is an “infested” location.Create a separate bag consisting of the following tokens: α, γ, γ, γ, γ, β, β. (If you do not have a second bag, use a cup, bowl, or other opaque container.) This is the infestation bag, and these are infestation tokens. They are not chaos tokens.Some abilities will instruct the players to make an infestation test. An infestation test may cause the infestation to spread to other locations or endanger investigators at infested locations. To resolve an infestation test, an investigator must reveal a random infestation token from the infestation bag, and resolve the effects for that token as indicated on the other side of this card.Flip this card over and place it next to the scenario reference card." />
+      <property name="Text" value="Place 1 damage token on the location with the most clues. For the remainder of the scenario, damage tokens on locations represent the spreading infestation. Each location with a damage token on it is an “infested” location.Create a separate bag consisting of the following tokens: α, γ, γ, γ, γ, β, β. (If you do not have a second bag, use a cup, bowl, or other opaque container.) This is the infestation bag, and these are infestation tokens. They are not chaos tokens.Some abilities will instruct the players to make an infestation test. An infestation test may cause the infestation to spread to other locations or endanger investigators at infested locations. To resolve an infestation test, an investigator must reveal a random infestation token from the infestation bag, and resolve the effects for that token as indicated on the other side of this card.&#10;Flip this card over and place it next to the scenario reference card." />
       <alternate name="Infestation Test" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α : Set this token aside. Search the encounter deck and discard pile for a Spider enemy and spawn it at the infested location nearest to any investigator.γ: Set this token aside.β: Set this token aside. Choose a location connected to an infested location. That location becomes infested (place a damage token on it to mark this). Then, if there are 2 or more β tokens set aside,  return all set-aside infestation tokens to the infestation bag." />
+        <property name="Text" value="α : Set this token aside. Search the encounter deck and discard pile for a Spider enemy and spawn it at the infested location nearest to any investigator.&#10;γ: Set this token aside.&#10;β: Set this token aside. Choose a location connected to an infested location. That location becomes infested (place a damage token on it to mark this). Then, if there are 2 or more β tokens set aside,  return all set-aside infestation tokens to the infestation bag." />
       </alternate>
     </card>
     <card id="ed2a88cf-0b8e-405d-bda2-75b695904fd4" name="Randolph Carter">
@@ -1209,7 +1209,7 @@
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Dreamer." />
-      <property name="Text" value="You get +1 ά and +1 έ.ι After an δ symbol is revealed during a skill test at your location, exhaust Randolph Carter: Draw 2 cards." />
+      <property name="Text" value="You get +1 ά and +1 έ.&#10;ι After an δ symbol is revealed during a skill test at your location, exhaust Randolph Carter: Draw 2 cards." />
       <property name="Health" value="2" />
       <property name="Sanity" value="3" />
       <property name="Class" value="Neutral" />
@@ -1230,7 +1230,7 @@
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Medic." />
-      <property name="Text" value="θ Exhaust Dr. Shivani Maheswaran: Automatically evade an engaged Suspicious Orderly.ι When an investigator reveals a α or β symbol on an infestation token, remove Dr. Shivani Maheswaran from the game: Cancel that token and return it to the infestation bag." />
+      <property name="Text" value="θ Exhaust Dr. Shivani Maheswaran: Automatically evade an engaged Suspicious Orderly.&#10;ι When an investigator reveals a α or β symbol on an infestation token, remove Dr. Shivani Maheswaran from the game: Cancel that token and return it to the infestation bag." />
       <property name="Health" value="1" />
       <property name="Sanity" value="3" />
       <property name="Class" value="Neutral" />
@@ -1249,7 +1249,7 @@
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Staff." />
-      <property name="Text" value="Hunter. Suspicious Orderly cannot attack, be attacked, or be dealt damage.While Suspicious Orderly is engaged with you, you cannot investigate." />
+      <property name="Text" value="Hunter. Suspicious Orderly cannot attack, be attacked, or be dealt damage.&#10;While Suspicious Orderly is engaged with you, you cannot investigate." />
       <property name="Health" value="–" />
       <property name="Combat" value="–" />
       <property name="Agility" value="2" />
@@ -1262,7 +1262,7 @@
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Staff. Spider." />
-      <property name="Text" value="Hunter.Forced – When Corrupted Orderly is dealt 1 or more damage while at an infested location: Cancel 1 of that damage." />
+      <property name="Text" value="Hunter.&#10;Forced – When Corrupted Orderly is dealt 1 or more damage while at an infested location: Cancel 1 of that damage." />
       <property name="Health" value="2" />
       <property name="Combat" value="2" />
       <property name="Agility" value="2" />
@@ -1283,7 +1283,7 @@
       <property name="Encounter Set" value="Agents of Atlach-Nacha" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Spider." />
-      <property name="Text" value="Prey – Lowest ί.Hunter.While Grey Weaver is ready, each investigator at its location cannot take move actions." />
+      <property name="Text" value="Prey – Lowest ί.&#10;Hunter.While Grey Weaver is ready, each investigator at its location cannot take move actions." />
       <property name="Health" value="5" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -1305,7 +1305,7 @@
       <property name="Encounter Set" value="Agents of Nyarlathotep" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Avatar." />
-      <property name="Text" value="Prey – Most cards in hand.Hunter. Massive.Increase the difficulty for you to attack or attempt to evade The Crawling Mist by 1 for each card in your hand with an encounter card back." />
+      <property name="Text" value="Prey – Most cards in hand.&#10;Hunter. Massive.&#10;Increase the difficulty for you to attack or attempt to evade The Crawling Mist by 1 for each card in your hand with an encounter card back." />
       <property name="Health" value="5" />
       <property name="Combat" value="3" />
       <property name="Agility" value="3" />
@@ -1320,7 +1320,7 @@
       <property name="Encounter Set" value="Agents of Nyarlathotep" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.You cannot play cards or trigger abilities on player cards with an odd printed resource cost.η Discard a player card with an even printed resource cost from your hand: Discard this card from your hand." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.You cannot play cards or trigger abilities on player cards with an odd printed resource cost.&#10;η Discard a player card with an even printed resource cost from your hand: Discard this card from your hand." />
     </card>
     <card id="618b2af7-8ee7-4a18-b409-33913a332cd0" name="Law of 'Ygiroth (Discord)" size="EncounterCard">
       <property name="Card Number" value="88" />
@@ -1328,7 +1328,7 @@
       <property name="Encounter Set" value="Agents of Nyarlathotep" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.You cannot commit cards to skill tests with an odd number of total skill icons on them.η Discard a player card with an even number of total skill icons from your hand: Discard this card from your hand." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;You cannot commit cards to skill tests with an odd number of total skill icons on them.&#10;η Discard a player card with an even number of total skill icons from your hand: Discard this card from your hand." />
     </card>
     <card id="b1a94ce4-a4ab-49f1-be9f-3c29b2e070bc" name="Law of 'Ygiroth (Pandemonium)" size="EncounterCard">
       <property name="Card Number" value="89" />
@@ -1336,7 +1336,7 @@
       <property name="Encounter Set" value="Agents of Nyarlathotep" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Peril. Hidden.Revelation – Secretly add this card to your hand.You cannot play cards or commit cards to skill tests with an odd number of words in their title. (A word is any text separated by spaces.)η Discard a player card with an even number of words in its title from your hand: Discard this card from your hand." />
+      <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add this card to your hand.&#10;You cannot play cards or commit cards to skill tests with an odd number of words in their title. (A word is any text separated by spaces.)&#10;η Discard a player card with an even number of words in its title from your hand: Discard this card from your hand." />
     </card>
     <card id="8c648668-8d19-4f1f-94f1-b368b5b2b927" name="Whispers of Hypnos" size="EncounterCard">
       <property name="Card Number" value="90" />
@@ -1344,7 +1344,7 @@
       <property name="Encounter Set" value="Whispers of Hypnos" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Peril.Revelation – Choose a skill (ά, έ, ή, or ί). For the remainder of the round, each investigator gets –2 to the chosen skill. You cannot choose a skill that has already been chosen by a copy of this effect this round." />
+      <property name="Text" value="Peril.&#10;Revelation – Choose a skill (ά, έ, ή, or ί). For the remainder of the round, each investigator gets –2 to the chosen skill. You cannot choose a skill that has already been chosen by a copy of this effect this round." />
     </card>
     <card id="86c1f9a1-31cf-4cd9-991c-08455112131b" name="Hunting Ghast" size="EncounterCard">
       <property name="Card Number" value="91" />
@@ -1352,7 +1352,7 @@
       <property name="Encounter Set" value="Creatures of the Underworld" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Monster. Ghast." />
-      <property name="Text" value="Hunter.Prey – Most damage.Forced – After Hunting Ghast enters a location with a Gug enemy: Ready each Gug enemy at its location and deal 1 damage to Hunting Ghast." />
+      <property name="Text" value="Hunter.&#10;Prey – Most damage.&#10;Forced – After Hunting Ghast enters a location with a Gug enemy: Ready each Gug enemy at its location and deal 1 damage to Hunting Ghast." />
       <property name="Health" value="2" />
       <property name="Combat" value="2" />
       <property name="Agility" value="3" />
@@ -1394,7 +1394,7 @@
       <property name="Encounter Set" value="Dreamer’s Curse" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – Put Deeper Slumber into play in your threat area.Your maximum hand size is reduced by 3 and is checked after each time you draw 1 or more cards.η η: Discard Deeper Slumber." />
+      <property name="Text" value="Revelation – Put Deeper Slumber into play in your threat area.&#10;Your maximum hand size is reduced by 3 and is checked after each time you draw 1 or more cards.&#10;η η: Discard Deeper Slumber." />
     </card>
     <card id="9b5a9f67-d71a-4b7e-9a21-7e6e9cee5dd8" name="Dreamlands Eclipse" size="EncounterCard">
       <property name="Card Number" value="96" />
@@ -1402,7 +1402,7 @@
       <property name="Encounter Set" value="Dreamlands" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – Put Dreamlands Eclipse into play next to the agenda deck.Forced – When you initiate an investigation: You must either take 1 horror, or your location gets +2 shroud for this investigation.Forced – At the end of the round: Discard Dreamlands Eclipse." />
+      <property name="Text" value="Revelation – Put Dreamlands Eclipse into play next to the agenda deck.&#10;Forced – When you initiate an investigation: You must either take 1 horror, or your location gets +2 shroud for this investigation.&#10;Forced – At the end of the round: Discard Dreamlands Eclipse." />
     </card>
     <card id="e3b020cb-ecc8-4b62-9651-8dfb92f3a6f9" name="Prismatic Phenomenon" size="EncounterCard">
       <property name="Card Number" value="97" />
@@ -1410,7 +1410,7 @@
       <property name="Encounter Set" value="Dreamlands" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – Put Prismatic Phenomenon into play in your threat area.The first time you perform one of the following actions (draw, resource, or play) each round, it costs 1 additional action.Forced – After you successfully investigate a location: Instead of discovering clues, discard Prismatic Phenomenon." />
+      <property name="Text" value="Revelation – Put Prismatic Phenomenon into play in your threat area.&#10;The first time you perform one of the following actions (draw, resource, or play) each round, it costs 1 additional action.&#10;Forced – After you successfully investigate a location: Instead of discovering clues, discard Prismatic Phenomenon." />
     </card>
     <card id="a4949e5f-8dd4-4b1a-aedf-a13cc588da96" name="Night Terrors" size="EncounterCard">
       <property name="Card Number" value="98" />
@@ -1418,7 +1418,7 @@
       <property name="Encounter Set" value="Merging Realities" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Revelation – Put Night Terrors into play in your threat area.Forced – After you fail a skill test: Reveal the top 3 cards of your deck. Draw each weakness revealed this way and remove the other cards from the game.η If Night Terrors is in your threat area: Test ά (4). After this test ends, discard Night Terrors (even if you fail)." />
+      <property name="Text" value="Revelation – Put Night Terrors into play in your threat area.&#10;Forced – After you fail a skill test: Reveal the top 3 cards of your deck. Draw each weakness revealed this way and remove the other cards from the game.&#10;η If Night Terrors is in your threat area: Test ά (4). After this test ends, discard Night Terrors (even if you fail)." />
     </card>
     <card id="bb3cdd08-e365-4a33-8d63-7fe5b764fc7c" name="Glimpse of the Underworld" size="EncounterCard">
       <property name="Card Number" value="99" />
@@ -1426,7 +1426,7 @@
       <property name="Encounter Set" value="Merging Realities" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Revelation – Put Glimpse of the Underworld into play in your threat area.Forced – When you would take damage and/or horror: Take 1 additional damage or horror.θ: Discard Glimpse of the Underworld. Then, take 1 damage and 1 horror." />
+      <property name="Text" value="Revelation – Put Glimpse of the Underworld into play in your threat area.&#10;Forced – When you would take damage and/or horror: Take 1 additional damage or horror.&#10;θ: Discard Glimpse of the Underworld. Then, take 1 damage and 1 horror." />
     </card>
     <card id="7e421c9b-09d3-4364-b578-12cf95add22b" name="Threads of Reality" size="EncounterCard">
       <property name="Card Number" value="100" />
@@ -1434,7 +1434,7 @@
       <property name="Encounter Set" value="Merging Realities" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – Attach to the non-permanent, non-weakness asset you control with the highest printed cost. Otherwise, Threads of Reality gains surge.Treat attached asset as if its printed text box were blank (except for Traits and forced abilities).η Discard an asset you control: Discard Threads of Reality." />
+      <property name="Text" value="Revelation – Attach to the non-permanent, non-weakness asset you control with the highest printed cost. Otherwise, Threads of Reality gains surge.Treat attached asset as if its printed text box were blank (except for Traits and forced abilities).&#10;η Discard an asset you control: Discard Threads of Reality." />
     </card>
     <card id="8f1582a0-4686-4dfd-8b46-4f17944efdfe" name="Spider of Leng" size="EncounterCard">
       <property name="Card Number" value="101" />
@@ -1455,7 +1455,7 @@
       <property name="Encounter Set" value="Spiders" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Spider." />
-      <property name="Text" value="Swarming 2.X equals the number of Swarm of Spiders enemies at this location (including its swarm cards)." />
+      <property name="Text" value="Swarming 2.&#10;X equals the number of Swarm of Spiders enemies at this location (including its swarm cards)." />
       <property name="Health" value="1" />
       <property name="Combat" value="1" />
       <property name="Agility" value="X" />
@@ -1468,7 +1468,7 @@
       <property name="Encounter Set" value="Spiders" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Obstacle." />
-      <property name="Text" value="Revelation – Attach to your location.Each Spider enemy at attached location gains retaliate and alert. Investigators cannot move out of attached location.η: Test ή (3) or ί (3). If you succeed, discard Sickening Webs." />
+      <property name="Text" value="Revelation – Attach to your location.&#10;Each Spider enemy at attached location gains retaliate and alert. Investigators cannot move out of attached location.&#10;η: Test ή (3) or ί (3). If you succeed, discard Sickening Webs." />
     </card>
     <card id="c60cd08c-9edf-4fe5-92a0-6db650163861" name="Hunted by Corsairs" size="EncounterCard">
       <property name="Card Number" value="104" />
@@ -1476,7 +1476,7 @@
       <property name="Encounter Set" value="Corsairs" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Scheme." />
-      <property name="Text" value="Revelation – Attach Hunted by Corsairs to the current act.Forced – When the act advances: Each investigator takes 2 damage.Attached act gains: “η: Test έ (4) to outwit the Corsairs or ί (4) to sneak past them. If you succeed, discard Hunted by Corsairs.”" />
+      <property name="Text" value="Revelation – Attach Hunted by Corsairs to the current act.&#10;Forced – When the act advances: Each investigator takes 2 damage.&#10;Attached act gains: “η: Test έ (4) to outwit the Corsairs or ί (4) to sneak past them. If you succeed, discard Hunted by Corsairs.”" />
     </card>
     <card id="978e6e57-bb6a-4591-a9a7-dbd29ad32a99" name="Corsair of Leng" size="EncounterCard">
       <property name="Card Number" value="105" />
@@ -1484,7 +1484,7 @@
       <property name="Encounter Set" value="Corsairs" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Monster." />
-      <property name="Text" value="Spawn – Nearest City or Surface location.Alert.Forced – After Corsair of Leng attacks via its alert keyword: It gets –3 evade for the remainder of the phase." />
+      <property name="Text" value="Spawn – Nearest City or Surface location.&#10;Alert.&#10;Forced – After Corsair of Leng attacks via its alert keyword: It gets –3 evade for the remainder of the phase." />
       <property name="Health" value="4" />
       <property name="Combat" value="2" />
       <property name="Agility" value="5" />
@@ -1496,7 +1496,7 @@
       <property name="Encounter Set" value="Zoogs" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Zoog." />
-      <property name="Text" value="Spawn – Engaged with the investigator at your location with the lowest ή.Prey – Lowest ή.Retaliate. Swarming 1." />
+      <property name="Text" value="Spawn – Engaged with the investigator at your location with the lowest ή.&#10;Prey – Lowest ή.&#10;Retaliate. Swarming 1." />
       <property name="Health" value="1" />
       <property name="Combat" value="3" />
       <property name="Agility" value="1" />
@@ -1508,7 +1508,7 @@
       <property name="Encounter Set" value="Zoogs" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Zoog." />
-      <property name="Text" value="Spawn – Engaged with the investigator at your location with the lowest ί.Prey – Lowest ί.Alert. Swarming 1." />
+      <property name="Text" value="Spawn – Engaged with the investigator at your location with the lowest ί.&#10;Prey – Lowest ί&#10;.Alert. Swarming 1." />
       <property name="Health" value="1" />
       <property name="Combat" value="1" />
       <property name="Agility" value="3" />
@@ -1520,7 +1520,7 @@
       <property name="Encounter Set" value="Zoogs" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Zoog." />
-      <property name="Text" value="Spawn – Any connecting location.Hunter. Swarming 2.Forced – When Inconspicuous Zoog is defeated: Cancel all excess damage and move any of its remaining swarm/host cards to a connecting location, exhausted." />
+      <property name="Text" value="Spawn – Any connecting location.&#10;Hunter. Swarming 2.&#10;Forced – When Inconspicuous Zoog is defeated: Cancel all excess damage and move any of its remaining swarm/host cards to a connecting location, exhausted." />
       <property name="Health" value="1" />
       <property name="Combat" value="2" />
       <property name="Agility" value="2" />

@@ -7,7 +7,7 @@
       <property name="Subtitle" value="Fearless Flatfoot" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Detective. Police." />
-      <property name="Text" value="You get +1 έ.ι After you discover a clue, exhaust Alice Luxley: Deal 1 damage to an enemy at your location." />
+      <property name="Text" value="You get +1 έ.&#10;ι After you discover a clue, exhaust Alice Luxley: Deal 1 damage to an enemy at your location." />
       <property name="Health" value="2" />
       <property name="Sanity" value="2" />
       <property name="Class" value="Guardian" />
@@ -26,7 +26,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Upgrade." />
-      <property name="Text" value="Fast. Play only during your turn.Attach to an Item asset you control. Limit 1 per asset.ι After attached asset is discarded: Return it to its owner’s hand, along with each other Upgrade attachment that was attached to it." />
+      <property name="Text" value="Fast. Play only during your turn.&#10;Attach to an Item asset you control. Limit 1 per asset.&#10;ι After attached asset is discarded: Return it to its owner’s hand, along with each other Upgrade attachment that was attached to it." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="1" />
       <property name="Cost" value="1" />
@@ -42,7 +42,7 @@
       <property name="Subtitle" value="Dealer in Secrets" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally." />
-      <property name="Text" value="Uses (3 secrets).θ Exhaust Mr. “Rook” and spend 1 secret: Search the top 3, 6, or 9 cards of your deck for any card and draw it. If at least 1 weakness is among the searched cards, draw 1 of them, as well. Shuffle your deck." />
+      <property name="Text" value="Uses (3 secrets).&#10;θ Exhaust Mr. “Rook” and spend 1 secret: Search the top 3, 6, or 9 cards of your deck for any card and draw it. If at least 1 weakness is among the searched cards, draw 1 of them, as well. Shuffle your deck." />
       <property name="Health" value="2" />
       <property name="Sanity" value="2" />
       <property name="Class" value="Seeker" />
@@ -61,7 +61,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tool." />
-      <property name="Text" value="ι After the last clue is discovered from your location: Place 1 resource (from the token pool) on this card, as evidence. (Limit once per game at each location.)While Hawk-Eye Folding Camera has……1 or more evidence, you get +1 ά.…2 or more evidence, you get +1 έ.…3 or more evidence, you get +1 sanity." />
+      <property name="Text" value="ι After the last clue is discovered from your location: Place 1 resource (from the token pool) on this card, as evidence. (Limit once per game at each location.)&#10;While Hawk-Eye Folding Camera has…&#10;…1 or more evidence, you get +1 ά.&#10;…2 or more evidence, you get +1 έ.&#10;…3 or more evidence, you get +1 sanity." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -78,7 +78,7 @@
       <property name="Subtitle" value="Aspiring Actor" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Criminal." />
-      <property name="Text" value="η Exhaust Henry Wan: One at a time, reveal random tokens from the chaos bag until you choose to stop, or until you reveal a α, β, γ, δ, or ζ symbol. —If you chose to stop, for each token revealed via this effect, you may either draw 1 card or gain 1 resource.—If you revealed a α, β, γ, δ, or ζ symbol, do nothing." />
+      <property name="Text" value="η Exhaust Henry Wan: One at a time, reveal random tokens from the chaos bag until you choose to stop, or until you reveal a α, β, γ, δ, or ζ symbol.&#10;—If you chose to stop, for each token revealed via this effect, you may either draw 1 card or gain 1 resource.&#10;—If you revealed a α, β, γ, δ, or ζ symbol, do nothing." />
       <property name="Health" value="1" />
       <property name="Sanity" value="2" />
       <property name="Class" value="Rogue" />
@@ -97,7 +97,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Gambit." />
-      <property name="Text" value="Fast. Play during any investigator’s turn, except during an action.Immediately take an action as if it were your turn. This action does not count toward the number of actions you can take each turn." />
+      <property name="Text" value="Fast. Play during any investigator’s turn, except during an action.&#10;Immediately take an action as if it were your turn. This action does not count toward the number of actions you can take each turn." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -159,7 +159,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Gambit. Trick." />
-      <property name="Text" value="Fast. Play after you successfully evade an enemy by 2 or more.Discover 1 clue at that enemy’s location." />
+      <property name="Text" value="Fast. Play after you successfully evade an enemy by 2 or more.&#10;Discover 1 clue at that enemy’s location." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="0" />
       <property name="Cost" value="1" />
@@ -175,12 +175,12 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –X. X is 1 higher than the number of copies of Unfinished Business in the victory display.β: –3. Until the end of the round, each Heretic enemy in play gets +1 fight and +1 evade.γ: –3. If you fail, trigger the forced ability on a copy of Unfinished Business in your threat area as if it were the end of the round.δ: –2. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location." />
+      <property name="Text" value="α: –X. X is 1 higher than the number of copies of Unfinished Business in the victory display.&#10;β: –3. Until the end of the round, each Heretic enemy in play gets +1 fight and +1 evade.&#10;γ: –3. If you fail, trigger the forced ability on a copy of Unfinished Business in your threat area as if it were the end of the round.&#10;δ: –2. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location." />
       <alternate name="The Wages of Sin" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –X. X is the number of copies of Unfinished Business in the victory display. Reveal another token.β: –4. Until the end of the round, each Heretic enemy in play gets +1 fight and +1 evade.γ: –4. If you fail, trigger the forced ability on a copy of Unfinished Business in your threat area as if it were the end of the round.δ: –2. If this is an attack or evasion attempt, resolve each haunted ability on your location." />
+        <property name="Text" value="α: –X. X is the number of copies of Unfinished Business in the victory display. Reveal another token.&#10;β: –4. Until the end of the round, each Heretic enemy in play gets +1 fight and +1 evade.&#10;γ: –4. If you fail, trigger the forced ability on a copy of Unfinished Business in your threat area as if it were the end of the round.&#10;δ: –2. If this is an attack or evasion attempt, resolve each haunted ability on your location." />
       </alternate>
     </card>
     <card id="c649bd6a-77f3-4ef1-8dfc-b20c0a034702" name="THE HANGED MAN · XII" size="HorizCard">
@@ -194,7 +194,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="The sobs of the dead echo throughout the woods, accompanied by murmured promises and whispered threats. But when the spectral mist blots out the sky, all turns quiet and still. Your hair stands on end, and you begin to tremble. Every fiber of your being screams flight.The hunter has smelled the blood of its prey, and now it has come to claim your fate.Flip each location to its Spectral side.Put the set-aside The Spectral Watcher enemy into play at Hangman’s Brook.Shuffle the remainder of the set-aside The Watcher encounter set into the spectral encounter deck, along with the spectral discard pile." />
+        <property name="Text" value="Flip each location to its Spectral side.Put the set-aside The Spectral Watcher enemy into play at Hangman’s Brook.&#10;Shuffle the remainder of the set-aside The Watcher encounter set into the spectral encounter deck, along with the spectral discard pile." />
       </alternate>
     </card>
     <card id="ef33243d-ba84-495f-9eb8-2efc9e1a98f5" name="Death’s Approach" size="HorizCard">
@@ -209,7 +209,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Subtitle" value="Agenda 2b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="Light fades as the anomaly closes in around you. Trees, graves, walls—all is enveloped by the otherworldly mist. Deep in the murk, worlds away and yet drawing ever closer, the cold light of the watcher’s gaze radiates before you. It is time for your reckoning.(-&gt;R2)" />
+        <property name="Text" value="(-&gt;R2)" />
       </alternate>
     </card>
     <card id="f7a92c70-67d6-413e-8e02-28503af28dfa" name="In Pursuit of the Dead" size="HorizCard">
@@ -223,7 +223,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Subtitle" value="Act 1b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Soft chanting guides you to a gloomy clearing near the abandoned chapel. A circle of witchweed surrounds the clearing, swaying gently in the breeze. At the center of the clearing, a cloaked woman kneels in front of an unmarked grave, far from the remainder of the graveyard. You watch in quiet for a few minutes while the woman sings an old, somber melody. It reminds you somewhat of a child’s lullaby – soothing, but with a dark gravity that betrays its purpose. As soon as the song ends, the woman’s cloak dissolves into mist, and she vanishes in a swirl of shadows.Spawn 1 set-aside Heretic enemy at each of the following locations: The Gallows, Heretics’ Graves, Chapel Attic, and Chapel Crypt.Add 2π clues to each of those locations. Add 1π clues to each other location in play.Check Campaign Log. If you have 3 or more Mementos under “Mementos Discovered:” You understand the tragic lyrics behind the witch’s song. Each investigator puts into play 1 set-aside Spectral Web asset, under his or her control." />
+        <property name="Text" value="Spawn 1 set-aside Heretic enemy at each of the following locations: The Gallows, Heretics’ Graves, Chapel Attic, and Chapel Crypt.&#10;Add 2π clues to each of those locations. Add 1π clues to each other location in play.&#10;Check Campaign Log. If you have 3 or more Mementos under “Mementos Discovered:” You understand the tragic lyrics behind the witch’s song. Each investigator puts into play 1 set-aside Spectral Web asset, under his or her control." />
         <property name="Clues" value="3π" />
       </alternate>
     </card>
@@ -233,12 +233,12 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="θ: Flip your location over. (Group limit once per round at each location.)Clues cannot be discovered at non-Spectral locations. Objective – Banish as many Heretics as you can. If there are 4 copies of Unfinished Business in the victory display, advance." />
+      <property name="Text" value="θ: Flip your location over. (Group limit once per round at each location.)&#10;Clues cannot be discovered at non-Spectral locations.&#10;Objective – Banish as many Heretics as you can. If there are 4 copies of Unfinished Business in the victory display, advance." />
       <alternate name="Was It Worth It?" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="When the last of the ghosts vanishes, she leaves behind a remembrance: something which does not fade along with the rest of her ephemeral form. Curious, you step forward and examine the object. It is a corn husk doll wearing a black cloak, with locks of hair made of red‑dyed yarn. You’re not sure what significance the doll holds, if any...but nonetheless, a pyrrhic truth speaks to you from its expressionless face.“Was it worth it?” The doll seems to say.In your Campaign Log, under “Mementos Discovered,” record Corn Husk Doll.(-&gt;R1)" />
+        <property name="Text" value="In your Campaign Log, under “Mementos Discovered,” record Corn Husk Doll.(-&gt;R1)" />
       </alternate>
     </card>
     <card id="3353c57b-4def-4ddb-93bc-5c58ec8be27c" name="Hangman’s Brook" size="EncounterCard">
@@ -253,7 +253,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="η: Resign. “Whose bright idea was this, anyway?”Haunted – Take 1 damage. Until the end of the round, the above resign ability cannot be triggered." />
+        <property name="Text" value="η: Resign. “Whose bright idea was this, anyway?”&#10;Haunted – Take 1 damage. Until the end of the round, the above resign ability cannot be triggered." />
         <property name="Shroud" value="4" />
       </alternate>
     </card>
@@ -270,7 +270,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="Each Spectral enemy at Haunted Fields gets +1 horror value.Haunted – Move the nearest Spectral enemy once toward Haunted Fields." />
+        <property name="Text" value="Each Spectral enemy at Haunted Fields gets +1 horror value.&#10;Haunted – Move the nearest Spectral enemy once toward Haunted Fields." />
         <property name="Shroud" value="3" />
         <property name="Victory Points" value="1" />
       </alternate>
@@ -288,7 +288,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="During the mythos phase, each investigator in Abandoned Chapel gets –1 to each skill.Haunted – Until the end of the round, you get –1 to each skill." />
+        <property name="Text" value="During the mythos phase, each investigator in Abandoned Chapel gets –1 to each skill.&#10;Haunted – Until the end of the round, you get –1 to each skill." />
         <property name="Shroud" value="2" />
         <property name="Victory Points" value="1" />
       </alternate>
@@ -304,7 +304,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="The Gallows gets +1 shroud for each Witch enemy in play.Haunted – Discard the top 3 cards of the standard encounter deck. If a Witch enemy is discarded by this effect, draw it." />
+        <property name="Text" value="The Gallows gets +1 shroud for each Witch enemy in play.&#10;Haunted – Discard the top 3 cards of the standard encounter deck. If a Witch enemy is discarded by this effect, draw it." />
         <property name="Shroud" value="3" />
       </alternate>
     </card>
@@ -319,7 +319,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="X is the number of Geist enemies in play.Haunted – Discard the top 3 cards of the spectral encounter deck. If a Geist enemy is discarded by this effect, draw it." />
+        <property name="Text" value="X is the number of Geist enemies in play.&#10;Haunted – Discard the top 3 cards of the spectral encounter deck. If a Geist enemy is discarded by this effect, draw it." />
         <property name="Shroud" value="X" />
       </alternate>
     </card>
@@ -334,7 +334,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="While investigating Heretics’ Graves, add your ά value to your skill value for the investigation.Haunted – Reduce your base ά to 1 until the end of your next turn." />
+        <property name="Text" value="While investigating Heretics’ Graves, add your ά value to your skill value for the investigation.&#10;Haunted – Reduce your base ά to 1 until the end of your next turn." />
         <property name="Shroud" value="7" />
       </alternate>
     </card>
@@ -349,7 +349,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="Forced – After a Witch enemy at Heretics’ Graves is defeated: Discard the top 2 cards of the standard encounter deck.Haunted – Heal 1 damage from each Heretic and each Witch enemy in play." />
+        <property name="Text" value="Forced – After a Witch enemy at Heretics’ Graves is defeated: Discard the top 2 cards of the standard encounter deck.&#10;Haunted – Heal 1 damage from each Heretic and each Witch enemy in play." />
         <property name="Shroud" value="4" />
       </alternate>
     </card>
@@ -364,7 +364,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="While there are no ready enemies at Chapel Crypt, it gets –3 shroud.Haunted – Spawn the top card of your deck facedown, engaged with you. Treat that card as a Reanimated Dead enemy with 1 fight, 1 health, 1 evade, 1 damage, and the Monster trait." />
+        <property name="Text" value="While there are no ready enemies at Chapel Crypt, it gets –3 shroud.&#10;Haunted – Spawn the top card of your deck facedown, engaged with you. Treat that card as a Reanimated Dead enemy with 1 fight, 1 health, 1 evade, 1 damage, and the Monster trait." />
         <property name="Shroud" value="6" />
       </alternate>
     </card>
@@ -379,7 +379,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="While there are no Hex treacheries among investigators’ threat areas at Chapel Crypt, it gets –3 shroud.Haunted – Find the topmost Hex treachery in the standard encounter discard pile and put it into play in your threat area." />
+        <property name="Text" value="While there are no Hex treacheries among investigators’ threat areas at Chapel Crypt, it gets –3 shroud.&#10;Haunted – Find the topmost Hex treachery in the standard encounter discard pile and put it into play in your threat area." />
         <property name="Shroud" value="6" />
       </alternate>
     </card>
@@ -388,13 +388,13 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Location" />
-      <property name="Text" value="Forced – After you draw a non-weakness card from your deck while at Chapel Attic: Place that card facedown beneath Chapel Attic, out of play.ι After you successfully investigate Chapel Attic: Add each card beneath it to its owner’s hand." />
+      <property name="Text" value="Forced – After you draw a non-weakness card from your deck while at Chapel Attic: Place that card facedown beneath Chapel Attic, out of play.&#10;ι After you successfully investigate Chapel Attic: Add each card beneath it to its owner’s hand." />
       <property name="Shroud" value="4" />
       <alternate name="Chapel Attic" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="Forced – After you draw a non-weakness card from your deck while at Chapel Attic: Place that card facedown beneath Chapel Attic, out of play.ι After you successfully investigate Chapel Attic: Add each card beneath it to its owner’s hand." />
+        <property name="Text" value="Forced – After you draw a non-weakness card from your deck while at Chapel Attic: Place that card facedown beneath Chapel Attic, out of play.&#10;ι After you successfully investigate Chapel Attic: Add each card beneath it to its owner’s hand." />
         <property name="Shroud" value="4" />
       </alternate>
     </card>
@@ -409,7 +409,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="While investigating Chapel Attic, add the number of cards in your hand to your skill value for the investigation.Haunted – Discard a random card from your hand (2 cards instead of you have 5 or more cards in hand)." />
+        <property name="Text" value="While investigating Chapel Attic, add the number of cards in your hand to your skill value for the investigation.&#10;Haunted – Discard a random card from your hand (2 cards instead of you have 5 or more cards in hand)." />
         <property name="Shroud" value="8" />
       </alternate>
     </card>
@@ -434,7 +434,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Geist. Witch. Spectral. Elite." />
-      <property name="Text" value="Heretic gets +2π health.While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
+      <property name="Text" value="Heretic gets +2π health.&#10;While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.&#10;θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).&#10;Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
       <property name="Health" value="2" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -443,7 +443,7 @@
       <alternate name="Unfinished Business" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Bring me to him... I wish to see my love again...The thing moans and wails with sorrow, in between hollow, echoing sobs. There must be some way you can bring it peace.Keep this card in your threat area (this side faceup).Forced – At the end of the round: You must either take 1 horror or flip this card back to its enemy side.η If you are at Chapel Crypt and it has no clues on it: Test έ or ή (4). If you succeed, the ghost is “banished” (resolve the text below).––––––––––––––––––––––––––––––––––––––––––Do not read until this ghost is “banished.”You find a nameless coffin and remove the lid. The spirit weeps as it reaches out to touch the body inside, remembering the love it once held in its heart.Add this card to the victory display." />
+        <property name="Text" value="Keep this card in your threat area (this side faceup).&#10;Forced – At the end of the round: You must either take 1 horror or flip this card back to its enemy side.&#10;η If you are at Chapel Crypt and it has no clues on it: Test έ or ή (4). If you succeed, the ghost is “banished” (resolve the text below).&#10;––––––––––––––––––––––––––––––––––––––––––&#10;Do not read until this ghost is “banished.”&#10;Add this card to the victory display." />
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
@@ -453,7 +453,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Geist. Witch. Spectral. Elite." />
-      <property name="Text" value="Heretic gets +2π health.While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
+      <property name="Text" value="Heretic gets +2π health.&#10;While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.&#10;θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).&#10;Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
       <property name="Health" value="2" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -462,7 +462,7 @@
       <alternate name="Unfinished Business" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Burn... let it burn... let it all burn...The charred ghost thrashes and howls in agony, as though in a constant state of torment. You cannot ease its suffering, but perhaps you can bring it justice.Keep this card in your threat area (this side faceup).Forced – At the end of the round: You must either take 1 damage or flip this card back to its enemy side.η If you are at The Gallows and it has no clues on it: Test ά or ί (4). If you succeed, the ghost is “banished” (resolve the text below).––––––––––––––––––––––––––––––––––––––––––Do not read until this ghost is “banished.”The fire spreads quickly, consuming the old wooden platform hungrily. The spirit’s form twitches with a strange satisfaction.Add this card to the victory display." />
+        <property name="Text" value="Keep this card in your threat area (this side faceup).&#10;Forced – At the end of the round: You must either take 1 damage or flip this card back to its enemy side.&#10;η If you are at The Gallows and it has no clues on it: Test ά or ί (4). If you succeed, the ghost is “banished” (resolve the text below).&#10;––––––––––––––––––––––––––––––––––––––––––&#10;Do not read until this ghost is “banished.”&#10;Add this card to the victory display." />
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
@@ -472,7 +472,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Geist. Witch. Spectral. Elite." />
-      <property name="Text" value="Heretic gets +2π health.While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
+      <property name="Text" value="Heretic gets +2π health.&#10;While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.&#10;θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).&#10;Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
       <property name="Health" value="2" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -481,7 +481,7 @@
       <alternate name="Unfinished Business" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Story" />
-        <property name="Text" value="They stole it from me... give it back to me...The spirit searches its surroundings frantically and grasps at you with desperate eyes. It must have lost something important—but what?Keep this card in your threat area (this side faceup).Forced – At the end of the round: You must either lose 2 resources or flip this card back to its enemy side.η If you are at Chapel Attic and it has no clues on it: Test έ or ί (4). If you succeed, the ghost is “banished” (resolve the text below).––––––––––––––––––––––––––––––––––––––––––Do not read until this ghost is “banished.”In an old cobwebbed trunk, you find all sorts of items belonging to the deceased. The sight of a crow skull amulet dipped in metal causes the ghost to gasp. “I’m sorry, sister, I’m sorry…” it weeps.Add this card to the victory display." />
+        <property name="Text" value="Keep this card in your threat area (this side faceup).&#10;Forced – At the end of the round: You must either lose 2 resources or flip this card back to its enemy side.&#10;η If you are at Chapel Attic and it has no clues on it: Test έ or ί (4). If you succeed, the ghost is “banished” (resolve the text below).&#10;––––––––––––––––––––––––––––––––––––––––––&#10;Do not read until this ghost is “banished.”&#10;Add this card to the victory display." />
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
@@ -491,7 +491,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Geist. Witch. Spectral. Elite." />
-      <property name="Text" value="Heretic gets +2π health.While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
+      <property name="Text" value="Heretic gets +2π health.&#10;While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.&#10;θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).&#10;Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
       <property name="Health" value="2" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -500,7 +500,7 @@
       <alternate name="Unfinished Business" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Story" />
-        <property name="Text" value="my bones... what have they done to mY bones...The wraith is mangled and corrupted nearly beyond recognition. Something has torn through its insides and ripped its soul to shreds.Keep this card in your threat area (this side faceup).Forced – At the end of the round: You must either choose and discard 2 cards from your hand or flip this card back to its enemy side.η If you are at Heretics’ Graves and it has no clues on it: Test ά or ή (4). If you succeed, the ghost is “banished” (resolve the text below).––––––––––––––––––––––––––––––––––––––––––Do not read until this ghost is “banished.”Digging up the bones was hard work, but as the spirit peers into its open grave, you can see its humanoid shape clearly for the first time.Add this card to the victory display." />
+        <property name="Text" value="Keep this card in your threat area (this side faceup).&#10;Forced – At the end of the round: You must either choose and discard 2 cards from your hand or flip this card back to its enemy side.&#10;η If you are at Heretics’ Graves and it has no clues on it: Test ά or ή (4). If you succeed, the ghost is “banished” (resolve the text below).&#10;––––––––––––––––––––––––––––––––––––––––––&#10;Do not read until this ghost is “banished.”&#10;Add this card to the victory display." />
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
@@ -510,7 +510,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Geist. Witch. Spectral. Elite." />
-      <property name="Text" value="Heretic gets +2π health.While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
+      <property name="Text" value="Heretic gets +2π health.&#10;While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.&#10;θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).&#10;Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
       <property name="Health" value="2" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -519,7 +519,7 @@
       <alternate name="Unfinished Business" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Story" />
-        <property name="Text" value="come... Join us...The specter’s voice is soothing and melodic. Its words seem to make sense. You can at last be at peace—all you have to do is take its hand.Flip this card back to its enemy side. It makes an immediate attack. For the remainder of the scenario, this enemy cannot be defeated by any means, its parley ability can only be activated while at a Spectral location, and it costs +1π clues to trigger. The next time this side is resolved, the ghost is “banished” instead (resolve the text below).Forced – If you looked at this side by resolving this Heretic’s parley ability: Resolve the above text as though you had just defeated this Heretic.––––––––––––––––––––––––––––––––––––––––––Do not read until this ghost is “banished.”You spurn the creature’s offer, remembering once more why you have come here. It lets out an agonizing shriek and returns from whence it came.Add this card to the victory display." />
+        <property name="Text" value="Flip this card back to its enemy side. It makes an immediate attack. For the remainder of the scenario, this enemy cannot be defeated by any means, its parley ability can only be activated while at a Spectral location, and it costs +1π clues to trigger. The next time this side is resolved, the ghost is “banished” instead (resolve the text below).&#10;Forced – If you looked at this side by resolving this Heretic’s parley ability: Resolve the above text as though you had just defeated this Heretic.&#10;––––––––––––––––––––––––––––––––––––––––––&#10;Do not read until this ghost is “banished.”&#10;Add this card to the victory display." />
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
@@ -529,7 +529,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Geist. Witch. Spectral. Elite." />
-      <property name="Text" value="Heretic gets +2π health.While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
+      <property name="Text" value="Heretic gets +2π health.&#10;While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.&#10;θ Spend 1 clue: Parley. Look at Heretic’s other side (without resolving its text).&#10;Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
       <property name="Health" value="2" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -538,7 +538,7 @@
       <alternate name="Unfinished Business" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Story" />
-        <property name="Text" value="I can’t be dead... Keziah promised... we cannot die...The spiteful wraith does not relent. Your words cannot reach it, but perhaps you can lay it to rest by force.Flip this card back to its enemy side. It makes an immediate attack. The next time it is defeated, it is “banished” (resolve the text below).Forced – If you looked at this side by resolving this Heretic’s parley ability: Flip this card back to its enemy side. It makes an immediate attack. (Do not resolve any other text on this card.)––––––––––––––––––––––––––––––––––––––––––Do not read until this ghost is “banished.”With a final cry, the hellish spirit recoils upon itself and dissipates into thin air.Add this card to the victory display." />
+        <property name="Text" value="Flip this card back to its enemy side. It makes an immediate attack. The next time it is defeated, it is “banished” (resolve the text below).&#10;Forced – If you looked at this side by resolving this Heretic’s parley ability: Flip this card back to its enemy side. It makes an immediate attack. (Do not resolve any other text on this card.)&#10;––––––––––––––––––––––––––––––––––––––––––&#10;Do not read until this ghost is “banished.”&#10;Add this card to the victory display." />
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
@@ -548,7 +548,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Witch." />
-      <property name="Text" value="Spawn – The Gallows or Heretics’ Graves.Alert. Hunter.Forced – When Vengeful Witch is defeated: Deal its damage and horror to each investigator at its location, as direct damage/horror." />
+      <property name="Text" value="Spawn – The Gallows or Heretics’ Graves.&#10;Alert. Hunter.&#10;Forced – When Vengeful Witch is defeated: Deal its damage and horror to each investigator at its location, as direct damage/horror." />
       <property name="Health" value="3" />
       <property name="Combat" value="3" />
       <property name="Agility" value="3" />
@@ -561,7 +561,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Geist. Spectral." />
-      <property name="Text" value="Spawn – Chapel Attic or Chapel Crypt.While Malevolent Spirit is at a Spectral location, it gains hunter and gets +1 damage value and +1 horror value.Forced – When Malevolent Spirit is defeated by damage (except from a Spell or Relic): Instead of discarding it, heal all damage from it, exhaust it, and move it to any Spectral location, if able." />
+      <property name="Text" value="Spawn – Chapel Attic or Chapel Crypt.&#10;While Malevolent Spirit is at a Spectral location, it gains hunter and gets +1 damage value and +1 horror value.&#10;Forced – When Malevolent Spirit is defeated by damage (except from a Spell or Relic): Instead of discarding it, heal all damage from it, exhaust it, and move it to any Spectral location, if able." />
       <property name="Health" value="2" />
       <property name="Combat" value="2" />
       <property name="Agility" value="4" />
@@ -573,7 +573,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Hex." />
-      <property name="Text" value="Revelation – Put Punishment into play in your threat area.Forced – After an enemy at any location is defeated: Take 1 damage.η: Test ά (3). If you succeed, discard Punishment. If there is an exhausted Witch enemy at your location, this test is automatically successful." />
+      <property name="Text" value="Revelation – Put Punishment into play in your threat area.&#10;Forced – After an enemy at any location is defeated: Take 1 damage.&#10;η: Test ά (3). If you succeed, discard Punishment. If there is an exhausted Witch enemy at your location, this test is automatically successful." />
     </card>
     <card id="6709f629-17f6-42bf-aa4a-f106840e8ae9" name="Burdens of the Past" size="EncounterCard">
       <property name="Card Number" value="182" />
@@ -589,7 +589,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Omen." />
-      <property name="Text" value="Peril.Revelation – You must either (choose one): —Draw the top card of the spectral encounter deck. That card gains peril, and its effects cannot be canceled.—Test ά (3). If you fail, take 2 horror." />
+      <property name="Text" value="Peril.&#10;Revelation – You must either (choose one):&#10;—Draw the top card of the spectral encounter deck. That card gains peril, and its effects cannot be canceled.&#10;—Test ά (3). If you fail, take 2 horror." />
     </card>
     <card id="1529b14f-ab18-4db9-841a-b0b603f1efde" name="Grave-light" size="EncounterCard">
       <property name="Card Number" value="184" />
@@ -597,7 +597,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – If Grave-Light is drawn......from the standard encounter deck, shuffle it into the spectral encounter deck, and it gains surge....from the spectral encounter deck, take 2 damage and place it in the standard encounter discard pile." />
+      <property name="Text" value="Revelation – If Grave-Light is drawn...&#10;...from the standard encounter deck, shuffle it into the spectral encounter deck, and it gains surge.&#10;...from the spectral encounter deck, take 2 damage and place it in the standard encounter discard pile." />
     </card>
     <card id="fe1d32d4-ba8e-49ae-b0a4-58b4a207c453" name="Bane of the Living" size="EncounterCard">
       <property name="Card Number" value="185" />
@@ -605,7 +605,7 @@
       <property name="Encounter Set" value="The Wages of Sin" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse. Spectral." />
-      <property name="Text" value="Peril.Revelation – You must either (choose one):–Choose an Unfinished Business card in play, flip it to its Heretic side, and place damage on it equal to half its health.–Discard cards from the top of the spectral encounter deck until a  enemy is discarded. Spawn that enemy engaged with you." />
+      <property name="Text" value="Peril.&#10;Revelation – You must either (choose one):&#10;–Choose an Unfinished Business card in play, flip it to its Heretic side, and place damage on it equal to half its health.&#10;–Discard cards from the top of the spectral encounter deck until a  enemy is discarded. Spawn that enemy engaged with you." />
     </card>
   </cards>
 </set>

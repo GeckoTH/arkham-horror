@@ -486,7 +486,7 @@ def autoCharges(args):
                             strCharges = strCharges.replace("supplies", "")
                         strCharges = strCharges.replace(" ", "")
                         if strCharges == "X":
-                            notify("Sorry, no automate for X on {}".format(card.name))
+                            notify("Sorry, no automation for X on {}".format(card.name))
                         elif strCharges.isnumeric():
                             notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
                             for i in range(0, int(strCharges)):

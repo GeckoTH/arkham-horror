@@ -6,7 +6,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Ranged." />
-      <property name="Text" value="Uses (3 supplies). If Mk 1 Grenades has no supplies, discard it.η Spend 1 supply: Fight. You get +2 ή for this attack. If this attack is successful, instead of its standard damage, this attack deals 2 damage to each enemy and investigator at your location, other than yourself (any additional damage is dealt to the attacked enemy)." />
+      <property name="Text" value="Uses (3 supplies). If Mk 1 Grenades has no supplies, discard it.&#10;η Spend 1 supply: Fight. You get +2 ή for this attack. If this attack is successful, instead of its standard damage, this attack deals 2 damage to each enemy and investigator at your location, other than yourself (any additional damage is dealt to the attacked enemy)." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="4" />
       <property name="Cost" value="3" />
@@ -21,7 +21,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Agency." />
-      <property name="Text" value="Agency Backup may be assigned damage and/or horror dealt to other investigators at your location.θ Exhaust Agency Backup and deal 1 damage to it: Deal 1 damage to an enemy at your location.θ Exhaust Agency Backup and deal 1 horror to it: Discover 1 clue at your location." />
+      <property name="Text" value="Agency Backup may be assigned damage and/or horror dealt to other investigators at your location.&#10;θ Exhaust Agency Backup and deal 1 damage to it: Deal 1 damage to an enemy at your location.&#10;θ Exhaust Agency Backup and deal 1 horror to it: Discover 1 clue at your location." />
       <property name="Health" value="4" />
       <property name="Sanity" value="4" />
       <property name="Class" value="Guardian" />
@@ -54,7 +54,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Talent." />
-      <property name="Text" value="Permanent.You begin each game with 1 additional card in your opening hand." />
+      <property name="Text" value="Permanent.&#10;You begin each game with 1 additional card in your opening hand." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="3" />
       <property name="Cost" value="–" />
@@ -69,7 +69,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Favor. Service." />
-      <property name="Text" value="Deal 1 damage to a non-Elite enemy at your location.ι When you play Small Favor, increase its cost by 2: Change “Deal 1 damage” to “Deal 2 damage.”ι When you play Small Favor, increase its cost by 2: Change “at your location” to “at a location up to 2 connections away.”" />
+      <property name="Text" value="Deal 1 damage to a non-Elite enemy at your location.&#10;ι When you play Small Favor, increase its cost by 2: Change “Deal 1 damage” to “Deal 2 damage.”&#10;ι When you play Small Favor, increase its cost by 2: Change “at your location” to “at a location up to 2 connections away.”" />
       <property name="Class" value="Rogue" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -84,7 +84,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Talent." />
-      <property name="Text" value="Permanent.You begin each game with 2 additional resources." />
+      <property name="Text" value="Permanent.&#10;You begin each game with 2 additional resources." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="3" />
       <property name="Cost" value="–" />
@@ -100,7 +100,7 @@
       <property name="Subtitle" value="Deals with &quot;Devils&quot;" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Witch." />
-      <property name="Text" value="Uses (3 secrets).θ: Attach a non-weakness Spell event from your hand to Dayana Esperence. Limit 1 event attached to her.The attached event may be played as if it were in your hand. It is not placed in your discard pile after it is played (it remains attached). As an additional cost to play the attached event, exhaust Dayana Esperence and spend 1 secret." />
+      <property name="Text" value="Uses (3 secrets).&#10;θ: Attach a non-weakness Spell event from your hand to Dayana Esperence. Limit 1 event attached to her.&#10;The attached event may be played as if it were in your hand. It is not placed in your discard pile after it is played (it remains attached). As an additional cost to play the attached event, exhaust Dayana Esperence and spend 1 secret." />
       <property name="Health" value="3" />
       <property name="Sanity" value="1" />
       <property name="Class" value="Mystic" />
@@ -118,7 +118,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spell. Paradox." />
-      <property name="Text" value="Fast. Play when an encounter card or enemy attack would cause you to do one of the following (choose one): Discard cards from hand, lose resources, lose actions, take damage, or take horror.You ignore that aspect of the effect. Then, perform the opposite of that aspect (draw cards, gain resources, gain additional actions, heal damage, or heal horror, respectively)." />
+      <property name="Text" value="Fast. Play when an encounter card or enemy attack would cause you to do one of the following (choose one): Discard cards from hand, lose resources, lose actions, take damage, or take horror.&#10;You ignore that aspect of the effect. Then, perform the opposite of that aspect (draw cards, gain resources, gain additional actions, heal damage, or heal horror, respectively)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="5" />
       <property name="Cost" value="0" />
@@ -133,7 +133,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spirit." />
-      <property name="Text" value="Fast. Play only during your turn.Choose one of your skills. Until the end of your turn, set the base value of that skill to 5." />
+      <property name="Text" value="Fast. Play only during your turn.&#10;Choose one of your skills. Until the end of your turn, set the base value of that skill to 5." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
@@ -148,7 +148,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Tactic." />
-      <property name="Text" value="Either (choose one):—Evade. If you succeed and the enemy is non-Elite, evade the enemy and move it to a connecting location.—Evade. Use only on a non-Elite enemy at a connecting location. If you succeed, evade that enemy and switch locations with it." />
+      <property name="Text" value="Either (choose one):&#10;—Evade. If you succeed and the enemy is non-Elite, evade the enemy and move it to a connecting location.&#10;—Evade. Use only on a non-Elite enemy at a connecting location. If you succeed, evade that enemy and switch locations with it." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="3" />
       <property name="Cost" value="1" />
@@ -163,7 +163,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Clairvoyant." />
-      <property name="Text" value="You have 2 additional tarot slots.ι When the game begins, if Anna Kaslow is in your opening hand: Put her into play.ι After Anna Kaslow enters play: Search your deck for a Tarot asset and put it into play." />
+      <property name="Text" value="You have 2 additional tarot slots.&#10;ι When the game begins, if Anna Kaslow is in your opening hand: Put her into play.&#10;ι After Anna Kaslow enters play: Search your deck for a Tarot asset and put it into play." />
       <property name="Health" value="1" />
       <property name="Sanity" value="1" />
       <property name="Class" value="Neutral" />
@@ -181,11 +181,11 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="In the Clutches of Chaos" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –X. X is the total amount of doom and breaches on your location.β: Reveal another token. If there are fewer than 3 breaches on your location, place 1 breach on your location.γ: –2. For each point you fail by, remove 1 breach from the current act.δ: –3. If you fail, place 1 breach on a random location." />
+      <property name="Text" value="α: –X. X is the total amount of doom and breaches on your location.&#10;β: Reveal another token. If there are fewer than 3 breaches on your location, place 1 breach on your location.&#10;γ: –2. For each point you fail by, remove 1 breach from the current act.&#10;δ: –3. If you fail, place 1 breach on a random location." />
       <alternate name="In the Clutches of Chaos" size="EncounterCard" type="B">
         <property name="Encounter Set" value="In the Clutches of Chaos" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –X. X is 1 higher than the total amount of doom and breaches on your location.β: Reveal another token. If there are fewer than 3 breaches on your location, place 1 breach on your location.γ: –3. For each point you fail by, remove 1 breach from the current act.δ: –4. If you fail, place 1 breach on a random location." />
+        <property name="Text" value="α: –X. X is 1 higher than the total amount of doom and breaches on your location.&#10;β: Reveal another token. If there are fewer than 3 breaches on your location, place 1 breach on your location.&#10;γ: –3. For each point you fail by, remove 1 breach from the current act.&#10;δ: –4. If you fail, place 1 breach on a random location." />
       </alternate>
     </card>
     <card id="e786c226-d4d7-48ff-a80a-4775a939dd91" name="THE CHARIOT · VII" size="HorizCard">
@@ -197,7 +197,7 @@
       <alternate name="The Final Incantation" size="HorizCard" type="B">
         <property name="Encounter Set" value="In the Clutches of Chaos" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="The stars vanish in the night sky as the maw of the void swallows the horizon. The muffled beating of maddening drums and the thin whine of otherworldly flutes drift through the emptiness.Check Campaign Log.—If Anette Mason has been possessed, (→R3).—If Carl Sanford possesses the secrets of the universe, (→R4)." />
+        <property name="Text" value="Check Campaign Log.&#10;—If Anette Mason has been possessed, (→R3).&#10;—If Carl Sanford possesses the secrets of the universe, (→R4)." />
       </alternate>
     </card>
     <card id="d8c145e0-aef1-4e62-a68d-4d2cc1dd16f9" name="Dark Knowledge (v. I)" size="HorizCard">
@@ -205,13 +205,13 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Music of the Damned" />
       <property name="Type" value="Act" />
-      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance. When this act advances, move all of the breaches on it to the next act." />
+      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.&#10;Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance. When this act advances, move all of the breaches on it to the next act." />
       <alternate name="Anette Mason" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Music of the Damned" />
         <property name="Subtitle" value="Reincarnated Evil" />
         <property name="Type" value="Enemy" />
         <property name="Traits" value="Humanoid. Witch. Servitor. Elite." />
-        <property name="Text" value="Spawn – Hangman’s Hill.Alert. Hunter.Anette Mason gets –2 health for each clue controlled by an investigator.Forced – After 1 or more breaches are placed on Anette Mason’s location: Each investigator must either take 1 damage or 1 horror." />
+        <property name="Text" value="Spawn – Hangman’s Hill.&#10;Alert. Hunter.&#10;Anette Mason gets –2 health for each clue controlled by an investigator.&#10;Forced – After 1 or more breaches are placed on Anette Mason’s location: Each investigator must either take 1 damage or 1 horror." />
         <property name="Health" value="6π" />
         <property name="Combat" value="5" />
         <property name="Agility" value="3" />
@@ -226,11 +226,11 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Music of the Damned" />
       <property name="Type" value="Act" />
-      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.Objective – If Anette Mason is defeated, advance." />
+      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.&#10;Objective – If Anette Mason is defeated, advance." />
       <alternate name="The Living and the Dead" size="HorizCard" type="B">
         <property name="Encounter Set" value="Music of the Damned" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Somehow, despite all odds, you have managed to defeat the resurrected spirit which torments Anette Mason. She passes out and collapses to the ground, but the revenant inside forces her eyes open and puppeteers her body in a lurid display. “Fools!” the ragged, disembodied voice of Keziah declares through Anette’s lips as she rises once more. “You are naught but insects. I have seen the truth. I have seen the face of Chaos itself, and you will soon be a part of it. Now, come; join me, kneel before the Black Throne, and be one with the universe!”You shudder as the words reach your ears. Nothing she says makes sense to you, but you can tell her intent is dark and wicked. “Leave this place,” you muster up the will to command, “Go back to the beyond from which you were summoned, and never return.”(→R1)" />
+        <property name="Text" value="(→R1)" />
       </alternate>
     </card>
     <card id="d200f45b-a3d2-4590-8117-6608ecb996eb" name="Dark Knowledge (v. II)" size="HorizCard">
@@ -238,13 +238,13 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Secrets of the Universe" />
       <property name="Type" value="Act" />
-      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance. When this act advances, move all of the breaches on it to the next act." />
+      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.&#10;Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance. When this act advances, move all of the breaches on it to the next act." />
       <alternate name="Carl Sanford" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Secrets of the Universe" />
         <property name="Subtitle" value="Deathless Fanatic" />
         <property name="Type" value="Enemy" />
         <property name="Traits" value="Humanoid. Silver Twilight. Elite." />
-        <property name="Text" value="Spawn – Silver Twilight Lodge.Hunter. Retaliate.Carl Sanford gets –2 health for each clue controlled by an investigator.Forced – After any number of breaches are removed from the current act: Place 1 of them on Carl Sanford’s location." />
+        <property name="Text" value="Spawn – Silver Twilight Lodge.&#10;Hunter. Retaliate.&#10;Carl Sanford gets –2 health for each clue controlled by an investigator.&#10;Forced – After any number of breaches are removed from the current act: Place 1 of them on Carl Sanford’s location." />
         <property name="Health" value="6π" />
         <property name="Combat" value="4" />
         <property name="Agility" value="4" />
@@ -259,11 +259,11 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Secrets of the Universe" />
       <property name="Type" value="Act" />
-      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.Objective – If Carl Sanford is defeated, advance." />
+      <property name="Text" value="θ Remove 3 breaches from this act: Place 1 clue on a random location.&#10;Objective – If Carl Sanford is defeated, advance." />
       <alternate name="Of Gods and Mortals" size="HorizCard" type="B">
         <property name="Encounter Set" value="Secrets of the Universe" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Using force and ingenuity, you have managed to defeat Carl Sanford at his own game. The power he was drawing from surges painfully through him. “You imbeciles,” he spits, “what do you think you have accomplished? We could have been immortal. Don’t you understand? We could have been gods!” he struggles to remain on his feet, his strength waning as he loses control of his power.“At what cost?” You reply, taking in the sight before you. “You would have made us slaves, not gods. Slaves to your greed and the Order’s power. I’d rather stay mortal than be your thrall.”“Then we will all perish,” Carl responds bitterly. “I could have made us into celestials. Instead, we will be extinct. I hope you are satisfied.”(→R2)" />
+        <property name="Text" value="(→R2)" />
       </alternate>
     </card>
     <card id="5b1b97df-7bc1-42e8-aa55-c45ab8e4129d" name="French Hill" size="EncounterCard">
@@ -530,7 +530,7 @@
       <property name="Encounter Set" value="In the Clutches of Chaos" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – Attach to a random location. Place breaches on attached location until there are exactly 3 breaches on it.Treat the attached location as if its printed text box were blank (except for Traits).η: Test έ or ά (4) to close the gateway. If you succeed, discard Primordial Gateway." />
+      <property name="Text" value="Revelation – Attach to a random location. Place breaches on attached location until there are exactly 3 breaches on it.&#10;Treat the attached location as if its printed text box were blank (except for Traits).η: Test έ or ά (4) to close the gateway. If you succeed, discard Primordial Gateway." />
     </card>
     <card id="bb227dd9-c7cc-4b63-8479-1c16de046539" name="Terror Unleashed" size="EncounterCard">
       <property name="Card Number" value="308" />
@@ -546,7 +546,7 @@
       <property name="Encounter Set" value="Secrets of the Universe" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
-      <property name="Text" value="Spawn – Most breaches (or Silver Twilight Lodge if there are no locations in play with breaches on them).Retaliate.Treat Lodge Enforcer’s location as if its printed text box were blank (except for Traits)." />
+      <property name="Text" value="Spawn – Most breaches (or Silver Twilight Lodge if there are no locations in play with breaches on them).&#10;Retaliate.&#10;Treat Lodge Enforcer’s location as if its printed text box were blank (except for Traits)." />
       <property name="Health" value="4" />
       <property name="Combat" value="3" />
       <property name="Agility" value="3" />
@@ -568,7 +568,7 @@
       <property name="Encounter Set" value="Music of the Damned" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Witch." />
-      <property name="Text" value="Spawn – Fewest breaches.Hunter.Forced – After Witness of Chaos enters a location: Place 1 breach on that location." />
+      <property name="Text" value="Spawn – Fewest breaches.&#10;Hunter.&#10;Forced – After Witness of Chaos enters a location: Place 1 breach on that location." />
       <property name="Health" value="4" />
       <property name="Combat" value="4" />
       <property name="Agility" value="2" />
@@ -582,7 +582,7 @@
       <property name="Encounter Set" value="Music of the Damned" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Hex." />
-      <property name="Text" value="Peril.Revelation – You must either (choose one):—Resolve the revelation ability on the topmost Power treachery in the encounter discard pile.—Resolve an incursion at your location." />
+      <property name="Text" value="Peril.&#10;Revelation – You must either (choose one):&#10;—Resolve the revelation ability on the topmost Power treachery in the encounter discard pile.&#10;—Resolve an incursion at your location." />
     </card>
   </cards>
 </set>

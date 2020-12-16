@@ -6,7 +6,7 @@
       <property name="Quantity" value="1" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Occult. Blessed." />
-      <property name="Text" value="Limit 1 per deck.Forced – After Hallowed Mirror enters play: Search your bonded cards for 3 copies of Soothing Melody. Add 1 to your hand and shuffle the other 2 into your deck. When Hallowed Mirror leaves play, find each of those copies of Soothing Melody (even if they are out of play) and remove them from the game." />
+      <property name="Text" value="Limit 1 per deck.&#10;Forced – After Hallowed Mirror enters play: Search your bonded cards for 3 copies of Soothing Melody. Add 1 to your hand and shuffle the other 2 into your deck. When Hallowed Mirror leaves play, find each of those copies of Soothing Melody (even if they are out of play) and remove them from the game." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -22,7 +22,7 @@
       <property name="Quantity" value="3" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="Bonded (Hallowed Mirror).Heal 2 damage or 2 horror (or any combination thereof) from among investigators and/or Ally assets at your location. Draw 1 card." />
+      <property name="Text" value="Bonded (Hallowed Mirror).&#10;Heal 2 damage or 2 horror (or any combination thereof) from among investigators and/or Ally assets at your location. Draw 1 card." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="0" />
       <property name="Cost" value="0" />
@@ -37,7 +37,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spirit." />
-      <property name="Text" value="Fast. Play when you are dealt damage and/or horror.Cancel up to 2 damage and/or horror just dealt to you. Then, gain that many resources." />
+      <property name="Text" value="Fast. Play when you are dealt damage and/or horror.&#10;Cancel up to 2 damage and/or horror just dealt to you. Then, gain that many resources." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="2" />
       <property name="Cost" value="0" />
@@ -52,7 +52,7 @@
       <property name="Quantity" value="1" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome. Occult." />
-      <property name="Text" value="Limit 1 per deck.Forced – After Occult Lexicon enters play: Search your bonded cards for 3 copies of Blood-Rite. Add 1 to your hand and shuffle the other 2 into your deck. When Occult Lexicon leaves play, find each of those copies of Blood-Rite (even if they are out of play) and remove them from the game." />
+      <property name="Text" value="Limit 1 per deck.&#10;Forced – After Occult Lexicon enters play: Search your bonded cards for 3 copies of Blood-Rite. Add 1 to your hand and shuffle the other 2 into your deck. When Occult Lexicon leaves play, find each of those copies of Blood-Rite (even if they are out of play) and remove them from the game." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -68,7 +68,7 @@
       <property name="Quantity" value="3" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="Bonded (Occult Lexicon).Draw 2 cards. Discard up to 2 cards from your hand. For each card thusly discarded, you may either gain 1 resource, or spend 1 resource to deal 1 damage to an enemy at your location. This action does not provoke attacks of opportunity." />
+      <property name="Text" value="Bonded (Occult Lexicon).&#10;Draw 2 cards. Discard up to 2 cards from your hand. For each card thusly discarded, you may either gain 1 resource, or spend 1 resource to deal 1 damage to an enemy at your location. This action does not provoke attacks of opportunity." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="0" />
@@ -113,7 +113,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ritual." />
-      <property name="Text" value="Exceptional.ι After you play an event, exhaust Double, Double: Play that event again as if it were in your hand." />
+      <property name="Text" value="Exceptional.&#10;ι After you play an event, exhaust Double, Double: Play that event again as if it were in your hand." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="4" />
       <property name="Cost" value="4" />
@@ -145,7 +145,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Spell." />
-      <property name="Text" value="η: Investigate. Investigate using ά instead of έ. You get +2 ά for this investigation. If a α, β, γ, or δ symbol is revealed during this test, you may choose a revealed location up to 2 connections away from your location; you are now investigating as if you were at the chosen location instead of your location (you may use either shroud value)." />
+      <property name="Text" value="η: Investigate. Investigate using ά instead of έ. You get +2 ά for this investigation. If a α, β, γ, or δ symbol is revealed during this test, you may choose a revealed location up to 2 connections away from your location; you are now investigating as if you were at the chosen location in addition to your location (you may use either shroud value)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="4" />
       <property name="Cost" value="3" />
@@ -161,7 +161,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Trick." />
-      <property name="Text" value="Attach to your location or to a connecting location.During the enemy phase, each enemy that moves does so along the shortest path toward the attached location, instead of to where it would normally move.Forced – While attached, at the end of the round: Discard Lure." />
+      <property name="Text" value="Attach to your location or to a connecting location.During the enemy phase, each enemy that moves does so along the shortest path toward the attached location, instead of to where it would normally move.&#10;Forced – While attached, at the end of the round: Discard Lure." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="2" />
       <property name="Cost" value="1" />
@@ -176,7 +176,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Fortune. Blessed." />
-      <property name="Text" value="Fast. Play when you reveal a chaos token that would reduce your skill value to 0 during a skill test (including the ζ token).Cancel that token and treat it as an ε token, instead." />
+      <property name="Text" value="Fast. Play when you reveal a chaos token that would reduce your skill value to 0 during a skill test (including the ζ token).&#10;Cancel that token and treat it as an ε token, instead." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="3" />
       <property name="Cost" value="2" />
@@ -192,12 +192,12 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –X. X is half of the doom on Azathoth (rounded up), to a minimum of 2.β: Reveal another token. If you fail, search the encounter deck and discard pile for a Cultist enemy and draw it. Shuffle the encounter deck.γ: –2. If you fail, Azathoth attacks you.δ: –4. If your modified skill value for this test is 0, place 1 doom on Azathoth." />
+      <property name="Text" value="α: –X. X is half of the doom on Azathoth (rounded up), to a minimum of 2.&#10;β: Reveal another token. If you fail, search the encounter deck and discard pile for a Cultist enemy and draw it. Shuffle the encounter deck.&#10;γ: –2. If you fail, Azathoth attacks you.&#10;δ: –4. If your modified skill value for this test is 0, place 1 doom on Azathoth." />
       <alternate name="Before the Black Throne" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –X. X is the amount of doom on Azathoth, to a minimum of 2.β: Reveal another token. If you fail, search the encounter deck and discard pile for a Cultist enemy and draw it. Shuffle the encounter deck.γ: –3. If you fail, Azathoth attacks you.δ: –6. If your modified skill value for this test is 0, place 1 doom on Azathoth." />
+        <property name="Text" value="α: –X. X is the amount of doom on Azathoth, to a minimum of 2.&#10;β: Reveal another token. If you fail, search the encounter deck and discard pile for a Cultist enemy and draw it. Shuffle the encounter deck.&#10;γ: –3. If you fail, Azathoth attacks you.&#10;δ: –6. If your modified skill value for this test is 0, place 1 doom on Azathoth." />
       </alternate>
     </card>
     <card id="1243ebf8-6f47-466c-9202-7534c9fc1a34" name="WHEEL OF FORTUNE · X" size="HorizCard">
@@ -212,7 +212,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="Somehow, you’re not the only human here. They are but mindless husks—almost entirely devoid of humanity, nothing but flesh, muscle, and bone, preserved for eternity in their single-minded passion, kneeling and chanting in foul worship: “Azathoth! Azathoth! The end has come!”Each Cultist enemy commits ritual suicide. Discard each Cultist enemy in play and move all doom from them to Azathoth.The lead investigator must search the encounter deck and discard pile for a copy of Daemonic Piping and draw it.Endless walkways and steps of black stone are the only routes which guide you to your destination. It is an impossible maze to navigate.Check Campaign Log. If Gilman’s Journal is listed under “Mementos Discovered,” you are able to find you way. Otherwise, you become hopelessly lost; each investigator must either move to the location to his or her left, or move the placement of his or her location once to the left (placing an empty space in the spot it previously occupied). A location cannot move more than once via this effect." />
+        <property name="Text" value="Each Cultist enemy commits ritual suicide. Discard each Cultist enemy in play and move all doom from them to Azathoth.The lead investigator must search the encounter deck and discard pile for a copy of Daemonic Piping and draw it.&#10;Check Campaign Log. If Gilman’s Journal is listed under “Mementos Discovered,” you are able to find you way. Otherwise, you become hopelessly lost; each investigator must either move to the location to his or her left, or move the placement of his or her location once to the left (placing an empty space in the spot it previously occupied). A location cannot move more than once via this effect." />
       </alternate>
     </card>
     <card id="cb7c6a83-05c2-4210-a1e7-9130b806ab72" name="It Awaits" size="HorizCard">
@@ -227,7 +227,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="Agenda 2b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="Each Cultist enemy commits ritual suicide. Discard each Cultist enemy in play and move all doom from them to Azathoth.The lead investigator must search the encounter deck and discard pile for a copy of Daemonic Piping and draw it.In this oblivion outside time, nothing is as it should be. The mist dances and churns around you. Laughter mocks you from beyond, and out from the dark nebulae emerges a familiar wraith, a being which should be long dead.Check Campaign Log. If Worn Crucifix is listed under “Mementos Discovered,” the wraith recognizes the crucifix you stole from Walter Gilman’s room and backs away slowly, slinking into the darkness beyond.Otherwise, the wraith attacks you; each investigator must test ά (4). Each investigator who fails takes 1 damage and 1 horror." />
+        <property name="Text" value="Each Cultist enemy commits ritual suicide. Discard each Cultist enemy in play and move all doom from them to Azathoth.The lead investigator must search the encounter deck and discard pile for a copy of Daemonic Piping and draw it.&#10;Check Campaign Log. If Worn Crucifix is listed under “Mementos Discovered,” the wraith recognizes the crucifix you stole from Walter Gilman’s room and backs away slowly, slinking into the darkness beyond.Otherwise, the wraith attacks you; each investigator must test ά (4). Each investigator who fails takes 1 damage and 1 horror." />
       </alternate>
     </card>
     <card id="a1a82dd1-3db2-4ebd-b73c-b54f43e7e4a4" name="The Final Countdown" size="HorizCard">
@@ -236,13 +236,13 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Subtitle" value="Agenda 3a" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each location is connected to each location adjacent to it.Do not remove doom from enemies when this agenda advances.(Beware—The scenario will not end when this agenda advances, but the doom of the world grows nigh.)" />
+      <property name="Text" value="Each location is connected to each location adjacent to it.Do not remove doom from enemies when this agenda advances.&#10;(Beware—The scenario will not end when this agenda advances, but the doom of the world grows nigh.)" />
       <property name="Doom" value="8" />
       <alternate name="Azathoth Stirs..." size="HorizCard" type="B">
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="Agenda 3b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="Each Cultist enemy commits ritual suicide. Discard each Cultist enemy in play and move all doom from them to Azathoth.The lead investigator must search the encounter deck and discard pile for a copy of Daemonic Piping and draw it.There is no longer an agenda deck, but the scenario is not over. Until the end of the scenario, doom that would be placed on the current agenda is instead placed on Azathoth, and all doom in play is considered to be on Azathoth.You come across another circle of Azathoth’s worshippers, led by a hooded, shapeless form which holds an ancient lantern high above its head. The lantern’s dim grey light scarcely pierces the realm’s darkness. Somehow, the phantom is familiar to you; some vague sense of kinship drives you onward.Check Campaign Log. If Corn Husk Doll is listed under “Mementos Discovered,” the creature recognizes you, as well. It peers at you curiously, and the circle of prayer is silenced; remove 1 doom from Azathoth.Otherwise, the creature barely notices you, and the circle resumes its chanting." />
+        <property name="Text" value="Each Cultist enemy commits ritual suicide. Discard each Cultist enemy in play and move all doom from them to Azathoth.The lead investigator must search the encounter deck and discard pile for a copy of Daemonic Piping and draw it.&#10;There is no longer an agenda deck, but the scenario is not over. Until the end of the scenario, doom that would be placed on the current agenda is instead placed on Azathoth, and all doom in play is considered to be on Azathoth.&#10;Check Campaign Log. If Corn Husk Doll is listed under “Mementos Discovered,” the creature recognizes you, as well. It peers at you curiously, and the circle of prayer is silenced; remove 1 doom from Azathoth.&#10;Otherwise, the creature barely notices you, and the circle resumes its chanting." />
       </alternate>
     </card>
     <card id="c2141986-a61d-46b3-a857-aa7183990531" name="The Cosmos Beckons" size="HorizCard">
@@ -251,13 +251,13 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Subtitle" value="Act 1a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="η Spend X clues: Draw the top X cards of the Cosmos. Choose one to put into play using its “Cosmos –” instructions, and move to it. Shuffle the rest back into the Cosmos.Objective – Only investigators at Hideous Palace may spend the requisite number of clues, as a group, to advance. (Beware—any investigator who is not there will be killed.)" />
+      <property name="Text" value="η Spend X clues: Draw the top X cards of the Cosmos. Choose one to put into play using its “Cosmos –” instructions, and move to it. Shuffle the rest back into the Cosmos.&#10;Objective – Only investigators at Hideous Palace may spend the requisite number of clues, as a group, to advance. (Beware—any investigator who is not there will be killed.)" />
       <property name="Clues" value="1π" />
       <alternate name="Palace of the Old Ones" size="HorizCard" type="B">
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="Act 1b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Your steed carries you through the entryway of the nightmarish palace, and you are surprised to find the halls inside to be as vast and cavernous as the empty space surrounding it. It is as though the doorway was but the threshold of another universe, as desolate and boundless as the last.Remove Cosmic Ingress from the game. Shuffle each location in play other than Hideous Palace into the Cosmos. Each investigator at those locations is left behind and is killed. Each enemy at those locations is shuffled into the top 5 cards of the encounter deck.Take the set-aside Court of the Great Old Ones and the top 2 cards of the Cosmos, and shuffle them so you cannot tell which is which. Then, put them into play along with empty space, as depicted in “Location Placement for Act 2” in the Campaign Guide.Each investigator draws the top card of the encounter deck." />
+        <property name="Text" value="&#10;Remove Cosmic Ingress from the game. Shuffle each location in play other than Hideous Palace into the Cosmos. Each investigator at those locations is left behind and is killed. Each enemy at those locations is shuffled into the top 5 cards of the encounter deck.&#10;Take the set-aside Court of the Great Old Ones and the top 2 cards of the Cosmos, and shuffle them so you cannot tell which is which. Then, put them into play along with empty space, as depicted in “Location Placement for Act 2” in the Campaign Guide.&#10;Each investigator draws the top card of the encounter deck." />
       </alternate>
     </card>
     <card id="1fc155f2-323e-4418-9e4c-a970adc5d44f" name="In Azathoth’s Domain" size="HorizCard">
@@ -266,13 +266,13 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="η Spend X clues: Draw the top X cards of the Cosmos. Choose one to put into play using its “Cosmos –” instructions, and move to it. Shuffle the rest back into the Cosmos.Objective – Only investigators at Court of the Great Old Ones may spend the requisite number of clues, as a group, to advance. (Beware—any investigator who is not there will be killed.)" />
+      <property name="Text" value="η Spend X clues: Draw the top X cards of the Cosmos. Choose one to put into play using its “Cosmos –” instructions, and move to it. Shuffle the rest back into the Cosmos.&#10;Objective – Only investigators at Court of the Great Old Ones may spend the requisite number of clues, as a group, to advance. (Beware—any investigator who is not there will be killed.)" />
       <property name="Clues" value="2π" />
       <alternate name="Nucleus of the Universe" size="HorizCard" type="B">
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="The winged creature lands on a winding walkway of black stone, extending into a ceaseless horizon of pitched void. It takes some prodding and encouragement before your steed continues onward. Even the most dreadful of beasts are terrified of this place, it seems. Yet still, you can hear the mindless chanting of those who dwell closest to the daemon-sultan, the maddening whining of the pipers, the monotonous drum-beats which thrum endlessly in your mind...Remove Hideous Palace from the game. Shuffle each location in play other than Court of the Great Old Ones into the Cosmos. Each investigator at those locations is left behind and is killed. Each enemy at those locations is shuffled into the top 5 cards of the encounter deck.Take the set-aside The Black Throne and the top 3 cards of the Cosmos, and shuffle them so you cannot tell which is which. Then, put them into play along with empty space, as depicted in “Location Placement for Act 3” in the Campaign Guide.Each investigator draws the top card of the encounter deck." />
+        <property name="Text" value="Remove Hideous Palace from the game. Shuffle each location in play other than Court of the Great Old Ones into the Cosmos. Each investigator at those locations is left behind and is killed. Each enemy at those locations is shuffled into the top 5 cards of the encounter deck.&#10;Take the set-aside The Black Throne and the top 3 cards of the Cosmos, and shuffle them so you cannot tell which is which. Then, put them into play along with empty space, as depicted in “Location Placement for Act 3” in the Campaign Guide.&#10;Each investigator draws the top card of the encounter deck." />
       </alternate>
     </card>
     <card id="98ed9247-476e-4821-91b0-962429d6cacd" name="What Must Be Done" size="HorizCard">
@@ -281,12 +281,12 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Subtitle" value="Act 3a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="η Spend X clues: Draw the top X cards of the Cosmos. Choose one to put into play using its “Cosmos –” instructions, and move to it. Shuffle the rest back into the Cosmos.Objective – If the lead investigator is at The Black Throne and there are no clues on it, advance." />
+      <property name="Text" value="η Spend X clues: Draw the top X cards of the Cosmos. Choose one to put into play using its “Cosmos –” instructions, and move to it. Shuffle the rest back into the Cosmos.&#10;Objective – If the lead investigator is at The Black Throne and there are no clues on it, advance." />
       <alternate name="The End" size="HorizCard" type="B">
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="Act 3b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="You stand on a precipice before the Black Throne and gaze up at the blind, voiceless monstrosity that is Azathoth. The mere sight of it causes your vision to blur and your body to shake uncontrollably. The monotonous piping is so loud now, it rattles your bones and nearly causes you to vomit from the force upon your insides. Blood drips from your eyes and your ears.Should Azathoth awaken, it will devour every world that ever was. You must act now, before it is too late.Check Campaign Log. —If at least two of the following are true, you may proceed to (→R2): You accepted your fate, Mesmerizing Flute is listed under “Mementos Discovered,” and Ritual Components is listed under “Mementos Discovered.”—If at least two of the following are true, you may proceed to (→R3): You rejected your fate, Scrap of Torn Shadow is listed under “Mementos Discovered,” and Wisp of Spectral Mist is listed under “Mementos Discovered.”—Otherwise, (→R4)." />
+        <property name="Text" value="Check Campaign Log.&#10;—If at least two of the following are true, you may proceed to (→R2): You accepted your fate, Mesmerizing Flute is listed under “Mementos Discovered,” and Ritual Components is listed under “Mementos Discovered.”&#10;—If at least two of the following are true, you may proceed to (→R3): You rejected your fate, Scrap of Torn Shadow is listed under “Mementos Discovered,” and Wisp of Spectral Mist is listed under “Mementos Discovered.”&#10;—Otherwise, (→R4)." />
       </alternate>
     </card>
     <card id="fd8a0dd1-5c6f-423c-9bf9-8c65f9fa9532" name="Cosmic Ingress" size="EncounterCard">
@@ -299,7 +299,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld." />
-        <property name="Text" value="Forced – At the end of the round: Add clues to Cosmic Ingress until it has 3 clues on it.Each Void location gains: “η: Shuffle this location into the Cosmos, moving each investigator and enemy that was at this location to Cosmic Ingress.”" />
+        <property name="Text" value="Forced – At the end of the round: Add clues to Cosmic Ingress until it has 3 clues on it.&#10;Each Void location gains: “η: Shuffle this location into the Cosmos, moving each investigator and enemy that was at this location to Cosmic Ingress.”" />
         <property name="Shroud" value="2" />
         <property name="Clues" value="3" />
       </alternate>
@@ -314,7 +314,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld." />
-        <property name="Text" value="Forced – At the end of the round: Add clues to Hideous Palace until it has 4 clues on it.Each Void location gains: “η: Shuffle this location into the Cosmos, moving each investigator and enemy that was at this location to Hideous Palace.”" />
+        <property name="Text" value="Forced – At the end of the round: Add clues to Hideous Palace until it has 4 clues on it.&#10;Each Void location gains: “η: Shuffle this location into the Cosmos, moving each investigator and enemy that was at this location to Hideous Palace.”" />
         <property name="Shroud" value="3" />
         <property name="Clues" value="4" />
       </alternate>
@@ -329,7 +329,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld." />
-        <property name="Text" value="Forced – At the end of the round: Add clues to Court of the Great Old Ones until it has 6 clues on it.Each Void location gains: “η: Shuffle this location into the Cosmos, moving each investigator and enemy that was at this location to Court of the Great Old Ones.”" />
+        <property name="Text" value="Forced – At the end of the round: Add clues to Court of the Great Old Ones until it has 6 clues on it.&#10;Each Void location gains: “η: Shuffle this location into the Cosmos, moving each investigator and enemy that was at this location to Court of the Great Old Ones.”" />
         <property name="Shroud" value="4" />
         <property name="Clues" value="6" />
       </alternate>
@@ -344,7 +344,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld." />
-        <property name="Text" value="The Black Throne gets +X shroud, where X is half of the doom on Azathoth (rounded up).Haunted – You must either place 1 doom on Azathoth, or Azathoth attacks you." />
+        <property name="Text" value="The Black Throne gets +X shroud, where X is half of the doom on Azathoth (rounded up).&#10;Haunted – You must either place 1 doom on Azathoth, or Azathoth attacks you." />
         <property name="Shroud" value="1" />
         <property name="Clues" value="2π" />
       </alternate>
@@ -359,7 +359,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld." />
-        <property name="Text" value="Cosmos – You must either connect to the right, or lose 2 resources and connect to an adjacent location in a direction of your choice.ι After you move to Dancer’s Mist, remove 1 resource from the scenario reference card: Move to a connecting location." />
+        <property name="Text" value="Cosmos – You must either connect to the right, or lose 2 resources and connect to an adjacent location in a direction of your choice.&#10;ι After you move to Dancer’s Mist, remove 1 resource from the scenario reference card: Move to a connecting location." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="2" />
       </alternate>
@@ -374,7 +374,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld. Void." />
-        <property name="Text" value="Cosmos – You must either connect above, or take 2 horror and connect to the topmost revealed location in a direction of your choice.η Remove 1 resource from the scenario reference card: Move the placement of Flight into Oblivion once upward, placing an empty space in the spot it previously occupied. (Group limit once per game.)" />
+        <property name="Text" value="Cosmos – You must either connect above, or take 2 horror and connect to the topmost revealed location in a direction of your choice.&#10;η Remove 1 resource from the scenario reference card: Move the placement of Flight into Oblivion once upward, placing an empty space in the spot it previously occupied. (Group limit once per game.)" />
         <property name="Shroud" value="2" />
         <property name="Clues" value="1" />
       </alternate>
@@ -389,7 +389,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld. Void." />
-        <property name="Text" value="Cosmos – You must either connect below, or take 2 damage and connect to the bottommost revealed location in a direction of your choice.η Remove 1 resource from the scenario reference card: Move the placement of Infinity of Darkness once downward, placing an empty space in the spot it previously occupied. (Group limit once per game.)" />
+        <property name="Text" value="Cosmos – You must either connect below, or take 2 damage and connect to the bottommost revealed location in a direction of your choice.&#10;η Remove 1 resource from the scenario reference card: Move the placement of Infinity of Darkness once downward, placing an empty space in the spot it previously occupied. (Group limit once per game.)" />
         <property name="Shroud" value="2" />
         <property name="Clues" value="1" />
       </alternate>
@@ -404,7 +404,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld. Void." />
-        <property name="Text" value="Cosmos – Connect to any revealed location, in a direction of your choice.Forced – After you enter Cosmic Gate: You must either spend 1 clue or take 1 horror.η Remove 1 resource from the scenario reference card: Move any number of investigators at Cosmic Gate to any other Void location." />
+        <property name="Text" value="Cosmos – Connect to any revealed location, in a direction of your choice.Forced – After you enter Cosmic Gate: You must either spend 1 clue or take 1 horror.&#10;η Remove 1 resource from the scenario reference card: Move any number of investigators at Cosmic Gate to any other Void location." />
         <property name="Shroud" value="1" />
         <property name="Clues" value="1" />
       </alternate>
@@ -419,7 +419,7 @@
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld. Void." />
-        <property name="Text" value="Cosmos – Connect in a direction of your choice.Forced – After you enter Pathway into Void: You must either discard 1 card from your hand or take 1 damage.η Remove 1 resource from the scenario reference card: Move Pathway into Void to any adjacent spot, placing an empty space in the spot it previously occupied. (Group limit once per turn.)" />
+        <property name="Text" value="Cosmos – Connect in a direction of your choice.&#10;Forced – After you enter Pathway into Void: You must either discard 1 card from your hand or take 1 damage.&#10;η Remove 1 resource from the scenario reference card: Move Pathway into Void to any adjacent spot, placing an empty space in the spot it previously occupied. (Group limit once per turn.)" />
         <property name="Shroud" value="4" />
         <property name="Clues" value="2" />
       </alternate>
@@ -430,7 +430,7 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster." />
-      <property name="Text" value="Spawn – Farthest empty space.Hunter.Mindless Dancer can enter empty space as if it were a location.Forced – After Mindless Dancer moves to an empty space via its hunter keyword: Resolve its hunter keyword again. (Limit once per round.)" />
+      <property name="Text" value="Spawn – Farthest empty space.&#10;Hunter.&#10;Mindless Dancer can enter empty space as if it were a location.&#10;Forced – After Mindless Dancer moves to an empty space via its hunter keyword: Resolve its hunter keyword again. (Limit once per round.)" />
       <property name="Health" value="5" />
       <property name="Combat" value="6" />
       <property name="Agility" value="3" />
@@ -443,7 +443,7 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – Test ά (4). If you fail, attach Ultimate Chaos to Azathoth. If you fail by 2 or more, take 1 damage and 1 horror. If you fail by 3 or more, Ultimate Chaos gains surge. Cannot be canceled.If there are 3 copies of Ultimate Chaos attached to Azathoth, discard them and either place 1 doom on Azathoth, or Azathoth attacks each investigator in player order. Cannot be canceled." />
+      <property name="Text" value="Revelation – Test ά (4). If you fail, attach Ultimate Chaos to Azathoth. If you fail by 2 or more, take 1 damage and 1 horror. If you fail by 3 or more, Ultimate Chaos gains surge. Cannot be canceled.&#10;If there are 3 copies of Ultimate Chaos attached to Azathoth, discard them and either place 1 doom on Azathoth, or Azathoth attacks each investigator in player order. Cannot be canceled." />
     </card>
     <card id="d56e90f0-5778-4f3d-8648-7736f402dbe3" name="Whispered Bargain" size="EncounterCard">
       <property name="Card Number" value="343" />
@@ -451,7 +451,7 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Pact." />
-      <property name="Text" value="Peril.Revelation – You must either (choose one): Place 1 doom on Azathoth, or Azathoth attacks you." />
+      <property name="Text" value="Peril.&#10;Revelation – You must either (choose one): Place 1 doom on Azathoth, or Azathoth attacks you." />
     </card>
     <card id="d4ae91ab-d75b-4931-8315-3ab491184cc4" name="The End is Nigh!" size="EncounterCard">
       <property name="Card Number" value="344" />
@@ -467,7 +467,7 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Endtimes." />
-      <property name="Text" value="Revelation – If there is no doom on Azathoth, A World in Darkness gains surge. Otherwise, for each doom on Azathoth, you must choose one:—Lose 1 resource.—Choose and discard 1 card from your hand.—Take 1 horror.—Take 1 damage." />
+      <property name="Text" value="Revelation – If there is no doom on Azathoth, A World in Darkness gains surge. Otherwise, for each doom on Azathoth, you must choose one:&#10;—Lose 1 resource.&#10;—Choose and discard 1 card from your hand.&#10;—Take 1 horror.&#10;—Take 1 damage." />
     </card>
     <card id="ab2ec5e1-6170-410a-a5b2-767dbfa02f17" name="Azathoth" size="EncounterCard">
       <property name="Card Number" value="346" />
@@ -475,7 +475,7 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Ancient One. Elite." />
-      <property name="Text" value="Azathoth is oblivious and omnipotent. It is immune to all player card effects and investigator actions, and cannot be defeated by any means.Forced – If there is 10 or more doom on Azathoth: The Blind Idiot God rises from its throne in the ultimate void of Chaos and devours the universe. (-&gt;R1)" />
+      <property name="Text" value="Azathoth is oblivious and omnipotent. It is immune to all player card effects and investigator actions, and cannot be defeated by any means.&#10;Forced – If there is 10 or more doom on Azathoth: The Blind Idiot God rises from its throne in the ultimate void of Chaos and devours the universe. (-&gt;R1)" />
       <property name="Health" value="–" />
       <property name="Damage" value="3" />
       <property name="Horror" value="3" />
