@@ -464,11 +464,13 @@ def autoCharges(args):
         if len(args.cards) == 1:
             card = args.cards[0]
             if card.controller == me and card.properties["Type"] == "Asset":
-                #Capture text between (...)
-                description_search = re.search('.*\((.*)\).*', card.properties["Text"], re.IGNORECASE)
+                #Capture text between "Uses (..)"
+                description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
                     strCharges = description_search.group(1)
-                    # it 's only test like (4)
+                    #Capture text between "(...)""
+                    strCharges = re.search('.*\((.*)\).*',strCharges).group(1)
+                    # Check if not only 1 numeric
                     if not strCharges.isnumeric():
                         if "ammo"  in strCharges:
                             word = "ammo"
@@ -1347,7 +1349,7 @@ def markerChanged(args):
     if getGlobalVariable("phase") == "Mythos" or thisPhase[1] == 1:
         inMythosPhase = True
     
-    if card.Type == "Agenda" and args.marker == Doom[0] and inMythosPhase == True and card.properties[Doom[0]] != "":
+    if card.Type == "Agenda" and args.marker == Doom[0] and inMythosPhase == True and card.properties[Doom[0]].isnumeric():
         maxDoom = int(card.properties[Doom[0]])
         totalDoom = 0
         for cardT in table:
