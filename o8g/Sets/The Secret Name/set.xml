@@ -22,7 +22,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Insight." />
-      <property name="Text" value="Fast. Play after an investigator discovers the last remaining clue at your location.Investigators at that location gain a total of X resources, distributed as you wish. X is that location’s shroud value." />
+      <property name="Text" value="Fast. Play after an investigator discovers the last remaining clue at your location.&#10;Investigators at that location gain a total of X resources, distributed as you wish. X is that location’s shroud value." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="0" />
@@ -37,7 +37,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Favor. Service." />
-      <property name="Text" value="Discover 1 clue at your location.ι When you play Intel Report, increase its cost by 2: Change “Discover 1 clue” to “Discover 2 clues.”ι When you play Intel Report, increase its cost by 2: Change “at your location” to “at a location up to 2 connections away.”" />
+      <property name="Text" value="Discover 1 clue at your location.&#10;ι When you play Intel Report, increase its cost by 2: Change “Discover 1 clue” to “Discover 2 clues.”&#10;ι When you play Intel Report, increase its cost by 2: Change “at your location” to “at a location up to 2 connections away.”" />
       <property name="Class" value="Rogue" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -52,7 +52,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ritual. Talent." />
-      <property name="Text" value="Fast.You have 1 additional arcane slot, which can only be used to hold a Spell or Ritual asset." />
+      <property name="Text" value="Fast.&#10;You have 1 additional arcane slot, which can only be used to hold a Spell or Ritual asset." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
@@ -99,7 +99,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
-      <property name="Text" value="Uses (5 ammo).η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
+      <property name="Text" value="Uses (5 ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
       <property name="Class" value="Guardian/Rogue" />
       <property name="Level" value="0" />
       <property name="Cost" value="6" />
@@ -115,7 +115,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome." />
-      <property name="Text" value="Uses (3 secrets).η Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner’s hand, place it on the bottom of its deck, or place it on the top of its deck." />
+      <property name="Text" value="Uses (3 secrets).&#10;η Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner’s hand, place it on the bottom of its deck, or place it on the top of its deck." />
       <property name="Class" value="Seeker/Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="1" />
@@ -131,7 +131,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Illicit." />
-      <property name="Text" value="Uses (2 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 ά for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 ή for this attack." />
+      <property name="Text" value="Uses (2 supplies).&#10;θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 ά for a skill test on a treachery card.&#10;η Discard Tennessee Sour Mash: Fight. You get +3 ή for this attack." />
       <property name="Class" value="Rogue/Survivor" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
@@ -146,7 +146,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Weapon. Melee." />
-      <property name="Text" value="Uses (3 charges).η: Fight. You get +1 ή for this attack. As an additional cost to initiate this ability, you may spend 1 charge to empower the blade. If you do, you get +1 ή and deal +1 damage for this attack." />
+      <property name="Text" value="Uses (3 charges).&#10;η: Fight. You get +1 ή for this attack. As an additional cost to initiate this ability, you may spend 1 charge to empower the blade. If you do, you get +1 ή and deal +1 damage for this attack." />
       <property name="Class" value="Mystic/Guardian" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
@@ -179,12 +179,12 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –1 (–3 instead if you are at an Extradimensional location).β: Reveal another chaos token. If you fail, discard the top 3 cards of the encounter deck.γ: –2. If you fail and Nahab is at your location, she attacks you.δ: –3. If you fail, resolve the hunter keyword on each enemy in play." />
+      <property name="Text" value="α: –1 (–3 instead if you are at an Extradimensional location).&#10;β: Reveal another chaos token. If you fail, discard the top 3 cards of the encounter deck.&#10;γ: –2. If you fail and Nahab is at your location, she attacks you.&#10;δ: –3. If you fail, resolve the hunter keyword on each enemy in play." />
       <alternate name="The Secret Name" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –2 (–4 instead if you are at an Extradimensional location).β: Reveal another chaos token. If you fail, discard the top 5 cards of the encounter deck.γ: –3. If you fail and Nahab is in play, she attacks you (regardless of her current location).δ: –4. Resolve the hunter keyword on each enemy in play." />
+        <property name="Text" value="α: –2 (–4 instead if you are at an Extradimensional location).&#10;β: Reveal another chaos token. If you fail, discard the top 5 cards of the encounter deck.&#10;γ: –3. If you fail and Nahab is in play, she attacks you (regardless of her current location).&#10;δ: –4. Resolve the hunter keyword on each enemy in play." />
       </alternate>
     </card>
     <card id="68d761f4-60ae-46cd-9f7a-824b13ee5a55" name="THE HERMIT · IX" size="HorizCard">
@@ -193,13 +193,13 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Subtitle" value="Agenda 1a" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each non-weakness enemy gets +1 health.ι After you defeat Brown Jenkin or Nahab: Gain 1 clue from the token bank (2 clues instead if there are 3 or more investigators in the game)." />
+      <property name="Text" value="Each non-weakness enemy gets +1 health.&#10;ι After you defeat Brown Jenkin or Nahab: Gain 1 clue from the token bank (2 clues instead if there are 3 or more investigators in the game)." />
       <property name="Doom" value="4" />
       <alternate name="Rats in the Walls" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="As you explore the old, dilapidated house, the telltale scratching and scurrying in the walls becomes louder and more frequent. Every now and again a fanged, furry creature darts across the wooden floor, scampering in and out of ratholes in the walls. You wonder if this house is more rat than wood.If Brown Jenkin is in play, search the encounter deck and discard pile for a Swarm of Rats and spawn it in Brown Jenkin’s location. If Brown Jenkin is not in play, search the encounter deck and discard pile for him and spawn it in the lead investigator’s location.Additionally, if there are 3 or 4 investigators in the game, search the encounter deck and discard pile for a Swarm of Rats and spawn it in any Witch House location." />
+        <property name="Text" value="If Brown Jenkin is in play, search the encounter deck and discard pile for a Swarm of Rats and spawn it in Brown Jenkin’s location. If Brown Jenkin is not in play, search the encounter deck and discard pile for him and spawn it in the lead investigator’s location.&#10;Additionally, if there are 3 or 4 investigators in the game, search the encounter deck and discard pile for a Swarm of Rats and spawn it in any Witch House location." />
       </alternate>
     </card>
     <card id="4e77739e-b214-4a6b-b847-2a0817d7793f" name="The Familiar" size="HorizCard">
@@ -208,13 +208,13 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Subtitle" value="Agenda 2a" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each non-weakness enemy gets +2 health.ι After you defeat Brown Jenkin or Nahab: Gain 1 clue from the token bank (2 clues instead if there are 3 or more investigators in the game)." />
+      <property name="Text" value="Each non-weakness enemy gets +2 health.&#10;ι After you defeat Brown Jenkin or Nahab: Gain 1 clue from the token bank (2 clues instead if there are 3 or more investigators in the game)." />
       <property name="Doom" value="6" />
       <alternate name="The Crone" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Subtitle" value="Agenda 2b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="A dizzying violet light emerges from the crevices of the ramshackle house, behind cracks in the wooden paneling and underneath the floor, bathing you from every angle. An inhuman squeal mocks you as a figure emerges from the witch light. Only a hint of humanity remains in her crooked and broken form. The crone cackles with a nightmarish timbre, her voice echoing and resounding from the realm beyond.—If it is act 1, spawn the set-aside Nahab in Walter Gilman’s Room.—If it is act 2, spawn the set-aside Nahab in Keziah’s Room.—If it is act 3, place 1 doom on Nahab.Find Brown Jenkin (even if he is out of play) and place him in Nahab’s current location." />
+        <property name="Text" value="—If it is act 1, spawn the set-aside Nahab in Walter Gilman’s Room.&#10;—If it is act 2, spawn the set-aside Nahab in Keziah’s Room.&#10;—If it is act 3, place 1 doom on Nahab.&#10;Find Brown Jenkin (even if he is out of play) and place him in Nahab’s current location." />
       </alternate>
     </card>
     <card id="b2ca1fb9-e670-45af-b273-deb03b848c4e" name="The Witch Light" size="HorizCard">
@@ -223,13 +223,13 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Subtitle" value="Agenda 3a" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each non-weakness enemy gets +3 health.ι After you defeat Brown Jenkin or Nahab: Gain 1 clue from the token bank (2 clues instead if there are 3 or more investigators in the game)." />
+      <property name="Text" value="Each non-weakness enemy gets +3 health.&#10;ι After you defeat Brown Jenkin or Nahab: Gain 1 clue from the token bank (2 clues instead if there are 3 or more investigators in the game)." />
       <property name="Doom" value="8" />
       <alternate name="An Awakening" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Subtitle" value="Agenda 3b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="A sudden flash of violet light causes you to reel backwards. The spectral form of the crone is broken and shattered, but as you fall you can see a sinister grin play across her misshapen face. A jolt of pain surges through you as your head strikes the surface of the wall, and the witch’s terrible grin is the last thing you see before everything goes black.When you awaken, the witch light is gone, but a vision is burned in your mind—the ancient crone, bent over a slanted floor, leering gleefully at a rotting book, a misshapen knife in her crooked fingers. Behind her, the twilight abyss extends into oblivion, and a gaping maw begins to close.—If it is act 1 or 2, set Nahab aside, out of play, and place 4 doom on agenda 4a as it enters play.—If it is act 3, place 1 doom on Nahab." />
+        <property name="Text" value="—If it is act 1 or 2, set Nahab aside, out of play, and place 4 doom on agenda 4a as it enters play.&#10;—If it is act 3, place 1 doom on Nahab." />
       </alternate>
     </card>
     <card id="53615356-f0c1-4cc2-9ba2-e1fffa146284" name="Marked for Sacrifice" size="HorizCard">
@@ -238,13 +238,13 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Subtitle" value="Agenda 4a" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each non-weakness enemy gets +4 health.ι After you defeat Brown Jenkin or Nahab: Gain 1 clue (from the token bank) (2 clues instead if there are 3 or more investigators in the game)." />
+      <property name="Text" value="Each non-weakness enemy gets +4 health.&#10;ι After you defeat Brown Jenkin or Nahab: Gain 1 clue (from the token bank) (2 clues instead if there are 3 or more investigators in the game)." />
       <property name="Doom" value="8" />
       <alternate name="A Dream in the Witch House" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Subtitle" value="Agenda 4b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="Flashes of vision spark your memory as you are dragged along the dirty wooden floor. A foul ceremony—the house—Nahab—a rhythmic chant—the spiraling black vortex—a dark revelry—the Primal Chaos—a child’s cries—a writhing tunnel inside your chest.(→ R1)" />
+        <property name="Text" value="(→ R1)" />
       </alternate>
     </card>
     <card id="8449d441-eb20-4b6c-94c5-3b9f3700d709" name="Investigating the Witch House" size="HorizCard">
@@ -259,7 +259,7 @@
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Subtitle" value="Act 1b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Standing in a dead man’s room is disconcerting enough, but what you find within is enough to make you want to leave and never return. Walter Gilman’s journal is filled with descriptions of his dreams and visions, each more terrifying and perplexing than the last. He mentions seeing the figure of Keziah Mason on more than one occasion, and at one point calls her by another name: “Nahab.” As soon as you read the name aloud, the nearby window shatters, and an all-too-familiar spectral mist invades the cramped space. When it recedes, everything about the room has changed. A work desk and an aged bookshelf occupy the far corner of Gilman’s room, where his bed should be. The door you entered from is gone. Strange geometrical markings, drawn with a sticky red substance, cover the walls.Swap Walter Gilman’s Room with the set-aside Keziah’s Room, taking its place (all tokens and cards at the former location are now at the new location). Remove each other location in play from the game. Choose an investigator to take control of the set-aside The Black Book asset. Shuffle both set-aside copies of Strange Geometry into the encounter deck." />
+        <property name="Text" value="Swap Walter Gilman’s Room with the set-aside Keziah’s Room, taking its place (all tokens and cards at the former location are now at the new location). Remove each other location in play from the game. Choose an investigator to take control of the set-aside The Black Book asset. Shuffle both set-aside copies of Strange Geometry into the encounter deck." />
       </alternate>
     </card>
     <card id="af8fda52-08c1-4706-98a2-85e9eb31bf4f" name="Beyond the Witch House" size="HorizCard">
@@ -274,7 +274,7 @@
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Searching through the ruins, you find a rotting hole in the slanted ceiling, leading to a closed-off attic. Amidst the debris are crushed and splintered bones, some human and some…not. More of Keziah’s awful tomes are scattered about, filled with pages of dark rituals and black spellcraft. On the floor, a circle has been carved—or perhaps gnawed—into the wood. At the center lies a spatter of dried blood and a jagged knife. What terrible rituals were performed in this profane space? Perhaps there is a way you can know for sure. You take the knife and prick your hand deep enough for blood to well in your palm. Using Keziah’s formulae, you draw a pattern in the circle, and carve a path through time…Put the set-aside Site of the Sacrifice location into play.—If it is agenda 1, 2, or 3, find Nahab (even if she is out of play), place 2 doom on her, and place her at the Site of the Sacrifice.—If it is agenda 4, find Nahab (even if she is out of play) and place her at the Site of the Sacrifice. Move each doom from agenda 4a to Nahab.Find Brown Jenkin (even if he is out of play) and place him in Nahab’s current location." />
+        <property name="Text" value="Put the set-aside Site of the Sacrifice location into play.&#10;—If it is agenda 1, 2, or 3, find Nahab (even if she is out of play), place 2 doom on her, and place her at the Site of the Sacrifice.&#10;—If it is agenda 4, find Nahab (even if she is out of play) and place her at the Site of the Sacrifice. Move each doom from agenda 4a to Nahab.&#10;Find Brown Jenkin (even if he is out of play) and place him in Nahab’s current location." />
       </alternate>
     </card>
     <card id="c6c424f9-f540-4369-9869-1946a55c30dd" name="Stopping the Ritual" size="HorizCard">
@@ -283,12 +283,12 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Subtitle" value="Act 3a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Nahab cannot leave the Site of the Sacrifice.Forced – When Nahab is defeated: Instead of discarding her, heal all damage from her, disengage her from all investigators, and exhaust her. She does not ready during the upkeep phase this round.Objective – If there is no doom on Nahab, advance." />
+      <property name="Text" value="Nahab cannot leave the Site of the Sacrifice.&#10;Forced – When Nahab is defeated: Instead of discarding her, heal all damage from her, disengage her from all investigators, and exhaust her. She does not ready during the upkeep phase this round.&#10;Objective – If there is no doom on Nahab, advance." />
       <alternate name="Ritual Averted" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Subtitle" value="Act 3b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="The ancient crone lets out a banshee’s wail as you dismantle her unholy ritual. The room unfurls through space-time, the cramped, slanted walls unfolding to reveal the oblivion beyond. The creature who was once Keziah Mason croaks a loathsome curse as her shapeless form is pulled into the void. Bit by bit, the wood-paneled flooring below your feet breaks apart. Then you are ripped—the pull from the stars—a muddy alleyway—the flute in the woods—the roaring abyss—the gaze of the watcher—The Tower—a green hillside—the black vortex—the screams of the accused—the piper—three arrows—a sacrifice—a ringing bell—an ascension—and you emerge from the anomaly, crashing painfully onto the floor.(→ R2)" />
+        <property name="Text" value="(→ R2)" />
       </alternate>
     </card>
     <card id="54164db4-ac3b-4b32-92a3-2847729fb7df" name="Moldy Halls" size="EncounterCard">
@@ -316,7 +316,7 @@
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Witch House." />
-        <property name="Text" value="Forced – After you reveal Landlord’s Quarters: Search the encounter deck and discard pile for a Swarm of Rats and spawn it in Mouldy Halls. Shuffle the encounter deck.Haunted – Search the encounter deck and discard pile for a Swarm of Rats and spawn it in Mouldy Halls. Shuffle the encounter deck." />
+        <property name="Text" value="Forced – After you reveal Landlord’s Quarters: Search the encounter deck and discard pile for a Swarm of Rats and spawn it in Mouldy Halls. Shuffle the encounter deck.&#10;Haunted – Search the encounter deck and discard pile for a Swarm of Rats and spawn it in Mouldy Halls. Shuffle the encounter deck." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -331,7 +331,7 @@
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Witch House." />
-        <property name="Text" value="η: Search your deck for a Blessed or Item asset and add it to your hand. (Group limit once per game.)Haunted – You must either take 1 horror, or choose and discard an asset you control." />
+        <property name="Text" value="η: Search your deck for a Blessed or Item asset and add it to your hand. (Group limit once per game.)&#10;Haunted – You must either take 1 horror, or choose and discard an asset you control." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -377,7 +377,7 @@
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral. Witch House." />
-        <property name="Text" value="ι After you successfully investigate Keziah’s Room: Instead of discovering clues, put the top card of the Unknown Places deck into play, unrevealed. Then, you may move to that location.Haunted – Discard cards from the top of the encounter deck until a Hex card is discarded. Draw that card." />
+        <property name="Text" value="ι After you successfully investigate Keziah’s Room: Instead of discovering clues, put the top card of the Unknown Places deck into play, unrevealed. Then, you may move to that location.&#10;Haunted – Discard cards from the top of the encounter deck until a Hex card is discarded. Draw that card." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="0" />
       </alternate>
@@ -440,7 +440,7 @@
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Extradimensional. Witch House." />
-        <property name="Text" value="η: Investigate. If you succeed, instead of discovering clues, heal 2 horror. (Limit once per game.)Haunted – Lose 1 action." />
+        <property name="Text" value="η: Investigate. If you succeed, instead of discovering clues, heal 2 horror. (Limit once per game.)&#10;Haunted – Lose 1 action." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="0" />
       </alternate>
@@ -487,7 +487,7 @@
         <property name="Subtitle" value="A Not-Too-Distant Future" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Extradimensional. Otherworld." />
-        <property name="Text" value="Forced – After you enter Court of the Great Old Ones, test ά (3). For each point you fail by, take 1 horror.Haunted – The next action you perform this round must be an investigate action." />
+        <property name="Text" value="Forced – After you enter Court of the Great Old Ones, test ά (3). For each point you fail by, take 1 horror.&#10;Haunted – The next action you perform this round must be an investigate action." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="2π" />
         <property name="Victory Points" value="1" />
@@ -503,7 +503,7 @@
         <property name="Encounter Set" value="The Secret Name" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Extradimensional. Witch House." />
-        <property name="Text" value="η Investigators at this location spend 1π clues, as a group: Remove 1 doom from Nahab. This action does not provoke attacks of opportunity from Nahab.Forced – At the end of the round: Add clues to this location until it has 3π clues on it.Haunted – You must either place 1 doom on Nahab, or Nahab attacks you." />
+        <property name="Text" value="η Investigators at this location spend 1π clues, as a group: Remove 1 doom from Nahab. This action does not provoke attacks of opportunity from Nahab.&#10;Forced – At the end of the round: Add clues to this location until it has 3π clues on it.Haunted – You must either place 1 doom on Nahab, or Nahab attacks you." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="3π" />
       </alternate>
@@ -514,7 +514,7 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Extradimensional." />
-      <property name="Text" value="Revelation – Put Strange Geometry into play and move to it. Forced  – After the investigation phase ends: Discard Strange Geometry and move each investigator and enemy here to the location with the most clues. Each investigator who moved by this effect takes 1 damage and 1 horror.θ If Strange Geometry has no clues on it: Move to any revealed location." />
+      <property name="Text" value="Revelation – Put Strange Geometry into play and move to it.&#10;Forced – After the investigation phase ends: Discard Strange Geometry and move each investigator and enemy here to the location with the most clues. Each investigator who moved by this effect takes 1 damage and 1 horror.&#10;θ If Strange Geometry has no clues on it: Move to any revealed location." />
       <property name="Shroud" value="4" />
       <property name="Clues" value="1" />
     </card>
@@ -548,7 +548,7 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Hex." />
-      <property name="Text" value="Revelation – Put Pulled by the Stars into play in your threat area.Forced – At the end of your turn, if you did not move at least once during your turn: Take 2 horror.η: Test ά (3). If you succeed, discard Pulled by the Stars from play. If there is an exhausted Witch enemy at your location, this test is automatically successful." />
+      <property name="Text" value="Revelation – Put Pulled by the Stars into play in your threat area.&#10;Forced – At the end of your turn, if you did not move at least once during your turn: Take 2 horror.η: Test ά (3). If you succeed, discard Pulled by the Stars from play. If there is an exhausted Witch enemy at your location, this test is automatically successful." />
     </card>
     <card id="5039b791-2c6c-444e-a866-fa11a6e4ed1e" name="Disquieting Dreams" size="EncounterCard">
       <property name="Card Number" value="147" />
@@ -556,7 +556,7 @@
       <property name="Encounter Set" value="The Secret Name" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Terror." />
-      <property name="Text" value="Revelation – Test ά (5). If you fail, put Disquieting Dreams into play in your threat area.Forced – At the end of your turn: Discard the top card of the encounter deck.Forced – When the encounter deck runs out of cards: Discard Disquieting Dreams and reveal the top 10 cards of your deck. Draw each weakness revealed and discard each other revealed card." />
+      <property name="Text" value="Revelation – Test ά (5). If you fail, put Disquieting Dreams into play in your threat area.Forced – At the end of your turn: Discard the top card of the encounter deck.&#10;Forced – When the encounter deck runs out of cards: Discard Disquieting Dreams and reveal the top 10 cards of your deck. Draw each weakness revealed and discard each other revealed card." />
     </card>
     <card id="254213cb-2db4-4dd5-b74e-a2dee3b8d711" name="Brown Jenkin" size="EncounterCard">
       <property name="Card Number" value="148" />
@@ -565,7 +565,7 @@
       <property name="Subtitle" value="The Witch's Familiar" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Familiar. Elite." />
-      <property name="Text" value="Aloof. Hunter.Each ready Creature enemy gets +2 fight.Forced – When the enemy phase ends, if Brown Jenkin is ready: Each investigator at his location discards his or her hand, then draws that many cards." />
+      <property name="Text" value="Aloof. Hunter.&#10;Each ready Creature enemy gets +2 fight.&#10;Forced – When the enemy phase ends, if Brown Jenkin is ready: Each investigator at his location discards his or her hand, then draws that many cards." />
       <property name="Health" value="1" />
       <property name="Combat" value="1" />
       <property name="Agility" value="4" />
@@ -580,7 +580,7 @@
       <property name="Subtitle" value="She Who Signed the Black Book" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Geist. Witch. Elite." />
-      <property name="Text" value="Hunter. Retaliate.Do not remove doom from Nahab when the agenda advances.Nahab gets +X fight, where X is the number of the current agenda.Forced – After the enemy phase begins, if Nahab is ready: Place 1 doom on her." />
+      <property name="Text" value="Hunter. Retaliate.&#10;Do not remove doom from Nahab when the agenda advances.Nahab gets +X fight, where X is the number of the current agenda.&#10;Forced – After the enemy phase begins, if Nahab is ready: Place 1 doom on her." />
       <property name="Health" value="1π" />
       <property name="Combat" value="1" />
       <property name="Agility" value="3" />

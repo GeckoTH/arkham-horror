@@ -6,7 +6,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
-      <property name="Text" value="Uses (5 ammo).Ammo spent from .45 Thompson is placed in your resource pool, as resources.η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
+      <property name="Text" value="Uses (5 ammo).&#10;Ammo spent from .45 Thompson is placed in your resource pool, as resources.&#10;η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="3" />
       <property name="Cost" value="6" />
@@ -22,7 +22,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
-      <property name="Text" value="Uses (5 ammo).η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack. If you succeed by at least X, you may spend 1 ammo to deal this attack’s damage to another enemy at your location, where X is that enemy’s fight value." />
+      <property name="Text" value="Uses (5 ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack. If you succeed by at least X, you may spend 1 ammo to deal this attack’s damage to another enemy at your location, where X is that enemy’s fight value." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="3" />
       <property name="Cost" value="5" />
@@ -38,7 +38,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome." />
-      <property name="Text" value="Uses (3 secrets).η Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom 3 cards of any investigator's deck or the encounter deck. You may discard 1 of those cards. You may add 1 of those cards to its owner’s hand. Place the rest of those cards on either the top or bottom of their deck, in any order." />
+      <property name="Text" value="Uses (3 secrets).&#10;η Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom 3 cards of any investigator's deck or the encounter deck. You may discard 1 of those cards. You may add 1 of those cards to its owner’s hand. Place the rest of those cards on either the top or bottom of their deck, in any order." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="3" />
       <property name="Cost" value="1" />
@@ -54,7 +54,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome." />
-      <property name="Text" value="Uses (4 secrets).η Exhaust Scroll of Secrets and spend 1 secret: Look at the top or bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner’s hand, place it on the bottom of its deck, or place it on top of its deck." />
+      <property name="Text" value="Uses (4 secrets).&#10;η Exhaust Scroll of Secrets and spend 1 secret: Look at the top or bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner’s hand, place it on the bottom of its deck, or place it on top of its deck." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="3" />
       <property name="Cost" value="1" />
@@ -70,7 +70,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Illicit." />
-      <property name="Text" value="Fast. Uses (2 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +3 ά for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 ή and deal +1 damage for this attack." />
+      <property name="Text" value="Fast. Uses (2 supplies).&#10;θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +3 ά for a skill test on a treachery card.&#10;η Discard Tennessee Sour Mash: Fight. You get +3 ή and deal +1 damage for this attack." />
       <property name="Class" value="Rogue" />
       <property name="Level" value="3" />
       <property name="Cost" value="3" />
@@ -85,7 +85,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Illicit." />
-      <property name="Text" value="Uses (3 supplies).θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 ά for a skill test on a treachery card.η Discard Tennessee Sour Mash: Fight. You get +3 ή for this attack. If this attack succeeds against a non-Elite enemy, automatically evade it." />
+      <property name="Text" value="Uses (3 supplies).&#10;θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 ά for a skill test on a treachery card.&#10;η Discard Tennessee Sour Mash: Fight. You get +3 ή for this attack. If this attack succeeds against a non-Elite enemy, automatically evade it." />
       <property name="Class" value="Survivor" />
       <property name="Level" value="3" />
       <property name="Cost" value="2" />
@@ -100,7 +100,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Weapon. Melee." />
-      <property name="Text" value="Uses (3 charges).η: Fight. You get +2 ή for this attack. If you succeed, you may spend 1 charge to empower the blade, dealing +1 damage for this attack. If the blade is empowered and this attack defeats an enemy, draw 1 card and heal 1 horror." />
+      <property name="Text" value="Uses (3 charges).&#10;η: Fight. You get +2 ή for this attack. If you succeed, you may spend 1 charge to empower the blade, dealing +1 damage for this attack. If the blade is empowered and this attack defeats an enemy, draw 1 card and heal 1 horror." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="3" />
       <property name="Cost" value="3" />
@@ -116,7 +116,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Weapon. Melee." />
-      <property name="Text" value="Uses (4 charges).η: Fight. You get +2 ή for this attack. As an additional cost to use this ability, you may spend up to 2 charges to empower the blade (for each charge spent in this way, you get +1 ή and deal +1 damage for this attack)." />
+      <property name="Text" value="Uses (4 charges).&#10;η: Fight. You get +2 ή for this attack. As an additional cost to use this ability, you may spend up to 2 charges to empower the blade (for each charge spent in this way, you get +1 ή and deal +1 damage for this attack)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="3" />
       <property name="Cost" value="3" />
@@ -164,7 +164,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
-      <property name="Text" value="Uses (1π locks). If there are no locks on The Council’s Coffer, each investigator searches his or her deck or discard pile for any card and immediately plays it at no cost. Exile The Council’s Coffer. (Max once per campaign.)η η: Test any skill (5). If you succeed, remove 1 lock. Any investigator at your location may activate this ability.Card design by The Council at Arkham Nights 2017." />
+      <property name="Text" value="Uses (1π locks).&#10;If there are no locks on The Council’s Coffer, each investigator searches his or her deck or discard pile for any card and immediately plays it at no cost. Exile The Council’s Coffer. (Max once per campaign.)&#10;η η: Test any skill (5). If you succeed, remove 1 lock. Any investigator at your location may activate this ability.&#10;Card design by The Council at Arkham Nights 2017." />
       <property name="Class" value="Neutral" />
       <property name="Level" value="2" />
       <property name="Cost" value="0" />
@@ -180,12 +180,12 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –X. X is the highest number of doom on a Cultist enemy in play.β: –2. Reveal another token.γ: –3. If you fail, place 1 doom on the nearest Cultist enemy.δ: –3. If you fail, move 1 doom from the nearest Cultist enemy to the current agenda." />
+      <property name="Text" value="α: –X. X is the highest number of doom on a Cultist enemy in play.&#10;β: –2. Reveal another token.&#10;γ: –3. If you fail, place 1 doom on the nearest Cultist enemy.&#10;δ: –3. If you fail, move 1 doom from the nearest Cultist enemy to the current agenda." />
       <property name="Level" value="1" />
       <alternate name="For the Greater Good" size="EncounterCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –X. X is the total number of doom among Cultist enemies in play.β: –2. Reveal another token.γ: –3. If you fail, place 1 doom on each Cultist enemy in play. If there are no Cultist enemies in play, reveal another token.δ: –3. If you fail, move all doom from the Cultist enemy with the most doom on it to the current agenda. If no Cultist enemies in play have doom on them, reveal another token." />
+        <property name="Text" value="α: –X. X is the total number of doom among Cultist enemies in play.&#10;β: –2. Reveal another token.&#10;γ: –3. If you fail, place 1 doom on each Cultist enemy in play. If there are no Cultist enemies in play, reveal another token.&#10;δ: –3. If you fail, move all doom from the Cultist enemy with the most doom on it to the current agenda. If no Cultist enemies in play have doom on them, reveal another token." />
         <property name="Level" value="1" />
       </alternate>
     </card>
@@ -200,7 +200,7 @@
       <alternate name="Meeting of Minds" size="HorizCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="As you explore the building, you almost wander into a heated debate between several members of the Lodge in a nearby hallway. Seeing an opportunity to learn more, you hide and eavesdrop on the conversation. “Mr. Sanford’s orders are to complete the geist-trap at any cost,” one of them says firmly. “If that means we must put lives in danger, so be it. The good of the many outweigh the good of the few; you know this.”Another member, a woman, pounds her fist on the wall. “No! Our first resort cannot be to spill blood. There must be another way.”“There is no time,” the other responds, and there is a murmur of agreement among the rest. “It is clear you do not have the will to proceed. Take her away. We will make her see for herself the sacrifices that must be made for the greater good.”“No! You can’t do this!” the woman yells. You wince as her screams echo down the corridor. What are they planning to do?Discard the top 5 cards of the encounter deck. In player order, each investigator must draw a Cultist enemy discarded in this way." />
+        <property name="Text" value="Discard the top 5 cards of the encounter deck. In player order, each investigator must draw a Cultist enemy discarded in this way." />
         <property name="Level" value="2" />
       </alternate>
     </card>
@@ -209,7 +209,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Agenda" />
-      <property name="Text" value="Each Silver Twilight enemy in a Sanctum location loses aloof.Forced – When you defeat a Silver Twilight enemy: You leave behind some evidence of the scuffle. Move 1 doom from each enemy at that location to the current agenda." />
+      <property name="Text" value="Each Silver Twilight enemy in a Sanctum location loses aloof.&#10;Forced – When you defeat a Silver Twilight enemy: You leave behind some evidence of the scuffle. Move 1 doom from each enemy at that location to the current agenda." />
       <property name="Level" value="1" />
       <property name="Doom" value="10" />
       <alternate name="The Greater Good" size="HorizCard" type="B">
@@ -229,7 +229,7 @@
       <alternate name="The Initiation" size="HorizCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
         <property name="Type" value="Act" />
-        <property name="Text" value="“Ah, it’s you.” You are approached by a member of the Lodge whom you recognize: one of Carl Sanford’s bodyguards from your previous meeting with the president. “I regret to inform you that Mr. Sanford and the other members of the Lodge are busy with an important task at the moment. I would suggest you come back at a later time.” You tell the man that your task is important, and offer to help in return for a meeting with Mr. Sanford. He considers you for a moment, then nods. “All right. We are attempting to open a device which we believe will help us bind the revenant you encountered earlier. You’ll want to speak with Nathan Wick if you want to help. You can find him in the library upstairs.” You thank him and turn to leave, but he grabs your arm and stops you, adding one final warning: “You should know that we intend to open this device at any cost. If you cannot stomach the consequences, once again, I suggest you leave.”If the Library is not in play, put it into play.Spawn the set-aside Nathan Wick enemy in the Library, (Master of Initiation) side faceup. Attach the set-aside Puzzle Box story asset to him." />
+        <property name="Text" value="If the Library is not in play, put it into play.&#10;Spawn the set-aside Nathan Wick enemy in the Library, (Master of Initiation) side faceup. Attach the set-aside Puzzle Box story asset to him." />
         <property name="Level" value="1" />
       </alternate>
     </card>
@@ -244,7 +244,7 @@
       <alternate name="The Indoctrination" size="HorizCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
         <property name="Type" value="Act" />
-        <property name="Text" value="At first, your investigation yields few answers. There is indeed a meeting of some sort happening at the manor tonight, though you’re not sure why. Finally, you catch a break. On a nearby table, a written summons explains the reason for tonight’s gathering:“Our timetable has moved forward. We must complete the trap by midnight tonight. The device we found will aid us in binding the revenant, so it is imperative that we find a way to open it before the ceremony begins. We have no time to waste with prudence or cowardice. Report to Nathan Wick in the sanctum at once.”You are left with more questions than answers.If the Inner Sanctum is not in play, put it into play.Spawn the set-aside Nathan Wick enemy in the Inner Sanctum, (Master of Indoctrination) side faceup. Attach the set-aside Puzzle Box story asset to him.For the remainder of the game, the current act gains “ι After you evade an enemy: Remove all doom from it.” Place this card next to the act deck as a reminder, then advance to act 2a." />
+        <property name="Text" value="If the Inner Sanctum is not in play, put it into play.&#10;Spawn the set-aside Nathan Wick enemy in the Inner Sanctum, (Master of Indoctrination) side faceup. Attach the set-aside Puzzle Box story asset to him.&#10;For the remainder of the game, the current act gains “ι After you evade an enemy: Remove all doom from it.” Place this card next to the act deck as a reminder, then advance to act 2a." />
         <property name="Level" value="2" />
       </alternate>
     </card>
@@ -258,7 +258,7 @@
       <alternate name="The Puzzle Box" size="HorizCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
         <property name="Type" value="Act" />
-        <property name="Text" value="If you advanced by defeating Nathan Wick:You quickly pry the device from Nathan’s hands and flee before you are noticed.If you advanced by evading Nathan Wick:You wait until Nathan is not looking, then sweep in and steal the device from the table next to him. You are long gone by the time he realizes it is missing.If you advanced by parleying with Nathan Wick:“All right, listen,” Nathan explains quietly. “Truth is, there probably is a safer way for us to open the device. This building holds many secrets; more than you could possibly know. But time is running thin, and Mr. Sanford wants it open by midnight. If you can open it before then, great. If not, well... If I were you, I wouldn’t be around it when we try to force it open.” He hands you the device and walks away, leaving you in silence." />
+        <property name="Text" value="" />
         <property name="Level" value="3" />
       </alternate>
     </card>
@@ -271,7 +271,7 @@
       <alternate name="Opening the Box" size="HorizCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Though the box itself seems to fight you at every turn, with all four key components in your possession, you finally manage to piece together how to open the contraption. First, you twist and contort the box’s many mechanical devices until the image on its lid lines up perfectly with the diagram in your possession (γ). Next, you chant the Latin incantation inscribed on the small wooden plaque you found (β). It takes a few tries to get it right, but eventually you hear a click as the surface of the wooden container shifts and changes. A round indentation has appeared on the side of the box, matching the size of your mysterious black onyx coin (δ). As soon as you place the coin inside, another wooden panel opens on the other side, revealing a keyhole. Finally, you insert the key of bone (α) into the keyhole and turn it. The lid begins to open, and suddenly the entirety of the room is engulfed in a rush of air as all light, color, sound, and matter is sucked into the box.Check Campaign Log. —If you are honorary members of the Lodge, (-&gt;R1).—If you are enemies of the Lodge, (-&gt;R2)." />
+        <property name="Text" value="Check Campaign Log.&#10;—If you are honorary members of the Lodge, (-&gt;R1).&#10;—If you are enemies of the Lodge, (-&gt;R2)." />
       </alternate>
     </card>
     <card id="2cb4bbdf-869a-41a2-9e07-8f56caafbc56" name="Lodge Gates" size="EncounterCard">
@@ -315,7 +315,7 @@
       <property name="Subtitle" value="We've Been Expecting You" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Lodge." />
-      <property name="Text" value="The entrance to the Silver Twilight Lodge is guarded. You cannot enter the Lobby.Lodge Gates gains: “η: Parley. The guards recognize you from the Meiger estate and let you pass. Reveal the Lobby.”" />
+      <property name="Text" value="The entrance to the Silver Twilight Lodge is guarded. You cannot enter the Lobby.&#10;Lodge Gates gains: “η: Parley. The guards recognize you from the Meiger estate and let you pass. Reveal the Lobby.”" />
       <alternate name="Lobby" size="EncounterCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
         <property name="Subtitle" value="We've Been Expecting You" />
@@ -366,7 +366,7 @@
       <property name="Subtitle" value="Members Only" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Lodge." />
-      <property name="Text" value="The rear entrance to the Silver Twilight Lodge is hidden. You cannot enter the Lodge Cellar.Lodge Gates gains: “η Investigators at the Lodge Gates spend 1π clues, as a group: Reveal the Lodge Cellar.&quot;" />
+      <property name="Text" value="The rear entrance to the Silver Twilight Lodge is hidden. You cannot enter the Lodge Cellar.&#10;Lodge Gates gains: “η Investigators at the Lodge Gates spend 1π clues, as a group: Reveal the Lodge Cellar.”" />
       <alternate name="Lodge Cellar" size="EncounterCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
         <property name="Subtitle" value="Members Only" />
@@ -497,7 +497,7 @@
       <property name="Subtitle" value="Master of Initiation" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight. Elite." />
-      <property name="Text" value="Retaliate.η: Parley. Test ά (3) to persuade Nathan to let you find another option. If you succeed, place 1 resource on Nathan Wick. Then, if there are 1π resources on him, add him to the victory display. If you fail, Nathan Wick attacks you." />
+      <property name="Text" value="Retaliate.&#10;η: Parley. Test ά (3) to persuade Nathan to let you find another option. If you succeed, place 1 resource on Nathan Wick. Then, if there are 1π resources on him, add him to the victory display. If you fail, Nathan Wick attacks you." />
       <property name="Health" value="5" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -510,7 +510,7 @@
         <property name="Subtitle" value="Master of Indoctrination" />
         <property name="Type" value="Enemy" />
         <property name="Traits" value="Humanoid. Cultist. Silver Twilight. Elite." />
-        <property name="Text" value="Alert.Forced – After you evade Nathan Wick by 3 or more: You steal the puzzle box. Add Nathan Wick to the victory display." />
+        <property name="Text" value="Alert.&#10;Forced – After you evade Nathan Wick by 3 or more: You steal the puzzle box. Add Nathan Wick to the victory display." />
         <property name="Health" value="5" />
         <property name="Damage" value="1" />
         <property name="Horror" value="1" />
@@ -523,7 +523,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
-      <property name="Text" value="Spawn – Any Sanctum location.Aloof.Forced – After Lodge Jailor enters play: Place 2 doom and 1 random set-aside key on it.η: Parley. Test έ (3). If you succeed, either remove 1 doom from Lodge Jailor, or take control of its key." />
+      <property name="Text" value="Spawn – Any Sanctum location.&#10;Aloof.&#10;Forced – After Lodge Jailor enters play: Place 2 doom and 1 random set-aside key on it.η: Parley. Test έ (3). If you succeed, either remove 1 doom from Lodge Jailor, or take control of its key." />
       <property name="Health" value="3" />
       <property name="Combat" value="2" />
       <property name="Agility" value="3" />
@@ -535,7 +535,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
-      <property name="Text" value="Spawn – Any Sanctum location.Alert.Forced – After Cell Keeper enters play: Place 2 doom and 1 random set-aside key on it.Forced – When you evade Cell Keeper by 2 or more: Take control of its key." />
+      <property name="Text" value="Spawn – Any Sanctum location.&#10;Alert.&#10;Forced – After Cell Keeper enters play: Place 2 doom and 1 random set-aside key on it.&#10;Forced – When you evade Cell Keeper by 2 or more: Take control of its key." />
       <property name="Health" value="3" />
       <property name="Combat" value="3" />
       <property name="Agility" value="2" />
@@ -548,7 +548,7 @@
       <property name="Subtitle" value="Guardian of the Trap" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Silver Twilight. Elite." />
-      <property name="Text" value="Retaliate. Hunter.Summoned Beast gets +1 fight, +1 evade, +1 damage, and +1 horror for every 2 doom in play.Forced – At the start of the enemy phase: Summoned Beast defeats each Humanoid enemy at its location. Move all doom from each of those enemies to Summoned Beast.Objective – If the Summoned Beast is defeated, (→R3)" />
+      <property name="Text" value="Retaliate. Hunter.&#10;Summoned Beast gets +1 fight, +1 evade, +1 damage, and +1 horror for every 2 doom in play.&#10;Forced – At the start of the enemy phase: Summoned Beast defeats each Humanoid enemy at its location. Move all doom from each of those enemies to Summoned Beast.&#10;Objective – If the Summoned Beast is defeated, (→R3)" />
       <property name="Health" value="6π" />
       <property name="Combat" value="5" />
       <property name="Agility" value="2" />
@@ -562,7 +562,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
-      <property name="Text" value="Spawn – Any location connected to yours.Prey – Most (α/β/γ/δ) keys controlled.Alert. Aloof. Hunter.Forced – After you enter Knight of the Inner Circle’s location (or vice-versa): Test ί (4). If you fail, Knight of the Inner Circle engages you." />
+      <property name="Text" value="Spawn – Any location connected to yours.Prey – Most (α/β/γ/δ) keys controlled.&#10;Alert. Aloof. Hunter.&#10;Forced – After you enter Knight of the Inner Circle’s location (or vice-versa): Test ί (4). If you fail, Knight of the Inner Circle engages you." />
       <property name="Health" value="4" />
       <property name="Combat" value="4" />
       <property name="Agility" value="2" />
@@ -574,7 +574,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
-      <property name="Text" value="Spawn – Any location connected to yours.Aloof. Peril. Retaliate.Revelation – After Knight of the Outer Void spawns, place either 1 or 2 doom on it.η: Parley. Test ά or έ (4). If you succeed, take control of 1 doom on Knight of the Outer Void, and flip it to its clue side. If you fail, Knight of the Outer Void attacks you." />
+      <property name="Text" value="Spawn – Any location connected to yours.&#10;Aloof. Peril. Retaliate.&#10;Revelation – After Knight of the Outer Void spawns, place either 1 or 2 doom on it.&#10;η: Parley. Test ά or έ (4). If you succeed, take control of 1 doom on Knight of the Outer Void, and flip it to its clue side. If you fail, Knight of the Outer Void attacks you." />
       <property name="Health" value="3" />
       <property name="Combat" value="3" />
       <property name="Agility" value="4" />
@@ -603,7 +603,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Scheme." />
-      <property name="Text" value="If you control at least 1 (α/β/γ/δ) key, Beneath the Lodge gains peril and its skill test gets +1 difficulty.Revelation – Test έ (3). For each point you fail by, you must either lose 1 clue or take 1 horror." />
+      <property name="Text" value="If you control at least 1 (α/β/γ/δ) key, Beneath the Lodge gains peril and its skill test gets +1 difficulty.&#10;Revelation – Test έ (3). For each point you fail by, you must either lose 1 clue or take 1 horror." />
     </card>
     <card id="16a55402-d8cc-4d8a-ac73-11301f6ec9c3" name="Mark of the Order" size="EncounterCard">
       <property name="Card Number" value="226" />
@@ -611,7 +611,7 @@
       <property name="Encounter Set" value="For the Greater Good" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Scheme." />
-      <property name="Text" value="Surge.Revelation – Check which investigator controls each key. Otherwise, the investigator who controls:–the α key takes 1 damage.–the β key takes 1 horror.–the γ key discards 2 random cards from hand.–the δ key loses 3 resources." />
+      <property name="Text" value="Surge.Revelation – Check which investigator controls each key. Otherwise, the investigator who controls:&#10;–the α key takes 1 damage.&#10;–the β key takes 1 horror.&#10;–the γ key discards 2 random cards from hand.&#10;–the δ key loses 3 resources." />
     </card>
     <card id="5244c3f2-2039-4f6d-a49d-a00eb4c9b370" name="August Lindquist" size="EncounterCard">
       <property name="Card Number" value="227" />
@@ -637,7 +637,7 @@
       <property name="Subtitle" value="Mysterious Device" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
-      <property name="Text" value="Forced – When you are defeated: Give control of the Puzzle Box to another investigator.η: Unlight a brazier at your location, exhaust The Spectral Watcher, or deal 5 damage to The Spectral Watcher if it is exhausted. This action does not provoke attacks of opportunity from The Spectral Watcher. (Group limit once per game.)" />
+      <property name="Text" value="Forced – When you are defeated: Give control of the Puzzle Box to another investigator.&#10;η: Unlight a brazier at your location, exhaust The Spectral Watcher, or deal 5 damage to The Spectral Watcher if it is exhausted. This action does not provoke attacks of opportunity from The Spectral Watcher. (Group limit once per game.)" />
       <property name="Level" value="0" />
       <property name="Cost" value="0" />
       <property name="Willpower" value="0" />

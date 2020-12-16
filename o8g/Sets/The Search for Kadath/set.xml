@@ -6,7 +6,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
       <property name="Traits" value="Tactic." />
-      <property name="Text" value="Fast. Play when the “draw encounter cards” step of the mythos phase would begin.Instead of performing that step, look at the top X cards of the encounter deck, where X is the number of investigators. Deal those cards among the investigators as you wish, dealing no more than 1 card to each investigator other than yourself. Then, one at a time, each investigator draws the card(s) dealt to them." />
+      <property name="Text" value="Fast. Play when the “draw encounter cards” step of the mythos phase would begin.&#10;Instead of performing that step, look at the top X cards of the encounter deck, where X is the number of investigators. Deal those cards among the investigators as you wish, dealing no more than 1 card to each investigator other than yourself. Then, one at a time, each investigator draws the card(s) dealt to them." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="0" />
       <property name="Cost" value="1" />
@@ -36,7 +36,7 @@
       <property name="Subtitle" value="Untranslated" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome. Charm." />
-      <property name="Text" value="η: Search your bonded cards for Essence of the Dream and add it to your hand.ι After you succeed by 3 or more during a skill test to which Essence of the Dream is committed: Record in your Campaign Log that “you have interpreted the dreams.”" />
+      <property name="Text" value="η: Search your bonded cards for Essence of the Dream and add it to your hand.&#10;ι After you succeed by 3 or more during a skill test to which Essence of the Dream is committed: Record in your Campaign Log that “you have interpreted the dreams.”" />
       <property name="Class" value="Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
@@ -52,7 +52,7 @@
       <property name="Quantity" value="1" />
       <property name="Type" value="Skill" />
       <property name="Traits" value="Practiced. Expert." />
-      <property name="Text" value="Bonded (Dream Diary).When Essence of the Dream would enter your discard pile or be shuffled into your deck, instead set Essence of the Dream aside, out of play (with your bonded cards)." />
+      <property name="Text" value="Bonded (Dream Diary).&#10;When Essence of the Dream would enter your discard pile or be shuffled into your deck, instead set Essence of the Dream aside, out of play (with your bonded cards)." />
       <property name="Class" value="Seeker" />
       <property name="Level" value="0" />
       <property name="Willpower" value="0" />
@@ -95,7 +95,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome." />
-      <property name="Text" value="Uses (4 secrets).η Spend 1 secret: Choose an investigator at your location. That investigator draws 3 cards, then discards 1 card from their hand." />
+      <property name="Text" value="Uses (4 secrets).&#10;η Spend 1 secret: Choose an investigator at your location. That investigator draws 3 cards, then discards 1 card from their hand." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
@@ -127,7 +127,7 @@
       <property name="Subtitle" value="Wrong Place, Wrong Time" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Wayfarer. Cursed." />
-      <property name="Text" value="You get +1 ή.Jessica Hyde enters play with 2 damage on her.ι After your turn ends: Heal 1 damage from Jessica Hyde." />
+      <property name="Text" value="You get +1 ή.&#10;Jessica Hyde enters play with 2 damage on her.&#10;ι After your turn ends: Heal 1 damage from Jessica Hyde." />
       <property name="Health" value="3" />
       <property name="Sanity" value="1" />
       <property name="Class" value="Survivor" />
@@ -146,11 +146,11 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α : –X. X is the number of Signs of the Gods the investigators have uncovered.β: Reveal another token. If this token is revealed during an investigation and this skill test fails, increase this location’s shroud by 1 for the remainder of the round.γ: –2. If you fail, either take 1 damage and 1 horror, or place 1 doom on the current agenda.δ: +2. The black cat points you in the right direction. If this token is revealed during an investigation and you succeed, discover 1 additional clue." />
+      <property name="Text" value="α : –X. X is the number of Signs of the Gods the investigators have uncovered.&#10;β: Reveal another token. If this token is revealed during an investigation and this skill test fails, increase this location’s shroud by 1 for the remainder of the round.&#10;γ: –2. If you fail, either take 1 damage and 1 horror, or place 1 doom on the current agenda.&#10;δ: +2. The black cat points you in the right direction. If this token is revealed during an investigation and you succeed, discover 1 additional clue." />
       <alternate name="The Search for Kadath" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α : –X. X is 1 more than the number of Signs of the Gods the investigators have uncovered.β: Reveal another token. If this token is revealed during an investigation and this skill test fails, increase this location’s shroud by 2 for the remainder of the round.γ: –3. If you fail, either take 1 damage and 1 horror, or place 1 doom on the current agenda.δ: +1. The black cat points you in the right direction. If this token is revealed during an investigation and you succeed, discover 1 additional clue." />
+        <property name="Text" value="α : –X. X is 1 more than the number of Signs of the Gods the investigators have uncovered.&#10;β: Reveal another token. If this token is revealed during an investigation and this skill test fails, increase this location’s shroud by 2 for the remainder of the round.&#10;γ: –3. If you fail, either take 1 damage and 1 horror, or place 1 doom on the current agenda.&#10;δ: +1. The black cat points you in the right direction. If this token is revealed during an investigation and you succeed, discover 1 additional clue." />
       </alternate>
     </card>
     <card id="0fc565c2-467d-4419-9858-fa968ba5679f" name="Journey Across the Dreamlands" size="HorizCard">
@@ -165,7 +165,7 @@
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="Months have passed since you first set forth from Ulthar. Along the way, you have seen many fabulous places and met many strange and interesting people. Some have been helpful, giving you sage advice or pointing you in the right direction. Most, however, have regarded you with suspicion and wariness. Perhaps it is because you are a dreamer from the outside world, or perhaps it is because you are foolish and accursed enough to seek the forbidden places of the Dreamlands. But it is the Corsairs who truly frighten you. Throughout your travels, you spot them pursuing you time and time again. “Men of Leng,” the inhabitants of the Dreamlands call them: satyr-like creatures with hooves instead of feet and great curved horns protruding from their foreheads. They sail on long, black galleys with black sails. You know not why they hunt for you relentlessly,  and you are not keen to find out.Shuffle both set-aside Corsair of Leng enemies into the encounter deck, along with the encounter discard pile." />
+        <property name="Text" value="Shuffle both set-aside Corsair of Leng enemies into the encounter deck, along with the encounter discard pile." />
       </alternate>
     </card>
     <card id="a01bee27-052a-4523-ad68-7c241ca16713" name="Agents of the Outer Gods" size="HorizCard">
@@ -180,7 +180,7 @@
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Subtitle" value="Agenda 2b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="You have evaded the Corsairs for weeks since their pursuit began. Each time they appear, you are able to slip through their grasp, but the noose grows tighter and tighter with each escape. Even so, you persist in the hope you can find Kadath before your luck runs out.However, even with all of the information you have uncovered, Kadath eludes you still, and the Corsairs are hot on your trail. You try to make your way to safety, but you have underestimated the lengths these creatures will go to in order to capture you. They have cut off all of your escape routes and have taken away all of your safe havens. There is nowhere left for you to run. Like pack hunters, they surround you…Each surviving investigator is defeated." />
+        <property name="Text" value="Each surviving investigator is defeated." />
       </alternate>
     </card>
     <card id="422b059a-35e0-4257-923d-61087631a057" name="Kingdom of the Skai" size="HorizCard">
@@ -195,7 +195,7 @@
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Subtitle" value="Act 1b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="You find a captain willing to grant you passage to the remote regions of the Dreamlands, wherein you may find signs from the gods to point you in the direction of Kadath.Search the encounter deck, discard pile, and all play areas for Cats of Ulthar, each Pack of Vooniths, and each card from the Zoogs encounter set, and remove them from the game. Shuffle each set-aside copy of Priest of a Thousand Masks into the encounter deck, along with the encounter discard pile.The investigators must decide (choose one):–Visit the isle of Oriab to the south. Resolve Oriab Setup in the Campaign Guide.–Visit the ancient land of Mnar to the west. Resolve Mnar Setup in the Campaign Guide.–Visit the Forbidden Lands to the north. Resolve Forbidden Lands Setup in the Campaign Guide.–Visit the kingdom of the Timeless Realm to the east. Resolve Timeless Realm Setup in the Campaign Guide." />
+        <property name="Text" value="Search the encounter deck, discard pile, and all play areas for Cats of Ulthar, each Pack of Vooniths, and each card from the Zoogs encounter set, and remove them from the game. Shuffle each set-aside copy of Priest of a Thousand Masks into the encounter deck, along with the encounter discard pile.&#10;The investigators must decide (choose one):&#10;–Visit the isle of Oriab to the south. Resolve Oriab Setup in the Campaign Guide.&#10;–Visit the ancient land of Mnar to the west. Resolve Mnar Setup in the Campaign Guide.&#10;–Visit the Forbidden Lands to the north. Resolve Forbidden Lands Setup in the Campaign Guide.&#10;–Visit the kingdom of the Timeless Realm to the east. Resolve Timeless Realm Setup in the Campaign Guide." />
       </alternate>
     </card>
     <card id="7cf72091-5047-40b5-8f10-3b7ef7d84db8" name="The Isle of Oriab" size="HorizCard">
@@ -204,13 +204,13 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Objective – Find and uncover as many Signs of the Gods in this region as you can. At the end of the round, if each investigator is at the same Port location, you may move to another region by advancing this act.Objective – If the investigators have unveiled 10 Signs of the Gods, proceed to (-&gt;R1)." />
+      <property name="Text" value="Objective – Find and uncover as many Signs of the Gods in this region as you can. At the end of the round, if each investigator is at the same Port location, you may move to another region by advancing this act.&#10;Objective – If the investigators have unveiled 10 Signs of the Gods, proceed to (-&gt;R1)." />
       <property name="Clues" value="–" />
       <alternate name="Where to?" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="As you board your ship once again, you find the crew loading barrels of trade goods: furs, ore, exotic spices, and the like. “We’ll make a killing with these back on the mainland,” the captain says, clapping your shoulder. “Hope you found what you were looking for, too. Where do you want to head next?”Shuffle the encounter discard pile into the encounter deck.The investigators must decide (choose one). You cannot choose a place you have already visited. If you have already visited each of the listed areas, proceed to (-&gt;R1).–Visit the ancient land of Mnar to the west. Resolve Mnar Setup in the Campaign Guide.–Visit the Forbidden Lands to the north. Resolve Forbidden Lands Setup in the Campaign Guide.–Visit the kingdom of the Timeless Realm to the east. Resolve Timeless Realm Setup in the Campaign Guide." />
+        <property name="Text" value="Shuffle the encounter discard pile into the encounter deck.&#10;The investigators must decide (choose one). You cannot choose a place you have already visited. If you have already visited each of the listed areas, proceed to (-&gt;R1).&#10;–Visit the ancient land of Mnar to the west. Resolve Mnar Setup in the Campaign Guide.&#10;–Visit the Forbidden Lands to the north. Resolve Forbidden Lands Setup in the Campaign Guide.&#10;–Visit the kingdom of the Timeless Realm to the east. Resolve Timeless Realm Setup in the Campaign Guide." />
       </alternate>
     </card>
     <card id="485ad7be-dd9f-45c2-8553-ca12f8c35ac5" name="The Doom That Came Before" size="HorizCard">
@@ -219,13 +219,13 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Objective – Find and uncover as many Signs of the Gods in this region as you can. At the end of the round, if each investigator is at the same Port location, you may move to another region by advancing this act.Objective – If the investigators have unveiled 10 Signs of the Gods, proceed to (-&gt;R1)." />
+      <property name="Text" value="Objective – Find and uncover as many Signs of the Gods in this region as you can. At the end of the round, if each investigator is at the same Port location, you may move to another region by advancing this act.&#10;Objective – If the investigators have unveiled 10 Signs of the Gods, proceed to (-&gt;R1)." />
       <property name="Clues" value="–" />
       <alternate name="Where to?" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Your options in this region exhausted, you make your way back to your ship. The captain orders the crew to get ready to leave port. “Wasn’t sure if you’d be back in time, but here you are,” the captain says with a grin. “Well? Where to?”Search the encounter deck, discard pile, and all play areas for the Beings of Ib enemy and remove it from the game.Shuffle the encounter discard pile into the encounter deck.The investigators must decide (choose one). You cannot choose a place you have already visited. If you have already visited each of the listed areas, proceed to (-&gt;R1).–Visit the isle of Oriab to the south. Resolve Oriab Setup in the Campaign Guide.–Visit the Forbidden Lands to the north. Resolve Forbidden Lands Setup in the Campaign Guide.–Visit the kingdom of the Timeless Realm to the east. Resolve Timeless Realm Setup in the Campaign Guide." />
+        <property name="Text" value="Search the encounter deck, discard pile, and all play areas for the Beings of Ib enemy and remove it from the game.&#10;Shuffle the encounter discard pile into the encounter deck.&#10;The investigators must decide (choose one). You cannot choose a place you have already visited. If you have already visited each of the listed areas, proceed to (-&gt;R1).&#10;–Visit the isle of Oriab to the south. Resolve Oriab Setup in the Campaign Guide.&#10;–Visit the Forbidden Lands to the north. Resolve Forbidden Lands Setup in the Campaign Guide.&#10;–Visit the kingdom of the Timeless Realm to the east. Resolve Timeless Realm Setup in the Campaign Guide." />
       </alternate>
     </card>
     <card id="8c47d8a1-29ec-4254-8af0-d49accd6185f" name="Seek Out the Night" size="HorizCard">
@@ -234,13 +234,13 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Objective – Find and uncover as many Signs of the Gods in this region as you can. At the end of the round, if each investigator is at the same Port location, you may move to another region by advancing this act.Objective – If the investigators have unveiled 10 Signs of the Gods, proceed to (-&gt;R1)." />
+      <property name="Text" value="Objective – Find and uncover as many Signs of the Gods in this region as you can. At the end of the round, if each investigator is at the same Port location, you may move to another region by advancing this act.&#10;Objective – If the investigators have unveiled 10 Signs of the Gods, proceed to (-&gt;R1)." />
       <property name="Clues" value="–" />
       <alternate name="Where to?" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="You finally return to your ship, ready to leave this accursed land behind. “Let’s not tarry in this godsforsaken place any longer,” the captain says, barking orders to his crew. “Ilek-Vad may be a jewel, but the lands beyond are frought with danger. Pick a heading. Any heading. Just so long as it is far away from here.”Search the encounter deck, discard pile, and all play areas for the Horde of Night and Stalking Manticore enemies and remove each of them from the game.Shuffle the encounter discard pile into the encounter deck.The investigators must decide (choose one). You cannot choose a place you have already visited. If you have already visited each of the listed areas, proceed to (-&gt;R1)..–Visit the isle of Oriab to the south. Resolve Oriab Setup in the Campaign Guide.–Visit the ancient land of Mnar to the west. Resolve Mnar Setup in the Campaign Guide.–Visit the kingdom of the Timeless Realm to the east. Resolve Timeless Realm Setup in the Campaign Guide." />
+        <property name="Text" value="Search the encounter deck, discard pile, and all play areas for the Horde of Night and Stalking Manticore enemies and remove each of them from the game.&#10;Shuffle the encounter discard pile into the encounter deck.&#10;The investigators must decide (choose one). You cannot choose a place you have already visited. If you have already visited each of the listed areas, proceed to (-&gt;R1).&#10;–Visit the isle of Oriab to the south. Resolve Oriab Setup in the Campaign Guide.&#10;–Visit the ancient land of Mnar to the west. Resolve Mnar Setup in the Campaign Guide.&#10;–Visit the kingdom of the Timeless Realm to the east. Resolve Timeless Realm Setup in the Campaign Guide." />
       </alternate>
     </card>
     <card id="203574c0-ae70-4ea3-9b93-c89f33b83946" name="The King’s Decree" size="HorizCard">
@@ -249,13 +249,13 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
-      <property name="Text" value="Objective – Find and uncover as many Signs of the Gods in this region as you can. At the end of the round, if each investigator is at the same Port location, you may move to another region by advancing this act.Objective – If the investigators have unveiled 10 Signs of the Gods, proceed to (-&gt;R1)." />
+      <property name="Text" value="Objective – Find and uncover as many Signs of the Gods in this region as you can. At the end of the round, if each investigator is at the same Port location, you may move to another region by advancing this act.&#10;Objective – If the investigators have unveiled 10 Signs of the Gods, proceed to (-&gt;R1)." />
       <property name="Clues" value="–" />
       <alternate name="Where to?" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
-        <property name="Text" value="Your ship’s crew grumbles in protest when you announce your intention to leave. “Can you blame them?” the captain leans in and says quietly as the crew prepares for the voyage. “They would stay in port here forever if they could. But alas, the sea calls. So, where are we headed next?”Search the encounter deck, discard pile, and all play areas for The Crawling Mist enemy and remove it from the game.Shuffle the encounter discard pile into the encounter deck.The investigators must decide (choose one). You cannot choose a place you have already visited. If you have already visited each of the listed areas, proceed to (-&gt;R1).–Visit the isle of Oriab to the south. Resolve Oriab Setup in the Campaign Guide.–Visit the ancient land of Mnar to the west. Resolve Mnar Setup in the Campaign Guide.–Visit the Forbidden Lands to the north. Resolve Forbidden Lands Setup in the Campaign Guide." />
+        <property name="Text" value="Search the encounter deck, discard pile, and all play areas for The Crawling Mist enemy and remove it from the game.&#10;Shuffle the encounter discard pile into the encounter deck.&#10;The investigators must decide (choose one). You cannot choose a place you have already visited. If you have already visited each of the listed areas, proceed to (-&gt;R1).&#10;–Visit the isle of Oriab to the south. Resolve Oriab Setup in the Campaign Guide.&#10;–Visit the ancient land of Mnar to the west. Resolve Mnar Setup in the Campaign Guide.&#10;–Visit the Forbidden Lands to the north. Resolve Forbidden Lands Setup in the Campaign Guide." />
       </alternate>
     </card>
     <card id="11620ca1-9e0d-4985-a34a-25c037637674" name="Ulthar" size="EncounterCard">
@@ -270,7 +270,7 @@
       <alternate name="Cryptic Souls" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="As you walk the streets of the town, a horde of cats slowly congregates around you, following you everywhere you go.Check Campaign Log. If the cats collected their tribute from the Zoogs, read the following:One by one, the cats demand a tribute in the form of physical affection. Despite the urgency of your task, they rub against your legs, leap onto your lap, and do not leave until they are thoroughly adored.Lose all of your remaining actions and end your turn.If the investigators forced their way into the temple, read the following:The next thing you know, the cats have you completely surrounded. They hiss and growl, closing in from all sides.Spawn the Cats of Ulthar enemy engaged with you.Regardless: Flip this card back over." />
+        <property name="Text" value="Check Campaign Log. If the cats collected their tribute from the Zoogs, read the following:&#10;Lose all of your remaining actions and end your turn.&#10;If the investigators forced their way into the temple, read the following:&#10;Spawn the Cats of Ulthar enemy engaged with you.&#10;Regardless: Flip this card back over." />
       </alternate>
     </card>
     <card id="ae25adf7-9228-4776-9cc9-27b4609b77a7" name="Skai River" size="EncounterCard">
@@ -285,7 +285,7 @@
       <alternate name="Dreamlike Horrors" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="The wilds of the Skai region may appear peaceful, but they are far from safe. You are compelled to travel slowly and take in the beauty and tranquility of this realm, but your dawdling makes you a target for the vicious creatures that call the wetlands home.Cancel the effects of the move.If there are no Creature enemies at Skai River, discard cards from the top of the encounter deck until a Creature enemy is discarded, and spawn that enemy engaged with you. Otherwise, add 1 swarm card to a Creature enemy at Skai River. Flip this card back over." />
+        <property name="Text" value="If there are no Creature enemies at Skai River, discard cards from the top of the encounter deck until a Creature enemy is discarded, and spawn that enemy engaged with you. Otherwise, add 1 swarm card to a Creature enemy at Skai River. Flip this card back over." />
       </alternate>
     </card>
     <card id="391c19fe-ad01-424e-bb56-fce1ad941e3a" name="Dylath-Leen" size="EncounterCard">
@@ -294,13 +294,13 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Skai. City. Port." />
-      <property name="Text" value="Veiled.η Spend 1 resource: Search the top 6 cards of your deck for an Item asset and draw it. Shuffle your deck." />
+      <property name="Text" value="Veiled.&#10;η Spend 1 resource: Search the top 6 cards of your deck for an Item asset and draw it. Shuffle your deck." />
       <property name="Shroud" value="3" />
       <property name="Clues" value="1π" />
       <alternate name="Endless Secrets" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="In the port city of Dylath-Leen, you consult with the elders of the city. They believe that the truth of Kadath was hidden for a reason, and call you a fool for searching for it. Even so, they tell you what little they know of the forsaken peak. Though you are far from finding Kadath, it is clear now that it cannot be in this region. “We’ll need to find a ship captain,” Randolph muses. “This journey will be much longer still. The isle of Oriab lies to the south, and I have heard of a great mountain there. To the west lies the ancient land of Mnar, where many secrets lie hidden. To the east is the Timeless Realm ruled by the wise King Kuranes. North of there is a forbidden land where none dare tread…”You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card to indicate this). For the remainder of the scenario, resources on the scenario reference card represent Signs of the Gods the investigators have uncovered. Your quest is to uncover as many of these signs as you can, in order to discern the location of Kadath.Flip this card back over." />
+        <property name="Text" value="You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card to indicate this). For the remainder of the scenario, resources on the scenario reference card represent Signs of the Gods the investigators have uncovered. Your quest is to uncover as many of these signs as you can, in order to discern the location of Kadath.&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="5d118076-8242-4ab7-80c8-3dfaaf042455" name="Kadatheron" size="EncounterCard">
@@ -309,13 +309,13 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Mnar. Ancient. City. Port." />
-      <property name="Text" value="Veiled.η η η: Draw 5 cards." />
+      <property name="Text" value="Veiled.&#10;η η η: Draw 5 cards." />
       <property name="Shroud" value="5" />
       <property name="Clues" value="1π" />
       <alternate name="Cylinders of Kadatheron" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="You study the pillars within Kadatheron for many hours, losing yourself in the vast, storied histories of the Dreamlands. What was first a focused search for the whereabouts of the castle of the gods soon becomes an obsession with all things inscribed upon the cylinders. Hours, days, weeks; who knows how much time you lose to your research. Though you learn much, the time you spend here is a boon to those who pursue you. You are only able to pry yourself free from the cylinders when you feel the ominous gaze of something sinister watching you from afar…You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).Shuffle 1 set-aside copy of Tenebrous Nightgaunt into the encounter deck, if able.Flip this card back over." />
+        <property name="Text" value="You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).Shuffle 1 set-aside copy of Tenebrous Nightgaunt into the encounter deck, if able.&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="b684307d-31d6-4a2a-b95a-236b3799cec9" name="Sarnath" size="EncounterCard">
@@ -324,14 +324,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Mnar. Ancient. Ruins." />
-      <property name="Text" value="Veiled. Sarnath cannot be flipped over unless the investigators “know what happened to Ib.”Forced – After you successfully investigate Sarnath by 1 or less: Take 1 horror." />
+      <property name="Text" value="Veiled. Sarnath cannot be flipped over unless the investigators “know what happened to Ib.”&#10;Forced – After you successfully investigate Sarnath by 1 or less: Take 1 horror." />
       <property name="Shroud" value="3" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="1" />
       <alternate name="The Doom of Sarnath" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Although this city-state was founded ages ago and stood for over a thousand years, it is no more. The tales tell of a single night in which Sarnath fell. Now very little of it remains: only a vast marsh where the city once stood tall and proud. Among the ruins you find no standing buildings, but rubble of marble, brick, and chalcedony. But as you approach the remains, lightning splits the sky. There is a blinding flash. As you blink your eyes, everything changes. Where before no city stood, now there looms a ghostly image of Sarnath as it once was. Near the lake, where the lightning struck, you find a curious and ancient idol of green stone. It is coated with seaweed and chiseled in the likeness of a great water lizard. One of the gods of this realm, perhaps?You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).Flip this card back over." />
+        <property name="Text" value="You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="c69796e6-b787-4959-a3df-e3a348928f71" name="Ruins of Ib" size="EncounterCard">
@@ -340,14 +340,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Mnar. Ancient. Ruins." />
-      <property name="Text" value="Veiled.Forced – After you reveal a α or β token while investigating Ruins of Ib: Discard an asset you control." />
+      <property name="Text" value="Veiled.&#10;Forced – After you reveal a α or β token while investigating Ruins of Ib: Discard an asset you control." />
       <property name="Shroud" value="1" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="1" />
       <alternate name="Ghosts of the Dead" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="It is said that the people of Sarnath were the ones who destroyed the city of Ib thousands of years ago. From what you can gather, the inhabitants of Ib had committed no crime other than possessing a disturbing appearance and carving strange sculptures upon the grey monoliths within their city. However, the retribution Sarnath faced was far greater than their own sin. Even now, long after the destruction of Ib, creatures resembling the city’s inhabitants still haunt the Nameless Lake, hunting down intruders like the warriors of Sarnath who destroyed their civilization so long ago. Intruders such as yourself.Remember that the investigators “know what happened to Ib.”Flip this card back over." />
+        <property name="Text" value="Remember that the investigators “know what happened to Ib.”&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="86d5b865-9a87-4c9c-981c-edeb12693c3d" name="Ilek-Vad" size="EncounterCard">
@@ -356,14 +356,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Forbidden. City. Port." />
-      <property name="Text" value="Veiled.While you are at Ilek-Vad, reduce the cost of the first Spell, Ritual, or Relic card you play each round by 1." />
+      <property name="Text" value="Veiled.&#10;While you are at Ilek-Vad, reduce the cost of the first Spell, Ritual, or Relic card you play each round by 1." />
       <property name="Shroud" value="2" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="1" />
       <alternate name="The Palace of Rainbows" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="High above the walls of Ilek-Vad stands the marvelous Palace of Rainbows, its towers faceted so the sunlight forms bright rainbows when it strikes the palace each dawn. You are surprised to learn that the citizenry of Ilek-Vad—people of all stations and, indeed, even outsiders such as yourself—are free to visit the palace grounds and walk its smooth glass streets lined with fragrant gardens. You are able to meet with the king of Ilek-Vad, who is said to know the music of the Moon, and he is happy to share with you his knowledge of the Dreamlands. You never, ever want to leave.Each investigator at Ilek-Vad heals 2 horror and draws 2 cards.Flip this card back over." />
+        <property name="Text" value="Each investigator at Ilek-Vad heals 2 horror and draws 2 cards.&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="5bba7fe8-4e45-4f5d-b398-9155c14ff6c6" name="Forbidden Lands" size="EncounterCard">
@@ -378,7 +378,7 @@
       <alternate name="A Shrine to the Gods" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Throughout these perilous and hellish lands, you are beset by nameless beasts, hazardous terrain, and creatures too bizarre to describe. Even so, you press onward in the hope that you might learn something of the gods in this forsaken place. On the third evening you spend here, you find a shrine beside a lake of fire. Tucked away among a range of volcanoes, the shrine bears a statue carved in the face of the volcanic rock, long forgotten by ancient dreamers and outsiders alike. A mark of the Dreamlands’ gods, perhaps? You draw the statue’s likeness in your journal and hope that it might hold some significance.You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).Shuffle 1 set-aside copy of Tenebrous Nightgaunt into the encounter deck, if able.Flip this card back over." />
+        <property name="Text" value="You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).&#10;Shuffle 1 set-aside copy of Tenebrous Nightgaunt into the encounter deck, if able.&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="c25a400b-b8bb-4197-a11b-78cb58b96a0a" name="Zulan-Thek" size="EncounterCard">
@@ -387,14 +387,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Forbidden. City." />
-      <property name="Text" value="Veiled.Forced – At the end of the round: Add 1 swarm card to Horde of Night for each investigator in Zulan-Thek." />
+      <property name="Text" value="Veiled.&#10;Forced – At the end of the round: Add 1 swarm card to Horde of Night for each investigator in Zulan-Thek." />
       <property name="Shroud" value="4" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="&#10;" />
       <alternate name="The Crypt of Zulan-Thek" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="The greatest structure within the ruined city is its crypt. Beyond its massive stone door lies a labyrinth of lightless passages wherein sleep the dead of Zulan-Thek: decaying bones of those both important and inconsequential, from simple farmers and laborers to wizards, witches, and necromancers executed for practicing their magical arts. As you traverse the shrouded halls, the only signs of life you come across are a sobbing voice whose owner you cannot ever seem to find, and the scraping of claws along the inside of a sealed stone door that you dare not open. You cannot wait to leave this ominous pit, and yet you know there may be many secrets hidden within.You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).Add Horde of Night to the victory display.Flip this card back over." />
+        <property name="Text" value="You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).&#10;Add Horde of Night to the victory display.&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="291727d8-f85c-4675-af7c-c30b3f9a62ca" name="Baharna" size="EncounterCard">
@@ -410,7 +410,7 @@
       <alternate name="Wares of Baharna" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="The city of Baharna is a thriving and bustling harbor where you can find all manner of trade goods, provisions, and other wares. In the marketplace, you find supplies that may aid you in your expedition to lands farther south, as well as beasts of burden to carry your belongings. It should not surprise you that the most common of these creatures are zebras, and yet you are stunned nonetheless. You could spend days perusing the bazaar and still find oddities to spark your imagination. Truly this is a land of wonders.Each investigator at Baharna may return an Item or Supply card from their discard pile to their hand.Remember that the investigators have “obtained supplies from Baharna.”Flip this card back over." />
+        <property name="Text" value="Remember that the investigators have “obtained supplies from Baharna.”&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="0c084ca5-f944-46d4-b7a4-44898a88cc5e" name="Mt. Ngranek" size="EncounterCard">
@@ -419,14 +419,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Oriab. Mountain." />
-      <property name="Text" value="Veiled.Forced – After you enter Mt. Ngranek or discover 1 or more clues at Mt. Ngranek, if the investigators have not “obtained supplies from Baharna”: Test ή (3) or ί (3). If you fail, lose your remaining actions and immediately end your turn." />
+      <property name="Text" value="Veiled.&#10;Forced – After you enter Mt. Ngranek or discover 1 or more clues at Mt. Ngranek, if the investigators have not “obtained supplies from Baharna”: Test ή (3) or ί (3). If you fail, lose your remaining actions and immediately end your turn." />
       <property name="Shroud" value="3" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="1" />
       <alternate name="The Likeness of Old" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="As you begin your perilous climb, you realize that you are the only ones who dare to scale the mountain. Although woodsmen and lava gatherers explore its lower slopes, few brave the cliffs higher up on the northern face, and certainly none along the southern face of the mountain, which cannot be seen from the city below.You eventually reach a valley of still lava, solid as rock. At the far end, a twisting, narrow path ascends the southern slope. When you reach the top, you find what you have been searching for: a face carved into the side of the mountain, hundreds of feet tall: the face of one of the Great Ones, or so it is told.You have unveiled a Sign of the Gods (place 1 resource on the scenario reference card).Shuffle 1 set-aside copy of Tenebrous Nightgaunt into the encounter deck, if able.Flip this card back over." />
+        <property name="Text" value="You have unveiled a Sign of the Gods (place 1 resource on the scenario reference card).&#10;Shuffle 1 set-aside copy of Tenebrous Nightgaunt into the encounter deck, if able.&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="09bd5a61-1fd5-4779-b774-840e5e9bf449" name="Nameless Ruins" size="EncounterCard">
@@ -435,14 +435,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Oriab. Ancient. Ruins." />
-      <property name="Text" value="Veiled.Forced – After you end your turn at Nameless Ruins: Deal 1 direct damage to an Ally asset you control." />
+      <property name="Text" value="Veiled.&#10;Forced – After you end your turn at Nameless Ruins: Deal 1 direct damage to an Ally asset you control." />
       <property name="Shroud" value="5" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="1" />
       <alternate name="What Remains of Tyrrhia" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="The ruins of this settlement are vast, but it is the caverns that lie beneath that draw your interest. Deep underground, you become lost in a forbidden maze of wildly complex corridors, impossible to map. For days you scour the maze, unable to find the path to its core. Finally, you notice a dark shape, like a hazy shadow, watching you from around a corner. You pursue it until it leads you to a tomb in the center of the gargantuan cavern, surrounded by ancient tapestries depicting the once great kingdom of Tyrrhia. You wonder about the intentions of the shadow that led you here. Was it aiding you, or manipulating you? You record the story of Tyrrhia’s fall before fleeing to the surface. You have no wish to stay any longer.You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).Flip this card back over." />
+        <property name="Text" value="You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="cecbf33f-ad9b-4bf6-b2a5-9c449a13887d" name="Celephaïs" size="EncounterCard">
@@ -458,7 +458,7 @@
       <alternate name="Advice of the King" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Randolph stops in one of the streets of Celephaïs to meet with the old chief of the city’s cats, and you recall that your companion once told you that Ulthar is not the only city of the Dreamlands in which these curious creatures dwell. The cat informs Randolph where he can find “his old friend,” and you are surprised when your companion leads you to a rose-crystal palace in the center of the city. Here you meet with King Kuranes, who rules this region. When you tell Kuranes of your quest, he indicates that you may find what you are looking for in the great temple that lies in the center of Hazuth-Kleg, a city beyond his Timeless Realm. But this advice comes with a warning: Once you enter the Temple of Unattainable Desires, you might never leave.Remember that you have “beseeched the King.”Shuffle 1 set-aside copy of Tenebrous Nightgaunt into the encounter deck, if able.Flip this card back over." />
+        <property name="Text" value="Remember that you have “beseeched the King.”&#10;Shuffle 1 set-aside copy of Tenebrous Nightgaunt into the encounter deck, if able.&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="41939c48-8a7c-4a72-8056-46297ae016e1" name="Serannian" size="EncounterCard">
@@ -467,14 +467,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Ooth-Nargai. City. Port." />
-      <property name="Text" value="Veiled.If there are 3 or 4 investigators in the game, Serannian gets +1 clue value.As an additional cost for you to enter or leave Serannian, you must choose and discard a card from your hand." />
+      <property name="Text" value="Veiled.&#10;If there are 3 or 4 investigators in the game, Serannian gets +1 clue value.&#10;As an additional cost for you to enter or leave Serannian, you must choose and discard a card from your hand." />
       <property name="Shroud" value="3" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="1" />
       <alternate name="Timeless Beauty" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="The beautiful city of Serannian is a refuge from all the world’s ills. In these turreted cloud-castles that hang in a heavenly sky, time slows to a halt. The allure of this city is ageless. You could lose yourself for years within its marbled streets and perfect gardens and never notice the difference. It is so peaceful that you nearly forget your quest, as well as the fact that your physical body still sleeps in the real world. Even so, you cannot help but wonder: Would it be better to simply stay in this tranquil realm and let your mind remain at peace, even while your body ages and withers away?Each investigator at Serannian heals 2 damage and gains 2 resources.You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).Flip this card back over." />
+        <property name="Text" value="Each investigator at Serannian heals 2 damage and gains 2 resources.&#10;You have uncovered a Sign of the Gods (place 1 resource on the scenario reference card).&#10;Flip this card back over." />
       </alternate>
     </card>
     <card id="df9fe5a0-9cca-4a69-8cc2-c070d1df0521" name="Hazuth-Kleg" size="EncounterCard">
@@ -489,7 +489,7 @@
       <alternate name="Unattainable Desires" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Deep within the run-down city of Hazuth-Kleg, along the street of the pantheon, lies the Temple of Unattainable Desires. It is a grand temple of onyx, its iron gate fashioned to look like a mass of twisted and intermingled serpents with amethyst eyes. Lanterns cast a baleful red glow at the entrance. You shudder at the thought of what profane rituals might transpire within its unhallowed halls, and yet, your gut tells you this awful place may hold the answers you seek.Put the set-aside Temple of Unattainable Desires location into play. Flip this card back over." />
+        <property name="Text" value="Put the set-aside Temple of Unattainable Desires location into play. Flip this card back over." />
       </alternate>
     </card>
     <card id="5bc84615-d445-4c2e-85d4-0041f243673e" name="Temple of Unattainable Desires" size="EncounterCard">
@@ -498,14 +498,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Ooth-Nargai. Temple." />
-      <property name="Text" value="Veiled.The way into the temple is barred shut. You cannot enter the Temple of Unattainable Desires unless an investigator has “beseeched the king.”" />
+      <property name="Text" value="Veiled.&#10;The way into the temple is barred shut. You cannot enter the Temple of Unattainable Desires unless an investigator has “beseeched the king.”" />
       <property name="Shroud" value="3" />
       <property name="Clues" value="1π" />
       <property name="Victory Points" value="1" />
       <alternate name="The City Inside" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="In the deepest section of the temple lies its greatest hall and its greatest curse. The moment you pass under its low, narrow doorway, you find yourself in another realm altogether: a twisted, hellish version of the city outside. The streets are lined with tottering houses that lean together so that they almost form tunnels, blotting out what passes for the sky in this nightmare realm. Only a single baleful star shines in the perpetual twilight, visible between the leaning basalt towers and twisted streets.Put the set-aside The City-Which-Appears-On-No-Map location into play. Flip this card back over." />
+        <property name="Text" value="Put the set-aside The City-Which-Appears-On-No-Map location into play. Flip this card back over." />
       </alternate>
     </card>
     <card id="b5387fdc-b27a-43e1-8591-60853a213d13" name="City-Which-Appears-On-No-Map" size="EncounterCard">
@@ -514,14 +514,14 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Location" />
       <property name="Traits" value="City. Otherworld." />
-      <property name="Text" value="Veiled.For each Priest of a Thousand Masks at the City-Which-Appears-On-No-Map, reduce its shroud by 1.Forced – After you fail a skill test while investigating the City-Which-Appears-On-No-Map: Search the encounter deck and discard pile for a Priest of a Thousand Masks and spawn it here. Shuffle the encounter deck." />
+      <property name="Text" value="Veiled.&#10;For each Priest of a Thousand Masks at the City-Which-Appears-On-No-Map, reduce its shroud by 1.&#10;Forced – After you fail a skill test while investigating the City-Which-Appears-On-No-Map: Search the encounter deck and discard pile for a Priest of a Thousand Masks and spawn it here. Shuffle the encounter deck." />
       <property name="Shroud" value="6" />
       <property name="Clues" value="2π" />
       <property name="Victory Points" value="2" />
       <alternate name="The Baleful Star" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
         <property name="Type" value="Story" />
-        <property name="Text" value="You traverse the tangled streets of this dark, abandoned realm for what seems like many hours. You cannot tell the passage of time, for the star that hangs above you never moves, and the rest of the sky is empty and devoid of all light. Finally you reach the square in the center of town, directly below the baleful star. Its red glare shines down on a statue depicting an otherworldly abomination. The inscription in the stone before the statue is riddled with astrological symbols and strange names, but nothing more. The moment you read one of the names, the city begins to collapse, and you are whisked away by an incomprehensible force. You awaken several hours later, your head spinning. Your arms and legs are covered in thin, bloody incisions.You have uncovered two Signs of the Gods (place 2 resources on the scenario reference card).Discard each enemy here. Move each investigator here to the Temple of Unattainable Desires (cannot be canceled). Flip this card back over and add it to the victory display." />
+        <property name="Text" value="You have uncovered two Signs of the Gods (place 2 resources on the scenario reference card).&#10;Discard each enemy here. Move each investigator here to the Temple of Unattainable Desires (cannot be canceled). Flip this card back over and add it to the victory display." />
       </alternate>
     </card>
     <card id="85906dbb-c1ab-4e83-97c0-3aa217986aef" name="Virgil Gray">
@@ -531,7 +531,7 @@
       <property name="Subtitle" value="Writer of Strange Tales" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Dreamer." />
-      <property name="Text" value="ι After 1 or more Signs of the Gods are uncovered: Either draw 1 card, gain 1 resource, or heal 1 horror from Virgil Gray. If there is more than 1 investigator in the game, give control of Virgil Gray to another investigator.Forced – If Virgil Gray is defeated: Remove him from the game." />
+      <property name="Text" value="ι After 1 or more Signs of the Gods are uncovered: Either draw 1 card, gain 1 resource, or heal 1 horror from Virgil Gray. If there is more than 1 investigator in the game, give control of Virgil Gray to another investigator.&#10;Forced – If Virgil Gray is defeated: Remove him from the game." />
       <property name="Health" value="1" />
       <property name="Sanity" value="3" />
       <property name="Level" value="0" />
@@ -549,7 +549,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Elite." />
-      <property name="Text" value="Swarming 2.When you reveal chaos tokens while attempting to evade this enemy, reveal an additional token. (Limit once per test.)Forced – The first time an investigator defeats Cats of Ulthar (or one of its swarm cards): Add 3 swarm cards to the host and record in your Campaign Log (your investigator name) has broken the law of Ulthar.Victory 1." />
+      <property name="Text" value="Swarming 2.&#10;When you reveal chaos tokens while attempting to evade this enemy, reveal an additional token. (Limit once per test.)Forced – The first time an investigator defeats Cats of Ulthar (or one of its swarm cards): Add 3 swarm cards to the host and record in your Campaign Log (your investigator name) has broken the law of Ulthar.&#10;Victory 1." />
       <property name="Health" value="1" />
       <property name="Combat" value="1" />
       <property name="Agility" value="1" />
@@ -562,7 +562,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Monster. Elite." />
-      <property name="Text" value="Forced – If you successfully evade Stalking Manticore: Disengage from it, but do not exhaust it. Until the end of the phase, it cannot engage you.Victory 1." />
+      <property name="Text" value="Forced – If you successfully evade Stalking Manticore: Disengage from it, but do not exhaust it. Until the end of the phase, it cannot engage you.&#10;Victory 1." />
       <property name="Health" value="3π" />
       <property name="Combat" value="4" />
       <property name="Agility" value="3" />
@@ -576,7 +576,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Elite." />
-      <property name="Text" value="Massive. Swarming 1π.Horde of Night’s swarm cards cannot attack.Horde of Night’s host card cannot be defeated. If it would be defeated, exhaust Horde of Night, instead.Victory 1." />
+      <property name="Text" value="Massive. Swarming 1π.&#10;Horde of Night’s swarm cards cannot attack.&#10;Horde of Night’s host card cannot be defeated. If it would be defeated, exhaust Horde of Night, instead." />
       <property name="Health" value="1" />
       <property name="Combat" value="1" />
       <property name="Agility" value="1" />
@@ -590,7 +590,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Elite." />
-      <property name="Text" value="Prey – Investigator at a Ruins location only.Aloof. Hunter. Swarming 1 π.During the “enemy attacks” step of the enemy phase, instead of attacking its engaged investigator, Beings of Ib attacks each investigator at its location (even if it is unengaged).Victory 1." />
+      <property name="Text" value="Prey – Investigator at a Ruins location only.&#10;Aloof. Hunter. Swarming 1π.&#10;During the “enemy attacks” step of the enemy phase, instead of attacking its engaged investigator, Beings of Ib attacks each investigator at its location (even if it is unengaged)." />
       <property name="Health" value="1" />
       <property name="Combat" value="4" />
       <property name="Agility" value="4" />
@@ -603,7 +603,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist." />
-      <property name="Text" value="While the investigators have uncovered......2 or more Signs of the Gods, Priest of a Thousand Masks gets +1 fight and +1 evade....4 or more Signs of the Gods, Priest of a Thousand Masks gets +2 health....6 or more Signs of the Gods, Priest of a Thousand Masks gets +1 damage and gains retaliate." />
+      <property name="Text" value="While the investigators have uncovered...&#10;...2 or more Signs of the Gods, Priest of a Thousand Masks gets +1 fight and +1 evade.&#10;...4 or more Signs of the Gods, Priest of a Thousand Masks gets +2 health.&#10;...6 or more Signs of the Gods, Priest of a Thousand Masks gets +1 damage and gains retaliate." />
       <property name="Health" value="2" />
       <property name="Combat" value="2" />
       <property name="Agility" value="2" />
@@ -615,7 +615,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Nightgaunt." />
-      <property name="Text" value="Hunter.Forced – When Tenebrous Nightgaunt leaves play as a result of an act’s setup: Set it aside (it keeps all tokens and attachments). After resolving the act’s setup, put it back into play at any City location." />
+      <property name="Text" value="Hunter.&#10;Forced – When Tenebrous Nightgaunt leaves play as a result of an act’s setup: Set it aside (it keeps all tokens and attachments). After resolving the act’s setup, put it back into play at any City location." />
       <property name="Health" value="4" />
       <property name="Combat" value="4" />
       <property name="Agility" value="1" />
@@ -628,7 +628,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Monster." />
-      <property name="Text" value="Swarming 1.While the host Pack of Vooniths has no attached swarm cards, it gets +2 fight and +2 evade." />
+      <property name="Text" value="Swarming 1.&#10;While the host Pack of Vooniths has no attached swarm cards, it gets +2 fight and +2 evade." />
       <property name="Health" value="2" />
       <property name="Combat" value="1" />
       <property name="Agility" value="1" />
@@ -641,7 +641,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Creature. Monster." />
-      <property name="Text" value="Swarming 1.While the host Nightriders has no attached swarm cards, it gets –3 evade.Forced – After you evade Nightriders: Discard it." />
+      <property name="Text" value="Swarming 1.&#10;While the host Nightriders has no attached swarm cards, it gets –3 evade.&#10;Forced – After you evade Nightriders: Discard it." />
       <property name="Health" value="2" />
       <property name="Combat" value="2" />
       <property name="Agility" value="5" />
@@ -653,7 +653,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Curse." />
-      <property name="Text" value="Revelation – Attach to your location.Forced –  After you move out of attached location: Take 1 horror, place 1 doom on the current agenda, and discard Song of the Magah Bird. This effect can cause the current agenda to advance.η: Test ά (4) to resist the call or ή (4) to drive away the birds. If you succeed, discard Song of the Magah Bird." />
+      <property name="Text" value="Revelation – Attach to your location.Forced –  After you move out of attached location: Take 1 horror, place 1 doom on the current agenda, and discard Song of the Magah Bird. This effect can cause the current agenda to advance.&#10;η: Test ά (4) to resist the call or ή (4) to drive away the birds. If you succeed, discard Song of the Magah Bird." />
     </card>
     <card id="9862cee6-ea22-48b9-827c-ea5e7f6ce5a2" name="Wondrous Lands" size="EncounterCard">
       <property name="Card Number" value="154" />
@@ -661,7 +661,7 @@
       <property name="Encounter Set" value="The Search for Kadath" />
       <property name="Type" value="Treachery" />
       <property name="Traits" value="Power." />
-      <property name="Text" value="Revelation – If there are no clues on your location, discard Wondrous Lands, and it gains surge. Otherwise, attach Wondrous Lands to your location.Attached location gets –2 shroud. Forced – After you successfully investigate attached location: Take 1 horror, place 1 doom on the current agenda, and discard Wondrous Lands. This effect can cause the current agenda to advance." />
+      <property name="Text" value="Revelation – If there are no clues on your location, discard Wondrous Lands, and it gains surge. Otherwise, attach Wondrous Lands to your location.Attached location gets –2 shroud.&#10;Forced – After you successfully investigate attached location: Take 1 horror, place 1 doom on the current agenda, and discard Wondrous Lands. This effect can cause the current agenda to advance." />
     </card>
   </cards>
 </set>
