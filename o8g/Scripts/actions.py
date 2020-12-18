@@ -1404,7 +1404,11 @@ def discard(card, x=0, y=0):
         pile = locationDiscard()
     elif isChaosToken(card):
         pile = chaosBag()
-    else: #Last choice is player discard
+    #For specific case like Asset in encounter deck
+    elif not isPlayerCard(card):
+        pile = encounterDiscard()
+    else:
+	#Last choice is player discard
         pile = card.owner.piles['Discard Pile']
        
     who = pile.controller
