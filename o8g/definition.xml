@@ -243,7 +243,7 @@
 			<groupaction menu="Search X" default="False" execute="search" />
 			<groupaction menu="Toggle Debug" default="False" execute="toggleDebug" />
 		</group>
-		<group name="Sideboard" visibility="me" icon="groups/player-sideboard.png" collapsed="True">
+		<group name="Sideboard" visibility="me" icon="groups/player-sideboard.png" collapsed="False">
 			<groupaction menu="Shuffle" execute="shuffle" />
 		</group>
 		<group name="Basic Weaknesses" visibility="none" icon="groups/player.png" collapsed="True">
