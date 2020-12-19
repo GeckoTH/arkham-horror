@@ -135,8 +135,8 @@
 			<groupaction menu="Add Curse Token" default="False" shortcut="shift+F8" execute="addCurse" />
 		</groupactions>
 		<groupaction menu="Draw Token from ChaosBag" default="False" shortcut="ctrl+S" execute="drawChaosToken" />
-		<groupaction menu="Draw X Tokens from ChaosBag" default="False" shortcut="" execute="drawXChaosTokens" />
-		<groupaction menu="Draw additional Token from ChaosBag" default="False" shortcut="" execute="drawAddChaosToken" />
+		<groupaction menu="Draw X Tokens from ChaosBag" default="False" shortcut="ctrl+X" execute="drawXChaosTokens" />
+		<groupaction menu="Draw additional Token from ChaosBag" default="False" shortcut="ctrl+shift+X" execute="drawAddChaosToken" />
 		<groupaction menu="Seal Token from Chaosbag" default="False" shortcut="" execute="sealToken" />
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
