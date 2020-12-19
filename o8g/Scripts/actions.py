@@ -1816,7 +1816,7 @@ def moveToRemote (token, pile):
    token.moveTo(pile)	
 	
     
-def drawXChaosTokens(player, group, x = 0, y = 0):
+def drawXChaosTokens(group, x = 0, y = 0):
     mute()
     xChaosTokens = askInteger("Draw how many Chaos Tokens?", 1)
     if xChaosTokens == None: return
@@ -1829,7 +1829,7 @@ def drawXChaosTokens(player, group, x = 0, y = 0):
         else:
             remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, replace, (xTokens * 10), (xTokens * 10)])
 
-def drawAddChaosToken(player, group, x = 0, y = 0):
+def drawAddChaosToken(group, x = 0, y = 0):
     mute()
     num = 0
     for card in table: #find out how many Tokens there already are
