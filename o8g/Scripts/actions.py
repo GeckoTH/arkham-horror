@@ -23,16 +23,19 @@ sourceCard = [
     ]
 
 bondedCard = [
+    #1 card = 3 bonded
     "Soothing Melody x3",
     "Blood-Rite x3",
     "Bloodlust x3",
     "Dream Parasite x3",
     "Hope,Zeal,Augur",
+    #1 source card = 1 bonded card
     "Dream-Gate",
     "Guardian of the Crystallizer ", 
     "Wish Eater",
     "The Stars Are Right",
     "Unbound Beast",
+    #X source card = 1 bonded card
     "Essence of the Dream",
     "Pendant of the Queen"
     ]
@@ -51,6 +54,14 @@ bondedCode = [
     ["0481911c-f906-40ee-acef-d4ad39c2d767"],
     ["dc7600e3-a132-42b0-b96b-67ca0cee4aff"]
     ]
+
+limitedOneBondedCode =[
+    "0481911c-f906-40ee-acef-d4ad39c2d767",
+    "dc7600e3-a132-42b0-b96b-67ca0cee4aff"
+    ]
+#Special Case Only 1 Version of Dream Diary have bonded card
+DreamDiary = {"name" : "Dream Diary", "subtitle" : "Untranslated"}
+
 
 Resource = ("Resource", "6eb6d990-007a-4f4d-b76c-b35685922b22")
 Damage = ("Damage", "3abb22bb-b259-4857-ae8f-f2cdf93de5e0")
@@ -360,6 +371,12 @@ def specialDeck():
 def specialDiscard():
     return shared.piles['Special Discard Pile']
 
+def secondspecialDeck():
+    return shared.piles['2nd Special']
+
+def secondspecialDiscard():
+    return shared.piles['2nd Special Discard Pile']
+
 def agendaDeck():
     return shared.piles['Agenda']
 
@@ -611,7 +628,7 @@ def loadBasicWeaknesses(group, x = 0, y = 0):
         notify("{} loaded Basic Weakness Deck".format(me))
     else:
         notify("{}'s Basic Weakness Deck already loaded.".format(me))
-        
+
 # #Triggered event OnPlayerGlobalVariableChanged
 # #We use this to manage turn and phase management by tracking changes to the player "done" variable            
 def globalChanged(args):
@@ -1099,26 +1116,24 @@ def doMythosPhase(setPhaseVar = True):
         if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addDoom(card)
 
-def listBonded(deck):
+def makeListBonded(deck):
     mute()
-    listeBonded = []
+    listBonded = []
     for deckcard in deck:
         for sca, bca , bco in zip(sourceCard, bondedCard, bondedCode):
             if sca == deckcard.Name:
                 #Filter Dream Diary with wrong subtitle
-                if deckcard.Name == "Dream Diary" and deckcard.Subtitle != "Untranslated":
+                if deckcard.Name == DreamDiary["name"] and deckcard.Subtitle != DreamDiary["subtitle"]:
                     continue              
-                listeBonded.extend(bco)
+                listBonded.extend(bco)
     #Remove useless multiple bonded card and add only 1 bonded card
     #Essence of the Dream
-    if "0481911c-f906-40ee-acef-d4ad39c2d767" in listeBonded:
-        listeBonded = filter(lambda card: card != "0481911c-f906-40ee-acef-d4ad39c2d767", listeBonded)
-        listeBonded.append("0481911c-f906-40ee-acef-d4ad39c2d767")
     #Pendant of the Queen
-    if "dc7600e3-a132-42b0-b96b-67ca0cee4aff" in listeBonded:
-        listeBonded = filter(lambda card: card != "dc7600e3-a132-42b0-b96b-67ca0cee4aff", listeBonded)
-        listeBonded.append("dc7600e3-a132-42b0-b96b-67ca0cee4aff")
-    return listeBonded
+    for idOne in limitedOneBondedCode:
+        if idOne in listBonded:
+            listBonded = filter(lambda card: card != idOne, listBonded)
+            listBonded.append(idOne)
+    return listBonded
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
@@ -1136,7 +1151,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
        
         # Create Bonded Card
-        listB = listBonded(me.deck)
+        listB = makeListBonded(me.deck)
         if not listB:
             me.piles['Sideboard'].collapsed = True
         else:
@@ -1683,7 +1698,7 @@ def moveMany(group, count = None):
     if len(group) == 0: return
     mute()
     if count is None:
-        count = askInteger("Move how many cards to secondary deck?", 1)
+        count = askInteger("Move how many cards to another deck?", 1)
         if count is None or count <= 0: return
     
     moved = 0
@@ -1691,8 +1706,17 @@ def moveMany(group, count = None):
     if group == me.deck:
         pile = me.piles['Secondary Deck']
     else:
-        pile = specialDeck()
-    
+        choice_list = ['Special', '2nd Special']
+        color_list = ['#000000','#000000']
+        sets = askChoice("what is the arrival deck ?", choice_list, color_list)
+        # load all sets if window is closed
+        if sets == 0:
+            return
+        if sets == 1:
+            pile = specialDeck()
+        if sets == 2:
+            pile = secondspecialDeck()
+
     for c in group.top(count):
         c.moveTo(pile)
         moved += 1
@@ -1725,15 +1749,21 @@ def moveAllToEncounter(group):
             c.moveTo(encounterDeck())
         notify("{} moves all cards from {} to the Encounter Deck".format(me, group.name))
         shuffle(encounterDeck())
-        
+
+def moveAllToEncounterTop(group):
+    mute()
+    if confirm("Move all cards from {} to the top of the Encounter Deck?".format(group.name)):
+        for c in group:
+            c.moveTo(encounterDeck())
+            notify("{} moves all cards from {} to the top of the Encounter Deck".format(me, group.name))
+
 def moveAllToEncounterBottom(group):
     mute()
     if confirm("Move all cards from {} to the bottom of the Encounter Deck?".format(group.name)):
         for c in group:
             c.moveToBottom(encounterDeck())
-        notify("{} moves all cards from {} to the bottom of the Encounter Deck".format(me, group.name))
-
-
+            notify("{} moves all cards from {} to the bottom of the Encounter Deck".format(me, group.name))
+       
 def moveAllToSpecial(group):
     mute()
     if confirm("Shuffle all cards from {} to Special Deck?".format(group.name)):
@@ -1814,11 +1844,10 @@ def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 
     
 def moveToRemote (token, pile):
    token.moveTo(pile)	
-	
-    
+
 def drawXChaosTokens(group, x = 0, y = 0):
     mute()
-    xChaosTokens = askInteger("Draw how many Chaos Tokens?", 1)
+    xChaosTokens = askInteger("Draw how many Chaos Tokens?", 3)
     if xChaosTokens == None: return
     
     for xTokens in range(0, xChaosTokens):
