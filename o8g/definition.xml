@@ -230,7 +230,7 @@
 			<groupaction menu="Draw Many" default="False" shortcut="ctrl+shift+D" execute="drawMany" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
-			<groupaction menu="Move to Seconary..." default="False" execute="moveMany" />
+			<groupaction menu="Move to Secondary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
 			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToDeck" />
 		</group>
@@ -279,7 +279,7 @@
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounter" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
-			<groupaction menu="Move to Secondary..." default="False" execute="moveMany" />
+			<groupaction menu="Move to another Deck" default="False" execute="moveMany" />
 		</group>
 		<group name="Encounter Discard Pile" visibility="all" ordered="True" icon="groups/dead.png" collapsed="False">
 			<groupaction menu="Shuffle into Encounter Deck" default="True" execute="moveAllToEncounter" />
@@ -288,7 +288,8 @@
 		<group name="Special" visibility="none" ordered="True" icon="groups/encounter.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
-			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
+			<groupaction menu="Move All to Encounter Deck and Shuffle" default="False" execute="moveAllToEncounter" />
+			<groupaction menu="Move All to Encounter Deck Top" default="False" execute="moveAllToEncounterTop" />
 			<groupaction menu="Move All to Encounter Deck Bottom" default="False" execute="moveAllToEncounterBottom" />
 			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounterSpecial" />
@@ -299,7 +300,8 @@
 		<group name="2nd Special" visibility="none" ordered="True" icon="groups/encounter2.png" collapsed="True">
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
-			<groupaction menu="Move All to Encounter Deck" default="False" execute="moveAllToEncounter" />
+			<groupaction menu="Move All to Encounter Deck and Shuffle" default="False" execute="moveAllToEncounter" />
+			<groupaction menu="Move All to Encounter Deck Top" default="False" execute="moveAllToEncounterTop" />
 			<groupaction menu="Move All to Encounter Deck Bottom" default="False" execute="moveAllToEncounterBottom" />
 			<groupaction menu="Swap with Encounter Deck" default="False" execute="swapWithEncounter" />
 			<groupaction menu="Reveal Top Card" default="True" execute="addEncounterSpecial" />
