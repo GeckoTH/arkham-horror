@@ -35,10 +35,9 @@ def makeListBonded(deck):
                     continue              
                 listBonded.extend(dic["bondedCode"])
     #Remove useless multiple bonded card and add only 1 bonded card
-    #Essence of the Dream
-    #Pendant of the Queen
     for idOne in limitedOneBondedCode:
         if idOne in listBonded:
             listBonded = filter(lambda card: card != idOne, listBonded)
             listBonded.append(idOne)
     return listBonded
+    

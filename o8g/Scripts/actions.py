@@ -570,8 +570,6 @@ def loadBasicWeaknesses(group, x = 0, y = 0):
     else:
         notify("{}'s Basic Weakness Deck already loaded.".format(me))
 
-
-
 # #Triggered event OnPlayerGlobalVariableChanged
 # #We use this to manage turn and phase management by tracking changes to the player "done" variable            
 def globalChanged(args):
