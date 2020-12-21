@@ -312,6 +312,12 @@ def specialDeck():
 def specialDiscard():
     return shared.piles['Special Discard Pile']
 
+def secondspecialDeck():
+    return shared.piles['2nd Special']
+
+def secondspecialDiscard():
+    return shared.piles['2nd Special Discard Pile']
+
 def agendaDeck():
     return shared.piles['Agenda']
 
@@ -563,7 +569,7 @@ def loadBasicWeaknesses(group, x = 0, y = 0):
         notify("{} loaded Basic Weakness Deck".format(me))
     else:
         notify("{}'s Basic Weakness Deck already loaded.".format(me))
-        
+
 # #Triggered event OnPlayerGlobalVariableChanged
 # #We use this to manage turn and phase management by tracking changes to the player "done" variable            
 def globalChanged(args):
@@ -1065,7 +1071,15 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         
         # Find any Permanent cards
         permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
-        
+       
+        # Create Bonded Card
+        listB = makeListBonded(me.deck)
+        if not listB:
+            me.piles['Sideboard'].collapsed = True
+        else:
+            for card in listB:
+                me.piles['Sideboard'].create(card)
+		
         # Move Investigators to the table
         newInvestigator = False
         investigator = filter(lambda card: card.Type == "Investigator", me.hand)
@@ -1404,7 +1418,11 @@ def discard(card, x=0, y=0):
         pile = locationDiscard()
     elif isChaosToken(card):
         pile = chaosBag()
-    else: #Last choice is player discard
+    #For specific case like Asset in encounter deck
+    elif not isPlayerCard(card):
+        pile = encounterDiscard()
+    else:
+	#Last choice is player discard
         pile = card.owner.piles['Discard Pile']
        
     who = pile.controller
@@ -1602,7 +1620,7 @@ def moveMany(group, count = None):
     if len(group) == 0: return
     mute()
     if count is None:
-        count = askInteger("Move how many cards to secondary deck?", 1)
+        count = askInteger("Move how many cards to another deck?", 1)
         if count is None or count <= 0: return
     
     moved = 0
@@ -1610,8 +1628,17 @@ def moveMany(group, count = None):
     if group == me.deck:
         pile = me.piles['Secondary Deck']
     else:
-        pile = specialDeck()
-    
+        choice_list = ['Special', '2nd Special']
+        color_list = ['#000000','#000000']
+        sets = askChoice("what is the arrival deck ?", choice_list, color_list)
+        # load all sets if window is closed
+        if sets == 0:
+            return
+        if sets == 1:
+            pile = specialDeck()
+        if sets == 2:
+            pile = secondspecialDeck()
+
     for c in group.top(count):
         c.moveTo(pile)
         moved += 1
@@ -1644,15 +1671,21 @@ def moveAllToEncounter(group):
             c.moveTo(encounterDeck())
         notify("{} moves all cards from {} to the Encounter Deck".format(me, group.name))
         shuffle(encounterDeck())
-        
+
+def moveAllToEncounterTop(group):
+    mute()
+    if confirm("Move all cards from {} to the top of the Encounter Deck?".format(group.name)):
+        for c in group:
+            c.moveTo(encounterDeck())
+            notify("{} moves all cards from {} to the top of the Encounter Deck".format(me, group.name))
+
 def moveAllToEncounterBottom(group):
     mute()
     if confirm("Move all cards from {} to the bottom of the Encounter Deck?".format(group.name)):
         for c in group:
             c.moveToBottom(encounterDeck())
-        notify("{} moves all cards from {} to the bottom of the Encounter Deck".format(me, group.name))
-
-
+            notify("{} moves all cards from {} to the bottom of the Encounter Deck".format(me, group.name))
+       
 def moveAllToSpecial(group):
     mute()
     if confirm("Shuffle all cards from {} to Special Deck?".format(group.name)):
@@ -1733,11 +1766,10 @@ def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 
     
 def moveToRemote (token, pile):
    token.moveTo(pile)	
-	
-    
-def drawXChaosTokens(player, group, x = 0, y = 0):
+
+def drawXChaosTokens(group, x = 0, y = 0):
     mute()
-    xChaosTokens = askInteger("Draw how many Chaos Tokens?", 1)
+    xChaosTokens = askInteger("Draw how many Chaos Tokens?", 3)
     if xChaosTokens == None: return
     
     for xTokens in range(0, xChaosTokens):
@@ -1748,7 +1780,7 @@ def drawXChaosTokens(player, group, x = 0, y = 0):
         else:
             remoteCall(chaosBag().controller, "drawChaosTokenForPlayer", [me,  chaosBag(), x, y, replace, (xTokens * 10), (xTokens * 10)])
 
-def drawAddChaosToken(player, group, x = 0, y = 0):
+def drawAddChaosToken(group, x = 0, y = 0):
     mute()
     num = 0
     for card in table: #find out how many Tokens there already are

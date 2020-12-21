@@ -117,7 +117,9 @@ def loadTable(group, x=0, y=0):
 			for player in tab['players']:
 				deserializePlayer(player)
 		
-		if "Setup.json" in filename:	
+		if "Setup.json" in filename:
+			shuffle(encounterDeck())
+			shuffle(specialDeck()) 
 			for cardT in table:
 				loadClues(cardT)
 		

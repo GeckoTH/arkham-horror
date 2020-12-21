@@ -398,7 +398,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="2"/>
-    <property name="Clues" value="3π"/>
+    <property name="Clues" value="3"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld."/>
     <property name="Text" value="η: Flip a clue on Yuggoth to its doom side. Draw 1 card."/>
@@ -422,7 +422,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="4"/>
-    <property name="Clues" value="1π"/>
+    <property name="Clues" value="1"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld."/>
     <property name="Text" value="Forced - After 1 or more doom is placed on a [β] enemy at City of the Unseen: Place 1 additional doom on that enemy."/>
