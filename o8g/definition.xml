@@ -19,6 +19,7 @@
 		<script src="scripts/basic_weakness.py" />
 		<script src="scripts/plugin.py" />
 		<script src="scripts/util.py" />
+		<script src="scripts/bonded.py" />
 	</scripts>
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>

@@ -4,65 +4,6 @@ import time
 import re
 from itertools import repeat
 
-sourceCard = [
-    #1 card = 3 bonded
-    "Hallowed Mirror",
-    "Occult Lexicon",
-    "The Hungering Blade",
-    "Nightmare Bauble",
-    "Miss Doyle",
-    #1 source card = 1 bonded card
-    "Gate Box",
-    "Crystallizer of Dreams",
-    "Empty Vessel",
-    "Stargazing",
-    "Summoned Hound",
-    #X source card = 1 bonded card
-    "Dream Diary",
-    "Segment of Onyx"
-    ]
-
-bondedCard = [
-    #1 card = 3 bonded
-    "Soothing Melody x3",
-    "Blood-Rite x3",
-    "Bloodlust x3",
-    "Dream Parasite x3",
-    "Hope,Zeal,Augur",
-    #1 source card = 1 bonded card
-    "Dream-Gate",
-    "Guardian of the Crystallizer ", 
-    "Wish Eater",
-    "The Stars Are Right",
-    "Unbound Beast",
-    #X source card = 1 bonded card
-    "Essence of the Dream",
-    "Pendant of the Queen"
-    ]
-
-bondedCode = [
-    ["13901510-7669-4e5c-ac27-71646b359818","13901510-7669-4e5c-ac27-71646b359818","13901510-7669-4e5c-ac27-71646b359818"],
-    ["d0f4baa1-b066-47a0-a43f-9160efe57818","d0f4baa1-b066-47a0-a43f-9160efe57818","d0f4baa1-b066-47a0-a43f-9160efe57818"],
-    ["e3011174-2b79-4108-855a-ff1d2bbe8b08","e3011174-2b79-4108-855a-ff1d2bbe8b08","e3011174-2b79-4108-855a-ff1d2bbe8b08"],
-    ["c5cb7f4a-968f-484c-860d-c8fcef53014b","c5cb7f4a-968f-484c-860d-c8fcef53014b","c5cb7f4a-968f-484c-860d-c8fcef53014b"],
-    ["9440540e-4099-44c4-b999-e967418b6a65","03c6452b-0fec-4a36-a460-7cf77fae1c55","61dba09d-09af-4b1e-932e-7f6cbb9df9fa"],
-    ["3330e3db-e28a-4901-a3bd-077c7aceeb7f"],
-    ["fdc478bd-9fd5-4f4a-8af1-5531118133d3"],
-    ["cc7a738c-f3dd-4871-a929-6fedf37cb854"],
-    ["a5a49067-7af2-48bd-9389-f2a45e0dded8"],
-    ["f03e3511-0a6c-4a83-8de9-2dda716d7775"],
-    ["0481911c-f906-40ee-acef-d4ad39c2d767"],
-    ["dc7600e3-a132-42b0-b96b-67ca0cee4aff"]
-    ]
-
-limitedOneBondedCode =[
-    "0481911c-f906-40ee-acef-d4ad39c2d767",
-    "dc7600e3-a132-42b0-b96b-67ca0cee4aff"
-    ]
-#Special Case Only 1 Version of Dream Diary have bonded card
-DreamDiary = {"name" : "Dream Diary", "subtitle" : "Untranslated"}
-
-
 Resource = ("Resource", "6eb6d990-007a-4f4d-b76c-b35685922b22")
 Damage = ("Damage", "3abb22bb-b259-4857-ae8f-f2cdf93de5e0")
 Clue = ("Clue", "33d9ed22-458b-4c7f-9901-5daf2fa43a23")
@@ -629,6 +570,8 @@ def loadBasicWeaknesses(group, x = 0, y = 0):
     else:
         notify("{}'s Basic Weakness Deck already loaded.".format(me))
 
+
+
 # #Triggered event OnPlayerGlobalVariableChanged
 # #We use this to manage turn and phase management by tracking changes to the player "done" variable            
 def globalChanged(args):
@@ -1115,25 +1058,6 @@ def doMythosPhase(setPhaseVar = True):
     for card in table:
         if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addDoom(card)
-
-def makeListBonded(deck):
-    mute()
-    listBonded = []
-    for deckcard in deck:
-        for sca, bca , bco in zip(sourceCard, bondedCard, bondedCode):
-            if sca == deckcard.Name:
-                #Filter Dream Diary with wrong subtitle
-                if deckcard.Name == DreamDiary["name"] and deckcard.Subtitle != DreamDiary["subtitle"]:
-                    continue              
-                listBonded.extend(bco)
-    #Remove useless multiple bonded card and add only 1 bonded card
-    #Essence of the Dream
-    #Pendant of the Queen
-    for idOne in limitedOneBondedCode:
-        if idOne in listBonded:
-            listBonded = filter(lambda card: card != idOne, listBonded)
-            listBonded.append(idOne)
-    return listBonded
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
