@@ -43,6 +43,14 @@ DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
 EliminatedColour = "#FF0000" # Red
+BlueColour = "#0C0CAD"
+OrangeColour = "#D68F00"
+GreenColour = "#046C06"
+PurpleColour = "#3B0A9D"
+RedColour = "#B80404"
+BlackColour = "#000000"
+WhiteColour = "#FFFFFF"
+
 showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
 
 def debug(str):
@@ -289,10 +297,6 @@ def clearTargets(group=table, x=0, y=0):
     for c in group:
         if c.controller == me or (c.targetedBy is not None and c.targetedBy == me):
             c.target(False)
-
-def clearHighlights(group=table, x=0, y=0):
-    for c in group: # Safe to do on all cards, not just ones we control
-        c.highlight = None
 
 def findCard(group, model):
     for c in group:
@@ -638,13 +642,11 @@ def isEnemy(cards):
 
 def turnManagementOn(group, x=0, y=0):
     mute()
-    setGlobalVariable("Automation", "Turn")
-    clearHighlights(group)
+    setGlobalVariable("Automation", "Turn") 
     
 def automationOff(group, x = 0, y = 0):
     mute()
     setGlobalVariable("Automation", "Off")
-    clearHighlights(group)
     notify("{} disables all turn management".format(me))
     
 def turnManagement():
@@ -1044,7 +1046,6 @@ def doUpkeepPhase(setPhaseVar = True):
                 card.alternate = ''
 
     shared.counters['Round'].value += 1
-    clearHighlights()
 
 def doMythosPhase(setPhaseVar = True):
     mute()
@@ -1935,9 +1936,31 @@ def lockAllPaths(group, x=0, y=0):
 def unlockAllPaths(group, x=0, y=0):
     for card in table:
         if card.Type == "Path":
-            card.anchor = False    
+            card.anchor = False 
 
+def blueHighlight(card, x=0 , y=0):
+    card.highlight = BlueColour
 
+def orangeHighlight(card, x=0 , y=0):
+    card.highlight = OrangeColour
+       
+def greenHighlight(card, x=0 , y=0):
+    card.highlight = GreenColour
+
+def purpleHighlight(card, x=0 , y=0):
+    card.highlight = PurpleColour
+
+def redHighlight(card, x=0 , y=0):
+    card.highlight = RedColour   
+
+def blackHighlight(card, x=0 , y=0):
+    card.highlight = BlackColour   
+
+def whiteHighlight(card, x=0 , y=0):
+    card.highlight = WhiteColour   
+
+def clearHighlight(card, x=0 , y=0):
+    card.highlight = None 
 
 
 # def captureDeck(group):
