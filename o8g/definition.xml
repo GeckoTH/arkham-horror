@@ -142,7 +142,6 @@
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />
-		<cardaction menu="Clear Highlights" default="False" shortcut="F10" execute="clearHighlights" />
 		<groupactions menu="Automation">
 			<groupaction menu="Advance Phase" default="False" shortcut="F12" execute="advancePhase" />
 			<groupaction menu="Create Chaos Bag" default="False" execute="createChaosBag" />
@@ -183,6 +182,16 @@
 		<cardaction menu="Lock" default="False" shortcut="ctrl+K" execute="lockCard" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<cardaction menu="Seal Token" default="False" execute="sealTokenCard" />
+		<cardactions menu="Highlight">
+			<cardaction menu="Blue Highlight" default="False" shortcut="ctrl+1" execute="blueHighlight" />
+			<cardaction menu="Orange Highlight" default="False" shortcut="ctrl+2" execute="orangeHighlight" />
+			<cardaction menu="Green Highlight" default="False" shortcut="ctrl+3" execute="greenHighlight" />
+			<cardaction menu="Purple Highlight" default="False" shortcut="ctrl+4" execute="purpleHighlight" />
+			<cardaction menu="Red Highlight" default="False" shortcut="ctrl+5" execute="redHighlight" />
+			<cardaction menu="Black Highlight" default="False" shortcut="ctrl+6" execute="blackHighlight" />
+			<cardaction menu="White Highlight" default="False" shortcut="ctrl+7" execute="whiteHighlight" />
+			<cardaction menu="Clear Highlight" default="False" shortcut="ctrl+0" execute="clearHighlight" />
+		</cardactions>
 		<groupactions menu="Path Markers">
 			<groupaction menu="Orthagonal on front side. Flip for diagonal." default="False" execute="" />
 			<groupseparator />
