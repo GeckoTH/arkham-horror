@@ -1194,6 +1194,8 @@ def defaultAction(card, x = 0, y = 0):
         addToken(card, Action)
     elif card.Type == "Campaign": #Add a progress token
         flipcard(card, x, y)
+    elif card.Name == "Flood Token": #Flip flood token
+        flipcard(card, x, y)
     else:
         exhaust(card, x, y)
         
