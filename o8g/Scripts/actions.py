@@ -816,20 +816,6 @@ def updateBlessCurse():
     cb.markers[Curse] = c
     cb.markers[Bless] = b
 
-def findChaosBag():
-#Find ChaosBag
-    cb = None
-    for card in table:
-        if card.name != "ChaosBag":
-            continue
-        cb = card
-        break
-    if cb == None:
-        notify("You need a Chaos Bag first.")
-        return       
-    else:
-        return cb
-       
 def addBlessCurse(group, isBless, who=me):
     mute()
     if chaosBag().controller != me:
@@ -837,10 +823,17 @@ def addBlessCurse(group, isBless, who=me):
         return
 
     #Find ChaosBag
-    cb = findChaosBag()
+    cb = None
+    for card in table:
+        if card.name != "ChaosBag":
+            continue
+        cb = card
+        break
+
     if cb == None:
+        notify("You need a Chaos Bag first.")
         return
-    
+
     #check current Tokens in Bag
     updateBlessCurse()
     if ((cb.markers[Bless] >= 10) and isBless) or ((cb.markers[Curse] >= 10) and not isBless):
@@ -1750,12 +1743,6 @@ def drawPileToTable(player, group, x, y):
     return card
     
 def drawChaosToken(group, x = 0, y = 0):
-
-    #Find ChaosBag
-    cb = findChaosBag()
-    if cb == None:
-        return
-        
     drawChaosTokenForPlayer(me, group, x, y)  
 
 
@@ -1783,12 +1770,6 @@ def moveToRemote (token, pile):
 
 def drawXChaosTokens(group, x = 0, y = 0):
     mute()
-
-    #Find ChaosBag
-    cb = findChaosBag()
-    if cb == None:
-        return
-
     xChaosTokens = askInteger("Draw how many Chaos Tokens?", 3)
     if xChaosTokens == None: return
     
@@ -1802,12 +1783,6 @@ def drawXChaosTokens(group, x = 0, y = 0):
 
 def drawAddChaosToken(group, x = 0, y = 0):
     mute()
-
-    #Find ChaosBag
-    cb = findChaosBag()
-    if cb == None:
-        return
-
     num = 0
     for card in table: #find out how many Tokens there already are
         if card.Type == "Chaos Token":
@@ -1986,6 +1961,7 @@ def whiteHighlight(card, x=0 , y=0):
 
 def clearHighlight(card, x=0 , y=0):
     card.highlight = None 
+
 
 # def captureDeck(group):
 #   if len(group) == 0: return
