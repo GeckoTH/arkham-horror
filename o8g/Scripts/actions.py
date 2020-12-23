@@ -813,6 +813,7 @@ def updateBlessCurse():
             continue
         cb = card
         break
+    if (cb == None): return     
     cb.markers[Curse] = c
     cb.markers[Bless] = b
 
