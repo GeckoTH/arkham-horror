@@ -1377,8 +1377,6 @@ def markerChanged(args):
             card.highlight = EliminatedColour
         else:
             card.highlight = None
-    else:
-        card.highlight = None
 
 def lockCard(card, x=0, y=0):
     mute()
