@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Horror in High Gear" id="8b018c14-1ac5-4242-86a3-c85644e7deba" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="37baa1e9-16a8-44f7-a347-f837b9b97061" name="Enchanted Armor">
+      <property name="Card Number" value="189" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Armor." />
+      <property name="Text" value="Play Enchanted Armor under the control of any investigator at your location.&#10;Forced – After damage and/or horror is placed on Enchanted Armor: The owner of Enchanted Armor tests ά (X), where X is the total amount of damage and horror on it. If the test fails, discard Enchanted Armor and assign the damage and/or horror just placed on it elsewhere." />
+      <property name="Health" value="*" />
+      <property name="Sanity" value="*" />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Body, Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e45df990-5a11-4704-8382-e59364fd2904" name="Blessing of Isis">
+      <property name="Card Number" value="190" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Blessed." />
+      <property name="Text" value="ι When a second [Bless] token is revealed during a single skill test at your location, exhaust Blessing of Isis: Cancel that token and treat it as if it were a ε token instead. Return both of those tokens to the chaos bag after this test ends." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="dfe45754-dd05-4325-acb8-d309bb9fde65" name="Cryptic Grimoire">
+      <property name="Card Number" value="191" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Text of the Elder Herald" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Cursed." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Cryptic Grimoire (Untranslated), and only if “you have translated the grimoire” in your Campaign Log.ι After you resolve 1 or more [Curse] tokens during a skill test: Place that many secrets on Cryptic Grimoire.ι When you play an Insight event during your turn, spend 2 secrets: That event gains fast. Reduce its cost by 1." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2359bc0f-5815-4b52-b35d-1e8dcc345349" name="Cryptic Grimoire">
+      <property name="Card Number" value="192" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Text of the Elder Guardian" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Blessed." />
+      <property name="Text" value="You can only include this asset in your deck by upgrading it from Cryptic Grimoire (Untranslated), and only if “you have translated the grimoire” in your Campaign Log.ι After you resolve 1 or more [Curse] tokens during a skill test: Place that many secrets on Cryptic Grimoire.ι When you would draw the top card of the encounter deck, spend 5 secrets: Draw a card from your deck instead." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="82043280-dd19-41d7-aa8b-6e383058833c" name="Ríastrad">
+      <property name="Card Number" value="193" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Spirit. Cursed." />
+      <property name="Text" value="Fight. When you initiate this attack, add up to 3 [Curse] tokens to the chaos bag. For each [Curse] token added to the chaos bag in this way, you get +1 ή and deal +1 damage for this attack." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="0" />
+      <property name="Combat" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b350b447-be92-4ad3-9c56-525453073f21" name="Tristan Botley">
+      <property name="Card Number" value="194" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Criminal. Cursed." />
+      <property name="Text" value="ι After your turn begins: Choose two skills. Until the start of your next turn, you get +1 to each of those skills.&#10;ι After any skill test ends in which a total of 3 or more [Curse] or [Bless] tokens were revealed: Play Tristan Botley from your hand, at no cost." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="5" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c1f46b8c-91d0-4764-9d52-bb5325ebabb7" name="Curse of Aeons">
+      <property name="Card Number" value="195" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Cursed." />
+      <property name="Text" value="ι When a second [Curse] token is revealed during a single skill test at your location, exhaust Curse of Aeons: Cancel that token and treat it as if it were a α token instead. You may choose to remove both of those tokens from the chaos bag after the test ends." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3c02a162-e627-45e9-8d90-5c7b20234271" name="Unrelenting">
+      <property name="Card Number" value="196" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced." />
+      <property name="Text" value="Max 1 committed per test.&#10;After you commit Unrelenting to a skill test, search the chaos bag for up to 3 non-ζ chaos tokens of your choice, and seal them on Unrelenting. If all 3 tokens sealed on Unrelenting are “+1,” “0,” [Bless], and/or ε tokens, draw 2 cards. Release all tokens sealed here after this test ends." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="069e664e-0e0f-457b-aa50-e3f0c8735359" name="Signum Crucis">
+      <property name="Card Number" value="197" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced. Blessed." />
+      <property name="Text" value="Commit only to a skill test you are performing, and only if the difficulty of that test is higher than your base skill value.&#10;After you commit Signum Crucis to a skill test, add X [Bless] tokens to the chaos bag. X is the difference between the test's difficulty and your base skill value." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="04f948de-7ecd-4518-baab-436377114b48" name="Horror in High Gear" size="EncounterCard">
+      <property name="Card Number" value="198" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 (–3 instead if there are 6 or fewer locations remaining in the Road deck).&#10;β: –1. For each point you fail by, an investigator in your vehicle places 1 of their clues on your location.&#10;γ: –2. For each point you fail by, an investigator in your vehicle loses 1 resource.&#10;δ: –4. If you fail, resolve the hunter keyword on each enemy in play." />
+      <alternate name="Horror in High Gear" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –2 (–4 instead if there are 6 or fewer locations remaining in the Road deck).&#10;β: –2. For each point you fail by, an investigator in your vehicle places 1 of their clues on your location.&#10;γ: –3. For each point you fail by, an investigator in your vehicle loses 1 resource.&#10;δ: –4. Resolve the hunter keyword on each enemy in play." />
+      </alternate>
+    </card>
+    <card id="daa17b3d-ea60-4902-add6-938e8098a90b" name="The Chase is On! (v. I)" size="HorizCard">
+      <property name="Card Number" value="199" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="As an additional cost for you to move while not in a vehicle, you must spend 2 actions.&#10;Forced – At the end of the round: Starting with the rearmost location, set each location with no vehicles, enemies, or investigators aside, out of play (or add it to the victory display if it has Victory X and has no clues on it). Stop when you reach a location with at least 1 vehicle, enemy, or investigator; or the location behind the rearmost investigator." />
+      <property name="Doom" value="8" />
+      <alternate name="The Terror of Devil Reef" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Subtitle" value="Relentless Monstrosity" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Monster. Elite." />
+        <property name="Text" value="Spawn – Rearmost location.&#10;Hunter. Massive. Retaliate.&#10;Forced – When The Terror of Devil Reef would be defeated: Instead, remove all damage from it and exhaust it. It cannot ready for the remainder of the round." />
+        <property name="Health" value="6" />
+        <property name="Combat" value="3" />
+        <property name="Agility" value="3" />
+        <property name="Unique" value="ο" />
+        <property name="Damage" value="2" />
+        <property name="Horror" value="2" />
+      </alternate>
+    </card>
+    <card id="028cf9d5-4ef4-4711-a4d4-7c7f691cff46" name="The Chase is On! (v. II)" size="HorizCard">
+      <property name="Card Number" value="200" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="As an additional cost for you to move while not in a vehicle, you must spend 2 actions.&#10;Forced – At the end of the round: Starting with the rearmost location, set each location with no vehicles, enemies, or investigators aside, out of play (or add it to the victory display if it has Victory X and has no clues on it). Stop when you reach a location with at least 1 vehicle, enemy, or investigator; or the location behind the rearmost investigator." />
+      <property name="Doom" value="8" />
+      <alternate name="Just Our Luck" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Flip over each vehicle that is running, so that it is stopped.&#10;Shuffle the encounter discard pile into the encounter deck. If there are 3 or 4 investigators in the game, discard cards from the top of the encounter deck until a Vehicle enemy or Malfunction treachery is discarded. The lead investigator draws that card." />
+      </alternate>
+    </card>
+    <card id="fffe6f48-42db-41bf-95ef-5c5a854ddf9b" name="Hot Pursuit" size="HorizCard">
+      <property name="Card Number" value="201" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="As an additional cost for you to move while not in a vehicle, you must spend 2 actions.&#10;Forced – At the end of the round: Starting with the rearmost location, set each location with no vehicles, enemies, or investigators aside, out of play (or add it to the victory display if it has Victory X and has no clues on it). Stop when you reach a location with at least 1 vehicle, enemy, or investigator; or the location behind the rearmost investigator." />
+      <property name="Doom" value="9" />
+      <alternate name="Out of Gas" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each investigator is defeated and suffers 1 physical trauma." />
+      </alternate>
+    </card>
+    <card id="a54d416b-abca-400d-8d65-68ca53e8eb02" name="Pedal to the Metal" size="HorizCard">
+      <property name="Card Number" value="202" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each enemy gains hunter.&#10;Forced – At the end of each investigation phase: Each vehicle that is running must move to a connecting Road location of the driver’s choice.&#10;Objective – Drive to Falcon Point as fast as you can! (You will be instructed when to advance.)" />
+      <property name="Clues" value="–" />
+      <alternate name="Safe at Last?" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="8de94010-a9fc-4510-a8ae-bbd4411515ca" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="203" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Falcon Point Approach" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Objective – If each undefeated investigator is at Falcon Point Approach, advance." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="fc6e6432-73c1-4706-a5f8-fa15db232c55" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="204" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Dimly Lit Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 1 clue for each investigator in that vehicle. For each clue they could not spend, an investigator in that vehicle takes 2 horror. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="abcbcb72-29d8-4fa6-b5fa-320260b065ca" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="204" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Dimly Lit Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 2 clues for each investigator in that vehicle. For each clue they could not spend, an investigator in that vehicle takes 1 horror. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="6d03208a-ff4a-4328-a0b4-bef442c63dfd" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="204" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Dimly Lit Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 2 clues for each investigator in that vehicle. For each clue they could not spend, an investigator in that vehicle takes 2 horror. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="34e47fdb-56d2-4bbb-8425-c93eaca22b63" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="205" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Cliffside Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 2 clues for each investigator in that vehicle. If they cannot, the vehicle’s driver tests ά (X) or ί (X), where X is the number of clues they could not spend. If the driver fails, their vehicle is removed from the game and each investigator in that vehicle takes 10 damage. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="456278af-ca0f-4e4a-987c-84e5ae8eee16" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="205" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Cliffside Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 2 clues for each investigator in that vehicle. If they cannot, the vehicle’s driver tests ά (X) or ί (X), where X is the number of clues they could not spend. If the driver fails, their vehicle is removed from the game and each investigator in that vehicle takes 10 damage. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="3π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="ec2de604-f0f4-4807-8777-c881a6969ff8" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="206" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Fork in the Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 2.&#10;θ Investigators at this location spend 1π clues, as a group: Look at the revealed side of any location ahead of this one." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="42fc3b2f-287a-4e41-a4d0-399de5c3d6d9" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="206" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Fork in the Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 2.&#10;θ Investigators at this location spend 1π clues, as a group: Look at the revealed side of any location ahead of this one." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="d0887736-6213-472c-811b-611bbe6c144c" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="207" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Intersection" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 3.&#10;θ Investigators at this location spend 1π clues, as a group: Look at the revealed side of any location ahead of this one." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="6bf1c12a-b111-4a17-99b2-510f2c9a351f" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="207" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Intersection" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 3.&#10;θ Investigators at this location spend 1π clues, as a group: Look at the revealed side of any location ahead of this one." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="ca5035f2-50ca-4c21-bba6-f97f1d1d4362" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="208" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Tight Turn" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 1 clue for each investigator in that vehicle. For each clue they could not spend, an investigator in that vehicle takes 2 damage. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="00db9cf5-65ed-4b77-8003-0f3099948d0e" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="208" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Tight Turn" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 2 clues for each investigator in that vehicle. For each clue they could not spend, an investigator in that vehicle takes 1 damage. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="27635cc6-fde3-4bcc-9e76-47469f7f5915" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="208" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Tight Turn" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 2 clues for each investigator in that vehicle. For each clue they could not spend, an investigator in that vehicle takes 2 damage. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="b3591360-a8a4-4802-b6c9-c0906fc0fa8f" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="209" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Desolate Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 2 clues for each investigator in that vehicle. If they cannot, discard cards from the top of the encounter deck until a Vehicle enemy is discarded and spawn that enemy at Desolate Road. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="b85f2e4d-f312-4f54-8022-ec1ea3e3d736" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="209" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Desolate Road" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – When a vehicle leaves this location: Investigators at this location, as a group, must spend 1 clue for each investigator in that vehicle. If they cannot, discard cards from the top of the encounter deck until a Vehicle enemy is discarded and spawn that enemy at Desolate Road. (Limit once per game for each vehicle.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="d639d419-fe97-4a33-ae5f-23583e7d9106" name="Old Innsmouth Road" size="EncounterCard">
+      <property name="Card Number" value="210" />
+      <property name="Quantity" value="6" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Road." />
+      <alternate name="Long Way Around" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Road." />
+        <property name="Text" value="Road 1.&#10;Forced – After a vehicle enters Long Way Around: Place 1 doom on the current agenda (this may cause the current agenda to advance). That vehicle cannot leave Long Way Around until the end of the next round." />
+      </alternate>
+    </card>
+    <card id="be3395c6-59c3-4b11-8167-8eb2a248df33" name="Thomas Dawson’s Car">
+      <property name="Card Number" value="211" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Subtitle" value="Running" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Vehicle." />
+      <property name="Text" value="Vehicle. Limit 2 investigators in this vehicle.&#10;This vehicle is running. Investigators cannot enter or leave it.&#10;η If you are this vehicle’s driver: Draw the top card of the encounter deck. Then, move this vehicle to a connecting Road location. (Max once per round.)&#10;η If you are this vehicle’s driver: You stop the car. Flip this vehicle over." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="Thomas Dawson’s Car" type="B">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Subtitle" value="Stopped" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Vehicle." />
+        <property name="Text" value="Vehicle. Limit 2 investigators in this vehicle.&#10;This vehicle is stopped.&#10;η If you are this vehicle’s driver: You start the car. Flip this vehicle over." />
+        <property name="Class" value="Neutral" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="52c12368-12c7-4910-a172-9f3ad5dd63f7" name="Elina Harper’s Car">
+      <property name="Card Number" value="212" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Subtitle" value="Running" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Vehicle." />
+      <property name="Text" value="Vehicle. Limit 2 investigators in this vehicle.&#10;This vehicle is running. Investigators cannot enter or leave it.&#10;η If you are this vehicle’s driver: Draw the top card of the encounter deck. Then, move this vehicle to a connecting Road location. (Max once per round.)&#10;η If you are this vehicle’s driver: You stop the car. Flip this vehicle over." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="Elina Harper’s Car" type="B">
+        <property name="Encounter Set" value="Horror in High Gear" />
+        <property name="Subtitle" value="Stopped" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Vehicle." />
+        <property name="Text" value="Vehicle. Limit 2 investigators in this vehicle.&#10;This vehicle is stopped.&#10;η If you are this vehicle’s driver: You start the car. Flip this vehicle over." />
+        <property name="Class" value="Neutral" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="3de80f3a-b396-45d9-8ac2-00ece0b3be7c" name="Pursuing Motorcar" size="EncounterCard">
+      <property name="Card Number" value="213" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Vehicle. Humanoid. Cultist." />
+      <property name="Text" value="Spawn – Rearmost location.&#10;Hunter.&#10;Forced – When Pursuing Motorcar attacks you, if you are not in a vehicle: It deals +2 damage for this attack.&#10;Forced – When Pursuing Motorcar attacks an investigator in a vehicle: It attacks each other investigator in that vehicle, as well." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="749d1376-1d79-4486-b4c7-a69d341893e0" name="Hit Van" size="EncounterCard">
+      <property name="Card Number" value="214" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Vehicle. Humanoid. Cultist." />
+      <property name="Text" value="Spawn – Rearmost location.&#10;Hunter. Retaliate.&#10;Hit Van cannot attack during the same phase it moved via its hunter keyword." />
+      <property name="Health" value="5" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="ce2776e9-9dde-447a-bea8-9a57fb71a950" name="Hybrid Assassin" size="EncounterCard">
+      <property name="Card Number" value="215" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Vehicle. Humanoid. Hybrid." />
+      <property name="Text" value="Hunter.&#10;Forced – After Hybrid Assassin moves via its hunter keyword, if it is unengaged: Resolve its hunter keyword again. (Limit once per round.)" />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="a97a274f-ac7d-47a6-871b-e788ac51d3ec" name="Bumpy Ride" size="EncounterCard">
+      <property name="Card Number" value="216" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – If you are...&#10;–...not in a vehicle, test ί (5). If you fail, take 3 damage.&#10;–...in a vehicle, that vehicle’s driver tests ί (3). If the driver fails, each investigator in your vehicle takes 2 damage." />
+    </card>
+    <card id="9217c00d-0e55-40b9-9c8b-7413ba31f3fd" name="“I can’t see!”" size="EncounterCard">
+      <property name="Card Number" value="217" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – If you are...&#10;–...not in a vehicle, test ά (5). If you fail, take 3 horror.&#10;–...in a vehicle, that vehicle’s driver tests ά (3). If the driver fails, each investigator in your vehicle takes 2 horror." />
+    </card>
+    <card id="4420aa92-0d2a-4515-bb69-cfee768d36a0" name="Eyes in the Trees" size="EncounterCard">
+      <property name="Card Number" value="218" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Test ά (4). If you fail, you must either discard an asset you control, or discard 1 card from your hand for each point you failed by. If you fail and you are in a vehicle, each other investigator in your vehicle must also resolve this effect as if they had just failed." />
+    </card>
+    <card id="091e6f7b-bc0f-4c01-a0d6-004c3c728dab" name="“They’re catching up!”" size="EncounterCard">
+      <property name="Card Number" value="219" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Horror in High Gear" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Resolve the hunter keyword on each enemy in play. If no enemies move as a result of this effect, discard cards from the top of the encounter deck until a Vehicle enemy is discarded and spawn that enemy at the rearmost location." />
+    </card>
+  </cards>
+</set>
