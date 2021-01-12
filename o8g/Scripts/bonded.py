@@ -21,18 +21,12 @@ limitedOneBondedCode =[
     "dc7600e3-a132-42b0-b96b-67ca0cee4aff"
     ]
 
-#Special Case Only 1 Version of Dream Diary have bonded card
-DreamDiary = {"name" : "Dream Diary", "subtitle" : "Untranslated"}
-
 def makeListBonded(deck):
     mute()
     listBonded = []
     for deckcard in deck:
         for dic in Bonded:
-            if dic["sourceCard"] == deckcard.Name:
-                #Filter Dream Diary with wrong subtitle
-                if deckcard.Name == DreamDiary["name"] and deckcard.Subtitle != DreamDiary["subtitle"]:
-                    continue              
+            if dic["sourceCard"] == deckcard.Name:             
                 listBonded.extend(dic["bondedCode"])
     #Remove useless multiple bonded card and add only 1 bonded card
     for idOne in limitedOneBondedCode:
