@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="daa17b3d-ea60-4902-add6-938e8098a90b">The Chase is On! (v. I)</card>
+    <card qty="1" id="028cf9d5-4ef4-4711-a4d4-7c7f691cff46">The Chase is On! (v. II)</card>
+    <card qty="1" id="fffe6f48-42db-41bf-95ef-5c5a854ddf9b">Hot Pursuit</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="a54d416b-abca-400d-8d65-68ca53e8eb02">Pedal to the Metal</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="3de80f3a-b396-45d9-8ac2-00ece0b3be7c">Pursuing Motorcar</card>
+    <card qty="2" id="749d1376-1d79-4486-b4c7-a69d341893e0">Hit Van</card>
+    <card qty="2" id="ce2776e9-9dde-447a-bea8-9a57fb71a950">Hybrid Assassin</card>
+    <card qty="2" id="a97a274f-ac7d-47a6-871b-e788ac51d3ec">Bumpy Ride</card>
+    <card qty="2" id="9217c00d-0e55-40b9-9c8b-7413ba31f3fd">“I can’t see!”</card>
+    <card qty="2" id="4420aa92-0d2a-4515-bb69-cfee768d36a0">Eyes in the Trees</card>
+    <card qty="2" id="091e6f7b-bc0f-4c01-a0d6-004c3c728dab">“They’re catching up!”</card>
+    <card qty="1" id="24740cd0-b6d1-4852-82da-f66c110d7ff3">Winged One</card>
+    <card qty="2" id="08367391-a0dc-4710-8c36-e3aa7e8dd043">Fog over Innsmouth</card>
+    <card qty="2" id="b03235f6-2ff4-4a81-8348-10aca8cfefcf">Malfunction</card>
+    <card qty="2" id="88c75882-60c7-471e-9662-40ff8b69377a">Macabre Memento</card>
+    <card qty="2" id="0a0fe2b2-14dc-4817-9db8-0cfa27a9e1e2">Fractured Consciousness</card>
+    <card qty="2" id="ae97a872-d519-4038-b23f-907bf712047e">Memory of Oblivion</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="fc6e6432-73c1-4706-a5f8-fa15db232c55">Old Innsmouth Road</card>
+    <card qty="1" id="abcbcb72-29d8-4fa6-b5fa-320260b065ca">Old Innsmouth Road</card>
+    <card qty="1" id="6d03208a-ff4a-4328-a0b4-bef442c63dfd">Old Innsmouth Road</card>
+    <card qty="1" id="34e47fdb-56d2-4bbb-8425-c93eaca22b63">Old Innsmouth Road</card>
+    <card qty="1" id="456278af-ca0f-4e4a-987c-84e5ae8eee16">Old Innsmouth Road</card>
+    <card qty="1" id="ec2de604-f0f4-4807-8777-c881a6969ff8">Old Innsmouth Road</card>
+    <card qty="1" id="42fc3b2f-287a-4e41-a4d0-399de5c3d6d9">Old Innsmouth Road</card>
+    <card qty="1" id="d0887736-6213-472c-811b-611bbe6c144c">Old Innsmouth Road</card>
+    <card qty="1" id="6bf1c12a-b111-4a17-99b2-510f2c9a351f">Old Innsmouth Road</card>
+    <card qty="1" id="ca5035f2-50ca-4c21-bba6-f97f1d1d4362">Old Innsmouth Road</card>
+    <card qty="1" id="00db9cf5-65ed-4b77-8003-0f3099948d0e">Old Innsmouth Road</card>
+    <card qty="1" id="27635cc6-fde3-4bcc-9e76-47469f7f5915">Old Innsmouth Road</card>
+    <card qty="1" id="b3591360-a8a4-4802-b6c9-c0906fc0fa8f">Old Innsmouth Road</card>
+    <card qty="1" id="b85f2e4d-f312-4f54-8022-ec1ea3e3d736">Old Innsmouth Road</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="6" id="d639d419-fe97-4a33-ae5f-23583e7d9106">Old Innsmouth Road</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="04f948de-7ecd-4518-baab-436377114b48">Horror in High Gear</card>
+    <card qty="1" id="8de94010-a9fc-4510-a8ae-bbd4411515ca">Old Innsmouth Road</card>
+    <card qty="1" id="be3395c6-59c3-4b11-8167-8eb2a248df33">Thomas Dawson’s Car</card>
+    <card qty="1" id="52c12368-12c7-4910-a172-9f3ad5dd63f7">Elina Harper’s Car</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
