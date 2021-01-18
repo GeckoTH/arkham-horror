@@ -642,8 +642,7 @@
     <property name="Skill Icons" value="ή"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
-    <property name="Keywords" value="Uses (3 ammo)."/>
-    <property name="Text" value="η Spend 1 ammo: Fight. You get +2 ή for this attack. If you suceed by 2 or more, this attack deals +1 damage."/>
+    <property name="Text" value="Uses (3 ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. If you suceed by 2 or more, this attack deals +1 damage."/>
   </card>
   <card id="89983a3c-db1a-4e3e-8d86-361853e37c66" name="Leo De Luca">
     <property name="Card Number" value="48"/>
