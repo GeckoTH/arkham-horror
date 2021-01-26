@@ -329,7 +329,8 @@
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Bootlegger's Hideaway" type="B" size="EncounterCard">
-        <property name="Type" value="Location" />
+        <property name="Encounter Set" value="Devil’s Reef" />
+		<property name="Type" value="Location" />
         <property name="Traits" value="Cave." />
         <property name="Text" value="Forced – After Bootlegger’s Hideaway is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Bootlegger’s Hideaway without looking at it.&#10;η If you control the white key: Draw 3 cards. (Group limit once per game.)" />
         <property name="Shroud" value="4" />
@@ -343,6 +344,7 @@
       <property name="Type" value="Location" />
       <property name="Traits" value="Cave." />
       <alternate name="Bootlegger's Hideaway" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave." />
         <property name="Text" value="Forced – After Bootlegger’s Hideaway is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Bootlegger’s Hideaway without looking at it.&#10;η If you control the black key: Gain 5 resources. (Group limit once per game.)" />

@@ -203,7 +203,7 @@
     <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
-    <property name="Doom" value="2"/>
+    <property name="Doom" value="2π"/>
     <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
     <alternate name="Dark Ritual" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
@@ -223,7 +223,7 @@
     <property name="Level" value="2"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
-    <property name="Doom" value="2"/>
+    <property name="Doom" value="2π"/>
     <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
     <alternate name="Oathbreaking" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
@@ -243,7 +243,7 @@
     <property name="Level" value="3"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
-    <property name="Doom" value="3"/>
+    <property name="Doom" value="3π"/>
     <property name="Text" value="Do not add doom to this agenda during the Mythos phase.&#10;Forced - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side."/>
     <alternate name="The Way Forward" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
@@ -262,7 +262,7 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="2"/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <alternate name="Late-Night Studies" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
@@ -281,7 +281,7 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="2"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="2"/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <alternate name="Secret Passageways" size="HorizCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
@@ -290,7 +290,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="For each revealed Historical Society location, add 1 [per_investigator] clues to it (to a maximum of its clue value).&#10;Choose an investigator to take control of the set-aside Mr. Peabody asset.&#10;Put the set-aside Hidden Library location into play."/>
+      <property name="Text" value="For each revealed Historical Society location, add 1π clues to it (to a maximum of its clue value).&#10;Choose an investigator to take control of the set-aside Mr. Peabody asset.&#10;Put the set-aside Hidden Library location into play."/>
     </alternate>
   </card>
   <card id="2c12ad8f-8b49-43e3-9481-eae4c5704b39" name="The Oath" size="HorizCard">
@@ -300,7 +300,7 @@
     <property name="Type" value="Act"/>
     <property name="Level" value="3"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="3"/>
+    <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Locations with the Passageway trait are connected to one another.&#10;Objective - Only investigators in the Hidden Library may spend the requisite number of clues, as a group, to advance."/>
     <alternate name="The Clasp" size="HorizCard" type="B">
@@ -348,7 +348,7 @@
       <property name="Subtitle" value="Meeting Room"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ground Floor."/>
       <property name="Text" value="η Exhaust an Ally asset: Discover a clue at this location. (Limit once per round.)"/>
@@ -369,7 +369,7 @@
       <property name="Subtitle" value="Record Office"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ground Floor."/>
       <property name="Text" value="Each enemy at this location gets +1 fight and +1 evade."/>
@@ -390,7 +390,7 @@
       <property name="Subtitle" value="Historical Museum"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Ground Floor."/>
       <property name="Text" value="While investigating this location, your έ cannot be modified."/>
@@ -431,7 +431,7 @@
       <property name="Subtitle" value="Historical Museum"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Second Floor."/>
       <property name="Text" value="While investigating this location, your έ cannot be modified."/>
@@ -452,7 +452,7 @@
       <property name="Subtitle" value="Historical Library"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Second Floor. Passageway."/>
       <property name="Text" value="ι After you successfully investigate this location, take 2 horror: Discover 1 clue at this location. (Limit once per round)."/>
@@ -473,7 +473,7 @@
       <property name="Subtitle" value="Reading Room"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="5"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Second Floor."/>
       <property name="Text" value="η: Investigate. If you succeed, instead of discovering clues, choose an enemy with doom on it. Take 1 of that enemy's doom, flip it to its clue side, and place it on your investigator. (Group limit once per round)."/>
@@ -514,7 +514,7 @@
       <property name="Subtitle" value="Historical Library"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Third Floor. Passageway."/>
       <property name="Text" value="ι After you successfully investigate this location, take 2 horror: Discover 1 clue at this location. (Limit once per round)."/>
@@ -535,7 +535,7 @@
       <property name="Subtitle" value="Peabody's Office"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Third Floor. Passageway."/>
       <property name="Text" value="While an investigator at this location controls Mr. Peabody, this location gets -2 shroud."/>
@@ -556,7 +556,7 @@
       <property name="Subtitle" value="Record Office"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Third Floor."/>
       <property name="Text" value="Each enemy at this location gets +1 fight and +1 evade."/>
@@ -575,7 +575,7 @@
       <property name="Encounter Set" value="Echoes of the Past"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="3"/>
+      <property name="Clues" value="3π"/>
       <property name="Doom" value=""/>
       <property name="Victory Points" value="2"/>
       <property name="Text" value="While an enemy is moving, Hidden Library gains the Passageway trait."/>
