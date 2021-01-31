@@ -41,23 +41,6 @@
       <property name="Text" value="Forced - After Baleful Reveler moves from the hunter keyword, reveal a random token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, resolve its hunter keyword again. (Limit once per round.)"/>
     </alternate>
   </card>
-  <card id="0bcfe5c2-2bfe-4d94-89bb-e57e45c06a1d" name="Baleful Reveler" size="EncounterCard">
-    <property name="Card Number" value="2"/>
-    <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="Carnevale of Horrors"/>
-    <property name="Subtitle" value="Spreading Chaos"/>
-    <property name="Unique" value="ο"/>
-    <property name="Type" value="Enemy"/>
-    <property name="Combat" value="4"/>
-    <property name="Agility" value="3"/>
-    <property name="Health" value="5"/>
-    <property name="Damage" value="2"/>
-    <property name="Horror" value="2"/>
-    <property name="Victory Points" value="2"/>
-    <property name="Traits" value="Humanoid. Cultist. Elite."/>
-    <property name="Keywords" value="Spawn - The nearest location with no investigators counter-clockwise from the lead investigator.Hunter. Retaliate."/>
-    <property name="Text" value="Forced - After Baleful Reveler moves from the hunter keyword, reveal a random token from the chaos bag. If you reveal a α, β, γ, δ, or ζ symbol, resolve its hunter keyword again. (Limit once per round.)"/>
-  </card>
   <card id="5fb3f545-1b74-4cca-82bf-70044c777233" name="The Shadow of the Eclipse" size="HorizCard">
     <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
@@ -137,17 +120,6 @@
       <property name="Text" value="Revelation - Put Gondola into play and move each investigator to it. Then, remove all other locations from the game. Remove from the game each enemy and asset at those locations, as well.&#10;η: Test ή or ί (2) to row as hard as you can. If you succeed, place 1 resource from the token bank on this location."/>
     </alternate>
   </card>
-  <card id="f5a94be0-46b8-4421-ae5d-e78f69f5e752" name="Gondola" size="EncounterCard">
-    <property name="Card Number" value="6"/>
-    <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="Carnevale of Horrors"/>
-    <property name="Type" value="Location"/>
-    <property name="Shroud" value="5"/>
-    <property name="Clues" value="0"/>
-    <property name="Doom" value=""/>
-    <property name="Traits" value="Venice. Boat."/>
-    <property name="Text" value="Revelation - Put Gondola into play and move each investigator to it. Then, remove all other locations from the game. Remove from the game each enemy and asset at those locations, as well.&#10;η: Test ή or ί (2) to row as hard as you can. If you succeed, place 1 resource from the token bank on this location."/>
-  </card>
   <card id="251a1d13-d6df-44d8-b7f9-1e9530cd9aa0" name="Row!" size="HorizCard">
     <property name="Card Number" value="7"/>
     <property name="Quantity" value="1"/>
@@ -165,6 +137,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
+      <property name="Text" value="(->R1)"/>
     </alternate>
   </card>
   <card id="f8ed894a-eb07-4aaa-8f9b-c75c54fda205" name="San Marco Basilica" size="EncounterCard">
@@ -261,7 +234,7 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="Venetian Garden is connected to the location in the clockwise direction.&#10;ηη Spend 2 resources: Heal 2 horror. (Limit once per game.)"/>
@@ -301,7 +274,7 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="4"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="Flooded Square is connected to the location in the clockwise direction.&#10;η: Automatically evade a non-Elite enemy at the location in the counter-clockwise direction. (Group limit once per turn.)"/>
@@ -321,7 +294,7 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
-      <property name="Clues" value="1"/>
+      <property name="Clues" value="1π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice. Bridge."/>
       <property name="Text" value="Accademia Bridge is connected to the location in the clockwise direction.&#10;Forced - After you leave Accademia Bridge: Lose 2 resources."/>
@@ -341,7 +314,7 @@
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="3"/>
-      <property name="Clues" value="2"/>
+      <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
       <property name="Text" value="The Guardian is connected to the location in the clockwise direction.&#10;ι After you enter The Guardian: Draw 1 card."/>
