@@ -586,7 +586,7 @@
     <property name="Traits" value="Hex."/>
     <property name="Text" value="Revelation - Test ά (0). Regardless of whether this skill test succeeds or fails, choose and discard all but X cards from your hand. X is your modified skill value for this test."/>
   </card>
-  <card id="1d9c6e6a-498c-4226-b6a3-bdb13eb12a5a" name="Out of Body Experience" size="EncounterCard">
+  <card id="1d9c6e6a-498c-4226-b6a3-bdb13eb12a5a" name="Out of Body Experience">
     <property name="Card Number" value="264"/>
     <property name="Quantity" value="4"/>
     <property name="Encounter Set" value="The City of Archives"/>
