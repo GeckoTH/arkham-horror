@@ -12,7 +12,7 @@
     <property name="Skill Icons" value="ήή"/>
     <property name="Slot" value="Hand x2"/>
     <property name="Traits" value="Item. Weapon. Firearm."/>
-    <property name="Text" value="Uses (8 ammo).&#10;&#10;η Spend 1-5 ammo: Fight. You get +X ή for this attack. Instead of its standard damage, this attack deals X damage. X is the amount of ammo spent as part of this ability's cost."/>
+    <property name="Text" value="Uses (8 ammo).&#10;η Spend 1-5 ammo: Fight. You get +X ή for this attack. Instead of its standard damage, this attack deals X damage. X is the amount of ammo spent as part of this ability's cost."/>
   </card>
   <card id="d5252623-1d4d-4580-b1d4-2fd34a6c1dfc" name="Ancient Stone">
     <property name="Card Number" value="230"/>
@@ -26,7 +26,7 @@
     <property name="Skill Icons" value="έέ"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Relic."/>
-    <property name="Text" value="You can only include this asset in your deck by upgrading it from Ancient Stone (Unidentified), and only if you have &quot;identified the stone&quot; in your Campaign Log.&#10;&#10;Uses (X secrets). X is the number in parentheses next to &quot;you have identified the stone.&quot;&#10;&#10;ι When you draw any number of cards, spend that many secrets: Deal that much damage to an enemy at your location."/>
+    <property name="Text" value="You can only include this asset in your deck by upgrading it from Ancient Stone (Unidentified), and only if you have &quot;identified the stone&quot; in your Campaign Log.&#10;Uses (X secrets). X is the number in parentheses next to &quot;you have identified the stone.&quot;&#10;ι When you draw any number of cards, spend that many secrets: Deal that much damage to an enemy at your location."/>
   </card>
   <card id="fd5851eb-4227-47a9-bcd1-29f81cd7da39" name="Ancient Stone">
     <property name="Card Number" value="231"/>
@@ -40,7 +40,7 @@
     <property name="Skill Icons" value="άά"/>
     <property name="Slot" value="Hand"/>
     <property name="Traits" value="Item. Relic."/>
-    <property name="Text" value="You can only include this asset in your deck by upgrading it from Ancient Stone (Unidentified), and only if you have &quot;identified the stone&quot; in your Campaign Log.&#10;&#10;Uses (X secrets). X is the number in parentheses next to &quot;you have identified the stone.&quot;&#10;&#10;ι When you draw any number of cards, spend that many secrets: Heal that much horror from a card at your location."/>
+    <property name="Text" value="You can only include this asset in your deck by upgrading it from Ancient Stone (Unidentified), and only if you have &quot;identified the stone&quot; in your Campaign Log.&#10;Uses (X secrets). X is the number in parentheses next to &quot;you have identified the stone.&quot;&#10;ι When you draw any number of cards, spend that many secrets: Heal that much horror from a card at your location."/>
   </card>
   <card id="9e5607b9-6801-4bb4-9489-0453beed51a2" name="Slip Away">
     <property name="Card Number" value="232"/>
@@ -86,7 +86,7 @@
     <property name="Skill Icons" value="ΰ"/>
     <property name="Slot" value="Accessory"/>
     <property name="Traits" value="Item. Relic. Blessed."/>
-    <property name="Text" value="Seal (+1 or ε).&#10;&#10;You get +1 ά, +1 έ, +1 ή, and +1 ί."/>
+    <property name="Text" value="Seal (+1 or ε).&#10;You get +1 ά, +1 έ, +1 ή, and +1 ί."/>
   </card>
   <card id="6f9d24fe-148d-4f02-b7de-0ee592b11d5c" name="On Your Own">
     <property name="Card Number" value="236"/>
@@ -98,7 +98,7 @@
     <property name="Willpower" value="1"/>
     <property name="Skill Icons" value="ά"/>
     <property name="Traits" value="Talent."/>
-    <property name="Text" value="Limit 1 per investigator.&#10;&#10;Discard On Your Own if you control an asset that takes up an ally slot.&#10;&#10;ι When you play a ξ event, exhaust On Your Own: Reduce that event's cost by 2."/>
+    <property name="Text" value="Limit 1 per investigator.&#10;Discard On Your Own if you control an asset that takes up an ally slot.&#10;ι When you play a ξ event, exhaust On Your Own: Reduce that event's cost by 2."/>
   </card>
   <card id="629942d1-f571-4e0b-99a8-87f2901cf9ea" name="The City of Archives">
     <property name="Card Number" value="237"/>
