@@ -30,6 +30,7 @@
 		<event name="OnPhasePassed" action="phasePassed"/>
 		<event name="OnTurnPassed" action="turnPassed"/>
 		<event name="OnCardsMoved" action="moveCards" />
+		<event name="OnScriptedCardsMoved" action="moveCards" />	
 	</events>
 	<fonts>
 		<font src="fonts/Calibri-Arkham.ttf" size="12" target="context" />
