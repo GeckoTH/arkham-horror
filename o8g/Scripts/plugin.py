@@ -21,16 +21,21 @@ def takeControlGlobal(group, x=0, y=0):
             if shared.piles[p].controller != me:
                 shared.piles[p].controller = me
 
-def saveTable(group, x=0, y=0):
+def saveManual(group, x=0, y=0):
+	phase = ""
+	saveTable(phase)
+	
+
+def saveTable(phase):
 	mute()
+	if phase == "":
+		if 1 != askChoice('You are about to SAVE the table states including the elements on the table, shared deck and each player\'s hand and piles.\nThis option should be execute on the a game host.'
+			, ['I am the Host!', 'I am not...'], ['#dd3737', '#d0d0d0']):
+			return
 	
-	if 1 != askChoice('You are about to SAVE the table states including the elements on the table, shared deck and each player\'s hand and piles.\nThis option should be execute on the a game host.'
-		, ['I am the Host!', 'I am not...'], ['#dd3737', '#d0d0d0']):
-		return
-	
-	if not getLock():
-		whisper("Others players are saving, please try manual saving again")
-		return
+		if not getLock():
+			whisper("Others players are saving, please try manual saving again")
+			return
 	
 	try:
 		tab = {"table":[], "shared": {}, 'counters': None, "players": None}
@@ -54,25 +59,36 @@ def saveTable(group, x=0, y=0):
 		players = sorted(getPlayers(), key=lambda x: x._id, reverse=False)
 		tab['players'] = [serializePlayer(pl) for pl in players]
 	
-		#dir = wd('table-state-{}.json'.format('{:%Y%m%d%H%M%S}'.format(dt.now())))
-		#if 'GameDatabase' in dir:
-		#	filename = dir.replace('GameDatabase','Decks').replace('a6d114c7-2e2a-4896-ad8c-0330605c90bf','Arkham Horror - The Card Game')
-		#else:
-		#	filename = "Decks\Arkham Horror - The Card Game".join(dir.rsplit('OCTGN',1))
-		
-		#filename = askString('Please input the path to save the game state', filename)
-		filename = saveFileDlg('', '', 'Json Files|*.json')
+		if phase == "":
+			filename = saveFileDlg('', '', 'Json Files|*.json')
+		else: 
+			with open("data.path", 'r') as f:
+				dir = f.readline()
+				filename = dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "AutoSave.json"
+				n = open(dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "phase.txt", 'w+')
+				n.write(phase)
+			
 		if filename == None:
 			return
 		
 		with open(filename, 'w+') as f:
 			f.write(json().Serialize(tab))
-				
-		notify("Table state saves to {}".format(filename))
+		
+		if phase == "":
+			notify("Table state saves to {}".format(filename))
+
 	finally:
 		clearLock()
 
-def loadTable(group, x=0, y=0):
+def loadManual(group, x=0, y=0):
+	phase = ""
+	loadTable(phase)
+
+def restoreSave(group, x=0, y=0):
+	phase = "restore"
+	loadTable(phase)
+
+def loadTable(phase):
 	mute()
 	
 	if 1 != askChoice('You are about to LOAD the table states including the elements on the table, shared deck and each player\'s hand and piles.\nThis option should be execute on the a game host.'
@@ -94,7 +110,16 @@ def loadTable(group, x=0, y=0):
 		
 		#if filename == None:
 		#	return
-		filename = openFileDlg('', '', 'Json Files|*.json')
+		if phase == "":
+			filename = openFileDlg('', '', 'Json Files|*.json')
+		else: 
+			with open("data.path", 'r') as f:
+				dir = f.readline()
+				filename = dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "AutoSave.json"
+				n = open(dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "phase.txt", 'r')
+				phase = n.readline()
+				notify("Restore Table state saves to last {} phase".format(phase))
+
 
 		with open(filename, 'r') as f:
 			tab = json().DeserializeObject(f.read())

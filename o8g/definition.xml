@@ -153,8 +153,9 @@
 		<groupaction menu="Take control of Global cards" default="False" shortcut="ctrl+G" execute="takeControlGlobal" />
 		<groupactions menu="Saving Tools">
 			<groupaction menu="Save Player Deck ..." default="False" execute="saveDeck" />
-			<groupaction menu="Save Table State..." default="False" execute="saveTable" />
-			<groupaction menu="Load Table State..." default="False" execute="loadTable" />
+			<groupaction menu="Save Table State..." default="False" execute="saveManual" />
+			<groupaction menu="Load Table State..." default="False" execute="loadManual" />
+			<groupaction menu="Restore last Auto Save..." default="False" execute="restoreSave" />
 		</groupactions>
 		
 		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
