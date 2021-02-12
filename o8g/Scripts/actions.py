@@ -72,21 +72,25 @@ def phasePassed(args):
     newPhase = thisPhase[1]
     
     if newPhase == 1:
+        phase = "Myth"
         if turnNumber() != 1 and getGlobalVariable("allowMythosPhase") == "True":
             doMythosPhase(False)
             setGlobalVariable("allowMythosPhase", "False")
     elif newPhase == 2:
         # Investigation Phase
+        phase = "Investigation"
         mute()
     elif newPhase == 3:
         # Enemy
+        phase = "Enemy"
         mute()
     elif newPhase == 4 and getGlobalVariable("allowUpkeepPhase") == "True":
         # Upkeep
+        phase = "Upkeep"
         remoteCall(me, "doUpkeepPhase", [False])
-        
         setGlobalVariable("allowUpkeepPhase", "False")
-
+        
+    saveTable(phase)
 
 def turnPassed(args):
     setGlobalVariable("allowMythosPhase", "True")
