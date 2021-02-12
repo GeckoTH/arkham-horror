@@ -482,25 +482,15 @@ def autoCharges(args):
                     strCharges = re.search('.*\((.*)\).*',strCharges).group(1)
                     # Check if not only 1 numeric
                     if not strCharges.isnumeric():
-                        if "ammo"  in strCharges:
-                            word = "ammo"
-                            strCharges = strCharges.replace("ammo", "")
-                        elif "charges" in strCharges:
-                            word = "charges"
-                            strCharges = strCharges.replace("charges", "")
-                        elif "secrets" in strCharges:
-                            word = "secrets"
-                            strCharges = strCharges.replace("secrets", "")         
-                        elif "supplies" in strCharges:
-                            word = "supplies"
-                            strCharges = strCharges.replace("supplies", "")
+                        word = re.search('(\d|X)(.*)',strCharges).group(2)
+                        strCharges = re.search('(\d|X)(.*)',strCharges).group(1)
                         strCharges = strCharges.replace(" ", "")
-                        if strCharges == "X":
-                            notify("Sorry, no automation for X on {}".format(card.name))
-                        elif strCharges.isnumeric():
+                        if strCharges.isnumeric():
                             notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
                             for i in range(0, int(strCharges)):
                                 addResource(card)
+                        elif strCharges == "X":
+                                notify("Sorry, no automation for X on {}".format(card.name))
 
 #Triggered event OnLoadDeck
 # args: player, cards, fromGroups, toGroups, indexs, xs, ys, highlights, markers, faceups, filters, alternates
