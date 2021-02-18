@@ -547,8 +547,9 @@ def deckLoaded(args):
 
     update()
     playerSetup(table, 0, 0, isPlayer, isShared)
-    for cardT in table:
-        loadClues(cardT)
+    if isPlayer == False:
+        for cardT in table:
+            loadClues(cardT)
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
     #   playerSetup(table, 0, 0, isPlayer, isShared)
 
