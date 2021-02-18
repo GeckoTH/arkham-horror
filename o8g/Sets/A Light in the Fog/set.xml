@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="A Light in the Fog" id="7cb808a2-7969-4994-adca-1d5b3e72887d" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="34d8ad30-b715-442f-8f72-eef1ef5f6c20" name="Holy Rosary">
+      <property name="Card Number" value="220" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm. Blessed." />
+      <property name="Text" value="You get +1 ά.&#10;ι After you succeed at a ά test on a treachery, exhaust Holy Rosary: Add 2 [Bless] tokens to the chaos bag." />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1303b75b-a75c-4165-8721-1c27517f9d28" name="Shield of Faith">
+      <property name="Card Number" value="221" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell. Blessed." />
+      <property name="Text" value="Seal (up to 5 [Bless]). If Shield of Faith has no tokens sealed on it, discard it.&#10;ι When an enemy attacks an investigator at your location, exhaust Shield of Faith and release a chaos token sealed here: Cancel that attack." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c10c7fed-eeb8-4186-8cd3-90bd360d3ca4" name="Fey">
+      <property name="Card Number" value="222" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Cursed." />
+      <property name="Text" value="If a [Curse] token is revealed during this skill test, you may return Fey to your hand when this test ends." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cd220a1d-fbf6-42be-a503-524333c3a8fa" name="Guided by the Unseen">
+      <property name="Card Number" value="223" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Uses (4 secrets).&#10;θ During a skill test at your location: Search the top 3 cards of the performing investigator’s deck for a card that can be committed to this test. You may spend 1 secret to commit that card. Shuffle the performing investigator’s deck." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="034d31c2-0667-400f-b52a-5ad54ee125d0" name="“Lucky” Penny">
+      <property name="Card Number" value="224" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Omen of Misfortune" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm. Cursed." />
+      <property name="Text" value="Exceptional.&#10;Forced – When you reveal a [Bless] or [Curse] token during a skill test you are performing: Flip a coin. On a heads, treat that token as a [Bless] token. On a tails, treat that token as a [Curse] token. If you treat a [Bless] token as a [Curse] token as a result of this effect, draw 1 card." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d9e9e7a8-be12-414b-a262-9dc7975bfe93" name="Eye of the Djinn">
+      <property name="Card Number" value="225" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Vessel of Good and Evil" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Blessed. Cursed." />
+      <property name="Text" value="Exceptional.&#10;ι When you initiate a skill test during your turn, exhaust Eye of the Djinn: Set your base skill value to 5 for this test. If a [Bless] token is revealed during this test, ready Eye of the Djinn. If a [Curse] token is revealed during this test, you may take an additional action this turn." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="46f842c1-21f2-45ed-8e73-d602d6596d67" name="Armageddon">
+      <property name="Card Number" value="226" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell. Cursed." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Fight. This attack uses ά instead of ή. You get +2 ά and deal +1 damage for this attack. For each [Curse] token revealed during this attack, you may deal 1 damage to an enemy at your location or place 1 charge on Armageddon." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ec12ebbc-2d31-44a8-84fb-a84c49307a55" name="Eye of Chaos">
+      <property name="Card Number" value="227" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell. Cursed." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Investigate. Investigate using ά instead of έ. You get +2 ά for this test. If you succeed, discover 1 additional clue at this location. For each [Curse] token revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="5" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="05774402-e141-4fa2-a972-7bce37c544a2" name="Shroud of Shadows">
+      <property name="Card Number" value="228" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell. Cursed." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Evade. This evasion attempt uses ά instead of ί. You get +2 ά for this test. If you succeed and the evaded enemy is non-Elite, you may move that enemy to a connecting location. For each [Curse] token revealed during this evasion attempt, you may move to a connecting location or place 1 charge on Shroud of Shadows." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="38c40ca4-e25b-40e1-918e-b886f67e0bfa" name="Spirit of Humanity">
+      <property name="Card Number" value="229" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Blessed. Cursed." />
+      <property name="Text" value="θ Exhaust Spirit of Humanity and take 1 damage and 1 horror: Add 2 [Bless] tokens to the chaos bag.&#10;θ Exhaust Spirit of Humanity and add 2 [Curse] tokens to the chaos bag: Heal 1 damage and 1 horror." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9e71c3b2-196a-4375-8061-e92d0528e10f" name="Harmony Restored">
+      <property name="Card Number" value="230" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune. Blessed." />
+      <property name="Text" value="Search the chaos bag for X [Curse] tokens and return them to the token pool. X is the number of [Bless] tokens in the chaos bag. Gain 1 resource for each [Curse] token removed in this way." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="241b4844-5e70-42ae-b760-4c248d2b3ee5" name="A Light in the Fog" size="EncounterCard">
+      <property name="Card Number" value="231" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Scenario" />
+      <property name="Subtype" value="EASY / STANDARD" />
+      <property name="Text" value="α: –1. If your location is flooded, reveal an additional chaos token.&#10;β: –2. If you fail, after this test ends, increase the flood level of your location.&#10;γ: –3. If you fail this test and your location is flooded, take 1 damage.&#10;δ: –4. If you fail, move the nearest ready unengaged enemy once toward your location. It loses aloof during this movement." />
+      <alternate name="A Light in the Fog" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Scenario" />
+        <property name="Subtype" value="HARD / EXPERT" />
+        <property name="Text" value="α: –2. If your location is flooded, reveal an additional chaos token.&#10;β: –2. If you fail, after this test ends, increase the flood level of your location (if you cannot, take 1 horror instead).&#10;γ: –3. If you fail this test and your location is flooded, take 2 damage.&#10;δ: –4. Move the nearest unengaged enemy once toward your location. It loses aloof during this movement." />
+      </alternate>
+    </card>
+    <card id="93e3e558-b4b0-4b78-b985-194574a959e9" name="Fog on the Bay" size="HorizCard">
+      <property name="Card Number" value="232" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Agenda" />
+      <property name="Subtype" value="Agenda 1a" />
+      <property name="Text" value="Locations on the same row are connected to one another.&#10;Forced – When this agenda advances: Move all doom on it to the next agenda." />
+      <property name="Doom" value="4" />
+      <alternate name="Ambushed!" type="B" size="HorizCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Agenda" />
+        <property name="Subtype" value="Agenda 1b" />
+        <property name="Text" value="Spawn the set-aside Oceiros Marsh enemy engaged with the lead investigator. Place the set-aside blue key on Oceiros Marsh.&#10;Shuffle each set-aside copy of Worth His Salt into the encounter deck.&#10;Each investigator loses each of their clues.&#10;Put the set-aside Lighthouse Basement location into play directly below Lighthouse Stairwell.&#10;Advance the act directly to act 2a (do not resolve act 1b)." />
+      </alternate>
+    </card>
+    <card id="6e3fa89a-0324-454d-9420-28384a50b9c2" name="Unchanging as the Sea" size="HorizCard">
+      <property name="Card Number" value="233" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Agenda" />
+      <property name="Subtype" value="Agenda 2a" />
+      <property name="Text" value="Locations on the same row are connected to one another.&#10;Forced – When an investigator is captured: Advance this agenda.&#10;Forced – When this agenda advances: Move all doom on it to the next agenda." />
+      <property name="Doom" value="7" />
+      <alternate name="Seized by Deep Ones" type="B" size="HorizCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Agenda" />
+        <property name="Subtype" value="Agenda 2b" />
+        <property name="Text" value="Each investigator is captured. Place each of their keys on Holding Cells. If Oceiros Marsh is in play, set him aside, out of play. Shuffle each set-aside copy of Taken Captive into the encounter deck.&#10;Reveal the Lighthouse Basement. Put Sunken Grotto (Lower Depths) into play directly below Sunken Grotto (Upper Depths) and Sunken Grotto (Final Depths) into play directly below Sunken Grotto (Lower Depths). Then, put random set-aside Tidal Tunnel locations into play until there are exactly 4 locations on each row, except for the row with the Lantern Room. (See Campaign Guide for diagram.)&#10;Advance the act directly to act 3a (do not resolve act 2b)." />
+      </alternate>
+    </card>
+    <card id="1cad245a-dd02-4436-bb1e-192ba6034c02" name="The Tide Rises" size="HorizCard">
+      <property name="Card Number" value="234" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Agenda" />
+      <property name="Subtype" value="Agenda 3a" />
+      <property name="Text" value="Locations on the same row are connected to one another." />
+      <property name="Doom" value="10" />
+      <alternate name="Locked In" type="B" size="HorizCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Agenda" />
+        <property name="Subtype" value="Agenda 3b" />
+        <property name="Text" value="Search all out-of-play areas for Oceiros Marsh and spawn him in the Sunken Grotto (Upper Depths).&#10;Remove each Falcon Point location from the game (or add them to the victory display if they have Victory X and no clues on them). Move each enemy and investigator at those locations to Sunken Grotto (Upper Depths). Each other card at those locations is discarded.&#10;Find the 4 bottommost locations that can have their flood levels increased. Increase each of their flood levels." />
+      </alternate>
+    </card>
+    <card id="8582b90b-fd96-40a1-8cb9-7a9e8aa892b5" name="Terror at Falcon Point" size="HorizCard">
+      <property name="Card Number" value="235" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Agenda" />
+      <property name="Subtype" value="Agenda 4a" />
+      <property name="Text" value="Oceiros Marsh gets +2π health.&#10;Locations on the same row are connected to one another.&#10;(Beware—the scenario may not end when this agenda advances, but the tide will continue to rise...)" />
+      <property name="Doom" value="3" />
+      <alternate name="Full Tide" type="B" size="HorizCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Agenda" />
+        <property name="Subtype" value="Agenda 4b" />
+        <property name="Text" value="Find the 4 bottommost locations that can have their flood levels increased. Increase each of their flood levels. If you cannot, proceed to (→R3). Otherwise, flip this agenda back over and continue playing." />
+      </alternate>
+    </card>
+    <card id="061f1081-8679-4f62-ac1f-f85da3e31031" name="The Lighthouse" size="HorizCard">
+      <property name="Card Number" value="236" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Act" />
+      <property name="Subtype" value="Act 1a" />
+      <property name="Text" value="Objective – Spend the requisite number of clues before the agenda advances." />
+      <property name="Clues" value="3π" />
+      <alternate name="Eavesdropping on the Enemy" type="B" size="HorizCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Act" />
+        <property name="Subtype" value="Act 1b" />
+        <property name="Text" value="Spawn the set-aside Oceiros Marsh enemy in Lighthouse Keeper’s Cottage, exhausted. Place the set-aside blue key on him.&#10;Shuffle each set-aside copy of Worth His Salt into the encounter deck.&#10;Put the set-aside Lighthouse Basement location into play directly below Lighthouse Stairwell.&#10;Advance the agenda directly to agenda 2a (do not resolve agenda 1b)." />
+      </alternate>
+    </card>
+    <card id="fe928e12-8ee5-4064-bf61-2701f83c3faf" name="Finding the Path" size="HorizCard">
+      <property name="Card Number" value="237" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Act" />
+      <property name="Subtype" value="Act 2a" />
+      <property name="Text" value="Objective – If an investigator enters Lighthouse Basement before the agenda advances, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Exploring the Depths" type="B" size="HorizCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Act" />
+        <property name="Subtype" value="Act 2b" />
+        <property name="Text" value="If Oceiros Marsh is in play, add him to the victory display.&#10;Put Sunken Grotto (Lower Depths) into play directly below Sunken Grotto (Upper Depths) and Sunken Grotto (Final Depths) into play directly below Sunken Grotto (Lower Depths). Then, put random set-aside Tidal Tunnel locations into play until there are exactly 4 locations on each row, except for the row with the Lantern Room. (See Campaign Guide for diagram.)&#10;Shuffle each set-aside copy of Taken Captive into the encounter deck.&#10;Advance the agenda directly to agenda 3a (do not resolve agenda 2b)." />
+      </alternate>
+    </card>
+    <card id="3f5ca51b-11ae-43f5-9567-377758784b20" name="Worshippers of the Deep" size="HorizCard">
+      <property name="Card Number" value="238" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Act" />
+      <property name="Subtype" value="Act 3a" />
+      <property name="Text" value="Forced – At the end of the investigation phase: Each investigator at a fully flooded location must either take 3 damage or move to the location directly below their location.&#10;Objective – If each undefeated investigator has resigned, advance. (Hint—You may wish to find what you came for before you leave this place. The black and red keys represent the objects you need the most.)" />
+      <property name="Clues" value="–" />
+      <alternate name="Bound for Y'ha-nthlei" type="B" size="HorizCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Act" />
+        <property name="Subtype" value="Act 3b" />
+        <property name="Text" value="If at least 1 investigator resigned from the Moon Room:&#10;(→R1)&#10;If each investigator who resigned did so from the Falcon Point Gatehouse:&#10;(→R2)" />
+      </alternate>
+    </card>
+    <card id="00974c39-4825-4326-8b46-67a946883824" name="Falcon Point Gatehouse" size="EncounterCard">
+      <property name="Card Number" value="239" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Falcon Point." />
+      <property name="Text" value="Falcon Point Gatehouse cannot be fully flooded." />
+      <alternate name="Falcon Point Gatehouse" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Falcon Point." />
+        <property name="Text" value="Falcon Point Gatehouse cannot be fully flooded.&#10;η: Resign. You head back into the woods, leaving the lighthouse and its mysteries behind. If you control the black or red keys, place each one you control on the current act." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="2302b2f5-58f1-4524-b2ed-64c3324f2889" name="Lighthouse Stairwell" size="EncounterCard">
+      <property name="Card Number" value="240" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Falcon Point." />
+      <property name="Text" value="Lighthouse Stairwell cannot be fully flooded." />
+      <alternate name="Lighthouse Stairwell" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Falcon Point." />
+        <property name="Text" value="Lighthouse Stairwell cannot be fully flooded.&#10;θ If there are any Relic story assets currently set aside: Add 1 of them to your hand." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b8f5c862-3d14-44be-b8c9-7dc55d05e3fa" name="Lantern Room" size="EncounterCard">
+      <property name="Card Number" value="241" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Falcon Point." />
+      <property name="Text" value="Lantern Room cannot be flooded." />
+      <alternate name="Lantern Room" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Falcon Point." />
+        <property name="Text" value="Lantern Room cannot be flooded.&#10;Forced – After Lantern Room is revealed: Place the set-aside white key on it." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="ceb56983-b9e6-4100-a911-36ad4ceccd47" name="Falcon Point Cliffside" size="EncounterCard">
+      <property name="Card Number" value="242" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Falcon Point." />
+      <property name="Text" value="Falcon Point Cliffside cannot be fully flooded." />
+      <alternate name="Falcon Point Cliffside" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Falcon Point." />
+        <property name="Text" value="Falcon Point Cliffside cannot be fully flooded.&#10;η If you control the white key: Using the white key, you peer out into the dark, stormy horizon, and something sparks in your memories. Read Flashback XII in the Campaign Guide." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b6f6fdff-f066-407c-9e2d-ce3331003a70" name="Lighthouse Keeper’s Cottage" size="EncounterCard">
+      <property name="Card Number" value="243" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Falcon Point." />
+      <property name="Text" value="Lighthouse Keeper’s Cottage cannot be fully flooded." />
+      <alternate name="Lighthouse Keeper’s Cottage" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Falcon Point." />
+        <property name="Text" value="Lighthouse Keeper’s Cottage cannot be fully flooded.&#10;Forced – After Lighthouse Keeper’s Cottage is revealed: Place the set-aside yellow key on it." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="9ecf5e96-6d8d-41e6-b446-574f6b64842c" name="Lighthouse Basement" size="EncounterCard">
+      <property name="Card Number" value="244" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <property name="Text" value="The door leading into the basement of the lighthouse is locked tight. You cannot enter this location unless you control the blue key." />
+      <alternate name="Sunken Grotto" type="B" size="EncounterCard">
+	    <property name="Subtitle" value="Upper Depths" />
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="θ Investigators at this location spend 1π clues, as a group: Look at the revealed side of a Tidal Tunnel location on this row." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="3bad8c3b-17bf-48ba-89d1-e2c1090159f2" name="Sunken Grotto" size="EncounterCard">
+      <property name="Card Number" value="245" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Sunken Grotto" type="B" size="EncounterCard">
+	    <property name="Subtitle" value="Lower Depths" />
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="θ Investigators at this location spend 1π clues, as a group: Look at the revealed side of a Tidal Tunnel location on this row." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="fff53690-331f-4139-8920-549155298335" name="Sunken Grotto" size="EncounterCard">
+      <property name="Card Number" value="246" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Sunken Grotto" type="B" size="EncounterCard">
+	    <property name="Subtitle" value="Final Depths" />
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="θ Investigators at this location spend 1π clues, as a group: Look at the revealed side of a Tidal Tunnel location on this row." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="ca0991c1-c066-498f-9883-9853a69f2e97" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="247" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Shrine to Hydra" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Clues cannot be discovered from Shrine to Hydra except by investigating.&#10;While an investigator at Shrine to Hydra controls the green key, Shrine to Hydra gets –3 shroud.&#10;Forced – After Shrine to Hydra is revealed: Place the set-aside red key on it." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="9a4d325d-6eda-43fe-acd8-b1c14b2a1211" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="248" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Deep One Nursery" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="θ If you control the purple key: You compare the purple key to the oversized eggs littering the flooded chamber and recall something. Read Flashback XIII in the Campaign Guide.&#10;Forced – After Deep One Nursery is revealed: Increase its flood level." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="bcd3815f-2cbf-4204-b3aa-f5ade760a0af" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="249" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="The Moon Room" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="η If The Moon Room is unflooded: Resign. You don one of the empty diving suits and dive into the reflecting pool. If you control the black or red keys, place each one you control on the current act.&#10;Forced – After The Moon Room is revealed: Increase its flood level." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="3ab945e0-f38d-42c3-950f-772ee59ccf42" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="250" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Sunken Archives" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Clues cannot be discovered at Sunken Archives while it is flooded.&#10;Forced – After Sunken Archives is revealed: It becomes fully flooded. Place the set-aside black key on it." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="29bc6a66-853e-4093-85d8-62cdf3902dc6" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="251" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Pump Room" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="η: Test έ (2) or ί (2). If you succeed, choose two locations. Decrease the flood level of one location and increase the flood level of the other (if you succeed by 2 or more, you may instead choose just one location and decrease its flood level)." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="62f932da-faba-424f-8f95-9333d80e296d" name="Captured!" size="EncounterCard">
+      <property name="Card Number" value="252" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="The first time an investigator is captured, read the following:&#10;Remove the captured investigator from their location and return each asset in that investigator’s hand slots to their hand.&#10;Turn that investigator’s mini-card sideways to indicate that they have been captured. Captured investigators cannot move, fight, or be engaged.&#10;Flip this story card over to its “Holding Cells” side and put it into play. It is not on any existing row or column, and is only connected to Sunken Grotto locations through its connection icons. Place the captured investigator in Holding Cells.&#10;From now on, whenever an investigator is captured, resolve this same effect (return each asset in their hand slots to their hand, turn their mini-card sideways, and place them in Holding Cells)." />
+      <alternate name="Holding Cells" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="A Light in the Fog" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Holding Cells cannot be flooded. Enemies cannot enter or spawn at Holding Cells (if one would spawn here, spawn it at any Sunken Grotto instead).η: Test ή (3) to break the bars or ί (3) to pick the locks. If you control the yellow key, this test automatically succeeds. If you succeed, free an investigator who is captured here." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="7cb4b8b4-f309-49fc-b1d5-6caac1395a0f" name="Oceiros Marsh" size="EncounterCard">
+      <property name="Card Number" value="253" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Deep One. Hybrid. Elite." />
+      <property name="Text" value="Hunter. Retaliate.&#10;Oceiros Marsh gets +2 evade while his location is flooded.&#10;Forced – After Oceiros Marsh is successfully evaded: For each point you succeeded by, take control of 1 key on him.&#10;Forced – After Oceiros Marsh attacks you during the enemy phase: You are captured. Place each of your keys on Oceiros Marsh." />
+      <property name="Health" value="6" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="2" />
+    </card>
+    <card id="ac3df1a0-b569-4df5-b156-62e72128e3ba" name="Deep One Nursemaid" size="EncounterCard">
+      <property name="Card Number" value="254" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Aloof. Retaliate.&#10;While Deep One Nursemaid is unengaged, each other Deep One enemy at its location or connecting locations gets +1 fight and +1 evade.&#10;Forced – After Deep One Nursemaid engages you: Draw the top card of the encounter deck. That card loses surge." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="8c656ed3-1760-4a39-b803-6c22d11f7522" name="Deep One Hatchling" size="EncounterCard">
+      <property name="Card Number" value="255" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Deep One." />
+      <property name="Text" value="Surge.&#10;Forced – After you engage Deep One Hatchling: Either lose 1 action or it attacks you.&#10;Forced – After you defeat Deep One Hatchling: Move the nearest ready, unengaged Deep One enemy once toward your location. That enemy loses aloof during this movement." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="02410d04-6144-417b-90be-5fa3fb2bd4f4" name="Hideous Lullaby" size="EncounterCard">
+      <property name="Card Number" value="256" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – If there are no Deep One enemies in play, Hideous Lullaby gains surge. Otherwise, find the Deep One enemy with the highest fight value. Test ά (X), where X is that enemy’s fight value. If you fail, take 2 horror." />
+    </card>
+    <card id="79f60dd5-1b1d-48f3-81d5-ad1215d6c372" name="Kiss of Brine" size="EncounterCard">
+      <property name="Card Number" value="257" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse. Hazard." />
+      <property name="Text" value="Revelation – Test ή (2). Increase the difficulty of this test by 2 if you are at a flooded location. If you fail, take 1 damage and put Kiss of Brine into play in your threat area. You cannot gain resources or draw cards.&#10;Forced – At the end of the enemy phase: Discard Kiss of Brine." />
+    </card>
+    <card id="d450e742-8099-4636-944a-805fbee345a5" name="Totality" size="EncounterCard">
+      <property name="Card Number" value="258" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Omen. Terror." />
+      <property name="Text" value="Revelation – Test ά (3). If you fail, put Totality into play in your threat area.&#10;Forced – After you enter a flooded location: Take 1 horror.&#10;Forced – At the end of your turn: Discard Totality." />
+    </card>
+    <card id="36f3a92d-2c4e-49f2-adaf-0db3e4e8f8cd" name="Worth His Salt" size="EncounterCard">
+      <property name="Card Number" value="259" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Attach to Oceiros Marsh, even if he is in the victory display.&#10;Forced – After Oceiros Marsh moves via his hunter keyword, if he is unengaged: Resolve his hunter keyword again. He cannot attack this phase. (Limit once per round.)&#10;Forced – When Oceiros Marsh attacks: This attack deals +1 damage and +1 horror. Discard this card." />
+    </card>
+    <card id="54a0331a-2acc-46de-b726-18a83b97d05b" name="Taken Captive" size="EncounterCard">
+      <property name="Card Number" value="260" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="A Light in the Fog" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Revelation – Test ί (4). If you fail, you are captured; place each of your keys on Holding Cells." />
+    </card>
+  </cards>
+</set>

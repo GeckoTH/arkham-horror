@@ -431,7 +431,7 @@
       <alternate name="Unvisited Isle" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Union and Disillusion" />
         <property name="Subtitle" value="Decayed Willow" />
-        <property name="Type" value="Locatoin" />
+        <property name="Type" value="Location" />
         <property name="Traits" value="Woods." />
         <property name="Text" value="η: Circle. Test έ+ή (9) to find the brazier inside the decaying tree. If you succeed, you may light or unlight the brazier.&#10;Haunted – Choose and discard 1 card from your hand." />
         <property name="Shroud" value="4" />
@@ -449,7 +449,7 @@
       <property name="Victory Points" value="1" />
       <alternate name="The Geist-Trap" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Union and Disillusion" />
-        <property name="Type" value="Lcoation" />
+        <property name="Type" value="Location" />
         <property name="Traits" value="Woods. Spectral." />
         <property name="Text" value="While The Spectral Watcher is at The Geist-Trap, it gains retaliate.&#10;η: Circle. Test ά+έ+ή+ί (20) to complete the ritual, or to disrupt it. If you succeed, you may either light or unlight the brazier here.&#10;Haunted – Take 1 damage and 1 horror." />
         <property name="Shroud" value="4" />

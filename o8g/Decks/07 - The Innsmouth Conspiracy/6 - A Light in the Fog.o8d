@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="93e3e558-b4b0-4b78-b985-194574a959e9">Fog on the Bay</card>
+    <card qty="1" id="6e3fa89a-0324-454d-9420-28384a50b9c2">Unchanging as the Sea</card>
+    <card qty="1" id="1cad245a-dd02-4436-bb1e-192ba6034c02">The Tide Rises</card>
+    <card qty="1" id="8582b90b-fd96-40a1-8cb9-7a9e8aa892b5">Terror at Falcon Point</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="061f1081-8679-4f62-ac1f-f85da3e31031">The Lighthouse</card>
+    <card qty="1" id="fe928e12-8ee5-4064-bf61-2701f83c3faf">Finding the Path</card>
+    <card qty="1" id="3f5ca51b-11ae-43f5-9567-377758784b20">Worshippers of the Deep</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="ac3df1a0-b569-4df5-b156-62e72128e3ba">Deep One Nursemaid</card>
+    <card qty="4" id="8c656ed3-1760-4a39-b803-6c22d11f7522">Deep One Hatchling</card>
+    <card qty="3" id="02410d04-6144-417b-90be-5fa3fb2bd4f4">Hideous Lullaby</card>
+    <card qty="2" id="79f60dd5-1b1d-48f3-81d5-ad1215d6c372">Kiss of Brine</card>
+    <card qty="2" id="d450e742-8099-4636-944a-805fbee345a5">Totality</card>
+    <card qty="1" id="8cb9eeaa-d308-4e42-a7e3-8aa2fd918a63">Deep One Bull</card>
+    <card qty="3" id="391bd985-3a45-4cfd-9352-5f9de4b2de57">Lurking Deep One</card>
+    <card qty="2" id="41ce48de-71df-40bb-ab77-974f3a22854f">Deep One Assault</card>
+    <card qty="2" id="bc9313d6-9726-4a75-a980-28b389c46124">Undertow</card>
+    <card qty="2" id="d304fcd1-2352-4431-8a7b-0fa23124ac2a">Rising Tides</card>
+    <card qty="2" id="7d7aaf41-b118-409a-aaef-810e7339c2d5">Riptide</card>
+    <card qty="2" id="d562fa63-5211-4e61-aa5c-43262f02a758">Tidal Alignment</card>
+    <card qty="2" id="b58c74c7-88c8-4b1f-b1b8-96851ed1b00e">Syzygy</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="2" id="cea09c79-187f-47ed-8025-78149add2a67">Tidal Tunnel</card>
+    <card qty="2" id="cc48648c-9863-4a54-a5e1-de417d343fe1">Tidal Tunnel</card>
+    <card qty="1" id="ca0991c1-c066-498f-9883-9853a69f2e97">Tidal Tunnel</card>
+    <card qty="1" id="9a4d325d-6eda-43fe-acd8-b1c14b2a1211">Tidal Tunnel</card>
+    <card qty="1" id="bcd3815f-2cbf-4204-b3aa-f5ade760a0af">Tidal Tunnel</card>
+    <card qty="1" id="3ab945e0-f38d-42c3-950f-772ee59ccf42">Tidal Tunnel</card>
+    <card qty="1" id="29bc6a66-853e-4093-85d8-62cdf3902dc6">Tidal Tunnel</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="9ecf5e96-6d8d-41e6-b446-574f6b64842c">Lighthouse Basement</card>
+    <card qty="1" id="fff53690-331f-4139-8920-549155298335">Sunken Grotto</card>
+    <card qty="1" id="3bad8c3b-17bf-48ba-89d1-e2c1090159f2">Sunken Grotto</card>
+    <card qty="1" id="7cb4b8b4-f309-49fc-b1d5-6caac1395a0f">Oceiros Marsh</card>
+    <card qty="2" id="36f3a92d-2c4e-49f2-adaf-0db3e4e8f8cd">Worth His Salt</card>
+    <card qty="2" id="54a0331a-2acc-46de-b726-18a83b97d05b">Taken Captive</card>
+    <card qty="1" id="810ae644-a5c2-4a89-bd56-c649377c767b">Unidentified Key</card>
+    <card qty="1" id="b3839fb3-d093-46ab-87ef-20e8c9a7a69f">Unidentified Key</card>
+    <card qty="1" id="34ab9ce9-305e-4aeb-856a-e8b6797a552d">Waveworn Idol</card>
+    <card qty="1" id="1b34016b-b67d-4e98-a699-25e61525a15a">Awakened Mantle</card>
+    <card qty="1" id="0047679a-fc91-489f-9fe0-2bff73368cd9">Headdress of Y’ha-nthlei</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="241b4844-5e70-42ae-b760-4c248d2b3ee5">A Light in the Fog</card>
+    <card qty="1" id="62f932da-faba-424f-8f95-9333d80e296d">Captured!</card>
+    <card qty="1" id="00974c39-4825-4326-8b46-67a946883824">Falcon Point Gatehouse</card>
+    <card qty="1" id="ceb56983-b9e6-4100-a911-36ad4ceccd47">Falcon Point Cliffside</card>
+    <card qty="1" id="2302b2f5-58f1-4524-b2ed-64c3324f2889">Lighthouse Stairwell</card>
+    <card qty="1" id="b6f6fdff-f066-407c-9e2d-ce3331003a70">Lighthouse Keeper’s Cottage</card>
+    <card qty="1" id="b8f5c862-3d14-44be-b8c9-7dc55d05e3fa">Lantern Room</card>
+    <card qty="1" id="8f2e9c68-13bb-4760-98cb-d4f03e02ae85">Unidentified Key</card>
+    <card qty="1" id="c1013de0-742a-4627-b8fa-a347951fc00d">Unidentified Key</card>
+    <card qty="1" id="d0dc772e-3d01-41c6-b836-25513b1a150e">Unidentified Key</card>
+    <card qty="1" id="7be6a43f-c466-493d-b8ee-52bd2127b6a3">Unidentified Key</card>
+    <card qty="1" id="886dfb3e-a983-4434-8ca1-3ce038ac0685">Unidentified Key</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
