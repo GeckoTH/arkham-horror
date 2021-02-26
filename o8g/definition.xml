@@ -168,15 +168,17 @@
 			<cardaction menu="Add Damage" default="False" shortcut="F3" execute="addDamage" />
 			<cardaction menu="Add Horror" default="False" shortcut="F4" execute="addHorror" />
 			<cardaction menu="Add Doom" default="False" shortcut="F5" execute="addDoom" />
-			<cardaction menu="Add Action" default="False" shortcut="F6" execute="addAction" />
+			<cardaction menu="Add Action" default="False" shortcut="F9" execute="addAction" />
+			<cardaction menu="Add Flood Token" default="False" shortcut="F6" execute="addFlood" />
 		</cardactions>
 		<cardactions menu="Remove Token">
-            <cardaction menu="Remove Resource" default="False" shortcut="shift+F1" execute="subResource" />
-            <cardaction menu="Remove Clue" default="False" shortcut="shift+F2" execute="subClue" />
-            <cardaction menu="Remove Damage" default="False" shortcut="shift+F3" execute="subDamage" />
-            <cardaction menu="Remove Horror" default="False" shortcut="shift+F4" execute="subHorror" />
-            <cardaction menu="Remove Doom" default="False" shortcut="shift+F5" execute="subDoom" />
-			<cardaction menu="Remove Action" default="False" shortcut="shift+F6" execute="subAction" />
+            		<cardaction menu="Remove Resource" default="False" shortcut="shift+F1" execute="subResource" />
+            		<cardaction menu="Remove Clue" default="False" shortcut="shift+F2" execute="subClue" />
+            		<cardaction menu="Remove Damage" default="False" shortcut="shift+F3" execute="subDamage" />
+            		<cardaction menu="Remove Horror" default="False" shortcut="shift+F4" execute="subHorror" />
+            		<cardaction menu="Remove Doom" default="False" shortcut="shift+F5" execute="subDoom" />
+			<cardaction menu="Remove Action" default="False" shortcut="shift+F9" execute="subAction" />
+			<cardaction menu="Remove Flood Token" default="False" shortcut="shift+F6" execute="subFlood" />
 		</cardactions>
 		<cardaction menu="Exhaust/Ready" default="False" shortcut="F7" execute="exhaust" />
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />

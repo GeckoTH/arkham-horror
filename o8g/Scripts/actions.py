@@ -1305,23 +1305,8 @@ def addHorror(card, x = 0, y = 0):
 def addAction(card, x = 0, y = 0):
     addToken(card, Action)
 
-
-
-# def addAttack(card, x = 0, y = 0):
-#     addToken(card, AttackToken)  
-
-# def addDefense(card, x = 0, y = 0):
-#     addToken(card, DefenseToken)  
-
-# def addThreat(card, x = 0, y = 0):
-#     addToken(card, ThreatToken)
-    
-# def addTime(card, x=0, y=0):
-#     addToken(card, TimeToken)
-
-# def addTurn(card, x=0, y=0):
-#   if isFirstPlayerToken([card]):
-#       shared.counters['Round'].value += 1
+def addFlood(card, x = 0, y = 0):
+    pass
 
 def addToken(card, tokenType):
     mute()
@@ -1347,6 +1332,8 @@ def subHorror(card, x = 0, y = 0):
 def subAction(card, x = 0, y = 0):
     subToken(card, Action)  
 
+def subFlood(card, x = 0, y = 0):
+    pass
 
 def subToken(card, tokenType):
     mute()
