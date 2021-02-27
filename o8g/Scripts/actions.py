@@ -13,6 +13,8 @@ Lock = ("Lock", "62d688a4-46ef-45be-9414-2257a1221351")
 Action = ("Action", "654ac64a-ff25-42dd-946f-cc15c03448cf")
 Curse = ("Curse", "f59396af-8536-4a82-96d3-6cefdc849103")
 Bless = ("Bless", "aad7ef0b-5806-4884-b420-c36a2d417bf7")
+Flood1 = ("Floodl", "b5c9e09a-163f-4f60-9c0c-0579d1c5512e")
+Flood2 = ("Floodh", "9a1ffb97-35bd-4f99-9646-f15732cb36a9")
 
 CurseID = '81df3f18-e341-401d-a6bb-528940a9c39e'
 BlessID = '360db0ee-c362-4bbe-9554-b1fbf101d9ab'
@@ -1232,7 +1234,19 @@ def addAction(card, x = 0, y = 0):
     addToken(card, Action)
 
 def addFlood(card, x = 0, y = 0):
-    pass
+    mute()
+    num1 = card.markers[Flood1]
+    num2 = card.markers[Flood2]
+    if (num1+num2 == 0):
+        #no flood tokens
+        card.markers[Flood1] = 1
+    elif (num1 > 0):
+        #Flood level 1
+        card.markers[Flood1] = 0
+        card.markers[Flood2] = 2
+    else:
+        #Flood level 2
+        notify("This card is already at maximum Flood Level.")
 
 def addToken(card, tokenType):
     mute()
@@ -1259,7 +1273,20 @@ def subAction(card, x = 0, y = 0):
     subToken(card, Action)  
 
 def subFlood(card, x = 0, y = 0):
-    pass
+    mute()
+    num1 = card.markers[Flood1]
+    num2 = card.markers[Flood2]
+    if (num1+num2 == 0):
+        #no flood tokens
+        notify("This card is already at minimum Flood Level.")
+    elif (num1 > 0):
+        #Flood level 1
+        card.markers[Flood1] = 0
+        card.markers[Flood2] = 0
+    else:
+        #Flood level 2
+        card.markers[Flood1] = 1
+        card.markers[Flood2] = 0
 
 def subToken(card, tokenType):
     mute()

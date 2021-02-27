@@ -123,6 +123,8 @@
 		<marker id="654ac64a-ff25-42dd-946f-cc15c03448cf" name="Action" src="Markers/654ac64a-ff25-42dd-946f-cc15c03448cf.png" />
 		<marker id="f59396af-8536-4a82-96d3-6cefdc849103" name="Curse" src="Markers/f59396af-8536-4a82-96d3-6cefdc849103.png" />
 		<marker id="aad7ef0b-5806-4884-b420-c36a2d417bf7" name="Bless" src="Markers/aad7ef0b-5806-4884-b420-c36a2d417bf7.png" />
+		<marker id="b5c9e09a-163f-4f60-9c0c-0579d1c5512e" name="Floodl" src="Markers/b5c9e09a-163f-4f60-9c0c-0579d1c5512e.png" />
+		<marker id="9a1ffb97-35bd-4f99-9646-f15732cb36a9" name="Floodh" src="Markers/9a1ffb97-35bd-4f99-9646-f15732cb36a9.png" />
 	</markers>
 	<gameboards src="background/tabletop.png" x="-575" y="-268" width="1150" height="536">
 	</gameboards>
