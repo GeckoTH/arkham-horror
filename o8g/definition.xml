@@ -141,8 +141,8 @@
 			<groupseparator />
 			<groupaction menu="Seal Token from Chaosbag" default="False" shortcut="" execute="sealToken" />
 			<groupseparator />
-			<groupaction menu="Add Bless Token" default="False" shortcut="F8" execute="addBless" />
-			<groupaction menu="Add Curse Token" default="False" shortcut="shift+F8" execute="addCurse" />
+			<groupaction menu="Add Bless Token" default="False" shortcut="ctrl+1" execute="addBless" />
+			<groupaction menu="Add Curse Token" default="False" shortcut="ctrl+2" execute="addCurse" />
 		</groupactions>
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
@@ -170,8 +170,8 @@
 			<cardaction menu="Add Damage" default="False" shortcut="F3" execute="addDamage" />
 			<cardaction menu="Add Horror" default="False" shortcut="F4" execute="addHorror" />
 			<cardaction menu="Add Doom" default="False" shortcut="F5" execute="addDoom" />
-			<cardaction menu="Add Action" default="False" shortcut="F9" execute="addAction" />
-			<cardaction menu="Add Flood Token" default="False" shortcut="F6" execute="addFlood" />
+			<cardaction menu="Add Action" default="False" shortcut="F6" execute="addAction" />
+			<cardaction menu="Add Flood Token" default="False" shortcut="ctrl+3" execute="addFlood" />
 		</cardactions>
 		<cardactions menu="Remove Token">
             		<cardaction menu="Remove Resource" default="False" shortcut="shift+F1" execute="subResource" />
@@ -179,8 +179,8 @@
             		<cardaction menu="Remove Damage" default="False" shortcut="shift+F3" execute="subDamage" />
             		<cardaction menu="Remove Horror" default="False" shortcut="shift+F4" execute="subHorror" />
             		<cardaction menu="Remove Doom" default="False" shortcut="shift+F5" execute="subDoom" />
-			<cardaction menu="Remove Action" default="False" shortcut="shift+F9" execute="subAction" />
-			<cardaction menu="Remove Flood Token" default="False" shortcut="shift+F6" execute="subFlood" />
+			<cardaction menu="Remove Action" default="False" shortcut="shift+F6" execute="subAction" />
+			<cardaction menu="Remove Flood Token" default="False" shortcut="ctrl+shift+3" execute="subFlood" />
 		</cardactions>
 		<cardaction menu="Exhaust/Ready" default="False" shortcut="F7" execute="exhaust" />
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
@@ -191,14 +191,14 @@
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<cardaction menu="Seal Token" default="False" execute="sealTokenCard" />
 		<cardactions menu="Highlight">
-			<cardaction menu="Blue Highlight" default="False" shortcut="ctrl+1" execute="blueHighlight" />
-			<cardaction menu="Orange Highlight" default="False" shortcut="ctrl+2" execute="orangeHighlight" />
-			<cardaction menu="Green Highlight" default="False" shortcut="ctrl+3" execute="greenHighlight" />
-			<cardaction menu="Purple Highlight" default="False" shortcut="ctrl+4" execute="purpleHighlight" />
-			<cardaction menu="Red Highlight" default="False" shortcut="ctrl+5" execute="redHighlight" />
-			<cardaction menu="Black Highlight" default="False" shortcut="ctrl+6" execute="blackHighlight" />
-			<cardaction menu="White Highlight" default="False" shortcut="ctrl+7" execute="whiteHighlight" />
-			<cardaction menu="Clear Highlight" default="False" shortcut="ctrl+0" execute="clearHighlight" />
+			<cardaction menu="Blue Highlight" default="False" shortcut="numpad1" execute="blueHighlight" />
+			<cardaction menu="Orange Highlight" default="False" shortcut="numpad2" execute="orangeHighlight" />
+			<cardaction menu="Green Highlight" default="False" shortcut="numpad3" execute="greenHighlight" />
+			<cardaction menu="Purple Highlight" default="False" shortcut="numpad4" execute="purpleHighlight" />
+			<cardaction menu="Red Highlight" default="False" shortcut="numpad5" execute="redHighlight" />
+			<cardaction menu="Black Highlight" default="False" shortcut="numpad6" execute="blackHighlight" />
+			<cardaction menu="White Highlight" default="False" shortcut="numpad7" execute="whiteHighlight" />
+			<cardaction menu="Clear Highlight" default="False" shortcut="numpad0" execute="clearHighlight" />
 		</cardactions>
 		<groupactions menu="Path Markers">
 			<groupaction menu="Orthagonal on front side. Flip for diagonal." default="False" execute="" />
