@@ -13,6 +13,8 @@ Lock = ("Lock", "62d688a4-46ef-45be-9414-2257a1221351")
 Action = ("Action", "654ac64a-ff25-42dd-946f-cc15c03448cf")
 Curse = ("Curse", "f59396af-8536-4a82-96d3-6cefdc849103")
 Bless = ("Bless", "aad7ef0b-5806-4884-b420-c36a2d417bf7")
+Flood1 = ("Floodl", "b5c9e09a-163f-4f60-9c0c-0579d1c5512e")
+Flood2 = ("Floodh", "9a1ffb97-35bd-4f99-9646-f15732cb36a9")
 
 CurseID = '81df3f18-e341-401d-a6bb-528940a9c39e'
 BlessID = '360db0ee-c362-4bbe-9554-b1fbf101d9ab'
@@ -163,17 +165,6 @@ def countInvestigators():
 def eliminated(p):
     if not p:
         return False
-#
-#   if p.counters['Threat_Level'].value >= 50:
-#       debug("eliminated({}) = True (Threat)".format(p))
-#       return True
-#
-#   heroes = countHeroes(p)
-#   if heroes == 0:
-#       debug("eliminated({}) = True (No Heroes)".format(p))
-#       return True
-#
-#   return False
 
 def cardDoubleClicked(args):
     # args = card, mouseButton, keysDown
@@ -199,23 +190,6 @@ def activePlayers():
 #       if not eliminated(p):
 #           count+=1
     return count
-
-#def nextPlayer(current):
-#   if not eliminated(me):
-#       fp = getFirstPlayerToken()
-#       if fp is not None and isLocked(fp):
-#           return me
-#
-#   np = me
-#   tries = 0
-#   while tries < len(getPlayers()):
-#       current = (current + 1) % len(getPlayers())
-#       p = getPlayer(current)
-#       if not eliminated(p):
-#           np = p
-#           break
-#       tries += 1
-#   return np
 
 def agendaCount(group):
     count = 0
@@ -524,7 +498,6 @@ def deckLoaded(args):
         for p in shared.piles:
             if shared.piles[p].controller != me:
                 shared.piles[p].controller = me
-        #rnd(1,2) # This causes OCTGN to sync the controller changes!
         update()
             
     #Cards for the encounter deck and player deck are loaded into the discard pile because this has visibility="all"    
@@ -624,12 +597,6 @@ def isEnemy(cards):
         if c.isFaceUp and (c.type != "Enemy" or c.orientation == Rot90):
             return False
     return True
-    
-# def isFirstPlayerToken(cards):
-#   for c in cards:
-#       if c.model != "15e40d4f-b763-4dcc-aa52-e32b64a992dd":
-#           return False
-#   return True
     
 #---------------------------------------------------------------------------
 # Table group actions
@@ -777,8 +744,7 @@ def nextEncounter(group, x, y, facedown, who=me):
         
     clearTargets()
     card = group.top()
-    if x == 0 and y == 0:  #Move to default position in the staging area
-        #addToStagingArea(card, facedown, who)   
+    if x == 0 and y == 0:  #Move to default position in the staging area 
         card.moveToTable(EncounterX, EncounterY, facedown)
         notify("{} places '{}' on the table.".format(who, card))    
     else:
@@ -881,10 +847,6 @@ def nextAgendaStage(group=None, x=0, y=0):
         return
         
     if x == 0 and y == 0: #The keyboard shortcut was used
-        #Count Agenda cards already on table to work out where to put this one
-        #n, count = questCount(table)
-        #x = QuestStartX + 89*(count // 2) + 64*n
-        #y = QuestStartY + 64*(count % 2)   
         x = AgendaX
         y = AgendaY
             
@@ -908,10 +870,6 @@ def nextActStage(group=None, x=0, y=0):
         return
         
     if x == 0 and y == 0: #The keyboard shortcut was used
-        #Count Agenda cards already on table to work out where to put this one
-        #n, count = questCount(table)
-        #x = QuestStartX + 89*(count // 2) + 64*n
-        #y = QuestStartY + 64*(count % 2)   
         x = ActX
         y = ActY
             
@@ -944,9 +902,6 @@ def agendaSetup(card):
             elif card.Setup[i] == 's':
                 addToStagingArea(c)
                 setReminders(c)
-            # elif card.Setup[i] == 'l':
-            #   makeActive(c)
-            #   setReminders(c)
             i += 1
 def nextAgenda(group = None, x = 0, y = 0):
     nextAgendaStage(group, x, y)
@@ -970,10 +925,6 @@ def nextActStage(group=None, x=0, y=0):
         return
         
     if x == 0 and y == 0: #The keyboard shortcut was used
-        #Count Act cards already on table to work out where to put this one
-        #n, count = questCount(table)
-        #x = QuestStartX + 89*(count // 2) + 64*n
-        #y = QuestStartY + 64*(count % 2)   
         x = ActX
         y = ActY
             
@@ -1253,15 +1204,6 @@ def rotateRight(card, x = 0, y = 0):
             notify("{} Rotates '{}'".format(me, card.Name))
         else:
             notify("{} Rotates a card".format(me))
-    #mute()
-    #if card.orientation == Rot0:
-    #   card.orientation = Rot90
-    #elif card.orientation == Rot90:
-    #   card.orientation = Rot180
-    #elif card.orientation == Rot180:
-    #   card.orientation = Rot270
-    #else:
-    #   card.orientation = Rot0
 
 def rotateLeft(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
@@ -1272,20 +1214,6 @@ def rotateLeft(card, x = 0, y = 0):
             notify("{} Rotates '{}'".format(me, card.Name))
         else:
             notify("{} Rotates a card".format(me))
-    #mute()
-    #if card.orientation == Rot0:
-    #   card.orientation = Rot270
-    #elif card.orientation  == Rot270:
-    #   card.orientation = Rot180
-    #elif card.orientation == Rot180:
-    #   card.orientation = Rot90
-    #else:
-    #   card.orientation = Rot0
-
-# def makeActive(card, x=0, y=0):
-#   mute()
-#   if card.Type != "Location": return
-#   card.moveToTable(252, -229)
         
 def addResource(card, x = 0, y = 0):
     addToken(card, Resource)
@@ -1305,23 +1233,20 @@ def addHorror(card, x = 0, y = 0):
 def addAction(card, x = 0, y = 0):
     addToken(card, Action)
 
-
-
-# def addAttack(card, x = 0, y = 0):
-#     addToken(card, AttackToken)  
-
-# def addDefense(card, x = 0, y = 0):
-#     addToken(card, DefenseToken)  
-
-# def addThreat(card, x = 0, y = 0):
-#     addToken(card, ThreatToken)
-    
-# def addTime(card, x=0, y=0):
-#     addToken(card, TimeToken)
-
-# def addTurn(card, x=0, y=0):
-#   if isFirstPlayerToken([card]):
-#       shared.counters['Round'].value += 1
+def addFlood(card, x = 0, y = 0):
+    mute()
+    num1 = card.markers[Flood1]
+    num2 = card.markers[Flood2]
+    if (num1+num2 == 0):
+        #no flood tokens
+        card.markers[Flood1] = 1
+    elif (num1 > 0):
+        #Flood level 1
+        card.markers[Flood1] = 0
+        card.markers[Flood2] = 2
+    else:
+        #Flood level 2
+        notify("This card is already at maximum Flood Level.")
 
 def addToken(card, tokenType):
     mute()
@@ -1347,6 +1272,21 @@ def subHorror(card, x = 0, y = 0):
 def subAction(card, x = 0, y = 0):
     subToken(card, Action)  
 
+def subFlood(card, x = 0, y = 0):
+    mute()
+    num1 = card.markers[Flood1]
+    num2 = card.markers[Flood2]
+    if (num1+num2 == 0):
+        #no flood tokens
+        notify("This card is already at minimum Flood Level.")
+    elif (num1 > 0):
+        #Flood level 1
+        card.markers[Flood1] = 0
+        card.markers[Flood2] = 0
+    else:
+        #Flood level 2
+        card.markers[Flood1] = 1
+        card.markers[Flood2] = 0
 
 def subToken(card, tokenType):
     mute()
@@ -1957,152 +1897,3 @@ def whiteHighlight(card, x=0 , y=0):
 
 def clearHighlight(card, x=0 , y=0):
     card.highlight = None 
-
-
-# def captureDeck(group):
-#   if len(group) == 0: return
-#   mute()
-#   if group == me.deck:
-#       pile = me.piles['Secondary Deck']
-#   else: return        
-#   if confirm("Create your capture deck?"):
-#       for c in group:
-#           if c.Type == "Ally":
-#               c.moveTo(pile)
-#           if c.Type == "Attachment":
-#               if "Item." in c.Traits or "Mount." in c.Traits or "Artifact." in c.Traits:
-#                   c.moveTo(pile)
-#   notify("{} creates their Capture Deck".format(me))
-#   if pile.collapsed:
-#       pile.collapsed = False
-
-# def setupTotDMap(group):
-#   group.shuffle()
-#   MapStartX = 350
-#   MapStartY = -90
-#   i = 0
-#   j = 0 
-#   for c in group:
-#       c.moveToTable(MapStartX,MapStartX)
-#       if c.name == "Lost Island":
-#           x = MapStartX + 64*(i // 3)
-#           y = MapStartY + 89*(i % 3)
-#           c.moveToTable(x,y)
-#           if i==0 or i==2:
-#               flipcard(c)
-#           i=i+1
-#       if c.name == "Temple of the Deceived":
-#           c.moveToTable(MapStartX+64*4,MapStartY+89*j)
-#           j=j+1
-
-        
-# Reminders
-
-# def enableReminders(group, x=0, y=0):
-#   setGlobalVariable("Reminders", "On")
-#   whisper("Reminders enabled.")
-# def disableReminders(group, x=0, y=0):
-#   setGlobalVariable("Reminders", "Off")
-#   whisper("Reminders disabled.")
-    
-# def isTextInCard(text,card):
-#   match = re.search(text,card.Text)
-#   if match: return True
-#   match = re.search(text,card.alternateProperty("B","Text"))
-#   if match: return True
-    
-# def setReminders(card):
-#   match = re.search('Time ([0-9]+)',card.Text)
-#   if match:
-#       for i in range(num(match.group(1))):
-#           addTime(card)
-#   match = re.search('Time ([0-9]+)',card.alternateProperty("B","Text"))
-#   if match:
-#       for i in range(num(match.group(1))):
-#           addTime(card)
-    
-#   if isTextInCard('resource phase',card): setReminderResource(card)
-#   if isTextInCard('quest phase',card): setReminderQuest(card)
-#   if isTextInCard('staging step',card): setReminderQuest(card)
-#   if isTextInCard('combat phase',card): setReminderCombat(card)
-#   if isTextInCard('refresh phase',card): setReminderRefresh(card)
-#   if isTextInCard('t the end of the round',card): setReminderRefresh(card)
-
-# def resourceReminders():
-#   if getGlobalVariable("Reminders") == "Off": return;
-#   clearTargets()
-#   reminder = getGlobalVariable("reminderResource")
-#   for c in table:
-#       if str(c._id) in reminder:
-#           c.target(True)  
-
-# def questReminders():
-#   if getGlobalVariable("Reminders") == "Off": return;
-#   reminder = getGlobalVariable("reminderQuest")
-#   for c in table:
-#       if str(c._id) in reminder:
-#           c.target(True)
-            
-# def combatReminders():
-#   if getGlobalVariable("Reminders") == "Off": return;
-#   reminder = getGlobalVariable("reminderCombat")
-#   for c in table:
-#       if str(c._id) in reminder:
-#           c.target(True)
-            
-# def refreshReminders():
-#   if getGlobalVariable("Reminders") == "Off": return;
-#   clearTargets()
-#   reminder = getGlobalVariable("reminderRefresh")
-#   for c in table:
-#       if c.markers[TimeToken] >= 1:
-#           c.target(True)
-#       if str(c._id) in reminder:
-#           c.target(True)
-
-# def setReminderResource(card,x=0,y=0):
-#   reminder = getGlobalVariable("reminderResource")
-#   if not str(card._id) in reminder:
-#       reminder += str(card._id) + ","
-#   setGlobalVariable("reminderResource",reminder)
-# def removeReminderResource(card,x=0,y=0):
-#   reminder = getGlobalVariable("reminderResource")
-#   reminder = reminder.replace(str(card._id) + ",","")
-#   setGlobalVariable("reminderResource",reminder)
-
-# def setReminderQuest(card,x=0,y=0):
-#   reminder = getGlobalVariable("reminderQuest")
-#   if not str(card._id) in reminder:
-#       reminder += str(card._id) + ","
-#   setGlobalVariable("reminderQuest",reminder)
-# def removeReminderQuest(card,x=0,y=0):
-#   reminder = getGlobalVariable("reminderQuest")
-#   reminder = reminder.replace(str(card._id) + ",","")
-#   setGlobalVariable("reminderQuest",reminder) 
-
-# def setReminderCombat(card,x=0,y=0):
-#   reminder = getGlobalVariable("reminderCombat")
-#   if not str(card._id) in reminder:
-#       reminder += str(card._id) + ","
-#   setGlobalVariable("reminderCombat",reminder)
-# def removeReminderCombat(card,x=0,y=0):
-#   reminder = getGlobalVariable("reminderCombat")
-#   reminder = reminder.replace(str(card._id) + ",","")
-#   setGlobalVariable("reminderCombat",reminder)    
-    
-# def setReminderRefresh(card,x=0,y=0):
-#   reminder = getGlobalVariable("reminderRefresh")
-#   if not str(card._id) in reminder:
-#       reminder += str(card._id) + ","
-#   setGlobalVariable("reminderRefresh",reminder)
-# def removeReminderRefresh(card,x=0,y=0):
-#   reminder = getGlobalVariable("reminderRefresh")
-#   reminder = reminder.replace(str(card._id) + ",","")
-#   setGlobalVariable("reminderRefresh",reminder)   
-    
-# def setGlobalReminders():
-#   setGlobalVariable("Reminders", "Off")
-#   setGlobalVariable("reminderResource","")
-#   setGlobalVariable("reminderQuest","")
-#   setGlobalVariable("reminderCombat","")
-#   setGlobalVariable("reminderRefresh","")
