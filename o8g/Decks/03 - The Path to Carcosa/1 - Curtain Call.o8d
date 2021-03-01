@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="d2a7406a-71f5-470d-99e5-a66f03696117">The Third Act</card>
     <card qty="1" id="2c6187a9-76e7-4b1c-8a43-2c19a8b5c50c">Encore</card>
@@ -38,8 +30,6 @@
     <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
     <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
   </section>
-  <section name="Location" shared="True" />
-  <section name="Special" shared="True" />
   <section name="Second Special" shared="True">
     <card qty="1" id="651dcc09-5555-4116-a5e7-1fc268f747ce">Lobby Doorway</card>
     <card qty="1" id="4b6c39f1-489d-4865-a8c3-a06f501032d4">Lobby Doorway</card>
@@ -49,8 +39,10 @@
     <card qty="1" id="54652fd6-0f52-419b-a56c-262587e974f4">Backstage Doorway</card>
     <card qty="1" id="0b579bc9-d109-441d-a684-107bd0074f4c">The Man in the Pallid Mask</card>
     <card qty="1" id="85b2ef57-9d11-41f7-a65b-a648df0c6870">Royal Emissary</card>
+    <card qty="2" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
+    <card qty="2" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>
+    <card qty="2" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
   </section>
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="4f27752a-ef71-47c0-9b1e-2d4a192dd8af">Curtain Call</card>
     <card qty="1" id="9ea44e62-15f5-4a17-84e1-397faeed100a">Theatre</card>
@@ -58,5 +50,16 @@
     <card qty="1" id="e1d22038-00da-429e-930f-8ad7bf245bfe">Balcony</card>
     <card qty="1" id="4d77df3a-b331-41c1-aacc-0b647595333f">Backstage</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
