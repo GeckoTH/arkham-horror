@@ -31,8 +31,16 @@ AgendaX = 221
 AgendaY = -222
 ActX = 309
 ActY = -222
+Act31X = 147
+Act31Y = -300
+Act32X = 221
+Act32Y = -300
+Act33X = 300
+Act33Y = -300
 EncounterX = 147
 EncounterY = -234.75
+Encounter2X = 147
+Encounter2Y = -135
 ScenarioX = 408.5
 ScenarioY = -234.75
 CampaignX = 500
@@ -41,6 +49,8 @@ ChaosTokenX = 94
 ChaosTokenY = -211
 ChaosBagX = 0
 ChaosBagY = -234.75
+
+
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -180,6 +190,11 @@ def cardDoubleClicked(args):
                 remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
         elif card.Type == "Encounter Draw": # Draw Encounter Card
             addEncounter(table)
+        elif card.Type == "Encounter2 Draw":
+            if card.Subtype == "Special":
+                nextEncounter2(specialDeck(), False)
+            elif card.Subtype == "Location":
+                nextEncounter2(locationDeck(), False)
         elif card.Type == "Path": # Rotate Path cards
             rotateRight(card)
 
@@ -275,6 +290,7 @@ def clearTargets(group=table, x=0, y=0):
     for c in group:
         if c.controller == me or (c.targetedBy is not None and c.targetedBy == me):
             c.target(False)
+    notify("x={} y={}".format(str(x), str(y)))
 
 def findCard(group, model):
     for c in group:
@@ -512,6 +528,8 @@ def deckLoaded(args):
                 card.moveTo(shared.piles['Encounter'])
             elif pile == me.piles['Discard Pile']:
                 card.moveTo(me.deck)
+            elif card.Type == 'Scenario':
+                changeGameBoard(card.model)
         if pile.name == "Chaos Bag":
             createChaosBag(table)
         elif pile.name == "Encounter Discard Pile":
@@ -626,6 +644,11 @@ def createChaosBag(group, x=0, y=0):
 def createEncounterCardClicky(group, x=0, y=0):
     group.create("f4633a2e-0102-452d-8387-678b5aa17878", EncounterX, EncounterY, 1, False)
 
+def createEncounter2CardClicky(pile):
+    card = table.create("f4633a2e-0102-452d-8387-678b5aa17878", Encounter2X, Encounter2Y, 1, False)
+    card.Type = "Encounter2 Draw"
+    card.Subtype = pile
+
 def flipCoin(group, x = 0, y = 0):
     mute()
     n = rnd(1, 2)
@@ -736,12 +759,12 @@ def nextEncounter(group, x, y, facedown, who=me):
     if group.controller != me:
         remoteCall(group.controller, "nextEncounter", [group, x, y, facedown, me])
         return
-        
+
     if len(group) == 0:
         resetEncounterDeck(group)
     if len(group) == 0: # No cards
         return
-        
+
     clearTargets()
     card = group.top()
     if x == 0 and y == 0:  #Move to default position in the staging area 
@@ -750,6 +773,28 @@ def nextEncounter(group, x, y, facedown, who=me):
     else:
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
+    card.controller = who
+    if len(group) == 0:
+        resetEncounterDeck(group)
+
+def nextEncounter2(group, facedown, who=me):
+    mute()
+
+    if group.controller != me:
+        remoteCall(group.controller, "nextEncounter", [group, facedown, who])
+        return
+
+    if len(group) == 0:
+        resetEncounterDeck(group)
+    if len(group) == 0: # No cards
+        return
+
+    clearTargets()
+    card = group.top()
+
+    card.moveToTable(Encounter2X, Encounter2Y, facedown)
+    notify("{} places '{}' on the table.".format(who, card))
+
     card.controller = who
     if len(group) == 0:
         resetEncounterDeck(group)
@@ -811,7 +856,7 @@ def addBlessCurse(group, isBless, who=me):
         notify("{} puts a Curse Token into the Chaos Bag".format(who))
         addToken(cb, Curse)
 
-    token.SubType = "Blurse"
+    token.Subtype = "Blurse"
     token.moveTo(chaosBag())
     chaosBag().shuffle()
 
@@ -881,7 +926,7 @@ def nextActStage(group=None, x=0, y=0):
 	
 def addToTable(card):
     x = AgendaX - 45.5
-    y = -96
+    y = -40
     blocked = overlapPartialCard(x, y)
     while blocked is not None:
         x += 16
@@ -1004,6 +1049,13 @@ def doMythosPhase(setPhaseVar = True):
     for card in table:
         if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addDoom(card)
+
+def changeGameBoard(s):
+    if s == '29338631-d9fc-425d-95e1-5dc408ca5355':
+        table.board = "2Encounter"
+        createEncounter2CardClicky("Special")
+    else:
+        table.board = "default"
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
@@ -1139,7 +1191,7 @@ def defaultAction(card, x = 0, y = 0):
     elif card.Type == "Chaos Token": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
-    elif card.Type == "Encounter Draw": # Action handled in OnCardDoubleClicked
+    elif card.Type == "Encounter Draw" or "Encounter2 Draw": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
     elif card.Type == "Mini": #Add action token
