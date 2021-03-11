@@ -246,7 +246,7 @@
 			<groupaction menu="Shuffle" default="False" execute="shuffle" />
 			<groupaction menu="Draw" default="True" shortcut="ctrl+D" execute="draw" />
 			<groupaction menu="Draw Many" default="False" shortcut="ctrl+shift+D" execute="drawMany" />
-			<groupaction menu="Draw Unrevealed" default="False" execute="drawUnrevealed" />
+			<groupaction menu="Draw Unrevealed" default="False" shortcut="ctrl+U" execute="drawUnrevealed" />
 			<groupaction menu="Discard Many" default="False" execute="discardMany" />
 			<groupaction menu="Move to Secondary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
