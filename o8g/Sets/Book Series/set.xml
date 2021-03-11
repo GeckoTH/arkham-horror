@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Book Series" id="1f67f471-939f-4a72-a672-e949a538a8c7" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0">
  <cards>
   <card id="6de44f9d-5256-4762-b63a-8a096c2674b1" name="Jenny Barnes" size="InvestigatorCard">
@@ -26,7 +26,7 @@
     </alternate>
   </card>
   <card id="71890fe8-1acf-4ea2-9e34-f42ae1314e27" name="Jenny Barnes" size="MiniCard">
-    <property name="Quantity" value="901"/>
+    <property name="Card Number" value="901"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Rogue"/>
     <alternate name="Jenny Barnes" size="MiniCard" type="B">
@@ -83,7 +83,7 @@
     </alternate>
   </card>
   <card id="76ff41d5-274d-438b-8e3e-1137d77fe6e7" name="Roland Banks" size="MiniCard">
-    <property name="Quantity" value="902"/>
+    <property name="Card Number" value="902"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Guardian"/>
     <alternate name="Roland Banks" size="MiniCard" type="B">
@@ -136,7 +136,7 @@
     </alternate>
   </card>
   <card id="863c6958-209b-4b4e-984d-2b0c70d3fa0d" name="Norman Withers" size="MiniCard">
-    <property name="Quantity" value="903"/>
+    <property name="Card Number" value="903"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Seeker"/>
     <alternate name="Norman Withers" size="MiniCard" type="B">
@@ -195,7 +195,7 @@
     </alternate>
   </card>
   <card id="db2f10c2-1167-4107-b53a-95047d4683c2" name="Carolyn Fern" size="MiniCard">
-    <property name="Quantity" value="904"/>
+    <property name="Card Number" value="904"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Guardian"/>
     <alternate name="Carolyn Fern" size="MiniCard" type="B">
@@ -251,7 +251,7 @@
     </alternate>
   </card>
   <card id="988e98b0-78c3-47ac-bebd-361b8b535bde" name="Silas Marsh" size="MiniCard">
-    <property name="Quantity" value="905"/>
+    <property name="Card Number" value="905"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Survivor"/>
     <alternate name="Silas Marsh" size="MiniCard" type="B">
@@ -305,7 +305,7 @@
     </alternate>
   </card>
   <card id="026cb382-cca7-4043-9c14-07c9592700ec" name="Dexter Drake" size="MiniCard">
-    <property name="Quantity" value="906"/>
+    <property name="Card Number" value="906"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Mystic"/>
     <alternate name="Dexter Drake" size="MiniCard" type="B">
@@ -361,7 +361,7 @@
     </alternate>
   </card>
   <card id="a6d5e2f7-e621-49c7-af77-5a2c21d6c403" name="Gloria Goldberg" size="MiniCard">
-    <property name="Quantity" value="907"/>
+    <property name="Card Number" value="907"/>
     <property name="Type" value="Mini"/>
     <property name="Class" value="Mystic"/>
     <alternate name="Gloria Goldberg" size="MiniCard" type="B">
