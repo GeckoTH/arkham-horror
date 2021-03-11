@@ -127,6 +127,9 @@
 		<marker id="9a1ffb97-35bd-4f99-9646-f15732cb36a9" name="Floodh" src="Markers/9a1ffb97-35bd-4f99-9646-f15732cb36a9.png" />
 	</markers>
 	<gameboards src="background/tabletop.png" x="-575" y="-268" width="1150" height="536">
+		<gameboard name="2Encounter" src="background/2Encounter.png" x="-575" y="-268" width="1150" height="536" />
+		<gameboard name="3Act" src="background/3Act.png" x="-575" y="-268" width="1150" height="536" />
+		<gameboard name="4Act" src="background/4Act.png" x="-575" y="-268" width="1150" height="536" />
 	</gameboards>
 	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Player Setup ..." default="False" shortcut="" execute="playerSetup" />
