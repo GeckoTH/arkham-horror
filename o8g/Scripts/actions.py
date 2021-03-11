@@ -1019,7 +1019,8 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         
         # Find any Permanent cards
         permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
-       
+        # Find any Start cards
+        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name  , me.deck)
         # Create Bonded Card
         listB = makeListBonded(me.deck)
         if not listB:
@@ -1052,6 +1053,11 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             card.moveToTable(permX, cardY(investigatorCard))
             permX = permX + card.width + InvestigatorSpacing
             notify("{} places the Permanent card {} on the table".format(me, card))
+	# Move startCard found to the table
+        for card in startCard:
+            card.moveToTable(permX, cardY(investigatorCard))
+            permX = permX + card.width + InvestigatorSpacing
+            notify("{} places the start card {} on the table".format(me, card))
         
         if newInvestigator:
             if len(me.hand) == 0:
