@@ -180,7 +180,6 @@ def cardDoubleClicked(args):
     # args = card, mouseButton, keysDown
     mute()
     card = args.card
-    notify(card.Type)
     if hasattr(card, 'Type'):
         if card.Type == "Chaos Bag": # Draw Chaos Token
             drawChaosTokenForPlayer(me, [])
