@@ -59,6 +59,7 @@
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />
+		<globalvariable name="multiActAgenda" value="Default" />
 	</globalvariables>
 	<card back="cards/card.jpg" front="cards/card.jpg" width="63" height="88" cornerRadius="4">
 		<property name="Unique" type="String" hidden="False" ignoreText="False" />
