@@ -62,9 +62,27 @@
     <card id="faa82643-1dda-4af7-96ad-298bc2d5b2dd" name="ChaosBag">
       <property name="Type" value="Chaos Bag" />
     </card>
-    <card id="f4633a2e-0102-452d-8387-678b5aa17878" name="Encounter Draw">
+    <card id="f4633a2e-0102-452d-8387-678b5aa17878" name="Encounter Deck">
       <property name="Type" value="Encounter Draw" />
-      <alternate name="Cultist Draw" type="cultistDraw">
+      <alternate name="Cultist Deck" type="cultistDraw">
+        <property name="Type" value="Encounter2 Draw"/>
+      </alternate>
+      <alternate name="Exhibit Deck" type="exhibitDraw">
+        <property name="Type" value="Encounter2 Draw"/>
+      </alternate>
+      <alternate name="Catacombs Deck" type="catacombsDraw">
+        <property name="Type" value="Encounter2 Draw"/>
+      </alternate>
+      <alternate name="Exploration Deck" type="explorationDraw">
+        <property name="Type" value="Encounter2 Draw"/>
+      </alternate>
+      <alternate name="unknown Places Deck" type="unknownDraw">
+        <property name="Type" value="Encounter2 Draw"/>
+      </alternate>
+      <alternate name="Spectral Encounter Deck" type="spectralDraw">
+        <property name="Type" value="Encounter2 Draw"/>
+      </alternate>
+      <alternate name="Cosmos" type="cosmosDraw">
         <property name="Type" value="Encounter2 Draw"/>
       </alternate>
     </card>

@@ -1051,11 +1051,40 @@ def doMythosPhase(setPhaseVar = True):
 
 def changeGameBoard(s):
     cultDeck = ['29338631-d9fc-425d-95e1-5dc408ca5355', 'f81bfa10-12e0-45ca-9f65-1f52090277f6']
+    exhibitDeck = ['f35868ff-263e-4a06-91d4-49fb17e22700', 'ceff1f22-cc40-45e6-8290-bc342b8227c4']
+    catacombsDeck = ['e748e010-c470-4757-913b-3cdbd22ead1d', '248211c0-ccc3-483b-be2b-f8ab7dbf4aab']
+    explorationDeck = ['6ea63fe0-6d47-49f8-aded-c891b70b6c63', '879c1767-bb80-4859-876a-264845386d78',
+                       '10d7ffc2-11ee-4e1a-9353-c64e9ad9a245', '1a76e271-589d-4e28-8d0e-015c4c81ebbc',
+                       '6876db05-c1e2-4e46-b172-1739f700f716', '9595aa3f-07ec-4d79-8d74-b8a79256e49f',
+                       '88c8a01f-7824-4ff3-9df4-4437ec24d12e', '789d3a7d-7ab0-47c6-8cdf-24bc20f04cc3',
+                       '1a8b03a4-bf0a-49bf-b096-adcf9fa9188a', 'ffabc5ca-54ed-4ad4-9dc2-811911039950',
+                       'e8cbbe0b-5760-469f-b355-6619ab96b183', 'e4dfe2cd-224c-4749-a966-132b8f084cce',
+                       '0a8e6b32-5d1c-4ddf-9abf-031d84133235', '901acd41-cec5-4092-822e-1ff35fbae014',
+                       '3a459f09-4010-40b3-92d1-94cbc200b70b']
+    unknownDeck = ['33bfb887-f781-43f9-a8a5-4677f811ca24']
+    spectralDeck = ['a263c7a7-7641-479b-bb07-926c93371e15']
+    cosmosDeck = ['6febb6ad-ef14-4445-8bc7-717919cc26b8']
+    board = True
     if s in cultDeck:
-        table.board = '2Encounter'
         createEncounter2CardClicky("Special", "cultistDraw")
-    #else:
-    #    table.board = "default"
+    elif s in exhibitDeck:
+        createEncounter2CardClicky("Location", "exhibitDraw")
+    elif s in catacombsDeck:
+        createEncounter2CardClicky("Location", "catacombsDraw")
+    elif s in explorationDeck:
+        createEncounter2CardClicky("Location", "explorationDraw")
+    elif s in unknownDeck:
+        createEncounter2CardClicky("Location", "unknownDraw")
+    elif s in spectralDeck:
+        createEncounter2CardClicky("Special", "spectralDraw")
+    elif s in cosmosDeck:
+        createEncounter2CardClicky("Location", "cosmosDraw")
+    else:
+        table.board = ""
+        board = False
+
+    if board:
+        table.board = '2Encounter'
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
