@@ -180,6 +180,7 @@ def cardDoubleClicked(args):
     # args = card, mouseButton, keysDown
     mute()
     card = args.card
+    notify(card.Type)
     if hasattr(card, 'Type'):
         if card.Type == "Chaos Bag": # Draw Chaos Token
             drawChaosTokenForPlayer(me, [])
@@ -528,8 +529,6 @@ def deckLoaded(args):
                 card.moveTo(shared.piles['Encounter'])
             elif pile == me.piles['Discard Pile']:
                 card.moveTo(me.deck)
-            elif card.Type == 'Scenario':
-                changeGameBoard(card.model)
         if pile.name == "Chaos Bag":
             createChaosBag(table)
         elif pile.name == "Encounter Discard Pile":
@@ -644,9 +643,9 @@ def createChaosBag(group, x=0, y=0):
 def createEncounterCardClicky(group, x=0, y=0):
     group.create("f4633a2e-0102-452d-8387-678b5aa17878", EncounterX, EncounterY, 1, False)
 
-def createEncounter2CardClicky(pile):
+def createEncounter2CardClicky(pile, alt):
     card = table.create("f4633a2e-0102-452d-8387-678b5aa17878", Encounter2X, Encounter2Y, 1, False)
-    card.Type = "Encounter2 Draw"
+    card.alternate = alt
     card.Subtype = pile
 
 def flipCoin(group, x = 0, y = 0):
@@ -940,6 +939,7 @@ def agendaSetup(card):
         for c in setupDeck():
             if c.Type == "Scenario":
                 c.moveToTable(ScenarioX, ScenarioY)
+                changeGameBoard(c.model)
             elif c.Type == "Campaign":
                 c.moveToTable(CampaignX, CampaignY)
             elif i >= len(card.Setup) or card.Setup[i] == 't':
@@ -1051,11 +1051,12 @@ def doMythosPhase(setPhaseVar = True):
             addDoom(card)
 
 def changeGameBoard(s):
-    if s == '29338631-d9fc-425d-95e1-5dc408ca5355':
-        table.board = "2Encounter"
-        createEncounter2CardClicky("Special")
-    else:
-        table.board = "default"
+    cultDeck = ['29338631-d9fc-425d-95e1-5dc408ca5355', 'f81bfa10-12e0-45ca-9f65-1f52090277f6']
+    if s in cultDeck:
+        table.board = '2Encounter'
+        createEncounter2CardClicky("Special", "cultistDraw")
+    #else:
+    #    table.board = "default"
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()

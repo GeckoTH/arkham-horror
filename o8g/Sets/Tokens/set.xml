@@ -64,8 +64,11 @@
     </card>
     <card id="f4633a2e-0102-452d-8387-678b5aa17878" name="Encounter Draw">
       <property name="Type" value="Encounter Draw" />
-	</card>
-   <card id="7f4029c8-1cee-406a-9913-9fbc6e341bed" name="Long Path" size="LongPath">
+      <alternate name="Cultist Draw" type="cultistDraw">
+        <property name="Type" value="Encounter2 Draw"/>
+      </alternate>
+    </card>
+    <card id="7f4029c8-1cee-406a-9913-9fbc6e341bed" name="Long Path" size="LongPath">
       <property name="Type" value="Path" />
       <alternate name="Long Path" type="B" size="DiagLongPath">
         <property name="Type" value="Path"/>
