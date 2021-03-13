@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Tokens" id="0ab2f6e6-efd6-434e-95aa-ba10c3cf8ccd" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0.0">
 
   <cards>
@@ -85,6 +85,12 @@
       <alternate name="Cosmos" type="cosmosDraw">
         <property name="Type" value="Encounter2 Draw"/>
       </alternate>
+    </card>
+    <card id="d16e42c3-06a0-4721-b13b-d1fa6bf02a4e" name="Next Agenda" size="HorizCard">
+      <property name="Type" value="nextAgenda" />
+    </card>
+    <card id="94f90b4e-5dd7-47cd-9d9b-afba493c6a81" name="Next Act" size="HorizCard">
+      <property name="Type" value="nextAct" />
     </card>
     <card id="7f4029c8-1cee-406a-9913-9fbc6e341bed" name="Long Path" size="LongPath">
       <property name="Type" value="Path" />

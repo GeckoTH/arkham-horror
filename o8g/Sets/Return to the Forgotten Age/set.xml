@@ -346,6 +346,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – Only investigators in Rivertown can spend the requisite number of clues, as a group, to advance." />
       <property name="Clues" value="1π" />
+      <property name="Setup" value="1g" />
       <alternate name="The Hastings Estate" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Type" value="Location" />
@@ -364,6 +365,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – Only investigators in Northside can spend the requisite number of clues, as a group, to advance." />
       <property name="Clues" value="1π" />
+      <property name="Setup" value="1g" />
       <alternate name="Merle Garvin" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Subtitle" value="Unhelpful Guide" />
@@ -384,6 +386,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – Only investigators at The Hastings Estate can spend the requisite number of clues, as a group, to advance." />
       <property name="Clues" value="2π" />
+      <property name="Setup" value="2g" />
       <alternate name="Sent from Another Time" type="B" size="HorizCard">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Subtitle" value="Act 2h" />
@@ -399,6 +402,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – Only investigators at The Hastings Estate can spend the requisite number of clues, as a group, to advance." />
       <property name="Clues" value="2π" />
+      <property name="Setup" value="2g" />
       <alternate name="Clinton Freeman" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Type" value="Asset" />
@@ -417,6 +421,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – If there are 1π clues on Merle Garvin: You must remove them and immediately advance." />
       <property name="Clues" value="–" />
+      <property name="Setup" value="2g" />
       <alternate name="Sent from Another Time" type="B" size="HorizCard">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Subtitle" value="Act 2h" />
@@ -432,6 +437,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – If there are 1π clues on Merle Garvin: You must remove them and immediately advance." />
       <property name="Clues" value="–" />
+      <property name="Setup" value="2g" />
       <alternate name="Loading Docks" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Type" value="Location" />
@@ -450,6 +456,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – If there are 1π clues on Clinton Freeman: You must remove them and immediately advance.&#10;Objective – If Loading Docks is in play and there are no clues remaining on it: You must immediately advance." />
       <property name="Clues" value="–" />
+      <property name="Setup" value="3g" />
       <alternate name="Another Expedition" type="B" size="HorizCard">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Subtitle" value="Act 3h" />
@@ -465,6 +472,7 @@
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – If the Harbinger of Valusia leaves play, advance." />
       <property name="Clues" value="–" />
+      <property name="Setup" value="3g" />
       <alternate name="Another Expedition" type="B" size="HorizCard">
         <property name="Encounter Set" value="Return to Threads of Fate" />
         <property name="Subtitle" value="Act 3h" />
