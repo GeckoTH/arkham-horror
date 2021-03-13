@@ -664,7 +664,7 @@ def createActCardClicky(x, y):
 
 def createAgendaCardClicky(x, y):
     card = table.create("d16e42c3-06a0-4721-b13b-d1fa6bf02a4e", x, y, 1, False)
-    card.sendToBack()
+    return card
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -2022,9 +2022,10 @@ def isMultiActAgendaScenario(s):
         createActCardClicky(Act44X, Act44Y)
         table.board = '4Act'
     elif s in Agenda2NoAct:
-        setGlobalVariable("multiActAgenda", "2AgendaNoAct")
+        #setGlobalVariable("multiActAgenda", "2AgendaNoAct")
         createAgendaCardClicky(AgendaX, AgendaY)
-        createAgendaCardClicky(ActX, ActY)
+        c = createAgendaCardClicky(ActX, ActY)
+        c.Type = "nextAct"
     else:
         multi = False
         createActCardClicky(ActX, ActY)
