@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Threads of Fate" id="6802cf85-16d4-4b5c-8ab4-14c9e774e441" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
   <card id="16bd514e-f177-4295-9f27-cb80f437af47" name="Scene of the Crime">
@@ -210,6 +210,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Miskatonic University can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="1a"/>
     <alternate name="Eztli Exhibit" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -233,6 +234,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Miskatonic University can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="1a"/>
     <alternate name="Harlan Earnstone" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Historical Theorist"/>
@@ -257,6 +259,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the Eztli Exhibit can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="2a"/>
     <alternate name="The Relic's Location" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -279,6 +282,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the Eztli Exhibit can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="2a"/>
     <alternate name="The Brotherhood's Plot" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -301,6 +305,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If there are 1π clues on Harlan Earnstone: You must remove them and immediately advance."/>
+    <property name="Setup" value="2a"/>
     <alternate name="Safekeeping" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -323,6 +328,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If there are 1π clues on Harlan Earnstone: You must remove them and immediately advance."/>
+    <property name="Setup" value="2a"/>
     <alternate name="Harlan Earnstone" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Crazed by the Curse"/>
@@ -353,6 +359,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="While Relic of Ages is attached to a location, that location gets +2 shroud.&#10;&#10;Objective - If Relic of Ages is attached to a location with no remaining clues, advance."/>
+    <property name="Setup" value="3a"/>
     <alternate name="The Relic Is Found" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -375,6 +382,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="While Relic of Ages is attached to an enemy, that enemy gets +2π health.&#10;&#10;Objective - If the enemy the Relic of Ages is attached to leaves play, advance."/>
+    <property name="Setup" value="3a"/>
     <alternate name="The Relic is Recovered" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -397,6 +405,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Easttown can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="1c"/>
     <alternate name="Henry Deveau" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Friend of Alejandro"/>
@@ -421,6 +430,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Easttown can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="1c"/>
     <alternate name="Arkham Police Station" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -444,6 +454,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the Arkham Police Station can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="2c"/>
     <alternate name="In Shadowed Talons" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -466,6 +477,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the Arkham Police Station can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="2c"/>
     <alternate name="Train Tracks" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -488,6 +500,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If there are 1π clues on Henry Deveau: You must remove them and immediately advance."/>
+    <property name="Setup" value="2c"/>
     <alternate name="Henry's Information" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -510,6 +523,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If there are 1π clues on Henry Deveau: You must remove them and immediately advance."/>
+    <property name="Setup" value="2c"/>
     <alternate name="Henry Deveau" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Alejandro's Kidnapper"/>
@@ -540,6 +554,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="While Alejandro Vela is attached to a location, that location gets +2 shroud.&#10;&#10;Objective - If Alejandro Vela is attached to a location with no remaining clues, advance."/>
+    <property name="Setup" value="3c"/>
     <alternate name="Alejandro Is Found" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -562,6 +577,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="While Alejandro Vela is attached to an enemy, that enemy gets +2π health.&#10;&#10;Objective - If the enemy Alejandro Vela is attached to leaves play, advance."/>
+    <property name="Setup" value="3c"/>
     <alternate name="Alejandro Is Rescued" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -584,6 +600,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Rivertown can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="1e"/>
     <alternate name="Black Cave" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Location"/>
@@ -607,6 +624,7 @@
     <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in Northside can spend the requisite number of clues, as a group, to advance."/>
+    <property name="Setup" value="1e"/>
     <alternate name="Maria DeSilva" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Wealthy Patron"/>
@@ -631,6 +649,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the Black Cave can spend the requisite number of clues, as a group, to advance. There must be no clues remaining on the Black Cave in order to advance this act."/>
+    <property name="Setup" value="2e"/>
     <alternate name="Embroiled in Battle" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -653,6 +672,7 @@
     <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Only investigators in the Black Cave can spend the requisite number of clues, as a group, to advance. There must be no clues remaining on the Black Cave in order to advance this act."/>
+    <property name="Setup" value="2e"/>
     <alternate name="Tunnels in the Dark" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -675,6 +695,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If there are 1π clues on Maria DeSilva: You must remove them and immediately advance."/>
+    <property name="Setup" value="2e"/>
     <alternate name="Maria DeSilva" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Subtitle" value="Knows More Than She Lets On"/>
@@ -705,6 +726,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If there are 1π clues on Maria DeSilva: You must remove them and immediately advance."/>
+    <property name="Setup" value="2e"/>
     <alternate name="Maria's Information" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -727,6 +749,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="While you are at any of &quot;Ichtaca's destinations,&quot; the first treachery you draw from the encounter deck each round gains surge.&#10;&#10;Objective - If there are no clues remaining on each of &quot;Ichtaca's destinations,&quot; advance."/>
+    <property name="Setup" value="3e"/>
     <alternate name="Uncovering the Conspiracy" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>
@@ -749,6 +772,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="&quot;Ichtaca's prey&quot; each get +1 fight, +1π health, and +1 evade while at a location with no clues on it.&#10;&#10;Objective - If each of &quot;Ichtaca's prey&quot; is no longer in play, advance."/>
+    <property name="Setup" value="3e"/>
     <alternate name="Close Call" size="HorizCard" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
       <property name="Type" value="Act"/>

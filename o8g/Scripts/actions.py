@@ -545,8 +545,10 @@ def deckLoaded(args):
 
 
     update()
+    if isShared:
+        deckSetup()
     playerSetup(table, 0, 0, isPlayer, isShared)
-    if isPlayer == False:
+    if not isPlayer:
         for cardT in table:
             loadClues(cardT)
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
@@ -906,31 +908,8 @@ def nextAgendaStage(group=None, x=0, y=0):
     card = group.top()
     card.moveToTable(x, y)
     
-    agendaSetup(card)
+    #agendaSetup(card)
     notify("{} advances agenda to '{}'".format(me, card))
-
-    
-def nextActStage(group=None, x=0, y=0):
-    mute()
-    
-    #We need a new Act card
-    if group is None or group == table:
-        group = actDeck()
-    if len(group) == 0: return
-    
-    if group.controller != me:
-        remoteCall(group.controller, "nextActStage", [group, x, y])
-        return
-        
-    if x == 0 and y == 0: #The keyboard shortcut was used
-        x = ActX
-        y = ActY
-            
-    card = group.top()
-    card.moveToTable(x, y)
-    
-    notify("{} advances act to '{}'".format(me, card))	
-	
 	
 def addToTable(card):
     x = AgendaX - 45.5
@@ -941,22 +920,17 @@ def addToTable(card):
         blocked = overlapPartialCard(x, y)
     card.moveToTable(x, y)  
     
-def agendaSetup(card):
-    if len(card.Setup) + len(setupDeck()) > 0:
-        cardsToStage = card.Setup.count('s')
-        i = 0
+def deckSetup():
+    if len(setupDeck()) > 0:
         for c in setupDeck():
             if c.Type == "Scenario":
                 c.moveToTable(ScenarioX, ScenarioY)
                 changeGameBoard(c.model)
             elif c.Type == "Campaign":
                 c.moveToTable(CampaignX, CampaignY)
-            elif i >= len(card.Setup) or card.Setup[i] == 't':
+            else:
                 addToTable(c)
-            elif card.Setup[i] == 's':
-                addToStagingArea(c)
-                setReminders(c)
-            i += 1
+
 def nextAgenda(group = None, x = 0, y = 0):
     nextAgendaStage(group, x, y)
 
@@ -982,8 +956,14 @@ def nextActStage(group=None, x=0, y=0):
         x = ActX
         y = ActY
             
-    card = group.top()
-    card.moveToTable(x, y)
+    gV = getGlobalVariable("multiActAgenda")
+    if gV == "3Act":
+        card = nextAct3()
+    elif gV == "4Act":
+        card = nextAct4()
+    else:
+        card = group.top()
+        card.moveToTable(x, y)
     
 #   actSetup(card)
     notify("{} advances act to '{}'".format(me, card))
@@ -1058,43 +1038,6 @@ def doMythosPhase(setPhaseVar = True):
     for card in table:
         if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addDoom(card)
-
-def changeGameBoard(s):
-    cultDeck = ['29338631-d9fc-425d-95e1-5dc408ca5355', 'f81bfa10-12e0-45ca-9f65-1f52090277f6']
-    exhibitDeck = ['f35868ff-263e-4a06-91d4-49fb17e22700', 'ceff1f22-cc40-45e6-8290-bc342b8227c4']
-    catacombsDeck = ['e748e010-c470-4757-913b-3cdbd22ead1d', '248211c0-ccc3-483b-be2b-f8ab7dbf4aab']
-    explorationDeck = ['6ea63fe0-6d47-49f8-aded-c891b70b6c63', '879c1767-bb80-4859-876a-264845386d78',
-                       '10d7ffc2-11ee-4e1a-9353-c64e9ad9a245', '1a76e271-589d-4e28-8d0e-015c4c81ebbc',
-                       '6876db05-c1e2-4e46-b172-1739f700f716', '9595aa3f-07ec-4d79-8d74-b8a79256e49f',
-                       '88c8a01f-7824-4ff3-9df4-4437ec24d12e', '789d3a7d-7ab0-47c6-8cdf-24bc20f04cc3',
-                       '1a8b03a4-bf0a-49bf-b096-adcf9fa9188a', 'ffabc5ca-54ed-4ad4-9dc2-811911039950',
-                       'e8cbbe0b-5760-469f-b355-6619ab96b183', 'e4dfe2cd-224c-4749-a966-132b8f084cce',
-                       '0a8e6b32-5d1c-4ddf-9abf-031d84133235', '901acd41-cec5-4092-822e-1ff35fbae014',
-                       '3a459f09-4010-40b3-92d1-94cbc200b70b']
-    unknownDeck = ['33bfb887-f781-43f9-a8a5-4677f811ca24']
-    spectralDeck = ['a263c7a7-7641-479b-bb07-926c93371e15']
-    cosmosDeck = ['6febb6ad-ef14-4445-8bc7-717919cc26b8']
-    board = True
-    if s in cultDeck:
-        createEncounter2CardClicky("Special", "cultistDraw")
-    elif s in exhibitDeck:
-        createEncounter2CardClicky("Location", "exhibitDraw")
-    elif s in catacombsDeck:
-        createEncounter2CardClicky("Location", "catacombsDraw")
-    elif s in explorationDeck:
-        createEncounter2CardClicky("Location", "explorationDraw")
-    elif s in unknownDeck:
-        createEncounter2CardClicky("Location", "unknownDraw")
-    elif s in spectralDeck:
-        createEncounter2CardClicky("Special", "spectralDraw")
-    elif s in cosmosDeck:
-        createEncounter2CardClicky("Location", "cosmosDraw")
-    else:
-        table.board = ""
-        board = False
-
-    if board:
-        table.board = '2Encounter'
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
@@ -1993,4 +1936,131 @@ def whiteHighlight(card, x=0 , y=0):
     card.highlight = WhiteColour   
 
 def clearHighlight(card, x=0 , y=0):
-    card.highlight = None 
+    card.highlight = None
+
+#############################################
+#                                           #
+#           Gameboard Management            #
+#                                           #
+#############################################
+
+def changeGameBoard(s):
+    cultDeck = ['29338631-d9fc-425d-95e1-5dc408ca5355', 'f81bfa10-12e0-45ca-9f65-1f52090277f6']
+    exhibitDeck = ['f35868ff-263e-4a06-91d4-49fb17e22700', 'ceff1f22-cc40-45e6-8290-bc342b8227c4']
+    catacombsDeck = ['e748e010-c470-4757-913b-3cdbd22ead1d', '248211c0-ccc3-483b-be2b-f8ab7dbf4aab']
+    explorationDeck = ['6ea63fe0-6d47-49f8-aded-c891b70b6c63', '879c1767-bb80-4859-876a-264845386d78',
+                       '10d7ffc2-11ee-4e1a-9353-c64e9ad9a245', '1a76e271-589d-4e28-8d0e-015c4c81ebbc',
+                       '6876db05-c1e2-4e46-b172-1739f700f716', '9595aa3f-07ec-4d79-8d74-b8a79256e49f',
+                       '88c8a01f-7824-4ff3-9df4-4437ec24d12e', '789d3a7d-7ab0-47c6-8cdf-24bc20f04cc3',
+                       '1a8b03a4-bf0a-49bf-b096-adcf9fa9188a', 'ffabc5ca-54ed-4ad4-9dc2-811911039950',
+                       'e8cbbe0b-5760-469f-b355-6619ab96b183', 'e4dfe2cd-224c-4749-a966-132b8f084cce',
+                       '0a8e6b32-5d1c-4ddf-9abf-031d84133235', '901acd41-cec5-4092-822e-1ff35fbae014',
+                       '3a459f09-4010-40b3-92d1-94cbc200b70b']
+    unknownDeck = ['33bfb887-f781-43f9-a8a5-4677f811ca24']
+    spectralDeck = ['a263c7a7-7641-479b-bb07-926c93371e15']
+    cosmosDeck = ['6febb6ad-ef14-4445-8bc7-717919cc26b8']
+
+    if isMultiActAgendaScenario(s):
+        return
+
+    board = True
+    if s in cultDeck:
+        createEncounter2CardClicky("Special", "cultistDraw")
+    elif s in exhibitDeck:
+        createEncounter2CardClicky("Location", "exhibitDraw")
+    elif s in catacombsDeck:
+        createEncounter2CardClicky("Location", "catacombsDraw")
+    elif s in explorationDeck:
+        createEncounter2CardClicky("Location", "explorationDraw")
+    elif s in unknownDeck:
+        createEncounter2CardClicky("Location", "unknownDraw")
+    elif s in spectralDeck:
+        createEncounter2CardClicky("Special", "spectralDraw")
+    elif s in cosmosDeck:
+        createEncounter2CardClicky("Location", "cosmosDraw")
+    #else:
+    #    table.board = ""
+    #    board = False
+
+    if board:
+        table.board = '2Encounter'
+
+def isMultiActAgendaScenario(s):
+    Act3 = ['3e01c1d4-8e5c-472b-b803-357c6474ca01']
+    Act4 = []
+    Agenda2NoAct = []
+
+    multi = True
+
+    if s in Act3:
+        setGlobalVariable("multiActAgenda", "3Act")
+    elif s in Act4:
+        setGlobalVariable("multiActAgenda", "4Act")
+    elif s in Agenda2NoAct:
+        setGlobalVariable("multiActAgenda", "2AgendaNoAct")
+    else:
+        multi = False
+
+    return multi
+
+def nextAct3(nextAct=None):
+    mute()
+    #act location flags
+    a1 = 1
+    a2 = 2
+    a3 = 4
+
+    aN = 0
+    #Check if Acts are on the table
+    for c in table:
+        if c.Type == "Act":
+            if c.Setup[1] == "a":
+                aN |= a1
+            elif c.Setup[1] == "c":
+                aN |= a2
+            elif c.Setup[1] == "e":
+                aN |= a3
+
+    if not aN: #Act Setup required
+        nextAct3("1a")
+        nextAct3("1c")
+        card = nextAct3("1e")
+        return card
+
+    if nextAct == None: #Non-Setup Call
+        if not aN&a1:
+            nextAct = "a"
+        elif not aN&a2:
+            nextAct = "c"
+        elif not aN&a3:
+            nextAct = "e"
+
+        low = 999
+        card = None
+        for c in actDeck():
+            if c.Setup[1] == nextAct and int(c.Setup[0]) < low:
+                low = int(c.Setup[0])
+                card = c
+        nextAct = card.Setup
+
+    else: #Setup Call
+        for c in actDeck():
+            if c.Setup == nextAct:
+                card = c
+                break
+
+    if nextAct[1] = "a"
+        x = Act31X
+        y = Act31Y
+    elif nextAct[1] = "c"
+        x = Act32X
+        y = Act32Y
+    elif nextAct[1] = "e"
+        x = Act33X
+        y = Act33Y
+
+    card.moveToTable(x, y)
+    return card
+
+def nextAct4():
+    pass
