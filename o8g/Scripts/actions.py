@@ -798,7 +798,7 @@ def nextEncounter2(group, facedown, who=me):
     mute()
 
     if group.controller != me:
-        remoteCall(group.controller, "nextEncounter", [group, facedown, who])
+        remoteCall(group.controller, "nextEncounter2", [group, facedown, who])
         return
 
     if len(group) == 0:
@@ -928,6 +928,7 @@ def addToTable(card):
     card.moveToTable(x, y)  
     
 def deckSetup():
+    setupHelper()
     if len(setupDeck()) > 0:
         for c in setupDeck():
             if c.Type == "Scenario":
@@ -1997,7 +1998,7 @@ def isMultiActAgendaScenario(s):
     threads = '3e01c1d4-8e5c-472b-b803-357c6474ca01' #Needs to be handled differently, because the Return To Scenario changes Setup
     Act3 = ['3e01c1d4-8e5c-472b-b803-357c6474ca01']
     Act4 = ['8878eefa-e958-4b1f-9801-5c4127411fcc']
-    Agenda2NoAct = []
+    Agenda2NoAct = ['0d7300da-ddb1-4d9b-81b0-ceab0a459f54']
 
     multi = True
 
