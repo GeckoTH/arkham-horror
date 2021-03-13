@@ -35,9 +35,9 @@ def setupHelper():
               ['71fc4500-eaf7-43b1-b6b4-165248055cdf','aa707a76-33be-4960-9a91-ce58e22b7728']]
 
         a = askChoice("Check Campaign Log",
-                      ["Alejandrorecovered the Relic of Ages","The investigators gave custody of the relic to Alejandro","The investigators gave custody of the relic to Harlan Earnstone"],
+                      ["Alejandro recovered the Relic of Ages","The investigators gave custody of the relic to Alejandro","The investigators gave custody of the relic to Harlan Earnstone"],
                       ["#000000","#000000","#000000"])
-         if not a:
+        if not a:
             return
         if a < 3:
             a = 0
@@ -63,7 +63,7 @@ def setupHelper():
         a = askChoice("Choose one",
                       ["Go to the Police to inform them about Alejandro's disappearance","Look for Alejandro on your own"],
                       ["#000000","#000000"])
-         if not a:
+        if not a:
             return
         a -= 1
         r = rnd(0,1)
@@ -85,7 +85,7 @@ def setupHelper():
         a = askChoice("Ichtaca's tale",
                       ["You listened to Ichtaca's tale","Ichtaca left without you"],
                       ["#000000","#000000"])
-         if not a:
+        if not a:
             return
         a -= 1
         r = rnd(0,1)
