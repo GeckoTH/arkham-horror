@@ -6,6 +6,11 @@ def setupHelper():
             cards.append(c)
 
     s = cards[0].model
+#############################################
+#                                           #
+#             Path to Carcosa               #
+#                                           #
+#############################################
     if s == '0d7300da-ddb1-4d9b-81b0-ceab0a459f54': #Black Stars Rise
         stacks = [['fada603a-e868-4c93-9ada-1a2d61e9b43c','6b5e4477-4b8f-4913-b799-1d2e2b497f6c',
                    'ee818778-2024-4969-b030-0e5855802f96','2caaba71-47a4-4c07-b60f-298b7a9d7e87'],
@@ -27,7 +32,20 @@ def setupHelper():
                     c.moveTo(agendaDeck(), 1)
                 else:
                     c.moveTo(actDeck(), 1)
-
+        if len(cards) == 1:
+            return #no Return To
+        #Otherwise we are playing Return to
+        stacks = [['d8d74a85-4a6a-48ed-a1fb-757426ff9345','65db3c0e-b915-4bec-b787-9171a354487d'],
+                  ['f454e1fe-8169-4909-9c83-31ba37773e63','76a049da-5d39-419e-b38a-ed64382f1a9a']]
+        r = rnd(0,1)
+        for c in setupDeck():
+            if c.model in stacks[r]:
+                c.delete()
+#############################################
+#                                           #
+#               Forgotten Age               #
+#                                           #
+#############################################
     elif s == '3e01c1d4-8e5c-472b-b803-357c6474ca01': #Threads of Fate
         ab = [['c8d55c59-96cd-438b-afaa-366bfe19730c','896613e6-b4a2-488a-8460-929df1a72bf4'],
               ['c6b3c676-8d25-46d4-a43c-898324bbd6e0','d2aff041-a1f8-4b31-a630-651661ac22fc'],
@@ -101,7 +119,7 @@ def setupHelper():
 
         if len(cards) == 1:
             return #no Return To
-        #Otherwise we are playing Return to Threads
+        #Otherwise we are playing Return to
         gh = [['3faf9ca8-2d4a-4327-b365-2332cbf76401','6986f0ca-fc8e-420e-ae92-6410fab73785'],
               ['33b24489-91a6-4eae-9164-082b357abd14','24bf56dc-3b0f-45db-b633-6428a5ffd784'],
               ['af6113e6-6f03-4685-824f-11016b51b50f','2ac2cfc8-aa2b-406b-a950-1a273d7cb1cf'],
