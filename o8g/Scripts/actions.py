@@ -302,7 +302,7 @@ def clearTargets(group=table, x=0, y=0):
     for c in group:
         if c.controller == me or (c.targetedBy is not None and c.targetedBy == me):
             c.target(False)
-    notify("x={} y={}".format(str(x), str(y)))
+    #notify("x={} y={}".format(str(x), str(y)))
 
 def findCard(group, model):
     for c in group:
@@ -1182,7 +1182,7 @@ def defaultAction(card, x = 0, y = 0):
     elif card.Type == "Chaos Token": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
-    elif card.Type == "Encounter Draw" or "Encounter2 Draw": # Action handled in OnCardDoubleClicked
+    elif card.Type == "Encounter Draw" or card.Type == "Encounter2 Draw": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
     elif card.Type == "Mini": #Add action token
@@ -1994,7 +1994,6 @@ def changeGameBoard(s):
         table.board = '2Encounter'
 
 def isMultiActAgendaScenario(s):
-    notify(s)
     threads = '3e01c1d4-8e5c-472b-b803-357c6474ca01' #Needs to be handled differently, because the Return To Scenario changes Setup
     Act3 = ['3e01c1d4-8e5c-472b-b803-357c6474ca01']
     Act4 = ['8878eefa-e958-4b1f-9801-5c4127411fcc']
