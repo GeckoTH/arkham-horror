@@ -31,8 +31,24 @@ AgendaX = 221
 AgendaY = -222
 ActX = 309
 ActY = -222
+Act31X = 117
+Act31Y = -128
+Act32X = 221
+Act32Y = -128
+Act33X = 325
+Act33Y = -128
+Act41X = 88
+Act41Y = -135
+Act42X = 188
+Act42Y = -123
+Act43X = 288
+Act43Y = -123
+Act44X = 388
+Act44Y = -135
 EncounterX = 147
 EncounterY = -234.75
+Encounter2X = 147
+Encounter2Y = -135
 ScenarioX = 408.5
 ScenarioY = -234.75
 CampaignX = 500
@@ -41,6 +57,8 @@ ChaosTokenX = 94
 ChaosTokenY = -211
 ChaosBagX = 0
 ChaosBagY = -234.75
+
+
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
 ActiveColour = "#82FA58" # Green
@@ -180,6 +198,15 @@ def cardDoubleClicked(args):
                 remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
         elif card.Type == "Encounter Draw": # Draw Encounter Card
             addEncounter(table)
+        elif card.Type == "Encounter2 Draw":
+            if card.Subtype == "Special":
+                nextEncounter2(specialDeck(), False)
+            elif card.Subtype == "Location":
+                nextEncounter2(locationDeck(), False)
+        elif card.Type == "nextAgenda":
+            nextAgendaStage()
+        elif card.Type == "nextAct":
+            nextActStage()
         elif card.Type == "Path": # Rotate Path cards
             rotateRight(card)
 
@@ -275,6 +302,7 @@ def clearTargets(group=table, x=0, y=0):
     for c in group:
         if c.controller == me or (c.targetedBy is not None and c.targetedBy == me):
             c.target(False)
+    #notify("x={} y={}".format(str(x), str(y)))
 
 def findCard(group, model):
     for c in group:
@@ -499,7 +527,6 @@ def deckLoaded(args):
             if shared.piles[p].controller != me:
                 shared.piles[p].controller = me
         update()
-            
     #Cards for the encounter deck and player deck are loaded into the discard pile because this has visibility="all"    
     #Check for cards with a Setup effects and move other cards back into the correct pile
     for pile in args.groups:
@@ -517,10 +544,11 @@ def deckLoaded(args):
         elif pile.name == "Encounter Discard Pile":
             createEncounterCardClicky(table)
 
-
+    if isShared:
+        deckSetup()
     update()
     playerSetup(table, 0, 0, isPlayer, isShared)
-    if isPlayer == False:
+    if not isPlayer:
         for cardT in table:
             loadClues(cardT)
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
@@ -625,6 +653,18 @@ def createChaosBag(group, x=0, y=0):
 
 def createEncounterCardClicky(group, x=0, y=0):
     group.create("f4633a2e-0102-452d-8387-678b5aa17878", EncounterX, EncounterY, 1, False)
+
+def createEncounter2CardClicky(pile, alt):
+    card = table.create("f4633a2e-0102-452d-8387-678b5aa17878", Encounter2X, Encounter2Y, 1, False)
+    card.alternate = alt
+    card.Subtype = pile
+
+def createActCardClicky(x, y):
+    table.create("94f90b4e-5dd7-47cd-9d9b-afba493c6a81", x, y, 1, False)
+
+def createAgendaCardClicky(x, y):
+    card = table.create("d16e42c3-06a0-4721-b13b-d1fa6bf02a4e", x, y, 1, False)
+    return card
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -736,12 +776,12 @@ def nextEncounter(group, x, y, facedown, who=me):
     if group.controller != me:
         remoteCall(group.controller, "nextEncounter", [group, x, y, facedown, me])
         return
-        
+
     if len(group) == 0:
         resetEncounterDeck(group)
     if len(group) == 0: # No cards
         return
-        
+
     clearTargets()
     card = group.top()
     if x == 0 and y == 0:  #Move to default position in the staging area 
@@ -750,6 +790,28 @@ def nextEncounter(group, x, y, facedown, who=me):
     else:
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
+    card.controller = who
+    if len(group) == 0:
+        resetEncounterDeck(group)
+
+def nextEncounter2(group, facedown, who=me):
+    mute()
+
+    if group.controller != me:
+        remoteCall(group.controller, "nextEncounter2", [group, facedown, who])
+        return
+
+    if len(group) == 0:
+        resetEncounterDeck(group)
+    if len(group) == 0: # No cards
+        return
+
+    clearTargets()
+    card = group.top()
+
+    card.moveToTable(Encounter2X, Encounter2Y, facedown)
+    notify("{} places '{}' on the table.".format(who, card))
+
     card.controller = who
     if len(group) == 0:
         resetEncounterDeck(group)
@@ -811,7 +873,7 @@ def addBlessCurse(group, isBless, who=me):
         notify("{} puts a Curse Token into the Chaos Bag".format(who))
         addToken(cb, Curse)
 
-    token.SubType = "Blurse"
+    token.Subtype = "Blurse"
     token.moveTo(chaosBag())
     chaosBag().shuffle()
 
@@ -853,56 +915,30 @@ def nextAgendaStage(group=None, x=0, y=0):
     card = group.top()
     card.moveToTable(x, y)
     
-    agendaSetup(card)
+    #agendaSetup(card)
     notify("{} advances agenda to '{}'".format(me, card))
-
-    
-def nextActStage(group=None, x=0, y=0):
-    mute()
-    
-    #We need a new Act card
-    if group is None or group == table:
-        group = actDeck()
-    if len(group) == 0: return
-    
-    if group.controller != me:
-        remoteCall(group.controller, "nextActStage", [group, x, y])
-        return
-        
-    if x == 0 and y == 0: #The keyboard shortcut was used
-        x = ActX
-        y = ActY
-            
-    card = group.top()
-    card.moveToTable(x, y)
-    
-    notify("{} advances act to '{}'".format(me, card))	
-	
 	
 def addToTable(card):
     x = AgendaX - 45.5
-    y = -96
+    y = -40
     blocked = overlapPartialCard(x, y)
     while blocked is not None:
         x += 16
         blocked = overlapPartialCard(x, y)
     card.moveToTable(x, y)  
     
-def agendaSetup(card):
-    if len(card.Setup) + len(setupDeck()) > 0:
-        cardsToStage = card.Setup.count('s')
-        i = 0
+def deckSetup():
+    setupHelper()
+    if len(setupDeck()) > 0:
         for c in setupDeck():
             if c.Type == "Scenario":
                 c.moveToTable(ScenarioX, ScenarioY)
+                changeGameBoard(c.model)
             elif c.Type == "Campaign":
                 c.moveToTable(CampaignX, CampaignY)
-            elif i >= len(card.Setup) or card.Setup[i] == 't':
+            else:
                 addToTable(c)
-            elif card.Setup[i] == 's':
-                addToStagingArea(c)
-                setReminders(c)
-            i += 1
+
 def nextAgenda(group = None, x = 0, y = 0):
     nextAgendaStage(group, x, y)
 
@@ -910,10 +946,11 @@ def nextActStage(group=None, x=0, y=0):
     mute()
     
     #If the current Act card has side A showing it is simply flipped and we are done
-    for c in table:
-        if c.Type in ("Act") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
-            flipcard(c)
-            return
+    if getGlobalVariable("multiActAgenda") == "Default":
+        for c in table:
+            if c.Type in ("Act") and c.alternates is not None and "B" in c.alternates and c.alternate != "B":
+                flipcard(c)
+                return
     
     #We need a new Act card
     if group is None or group == table:
@@ -927,9 +964,15 @@ def nextActStage(group=None, x=0, y=0):
     if x == 0 and y == 0: #The keyboard shortcut was used
         x = ActX
         y = ActY
-            
-    card = group.top()
-    card.moveToTable(x, y)
+
+    gV = getGlobalVariable("multiActAgenda")
+    if gV == "3Act":
+        card = nextAct3()
+    elif gV == "4Act":
+        card = nextAct4()
+    else:
+        card = group.top()
+        card.moveToTable(x, y)
     
 #   actSetup(card)
     notify("{} advances act to '{}'".format(me, card))
@@ -1139,7 +1182,7 @@ def defaultAction(card, x = 0, y = 0):
     elif card.Type == "Chaos Token": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
-    elif card.Type == "Encounter Draw": # Action handled in OnCardDoubleClicked
+    elif card.Type == "Encounter Draw" or card.Type == "Encounter2 Draw": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
     elif card.Type == "Mini": #Add action token
@@ -1902,4 +1945,216 @@ def whiteHighlight(card, x=0 , y=0):
     card.highlight = WhiteColour   
 
 def clearHighlight(card, x=0 , y=0):
-    card.highlight = None 
+    card.highlight = None
+
+#############################################
+#                                           #
+#           Gameboard Management            #
+#                                           #
+#############################################
+
+def changeGameBoard(s):
+    cultDeck = ['29338631-d9fc-425d-95e1-5dc408ca5355']#, 'f81bfa10-12e0-45ca-9f65-1f52090277f6']
+    exhibitDeck = ['f35868ff-263e-4a06-91d4-49fb17e22700']#, 'ceff1f22-cc40-45e6-8290-bc342b8227c4']
+    catacombsDeck = ['e748e010-c470-4757-913b-3cdbd22ead1d']#, '248211c0-ccc3-483b-be2b-f8ab7dbf4aab']
+    explorationDeck = ['6ea63fe0-6d47-49f8-aded-c891b70b6c63', '879c1767-bb80-4859-876a-264845386d78',
+                       '10d7ffc2-11ee-4e1a-9353-c64e9ad9a245', '1a76e271-589d-4e28-8d0e-015c4c81ebbc',
+                       '6876db05-c1e2-4e46-b172-1739f700f716', '9595aa3f-07ec-4d79-8d74-b8a79256e49f',
+                       '88c8a01f-7824-4ff3-9df4-4437ec24d12e',]# '789d3a7d-7ab0-47c6-8cdf-24bc20f04cc3',
+                       #'1a8b03a4-bf0a-49bf-b096-adcf9fa9188a', 'ffabc5ca-54ed-4ad4-9dc2-811911039950',
+                       #'e8cbbe0b-5760-469f-b355-6619ab96b183', 'e4dfe2cd-224c-4749-a966-132b8f084cce',
+                       #'0a8e6b32-5d1c-4ddf-9abf-031d84133235', '901acd41-cec5-4092-822e-1ff35fbae014',
+                       #'3a459f09-4010-40b3-92d1-94cbc200b70b']
+    unknownDeck = ['33bfb887-f781-43f9-a8a5-4677f811ca24']
+    spectralDeck = ['a263c7a7-7641-479b-bb07-926c93371e15']
+    cosmosDeck = ['6febb6ad-ef14-4445-8bc7-717919cc26b8']
+
+    if isMultiActAgendaScenario(s):
+        return
+
+    board = True
+    if s in cultDeck:
+        createEncounter2CardClicky("Special", "cultistDraw")
+    elif s in exhibitDeck:
+        createEncounter2CardClicky("Location", "exhibitDraw")
+    elif s in catacombsDeck:
+        createEncounter2CardClicky("Location", "catacombsDraw")
+    elif s in explorationDeck:
+        createEncounter2CardClicky("Location", "explorationDraw")
+    elif s in unknownDeck:
+        createEncounter2CardClicky("Location", "unknownDraw")
+    elif s in spectralDeck:
+        createEncounter2CardClicky("Special", "spectralDraw")
+    elif s in cosmosDeck:
+        createEncounter2CardClicky("Location", "cosmosDraw")
+    else:
+        board = False
+
+    if board:
+        table.board = '2Encounter'
+
+def isMultiActAgendaScenario(s):
+    threads = '3e01c1d4-8e5c-472b-b803-357c6474ca01' #Needs to be handled differently, because the Return To Scenario changes Setup
+    Act3 = ['3e01c1d4-8e5c-472b-b803-357c6474ca01']
+    Act4 = ['8878eefa-e958-4b1f-9801-5c4127411fcc']
+    Agenda2NoAct = ['0d7300da-ddb1-4d9b-81b0-ceab0a459f54']
+
+    multi = True
+
+    if s == threads:
+        for c in setupDeck(): #See if we have the Return To Card in here
+            if c.model == '8878eefa-e958-4b1f-9801-5c4127411fcc':
+                return #We wait for the Return Card to come up
+
+    if s in Act3:
+        setGlobalVariable("multiActAgenda", "3Act")
+        createAgendaCardClicky(AgendaX, AgendaY)
+        createActCardClicky(Act31X, Act31Y)
+        createActCardClicky(Act32X, Act32Y)
+        createActCardClicky(Act33X, Act33Y)
+        table.board = '3Act'
+    elif s in Act4:
+        setGlobalVariable("multiActAgenda", "4Act")
+        createAgendaCardClicky(AgendaX, AgendaY)
+        createActCardClicky(Act41X, Act41Y)
+        createActCardClicky(Act42X, Act42Y)
+        createActCardClicky(Act43X, Act43Y)
+        createActCardClicky(Act44X, Act44Y)
+        table.board = '4Act'
+    elif s in Agenda2NoAct:
+        #setGlobalVariable("multiActAgenda", "2AgendaNoAct")
+        createAgendaCardClicky(AgendaX, AgendaY)
+        c = createAgendaCardClicky(ActX, ActY)
+        c.Type = "nextAct"
+    else:
+        multi = False
+        createActCardClicky(ActX, ActY)
+        createAgendaCardClicky(AgendaX, AgendaY)
+
+    return multi
+
+def nextAct3(nextAct=None):
+    if nextAct == None: #Non-Setup Call
+        #act location flags
+        a1 = 1
+        a2 = 2
+        a3 = 4
+
+        aN = 0
+        #Check if Acts are on the table
+        for c in table:
+            if c.Type == "Act":
+                if c.Setup[1] == "a":
+                    aN |= a1
+                elif c.Setup[1] == "c":
+                    aN |= a2
+                elif c.Setup[1] == "e":
+                    aN |= a3
+
+        if not aN: #Act Setup required
+            nextAct3("1a")
+            nextAct3("1c")
+            card = nextAct3("1e")
+            return card
+
+        if not aN&a1:
+            nextAct = "a"
+        elif not aN&a2:
+            nextAct = "c"
+        elif not aN&a3:
+            nextAct = "e"
+
+        low = 999
+        card = None
+        for c in actDeck():
+            if c.Setup[1] == nextAct and int(c.Setup[0]) < low:
+                low = int(c.Setup[0])
+                card = c
+        nextAct = card.Setup
+
+    else: #Setup Call
+        for c in actDeck():
+            if c.Setup == nextAct:
+                card = c
+                break
+
+    if nextAct[1] == "a":
+        x = Act31X
+        y = Act31Y
+    elif nextAct[1] == "c":
+        x = Act32X
+        y = Act32Y
+    elif nextAct[1] == "e":
+        x = Act33X
+        y = Act33Y
+
+    card.moveToTable(x, y)
+    return card
+
+def nextAct4(nextAct=None):
+    if nextAct == None: #Non-Setup Call
+        #act location flags
+        a1 = 1
+        a2 = 2
+        a3 = 4
+        a4 = 8
+
+        aN = 0
+        #Check if Acts are on the table
+        for c in table:
+            if c.Type == "Act":
+                if c.Setup[1] == "a":
+                    aN |= a1
+                elif c.Setup[1] == "c":
+                    aN |= a2
+                elif c.Setup[1] == "e":
+                    aN |= a3
+                elif c.Setup[1] == "g":
+                    aN |= a4
+
+        if not aN: #Act Setup required
+            nextAct4("1a")
+            nextAct4("1c")
+            nextAct4("1e")
+            card = nextAct4("1g")
+            return card
+
+        if not aN&a1:
+            nextAct = "a"
+        elif not aN&a2:
+            nextAct = "c"
+        elif not aN&a3:
+            nextAct = "e"
+        elif not aN&a4:
+            nextAct = "g"
+
+        low = 999
+        card = None
+        for c in actDeck():
+            notify(c.name)
+            if c.Setup[1] == nextAct and int(c.Setup[0]) < low:
+                low = int(c.Setup[0])
+                card = c
+        nextAct = card.Setup
+
+    else: #Setup Call
+        for c in actDeck():
+            if c.Setup == nextAct:
+                card = c
+                break
+
+    if nextAct[1] == "a":
+        x = Act41X
+        y = Act41Y
+    elif nextAct[1] == "c":
+        x = Act42X
+        y = Act42Y
+    elif nextAct[1] == "e":
+        x = Act43X
+        y = Act43Y
+    elif nextAct[1] == "g":
+        x = Act44X
+        y = Act44Y
+
+    card.moveToTable(x, y)
+    return card

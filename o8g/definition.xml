@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.4.286.0"
 	scriptVersion ="3.1.0.2"
-	version="1.7.4.2"
+	version="1.7.4.3"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -20,6 +20,7 @@
 		<script src="scripts/plugin.py" />
 		<script src="scripts/util.py" />
 		<script src="scripts/bonded.py" />
+		<script src="scripts/setupHelper.py" />
 	</scripts>
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
@@ -59,6 +60,7 @@
 		<globalvariable name="deckLocked" value="" />
 		<globalvariable name="firstPlayer" value="" />
 		<globalvariable name="activePlayer" value="" />
+		<globalvariable name="multiActAgenda" value="Default" />
 	</globalvariables>
 	<card back="cards/card.jpg" front="cards/card.jpg" width="63" height="88" cornerRadius="4">
 		<property name="Unique" type="String" hidden="False" ignoreText="False" />
@@ -127,6 +129,9 @@
 		<marker id="9a1ffb97-35bd-4f99-9646-f15732cb36a9" name="Floodh" src="Markers/9a1ffb97-35bd-4f99-9646-f15732cb36a9.png" />
 	</markers>
 	<gameboards src="background/tabletop.png" x="-575" y="-268" width="1150" height="536">
+		<gameboard name="2Encounter" src="background/2Encounter.png" x="-575" y="-268" width="1150" height="536" />
+		<gameboard name="3Act" src="background/3Act.png" x="-575" y="-268" width="1150" height="536" />
+		<gameboard name="4Act" src="background/4Act.png" x="-575" y="-268" width="1150" height="536" />
 	</gameboards>
 	<table name="Table" visibility="undefined" ordered="False" width="1150" height="536" background="background/background.jpg" backgroundStyle="uniformToFill">
 		<groupaction menu="Player Setup ..." default="False" shortcut="" execute="playerSetup" />
