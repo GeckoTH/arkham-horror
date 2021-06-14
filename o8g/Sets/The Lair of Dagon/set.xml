@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Lair of Dagon" id="8bc1dbcf-b054-49a7-9770-b8072d909c17" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="9ab269f1-77cc-4801-9f12-38a3437e805a" name="Enchant Weapon">
+      <property name="Card Number" value="261" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Upgrade." />
+      <property name="Text" value="Attached to a Weapon asset controlled by an investigator at your location.  Limit 1 per asset.&#10;Attached asset gains the Relic trait and takes up an arcane slot in addition to its others slots.&#10;ι When you perform a Fight action using attached asset, exhaust this card: Add the owner of this card's ά to your ή for this attack. This attack deals +1 damage." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="18bd958a-b948-4ebe-81e1-560debea28f8" name="Nepththys">
+      <property name="Card Number" value="262" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Blessed." />
+      <property name="Text" value="You get +1 ά.&#10;ι When 1 or more [Bless] tokens would be removed from the chaos bag during a test: Seal them on Nephthys, instead.&#10;θ Exhaust Nephthys: Either release 3 [Bless] tokens sealed on her, or return 3 [Bless] tokens sealed on her to the token pool to deal 2 damage to an enemy at your location." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7e75e587-99e9-4c7b-bc27-80f1ec67f433" name="The Stygian Eye">
+      <property name="Card Number" value="263" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Cursed." />
+      <property name="Text" value="Fast. Play only during your turn.&#10;Reduce the cost to play The Stygian Eye by 1 for each [Curse] token in the chaos bag.&#10;Until the end of the round, you get +3 to each of your skills." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="10" />
+      <property name="Willpower" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2a670fab-5abb-430e-ac96-f622e54dc6a9" name="Hyperawareness">
+      <property name="Card Number" value="264" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Uses (2 resources). Replenish these resources at the start of each round.&#10;θ Spend 1 resource from your resource pool or from Hyperawareness: You get +1 έ or +1 ί for this skill test." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="29c9a714-3abb-481c-b244-94a98ba4fd85" name="Geas">
+      <property name="Card Number" value="265" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Pact." />
+      <property name="Text" value="Exceptional.&#10;You get +1 ά, +1 έ, +1 ή, and +1 ί.&#10;Forced – After Geas enters play: Make a promise using the following formula – &quot;I shall not (draw/play/commit) any cards during each of my turns.&quot; If you break this promise while Geas is in play, discard it and add 10 [Curse] tokens to the chaos bag." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a607c5f1-c079-49d9-be83-a3600f9385b6" name="Hard Knocks">
+      <property name="Card Number" value="266" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Uses (2 resources). Replenish these resources at the start of each round.&#10;θ Spend 1 resource from your resource pool or from Hard Knocks: You get +1 ή or +1 ί for this skill test." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="50799896-5adc-4590-ad29-89ccb16c4519" name="Ikiaq">
+      <property name="Card Number" value="267" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="The Council's Chosen" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Sorcerer." />
+      <property name="Text" value="You get +1 ά and +1 έ. You get –1 ά and –1 έ for each weakness beneath Ikiaq.&#10;ι When an investigator at your location draws a basic weakness, exhaust Ikiaq: Cancel that weakness's effects and place it facedown beneath Ikiaq. Its owner must draw it if Ikiaq leaves play.&#10;Card design by The Council at Arkham Nights 2018." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a9c306cc-b82a-43e8-a6eb-5dbe309afa7c" name="Flute of the Outer Gods">
+      <property name="Card Number" value="268" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Instrument. Relic. Cursed." />
+      <property name="Text" value="Exceptional. Seal (up to X [Curse]).&#10;η Exhaust Flute of the Outer Gods and release 1 [Curse] token sealed on it: Choose a non-Elite enemy at your location. Either move the chosen enemy to a connecting location, or deal its damage to any enemy at its location. This action does not provoke attacks of opportunity." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="X" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4543ebb4-35da-489f-bf9f-820e1078352c" name="A Watchful Peace">
+      <property name="Card Number" value="269" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit. Blessed." />
+      <property name="Text" value="As an additional cost to play A Watchful Peace, search the chaos bag and/or cards in play for a total of 5 [Bless] tokens and return them to the token pool.&#10;Fast. Play when the &quot;draw encounter cards&quot; step of the mythos phase would begin.&#10;Skip this step of the mythos phase." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9fd1bf09-3246-44e4-9598-cd8a3643ee92" name="Dig Deep">
+      <property name="Card Number" value="270" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="&quot;Uses (2 resources). Replenish these resources at the start of each round.&#10;θ Spend 1 resource from your resource pool or from Dig Deep: You get +1 ά or +1 ί for this skill test.&quot;" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ac2edc84-c684-41a2-929e-b7a39fcfe389" name="Favor of the Moon">
+      <property name="Card Number" value="271" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Pact. Cursed." />
+      <property name="Text" value="Fast. Seal (up to 3 [Curse]). If there are no tokens sealed on Favor of the Moon, discard it.&#10;ι When you would reveal a chaos token from the chaos bag, exhaust Favor of the Moon: Resolve a token sealed here instead, as if it were just revealed from the chaos bag. Then, gain 1 resource." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fafb6c66-6472-44d2-9501-70415e65f770" name="Favor of the Sun">
+      <property name="Card Number" value="272" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Pact. Blessed." />
+      <property name="Text" value="Fast. Seal (up to 3 [Bless]). If there are no tokens sealed on Favor of the Sun, discard it.&#10;ι When you would reveal a chaos token from the chaos bag, exhaust Favor of the Sun: Resolve a token sealed here instead, as if it were just revealed from the chaos bag." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7b963a6d-ba1d-4411-8534-a6d144985eda" name="Purifying Corruption">
+      <property name="Card Number" value="273" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Blessed. Cursed." />
+      <property name="Text" value="ι When you draw a non-weakness treachery, take 1 damage and 1 horror: Cancel that card's revelation effect and place 1 resource on this card, as corruption. If this card has 3 or more corruption, remove it from the game.&#10;θ Draw the top card of the encounter deck: Either heal 1 damage and 1 horror, or remove 1 corruption from this card.&#10;Card design by the Impure at Arkham Nights 2019." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="4" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="911eb331-94e6-4391-8a5c-21a9fd1e54bb" name="The Lair of Dagon" size="EncounterCard">
+      <property name="Card Number" value="274" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 for each key on this card.&#10;β: 0. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. If you fail, place each key you control on your location.&#10;δ: –4. If you fail, add 1 [Curse] token to the chaos bag." />
+      <alternate name="The Lair of Dagon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –2 for each key on this card.&#10;β: –2. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. Place each key you control on your location.&#10;δ: –4. Add 2 [Curse] token to the chaos bag." />
+      </alternate>
+    </card>
+    <card id="e5bf04d0-21cc-4bac-8fc4-9a189bd50b5e" name="The Initiation (v. I)" size="HorizCard">
+      <property name="Card Number" value="275" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+      <property name="Doom" value="6" />
+      <alternate name="Encounter in the Deep" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Add 2 [Curse] tokens to the chaos bag. Check Campaign Log.&#10;— If a jailbreak is listed under &quot;Memories Recovered&quot; in your Campaign Log, spawn the set-aside Suspect enemy at a Third Floor location, or at the Grand Entryway if a Third Floor location is not in play (ignoring that enemy's revelation ability). Place the set-aside blue key on that enemy.&#10;— Otherwise, the lead investigator searches the encounter deck for a Cultist enemy and spawns it in a connecting location. Shuffle the encounter deck." />
+      </alternate>
+    </card>
+    <card id="b18a5153-6dfe-490b-b19a-97d33f98334f" name="The Initiation (v. II)" size="HorizCard">
+      <property name="Card Number" value="276" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+      <property name="Doom" value="6" />
+      <alternate name="Encounter in the Deep" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Remove 2 [Curse] tokens to the chaos bag. Check Campaign Log.&#10;— If a jailbreak is listed under &quot;Memories Recovered&quot; in your Campaign Log, spawn the set-aside Suspect enemy at a Third Floor location, or at the Grand Entryway if a Third Floor location is not in play (ignoring that enemy's revelation ability). That enemy enters play exhausted.&#10;— Otherwise, nothing else happens." />
+      </alternate>
+    </card>
+    <card id="0ad49587-455a-4fb6-ae9e-48b6c90d3002" name="What Lurks Below (v. I)" size="HorizCard">
+      <property name="Card Number" value="277" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+      <alternate name="Cursed Luck" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Add 4 [Curse] tokens to the chaos bag." />
+      </alternate>
+    </card>
+    <card id="8f51525c-641b-4055-82bc-91bfe9aa14b3" name="What Lurks Below (v. II)" size="HorizCard">
+      <property name="Card Number" value="278" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+      <alternate name="Dawson Returns" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Remove 4 [Curse] tokens to the chaos bag.&#10;Choose an investigator to take control of the set-aside Thomas Dawson story asset. For the remainder of this scenario, Thomas Dawson does not take up an ally slot. That investigator may also take control of 1 spent key on the scenario card." />
+      </alternate>
+    </card>
+    <card id="5e00d99a-1745-4ca9-b804-db557517b85a" name="The Ritual Advances" size="HorizCard">
+      <property name="Card Number" value="279" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+      <alternate name="An Awakening" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each investigator who has not resigned is defeated and suffer 1 mental trauma.&#10;In your Campaign Log, record Dagon has awakened.&#10;(-&gt; R1)" />
+      </alternate>
+    </card>
+    <card id="39e75896-7813-4c04-bf5c-d1904096e834" name="The First Oath" size="HorizCard">
+      <property name="Card Number" value="280" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each Suspect enemy gets +1π health, loses aloof, and cannot be parleyed with.&#10;θ Spend the blue, red, white or yellow key: Discard each Obstacle card attached to your location.&#10;Objective – If each surviving investigator is at Grand Entryway and the investigators have &quot;unlocked the entrance to the caves,&quot; advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Secrecy" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If a Suspect enemy is in play, remove it from the game.&#10;Remove each location other than Grand Entryway from the game (or add them to the victory display if they have Victory X and no clues on them), discarding each card at those locations.&#10;Shuffle the set-aside Tidal Tunnel locations and put each of them into play.&#10;Increase the flood level of each location.&#10;Shuffle each set-aside Syzygy and Tidal Alignment card into the encounter deck, along with the encounter discard pile." />
+      </alternate>
+    </card>
+    <card id="a8620344-11bc-4c08-be04-4b6d31fa5c35" name="The Second Oath" size="HorizCard">
+      <property name="Card Number" value="281" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each Suspect enemy gets +1π health, loses aloof, and cannot be parleyed with.&#10;θ Spend the blue, red, white or yellow key: Discard each Obstacle card attached to your location.&#10;Objective – If each surviving investigator is at Grand Entryway and the investigators have &quot;unlocked the final depths,&quot; advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Loyalty" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Put the set-aside Lair of Dagon location into play, fully flooded.&#10;Put the set-aside Dagon enemy into play at Lair of Dagon, (Deep in Slumber) side faceup.&#10;Check the current agenda.&#10;— If it is agenda 1a, add 10 [Curse] tokens to the chaos bag.&#10;— If it is agenda 2a, add 5 [Curse] tokens to the chaos bag." />
+      </alternate>
+    </card>
+    <card id="9beb2671-eb92-47ed-a7f5-6858ec94cb7d" name="The Third Oath" size="HorizCard">
+      <property name="Card Number" value="282" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each Suspect enemy gets +1π health, loses aloof, and cannot be parleyed with.&#10;θ Spend the blue, red, white or yellow key: Discard each Obstacle card attached to your location.&#10;Objective – Disrupt the Order's ritual by placing clues on this act. If there are 3π clues on this act, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Rebirth" type="B" size="HorizCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="In your Campaign Log, record the order's ritual was disrupted.&#10;— If Dagon (Deep in Slumber) is in play, in your Campaign Log, record Dagon still slumbers.&#10;— If Dagon (Awakened and Enraged) is inplay or in the victory display, in your Campaign Log, record Dagon has awakened.&#10;(-&gt; R1)" />
+      </alternate>
+    </card>
+    <card id="890cb643-c70b-4877-a99b-a2680466aea3" name="Grand Entryway" size="EncounterCard">
+      <property name="Card Number" value="283" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ground Floor." />
+      <alternate name="Grand Entryway" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ground Floor." />
+        <property name="Text" value="Grand Entryway is connected to each Cave location, and vice versa.&#10;η Resign. You've had enough of this place.&#10;η Investigators at the Grand Entryway spend the purple key and 3π clues, as a group: Remember that you have &quot;unlocked the entrance to the caves.&quot;" />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="29022ef6-40d4-42e4-b18f-b8834d912c76" name="First Floor Hall" size="EncounterCard">
+      <property name="Card Number" value="284" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ground Floor." />
+      <alternate name="Hall of Blood" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ground Floor." />
+        <property name="Text" value="Forced – After Hall of Blood is revealed: Place the set-aside red key on it.&#10;Forced – After you fail a skill test while investigating Hall of Blood: Take 1 horror." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="1cdcdf08-183f-4c0e-a095-45cc06b5c099" name="First Floor Hall" size="EncounterCard">
+      <property name="Card Number" value="285" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ground Floor." />
+      <alternate name="Hall of the Deep" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ground Floor." />
+        <property name="Text" value="η Spend the red key: There is an audible click as the crest of blood fits into the stone altar. Put the set-aside Y'ha-nthlei Statue story asset into play under your control, Cursed side faceup.&#10;Forced – After hall of the Deep is revealed: Increase its flood level.&#10;Victory 1." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="6290cd5a-eddb-42c3-924c-54e96b91b6e9" name="Foul Corridors" size="EncounterCard">
+      <property name="Card Number" value="286" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Second Floor." />
+      <alternate name="Foul Corridors" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Second Floor. Passageway." />
+        <property name="Text" value="η Spend the black key: Remember that you have &quot;unlocked the third floor.&quot;" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="aeb60006-d47f-4090-9828-063e9fb85baf" name="Second Floor Hall" size="EncounterCard">
+      <property name="Card Number" value="287" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Second Floor." />
+      <alternate name="Hall of Loyalty" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Second Floor." />
+        <property name="Text" value="θ Spend the blue, red, white, or yellow key: Choose 3 of the following –&#10;— Heal 1 damage.&#10;— Draw 2 cards.&#10;— Gain 3 resources.&#10;— Add 4 [Bless] tokens to the chaos bag.&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="538e153c-4433-4bfb-869b-f4aa48896573" name="Second Floor Hall" size="EncounterCard">
+      <property name="Card Number" value="288" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Second Floor." />
+      <alternate name="Hall of Rebirth" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Second Floor." />
+        <property name="Text" value="Forced – After you reveal Hall of Rebirth: Draw the set-aside Apostle of Dagon enemy." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1" />
+      </alternate>
+    </card>
+    <card id="10bc8725-c57c-4660-b5f5-0c15aff12e3f" name="Third Floor Hall" size="EncounterCard">
+      <property name="Card Number" value="289" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Third Floor." />
+      <property name="Text" value="Investigators cannot move to Third Floor Hall unless an investigator has &quot;unlocked the third floor.&quot;" />
+      <alternate name="Hall of Silence" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Third Floor." />
+        <property name="Text" value="Forced – After Hall of Silence is revealed: Place the set-aside purple key on it.&#10;Forced – After an investigator at this location fails a skill test: Add 1 [Curse] token to the chaos bag." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="55dc4f7a-f45f-434b-a6e9-88d145b14298" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="290" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Doorway to the Depths" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After Doorway to the Depths is revealed: Place the set-aside green key on the location with the most clues.&#10;η Investigators at the Doorway to the Depths spend the green key and 3π clues, as a group: Remember that you have &quot;unlocked the final depths.&quot;" />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1" />
+      </alternate>
+    </card>
+    <card id="8ec9484f-8936-49c5-ace4-e11bf3dd3a32" name="Lair of Dagon" size="EncounterCard">
+      <property name="Card Number" value="291" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei. Lair." />
+      <alternate name="Lair of Dagon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei. Lair." />
+        <property name="Text" value="Forced – After you enter Lair of Dagon: Test your lowest skill (3). If you, take 1 horror.&#10;η: Test ά (3) or ί (3). If you succeed, place 1 of your clues on the current act. You may spend 1 key to place 1 more of your clues on the current act.&#10;Victory 1." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="3π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="6b97f2cc-13a9-4add-8683-23e2ff7fb06b" name="Dagon" size="EncounterCard">
+      <property name="Card Number" value="292" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Deep in Slumber" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="Dagon is slumbering. He cannot attack or engage, and is immune to investigator actions and player card effects.&#10;Forced – After an investigator at this location fails a skill test: Place 1 resource on Dagon. Then, if there are at least 1π +2 resources on Dagon, flip him.&#10;η Spend 1 key: Remove 1 resource from Dagon." />
+      <property name="Health" value="–" />
+      <property name="Combat" value="–" />
+      <property name="Agility" value="–" />
+      <property name="Unique" value="ο" />
+      <alternate name="Dagon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Awakened and Enraged" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Ancient One. Elite." />
+        <property name="Text" value="Massive.&#10;Dagon gets +6π health.&#10;Forced – After an investigator at this location fails a skill test: Ready Dagon. Dagon attacks that investigator.&#10;Victory 1.&#10;" />
+        <property name="Health" value="6" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="4" />
+        <property name="Unique" value="ο" />
+        <property name="Damage" value="2" />
+        <property name="Horror" value="3" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="c004574d-7773-4569-bd7a-548a96335ce6" name="Apoostle of Dagon" size="EncounterCard">
+      <property name="Card Number" value="293" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Hybrid. Cultist." />
+      <property name="Text" value="Apostle of Dagon gets +1π health.&#10;Forced – After Apostle of Dagon enters play: Place the set-aside black key on it.&#10;Forced – When an investigator deals 1 or more damage to Apostle of Dagon: Add 1 [Curse] token to the chaos bag.&#10;Victory 1." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="e787a907-bba4-437f-8138-475e8decfa0b" name="Cerenerian Deep One" size="EncounterCard">
+      <property name="Card Number" value="294" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Prey – Lowest ά.&#10;Hunter.&#10;Forced – After Cerenerian Deep One engages you: Add 2 [Curse] tokens to the chaos bag." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="2ae245d8-1cf4-45ce-8538-db8a75ea5c8a" name="Fulfill the Oaths" size="EncounterCard">
+      <property name="Card Number" value="295" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – If it is ...&#10;— ...act 1, test ί (3).&#10;— ...act 2, test ί (3), then ή (2).&#10;— ...act 3, test ί (3), then ή (2), then έ (2).&#10;For each of these skill tests you fail, take 1 damage.&#10;" />
+    </card>
+    <card id="e92728a0-ee7a-46ad-be1d-a9a09e4bf3c8" name="Secret Gathering" size="EncounterCard">
+      <property name="Card Number" value="296" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Add 1 [Curse] token to the chaos bag. Test ά (4). If you fail, place 1 doom on each Cultist enemy and take 1 horror (2 horror instead if 1 or more [Curse] tokens were revealed during this test)." />
+    </card>
+    <card id="32eb319d-7943-4689-bcc6-9737820cd75a" name="Esoteric Ritual" size="EncounterCard">
+      <property name="Card Number" value="297" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Test ά (4). If you fail, either choose and discard 2 cards from your hand or discard an asset you control (if 1 or more [Curse] tokens were revealed during this test, do both instead)." />
+    </card>
+    <card id="1ed9ade1-e183-4659-bf13-a7d6a1611a1f" name="Heralds of the Deep" size="EncounterCard">
+      <property name="Card Number" value="298" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Test ά (3) (5 instead if your location is flooded). For each point you fail by, add 1 [Curse] token to the chaos bag (if you cannot, Heralds of the Deep gains surge)." />
+    </card>
+    <card id="0555dd14-eb92-4179-bf88-568affc284a1" name="Stone Barrier" size="EncounterCard">
+      <property name="Card Number" value="299" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Obstacle." />
+      <property name="Text" value="Revelation – Attach to the nearest location without a Stone Barrier attached. If attached location is flooded, Stone Barrier gains surge.&#10;While Stone Barrier is ready, investigators cannot move out of attached location.&#10;η: Test ί (1), ή (2), or έ (3). If you succeed, exhaust Stone Barrier." />
+    </card>
+    <card id="3ccec31f-fe68-41df-b86d-a73b43131bb0" name="Y'ha-nthlei Statue">
+      <property name="Card Number" value="300" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Lair of Dagon" />
+      <property name="Subtitle" value="Mysterious Relic" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Cursed." />
+      <property name="Text" value="θ Exhaust Y'ha-nthlei Statue and add 2 [Curse] tokens to the chaos bag: Deal 1 damage to a Humanoid enemy at your location.&#10;η: Spend the blue, white, red, or yellow key: Ready Y'ha-nthlei Statue and flip it to its other side." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="Y'ha-nthlei Statue" type="B">
+        <property name="Encounter Set" value="The Lair of Dagon" />
+        <property name="Subtitle" value="Dynamic Relic" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Item. Relic. Blessed." />
+        <property name="Text" value="θ Exhaust Y'ha-nthlei Statue: Deal 1 damage to a Humanoid enemy at your location.&#10;θ Exhaust Y'ha-nthlei Statue: Remove 2 [Curse] tokens from the chaos bag and replace them with an equal number of [Bless] tokens." />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+  </cards>
+</set>

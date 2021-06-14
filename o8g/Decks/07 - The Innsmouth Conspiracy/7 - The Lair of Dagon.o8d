@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e5bf04d0-21cc-4bac-8fc4-9a189bd50b5e">The Initiation (v. I)</card>
+    <card qty="1" id="b18a5153-6dfe-490b-b19a-97d33f98334f">The Initiation (v. II)</card>
+    <card qty="1" id="0ad49587-455a-4fb6-ae9e-48b6c90d3002">What Lurks Below (v. I)</card>
+    <card qty="1" id="8f51525c-641b-4055-82bc-91bfe9aa14b3">What Lurks Below (v. II)</card>
+    <card qty="1" id="5e00d99a-1745-4ca9-b804-db557517b85a">The Ritual Advances</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="39e75896-7813-4c04-bf5c-d1904096e834">The First Oath</card>
+    <card qty="1" id="a8620344-11bc-4c08-be04-4b6d31fa5c35">The Second Oath</card>
+    <card qty="1" id="9beb2671-eb92-47ed-a7f5-6858ec94cb7d">The Third Oath</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="e787a907-bba4-437f-8138-475e8decfa0b">Cerenerian Deep One</card>
+    <card qty="3" id="2ae245d8-1cf4-45ce-8538-db8a75ea5c8a">Fulfill the Oaths</card>
+    <card qty="2" id="e92728a0-ee7a-46ad-be1d-a9a09e4bf3c8">Secret Gathering</card>
+    <card qty="3" id="32eb319d-7943-4689-bcc6-9737820cd75a">Esoteric Ritual</card>
+    <card qty="3" id="1ed9ade1-e183-4659-bf13-a7d6a1611a1f">Heralds of the Deep</card>
+    <card qty="2" id="0555dd14-eb92-4179-bf88-568affc284a1">Stone Barrier</card>
+    <card qty="1" id="3547d569-0730-4e48-b3cc-6c549c9ea268">Priest of Dagon</card>
+    <card qty="3" id="57fd8b41-5302-403b-ac24-a5ec09ee3c24">Initiate of Dagon</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="55dc4f7a-f45f-434b-a6e9-88d145b14298">Tidal Tunnel</card>
+    <card qty="2" id="cea09c79-187f-47ed-8025-78149add2a67">Tidal Tunnel</card>
+    <card qty="2" id="cc48648c-9863-4a54-a5e1-de417d343fe1">Tidal Tunnel</card>
+    <card qty="2" id="ec41c5f3-740c-457c-83aa-acf6a8106621">Tidal Tunnel</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="7be6a43f-c466-493d-b8ee-52bd2127b6a3">Unidentified Key</card>
+    <card qty="1" id="8f2e9c68-13bb-4760-98cb-d4f03e02ae85">Unidentified Key</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="2" id="d562fa63-5211-4e61-aa5c-43262f02a758">Tidal Alignment</card>
+    <card qty="2" id="b58c74c7-88c8-4b1f-b1b8-96851ed1b00e">Syzygy</card>
+    <card qty="1" id="3ccec31f-fe68-41df-b86d-a73b43131bb0">Y'ha-nthlei Statue</card>
+    <card qty="1" id="c004574d-7773-4569-bd7a-548a96335ce6">Apoostle of Dagon</card>
+    <card qty="1" id="6b97f2cc-13a9-4add-8683-23e2ff7fb06b">Dagon</card>
+    <card qty="1" id="e8d46363-6c2c-4b5b-a5f0-a383e2040b66">Robert Friendly</card>
+    <card qty="1" id="d5482954-c76e-4896-aa13-d234b8abcd4c">Zadok Allen</card>
+    <card qty="1" id="76c27387-96fd-4f9b-9195-cd15319705e7">Brian Burnham</card>
+    <card qty="1" id="e741caac-306b-4333-9822-b53c1ab377f4">Barnabas Marsh</card>
+    <card qty="1" id="1ca29b57-de4b-419d-b4f1-aae9951407ab">Joyce Little</card>
+    <card qty="1" id="ebe93147-cad6-40d9-acc7-5e33f817b6d5">Othera Gilman</card>
+    <card qty="1" id="e88e566b-a66e-4e9c-ae16-335614582181">Thomas Dawson</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="911eb331-94e6-4391-8a5c-21a9fd1e54bb">The Lair of Dagon</card>
+    <card qty="1" id="890cb643-c70b-4877-a99b-a2680466aea3">Grand Entryway</card>
+    <card qty="1" id="29022ef6-40d4-42e4-b18f-b8834d912c76">First Floor Hall</card>
+    <card qty="1" id="1cdcdf08-183f-4c0e-a095-45cc06b5c099">First Floor Hall</card>
+    <card qty="1" id="6290cd5a-eddb-42c3-924c-54e96b91b6e9">Foul Corridors</card>
+    <card qty="1" id="aeb60006-d47f-4090-9828-063e9fb85baf">Second Floor Hall</card>
+    <card qty="1" id="538e153c-4433-4bfb-869b-f4aa48896573">Second Floor Hall</card>
+    <card qty="1" id="10bc8725-c57c-4660-b5f5-0c15aff12e3f">Third Floor Hall</card>
+    <card qty="1" id="c1013de0-742a-4627-b8fa-a347951fc00d">Unidentified Key</card>
+    <card qty="1" id="d0dc772e-3d01-41c6-b836-25513b1a150e">Unidentified Key</card>
+    <card qty="1" id="b3839fb3-d093-46ab-87ef-20e8c9a7a69f">Unidentified Key</card>
+    <card qty="1" id="810ae644-a5c2-4a89-bd56-c649377c767b">Unidentified Key</card>
+    <card qty="1" id="886dfb3e-a983-4434-8ca1-3ce038ac0685">Unidentified Key</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
