@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Into the Maelstrom" id="a6ae0cd6-361f-4730-a1d3-376c6a0125f5" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="a2642077-3897-4563-83f6-d4e26123768d" name="Hallow">
+      <property name="Card Number" value="301" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Blessed." />
+      <property name="Text" value="As an additional cost to play Hallow, return a total of 10 [Bless] tokens to the token pool from the chaos bag or sealed on cards in play.&#10;Remove 1 doom from any card in play." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ab67b288-bb25-4b3b-afed-2536443d9be3" name="Holy Spear">
+      <property name="Card Number" value="302" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Melee. Blessed." />
+      <property name="Text" value="η: Fight. You get +2 ή and deal +1 damage for this attack. When you initiate this ability, you may release a [Bless] token sealed on Holy Spear.&#10;η Search the chaos bag for 2 [Bless] tokens and seal them on Holy Spear: Fight. You get +4 ή and deal +2 damage for this attack." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Hand x2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1e4178a3-c799-48e2-a360-0c30ed5818f6" name="Ancestral Knowledge">
+      <property name="Card Number" value="303" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Permanent. Exceptional.&#10;Your deck must include at least 10 skills. Your deck size is increased by 5.&#10;ι Before you draw your opening hand: Attack 5 random non-weakness skills from your deck facedown to this card.&#10;θ Exhaust Ancestral Knowledge: Draw 1 attached skill." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c2815085-f076-4d81-8d19-102dca7d9b54" name="Ariadne's Twine">
+      <property name="Card Number" value="304" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Uses (0 secrets).&#10;Secrets on Ariadne's Twine can be spent as if they were on any asset controlled by an investigator at your location.&#10;θ Exhaust Ariadne's Twine: Move 1 secret from an asset you control to your resource pool, as a resource, or vice versa." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="2" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c4ba2b87-f844-49a5-a74c-32299b05869f" name=".25 Automatic">
+      <property name="Card Number" value="305" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Fast. Uses (4 ammo).&#10;η Spend 1 ammo: Fight. If the attacked enemy is exhausted, you get +2 ή and deal +1 damage for this attack.&#10;ι After you evade an enemy at your location: Perform the above Fight ability without spending an action." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3c77fe62-ed4b-40e1-a4cc-20a73f862934" name="Justify the Means">
+      <property name="Card Number" value="306" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced. Cursed." />
+      <property name="Text" value="You may commit Justify the Means to any type of test.&#10;As an additional cost to commit Justify the Means to a skill test, add [Curse] tokens to the chaos bag equal to this test's difficulty.&#10;This test automatically succeeds." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ed9fa0a4-4333-4cc2-9317-2daf67dd3e08" name="Lucky Dice">
+      <property name="Card Number" value="307" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="... Or Are They?" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="Exceptional.&#10;ι When you reveal a  non-[Curse], non-[Autofail] chaos token, add 1 [Curse] token to the chaos bag: Ignore the just revealed token and reveal another one to resolve. If that token as a [Curse] or [Autofail] symbol, return Lucky Dice to your hand (cannot be ignored/canceled)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6d836ed1-fc30-4e1d-ba89-619971aea3c5" name="Rite of Equilibrium">
+      <property name="Card Number" value="308" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Blessed. Cursed." />
+      <property name="Text" value="Either (choose one):&#10;— Add X [Curse] tokens to the chaos bag to add X [Bless] tokens to the chaos bag.&#10;— Remove X [Curse] and X [Bless] tokens from the chaos bag to heal X total horror from among cards at your location." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3720260a-ed1b-40ce-98fe-0f764238942c" name="Jacob Morrison">
+      <property name="Card Number" value="309" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Coast Guard Captain" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Blessed." />
+      <property name="Text" value="Jacob Morrison does not ready during the upkeep phase.&#10;ι When you would fail a skill test, exhaust Jacob Morrison: You get +2 skill value for that test.&#10;ι After a [Bless] token is revealed from the chaos bag during a skill test you are performing: Ready Jacob Morrison." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e4b1d10a-90b5-4bee-af40-65345266d566" name="Shrine of the Moirai">
+      <property name="Card Number" value="310" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Fortune. Blessed. Cursed." />
+      <property name="Text" value="Attach to your location. Uses (3 offerings).&#10;Attached location gains: &quot;θ Draw the top card of the encounter deck, exhaust Shrine of the Moirai, and spend 1 offering: Return up to 2 cards with a total combined level of 5 or less from your discard pile to your hand.&quot;&#10;Card design by the Moirai at Arkham Nights 2019." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0f573314-b0f2-4b0e-8ed6-7423d890815d" name="Into the Maelstrom" size="EncounterCard">
+      <property name="Card Number" value="311" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –1 (–3 instead if there are 4 or more unflooded Y'ha-nthlei locations in play).&#10;β: –3. If you fail, place 1 doom on the current agenda (this may cause the current agenda to advance).&#10;γ: –4. If you fail, you must either increase the flood level of your location or take 1 damage.&#10;δ: –5. If you fail and there is a key on your location, take 1 horror." />
+      <alternate name="Into the Maelstrom" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –2 (–4 instead if there are 4 or more unflooded Y'ha-nthlei locations in play).&#10;β: –4. If you fail, place 1 doom on the current agenda (this may cause the current agenda to advance).&#10;γ: –5. If you fail, you must either increase the flood level of your location or take 1 damage.&#10;δ: –6. If you fail and there is a key on your location, take 1 horror." />
+      </alternate>
+    </card>
+    <card id="3998c770-4379-42a7-a140-1b831128d533" name="Under the Surface" size="HorizCard">
+      <property name="Card Number" value="312" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+      <property name="Doom" value="6" />
+      <alternate name="Maelstrom Mutation" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Shuffle the set-aside Lloigor enemy and the set-aside Aquatic Abomination enemy into the encounter deck, along with the encounter discard pile." />
+      </alternate>
+    </card>
+    <card id="1351ffd4-12c3-460a-91ec-d333914b791e" name="Celestial Alignment" size="HorizCard">
+      <property name="Card Number" value="313" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+      <property name="Doom" value="8" />
+      <alternate name="Tyrants of the Deep" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If Hydra is in play, flip her to her (Awakened and Enraged) side.&#10;If Dagon is in play and slumbering, flip him to his (Awakened and Enraged) side." />
+      </alternate>
+    </card>
+    <card id="1f0dc5a1-27cf-4be7-ae3b-2a99736523d6" name="The Flood" size="HorizCard">
+      <property name="Card Number" value="314" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="If an Ancient one enemy is slumbering, flip it to its (Awakened and Enraged) side.&#10;Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+      <property name="Doom" value="10" />
+      <alternate name="Into the Maelstrom" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(-&gt;R8)" />
+      </alternate>
+    </card>
+    <card id="6de9b136-8876-420d-b287-3c6c7ef027b6" name="Back into the Depths" size="HorizCard">
+      <property name="Card Number" value="315" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – If each investigator is at Gateway to Y'ha-nthlei and the investigators possess each of the following keys (blue, red, yellow, and green), advance." />
+      <property name="Clues" value="–" />
+      <alternate name="To Y'ha-nthlei" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Remove each location other than Gateway to Y'ha-nthlei from the game (or add them to the victory display if they have Victory X and no clues remaining). Discard each card at those locations.&#10;Put set-aside locations into play as shown in the Campaign Guide, following the &quot;Act 2 Setup&quot; instructions. (Note that the number of Y'ha-nthlei locations used and the arrangement of the locations varies depening on the number of investigators in the game.)&#10;Put the set-aside Hydra enemy into play in the Lair of Hydra, (Deep in Slumber) side faceup.&#10;pur the set-aside Dagon enemy into play in the Lair of Daton. Check the Campaign Log. If Dagon has awakened, he enters play (Awakened and Enraged) side faceup. If Dagon still slumbers, he enters play (Deep in Slumber) side faceup." />
+      </alternate>
+    </card>
+    <card id="75fac2ce-6e15-4009-86aa-7d57fcff973f" name="City of the Deep (v. I)" size="HorizCard">
+      <property name="Card Number" value="316" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Either remove 1π damage from an Ancient One enemy at your location, or investigator at a Lair location spend 1π clues, as a group: Decrease the flood level of any non-Sanctum location in play.&#10;Objective – Stop the Deep Ones' ritual by draining the city. If each location in play is unflooded, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Shattering the Alignment" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Add this card to the victory display.&#10;— If there is another act card in play, you may choose to either continue playing in order to accomplish the objective on that act card, or proceed immediately to (-&gt; R1) without fulfilling that objective.&#10;— If there are no other act cards in play, proceed to (-&gt; R1).&#10;Victory 2." />
+        <property name="Victory Points" value="2" />
+      </alternate>
+    </card>
+    <card id="4bb2013c-688f-47cd-bf46-00280365d008" name="City of the Deep (v. II)" size="HorizCard">
+      <property name="Card Number" value="317" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Recover the riches of the Deep Ones. If the Lair of Hydra, and the Vault of Riches with the purple key have no clues on them, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Conspiracy Fulfilled" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Add this card to the victory display.&#10;— If there is another act card in play, you may choose to either continue playing in order to accomplish the objective on that act card, or proceed immediately to (-&gt; R1) without fulfilling that objective.&#10;— If there are no other act cards in play, proceed to (-&gt; R1).&#10;Victory 2." />
+        <property name="Victory Points" value="2" />
+      </alternate>
+    </card>
+    <card id="ef7a1616-a779-4a9e-8e4d-e277879a73df" name="City of the Deep (v. III)" size="HorizCard">
+      <property name="Card Number" value="318" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – Collapse the vault containing the Deep Ones' riches. If Dagon and Hydra each have at least 4π damage on them, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Conspiracy Dismantled" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Add this card to the victory display.&#10;— If there is another act card in play, you may choose to either continue playing in order to accomplish the objective on that act card, or proceed immediately to (-&gt; R1) without fulfilling that objective.&#10;— If there are no other act cards in play, proceed to (-&gt; R1).&#10;Victory 2." />
+        <property name="Victory Points" value="2" />
+      </alternate>
+    </card>
+    <card id="7f42bf83-e6db-441f-92e2-0e4fc3a89187" name="Tidal Tunnel" size="EncounterCard">
+      <property name="Card Number" value="319" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Cave." />
+      <alternate name="Dark Abyss" type="B" size="EncounterCard">
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Cave." />
+        <property name="Text" value="Forced – After Dark Abyss is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Dark Abyss without looking at it.&#10;Forced – After the last clue is discovered from Dark Abyss: Dark Abyss becomes fully flooded. Increase flood level of each location connected Dark Abyss." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="6972143e-4502-4b66-9fcc-5953d5a863d0" name="Gateway to Y'ha-nthlei" size="EncounterCard">
+      <property name="Card Number" value="320" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei. Otherworld." />
+      <property name="Text" value="Gateway to Y'ha-nthlei enters play partially flooded (even while it is unrevealed)." />
+      <alternate name="Gateway to Y'ha-nthlei" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei. Otherworld." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="b693ea7a-af28-4465-8603-8fd1ded87ee7" name="Y'ha-nthlei" size="EncounterCard">
+      <property name="Card Number" value="321" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei." />
+      <property name="Text" value="Y'ha-nthlei enters play partially flooded (even while it is unrevealed)." />
+      <alternate name="Sunken Halls" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei." />
+        <property name="Text" value="η If you control the black key: Place it on Sunken Halls.&#10;Forced – After an enemy enters Sunken Halls, if the black key is on Sunken Halls: Deal 2 damage to that enemy." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="f9334eb9-3501-471d-9a80-b8027f8027ca" name="Y'ha-nthlei" size="EncounterCard">
+      <property name="Card Number" value="322" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei." />
+      <property name="Text" value="Y'ha-nthlei enters play partially flooded (even while it is unrevealed)." />
+      <alternate name="Vault of Riches" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei." />
+        <property name="Text" value="η If you control the purple key: Place it on Vault of Riches. Then, choose a non-Elite enemy at anylocation. Automatically evade that enemy and move it to Vault of Riches. That enemy does not ready during the next upkeep phase. (Group limit once per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="ed7c6aee-63ca-4ca4-b022-cad16be33d8d" name="Y'ha-nthlei" size="EncounterCard">
+      <property name="Card Number" value="323" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei." />
+      <property name="Text" value="Y'ha-nthlei enters play partially flooded (even while it is unrevealed)." />
+      <alternate name="Undersea Corridors" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei." />
+        <property name="Text" value="η If you control the white key: Place it on Undersea Corridors.&#10;θ If the white key is on Undersea Corridors: Move. Move to a connecting location. (Limit once per round.)" />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="b112f0ff-166b-4b5d-81ae-06d8b912025f" name="Y'ha-nthlei Sanctum" size="EncounterCard">
+      <property name="Card Number" value="324" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei. Sanctum." />
+      <property name="Text" value="Y'ha-nthlei Sanctum enters play fullyflooded (even while it is unrevealed)." />
+      <alternate name="Statues in the Deep" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei. Sanctum." />
+        <property name="Text" value="η If you control the blue key, place it on this location and investigators here spend 1π, as a group: Automatically evade each Ancient One enemy. Unflood this location. For the remainder of the game, this location cannot be flooded. (Group limit once per game.)&#10;Forced – After you fail a skill test while investigating this location: Take 1 damage." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="8ec4cdee-c9ff-44ac-ba1f-8ccc4238a64c" name="Y'ha-nthlei Sanctum" size="EncounterCard">
+      <property name="Card Number" value="325" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei. Sanctum." />
+      <property name="Text" value="Y'ha-nthlei Sanctum enters play fully flooded (even while it is unrevealed)." />
+      <alternate name="Submerged Temple" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei. Sanctum." />
+        <property name="Text" value="Each Depp One enemy at this location gets +2 flight.&#10;η If you control the green key, place it on this location and investigators here spend 1π clues, as a group: Automatically evade each Ancient One enemy. Unflood this location. For the remainder of the game, this location cannot be flooded. (Group limit once per game.)" />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="15aa8a7c-4a96-4725-8bd9-d793ad52b50a" name="Y'ha-nthlei Sanctum" size="EncounterCard">
+      <property name="Card Number" value="326" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei. Sanctum." />
+      <property name="Text" value="Y'ha-nthlei Sanctum enters play fully flooded (even while it is unrevealed)." />
+      <alternate name="Syzygy Chamber" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei. Sanctum." />
+        <property name="Text" value="η If you control the red key, place it on this location and investigators here spend 1π clues, as a group: Automatically evade each Ancient One enemy. Unflood this location. For the remainder of the game, this location cannot be flooded. (Group limit once per game.)&#10;Forced – After any location's flood value is increased: Each investigator at this location takes 1 horror." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="0ed12152-e083-4f80-b11e-0c41127adc3e" name="Y'ha-nthlei Sanctum" size="EncounterCard">
+      <property name="Card Number" value="327" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei. Sanctum." />
+      <property name="Text" value="Y'ha-nthlei Sanctum enters play fully flooded (even while it is unrevealed)." />
+      <alternate name="Onyx Guardians" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei. Sanctum." />
+        <property name="Text" value="During the enemy phase, each ready Ancient One enemy can attack investigators here as if they were engaged.&#10;η If you control the yellow key, place it on this location and investigators here spend 1π clues, as a group: Automatically evade each Ancient One enemy. Unflood this location. For the remainder of the game, this location cannot be flooded. (Group limit once per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="61abd6d4-20f5-4e2b-b0dc-c13cd83e24b4" name="Lair of Dagon" size="EncounterCard">
+      <property name="Card Number" value="328" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Santuary of Father Dagon" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei. Lair." />
+      <alternate name="Lair of Dagon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Santuary of Father Dagon" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei. Lair." />
+        <property name="Text" value="Lair of Dagon gets –1 shroud for each Sanctum location with a key on it.&#10;θ Check Campaign Log. If all 7 keys are on locations and the Order's ritual was disrupted: You dig deep into your memories to recall what happened the last time you were here. Read Flash back XIV in the Campaign Guide." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="3π" />
+      </alternate>
+    </card>
+    <card id="a015165e-ca9a-4a30-8e90-b2dd1caf6dc8" name="Lair of Hydra" size="EncounterCard">
+      <property name="Card Number" value="329" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="High Temple of Mother Hydra" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Y'ha-nthlei. Lair." />
+      <alternate name="Lair of Hydra" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="High Temple of Mother Hydra" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Y'ha-nthlei. Lair." />
+        <property name="Text" value="Lair of Hydra gets –1 shroud for each Sanctum location with a key on it.&#10;η Place the black, purple, or white key on this location: Deal 3 damage to an Ancient One enemy that is not slumbering. (Group limit once per game.)" />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="3π" />
+      </alternate>
+    </card>
+    <card id="d805f29b-9775-4507-a594-34245185217d" name="Dagon" size="EncounterCard">
+      <property name="Card Number" value="330" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Deep in Slumber" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="Dagon is slumbering. He cannot attack or engage, and is immune to investigator actions and play card effects.&#10;Forced – At the end of the round, if an investigator is in Lair of Dagon and Dagon is ready: Place 1 doom on him.&#10;η: Test ά (4). If you succeed, either exhaust Dagon or remove 1 doom from him. If you fail by 3 or more, place 1 doom on him." />
+      <property name="Health" value="–" />
+      <property name="Combat" value="–" />
+      <property name="Agility" value="–" />
+      <alternate name="Dagon" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Awakened and Enraged" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Ancient One. Elite." />
+        <property name="Text" value="Hunter. Massive. Retaliate.&#10;Dagon gets –1 fight for each Sanctum location with a key on it.&#10;Forced – After Dagon is evaded or dealt damage: Do the same to a copy of Dagon's Brood in play, as well." />
+        <property name="Health" value="–" />
+        <property name="Combat" value="7" />
+        <property name="Agility" value="4" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="2" />
+      </alternate>
+    </card>
+    <card id="76342d78-147b-43d6-8ef3-94f13fa30d0f" name="Hydra" size="EncounterCard">
+      <property name="Card Number" value="331" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Subtitle" value="Deep in Slumber" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Elite." />
+      <property name="Text" value="Hydra is slumbering. She cannot attack or engage, and is immune to investigator actions and play card effects.&#10;Forced – At the end of the round, if an investigator is in Lair of Hydra and Hydra is ready: Place 1 doom on her.&#10;η: Test ά (4). If you succeed, either exhaust Hydra or remove 1 doom from her. If you fail by 3 or more, place 1 doom on her." />
+      <property name="Health" value="–" />
+      <property name="Combat" value="–" />
+      <property name="Agility" value="–" />
+      <alternate name="Hydra" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Into the Maelstrom" />
+        <property name="Subtitle" value="Awakened and Enraged" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Ancient One. Elite." />
+        <property name="Text" value="Hunter. Massive. Retaliate.&#10;Dagon gets –1 fight for each Sanctum location with a key on it.&#10;Forced – After Hydra is evaded or dealt damage: Do the same to a copy of Hydra's Brood in play, as well." />
+        <property name="Health" value="–" />
+        <property name="Combat" value="7" />
+        <property name="Agility" value="4" />
+        <property name="Damage" value="2" />
+        <property name="Horror" value="1" />
+      </alternate>
+    </card>
+    <card id="5a6c8233-69bc-47a5-9b17-b23374a946bf" name="Aquatic Abomination" size="EncounterCard">
+      <property name="Card Number" value="332" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Abomination." />
+      <property name="Text" value="Hunter.&#10;While Aquatic Abomination is moving, fully flooded locations are considered to be connected to one another.&#10;Aquatic Abomination cannot attack during the same phase it moved via its hunter keyword." />
+      <property name="Health" value="7" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="23ec9ae3-8988-47ec-996a-15d436e93762" name="Dagon's Brood" size="EncounterCard">
+      <property name="Card Number" value="333" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Spawn – Lair of Dagon or Gateway to Y'ha-nthlei (whichever is farthest from you).&#10;Hunter.&#10;Forced – After Dagon's Brood engages you, if Dagon is in play: Either place 1 doom on Dagon, or Dagon attacks you." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="e6c658a9-38f8-4b46-abe8-4eeeccd29d5b" name="Hydra's Brood" size="EncounterCard">
+      <property name="Card Number" value="334" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Monster. Deep One." />
+      <property name="Text" value="Spawn – Lair of Hydra or Gateway to Y'ha-nthlei (whichever is farthest from you).&#10;Hunter.&#10;Forced – After Dagon's Brood engages you, if Hydra is in play: Either place 1 doom on Hydra, or Hydra attacks you." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="5f4b9680-3717-4648-9334-e9399f3a2246" name="Treacherous Depths" size="EncounterCard">
+      <property name="Card Number" value="335" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Peril.&#10;Revelation – You must either (choose one):&#10;— Increase the flood level of your current location.&#10;— Discard assets from your play area with a total resource cost of at least X, where X is your location's shroud value." />
+    </card>
+    <card id="03b69707-209f-461c-9b61-3cbed87956a3" name="Conspiracy of Deep Ones" size="EncounterCard">
+      <property name="Card Number" value="336" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Peril.&#10;Revelation – Test ά (2). This test gets +1 difficulty for each Sanctum location with a key on it. If you fail, you must either place 1 doom on the current agenda (this effect may cause the current agenda to advance), or the nearest Ancient One enemy in play attacks you." />
+    </card>
+    <card id="8d33066c-bd49-425b-858e-c4d78d4de3a9" name="Thalassophobia" size="EncounterCard">
+      <property name="Card Number" value="337" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Reveleation – If no investigators are at flooded locations, Thalassophobia gains surge. Otherwise, each investigator at a partially flooded location takes 1 horror, and each investigator at a fully flooded location takes 1 direct horror that cannot be prevented." />
+    </card>
+    <card id="40035a0c-e11b-4c40-a7cc-cf8688b0857e" name="Diving Suit">
+      <property name="Card Number" value="338" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="Into the Maelstrom" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Armor." />
+      <property name="Text" value="You ignore the Forced ability on the current agenda.&#10;Forced – When any amount of damage would be placed on you: Place 1 of that damage on Diving Suit.&#10;Forced – When Diving Suit leaves play: Remove it from the game." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Body" />
+      <property name="Skill Icons" value="" />
+    </card>
+  </cards>
+</set>

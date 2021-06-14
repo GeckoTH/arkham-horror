@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="3998c770-4379-42a7-a140-1b831128d533">Under the Surface</card>
+    <card qty="1" id="1351ffd4-12c3-460a-91ec-d333914b791e">Celestial Alignment</card>
+    <card qty="1" id="1f0dc5a1-27cf-4be7-ae3b-2a99736523d6">The Flood</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="6de9b136-8876-420d-b287-3c6c7ef027b6">Back into the Depths</card>
+    <card qty="1" id="75fac2ce-6e15-4009-86aa-7d57fcff973f">City of the Deep (v. I)</card>
+    <card qty="1" id="4bb2013c-688f-47cd-bf46-00280365d008">City of the Deep (v. II)</card>
+    <card qty="1" id="ef7a1616-a779-4a9e-8e4d-e277879a73df">City of the Deep (v. III)</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="23ec9ae3-8988-47ec-996a-15d436e93762">Dagon's Brood</card>
+    <card qty="2" id="e6c658a9-38f8-4b46-abe8-4eeeccd29d5b">Hydra's Brood</card>
+    <card qty="3" id="5f4b9680-3717-4648-9334-e9399f3a2246">Treacherous Depths</card>
+    <card qty="2" id="03b69707-209f-461c-9b61-3cbed87956a3">Conspiracy of Deep Ones</card>
+    <card qty="2" id="8d33066c-bd49-425b-858e-c4d78d4de3a9">Thalassophobia</card>
+    <card qty="3" id="9830bf03-a410-4ac0-804b-d5546ed21b8f">Psychic Pull</card>
+    <card qty="1" id="8cb9eeaa-d308-4e42-a7e3-8aa2fd918a63">Deep One Bull</card>
+    <card qty="3" id="391bd985-3a45-4cfd-9352-5f9de4b2de57">Lurking Deep One</card>
+    <card qty="2" id="41ce48de-71df-40bb-ab77-974f3a22854f">Deep One Assault</card>
+    <card qty="2" id="88c75882-60c7-471e-9662-40ff8b69377a">Macabre Memento</card>
+    <card qty="2" id="0a0fe2b2-14dc-4817-9db8-0cfa27a9e1e2">Fractured Consciousness</card>
+    <card qty="2" id="ae97a872-d519-4038-b23f-907bf712047e">Memory of Oblivion</card>
+    <card qty="2" id="d562fa63-5211-4e61-aa5c-43262f02a758">Tidal Alignment</card>
+    <card qty="2" id="b58c74c7-88c8-4b1f-b1b8-96851ed1b00e">Syzygy</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="2" id="7f42bf83-e6db-441f-92e2-0e4fc3a89187">Tidal Tunnel</card>
+    <card qty="2" id="cea09c79-187f-47ed-8025-78149add2a67">Tidal Tunnel</card>
+    <card qty="2" id="cc48648c-9863-4a54-a5e1-de417d343fe1">Tidal Tunnel</card>
+    <card qty="2" id="ec41c5f3-740c-457c-83aa-acf6a8106621">Tidal Tunnel</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="2" id="b693ea7a-af28-4465-8603-8fd1ded87ee7">Y'ha-nthlei</card>
+    <card qty="2" id="f9334eb9-3501-471d-9a80-b8027f8027ca">Y'ha-nthlei</card>
+    <card qty="3" id="ed7c6aee-63ca-4ca4-b022-cad16be33d8d">Y'ha-nthlei</card>
+    <card qty="1" id="b112f0ff-166b-4b5d-81ae-06d8b912025f">Y'ha-nthlei Sanctum</card>
+    <card qty="1" id="8ec4cdee-c9ff-44ac-ba1f-8ccc4238a64c">Y'ha-nthlei Sanctum</card>
+    <card qty="1" id="15aa8a7c-4a96-4725-8bd9-d793ad52b50a">Y'ha-nthlei Sanctum</card>
+    <card qty="1" id="0ed12152-e083-4f80-b11e-0c41127adc3e">Y'ha-nthlei Sanctum</card>
+    <card qty="1" id="61abd6d4-20f5-4e2b-b0dc-c13cd83e24b4">Lair of Dagon</card>
+    <card qty="1" id="a015165e-ca9a-4a30-8e90-b2dd1caf6dc8">Lair of Hydra</card>
+    <card qty="1" id="bf9afb4a-745b-4196-a4ba-b1b56cfd2eea">Lloigor</card>
+    <card qty="1" id="5a6c8233-69bc-47a5-9b17-b23374a946bf">Aquatic Abomination</card>
+    <card qty="1" id="d805f29b-9775-4507-a594-34245185217d">Dagon</card>
+    <card qty="1" id="76342d78-147b-43d6-8ef3-94f13fa30d0f">Hydra</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="0f573314-b0f2-4b0e-8ed6-7423d890815d">Into the Maelstrom</card>
+    <card qty="1" id="6972143e-4502-4b66-9fcc-5953d5a863d0">Gateway to Y'ha-nthlei</card>
+    <card qty="4" id="40035a0c-e11b-4c40-a7cc-cf8688b0857e">Diving Suit</card>
+    <card qty="1" id="d0dc772e-3d01-41c6-b836-25513b1a150e">Unidentified Key</card>
+    <card qty="1" id="886dfb3e-a983-4434-8ca1-3ce038ac0685">Unidentified Key</card>
+    <card qty="1" id="b3839fb3-d093-46ab-87ef-20e8c9a7a69f">Unidentified Key</card>
+    <card qty="1" id="7be6a43f-c466-493d-b8ee-52bd2127b6a3">Unidentified Key</card>
+    <card qty="1" id="810ae644-a5c2-4a89-bd56-c649377c767b">Unidentified Key</card>
+    <card qty="1" id="8f2e9c68-13bb-4760-98cb-d4f03e02ae85">Unidentified Key</card>
+    <card qty="1" id="c1013de0-742a-4627-b8fa-a347951fc00d">Unidentified Key</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
