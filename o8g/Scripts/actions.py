@@ -928,8 +928,8 @@ def addToTable(card):
     card.moveToTable(x, y)  
     
 def deckSetup():
-    setupHelper()
     if len(setupDeck()) > 0:
+        setupHelper()
         for c in setupDeck():
             if c.Type == "Scenario":
                 c.moveToTable(ScenarioX, ScenarioY)
@@ -1183,6 +1183,9 @@ def defaultAction(card, x = 0, y = 0):
         # Do nothing
         mute()
     elif card.Type == "Encounter Draw" or card.Type == "Encounter2 Draw": # Action handled in OnCardDoubleClicked
+        # Do nothing
+        mute()
+    elif card.Type == "nextAct" or card.Type == "nextAgenda": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
     elif card.Type == "Mini": #Add action token
