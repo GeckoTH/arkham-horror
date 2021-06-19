@@ -1957,7 +1957,7 @@ def clearHighlight(card, x=0 , y=0):
 #############################################
 
 def changeGameBoard(s):
-    cultDeck = ['29338631-d9fc-425d-95e1-5dc408ca5355']#, 'f81bfa10-12e0-45ca-9f65-1f52090277f6']
+    cultDeck = ['29338631-d9fc-425d-95e1-5dc408ca5355', 'f9fead41-dc88-4ece-a316-890df8213fd4']#, 'f81bfa10-12e0-45ca-9f65-1f52090277f6']
     exhibitDeck = ['f35868ff-263e-4a06-91d4-49fb17e22700']#, 'ceff1f22-cc40-45e6-8290-bc342b8227c4']
     catacombsDeck = ['e748e010-c470-4757-913b-3cdbd22ead1d']#, '248211c0-ccc3-483b-be2b-f8ab7dbf4aab']
     explorationDeck = ['6ea63fe0-6d47-49f8-aded-c891b70b6c63', '879c1767-bb80-4859-876a-264845386d78',
