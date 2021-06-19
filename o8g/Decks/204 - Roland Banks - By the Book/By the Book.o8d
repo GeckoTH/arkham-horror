@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="2aedc0ac-0ec1-46ec-9687-714c4e06e54e">A Covert Conspiracy</card>
+    <card qty="1" id="5a89fa81-a9b5-42a1-afec-4090e08bba0d">Your Deadline Nears</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="9fbcfa48-0ea4-4b2c-9978-8532094e535f">Capture the Conspirators</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+    <card qty="1" id="1042db12-9e8c-4dd4-ba27-10c2059efca9">Relentless Dark Young</card>
+    <card qty="3" id="3d4420ab-52eb-40df-9e63-13dd49fd125c">Goat Spawn</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True">
+    <card qty="1" id="0c7de731-8902-4514-89dc-efaea8796661">Wolf-man Drew</card>
+    <card qty="1" id="8ebd7f12-7dfd-46fa-9df9-5a869e752740">Herman Collins</card>
+    <card qty="1" id="2dc5134a-a78c-4063-bcca-be24ee436798">Peter Warren</card>
+    <card qty="1" id="2eabec3d-6cc1-4b54-8fd0-f4640da8986b">Victoria Devereux</card>
+    <card qty="1" id="fc6b957f-5e19-46a7-b742-029f8f9fa5b5">Ruth Turner</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="f9fead41-dc88-4ece-a316-890df8213fd4">By the Book</card>
+    <card qty="1" id="2e8e4d5e-5c7d-412b-9971-73b7b920de6d">Rivertown</card>
+    <card qty="1" id="131a87b5-d7f9-4080-b0f2-2e3742452e3a">Southside</card>
+    <card qty="1" id="e1076a92-b968-4f2d-9c58-3b3a8c848591">Southside</card>
+    <card qty="1" id="eb341e79-1eb1-46f9-9d25-eff09fe096c9">Downtown</card>
+    <card qty="1" id="b66282e2-c327-4e19-9348-3a720cc165e4">Downtown</card>
+    <card qty="1" id="63f426b9-f246-43ca-ad9b-edac00402576">St. Mary's Hospital</card>
+    <card qty="1" id="945f53f9-9302-4010-812d-c7b717b2a81d">Miskatonic University</card>
+    <card qty="1" id="2a79a0a2-400e-464f-a956-95550312101c">East Town</card>
+    <card qty="1" id="45640790-e6ac-47e2-ab27-73f030fc3e9c">Graveyard</card>
+    <card qty="1" id="8fc61c54-6c1b-4109-9f64-6cd6bc0f4c50">Northside</card>
+    <card qty="1" id="aaef0de4-b9c7-483b-b0a1-11a6606063a2">Arkham Police Station</card>
+    <card qty="1" id="18006f11-385d-4557-bd62-2db39fe64af7">Jeremiah Pierce</card>
+    <card qty="1" id="9a76a809-4675-40bf-b161-423a3c5dcc82">Billy Cooper</card>
+    <card qty="1" id="386b3309-1666-4955-933f-0f011b7174a8">Alma Hill</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
