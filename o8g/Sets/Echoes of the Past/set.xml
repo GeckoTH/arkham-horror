@@ -473,7 +473,7 @@
       <property name="Subtitle" value="Reading Room"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="5"/>
-      <property name="Clues" value="1π"/>
+      <property name="Clues" value="1"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Second Floor."/>
       <property name="Text" value="η: Investigate. If you succeed, instead of discovering clues, choose an enemy with doom on it. Take 1 of that enemy's doom, flip it to its clue side, and place it on your investigator. (Group limit once per round)."/>
