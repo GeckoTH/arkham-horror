@@ -503,8 +503,8 @@ def autoCharges(args):
 def moveCards(args):
     mute()
     autoCharges(args)
-    autoClues(args)   
-
+    autoClues(args)
+    moveCardsSound(args) 
 #Triggered event OnLoadDeck
 # args: player, groups
 def deckLoaded(args):
@@ -791,6 +791,7 @@ def nextEncounter(group, x, y, facedown, who=me):
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
     card.controller = who
+    revealEncounterSound(card)
     if len(group) == 0:
         resetEncounterDeck(group)
 
@@ -1202,6 +1203,7 @@ def exhaust(card, x = 0, y = 0):
     card.orientation ^= Rot90
     if card.orientation & Rot90 == Rot90:
         notify("{} exhausts '{}'".format(me, card))
+        exhaustCardsSound(card)
     else:
         notify("{} readies '{}'".format(me, card))
 
@@ -1246,6 +1248,7 @@ def flipcard(card, x = 0, y = 0):
         card.isFaceUp = True
         notify("{} turns '{}' face up.".format(me, card))
     loadClues(card)
+    flipCardsSound(card)
 
 def rotateRight(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
@@ -1347,7 +1350,7 @@ def subToken(card, tokenType):
 
 def markerChanged(args):
     card = args.card
-    
+    modifyMarkerSound(args)
     thisPhase = currentPhase()
     
     inMythosPhase = False
@@ -1416,6 +1419,7 @@ def discard(card, x=0, y=0):
        
     who = pile.controller
     notify("{} discards '{}'".format(me, card))
+    discardCardsSound(card)
     if who != me:
         card.controller = who     
         remoteCall(who, "doDiscard", [me, card, pile])
