@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="c649bd6a-77f3-4ef1-8dfc-b20c0a034702">THE HANGED MAN · XII</card>
+    <card qty="1" id="ef33243d-ba84-495f-9eb8-2efc9e1a98f5">Death’s Approach</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="f7a92c70-67d6-413e-8e02-28503af28dfa">In Pursuit of the Dead</card>
+    <card qty="1" id="537fb5a0-29b6-4251-849d-2366fe47b138">In Pursuit of Answers</card>
+    <card qty="1" id="9248442d-eacd-4813-9bb2-142b4fd7dd27">In Pursuit of the Living</card>
+    <card qty="1" id="c0e67db8-ace2-4fd6-abe7-1a6e6b31ea47">In Pursuit of the Beyond</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="ff76e088-1395-4e10-8a43-17de4c914049">Vengeful Witch</card>
+    <card qty="2" id="051bcbce-880a-4a89-a41c-48e6dc451815">Punishment</card>
+    <card qty="2" id="288969bc-3df6-431e-b04d-f0d150af3be4">Ominous Portents</card>
+    <card qty="2" id="1529b14f-ab18-4db9-841a-b0b603f1efde">Grave-light</card>
+    <card qty="3" id="343b9330-c6b0-4ad3-90b0-aef7cab1ba12">Coven Initiate</card>
+    <card qty="1" id="6348e5e1-57f3-4f44-90f0-d3593e3c43ec">Priestess of the Coven</card>
+    <card qty="2" id="19897337-867f-46da-88ef-d992a7ab68e2">Vice and Villainy</card>
+    <card qty="3" id="91418bff-c5a2-48a2-a558-d98bafa70448">Unhallowed Land</card>
+    <card qty="3" id="4cf9fdbc-4edf-4bf2-bbe3-062e86bdd11b">Trespasser!</card>
+    <card qty="2" id="4b08d18b-6a19-44d3-abd4-8daa50f6f421">Despoiled</card>
+    <card qty="2" id="28e48dbf-edc1-439a-87ea-0dad071863dc">Maligned</card>
+    <card qty="2" id="10b66103-4fc8-473f-817c-935bf5cf4148">Witchweed</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="2" id="1dafb518-3669-4a12-8f27-6b0a6335227f">Malevolent Spirit</card>
+    <card qty="2" id="6709f629-17f6-42bf-aa4a-f106840e8ae9">Burdens of the Past</card>
+    <card qty="2" id="fe1d32d4-ba8e-49ae-b0a4-58b4a207c453">Bane of the Living</card>
+    <card qty="3" id="e4332900-06b8-4ee7-8857-d6c1c853634c">Unavoidable Demise</card>
+    <card qty="3" id="4fc84f9b-9301-4e2c-be39-501df6451b2a">Fate of All Fools</card>
+    <card qty="2" id="a96075fe-39b9-4b0e-a32f-218718ebb2d7">Unstable Energies</card>
+    <card qty="2" id="a9929353-9a67-45fb-b7a7-06ad6ad7821e">From the Other Side</card>
+    <card qty="2" id="cd8fb7bd-a8fc-439a-b939-2f4f961d65fd">Screeching Banshee</card>
+    <card qty="2" id="28bde228-9ade-4b8b-a5db-3991a4dd9671">Bloodthirsty Spirits</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="2b3aadab-97d4-4ea9-91a5-bd40534805f9">Heretic</card>
+    <card qty="1" id="b3ca52b8-7d20-4f74-a57d-0b65edd6d610">Heretic</card>
+    <card qty="1" id="692f82a8-3fdb-4bb0-b4e4-4cb738482978">Heretic</card>
+    <card qty="1" id="b1b9b253-81ec-4429-85f3-44641924844d">Heretic</card>
+    <card qty="1" id="2db09a66-5db7-4e52-8e91-0eed039312cb">Heretic</card>
+    <card qty="1" id="c2e303a2-88fa-40b4-aba3-eeb7f65f136f">Heretic</card>
+    <card qty="1" id="f1eb1928-14ad-43c5-a540-14430beb95e9">Heretic</card>
+    <card qty="1" id="2b7d1409-17f5-43a9-8203-9b79eb3bcc0f">Heretic</card>
+    <card qty="1" id="f22407c7-4f91-44b6-9382-e889c4741131">The Spectral Watcher</card>
+    <card qty="2" id="3b041a9e-6978-46a6-bcef-a35f30ef7b7b">Watcher's Grasp</card>
+    <card qty="4" id="11b99268-8d50-4863-9b24-7aa2f2f3f0ef">Spectral Web</card>
+    <card qty="1" id="2194a594-c3d0-46c7-a0cd-d3185375ebf1">Erynn MacAoidh</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="a263c7a7-7641-479b-bb07-926c93371e15">The Wages of Sin</card>
+    <card qty="1" id="badb8128-92f1-4582-91b8-4e29bb1e9092">Return to The Wages of Sin</card>
+    <card qty="1" id="3353c57b-4def-4ddb-93bc-5c58ec8be27c">Hangman’s Brook</card>
+    <card qty="1" id="86b08ac8-715e-4c28-a6a4-aca1a38f65e9">Hangman's Brook</card>
+    <card qty="1" id="f4971a44-74c0-430f-9d84-374ca224ca57">Haunted Fields</card>
+    <card qty="1" id="05e49566-9511-43e5-8304-41754b33a5ca">Abandoned Chapel</card>
+    <card qty="1" id="e22800b9-b238-4887-8289-35cf0c978363">The Gallows</card>
+    <card qty="1" id="028d377a-a1ad-44ee-91f7-ee1baa5210c2">The Gallows</card>
+    <card qty="1" id="68d6765d-2d4d-4882-be2a-9d569ef2e662">Heretics’ Graves</card>
+    <card qty="1" id="d54acf40-23db-4210-bd8d-a1aa9ee84ad1">Heretics’ Graves</card>
+    <card qty="1" id="4adf6b60-a149-458e-b677-fb9c1662d719">Chapel Crypt</card>
+    <card qty="1" id="949842f1-b1f1-46da-8656-0357e77df332">Chapel Crypt</card>
+    <card qty="1" id="8b5a93f4-6782-4263-92cd-0c141e6ffb7d">Chapel Attic</card>
+    <card qty="1" id="ea209a3c-ba80-469e-9966-f01d35a550d1">Chapel Attic</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

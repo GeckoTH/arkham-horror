@@ -1,0 +1,1103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Return to the Circle Undone" id="5b1b302b-8e4d-41e5-b582-4d2bd36b99af" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="b032fe84-e070-4241-a896-0409afee2c1f" name="The Star XVII">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="You Have Been Chosen" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Tarot." />
+      <property name="Text" value="Each asset you control with health gets +1 heath.&#10;Each asset you control with sanity gets +1 sanity.&#10;ι When the game begins, if The Star XVII is in your opening hand: Put it into play." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Tarot" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2549b53d-8040-4737-9e8e-454c6f2053d6" name="Hallowed Mirror">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Occult. Blessed." />
+      <property name="Text" value="Limit 1 per deck.&#10;ι When you play a copy of Soothing Melody: Either change each &quot;2&quot; on it to &quot;3&quot;, or shuffle it into your deck instead of discarding it.&#10;Forced – After Hallowed Mirror enters play: Search your bonded cards for 3 copies of Soothing Melody. Add 1 to your hand and shuffle the other 2 into your deck." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cbb8e41e-04f4-4d24-8a09-4c920e69e43a" name="The World XXI">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="The Journey is Complete" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Tarot." />
+      <property name="Text" value="θ If you have 8 or more cards in your hand, exhaust The World XXI: Draw 1 card.&#10;ι When the game begins, if The World XXI is in your opening hand: Put it into play." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Tarot" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6125d748-425e-4392-a1d4-5f5b11a52d9a" name="Occult Lexicon">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Occult." />
+      <property name="Text" value="Limit 1 per deck.&#10;ι When you play a copy of Blood-Rite: Either change each &quot;2&quot; on it to &quot;3&quot;, or shuffle it into your deck instead of discarding it.&#10;Forced  After Occult Lexicon enters play: Search your bonded cards for 3 copies of Blood-Rite. Add 1 to your hand and shuffle the other 2 into your deck." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="51fed4ef-643f-45f6-b636-5d0a392fea70" name="Knight of Swords">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Charge Ever Onward" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Tarot." />
+      <property name="Text" value="ι When you would succeed at a skill test: You get +1 skill value for this test. You may discard Knight of Swords to get +3 instead.&#10;ι When the game begins, if Knight of Swords is in your opening hand: Put it into play." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Tarot" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b079da7c-2bff-4ce6-8aa8-1624091d2cce" name="Well Connected">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Condition." />
+      <property name="Text" value="Limit 1 per investigator.&#10;θ Exhaust Well Connected: You get +1 skill value for this skill test for every 4 resources you have.&#10;θ Spend 2 resources: Ready Well Connected. (Limit once per round.)" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9ceb2814-8a17-4b99-80d2-2c857d65049b" name="The Hierophant V">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Your True Master Awaits" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Tarot." />
+      <property name="Text" value="You have 1 additional arcane slot.&#10;Your arcane slots can be used to hold cards that take up accessory slots, and vice versa.&#10;ι When the game begins, if The Hierophant V is in your opening hand: Put it into play." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Tarot" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5f56a969-2c65-42fb-8b37-3a6f7ed0e072" name="Sign Magick">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual. Talent." />
+      <property name="Text" value="Fast.&#10;You have 1 additional arcane slot, which can only be used to hold a Spell or Ritual asset.&#10;ι After you activate an η abilty on a Spell or Ritual asset, exhaust Sign Magick: Activate an [Aciton] ability on a different Spell or Ritual asset you control (without paying its η cost)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6ca0a9e0-522c-4f00-b706-22a41d796b93" name="Nine of Rods">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Every Trial a Lesson" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Tarot." />
+      <property name="Text" value="ι When you draw a non-weakness encounter card, exhaust Nine of Rods: Cancel all of that card's effects and shuffle it into the encounter deck. Then, draw another card from the top of the encounter deck&#10;ι When the game begins, if Nine of Rods is in your opening hand: Put it into play." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Tarot" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cb572ffa-8ebc-4c95-be1a-66faf8b437d9" name="Trial by Fire">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play only during your turn.&#10;Until the end of your turn, set the base value of each of your skills to 5, or the base value of one of your skills to 7." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f5449744-bc04-47a3-9713-681f2379dc85" name="The Fool 0">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Unlimited Potential" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Tarot." />
+      <property name="Text" value="ι When you play a card, exhaust The Fool 0: Reduce that card's cost by 1.&#10;ι When the game begins, if The Fool 0 is in your opening hand: Put it into play." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Tarot" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="aa438fd7-818c-482b-af7a-719a0de54b6f" name="Moon Pendant">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="You have 1 additional tarot slot.&#10;Each non-weakness Tarot asset in your hand or committed to a skill test gains ??.&#10;ι When the game begins, if Moon Pendant is in your opening hand: Put it into play." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="509ebed0-b96f-4ffa-9158-2b76111e92a7" name="Observed">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Blessed." />
+      <property name="Text" value="Permanent. Limit 1 per investigator.&#10;Before setting up each game, draw 3 random cards from the tarot deck and choose 1. Place the chosen card in front of you, in the upright position. Each other investigators ignores its effects. Shuffle the rest back into the tarot deck." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fe1e364e-e5bf-463b-998b-5c79bec5d761" name="Damned">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Curse. Omen." />
+      <property name="Text" value="Permanent.&#10;Before setting up each game, draw a random card from the tarot deck and place it in front of you, in the reverse position. Each other investigator ignores its effects." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="cd5a908e-1477-4c6a-850b-e231cd8a6349" name="The Devil XV">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Your Shadow Hungers" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Omen. Tarot." />
+      <property name="Text" value="You cannot play assets other than the Devil XV while it is in your hand.&#10;If The Devil XV is drawn in your opening hand during setup (before or after taking a mulligan), you cannot replace it. It must stay in your opening hand." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Tarot" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b9f90e2a-4894-4178-9beb-ce669bdf91be" name="Return to Disappearance at the Twilight Estate" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Disappearance at the Twilight Estate" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Circle Undone Campaign Guide, with the following exceptions:&#10;— When gathering encounter sets, also gather the new encounter sets for Return to Disappearance at the Twilight Estate shown here.&#10;Trapped Spirit –&gt; Bloodthirsty Spirits&#10;Realm of Death –&gt; Unstable Realm&#10;Inexorable Fate –&gt; Unspeakable Fate&#10;Chilling Cold –&gt; Chilling Mists&#10;(Continued on reverse side.)&#10;" />
+      <alternate name="Return to Disappearance at the Twilight Estate" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Disappearance at the Twilight Estate" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— Put the Spectral version of the Wine Celler (card #28) into play.&#10;_____&#10;For the duration of this scenario, the following additional rule applies:&#10;&quot;While resolving The Watcher's Grasp treachery, The Spectral Watcher does not exhaust after its attacks.&quot;&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="0ac8a069-15ea-4020-ac27-03d296c40f89" name="Return to The Witching Hour" size="EncounterCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Witching Hour" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Circle Undone Campaign Guide, with the following exceptions:&#10;— When gathering encounter sets, also gather the new encounter sets for Return to The Witching Hour shown here.&#10;City of Sins –&gt; City of the Damned&#10;Ancient Evils –&gt; Impending Evils&#10;Witchcraft –&gt; Hexcraft&#10;Remove Arkham Woods (Quiet Glade) from the game.&#10;(Continued on reverse side.)&#10;" />
+      <alternate name="Return to The Witching Hour" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Witching Hour" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— When choosing 5 Witch-Haunted Woods locations to put into play at random, include the 2 new Witch-Haunted Woods included in this encounter sets, for a total of 9 possibilities.&#10;— Set each of the new Arkham Woods locations aside, out of play. (You may optionally gather the Arkham Woods locations included in the Return to The Devour Below and set those aside, as well, if your collection includes them. This encounter set can be found in the Return to the Night of the Zealot expansion.)&#10;— When building the act deck, include both versions of act 4. When advancing to act 4a, put both act cards into play; the text on both cards is active." />
+      </alternate>
+    </card>
+    <card id="9fbba271-b0f6-42f0-a69f-4d7596a035c4" name="A Circle Unbroken" size="HorizCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Witching Hour" />
+      <property name="Subtitle" value="Act 4a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Objective – &quot;Perhaps we can learn more from them...&quot; If there are more than 1π exhausted Witch enemies at the Witches' Circle, investigators at the Witches' Circle may spend the requisite number of clues, as a group, to advance." />
+      <property name="Clues" value="2π" />
+      <alternate name="A Circle Forged" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to The Witching Hour" />
+        <property name="Subtitle" value="Act 4b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(–&gt;R5)" />
+      </alternate>
+    </card>
+    <card id="60511c8a-42f0-43ba-9320-0e078715783b" name="Witch-Haunted Woods" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Witching Hour" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <alternate name="Witch-Haunted Woods" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Witching Hour" />
+        <property name="Subtitle" value="Witch Tree" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="θ Take 1 direct damage and 1 direct horror: Choose an investigator at a different Witch-Haunted Woods. That investigator heals 1 damage and 1 horror. (Group limit once per round.)&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="fdab7abd-b702-40f8-9c78-23be4ec20668" name="Witch-Haunted Woods" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Witching Hour" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <alternate name="Witch-Haunted Woods" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Witching Hour" />
+        <property name="Subtitle" value="Unmarked Graveyard" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="Forced – When you discover the last clue from this location: Draw the topmost Hex treachery in the encounter discard pile. (If you cannot, instead discard cards from the top of the encounter deck until a Hex treachery is discarded, and draw it.)&#10;Victory 1." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="e78fbff8-4fa7-400e-8142-12f91c601142" name="Arkham Woods" size="EncounterCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Witching Hour" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <alternate name="Arkham Woods" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Witching Hour" />
+        <property name="Subtitle" value="Hidden Path" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="During the &quot;enemy attacks&quot; step of the enemy phase, instead of their standard attack, each ready Witch enemy at this location attacks each investigator in play. Attacks made this way do not cause the enemy to exhaust." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="c457336b-4d2d-4e23-abd8-60abd6542df1" name="Arkham Woods" size="EncounterCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Witching Hour" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <alternate name="Arkham Woods" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Witching Hour" />
+        <property name="Subtitle" value="Place of Power" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="While you are at this location, you cannot cancel or ignore card or game effects, and each encounter card you draw gains peril." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="e0d8c1d0-0365-463b-b216-a452fc4a1515" name="Arkham Woods" size="EncounterCard">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Witching Hour" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Woods." />
+      <alternate name="Arkham Woods" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Witching Hour" />
+        <property name="Subtitle" value="Bootlegging Operation" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Woods." />
+        <property name="Text" value="Forced – After you successfully investigate this location: Discard 1 card from the top of the encounter deck for each point you succeed by.&#10;Forced – When the encounter deck runs out of cards: Each investigator at this location takes 2 damage." />
+        <property name="Shroud" value="1" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="60550675-05a5-4982-bf2f-612571e411c1" name="Return to At Death's Doorstep" size="EncounterCard">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to At Death's Doorstep" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Circle Undone Campaign Guide, with the following exceptions:&#10;— When gathering encounter sets, also gather the new encounter sets for Return to At Death's Doorstep shown here.&#10;Trapped Spirit –&gt; Bloodthirsty Spirits&#10;Realm of Death –&gt; Unstable Realm&#10;Inexorable Fate –&gt; Unspeakable Fate&#10;Chilling Cold –&gt; Chilling Mists&#10;(Continued on reverse side.)&#10;" />
+      <alternate name="Return to At Death's Doorstep" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to At Death's Doorstep" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— Put the Senator Nathaiel Rhodes enemy into play in the Entry Hall, with 1π clues on him.&#10;— Put the Wine Cellar location into play.&#10;— Set the Spectral version of the Wine Cellar aside, out of play.&#10;— Set the Unstable Realm encounter set aside, out of play, instead of the Realm of Death encounter set. Likewise, when act 1b instructs the players to shuffle the Realm of Death encounter set into the encounter deck, shuffle in the Unstable Realm encounter set instead.&#10;_____&#10;For the duration of this scenario, the following rule applies:&#10;&quot;While resolving The Watcher's Grasp treachery, The Spectral Watcher does not exhaust after its attacks.&quot;&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="fc96ad6e-b8d2-4982-8a5a-8ee77226714a" name="Senator Nathaniel Rhodes" size="EncounterCard">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to At Death's Doorstep" />
+      <property name="Subtitle" value="Adept Politician" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
+      <property name="Text" value="Aloof.&#10;η: Parley. Test ά (2) to speak with the Senator. If you succeed, either take control of 1 of his clues, or flip 1 doom on him to its clue side. If you fail, flip 1 of his clues to its doom side." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Unique" value="ο" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="407b1145-748a-4f3a-990c-90974d520855" name="Dmitri Konstantinov" size="EncounterCard">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to At Death's Doorstep" />
+      <property name="Subtitle" value="Taking the Long View" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Cultist. Silver Twilight." />
+      <property name="Text" value="Spawn – The location with no other Silver Twilight enemies farthes from you.&#10;Forced – After Dmitri Konstantinov enters play: Place 2 doom on him.&#10;ι After you evade Dmitri Konstantinov: For every 2 points you succeeded by, remove 1 doom from him." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="c9ca58b5-4f0b-41e7-afaf-affafd54da06" name="Wine Cellar" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to At Death's Doorstep" />
+      <property name="Type" value="Location" />
+      <alternate name="Wine Cellar" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to At Death's Doorstep" />
+        <property name="Type" value="Location" />
+        <property name="Text" value="η: You disturb the tranquility of this quiet place in search of evidence. Discard cards from the top of the encounter deck until a Monster enemy is discarded. Set that enemy aside, out of play. Then, gain 2 clues (from the token pool). (Group limit once per game.)" />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="025ffcbd-87fb-4a1c-9a99-6886ce56d54e" name="Wine Cellar" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to At Death's Doorstep" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Spectral." />
+      <alternate name="Wine Cellar" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to At Death's Doorstep" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Spectral." />
+        <property name="Text" value="ι After you successfully investigate the Wine Cellar: Either discover 1 additional clue, or remove 1 doom from a Silver Twilight enemy in play.&#10;Haunted – You must either place 1 doom on a Silver Twilight enemy in play, or take 1 direct horror." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="f8d4cc06-c85d-4f70-92a7-428b383bc934" name="Return to The Secret Name" size="EncounterCard">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Secret Name" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Circle Undone Campaign Guide, with the following exceptions:&#10;— When gathering encounter sets, also gather the new encounter sets for Return to The Secret Name shown here.&#10;City of Sins –&gt; City of the Damned&#10;Inexorable Fate –&gt; Unspeakable Fate&#10;Realm of Death –&gt; Unstable Realm&#10;Witchcraft –&gt; Hexcraft&#10;(Continued on reverse side.)&#10;" />
+      <alternate name="Return to The Secret Name" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Secret Name" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— Before creating the &quot;Unknown Places&quot; deck, add the 4 new Unknown Places locations to the original 7 Unknown Places locations. Set the Witch House Ruins aside and randomly remove 4 Unknown Places locations from the game. Then, continue creating the Unknown Places deck as normal." />
+      </alternate>
+    </card>
+    <card id="4db2e3c0-a4af-44d7-8ed5-fa79d135a320" name="Unknown Places" size="EncounterCard">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Secret Name" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Extradimensional." />
+      <alternate name="Temple of R'lyeh" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Secret Name" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Extradimensional. Otherworld." />
+        <property name="Text" value="Forced – After you reveal the Temple of R'lyeh: Test ά (3). If you fail, draw the top card of the encounter deck. if you fail by 3 or more, that card gains surge.&#10;Victory 1." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="a8e987fa-56c4-4c3e-a7e1-bd883f2aba78" name="Unknown Places" size="EncounterCard">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Secret Name" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Extradimensional." />
+      <alternate name="The Price Manor" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Secret Name" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Extradimensional." />
+        <property name="Text" value="η: Test ή (5) to topple the strange eldritch statue. If you succeed, remove 1 doom from Nahab, even if she is out of play. (Group limit one success per game.)&#10;Haunted – Place 1 doom on Nahab (even if she is out of play)." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="6a56e734-b822-4040-9d00-e0f12832c93c" name="Unknown Places" size="EncounterCard">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Secret Name" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Extradimensional." />
+      <alternate name="The 9th Ward" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Secret Name" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Extradimensional." />
+        <property name="Text" value="η: Investigate. Investigate using ί instead of έ. If you succeed, after discovering clues, you may move to any Extradimensional location.&#10;Haunted – You cannot leave The 9th Ward this round. During your turn, reduce the shroud value of The 9th Ward by 1." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="599b548c-ee48-4479-ba95-f2672ee7917b" name="Unknown Places" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Secret Name" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Extradimensional." />
+      <alternate name="Library of Ebla" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Secret Name" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Extradimensional." />
+        <property name="Text" value="η: Test ά (5) to search the library for arcane lore. If you succeed, deal 3 damage to Nahab, even if she is out of play. (Group limit one success per game.)&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="badb8128-92f1-4582-91b8-4e29bb1e9092" name="Return to The Wages of Sin" size="EncounterCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Wages of Sin" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Circle Undone Campaign Guide, with the following exceptions:&#10;— When gathering encounter sets, also gather the new encounter sets for Return to The Wages of Sins shown here.&#10;City of Sins –&gt; City of the Damned&#10;Inexorable Fate –&gt; Unspeakable Fate&#10;Realm of Death –&gt; Unstable Realm&#10;Trapped Spirit –&gt; Bloodthirsty Spirits&#10;Witchcraft –&gt; Hexcraft&#10;— Set aside Erynn MacAoidh story asset aside, out of play.&#10;(Continued on reverse side.)&#10;" />
+      <alternate name="Return to The Wages of Sin" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Wages of Sin" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— Check Campaign Log. If Erynn wants to meet, when building the act deck, use the new Act 1a—&quot;In Pursuit of Answers&quot; instead of the original act 1, and include both versions of act 2. When advancing to act 2a, put both act cards into play; the text on both cards is active.&#10;— Randomly choose one of the two Hangman's Brook locations to use during this scenario's setup. Remove the other version from the game.&#10;— When randomly choosing 4 Heretic enemies to set aside, shuffle the 2 new Heretic enemies in with the original 6, for a total of 8 possibilities.&#10;_____&#10;For the duration of this scenario, the following additional rule applies:&#10;&quot;While resolving The Watcher's Grasp treachery, The Spectral Watcher does not exhaust after its attacks.&quot;&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="537fb5a0-29b6-4251-849d-2366fe47b138" name="In Pursuit of Answers" size="HorizCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Wages of Sin" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Locations cannot be flipped to their Spectral side." />
+      <property name="Clues" value="3π" />
+      <alternate name="The Barrier Crossed" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to The Wages of Sin" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Spawn 1 set-aside Hereitc enemy at each of the following locations: The Gallows, Heretic's Graves, Chapel Attic, and Chapel Crypt. Add 2π clues to each location.&#10;Put the set-aside Erynn MacAoidh story asset into play at the Haunted Fields, under no player's control.&#10;Each investigator puts into play 1 set-aside Spectral Web asset, under their control." />
+      </alternate>
+    </card>
+    <card id="c0e67db8-ace2-4fd6-abe7-1a6e6b31ea47" name="In Pursuit of the Beyond" size="HorizCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Wages of Sin" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="ι When you would &quot;banish&quot; a ghost: You may instead place it beneath Erynn MacAoidh, Heretic side face up.&#10;η If you are at Erynn Macaoidh's location, spend 1π clues: Parley. Choose a Hereitc beneath her and palce it beneath this act.&#10;Objective – Help Erynn find answers by placing Hereitcs beenath this act. If there are 3 beneath this act, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Questionable Motives" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to The Wages of Sin" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(–&gt;R3)" />
+      </alternate>
+    </card>
+    <card id="86b08ac8-715e-4c28-a6a4-aca1a38f65e9" name="Hangman's Brook" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Wages of Sin" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="η: Resign. &quot;Whose bright idea was this, anyway?&quot;" />
+      <property name="Shroud" value="4" />
+      <property name="Clues" value="1π" />
+      <alternate name="Hangman's Brook" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Wages of Sin" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Spectral." />
+        <property name="Text" value="η: Resign. &quot;Whose bright idea was this, anyway?&quot;&#10;Haunted – Place 1 clue from the supply on Hangman's Brook." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="–" />
+      </alternate>
+    </card>
+    <card id="f1eb1928-14ad-43c5-a540-14430beb95e9" name="Heretic" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Wages of Sin" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Geist. Witch. Spectral. Elite." />
+      <property name="Text" value="Heretic gets +2π health.&#10;While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.&#10;θ Spend 1 clue: Parley. Look at Heretic's other side (without resolving its text).&#10;Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <alternate name="Unfinished Business" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Wages of Sin" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Keep this card in your threat area (this side faceup). If you are eliminated, flip it over.&#10;Forced – At the end of the round: You must either discard an asset you control or flip this card back to its enemy side.&#10;η If you are at Hangman's Brook and it has no clues on it: Test a skill of your choice (5). If you succeed, the ghost is &quot;banished&quot; (resolve the text below).&#10;_____&#10;Do not read until this ghost is &quot;banished.&quot;&#10;Add this card to the victory display.&#10;Victory.1" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="2b7d1409-17f5-43a9-8203-9b79eb3bcc0f" name="Heretic" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Wages of Sin" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Geist. Witch. Spectral. Elite." />
+      <property name="Text" value="Heretic gets +2π health.&#10;While Heretic is at a non-Spectral location, it gains aloof and cannot be engaged or damaged.&#10;θ Spend 1 clue: Parley. Look at Heretic's other side (without resolving its text).&#10;Forced – After Heretic is defeated: Flip it over and resolve the text on its other side." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <alternate name="Unfinished Business" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to The Wages of Sin" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Keep this card in your threat area (this side faceup). If you are eliminated, flip it over.&#10;Forced – At the start of the enemy phase: If The Spectral Watcher is in play, ready it.&#10;η: Evade. Use only on the Spectral Watcher. Use your lowest skill for this evasion attempt. If you succeed, the ghost is &quot;banished&quot; (resolve the text below) (in addition to evading The Spectral Watcher).&#10;_____&#10;Do not read until this ghost is &quot;banished.&quot;&#10;Add this card to the victory display.&#10;Victory.1" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="10b66103-4fc8-473f-817c-935bf5cf4148" name="Witchweed" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to The Wages of Sin" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Peril.&#10;Revelation – If Witchseed is drawn...&#10;— ...from the standard encounter deck, shuffle it into the spectral encounter deck.&#10;— ...from the spectral encounter deck, trigger each haunted ability on your location twice. You may give Witchweed surge to place it in the standard encounter discard pile." />
+    </card>
+    <card id="2194a594-c3d0-46c7-a0cd-d3185375ebf1" name="Erynn MacAoidh">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to The Wages of Sin" />
+      <property name="Subtitle" value="Devoted Enchantress" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Witch." />
+      <property name="Text" value="Uses (3 secrets).&#10;You get +1 ά.&#10;[Reation] When you draw a non-weakness Curse or Power treachery, spend 1 secret and exhaust Erynn MacAoidh: Cancel that card's revelation effect." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="651b4870-1239-4fa3-8d5a-f3d688e77b1a" name="Return to For the Greater Good" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to For the Greater Good" />
+      <property name="Type" value="Scenario" />
+      <alternate name="Return to For the Greater Good" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to For the Greater Good" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— Choose 1 of the 2 Lounge locations at random. Put it into play along with the rest of the starting locations. Remove the other version of the Lounge from the game.&#10;_____&#10;For the duration of this scenario, the following additional rule apply:&#10;&quot;The Objective on Act 3a is optional.&#10;After all other (α/β/γ/δ) keys have been put into play, if another effect would cause a set-aside key to be put into play, use another unused (+/–) chaos token instead of putting no key into play.&#10;At the end of the scenario, add each (+/–) chaos token controlled by an investigator to the victory display. Each one is worth Victory 1.&quot;&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="d5380250-d0e7-4314-93ca-d109717c32c7" name="Lounge" size="EncounterCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <alternate name="Lounge" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="Forced – After the Lounge is revealed: Put the set-aside Vault and Library locations into play.&#10;η Investigators at the Lounge spend 1π clues, as a group: Put the set-aside Hidden Passageway location into play." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="0ddac250-1f19-4c34-b971-28db640ef2e0" name="Hidden Passageway" size="EncounterCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge." />
+      <property name="Text" value="Forced – When you enter Hidden Passageway: Test ί (3). If you fail, place 1 doom on the nearest Cultist enemy as they hear you shifting the bookcase." />
+      <alternate name="Relic Storage" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge." />
+        <property name="Text" value="While an investigator controls the α key, Relic Storage is connected to Lodge Catacombs, and vice versa.&#10;Forced – After Relic Storage is revealed: Place 1 random set-aside key on it." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b2889727-bb78-4d8b-907d-5dda774ccc97" name="Sanctum Doorway" size="EncounterCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to For the Greater Good" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Lodge. Sanctum." />
+      <alternate name="Shrouded Archive" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to For the Greater Good" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Lodge. Sanctum." />
+        <property name="Text" value="η: Choose a (α/β/γ/δ) key on a card and test ά or έ (8). Reduce the difficulty of this test by 1 for each Silver Twilight enemy in play. If you succeed, swap the chosen key with another key in play or with a set-aside (α/β/γ/δ) key." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="c4bb411a-ac72-4844-a9c4-a549cb7b9ac4" name="Return to Union and Disillusion" size="EncounterCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Union and Disillusion" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Circle Undone Campaign Guide, with the following exceptions:&#10;— When gathering encounter sets, also gather the new encounter sets for Return to Union and Disillusion shown here.&#10;Inexorable Fate –&gt; Unspeakable Fate&#10;Realm of Death –&gt; Unstable Realm&#10;Ancient Evils –&gt; Impending Evils&#10;Chilling Cold –&gt; Chilling Mists&#10;(Continued on reverse side.)&#10;" />
+      <alternate name="Return to Union and Disillusion" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Union and Disillusion" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— When choosing which versions of Act 3 and 4 to use during setup, add the following bullet point above all the others:&#10;— If the investigators sided with the Lodge and Erynn joined the investigators, use the new Act 3—&quot;Beyond the Mist (v. V)&quot; and Act 4—&quot;The Binding Rite.&quot;&#10;_____&#10;For the duration of this scenario, the following rule applies:&#10;&quot;While resolving The Watcher's Grasp treachery, The Spectral Watcher does not exhaust after its attacks.&quot;&#10;Attach this card to the scenario reference card as a reminder." />
+      </alternate>
+    </card>
+    <card id="a299ffac-8b58-4d40-9607-685e2c95d15d" name="Beyond the Mist (v. V)" size="HorizCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Union and Disillusion" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ During a circle action, spend 1 clue: Reduce the difficulty of this skill test by 2.&#10;Objective – If each Unvisited Isle location in play is revealed and the brazier on each of them is lit, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Erynn's Plot" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Union and Disillusion" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Reveal the Geist-Trap location. Move each investigator at an Unvisited Isle location to the Geist-Trap.&#10;Spawn the set-aside Anette Mason at The Geist-Trap, with 2π damage on her." />
+      </alternate>
+    </card>
+    <card id="e020b0ee-ac25-4bcb-8f1c-ee24f3ad284d" name="Brazier Enchantment" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Return to Union and Disillusion" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse. Hex." />
+      <property name="Text" value="Revelation – Put Brazier Enchantment into play next to the agenda deck.&#10;Increase the difficulty of each skill test during circle actions on locations by 2.&#10;η: Circle. Test your lowest skill + your next lowest skill (6). If you succeed, discard Brazier Enchantment. If you fail, resolve each haunted ability on your location." />
+    </card>
+    <card id="cfb20893-7491-4feb-afae-c75238779a62" name="Return to In the Clutches of Chaos" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Circle Undone Campaign Guide, with the following exceptions:&#10;— When gathering encounter sets, also gather the new encounter sets for Return to For the Greater Good shown here.&#10;City of Sins –&gt; City of the Damned&#10;Witchcraft –&gt; Hexcraft&#10;(Continued on reverse side.)&#10;" />
+      <alternate name="Return to In the Clutches of Chaos" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— Choose at random one of the three copies of each of the following locations: French Hill, Rivertown, Southside, Uptown, South Church and Merchant District. Remove the chosen locations from the game. Use the rest throughout setup, as normal." />
+      </alternate>
+    </card>
+    <card id="808efdba-610f-4683-b351-174fb6cebb33" name="French Chill" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="French Chill" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Move any number of breaches from French Hill to the current act. Then, test ά (X), where X is the number of breaches moved. For each point you fail by, take 1 horror." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="44341ac7-e4ea-4a7c-ba3f-44ca6dfccc6d" name="Rivertown" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Rivertown" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Move any number of breaches from Rivertown to the current act. Then, test έ (X), where X is 1 more than the number of breaches moved. For each point you fail by, either take 1 horror or 1 damage." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="31c1123a-b0fd-4a2f-9fff-2cf6639068d1" name="Southside" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Southside" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Evade. Use this ability on any enemy in play or in the encounter discard pile. If you fail, that enemy attacks you (even if it is not in play). If you succeed, instead of evading the chosen enemy, move all breaches from Southside to the current act." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="8357c994-e6f2-4bcc-86dd-2ee926027092" name="Uptown" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Uptown" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Move any number of breaches from Uptown to the current act. Then, test ί (X), where X is the number of breaches moved. For each point you fail by, take 1 damage." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="0c631f75-3130-418a-bf61-e553c3a3bb82" name="South Church" size="EncounterCard">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="South Church" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="ηη: Move all breaches from South Church to the current act.&#10;η: Resign. You hide through the night." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="87dfbcf4-49b2-47a2-af19-c9cc3f3ba32a" name="Merchant District" size="EncounterCard">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham." />
+      <alternate name="Merchant District" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to In the Clutches of Chaos" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham." />
+        <property name="Text" value="η: Move 1 breach from Merchant District to the current act. You may spend any number of charges, secrets, supplies, or ammo from anny assets you control to move that many additional breaches." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="67131214-e612-4d9f-b22e-f9349af70472" name="Return to Before the Black Throne" size="EncounterCard">
+      <property name="Card Number" value="56" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Before the Black Throne" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="Perform the setup as indicated in The Circle Undone Campaign Guide, with the following exceptions:&#10;— When gathering encounter sets, also gather the new encounter sets for Return to Before the Black Throne shown here.&#10;Inexorable Fate –&gt; Unspeakable Fate&#10;Ancient Evils –&gt; Impending Evils&#10;(Continued on reverse side.)&#10;" />
+      <alternate name="Return to Before the Black Throne" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Before the Black Throne" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="— When building the act deck, replace the original version of act 3 with the new version included in this encounter set. Remove the original version from the game.&#10;— When building the Cosmos, include the 3 new Cosmos locations included in the Return to Before the Black Throne encounter set.&#10;— When the game begins, the investigators may remove 2 resources from the scenario reference card to have each investigator begin the game with a Nightgaunt Steed story asset in play. Remove each remaining Nightgaunt Steed from the game." />
+      </alternate>
+    </card>
+    <card id="2bde7e8d-8ef6-42a6-a6aa-a03ccb13ab32" name="What Must Be Done (v. II)" size="HorizCard">
+      <property name="Card Number" value="57" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Before the Black Throne" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η Spend X clues: Draw the top X cards of the Cosmos. Choose one to put into play using its &quot;Cosmos –&quot; instructions, and move to it. Shuffle the rest back into the Cosmos.&#10;Objective – If the lead investigator is at The Black Throne and there are no clues on it, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="The End" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Return to Before the Black Throne" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Check Campaign Log.&#10;— If at least two of the following are true, you may proceed to (–&gt;R2): You accepted your fate, Mesmerizing Flute is listed under &quot;Mementos Discovered,&quot; and Ritual Component is listed under &quot;Mementos Discovered.&quot;&#10;— If at least two of the following are true, you may proceed to (–&gt;R3): You rejected your fate, Scrap of Torn Shadow is listed under &quot;Mementos Discovered,&quot; and Wisp of Spectral Mist is listed under &quot;Mementos Discovered.&quot;&#10;— If Strange Incantation and Bloody Tree Carvings are listed under &quot;Mementos Discovered,&quot; you may proceed to (–&gt;R6).&#10;— Otherwise, (–&gt;R4)." />
+      </alternate>
+    </card>
+    <card id="46119837-12d9-402e-9977-1ab37a5072ce" name="Cosmos" size="EncounterCard">
+      <property name="Card Number" value="58" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Before the Black Throne" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <alternate name="Nightmare Breach" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Before the Black Throne" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Void." />
+        <property name="Text" value="Cosmos – Connect in a direction of your choice, but only onto a spot where an empty space exists. Remove that empty space from the game instead of shuffling it back into its owner's deck. Then, discard each other copy of that card from play and from each investigator's hand." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1" />
+      </alternate>
+    </card>
+    <card id="0cfa72be-0ab7-4499-8067-4ee85c7dc1a7" name="Cosmos" size="EncounterCard">
+      <property name="Card Number" value="59" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Before the Black Throne" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <alternate name="Interstellar Abyss" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Before the Black Throne" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Void." />
+        <property name="Text" value="Cosmos – Connect in the direction nearest to The Black Throne (or any direction if The Black Throne is not in play).&#10;While you are at Interstellar Abyss, you cannot spend clues." />
+        <property name="Shroud" value="6" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="291e30a0-c769-49b5-8fc7-679c840b8a13" name="Cosmos" size="EncounterCard">
+      <property name="Card Number" value="60" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Return to Before the Black Throne" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <alternate name="Winding Gulf" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Return to Before the Black Throne" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld. Void." />
+        <property name="Text" value="Cosmos – Connect to the leftmost revealed location in a direction of your choice. Then, you must either immediately move to Winding Gulf or place 1 doom on Azathoth.&#10;Haunted – Take 1 damage and 1 horror." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2" />
+      </alternate>
+    </card>
+    <card id="b1307bec-b31a-48d2-986d-7168eed437ee" name="Nightgaunt Steed" size="EncounterCard">
+      <property name="Card Number" value="61" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="Return to Before the Black Throne" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Monster. Nightgaunt." />
+      <property name="Text" value="While you control Nightgaunt Steed, you may enter empty space as if it were a location.&#10;After you enter empty space, Nightgaunt Steed takes 1 direct damage.&#10;Forced – If Nightgaunt Steed leaves play, remove it from the game and move to the nearest revealed location." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="4cf9fdbc-4edf-4bf2-bbe3-062e86bdd11b" name="Trespasser!" size="EncounterCard">
+      <property name="Card Number" value="62" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Hexcraft" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Test ά (2). This test gets +1 difficulty for each non-weakness treachery in your threat area. If you fail, take 2 damage or 2 horror." />
+    </card>
+    <card id="4b08d18b-6a19-44d3-abd4-8daa50f6f421" name="Despoiled" size="EncounterCard">
+      <property name="Card Number" value="63" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Hexcraft" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Put Despoiled into play in your threat area.&#10;Forced – After you succeed at a skill test during your turn: Increase the difficulty of each subsequent test you perform this turn by 1.&#10;η: Test ά (3). If you succeed, discard Despoiled. If there is an exhausted Witch enemy at your location, this test is automatically successful." />
+    </card>
+    <card id="28e48dbf-edc1-439a-87ea-0dad071863dc" name="Maligned" size="EncounterCard">
+      <property name="Card Number" value="64" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Hexcraft" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Put Maligned into play in your threat area.&#10;Increase the cost of each card you play by 1.&#10;η: Test ά (3). If you succeed, discard Despoiled. If there is an exhausted Witch enemy at your location, this test is automatically successful." />
+    </card>
+    <card id="d9fffae3-9726-433c-871c-861956f3b660" name="Impending Evils" size="EncounterCard">
+      <property name="Card Number" value="65" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Impending Evils" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Omen." />
+      <property name="Text" value="Peril.&#10;Revelation – You must either take 1 damage and 1 horror, or put Impending Evils into play next to the agenda deck and it gains surge.&#10;If there are 3 copies of Impending Evils next to the agenda deck, discard them and advance the current agenda." />
+    </card>
+    <card id="e4332900-06b8-4ee7-8857-d6c1c853634c" name="Unavoidable Demise" size="EncounterCard">
+      <property name="Card Number" value="66" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Unspeakable Fate" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard. Spectral." />
+      <property name="Text" value="Revelation – Test ί (2). If you fail, take 2 damage. If you succeed, put Unavoidable Demise into play next to the agenda deck.&#10;While Unavoidable Demise is next to the agenda deck, each other copy of Unavoidable Demise gets +1 difficulty and deals +1 damage if its test is failed." />
+    </card>
+    <card id="4fc84f9b-9301-4e2c-be39-501df6451b2a" name="Fate of All Fools" size="EncounterCard">
+      <property name="Card Number" value="67" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Unspeakable Fate" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Omen. Spectral." />
+      <property name="Text" value="Revelation – If there is no other copy of Fate of All Fools in play, put Fate of All Fools into play in your threat area. Otherwise, an investigator with another copy of Fate of All Fools in their threat area draws the top card of the encounter deck. That card gains peril, its effects cannot be canceled, and cards cannot be committed to skill tests while resolving its revelation effect." />
+    </card>
+    <card id="a96075fe-39b9-4b0e-a32f-218718ebb2d7" name="Unstable Energies" size="EncounterCard">
+      <property name="Card Number" value="68" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Unstable Realm" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard. Spectral." />
+      <property name="Text" value="Revelation – Attach to your location.&#10;Forced – When you leave attached location: Resolve each haunted ability on it.&#10;Forced – At the end of the round: If there are no investigators at attached location, discard Unstable Energies." />
+    </card>
+    <card id="a9929353-9a67-45fb-b7a7-06ad6ad7821e" name="From the Other Side" size="EncounterCard">
+      <property name="Card Number" value="69" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Unstable Realm" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror. Spectral." />
+      <property name="Text" value="Revelation – Test ί (3). If you fail, resolve each haunted ability on your location (if you fail by 3 or more, resolve each of them twice, instead)." />
+    </card>
+    <card id="19897337-867f-46da-88ef-d992a7ab68e2" name="Vice and Villainy" size="EncounterCard">
+      <property name="Card Number" value="70" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="City of the Damned" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Attach Vice and Villainy to a non-permanent asset you control. Limit 1 per asset.&#10;Forced – When the encounter deck runs out of cards: Discard attached asset.&#10;Forced – When attached asset leaves play: Test ά (3). If you fail, attach Vice and Villainy to a different non-permanent asset you control." />
+    </card>
+    <card id="91418bff-c5a2-48a2-a558-d98bafa70448" name="Unhallowed Land" size="EncounterCard">
+      <property name="Card Number" value="71" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="City of the Damned" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Test ί (5). For each point you fail by, discard the top card of the encounter deck. If a Curse treachery is discarded by this effect, deal 1 direct horror to your investigator and to each of your Ally assets." />
+    </card>
+    <card id="f6c9ad08-d42e-4f69-aeaf-a6703e294888" name="Supernatural Tempest" size="EncounterCard">
+      <property name="Card Number" value="72" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Chilling Mists" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Test ί (5). If you fail, choose and discard cards from your play area and/or from your hand with a total printed resource cost of at least X, where X is the amount you failed by." />
+    </card>
+    <card id="3aee7012-8900-4967-a4d6-0720c4ee9d11" name="Mists from Beyond" size="EncounterCard">
+      <property name="Card Number" value="73" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Chilling Mists" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Attach to your location.&#10;Attached location gets +1 shroud.&#10;Forced – At the end of the round, if there are no clues on attached location: Move Mists from Beyond once toward the nearest location with 1 or more clues." />
+    </card>
+    <card id="cd8fb7bd-a8fc-439a-b939-2f4f961d65fd" name="Screeching Banshee" size="EncounterCard">
+      <property name="Card Number" value="74" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Bloodthirsty Spirits" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Geist. Spectral." />
+      <property name="Text" value="Hunter.&#10;Forced – When you deal 1 or more damage to Screeching Banshee (except from a Spell or Relic): Resolve each haunted ability at its location." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="28bde228-9ade-4b8b-a5db-3991a4dd9671" name="Bloodthirsty Spirits" size="EncounterCard">
+      <property name="Card Number" value="75" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Bloodthirsty Spirits" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror. Spectral." />
+      <property name="Text" value="Revelation – Put Bloodthirsty Spirits into play in your threat area.&#10;While your location is haunted, as an additional cost for you to commit 1 or more cards to a skill test, you must resolve each haunted ability on your location.&#10;Forced – At the end of your turn: Test ά (3). If you succeed, discard Bloodthristy Spirit." />
+    </card>
+    <card id="c4a9437d-296f-4db1-95e4-349ad8275e50" name="The Fool 0" size="Tarot">
+      <property name="Card Number" value="901" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Each investigator not defeated during this game earns +2 experience during its resolution.&#10;&#10;Reversed: Each investigator defeated during this game earns -2 experience during its resolution." />
+    </card>
+    <card id="a19bfe35-b6d4-4b90-b95c-e8cc9feb9bb0" name="The Magician I" size="Tarot">
+      <property name="Card Number" value="902" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Each investigator begins the game with 3 additional resources.&#10;&#10;Reversed: Each investigator begins the game with 3 fewer resrouces, and cannot gain resources during their first turn." />
+    </card>
+    <card id="389bd24d-9733-4ae4-8696-d214b5bf77e1" name="The High Priestess II" size="Tarot">
+      <property name="Card Number" value="903" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="During the first έ test each investigator performs each round, they get +1 έ.&#10;&#10;Reversed: During the first έ test each investigator performs each round, they get -1 έ." />
+    </card>
+    <card id="888c96d0-fcc2-4004-957b-21f506024dab" name="The Empress III" size="Tarot">
+      <property name="Card Number" value="904" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="During the first ί test each investigator performs each round, they get +1 ί.&#10;&#10;Reversed: During the first ί test each investigator performs each round, they get -1 ί." />
+    </card>
+    <card id="dfda08fa-1f35-4233-b6cd-88d1ceab8a1d" name="The Emperor IV" size="Tarot">
+      <property name="Card Number" value="905" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="During the first ή test each investigator performs each round, they get +1 ή.&#10;&#10;Reversed: During the first ή test each investigator performs each round, they get -1 ή." />
+    </card>
+    <card id="ce8e61a5-31e9-4ee9-bcbb-7e3f0034c706" name="The Hierophant V" size="Tarot">
+      <property name="Card Number" value="906" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="During the first ά test each investigator performs each round, they get +1 ά.&#10;&#10;Reversed: During the first ά test each investigator performs each round, they get -1 ά." />
+    </card>
+    <card id="296a1e8b-ded2-48bf-b8aa-026ab390e78d" name="The Lovers VI" size="Tarot">
+      <property name="Card Number" value="907" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="When the game begins, each investigator searches their deck for an Ally asset, adds it to their hand, and shuffles their deck.&#10;&#10;Reversed: When the game begins, each investigator searches their deck for an Ally asset, remove it from the game, and shuffles their deck." />
+    </card>
+    <card id="82113fca-7217-45b3-9455-c5583386ed4c" name="The Chariot VII" size="Tarot">
+      <property name="Card Number" value="908" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Each investigator begins the game with 2 additional cards in their opening hand.&#10;&#10;Reversed: Each investigator begins the game with 2 fewer cards in their opening hand, and cannot draw cards during their first turn." />
+    </card>
+    <card id="e856e23a-cf35-457b-bd6a-f78ab6213ed1" name="Strength VIII" size="Tarot">
+      <property name="Card Number" value="909" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="When the game begins, each investigator may play an asset from their hand at -2 cost.&#10;&#10;Reversed: During the first round of the game, each investigator cannot play assets." />
+    </card>
+    <card id="ed9b824b-5bf1-4019-961d-e598afc6ff57" name="The Hermit IX" size="Tarot">
+      <property name="Card Number" value="910" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Increase each investigator's maximum hand size by 3.&#10;&#10;Reversed: Decrease each investigator's maximum hand size by 3." />
+    </card>
+    <card id="351935fb-2153-406c-ad47-e45e909838ec" name="Wheel of Fortune X" size="Tarot">
+      <property name="Card Number" value="911" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Once each act, when any investigator reveals an [Autofail] token, the investigators may cancel it and treat it as a 0 token instead.&#10;&#10;Reversed: Once each act, the first time any investigator reveals an ε token, cancel it and treat it as a -5 token instead." />
+    </card>
+    <card id="45ee5913-938b-42dc-a6fc-22ef3c15c386" name="Justice XI" size="Tarot">
+      <property name="Card Number" value="912" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Cancel the first doom that would be placed in the final agenda of the game.&#10;&#10;Reversed: The final agenda of the game enters play with 1 doom on it." />
+    </card>
+    <card id="c6781f5c-b002-43e0-a77f-c1fe313ba011" name="The Hanged Man XII" size="Tarot">
+      <property name="Card Number" value="913" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="During setup, each investigator may take up to 2 additional mulligans.&#10;&#10;Reversed: Each investigator cannot mulligan or replace weaknesses in their opening hand (resolve their revelation abilities when the game begins)." />
+    </card>
+    <card id="3ba8f7d5-8616-4bb3-a4e2-75733605b61e" name="Death XIII" size="Tarot">
+      <property name="Card Number" value="914" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Each investigator gets +1 health.&#10;&#10;Reversed: Each investigator gets -1 health." />
+    </card>
+    <card id="30f556ef-ab18-4b46-be75-1864b7b37e06" name="Temperance XIV" size="Tarot">
+      <property name="Card Number" value="915" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Each investigator gets +1 sanity.&#10;&#10;Reversed: Each investigator gets -1 sanity." />
+    </card>
+    <card id="33159625-5f5e-4b9f-9dff-754c59e6799e" name="The Devil XV" size="Tarot">
+      <property name="Card Number" value="916" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Each investigator has 1 additional slot of a type chosen by that investigator when the game begins.&#10;&#10;Reversed: Each investigator has 3 fewer slots, each of a different type, chosen by that investigator when the game begins." />
+    </card>
+    <card id="1ed1585e-a0c1-40d8-b1e5-f0af43f8ca03" name="The Tower XVI" size="Tarot">
+      <property name="Card Number" value="917" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Each investigator chooses 1 basic weakness in their deck and removes it from the game (return them after the game ends).&#10;&#10;Reversed: Add 1 random basic weakness to each investigator's deck. Remove them after the game ends." />
+    </card>
+    <card id="346df3d3-e36a-44bd-9683-bb10b952adbd" name="The Star XVII" size="Tarot">
+      <property name="Card Number" value="918" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="After an investigator reveals an ε token during a skill test, they may heal 1 damage or 1 horror.&#10;&#10;Reversed: After an investigator reveals an [Autofail] token during a skill test, they must either take 1 damage or 1 horror." />
+    </card>
+    <card id="6d935574-61de-477e-8508-84152940500d" name="The Moon XVIII" size="Tarot">
+      <property name="Card Number" value="919" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="The first time each investigator's deck would run out of cards, they may shuffle the bottom 10 cards of their discard pile back into their deck.&#10;&#10;Reversed: When the game begins, each investigator discard the top 5 cards of their deck. Shuffle each discarded weakness into its owner's deck." />
+    </card>
+    <card id="6b72b3b1-7af8-4e84-8a1b-d126085fad5d" name="The Sun XIX" size="Tarot">
+      <property name="Card Number" value="920" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="During each investigator's first turn, they may take 2 additional actions.&#10;&#10;Reversed: During each investigator's first turn, they have 2 fewer actions to take." />
+    </card>
+    <card id="55826cfa-8927-454c-882b-8e4ade9ec500" name="Judgement XX" size="Tarot">
+      <property name="Card Number" value="921" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="When the game begins, replace a α token in the chaos bag with a 0 token. Swap them back after the game ends.&#10;&#10;Reversed: When the game begins, replace the highest non-negative token in the chaos bag with a α token. Swap them back after the game ends." />
+    </card>
+    <card id="d769d1f8-4af9-4b85-bfcc-f3284499f4c0" name="The World XXI" size="Tarot">
+      <property name="Card Number" value="922" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
+      <property name="Text" value="Each investigator not defeated during this game may remove 1 trauma of their choice during its resolution.&#10;&#10;Reversed: Each investigator defeated during this game suffers 1 trauma of their choice during its resolution." />
+    </card>
+  </cards>
+</set>
