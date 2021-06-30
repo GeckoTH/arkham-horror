@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="ba64216c-8dfa-4aec-97d3-6b1e4720331e">Gavriella Mizrah</card>
+    <card qty="1" id="32851c70-7805-46c9-bd17-47b70f323441">Gavriella Mizrah</card>
+  </section>
+  <section name="Special" shared="False">
+    <card qty="1" id="65f0cf81-c907-4d8d-b05a-4f4f610056ee">.45 Automatic</card>
+    <card qty="1" id="1eddd4eb-0221-4570-b4fc-15700c192a91">First Aid</card>
+    <card qty="1" id="97278962-9d51-44ab-92d9-b8307da166ea">Physical Training</card>
+    <card qty="1" id="8fb609a2-6736-4b0a-aecb-fa32ad80694d">Guard Dog</card>
+    <card qty="1" id="2d213266-75eb-4763-8544-45935c113c3c">Evidence!</card>
+    <card qty="1" id="76624e61-e481-473e-b751-a456aeba87d7">Dodge</card>
+    <card qty="1" id="a3c5e4b0-dd97-4cba-addc-51b70e68dd32">Extra Ammunition</card>
+    <card qty="2" id="e6c87818-e603-49c0-8f09-0c7506745501">Delay the Inevitable</card>
+  </section>
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

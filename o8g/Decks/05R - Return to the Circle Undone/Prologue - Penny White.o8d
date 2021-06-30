@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="dfcb02c6-c641-4983-990a-61c07ebb6d4c">Penny White</card>
+    <card qty="1" id="f136076f-a794-4979-a739-da6c51758aad">Penny White</card>
+  </section>
+  <section name="Special" shared="False">
+    <card qty="1" id="eeec305a-af17-46f2-9fa2-78dffccb5999">Dig Deep</card>
+    <card qty="2" id="8d1a826a-6d65-41fe-a487-55dbe23fd108">Knife</card>
+    <card qty="2" id="2bce6c96-d9dc-44fa-8b5d-9899dd6ff151">Flashlight</card>
+    <card qty="1" id="aa11a439-94d5-40b2-b406-e9474339cdea">Stray Cat</card>
+    <card qty="1" id="fdfe0b97-d37e-4f06-9925-1b7b5e5fbb1a">Lucky!</card>
+    <card qty="2" id="4f8887d7-511b-4094-bb50-c873e4d778dc">Act of Desperation</card>
+    <card qty="2" id="d5b60e5a-cb31-4b98-9c40-aed4322a2347">Able Bodied</card>
+  </section>
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
