@@ -791,8 +791,6 @@ def nextEncounter(group, x, y, facedown, who=me):
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
     card.controller = who
-    if len(group) == 0:
-        resetEncounterDeck(group)
 
 def nextEncounter2(group, facedown, who=me):
     mute()
@@ -813,8 +811,6 @@ def nextEncounter2(group, facedown, who=me):
     notify("{} places '{}' on the table.".format(who, card))
 
     card.controller = who
-    if len(group) == 0:
-        resetEncounterDeck(group)
 
 def addBless(group=None, x=0, y=0):
     addBlessCurse(group, True)
