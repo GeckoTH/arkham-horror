@@ -791,8 +791,6 @@ def nextEncounter(group, x, y, facedown, who=me):
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
     card.controller = who
-    if len(group) == 0:
-        resetEncounterDeck(group)
 
 def nextEncounter2(group, facedown, who=me):
     mute()
@@ -813,8 +811,6 @@ def nextEncounter2(group, facedown, who=me):
     notify("{} places '{}' on the table.".format(who, card))
 
     card.controller = who
-    if len(group) == 0:
-        resetEncounterDeck(group)
 
 def addBless(group=None, x=0, y=0):
     addBlessCurse(group, True)
@@ -1011,6 +1007,14 @@ def doUpkeepPhase(setPhaseVar = True):
 
     clearTargets()
     doRestoreAll()
+    #Check if Deck is empty
+    deckEmpty = False
+    if (len(me.deck) == 0):
+        for c in me.piles["Discard Pile"]:
+            c.moveTo(me.deck)
+        shuffle(me.deck)
+        deckEmpty = True
+
     draw(me.deck)
     
     # Check for hand size!
@@ -1030,6 +1034,8 @@ def doUpkeepPhase(setPhaseVar = True):
     for card in table:
         if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addResource(card)
+            if(deckEmpty):
+                addHorror(card)
         elif card.Type == "Mini" and card.controller == me:
             card.markers[Action] = 0
             if card.alternates is not None and "" in card.alternates:
