@@ -120,6 +120,8 @@ def loadTable(phase):
 				phase = n.readline()
 				notify("Restore Table state saves to last {} phase".format(phase))
 
+		if not filename:
+			return
 
 		with open(filename, 'r') as f:
 			tab = json().DeserializeObject(f.read())
