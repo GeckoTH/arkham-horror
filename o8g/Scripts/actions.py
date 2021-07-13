@@ -58,6 +58,7 @@ ChaosTokenY = -211
 ChaosBagX = 0
 ChaosBagY = -234.75
 
+TarotWidth = 69
 
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
@@ -70,6 +71,8 @@ PurpleColour = "#3B0A9D"
 RedColour = "#B80404"
 BlackColour = "#000000"
 WhiteColour = "#FFFFFF"
+
+TarotDeck = None
 
 showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
 
@@ -1830,6 +1833,39 @@ def sealToken(group, x = 0, y = 0, player = None):
     card.filter = "#99999999"
     card.controller = player
     notify("{} seals {}.".format(player, card.name))
+
+####### Tarot Deck #######
+def drawTarot(group, x = 0, y = 0, random = False):
+    global TarotDeck
+    if (TarotDeck == None or len(TarotDeck) == 0):
+        TarotDeck = queryCard({"Type":"Tarot"}, True)
+    cr = rnd(0, len(TarotDeck)-1)
+    co = rnd(0,1)
+    c = TarotDeck.pop(cr)
+    c = table.create(c, x, y)
+    if random and co:
+        c.orientation = Rot180
+
+    return c
+
+def drawTarotChaos(group, x = 0, y = 0):
+    drawTarot(group, x, y, True)
+
+def drawTarotBalance(group, x = 0, y = 0):
+    x1 = x - (TarotWidth/2 + InvestigatorSpacing/2)
+    x2 = x + (TarotWidth/2 + InvestigatorSpacing/2)
+    drawTarot(group, x1, y)
+    c = drawTarot(group, x2, y)
+    c.orientation = Rot180
+
+def drawTarotChoice(group, x = 0, y = 0):
+    x1 = x - (TarotWidth + InvestigatorSpacing)
+    x2 = x + (TarotWidth + InvestigatorSpacing)
+    drawTarot(group, x1, y)
+    drawTarot(group, x, y)
+    drawTarot(group, x2, y)
+    update()
+    notify("Choose two cards to reverse")
 
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
