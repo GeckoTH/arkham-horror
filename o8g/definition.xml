@@ -150,6 +150,13 @@
 			<groupaction menu="Add Bless Token" default="False" shortcut="ctrl+1" execute="addBless" />
 			<groupaction menu="Add Curse Token" default="False" shortcut="ctrl+2" execute="addCurse" />
 		</groupactions>
+		<groupactions menu="Tarot Deck">
+			<groupaction menu="Draw Card" default="False" execute="drawTarot" />
+			<groupseparator />
+			<groupaction menu="1-Card Reading (Chaos)" default="False" execute="drawTarotChaos" />
+			<groupaction menu="2-Card Reading (Balance)" default="False" execute="drawTarotBalance" />
+			<groupaction menu="3-Card Reading (Choice)" default="False" execute="drawTarotChoice" />
+		</groupactions>
 		<groupaction menu="Ready to Refresh" default="False" shortcut="ctrl+R" execute="readyForRefresh" />
 		<groupaction menu="Ready for next round" default="False" shortcut="ctrl+N" execute="readyForNextRound" />
 		<groupaction menu="Clear Targets" default="False" shortcut="Esc" execute="clearTargets" />

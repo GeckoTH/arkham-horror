@@ -970,111 +970,133 @@
     <card id="c4a9437d-296f-4db1-95e4-349ad8275e50" name="The Fool 0" size="TarotCard">
       <property name="Card Number" value="901" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Each investigator not defeated during this game earns +2 experience during its resolution.&#10;&#10;Reversed: Each investigator defeated during this game earns -2 experience during its resolution." />
     </card>
     <card id="a19bfe35-b6d4-4b90-b95c-e8cc9feb9bb0" name="The Magician I" size="TarotCard">
       <property name="Card Number" value="902" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Each investigator begins the game with 3 additional resources.&#10;&#10;Reversed: Each investigator begins the game with 3 fewer resrouces, and cannot gain resources during their first turn." />
     </card>
     <card id="389bd24d-9733-4ae4-8696-d214b5bf77e1" name="The High Priestess II" size="TarotCard">
       <property name="Card Number" value="903" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="During the first έ test each investigator performs each round, they get +1 έ.&#10;&#10;Reversed: During the first έ test each investigator performs each round, they get -1 έ." />
     </card>
     <card id="888c96d0-fcc2-4004-957b-21f506024dab" name="The Empress III" size="TarotCard">
       <property name="Card Number" value="904" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="During the first ί test each investigator performs each round, they get +1 ί.&#10;&#10;Reversed: During the first ί test each investigator performs each round, they get -1 ί." />
     </card>
     <card id="dfda08fa-1f35-4233-b6cd-88d1ceab8a1d" name="The Emperor IV" size="TarotCard">
       <property name="Card Number" value="905" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="During the first ή test each investigator performs each round, they get +1 ή.&#10;&#10;Reversed: During the first ή test each investigator performs each round, they get -1 ή." />
     </card>
     <card id="ce8e61a5-31e9-4ee9-bcbb-7e3f0034c706" name="The Hierophant V" size="TarotCard">
       <property name="Card Number" value="906" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="During the first ά test each investigator performs each round, they get +1 ά.&#10;&#10;Reversed: During the first ά test each investigator performs each round, they get -1 ά." />
     </card>
     <card id="296a1e8b-ded2-48bf-b8aa-026ab390e78d" name="The Lovers VI" size="TarotCard">
       <property name="Card Number" value="907" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="When the game begins, each investigator searches their deck for an Ally asset, adds it to their hand, and shuffles their deck.&#10;&#10;Reversed: When the game begins, each investigator searches their deck for an Ally asset, remove it from the game, and shuffles their deck." />
     </card>
     <card id="82113fca-7217-45b3-9455-c5583386ed4c" name="The Chariot VII" size="TarotCard">
       <property name="Card Number" value="908" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Each investigator begins the game with 2 additional cards in their opening hand.&#10;&#10;Reversed: Each investigator begins the game with 2 fewer cards in their opening hand, and cannot draw cards during their first turn." />
     </card>
     <card id="e856e23a-cf35-457b-bd6a-f78ab6213ed1" name="Strength VIII" size="TarotCard">
       <property name="Card Number" value="909" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="When the game begins, each investigator may play an asset from their hand at -2 cost.&#10;&#10;Reversed: During the first round of the game, each investigator cannot play assets." />
     </card>
     <card id="ed9b824b-5bf1-4019-961d-e598afc6ff57" name="The Hermit IX" size="TarotCard">
       <property name="Card Number" value="910" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Increase each investigator's maximum hand size by 3.&#10;&#10;Reversed: Decrease each investigator's maximum hand size by 3." />
     </card>
     <card id="351935fb-2153-406c-ad47-e45e909838ec" name="Wheel of Fortune X" size="TarotCard">
       <property name="Card Number" value="911" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Once each act, when any investigator reveals an [Autofail] token, the investigators may cancel it and treat it as a 0 token instead.&#10;&#10;Reversed: Once each act, the first time any investigator reveals an ε token, cancel it and treat it as a -5 token instead." />
     </card>
     <card id="45ee5913-938b-42dc-a6fc-22ef3c15c386" name="Justice XI" size="TarotCard">
       <property name="Card Number" value="912" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Cancel the first doom that would be placed in the final agenda of the game.&#10;&#10;Reversed: The final agenda of the game enters play with 1 doom on it." />
     </card>
     <card id="c6781f5c-b002-43e0-a77f-c1fe313ba011" name="The Hanged Man XII" size="TarotCard">
       <property name="Card Number" value="913" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="During setup, each investigator may take up to 2 additional mulligans.&#10;&#10;Reversed: Each investigator cannot mulligan or replace weaknesses in their opening hand (resolve their revelation abilities when the game begins)." />
     </card>
     <card id="3ba8f7d5-8616-4bb3-a4e2-75733605b61e" name="Death XIII" size="TarotCard">
       <property name="Card Number" value="914" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Each investigator gets +1 health.&#10;&#10;Reversed: Each investigator gets -1 health." />
     </card>
     <card id="30f556ef-ab18-4b46-be75-1864b7b37e06" name="Temperance XIV" size="TarotCard">
       <property name="Card Number" value="915" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Each investigator gets +1 sanity.&#10;&#10;Reversed: Each investigator gets -1 sanity." />
     </card>
     <card id="33159625-5f5e-4b9f-9dff-754c59e6799e" name="The Devil XV" size="TarotCard">
       <property name="Card Number" value="916" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Each investigator has 1 additional slot of a type chosen by that investigator when the game begins.&#10;&#10;Reversed: Each investigator has 3 fewer slots, each of a different type, chosen by that investigator when the game begins." />
     </card>
     <card id="1ed1585e-a0c1-40d8-b1e5-f0af43f8ca03" name="The Tower XVI" size="TarotCard">
       <property name="Card Number" value="917" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Each investigator chooses 1 basic weakness in their deck and removes it from the game (return them after the game ends).&#10;&#10;Reversed: Add 1 random basic weakness to each investigator's deck. Remove them after the game ends." />
     </card>
     <card id="346df3d3-e36a-44bd-9683-bb10b952adbd" name="The Star XVII" size="TarotCard">
       <property name="Card Number" value="918" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="After an investigator reveals an ε token during a skill test, they may heal 1 damage or 1 horror.&#10;&#10;Reversed: After an investigator reveals an [Autofail] token during a skill test, they must either take 1 damage or 1 horror." />
     </card>
     <card id="6d935574-61de-477e-8508-84152940500d" name="The Moon XVIII" size="TarotCard">
       <property name="Card Number" value="919" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="The first time each investigator's deck would run out of cards, they may shuffle the bottom 10 cards of their discard pile back into their deck.&#10;&#10;Reversed: When the game begins, each investigator discard the top 5 cards of their deck. Shuffle each discarded weakness into its owner's deck." />
     </card>
     <card id="6b72b3b1-7af8-4e84-8a1b-d126085fad5d" name="The Sun XIX" size="TarotCard">
       <property name="Card Number" value="920" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="During each investigator's first turn, they may take 2 additional actions.&#10;&#10;Reversed: During each investigator's first turn, they have 2 fewer actions to take." />
     </card>
     <card id="55826cfa-8927-454c-882b-8e4ade9ec500" name="Judgement XX" size="TarotCard">
       <property name="Card Number" value="921" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="When the game begins, replace a α token in the chaos bag with a 0 token. Swap them back after the game ends.&#10;&#10;Reversed: When the game begins, replace the highest non-negative token in the chaos bag with a α token. Swap them back after the game ends." />
     </card>
     <card id="d769d1f8-4af9-4b85-bfcc-f3284499f4c0" name="The World XXI" size="TarotCard">
       <property name="Card Number" value="922" />
       <property name="Quantity" value="1" />
+      <property name="Type" value="Tarot" />
       <property name="Text" value="Each investigator not defeated during this game may remove 1 trauma of their choice during its resolution.&#10;&#10;Reversed: Each investigator defeated during this game suffers 1 trauma of their choice during its resolution." />
     </card>
   </cards>
