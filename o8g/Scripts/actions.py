@@ -794,9 +794,8 @@ def nextEncounter(group, x, y, facedown, who=me):
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
     card.controller = who
-    
-    revealEncounterSound(card)
 
+    revealEncounterSound(card)
 
 def nextEncounter2(group, facedown, who=me):
     mute()
