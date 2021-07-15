@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False">
+    <card qty="1" id="a43df446-cc04-457f-b402-6c80e9a41f70">Jerome Davids</card>
+    <card qty="1" id="aa824e97-55e5-4ad0-97c4-fa2ab212a6a6">Jerome Davids</card>
+  </section>
+  <section name="Special" shared="False">
+    <card qty="1" id="54d593d1-cf86-4211-b94b-08bf0537167c">Hyperawareness</card>
+    <card qty="1" id="4572e948-8966-4ff0-b126-83f6e5cfa66d">Mind over Matter</card>
+    <card qty="1" id="86e13f2c-6adc-411d-a6fe-c7dd6b8a9d1b">Working a Hunch</card>
+    <card qty="1" id="e7c36f79-c7ac-422a-ad1b-ceef10d9e666">Barricade</card>
+    <card qty="1" id="604a5862-949c-4a8e-b97e-39d18144190e">Deduction</card>
+    <card qty="1" id="746d5cdc-a24a-48ae-8e8a-3ce69dafc0d0">Magnifying Glass</card>
+    <card qty="1" id="400e76f9-d8bf-4964-b9b6-516fe76a98fd">Fingerprint Kit</card>
+    <card qty="1" id="b9ae78d7-eb00-4df5-a22f-df7badbf3922">Connect the Dots</card>
+    <card qty="2" id="4a7794f9-c8be-4c42-b1ef-46d7dfdd4a0a">Curiosity</card>
+  </section>
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

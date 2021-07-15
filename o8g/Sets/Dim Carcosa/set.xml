@@ -238,7 +238,7 @@
     <property name="Class" value="Mythos"/>
     <property name="Level" value="1"/>
     <property name="Shroud" value=""/>
-    <property name="Clues" value="2π "/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective – When the investigators have collected the requisite number of clues, they must immediately spend them and advance."/>
     <alternate name="His Final Bow…?" size="HorizCard" type="B">
@@ -346,7 +346,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="3"/>
-    <property name="Clues" value="2π "/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <alternate name="Songs That the Hyades Shall Sing" type="B">
@@ -365,7 +365,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="4"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="While you are at Bleak Plains, you cannot play Ally assets."/>
@@ -385,7 +385,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="4"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="While you are at Bleak Plains, you cannot play Ally assets."/>
@@ -405,7 +405,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="2"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="Forced - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage."/>
@@ -425,7 +425,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="2"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="Forced - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage."/>
@@ -445,7 +445,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="2"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="Forced - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage."/>
@@ -465,7 +465,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="2"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="Forced - After you discover the last remaining clue on Dim Streets: Lose 1 action."/>
@@ -485,7 +485,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="2"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="Forced - After you discover the last remaining clue on Dim Streets: Lose 1 action."/>
@@ -505,7 +505,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="2"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="Forced - After you discover the last remaining clue on Dim Streets: Lose 1 action."/>
@@ -525,7 +525,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="4"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="While you are at Depths of Demhe, you cannot play fast cards."/>
@@ -545,7 +545,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="4"/>
-    <property name="Clues" value="1π "/>
+    <property name="Clues" value="1π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="While you are at Depths of Demhe, you cannot play fast cards."/>
@@ -565,7 +565,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="3"/>
-    <property name="Clues" value="2π "/>
+    <property name="Clues" value="2π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <alternate name="The Fall" type="B">
@@ -584,7 +584,7 @@
     <property name="Type" value="Location"/>
     <property name="Class" value="Mythos"/>
     <property name="Shroud" value="2"/>
-    <property name="Clues" value="3π "/>
+    <property name="Clues" value="3π"/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Otherworld"/>
     <property name="Text" value="Palace of the King cannot be flipped over unless Hastur has at least 5π damage on him."/>

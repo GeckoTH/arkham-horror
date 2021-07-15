@@ -68,6 +68,11 @@ class BasicWeakness:
             "fd0e9977-6338-4fa5-836f-74271d423ccf", # x2 Dread Curse
             "fd0e9977-6338-4fa5-836f-74271d423ccf",
             "b455d3cc-34f7-4a7c-8e02-179088edb6e3", # Day of Reckoning
+        ],
+        "return_to_the_circle_undone": [
+            "fe1e364e-e5bf-463b-998b-5c79bec5d761", # Damned
+            "cd5a908e-1477-4c6a-850b-e231cd8a6349", # x2 The Devil XV
+            "cd5a908e-1477-4c6a-850b-e231cd8a6349",
         ]
     }
     PILE_NAME = 'Basic Weaknesses'

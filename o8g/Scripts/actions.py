@@ -58,6 +58,7 @@ ChaosTokenY = -211
 ChaosBagX = 0
 ChaosBagY = -234.75
 
+TarotWidth = 69
 
 DoneColour = "#D8D8D8" # Grey
 WaitingColour = "#FACC2E" # Orange
@@ -70,6 +71,8 @@ PurpleColour = "#3B0A9D"
 RedColour = "#B80404"
 BlackColour = "#000000"
 WhiteColour = "#FFFFFF"
+
+TarotDeck = None
 
 showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
 
@@ -479,7 +482,7 @@ def autoCharges(args):
     if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
         if len(args.cards) == 1:
             card = args.cards[0]
-            if card.controller == me and card.properties["Type"] == "Asset":
+            if card.controller == me and card.isFaceUp and card.properties["Type"] == "Asset":
                 #Capture text between "Uses (..)"
                 description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
@@ -791,9 +794,9 @@ def nextEncounter(group, x, y, facedown, who=me):
         card.moveToTable(x, y, facedown)
         notify("{} places '{}' on the table.".format(who, card))
     card.controller = who
+    
     revealEncounterSound(card)
-    if len(group) == 0:
-        resetEncounterDeck(group)
+
 
 def nextEncounter2(group, facedown, who=me):
     mute()
@@ -814,8 +817,6 @@ def nextEncounter2(group, facedown, who=me):
     notify("{} places '{}' on the table.".format(who, card))
 
     card.controller = who
-    if len(group) == 0:
-        resetEncounterDeck(group)
 
 def addBless(group=None, x=0, y=0):
     addBlessCurse(group, True)
@@ -1012,6 +1013,14 @@ def doUpkeepPhase(setPhaseVar = True):
 
     clearTargets()
     doRestoreAll()
+    #Check if Deck is empty
+    deckEmpty = False
+    if (len(me.deck) == 0):
+        for c in me.piles["Discard Pile"]:
+            c.moveTo(me.deck)
+        shuffle(me.deck)
+        deckEmpty = True
+
     draw(me.deck)
     
     # Check for hand size!
@@ -1031,6 +1040,8 @@ def doUpkeepPhase(setPhaseVar = True):
     for card in table:
         if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addResource(card)
+            if(deckEmpty):
+                addHorror(card)
         elif card.Type == "Mini" and card.controller == me:
             card.markers[Action] = 0
             if card.alternates is not None and "" in card.alternates:
@@ -1828,6 +1839,39 @@ def sealToken(group, x = 0, y = 0, player = None):
     card.filter = "#99999999"
     card.controller = player
     notify("{} seals {}.".format(player, card.name))
+
+####### Tarot Deck #######
+def drawTarot(group, x = 0, y = 0, random = False):
+    global TarotDeck
+    if (TarotDeck == None or len(TarotDeck) == 0):
+        TarotDeck = queryCard({"Type":"Tarot"}, True)
+    cr = rnd(0, len(TarotDeck)-1)
+    co = rnd(0,1)
+    c = TarotDeck.pop(cr)
+    c = table.create(c, x, y)
+    if random and co:
+        c.orientation = Rot180
+
+    return c
+
+def drawTarotChaos(group, x = 0, y = 0):
+    drawTarot(group, x, y, True)
+
+def drawTarotBalance(group, x = 0, y = 0):
+    x1 = x - (TarotWidth/2 + InvestigatorSpacing/2)
+    x2 = x + (TarotWidth/2 + InvestigatorSpacing/2)
+    drawTarot(group, x1, y)
+    c = drawTarot(group, x2, y)
+    c.orientation = Rot180
+
+def drawTarotChoice(group, x = 0, y = 0):
+    x1 = x - (TarotWidth + InvestigatorSpacing)
+    x2 = x + (TarotWidth + InvestigatorSpacing)
+    drawTarot(group, x1, y)
+    drawTarot(group, x, y)
+    drawTarot(group, x2, y)
+    update()
+    notify("Choose two cards to reverse")
 
 def drawBasicWeakness(group, x = 0, y = 0):
     mute()
