@@ -97,7 +97,7 @@
 		<size name="InvestigatorCard" width="88" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="63" backHeight="88" backCornerRadius="4" />
 		<size name="EncounterCard" width="63" height="88" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4"/>
 		<size name="MiniCard" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
-		<size name="TarotCard" width="69" height="119" back="cards/tarot.png" front="cards/tarot.png" cornerRadius="4" backWidth="69" backHeight="119" backCornerRadius="4" />
+		<size name="TarotCard" width="69" height="119" back="cards/tarot.jpg" front="cards/tarot.jpg" cornerRadius="4" backWidth="69" backHeight="119" backCornerRadius="4" />
 		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
 		<size name="KeyToken" width="30" height="30" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="30" backHeight="30" />
 		<size name="ResourceToken" width="20" height="20" back="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" front="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" cornerRadius="4" backWidth="20" backHeight="20" />
