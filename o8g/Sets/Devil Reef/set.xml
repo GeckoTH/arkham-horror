@@ -166,7 +166,7 @@
       <property name="Type" value="Agenda" />
       <property name="Text" value="As an additional cost for you to move from one Ocean location to another while not in a vehicle, you must spend 2 actions.&#10;Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded location, partially flooded location, or a vehicle during your turn, take 5 direct damage." />
       <property name="Doom" value="9" />
-      <alternate name="The Terror of Devil Reef" type="B" size="HorizCard">
+      <alternate name="The Terror of Devil Reef" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Subtitle" value="Grasping Abomination" />
         <property name="Type" value="Enemy" />
@@ -189,7 +189,7 @@
       <property name="Type" value="Agenda" />
       <property name="Text" value="As an additional cost for you to move from one Ocean location to another while not in a vehicle, you must spend 2 actions.&#10;Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded location, partially flooded location, or a vehicle during your turn, take 5 direct damage." />
       <property name="Doom" value="9" />
-      <alternate name="The Terror of Devil Reef" type="B" size="HorizCard">
+      <alternate name="The Terror of Devil Reef" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Subtitle" value="Writhing in the Deep" />
         <property name="Type" value="Enemy" />
