@@ -238,7 +238,7 @@
       <property name="Type" value="Agenda" />
       <property name="Text" value="Each location is connected to each location adjacent to it.Do not remove doom from enemies when this agenda advances.&#10;(Beware—The scenario will not end when this agenda advances, but the doom of the world grows nigh.)" />
       <property name="Doom" value="8" />
-      <alternate name="Azathoth Stirs..." size="HorizCard" type="B">
+      <alternate name="Azathoth Stirs…" size="HorizCard" type="B">
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Subtitle" value="Agenda 3b" />
         <property name="Type" value="Agenda" />
@@ -325,7 +325,7 @@
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Otherworld." />
-      <alternate name="Court of the Great Olds Ones" size="EncounterCard" type="B">
+      <alternate name="Court of the Great Old Ones" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Before the Black Throne" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Otherworld." />
@@ -472,6 +472,7 @@
     <card id="ab2ec5e1-6170-410a-a5b2-767dbfa02f17" name="Azathoth" size="EncounterCard">
       <property name="Card Number" value="346" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Primal Chaos"/>
       <property name="Encounter Set" value="Before the Black Throne" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Ancient One. Elite." />

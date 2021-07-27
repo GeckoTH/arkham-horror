@@ -163,12 +163,14 @@
     <property name="Card Number" value="159"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Unspeakable Oath"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="Easy / Standard&#10;α: -1. If you fail, randomly choose an enemy from among the set-aside Monster enemies and place it beneath the act deck without looking at it.&#10;β: -X. X is the amount of horror on you.&#10;γ: -X. X is the base shroud value of your location.&#10;δ: 0. Either randomly choose an enemy from among the set-aside Monster enemies and place it beneath the act deck without looking at it, or this test automatically fails instead."/>
+    <property name="Text" value="α: -1. If you fail, randomly choose an enemy from among the set-aside Monster enemies and place it beneath the act deck without looking at it.&#10;β: -X. X is the amount of horror on you.&#10;γ: -X. X is the base shroud value of your location.&#10;δ: 0. Either randomly choose an enemy from among the set-aside Monster enemies and place it beneath the act deck without looking at it, or this test automatically fails instead."/>
     <alternate name="The Unspeakable Oath" type="B">
       <property name="Encounter Set" value="The Unspeakable Oath"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="Hard / Expert&#10;α: Reveal another token. If you fail, randomly choose an enemy from among the set-aside Monster enemies and place it beneath the act deck without looking at it. (Limit once per test.)&#10;β: -X. X is the amount of horror on you. If you fail, take 1 horror.&#10;γ: -X. X is the base shroud value of your location. If you fail, take 1 horror.&#10;δ: 0. Either randomly choose an enemy from among the set-aside Monster enemies and place it beneath the act deck without looking at it, or this test automatically fails instead."/>
+      <property name="Text" value="α: Reveal another token. If you fail, randomly choose an enemy from among the set-aside Monster enemies and place it beneath the act deck without looking at it. (Limit once per test.)&#10;β: -X. X is the amount of horror on you. If you fail, take 1 horror.&#10;γ: -X. X is the base shroud value of your location. If you fail, take 1 horror.&#10;δ: 0. Either randomly choose an enemy from among the set-aside Monster enemies and place it beneath the act deck without looking at it, or this test automatically fails instead."/>
     </alternate>
   </card>
   <card id="a3789f6e-a6a7-48e6-838b-8bec7ae6a952" name="Locked Inside" size="HorizCard">

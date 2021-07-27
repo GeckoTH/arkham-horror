@@ -151,14 +151,16 @@
     <property name="Card Number" value="200"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="A Phantom of Truth"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;α: -X. X is the amount of doom in play (max 5).&#10;β: -2. If you fail, move each unengaged Byakhee in play once toward the nearest investigator.&#10;γ: -3. Cancel the effects and icons of each skill card committed to this test.&#10;δ: -2. If you fail, lose 1 resource for each point you failed by."/>
+    <property name="Text" value="α: -X. X is the amount of doom in play (max 5).&#10;β: -2. If you fail, move each unengaged Byakhee in play once toward the nearest investigator.&#10;γ: -3. Cancel the effects and icons of each skill card committed to this test.&#10;δ: -2. If you fail, lose 1 resource for each point you failed by."/>
     <alternate name="A Phantom of Truth" type="B">
       <property name="Encounter Set" value="A Phantom of Truth"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;α: -X. X is the amount of doom in play.&#10;β: -2. Move each unengaged Byakhee in play once toward the nearest investigator.&#10;γ: -4. Cancel the effects and icons of each skill card committed to this test.&#10;δ: -3. If you fail, lose 1 resource for each point you failed by."/>
+      <property name="Text" value="α: -X. X is the amount of doom in play.&#10;β: -2. Move each unengaged Byakhee in play once toward the nearest investigator.&#10;γ: -4. Cancel the effects and icons of each skill card committed to this test.&#10;δ: -3. If you fail, lose 1 resource for each point you failed by."/>
     </alternate>
   </card>
   <card id="157a0781-961a-454e-9d54-15e69ece8ebe" name="The First Night" size="HorizCard">

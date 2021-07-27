@@ -17,6 +17,7 @@
     <card id="18bd958a-b948-4ebe-81e1-560debea28f8" name="Nepththys">
       <property name="Card Number" value="262" />
       <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Huntress of Bast"/>
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Blessed." />
       <property name="Text" value="You get +1 ά.&#10;ι When 1 or more [Bless] tokens would be removed from the chaos bag during a test: Seal them on Nephthys, instead.&#10;θ Exhaust Nephthys: Either release 3 [Bless] tokens sealed on her, or return 3 [Bless] tokens sealed on her to the token pool to deal 2 damage to an enemy at your location." />
@@ -473,7 +474,7 @@
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
-    <card id="c004574d-7773-4569-bd7a-548a96335ce6" name="Apoostle of Dagon" size="EncounterCard">
+    <card id="c004574d-7773-4569-bd7a-548a96335ce6" name="Apostle of Dagon" size="EncounterCard">
       <property name="Card Number" value="293" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Lair of Dagon" />

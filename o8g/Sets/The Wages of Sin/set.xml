@@ -83,7 +83,7 @@
       <property name="Sanity" value="2" />
       <property name="Class" value="Rogue" />
       <property name="Level" value="0" />
-      <property name="Cost" value="2" />
+      <property name="Cost" value="3" />
       <property name="Willpower" value="0" />
       <property name="Intellect" value="0" />
       <property name="Combat" value="0" />
@@ -234,7 +234,7 @@
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
       <property name="Text" value="θ: Flip your location over. (Group limit once per round at each location.)&#10;Clues cannot be discovered at non-Spectral locations.&#10;Objective – Banish as many Heretics as you can. If there are 4 copies of Unfinished Business in the victory display, advance." />
-      <alternate name="Was It Worth It?" size="HorizCard" type="B">
+      <alternate name="Was it Worth It?" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
@@ -591,7 +591,7 @@
       <property name="Traits" value="Omen." />
       <property name="Text" value="Peril.&#10;Revelation – You must either (choose one):&#10;—Draw the top card of the spectral encounter deck. That card gains peril, and its effects cannot be canceled.&#10;—Test ά (3). If you fail, take 2 horror." />
     </card>
-    <card id="1529b14f-ab18-4db9-841a-b0b603f1efde" name="Grave-light" size="EncounterCard">
+    <card id="1529b14f-ab18-4db9-841a-b0b603f1efde" name="Grave-Light" size="EncounterCard">
       <property name="Card Number" value="184" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="The Wages of Sin" />

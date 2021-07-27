@@ -22,7 +22,7 @@
       <property name="Subtitle" value="Agenda 1a" />
       <property name="Type" value="Agenda" />
       <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next blue agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next blue agenda." />
-      <alternate name="Reinforcement" type="B" size="HorizCard">
+      <alternate name="Reinforcements" type="B" size="HorizCard">
         <property name="Encounter Set" value="War of the Outer Gods" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
@@ -64,7 +64,7 @@
       <property name="Subtitle" value="Agenda 1a" />
       <property name="Type" value="Agenda" />
       <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next green agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next green agenda." />
-      <alternate name="Reinforcement" type="B" size="HorizCard">
+      <alternate name="Reinforcements" type="B" size="HorizCard">
         <property name="Encounter Set" value="War of the Outer Gods" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
@@ -106,21 +106,21 @@
       <property name="Subtitle" value="Agenda 1a" />
       <property name="Type" value="Agenda" />
       <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next red agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next red agenda." />
-      <alternate name="Reinforcement" type="B" size="HorizCard">
+      <alternate name="Reinforcements" type="B" size="HorizCard">
         <property name="Encounter Set" value="War of the Outer Gods" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
         <property name="Text" value="If you are playing in Standalone Mode, add 1 δ token to the chaos bag.&#10;Shuffle 3 of the 4 set-aside Trylogog enemies, the 2 Transmogrify treacheries, and the encounter discard pile into the encounter deck.&#10;If this is the first agenda to advance to 1b, spawn the remaining set-aside Trylogog enemy. That enemy gains an additional swarming 2." />
       </alternate>
     </card>
-    <card id="d119691b-36f6-4e54-82e4-e12264b3520a" name="The Swarm Spreads" size="HorizCard">
+    <card id="d119691b-36f6-4e54-82e4-e12264b3520a" name="The Proliferation Progresses" size="HorizCard">
       <property name="Card Number" value="9" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="War of the Outer Gods" />
       <property name="Subtitle" value="Agenda 2a" />
       <property name="Type" value="Agenda" />
       <property name="Text" value="*This agenda has a global doom threshold of 6 per group.&#10;Forced – When this agenda advances:&#10;If you are playing in Single Group Mode, remove 6 doom from it and move all excess doom to the next red agenda.&#10;If you are playing in Epic Multiplayer Mode, move all doom and wards from it to the next red agenda." />
-      <alternate name="Summoning of the Servitor" type="B" size="HorizCard">
+      <alternate name="The Swarm Spreads" type="B" size="HorizCard">
         <property name="Encounter Set" value="War of the Outer Gods" />
         <property name="Subtitle" value="Agenda 2b" />
         <property name="Type" value="Agenda" />
@@ -138,7 +138,7 @@
         <property name="Encounter Set" value="War of the Outer Gods" />
         <property name="Subtitle" value="Agenda 3b" />
         <property name="Type" value="Agenda" />
-        <property name="Text" value="If you are playing in Standalone Mode, add 1 δ token to the chaos bag.&#10;Flip Hub Dimension to its (Gateway to Destruction) side. If Hub Dimension is not in play, put it into play, (Gateway to Destruction) side faceup.&#10;Spawn the set-aside Ezel-zen-rezl enemy at Hub Dimension.&#10;Search the encounter deck, encounter discard pile, and each play area for all blue and green encounter cards and remove them from the game. Shuffle the encounter deck. Remove each agenda and act from the game and put the set-aside The Swarm Spreads agenda into play." />
+        <property name="Text" value="If you are playing in Standalone Mode, add 1 δ token to the chaos bag.&#10;Flip Hub Dimension to its (Gateway to Destruction) side. If Hub Dimension is not in play, put it into play, (Gateway to Destruction) side faceup.&#10;Spawn the set-aside Ezel-zen-rezl enemy at Hub Dimension.&#10;Search the encounter deck, encounter discard pile, and each play area for all blue and green encounter cards and remove them from the game. Shuffle the encounter deck. Remove each agenda and act from the game and put the set-aside Ezel-zen-rezl Emerges agenda into play." />
       </alternate>
     </card>
     <card id="dc674602-0be0-4878-8583-2fdeb2d71aa8" name="War of the Outer Gods" size="HorizCard">
@@ -246,17 +246,17 @@
         <property name="Clues" value="1π" />
       </alternate>
     </card>
-    <card id="f51c51cb-535d-4dea-9ef7-34fdebc52df8" name="Streets of Montreal" size="EncounterCard">
+    <card id="f51c51cb-535d-4dea-9ef7-34fdebc52df8" name="Streets of Montréal" size="EncounterCard">
       <property name="Card Number" value="18" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="War of the Outer Gods" />
       <property name="Type" value="Location" />
-      <property name="Traits" value="Montreal." />
-      <alternate name="Streets of Montreal" type="B" size="EncounterCard">
+      <property name="Traits" value="Montréal." />
+      <alternate name="Streets of Montréal" type="B" size="EncounterCard">
         <property name="Encounter Set" value="War of the Outer Gods" />
         <property name="Type" value="Location" />
-        <property name="Traits" value="Montreal." />
-        <property name="Text" value="η η Deal 3 damage to a non-Ancient One enemy at a Montreal location in any group. (Group limit once per game.)" />
+        <property name="Traits" value="Montréal." />
+        <property name="Text" value="η η Deal 3 damage to a non-Ancient One enemy at a Montréal location in any group. (Group limit once per game.)" />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
@@ -267,11 +267,11 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="War of the Outer Gods" />
       <property name="Type" value="Location" />
-      <property name="Traits" value="Montreal." />
+      <property name="Traits" value="Montréal." />
       <alternate name="Chateau Ramezay" type="B" size="EncounterCard">
         <property name="Encounter Set" value="War of the Outer Gods" />
         <property name="Type" value="Location" />
-        <property name="Traits" value="Montreal." />
+        <property name="Traits" value="Montréal." />
         <property name="Text" value="η Test ά (4). If you succeed, gain 1 clue (from the token pool)." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="1π" />
@@ -282,11 +282,11 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="War of the Outer Gods" />
       <property name="Type" value="Location" />
-      <property name="Traits" value="Ritual Site. Montreal." />
+      <property name="Traits" value="Ritual Site. Montréal." />
       <alternate name="Shrine of Magh’an Ark’at" type="B" size="EncounterCard">
         <property name="Encounter Set" value="War of the Outer Gods" />
         <property name="Type" value="Location" />
-        <property name="Traits" value="Ritual Site. Montreal." />
+        <property name="Traits" value="Ritual Site. Montréal." />
         <property name="Text" value="θ Draw the top card of the encounter deck: Place 1 ward on the green agenda. (Group limit once per round.)" />
         <property name="Shroud" value="3" />
         <property name="Clues" value="1π" />

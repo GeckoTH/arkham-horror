@@ -154,7 +154,7 @@
       <property name="Encounter Set" value="The Essex County Express"/>
       <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="α: -X. X is 1 more than the current Agenda #.&#10;β: Reveal another token. If you fail and it is your turn, lose all remaining actions and end your turn immediately..&#10;γ: -4. Add 1 doom token to each Cultist enemy in play.δ: -3. If you fail, choose and discard a card from your hand for each point you failed by."/>
+      <property name="Text" value="α: -X. X is 1 more than the current Agenda #.&#10;β: Reveal another token. If you fail and it is your turn, lose all remaining actions and end your turn immediately.&#10;γ: -4. Add 1 doom token to each Cultist enemy in play.&#10;δ: -3. If you fail, choose and discard a card from your hand for each point you failed by."/>
     </alternate>
   </card>
   <card id="7c0d58a3-923e-4166-bcb7-21103a12c87d" name="A Tear in Reality" size="HorizCard">

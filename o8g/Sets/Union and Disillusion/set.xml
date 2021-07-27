@@ -501,7 +501,7 @@
       <property name="Card Number" value="260" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Union and Disillusion" />
-      <property name="Subtitle" value="The Nightmare Is Over" />
+      <property name="Subtitle" value="The Nightmare is Over" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Assistant." />
       <property name="Text" value="You get +1 ά.&#10;ι After you succeed at a skill test during a revelation effect, exhaust Penny White: Discover 1 clue at your location." />
@@ -566,7 +566,7 @@
       <property name="Victory Points" value="0" />
       <alternate name="Jerome Davids" type="B">
         <property name="Encounter Set" value="Union and Disillusion" />
-        <property name="Subtitle" value="Starved For Answers" />
+        <property name="Subtitle" value="Starved for Answers" />
         <property name="Type" value="Enemy" />
         <property name="Traits" value="Humanoid. Geist. Sprectal. Elite." />
         <property name="Text" value="Hunter.&#10;Forced – After Jerome Davids engages you: Choose and discard 2 cards from your hand." />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Undimensioned and Unseen" id="aeafbc38-6263-37a4-2faf-a51e9899f154" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
  <cards>
-  <card id="bc9c240e-8ce5-3125-03cc-d00ed2265f3c" name="&quot;If it bleeds...&quot;">
+  <card id="bc9c240e-8ce5-3125-03cc-d00ed2265f3c" name="&quot;If it bleeds…&quot;">
     <property name="Card Number" value="225"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Event"/>
@@ -63,6 +63,7 @@
   <card id="ddc63adf-ce89-32d4-d646-da0ed6f6a53e" name="Lucky Dice">
     <property name="Card Number" value="230"/>
     <property name="Quantity" value="2"/>
+    <property name="Subtitle" value="…Or Are They?"/>
     <property name="Type" value="Asset"/>
     <property name="Class" value="Rogue"/>
     <property name="Level" value="2"/>

@@ -80,6 +80,7 @@
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Guardian"/>
+      <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Guardian cards (κ) level 0-5, Seeker cards (λ) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Roland's .38 Special, Cover Up, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="76ff41d5-274d-438b-8e3e-1137d77fe6e7" name="Roland Banks" size="MiniCard">
@@ -215,7 +216,7 @@
     <property name="Skill Icons" value="ΰΰ"/>
     <property name="Slot" value="Ally"/>
     <property name="Traits" value="Ally. Creature. Dreamlands."/>
-    <property name="Text" value="Carolyn Fern deck only. Replacement.Foolishness enters play with 3 horror on him. Horror on him may be healed as if it were on Carolyn Fern. While Foolishness has no horror on him, you get +1 to all skills."/>
+    <property name="Text" value="Carolyn Fern deck only. Replacement.&#10;Foolishness enters play with 3 horror on him. Horror on him may be healed as if it were on Carolyn Fern. While Foolishness has no horror on him, you get +1 to all skills."/>
   </card>
   <card id="90bae4d6-e012-4a80-9a98-8d85211efb13" name="To Fight the Black Wind">
     <property name="Card Number" value="12"/>
@@ -224,7 +225,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Subtype" value="Weakness"/>
     <property name="Traits" value="Task. Dreamlands."/>
-    <property name="Text" value="Carolyn Fern deck only. Replacement.Revelation - Attach To Fight the Black Wind to the current agenda. Carolyn Fern takes 1 direct horror.Forced - At the end of the round, if any amount of horror was assigned to an investigator this round and it was not healed: Place 1 doom on attached agenda."/>
+    <property name="Text" value="Carolyn Fern deck only. Replacement.&#10;Revelation - Attach To Fight the Black Wind to the current agenda. Carolyn Fern takes 1 direct horror.Forced - At the end of the round, if any amount of horror was assigned to an investigator this round and it was not healed: Place 1 doom on attached agenda."/>
   </card>
   <card id="d1a85eac-aaae-4267-9608-91588834ae68" name="Silas Marsh" size="InvestigatorCard">
     <property name="Card Number" value="13"/>
@@ -267,7 +268,7 @@
     <property name="Intellect" value="1"/>
     <property name="Skill Icons" value="έάΰ"/>
     <property name="Traits" value="Innate. Developed."/>
-    <property name="Text" value="Silas Marsh deck only. Replacement.If a chaos token with a negative modifier is revealed during this test, either draw 1 card or Nautical Prowess gains ΰΰ"/>
+    <property name="Text" value="Silas Marsh deck only. Replacement.&#10;If a chaos token with a negative modifier is revealed during this test, either draw 1 card or Nautical Prowess gains ΰΰ"/>
   </card>
   <card id="32cc7955-1b67-4ab4-9c5b-b2ffa80257e0" name="Dreams of the Deep">
     <property name="Card Number" value="15"/>
@@ -278,7 +279,7 @@
     <property name="Subtype" value="Weakness"/>
     <property name="Skill Icons" value="ΰΰ"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Silas Marsh deck only. Replacement.This skill's icons subtract from your skill value instead of adding to it.If this skill test fails, return this skill to your hand.Forced - If Dreams of the Deep is in your hand at the end of your turn: Reveal it and take 2 damage."/>
+    <property name="Text" value="Silas Marsh deck only. Replacement.&#10;This skill's icons subtract from your skill value instead of adding to it.If this skill test fails, return this skill to your hand.Forced - If Dreams of the Deep is in your hand at the end of your turn: Reveal it and take 2 damage."/>
   </card>
   <card id="d47f1653-8eff-4bc1-aea6-90d7eb7fbaa9" name="Dexter Drake" size="InvestigatorCard">
     <property name="Card Number" value="16"/>
@@ -357,7 +358,7 @@
       <property name="Type" value="Investigator"/>
       <property name="Class" value="Mystic"/>
       <property name="Traits" value="Clairvoyant."/>
-      <property name="Text" value="Deck Size: 30.&#10;Secondary Class Choise: At deck creation, choose Guardian (κ), Seeker (λ), or Rogue (ν).&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Neutral cards level 0-5, up to 10 level 0-1 events and/or skills of your chosen secondary class.&#10;Deckbuilding Requirements (do not count toward deck size): 3 copies of Psychic Sensitivity, 3 copies of Prophecy of the End (shuffled into the encounter deck), 1 random basic weakness."/>
+      <property name="Text" value="Deck Size: 30.&#10;Secondary Class Choice: At deck creation, choose Guardian (κ), Seeker (λ), or Rogue (ν).&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Neutral cards level 0-5, up to 10 level 0-1 events and/or skills of your chosen secondary class.&#10;Deckbuilding Requirements (do not count toward deck size): 3 copies of Psychic Sensitivity, 3 copies of Prophecy of the End (shuffled into the encounter deck), 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="a6d5e2f7-e621-49c7-af77-5a2c21d6c403" name="Gloria Goldberg" size="MiniCard">

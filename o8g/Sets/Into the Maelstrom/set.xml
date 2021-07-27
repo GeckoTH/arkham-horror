@@ -78,7 +78,7 @@
     <card id="ed9fa0a4-4333-4cc2-9317-2daf67dd3e08" name="Lucky Dice">
       <property name="Card Number" value="307" />
       <property name="Quantity" value="1" />
-      <property name="Subtitle" value="... Or Are They?" />
+      <property name="Subtitle" value="…Or Are They?" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
       <property name="Text" value="Exceptional.&#10;ι When you reveal a  non-[Curse], non-[Autofail] chaos token, add 1 [Curse] token to the chaos bag: Ignore the just revealed token and reveal another one to resolve. If that token as a [Curse] or [Autofail] symbol, return Lucky Dice to your hand (cannot be ignored/canceled)." />
@@ -398,12 +398,12 @@
       <property name="Card Number" value="328" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Into the Maelstrom" />
-      <property name="Subtitle" value="Santuary of Father Dagon" />
+      <property name="Subtitle" value="Sanctuary of Father Dagon" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Y'ha-nthlei. Lair." />
       <alternate name="Lair of Dagon" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Into the Maelstrom" />
-        <property name="Subtitle" value="Santuary of Father Dagon" />
+        <property name="Subtitle" value="Sanctuary of Father Dagon" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Y'ha-nthlei. Lair." />
         <property name="Text" value="Lair of Dagon gets –1 shroud for each Sanctum location with a key on it.&#10;θ Check Campaign Log. If all 7 keys are on locations and the Order's ritual was disrupted: You dig deep into your memories to recall what happened the last time you were here. Read Flash back XIV in the Campaign Guide." />

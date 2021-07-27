@@ -377,7 +377,7 @@
     <property name="Traits" value="Innate."/>
     <property name="Text" value="While you have 4 or more cards in hand, Curiosity gains ά έ (while you have 7 or more cards in hand, Curiosity gains ά ά έ έ, instead)."/>
   </card>
-  <card id="cb477972-7436-4bcc-81a9-1f3829ff1afb" name="Death XIII">
+  <card id="cb477972-7436-4bcc-81a9-1f3829ff1afb" name="Death · XIII">
     <property name="Card Number" value="27"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Free from the Past"/>
@@ -421,7 +421,7 @@
     <property name="Traits" value="Innate."/>
     <property name="Text" value="While you have 5 or more resources, Cunning gains έ ί (while you have 10 or more resources, Cunning gains έ έ ί ί, instead)."/>
   </card>
-  <card id="5979ffd1-1971-4802-abdd-c345fc60cb9c" name="The Moon XVIII">
+  <card id="5979ffd1-1971-4802-abdd-c345fc60cb9c" name="The Moon · XVIII">
     <property name="Card Number" value="31"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Message from Your Inner Self"/>
@@ -539,7 +539,7 @@
     <property name="Traits" value="Tarot."/>
     <property name="Text" value="θ During your turn, remove Ace of Rods from the game: You may take an additional action this turn, during which you get +2 to each of your skills.&#10;ι When the game begins, if Ace of Rods is in your opening hand: Put it into play."/>
   </card>
-  <card id="479a3456-8e6c-4df7-a778-dad99d0a0f9d" name="The Thirteenth Vision">
+  <card id="479a3456-8e6c-4df7-a778-dad99d0a0f9d" name="The 13th Vision">
     <property name="Card Number" value="41"/>
     <property name="Quantity" value="2"/>
     <property name="Type" value="Treachery"/>
@@ -548,7 +548,7 @@
     <property name="Traits" value="Omen."/>
     <property name="Text" value="Revelation - Put The 13th Vision into play in your threat area.&#10;Investigators at your location fail ties during skill tests.&#10;η η: Discard The 13th Vision."/>
   </card>
-  <card id="46163897-b6a8-4c6e-86ef-27c5eeb7f443" name="The Tower XVI">
+  <card id="46163897-b6a8-4c6e-86ef-27c5eeb7f443" name="The Tower · XVI">
     <property name="Card Number" value="42"/>
     <property name="Quantity" value="2"/>
     <property name="Subtitle" value="Circumstances Beyond Your Control"/>
@@ -564,17 +564,19 @@
     <property name="Card Number" value="43"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;α: -3. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
+    <property name="Text" value="α: -3. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
     <alternate name="Disappearance at the Twilight Estate" type="B">
       <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;α: -5. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
+      <property name="Text" value="α: -5. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."/>
     </alternate>
   </card>
-  <card id="9b434397-cb1c-4534-affb-efb27e8dbd66" name="JUDGEMENT XX" size="HorizCard">
+  <card id="9b434397-cb1c-4534-affb-efb27e8dbd66" name="JUDGEMENT · XX" size="HorizCard">
     <property name="Card Number" value="44"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Disappearance at the Twilight Estate"/>
@@ -726,17 +728,19 @@
     <property name="Card Number" value="50"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Witching Hour"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;α: -1. For each point you fail by, discard the top card of the encounter deck.&#10;γ: -1. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;δ: -3. If you fail, choose an exhausted or damaged Witch enemy at your location or at a connecting location. Ready that enemy and heal all damage from it."/>
+    <property name="Text" value="α: -1. For each point you fail by, discard the top card of the encounter deck.&#10;γ: -1. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;δ: -3. If you fail, choose an exhausted or damaged Witch enemy at your location or at a connecting location. Ready that enemy and heal all damage from it."/>
     <alternate name="The Witching Hour" type="B">
       <property name="Encounter Set" value="The Witching Hour"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;α: -2. Discard cards from the top of the encounter deck equal to this test's difficulty.&#10;γ: -2. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;δ: -4. If you fail, ready each Witch enemy at your location and at each connecting location. Heal all damage from each of those enemies."/>
+      <property name="Text" value="α: -2. Discard cards from the top of the encounter deck equal to this test's difficulty.&#10;γ: -2. If you fail, after this test resolves, draw the bottommost treachery in the encounter discard pile.&#10;δ: -4. If you fail, ready each Witch enemy at your location and at each connecting location. Heal all damage from each of those enemies."/>
     </alternate>
   </card>
-  <card id="8b6df157-2727-43c9-840f-d5db8b69f723" name="TEMPERANCE XIV" size="HorizCard">
+  <card id="8b6df157-2727-43c9-840f-d5db8b69f723" name="TEMPERANCE · XIV" size="HorizCard">
     <property name="Card Number" value="51"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Witching Hour"/>
@@ -1049,17 +1053,19 @@
     <property name="Card Number" value="65"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="At Death's Doorstep"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;α: -1 (-3 instead if your location is haunted).&#10;γ: -2. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;δ: -2. If there is a Spectral enemy at your location, take 1 damage."/>
+    <property name="Text" value="α: -1 (-3 instead if your location is haunted).&#10;γ: -2. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;δ: -2. If there is a Spectral enemy at your location, take 1 damage."/>
     <alternate name="At Death's Doorstep" type="B">
       <property name="Encounter Set" value="At Death's Doorstep"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;α: -2 (-4 instead if your location is haunted).&#10;γ: -3. If this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;δ: -4. If there is a Spectral enemy at your location, take 1 damage and 1 horror."/>
+      <property name="Text" value="α: -2 (-4 instead if your location is haunted).&#10;γ: -3. If this is an attack or evasion attempt, resolve each haunted ability on your location.&#10;δ: -4. If there is a Spectral enemy at your location, take 1 damage and 1 horror."/>
     </alternate>
   </card>
-  <card id="f69b2d45-3917-4679-a48a-b6c32d47e874" name="JUSTICE XI" size="HorizCard">
+  <card id="f69b2d45-3917-4679-a48a-b6c32d47e874" name="JUSTICE · XI" size="HorizCard">
     <property name="Card Number" value="66"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="At Death's Doorstep"/>

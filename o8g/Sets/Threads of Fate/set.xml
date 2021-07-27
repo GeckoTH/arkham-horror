@@ -123,14 +123,16 @@
     <property name="Card Number" value="113"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Threads of Fate"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;&#10;α : -X. X is the highest number of doom on a [β] enemy.&#10;&#10;β: -2. If you do not succeed by at least 1, take 1 damage.&#10;&#10;γ: -2. If you do not succeed by at least 1, place 1 doom on the nearest [β] enemy.&#10;&#10;δ: -2. If you fail, lose 1 of your clues."/>
+    <property name="Text" value="α : -X. X is the highest number of doom on a Cultist enemy.&#10;β: -2. If you do not succeed by at least 1, take 1 damage.&#10;γ: -2. If you do not succeed by at least 1, place 1 doom on the nearest Cultist enemy.&#10;δ: -2. If you fail, lose 1 of your clues."/>
     <alternate name="Threads of Fate" type="B">
       <property name="Encounter Set" value="Threads of Fate"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;&#10;α : -X. X is the total number of doom in play.&#10;&#10;β: -2. If you do not succeed by at least 2, take 1 direct damage.&#10;&#10;γ: -2. If you do not succeed by at least 2, place 1 doom on each [β] enemy.&#10;&#10;δ: -3. If you fail, lose 1 of your clues."/>
+      <property name="Text" value="α : -X. X is the total number of doom in play.&#10;β: -2. If you do not succeed by at least 2, take 1 direct damage.&#10;γ: -2. If you do not succeed by at least 2, place 1 doom on each Cultist enemy.&#10;δ: -3. If you fail, lose 1 of your clues."/>
     </alternate>
   </card>
   <card id="c4993b69-869c-454a-9bba-9cc7eb6f884a" name="Three Fates" size="HorizCard">

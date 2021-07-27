@@ -138,7 +138,7 @@
       <property name="Text" value="α: –1 for each location in play with no encounter card underneath it.&#10;β: –4. If you fail, add 1 clue from the token pool to your location.&#10;γ: –3. Reveal another token.&#10;δ: –3. Place 1 doom on the current agenda."/>
     </alternate>
   </card>
-  <card id="a8ba171e-ce59-42fb-90d0-8a08132ae2fc" name="Strange Disapperances" size="HorizCard">
+  <card id="a8ba171e-ce59-42fb-90d0-8a08132ae2fc" name="Strange Disappearances" size="HorizCard">
     <property name="Card Number" value="196"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
@@ -147,7 +147,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <alternate name="Strange Disapperances" size="HorizCard" type="B">
+    <alternate name="First Blood" size="HorizCard" type="B">
       <property name="Encounter Set" value="Blood on the Altar"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
@@ -166,7 +166,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="6"/>
-    <alternate name="The Old Ones Hunger" size="HorizCard" type="B">
+    <alternate name="Abandoned Streets" size="HorizCard" type="B">
       <property name="Encounter Set" value="Blood on the Altar"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -185,7 +185,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <alternate name="Feed the Beast" size="HorizCard" type="B">
+    <alternate name="Blood on the Altar" size="HorizCard" type="B">
       <property name="Encounter Set" value="Blood on the Altar"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -206,7 +206,7 @@
     <property name="Doom" value=""/>
     <property name="Text" value="Objective – When an investigator enters The Hidden Chamber, advance."/>
     <alternate name="Searching for Answers" size="HorizCard" type="B">
-      <property name="Encounter Set" value="Blood on the Altar"/>
+      <property name="What Was Hidden" value="Blood on the Altar"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
       <property name="Shroud" value=""/>
@@ -225,7 +225,7 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective – If Silas Bishop is defeated: (->R1)&#10;Objective – If there are no clues in the Hidden Chamber, advance."/>
-    <alternate name="The Chamber of the Beast" size="HorizCard" type="B">
+    <alternate name="Banishing the Creature" size="HorizCard" type="B">
       <property name="Encounter Set" value="Blood on the Altar"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -485,6 +485,7 @@
   <card id="47bc5ee8-9537-417b-8cf9-d700139caa73" name="The Hidden Chamber" size="EncounterCard">
     <property name="Card Number" value="214"/>
     <property name="Quantity" value="1"/>
+    <property name="Subtitle" value="Prison of the Beast"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value="3"/>
@@ -538,7 +539,7 @@
     <property name="Card Number" value="218"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Blood on the Altar"/>
-    <property name="Subtitle" value="Smarter Than He Looks"/>
+    <property name="Subtitle" value="Smarter Than He Lets On"/>
     <property name="Unique" value="*"/>
     <property name="Type" value="Asset"/>
     <property name="Cost" value="3"/>
