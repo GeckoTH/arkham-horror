@@ -205,8 +205,8 @@
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective – When an investigator enters The Hidden Chamber, advance."/>
-    <alternate name="Searching for Answers" size="HorizCard" type="B">
-      <property name="What Was Hidden" value="Blood on the Altar"/>
+    <alternate name="What Was Hidden" size="HorizCard" type="B">
+      <property name="Encounter Set" value="Blood on the Altar"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
       <property name="Shroud" value=""/>

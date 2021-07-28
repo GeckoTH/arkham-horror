@@ -2341,7 +2341,7 @@
     <property name="Encounter Set" value="The Devourer Below"/>
     <property name="Type" value="Treachery"/>
     <property name="Traits" value="Curse."/>
-    <property name="Text" value="Revelation - Test ά (5). For each point you fail by, you must either (choose one): Choose and discard a card from your hand, or take 1 damage and 2 horror."/>
+    <property name="Text" value="Revelation - Test ά (5). For each point you fail by, you must either (choose one): Choose and discard a card from your hand, or take 1 damage and 1 horror."/>
   </card>
   <card id="76a906b0-eea1-4ce1-9982-f7e0f1aab553" name="Swarm of Rats" size="EncounterCard">
     <property name="Card Number" value="159"/>
