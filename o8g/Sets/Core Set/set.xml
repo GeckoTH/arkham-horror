@@ -1630,7 +1630,7 @@
       <property name="Text" value="α: -X. X is the total number of doom in play.&#10;β: -2. Place 1 doom on each Cultist enemy in play. If there are no Cultist enemies in play, reveal another token.&#10;γ: -4. If you fail, place all your clues on your location."/>
     </alternate>
   </card>
-  <card id="d533f5ae-53fc-4bbb-96b9-d0f26364c387" name="Predator or Prey" size="HorizCard">
+  <card id="d533f5ae-53fc-4bbb-96b9-d0f26364c387" name="Predator or Prey?" size="HorizCard">
     <property name="Card Number" value="121"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Midnight Masks"/>
