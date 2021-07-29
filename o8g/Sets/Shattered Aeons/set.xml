@@ -132,11 +132,13 @@
     <property name="Card Number" value="314"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shattered Aeons"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="α: -1 (-4 instead if the Relic of Ages is at your location).&#10;β: -2. If you do not succeed by at least 1, place 1 doom on the nearest [β] enemy.&#10;γ: -2. If you are poisoned, this test automatically fails instead.&#10;δ: -2. If you fail, shuffle the topmost [[hex]] treachery in the encounter discard pile into the exploration deck."/>
+    <property name="Text" value="α: -1 (-4 instead if the Relic of Ages is at your location).&#10;β: -2. If you do not succeed by at least 1, place 1 doom on the nearest Cultist enemy.&#10;γ: -2. If you are poisoned, this test automatically fails instead.&#10;δ: -2. If you fail, shuffle the topmost [[Hex]] treachery in the encounter discard pile into the exploration deck."/>
     <alternate name="Shattered Aeons" type="B">
       <property name="Encounter Set" value="Shattered Aeons"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
       <property name="Text" value="α: -2 (-5 instead if the Relic of Ages is at your location).&#10;β: -3. Place 1 doom on each [β] enemy.&#10;γ: -3. If you are poisoned, this test automatically fails instead. If you are not poisoned and you fail, put a set-aside Poisoned weakness into play in your threat area.&#10;δ: -3. Shuffle the topmost [[hex]] treachery in the encounter discard pile into the exploration deck."/>
@@ -345,7 +347,7 @@
       <property name="Text" value="Forced - After you move from Nexus of N'kai to an [[Otherworld]] location, or vice versa: Take 1 horror for each clue on that [[Otherworld]] location.&#10;η: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it. Do not take horror from the above Forced ability when moving via this effect."/>
     </alternate>
   </card>
-  <card id="74080182-a727-4a63-98b0-42e0909e4bdc" name="Ictaca" size="EncounterCard">
+  <card id="74080182-a727-4a63-98b0-42e0909e4bdc" name="Ichtaca" size="EncounterCard">
     <property name="Card Number" value="325"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Shattered Aeons"/>
@@ -597,11 +599,13 @@
     <property name="Card Number" value="344"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Turn Back Time"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
     <property name="Text" value="α: -X . X is the number of locations with doom on them.&#10;δ: -4. If you fail, place 1 doom on your location."/>
     <alternate name="Turn Back Time" type="B">
       <property name="Encounter Set" value="Turn Back Time"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
       <property name="Text" value="α: -X . X is the total amount of doom on locations.&#10;δ: -6. Place 1 doom on your location."/>

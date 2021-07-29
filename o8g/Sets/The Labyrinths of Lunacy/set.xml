@@ -5,14 +5,16 @@
     <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+    <property name="Subtitle" value="STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Standard&#10;&#10;α: -1. Reveal another token.&#10;&#10;β: -3. If you fail, place 1 of your clues on your location.&#10;&#10;γ: -4. If you fail, lose 2 resources.&#10;&#10;δ: -4. If you fail, discard a random card from your hand."/>
+    <property name="Text" value="α: -1. Reveal another token.&#10;β: -3. If you fail, place 1 of your clues on your location.&#10;γ: -4. If you fail, lose 2 resources.&#10;δ: -4. If you fail, discard a random card from your hand."/>
     <alternate name="The Labyrinths of Lunacy" type="B">
       <property name="Encounter Set" value="The Labyrinths of Lunacy"/>
+      <property name="Subtitle" value="HARD"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard&#10;&#10;α: -1. Reveal another token. If you fail, you must either take 1&amp;nbsp;damage or 1 horror.&#10;&#10;β: -3. Place 1 of your clues on your location.&#10;&#10;γ: -4. Lose 2 resources.&#10;&#10;δ: -4. Discard a random card from your hand."/>
+      <property name="Text" value="α: -1. Reveal another token. If you fail, you must either take 1 damage or 1 horror.&#10;β: -3. Place 1 of your clues on your location.&#10;γ: -4. Lose 2 resources.&#10;δ: -4. Discard a random card from your hand."/>
     </alternate>
   </card>
   <card id="f555a583-ef14-428c-8382-f80a67ea873c" name="Awakening" size="HorizCard">

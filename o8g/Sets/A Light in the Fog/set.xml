@@ -487,6 +487,7 @@
     <card id="7cb4b8b4-f309-49fc-b1d5-6caac1395a0f" name="Oceiros Marsh" size="EncounterCard">
       <property name="Card Number" value="253" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Keeper of the Lighthouse" />
       <property name="Encounter Set" value="A Light in the Fog" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Deep One. Hybrid. Elite." />

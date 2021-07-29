@@ -145,12 +145,14 @@
       <property name="Card Number" value="119" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Search for Kadath" />
+      <property name="Subtitle" value="EASY / STANDARD"/>
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α : –X. X is the number of Signs of the Gods the investigators have uncovered.&#10;β: Reveal another token. If this token is revealed during an investigation and this skill test fails, increase this location’s shroud by 1 for the remainder of the round.&#10;γ: –2. If you fail, either take 1 damage and 1 horror, or place 1 doom on the current agenda.&#10;δ: +2. The black cat points you in the right direction. If this token is revealed during an investigation and you succeed, discover 1 additional clue." />
+      <property name="Text" value="α: –X. X is the number of Signs of the Gods the investigators have uncovered.&#10;β: Reveal another token. If this token is revealed during an investigation and this skill test fails, increase this location’s shroud by 1 for the remainder of the round.&#10;γ: –2. If you fail, either take 1 damage and 1 horror, or place 1 doom on the current agenda.&#10;δ: +2. The black cat points you in the right direction. If this token is revealed during an investigation and you succeed, discover 1 additional clue." />
       <alternate name="The Search for Kadath" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Search for Kadath" />
+        <property name="Subtitle" value="HARD / EXPERT"/>
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α : –X. X is 1 more than the number of Signs of the Gods the investigators have uncovered.&#10;β: Reveal another token. If this token is revealed during an investigation and this skill test fails, increase this location’s shroud by 2 for the remainder of the round.&#10;γ: –3. If you fail, either take 1 damage and 1 horror, or place 1 doom on the current agenda.&#10;δ: +1. The black cat points you in the right direction. If this token is revealed during an investigation and you succeed, discover 1 additional clue." />
+        <property name="Text" value="α: –X. X is 1 more than the number of Signs of the Gods the investigators have uncovered.&#10;β: Reveal another token. If this token is revealed during an investigation and this skill test fails, increase this location’s shroud by 2 for the remainder of the round.&#10;γ: –3. If you fail, either take 1 damage and 1 horror, or place 1 doom on the current agenda.&#10;δ: +1. The black cat points you in the right direction. If this token is revealed during an investigation and you succeed, discover 1 additional clue." />
       </alternate>
     </card>
     <card id="0fc565c2-467d-4419-9858-fa968ba5679f" name="Journey Across the Dreamlands" size="HorizCard">

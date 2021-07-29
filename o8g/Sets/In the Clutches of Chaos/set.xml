@@ -161,6 +161,7 @@
     <card id="6d30fb09-a286-44e7-b504-267493c4704a" name="Anna Kaslow">
       <property name="Card Number" value="283" />
       <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Mysterious Soothsayer"/>
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Clairvoyant." />
       <property name="Text" value="You have 2 additional tarot slots.&#10;ι When the game begins, if Anna Kaslow is in your opening hand: Put her into play.&#10;ι After Anna Kaslow enters play: Search your deck for a Tarot asset and put it into play." />
@@ -180,10 +181,12 @@
       <property name="Card Number" value="284" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="In the Clutches of Chaos" />
+      <property name="Subtitle" value="EASY / STANDARD"/>
       <property name="Type" value="Scenario" />
       <property name="Text" value="α: –X. X is the total amount of doom and breaches on your location.&#10;β: Reveal another token. If there are fewer than 3 breaches on your location, place 1 breach on your location.&#10;γ: –2. For each point you fail by, remove 1 breach from the current act.&#10;δ: –3. If you fail, place 1 breach on a random location." />
       <alternate name="In the Clutches of Chaos" size="EncounterCard" type="B">
         <property name="Encounter Set" value="In the Clutches of Chaos" />
+        <property name="Subtitle" value="HARD / EXPERT"/>
         <property name="Type" value="Scenario" />
         <property name="Text" value="α: –X. X is 1 higher than the total amount of doom and breaches on your location.&#10;β: Reveal another token. If there are fewer than 3 breaches on your location, place 1 breach on your location.&#10;γ: –3. For each point you fail by, remove 1 breach from the current act.&#10;δ: –4. If you fail, place 1 breach on a random location." />
       </alternate>

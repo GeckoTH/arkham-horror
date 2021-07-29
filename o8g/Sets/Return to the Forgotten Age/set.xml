@@ -405,6 +405,7 @@
       <property name="Setup" value="2g" />
       <alternate name="Clinton Freeman" type="B">
         <property name="Encounter Set" value="Return to Threads of Fate" />
+        <property name="Subtitle" value="Should Have Stayed Home" />
         <property name="Type" value="Asset" />
         <property name="Traits" value="Bystander. Wayfarer." />
         <property name="Text" value="Revelation – Put Clinton Freeman into play at Velma’s Diner. Advance to Act 3g—“Discover the Truth.”&#10;η: Parley. Test ά or έ (3). If you succeed, place 1 clue on Clinton Freeman (from the token pool) and take 1 horror. If you fail, take 1 horror for each point you failed by." />
@@ -483,6 +484,7 @@
     <card id="fa371c67-b293-4735-9b77-631ec63ec006" name="Veda Whitsley">
       <property name="Card Number" value="37" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Skilled Botanist"/>
       <property name="Encounter Set" value="Return to Threads of Fate" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Wayfarer." />

@@ -155,14 +155,16 @@
     <property name="Card Number" value="240"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Pallid Mask"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;α: -X. X is the number of locations away from the starting location you are (max 5).&#10;β: -2. If this token is revealed during an attack, and this skill test is successful, this attack deals 1 less damage.&#10;γ: -2. If there is a ready Ghoul or Geist enemy at your location, it attacks you (if there is more than one, choose one).&#10;δ: -3. If you fail, search the encounter deck and discard pile for a Ghoul or Geist enemy and draw it."/>
+    <property name="Text" value="α: -X. X is the number of locations away from the starting location you are (max 5).&#10;β: -2. If this token is revealed during an attack, and this skill test is successful, this attack deals 1 less damage.&#10;γ: -2. If there is a ready Ghoul or Geist enemy at your location, it attacks you (if there is more than one, choose one).&#10;δ: -3. If you fail, search the encounter deck and discard pile for a Ghoul or Geist enemy and draw it."/>
     <alternate name="The Pallid Mask" type="B">
       <property name="Encounter Set" value="The Pallid Mask"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;α: -X. X is the number of locations away from the starting location you are.&#10;β: -3. If this token is revealed during an attack and this skill test is successful, this attack deals no damage.&#10;γ: -3. If there is a Ghoul or Geist enemy at your location, it readies and attacks you (if there is more than one, choose one).&#10;δ: -4. If you fail, search the encounter deck and discard pile for a Ghoul or Geist enemy and draw it."/>
+      <property name="Text" value="α: -X. X is the number of locations away from the starting location you are.&#10;β: -3. If this token is revealed during an attack and this skill test is successful, this attack deals no damage.&#10;γ: -3. If there is a Ghoul or Geist enemy at your location, it readies and attacks you (if there is more than one, choose one).&#10;δ: -4. If you fail, search the encounter deck and discard pile for a Ghoul or Geist enemy and draw it."/>
     </alternate>
   </card>
   <card id="7cc80dae-6a90-4d31-9e4b-b892ad1ff4ba" name="Empire of the Dead" size="HorizCard">

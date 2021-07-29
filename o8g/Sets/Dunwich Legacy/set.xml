@@ -557,12 +557,14 @@
     <property name="Card Number" value="41"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Extracurricular Activity"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="Easy / Standard&#10;α: -1. If you fail, discard the top 3 cards of your deck.&#10;β: -1 (-3 instead if there are 10 or more cards in your discard pile).&#10;δ: -X. Discard the top 2 cards of your deck. X is the total printed cost of those discarded cards."/>
+    <property name="Text" value="α: -1. If you fail, discard the top 3 cards of your deck.&#10;β: -1 (-3 instead if there are 10 or more cards in your discard pile).&#10;δ: -X. Discard the top 2 cards of your deck. X is the total printed cost of those discarded cards."/>
     <alternate name="Extracurricular Activity" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="Hard / Expert&#10;α: -2. If you fail, discard the top 5 cards of your deck.&#10;β: -1 (-5 instead if there are 10 or more cards in your discard pile).&#10;δ: -X. Discard the top 3 cards of your deck. X is the total printed cost of those discarded cards."/>
+      <property name="Text" value="α: -2. If you fail, discard the top 5 cards of your deck.&#10;β: -1 (-5 instead if there are 10 or more cards in your discard pile).&#10;δ: -X. Discard the top 3 cards of your deck. X is the total printed cost of those discarded cards."/>
     </alternate>
   </card>
   <card id="6566fbf5-5332-4710-b25d-732161ecfb55" name="Quiet Halls" size="HorizCard">
@@ -574,7 +576,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
-    <alternate name="Quiet Halls" size="HorizCard" type="B">
+    <alternate name="Something Stirs" size="HorizCard" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="1"/>
@@ -594,7 +596,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
     <property name="Text" value="Each investigator's maximum hand size is reduced by 3 while checking his or her hand size during the upkeep phase."/>
-    <alternate name="Dead of Night" size="HorizCard" type="B">
+    <alternate name="An Experiment Gone Wrong" size="HorizCard" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -614,7 +616,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="2"/>
     <property name="Text" value="Forced - When this agenda would advance by reaching its doom threshold: Instead, remove all doom in play and move The Experiment 1 location toward the Dormitories.&#10;Objective - If The Experiment enters the Dormitories, advance."/>
-    <alternate name="The Beast Unleashed" size="HorizCard" type="B">
+    <alternate name="Not Fast Enough" size="HorizCard" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -633,7 +635,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="3π "/>
     <property name="Doom" value=""/>
-    <alternate name="After Hours" size="HorizCard" type="B">
+    <alternate name="The Head Janitor" size="HorizCard" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -653,7 +655,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η Spend 1 clue: Discard the top 5 cards of the encounter deck (top 10 instead if there is only 1 player in the game).&#10;Forced - If you discard &quot;Jazz&quot; Mulligan for any reason, resolve his revelation effect.&#10;Objective - When you take control of &quot;Jazz&quot; Mulligan, advance."/>
-    <alternate name="Rice's Whereabouts" size="HorizCard" type="B">
+    <alternate name="The Experiment Is Loose!" size="HorizCard" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="2"/>
@@ -673,7 +675,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - Find and complete an objective on another encounter card."/>
-    <alternate name="Campus Safety" size="HorizCard" type="B">
+    <alternate name="The Beast's Death" size="HorizCard" type="B">
       <property name="Encounter Set" value="Extracurricular Activity"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
@@ -940,12 +942,14 @@
     <property name="Card Number" value="62"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The House Always Wins"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="Easy / Standard&#10;α: -2. You may spend 2 resources to treat this token as a 0, instead.&#10;β: -3. If you succeed, gain 3 resources.&#10;γ: -2. If you fail, discard 3 resources."/>
+    <property name="Text" value="α: -2. You may spend 2 resources to treat this token as a 0, instead.&#10;β: -3. If you succeed, gain 3 resources.&#10;γ: -2. If you fail, discard 3 resources."/>
     <alternate name="The House Always Wins" type="B">
       <property name="Encounter Set" value="The House Always Wins"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="Hard / Expert&#10;α: -3. You may spend 3 resources to treat this token as a 0, instead.&#10;β: -3. If you fail, discard 3 resources.&#10;γ: -2. Discard 3 resources."/>
+      <property name="Text" value="α: -3. You may spend 3 resources to treat this token as a 0, instead.&#10;β: -3. If you fail, discard 3 resources.&#10;γ: -2. Discard 3 resources."/>
     </alternate>
   </card>
   <card id="f6a860e8-64e9-495a-8ce3-4841f83f0f47" name="The Clover Club" size="HorizCard">

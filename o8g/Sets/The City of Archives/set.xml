@@ -104,14 +104,16 @@
     <property name="Card Number" value="237"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The City of Archives"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="α: -1 (-3 instead if you have 5 or more cards in your hand).&#10;γ: -3. If you fail, discard 1 random card from your hand.&#10;β or δ: -2. If you fail, place 1 of your clues on your location."/>
+    <property name="Text" value="α: -1 (-3 instead if you have 5 or more cards in your hand).&#10;β δ: -2. If you fail, place 1 of your clues on your location.&#10;γ: -3. If you fail, discard 1 random card from your hand."/>
     <alternate name="The City of Archives" type="B">
       <property name="Encounter Set" value="The City of Archives"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="α: -2 (if you have 5 or more cards in your hand, you automatically fail instead).&#10;γ: -3. For each point you fail by, discard 1 random card from your hand.&#10;β or δ: -2. Place 1 of your clues on your location."/>
+      <property name="Text" value="α: -2 (if you have 5 or more cards in your hand, you automatically fail instead).&#10;β δ: -2. Place 1 of your clues on your location.&#10;γ: -3. For each point you fail by, discard 1 random card from your hand."/>
     </alternate>
   </card>
   <card id="599b455a-1ed9-4a8b-8de3-cd48b86652d4" name="City of the Great Race" size="HorizCard">
@@ -164,7 +166,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="7"/>
     <property name="Text" value="Each investigator's maximum hand size is reduced by 4."/>
-    <alternate name="Alien Existance" size="HorizCard" type="B">
+    <alternate name="Alien Existence" size="HorizCard" type="B">
       <property name="Encounter Set" value="The City of Archives"/>
       <property name="Type" value="Agenda"/>
       <property name="Class" value="Mythos"/>
@@ -237,6 +239,7 @@
   <card id="866e3e89-94bb-4f57-9caf-96904f3ee338" name="Body of a Yithian" size="InvestigatorCard">
     <property name="Card Number" value="244"/>
     <property name="Quantity" value="4"/>
+    <property name="Subtitle" value="Captive in Another Form"/>
     <property name="Encounter Set" value="The City of Archives"/>
     <property name="Type" value="Investigator"/>
     <property name="Class" value="Mythos"/>

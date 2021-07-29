@@ -4,7 +4,6 @@
   <card id="08864675-f455-40db-8dac-70f0887dc648" name="Marie Lambeau" size="InvestigatorCard">
     <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="Promo"/>
     <property name="Subtitle" value="The Entertainer"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Investigator"/>
@@ -18,17 +17,16 @@
     <property name="Traits" value="Performer. Sorcerer."/>
     <property name="Text" value="While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play Spell cards or activate Spell η abilities.&#10;ε effect: +1. You may add 1 doom to or remove 1 doom from a card you control."/>
     <alternate name="Marie Lambeau" size="InvestigatorCard" type="B">
-      <property name="Encounter Set" value="Promo"/>
       <property name="Subtitle" value="The Entertainer"/>
       <property name="Unique" value="ο"/>
       <property name="Type" value="Investigator"/>
       <property name="Class" value="mystic"/>
+      <property name="Text" value="Deck size: 30.&#10;Deckbuilding options: Spell cards level 0-5, Mystic cards (μ) level 0-3, Neutral cards level 0-5, Occult cards level 0, up to five other level 0 Seeker and/or Survivor cards (λ and/or ξ).&#10;Deckbuilding requirements (do not count toward deck size): Mystifying Song, Baron Samedi, 1 random basic weakness."/>
     </alternate>
   </card>
   <card id="13beb81c-4951-4891-9cb2-32d7c9c368bf" name="Mystifying Song">
     <property name="Card Number" value="2"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="Promo"/>
     <property name="Type" value="Event"/>
     <property name="Class" value="Neutral"/>
     <property name="Cost" value="3"/>
@@ -39,7 +37,6 @@
   <card id="80aa551e-34a6-412c-8520-7f55a0526bdc" name="Baron Samedi">
     <property name="Card Number" value="3"/>
     <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="Promo"/>
     <property name="Subtitle" value="Lord of the Cemetery"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Asset"/>

@@ -5,12 +5,14 @@
     <property name="Card Number" value="1"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="Easy / Standard&#10;α: -2. This token has an additional -1 for each Innocent Reveler underneath the agenda deck.&#10;β: Reveal another token. If you fail this test, draw the top card of the encounter deck.&#10;γ: -3. If you fail, deal 1 damage or 1 horror to the nearest Innocent Reveler in play.&#10;δ: -4. If you fail and Cnidathqua is in play, it attacks you."/>
+    <property name="Text" value="α: -2. This token has an additional -1 for each Innocent Reveler underneath the agenda deck.&#10;β: Reveal another token. If you fail this test, draw the top card of the encounter deck.&#10;γ: -3. If you fail, deal 1 damage or 1 horror to the nearest Innocent Reveler in play.&#10;δ: -4. If you fail and Cnidathqua is in play, it attacks you."/>
     <alternate name="Carnevale of Horrors" type="B">
       <property name="Encounter Set" value="Carnevale of Horrors"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="Hard / Expert&#10;α: -2. This token has an additional -1 for each Innocent Reveler underneath the act or agenda decks.&#10;β: Reveal another token. If you fail this test, draw the top card of the encounter deck.&#10;γ: -4. Deal 1 damage or 1 horror to the nearest Innocent Reveler in play.&#10;δ: -6. If you fail and Cnidathqua is in play, it attacks you."/>
+      <property name="Text" value="α: -2. This token has an additional -1 for each Innocent Reveler underneath the act or agenda decks.&#10;β: Reveal another token. If you fail this test, draw the top card of the encounter deck.&#10;γ: -4. Deal 1 damage or 1 horror to the nearest Innocent Reveler in play.&#10;δ: -6. If you fail and Cnidathqua is in play, it attacks you."/>
     </alternate>
   </card>
   <card id="df403021-1bf1-41f5-b043-23a1cf8a4471" name="The Festivities Begin" size="HorizCard">
@@ -50,7 +52,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
-    <alternate name="The Shadow of the Eclipse" size="HorizCard" type="B">
+    <alternate name="A Sacrifice To Be Made" size="HorizCard" type="B">
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="2"/>
@@ -70,7 +72,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value="3"/>
     <property name="Text" value="Forced - After a Writhing Appendage enters play: Place 2 doom on it."/>
-    <alternate name="Chaos at the Carnevale" size="HorizCard" type="B">
+    <alternate name="Cnidathqua Attacks!" size="HorizCard" type="B">
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Agenda"/>
       <property name="Level" value="3"/>
@@ -90,7 +92,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="η The investigators spend 1π  clues, as a group: Look at the other side of a Masked Carnevale-Goer at any location.&#10;Objective - If there are a total of 3 Innocent Revelers underneath the act and/or agenda decks, advance."/>
-    <alternate name="The Carnevale Conspiracy" size="HorizCard" type="B">
+    <alternate name="Beast Emerges" size="HorizCard" type="B">
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="1"/>
@@ -130,7 +132,7 @@
     <property name="Clues" value="0"/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - If there are 4π  resources on Gondola, advance."/>
-    <alternate name="Row!" size="HorizCard" type="B">
+    <alternate name="Blood of the Lagoon" size="HorizCard" type="B">
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Act"/>
       <property name="Level" value="3"/>
@@ -180,7 +182,7 @@
       <property name="Text" value="Canal-side is connected to the location in the clockwise direction.&#10;ι After you enter Canal-side: Place 1 clue on Canal-side from the token bank."/>
     </alternate>
   </card>
-  <card id="08f83237-d86e-4f23-abd7-4ff1db2873f8" name="Streets of Veince" size="EncounterCard">
+  <card id="08f83237-d86e-4f23-abd7-4ff1db2873f8" name="Streets of Venice" size="EncounterCard">
     <property name="Card Number" value="10"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Carnevale of Horrors"/>
@@ -189,15 +191,15 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Venice."/>
-    <property name="Text" value="Streets of Veince is connected to the location in the clockwise direction."/>
-    <alternate name="Streets of Veince" size="EncounterCard" type="B">
+    <property name="Text" value="Streets of Venice is connected to the location in the clockwise direction."/>
+    <alternate name="Streets of Venice" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Carnevale of Horrors"/>
       <property name="Type" value="Location"/>
       <property name="Shroud" value="2"/>
       <property name="Clues" value="2"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Venice."/>
-      <property name="Text" value="Streets of Veince is connected to the location in the clockwise direction.&#10;θ: Move (to the location in the clockwise direction)."/>
+      <property name="Text" value="Streets of Venice is connected to the location in the clockwise direction.&#10;θ: Move (to the location in the clockwise direction)."/>
     </alternate>
   </card>
   <card id="0cc17a30-bd37-41a0-b8ed-c0fef10abb97" name="Rialto Bridge" size="EncounterCard">
@@ -348,7 +350,7 @@
     <property name="Class" value="Neutral"/>
     <property name="Traits" value="Carnevale."/>
     <property name="Text" value="η Spend 1 clue: Flip Masked Carnevale-Goer. If its other side is an enemy, it attacks each investigator in its location."/>
-    <alternate name="Elisabetta Margo" type="B" size="EncounterCard">
+    <alternate name="Elisabetta Magro" type="B" size="EncounterCard">
       <property name="Card Number" value="18"/>
       <property name="Quantity" value="1"/>
       <property name="Encounter Set" value="Carnevale of Horrors"/>
@@ -362,7 +364,7 @@
       <property name="Horror" value="1"/>
       <property name="Victory Points" value="1"/>
       <property name="Traits" value="Humanoid. Lodge. Elite."/>
-      <property name="Text" value="Aloof.&#10;Forced - When you look at Elisabetta Margo using the ability on Act 1a: Flip her to this side.&#10;Forced - When the mythos phase ends: Place 1 doom on Elisabetta Margo."/>
+      <property name="Text" value="Aloof.&#10;Forced - When you look at Elisabetta Magro using the ability on Act 1a: Flip her to this side.&#10;Forced - When the mythos phase ends: Place 1 doom on Elisabetta Magro."/>
     </alternate>
   </card>
   <card id="7dd9e264-2dce-40e2-be80-44ce5285430b" name="Masked Carnevale-Goer" size="EncounterCard">

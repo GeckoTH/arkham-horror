@@ -166,7 +166,7 @@
     <card id="ce98b3de-2197-4c8c-bdc2-327729a87842" name="Whitton Greene">
       <property name="Card Number" value="13" />
       <property name="Quantity" value="2" />
-      <property name="Subtitle" value="Hunter or Rare Books" />
+      <property name="Subtitle" value="Hunter of Rare Books" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Miskatonic." />
       <property name="Text" value="While you control a Tome or Relic asset, you get +1 έ.&#10;ι After you reveal a location or put a new location into play, exhaust Whitton Greene: Search the top 6 cards of your deck for a Tome or Relic asset and draw it. Shuffle you deck." />
@@ -337,7 +337,7 @@
       <property name="Combat" value="1" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="aa4aef04-a7e7-4021-809f-07c1b512dda1" name="Mind Over Matter">
+    <card id="aa4aef04-a7e7-4021-809f-07c1b512dda1" name="Mind over Matter">
       <property name="Card Number" value="26" />
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />

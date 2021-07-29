@@ -189,10 +189,12 @@
       <property name="Card Number" value="123" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="In Too Deep" />
+      <property name="Subtitle" value="EASY / STANDARD"/>
       <property name="Type" value="Scenario" />
       <property name="Text" value="α: –1 for each location to the east of your location (on the same row).&#10;β: –2. If you fail, move to the connecting location to the east, ignoring all barriers.&#10;γ: –3. If you fail, choose a connecting location with no barriers between it and your location. Place 1 barrier between the two locations.&#10;δ: –X. X is the number of barriers between your location and all connecting locations." />
       <alternate name="In Too Deep" type="B" size="EncounterCard">
         <property name="Encounter Set" value="In Too Deep" />
+        <property name="Subtitle" value="HARD / EXPERT"/>
         <property name="Type" value="Scenario" />
         <property name="Text" value="α: –2 for each location to the east of your location (on the same row).&#10;β: –4. If you fail, move to the connecting location to the east, ignoring all barriers.&#10;γ: –5. If you fail, choose a connecting location with no barriers between it and your location. Place 1 barrier between the two locations.&#10;δ: –X. X is twice the number of barriers between your location and all connecting locations." />
       </alternate>
