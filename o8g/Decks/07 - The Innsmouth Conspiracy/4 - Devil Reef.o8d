@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="1a50ba4a-b311-4141-9fb8-e7c3cabe32b6">Secrets of the Sea (v. I)</card>
     <card qty="1" id="cf72a198-6257-4e52-b2d4-820bf28dae67">Secrets of the Sea (v. II)</card>
@@ -58,9 +50,9 @@
     <card qty="1" id="1b34016b-b67d-4e98-a699-25e61525a15a">Awakened Mantle</card>
     <card qty="1" id="0047679a-fc91-489f-9fe0-2bff73368cd9">Headdress of Y’ha-nthlei</card>
   </section>
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="1d4c41d9-5fed-46ef-8f22-0d4384cb713a">Devil Reef</card>
+    <card qty="1" id="e88e566b-a66e-4e9c-ae16-335614582181">Thomas Dawson</card>
     <card qty="1" id="810ae644-a5c2-4a89-bd56-c649377c767b">Unidentified Key</card>
     <card qty="1" id="c1013de0-742a-4627-b8fa-a347951fc00d">Unidentified Key</card>
     <card qty="1" id="8f2e9c68-13bb-4760-98cb-d4f03e02ae85">Unidentified Key</card>
@@ -72,5 +64,14 @@
     <card qty="1" id="78bb4594-55ed-4d63-8415-7eeaa8bb10fa">Devil Reef</card>
     <card qty="1" id="88b7b21e-9b10-44f4-a697-749c6c18b32e">Devil Reef</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Chaos Bag" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
