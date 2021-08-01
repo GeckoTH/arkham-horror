@@ -42,6 +42,12 @@
     <card qty="1" id="48dc5e9f-0496-4dcb-8b37-0aeaf043dc35">Teachings of the Order</card>
     <card qty="1" id="1efd7adc-6a27-4fbd-8a1a-aa8180505220">Innsmouth Shoggoth</card>
     <card qty="1" id="8251e93d-11b5-487c-bf58-e1608bf89d1f">Finding Agent Harper</card>
+    <card qty="1" id="e8d46363-6c2c-4b5b-a5f0-a383e2040b66">Robert Friendly</card>
+    <card qty="1" id="d5482954-c76e-4896-aa13-d234b8abcd4c">Zadok Allen</card>
+    <card qty="1" id="76c27387-96fd-4f9b-9195-cd15319705e7">Brian Burnham</card>
+    <card qty="1" id="e741caac-306b-4333-9822-b53c1ab377f4">Barnabas Marsh</card>
+    <card qty="1" id="1ca29b57-de4b-419d-b4f1-aae9951407ab">Joyce Little</card>
+    <card qty="1" id="ebe93147-cad6-40d9-acc7-5e33f817b6d5">Othera Gilman</card>
   </section>
   <section name="Setup" shared="True">
     <card qty="1" id="969bd6ba-0813-452c-bdc0-a845ac25b146">In Too Deep</card>
@@ -61,7 +67,7 @@
     <card qty="1" id="933d06de-bf43-4eb5-9054-70ccf087376c">Railroad Station</card>
     <card qty="1" id="ff98004f-c081-4734-a4b6-e7b6fdfbd4d1">Desolate Coastline</card>
     <card qty="1" id="c1013de0-742a-4627-b8fa-a347951fc00d">Unidentified Key</card>
-    <card qty="24" id="9daa887c-a121-4a4b-8346-a6249f68f43d">Resource Token</card>
+    <card qty="24" id="9daa887c-a121-4a4b-8346-a6249f68f43d">Resource</card>
   </section>
   <section name="Investigator" shared="False" />
   <section name="Special" shared="False" />
