@@ -73,6 +73,12 @@ class BasicWeakness:
             "fe1e364e-e5bf-463b-998b-5c79bec5d761", # Damned
             "cd5a908e-1477-4c6a-850b-e231cd8a6349", # x2 The Devil XV
             "cd5a908e-1477-4c6a-850b-e231cd8a6349",
+        ],
+        "edge_of_the_earth_investigator_expansion": [
+            "d2bbecb1-3c9f-4961-ad31-c1b269d7f45d", # Arm Injury
+            "b6888962-a290-418b-8bd7-d7502e4fb46b", # Leg Injury
+            "baa8ea33-6c08-4da8-9653-8745c91cffd2", # Panic
+            "f30eb071-0b6d-4ab2-bc77-ad6bd8866f72", # Stupor
         ]
     }
     PILE_NAME = 'Basic Weaknesses'
