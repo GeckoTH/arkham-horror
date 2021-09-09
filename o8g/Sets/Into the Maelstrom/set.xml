@@ -336,7 +336,7 @@
       <property name="Encounter Set" value="Into the Maelstrom" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Y'ha-nthlei. Sanctum." />
-      <property name="Text" value="Y'ha-nthlei Sanctum enters play fullyflooded (even while it is unrevealed)." />
+      <property name="Text" value="Y'ha-nthlei Sanctum enters play fully flooded (even while it is unrevealed)." />
       <alternate name="Statues in the Deep" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Into the Maelstrom" />
         <property name="Type" value="Location" />
@@ -357,7 +357,7 @@
         <property name="Encounter Set" value="Into the Maelstrom" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Y'ha-nthlei. Sanctum." />
-        <property name="Text" value="Each Depp One enemy at this location gets +2 flight.&#10;η If you control the green key, place it on this location and investigators here spend 1π clues, as a group: Automatically evade each Ancient One enemy. Unflood this location. For the remainder of the game, this location cannot be flooded. (Group limit once per game.)" />
+        <property name="Text" value="Each Deep One enemy at this location gets +2 fight.&#10;η If you control the green key, place it on this location and investigators here spend 1π clues, as a group: Automatically evade each Ancient One enemy. Unflood this location. For the remainder of the game, this location cannot be flooded. (Group limit once per game.)" />
         <property name="Shroud" value="5" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -507,7 +507,7 @@
       <property name="Encounter Set" value="Into the Maelstrom" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Monster. Deep One." />
-      <property name="Text" value="Spawn – Lair of Hydra or Gateway to Y'ha-nthlei (whichever is farthest from you).&#10;Hunter.&#10;Forced – After Dagon's Brood engages you, if Hydra is in play: Either place 1 doom on Hydra, or Hydra attacks you." />
+      <property name="Text" value="Spawn – Lair of Hydra or Gateway to Y'ha-nthlei (whichever is farthest from you).&#10;Hunter.&#10;Forced – After Hydra's Brood engages you, if Hydra is in play: Either place 1 doom on Hydra, or Hydra attacks you." />
       <property name="Health" value="3" />
       <property name="Combat" value="3" />
       <property name="Agility" value="2" />
