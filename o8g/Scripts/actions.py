@@ -1019,8 +1019,22 @@ def doUpkeepPhase(setPhaseVar = True):
             c.moveTo(me.deck)
         shuffle(me.deck)
         deckEmpty = True
-
-    draw(me.deck)
+        
+    CardDrawNumber = me.counters['Card Draw'].value
+    for card in table:
+        #If Patrice, Discard all cards but weaknesses and draw to 5
+        if card.Name == "Patrice Hathaway" and card.owner == me and card.Type == "Investigator":
+            for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"], me.hand):
+                discard(card)
+            cardToDraw = 5 - len(me.hand)
+            drawMany (me.deck, cardToDraw)
+        #Else draw cards equal to selected value
+        elif card.owner == me and card.Type == "Investigator":
+            if (CardDrawNumber == 1):
+                draw(me.deck)
+            else: 
+                drawMany(me.deck, CardDrawNumber)
+        
     
     # Check for hand size!
     sizeHand = me.counters['Maximum Hand Size'].value
@@ -1037,8 +1051,10 @@ def doUpkeepPhase(setPhaseVar = True):
                 discard(card)
     
     for card in table:
-        if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
-            addResource(card)
+        if card.Type == "Investigator" and card.owner == me and not isLocked(card) and card.isFaceUp:
+            if (me.counters['Ressource per upkeep'].value > 0):
+                for i in repeat(None, me.counters['Ressource per upkeep'].value):
+                    addResource(card)
             if(deckEmpty):
                 addHorror(card)
         elif card.Type == "Mini" and card.controller == me:
@@ -1137,6 +1153,62 @@ def drawOpeningHand():
     me.deck.shuffle()
     drawMany(me.deck, shared.OpeningHandSize)
     removeWeaknessCards()
+    
+def searchTop3Deck():
+    if len(me.deck) == 0: return
+    mute()
+    dlg = cardDlg(me.deck.top(3))
+    dlg.title = "Search the top 3 cards and draw."
+    dlg.text = "Select the cards to draw:"
+    dlg.min = 1
+    dlg.max = 3
+    cardsSelected = dlg.show()
+    if cardsSelected is not None:
+        for card in cardsSelected:
+             card.moveTo(me.hand)
+    shuffle(me.deck)
+    
+def searchTop6Deck():
+    if len(me.deck) == 0: return
+    mute()
+    dlg = cardDlg(me.deck.top(6))
+    dlg.title = "Search the top 6 cards and draw."
+    dlg.text = "Select the cards to draw:"
+    dlg.min = 1
+    dlg.max = 6
+    cardsSelected = dlg.show()
+    if cardsSelected is not None:
+        for card in cardsSelected:
+             card.moveTo(me.hand)
+    shuffle(me.deck)
+    
+def searchTop9Deck():
+    if len(me.deck) == 0: return
+    mute()
+    dlg = cardDlg(me.deck.top(9))
+    dlg.title = "Search the top 9 cards and draw."
+    dlg.text = "Select the cards to draw:"
+    dlg.min = 1
+    dlg.max = 9
+    cardsSelected = dlg.show()
+    if cardsSelected is not None:
+        for card in cardsSelected:
+             card.moveTo(me.hand)
+    shuffle(me.deck)
+
+def searchTop12Deck():
+    if len(me.deck) == 0: return
+    mute()
+    dlg = cardDlg(me.deck.top(12))
+    dlg.title = "Search the top 12 cards and draw."
+    dlg.text = "Select the cards to draw:"
+    dlg.min = 1
+    dlg.max = 12
+    cardsSelected = dlg.show()
+    if cardsSelected is not None:
+        for card in cardsSelected:
+             card.moveTo(me.hand)
+    shuffle(me.deck)      
 
 def removeWeaknessCards():
     weaknesses = []
@@ -1205,6 +1277,54 @@ def defaultAction(card, x = 0, y = 0):
         flipcard(card, x, y)
     elif card.Name == "Flood Token": #Flip flood token
         flipcard(card, x, y)
+    elif card.Name == "Arcane Initiate" and card.controller == me: #Exhaust and search top 3
+        exhaust(card, x, y)
+        searchTop3Deck()
+    elif card.Name == "Eureka!" and card.controller == me: #Search top 3
+        for card in table:
+            if card.Name == "Mandy Thompson" and card.owner == me and card.Type == "Investigator": 
+                choice_list = ['3', '6']
+                color_list = ['#000000','#000000']
+                sets = askChoice("Search how many cards ?", choice_list, color_list)
+                if sets == 0:
+                    return
+                if sets == 1:
+                    searchTop3Deck()
+                if sets == 2:
+                    searchTop6Deck()       
+            elif card.owner == me and card.Type == "Investigator":
+                searchTop3Deck()
+        discard(card, x, y)
+    elif card.Name == "Mr. “Rook”" and card.controller == me:
+        exhaust(card, x, y)
+        subResource(card, x, y)
+        for card in table:
+            if card.Name == "Mandy Thompson" and card.owner == me and card.Type == "Investigator":
+                choice_list = ['3', '6', '9','12']
+                color_list = ['#000000','#000000','#000000','#000000']
+                sets = askChoice("Search how many cards ?", choice_list, color_list)
+                if sets == 0:
+                    return
+                if sets == 1:
+                    searchTop3Deck()
+                if sets == 2:
+                    searchTop6Deck()       
+                if sets == 3:
+                    searchTop9Deck()
+                if sets == 4:
+                    searchTop12Deck()
+            elif card.owner == me and card.Type == "Investigator":
+                choice_list = ['3', '6', '9']
+                color_list = ['#000000','#000000','#000000']
+                sets = askChoice("Search how many cards ?", choice_list, color_list)
+                if sets == 0:
+                    return
+                if sets == 1:
+                    searchTop3Deck()
+                if sets == 2:
+                    searchTop6Deck()       
+                if sets == 3:
+                    searchTop9Deck()
     else:
         exhaust(card, x, y)
         
@@ -1560,9 +1680,10 @@ def mulligan(group, x = 0, y = 0):
     if cardsSelected is not None:
         notify("{} declares a Mulligan, and replaces {} card(s).".format(me, len(cardsSelected)))
         for card in cardsSelected:
+            deckWithoutWeakness = filter(lambda card: (card.subType != "Weakness"  and card.subType != "Basic Weakness") or (card.Name == "The Tower · XVI" or card.Name == "The Devil XV"), me.deck)
             notify("{} replaces {}.".format(me, card))
             card.moveToBottom(me.deck)
-            draw(me.deck)
+            draw(deckWithoutWeakness)
         
         shuffle(me.deck)
 
@@ -1648,6 +1769,7 @@ def moveMany(group, count = None):
     notify("{} moves {} cards to the secondary deck".format(me, moved))
     if pile.collapsed:
         pile.collapsed = False
+        
 
 def discardMany(group, count = None):
     if len(group) == 0: return

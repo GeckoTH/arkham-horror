@@ -73,7 +73,14 @@ class BasicWeakness:
             "fe1e364e-e5bf-463b-998b-5c79bec5d761", # Damned
             "cd5a908e-1477-4c6a-850b-e231cd8a6349", # x2 The Devil XV
             "cd5a908e-1477-4c6a-850b-e231cd8a6349",
+        ],
+        "edge_of_the_earth": [
+            "47d68475-1fa2-49ac-832b-73196a65d442", # Stupor
+            "aa2a7923-7482-4fbd-acff-b4a4e830a028", # Arm Injury
+            "ef78dc91-cacd-43e9-9883-f069f105ba4d", # Panic
+            "6674759f-3bdb-4599-a804-6da3a81055c0", # Leg Injury
         ]
+        
     }
     PILE_NAME = 'Basic Weaknesses'
     SUBTYPE_NAME = 'Basic Weakness'
