@@ -1023,7 +1023,7 @@ def doUpkeepPhase(setPhaseVar = True):
     CardDrawNumber = me.counters['Card Draw'].value
     for card in table:
         #If Patrice, Discard all cards but weaknesses and draw to 5
-        if card.Name == "Patrice Hathaway" and card.owner == me and card.Type == "Investigator":
+        if card.Name == "Patrice Hathaway" and card.owner == me and card.Type == "Investigator" and not isLocked(card):
             for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"], me.hand):
                 discard(card)
             cardToDraw = 5 - len(me.hand)
@@ -1051,7 +1051,7 @@ def doUpkeepPhase(setPhaseVar = True):
                 discard(card)
     
     for card in table:
-        if card.Type == "Investigator" and card.owner == me and not isLocked(card) and card.isFaceUp:
+        if card.Type == "Investigator" and card.owner == me and card.isFaceUp:
             if (me.counters['Ressource per upkeep'].value > 0):
                 for i in repeat(None, me.counters['Ressource per upkeep'].value):
                     addResource(card)
@@ -1291,9 +1291,11 @@ def defaultAction(card, x = 0, y = 0):
                 if sets == 1:
                     searchTop3Deck()
                 if sets == 2:
-                    searchTop6Deck()       
-            elif card.owner == me and card.Type == "Investigator":
-                searchTop3Deck()
+                    searchTop6Deck()
+                return
+            else:
+                if card.owner == me and card.Type == "Investigator":
+                    searchTop3Deck()
     elif card.Name == "Mr. “Rook”" and card.controller == me:
         exhaust(card, x, y)
         subResource(card, x, y)
@@ -1312,6 +1314,7 @@ def defaultAction(card, x = 0, y = 0):
                     searchTop9Deck()
                 if sets == 4:
                     searchTop12Deck()
+                return
             elif card.owner == me and card.Type == "Investigator":
                 choice_list = ['3', '6', '9']
                 color_list = ['#000000','#000000','#000000']
