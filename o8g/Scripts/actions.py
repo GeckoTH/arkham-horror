@@ -1282,7 +1282,7 @@ def defaultAction(card, x = 0, y = 0):
         searchTop3Deck()
     elif card.Name == "Eureka!" and card.controller == me: #Search top 3
         for card in table:
-            if card.Name == "Mandy Thompson" and card.owner == me and card.Type == "Investigator": 
+            if card.Name == "Mandy Thompson" and card.Type == "Investigator": 
                 choice_list = ['3', '6']
                 color_list = ['#000000','#000000']
                 sets = askChoice("Search how many cards ?", choice_list, color_list)
@@ -1294,12 +1294,11 @@ def defaultAction(card, x = 0, y = 0):
                     searchTop6Deck()       
             elif card.owner == me and card.Type == "Investigator":
                 searchTop3Deck()
-        discard(card, x, y)
     elif card.Name == "Mr. “Rook”" and card.controller == me:
         exhaust(card, x, y)
         subResource(card, x, y)
         for card in table:
-            if card.Name == "Mandy Thompson" and card.owner == me and card.Type == "Investigator":
+            if card.Name == "Mandy Thompson" and card.Type == "Investigator":
                 choice_list = ['3', '6', '9','12']
                 color_list = ['#000000','#000000','#000000','#000000']
                 sets = askChoice("Search how many cards ?", choice_list, color_list)
