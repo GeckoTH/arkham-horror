@@ -1024,10 +1024,10 @@ def doUpkeepPhase(setPhaseVar = True):
     for card in table:
         #If Patrice, Discard all cards but weaknesses and draw to 5
         if card.Name == "Patrice Hathaway" and card.owner == me and card.Type == "Investigator" and not isLocked(card):
-            for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"], me.hand):
-                discard(card)
-            cardToDraw = 5 - len(me.hand)
-            drawMany (me.deck, cardToDraw)
+            for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"], card.owner.hand):
+                card.moveTo(card.owner.piles['Discard Pile'])
+            cardToDraw = 5 - len(card.owner.hand)
+            drawMany (card.owner.deck, cardToDraw)
         #Else draw cards equal to selected value
         elif card.owner == me and card.Type == "Investigator":
             if (CardDrawNumber == 1):
