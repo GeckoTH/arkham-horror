@@ -1454,7 +1454,8 @@ def defaultAction(card, x = 0, y = 0):
             searchTopDeck(me.deck, me.hand, 3)
     elif card.Name == "Lucky Cigarette Case" and card.controller == me and card.Level == "0":
         exhaust (card, x, y)
-        draw(card.owner.deck)
+        card = card.owner.deck[0]
+        card.moveTo(card.owner.hand)
              
     elif card.Name == "Mr. “Rook”" and card.controller == me:
         exhaust(card, x, y)
