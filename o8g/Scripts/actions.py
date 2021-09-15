@@ -483,6 +483,8 @@ def autoCharges(args):
         if len(args.cards) == 1:
             card = args.cards[0]
             if card.owner == me and card.isFaceUp and card.properties["Type"] == "Asset":
+                cardText = card.properties["Text"]
+                cardwithCharges = card
                 #Capture text between "Uses (..)"
                 description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
@@ -495,9 +497,20 @@ def autoCharges(args):
                         strCharges = re.search('(\d|X)(.*)',strCharges).group(1)
                         strCharges = strCharges.replace(" ", "")
                         if strCharges.isnumeric():
-                            notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
-                            for i in range(0, (int(strCharges))):
-                                addResource(card)
+                            isAkachi = filter(lambda card: (card.Name == "Akachi Onyele" and card.Type == "Investigator" and card.owner == me), table)
+                            if isAkachi:
+                                if "(Uses" and "charges" in cardText:
+                                    notify("{} adds {} {} on {}".format(me,int(strCharges)+1,word,card.name))
+                                    for i in range(0, (int(strCharges)+1)):
+                                        addResource(cardwithCharges)
+                                else:
+                                    notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
+                                    for i in range(0, (int(strCharges))):
+                                        addResource(cardwithCharges)
+                            else:
+                                notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
+                                for i in range(0, (int(strCharges))):
+                                    addResource(cardwithCharges)
                         elif strCharges == "X":
                                 notify("Sorry, no automation for X on {}".format(card.name))
 
