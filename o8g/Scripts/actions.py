@@ -1461,8 +1461,6 @@ def defaultAction(card, x = 0, y = 0):
                 searchTopDeck(card.owner.deck, card.owner.hand, 9)
     else:
         exhaust(card, x, y)
-    else:
-        exhaust(card, x, y)
         
 def exhaust(card, x = 0, y = 0):
     mute()
