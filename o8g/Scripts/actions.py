@@ -1423,6 +1423,7 @@ def defaultAction(card, x = 0, y = 0):
     
     elif card.Name == "Otherworld Codex" and card.controller == me:
         exhaust(card, x, y)
+        subResource(card, x, y)
         mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
         if mandyOnTable:
             choice_list = ['9', '12 (Mandy)']
