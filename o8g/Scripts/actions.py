@@ -1882,7 +1882,7 @@ def searchTopDeck(group, target, count = None):
     dlg.title = "Search the top"+ str(count) +"cards and draw."
     dlg.text = "Select the cards to draw:"
     dlg.min = 1
-    dlg.max = max
+    dlg.max = count
     cardsSelected = dlg.show()
     if cardsSelected is not None:
         for card in cardsSelected:
