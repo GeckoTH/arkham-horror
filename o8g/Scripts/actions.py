@@ -1104,7 +1104,8 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         else:
             for card in listB:
                 me.piles['Sideboard'].create(card)
-		
+        # Create Temp Shuffle
+        me.piles['Temporary Shuffle'].collapsed = True
         # Move Investigators to the table
         newInvestigator = False
         investigator = filter(lambda card: card.Type == "Investigator", me.hand)
