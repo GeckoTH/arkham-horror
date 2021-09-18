@@ -571,7 +571,7 @@ def shuffleIntoTop(card, group, count = None):
 def shuffleIntoBottom(card, group, count = None):
     mute()
     cardtoShuffle = card
-    notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, cardtoShuffle, group.name, count))
+    notify("{} shuffles '{}' into '{}' bottom '{}' cards.".format(me, cardtoShuffle, group.name, count))
     cardtoShuffle.moveTo(me.piles['Temporary Shuffle'])
     for c in group.bottom(count):
         c.moveTo(me.piles['Temporary Shuffle'])
