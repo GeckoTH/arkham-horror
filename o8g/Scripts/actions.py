@@ -559,6 +559,8 @@ def deckLoaded(args):
     
 def shuffleIntoTop(card, group, count = None):
     mute()
+    if count is None:
+        count = askInteger("Shuffle into top x cards ?", 3)
     cardtoShuffle = card
     notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, cardtoShuffle, group.name, count))
     cardtoShuffle.moveTo(me.piles['Temporary Shuffle'])
@@ -570,6 +572,8 @@ def shuffleIntoTop(card, group, count = None):
 
 def shuffleIntoBottom(card, group, count = None):
     mute()
+    if count is None:
+        count = askInteger("Shuffle into bottom x cards ?", 3)
     cardtoShuffle = card
     notify("{} shuffles '{}' into '{}' bottom '{}' cards.".format(me, cardtoShuffle, group.name, count))
     cardtoShuffle.moveTo(me.piles['Temporary Shuffle'])
