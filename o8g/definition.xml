@@ -278,6 +278,9 @@
 		<group name="Sideboard" visibility="me" icon="groups/player-sideboard.png" collapsed="False">
 			<groupaction menu="Shuffle" execute="shuffle" />
 		</group>
+		<group name="Temporary Shuffle" visibility="me" icon="groups/player-sideboard.png" collapsed="False">
+			<groupaction menu="Shuffle" execute="shuffle" />
+		</group>
 		<group name="Basic Weaknesses" visibility="none" icon="groups/player.png" collapsed="True">
 			<groupaction menu="Load Deck" execute="loadBasicWeaknesses" />
 			<groupaction menu="Shuffle" execute="shuffle" />
@@ -353,6 +356,7 @@
 		<section name="Weakness" group="Discard Pile" />
 		<section name="Sideboard" group="Sideboard" />
 		<section name="Basic Weaknesses" group="Basic Weaknesses" />
+		<section name="Temporary Shuffle" group="Temporary Shuffle" />
 	</deck>
 	<sharedDeck>
 		<section name="Agenda" group="Agenda" />

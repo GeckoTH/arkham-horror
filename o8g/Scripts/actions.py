@@ -556,6 +556,28 @@ def deckLoaded(args):
             loadClues(cardT)
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
     #   playerSetup(table, 0, 0, isPlayer, isShared)
+    
+def shuffleIntoTop(card, group, count = None):
+    mute()
+    cardtoShuffle = card
+    notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, cardtoShuffle, group.name, count))
+    cardtoShuffle.moveTo(me.piles['Temporary Shuffle'])
+    for c in group.top(count):
+        c.moveTo(me.piles['Temporary Shuffle'])
+    shuffle(me.piles['Temporary Shuffle'])
+    for c in me.piles['Temporary Shuffle']:
+        c.moveTo(group)
+
+def shuffleIntoBottom(card, group, count = None):
+    mute()
+    cardtoShuffle = card
+    notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, cardtoShuffle, group.name, count))
+    cardtoShuffle.moveTo(me.piles['Temporary Shuffle'])
+    for c in group.top(count):
+        c.moveTo(me.piles['Temporary Shuffle'])
+    shuffle(me.piles['Temporary Shuffle'])
+    for c in me.piles['Temporary Shuffle']:
+        c.moveToBottom(group)
 
 def loadBasicWeaknesses(group, x = 0, y = 0):
     basic_weakness_pile = me.piles[BasicWeakness.PILE_NAME]
