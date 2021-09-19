@@ -1242,6 +1242,15 @@ def defaultAction(card, x = 0, y = 0):
         flipcard(card, x, y)
     elif card.Name == "Flood Token": #Flip flood token
         flipcard(card, x, y)
+    elif card.Name == "Stargazing":
+        if len(encounterDeck()) > 9:
+            stop = False
+            for c in card.owner.piles['Sideboard']:
+                if c.Name == "The Stars Are Right" and stop is not True:
+                    shuffleIntoTop(c, 0, 0, me, encounterDeck(),10)
+                    stop = True
+        else: 
+            whisper("There are not enough cards in the encounter Deck")
     else:
         exhaust(card, x, y)
         
