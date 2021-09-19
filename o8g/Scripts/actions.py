@@ -220,6 +220,7 @@ def activePlayers():
 #       if not eliminated(p):
 #           count+=1
     return count
+    
 
 def agendaCount(group):
     count = 0
@@ -482,7 +483,9 @@ def autoCharges(args):
     if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
         if len(args.cards) == 1:
             card = args.cards[0]
-            if card.controller == me and card.isFaceUp and card.properties["Type"] == "Asset":
+            if card.owner == me and card.isFaceUp and card.properties["Type"] == "Asset":
+                cardText = card.properties["Text"]
+                cardwithCharges = card
                 #Capture text between "Uses (..)"
                 description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
@@ -495,9 +498,20 @@ def autoCharges(args):
                         strCharges = re.search('(\d|X)(.*)',strCharges).group(1)
                         strCharges = strCharges.replace(" ", "")
                         if strCharges.isnumeric():
-                            notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
-                            for i in range(0, int(strCharges)):
-                                addResource(card)
+                            isAkachi = filter(lambda card: (card.Name == "Akachi Onyele" and card.Type == "Investigator" and card.owner == me), table)
+                            if isAkachi:
+                                if "(Uses" and "charges" in cardText:
+                                    notify("{} adds {} {} on {}".format(me,int(strCharges)+1,word,card.name))
+                                    for i in range(0, (int(strCharges)+1)):
+                                        addResource(cardwithCharges)
+                                else:
+                                    notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
+                                    for i in range(0, (int(strCharges))):
+                                        addResource(cardwithCharges)
+                            else:
+                                notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
+                                for i in range(0, (int(strCharges))):
+                                    addResource(cardwithCharges)
                         elif strCharges == "X":
                                 notify("Sorry, no automation for X on {}".format(card.name))
 
@@ -569,11 +583,11 @@ def shuffleIntoTop(card, x=0, y=0, player=me, group = None, count = None):
         else:
             group = card.owner.deck
     notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, card, group.name, count))
-    card.moveTo(me.piles['Temporary Shuffle'])
+    card.moveTo(shared.piles['Temporary Shuffle'])
     for c in group.top(count):
-        c.moveTo(me.piles['Temporary Shuffle'])
-    shuffle(me.piles['Temporary Shuffle'])
-    for c in me.piles['Temporary Shuffle']:
+        c.moveTo(shared.piles['Temporary Shuffle'])
+    shuffle(shared.piles['Temporary Shuffle'])
+    for c in shared.piles['Temporary Shuffle']:
         c.moveTo(group)
 
 def shuffleIntoBottom(card, x=0, y=0, player=me, group = None, count = None):
@@ -588,11 +602,11 @@ def shuffleIntoBottom(card, x=0, y=0, player=me, group = None, count = None):
         else:
             group = card.owner.deck
     notify("{} shuffles '{}' into '{}' bottom '{}' cards.".format(me, card, group.name, count))
-    card.moveTo(me.piles['Temporary Shuffle'])
+    card.moveTo(shared.piles['Temporary Shuffle'])
     for c in group.bottom(count):
-        c.moveTo(me.piles['Temporary Shuffle'])
-    shuffle(me.piles['Temporary Shuffle'])
-    for c in me.piles['Temporary Shuffle']:
+        c.moveTo(shared.piles['Temporary Shuffle'])
+    shuffle(shared.piles['Temporary Shuffle'])
+    for c in shared.piles['Temporary Shuffle']:
         c.moveToBottom(group)
 
 def loadBasicWeaknesses(group, x = 0, y = 0):
@@ -1057,8 +1071,23 @@ def doUpkeepPhase(setPhaseVar = True):
             c.moveTo(me.deck)
         shuffle(me.deck)
         deckEmpty = True
-
-    draw(me.deck)
+        
+    CardDrawNumber = me.counters['Card Draw'].value
+    for card in table:
+        #If Patrice, Discard all cards but weaknesses and draw to 5
+        if card.Name == "Patrice Hathaway" and card.owner == me and card.Type == "Investigator" and not isLocked(card):
+            for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"], card.owner.hand):
+                notify("{} discards '{}'".format(me, card))
+                card.moveTo(card.owner.piles['Discard Pile'])
+            cardToDraw = 5 - len(card.owner.hand)
+            drawMany (card.owner.deck, cardToDraw)
+        #Else draw cards equal to selected value
+        elif card.owner == me and card.Type == "Investigator":
+            if (CardDrawNumber == 1):
+                draw(me.deck)
+            else: 
+                drawMany(me.deck, CardDrawNumber)
+        
     
     # Check for hand size!
     sizeHand = me.counters['Maximum Hand Size'].value
@@ -1075,8 +1104,10 @@ def doUpkeepPhase(setPhaseVar = True):
                 discard(card)
     
     for card in table:
-        if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
-            addResource(card)
+        if card.Type == "Investigator" and card.owner == me and card.isFaceUp:
+            if (me.counters['Ressource per upkeep'].value > 0):
+                for i in repeat(None, me.counters['Ressource per upkeep'].value):
+                    addResource(card)
             if(deckEmpty):
                 addHorror(card)
         elif card.Type == "Mini" and card.controller == me:
@@ -1120,8 +1151,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         else:
             for card in listB:
                 me.piles['Sideboard'].create(card)
-        # Create Temp Shuffle
-        me.piles['Temporary Shuffle'].collapsed = True
+		
         # Move Investigators to the table
         newInvestigator = False
         investigator = filter(lambda card: card.Type == "Investigator", me.hand)
@@ -1176,6 +1206,21 @@ def drawOpeningHand():
     me.deck.shuffle()
     drawMany(me.deck, shared.OpeningHandSize)
     removeWeaknessCards()
+    
+def searchTopDeck(group, target, count = None):
+    mute()
+    if len(group) == 0: return
+    dlg = cardDlg(group.top(count))
+    dlg.title = "Search the top"+ str(count) +"cards and draw."
+    dlg.text = "Select the cards to draw:"
+    dlg.min = 1
+    dlg.max = count
+    cardsSelected = dlg.show()
+    if cardsSelected is not None:
+        for card in cardsSelected:
+             card.moveTo(target)
+    shuffle(group)
+
 
 def removeWeaknessCards():
     weaknesses = []
@@ -1244,6 +1289,269 @@ def defaultAction(card, x = 0, y = 0):
         flipcard(card, x, y)
     elif card.Name == "Flood Token": #Flip flood token
         flipcard(card, x, y)
+    elif card.Name == "Arcane Initiate" and card.controller == me:
+        exhaust(card, x, y)
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['3', '6 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, card.owner.hand, 3)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, card.owner.hand, 6)
+        else:
+            searchTopDeck(card.owner.deck, card.owner.hand, 3)
+    elif card.Name == "Stargazing":
+        if len(encounterDeck()) > 9:
+            stop = False
+            for c in me.piles['Sideboard']:
+                if c.Name == "The Stars Are Right" and stop is not True:
+                    shuffleIntoTop(c, 0, 0, me, encounterDeck(),10)
+                    stop = True
+        else: 
+            whisper("There are not enough cards in the encounter Deck")
+    elif card.Name == "Prepared for the Worst" and card.controller == me:
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['9', '12 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, card.owner.hand, 9)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, card.owner.hand, 12)
+        else:
+            searchTopDeck(card.owner.deck, card.owner.hand, 9)
+    elif card.Name == "Backpack" and card.controller == me and card.Level == "0":
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['6', '9 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, table, 6)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, table, 9)
+        else:
+            searchTopDeck(card.owner.deck, table, 6)
+    elif card.Name == "Backpack" and card.controller == me and card.Level == "2":
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['12', '15 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, table, 12)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, table, 15)                               
+        else:
+            searchTopDeck(card.owner.deck, table, 12)
+    elif card.Name == "Boxing Gloves" and card.controller == me and card.Level == "0":
+        exhaust (card, x, y)
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['6', '9 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, card.owner.hand, 6)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, card.owner.hand, 9)
+        else:
+            searchTopDeck(card.owner.deck, card.owner.hand, 6)
+    elif card.Name == "Boxing Gloves" and card.controller == me and card.Level == "3":
+        exhaust (card, x, y)
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['9', '12 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, card.owner.hand, 9)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, card.owner.hand, 12)
+        else:
+            searchTopDeck(card.owner.deck, card.owner.hand, 9)
+    elif card.Name == "Calling in Favors" and card.controller == me:
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['9', '12 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, table, 9)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, table, 12)
+        else:
+            searchTopDeck(card.owner.deck, table, 9)
+    elif card.Name == "Research Librarian" and card.controller == me:
+        searchTopDeck(card.owner.deck, card.owner.hand, len(card.owner.deck))
+    elif card.Name == "Anna Kaslow" and card.controller == me:
+        searchTopDeck(card.owner.deck, table, len(card.owner.deck))
+    elif card.Name == "Stick to the Plan" and card.controller == me:
+        searchTopDeck(card.owner.deck, table, len(card.owner.deck))      
+    elif card.Name == "Lucid Dreaming" and card.controller == me:
+        searchTopDeck(card.owner.deck, card.owner.hand, len(card.owner.deck))
+    elif card.Name == "Word of Command" and card.controller == me:
+        searchTopDeck(card.owner.deck, card.owner.hand, len(card.owner.deck))     
+    elif card.Name == "Dr. Elli Horowitz" and card.controller == me:
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['9', '12 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, table, 9)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, table, 12)
+        else:
+            searchTopDeck(card.owner.deck, table, 9)
+    elif card.Name == "Whitton Greene" and card.controller == me and card.Level == "0":
+        exhaust (card, x, y)
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['6', '9 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, card.owner.hand, 6)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, card.owner.hand, 9)
+        else:
+            searchTopDeck(card.owner.deck, card.owner.hand, 6)
+    elif card.Name == "Whitton Greene" and card.controller == me and card.Level == "2":
+        exhaust (card, x, y)
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['9', '12 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, card.owner.hand, 9)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, card.owner.hand, 12)
+        else:
+            searchTopDeck(card.owner.deck, card.owner.hand, 9)
+                     
+    elif card.Name == "On the Hunt" and card.controller == me and card.Level == "0":
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['9', '12 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(encounterDeck(), table, 9)
+            if sets == 2:
+                searchTopDeck(encounterDeck(), table, 12)
+        else:
+            searchTopDeck(encounterDeck(), table, 9)
+            
+    elif card.Name == "On the Hunt" and card.controller == me and card.Level == "3":
+        searchTopDeck(encounterDeck(), table, len(encounterDeck()))
+    
+    elif card.Name == "Otherworld Codex" and card.controller == me:
+        exhaust(card, x, y)
+        subResource(card, x, y)
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['9', '12 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(encounterDeck(), encounterDiscard(), 9)
+            if sets == 2:
+                searchTopDeck(encounterDeck(), encounterDiscard(), 12)
+        else:
+            searchTopDeck(encounterDeck(), encounterDiscard(), 9)
+    elif card.Name == "Practice Makes Perfect" and card.controller == me:
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['9', '12 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, table, 9)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, table, 12)
+        else:  
+            searchTopDeck(card.owner.deck, table, 9)
+            
+    elif card.Name == "Eureka!":
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['3', '6 (Mandy)']
+            color_list = ['#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(me.deck, me.hand, 3)
+            if sets == 2:
+                searchTopDeck(me.deck, me.hand, 6)
+        else:
+            searchTopDeck(me.deck, me.hand, 3)
+    elif card.Name == "Lucky Cigarette Case" and card.controller == me and card.Level == "0":
+        exhaust (card, x, y)
+        card = card.owner.deck[0]
+        card.moveTo(card.owner.hand)
+             
+    elif card.Name == "Mr. “Rook”" and card.controller == me:
+        exhaust(card, x, y)
+        subResource(card, x, y)
+        mandyOnTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+        if mandyOnTable:
+            choice_list = ['3', '6', '9','12 (Mandy)']
+            color_list = ['#000000','#000000','#000000','#F4BB2F']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, card.owner.hand, 3)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, card.owner.hand, 6)     
+            if sets == 3:
+                searchTopDeck(card.owner.deck, card.owner.hand, 9)
+            if sets == 4:
+                searchTopDeck(card.owner.deck, card.owner.hand, 12)
+        else:
+            choice_list = ['3', '6', '9']
+            color_list = ['#000000','#000000','#000000']
+            sets = askChoice("Search how many cards ?", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                searchTopDeck(card.owner.deck, card.owner.hand, 3)
+            if sets == 2:
+                searchTopDeck(card.owner.deck, card.owner.hand, 6)     
+            if sets == 3:
+                searchTopDeck(card.owner.deck, card.owner.hand, 9)
     else:
         exhaust(card, x, y)
         
@@ -1318,7 +1626,11 @@ def rotateLeft(card, x = 0, y = 0):
             notify("{} Rotates '{}'".format(me, card.Name))
         else:
             notify("{} Rotates a card".format(me))
-        
+            
+def mandyPresent():  
+    mandyPresent = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
+    
+    
 def addResource(card, x = 0, y = 0):
     addToken(card, Resource)
     
@@ -1544,7 +1856,7 @@ def doMoveShuffle(player, card, pile):
     mute()
     card.moveTo(pile)
     shuffle(pile)
-    
+
 def playCard(card, x=0, y=0):
     if x == 0 and y == 0 and not eliminated(me):
         x, y = firstInvestigator(me).position
@@ -1585,11 +1897,10 @@ def randomDiscard(group):
     card = group.random()
     if card is None: return
     notify("{} randomly discards '{}'.".format(me, card))
-    card.moveTo(me.piles['Discard Pile'])
+    card.moveTo(card.owner.piles['Discard Pile'])
  
 def mulligan(group, x = 0, y = 0):
     mute()
-    
     dlg = cardDlg(me.hand)
     dlg.title = "Mulligan!"
     dlg.text = "Select the cards you wish to replace:"
@@ -1599,9 +1910,10 @@ def mulligan(group, x = 0, y = 0):
     if cardsSelected is not None:
         notify("{} declares a Mulligan, and replaces {} card(s).".format(me, len(cardsSelected)))
         for card in cardsSelected:
+            deckWithoutWeakness = filter(lambda card: (card.subType != "Weakness"  and card.subType != "Basic Weakness") or (card.Name == "The Tower · XVI" or card.Name == "The Devil XV"), me.deck)
             notify("{} replaces {}.".format(me, card))
             card.moveToBottom(me.deck)
-            draw(me.deck)
+            draw(deckWithoutWeakness)
         
         shuffle(me.deck)
 
@@ -1617,7 +1929,7 @@ def draw(group, x = 0, y = 0):
         whisper("Your deck is locked, you cannot draw a card at this time")
         return
     card = group[0]
-    card.moveTo(me.hand)
+    card.moveTo(card.owner.hand)
     notify("{} draws '{}'".format(me, card))
 
 def shuffle(group):
@@ -1687,6 +1999,7 @@ def moveMany(group, count = None):
     notify("{} moves {} cards to the secondary deck".format(me, moved))
     if pile.collapsed:
         pile.collapsed = False
+        
 
 def discardMany(group, count = None):
     if len(group) == 0: return
