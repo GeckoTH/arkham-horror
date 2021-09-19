@@ -282,9 +282,6 @@
 		<group name="Sideboard" visibility="me" icon="groups/player-sideboard.png" collapsed="False">
 			<groupaction menu="Shuffle" execute="shuffle" />
 		</group>
-		<group name="Temporary Shuffle" visibility="me" icon="groups/player-sideboard.png" collapsed="False">
-			<groupaction menu="Shuffle" execute="shuffle" />
-		</group>
 		<group name="Basic Weaknesses" visibility="none" icon="groups/player.png" collapsed="True">
 			<groupaction menu="Load Deck" execute="loadBasicWeaknesses" />
 			<groupaction menu="Shuffle" execute="shuffle" />
@@ -349,6 +346,8 @@
 			<groupaction menu="Shuffle into Special Deck" default="True" execute="moveAllToSpecial" />
 		</group>
 		<group name="Setup" visibility="all" ordered="True" icon="groups/encounterS.png" collapsed="True">
+		</group>
+		<group name="Temporary Shuffle" visibility="all" icon="groups/player-sideboard.png" collapsed="True">
 		</group>
 	</shared>
 	<deck>
