@@ -200,7 +200,11 @@
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
 		<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 		<cardaction menu="Discard to Special Discard" default="False" shortcut="shift+Del" execute="discardSpecial" />
-		<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
+		<cardactions menu="Shuffle Into">
+					<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
+					<cardaction menu="Shuffle into Top" default="False" execute="shuffleIntoTop" />
+					<cardaction menu="Shuffle into Bottom" default="False" execute="shuffleIntoBottom" />
+		</cardactions>
 		<cardaction menu="Lock" default="False" shortcut="ctrl+K" execute="lockCard" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<cardaction menu="Seal Token" default="False" execute="sealTokenCard" />
