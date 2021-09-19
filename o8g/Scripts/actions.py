@@ -557,26 +557,36 @@ def deckLoaded(args):
     #if automate():         <-----Turning off Automation by default for ScriptVersion updates, but still want playerSetup to run
     #   playerSetup(table, 0, 0, isPlayer, isShared)
     
-def shuffleIntoTop(card, group, count = None):
+def shuffleIntoTop(card, x=0, y=0, player=me, group = None, count = None):
     mute()
     if count is None:
         count = askInteger("Shuffle into top x cards ?", 3)
-    cardtoShuffle = card
-    notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, cardtoShuffle, group.name, count))
-    cardtoShuffle.moveTo(me.piles['Temporary Shuffle'])
+    if group is None:
+        if isEncounterCard(card):
+            group = encounterDeck()
+        else:
+            group = card.owner.deck
+    notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, card, group.name, count))
+    card.moveTo(me.piles['Temporary Shuffle'])
     for c in group.top(count):
         c.moveTo(me.piles['Temporary Shuffle'])
     shuffle(me.piles['Temporary Shuffle'])
     for c in me.piles['Temporary Shuffle']:
         c.moveTo(group)
 
-def shuffleIntoBottom(card, group, count = None):
+def shuffleIntoBottom(card, x=0, y=0, player=me, group = None, count = None):
     mute()
     if count is None:
         count = askInteger("Shuffle into bottom x cards ?", 3)
-    cardtoShuffle = card
-    notify("{} shuffles '{}' into '{}' bottom '{}' cards.".format(me, cardtoShuffle, group.name, count))
-    cardtoShuffle.moveTo(me.piles['Temporary Shuffle'])
+    if group is None:
+        if isLocationCard(card):
+            group = locationDeck()
+        elif isEncounterCard(card):
+            group = encounterDeck()
+        else:
+            group = card.owner.deck
+    notify("{} shuffles '{}' into '{}' bottom '{}' cards.".format(me, card, group.name, count))
+    card.moveTo(me.piles['Temporary Shuffle'])
     for c in group.bottom(count):
         c.moveTo(me.piles['Temporary Shuffle'])
     shuffle(me.piles['Temporary Shuffle'])
