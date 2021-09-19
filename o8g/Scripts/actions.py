@@ -562,7 +562,9 @@ def shuffleIntoTop(card, x=0, y=0, player=me, group = None, count = None):
     if count is None:
         count = askInteger("Shuffle into top x cards ?", 3)
     if group is None:
-        if isEncounterCard(card):
+        if isLocationCard(card):
+            group = locationDeck()
+        elif isEncounterCard(card):
             group = encounterDeck()
         else:
             group = card.owner.deck
