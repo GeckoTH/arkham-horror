@@ -569,11 +569,11 @@ def shuffleIntoTop(card, x=0, y=0, player=me, group = None, count = None):
         else:
             group = card.owner.deck
     notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, card, group.name, count))
-    card.moveTo(me.piles['Temporary Shuffle'])
+    card.moveTo(shared.piles['Temporary Shuffle'])
     for c in group.top(count):
-        c.moveTo(me.piles['Temporary Shuffle'])
-    shuffle(me.piles['Temporary Shuffle'])
-    for c in me.piles['Temporary Shuffle']:
+        c.moveTo(shared.piles['Temporary Shuffle'])
+    shuffle(shared.piles['Temporary Shuffle'])
+    for c in shared.piles['Temporary Shuffle']:
         c.moveTo(group)
 
 def shuffleIntoBottom(card, x=0, y=0, player=me, group = None, count = None):
@@ -588,11 +588,11 @@ def shuffleIntoBottom(card, x=0, y=0, player=me, group = None, count = None):
         else:
             group = card.owner.deck
     notify("{} shuffles '{}' into '{}' bottom '{}' cards.".format(me, card, group.name, count))
-    card.moveTo(me.piles['Temporary Shuffle'])
+    card.moveTo(shared.piles['Temporary Shuffle'])
     for c in group.bottom(count):
-        c.moveTo(me.piles['Temporary Shuffle'])
-    shuffle(me.piles['Temporary Shuffle'])
-    for c in me.piles['Temporary Shuffle']:
+        c.moveTo(shared.piles['Temporary Shuffle'])
+    shuffle(shared.piles['Temporary Shuffle'])
+    for c in shared.piles['Temporary Shuffle']:
         c.moveToBottom(group)
 
 def loadBasicWeaknesses(group, x = 0, y = 0):
