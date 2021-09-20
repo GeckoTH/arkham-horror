@@ -230,6 +230,7 @@
       <property name="Subtitle" value="Agenda 2a" />
       <property name="Type" value="Agenda" />
       <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+	  <property name="Doom" value="6" />
       <alternate name="Cursed Luck" type="B" size="HorizCard">
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Subtitle" value="Agenda 2b" />
@@ -244,6 +245,7 @@
       <property name="Subtitle" value="Agenda 2a" />
       <property name="Type" value="Agenda" />
       <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+	  <property name="Doom" value="6" />
       <alternate name="Dawson Returns" type="B" size="HorizCard">
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Subtitle" value="Agenda 2b" />

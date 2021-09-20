@@ -100,7 +100,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
       <property name="Text" value="Uses (5 ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή and deal +1 damage for this attack." />
-      <property name="Class" value="Guardian/Rogue" />
+      <property name="Class" value="Guardian Rogue" />
       <property name="Level" value="0" />
       <property name="Cost" value="6" />
       <property name="Willpower" value="0" />
@@ -116,7 +116,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Tome." />
       <property name="Text" value="Uses (3 secrets).&#10;η Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner’s hand, place it on the bottom of its deck, or place it on the top of its deck." />
-      <property name="Class" value="Seeker/Mystic" />
+      <property name="Class" value="Seeker Mystic" />
       <property name="Level" value="0" />
       <property name="Cost" value="1" />
       <property name="Willpower" value="0" />
@@ -132,7 +132,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Illicit." />
       <property name="Text" value="Uses (2 supplies).&#10;θ Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 ά for a skill test on a treachery card.&#10;η Discard Tennessee Sour Mash: Fight. You get +3 ή for this attack." />
-      <property name="Class" value="Rogue/Survivor" />
+      <property name="Class" value="Rogue Survivor" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
       <property name="Willpower" value="1" />
@@ -147,7 +147,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic. Weapon. Melee." />
       <property name="Text" value="Uses (3 charges).&#10;η: Fight. You get +1 ή for this attack. As an additional cost to initiate this ability, you may spend 1 charge to empower the blade. If you do, you get +1 ή and deal +1 damage for this attack." />
-      <property name="Class" value="Mystic/Guardian" />
+      <property name="Class" value="Mystic Guardian" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
       <property name="Willpower" value="0" />
@@ -163,7 +163,7 @@
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Charm." />
       <property name="Text" value="ι After you commit a card to a skill test, exhaust Grisly Totem: That card gains another instance of one of its skill icons of your choice." />
-      <property name="Class" value="Survivor/Seeker" />
+      <property name="Class" value="Survivor Seeker" />
       <property name="Level" value="0" />
       <property name="Cost" value="3" />
       <property name="Willpower" value="0" />
