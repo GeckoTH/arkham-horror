@@ -1863,7 +1863,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Subtitle" value="Arkham Asylum"/>
       <property name="Type" value="Location"/>
-      <property name="Shroud" value="3"/>
+      <property name="Shroud" value="4"/>
       <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
@@ -2092,7 +2092,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="5"/>
-    <property name="Text" value="Fored - When this agenda advances:If the investigators are at Act 1, put the set-aside Ritual Site into play and spawn the set-aside Umôrdhoth there.If the investigators are at Act 2 or 3, discard all enemies at the Ritual Site and spawn the set-aside Umôrdhoth there."/>
+    <property name="Text" value="Forced - When this agenda advances:&#10;If the investigators are at Act 1, put the set-aside Ritual Site into play and spawn the set-aside Umôrdhoth there.&#10;If the investigators are at Act 2 or 3, discard all enemies at the Ritual Site and spawn the set-aside Umôrdhoth there."/>
     <alternate name="The Devourer Below" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Agenda"/>

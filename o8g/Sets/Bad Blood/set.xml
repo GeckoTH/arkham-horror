@@ -57,12 +57,12 @@
       <property name="Encounter Set" value="Bad Blood" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: X. X is the number of memories Agnes Baker has collected.&#10;β: –2. Ready Elspeth Baudin and resolve her patrol keyword.&#10;γ: –3. If you fail and there is a memory at Elspeth Baudin's location, place this token on that location.&#10;δ: –6. Agnes Baker may take up to 3 damage to increase your skill value by 2 for each damage taken." />
+      <property name="Text" value="α: –X. X is the number of memories Agnes Baker has collected.&#10;β: –2. Ready Elspeth Baudin and resolve her patrol keyword.&#10;γ: –3. If you fail and there is a memory at Elspeth Baudin's location, place this token on that location.&#10;δ: –6. Agnes Baker may take up to 3 damage to increase your skill value by 2 for each damage taken." />
       <alternate name="Bad Blood" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Bad Blood" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: X. X is 1 more than the number of memories Agnes Baker has collected.&#10;β: –3. Ready Elspeth Baudin and resolve her patrol keyword. If she is engaged with an investigator, she makes an attack.&#10;γ: –5. If you fail and there is a memory at Elspeth Baudin's location, place this token on that location.&#10;δ: –8. Agnes Baker may take up to 3 damage to increase your skill value by 2 for each damage taken." />
+        <property name="Text" value="α: –X. X is 1 more than the number of memories Agnes Baker has collected.&#10;β: –3. Ready Elspeth Baudin and resolve her patrol keyword. If she is engaged with an investigator, she makes an attack.&#10;γ: –5. If you fail and there is a memory at Elspeth Baudin's location, place this token on that location.&#10;δ: –8. Agnes Baker may take up to 3 damage to increase your skill value by 2 for each damage taken." />
       </alternate>
     </card>
     <card id="34f90a79-beec-41f5-90d4-30484f81fa96" name="Hyperborean Blood" size="HorizCard">

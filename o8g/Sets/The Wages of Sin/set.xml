@@ -394,7 +394,7 @@
         <property name="Encounter Set" value="The Wages of Sin" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Spectral" />
-        <property name="Text" value="Forced – After you draw a non-weakness card from your deck while at Chapel Attic: Place that card facedown beneath Chapel Attic, out of play.&#10;ι After you successfully investigate Chapel Attic: Add each card beneath it to its owner’s hand." />
+        <property name="Text" value="Forced – After you draw a non-weakness card from your deck while at Chapel Attic: Place that card facedown beneath Chapel Attic, out of play.&#10;ι After you successfully investigate Chapel Attic: Add each card beneath it to its owner’s hand.&#10;Haunted – Discard a random card from beneath Chapel Attic." />
         <property name="Shroud" value="4" />
       </alternate>
     </card>

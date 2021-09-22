@@ -239,11 +239,12 @@
       <property name="Encounter Set" value="Devil’s Reef" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Ocean." />
+      <property name="Text" value="Churning Waters enters play fully flooded (even while it is unrevealed)" />
       <alternate name="Churning Waters" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Ocean." />
-        <property name="Text" value="Churning Waters enters play fully flooded.η If you are in Fishing Vessel: Resign. Each investigator in Fishing Vessel resigns. Remove Fishing Vessel from the game. Each resigning investigator places each of their purple, black, or white keys on the current act. All other investigators are left to fend for themselves." />
+        <property name="Text" value="η If you are in the Fishing Vessel: Resign. Each investigator in the Fishing Vessel resigns. Remove Fishing Vessel from the game. Each resigning investigator places each of their purple, black, or white keys on the current act. All other investigators are left to fend for themselves." />
         <property name="Shroud" value="6" />
         <property name="Clues" value="0" />
       </alternate>
@@ -288,7 +289,7 @@
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Ocean. Island." />
-        <property name="Text" value="Waveworn Island enters play partially flooded&#10;Force – After you reveal Waveworn Island: Put 1 random set-aside Unfathomable Depths and 2 random set-aside Tidal Tunnels into play, each adjacent to Waveworn Island (but not to one another)." />
+        <property name="Text" value="Force – After you reveal Waveworn Island: Increase its flood level. Put 1 random set-aside Unfathomable Depths and 2 random set-aside Tidal Tunnels into play, each adjacent to Waveworn Island (but not to one another)." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="0" />
       </alternate>
@@ -303,7 +304,7 @@
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Ocean. Island." />
-        <property name="Text" value="Salt Marshes enters play fully flooded.&#10;η If you control the purple key: Look at the revealed side of any Tidal Tunnels or Unfathomable Depths location in play. (Group limit once per game.)&#10;Forced – After you reveal Salt Marshes: Put 1 random set-aside Tidal Tunnel into play adjacent to Salt Marshes." />
+        <property name="Text" value="η If you control the purple key: Look at the revealed side of any Tidal Tunnels or Unfathomable Depths location in play. (Group limit once per game.)&#10;Forced – After you reveal Salt Marshes: Increase its flood level. Put 1 random set-aside Tidal Tunnel into play adjacent to Salt Marshes." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="0" />
       </alternate>
@@ -318,7 +319,7 @@
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Ocean. Island." />
-        <property name="Text" value="Black Reef enters play partially flooded.&#10;Forced – After you reveal Black Reef: Put 2 random set-aside Tidal Tunnels into play, each adjacent to Black Reef (but not to one another). Then, put 1 random set-aside Unfathomable Depths into play adjacent to both of those Tidal Tunnels." />
+        <property name="Text" value="Forced – After you reveal Black Reef: Increase its flood level. Put 2 random set-aside Tidal Tunnels into play, each adjacent to Black Reef (but not to one another). Then, put 1 random set-aside Unfathomable Depths into play adjacent to both of those Tidal Tunnels." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="0" />
       </alternate>
@@ -363,7 +364,7 @@
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave. Y’ha-nthlei." />
-        <property name="Text" value="This location enters play partially flooded.&#10;Forced – After this location is revealed: Place the set-aside purple key on it.&#10;θ If investigators at this location control both the red key and the blue key and spend 2π clues, as a group: Take control of the purple key and read Flashback IX in the Campaign Guide." />
+        <property name="Text" value="Forced – After this location is revealed: Increase its flood level. Place the set-aside purple key on it.&#10;θ If investigators at this location control both the red key and the blue key and spend 2π clues, as a group: Take control of the purple key and read Flashback IX in the Campaign Guide." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -393,7 +394,7 @@
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave. Y’ha-nthlei." />
-        <property name="Text" value="This location enters play fully flooded.&#10;Forced – After this location is revealed: Place the set-aside white key on it.&#10;θ If investigators at this location control both the red key and the yellow key and spend 2π clues, as a group: Take control of the white key and read Flashback X in the Campaign Guide." />
+        <property name="Text" value="Forced – After this location is revealed: It becomes fully flooded. Place the set-aside white key on it.&#10;θ If investigators at this location control both the red key and the yellow key and spend 2π clues, as a group: Take control of the white key and read Flashback X in the Campaign Guide." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -438,7 +439,7 @@
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave. Y’ha-nthlei." />
-        <property name="Text" value="Forced – After this location is revealed: Place the set-aside black key on it.&#10;θ If investigators at this location control both the blue key and the yellow key and spend 2π clues, as a group: Take control of the black key and read Flashback XI in the Campaign Guide." />
+        <property name="Text" value="Forced – After this location is revealed: Place the set-aside black key on it.&#10;θ If investigators at this location control both the blue key and the yellow key and spend 3π clues, as a group: Take control of the black key and read Flashback XI in the Campaign Guide." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="2π" />
       </alternate>

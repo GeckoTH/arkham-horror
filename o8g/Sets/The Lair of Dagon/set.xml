@@ -14,7 +14,7 @@
       <property name="Combat" value="1" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="18bd958a-b948-4ebe-81e1-560debea28f8" name="Nepththys">
+    <card id="18bd958a-b948-4ebe-81e1-560debea28f8" name="Nephthys">
       <property name="Card Number" value="262" />
       <property name="Quantity" value="2" />
       <property name="Subtitle" value="Huntress of Bast"/>
@@ -185,12 +185,12 @@
       <property name="Encounter Set" value="The Lair of Dagon" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –1 for each key on this card.&#10;β: 0. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. If you fail, place each key you control on your location.&#10;δ: –4. If you fail, add 1 [Curse] token to the chaos bag." />
+      <property name="Text" value="α: –1 for each key on this card.&#10;β: 0. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. If you fail, place each key you control on your location.&#10;δ: –4. If you fail, add 1 [Curse] token to the chaos bag.&#10;Spent Keys" />
       <alternate name="The Lair of Dagon" type="B" size="EncounterCard">
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –2 for each key on this card.&#10;β: –2. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. Place each key you control on your location.&#10;δ: –4. Add 2 [Curse] token to the chaos bag." />
+        <property name="Text" value="α: –2 for each key on this card.&#10;β: –2. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. Place each key you control on your location.&#10;δ: –4. Add 2 [Curse] tokens to the chaos bag.&#10;Spent Keys" />
       </alternate>
     </card>
     <card id="e5bf04d0-21cc-4bac-8fc4-9a189bd50b5e" name="The Initiation (v. I)" size="HorizCard">
