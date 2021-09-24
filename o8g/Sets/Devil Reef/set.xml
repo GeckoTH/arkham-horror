@@ -239,7 +239,7 @@
       <property name="Encounter Set" value="Devil’s Reef" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Ocean." />
-      <property name="Text" value="Churning Waters enters play fully flooded (even while it is unrevealed)" />
+      <property name="Text" value="Churning Waters enters play fully flooded (even while it is unrevealed)." />
       <alternate name="Churning Waters" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
@@ -289,7 +289,7 @@
         <property name="Encounter Set" value="Devil’s Reef" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Ocean. Island." />
-        <property name="Text" value="Force – After you reveal Waveworn Island: Increase its flood level. Put 1 random set-aside Unfathomable Depths and 2 random set-aside Tidal Tunnels into play, each adjacent to Waveworn Island (but not to one another)." />
+        <property name="Text" value="Forced – After you reveal Waveworn Island: Increase its flood level. Put 1 random set-aside Unfathomable Depths and 2 random set-aside Tidal Tunnels into play, each adjacent to Waveworn Island (but not to one another)." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="0" />
       </alternate>
