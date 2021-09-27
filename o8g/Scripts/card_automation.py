@@ -31,7 +31,6 @@ def searchTopDeck(group, target, count = None, trait = None, trait2 = None):
             return
     else: 
         cardsToShow = [c for c in group.top(count)]
-        notify("Trait is None")
     for c in cardsToShow: #Shocking Discovery
         if c.Name == "Shocking Discovery":
             c.moveTo(table)
