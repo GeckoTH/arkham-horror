@@ -22,6 +22,7 @@
 		<script src="scripts/bonded.py" />
 		<script src="scripts/sound.py" />
 		<script src="scripts/setupHelper.py" />
+		<script src="scripts/card_automation.py" />
 	</scripts>
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
