@@ -200,7 +200,11 @@
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
 		<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 		<cardaction menu="Discard to Special Discard" default="False" shortcut="shift+Del" execute="discardSpecial" />
-		<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
+		<cardactions menu="Shuffle Into">
+				<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
+				<cardaction menu="Shuffle into Top" default="False" execute="shuffleIntoTop" />
+				<cardaction menu="Shuffle into Bottom" default="False" execute="shuffleIntoBottom" />
+		</cardactions>
 		<cardaction menu="Lock" default="False" shortcut="ctrl+K" execute="lockCard" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<cardaction menu="Seal Token" default="False" execute="sealTokenCard" />
@@ -343,6 +347,8 @@
 		</group>
 		<group name="Setup" visibility="all" ordered="True" icon="groups/encounterS.png" collapsed="True">
 		</group>
+		<group name="Temporary Shuffle" visibility="all" icon="groups/player-sideboard.png" collapsed="True">
+		</group>	
 	</shared>
 	<deck>
 		<section name="Investigator" group="Hand" />
@@ -363,5 +369,6 @@
 		<section name="Second Special" group="2nd Special" />
 		<section name="Chaos Bag" group="Chaos Bag" />
 		<section name="Setup" group="Setup" />
+		<section name="Temporary Shuffle" group="Temporary Shuffle" />
 	</sharedDeck>
 </game>
