@@ -1772,5 +1772,55 @@
       <property name="Traits" value="Madness." />
       <property name="Text" value="Revelation – Put Stupor into play in your threat area.&#10;Stupor can be healed as if it were a single point of horror on you (if it is healed, discard it).&#10;Forced – After you take a parley, draw or investigate action: You cannot take any of those types of actions for the remainder of the turn." />
     </card>
+	<card id="0ba17e64-1420-4830-87cc-e693afb108d8" name="Daniela Reyes" size="MiniCard">
+      <property name="Card Number" value="991"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Guardian"/>
+	  <alternate name="Daniela Reyes" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Guardian"/>
+      </alternate>
+    </card>
+	<card id="5c8b894e-65b8-45f3-aa32-08d735118816" name="Norman Withers" size="MiniCard">
+      <property name="Card Number" value="992"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Seeker"/>
+      <alternate name="Norman Withers" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Seeker"/>
+      </alternate>
+    </card>
+	<card id="09b2d0ba-89ae-4920-bf05-749e837e0736" name="Monterey Jack" size="MiniCard">
+      <property name="Card Number" value="993"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Rogue"/>
+      <alternate name="Monterey Jack" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Rogue"/>
+      </alternate>
+    </card>
+	<card id="e7b6642f-4e28-4e01-8a34-6e6956656626" name="Lily Chen" size="MiniCard">
+      <property name="Card Number" value="994"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Mystic"/>
+      <alternate name="Lily Chen" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Mystic"/>
+      </alternate>
+    </card>
+	<card id="82ba4a4c-9340-46a4-adfc-9246fae3e1bd" name="Bob Jenkins" size="MiniCard">
+      <property name="Card Number" value="995"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Survivor"/>
+      <alternate name="Bob Jenkins" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Survivor"/>
+      </alternate>
+    </card>
   </cards>
 </set>
