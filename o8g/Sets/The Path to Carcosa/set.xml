@@ -937,7 +937,7 @@
     <property name="Encounter Set" value="Curtain Call"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
-	<property name="Subtype" value="Weakness"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Combat" value="4"/>
     <property name="Agility" value="4"/>
     <property name="Health" value="3"/>
