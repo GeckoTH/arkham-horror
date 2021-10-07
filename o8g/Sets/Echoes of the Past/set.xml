@@ -447,7 +447,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <property name="Traits" value="Second Floor. Passageway."/>
+    <property name="Traits" value="Second Floor."/>
     <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
     <alternate name="Historical Society" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
@@ -509,7 +509,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <property name="Traits" value="Third Floor. Passageway."/>
+    <property name="Traits" value="Third Floor."/>
     <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
     <alternate name="Historical Society" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>
@@ -530,7 +530,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
-    <property name="Traits" value="Third Floor. Passageway."/>
+    <property name="Traits" value="Third Floor."/>
     <property name="Text" value="Forced - When an enemy spawns at this location: Reveal this location."/>
     <alternate name="Historical Society" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Echoes of the Past"/>

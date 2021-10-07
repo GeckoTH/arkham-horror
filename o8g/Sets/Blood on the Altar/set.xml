@@ -247,8 +247,8 @@
     <alternate name="Village Commons" size="EncounterCard" type="B">
       <property name="Encounter Set" value="Blood on the Altar"/>
       <property name="Type" value="Location"/>
-      <property name="Shroud" value=""/>
-      <property name="Clues" value=""/>
+      <property name="Shroud" value="3"/>
+      <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Dunwich. Central."/>
       <property name="Text" value="η Resign. “This is suicide! We’re better off hiding out the night.”"/>

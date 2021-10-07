@@ -383,7 +383,7 @@
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Second Floor." />
-        <property name="Text" value="θ Spend the blue, red, white, or yellow key: Choose 3 of the following –&#10;— Heal 1 damage.&#10;— Draw 2 cards.&#10;— Gain 3 resources.&#10;— Add 4 [Bless] tokens to the chaos bag.&#10;Victory 1." />
+        <property name="Text" value="θ Spend the blue, red, white, or yellow key: Choose 3 of the following –&#10;— Heal 1 damage.&#10;— Draw 2 cards.&#10;— Gain 3 resources.&#10;— Add 4 [Bless] tokens to the chaos bag." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
@@ -443,7 +443,7 @@
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Y'ha-nthlei. Lair." />
-        <property name="Text" value="Forced – After you enter Lair of Dagon: Test your lowest skill (3). If you, take 1 horror.&#10;η: Test ά (3) or ί (3). If you succeed, place 1 of your clues on the current act. You may spend 1 key to place 1 more of your clues on the current act.&#10;Victory 1." />
+        <property name="Text" value="Forced – After you enter Lair of Dagon: Test your lowest skill (3). If you fail, take 1 horror.&#10;η: Test ά (3) or ί (3). If you succeed, place 1 of your clues on the current act. You may spend 1 key to place 1 more of your clues on the current act." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="3π" />
         <property name="Victory Points" value="1" />

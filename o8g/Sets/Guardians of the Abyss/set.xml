@@ -214,12 +214,12 @@
       <property name="Encounter Set" value="The Night’s Usurper" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –X. X is the strength of the abyss.&#10;β: Reveal another token. If you fail and the strength of the abyss is 3 or lower, add 1 strength to the abyss.&#10;γ: –1. For this skill test, ignore any effect that would increase your skill value.&#10;δ: –4. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.Strength of the Abyss:" />
+      <property name="Text" value="α: –X. X is the strength of the abyss.&#10;β: Reveal another token. If you fail and the strength of the abyss is 3 or lower, add 1 strength to the abyss.&#10;γ: –1. For this skill test, ignore any effect that would increase your skill value.&#10;δ: –4. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.&#10;Strength of the Abyss" />
       <alternate name="The Night’s Usurper" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Night’s Usurper" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.&#10;β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.&#10;γ: –3. For this skill test, ignore any effect that would increase your skill value.&#10;δ: –5. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.Strength of the Abyss:" />
+        <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.&#10;β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.&#10;γ: –3. For this skill test, ignore any effect that would increase your skill value.&#10;δ: –5. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.&#10;Strength of the Abyss" />
       </alternate>
     </card>
     <card id="74e12e40-655d-4475-b829-3d2feae1b6a5" name="The Brotherhood Bides Their Time" size="HorizCard">
