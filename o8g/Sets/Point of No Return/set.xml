@@ -599,6 +599,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
       <property name="Traits" value="Curse." />
       <property name="Text" value="False Awakening begins each game next to the agenda deck, with 1 doom on it.η: Test any skill (2). This test gets +1π difficulty. If you succeed, remove False Awakening from the game. Any investigator may trigger this ability." />
     </card>
