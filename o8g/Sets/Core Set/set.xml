@@ -1658,22 +1658,6 @@
       <property name="Text" value="The Masked Hunter gets +2 health per investigator.While you are engaged with The Masked Hunter, you cannot discover or spend clues."/>
     </alternate>
   </card>
-  <card id="947bb975-8eb2-45a7-bc68-ea58a50190da" name="The Masked Hunter" size="EncounterCard">
-    <property name="Card Number" value="121"/>
-    <property name="Quantity" value="1"/>
-    <property name="Encounter Set" value="The Midnight Masks"/>
-    <property name="Subtitle" value="Silently Stalking"/>
-    <property name="Unique" value="ο"/>
-    <property name="Type" value="Enemy"/>
-    <property name="Combat" value="4"/>
-    <property name="Agility" value="2"/>
-    <property name="Health" value="4"/>
-    <property name="Damage" value="2"/>
-    <property name="Horror" value="1"/>
-    <property name="Victory Points" value="2"/>
-    <property name="Keywords" value="Spawn - Engaged with prey.Prey - Most Clues.Hunter."/>
-    <property name="Text" value="The Masked Hunter gets +2 health per investigator.While you are engaged with The Masked Hunter, you cannot discover or spend clues."/>
-  </card>
   <card id="193ea5c4-b871-4b10-9672-dde886264264" name="Time Is Running Short" size="HorizCard">
     <property name="Card Number" value="122"/>
     <property name="Quantity" value="1"/>
@@ -1703,7 +1687,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="η The investigators spend 2 clues per investigator, as a group: Draw the top card of the Cultist deck.Objective - Find as many unique Cultist enemies as you can and add them to the victory display. If there are 6 unique Cultist enemies in the victory display, advance. (Note: not all 6 of them are in the Cultist deck.)"/>
+    <property name="Text" value="η The investigators spend 2 clues per investigator, as a group: Draw the top card of the Cultist deck.&#10;Objective - Find as many unique Cultist enemies as you can and add them to the victory display. If there are 6 unique Cultist enemies in the victory display, advance. (Note: not all 6 of them are in the Cultist deck.)"/>
     <alternate name="Secrets Unveiled" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Type" value="Act"/>
@@ -1863,7 +1847,7 @@
       <property name="Encounter Set" value="The Midnight Masks"/>
       <property name="Subtitle" value="Arkham Asylum"/>
       <property name="Type" value="Location"/>
-      <property name="Shroud" value="3"/>
+      <property name="Shroud" value="4"/>
       <property name="Clues" value="2π"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Arkham."/>
@@ -2092,7 +2076,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>
     <property name="Doom" value="5"/>
-    <property name="Text" value="Fored - When this agenda advances:If the investigators are at Act 1, put the set-aside Ritual Site into play and spawn the set-aside Umôrdhoth there.If the investigators are at Act 2 or 3, discard all enemies at the Ritual Site and spawn the set-aside Umôrdhoth there."/>
+    <property name="Text" value="Forced - When this agenda advances:&#10;If the investigators are at Act 1, put the set-aside Ritual Site into play and spawn the set-aside Umôrdhoth there.&#10;If the investigators are at Act 2 or 3, discard all enemies at the Ritual Site and spawn the set-aside Umôrdhoth there."/>
     <alternate name="The Devourer Below" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Agenda"/>
@@ -2100,7 +2084,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Revelation - Replace the current Act and Agenda with The Devourer Below. This card is both the current Act and the current Agenda.Objective - If Umôrdhoth is defeated, (R2)."/>
+      <property name="Text" value="Revelation - Replace the current Act and Agenda with The Devourer Below. This card is both the current Act and the current Agenda.&#10;Objective - If Umôrdhoth is defeated, (R2)."/>
     </alternate>
   </card>
   <card id="f5fcd3ba-665b-4631-a478-35c3bcfd9a84" name="Investigating the Trail" size="HorizCard">
@@ -2119,7 +2103,7 @@
       <property name="Shroud" value=""/>
       <property name="Clues" value=""/>
       <property name="Doom" value=""/>
-      <property name="Text" value="Put the set-aside Ritual Site into play if it is not already in play.Search the collection for each enemy recorded in your Campaign Log under &quot;Cultists Who Got Away,&quot; and spawn those enemies at the Main Path."/>
+      <property name="Text" value="Put the set-aside Ritual Site into play if it is not already in play.&#10;Search the collection for each enemy recorded in your Campaign Log under &quot;Cultists Who Got Away,&quot; and spawn those enemies at the Main Path."/>
     </alternate>
   </card>
   <card id="4da600c9-27f3-4d12-a13e-984e120efea2" name="Into the Darkness" size="HorizCard">
@@ -2151,7 +2135,7 @@
     <property name="Shroud" value=""/>
     <property name="Clues" value="-"/>
     <property name="Doom" value=""/>
-    <property name="Text" value="η Spend 1 clue: Test ά (3) or ί (3). If you succeed, place 1 clue on this Act.Objective - If there are 2 clues per investigator on this Act, advance."/>
+    <property name="Text" value="η Spend 1 clue: Test ά (3) or ί (3). If you succeed, place 1 clue on this Act.&#10;Objective - If there are 2 clues per investigator on this Act, advance."/>
     <alternate name="The Ritual Is Broken" size="HorizCard" type="B">
       <property name="Encounter Set" value="The Devourer Below"/>
       <property name="Type" value="Act"/>

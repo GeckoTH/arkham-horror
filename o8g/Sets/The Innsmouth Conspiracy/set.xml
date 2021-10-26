@@ -685,7 +685,7 @@
         <property name="Encounter Set" value="The Pit of Despair" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave." />
-        <property name="Text" value="Forced – After Idol Chamber is revealed: Place the set-aside blue key on it, faceup.&#10;θ If there are no clues on Idol Chamber and you control the purple key: The purple key opens the stone door at the far end of the chamber, revealing a shrine with two familiar statues, one of white marble, the other of onyx. Read Flashback IV in the Campaign Guide." />
+        <property name="Text" value="Forced – After Idol Chamber is revealed: Place the set-aside blue key on it.&#10;θ If there are no clues on Idol Chamber and you control the purple key: The purple key opens the stone door at the far end of the chamber, revealing a shrine with two familiar statues, one of white marble, the other of onyx. Read Flashback IV in the Campaign Guide." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -882,7 +882,7 @@
         <property name="Encounter Set" value="The Vanishing of Elina Harper" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Innsmouth. Central." />
-        <property name="Text" value="η: Resign. You decide to lay low for a while.&#10;θ Spend 2 resources: Move. Move to a connecting  location." />
+        <property name="Text" value="η: Resign. You decide to lay low for a while.&#10;θ Spend 2 resources: Move. Move to a connecting Innsmouth location." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
       </alternate>

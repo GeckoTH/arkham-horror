@@ -177,13 +177,13 @@
     <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="α: -1 (-3 instead if you are in a [[cave]] location).&#10;β: -2. If you fail, place 1 doom on your location.&#10;γ: -2. If you are poisoned, this test automatically fails instead.&#10;δ: -3. If you fail, take 1 horror."/>
+    <property name="Text" value="α: -1 (-3 instead if you are in a [[Cave]] location).&#10;β: -2. If you fail, place 1 doom on your location.&#10;γ: -2. If you are poisoned, this test automatically fails instead.&#10;δ: -3. If you fail, take 1 horror."/>
     <alternate name="Heart of the Elders" type="B">
       <property name="Encounter Set" value="Heart of the Elders"/>
       <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="α: -2 (-4 instead if you are in a [[cave]] location).&#10;β: -3. If you fail, place 1 doom on your location.&#10;γ: -3. If you are poisoned, this test automatically fails instead. If you are not poisoned and you fail, put a set-aside Poisoned weakness into play in your threat area.&#10;δ: -4. If you fail, take 1 horror."/>
+      <property name="Text" value="α: -2 (-4 instead if you are in a [[Cave]] location).&#10;β: -3. If you fail, place 1 doom on your location.&#10;γ: -3. If you are poisoned, this test automatically fails instead. If you are not poisoned and you fail, put a set-aside Poisoned weakness into play in your threat area.&#10;δ: -4. If you fail, take 1 horror."/>
     </alternate>
   </card>
   <card id="d2035cb9-d1e5-49ad-9453-2f337d0c38de" name="Mouth of K'n-yan" size="EncounterCard">

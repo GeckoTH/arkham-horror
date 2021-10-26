@@ -1317,6 +1317,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Traits" value="Spectral."/>
+    <property name="Text" value="The Entry Hall is blocked by a wall of spectral mist. You cannot enter the Entry Hall. Silver Twilight enemies cannot spawn in the Entry Hall."/>
     <alternate name="Entry Hall" size="EncounterCard" type="B">
       <property name="Encounter Set" value="At Death's Doorstep"/>
       <property name="Type" value="Location"/>
@@ -1325,7 +1326,7 @@
       <property name="Clues" value="0"/>
       <property name="Doom" value=""/>
       <property name="Traits" value="Spectral."/>
-      <property name="Text" value="The Entry Hall is blocked by a wall of spectral mist. You cannot enter the Entry Hall. Silver Twilight enemies cannot spawn in the Entry Hall."/>
+      <property name="Text" value="η: Resign. You tear through the front doors of the manor, escaping the spectral realm and leaving the remainder of the survivors to their fate."/>
     </alternate>
   </card>
   <card id="53df67ca-a8ed-48d7-9c25-b22bc945a0ef" name="Victorian Halls" size="EncounterCard">

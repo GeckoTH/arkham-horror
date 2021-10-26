@@ -431,7 +431,7 @@
       <property name="Text" value="η: Fight. You get +2 ή for this attack. After this attack, you may fight again, adding your ί to your skill value for that attack. If both attacks are successful, you may exhaust Butterfly Sword to have the second attack deal +1 damage." />
       <property name="Class" value="Guardian" />
       <property name="Level" value="5" />
-      <property name="Cost" value="4" />
+      <property name="Cost" value="3" />
       <property name="Combat" value="1" />
       <property name="Agility" value="1" />
       <property name="Slot" value="Hand x2" />
@@ -1368,7 +1368,7 @@
       <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="f51dda6c-7600-4469-ac30-b314535b79e1" name="Protecting the Arnirniq">
+    <card id="f51dda6c-7600-4469-ac30-b314535b79e1" name="Protecting the Anirniq">
       <property name="Card Number" value="102" />
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />

@@ -846,7 +846,7 @@
       <alternate name="The Writer" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Return to Dim Carcosa" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Remember that you “know the secret.”Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
+        <property name="Text" value="Remember that you “know the secret.”&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
       </alternate>
     </card>
     <card id="33476df1-b91b-4113-b850-bd6be388b9df" name="The Throne Room" size="EncounterCard">

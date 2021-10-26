@@ -331,7 +331,7 @@
         <property name="Encounter Set" value="A Light in the Fog" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Falcon Point." />
-        <property name="Text" value="Falcon Point Cliffside cannot be fully flooded.&#10;η If you control the white key: Using the white key, you peer out into the dark, stormy horizon, and something sparks in your memories. Read Flashback XII in the Campaign Guide." />
+        <property name="Text" value="Falcon Point Cliffside cannot be fully flooded.&#10;θ If you control the white key: Using the white key, you peer out into the dark, stormy horizon, and something sparks in your memories. Read Flashback XII in the Campaign Guide." />
         <property name="Shroud" value="1" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -350,6 +350,7 @@
         <property name="Text" value="Lighthouse Keeper’s Cottage cannot be fully flooded.&#10;Forced – After Lighthouse Keeper’s Cottage is revealed: Place the set-aside yellow key on it." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
       </alternate>
     </card>
     <card id="9ecf5e96-6d8d-41e6-b446-574f6b64842c" name="Lighthouse Basement" size="EncounterCard">
@@ -478,7 +479,7 @@
         <property name="Encounter Set" value="A Light in the Fog" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave." />
-        <property name="Text" value="Holding Cells cannot be flooded. Enemies cannot enter or spawn at Holding Cells (if one would spawn here, spawn it at any Sunken Grotto instead).η: Test ή (3) to break the bars or ί (3) to pick the locks. If you control the yellow key, this test automatically succeeds. If you succeed, free an investigator who is captured here." />
+        <property name="Text" value="Holding Cells cannot be flooded.&#10;Enemies cannot enter or spawn at Holding Cells (if one would spawn here, spawn it at any Sunken Grotto instead).&#10;η: Test ή (3) to break the bars or ί (3) to pick the locks. If you control the yellow key, this test automatically succeeds. If you succeed, free an investigator who is captured here." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
