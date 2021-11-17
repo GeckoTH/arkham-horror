@@ -90,7 +90,7 @@
         <property name="Text" value="If this is the first time this act has advanced, read the following:&#10;—&#10;Regardless of how many times this act has advanced, read the following:&#10;Choose any Oozified location. Spawn the set-aside Vulnerable Heart enemy at the chosen location." />
       </alternate>
     </card>
-    <card id="87a2c12b-7f2f-4c24-8850-c508d1ec0861" name="Extra terrestrial Physiology" size="HorizCard">
+    <card id="87a2c12b-7f2f-4c24-8850-c508d1ec0861" name="Extraterrestrial Physiology" size="HorizCard">
       <property name="Card Number" value="7" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Blob That Ate Everything" />
@@ -320,7 +320,7 @@
         <property name="Encounter Set" value="Mi-Go Incursion" />
         <property name="Type" value="Story" />
         <property name="Traits" value="Part 2." />
-        <property name="Text" value="Read only if &quot;the sample was lost:&quot;&#10;Remove Mi-Go Harvester, Meteorite Sample, and this card from the game. Lose 2 countermeasures.&#10;—&#10;Read only if &quot;the sample was recovered:&quot;&#10;Put the set-aside Pet Oozling story asset into play under any investigator's control. Remove Meteorite Sample from the game. Add Mi-Go Harvester and this card to the victory display. Gain 2 countermeasures.&#10;Victory 1." />
+        <property name="Text" value="Read only if &quot;the sample was lost:&quot;&#10;Remove Mi-Go Harvester, Meteorite Sample, and this card from the game. Lose 2 countermeasures.&#10;—&#10;Read only if &quot;the sample was recovered:&quot;&#10;Put the set-aside Pet Oozeling story asset into play under any investigator's control. Remove Meteorite Sample from the game. Add Mi-Go Harvester and this card to the victory display. Gain 2 countermeasures.&#10;Victory 1." />
         <property name="Victory Points" value="1" />
       </alternate>
     </card>

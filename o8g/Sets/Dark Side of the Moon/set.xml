@@ -126,12 +126,12 @@
       <property name="Card Number" value="206" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Dark Side of the Moon" />
-      <property name="Subtitle" value="EASY/STANDARD" />
+      <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
       <property name="Text" value="α: –X. X is half your alarm level (rounded up).&#10;β: Reveal another token. If you fail and your alarm level is higher than your modified skill value, after this skill test ends, draw the top card of the encounter deck.&#10;γ: –1. If you fail, raise your alarm level by 1.&#10;δ: +1. The black cat summons several other cats to help. If this token is revealed during an evasion attempt and you succeed, deal 2 damage to the evaded enemy." />
       <alternate name="Dark Side of the Moon" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Dark Side of the Moon" />
-        <property name="Subtitle" value="HARD/EXPERT" />
+        <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
         <property name="Text" value="α: –X. X is your alarm level.&#10;β: Reveal another token. If you fail and your alarm level is higher than your modified skill value, after this skill test ends, draw the top card of the encounter deck.&#10;γ: –2. If you fail, raise your alarm level by 1.&#10;δ: 0. The black cat summons several other cats to help. If this token is revealed during an evasion attempt and you succeed, deal 2 damage to the evaded enemy." />
       </alternate>

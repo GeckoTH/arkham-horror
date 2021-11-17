@@ -158,13 +158,15 @@
     <property name="Card Number" value="316"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Dim Carcosa"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;α: -2 (-4 instead if you have no sanity remaining).&#10;β: Reveal another token. If you fail, take 1 horror.&#10;γ: -3. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).&#10;δ: -3. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
+    <property name="Text" value="α: -2 (-4 instead if you have no sanity remaining).&#10;β: Reveal another token. If you fail, take 1 horror.&#10;γ: -3. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).&#10;δ: -3. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
     <alternate name="Dim Carcosa" type="B">
       <property name="Encounter Set" value="Dim Carcosa"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value=" Hard / Expert &#10;α: -X. X is the amount of horror on you.&#10;β: Reveal another token. If you fail, take 2 horror.&#10;γ: -5. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).&#10;δ: -5. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
+      <property name="Text" value="α: -X. X is the amount of horror on you.&#10;β: Reveal another token. If you fail, take 2 horror.&#10;γ: -5. If you fail and Hastur is in play, place 1 clue on your location (from the token bank).&#10;δ: -5. If this token is revealed during an attack or evasion attempt against a Monster or Ancient One enemy, lose 1 action."/>
     </alternate>
   </card>
   <card id="58c35bbb-2bee-4931-a1e3-0d56ece7f152" name="Madness Coils" size="HorizCard">

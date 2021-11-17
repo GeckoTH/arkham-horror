@@ -97,7 +97,7 @@
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ritual. Talent." />
-      <property name="Text" value="Fast.&#10;You have 1 additional arcane slot, which can only be used to hold a Spell or Ritual asset.&#10;ι After you activate an η abilty on a Spell or Ritual asset, exhaust Sign Magick: Activate an [Aciton] ability on a different Spell or Ritual asset you control (without paying its η cost)." />
+      <property name="Text" value="Fast.&#10;You have 1 additional arcane slot, which can only be used to hold a Spell or Ritual asset.&#10;ι After you activate an η abilty on a Spell or Ritual asset, exhaust Sign Magick: Activate an [Action] ability on a different Spell or Ritual asset you control (without paying its η cost)." />
       <property name="Class" value="Mystic" />
       <property name="Level" value="3" />
       <property name="Cost" value="3" />

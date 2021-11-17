@@ -682,7 +682,7 @@
     <property name="Clues" value=""/>
     <property name="Doom" value=""/>
     <property name="Text" value="Objective - When The Man in the Pallid Mask would be discarded from play, advance."/>
-    <alternate name="The Path is Mine" size="HorizCard" type="B">
+    <alternate name="The Path Is Mine" size="HorizCard" type="B">
       <property name="Encounter Set" value="Curtain Call"/>
       <property name="Type" value="Act"/>
       <property name="Class" value="Mythos"/>
@@ -937,6 +937,7 @@
     <property name="Encounter Set" value="Curtain Call"/>
     <property name="Unique" value="ο"/>
     <property name="Type" value="Enemy"/>
+    <property name="Subtype" value="Weakness"/>
     <property name="Combat" value="4"/>
     <property name="Agility" value="4"/>
     <property name="Health" value="3"/>

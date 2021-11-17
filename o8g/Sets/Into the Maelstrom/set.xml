@@ -78,7 +78,7 @@
     <card id="ed9fa0a4-4333-4cc2-9317-2daf67dd3e08" name="Lucky Dice">
       <property name="Card Number" value="307" />
       <property name="Quantity" value="1" />
-      <property name="Subtitle" value="... Or Are They?" />
+      <property name="Subtitle" value="…Or Are They?" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
       <property name="Text" value="Exceptional.&#10;ι When you reveal a  non-[Curse], non-[Autofail] chaos token, add 1 [Curse] token to the chaos bag: Ignore the just revealed token and reveal another one to resolve. If that token as a [Curse] or [Autofail] symbol, return Lucky Dice to your hand (cannot be ignored/canceled)." />
@@ -262,7 +262,7 @@
       <alternate name="Dark Abyss" type="B" size="EncounterCard">
         <property name="Type" value="Location" />
         <property name="Traits" value="Cave." />
-        <property name="Text" value="Forced – After Dark Abyss is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Dark Abyss without looking at it.&#10;Forced – After the last clue is discovered from Dark Abyss: Dark Abyss becomes fully flooded. Increase flood level of each location connected Dark Abyss." />
+        <property name="Text" value="Forced – After Dark Abyss is revealed: Randomly choose 1 of the set-aside facedown keys and place it on Dark Abyss without looking at it.&#10;Forced – After the last clue is discovered from Dark Abyss: Dark Abyss becomes fully flooded. Increase the flood level of each location connected Dark Abyss." />
         <property name="Shroud" value="2" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -309,7 +309,7 @@
         <property name="Encounter Set" value="Into the Maelstrom" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Y'ha-nthlei." />
-        <property name="Text" value="η If you control the purple key: Place it on Vault of Riches. Then, choose a non-Elite enemy at anylocation. Automatically evade that enemy and move it to Vault of Riches. That enemy does not ready during the next upkeep phase. (Group limit once per game.)" />
+        <property name="Text" value="η If you control the purple key: Place it on Vault of Riches. Then, choose a non-Elite enemy at any location. Automatically evade that enemy and move it to Vault of Riches. That enemy does not ready during the next upkeep phase. (Group limit once per game.)" />
         <property name="Shroud" value="4" />
         <property name="Clues" value="2π" />
       </alternate>
@@ -336,7 +336,7 @@
       <property name="Encounter Set" value="Into the Maelstrom" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Y'ha-nthlei. Sanctum." />
-      <property name="Text" value="Y'ha-nthlei Sanctum enters play fullyflooded (even while it is unrevealed)." />
+      <property name="Text" value="Y'ha-nthlei Sanctum enters play fully flooded (even while it is unrevealed)." />
       <alternate name="Statues in the Deep" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Into the Maelstrom" />
         <property name="Type" value="Location" />
@@ -357,7 +357,7 @@
         <property name="Encounter Set" value="Into the Maelstrom" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Y'ha-nthlei. Sanctum." />
-        <property name="Text" value="Each Depp One enemy at this location gets +2 flight.&#10;η If you control the green key, place it on this location and investigators here spend 1π clues, as a group: Automatically evade each Ancient One enemy. Unflood this location. For the remainder of the game, this location cannot be flooded. (Group limit once per game.)" />
+        <property name="Text" value="Each Deep One enemy at this location gets +2 fight.&#10;η If you control the green key, place it on this location and investigators here spend 1π clues, as a group: Automatically evade each Ancient One enemy. Unflood this location. For the remainder of the game, this location cannot be flooded. (Group limit once per game.)" />
         <property name="Shroud" value="5" />
         <property name="Clues" value="1π" />
       </alternate>
@@ -398,15 +398,15 @@
       <property name="Card Number" value="328" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Into the Maelstrom" />
-      <property name="Subtitle" value="Santuary of Father Dagon" />
+      <property name="Subtitle" value="Sanctuary of Father Dagon" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Y'ha-nthlei. Lair." />
       <alternate name="Lair of Dagon" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Into the Maelstrom" />
-        <property name="Subtitle" value="Santuary of Father Dagon" />
+        <property name="Subtitle" value="Sanctuary of Father Dagon" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Y'ha-nthlei. Lair." />
-        <property name="Text" value="Lair of Dagon gets –1 shroud for each Sanctum location with a key on it.&#10;θ Check Campaign Log. If all 7 keys are on locations and the Order's ritual was disrupted: You dig deep into your memories to recall what happened the last time you were here. Read Flash back XIV in the Campaign Guide." />
+        <property name="Text" value="Lair of Dagon gets –1 shroud for each Sanctum location with a key on it.&#10;θ Check Campaign Log. If all 7 keys are on locations and the Order's ritual was disrupted: You dig deep into your memories to recall what happened the last time you were here. Read Flashback XIV in the Campaign Guide." />
         <property name="Shroud" value="6" />
         <property name="Clues" value="3π" />
       </alternate>
@@ -507,7 +507,7 @@
       <property name="Encounter Set" value="Into the Maelstrom" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Monster. Deep One." />
-      <property name="Text" value="Spawn – Lair of Hydra or Gateway to Y'ha-nthlei (whichever is farthest from you).&#10;Hunter.&#10;Forced – After Dagon's Brood engages you, if Hydra is in play: Either place 1 doom on Hydra, or Hydra attacks you." />
+      <property name="Text" value="Spawn – Lair of Hydra or Gateway to Y'ha-nthlei (whichever is farthest from you).&#10;Hunter.&#10;Forced – After Hydra's Brood engages you, if Hydra is in play: Either place 1 doom on Hydra, or Hydra attacks you." />
       <property name="Health" value="3" />
       <property name="Combat" value="3" />
       <property name="Agility" value="2" />

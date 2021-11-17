@@ -148,7 +148,7 @@
     <card id="eaa8acfd-c17a-4f69-b742-3afeb06daa25" name="Empower Self">
       <property name="Card Number" value="243" />
       <property name="Quantity" value="1" />
-      <property name="Subtitle" value="Accuity" />
+      <property name="Subtitle" value="Acuity" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ritual." />
       <property name="Text" value="Myriad. Limit 1 Empower Self (Acuity) per deck.&#10;Up to 3 Empower Self cards take up a single arcane slot.&#10;Anytime a card effect requires you to use ά instead of έ, you may ignore that aspect of the effect.&#10;θ Exhaust Empower Self: You get +2 έ for this test." />
@@ -599,6 +599,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Point of No Return" />
       <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
       <property name="Traits" value="Curse." />
       <property name="Text" value="False Awakening begins each game next to the agenda deck, with 1 doom on it.η: Test any skill (2). This test gets +1π difficulty. If you succeed, remove False Awakening from the game. Any investigator may trigger this ability." />
     </card>

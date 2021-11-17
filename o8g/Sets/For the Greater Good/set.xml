@@ -162,6 +162,7 @@
     <card id="22e3ab3a-027d-4f4a-9a84-94e076bbc62f" name="The Council’s Coffer">
       <property name="Card Number" value="196" />
       <property name="Quantity" value="2" />
+      <property name="Subtitle" value="What’s in the Box?"/>
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
       <property name="Text" value="Uses (1π locks).&#10;If there are no locks on The Council’s Coffer, each investigator searches his or her deck or discard pile for any card and immediately plays it at no cost. Exile The Council’s Coffer. (Max once per campaign.)&#10;η η: Test any skill (5). If you succeed, remove 1 lock. Any investigator at your location may activate this ability.&#10;Card design by The Council at Arkham Nights 2017." />
@@ -179,11 +180,12 @@
       <property name="Card Number" value="197" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="For the Greater Good" />
+      <property name="Subtitle" value="EASY / STANDARD"/>
       <property name="Type" value="Scenario" />
       <property name="Text" value="α: –X. X is the highest number of doom on a Cultist enemy in play.&#10;β: –2. Reveal another token.&#10;γ: –3. If you fail, place 1 doom on the nearest Cultist enemy.&#10;δ: –3. If you fail, move 1 doom from the nearest Cultist enemy to the current agenda." />
-      <property name="Level" value="1" />
       <alternate name="For the Greater Good" size="EncounterCard" type="B">
         <property name="Encounter Set" value="For the Greater Good" />
+        <property name="Subtitle" value="HARD / EXPERT"/>
         <property name="Type" value="Scenario" />
         <property name="Text" value="α: –X. X is the total number of doom among Cultist enemies in play.&#10;β: –2. Reveal another token.&#10;γ: –3. If you fail, place 1 doom on each Cultist enemy in play. If there are no Cultist enemies in play, reveal another token.&#10;δ: –3. If you fail, move all doom from the Cultist enemy with the most doom on it to the current agenda. If no Cultist enemies in play have doom on them, reveal another token." />
         <property name="Level" value="1" />

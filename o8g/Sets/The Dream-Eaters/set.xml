@@ -207,6 +207,7 @@
     <card id="9b766310-ccb6-43e2-a84e-4215a70fd31a" name="Gate Box">
       <property name="Card Number" value="13" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Worlds within Worlds"/>
       <property name="Type" value="Asset" />
       <property name="Traits" value="Item. Relic." />
       <property name="Text" value="Luke Robinson deck only. Uses (3 charges).&#10;θ Exhaust Gate Box and spend 1 charge: Disengage from each enemy engaged with you, search your bonded cards for Dream-Gate (Wondrous Journey), put it into play, and move to it." />
@@ -231,7 +232,7 @@
     <card id="3330e3db-e28a-4901-a3bd-077c7aceeb7f" name="Dream-Gate">
       <property name="Card Number" value="15" />
       <property name="Quantity" value="1" />
-      <property name="Subtitle" value="Wonderous Journey" />
+      <property name="Subtitle" value="Wondrous Journey" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Dreamlands." />
       <property name="Text" value="Bonded (Gate Box).&#10;Dream-Gate is connected to each other revealed location, and vice versa. Enemies and investigators other than Luke Robinson cannot enter Dream-Gate.&#10;Forced – At the end of the investigation phase: Set Dream-Gate aside, out of play. (If Luke Robinson is here, move him to any revealed location.)" />
@@ -592,12 +593,12 @@
       <property name="Encounter Set" value="Beyond the Gates of Sleep" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α : –X. X is half the number of cards in your hand (rounded up).&#10;β: –X. X is the number of revealed Enchanted Woods locations.&#10;γ: –2. If you fail and this is an attack or evasion attempt against a swarming enemy, add 1 swarm card to it." />
+      <property name="Text" value="α: –X. X is half the number of cards in your hand (rounded up).&#10;β: –X. X is the number of revealed Enchanted Woods locations.&#10;γ: –2. If you fail and this is an attack or evasion attempt against a swarming enemy, add 1 swarm card to it." />
       <alternate name="Beyond the Gates of Sleep" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Beyond the Gates of Sleep" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α : –X. X is the number of cards in your hand.&#10;β: –X. X is the number of revealed Woods locations.&#10;γ: –2. If this is an attack or evasion attempt against a swarming enemy, add 1 swarm card to it." />
+        <property name="Text" value="α: –X. X is the number of cards in your hand.&#10;β: –X. X is the number of revealed Woods locations.&#10;γ: –2. If this is an attack or evasion attempt against a swarming enemy, add 1 swarm card to it." />
       </alternate>
     </card>
     <card id="19db1533-dc1f-4aab-9293-ee128a21942a" name="Journey through the Gates" size="HorizCard">
@@ -968,12 +969,12 @@
       <property name="Encounter Set" value="Waking Nightmare" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α : –1 (–3 instead if you are engaged with a Staff enemy).β: Reveal another chaos token. If you fail and it is agenda 2 or 3, make an infestation test.&#10;δ: –X. X is the number of infested locations." />
+      <property name="Text" value="α: –1 (–3 instead if you are engaged with a Staff enemy).&#10;β: Reveal another chaos token. If you fail and it is agenda 2 or 3, make an infestation test.&#10;δ: –X. X is the number of infested locations." />
       <alternate name="Waking Nightmare" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Waking Nightmare" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α : –2 (–4 instead if you are engaged with a Staff enemy).&#10;β: Reveal another chaos token. If it is agenda 2 or 3, make an infestation test.&#10;δ: –X. X is 1 higher than the number of infested locations." />
+        <property name="Text" value="α: –2 (–4 instead if you are engaged with a Staff enemy).&#10;β: Reveal another chaos token. If it is agenda 2 or 3, make an infestation test.&#10;δ: –X. X is 1 higher than the number of infested locations." />
       </alternate>
     </card>
     <card id="93f1ba7c-ee75-4780-ae78-737f3b2abfff" name="Halls of St. Mary’s" size="HorizCard">
@@ -1190,7 +1191,7 @@
         <property name="Clues" value="0" />
       </alternate>
     </card>
-    <card id="4f315e5b-2958-4036-ae66-0b27d965024c" name="The Infestation Begins..." size="EncounterCard">
+    <card id="4f315e5b-2958-4036-ae66-0b27d965024c" name="The Infestation Begins" size="EncounterCard">
       <property name="Card Number" value="78" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Waking Nightmare" />

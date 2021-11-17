@@ -158,14 +158,16 @@
     <property name="Card Number" value="277"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="The Depths of Yoth"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
     <property name="Class" value="Mythos"/>
-    <property name="Text" value="Easy / Standard&#10;&#10;α: -X. X is the current depth level.&#10;&#10;β: Reveal another token. If you fail, each [[Serpent]] enemy at your location or a connecting location heals 2 damage.&#10;&#10;γ: Reveal another token. If you fail, place 1 clue on your location (from the token pool).&#10;&#10;δ: -2. If there are 3 or more vengeance points in the victory display, you automatically fail this test, instead."/>
+    <property name="Text" value="α: -X. X is the current depth level.&#10;β: Reveal another token. If you fail, each [[Serpent]] enemy at your location or a connecting location heals 2 damage.&#10;γ: Reveal another token. If you fail, place 1 clue on your location (from the token pool).&#10;δ: -2. If there are 3 or more vengeance points in the victory display, you automatically fail this test, instead.&#10;Current Depth"/>
     <alternate name="The Depths of Yoth" type="B">
       <property name="Encounter Set" value="The Depths of Yoth"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;&#10;α: -X. X is the current depth level. If you fail, take 1 horror.&#10;&#10;β: Reveal another token. If you fail, each [[Serpent]] enemy at your location or a connecting location heals 2 damage.&#10;&#10;γ: Reveal another token. If you fail, place 1 clue on your location (from the token pool).&#10;&#10;δ: -4. If there are 3 or more vengeance points in the victory display, you automatically fail this test, instead."/>
+      <property name="Text" value="α: -X. X is the current depth level. If you fail, take 1 horror.&#10;β: Reveal another token. If you fail, each [[Serpent]] enemy at your location or a connecting location heals 2 damage.&#10;γ: Reveal another token. If you fail, place 1 clue on your location (from the token pool).&#10;δ: -4. If there are 3 or more vengeance points in the victory display, you automatically fail this test, instead.&#10;Current Depth"/>
     </alternate>
   </card>
   <card id="3fc2759d-a3a7-45b2-be16-854895115bbc" name="The Descent Begins" size="HorizCard">

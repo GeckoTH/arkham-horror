@@ -172,13 +172,15 @@
     <property name="Card Number" value="311"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="Easy / Standard&#10;α -1 for each Extradimensional location in play (max -5).&#10;β Reveal another token. If you fail, after this skill test, discard cards from the top of the encounter deck until a location is discarded. Put that location into play and move there.&#10;γ -3. If Yog-Sothoth is in play, it attacks you after this skill test.&#10;δ -X. X is the shroud value of your location. If you fail and your location is Extradimensional, discard it."/>
+    <property name="Text" value="α: -1 for each Extradimensional location in play (max -5).&#10;β: Reveal another token. If you fail, after this skill test, discard cards from the top of the encounter deck until a location is discarded. Put that location into play and move there.&#10;γ: -3. If Yog-Sothoth is in play, it attacks you after this skill test.&#10;δ: -X. X is the shroud value of your location. If you fail and your location is Extradimensional, discard it."/>
     <alternate name="Lost in Time and Space" type="B">
       <property name="Encounter Set" value="Lost in Time and Space"/>
+      <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
       <property name="Class" value="Mythos"/>
-      <property name="Text" value="Hard / Expert&#10;α -1 for each Extradimensional location in play.&#10;β Reveal another token. After this skill test, discard cards from the top of the encounter deck until a location is discarded. Put that location into play and move there.&#10;γ -5. If Yog-Sothoth is in play, it attacks you after this skill test.&#10;δ -X. X is twice the shroud value of your location. If you fail and your location is Extradimensional, discard it."/>
+      <property name="Text" value="α: -1 for each Extradimensional location in play.&#10;β: Reveal another token. After this skill test, discard cards from the top of the encounter deck until a location is discarded. Put that location into play and move there.&#10;γ: -5. If Yog-Sothoth is in play, it attacks you after this skill test.&#10;δ: -X. X is twice the shroud value of your location. If you fail and your location is Extradimensional, discard it."/>
     </alternate>
   </card>
   <card id="ee40c4bb-7167-413a-9f74-f90314347767" name="All is One" size="HorizCard">
@@ -352,6 +354,7 @@
     <property name="Card Number" value="320"/>
     <property name="Quantity" value="1"/>
     <property name="Encounter Set" value="Lost in Time and Space"/>
+    <property name="Subtitle" value="Unfettered by Reality"/>
     <property name="Type" value="Location"/>
     <property name="Shroud" value=""/>
     <property name="Clues" value=""/>

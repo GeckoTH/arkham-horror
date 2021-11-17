@@ -50,6 +50,7 @@
     <card id="1971a1d6-9883-4e9a-ab34-f814c9414338" name="Archaic Glyphs">
       <property name="Card Number" value="4" />
       <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Markings of Isis" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Spell." />
       <property name="Text" value="You can only include this asset in your deck by upgrading it from Archaic Glyphs (Untranslated), and only if “you have translated the glyphs” in your Campaign Log.&#10;Uses (3 charges).&#10;η Spend 1 charge: Investigate. If you succeed, you may put an asset with printed cost of X or lower into play from your hand. X is the amount you succeeded by." />
@@ -230,7 +231,7 @@
       <property name="Subtitle" value="Act 2a" />
       <property name="Type" value="Act" />
       <property name="Text" value="Objective – When The Man in the Pallid Mask would be discarded from play, advance." />
-      <alternate name="Here's My Reply" size="HorizCard" type="B">
+      <alternate name="Here Is My Reply" size="HorizCard" type="B">
         <property name="Encounter Set" value="Return to Curtain Call" />
         <property name="Subtitle" value="Act 2b" />
         <property name="Type" value="Act" />
@@ -272,6 +273,7 @@
     <card id="128161fe-1d21-4a82-9c18-b633a2df44e5" name="La Comtesse" size="EncounterCard">
       <property name="Card Number" value="20" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Subverter of Plans" />
       <property name="Encounter Set" value="Return to Curtain Call" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Servitor." />
@@ -844,7 +846,7 @@
       <alternate name="The Writer" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Return to Dim Carcosa" />
         <property name="Type" value="Story" />
-        <property name="Text" value="Remember that you “know the secret.”Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
+        <property name="Text" value="Remember that you “know the secret.”&#10;Flip this card back over. For the remainder of the game, it cannot be flipped over again." />
       </alternate>
     </card>
     <card id="33476df1-b91b-4113-b850-bd6be388b9df" name="The Throne Room" size="EncounterCard">

@@ -82,7 +82,7 @@
       <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="ά" />
     </card>
-    <card id="32d5fc8d-d784-4dec-b747-7be41b6d95f8" name="“Let God sort them out...”">
+    <card id="32d5fc8d-d784-4dec-b747-7be41b6d95f8" name="“Let God sort them out…”">
       <property name="Card Number" value="160" />
       <property name="Quantity" value="2" />
       <property name="Type" value="Event" />
@@ -115,6 +115,7 @@
     <card id="dfe88206-90fd-4e7f-8c20-4b477b27adb2" name="Gregory Gry">
       <property name="Card Number" value="162" />
       <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Muckraker"/>
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Criminal. Dreamer." />
       <property name="Text" value="Uses (9 resources).&#10;ι When you initiate a skill test, spend up to 3 resources from Gregory Gry: If this test succeeds by at least that amount, gain that many resources." />
@@ -210,10 +211,12 @@
       <property name="Card Number" value="168" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+      <property name="Subtitle" value="EASY / STANDARD"/>
       <property name="Type" value="Scenario" />
       <property name="Text" value="α: –1 (–3 instead if you are at a Graveyard location).&#10;β: Reveal another token. If you fail and The Unnamable is in play, it attacks you (regardless of its current location).&#10;γ: +2. The black cat causes a distraction. If this test is successful, choose and evade an enemy at any location with a fight value of X or lower, where X is the amount you succeeded by.&#10;δ: –2. If you fail, you must either place 1 of your clues on your location or take 1 damage." />
       <alternate name="A Thousand Shapes of Horror" size="EncounterCard" type="B">
         <property name="Encounter Set" value="A Thousand Shapes of Horror" />
+        <property name="Subtitle" value="HARD / EXPERT"/>
         <property name="Type" value="Scenario" />
         <property name="Text" value="α: –2 (–4 instead if you are at a Graveyard location).&#10;β: Reveal another token. If you fail and The Unnamable is in play, it attacks you (regardless of its current location).&#10;γ: +1. The black cat causes a distraction. If this test is successful, choose and evade an enemy at any location with a fight value of X or lower, where X is the amount you succeeded by.&#10;δ: –3. If you fail, you must either place 1 of your clues on your location or take 1 damage." />
       </alternate>
@@ -225,7 +228,7 @@
       <property name="Subtitle" value="Agenda 1a" />
       <property name="Type" value="Agenda" />
       <property name="Doom" value="5" />
-      <alternate name="The Unnameable" size="EncounterCard" type="B">
+      <alternate name="The Unnamable" size="EncounterCard" type="B">
         <property name="Encounter Set" value="A Thousand Shapes of Horror" />
         <property name="Subtitle" value="The Ultimate Abomination" />
         <property name="Type" value="Enemy" />
@@ -260,7 +263,7 @@
       <property name="Type" value="Agenda" />
       <property name="Text" value="Each Swarm of Rats gains swarming 2.&#10;The Unnamable loses aloof and gains massive.&#10;Forced – At the start of your turn, if The Unnamable is ready and at your location: Test ά (2). If you fail, it attacks you (even if it is not engaged with you)." />
       <property name="Doom" value="7" />
-      <alternate name="Is It Real" size="HorizCard" type="B">
+      <alternate name="It Is Real" size="HorizCard" type="B">
         <property name="Encounter Set" value="A Thousand Shapes of Horror" />
         <property name="Subtitle" value="Agenda 3b" />
         <property name="Type" value="Agenda" />

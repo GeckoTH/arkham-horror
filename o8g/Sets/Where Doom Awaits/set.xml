@@ -184,12 +184,12 @@
     <property name="Encounter Set" value="Where Doom Awaits"/>
     <property name="Subtitle" value="EASY / STANDARD"/>
     <property name="Type" value="Scenario"/>
-    <property name="Text" value="α -1 (-3 instead if you are at an Altered location).&#10;β Reveal another token. Cancel the effects and icons of each skill card committed to this test.&#10;γ -2 (-4 instead if it is Agenda 2).&#10;δ -X. Discard the top 2 cards of your deck. X is the total printed cost of those discarded cards."/>
+    <property name="Text" value="α: -1 (-3 instead if you are at an Altered location).&#10;β: Reveal another token. Cancel the effects and icons of each skill card committed to this test.&#10;γ -2 (-4 instead if it is Agenda 2).&#10;δ: -X. Discard the top 2 cards of your deck. X is the total printed cost of those discarded cards."/>
     <alternate name="Where Doom Awaits" type="B">
       <property name="Encounter Set" value="Where Doom Awaits"/>
       <property name="Subtitle" value="HARD / EXPERT"/>
       <property name="Type" value="Scenario"/>
-      <property name="Text" value="α -2 (-5 instead if you are at an Altered location).&#10;β Reveal another token. Cancel the effects and icons of each skill card committed to this test.&#10;γ -3. If it is Agenda 2, you automatically fail instead.&#10;δ -X. Discard the top 3 cards of your deck. X is the total printed cost of those discarded cards."/>
+      <property name="Text" value="α: -2 (-5 instead if you are at an Altered location).&#10;β: Reveal another token. Cancel the effects and icons of each skill card committed to this test.&#10;γ: -3. If it is Agenda 2, you automatically fail instead.&#10;δ: -X. Discard the top 3 cards of your deck. X is the total printed cost of those discarded cards."/>
     </alternate>
   </card>
   <card id="a3c0d6f8-b99f-3379-18cc-dfcbd78f34e2" name="Calling Forth the Old Ones" size="HorizCard">

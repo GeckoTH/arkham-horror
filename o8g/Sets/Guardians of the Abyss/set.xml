@@ -7,12 +7,12 @@
       <property name="Encounter Set" value="The Eternal Slumber" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –X. X is the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 3 or lower, add 1 strength to the abyss.γ: 0. For this skill test, ignore any effect that would increase your skill value.δ: –5. You may add 1 strength to the abyss to automatically succeed, instead.Strength of the Abyss:" />
+      <property name="Text" value="α: –X. X is the strength of the abyss.&#10;β: Reveal another token. If you fail and the strength of the abyss is 3 or lower, add 1 strength to the abyss.&#10;γ: 0. For this skill test, ignore any effect that would increase your skill value.&#10;δ: –5. You may add 1 strength to the abyss to automatically succeed, instead.&#10;Strength of the Abyss:" />
       <alternate name="The Eternal Slumber" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Eternal Slumber" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.γ: –2. For this skill test, ignore any effect that would increase your skill value.δ: –6. You may add 1 strength to the abyss to automatically succeed, instead.Strength of the Abyss:" />
+        <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.&#10;β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.&#10;γ: –2. For this skill test, ignore any effect that would increase your skill value.&#10;δ: –6. You may add 1 strength to the abyss to automatically succeed, instead.&#10;Strength of the Abyss:" />
       </alternate>
     </card>
     <card id="c550a922-9c5f-4a6b-bab7-57c6726716fd" name="Jessie’s Request" size="HorizCard">
@@ -35,7 +35,7 @@
       <property name="Type" value="Agenda" />
       <property name="Text" value="Forced – If the strength of the abyss is 0: Set the strength of the abyss to 1. Each investigator draws 1 card and heals 1 horror." />
       <property name="Doom" value="6" />
-      <alternate name="The Abyss Grows..." size="HorizCard" type="B">
+      <alternate name="The Abyss Grows…" size="HorizCard" type="B">
         <property name="Encounter Set" value="The Eternal Slumber" />
         <property name="Type" value="Agenda" />
         <property name="Text" value="As more and more fall victim to the curse that has infected Cairo, a silent terror grips the city. When night falls again, the streets are filled with a sudden panic. It starts with turmoil outside the hospital, as people demand to know what has happened to their loved ones and what the doctors are doing to solve the problem. Before long, rioting and looting erupt throughout the city. By midnight, the streets have descended into utter chaos.Shuffle the encounter discard pile into the encounter deck.Add 1 strength to the abyss." />
@@ -212,15 +212,17 @@
       <property name="Card Number" value="16" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Night’s Usurper" />
+      <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –X. X is the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 3 or lower, add 1 strength to the abyss.γ: –1. For this skill test, ignore any effect that would increase your skill value.δ: –4. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.Strength of the Abyss:" />
+      <property name="Text" value="α: –X. X is the strength of the abyss.&#10;β: Reveal another token. If you fail and the strength of the abyss is 3 or lower, add 1 strength to the abyss.&#10;γ: –1. For this skill test, ignore any effect that would increase your skill value.&#10;δ: –4. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.&#10;Strength of the Abyss" />
       <alternate name="The Night’s Usurper" size="EncounterCard" type="B">
         <property name="Encounter Set" value="The Night’s Usurper" />
+        <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.γ: –3. For this skill test, ignore any effect that would increase your skill value.δ: –5. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.Strength of the Abyss:" />
+        <property name="Text" value="α: –X. X is 1 more than the strength of the abyss.&#10;β: Reveal another token. If you fail and the strength of the abyss is 5 or lower, add 1 strength to the abyss.&#10;γ: –3. For this skill test, ignore any effect that would increase your skill value.&#10;δ: –5. If you succeed and the strength of the abyss is 4 or more, remove 1 strength from the abyss.&#10;Strength of the Abyss" />
       </alternate>
     </card>
-    <card id="74e12e40-655d-4475-b829-3d2feae1b6a5" name="The Brotherhood Bides Their Time" size="HorizCard">
+    <card id="74e12e40-655d-4475-b829-3d2feae1b6a5" name="The Brotherhood Bides Their Time" size="HorizCard">
       <property name="Card Number" value="17" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Night’s Usurper" />
@@ -426,6 +428,7 @@
     <card id="586f9776-c2f6-468b-afff-63b625902eae" name="Dr. Layla El Masri" size="EncounterCard">
       <property name="Card Number" value="31" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Hieratic Translator"/>
       <property name="Encounter Set" value="Brotherhood of the Beast" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
@@ -447,6 +450,7 @@
     <card id="24eef006-8861-42ea-aa67-950288e1e1de" name="Dr. Wentworth Moore" size="EncounterCard">
       <property name="Card Number" value="32" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Dark Supplicant"/>
       <property name="Encounter Set" value="Brotherhood of the Beast" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
@@ -469,6 +473,7 @@
     <card id="76f6e377-7192-4ed6-81a7-6c8852090f8f" name="Nadia Nimr" size="EncounterCard">
       <property name="Card Number" value="33" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Priestess of the Beast"/>
       <property name="Encounter Set" value="Brotherhood of the Beast" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
@@ -490,6 +495,7 @@
     <card id="01a1356f-be9c-4cf2-94f8-544baa853d9f" name="Farid" size="EncounterCard">
       <property name="Card Number" value="34" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Seedy Salesman"/>
       <property name="Encounter Set" value="Brotherhood of the Beast" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
@@ -511,6 +517,7 @@
     <card id="8728bd85-572a-4ec9-b518-6e2676f267eb" name="Nassor" size="EncounterCard">
       <property name="Card Number" value="35" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Brotherhood Operative"/>
       <property name="Encounter Set" value="Brotherhood of the Beast" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Brotherhood." />
@@ -531,6 +538,7 @@
     <card id="9ebacd6c-7f37-4051-98ea-530141d18e30" name="Professor Nathaniel Taylor" size="EncounterCard">
       <property name="Card Number" value="36" />
       <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Keeper of Antiquities"/>
       <property name="Encounter Set" value="Brotherhood of the Beast" />
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Humanoid. Cultist. Brotherhood." />

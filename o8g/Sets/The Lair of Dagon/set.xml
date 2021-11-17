@@ -14,9 +14,10 @@
       <property name="Combat" value="1" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="18bd958a-b948-4ebe-81e1-560debea28f8" name="Nepththys">
+    <card id="18bd958a-b948-4ebe-81e1-560debea28f8" name="Nephthys">
       <property name="Card Number" value="262" />
       <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Huntress of Bast"/>
       <property name="Type" value="Asset" />
       <property name="Traits" value="Ally. Blessed." />
       <property name="Text" value="You get +1 ά.&#10;ι When 1 or more [Bless] tokens would be removed from the chaos bag during a test: Seal them on Nephthys, instead.&#10;θ Exhaust Nephthys: Either release 3 [Bless] tokens sealed on her, or return 3 [Bless] tokens sealed on her to the token pool to deal 2 damage to an enemy at your location." />
@@ -184,12 +185,12 @@
       <property name="Encounter Set" value="The Lair of Dagon" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –1 for each key on this card.&#10;β: 0. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. If you fail, place each key you control on your location.&#10;δ: –4. If you fail, add 1 [Curse] token to the chaos bag." />
+      <property name="Text" value="α: –1 for each key on this card.&#10;β: 0. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. If you fail, place each key you control on your location.&#10;δ: –4. If you fail, add 1 [Curse] token to the chaos bag.&#10;Spent Keys" />
       <alternate name="The Lair of Dagon" type="B" size="EncounterCard">
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –2 for each key on this card.&#10;β: –2. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. Place each key you control on your location.&#10;δ: –4. Add 2 [Curse] token to the chaos bag." />
+        <property name="Text" value="α: –2 for each key on this card.&#10;β: –2. Reveal an additional chaos token. If you reveal 1 or more [Curse] tokens during this test, you automatically fail.&#10;γ: –3. Place each key you control on your location.&#10;δ: –4. Add 2 [Curse] tokens to the chaos bag.&#10;Spent Keys" />
       </alternate>
     </card>
     <card id="e5bf04d0-21cc-4bac-8fc4-9a189bd50b5e" name="The Initiation (v. I)" size="HorizCard">
@@ -229,6 +230,7 @@
       <property name="Subtitle" value="Agenda 2a" />
       <property name="Type" value="Agenda" />
       <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+	  <property name="Doom" value="6" />
       <alternate name="Cursed Luck" type="B" size="HorizCard">
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Subtitle" value="Agenda 2b" />
@@ -243,6 +245,7 @@
       <property name="Subtitle" value="Agenda 2a" />
       <property name="Type" value="Agenda" />
       <property name="Text" value="Forced – When your turn begins, if you are at a fully flooded location, you struggle for air: When your turn ends, if you did not enter an unflooded or partially flooded location during your turn, take 5 damage." />
+	  <property name="Doom" value="6" />
       <alternate name="Dawson Returns" type="B" size="HorizCard">
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Subtitle" value="Agenda 2b" />
@@ -380,7 +383,7 @@
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Second Floor." />
-        <property name="Text" value="θ Spend the blue, red, white, or yellow key: Choose 3 of the following –&#10;— Heal 1 damage.&#10;— Draw 2 cards.&#10;— Gain 3 resources.&#10;— Add 4 [Bless] tokens to the chaos bag.&#10;Victory 1." />
+        <property name="Text" value="θ Spend the blue, red, white, or yellow key: Choose 3 of the following –&#10;— Heal 1 damage.&#10;— Draw 2 cards.&#10;— Gain 3 resources.&#10;— Add 4 [Bless] tokens to the chaos bag." />
         <property name="Shroud" value="4" />
         <property name="Clues" value="1π" />
         <property name="Victory Points" value="1" />
@@ -440,7 +443,7 @@
         <property name="Encounter Set" value="The Lair of Dagon" />
         <property name="Type" value="Location" />
         <property name="Traits" value="Y'ha-nthlei. Lair." />
-        <property name="Text" value="Forced – After you enter Lair of Dagon: Test your lowest skill (3). If you, take 1 horror.&#10;η: Test ά (3) or ί (3). If you succeed, place 1 of your clues on the current act. You may spend 1 key to place 1 more of your clues on the current act.&#10;Victory 1." />
+        <property name="Text" value="Forced – After you enter Lair of Dagon: Test your lowest skill (3). If you fail, take 1 horror.&#10;η: Test ά (3) or ί (3). If you succeed, place 1 of your clues on the current act. You may spend 1 key to place 1 more of your clues on the current act." />
         <property name="Shroud" value="3" />
         <property name="Clues" value="3π" />
         <property name="Victory Points" value="1" />
@@ -473,7 +476,7 @@
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
-    <card id="c004574d-7773-4569-bd7a-548a96335ce6" name="Apoostle of Dagon" size="EncounterCard">
+    <card id="c004574d-7773-4569-bd7a-548a96335ce6" name="Apostle of Dagon" size="EncounterCard">
       <property name="Card Number" value="293" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="The Lair of Dagon" />
