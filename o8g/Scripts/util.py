@@ -60,6 +60,10 @@ def deserizlizeCard(cardData):
 		card.alternate = cardData['alternate']
 	if 'anchor' in cardData:
 	    card.anchor = cardData['anchor']
+	if 'Subtype' in cardData and cardData['Subtype'] != "":
+		card.Subtype = cardData['Subtype']
+		if card.SubType == "Sealed":
+			sealTokenCard(card)	
 	return card
 		
 def serializeCard(card):
@@ -71,6 +75,7 @@ def serializeCard(card):
 	cardData['isFaceUp'] = card.isFaceUp
 	cardData['alternate'] = card.alternate
 	cardData['anchor'] = card.anchor
+	cardData['Subtype'] = card.Subtype
 	#notify("cardData {}".format(str(cardData)))
 	return cardData
 
