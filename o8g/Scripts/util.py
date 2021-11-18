@@ -34,6 +34,8 @@ def deserializePile(pileData, group, who = me):
 	else:
 		for c in pileData:
 			card = group.create(c['model'])
+			if c['Subtype'] != "":
+				card.SubType = c['Subtype']
 
 def deserializeCounters(counters, player):
 	if counters is None or len(counters) == 0:
@@ -63,7 +65,7 @@ def deserizlizeCard(cardData):
 	if 'Subtype' in cardData and cardData['Subtype'] != "":
 		card.Subtype = cardData['Subtype']
 		if card.SubType == "Sealed":
-			sealTokenCard(card)	
+			sealTokenCard(card)			
 	return card
 		
 def serializeCard(card):
