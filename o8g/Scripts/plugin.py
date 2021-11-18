@@ -21,38 +21,43 @@ def takeControlGlobal(group, x=0, y=0):
             if shared.piles[p].controller != me:
                 shared.piles[p].controller = me
 
-def saveManual(group, x=0, y=0):
-	phase = ""
-	saveTable(phase)
-	
-def saveChaosBag():
+def saveChaosBag(group, x=0, y=0):
 	mute()
-	if phase == "":
-		if 1 != askChoice('You are about to SAVE chaos bag including the elements on the table.\nThis option unsealed token, remove bless and curse token.'
-			, ['I am the Host!', 'I am not...'], ['#dd3737', '#d0d0d0']):
-			return
-	
-		if not getLock():
-			whisper("Others players are saving, please try manual saving again")
-			return
+
+	if 1 != askChoice('You are about to SAVE chaos bag, this option will :\n- Unseal all seal token on the table and move in chaos bag\n- Remove bless and curse token in chaos bag\n- Save the chaos bag for the next scenario'
+		, ['I am the Host!', 'I am not...'], ['#dd3737', '#d0d0d0']):
+		return
+
+	if not getLock():
+		whisper("Others players are saving, please try manual saving again")
+		return
 	
 	try:
-		tab = {"chaosBag":[], "shared": {}, 'counters': None, "players": None}
-		# loop and retrieve cards from the table
+		tab = {"shared": {}}
+		#discard all token on table
 		for card in table:
-			tab['chaosBag'].append(serializeCard(card))
+			if card.Type == "Chaos Token": 
+				if card.controller == me:
+					doDiscard(me, card, chaosBag())
+				else:
+					remoteCall(card.controller, "doDiscard", [me, card, chaosBag()])
 		
+		#remove blurse token in chaos bag
+		for p in shared.piles:
+			if p == 'Chaos Bag':
+				for card in shared.piles[p]:
+					if card.Subtype == "Blurse":
+						card.delete()
+		updateBlessCurse()
+
 		# loop and retrieve item from the shared decks
-		for p in shared.piles :
-			if p == 'Trash':
-				continue
-			for card in shared.piles[p]:
-				if p not in tab['shared']:
-					tab['shared'].update({p: []})
-				tab['shared'][p].append(serializeCard(card))
-				
-		tab['counters'] = serializeCounters(shared.counters)
-		
+		for p in shared.piles:
+			if p == 'Chaos Bag':
+				for card in shared.piles[p]:
+					if p not in tab['shared']:
+						tab['shared'].update({p: []})
+					tab['shared'][p].append(serializeCard(card))
+					
 		filename = saveFileDlg('', '', 'Json Files|*.json')
 			
 		if filename == None:
@@ -61,12 +66,38 @@ def saveChaosBag():
 		with open(filename, 'w+') as f:
 			f.write(json().Serialize(tab))
 		
-		if phase == "":
-			notify("Chaos Bag saves to {}".format(filename))
+		notify("Chaos Bag saves to {}".format(filename))
 
 	finally:
 		clearLock()
 
+def loadChaosBag(group, x=0, y=0):
+	mute()
+		
+	try:
+		filename = openFileDlg('', '', 'Json Files|*.json')
+
+		if not filename:
+			return
+
+		with open(filename, 'r') as f:
+			tab = json().DeserializeObject(f.read())
+			
+		if tab['shared'] is not None and len(tab['shared']) > 0:
+			for k in tab['shared'].Keys:
+				if k not in shared.piles:
+					continue
+				deserializePile(tab['shared'][k], shared.piles[k])
+
+		createChaosBag(table)	
+
+	finally:
+		clearLock()				
+
+def saveManual(group, x=0, y=0):
+	phase = ""
+	saveTable(phase)
+	
 
 def saveTable(phase):
 	mute()
@@ -83,9 +114,12 @@ def saveTable(phase):
 		tab = {"table":[], "shared": {}, 'counters': None, "players": None}
 		
 		# loop and retrieve cards from the table
-		for card in table:
-			tab['table'].append(serializeCard(card))
-		
+		for card in table:	
+			#if card.Type == "Chaos Token" and card.Subtype == "Sealed":
+			#	tab['sealed'].append(serializeCard(card))
+			#else:
+				tab['table'].append(serializeCard(card))
+
 		# loop and retrieve item from the shared decks
 		for p in shared.piles :
 			if p == 'Trash':
@@ -169,7 +203,7 @@ def loadTable(phase):
 			tab = json().DeserializeObject(f.read())
 		
 		deserializeTable(tab['table'])
-		
+
 		if tab['counters'] is not None and len(tab['counters']) > 0:
 			deserializeCounters(tab['counters'], shared)
 		
