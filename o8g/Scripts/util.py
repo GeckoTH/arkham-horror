@@ -34,8 +34,9 @@ def deserializePile(pileData, group, who = me):
 	else:
 		for c in pileData:
 			card = group.create(c['model'])
-			if c['Subtype'] != "":
-				card.SubType = c['Subtype']
+			if 'Subtype' in c:
+				if c['Subtype'] != "":
+					card.SubType = c['Subtype']
 
 def deserializeCounters(counters, player):
 	if counters is None or len(counters) == 0:
