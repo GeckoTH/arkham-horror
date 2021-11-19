@@ -842,20 +842,11 @@ def updateBlessCurse():
     cb.markers[Bless] = b
 
 def addBlessCurse(group, isBless, who=me):
-    c = 0
-    b = 0
-
     mute()
     if chaosBag().controller != me:
         remoteCall(chaosBag().controller, "addBlessCurse", [group, isBless, me])
-        return  
-  
-    # Search Seal curse and bless token
-    for card in table:
-        if card.name == "Bless" and card.Subtype == "Sealed":
-            b += 1
-        if card.name == "Curse" and card.Subtype == "Sealed":    
-            c += 1     
+        return
+
     #Find ChaosBag
     cb = None
     for card in table:
@@ -870,7 +861,7 @@ def addBlessCurse(group, isBless, who=me):
 
     #check current Tokens in Bag
     updateBlessCurse()
-    if ((cb.markers[Bless] + b >= 10) and isBless) or ((cb.markers[Curse] + c >= 10) and not isBless):
+    if ((cb.markers[Bless] >= 10) and isBless) or ((cb.markers[Curse] >= 10) and not isBless):
         notify("There are only 10 Bless and Curse tokens each allowed.")
         return
 
@@ -1819,7 +1810,6 @@ def sealTokenCard(card, x = 0, y = 0, player = None):
     card.Subtype = 'Sealed'
     card.filter = "#99999999"
     card.controller = player
-    updateBlessCurse()
     notify("{} seals {}.".format(player, card.name))
 
 def sealToken(group, x = 0, y = 0, player = None):
@@ -1847,7 +1837,6 @@ def sealToken(group, x = 0, y = 0, player = None):
     card.Subtype = 'Sealed'
     card.filter = "#99999999"
     card.controller = player
-    updateBlessCurse()
     notify("{} seals {}.".format(player, card.name))
 
 ####### Tarot Deck #######
