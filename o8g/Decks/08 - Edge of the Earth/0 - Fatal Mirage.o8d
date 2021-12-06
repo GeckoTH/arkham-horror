@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="01a82ec2-01a6-4ca6-9a2d-04735d98a7e1">Ethereal Tangle (v. I)</card>
+    <card qty="1" id="fdb14de1-1156-4d18-ab18-e9cef72ae94b">Ethereal Tangle (v. II)</card>
+    <card qty="1" id="754b1174-13b0-4315-be61-cee00223e14c">Ethereal Tangle (v. III)</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="804b06ed-9a6c-4e7d-8dcf-1d63879a919a">Shadow of the Past (v. I)</card>
+    <card qty="1" id="497d70f2-1586-4421-a45b-65268d1f5266">Shadow of the Past (v. II)</card>
+    <card qty="1" id="db13fadd-bbdd-4b9e-81e1-a40744829af4">Shadow of the Past (v. III)</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="b81be006-8014-4888-8acd-bdbff4a6ce06">Horrifying Shade</card>
+    <card qty="3" id="ece2ea62-f6ad-4eec-846e-aea4bf047e36">Evanescent Mist</card>
+    <card qty="3" id="03d4c831-a57b-41d7-8d7c-20eef401b44b">Anamnesis</card>
+    <card qty="2" id="8c2cc935-8757-4991-8efc-efe0750d8544">Primordial Evil</card>
+    <card qty="2" id="0be81780-c1a5-4be7-9de1-7fa218732c81">The Madness Within</card>
+    <card qty="2" id="50827384-6512-4a1e-a6be-6476eb935325">Lost Researcher</card>
+    <card qty="2" id="f9f4bceb-8b22-4cc0-89d1-e58fc310b0c1">Frenzied Explorer</card>
+    <card qty="2" id="0bf7a19c-add3-44a8-8f95-d788dd64e23b">Abandoned to Madness</card>
+    <card qty="2" id="47c87140-b486-4fb2-9a72-ad42d60853b6">Miasmatic Torment</card>
+    <card qty="2" id="f2f4dc96-1c90-4f08-b477-57da16908d36">Nebulous Miasma</card>
+    <card qty="2" id="68ab0df2-8972-468e-a645-0f3569ced61d">Blasphemous Visions</card>
+    <card qty="2" id="5c4251a2-5517-441a-b024-61accf78a11c">Glimpse the Unspeakable</card>
+    <card qty="2" id="42002f8d-6b09-4bb8-9422-938037ce812d">Nightmarish Vapors</card>
+    <card qty="2" id="8c008260-3c65-4989-9667-ec63de14f303">Polar Mirage</card>
+    <card qty="3" id="4c4cfcf5-99de-49e5-923c-42634c7107e9">Dark Aurora</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="0ff278ff-e7f7-4b7d-accd-9e161eb98d68">Frost</card>
+    <card qty="1" id="b819df59-4863-46b1-b79a-0498695aa64f">Professor William Dyer</card>
+    <card qty="1" id="3c960fba-b17c-4c23-8fef-5edb40fe6cdb">Danforth</card>
+    <card qty="1" id="b72cfd3d-fe06-4952-afd4-0c700c28b1c2">Eliyah Ashevak</card>
+    <card qty="1" id="c939e391-df63-4833-b5e4-b6504b594e67">Dr. Mala Sinha</card>
+    <card qty="1" id="860a606b-94c5-49d4-807e-53cd26be0363">Avery Claypool</card>
+    <card qty="1" id="e2a51143-7b37-4823-b075-7b7cfb51f27b">James "Cookie" Fredericks</card>
+    <card qty="1" id="adec2399-e1f7-4347-a0a8-e59019c0b9e3">Dr. Amy Kensler</card>
+    <card qty="1" id="74607a1b-4c89-4107-ac15-894192592ad4">Roald Ellsworth</card>
+    <card qty="1" id="017afea9-17d3-461d-b914-d426ac6370d5">Takada Hiroko</card>
+    <card qty="1" id="fabc7a03-b2e8-4886-afd5-67f74d10787a">Professor William Dyer</card>
+    <card qty="1" id="f7532df3-210f-4238-8899-b88334380e10">Danforth</card>
+    <card qty="1" id="e17d8e96-8900-4381-a3d2-2c33f904913b">Eliyah Ashevak</card>
+    <card qty="1" id="4d3b4f08-980d-4a98-b9de-3d0c84a058cf">Dr. Mala Sinha</card>
+    <card qty="1" id="825ca429-7c8f-4d49-a341-fc0d2b558282">Avery Claypool</card>
+    <card qty="1" id="302253ec-d5d1-42e9-8a62-6fd874f75c6a">James "Cookie" Fredericks</card>
+    <card qty="1" id="ec63f12b-22e8-46c5-b5d9-25952a42b937">Dr. Amy Kensler</card>
+    <card qty="1" id="7e3cf564-080d-45c7-8ef2-fe235aefd601">Roald Ellsworth</card>
+    <card qty="1" id="63f6a083-f2d9-4b1c-b592-e9ef0827f6a1">Takada Hiroko</card>
+    <card qty="1" id="beef0279-aed5-4eca-8d4d-b8d2f81041cb">Base Camp</card>
+    <card qty="1" id="fba0d5d4-f2fb-4f2c-a67c-0c980a458411">Deck of the Theodosia</card>
+    <card qty="1" id="b45f4a74-3480-4fc2-b4c3-029f951e64ed">University Halls</card>
+    <card qty="1" id="f2aebc06-50c3-464e-9ba0-febc66532dd3">Hedge Maze</card>
+    <card qty="1" id="031cd983-7146-4d61-8458-0508ddcbe4c9">Deserted Station</card>
+    <card qty="1" id="cd56a114-21d6-43b7-945e-0c15054b16c5">Coastal Waters</card>
+    <card qty="1" id="443d27ec-5293-4a89-bc5d-f293bb074f01">Elder Chamber</card>
+    <card qty="1" id="d7b93661-de87-4377-b995-ba61de760924">Riverview Theatre</card>
+    <card qty="1" id="20852103-1242-4682-8687-d349e200fbd6">Standing Stones</card>
+    <card qty="1" id="03bfb1c4-3c0f-48e6-ad26-1e08307bb8e3">Airfield</card>
+    <card qty="1" id="bb528665-b8b8-4828-8ed9-5cdb4cc2f310">Alaskan Wilds</card>
+    <card qty="1" id="9afe5895-0b15-47eb-9b23-62240b90ad69">Cluttered Dormitory</card>
+    <card qty="1" id="e8c48cf3-f8b4-40e6-ba98-37d990004092">Dyer's Classroom</card>
+    <card qty="1" id="54e74efc-51fc-4282-b1ef-57bd5b57ccbc">Infirmary</card>
+    <card qty="1" id="92457484-653e-4859-b7fb-9c700d5651aa">Dr. Kensler's Office</card>
+    <card qty="1" id="04eb6525-62e1-4bb2-8108-b51bfcdf5e37">Mo'ai Statues</card>
+    <card qty="1" id="ea303408-0ba1-4658-8969-db96dae2bda8">Ottoman Front</card>
+    <card qty="1" id="13bd6acf-2007-4f14-b4c6-a1da150ddd58">The Black Stone</card>
+    <card qty="1" id="8cbe0b81-994f-43fc-826a-04ce34e5c5c0">Memory of a Hunt Gone Awry</card>
+    <card qty="1" id="f14c2df6-b696-4cce-89f2-426671ac7cda">Memory of a Lost Patient</card>
+    <card qty="1" id="da62e71f-a4fd-4be7-8df8-d8e5e1ffb400">Memory of a Missing Father</card>
+    <card qty="1" id="e9db623b-4b00-430d-ab98-9c342053a6fc">Memory of a Ravaged Country</card>
+    <card qty="1" id="0340a066-e1c4-47e8-8095-7a794c7b2501">Memory of a Regretful Voyage</card>
+    <card qty="1" id="bffd2b39-99cd-4e4e-ad09-edfcbe020e29">Memory of an Unspeakable Evil</card>
+    <card qty="1" id="59f3e9fd-b4a4-429f-8e9e-f443c176ce1b">Memory of a Terrible Discovery</card>
+    <card qty="1" id="a6559de0-5d3c-4df7-825a-4edb03b7ac0d">Memory of an Alien Translation</card>
+    <card qty="1" id="f0824eef-5fd7-4828-8bda-599503a535c1">Memory of an Unrequited Love</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="16e7a747-e1ba-42a8-b7fe-1d8da3335258">Fatal Mirage</card>
+    <card qty="1" id="20cb1b2c-eee7-4a58-a41e-2c52e53579e6">Prison of Memories</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

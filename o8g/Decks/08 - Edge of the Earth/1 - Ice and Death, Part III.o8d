@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="6f6c1823-e596-4945-bae5-e3e16f5660c6">Manifestations of Evil</card>
+    <card qty="1" id="cfdae839-c618-4395-a02a-018483b8aa08">Icy Depths</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="33908c51-5bba-438f-841a-637afcf0be96">Under Attack!</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="233b5f0d-e335-40b4-ae58-4e737917d664">Apeirophobia</card>
+    <card qty="2" id="bf151ba3-4b82-453c-bab8-7098c569b8d5">Zero Visibility</card>
+    <card qty="2" id="eed5503a-6581-401a-a171-ab6c257c79e9">Antarctic Wind</card>
+    <card qty="2" id="1477f90a-39b9-4f1c-a9ff-17175e8e35c9">Whiteout</card>
+    <card qty="2" id="ea83e404-32f1-44c7-b224-ea15955d8d6b">Portal Vortex</card>
+    <card qty="3" id="5e083598-152c-43be-9a5a-42f3a6ff9e8d">Ice Shaft</card>
+    <card qty="2" id="3786a8b7-c5ad-4a2f-816d-0bf02807abe7">Through the Ice</card>
+    <card qty="2" id="8c008260-3c65-4989-9667-ec63de14f303">Polar Mirage</card>
+    <card qty="3" id="4c4cfcf5-99de-49e5-923c-42634c7107e9">Dark Aurora</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="b9f5938a-906d-4064-99bb-3bc25055690e">Kindred Mist</card>
+    <card qty="2" id="cee43a3c-35c7-4c7d-b6d8-f331f925a935">Phantasmagoria</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="3" id="f86a8105-0d71-441b-ac1c-59e00fd8cf23">Skittering Nonsense</card>
+    <card qty="3" id="b88c5a21-0627-44e4-bbe3-0e4821e94baf">Manifestation of Madness</card>
+    <card qty="2" id="5016bb93-7532-4411-ab9a-a796bfef90cf">Glacial Phantasm</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="13be5676-f87d-49a9-b7a4-a98d438e0c66">Ice and Death</card>
+    <card qty="1" id="0ff278ff-e7f7-4b7d-accd-9e161eb98d68">Frost</card>
+    <card qty="1" id="b819df59-4863-46b1-b79a-0498695aa64f">Professor William Dyer</card>
+    <card qty="1" id="3c960fba-b17c-4c23-8fef-5edb40fe6cdb">Danforth</card>
+    <card qty="1" id="b72cfd3d-fe06-4952-afd4-0c700c28b1c2">Eliyah Ashevak</card>
+    <card qty="1" id="c939e391-df63-4833-b5e4-b6504b594e67">Dr. Mala Sinha</card>
+    <card qty="1" id="860a606b-94c5-49d4-807e-53cd26be0363">Avery Claypool</card>
+    <card qty="1" id="e2a51143-7b37-4823-b075-7b7cfb51f27b">James "Cookie" Fredericks</card>
+    <card qty="1" id="adec2399-e1f7-4347-a0a8-e59019c0b9e3">Dr. Amy Kensler</card>
+    <card qty="1" id="74607a1b-4c89-4107-ac15-894192592ad4">Roald Ellsworth</card>
+    <card qty="1" id="017afea9-17d3-461d-b914-d426ac6370d5">Takada Hiroko</card>
+    <card qty="1" id="d1f481f6-63f5-4e2d-a930-dba511be0d4b">Crash Site</card>
+    <card qty="1" id="aa22adc3-3dfd-4de8-a005-5f8a9b0298f9">Precarious Ice Sheet</card>
+    <card qty="1" id="367fde15-46b5-4160-bfee-2d9e5ade1c8e">Treacherous Path</card>
+    <card qty="1" id="d7407469-77b0-4384-95d2-e0d022a3fdc1">Frozen Shores</card>
+    <card qty="1" id="98701dd6-e698-40e5-8fd1-c4838190e700">Broad Snowdrifts</card>
+    <card qty="1" id="5b9e4305-200a-4b5c-bda8-9ee4e8437c8e">Icy Wastes</card>
+    <card qty="1" id="52a312d4-a8f0-4706-bd6f-d86d0806a96c">Rocky Crags</card>
+    <card qty="1" id="0f734159-37f7-486a-97c4-265d8fd088c0">Snow Graves</card>
+    <card qty="1" id="645e031c-4b67-4c57-b3ef-b5db9ed07858">Icebreaker Landing</card>
+    <card qty="1" id="8bbd3bbe-7ca2-409e-ae98-b3304fc876de">Frigid Cave</card>
+    <card qty="1" id="a9a3947a-6270-48dd-8aa1-0299deaaea12">Barrier Camp</card>
+    <card qty="1" id="e52a5593-18ee-4dff-add9-e0efe0d9d479">Remnants of Lake's Camp</card>
+    <card qty="1" id="773e89c0-eb37-4825-bd0f-607633799989">Crystalline Cavern</card>
+    <card qty="4" id="9e7b0ad1-9fc1-4061-8f31-0497fad74979">Seeping Nightmare</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

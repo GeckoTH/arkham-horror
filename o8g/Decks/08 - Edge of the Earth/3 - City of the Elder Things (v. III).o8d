@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="de58597f-518c-4e88-8185-c130649c1e48">Lurking Horrors</card>
+    <card qty="1" id="26344cb8-e686-4e58-ac77-f11a35fdc789">Doom from Below</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="5ed71642-8d23-42de-9ea5-3c9ea2e8f1ab">Sprawling City (v. III)</card>
+    <card qty="1" id="8e57d5c4-cebf-4fd8-8175-2febf2926e1e">Pursuit of the Unknown (v. III)</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="b28e0c90-b6ef-441e-9012-4e2c2fb24414">Benign Elder Thing</card>
+    <card qty="3" id="5431b949-bb65-46dc-94b6-ba505a3a07a4">Dawning of the Truth</card>
+    <card qty="3" id="294c045c-89fc-4c6e-825a-720cec675334">Crumbling Ruins</card>
+    <card qty="3" id="b88c5a21-0627-44e4-bbe3-0e4821e94baf">Manifestation of Madness</card>
+    <card qty="2" id="5016bb93-7532-4411-ab9a-a796bfef90cf">Glacial Phantasm</card>
+    <card qty="2" id="b9f5938a-906d-4064-99bb-3bc25055690e">Kindred Mist</card>
+    <card qty="2" id="cd02b453-7b4f-490a-b569-89efc071e3ee">Giant Albino Penguin</card>
+    <card qty="2" id="7113894d-c73b-44ae-8daa-de76cfc73ab7">Wuk! Wuk! Wuk!</card>
+    <card qty="2" id="47c87140-b486-4fb2-9a72-ad42d60853b6">Miasmatic Torment</card>
+    <card qty="2" id="f2f4dc96-1c90-4f08-b477-57da16908d36">Nebulous Miasma</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="b9d75fa5-e823-4e14-9e8b-3c2f459b5702">City Landscape</card>
+    <card qty="3" id="91113822-3cea-4253-a8b6-023c7f6d5793">City Landscape</card>
+    <card qty="1" id="0e92b2e1-fcb4-4e93-8aff-b29c270e2e6a">City Landscape</card>
+    <card qty="2" id="934d85e2-3626-49fe-9ba9-26f1194478d8">City Landscape</card>
+    <card qty="1" id="52cc40f2-5c93-49d1-8b28-da161f9355e6">City Landscape</card>
+    <card qty="1" id="0db60949-aadf-4586-a439-7dbafdc24625">City Landscape</card>
+    <card qty="2" id="eeadd1f2-226a-4b4b-8bcc-a69f1ded0548">City Landscape</card>
+    <card qty="1" id="1071ca93-2d3b-41e6-94d0-f52a0cf19f3b">City Landscape</card>
+    <card qty="2" id="ee2e2366-9c0c-4328-88ab-63913bde0f2a">City Landscape</card>
+    <card qty="2" id="43abab35-19d4-4e87-b0d1-d1cbbcfbd901">City Landscape</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="0ff278ff-e7f7-4b7d-accd-9e161eb98d68">Frost</card>
+    <card qty="4" id="55d59e6b-b086-49fd-92bf-0177c080b2ea">Frostbitten</card>
+    <card qty="4" id="4abec6a2-a534-4756-a176-bb365c619306">Possessed</card>
+    <card qty="1" id="b819df59-4863-46b1-b79a-0498695aa64f">Professor William Dyer</card>
+    <card qty="1" id="3c960fba-b17c-4c23-8fef-5edb40fe6cdb">Danforth</card>
+    <card qty="1" id="b72cfd3d-fe06-4952-afd4-0c700c28b1c2">Eliyah Ashevak</card>
+    <card qty="1" id="c939e391-df63-4833-b5e4-b6504b594e67">Dr. Mala Sinha</card>
+    <card qty="1" id="860a606b-94c5-49d4-807e-53cd26be0363">Avery Claypool</card>
+    <card qty="1" id="e2a51143-7b37-4823-b075-7b7cfb51f27b">James "Cookie" Fredericks</card>
+    <card qty="1" id="adec2399-e1f7-4347-a0a8-e59019c0b9e3">Dr. Amy Kensler</card>
+    <card qty="1" id="74607a1b-4c89-4107-ac15-894192592ad4">Roald Ellsworth</card>
+    <card qty="1" id="017afea9-17d3-461d-b914-d426ac6370d5">Takada Hiroko</card>
+    <card qty="1" id="fabc7a03-b2e8-4886-afd5-67f74d10787a">Professor William Dyer</card>
+    <card qty="1" id="f7532df3-210f-4238-8899-b88334380e10">Danforth</card>
+    <card qty="1" id="e17d8e96-8900-4381-a3d2-2c33f904913b">Eliyah Ashevak</card>
+    <card qty="1" id="4d3b4f08-980d-4a98-b9de-3d0c84a058cf">Dr. Mala Sinha</card>
+    <card qty="1" id="825ca429-7c8f-4d49-a341-fc0d2b558282">Avery Claypool</card>
+    <card qty="1" id="302253ec-d5d1-42e9-8a62-6fd874f75c6a">James "Cookie" Fredericks</card>
+    <card qty="1" id="ec63f12b-22e8-46c5-b5d9-25952a42b937">Dr. Amy Kensler</card>
+    <card qty="1" id="7e3cf564-080d-45c7-8ef2-fe235aefd601">Roald Ellsworth</card>
+    <card qty="1" id="63f6a083-f2d9-4b1c-b592-e9ef0827f6a1">Takada Hiroko</card>
+    <card qty="2" id="010123b4-9463-4689-bdc1-bd11e4115786">Forgotten Shoggoth</card>
+    <card qty="1" id="677ab147-eef1-4ad6-8c49-16f773b36c57">Rampaging Shoggoth</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="463e7f4f-d856-4498-b34d-8adc51f7dbf0">City of the Elder Things</card>
+    <card qty="1" id="0b129c63-eb74-4210-a29b-795847f7fe9d">Hidden Tunnel</card>
+    <card qty="2" id="49d18b2f-a191-4569-9ce4-06a5bdd33bf6">Skull</card>
+    <card qty="2" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
+    <card qty="2" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>
+    <card qty="3" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
+    <card qty="2" id="35137ccc-db2b-4fdd-b0a8-a5d91f453a43">0</card>
+    <card qty="2" id="c74d422c-d209-48c9-bc5a-caacb8c8b402">-1</card>
+    <card qty="2" id="92df60c3-7d56-4e2d-99e2-c0e7e0d9994a">-2</card>
+    <card qty="2" id="eac1c4b1-43ac-49d9-b2ac-55c3b1340bd8">-3</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

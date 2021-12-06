@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True" />
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True">
+    <card qty="3" id="8a69bc8c-7435-4350-818e-9608ba0aef39">Tekeli-li</card>
+    <card qty="3" id="c4a1a54a-8c5d-422b-9b05-52590b08523d">Tekeli-li</card>
+    <card qty="2" id="7ba8710d-40c7-413f-a256-6dccc9f594eb">Tekeli-li</card>
+    <card qty="2" id="c44b803a-f7b0-4fff-b3ba-63336574360c">Tekeli-li</card>
+    <card qty="2" id="68769c7d-2edd-4424-b297-6839b83690ff">Tekeli-li</card>
+    <card qty="2" id="97442004-59dd-4996-bcc6-2c0e440f4fb3">Tekeli-li</card>
+    <card qty="2" id="5623e387-cfcd-4085-bc22-6cdb5e92bd96">Tekeli-li</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
