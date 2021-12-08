@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.4.286.0"
 	scriptVersion ="3.1.0.2"
-	version="1.8.1.0"
+	version="1.8.0.1"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -22,7 +22,6 @@
 		<script src="scripts/bonded.py" />
 		<script src="scripts/sound.py" />
 		<script src="scripts/setupHelper.py" />
-		<script src="scripts/card_automation.py" />
 	</scripts>
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
@@ -102,7 +101,6 @@
 		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
 		<size name="KeyToken" width="30" height="30" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="30" backHeight="30" />
 		<size name="ResourceToken" width="20" height="20" back="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" front="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" cornerRadius="4" backWidth="20" backHeight="20" />
-		<size name="SealToken" width="30" height="55" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="30" backHeight="55" />
 	    <size name="LongPath" width="140" height="20" back="cards/card.jpg" front="cards/card.jpg" />
 	    <size name="MediumPath" width="70" height="20" back="cards/card.jpg" front="cards/card.jpg" />
 	    <size name="ShortPath" width="35" height="20" back="cards/card.jpg" front="cards/card.jpg" />
@@ -175,9 +173,6 @@
 			<groupaction menu="Save Table State..." default="False" execute="saveManual" />
 			<groupaction menu="Load Table State..." default="False" execute="loadManual" />
 			<groupaction menu="Restore last Auto Save..." default="False" execute="restoreSave" />
-			<groupseparator />
-			<groupaction menu="Save Chaos Bag..." default="False" execute="saveChaosBag" />
-			<groupaction menu="Load Chaos Bag..." default="False" execute="loadChaosBag" />
 		</groupactions>
 		
 		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
@@ -205,11 +200,7 @@
 		<cardaction menu="Flip Card" default="False" shortcut="ctrl+F" execute="flipcard" />
 		<cardaction menu="Discard" default="False" shortcut="Del" execute="discard" />
 		<cardaction menu="Discard to Special Discard" default="False" shortcut="shift+Del" execute="discardSpecial" />
-		<cardactions menu="Shuffle Into">
-				<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
-				<cardaction menu="Shuffle into Top" default="False" execute="shuffleIntoTop" />
-				<cardaction menu="Shuffle into Bottom" default="False" execute="shuffleIntoBottom" />
-		</cardactions>
+		<cardaction menu="Shuffle into Deck" default="False" execute="shuffleIntoDeck" />
 		<cardaction menu="Lock" default="False" shortcut="ctrl+K" execute="lockCard" />
 		<cardaction menu="Double Click" default="True" execute="defaultAction" />
 		<cardaction menu="Seal Token" default="False" execute="sealTokenCard" />
@@ -352,8 +343,6 @@
 		</group>
 		<group name="Setup" visibility="all" ordered="True" icon="groups/encounterS.png" collapsed="True">
 		</group>
-		<group name="Temporary Shuffle" visibility="all" icon="groups/player-sideboard.png" collapsed="True">
-		</group>	
 	</shared>
 	<deck>
 		<section name="Investigator" group="Hand" />
@@ -374,6 +363,5 @@
 		<section name="Second Special" group="2nd Special" />
 		<section name="Chaos Bag" group="Chaos Bag" />
 		<section name="Setup" group="Setup" />
-		<section name="Temporary Shuffle" group="Temporary Shuffle" />
 	</sharedDeck>
 </game>

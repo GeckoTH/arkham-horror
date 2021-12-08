@@ -842,20 +842,11 @@ def updateBlessCurse():
     cb.markers[Bless] = b
 
 def addBlessCurse(group, isBless, who=me):
-    c = 0
-    b = 0
-
     mute()
     if chaosBag().controller != me:
         remoteCall(chaosBag().controller, "addBlessCurse", [group, isBless, me])
-        return  
-  
-    # Search Seal curse and bless token
-    for card in table:
-        if card.name == "Bless" and card.Subtype == "Sealed":
-            b += 1
-        if card.name == "Curse" and card.Subtype == "Sealed":    
-            c += 1     
+        return
+
     #Find ChaosBag
     cb = None
     for card in table:
@@ -870,7 +861,7 @@ def addBlessCurse(group, isBless, who=me):
 
     #check current Tokens in Bag
     updateBlessCurse()
-    if ((cb.markers[Bless] + b >= 10) and isBless) or ((cb.markers[Curse] + c >= 10) and not isBless):
+    if ((cb.markers[Bless] >= 10) and isBless) or ((cb.markers[Curse] >= 10) and not isBless):
         notify("There are only 10 Bless and Curse tokens each allowed.")
         return
 
@@ -1516,44 +1507,6 @@ def shuffleIntoDeck(card, x=0, y=0, player=me):
     else:
         doMoveShuffle(me, card, pile)
         
-def shuffleIntoTop(card, x=0, y=0, player=me, group = None, count = None):
-    mute()
-    if count is None:
-        count = askInteger("Shuffle into top x cards ?", 3)
-    if group is None:
-        if isLocationCard(card):
-            group = locationDeck()
-        elif isEncounterCard(card):
-            group = encounterDeck()
-        else:
-            group = card.owner.deck
-    notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, card, group.name, count))
-    card.moveTo(shared.piles['Temporary Shuffle'])
-    for c in group.top(count):
-        c.moveTo(shared.piles['Temporary Shuffle'])
-    shuffle(shared.piles['Temporary Shuffle'])
-    for c in shared.piles['Temporary Shuffle']:
-        c.moveTo(group)
-
-def shuffleIntoBottom(card, x=0, y=0, player=me, group = None, count = None):
-    mute()
-    if count is None:
-        count = askInteger("Shuffle into bottom x cards ?", 3)
-    if group is None:
-        if isLocationCard(card):
-            group = locationDeck()
-        elif isEncounterCard(card):
-            group = encounterDeck()
-        else:
-            group = card.owner.deck
-    notify("{} shuffles '{}' into '{}' bottom '{}' cards.".format(me, card, group.name, count))
-    card.moveTo(shared.piles['Temporary Shuffle'])
-    for c in group.bottom(count):
-        c.moveTo(shared.piles['Temporary Shuffle'])
-    shuffle(shared.piles['Temporary Shuffle'])
-    for c in shared.piles['Temporary Shuffle']:
-        c.moveToBottom(group)          
-        
 def doMoveShuffle(player, card, pile):
     mute()
     card.moveTo(pile)
@@ -1863,7 +1816,6 @@ def sealTokenCard(card, x = 0, y = 0, player = None):
     card.Subtype = 'Sealed'
     card.filter = "#99999999"
     card.controller = player
-    updateBlessCurse()
     notify("{} seals {}.".format(player, card.name))
 
 def sealToken(group, x = 0, y = 0, player = None):
@@ -1891,7 +1843,6 @@ def sealToken(group, x = 0, y = 0, player = None):
     card.Subtype = 'Sealed'
     card.filter = "#99999999"
     card.controller = player
-    updateBlessCurse()
     notify("{} seals {}.".format(player, card.name))
 
 ####### Tarot Deck #######
