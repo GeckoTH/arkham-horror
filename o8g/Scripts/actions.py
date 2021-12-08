@@ -1173,49 +1173,6 @@ def toggleLock(group, x=0, y=0):
         if len(me.deck) > 0:
             lockCard(me.deck.top())
         notify("{} Locks his deck".format(me))
-    
-#---------------------------------------------------------------------------
-# Table card actions
-#---------------------------------------------------------------------------
-
-def defaultAction(card, x = 0, y = 0):
-    mute()
-    # Default for Done button is playerDone
-    if not card.isFaceUp: #Face down card - flip
-        flipcard(card, x, y)
-    elif card.Type == "Path": # Action handled in OnCardDoubleClicked
-        # Do nothing
-        mute()
-    elif card.orientation & Rot90 == Rot90: #Rotated card - refresh
-        exhaust(card, x, y)
-    elif card.Type == "Agenda":
-        addDoom(card, x, y)
-    elif card.Type == "Act":
-        addClue(card, x, y)
-    elif card.Type == "Location": #Add a progress token
-        flipcard(card, x, y)
-    elif card.Type == "Enemy": #Add damage
-        addDamage(card, x, y)
-    elif card.Type == "Chaos Bag": # Action handled in OnCardDoubleClicked
-        # Do nothing
-        mute()
-    elif card.Type == "Chaos Token": # Action handled in OnCardDoubleClicked
-        # Do nothing
-        mute()
-    elif card.Type == "Encounter Draw" or card.Type == "Encounter2 Draw": # Action handled in OnCardDoubleClicked
-        # Do nothing
-        mute()
-    elif card.Type == "nextAct" or card.Type == "nextAgenda": # Action handled in OnCardDoubleClicked
-        # Do nothing
-        mute()
-    elif card.Type == "Mini": #Add action token
-        addToken(card, Action)
-    elif card.Type == "Campaign": #Add a progress token
-        flipcard(card, x, y)
-    elif card.Name == "Flood Token": #Flip flood token
-        flipcard(card, x, y)
-    else:
-        exhaust(card, x, y)
         
 def exhaust(card, x = 0, y = 0):
     mute()
