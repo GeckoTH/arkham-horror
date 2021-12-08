@@ -379,56 +379,56 @@
         <property name="Text" value="(–&gt;R1)" />
       </alternate>
     </card>
-    <card id="c0f04ee0-d9bd-4b98-828e-6ff67bcdfc11" name="Dead End">
+    <card id="c0f04ee0-d9bd-4b98-828e-6ff67bcdfc11" name="Dead End" size="EncounterCard">
       <property name="Card Number" value="27" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Lost in the Night" />
       <property name="Type" value="Story" />
       <property name="Text" value="Remove 1 [Frost] token from the chaos bag.&#10;Add this story card to the victory display.&#10;Victory 0.&#10;" />
     </card>
-    <card id="dcc48a17-70c7-4fe8-adb0-e3b149f4e6c5" name="Cracks in the Ice">
+    <card id="dcc48a17-70c7-4fe8-adb0-e3b149f4e6c5" name="Cracks in the Ice" size="EncounterCard">
       <property name="Card Number" value="28" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Lost in the Night" />
       <property name="Type" value="Story" />
       <property name="Text" value="Search your deck for a copy of Tekeli-li and place it on the bottom of the Tekeli-li deck without resolving it. Shuffle your deck.&#10;Add this story card to the victory display.&#10;Victory 0.&#10;" />
     </card>
-    <card id="37efdc62-c3ca-4640-8fc8-2ecf6c9f532b" name="Somber Remains">
+    <card id="37efdc62-c3ca-4640-8fc8-2ecf6c9f532b" name="Somber Remains" size="EncounterCard">
       <property name="Card Number" value="29" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Lost in the Night" />
       <property name="Type" value="Story" />
       <property name="Text" value="Search the top 9 cards of your deck for each copy of Tekeli-li and place each one you find on the bottom of the Tekeli-li deck without resolving it. Shuffle your deck.&#10;Add this story card to the victory display.&#10;Victory 0." />
     </card>
-    <card id="81d47354-4015-46fc-979e-05d9a16d2763" name="Disappearing Footprints">
+    <card id="81d47354-4015-46fc-979e-05d9a16d2763" name="Disappearing Footprints" size="EncounterCard">
       <property name="Card Number" value="30" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Lost in the Night" />
       <property name="Type" value="Story" />
       <property name="Text" value="Remove 1 [Frost] token from the chaos bag.&#10;Add this story card to the victory display.&#10;Victory 0." />
     </card>
-    <card id="58825210-4ba9-4f30-9a66-9a3b5af0efbb" name="Dissected Explorer">
+    <card id="58825210-4ba9-4f30-9a66-9a3b5af0efbb" name="Dissected Explorer" size="EncounterCard">
       <property name="Card Number" value="31" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Lost in the Night" />
       <property name="Type" value="Story" />
       <property name="Text" value="Search your deck for a copy of Tekeli-li and place it on the bottom of the Tekeli-li deck without resolving it. Shuffle your deck.&#10;Add this story card to the victory display.&#10;Victory 0." />
     </card>
-    <card id="99ec0cd8-6e53-4994-865b-7fb5f214dd3d" name="Evil Within">
+    <card id="99ec0cd8-6e53-4994-865b-7fb5f214dd3d" name="Evil Within" size="EncounterCard">
       <property name="Card Number" value="32" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Lost in the Night" />
       <property name="Type" value="Story" />
       <property name="Text" value="Discard an Eidolon enemy that does not have the Elite trait from play.&#10;Add this story card to the victory display.&#10;Victory 0." />
     </card>
-    <card id="0695010f-0c10-4982-9ea0-dcbd9e9594c1" name="Bloody Evidence">
+    <card id="0695010f-0c10-4982-9ea0-dcbd9e9594c1" name="Bloody Evidence" size="EncounterCard">
       <property name="Card Number" value="33" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Lost in the Night" />
       <property name="Type" value="Story" />
       <property name="Text" value="Search the top 9 cards of your deck for each copy of Tekeli-li and place each one you find on the bottom of the Tekeli-li deck without resolving it. Shuffle your deck.&#10;Add this story card to the victory display.&#10;Victory 0." />
     </card>
-    <card id="f8621699-917f-4a9e-a40a-c7cf3b26f8a7" name="Madness Inside">
+    <card id="f8621699-917f-4a9e-a40a-c7cf3b26f8a7" name="Madness Inside" size="EncounterCard">
       <property name="Card Number" value="34" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Lost in the Night" />
@@ -2749,7 +2749,7 @@
       <property name="Traits" value="Hazard." />
       <property name="Text" value="Revelation – Attach to your location.&#10;Each investigator at attached location gets –1 ά, –1 έ, –1 ή, and –1 ί.&#10;Forced – At the end of the round: Discard Whiteout.&#10;" />
     </card>
-    <card id="ea83e404-32f1-44c7-b224-ea15955d8d6b" name="Portal Vortex" size="EncounterCard">
+    <card id="ea83e404-32f1-44c7-b224-ea15955d8d6b" name="Polar Vortex" size="EncounterCard">
       <property name="Card Number" value="194" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Deadly Weather" />
@@ -3089,7 +3089,7 @@
       <property name="Unique" value="ο" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="8a69bc8c-7435-4350-818e-9608ba0aef39" name="Tekeli-li" size="EncounterCard">
+    <card id="8a69bc8c-7435-4350-818e-9608ba0aef39" name="Tekeli-li">
       <property name="Card Number" value="223" />
       <property name="Quantity" value="3" />
       <property name="Encounter Set" value="Tekeli-li" />
@@ -3098,7 +3098,7 @@
       <property name="Traits" value="Madness." />
       <property name="Text" value="Revelation – Take 1 horror. Place Tekeli-li on the bottom of the Tekeli-li deck." />
     </card>
-    <card id="c4a1a54a-8c5d-422b-9b05-52590b08523d" name="Tekeli-li" size="EncounterCard">
+    <card id="c4a1a54a-8c5d-422b-9b05-52590b08523d" name="Tekeli-li">
       <property name="Card Number" value="224" />
       <property name="Quantity" value="3" />
       <property name="Encounter Set" value="Tekeli-li" />
@@ -3107,7 +3107,7 @@
       <property name="Traits" value="Madness." />
       <property name="Text" value="Revelation – Take 1 damage. Place Tekeli-li on the bottom of the Tekeli-li deck." />
     </card>
-    <card id="7ba8710d-40c7-413f-a256-6dccc9f594eb" name="Tekeli-li" size="EncounterCard">
+    <card id="7ba8710d-40c7-413f-a256-6dccc9f594eb" name="Tekeli-li">
       <property name="Card Number" value="225" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Tekeli-li" />
@@ -3116,7 +3116,7 @@
       <property name="Traits" value="Madness." />
       <property name="Text" value="Revelation – Discard 1 card at random from your hand. Place Tekeli-li on the bottom of the Tekeli-li deck." />
     </card>
-    <card id="c44b803a-f7b0-4fff-b3ba-63336574360c" name="Tekeli-li" size="EncounterCard">
+    <card id="c44b803a-f7b0-4fff-b3ba-63336574360c" name="Tekeli-li">
       <property name="Card Number" value="226" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Tekeli-li" />
@@ -3125,7 +3125,7 @@
       <property name="Traits" value="Madness." />
       <property name="Text" value="Revelation – Lose 2 resources. Place Tekeli-li on the bottom of the Tekeli-li deck." />
     </card>
-    <card id="68769c7d-2edd-4424-b297-6839b83690ff" name="Tekeli-li" size="EncounterCard">
+    <card id="68769c7d-2edd-4424-b297-6839b83690ff" name="Tekeli-li">
       <property name="Card Number" value="227" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Tekeli-li" />
@@ -3134,7 +3134,7 @@
       <property name="Traits" value="Madness." />
       <property name="Text" value="Revelation – If it is your turn, lose 1 action. Otherwise, lose 1 action during your next tuurn. Place Tekeli-li on the bottom of the Tekeli-li deck." />
     </card>
-    <card id="97442004-59dd-4996-bcc6-2c0e440f4fb3" name="Tekeli-li" size="EncounterCard">
+    <card id="97442004-59dd-4996-bcc6-2c0e440f4fb3" name="Tekeli-li">
       <property name="Card Number" value="228" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Tekeli-li" />
@@ -3143,7 +3143,7 @@
       <property name="Traits" value="Madness." />
       <property name="Text" value="Revelation – Place 1 of your clues on your location. Place Tekeli-li on the bottom of the Tekeli-li deck." />
     </card>
-    <card id="5623e387-cfcd-4085-bc22-6cdb5e92bd96" name="Tekeli-li" size="EncounterCard">
+    <card id="5623e387-cfcd-4085-bc22-6cdb5e92bd96" name="Tekeli-li">
       <property name="Card Number" value="229" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Tekeli-li" />
