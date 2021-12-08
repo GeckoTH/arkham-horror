@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="709a6d78-3ad6-41e0-9dc8-1bdad637e742">A Harsh Wind Blows</card>
+    <card qty="1" id="273cc224-004b-4d65-81ee-bcc2bc612ae2">The Chill of Night</card>
+    <card qty="1" id="7f359eb3-c45e-4ef7-811b-f697da5e259c">Madness and Death</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="88c13893-1ff8-4f50-8308-b2c6202a9976">The Lost Expedition</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="233b5f0d-e335-40b4-ae58-4e737917d664">Apeirophobia</card>
+    <card qty="2" id="bf151ba3-4b82-453c-bab8-7098c569b8d5">Zero Visibility</card>
+    <card qty="3" id="f86a8105-0d71-441b-ac1c-59e00fd8cf23">Skittering Nonsense</card>
+    <card qty="2" id="eed5503a-6581-401a-a171-ab6c257c79e9">Antarctic Wind</card>
+    <card qty="2" id="1477f90a-39b9-4f1c-a9ff-17175e8e35c9">Whiteout</card>
+    <card qty="2" id="ea83e404-32f1-44c7-b224-ea15955d8d6b">Portal Vortex</card>
+    <card qty="3" id="5e083598-152c-43be-9a5a-42f3a6ff9e8d">Ice Shaft</card>
+    <card qty="2" id="3786a8b7-c5ad-4a2f-816d-0bf02807abe7">Through the Ice</card>
+    <card qty="2" id="8c008260-3c65-4989-9667-ec63de14f303">Polar Mirage</card>
+    <card qty="3" id="4c4cfcf5-99de-49e5-923c-42634c7107e9">Dark Aurora</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="50827384-6512-4a1e-a6be-6476eb935325">Lost Researcher</card>
+    <card qty="2" id="f9f4bceb-8b22-4cc0-89d1-e58fc310b0c1">Frenzied Explorer</card>
+    <card qty="2" id="0bf7a19c-add3-44a8-8f95-d788dd64e23b">Abandoned to Madness</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="c0f04ee0-d9bd-4b98-828e-6ff67bcdfc11">Dead End</card>
+    <card qty="1" id="dcc48a17-70c7-4fe8-adb0-e3b149f4e6c5">Cracks in the Ice</card>
+    <card qty="1" id="37efdc62-c3ca-4640-8fc8-2ecf6c9f532b">Somber Remains</card>
+    <card qty="1" id="81d47354-4015-46fc-979e-05d9a16d2763">Disappearing Footprints</card>
+    <card qty="1" id="58825210-4ba9-4f30-9a66-9a3b5af0efbb">Dissected Explorer</card>
+    <card qty="1" id="99ec0cd8-6e53-4994-865b-7fb5f214dd3d">Evil Within</card>
+    <card qty="1" id="0695010f-0c10-4982-9ea0-dcbd9e9594c1">Bloody Evidence</card>
+    <card qty="1" id="f8621699-917f-4a9e-a40a-c7cf3b26f8a7">Madness Inside</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="b26f9f47-0ebc-4d85-9956-543ef46b2afb">Professor William Dyer</card>
+    <card qty="1" id="cc349f17-b0de-4b25-b3d0-9cf037b19ddf">Danforth</card>
+    <card qty="1" id="596595fe-bbfc-4f18-afd3-b9efe216b035">Eliyah Ashevak</card>
+    <card qty="1" id="c8b6846f-0cea-423e-b1ea-56d317ba819a">Dr. Mala Sinha</card>
+    <card qty="1" id="b3fc5893-968c-441e-8b1e-c3801c46b3ae">Avery Claypool</card>
+    <card qty="1" id="41f35e7b-9c75-438d-99e8-8e2a7650a972">James "Cookie" Fredericks</card>
+    <card qty="1" id="3f1dfd99-7a08-4813-b3cc-33594fb4a654">Dr. Amy Kensler</card>
+    <card qty="1" id="cac87ddc-fdc0-42b1-89e9-8b6ba59817e2">Roald Ellsworth</card>
+    <card qty="1" id="bb5aefa2-62b2-4302-a4e4-53b838f2d33a">Takada Hiroko</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="13be5676-f87d-49a9-b7a4-a98d438e0c66">Ice and Death</card>
+    <card qty="1" id="0ff278ff-e7f7-4b7d-accd-9e161eb98d68">Frost</card>
+    <card qty="1" id="b819df59-4863-46b1-b79a-0498695aa64f">Professor William Dyer</card>
+    <card qty="1" id="3c960fba-b17c-4c23-8fef-5edb40fe6cdb">Danforth</card>
+    <card qty="1" id="b72cfd3d-fe06-4952-afd4-0c700c28b1c2">Eliyah Ashevak</card>
+    <card qty="1" id="c939e391-df63-4833-b5e4-b6504b594e67">Dr. Mala Sinha</card>
+    <card qty="1" id="860a606b-94c5-49d4-807e-53cd26be0363">Avery Claypool</card>
+    <card qty="1" id="e2a51143-7b37-4823-b075-7b7cfb51f27b">James "Cookie" Fredericks</card>
+    <card qty="1" id="adec2399-e1f7-4347-a0a8-e59019c0b9e3">Dr. Amy Kensler</card>
+    <card qty="1" id="74607a1b-4c89-4107-ac15-894192592ad4">Roald Ellsworth</card>
+    <card qty="1" id="017afea9-17d3-461d-b914-d426ac6370d5">Takada Hiroko</card>
+    <card qty="1" id="d1f481f6-63f5-4e2d-a930-dba511be0d4b">Crash Site</card>
+    <card qty="1" id="aa22adc3-3dfd-4de8-a005-5f8a9b0298f9">Precarious Ice Sheet</card>
+    <card qty="1" id="367fde15-46b5-4160-bfee-2d9e5ade1c8e">Treacherous Path</card>
+    <card qty="1" id="d7407469-77b0-4384-95d2-e0d022a3fdc1">Frozen Shores</card>
+    <card qty="1" id="98701dd6-e698-40e5-8fd1-c4838190e700">Broad Snowdrifts</card>
+    <card qty="1" id="5b9e4305-200a-4b5c-bda8-9ee4e8437c8e">Icy Wastes</card>
+    <card qty="1" id="52a312d4-a8f0-4706-bd6f-d86d0806a96c">Rocky Crags</card>
+    <card qty="1" id="0f734159-37f7-486a-97c4-265d8fd088c0">Snow Graves</card>
+    <card qty="1" id="645e031c-4b67-4c57-b3ef-b5db9ed07858">Icebreaker Landing</card>
+    <card qty="1" id="8bbd3bbe-7ca2-409e-ae98-b3304fc876de">Frigid Cave</card>
+    <card qty="1" id="a9a3947a-6270-48dd-8aa1-0299deaaea12">Barrier Camp</card>
+    <card qty="1" id="e52a5593-18ee-4dff-add9-e0efe0d9d479">Remnants of Lake's Camp</card>
+    <card qty="1" id="773e89c0-eb37-4825-bd0f-607633799989">Crystalline Cavern</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
