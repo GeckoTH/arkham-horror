@@ -175,6 +175,9 @@
 			<groupaction menu="Save Table State..." default="False" execute="saveManual" />
 			<groupaction menu="Load Table State..." default="False" execute="loadManual" />
 			<groupaction menu="Restore last Auto Save..." default="False" execute="restoreSave" />
+			<groupseparator />
+			<groupaction menu="Save Chaos Bag..." default="False" execute="saveChaosBag" />
+			<groupaction menu="Load Chaos Bag..." default="False" execute="loadChaosBag" />
 		</groupactions>
 		
 		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
