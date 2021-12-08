@@ -1467,6 +1467,44 @@ def shuffleIntoDeck(card, x=0, y=0, player=me):
     else:
         doMoveShuffle(me, card, pile)
         
+def shuffleIntoTop(card, x=0, y=0, player=me, group = None, count = None):
+    mute()
+    if count is None:
+        count = askInteger("Shuffle into top x cards ?", 3)
+    if group is None:
+        if isLocationCard(card):
+            group = locationDeck()
+        elif isEncounterCard(card):
+            group = encounterDeck()
+        else:
+            group = card.owner.deck
+    notify("{} shuffles '{}' into '{}' top '{}' cards.".format(me, card, group.name, count))
+    card.moveTo(shared.piles['Temporary Shuffle'])
+    for c in group.top(count):
+        c.moveTo(shared.piles['Temporary Shuffle'])
+    shuffle(shared.piles['Temporary Shuffle'])
+    for c in shared.piles['Temporary Shuffle']:
+        c.moveTo(group)
+
+def shuffleIntoBottom(card, x=0, y=0, player=me, group = None, count = None):
+    mute()
+    if count is None:
+        count = askInteger("Shuffle into bottom x cards ?", 3)
+    if group is None:
+        if isLocationCard(card):
+            group = locationDeck()
+        elif isEncounterCard(card):
+            group = encounterDeck()
+        else:
+            group = card.owner.deck
+    notify("{} shuffles '{}' into '{}' bottom '{}' cards.".format(me, card, group.name, count))
+    card.moveTo(shared.piles['Temporary Shuffle'])
+    for c in group.bottom(count):
+        c.moveTo(shared.piles['Temporary Shuffle'])
+    shuffle(shared.piles['Temporary Shuffle'])
+    for c in shared.piles['Temporary Shuffle']:
+        c.moveToBottom(group)          
+        
 def doMoveShuffle(player, card, pile):
     mute()
     card.moveTo(pile)
