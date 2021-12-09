@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 def searchTopDeck(group, target, count = None, trait = None, trait2 = None):
     mute()
     if len(group) == 0: return
