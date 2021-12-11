@@ -1,11 +1,39 @@
-def searchTopDeck(group, target, count = None, trait = None, trait2 = None):
+cardToAttachTo =  None
+cardsFound = []
+
+def InvestigatorColor(player):
+    for card in table:
+        if card.Type == "Investigator" and card.owner == player:
+            if card.Class == "Guardian":
+                return "#2F99F4"
+            elif card.Class == "Seeker":
+                return "#F4CB2F"
+            elif card.Class == "Mystic":
+                return "#AF2FF4"
+            elif card.Class == "Rogue":
+                return "#22A827"
+            elif card.Class == "Survivor":
+                return "#D43A2E"
+            else:
+                return "#999999"
+
+def InvestigatorName(player):
+    for card in table:
+        if card.Type == "Investigator" and card.owner == player:
+            return card.Name   
+
+def searchTopDeck(group, target, count = None, **kwargs):
     mute()
+    global cardsFound
+    global cardToAttachTo
+    cardsFound = []
+    cardsToShow = []
     if len(group) == 0: return
     if count == None:
         count = len(group)
     else:
         MandyonTable = filter(lambda c: (c.Name == "Mandy Thompson" and c.Type == "Investigator"), table)
-        if not count == len(group):  #No +3 option to search count if searching the whole deck
+        if not count == len(group):
             if MandyonTable:
                 option1 = count
                 option2 = count + 3
@@ -18,39 +46,64 @@ def searchTopDeck(group, target, count = None, trait = None, trait2 = None):
                     count = count
                 if sets == 2:
                     count = option2
-    if trait != None: #if trait is specified
-        if trait2 == None:
-            cardsToShow = [card for card in group.top(count)
-                if (trait in card.Traits) or (trait in card.Type) or (card.Name == "Astounding Revelation") or (card.Name == "Occult Evidence" )or (card.Name == "Surprising Find") or (card.Name == "Shocking Discovery")]
-        else:
-            cardsToShow = [card for card in group.top(count)
-                if (trait in card.Traits) or (trait2 in card.Traits) or (trait in card.Type) or (card.Name == "Astounding Revelation") or (card.Name == "Occult Evidence" )or (card.Name == "Surprising Find") or (card.Name == "Shocking Discovery")]
+    if "traits" in kwargs:
+        traits = kwargs.get("traits").split(',')
+        cardsToShow = [card for card in group.top(count)
+                if (any((t in card.Traits) or (t in card.Type) for t in traits)) or (card.Name == "Astounding Revelation") or (card.Name == "Occult Evidence" )or (card.Name == "Surprising Find") or (card.Name == "Shocking Discovery" and group == card.owner.deck)]
         if len(cardsToShow) == 0:
             notify("No relevant card found")
-            shuffle(group)
+            if group.name != "Discard Pile":
+                shuffle(group)
+            cardToAttachTo = None
             return
     else: 
         cardsToShow = [c for c in group.top(count)]
-    for c in cardsToShow: #Shocking Discovery
-        if c.Name == "Shocking Discovery":
+    for c in cardsToShow:
+        if c.Name == "Shocking Discovery" and group == c.owner.deck:
             c.moveTo(table)
             c.highlight = RedColour   
-            notify("Shocking Discovery!")
+            notify("{} found ! Search cancelled !".format(c))
+            cardToAttachTo = None
             shuffle(group)
             return
     dlg = cardDlg(cardsToShow)
     dlg.title = "Search the top "+ str(count) +" cards."
     dlg.text = "Select the cards:"
     dlg.min = 1
-    dlg.max = count #adding this for multiple possible cards draw like astounding revelation
+    dlg.max = count
     cardsSelected = dlg.show()
     if cardsSelected != None:
+        inc = 0
         for card in cardsSelected:
-             card.moveTo(target)
-    shuffle(group)
+             cardsFound.append(card)
+             if cardToAttachTo is None:
+                card.moveTo(target)
+                if target == card.owner.hand:
+                    serumDoubleCheck(card)
+                if target == table:
+                    card.highlight = WhiteColour
+             else: 
+                card.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                card.sendToBack()
+                if len(cardsSelected) == 1:
+                    cardToAttachTo = None
+                else:
+                    attachTo(card)
+                    inc += 1
+                    if inc == len(cardsSelected):
+                        cardToAttachTo = None
+    if group.name != "Discard Pile":
+        shuffle(group)
+
+def attachTo(card):
+    global cardToAttachTo
+    cardToAttachTo = card.offset(card.position[0], card.position[1])
 
 def defaultAction(card, x = 0, y = 0):
     mute()
+    global cardToAttachTo
+    global EndOfTheRoundDiscard
+    global AmandaCard
     # Default for Done button is playerDone
     if not card.isFaceUp: #Face down card - flip
         flipcard(card, x, y)
@@ -85,9 +138,15 @@ def defaultAction(card, x = 0, y = 0):
         flipcard(card, x, y)
     elif card.Name == "Flood Token": #Flip flood token
         flipcard(card, x, y)
-    elif card.Name == "Arcane Initiate" and card.controller == me:
+#############################################
+#                                           #
+#           Mystic Cards                    #
+#                                           #
+#############################################
+    elif card.Name == "Arcane Initiate":
         exhaust(card, x, y)
-        searchTopDeck(card.owner.deck, card.owner.hand, 3, "Spell")
+        notify("{} uses {} to search his/her deck for a Spell card to draw.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, card.owner.hand, 3, traits="Spell")
     elif card.Name == "Stargazing":
         if len(encounterDeck()) > 9:
             stop = False
@@ -95,89 +154,567 @@ def defaultAction(card, x = 0, y = 0):
                 if c.Name == "The Stars Are Right" and stop is not True:
                     shuffleIntoTop(c, 0, 0, me, encounterDeck(),10)
                     stop = True
+            notify("{} uses {} to shuffle {} in the encounter deck top 10 cards.".format(card.owner, card, c))
         else: 
             whisper("There are not enough cards in the encounter Deck")
-    elif card.Name == "Prepared for the Worst" and card.controller == me:
-        searchTopDeck(card.owner.deck, card.owner.hand, 9, "Weapon")
-    elif card.Name == "Backpack" and card.controller == me and card.Level == "0":
-        searchTopDeck(card.owner.deck, table, 6, "Item", "Supply")
-    elif card.Name == "Backpack" and card.controller == me and card.Level == "2":
-        searchTopDeck(card.owner.deck, table, 12, "Item", "Supply")
-    elif card.Name == "Boxing Gloves" and card.controller == me and card.Level == "0":
+    elif card.Name == "Word of Command":
+        notify("{} uses {} to search his/her deck for a Spell card to draw.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, card.owner.hand, traits="Spell")
+    elif card.Name == "Prescient":
+        notify("{} uses {} to move back a Spell from the discard pile to his/her hand.".format(card.owner, card))
+        searchTopDeck(card.owner.piles['Discard Pile'], card.owner.hand, traits="Spell")
+    elif card.Name == "Olive McBride":
         exhaust (card, x, y)
-        searchTopDeck(card.owner.deck, card.owner.hand, 6, "Spirit")
-    elif card.Name == "Boxing Gloves" and card.controller == me and card.Level == "3":
+        drawXChaosTokens(chaosBag(), x = 0, y = 0)
+        notify("{} uses {} to reveal 3 chaos tokens and choose 2 of them to resolve.".format(card.owner, card))
+    elif card.Name == "Alyssa Graham":
         exhaust (card, x, y)
-        searchTopDeck(card.owner.deck, card.owner.hand, 9, "Spirit")
-    elif card.Name == "Calling in Favors" and card.controller == me:
-        searchTopDeck(card.owner.deck, table, 9, "Ally")
-    elif card.Name == "Research Librarian" and card.controller == me:
-        searchTopDeck(card.owner.deck, card.owner.hand)
-    elif card.Name == "Anna Kaslow" and card.controller == me:
-        searchTopDeck(card.owner.deck, card.owner.hand, len(card.owner.deck), "Tarot")
-    elif card.Name == "Stick to the Plan" and card.controller == me:
-        searchTopDeck(card.owner.deck, card.owner.hand, len(card.owner.deck), "Supply", "Tactic")
-    elif card.Name == "Lucid Dreaming" and card.controller == me:
-        searchTopDeck(card.owner.deck, card.owner.hand)
-    elif card.Name == "Word of Command" and card.controller == me:
-        searchTopDeck(card.owner.deck, card.owner.hand, len(card.owner.deck), Spell)
-    elif card.Name == "Dr. Elli Horowitz" and card.controller == me:
-        searchTopDeck(card.owner.deck, table, 9, "Relic")
-    elif card.Name == "Whitton Greene" and card.controller == me and card.Level == "0":
+        choice_list = ['Encounter Deck']
+        color_list = ['#46453E']
+        for i in range(0, len(getPlayers())):
+            # Add player names to the list
+            choice_list.append(str(InvestigatorName(getPlayers()[i])))
+            # Add players investigator color to the list
+            color_list.append(InvestigatorColor(getPlayers()[i]))
+        sets = askChoice("Choose a deck to look at:", choice_list, color_list)
+        if sets == 0:
+            return
+        #Encounter Deck
+        elif sets == 1:
+            notify("{} uses {} to look at the top card of the encounter deck".format(card.owner, card))
+            lookToBottom(encounterDeck(), 1)
+        else:
+            chosenPlayer = getPlayers()[sets - 2]
+            notify("{} uses {} to look at the top card of {}'s deck".format(card.owner, card, chosenPlayer))
+            #Two-Handed solo option
+            if chosenPlayer.deck.controller == me:
+                    lookToBottom(chosenPlayer.deck, 1)
+            else:
+                chosenPlayer.deck.controller = card.owner
+                lookToBottom(chosenPlayer.deck, 1)
+                chosenPlayer.deck.controller = chosenPlayer
+    elif card.Name == "Scroll of Secrets" and card.Level == "0":
         exhaust (card, x, y)
-        searchTopDeck(card.owner.deck, card.owner.hand, 6, "Tome", "Relic")
-    elif card.Name == "Whitton Greene" and card.controller == me and card.Level == "2":
-        exhaust (card, x, y)
-        searchTopDeck(card.owner.deck, card.owner.hand, 9, "Tome", "Relic")
-    elif card.Name == "On the Hunt" and card.controller == me and card.Level == "0":
-        searchTopDeck(encounterDeck(), table, 9, "Enemy")
-    elif card.Name == "On the Hunt" and card.controller == me and card.Level == "3":
-        searchTopDeck(encounterDeck(), table, len(encounterDeck()), "Enemy")
-    elif card.Name == "Otherworld Codex" and card.controller == me:
-        exhaust(card, x, y)
-        subResource(card, x, y)
-        searchTopDeck(encounterDeck(), encounterDiscard(), 9)
-    elif card.Name == "Practice Makes Perfect" and card.controller == me:
-        searchTopDeck(card.owner.deck, table, 9, "Practiced")
-    elif card.Name == "Eureka!":
-        searchTopDeck(me.deck, me.hand, 3)
-    elif card.Name == "Mr. “Rook”" and card.controller == me:
-        exhaust(card, x, y)
-        subResource(card, x, y)
-        count = 0
-        MandyonTable = filter(lambda card: (card.Name == "Mandy Thompson" and card.Type == "Investigator"), table)
-        choice_list = ['3', '6', '9']
-        color_list = ['#000000','#000000','#000000']
-        if MandyonTable:
-            choice_list.append('12 (Mandy)')
-            color_list.append('#F4BB2F')
-        sets = askChoice("Search how many cards ?", choice_list, color_list)
+        subResource(card)
+        choice_list = ['Encounter Deck']
+        color_list = ['#46453E']
+        for i in range(0, len(getPlayers())):
+            # Add player names to the list
+            choice_list.append(str(InvestigatorName(getPlayers()[i])))
+            # Add players investigator color to the list
+            color_list.append(InvestigatorColor(getPlayers()[i]))
+        sets = askChoice("Choose a deck to look at:", choice_list, color_list)
+        if sets == 0:
+            return
+        #Encounter Deck
+        elif sets == 1:
+            notify("{} uses {} to look at the bottom card of the encounter deck".format(card.owner, card))
+            deckToCheck = encounterDeck()
+        else:
+            chosenPlayer = getPlayers()[sets - 2]
+            deckToCheck = chosenPlayer.deck
+            notify("{} uses {} to look at the bottom card of {}'s deck".format(card.owner, card, chosenPlayer))
+            if deckToCheck.controller != me and deckToCheck != encounterDeck():
+                for p in chosenPlayer.piles:
+                    chosenPlayer.piles[p].controller = me
+        dlg = cardDlg(deckToCheck.bottom(1))
+        dlg.title = "Scroll of Secrets"
+        dlg.text = "Choose a card"
+        dlg.min = 1
+        dlg.max = 1
+        cardsSelected = dlg.show()
+        choice_list = ['Discard the card',"Leave it at the bottom","Place it on top of its owner's deck"]
+        color_list = ['#46453E','#46453E','#46453E',]
+        if deckToCheck != encounterDeck():
+            choice_list.append("Add the card to its owner's hand")
+            color_list.append('#46453E')
+        sets = askChoice("Choose an option:", choice_list, color_list)
+        if sets == 0:
+            return
+        elif sets == 1:
+            if deckToCheck == encounterDeck():
+                cardsSelected[0].moveTo(encounterDiscard())
+            else:
+                cardsSelected[0].moveTo(chosenPlayer.piles['Discard Pile'])
+            notify("{} discards {}.".format(card.owner, cardsSelected[0]))
+        elif sets == 2:
+            notify("{} leaves the card at the bottom of the deck.".format(card.owner))
+            return
+        elif sets == 3:
+            cardsSelected[0].moveTo(deckToCheck)
+            notify("{} moves the card at the top of the deck.".format(card.owner))
+        elif sets == 4:
+            cardsSelected[0].moveTo(deckToCheck.player.hand)
+            notify("{} adds the card to {}'s hand".format(card.owner,chosenPlayer))
+        if deckToCheck.player != me and deckToCheck != encounterDeck():
+            for p in chosenPlayer.piles:
+                chosenPlayer.piles[p].controller = chosenPlayer
+#############################################
+#                                           #
+#           Guardian Cards                  #
+#                                           #
+#############################################        
+    elif card.Name == "Prepared for the Worst":
+        notify("{} uses {} to search his/her deck for a Weapon card to draw.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Weapon")
+    elif card.Name == "Rite of Sanctification":
+        if blessInCB() > 0:
+            if confirm("Seal a Bless Token ?"):
+                card.markers[Bless] += 1
+                for t in shared.piles['Chaos Bag']:
+                    if t.Name != "Bless":
+                        continue
+                    t.delete()
+                    break
+                updateBlessCurse()
+    elif card.Name == "Nephthys":
+        choice_list = ['Seal a Bless token on Nephthys']
+        color_list = ['#000000']
+        if card.markers[Bless] >= 3:
+            choice_list.append('Release 3 Bless Tokens')
+            choice_list.append('Return 3 Bless Tokens to deal 2 damage')
+            color_list.append('#000000')
+            color_list.append('#000000')
+        if len(choice_list) == 1:
+            if countBless () < 11:
+                card.markers[Bless] += 1
+                for t in table:
+                    if t.name != "Bless":
+                        continue
+                    if t.SubType != "Sealed":
+                        t.delete()
+                        break
+                notify("{} uses {} to seal a Bless token".format(card.owner, card))
+        else:
+            sets = askChoice("Nephthys", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1:
+                if countBless () < 11:
+                    card.markers[Bless] += 1
+                    for t in table:
+                        if t.name != "Bless":
+                            continue
+                        if t.SubType != "Sealed":
+                            t.delete()
+                            break
+                notify("{} uses {} to seal a Bless token".format(card.owner, card))
+            if sets == 2:
+                exhaust (card, x, y)
+                card.markers[Bless] -= 3
+                notify("{} uses {} to release 3 Bless Tokens".format(card.owner, card))
+                for i in range(0, 3):
+                    addBless()
+            if sets == 3:
+                exhaust (card, x, y)
+                card.markers[Bless] -= 3
+                notify("{} uses {} to return 3 Bless tokens to the token pool and deal 2 damage to an enemy".format(card.owner, card))
+    elif card.Name == "Holy Spear":
+        choice_list = ["Release a token sealed here"]
+        color_list = ['#000000']
+        if blessInCB() >= 2:
+            choice_list.append("Seal 2 Bless tokens here")
+            color_list.append('#000000')
+        sets = askChoice("Holy Spear", choice_list, color_list)
         if sets == 0:
             return
         if sets == 1:
-            count = 3    
-        if sets == 2:
-            count = 6
-        if sets == 3:
-            count = 9
-        if sets == 4:
-            count = 12
-        for c in card.owner.deck.top(count):
-            if c.Name == "Shocking Discovery":
-                c.moveTo(table)
-                c.highlight = RedColour   
-                notify("Shocking Discovery!")
-                shuffle(card.owner.deck)
+            if card.markers[Bless] == 0:
                 return
-        dlg = cardDlg(card.owner.deck.top(count))
-        dlg.title = "Search the top "+ str(count) +" cards."
-        dlg.text = "Select the cards:"
+            else:
+                card.markers[Bless] -= 1
+                notify("{} uses {} to release 1 Bless token".format(card.owner, card))
+                addBless()
+        if sets == 2:
+            BlessTokensRemoved = 0
+            for t in shared.piles["Chaos Bag"]:
+                if t.name == "Bless":
+                    t.delete()
+                    BlessTokensRemoved += 1
+                    if BlessTokensRemoved == 2:
+                        break
+            card.markers[Bless] += 2
+            notify("{} uses {} to seal 2 Bless tokens".format(card.owner, card))
+            updateBlessCurse()
+    elif card.Name == "Hallowed Mirror" and not isLocked(card):
+        stop = False
+        for c in card.owner.piles['Sideboard']:
+            if stop is not True and c.Name == "Soothing Melody":
+                c.moveTo(c.owner.hand)
+                stop = True
+            else:
+                if c.Name == "Soothing Melody":
+                    c.moveTo(c.owner.deck)
+        notify("{} uses {} to draw {} and shuffle 2 other copies in his/her deck.".format(card.owner, card, c))
+        shuffle(card.owner.deck)
+    elif card.Name == "Boxing Gloves" and card.Level == "0":
+        exhaust (card, x, y)
+        notify("{} uses {} to search his/her deck for a Spirit card to draw.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, card.owner.hand, 6, traits="Spirit")
+    elif card.Name == "Boxing Gloves" and card.Level == "3":
+        exhaust (card, x, y)
+        notify("{} uses {} to search his/her deck for a Spirit card to draw.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Spirit")
+    elif card.Name == "Stick to the Plan" and not isLocked(card) and not card.Subtype == "Sealed":
+        notify("{} uses {} to search his/her deck for 3 Supply or Tactic cards to attach to {}.".format(card.owner, card, card))
+        attachTo(card)
+        searchTopDeck(card.owner.deck, table, traits="Supply,Tactic")
+        card.Subtype = 'Sealed'
+        if 1 == askChoice('Draw opening hand ?', ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
+            drawOpeningHand()
+    elif card.Name == "On the Hunt" and card.Level == "0":
+        notify("{} uses {} to search the encounter deck for an Enemy to draw.".format(card.owner, card))
+        searchTopDeck(encounterDeck(), table, 9, traits="Enemy")
+    elif card.Name == "On the Hunt" and card.Level == "3":
+        notify("{} uses {} to search the encounter deck for an Enemy to draw.".format(card.owner, card))
+        searchTopDeck(encounterDeck(), table, traits="Enemy")
+#############################################
+#                                           #
+#           Seeker Cards                    #
+#                                           #
+#############################################      
+    elif card.Name == "Ancestral Knowledge" and not card.Subtype == "Sealed":
+        attachTo(card)
+        skillsToShow = [c for c in card.owner.deck
+                if c.Type == "Skill" and not "Weakness" in c.Subtype]
+        notify("{} uses {} to search his/her deck for up to 5 skills to attach to {}.".format(card.owner, card, card))
+        dlg = cardDlg(skillsToShow)
+        dlg.title = "Ancestral Knowledge"
+        dlg.text = "Select up to 5 skills:"
         dlg.min = 1
-        dlg.max = count
+        dlg.max = 5
         cardsSelected = dlg.show()
         if cardsSelected != None:
-            for card in cardsSelected:
-                 card.moveTo(card.owner.hand)
-        shuffle(card.owner.deck)      
+            for c in cardsSelected:
+                c.moveTo(shared.piles['Temporary Shuffle'])
+            shared.piles['Temporary Shuffle'].shuffle()
+            inc = 0
+            for c in shared.piles['Temporary Shuffle']:
+                c.moveToTable(cardToAttachTo[0], cardToAttachTo[1], True)
+                c.sendToBack()
+                if len(cardsSelected) == 1:
+                    cardToAttachTo = None
+                else:
+                    attachTo(c)
+                    inc += 1
+                    if inc == len(cardsSelected):
+                        cardToAttachTo = None
+            card.Subtype = 'Sealed'
+            cardToAttachTo = None
+        shuffle(card.owner.deck)
+        if 1 == askChoice('Draw opening hand ?'
+			, ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
+            drawOpeningHand()
+    elif card.Name == "Occult Lexicon" and not isLocked(card):
+        stop = False
+        for c in card.owner.piles['Sideboard']:
+            if stop is not True and c.Name == "Blood-Rite":
+                c.moveTo(c.owner.hand)
+                stop = True
+            else:
+                if c.Name == "Blood-Rite":
+                    c.moveTo(c.owner.deck)
+        notify("{} uses {} to draw {} and shuffle 2 other copies in his/her deck.".format(card.owner, card, c))
+        shuffle(card.owner.deck)
+    elif card.Name == "Old Book of Lore": # Automation doesn't account for location
+        exhaust (card, x, y)
+        # Solo
+        if len(getPlayers()) == 1:
+            searchTopDeck(me.deck, me.hand, 3)
+        else:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())): 
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add players investigator color to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Choose a player at your location:", choice_list, color_list)
+            if sets == 0:
+                return
+            else:
+                chosenPlayer = getPlayers()[sets - 1]
+                notify("{} uses {} to let {} search his/her deck for a card to draw.".format(card.owner, card, chosenPlayer))
+                # Two handed solo option
+                if chosenPlayer.deck.controller == me:
+                    searchTopDeck(chosenPlayer.deck,chosenPlayer.hand,3)
+                else:
+                    remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck,chosenPlayer.hand,3])
+    elif card.Name == "Cryptic Research": # Automation doesn't account for location
+        # Solo
+        if len(getPlayers()) == 1:
+            drawMany(me.deck, 3)
+        else:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())): 
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add players investigator color to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Choose an investigator at your location to draw 3 cards:", choice_list, color_list)
+            if sets == 0:
+                return
+            else:
+                chosenPlayer = getPlayers()[sets - 1]
+                notify("{} uses {} to make {} draw 3 cards.".format(card.owner, card, chosenPlayer))
+                remoteCall(chosenPlayer,"drawMany",[chosenPlayer.deck,3])
+    elif card.Name == "No Stone Unturned" and card.Level == "0": # Automation doesn't account for location
+        # Solo
+        if len(getPlayers()) == 1:
+            searchTopDeck(me.deck, me.hand, 6)
+        else:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())): 
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add players investigator color to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Choose an investigator at your location:", choice_list, color_list)
+            if sets == 0:
+                return
+            else:
+                chosenPlayer = getPlayers()[sets - 1]
+                notify("{} uses {} to make {} search the top 6 cards of his/her deck.".format(card.owner, card, chosenPlayer))
+                remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck, chosenPlayer.hand, 6])
+    elif card.Name == "No Stone Unturned" and card.Level == "5": # Automation doesn't account for location
+        # Solo
+        if len(getPlayers()) == 1:
+            searchTopDeck(me.deck, me.hand)
+        else:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())): 
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add players investigator color to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Choose an investigator at your location:", choice_list, color_list)
+            if sets == 0:
+                return
+            else:
+                chosenPlayer = getPlayers()[sets - 1]
+                notify("{} uses {} to make {} search his/her deck for a card to draw.".format(card.controller, card, chosenPlayer))
+                remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck, chosenPlayer.hand])
+    elif card.Name == "Research Librarian":
+        notify("{} uses {} to search his/her deck for a Tome to draw.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, card.owner.hand,traits="Tome")
+    elif card.Name == "Guided by the Unseen":
+        # Solo
+        if len(getPlayers()) == 1:
+            searchTopDeck(me.deck, table, 3)
+        else:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())): 
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add players investigator color to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Choose an investigator at your location:", choice_list, color_list)
+            if sets == 0:
+                return
+            else:
+                chosenPlayer = getPlayers()[sets - 1]
+                notify("{} uses {} to make {} search his/her deck for a card commit to the test.".format(card.owner, card, chosenPlayer))
+                remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck, table, 3])
+    elif card.Name == "Dr. Elli Horowitz":
+        notify("Elli's position: {} {}".format(card.position[0], card.position[1]))
+        attachTo(card)
+        notify("{} uses {} to search his/her deck for a Relic to attach to {}.".format(card.owner, card, card))
+        searchTopDeck(card.owner.deck, table, 9, traits="Relic")
+    elif card.Name == "Whitton Greene" and card.Level == "0":
+        exhaust (card, x, y)
+        notify("{} uses {} to search his/her deck for a Tome or Relic to draw.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, card.owner.hand, 6, traits="Tome,Relic")
+    elif card.Name == "Whitton Greene" and card.Level == "2":
+        exhaust (card, x, y)
+        notify("{} uses {} to search his/her deck for a Tome or Relic to draw.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Tome,Relic")
+    elif card.Name == "Otherworld Codex":
+        exhaust(card, x, y)
+        subResource(card, x, y)
+        searchTopDeck(encounterDeck(), encounterDiscard(), 9)
+        notify("{} uses {} to look at the top 9 cards of the encounter deck and discards {}.".format(card.owner, card, cardsFound[0]))
+    elif card.Name == "Practice Makes Perfect":
+        notify("{} uses {} to search his/her deck for a Practiced card to commit to the test.".format(card.owner, card))
+        searchTopDeck(card.owner.deck, table, 9, traits="Practiced")
+    elif card.Name == "Eureka!":
+        # Solo
+        if len(getPlayers()) == 1:
+            searchTopDeck(me.deck, me.hand, 3)
+        else:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())): 
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add player investigator colors to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Choose a player:", choice_list, color_list)
+            if sets == 0:
+                return
+            else:
+                chosenPlayer = getPlayers()[sets - 1]
+                # Two handed solo option
+                if chosenPlayer.deck.controller == me:
+                    notify("{} uses {} to search his/her deck for a card to draw.".format(card.controller, card))
+                    searchTopDeck(chosenPlayer.deck,chosenPlayer.hand,3)
+                else:
+                    notify("{} uses {} to let {} search his/her deck for a card to draw.".format(card.controller, card, chosenPlayer))
+                    remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck,chosenPlayer.hand,3])
+                
+    elif card.Name == "Mr. “Rook”":
+        exhaust(card, x, y)
+        subResource(card, x, y)
+        choice_list = ['3', '6', '9']
+        color_list = ['#000000','#000000','#000000']
+        sets = askChoice("Search how many cards ?", choice_list, color_list)
+        if sets == 0:
+            return
+        else:
+            count = sets * 3
+            searchTopDeck(card.owner.deck, card.owner.hand, count)
+    elif card.Name == "Obscure Studies":
+        if AmandaCard:
+            notify("AmandaCard is {}".format(AmandaCard))
+            x, y = AmandaCard.position
+            notify("{} {} is position".format(x, y))
+            AmandaCard.moveTo(card.owner.hand)
+            card.moveToTable(x, y)
+            card.sendToBack()
+            card.highlight = WhiteColour
+            AmandaCard = card
+#############################################
+#                                           #
+#           Rogue Cards                     #
+#                                           #
+############################################# 
+    elif card.Name == "Lucky Cigarette Case" and card.Level == "0":
+        exhaust (card, x, y)
+        draw(card.owner.deck)
+    elif card.Name == "Pickpocketing":
+        exhaust (card, x, y)
+        draw(card.owner.deck)
+    elif card.Name == "Lucky Cigarette Case" and card.Level == "3":
+        exhaust (card, x, y)
+        count = askInteger("Succeeded by how much ?", 2)
+        if count is None or count <= 0:
+            whisper("Lucky Cigarette Case: invalid card count")
+            return
+        else:
+            notify("{} uses {} to search the top {} cards of his/her deck for a card to draw.".format(card.owner, card, count))
+            searchTopDeck(card.owner.deck, card.owner.hand, count)
+    elif card.Name == "Family Inheritance":
+        card.markers[Resource] += 4
+#############################################
+#                                           #
+#           Survivor Cards                  #
+#                                           #
+############################################# 
+    elif card.Name == "Rabbit's Foot" and card.Level == "0":
+        exhaust (card, x, y)
+        draw(card.owner.deck)
+    elif card.Name == "Resourceful":
+        searchTopDeck(card.owner.piles['Discard Pile'],card.owner.hand)
+    elif card.Name == "Rabbit's Foot" and card.Level == "3":
+        exhaust (card, x, y)
+        count = askInteger("Failed by how much ?", 2)
+        if count is None or count <= 0:
+            whisper("Rabbit's Foot: invalid card count")
+            return
+        else:
+            notify("{} uses {} to search the top {} cards of his/her deck for a card to draw.".format(card.owner, card, count))
+            searchTopDeck(card.owner.deck, card.owner.hand, count)        
+    elif card.Name == "Scavenging":
+        exhaust (card, x, y)
+        searchTopDeck(card.owner.piles['Discard Pile'], card.owner.hand, traits="Item")
+    elif card.Name == "A Chance Encounter":
+        # Solo
+        if len(getPlayers()) == 1:
+            searchTopDeck(card.owner.piles['Discard Pile'], table, traits="Ally")
+            if len(cardsFound) > 0:
+                notify("{} puts {} into play".format(card.owner, cardsFound[0]))
+                EndOfTheRoundDiscard.append(cardsFound[0])
+        else:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())): 
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add players investigator color to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Choose a player:", choice_list, color_list)
+            if sets == 0:
+                return
+            else:
+                chosenPlayer = getPlayers()[sets - 1]
+                notify("{} uses {} to search {}'s discard pile for an Ally to put in play.".format(card.owner, card, chosenPlayer.name))
+                #Two-Handed solo option
+                if chosenPlayer.piles['Discard Pile'].controller == me:
+                    searchTopDeck(chosenPlayer.piles['Discard Pile'], table, traits="Ally")
+                    if len(cardsFound) > 0:
+                        notify("{} puts {} into play".format(card.owner, cardsFound[0]))
+                        EndOfTheRoundDiscard.append(cardsFound[0])
+                else:
+                    chosenPlayer.piles['Discard Pile'].controller = me
+                    searchTopDeck(chosenPlayer.piles['Discard Pile'], table, traits="Ally")
+                    notify("{}".format(len(cardsFound)))
+                    if len(cardsFound) > 0:
+                        notify("{} puts {} into play".format(card.owner, cardsFound[0]))
+                        EndOfTheRoundDiscard.append(cardsFound[0])
+                    chosenPlayer.piles['Discard Pile'].controller = chosenPlayer
+    elif card.Name == "Unrelenting":
+        attachTo(card)
+        card.sendToBack()
+        if chaosBag().controller != card.owner:
+            chaosBag().controller == card.owner
+        list = [card for card in table
+                    if (card.Type == 'Chaos Token') and (card.Subtype != 'Sealed')]
+        for card in chaosBag():
+            list.append(card)
+        dlg = cardDlg(list)
+        dlg.title = "Seal Chaos Token"
+        dlg.text = "Select up to 3 Chaos Token to seal"
+        dlg.min = 0
+        dlg.max = 3
+        tokensSelected = dlg.show()
+        if tokensSelected == None:
+            return
+        else:
+            inc = 0
+            for cT in tokensSelected:
+                cT.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                cT.Subtype = 'Sealed'
+                cT.filter = "#99999999"
+                notify("{} seals {}.".format(card.owner, cT))
+                if len(tokensSelected) == 1:
+                    cardToAttachTo = None
+                else:
+                    attachTo(cT)
+                    inc += 1
+                    if inc == len(tokensSelected):
+                        cardToAttachTo = None
+            updateBlessCurse()
+#############################################
+#                                           #
+#           Neutral Cards                   #
+#                                           #
+#############################################      
+    elif card.Name == "Backpack" and card.Level == "0":
+        attachTo(card)        
+        searchTopDeck(card.owner.deck, table, 6, traits="Item,Supply")
+    elif card.Name == "Backpack" and card.Level == "2":
+        attachTo(card)    
+        searchTopDeck(card.owner.deck, table, 12, traits="Item,Supply")
+    elif card.Name == "Calling in Favors":
+        notify("{} uses {} to search his/her deck for an Ally and play it.".format(card.owner, card))        
+        searchTopDeck(card.owner.deck, table, 9, traits="Ally")
+    elif card.Name == "Anna Kaslow":
+        notify("{} uses {} to search his/her deck for a Tarot and put it in play.".format(card.owner, card))        
+        searchTopDeck(card.owner.deck, table, traits="Tarot")
+    elif card.Name == "Lucid Dreaming":
+        searchTopDeck(card.owner.deck, card.owner.hand)
     else:
         exhaust(card, x, y)

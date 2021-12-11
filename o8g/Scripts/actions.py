@@ -73,6 +73,7 @@ BlackColour = "#000000"
 WhiteColour = "#FFFFFF"
 
 TarotDeck = None
+AmandaCard = None
 
 showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
 
@@ -90,10 +91,11 @@ def toggleDebug(group, x=0, y=0):
 
 
 def phasePassed(args):
+    global AmandaCard
     mute()
     thisPhase = currentPhase()
     newPhase = thisPhase[1]
-    
+    isAmanda = filter(lambda card: (card.Name == "Amanda Sharpe" and card.Type == "Investigator" and card.owner == me and not isLocked(card)), table)
     if newPhase == 1:
         phase = "Myth"
         if turnNumber() != 1 and getGlobalVariable("allowMythosPhase") == "True":
@@ -103,6 +105,35 @@ def phasePassed(args):
         # Investigation Phase
         phase = "Investigation"
         mute()
+        if isAmanda: #Amanda Automation
+            for c in table:
+                if c.name == "Amanda Sharpe" and c.type == "Investigator":
+                    amanda = c
+                    x, y = c.position
+                    break
+            if inGame(amanda.owner):
+                draw(amanda.owner.deck)
+                if AmandaCard and AmandaCard.group != amanda.owner.hand: #if Obscure studies was used
+                    discard(AmandaCard)
+                WftD = filter(lambda card: (card.Name == "Whispers from the Deep"), amanda.owner.hand)
+                if not WftD:
+                    dlg = cardDlg(amanda.owner.hand)
+                    dlg.title = "Amanda Sharpe"
+                    dlg.text = "Select 1 card to put beneath Amanda:"
+                    dlg.min = 1
+                    dlg.max = 1
+                    cardsSelected = dlg.show()
+                else:
+                    cardsSelected = WftD
+                if cardsSelected is not None:
+                    c = cardsSelected[0]
+                    c.moveToTable(x + 15, y - 50)
+                    c.sendToBack()
+                    AmandaCard = c
+                    if WftD:
+                        c.highlight = RedColour
+                    else: c.highlight = WhiteColour
+                    notify("{} places {} under {}".format(c.owner,AmandaCard,amanda))
     elif newPhase == 3:
         # Enemy
         phase = "Enemy"
@@ -186,6 +217,11 @@ def countInvestigators():
 def eliminated(p):
     if not p:
         return False
+
+def inGame(p): #checks if player is eliminated from the game
+    for card in table:
+        if card.Type == "Mini" and card.owner == p:
+            return True
 
 def cardDoubleClicked(args):
     # args = card, mouseButton, keysDown
@@ -455,6 +491,8 @@ def unlockDeck():
 
 #Triggered event OnGameStart
 def startOfGame(): 
+    global AmandaCard #Reset Amanda Card if new game
+    AmandaCard = None
     unlockDeck()
     setActivePlayer(None)   
     if me._id == 1:
@@ -482,7 +520,7 @@ def autoCharges(args):
     if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
         if len(args.cards) == 1:
             card = args.cards[0]
-            if card.controller == me and card.isFaceUp and card.properties["Type"] == "Asset":
+            if card.owner == me and card.isFaceUp and card.properties["Type"] == "Asset":
                 #Capture text between "Uses (..)"
                 description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
@@ -495,11 +533,22 @@ def autoCharges(args):
                         strCharges = re.search('(\d|X)(.*)',strCharges).group(1)
                         strCharges = strCharges.replace(" ", "")
                         if strCharges.isnumeric():
-                            notify("{} adds {} {} on {}".format(me,strCharges,word,card.name))
-                            for i in range(0, int(strCharges)):
-                                addResource(card)
+                            isAkachi = filter(lambda card: (card.Name == "Akachi Onyele" and card.Type == "Investigator" and card.owner == me and not isLocked(card)), table)
+                            if isAkachi:
+                                if "(Uses" and "charges" in card.properties["Text"]:
+                                    notify("{} adds {} {} on {}".format(me,int(strCharges)+1,word,card))
+                                    for i in range(0, (int(strCharges)+1)):
+                                        addResource(card)
+                                else:
+                                    notify("{} adds {} {} on {}".format(me,strCharges,word,card))
+                                    for i in range(0, (int(strCharges))):
+                                        addResource(card)
+                            else:
+                                notify("{} adds {} {} on {}".format(me,strCharges,word,card))
+                                for i in range(0, (int(strCharges))):
+                                    addResource(card)
                         elif strCharges == "X":
-                                notify("Sorry, no automation for X on {}".format(card.name))
+                                notify("Sorry, no automation for X on {}".format(card))
 
 #Triggered event OnLoadDeck
 # args: player, cards, fromGroups, toGroups, indexs, xs, ys, highlights, markers, faceups, filters, alternates
@@ -775,24 +824,36 @@ def addToStagingArea(card, facedown=False, who=me):
     
 def nextEncounter(group, x, y, facedown, who=me):
     mute()
-
     if group.controller != me:
         remoteCall(group.controller, "nextEncounter", [group, x, y, facedown, me])
         return
 
     if len(group) == 0:
+        for i in range(0, len(getPlayers())):
+            remoteCall(getPlayers()[i], "notifyBar", ["#dd3737", "{} is empty and is reshuffled !".format(group.name)]) # Warns players if EncounterDeck is empty
         resetEncounterDeck(group)
     if len(group) == 0: # No cards
         return
 
     clearTargets()
     card = group.top()
+    if " Hidden." in card.Text: # Puts HiddenCard facedown
+        Hidden = True
+    else: Hidden = False
     if x == 0 and y == 0:  #Move to default position in the staging area 
-        card.moveToTable(EncounterX, EncounterY, facedown)
-        notify("{} places '{}' on the table.".format(who, card))    
+        if not Hidden:
+            card.moveToTable(EncounterX, EncounterY, facedown)
+            notify("{} places '{}' on the table.".format(who, card))  
+        else:
+            card.moveToTable(EncounterX, EncounterY, True)
+            notify("{} places a Hidden card on the table.".format(who))  
     else:
-        card.moveToTable(x, y, facedown)
-        notify("{} places '{}' on the table.".format(who, card))
+        if not Hidden:
+            card.moveToTable(x, y, facedown)
+            notify("{} places '{}' on the table.".format(who, card))
+        else:
+            card.moveToTable(x, y, True)
+            notify("{} places a Hidden card on the table.".format(who))
     card.controller = who
 
     revealEncounterSound(card)
@@ -805,6 +866,8 @@ def nextEncounter2(group, facedown, who=me):
         return
 
     if len(group) == 0:
+        for i in range(0, len(getPlayers())):
+            remoteCall(getPlayers()[i], "notifyBar", ["#dd3737", "{} is empty and is reshuffled !".format(group.name)])
         resetEncounterDeck(group)
     if len(group) == 0: # No cards
         return
@@ -841,21 +904,48 @@ def updateBlessCurse():
     cb.markers[Curse] = c
     cb.markers[Bless] = b
 
-def addBlessCurse(group, isBless, who=me):
-    c = 0
+def countBless():
+    if len(shared.piles['Chaos Bag']) == 0:
+        return
     b = 0
+    for t in table:
+        if t.Name == "Bless":
+            b += 1
+        if t.markers[Bless] > 0:
+            b += t.markers[Bless]
+    return b
 
+def countCurse():
+    if len(shared.piles['Chaos Bag']) == 0:
+        return
+    c = 0
+    for t in table:
+        if t.Name == "Curse":
+            c += 1
+        if t.markers[Curse] > 0:
+            c += t.markers[Curse]
+    return c
+
+def blessInCB():
+    b = 0
+    for t in shared.piles['Chaos Bag']:
+        if t.Name == "Bless":
+            b += 1
+    return b
+
+def blessOnTable():
+    b = 0
+    for t in table:
+        if t.Name == "Bless" and t.Type != "Sealed":
+            b += 1
+    return b
+
+def addBlessCurse(group, isBless, who=me):
     mute()
     if chaosBag().controller != me:
         remoteCall(chaosBag().controller, "addBlessCurse", [group, isBless, me])
-        return  
-  
-    # Search Seal curse and bless token
-    for card in table:
-        if card.name == "Bless" and card.Subtype == "Sealed":
-            b += 1
-        if card.name == "Curse" and card.Subtype == "Sealed":    
-            c += 1     
+        return
+
     #Find ChaosBag
     cb = None
     for card in table:
@@ -870,7 +960,7 @@ def addBlessCurse(group, isBless, who=me):
 
     #check current Tokens in Bag
     updateBlessCurse()
-    if ((cb.markers[Bless] + b >= 10) and isBless) or ((cb.markers[Curse] + c >= 10) and not isBless):
+    if (countBless() >= 10 and isBless) or ((countCurse() >= 10) and not isBless):
         notify("There are only 10 Bless and Curse tokens each allowed.")
         return
 
@@ -886,6 +976,7 @@ def addBlessCurse(group, isBless, who=me):
     token.Subtype = "Blurse"
     token.moveTo(chaosBag())
     chaosBag().shuffle()
+    updateBlessCurse()
 
 def nextLocation(group, x, y, who=me):
     mute()
@@ -1008,33 +1099,66 @@ def readyForNextRound(group=table, x=0, y=0):
 def doUpkeepPhase(setPhaseVar = True):
     mute()
     debug("doUpkeepPhase()")
-    
     if setPhaseVar:
         setGlobalVariable("phase", "Upkeep")
 
     if activePlayers() == 0:
         whisper("All players have been eliminated: You have lost the game")
         return
-    if eliminated(me):
+    if not inGame(me):
         whisper("You have been eliminated from the game")
-        return
 
     clearTargets()
     doRestoreAll()
-    #Check if Deck is empty
-    deckEmpty = False
-    if (len(me.deck) == 0):
-        for c in me.piles["Discard Pile"]:
-            c.moveTo(me.deck)
-        shuffle(me.deck)
-        deckEmpty = True
 
-    draw(me.deck)
+    for card in table:
+        #If Patrice, Discard all cards but weaknesses and draw to 5
+        if card.Name == "Patrice Hathaway" and card.owner == me and card.Type == "Investigator" and not isLocked(card) and inGame(card.owner):
+            for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"], card.owner.hand):
+                notify("{} discards '{}'".format(me, card))
+                card.moveTo(card.owner.piles['Discard Pile'])
+            cardToDraw = 5 - len(card.owner.hand)
+            for i in range(0, cardToDraw):
+                draw(card.owner.deck)
+            break
+        #Else draw cards equal to selected value
+        elif card.owner == me and card.Type == "Investigator" and inGame(card.owner):
+            if card.owner.counters['Card Draw'].value == 1:
+                draw(card.owner.deck)
+            elif card.owner.counters['Card Draw'].value > 1:
+                for i in range(0, card.owner.counters['Card Draw'].value):
+                    draw(card.owner.deck)
     
     # Check for hand size!
     sizeHand = me.counters['Maximum Hand Size'].value
-    if len(me.hand) > sizeHand:
-        discardCount = len(me.hand) - sizeHand
+    #Checks if player has Dream-enhancing Serum on the table
+    forcedLearning = filter(lambda card: card.Name == "Forced Learning" and card.owner == me and inGame(card.owner) and not isLocked(card), table)
+    if forcedLearning: # Forced Learning Automation
+        forcedCards = [me.hand[0],me.hand[1]]
+        dlg = cardDlg(forcedCards)
+        dlg.title = "Forcead Learning"
+        dlg.text = "Select 1 card:"
+        dlg.min = 1
+        dlg.max = 1
+        cardsSelected = dlg.show()
+        if cardsSelected is not None:
+            discard(cardsSelected[0])
+    if haveSerum(me): #Dream-enhancing Serum hand size check
+        for c in table:
+            if c.name == "Dream-Enhancing Serum" and c.owner == me:
+                serumOwner = c.owner
+                serum = c
+                break
+        inHands = []
+        duplicates = 0
+        for c in serumOwner.hand:
+            if c.Name in inHands:
+                duplicates += 1
+            inHands.append(c.Name)
+        cardsInHand = len(serumOwner.hand) - duplicates
+    else: cardsInHand = len(me.hand)
+    if cardsInHand > sizeHand:
+        discardCount = cardsInHand - sizeHand
         dlg = cardDlg(me.hand)
         dlg.title = "You have more than the allowed "+ str(sizeHand) +" cards in hand."
         dlg.text = "Select " + str(discardCount) + " Card(s):"
@@ -1046,16 +1170,18 @@ def doUpkeepPhase(setPhaseVar = True):
                 discard(card)
     
     for card in table:
-        if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
-            addResource(card)
-            if(deckEmpty):
-                addHorror(card)
-        elif card.Type == "Mini" and card.controller == me:
+        if card.Type == "Investigator" and card.owner == me and card.isFaceUp and inGame(card.owner): #For multiple resource per upkeep effects
+            if (me.counters['Ressource per upkeep'].value > 0):
+                for i in repeat(None, me.counters['Ressource per upkeep'].value):
+                    addResource(card)
+            if card.name == "Sister Mary": #Sister Mary Auto Add Bless
+                if countBless() <= 10:
+                    if 1 == askChoice('Add a Bless Token to the Chaos Bag ?', ['Yes', 'No'], ['#dd3737', '#d0d0d0']):
+                        addBless()
+        elif card.Type == "Mini" and card.owner == me:
             card.markers[Action] = 0
             if card.alternates is not None and "" in card.alternates:
                 card.alternate = ''
-
-    shared.counters['Round'].value += 1
 
 def doMythosPhase(setPhaseVar = True):
     mute()
@@ -1065,6 +1191,23 @@ def doMythosPhase(setPhaseVar = True):
         setGlobalVariable("phase", "Mythos")
 
     for card in table:
+        # Auto-replenish charges cards
+        if ("Replenish" and "at the start of each round" in card.Text) and card.owner == me and not isLocked(card):
+            #Capture text between "Uses (..)"
+            description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
+            if description_search:
+                strCharges = description_search.group(1)
+                #Capture text between "(...)""
+                strCharges = re.search('.*\((.*)\).*',strCharges).group(1)
+                # Check if not only 1 numeric
+                if not strCharges.isnumeric():
+                    word = re.search('(\d|X)(.*)',strCharges).group(2)
+                    strCharges = re.search('(\d|X)(.*)',strCharges).group(1)
+                    strCharges = strCharges.replace(" ", "")
+                    if strCharges.isnumeric():
+                            for i in range(0, int(strCharges)):
+                                if card.markers[Resource] < int(strCharges):
+                                    addResource(card)
         if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addDoom(card)
 
@@ -1082,6 +1225,9 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         
         # Find any Permanent cards
         permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
+        # Check if Stick to the Plan or Ancestral Knowledge is in the deck
+        sttp = filter(lambda card: "Stick to the Plan" in card.Name, me.deck)
+        ancestralKnowledge = filter(lambda card: "Ancestral Knowledge" in card.Name, me.deck)
         # Find any Start cards
         startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name  , me.deck)
         # Create Bonded Card
@@ -1124,8 +1270,22 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         
         if newInvestigator:
             if len(me.hand) == 0:
-                drawOpeningHand()
-            for i in repeat(None, 5):
+                if sttp:
+                    whisper("Stick to the Plan available")
+                if ancestralKnowledge:
+                    whisper("Ancestral Knowledge available")
+                if not (sttp or ancestralKnowledge):
+                    drawOpeningHand()
+            # Check for starting resources modifiers
+            startingResource = 5
+            for card in permanents:
+                if card.Name == "Another Day, Another Dollar":
+                    startingResource += 2
+                    whisper("You start the game with 2 additional resources")
+                if card.Name == "Indebted":
+                    startingResource -= 2
+                    whisper("You start the game with 2 less resources")
+            for i in repeat(None, startingResource):
                 addResource(investigatorCard)
         
         
@@ -1143,13 +1303,48 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         notify("Players performed setup at the same time causing problems, please reset and try again")
 
 def drawOpeningHand():
+    global cardToAttachTo
     me.deck.shuffle()
-    drawMany(me.deck, shared.OpeningHandSize)
-    removeWeaknessCards()
+    isStudious = filter(lambda card: card.Name == "Studious" and card.owner == me, table)
+    isSefina = filter(lambda card: card.Name == "Sefina Rousseau" and card.Type == "Investigator" and card.owner == me, table)
+    if isSefina:
+        if 1 == askChoice("Automate Sefina Drawing Hand ?", ["Yes","No"],["#000000","#000000"]):
+            drawMany(me.deck, 13)
+            removeWeaknessCards()
+            Sefina = [card for card in table
+                    if card.Name == "Sefina Rousseau" and card.Type == "Investigator" and card.owner == me]
+            attachTo(Sefina[0])
+            eventsToShow = [card for card in me.hand
+                    if card.Type == "Event"]
+            dlg = cardDlg(eventsToShow)
+            dlg.title = "Sefina Rousseau"
+            dlg.text = "Select up to 5 events to attach:"
+            dlg.min = 0
+            dlg.max = 5
+            cardsSelected = dlg.show()
+            if cardsSelected != None:
+                inc = 0
+                for card in cardsSelected:
+                    card.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                    card.sendToBack()
+                    if len(cardsSelected) == 1:
+                        cardToAttachTo = None
+                    else:
+                        attachTo(card)
+                        inc += 1
+                        if inc == len(cardsSelected):
+                            cardToAttachTo = None
+    else:
+        drawMany(me.deck, shared.OpeningHandSize)
+        if isStudious:
+            draw(me.deck)
+            whisper("You start the game with an additional card in hand.")
+        removeWeaknessCards()
+    me.deck.shuffle()
 
 def removeWeaknessCards():
     weaknesses = []
-    for card in filter(lambda card: card.Subtype in ["Weakness", "Basic Weakness"], me.hand):
+    for card in filter(lambda card: card.Subtype in ["Weakness", "Basic Weakness"] and (card.Name != "The Tower · XVI" or card.Name != "The Devil XV"), me.hand): #Add The Tower and The Devil
         weaknesses.append(card)
         notify("{} replacing weakness '{}'".format(me, card))
 
@@ -1547,43 +1742,82 @@ def moveToVictory(card, x=0, y=0):
 
 def randomDiscard(group):
     mute()
-    card = group.random()
-    if card is None: return
-    notify("{} randomly discards '{}'.".format(me, card))
-    card.moveTo(me.piles['Discard Pile'])
+    hand = [c for c in group
+    if not "Hidden" in c.Text] #Prevens discard of Hidden cards
+    if hand:
+        card = hand[rnd(0,len(hand)-1)]
+        notify("{} randomly discards '{}'.".format(group.player, card))
+        card.moveTo(group.player.piles['Discard Pile'])
+    else:
+        notify("No eligible card for random discard")
  
 def mulligan(group, x = 0, y = 0):
     mute()
-    
-    dlg = cardDlg(me.hand)
+    dlg = cardDlg(group.player.hand) #For two handed solo
     dlg.title = "Mulligan!"
     dlg.text = "Select the cards you wish to replace:"
     dlg.min = 1
-    dlg.max = len(me.hand)
+    dlg.max = len(group.player.hand)
     cardsSelected = dlg.show()
     if cardsSelected is not None:
-        notify("{} declares a Mulligan, and replaces {} card(s).".format(me, len(cardsSelected)))
+        notify("{} declares a Mulligan, and replaces {} card(s).".format(group.player, len(cardsSelected)))
         for card in cardsSelected:
-            notify("{} replaces {}.".format(me, card))
-            card.moveToBottom(me.deck)
-            draw(me.deck)
-        
-        shuffle(me.deck)
+            deckWithoutWeakness = filter(lambda card: (card.subType != "Weakness"  and card.subType != "Basic Weakness") or (card.Name == "The Tower · XVI" or card.Name == "The Devil XV"), card.owner.deck) #Filters Weaknesses
+            notify("{} replaces {}.".format(group.player, card))
+            card.moveToBottom(card.owner.deck)
+            deckWithoutWeakness[0].moveTo(card.owner.hand)
+        shuffle(card.owner.deck)
 
 
 #------------------------------------------------------------------------------
 # Pile Actions
 #------------------------------------------------------------------------------
 
+def serumCheck(card): #Checks if double in hand
+    inHands = []
+    for c in card.owner.hand:
+        inHands.append(c.name)
+    if inHands.count(card.name) > 1:
+        return True
+    return False
+
+def haveSerum(player): #Checks if player has Dream-Enhancing Serum
+    for c in table:
+        if c.name == "Dream-Enhancing Serum" and c.owner == player and c.orientation & Rot90 != Rot90:
+            return True
+    return False
+
 def draw(group, x = 0, y = 0):
     mute()
-    if len(group) == 0: return
     if deckLocked():
         whisper("Your deck is locked, you cannot draw a card at this time")
         return
+    if len(group) == 0:
+        takeHorror = True
+        for c in group.player.piles['Discard Pile']:
+            c.moveTo(group.player.deck)
+        notify("{}'s deck is empty.".format(group.player))
+        shuffle(group)
+    else:
+        takeHorror = False
     card = group[0]
-    card.moveTo(me.hand)
-    notify("{} draws '{}'".format(me, card))
+    card.moveTo(group.player.hand)
+    notify("{} draws '{}'".format(group.player, card))
+    if takeHorror:
+        remoteCall(group.player, "notifyBar", ["#86aceb", "Your deck is empty ! Take 1 horror !"])
+    serumDoubleCheck(card)
+
+def serumDoubleCheck(card):
+    if haveSerum(card.owner):
+        if serumCheck(card):
+            if 1 == askChoice("Trigger Dream-Enhancing Serum ?", ["Yes","No"],["#000000","#000000"]):
+                cardDrawn = card.owner.deck[0]
+                cardDrawn.moveTo(card.owner.hand)
+                for c in table:
+                    if c.name == "Dream-Enhancing Serum" and c.owner == card.owner:
+                        notify("{} uses {} to draw {}".format(card.owner, c, cardDrawn))
+                        exhaust(c, x=0,y=0)
+                        return
 
 def shuffle(group):
     mute()
@@ -1603,9 +1837,8 @@ def drawMany(group, count = None):
     if count is None or count <= 0:
         whisper("drawMany: invalid card count")
         return
-    for c in group.top(count):
-        c.moveTo(me.hand)
-        notify("{} draws '{}'".format(me, c))
+    for i in range(0, count):
+        draw(group)  #Uses Draw Function
 
 def search(group, count = None):
     mute()
@@ -1622,6 +1855,23 @@ def search(group, count = None):
         c.moveTo(me.piles['Discard Pile'])
         moved += 1
     me.piles['Discard Pile'].lookAt(moved)
+
+def lookToBottom(group, count = None): #Alyssa Graham
+    mute()
+    if len(group) == 0: return
+    if count is None:
+        count = askInteger("Look at how many cards?", 5)
+    if count is None or count <= 0:
+        whisper("search: invalid card count")
+        return
+    dlg = cardDlg(group.top(count))
+    dlg.title = "Looking at cards"
+    dlg.text = "Select a card:"
+    cardsSelected = dlg.show()
+    if cardsSelected != None:
+        for c in cardsSelected:
+            c.moveToBottom(group)
+        notify("{} is moved at the bottom of {}".format(c, group.name))
     
 def moveMany(group, count = None):
     if len(group) == 0: return
@@ -1907,6 +2157,33 @@ def drawBasicWeaknessToHand(group, x = 0, y = 0):
     card = drawBasicWeakness(group, x, y)
     card.moveTo(me.hand)
     notify("{} draws the Basic Weakness '{}' into their hand.".format(me, card))
+
+def shuffleTekelili(group=None, x=0, y=0): #Adds an easy way to shuffle Tekeli-li cards into a player deck
+    if len(specialDeck()) > 0:
+        if len(getPlayers()) > 0:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())):
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add players investigator color to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Tekeli-li shuffle into:", choice_list, color_list)
+            if sets == 0:
+                return
+            if getPlayers()[sets - 1].deck.player == me:
+                moveTekelili(me)
+            else:
+                remoteCall(getPlayers()[sets - 1],"moveTekelili",[getPlayers()[sets - 1]])
+        else:
+            moveTekelili(me)
+    else:
+        notify("The Tekeli-li deck is empty!")
+
+def moveTekelili(player):
+    specialDeck()[0].moveTo(player.deck)
+    shuffle(player.deck)
+    notify("{} shuffles a Tekeli-li card into his/her deck.".format(player))
     
 
 def createCard(group=None, x=0, y=0):

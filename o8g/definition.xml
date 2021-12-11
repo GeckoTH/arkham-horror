@@ -143,6 +143,7 @@
 		<groupaction menu="Reveal Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+E" execute="addEncounterSpecial" />
 		<groupaction menu="Hidden Encounter Card" default="False" shortcut="ctrl+H" execute="addHidden" />
 		<groupaction menu="Hidden Encounter Card (Special Deck)" default="False" shortcut="ctrl+shift+H" execute="addHiddenSpecial" />
+		<groupaction menu="Shuffle Tekeli-li into deck" default="False" shortcut="ctrl+4" execute="shuffleTekelili" />
 		<groupactions menu="Tokens">
 			<groupaction menu="Draw Token from ChaosBag" default="False" shortcut="ctrl+S" execute="drawChaosToken" />
 			<groupaction menu="Draw X Tokens from ChaosBag" default="False" shortcut="ctrl+X" execute="drawXChaosTokens" />
@@ -257,6 +258,8 @@
 		<counter name="Combat" default="0" icon="groups/combat.png" />
 		<counter name="Agility" default="0" icon="groups/agility.png" />
 		<counter name="Maximum Hand Size" default="8" reset="True" icon="groups/hand.png" />
+		<counter name="Card Draw" default="1" reset="True" icon="groups/hand.png" />
+		<counter name="Ressource per upkeep" default="1" reset="True" icon="groups/ressource.png" />
 		<group name="Hand" visibility="me" ordered="False" icon="groups/hand.png" viewState="expanded">
 			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
 			<cardaction menu="Play" default="True" execute="playCard" />
