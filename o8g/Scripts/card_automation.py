@@ -266,6 +266,28 @@ def defaultAction(card, x = 0, y = 0):
                     t.delete()
                     break
                 updateBlessCurse()
+    elif card.Name == "Tetsuo Mori":
+        choice_list = []
+        color_list = []
+        for i in range(0, len(getPlayers())): 
+            # Add player names to the list
+            choice_list.append(str(InvestigatorName(getPlayers()[i])))
+            # Add players investigator color to the list
+            color_list.append(InvestigatorColor(getPlayers()[i]))
+        sets = askChoice("Choose a player at your location:", choice_list, color_list)
+        if sets == 0:
+            return
+        else:
+            chosenPlayer = getPlayers()[sets - 1]
+            choice_list = ['Search the discard pile','Search the top 9 cards of the deck']
+            color_list = ['#46453E','#46453E']
+            sets = askChoice("Tetsuo Mori", choice_list, color_list)
+            if sets == 0:
+                return
+            if sets == 1: # Discard Pile
+                remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.piles['Discard Pile'],chosenPlayer.hand])
+            if sets == 2: # Top 9
+                remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck,chosenPlayer.hand,9])
     elif card.Name == "Nephthys":
         choice_list = ['Seal a Bless token on Nephthys']
         color_list = ['#000000']
