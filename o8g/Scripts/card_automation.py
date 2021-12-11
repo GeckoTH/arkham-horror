@@ -102,7 +102,6 @@ def attachTo(card):
 def defaultAction(card, x = 0, y = 0):
     mute()
     global cardToAttachTo
-    global EndOfTheRoundDiscard
     global AmandaCard
     # Default for Done button is playerDone
     if not card.isFaceUp: #Face down card - flip
@@ -636,7 +635,6 @@ def defaultAction(card, x = 0, y = 0):
             searchTopDeck(card.owner.piles['Discard Pile'], table, traits="Ally")
             if len(cardsFound) > 0:
                 notify("{} puts {} into play".format(card.owner, cardsFound[0]))
-                EndOfTheRoundDiscard.append(cardsFound[0])
         else:
             choice_list = []
             color_list = []
@@ -656,14 +654,12 @@ def defaultAction(card, x = 0, y = 0):
                     searchTopDeck(chosenPlayer.piles['Discard Pile'], table, traits="Ally")
                     if len(cardsFound) > 0:
                         notify("{} puts {} into play".format(card.owner, cardsFound[0]))
-                        EndOfTheRoundDiscard.append(cardsFound[0])
                 else:
                     chosenPlayer.piles['Discard Pile'].controller = me
                     searchTopDeck(chosenPlayer.piles['Discard Pile'], table, traits="Ally")
                     notify("{}".format(len(cardsFound)))
                     if len(cardsFound) > 0:
                         notify("{} puts {} into play".format(card.owner, cardsFound[0]))
-                        EndOfTheRoundDiscard.append(cardsFound[0])
                     chosenPlayer.piles['Discard Pile'].controller = chosenPlayer
     elif card.Name == "Unrelenting":
         attachTo(card)
