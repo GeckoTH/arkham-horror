@@ -957,7 +957,10 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         investigatorCount = countInvestigators()
         
         # Find any Permanent cards
-        permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
+        permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text or "Partner" in card.Keywords, me.deck)
+        # Check if Stick to the Plan or Ancestral Knowledge is in the deck
+        sttp = filter(lambda card: "Stick to the Plan" in card.Name, me.deck)
+        ancestralKnowledge = filter(lambda card: "Ancestral Knowledge" in card.Name, me.deck)
         # Find any Start cards
         startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name  , me.deck)
         # Create Bonded Card
@@ -999,9 +1002,24 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             notify("{} places the start card {} on the table".format(me, card))
         
         if newInvestigator:
-            if len(me.hand) == 0:
-                drawOpeningHand()
-            for i in repeat(None, 5):
+            if len(me.hand) == 0: 
+                if sttp: 
+                    whisper("Stick to the Plan available")
+                if ancestralKnowledge:
+                    whisper("Ancestral Knowledge available")
+                if not (sttp or ancestralKnowledge): #Only draws opening hand if no Stick to the Plan or Ancestral Knowledge available
+                    drawOpeningHand()
+                    
+            # Check for starting resources modifiers
+            startingResource = 5
+            for card in permanents:
+                if card.Name == "Another Day, Another Dollar":
+                    startingResource += 2
+                    whisper("You start the game with 2 additional resources")
+                if card.Name == "Indebted":
+                    startingResource -= 2
+                    whisper("You start the game with 2 less resources")
+            for i in repeat(None, startingResource):
                 addResource(investigatorCard)
         
         
