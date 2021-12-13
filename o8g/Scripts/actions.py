@@ -1430,21 +1430,20 @@ def randomDiscard(group):
  
 def mulligan(group, x = 0, y = 0):
     mute()
-    
-    dlg = cardDlg(me.hand)
+    dlg = cardDlg(group.player.hand)
     dlg.title = "Mulligan!"
     dlg.text = "Select the cards you wish to replace:"
     dlg.min = 1
-    dlg.max = len(me.hand)
+    dlg.max = len(group.player.hand)
     cardsSelected = dlg.show()
     if cardsSelected is not None:
-        notify("{} declares a Mulligan, and replaces {} card(s).".format(me, len(cardsSelected)))
+        notify("{} declares a Mulligan, and replaces {} card(s).".format(group.player, len(cardsSelected)))
         for card in cardsSelected:
-            notify("{} replaces {}.".format(me, card))
-            card.moveToBottom(me.deck)
-            draw(me.deck)
-        
-        shuffle(me.deck)
+            deckWithoutWeakness = filter(lambda card: (card.subType != "Weakness"  and card.subType != "Basic Weakness") or (card.Name == "The Tower · XVI" or card.Name == "The Devil XV"), card.owner.deck)
+            notify("{} replaces {}.".format(group.player, card))
+            card.moveToBottom(card.owner.deck)
+            deckWithoutWeakness[0].moveTo(card.owner.hand)
+        shuffle(card.owner.deck)
 
 
 #------------------------------------------------------------------------------
