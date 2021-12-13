@@ -24,6 +24,7 @@
 		<script src="scripts/setupHelper.py" />
 		<script src="scripts/card_automation.py" />
 		<script src="scripts/blurse.py" />
+		<script src="scripts/phase_change_automation.py" />
 	</scripts>
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
@@ -258,6 +259,8 @@
 		<counter name="Combat" default="0" icon="groups/combat.png" />
 		<counter name="Agility" default="0" icon="groups/agility.png" />
 		<counter name="Maximum Hand Size" default="8" reset="True" icon="groups/hand.png" />
+		<counter name="Card Draw" default="1" reset="True" icon="groups/hand.png" />
+		<counter name="Ressource per upkeep" default="1" reset="True" icon="groups/ressource.png" />	
 		<group name="Hand" visibility="me" ordered="False" icon="groups/hand.png" viewState="expanded">
 			<groupaction menu="Random Discard" default="False" execute="randomDiscard" />
 			<cardaction menu="Play" default="True" execute="playCard" />

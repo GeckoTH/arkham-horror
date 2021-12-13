@@ -103,10 +103,12 @@ def phasePassed(args):
         # Investigation Phase
         phase = "Investigation"
         mute()
+        doInvestigationPhase()
     elif newPhase == 3:
         # Enemy
         phase = "Enemy"
         mute()
+        doEnemyPhase()
     elif newPhase == 4 and getGlobalVariable("allowUpkeepPhase") == "True":
         # Upkeep
         phase = "Upkeep"
@@ -183,9 +185,10 @@ def countInvestigators():
     return investigators
 
 #Work out if the player is still in the game (threat < 50 and has heroes on the table)
-def eliminated(p):
-    if not p:
-        return False
+def inGame(p):
+    for card in table:
+        if card.Type == "Mini" and card.owner == p:
+            return True
 
 def cardDoubleClicked(args):
     # args = card, mouseButton, keysDown
@@ -941,69 +944,6 @@ def readyForNextRound(group=table, x=0, y=0):
         highlightPlayer(me, DoneColour)
         setPlayerDone()
 
-def doUpkeepPhase(setPhaseVar = True):
-    mute()
-    debug("doUpkeepPhase()")
-    
-    if setPhaseVar:
-        setGlobalVariable("phase", "Upkeep")
-
-    if activePlayers() == 0:
-        whisper("All players have been eliminated: You have lost the game")
-        return
-    if eliminated(me):
-        whisper("You have been eliminated from the game")
-        return
-
-    clearTargets()
-    doRestoreAll()
-    #Check if Deck is empty
-    deckEmpty = False
-    if (len(me.deck) == 0):
-        for c in me.piles["Discard Pile"]:
-            c.moveTo(me.deck)
-        shuffle(me.deck)
-        deckEmpty = True
-
-    draw(me.deck)
-    
-    # Check for hand size!
-    sizeHand = me.counters['Maximum Hand Size'].value
-    if len(me.hand) > sizeHand:
-        discardCount = len(me.hand) - sizeHand
-        dlg = cardDlg(me.hand)
-        dlg.title = "You have more than the allowed "+ str(sizeHand) +" cards in hand."
-        dlg.text = "Select " + str(discardCount) + " Card(s):"
-        dlg.min = 0
-        dlg.max = discardCount
-        cardsSelected = dlg.show()
-        if cardsSelected is not None:
-            for card in cardsSelected:
-                discard(card)
-    
-    for card in table:
-        if card.Type == "Investigator" and card.controller == me and not isLocked(card) and card.isFaceUp:
-            addResource(card)
-            if(deckEmpty):
-                addHorror(card)
-        elif card.Type == "Mini" and card.controller == me:
-            card.markers[Action] = 0
-            if card.alternates is not None and "" in card.alternates:
-                card.alternate = ''
-
-    shared.counters['Round'].value += 1
-
-def doMythosPhase(setPhaseVar = True):
-    mute()
-    debug("doMythosPhase()")
-    
-    if setPhaseVar:
-        setGlobalVariable("phase", "Mythos")
-
-    for card in table:
-        if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
-            addDoom(card)
-
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
 
@@ -1513,13 +1453,42 @@ def mulligan(group, x = 0, y = 0):
 
 def draw(group, x = 0, y = 0):
     mute()
-    if len(group) == 0: return
     if deckLocked():
         whisper("Your deck is locked, you cannot draw a card at this time")
         return
+    if len(group) == 0:
+        takeHorror = True
+        for c in group.player.piles['Discard Pile']:
+            c.moveTo(group.player.deck)
+        notify("{}'s deck is empty.".format(group.player))
+        shuffle(group)
+    else:
+        takeHorror = False
     card = group[0]
-    card.moveTo(me.hand)
-    notify("{} draws '{}'".format(me, card))
+    card.moveTo(group.player.hand) # Not using me.hand for two-handed solo players
+    notify("{} draws '{}'".format(group.player, card))
+    if takeHorror:
+        remoteCall(group.player, "notifyBar", ["#86aceb", "Your deck is empty ! Take 1 horror !"])
+    serumDoubleCheck(card)
+
+def serumDoubleCheck(card):
+    if haveSerum(card.owner):
+        inHands = []
+        for c in card.owner.hand:
+            inHands.append(c.name)
+        if inHands.count(card.name) > 1:
+            if 1 == askChoice("Trigger Dream-Enhancing Serum ?", ["Yes","No"],["#000000","#000000"]):
+                cardDrawn = card.owner.deck[0]
+                cardDrawn.moveTo(card.owner.hand)
+                for c in table:
+                    if c.name == "Dream-Enhancing Serum" and c.owner == card.owner:
+                        notify("{} uses {} to draw {}".format(card.owner, c, cardDrawn))
+                        exhaust(c, x=0,y=0)
+
+def haveSerum(player):
+    for c in table:
+        if c.name == "Dream-Enhancing Serum" and c.owner == player and c.orientation & Rot90 != Rot90:
+            return True
 
 def shuffle(group):
     mute()
@@ -1539,9 +1508,8 @@ def drawMany(group, count = None):
     if count is None or count <= 0:
         whisper("drawMany: invalid card count")
         return
-    for c in group.top(count):
-        c.moveTo(me.hand)
-        notify("{} draws '{}'".format(me, c))
+    for i in range(0, count):
+        draw(group)     
 
 def search(group, count = None):
     mute()
