@@ -751,6 +751,38 @@ def defaultAction(card, x = 0, y = 0):
         searchTopDeck(card.owner.deck, table, traits="Tarot")
     elif card.Name == "Lucid Dreaming":
         searchTopDeck(card.owner.deck, card.owner.hand)
+    elif card.Name == "Tekeli-li":
+        card.moveToBottom(specialDeck())
+        notify("{} is placed on the bottom of the Tekeli-li deck".format(card.name))
     else:
         exhaust(card, x, y)
     
+#############################################
+#                                           #
+#           Mythos Cards                    #
+#                                           #
+#############################################   
+def shuffleTekelili(group=None, x=0, y=0):
+    if len(specialDeck()) > 0:
+        if len(getPlayers()) > 0:
+            choice_list = []
+            color_list = []
+            for i in range(0, len(getPlayers())):
+                # Add player names to the list
+                choice_list.append(str(InvestigatorName(getPlayers()[i])))
+                # Add players investigator color to the list
+                color_list.append(InvestigatorColor(getPlayers()[i]))
+            sets = askChoice("Tekeli-li shuffle into:", choice_list, color_list)
+            if sets == 0:
+                return
+            if getPlayers()[sets - 1].deck.player == me:
+                moveTekelili(me)
+            else:
+                remoteCall(getPlayers()[sets - 1],"moveTekelili",[getPlayers()[sets - 1]])
+    else:
+        notify("The Tekeli-li deck is empty!")
+
+def moveTekelili(player):
+    specialDeck()[0].moveTo(player.deck)
+    shuffle(player.deck)
+    notify("{} shuffles a Tekeli-li card into his/her deck.".format(player))
