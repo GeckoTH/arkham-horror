@@ -496,14 +496,9 @@ def autoCharges(args):
                         strCharges = strCharges.replace(" ", "")
                         if strCharges.isnumeric():
                             isAkachi = filter(lambda card: (card.Name == "Akachi Onyele" and card.Type == "Investigator" and card.owner == me and not isLocked(card)), table)
-                            if isAkachi:
-                                if "(Uses" and "charges" in card.properties["Text"]:
+                            if isAkachi and ("Uses (" and "charges)." in card.properties["Text"]):
                                     notify("{} adds {} {} on {}".format(me,int(strCharges)+1,word,card))
                                     for i in range(0, (int(strCharges)+1)):
-                                        addResource(card)
-                                else:
-                                    notify("{} adds {} {} on {}".format(me,strCharges,word,card))
-                                    for i in range(0, (int(strCharges))):
                                         addResource(card)
                             else:
                                 notify("{} adds {} {} on {}".format(me,strCharges,word,card))
