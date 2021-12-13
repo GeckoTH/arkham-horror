@@ -1423,10 +1423,14 @@ def moveToVictory(card, x=0, y=0):
 
 def randomDiscard(group):
     mute()
-    card = group.random()
-    if card is None: return
-    notify("{} randomly discards '{}'.".format(me, card))
-    card.moveTo(me.piles['Discard Pile'])
+    hand = [c for c in group
+    if not "Hidden." in c.Text]
+    if hand:
+        card = hand[rnd(0,len(hand)-1)]
+        notify("{} randomly discards '{}'.".format(group.player, card))
+        card.moveTo(group.player.piles['Discard Pile'])
+    else:
+        notify("No eligible card for random discard")
  
 def mulligan(group, x = 0, y = 0):
     mute()
