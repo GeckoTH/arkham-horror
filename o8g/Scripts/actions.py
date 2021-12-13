@@ -784,24 +784,36 @@ def addToStagingArea(card, facedown=False, who=me):
     
 def nextEncounter(group, x, y, facedown, who=me):
     mute()
-
     if group.controller != me:
         remoteCall(group.controller, "nextEncounter", [group, x, y, facedown, me])
         return
 
     if len(group) == 0:
+        for i in range(0, len(getPlayers())):
+            remoteCall(getPlayers()[i], "notifyBar", ["#dd3737", "{} is empty and is reshuffled !".format(group.name)]) # Warns players if the encounter deck is being reshuffled
         resetEncounterDeck(group)
     if len(group) == 0: # No cards
         return
 
     clearTargets()
     card = group.top()
+    if " Hidden." in card.Text: # Checks if card drawn has the Hidden keyword
+        Hidden = True
+    else: Hidden = False
     if x == 0 and y == 0:  #Move to default position in the staging area 
-        card.moveToTable(EncounterX, EncounterY, facedown)
-        notify("{} places '{}' on the table.".format(who, card))    
+        if not Hidden:
+            card.moveToTable(EncounterX, EncounterY, facedown)
+            notify("{} places '{}' on the table.".format(who, card))  
+        else: # move the card facedown on the table
+            card.moveToTable(EncounterX, EncounterY, True)
+            notify("{} places a Hidden card on the table.".format(who))  
     else:
-        card.moveToTable(x, y, facedown)
-        notify("{} places '{}' on the table.".format(who, card))
+        if not Hidden:
+            card.moveToTable(x, y, facedown)
+            notify("{} places '{}' on the table.".format(who, card))
+        else:
+            card.moveToTable(x, y, True)
+            notify("{} places a Hidden card on the table.".format(who))
     card.controller = who
 
     revealEncounterSound(card)
@@ -814,6 +826,8 @@ def nextEncounter2(group, facedown, who=me):
         return
 
     if len(group) == 0:
+        for i in range(0, len(getPlayers())):
+            remoteCall(getPlayers()[i], "notifyBar", ["#dd3737", "{} is empty and is reshuffled !".format(group.name)])
         resetEncounterDeck(group)
     if len(group) == 0: # No cards
         return
