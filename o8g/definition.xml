@@ -23,6 +23,7 @@
 		<script src="scripts/sound.py" />
 		<script src="scripts/setupHelper.py" />
 		<script src="scripts/card_automation.py" />
+		<script src="scripts/blurse.py" />
 	</scripts>
 	<events>
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
