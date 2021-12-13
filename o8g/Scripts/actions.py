@@ -1025,7 +1025,7 @@ def drawOpeningHand():
 
 def removeWeaknessCards():
     weaknesses = []
-    for card in filter(lambda card: card.Subtype in ["Weakness", "Basic Weakness"], me.hand):
+    for card in filter(lambda card: (card.subType == "Weakness"  or card.subType == "Basic Weakness") and (card.Name != "The Tower · XVI" or card.Name == "The Devil XV"), me.hand):
         weaknesses.append(card)
         notify("{} replacing weakness '{}'".format(me, card))
 
