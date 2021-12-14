@@ -280,10 +280,10 @@ def defaultAction(card, x = 0, y = 0):
         notify("{} uses {} to search his/her deck for a Weapon card to draw.".format(card.owner, card))
         searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Weapon")
     elif card.Name == "Rite of Sanctification":
-        if blessInCB() > 0 and card.Subtype != "Sealed": 
+        if blessInCB() > 0 and card.Subtype != "Locked": 
             count = askInteger("Seal how many tokens from the chaos bag?", 5)
-            if count is None or count <= 0 or count > 5:
-                whisper("search: invalid card count")
+            if count is None or count <= 0 or count > 5 or count > blessInCB():
+                whisper("Invalid Count")
                 return
             inc = 0
             for i in range(0, count):
@@ -293,11 +293,11 @@ def defaultAction(card, x = 0, y = 0):
                     continue
                 t.delete()
                 inc += 1
-                if inc == 5:
+                if inc == count:
                     break
-            card.subType = "Sealed" # Sealing for ability trigger
+            card.subType = "Locked" # Sealing for ability trigger
             updateBlessCurse()
-        elif card.Subtype == "Sealed" and card.markers[Bless] > 0:
+        elif card.Subtype == "Locked" and card.markers[Bless] > 0:
             if 1 == askChoice('Release a sealed bless token ?', ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
                 exhaust (card, x, y)
                 card.markers[Bless] -= 1
@@ -414,11 +414,11 @@ def defaultAction(card, x = 0, y = 0):
         exhaust (card, x, y)
         notify("{} uses {} to search his/her deck for a Spirit card to draw.".format(card.owner, card))
         searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Spirit")
-    elif card.Name == "Stick to the Plan" and not isLocked(card) and not card.Subtype == "Sealed": # Using Seal to prevent an additional trigger
+    elif card.Name == "Stick to the Plan" and not isLocked(card) and not card.Subtype == "Locked": # Locking to prevent an additional trigger
         notify("{} uses {} to search his/her deck for 3 Supply or Tactic cards to attach to {}.".format(card.owner, card, card))
         attachTo(card)
         searchTopDeck(card.owner.deck, table, traits="Supply,Tactic")
-        card.Subtype = 'Sealed' # Sealing after triggering
+        card.Subtype = 'Locked' 
         if 1 == askChoice('Draw opening hand ?', ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
             drawOpeningHand()
     elif card.Name == "On the Hunt" and card.Level == "0":
@@ -432,7 +432,7 @@ def defaultAction(card, x = 0, y = 0):
 #           Seeker Cards                    #
 #                                           #
 #############################################      
-    elif card.Name == "Ancestral Knowledge" and not card.Subtype == "Sealed": # Using Seal to prevent an additional trigger
+    elif card.Name == "Ancestral Knowledge" and not card.Subtype == "Locked": # Locking to prevent an additional trigger
         attachTo(card)
         skillsToShow = [c for c in card.owner.deck
                 if c.Type == "Skill" and not "Weakness" in c.Subtype]
@@ -459,7 +459,7 @@ def defaultAction(card, x = 0, y = 0):
                     inc += 1
                     if inc == len(cardsSelected):
                         cardToAttachTo = None
-            card.Subtype = 'Sealed'
+            card.Subtype = 'Locked'
             cardToAttachTo = None
         shuffle(card.owner.deck)
         if 1 == askChoice('Draw opening hand ?'

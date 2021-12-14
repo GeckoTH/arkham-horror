@@ -86,11 +86,9 @@ def addBlessCurse(group, isBless, who=me):
 
     if isBless:
         token = table.create(BlessID, 0, 0, 1, True)
-        notify("{} puts a Bless Token into the Chaos Bag".format(who))
         addToken(cb, Bless)
     else:
         token = table.create(CurseID, 0, 0, 1, True)
-        notify("{} puts a Curse Token into the Chaos Bag".format(who))
         addToken(cb, Curse)
 
     token.Subtype = "Blurse"
