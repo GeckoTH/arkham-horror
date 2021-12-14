@@ -793,6 +793,7 @@ def moveTekelili(player):
 #                                           #
 #############################################      
 def SefinaOpening(player):
+    global cardToAttachTo
     drawMany(player.deck, 13)
     removeWeaknessCards()
     Sefina = [card for card in table

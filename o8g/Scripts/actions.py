@@ -1051,14 +1051,13 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         notify("Players performed setup at the same time causing problems, please reset and try again")
 
 def drawOpeningHand():
-    global cardToAttachTo
     me.deck.shuffle()
     isStudious = filter(lambda card: card.Name == "Studious" and card.owner == me, table)
     isSefina = filter(lambda card: card.Name == "Sefina Rousseau" and card.Type == "Investigator" and card.owner == me, table)
     isJoe = filter(lambda card: card.Name == "Joe Diamond" and card.Type == "Investigator" and card.owner == me, table)
     if isSefina and 1 == askChoice("Automate Sefina Drawing Hand ?", ["Yes","No"],["#000000","#000000"]):
         SefinaOpening(me)
-    if isJoe and 1 == askChoice("Automate Joe Hunch Deck ?", ["Yes","No"],["#000000","#000000"]):
+    elif isJoe and 1 == askChoice("Automate Joe Hunch Deck ?", ["Yes","No"],["#000000","#000000"]):
         JoeOpening(me)
         drawMany(me.deck, shared.OpeningHandSize)
         if isStudious:
