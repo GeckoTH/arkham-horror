@@ -1051,24 +1051,27 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         notify("Players performed setup at the same time causing problems, please reset and try again")
 
 def drawOpeningHand():
+    studious = 0
     me.deck.shuffle()
-    isStudious = filter(lambda card: card.Name == "Studious" and card.owner == me, table)
+    for c in table:
+        if c.name == "Studious" and c.owner == me:
+            studious += 1
+            if studious == 2:
+                break
     isSefina = filter(lambda card: card.Name == "Sefina Rousseau" and card.Type == "Investigator" and card.owner == me, table)
     isJoe = filter(lambda card: card.Name == "Joe Diamond" and card.Type == "Investigator" and card.owner == me, table)
     if isSefina and 1 == askChoice("Automate Sefina Drawing Hand ?", ["Yes","No"],["#000000","#000000"]):
         SefinaOpening(me)
     elif isJoe and 1 == askChoice("Automate Joe Hunch Deck ?", ["Yes","No"],["#000000","#000000"]):
         JoeOpening(me)
-        drawMany(me.deck, shared.OpeningHandSize)
-        if isStudious:
-            draw(me.deck)
-            whisper("You start the game with an additional card in hand.")
+        drawMany(me.deck, shared.OpeningHandSize + studious)
+        if studious > 0:
+            whisper("You start the game with {} additional card in hand.".format(studious))
         removeWeaknessCards()
     else:
-        drawMany(me.deck, shared.OpeningHandSize)
-        if isStudious:
-            draw(me.deck)
-            whisper("You start the game with an additional card in hand.")
+        drawMany(me.deck, shared.OpeningHandSize + studious)
+        if studious > 0:
+            whisper("You start the game with {} additional card in hand.".format(studious))
         removeWeaknessCards()
     me.deck.shuffle()
 
