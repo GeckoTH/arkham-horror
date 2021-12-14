@@ -280,15 +280,30 @@ def defaultAction(card, x = 0, y = 0):
         notify("{} uses {} to search his/her deck for a Weapon card to draw.".format(card.owner, card))
         searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Weapon")
     elif card.Name == "Rite of Sanctification":
-        if blessInCB() > 0:
-            if confirm("Seal a Bless Token ?"):
+        if blessInCB() > 0 and card.Subtype != "Sealed": 
+            count = askInteger("Seal how many tokens from the chaos bag?", 5)
+            if count is None or count <= 0 or count > 5:
+                whisper("search: invalid card count")
+                return
+            inc = 0
+            for i in range(0, count):
                 card.markers[Bless] += 1
-                for t in shared.piles['Chaos Bag']:
-                    if t.Name != "Bless":
-                        continue
-                    t.delete()
+            for t in shared.piles['Chaos Bag']:
+                if t.Name != "Bless":
+                    continue
+                t.delete()
+                inc += 1
+                if inc == 5:
                     break
-                updateBlessCurse()
+            card.subType = "Sealed" # Sealing for ability trigger
+            updateBlessCurse()
+        elif card.Subtype == "Sealed" and card.markers[Bless] > 0:
+            if 1 == askChoice('Release a sealed bless token ?', ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
+                exhaust (card, x, y)
+                card.markers[Bless] -= 1
+                addBless()
+                if card.markers[Bless] == 0:
+                    card.SubType = "" # For the rare cases where Rite of Sanctification is brought back in play after being discarded
     elif card.Name == "Tetsuo Mori":
         choice_list = []
         color_list = []
@@ -342,7 +357,7 @@ def defaultAction(card, x = 0, y = 0):
                         if t.SubType != "Sealed":
                             t.delete()
                             break
-                notify("{} uses {} to seal a Bless token".format(card.owner, card))
+                    notify("{} uses {} to seal a Bless token".format(card.owner, card))
             if sets == 2:
                 exhaust (card, x, y)
                 card.markers[Bless] -= 3
