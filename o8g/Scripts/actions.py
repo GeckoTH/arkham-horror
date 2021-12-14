@@ -1055,45 +1055,16 @@ def drawOpeningHand():
     me.deck.shuffle()
     isStudious = filter(lambda card: card.Name == "Studious" and card.owner == me, table)
     isSefina = filter(lambda card: card.Name == "Sefina Rousseau" and card.Type == "Investigator" and card.owner == me, table)
+    isJoe = filter(lambda card: card.Name == "Joe Diamond" and card.Type == "Investigator" and card.owner == me, table)
     if isSefina and 1 == askChoice("Automate Sefina Drawing Hand ?", ["Yes","No"],["#000000","#000000"]):
-        drawMany(me.deck, 13)
+        SefinaOpening(me)
+    if isJoe and 1 == askChoice("Automate Joe Hunch Deck ?", ["Yes","No"],["#000000","#000000"]):
+        JoeOpening(me)
+        drawMany(me.deck, shared.OpeningHandSize)
+        if isStudious:
+            draw(me.deck)
+            whisper("You start the game with an additional card in hand.")
         removeWeaknessCards()
-        Sefina = [card for card in table
-                if card.Name == "Sefina Rousseau" and card.Type == "Investigator" and card.owner == me]
-        attachTo(Sefina[0])
-        eventsToShow = [card for card in me.hand
-                if card.Type == "Event"]
-        dlg = cardDlg(eventsToShow)
-        dlg.title = "Sefina Rousseau"
-        dlg.text = "Select up to 5 events to attach to place under Sefina:"
-        dlg.min = 0
-        dlg.max = 5
-        cardsSelected = dlg.show()
-        if cardsSelected != None:
-            inc = 0
-            for card in cardsSelected:
-                card.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
-                card.sendToBack()
-                if len(cardsSelected) == 1:
-                    cardToAttachTo = None
-                else:
-                    attachTo(card)
-                    inc += 1
-                    if inc == len(cardsSelected): # Resets cardToAttachTo
-                        cardToAttachTo = None
-        sizeHand = card.owner.counters['Maximum Hand Size'].value
-        cardsInHand = len(card.owner.hand)
-        if cardsInHand > sizeHand: #Hand Size Check
-            discardCount = cardsInHand - sizeHand
-            dlg = cardDlg(me.hand)
-            dlg.title = "You have more than the allowed "+ str(sizeHand) +" cards in hand."
-            dlg.text = "Select " + str(discardCount) + " Card(s):"
-            dlg.min = 0
-            dlg.max = discardCount
-            cardsSelected = dlg.show()
-            if cardsSelected is not None:
-                for card in cardsSelected:
-                    discard(card)
     else:
         drawMany(me.deck, shared.OpeningHandSize)
         if isStudious:

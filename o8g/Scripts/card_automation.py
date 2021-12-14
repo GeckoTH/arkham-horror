@@ -786,3 +786,70 @@ def moveTekelili(player):
     specialDeck()[0].moveTo(player.deck)
     shuffle(player.deck)
     notify("{} shuffles a Tekeli-li card into his/her deck.".format(player))
+
+#############################################
+#                                           #
+#           Character Cards                 #
+#                                           #
+#############################################      
+def SefinaOpening(player):
+    drawMany(player.deck, 13)
+    removeWeaknessCards()
+    Sefina = [card for card in table
+            if card.Name == "Sefina Rousseau" and card.Type == "Investigator" and card.owner == player]
+    attachTo(Sefina[0])
+    eventsToShow = [card for card in player.hand
+            if card.Type == "Event"]
+    dlg = cardDlg(eventsToShow)
+    dlg.title = "Sefina Rousseau"
+    dlg.text = "Select up to 5 events to attach to place under Sefina:"
+    dlg.min = 0
+    dlg.max = 5
+    cardsSelected = dlg.show()
+    if cardsSelected != None:
+        inc = 0
+        for card in cardsSelected:
+            card.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+            card.sendToBack()
+            if len(cardsSelected) == 1:
+                cardToAttachTo = None
+            else:
+                attachTo(card)
+                inc += 1
+                if inc == len(cardsSelected): # Resets cardToAttachTo
+                    cardToAttachTo = None
+    sizeHand = card.owner.counters['Maximum Hand Size'].value
+    cardsInHand = len(card.owner.hand)
+    if cardsInHand > sizeHand: #Hand Size Check
+        discardCount = cardsInHand - sizeHand
+        dlg = cardDlg(player.hand)
+        dlg.title = "You have more than the allowed "+ str(sizeHand) +" cards in hand."
+        dlg.text = "Select " + str(discardCount) + " Card(s):"
+        dlg.min = 0
+        dlg.max = discardCount
+        cardsSelected = dlg.show()
+        if cardsSelected is not None:
+            for card in cardsSelected:
+                discard(card)
+
+def JoeOpening(player):
+    for c in player.deck:
+        if c.Name == "Unsolved Case":
+            c.moveTo(player.piles['Secondary Deck'])
+            break
+    Insights = [card for card in player.deck
+            if "Insight." in card.Traits and card.Type == "Event"]
+    if len(Insights) < 10:
+        notify("Invalid Deck ! Not enough Insight events !")
+        return
+    dlg = cardDlg(Insights)
+    dlg.title = "Hunch Deck"
+    dlg.text = "Select 10 Insight events for your hunch deck:"
+    dlg.min = 10
+    dlg.max = 10
+    cardsSelected = dlg.show()
+    if cardsSelected is not None:
+        for c in cardsSelected:
+            c.moveTo(player.piles['Secondary Deck'])
+        shuffle(player.piles['Secondary Deck'])
+    player.piles['Secondary Deck'].viewState = "pile"

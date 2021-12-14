@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+HunchCard = None
+AmandaCard = None
+
 def doMythosPhase(setPhaseVar = True):
     mute()
     debug("doMythosPhase()")
@@ -33,7 +36,9 @@ def doMythosPhase(setPhaseVar = True):
 
 def doInvestigationPhase():
     global AmandaCard
-    isAmanda = filter(lambda card: (card.Name == "Amanda Sharpe" and card.Type == "Investigator" and card.owner == me and not isLocked(card)), table)
+    global HunchCard
+    isAmanda = filter(lambda card: (card.Name == "Amanda Sharpe" and card.Type == "Investigator" and card.owner == me and not isLocked(card) and inGame(card.owner)), table)
+    isJoe = filter(lambda card: (card.Name == "Joe Diamond" and card.Type == "Investigator" and card.owner == me and not isLocked(card) and inGame(card.owner)) , table)
     if isAmanda:
         for c in table: #Find Amanda on table
             if c.name == "Amanda Sharpe" and c.type == "Investigator":
@@ -63,10 +68,20 @@ def doInvestigationPhase():
                     c.highlight = RedColour
                 else: c.highlight = WhiteColour
                 notify("{} places {} under {}".format(c.owner,AmandaCard,amanda))
+    if isJoe:
+        if len(me.piles['Secondary Deck']) > 0:
+            HunchCard = me.piles['Secondary Deck'].top()
+            flipcard(HunchCard) # Show the first Hunch Card
+        else: HunchCard = None
 
-def doEnemyPhase(): #Targets Hunter Enemies
-    for c in table:
-        if c.Type == "Enemy" and "Hunter." in c.Text and c.orientation & Rot90 != Rot90 and c.isFaceUp: 
+def doEnemyPhase(): # Also End of the Investigation Phase
+    global HunchCard
+    if HunchCard:
+        if HunchCard.group == HunchCard.owner.piles['Secondary Deck']: # Checks if Hunch Card is still in the Hunch Deck
+            HunchCard.owner.piles['Secondary Deck'].visibility = "none" # Removes Visibility
+            HunchCard.owner.piles['Secondary Deck'].shuffle() # Shuffle Hunch Deck
+    for c in table: # Targets Hunter Enemies
+        if c.Type == "Enemy" and "Hunter." in c.Text and c.orientation & Rot90 != Rot90 and c.isFaceUp:
             c.target()
 
 def doUpkeepPhase(setPhaseVar = True):
