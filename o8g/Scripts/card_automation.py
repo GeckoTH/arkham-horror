@@ -311,7 +311,7 @@ def defaultAction(card, x = 0, y = 0):
                 remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.piles['Discard Pile'],chosenPlayer.hand])
             if sets == 2: # Top 9
                 remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck,chosenPlayer.hand,9])
-    elif card.Name == "Nepththys":
+    elif card.Name == "Nephthys":
         choice_list = ['Seal a Bless token on Nephthys']
         color_list = ['#000000']
         if card.markers[Bless] >= 3:
