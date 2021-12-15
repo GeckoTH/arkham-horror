@@ -1791,7 +1791,7 @@ def drawAddChaosToken(group, x = 0, y = 0):
     mute()
     num = 0
     for card in table: #find out how many Tokens there already are
-        if card.Type == "Chaos Token":
+        if card.Type == "Chaos Token" and card.subType != "Sealed":
             num += 1
 
     if chaosBag().controller == me:
