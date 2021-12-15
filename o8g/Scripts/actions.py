@@ -1131,7 +1131,7 @@ def flipcard(card, x = 0, y = 0):
     mute()
     
     if card.controller != me:
-        notify("{} gets {} to flip card".format(me, card.controller()))
+        notify("{} gets {} to flip card".format(me, card.controller))
         remoteCall(card.controller, "flipcard", card)
         return
 

@@ -77,9 +77,9 @@ def doInvestigationPhase():
 def doEnemyPhase(): # Also End of the Investigation Phase
     global HunchCard
     if HunchCard:
-        if HunchCard.group == HunchCard.owner.piles['Secondary Deck']: # Checks if Hunch Card is still in the Hunch Deck
-            HunchCard.owner.piles['Secondary Deck'].visibility = "none" # Removes Visibility
-            HunchCard.owner.piles['Secondary Deck'].shuffle() # Shuffle Hunch Deck
+        if HunchCard == me.piles['Secondary Deck'].top(): # Checks if Hunch Card is still on top of the Hunch Deck
+            flipcard(HunchCard)
+            me.piles['Secondary Deck'].shuffle() # Shuffle Hunch Deck
     for c in table: # Targets Hunter Enemies
         if c.Type == "Enemy" and "Hunter." in c.Text and c.orientation & Rot90 != Rot90 and c.isFaceUp:
             c.target()
