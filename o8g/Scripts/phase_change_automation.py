@@ -104,7 +104,7 @@ def doUpkeepPhase(setPhaseVar = True):
     for card in table:
         #If Patrice, Discard all cards but weaknesses and draw to 5
         if card.Name == "Patrice Hathaway" and card.owner == me and card.Type == "Investigator" and not isLocked(card):
-            for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"], card.owner.hand):
+            for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"] and not "Peril. Hidden." in card.Text, card.owner.hand):
                 notify("{} discards '{}'".format(me, card))
                 card.moveTo(card.owner.piles['Discard Pile'])
             cardToDraw = 5 - len(card.owner.hand)
