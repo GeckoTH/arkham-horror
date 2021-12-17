@@ -54,7 +54,7 @@ def defaultAction(card, x = 0, y = 0):
     # Default for Done button is playerDone
     if not card.isFaceUp: #Face down card - flip
         flipcard(card, x, y)
-    elif card.Type == "Path": # Action handled in OnCardDoubleClicked
+    elif card.Type == "Path" or card.Type == "Tarot": # Action handled in OnCardDoubleClicked
         # Do nothing
         mute()
     elif card.orientation & Rot90 == Rot90: #Rotated card - refresh

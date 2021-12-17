@@ -210,7 +210,7 @@ def cardDoubleClicked(args):
             nextAgendaStage()
         elif card.Type == "nextAct":
             nextActStage()
-        elif card.Type == "Path": # Rotate Path cards
+        elif card.Type == "Path" or card.Type == "Tarot": # Rotate Path cards
             rotateRight(card)
 
 def activePlayers():
@@ -1173,7 +1173,7 @@ def toggleLock(group, x=0, y=0):
         if len(me.deck) > 0:
             lockCard(me.deck.top())
         notify("{} Locks his deck".format(me))
-        
+           
 def exhaust(card, x = 0, y = 0):
     mute()
     card.orientation ^= Rot90
@@ -1230,7 +1230,10 @@ def rotateRight(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
     mute()
     if card.controller == me:
-        card.orientation = (card.orientation + 1) % 4
+        if card.Type == "Tarot":
+            card.orientation ^= Rot180
+        else:
+            card.orientation = (card.orientation + 1) % 4
         if card.isFaceUp:
             notify("{} Rotates '{}'".format(me, card.Name))
         else:
@@ -1240,7 +1243,10 @@ def rotateLeft(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
     mute()
     if card.controller == me:
-        card.orientation = (card.orientation - 1) % 4
+        if card.Type == "Tarot":
+            card.orientation ^= Rot180
+        else:
+            card.orientation = (card.orientation - 1) % 4
         if card.isFaceUp:
             notify("{} Rotates '{}'".format(me, card.Name))
         else:
