@@ -49,7 +49,7 @@ def setupHelper():
     elif s == '3e01c1d4-8e5c-472b-b803-357c6474ca01': #Threads of Fate
         ab = [['c8d55c59-96cd-438b-afaa-366bfe19730c','896613e6-b4a2-488a-8460-929df1a72bf4'],
               ['c6b3c676-8d25-46d4-a43c-898324bbd6e0','d2aff041-a1f8-4b31-a630-651661ac22fc'],
-              ['da71f372-8c2b-4616-aae2-008483386f6a','da71f372-8c2b-4616-aae2-008483386f6a'],
+              ['da71f372-8c2b-4616-aae2-008483386f6a','7a519eb0-846d-412d-8d23-bf773ec5b4a3'],
               ['71fc4500-eaf7-43b1-b6b4-165248055cdf','aa707a76-33be-4960-9a91-ce58e22b7728']]
 
         a = askChoice("Check Campaign Log",
@@ -120,7 +120,7 @@ def setupHelper():
         if len(cards) == 1:
             return #no Return To
         #Otherwise we are playing Return to
-        gh = [['3faf9ca8-2d4a-4327-b365-2332cbf76401','6986f0ca-fc8e-420e-ae92-6410fab73785'],
+        gh = [['6986f0ca-fc8e-420e-ae92-6410fab73785','3faf9ca8-2d4a-4327-b365-2332cbf76401'],
               ['33b24489-91a6-4eae-9164-082b357abd14','24bf56dc-3b0f-45db-b633-6428a5ffd784'],
               ['af6113e6-6f03-4685-824f-11016b51b50f','2ac2cfc8-aa2b-406b-a950-1a273d7cb1cf'],
               ['0d36127e-b441-4f49-af22-7bf13aaa0253','9b2376a8-7317-4652-9f61-ff31c7d15e0b']]
