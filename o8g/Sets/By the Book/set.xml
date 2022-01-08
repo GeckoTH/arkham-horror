@@ -19,7 +19,7 @@
       <alternate name="Roland Banks" type="B" size="InvestigatorCard">
         <property name="Subtitle" value="The Fed" />
         <property name="Type" value="Investigator" />
-        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Guardian cards (κ) level 0-3, Insight cards level 0-3, Tactic cards level 0-3, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Roland's .38 Special, Cover Up, 1 random basic weakness.&#10;Additional Options: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode)." />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Guardian cards (κ) level 0–3, Insight cards level 0–3, Tactic cards level 0–3, Neutral cards level 0–5.&#10;Deckbuilding Requirements (do not count toward deck size): Roland's .38 Special, Cover Up, 1 random basic weakness.&#10;Additional Options: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode)." />
         <property name="Class" value="Guardian" />
         <property name="Unique" value="ο" />
       </alternate>
@@ -88,7 +88,7 @@
       <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="f09fe392-9073-4c42-8dd0-ae6687879f08" name="Cover Up" size="EncounterCard">
+    <card id="f09fe392-9073-4c42-8dd0-ae6687879f08" name="Cover Up">
       <property name="Card Number" value="31" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Treachery" />
@@ -102,12 +102,12 @@
       <property name="Encounter Set" value="By the Book" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: X. X is the number of Cultist enemies in the victory display, to a maximum of 5.&#10;β: –2. If a Cultist enemy is engaged with you, reveal an additional chaos token.&#10;γ: –3. Ready each Cultist enemy engaged with you.&#10;δ: –4. If you fail, Roland Banks takes 1 damage." />
+      <property name="Text" value="α: –X. X is the number of Cultist enemies in the victory display, to a maximum of 5.&#10;β: –2. If a Cultist enemy is engaged with you, reveal an additional chaos token.&#10;γ: –3. Ready each Cultist enemy engaged with you.&#10;δ: –4. If you fail, Roland Banks takes 1 damage." />
       <alternate name="By the Book" type="B" size="EncounterCard">
         <property name="Encounter Set" value="By the Book" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: X. X is the number of Cultist enemies in the victory display.&#10;β: –3. If a Cultist enemy is engaged with you, reveal an additional chaos token.&#10;γ: –4. Ready each Cultist enemy engaged with you.&#10;δ: –5. If you fail, Roland Banks takes 1 damage." />
+        <property name="Text" value="α: –X. X is the number of Cultist enemies in the victory display.&#10;β: –3. If a Cultist enemy is engaged with you, reveal an additional chaos token.&#10;γ: –4. Ready each Cultist enemy engaged with you.&#10;δ: –5. If you fail, Roland Banks takes 1 damage." />
       </alternate>
     </card>
     <card id="2aedc0ac-0ec1-46ec-9687-714c4e06e54e" name="A Covert Conspiracy" size="HorizCard">

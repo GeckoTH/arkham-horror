@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Red Tide Rising" id="5383e32e-ffbf-423d-8210-77f0ff07a893" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="99622e09-54ac-4bdb-9c36-781c93867415" name="Wendy Adams" size="InvestigatorCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Urchin" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Drifter. Blessed. Cursed." />
+      <property name="Text" value="Add Tidal Memento to your deck.&#10;ι After you successfully evade a non-Elite enemy: Seal either 1 [Bless] or [Curse] token from the chaos bag, or any [Bless] or [Curse] tokens revealed from the chaos bag during this test, on that enemy.&#10;ε effect: +2. Search the chaos bag for up to 2 [Bless] and/or [Curse] tokens and reveal them, ignoring their effects." />
+      <property name="Health" value="7" />
+      <property name="Sanity" value="7" />
+      <property name="Class" value="Survivor" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="4" />
+      <property name="Unique" value="ο" />
+      <alternate name="Wendy Adams" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Urchin" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Trait Choice: At deck creation, choose Blessed or Cursed, or choose both and gain +5 Deck Size.&#10;Deckbulding Options: Survivor cards (ξ) level 0–5, Neutral cards level 0–5, cards of your chosen trait(s) 0–5.&#10;Deckbuilding Requirements (do not count toward deck size): Wendy's Amulet, Abandoned and Alone, 1 random basic weakness." />
+        <property name="Class" value="Survivor" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="f72e8669-cc74-4130-a1d3-30526a886a02" name="Tidal Memento">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="Wendy Adams deck only. Permanent.&#10;ι When an enemy would ready or doom would be placed on it, release a [Bless] or [Curse] token sealed on that enemy: Cancel that effect.&#10;ι During a skill test you are performing, when a chaos token would be revealed from the chaos bag: Resolve a [Bless] or [Curse] token sealed on that enemy instead." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5db6bb4f-f7f9-43f3-b365-4952ebb9727c" name="Wendy's Amulet">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="Wendy Adams deck only. Advanced.&#10;You may play any event in your discard pile as if it were in your hand.&#10;Forced – After you play an event or discard an event from play: Place it on the bottom of your deck instead of in your discard pile." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c3619019-1c3b-47da-892e-f2b36034427e" name="Abandoned and Alone">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Madness." />
+      <property name="Text" value="Advanced.&#10;Revelation – Remove all non-weakness cards in your discard pile from the game. If no cards were removed by this effect, shuuffle this card back into your deck. Otherwise, take 3 direct horror." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+    </card>
+    <card id="9096236d-547d-4c7e-be6d-c2dad493a949" name="Red Tide Rising" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Red Tide Rising" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is half the number of Suspect and Hideout cards in the victory display (rounded up).&#10;β: –2 (–4 instead if you are parleying with a Suspect enemy or investigating a Hideout location).&#10;γ: –3. If you succeed, look at the top card of the Leads deck. You may choose to shuffle the Leads deck.&#10;δ: –1. If you fail, shuffle the top card of the encounter deck into the Leads deck." />
+      <alternate name="Red Tide Rising" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Red Tide Rising" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is the number of Suspect and Hideout cards in the victory display.&#10;β: –3 (–5 instead if you are parleying with a Suspect enemy or investigating a Hideout location).&#10;γ: –4. If you succeed, look at the top card of the Leads deck. You may choose to shuffle the Leads deck.&#10;δ: –2. If you fail, shuffle the top card of the encounter deck into the Leads deck." />
+      </alternate>
+    </card>
+    <card id="a6d01cbb-72b5-4f85-85ce-e70138a29c43" name="The New Girl" size="HorizCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Red Tide Rising" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When this agenda would advance by reaching its doom threshold: Instead, remove all doom in play and shuffle a random set-aside Monster enemy into the Leads deck. Then, if there are no set-aside Monster enemies, advance to agenda 1b." />
+      <property name="Doom" value="3" />
+      <alternate name="Too Many Questions" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Red Tide Rising" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Spawn the set-aside Angry Mob enemy at Innsmouth Square, exhausted.&#10;Place 1π clues on each Suspect enemy and Hideout location in play." />
+      </alternate>
+    </card>
+    <card id="5f27f498-3b86-4043-a8d9-b84bac974fae" name="Trail Goes Cold" size="HorizCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Red Tide Rising" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Angry Mob cannot be defeated.&#10;ι After Wendy Adams evades Angry Mob: She may discover 1 clue from its location.&#10;Each Suspect enemy loses aloof and enters play with +1π clues.&#10;Each Hideout location gets +1π clue value." />
+      <property name="Doom" value="9" />
+      <alternate name="Out of Time" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Red Tide Rising" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="(–&gt;R2)" />
+      </alternate>
+    </card>
+    <card id="c0c158bd-38cb-4ec0-8ecf-03bf209c082d" name="Searching for Dad" size="HorizCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Red Tide Rising" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Suspect and Hideout cards cannot be added to the victory dispay except using Mysterious Photo.&#10;Forced – If there are no Suspect or Hideout cards in play: Wendy Adams must draw cards from the top of the Leads deck until she draws a Suspect or Hideout card.&#10;Objective – Search for Dad using Mysterious Photo. The fewer cards that remain in the Leads deck, the better. If it is empty, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="It's Him!" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Red Tide Rising" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(–&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="53dc91b7-547c-416a-adf0-9d17c001c212" name="Mysterious Photo">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Red Tide Rising" />
+      <property name="Subtitle" value="All I Have Left of Him" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item." />
+      <property name="Text" value="θ Exhaust Mysterious Photo: Either take a parley action on a Suspect enemy or flip Mysterious Photo over.&#10;θ If there is a Suspect enemy with no clues on it at your location, investigators at your location spend 1π clues, as a group (2π instead if it is agenda 2): &quot;Have you seen my dad?&quot; Add that enemy to the victory display." />
+      <property name="Skill Icons" value="" />
+      <alternate name="Mysterious Photo" type="B">
+        <property name="Encounter Set" value="Red Tide Rising" />
+        <property name="Subtitle" value="All I Have Left of Him" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Item." />
+        <property name="Text" value="θ Exhaust Mysterious Photo: Either take an investigate action on at a Hideout location or flip Mysterious Photo over.&#10;θ If you are at a Hideout location with no clues on it, investigators at that location spend clues, as a group equal to its clue value: &quot;Where is Dad now?&quot; Add that location to the victory display, moving each enemy and investigator there to a connecting location." />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+  </cards>
+</set>
