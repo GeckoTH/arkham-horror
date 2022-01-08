@@ -2090,7 +2090,7 @@
       <property name="Traits" value="Hazard." />
       <property name="Text" value="Revelation – Test ί (3). During this test, if you reveal a chaos token that matches a key on your location or under the control of an investigator at your location, you automatically fail. For each opint you fail by, take 1 damage." />
     </card>
-    <card id="55d59e6b-b086-49fd-92bf-0177c080b2ea" name="Frostbitten" size="EncounterCard">
+    <card id="55d59e6b-b086-49fd-92bf-0177c080b2ea" name="Frostbitten">
       <property name="Card Number" value="146" />
       <property name="Quantity" value="4" />
       <property name="Encounter Set" value="City of the Elder Things" />
@@ -2099,7 +2099,7 @@
       <property name="Traits" value="Injury." />
       <property name="Text" value="Revelation – Put Frostbitten into play in your threat area.&#10;Frostbitten can be healed as if it were a single point of damage on you (if it is healed, discard it).&#10;Forced – When you reveal a [Frost] token during a skill test: You must either take 1 damage or automatically fail this test. (Limit once per test.)&#10;" />
     </card>
-    <card id="4abec6a2-a534-4756-a176-bb365c619306" name="Possessed" size="EncounterCard">
+    <card id="4abec6a2-a534-4756-a176-bb365c619306" name="Possessed">
       <property name="Card Number" value="147" />
       <property name="Quantity" value="4" />
       <property name="Encounter Set" value="City of the Elder Things" />
