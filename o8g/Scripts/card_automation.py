@@ -776,7 +776,7 @@ def defaultAction(card, x = 0, y = 0):
 #############################################   
 def shuffleTekelili(group=None, x=0, y=0):
     if len(specialDeck()) > 0:
-        if len(getPlayers()) > 0:
+        if len(getPlayers()) > 1:
             choice_list = []
             color_list = []
             for i in range(0, len(getPlayers())):
@@ -791,6 +791,7 @@ def shuffleTekelili(group=None, x=0, y=0):
                 moveTekelili(me)
             else:
                 remoteCall(getPlayers()[sets - 1],"moveTekelili",[getPlayers()[sets - 1]])
+        else: moveTekelili(me)
     else:
         notify("The Tekeli-li deck is empty!")
 
