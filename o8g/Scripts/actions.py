@@ -971,7 +971,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         investigatorCount = countInvestigators()
         
         # Find any Permanent cards
-        permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text or "Partner" in card.Keywords, me.deck)
+        permanents = filter(lambda card: "Permanent" in card.Keywords or "Permanent." in card.Text, me.deck)
         # Check if Stick to the Plan or Ancestral Knowledge is in the deck
         sttp = filter(lambda card: "Stick to the Plan" in card.Name, me.deck)
         ancestralKnowledge = filter(lambda card: "Ancestral Knowledge" in card.Name, me.deck)
