@@ -280,7 +280,7 @@ def defaultAction(card, x = 0, y = 0):
         notify("{} uses {} to search his/her deck for a Weapon card to draw.".format(card.owner, card))
         searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Weapon")
     elif card.Name == "Rite of Sanctification":
-        if blessInCB() > 0 and card.Subtype != "Locked": 
+        if blessInCB() > 0 and card.markers[Bless] == 0: 
             count = askInteger("Seal how many tokens from the chaos bag?", 5)
             if count is None or count <= 0 or count > 5 or count > blessInCB():
                 whisper("Invalid Count")
@@ -295,15 +295,12 @@ def defaultAction(card, x = 0, y = 0):
                 inc += 1
                 if inc == count:
                     break
-            card.subType = "Locked" # Sealing for ability trigger
             updateBlessCurse()
-        elif card.Subtype == "Locked" and card.markers[Bless] > 0:
+        elif card.markers[Bless] > 0:
             if 1 == askChoice('Release a sealed bless token ?', ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
                 exhaust (card, x, y)
                 card.markers[Bless] -= 1
                 addBless()
-                if card.markers[Bless] == 0:
-                    card.SubType = "" # For the rare cases where Rite of Sanctification is brought back in play after being discarded
     elif card.Name == "Tetsuo Mori":
         choice_list = []
         color_list = []
