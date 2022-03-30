@@ -124,7 +124,6 @@ def doUpkeepPhase(setPhaseVar = True):
     sizeHand = me.counters['Maximum Hand Size'].value
     #Checks if player has Dream-enhancing Serum on the table or Forced Learning
     haveSerum = filter(lambda card: card.Name == "Dream-Enhancing Serum" and card.owner == me and not isLocked(card), table)
-    forcedLearning = filter(lambda card: card.Name == "Forced Learning" and card.owner == me and not isLocked(card), table)
     if forcedLearning and len(me.hand) > 1:
         forcedCards = [me.hand[0],me.hand[1]] #Last two cards drawn
         dlg = cardDlg(forcedCards)

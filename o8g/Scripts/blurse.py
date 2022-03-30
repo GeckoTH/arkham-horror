@@ -54,6 +54,13 @@ def blessInCB(): # For Holy Spear automation
             b += 1
     return b
 
+def curseInCB():
+    c = 0
+    for t in shared.piles['Chaos Bag']:
+        if t.Name == "Curse":
+            c += 1
+    return c
+
 def blessOnTable(): # For Nephthys automation
     b = 0
     for t in table:

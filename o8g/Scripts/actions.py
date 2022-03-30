@@ -73,6 +73,7 @@ BlackColour = "#000000"
 WhiteColour = "#FFFFFF"
 
 TarotDeck = None
+forcedLearning = False
 
 showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
 
@@ -960,7 +961,7 @@ def readyForNextRound(group=table, x=0, y=0):
 
 def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
     mute()
-
+    global forcedLearning
     if not getLock():
         whisper("Others players are setting up, please try manual setup again")
         return
@@ -975,6 +976,14 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         # Check if Stick to the Plan or Ancestral Knowledge is in the deck
         sttp = filter(lambda card: "Stick to the Plan" in card.Name, me.deck)
         ancestralKnowledge = filter(lambda card: "Ancestral Knowledge" in card.Name, me.deck)
+        haveForcedLearning = filter(lambda card: "Forced Learning" in card.Name, me.deck)
+        if haveForcedLearning:
+            me.counters['Card Draw'].value = 2
+            forcedLearning = True
+        else: forcedLearning = False # Used in case of a subsequent game without Forced Learning
+        isJenny = filter(lambda card: "Jenny Barnes" in card.Name, me.hand)
+        if isJenny:
+            me.counters['Ressource per upkeep'].value = 2
         # Find any Start cards
         startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name  , me.deck)
         # Create Bonded Card
@@ -1367,11 +1376,22 @@ def discardSpecial(card, x=0, y=0):
 def doDiscard(player, card, pile):
     mute()
     if pile == chaosBag():
-        if card.Subtype == "Sealed":
-            card.Subtype = ""
-        if (card.Name == "Bless") or (card.Name == "Curse"):
+        if ((card.Name == "Bless") or (card.Name == "Curse")) and card.Subtype != "Sealed":
             card.delete()
             return
+        if card.Subtype == "Sealed":
+            card.Subtype = ""
+    # Checks for sealed markers and returns them to the chaos bag if card leaves play
+    b = card.markers[Bless]
+    c = card.markers[Curse]
+    if b:
+        for _ in range(b):
+            addBless()
+        updateBlessCurse()
+    if c:
+        for _ in range(c):
+            addCurse()
+        updateBlessCurse()       
     card.moveTo(pile)
 
 def shuffleIntoDeck(card, x=0, y=0, player=me):
@@ -1538,18 +1558,22 @@ def serumDoubleCheck(card):
         for c in card.owner.hand:
             inHands.append(c.name)
         if inHands.count(card.name) > 1:
-            if 1 == askChoice("Trigger Dream-Enhancing Serum ?", ["Yes","No"],["#000000","#000000"]):
-                cardDrawn = card.owner.deck[0]
-                cardDrawn.moveTo(card.owner.hand)
+            for _ in range(haveSerum(card.owner)):
                 for c in table:
-                    if c.name == "Dream-Enhancing Serum" and c.owner == card.owner:
-                        notify("{} uses {} to draw {}".format(card.owner, c, cardDrawn))
-                        exhaust(c, x=0,y=0)
+                    if c.name == "Dream-Enhancing Serum" and c.owner == card.owner and c.orientation & Rot90 != Rot90:
+                        c.highlight = WhiteColour
+                        if 1 == askChoice("Trigger Dream-Enhancing Serum ?", ["Yes","No"],["#000000","#000000"]):
+                            notify("{} uses {} to draw an additional card".format(card.owner, c))
+                            exhaust(c, x=0,y=0)
+                            draw(card.owner.deck)
+                        c.highlight = None
 
 def haveSerum(player):
+    serum = 0
     for c in table:
         if c.name == "Dream-Enhancing Serum" and c.owner == player and c.orientation & Rot90 != Rot90:
-            return True
+            serum += 1
+    return serum
 
 def shuffle(group):
     mute()

@@ -271,6 +271,31 @@ def defaultAction(card, x = 0, y = 0):
         if deckToCheck.player != me and deckToCheck != encounterDeck():
             for p in chosenPlayer.piles:
                 chosenPlayer.piles[p].controller = chosenPlayer
+    elif card.Name == "Crystalline Elder Sign":
+        attachTo(card)
+        card.sendToBack()
+        if chaosBag().controller != card.owner:
+            chaosBag().controller == card.owner
+        list = [card for card in table
+                    if (card.Type == 'Chaos Token') and (card.Subtype != 'Sealed')]
+        for card in chaosBag():
+            if card.name == "+1" or card.name == "Elder Sign":
+                list.append(card)
+        dlg = cardDlg(list)
+        dlg.title = "Seal Chaos Token"
+        dlg.text = "Select a chaos token to seal"
+        dlg.min = 1
+        dlg.max = 1
+        tokensSelected = dlg.show()
+        if tokensSelected == None:
+            return
+        else:
+            cT = tokensSelected[0]
+            cT.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+            cT.Subtype = 'Sealed'
+            cT.filter = "#99999999"
+            notify("{} seals {}.".format(card.owner, cT))
+        cardToAttachTo = None
 #############################################
 #                                           #
 #           Guardian Cards                  #
@@ -412,11 +437,39 @@ def defaultAction(card, x = 0, y = 0):
         notify("{} uses {} to search his/her deck for a Spirit card to draw.".format(card.owner, card))
         searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Spirit")
     elif card.Name == "Stick to the Plan" and not isLocked(card) and not card.Subtype == "Locked": # Locking to prevent an additional trigger
-        notify("{} uses {} to search his/her deck for 3 Supply or Tactic cards to attach to {}.".format(card.owner, card, card))
         attachTo(card)
-        searchTopDeck(card.owner.deck, table, traits="Supply,Tactic")
-        card.Subtype = 'Locked' 
-        if 1 == askChoice('Draw opening hand ?', ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
+        unfilteredEvents = [c for c in card.owner.deck
+                if c.Type == "Event" and ("Tactic" in c.Traits or "Supply" in c.Traits)]
+        filteredEvents = []
+        duplicate = []
+        for c in unfilteredEvents:
+            if c.name not in duplicate:
+                duplicate.append(c.name)
+                filteredEvents.append(c)
+        dlg = cardDlg(filteredEvents)
+        dlg.title = "Stick to the Plan"
+        dlg.text = "Select up to 3 Tactic/Supply:"
+        dlg.min = 0
+        dlg.max = 3
+        cardsSelected = dlg.show()
+        if cardsSelected != None:
+            inc = 0
+            for c in cardsSelected:
+                c.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                c.sendToBack()
+                if len(cardsSelected) == 1:
+                    cardToAttachTo = None
+                else:
+                    attachTo(c)
+                    inc += 1
+                    if inc == len(cardsSelected): # Resets cardToAttachTo
+                        cardToAttachTo = None
+            card.Subtype = 'Locked'
+            cardToAttachTo = None
+            notify("{} uses {} to attach {} Supply or Tactic events to it.".format(card.owner, card, len(cardsSelected)))
+        shuffle(card.owner.deck)
+        if 1 == askChoice('Draw opening hand ?'
+			, ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
             drawOpeningHand()
     elif card.Name == "On the Hunt" and card.Level == "0":
         notify("{} uses {} to search the encounter deck for an Enemy to draw.".format(card.owner, card))
@@ -429,38 +482,25 @@ def defaultAction(card, x = 0, y = 0):
 #           Seeker Cards                    #
 #                                           #
 #############################################      
-    elif card.Name == "Ancestral Knowledge" and not card.Subtype == "Locked": # Locking to prevent an additional trigger
+    elif card.Name == "Ancestral Knowledge" and not card.Subtype == "Locked": # Using Locked to prevent an additional trigger
+        shuffle(card.owner.deck)
+        notify("{} uses {} to attach 5 random skills to it.".format(card.owner, card))
         attachTo(card)
-        skillsToShow = [c for c in card.owner.deck
+        AncestralCards = []
+        skills = [c for c in card.owner.deck
                 if c.Type == "Skill" and not "Weakness" in c.Subtype]
-        notify("{} uses {} to search his/her deck for up to 5 skills to attach to {}.".format(card.owner, card, card))
-        dlg = cardDlg(skillsToShow)
-        dlg.title = "Ancestral Knowledge"
-        dlg.text = "Select up to 5 skills:"
-        dlg.min = 0
-        dlg.max = 5
-        cardsSelected = dlg.show()
-        if cardsSelected != None:
-            for c in cardsSelected:
-                c.moveTo(shared.piles['Temporary Shuffle'])
-            shared.piles['Temporary Shuffle'].shuffle()
-            inc = 0
-            for c in shared.piles['Temporary Shuffle']:
-                c.moveToTable(cardToAttachTo[0], cardToAttachTo[1], True)
-                c.sendToBack()
-                c.controller = c.owner # Get back the control after moving to shared temporary shuffle
-                if len(cardsSelected) == 1:
-                    cardToAttachTo = None
-                else:
-                    attachTo(c)
-                    inc += 1
-                    if inc == len(cardsSelected):
-                        cardToAttachTo = None
-            card.Subtype = 'Locked'
-            cardToAttachTo = None
+        for i in range(0, 5):  
+            AncestralCards.append(skills[i])
+        for c in AncestralCards:
+            c.moveToTable(cardToAttachTo[0], cardToAttachTo[1], True)
+            c.sendToBack()
+            c.peek()
+            attachTo(c)
+        card.Subtype = 'Locked'
+        cardToAttachTo = None
         shuffle(card.owner.deck)
         if 1 == askChoice('Draw opening hand ?'
-			, ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
+        , ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
             drawOpeningHand()
     elif card.Name == "Occult Lexicon" and not isLocked(card):
         stop = False
@@ -658,6 +698,22 @@ def defaultAction(card, x = 0, y = 0):
             searchTopDeck(card.owner.deck, card.owner.hand, count)
     elif card.Name == "Family Inheritance":
         card.markers[Resource] += 4
+    elif card.Name == "Dark Ritual":
+        if curseInCB() > 0 and card.markers[Curse] == 0: 
+            count = askInteger("Seal how many Curse tokens from the chaos bag?", 5)
+            if count is None or count <= 0 or count > 5 or count > curseInCB():
+                whisper("Invalid Count")
+                return
+            inc = 0
+            card.markers[Curse] = count
+            for t in shared.piles['Chaos Bag']:
+                if t.Name != "Curse":
+                    continue
+                t.delete()
+                inc += 1
+                if inc == count:
+                    break
+            updateBlessCurse()
 #############################################
 #                                           #
 #           Survivor Cards                  #
@@ -744,6 +800,21 @@ def defaultAction(card, x = 0, y = 0):
                     if inc == len(tokensSelected):
                         cardToAttachTo = None
             updateBlessCurse()
+    elif card.Name == "True Survivor":
+        if len(card.owner.piles['Discard Pile']):
+            searchTopDeck(card.owner.piles['Discard Pile'], card.owner.hand, traits="Innate")
+    elif card.Name == "Scrounge for Supplies":
+        list = [c for c in card.owner.piles['Discard Pile']
+                    if c.Level == "0"]
+        if list:
+            dlg = cardDlg(list)
+            dlg.title = "Scrounge for Supplies"
+            dlg.text = "Select a card to return to your hand"
+            dlg.min = 1
+            dlg.max = 1
+            c = dlg.show()
+            if c:
+                c[0].moveTo(card.owner.hand)
 #############################################
 #                                           #
 #           Neutral Cards                   #
