@@ -1020,12 +1020,16 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             notify("{} places the Permanent card {} on the table".format(me, card))
 	# Move startCard found to the table
         for card in startCard:
-            card.moveToTable(permX, cardY(investigatorCard))
-            permX = permX + card.width + InvestigatorSpacing
-            notify("{} places the start card {} on the table".format(me, card))
+            if card.Name == "Dark Insight":
+                card.moveTo(me.hand)
+                DarkInsight = True
+            else:
+                card.moveToTable(permX, cardY(investigatorCard))
+                permX = permX + card.width + InvestigatorSpacing
+                notify("{} places the start card {} on the table".format(me, card))
         
         if newInvestigator:
-            if len(me.hand) == 0: 
+            if len(me.hand) == 0 or DarkInsight: 
                 if sttp: 
                     whisper("Stick to the Plan available")
                 if ancestralKnowledge:
