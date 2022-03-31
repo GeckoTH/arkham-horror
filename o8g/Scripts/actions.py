@@ -985,7 +985,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         if isJenny:
             me.counters['Ressource per upkeep'].value = 2
         # Find any Start cards
-        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name  , me.deck)
+        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name, me.deck)
         # Create Bonded Card
         listB = makeListBonded(me.deck)
         if not listB:
