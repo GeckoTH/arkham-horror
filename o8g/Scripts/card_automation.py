@@ -3,6 +3,8 @@
 
 cardToAttachTo =  None
 cardsFound = []
+AstronomicalCards = []
+Premonition = []
 
 def InvestigatorColor(player):
     for card in table:
@@ -24,6 +26,11 @@ def InvestigatorName(player):
     for card in table:
         if card.Type == "Investigator" and card.owner == player:
             return card.Name
+
+def Investigator(player):
+    for card in table:
+        if card.Type == "Investigator" and card.owner == player:
+            return card
 
 def lookToBottom(group, count = None): # Alyssa Graham automation
     global cardsFound
@@ -126,6 +133,7 @@ def defaultAction(card, x = 0, y = 0):
     mute()
     global cardToAttachTo
     global AmandaCard
+    global Premonition
     # Default for Done button is playerDone
     if not card.isFaceUp: #Face down card - flip
         flipcard(card, x, y)
@@ -296,6 +304,161 @@ def defaultAction(card, x = 0, y = 0):
             cT.filter = "#99999999"
             notify("{} seals {}.".format(card.owner, cT))
         cardToAttachTo = None
+    elif card.Name == "Astronomical Atlas":
+        global AstronomicalCards
+        if card.owner.deck:
+            sets = askChoice("Astronomical Atlas", ["Look at top card","Commit an attached card"],["#000000","#000000"])
+            if sets == 0: return
+            elif sets == 1: # Look at top card
+                if len(AstronomicalCards) == 5:
+                    notify("5 cards already attached")
+                    return
+                exhaust(card, x, y)
+                topCard = card.owner.deck.top()
+                if topCard.Subtype != "Weakness" and topCard.subType != "Basic Weakness":
+                    AstronomicalCards.append(topCard)
+                    pos = (card.position[0] + (len(AstronomicalCards) * 5), card.position[1] + (len(AstronomicalCards) * 5))
+                    topCard.moveToTable(pos[0], pos[1], True)
+                    topCard.sendToBack()
+                    topCard.peek()
+                else:
+                    weakness = card.owner.deck.top()
+                    notify("Top card of the deck is a weakness!")
+                    card.owner.deck.top().peek()
+            elif sets == 2: # Commit
+                if len(AstronomicalCards) == 0: # No cards attached
+                    notify("No cards to commit")
+                    return
+                else:
+                    exhaust(card, x, y)
+                    dlg = cardDlg(AstronomicalCards)
+                    dlg.title = "Astronomical Atlas"
+                    dlg.text = "Choose a card to commit:"
+                    dlg.min = 1
+                    dlg.max = 1
+                    commit = dlg.show()
+                    if commit:
+                        flipcard(commit[0])
+                        commit[0].moveToTable(card.position[0], card.position[1] - 100)
+                        commit[0].highlight = WhiteColour
+                        AstronomicalCards.remove(commit[0])
+                        inc = 1
+                        for c in AstronomicalCards:
+                            c.moveToTable(card.position[0] + (inc * 5), card.position[1] + (inc * 5))
+                            c.sendToBack()
+                            inc += 1
+    elif card.Name == "Shards of the Void":
+        if card.Subtype != "Locked":
+            zeros = [cT for cT in chaosBag()
+            if "0" in cT.Name]
+            if zeros:
+                card.markers[Zero] = 1
+                zeros[0].delete()
+            card.Subtype = "Locked"
+        else:
+            if 1 == askChoice("Shards of the Void", ["Release a 0 token","Seal a revealed 0 here"],["#000000","#000000"]):
+                if card.markers[Zero]:
+                    card.markers[Zero] -= 1
+                    chaosBag().create('35137ccc-db2b-4fdd-b0a8-a5d91f453a43', quantity = 1)
+                else: notify("No Zero tokens sealed")
+            else: 
+                card.markers[Zero] += 1
+                for cT in table:
+                    if cT.name == "0" and cT.Subtype != "Sealed":
+                        cT.delete()
+                        break
+    elif card.Name == "Premonition":
+        global Premonition
+        if card.Subtype != "Locked":
+            attachTo(card)
+            chaosBag().shuffle()
+            for cT in chaosBag():
+                cT.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                cT.Subtype = 'Sealed'
+                cT.filter = "#99999999"
+                notify("{} randomly seals {} on {}.".format(card.owner, cT, card))
+                Premonition.append(cT)
+                break
+            card.Subtype = "Locked"
+            updateBlessCurse()
+            cardToAttachTo = None
+        elif 1 == askChoice("Trigger Premonition ?", ["Yes","No"],["#000000","#000000"]):
+            Premonition[0].SubType = ""
+            Premonition[0].filter = None
+            Premonition[0].moveToTable(ChaosTokenX, ChaosTokenY)
+            discard(card)
+    elif card.Name == "Flute of the Outer Gods":
+        if card.Subtype != "Locked":
+            sealXCurse(card)
+        elif 1 == askChoice("Trigger Flute of the Outer Gods ?", ["Yes","No"],["#000000","#000000"]) and card.markers[Curse] > 0:
+            exhaust(card, x=0,y=0)
+            card.markers[Curse] -= 1
+            addCurse()
+    elif card.Name == "Protective Incantation":
+        if card.Subtype != "Locked":
+            attachTo(card)
+            list = [cT for cT in chaosBag()
+        if not ("Auto Fail" in cT.Name)]
+            dlg = cardDlg(list)
+            dlg.title = "Protective Incantation"
+            dlg.text = "Select a Chaos Token to seal:"
+            dlg.min = 1
+            dlg.max = 1
+            cT = dlg.show()
+            if cT is not None:
+                cT[0].moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                cT[0].Subtype = 'Sealed'
+                cT[0].filter = "#99999999"
+                notify("{} seals {} on {}.".format(card.owner, cT[0], card))
+            card.Subtype = "Locked"
+            cardToAttachTo = None
+
+    elif card.Name == "Seal of the Seventh Sign":
+        if card.Subtype != "Locked":
+            attachTo(card)
+            autoFail = [cT for cT in chaosBag()
+        if "Auto Fail" in cT.Name]
+            token = autoFail[0]
+            token.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+            token.Subtype = 'Sealed'
+            token.filter = "#99999999"
+            notify("{} seals {} on {}.".format(card.owner, token, card))
+            card.Subtype = "Locked"
+            cardToAttachTo = None
+
+    elif card.Name == "The Chthonian Stone":
+        if card.Subtype != "Locked":
+            attachTo(card)
+            list = [cT for cT in chaosBag()
+        if "Elder One" in cT.Name or "Skull" in cT.Name or "Cultist" in cT.Name or "Tablet" in cT.Name]
+            if list:
+                dlg = cardDlg(list)
+                dlg.title = "The Chthonian Stone"
+                dlg.text = "Select a Chaos Token to seal:"
+                dlg.min = 1
+                dlg.max = 1
+                cT = dlg.show()
+                if cT is not None:
+                    cT[0].moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                    cT[0].Subtype = 'Sealed'
+                    cT[0].filter = "#99999999"
+                    notify("{} seals {} on {}.".format(card.owner, cT[0], card))
+                card.Subtype = "Locked"
+                cardToAttachTo = None
+
+    elif card.Name == "The Codex of Ages":
+        if card.Subtype != "Locked":
+            attachTo(card)
+            elderSign = [cT for cT in chaosBag()
+        if "Elder Sign" in cT.Name]
+            if elderSign:
+                eS = elderSign[0]
+                eS.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                eS.Subtype = 'Sealed'
+                eS.filter = "#99999999"
+                notify("{} seals {} on {}.".format(card.owner, eS, card))
+                card.Subtype = "Locked"
+                cardToAttachTo = None
 #############################################
 #                                           #
 #           Guardian Cards                  #
@@ -305,27 +468,16 @@ def defaultAction(card, x = 0, y = 0):
         notify("{} uses {} to search his/her deck for a Weapon card to draw.".format(card.owner, card))
         searchTopDeck(card.owner.deck, card.owner.hand, 9, traits="Weapon")
     elif card.Name == "Rite of Sanctification":
-        if blessInCB() > 0 and card.markers[Bless] == 0: 
-            count = askInteger("Seal how many tokens from the chaos bag?", 5)
-            if count is None or count <= 0 or count > 5 or count > blessInCB():
-                whisper("Invalid Count")
-                return
-            inc = 0
-            for i in range(0, count):
-                card.markers[Bless] += 1
-            for t in shared.piles['Chaos Bag']:
-                if t.Name != "Bless":
-                    continue
-                t.delete()
-                inc += 1
-                if inc == count:
-                    break
-            updateBlessCurse()
-        elif card.markers[Bless] > 0:
+        if card.Subtype != "Locked":
+            sealXBless(card, 5)
+        elif card.markers[Bless]:
             if 1 == askChoice('Release a sealed bless token ?', ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
                 exhaust (card, x, y)
                 card.markers[Bless] -= 1
                 addBless()
+                if not card.markers[Bless]:
+                    notify("{} has no sealed Bless tokens left and is discarded".format(card))
+                    discard(card)
     elif card.Name == "Tetsuo Mori":
         choice_list = []
         color_list = []
@@ -477,6 +629,30 @@ def defaultAction(card, x = 0, y = 0):
     elif card.Name == "On the Hunt" and card.Level == "3":
         notify("{} uses {} to search the encounter deck for an Enemy to draw.".format(card.owner, card))
         searchTopDeck(encounterDeck(), table, traits="Enemy")
+    elif card.Name == "Radiant Smite":
+        if card.Subtype != "Locked":
+            sealXBless(card, 3)
+        elif card.Subtype == "Locked":
+            if 1 == askChoice("Radiant Smite Bless Tokens", ["Return to Token Pool","Release in Chaos Bag"],["#000000","#000000"]):
+                card.markers[Bless] = 0
+            else: 
+                b = card.markers[Bless]
+                card.markers[Bless] = 0
+                for _ in range(b):
+                    addBless()
+    elif card.Name == "Shield of Faith":
+        if card.Subtype != "Locked":
+            sealXBless(card, 5)
+        else:
+            if 1 == askChoice("Release a Bless token ?", ["Yes","No"],["#000000","#000000"]):
+                if card.markers[Bless]:
+                    exhaust(card, x=0,y=0)
+                    card.markers[Bless] -= 1
+                    addBless()
+                    if not card.markers[Bless]:
+                        notify("{} has no Bless tokens left and is discarded.".format(card))
+                        discard(card)
+                else: notify("No Bless Tokens sealed")
 #############################################
 #                                           #
 #           Seeker Cards                    #
@@ -676,6 +852,28 @@ def defaultAction(card, x = 0, y = 0):
             card.sendToBack()
             card.highlight = WhiteColour
             AmandaCard = card
+
+    elif card.Name == "Professor William Webb" and card.Level == "0":
+        sets = askChoice("William Webb", ["Return an Item","Discover a connecting clue (manual)"],["#000000","#000000"])
+        if sets == 1:
+                if len(card.owner.piles['Discard Pile']):
+                    exhaust(card, x, y)
+                    card.markers[Resource] -= 1
+                    notify("{} uses {} to return an Item from the discard pile.".format(card.owner, card))
+                    searchTopDeck(card.owner.piles['Discard Pile'], card.owner.hand, traits="Item")
+                else: notify("Discard Pile is Empty")
+        elif sets == 2:
+                exhaust(card, x, y)
+                card.markers[Resource] -= 1
+                notify("{} uses {} to discover a clue at a connecting location.".format(card.owner, card))
+        
+    elif card.Name == "Professor William Webb" and card.Level == "2":
+        if len(card.owner.piles['Discard Pile']):
+            exhaust(card, x, y)
+            card.markers[Resource] -= 1
+            notify("{} uses {} to return an Item from the discard pile and discover a clue at a connecting location.".format(card.owner, card))
+            searchTopDeck(card.owner.piles['Discard Pile'], card.owner.hand, traits="Item")
+        else: notify("Discard Pile is Empty")
 #############################################
 #                                           #
 #           Rogue Cards                     #
@@ -696,8 +894,7 @@ def defaultAction(card, x = 0, y = 0):
         else:
             notify("{} uses {} to search the top {} cards of his/her deck for a card to draw.".format(card.owner, card, count))
             searchTopDeck(card.owner.deck, card.owner.hand, count)
-    elif card.Name == "Family Inheritance":
-        card.markers[Resource] += 4
+
     elif card.Name == "Dark Ritual":
         if curseInCB() > 0 and card.markers[Curse] == 0: 
             count = askInteger("Seal how many Curse tokens from the chaos bag?", 5)
@@ -705,6 +902,7 @@ def defaultAction(card, x = 0, y = 0):
                 whisper("Invalid Count")
                 return
             inc = 0
+            notify("{} uses {} to seal {} Curse tokens.".format(card.owner, card, count))
             card.markers[Curse] = count
             for t in shared.piles['Chaos Bag']:
                 if t.Name != "Curse":
@@ -815,6 +1013,27 @@ def defaultAction(card, x = 0, y = 0):
             c = dlg.show()
             if c:
                 c[0].moveTo(card.owner.hand)
+    elif card.Name == "Wendy's Amulet":
+        Events = [e for e in card.owner.piles['Discard Pile']
+        if e.Type == "Event"]
+        if Events:
+            if not "Advanced." in card.Text:
+                topMostEvent = str(Events[0].name)
+                notify("Topmost event is {}.".format(Events[0]))
+                if 1 == askChoice("Play the topmost event of your discard pile ?", ["Yes","No"],["#000000","#000000"], customButtons = [topMostEvent]):
+                    Events[0].moveToTable(card.position[0], card.position[1] + 50)
+                    notify("{} uses {} to play the topmost event from his/her discard pile".format(card.owner, card))
+            elif 1 == askChoice("Play an event from your discard pile ?", ["Yes","No"],["#000000","#000000"]):
+                dlg = cardDlg(Events)
+                dlg.title = "Wendy's Amulet"
+                dlg.text = "Select an Event:"
+                dlg.min = 1
+                dlg.max = 1
+                event = dlg.show()
+                if event is not None:
+                    event[0].moveToTable(card.position[0], card.position[1] + 50)
+                    notify("{} uses {} to play an event from his/her discard pile".format(card.owner, card))
+        else: notify("No events in the Discard Pile")
 #############################################
 #                                           #
 #           Neutral Cards                   #
@@ -837,6 +1056,27 @@ def defaultAction(card, x = 0, y = 0):
     elif card.Name == "Tekeli-li":
         card.moveToBottom(specialDeck())
         notify("{} is placed on the bottom of the Tekeli-li deck".format(card.name))
+    elif card.Name == "Favor of the Moon":
+        if card.Subtype != "Locked":
+            sealXCurse(card, 3)
+        elif 1 == askChoice("Trigger Favor of the Moon ?", ["Yes","No"],["#000000","#000000"]):
+            exhaust(card, x=0,y=0)
+            table.create('81df3f18-e341-401d-a6bb-528940a9c39e', ChaosTokenX, ChaosTokenY, quantity = 1, persist = True)
+            card.markers[Curse] -= 1
+            if not card.markers[Curse]:
+                notify("{} has no Curse tokens left and is discarded.".format(card))
+                discard(card)
+            Investigator(card.owner).markers[Resource] += 1
+    elif card.Name == "Favor of the Sun":
+        if card.Subtype != "Locked":
+            sealXBless(card, 3)
+        elif 1 == askChoice("Trigger Favor of the Sun ?", ["Yes","No"],["#000000","#000000"]):
+            exhaust(card, x=0,y=0)
+            table.create('360db0ee-c362-4bbe-9554-b1fbf101d9ab', ChaosTokenX, ChaosTokenY, quantity = 1, persist = False)
+            card.markers[Bless] -= 1
+            if not card.markers[Bless]:
+                notify("{} has no Bless tokens left and is discarded.".format(card))
+                discard(card)
     else:
         exhaust(card, x, y)
     

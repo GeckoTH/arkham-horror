@@ -39,6 +39,9 @@ def doInvestigationPhase():
     global HunchCard
     isAmanda = filter(lambda card: (card.Name == "Amanda Sharpe" and card.Type == "Investigator" and card.owner == me and not isLocked(card) and inGame(card.owner)), table)
     isJoe = filter(lambda card: (card.Name == "Joe Diamond" and card.Type == "Investigator" and card.owner == me and not isLocked(card) and inGame(card.owner)) , table)
+    familyInheritance = filter(lambda card: card.Name == "Family Inheritance" and card.owner == me, table)
+    if familyInheritance:
+        familyInheritance[0].markers[Resource] += 4
     if isAmanda:
         for c in table: #Find Amanda on table
             if c.name == "Amanda Sharpe" and c.type == "Investigator":
@@ -155,15 +158,17 @@ def doUpkeepPhase(setPhaseVar = True):
             for card in cardsSelected:
                 discard(card)
     
+    darkHorse = filter(lambda card: card.Name == "Dark Horse" and card.owner == me and not isLocked(card), table)
     for card in table:
         if card.Type == "Investigator" and card.owner == me and card.isFaceUp:
             if (me.counters['Ressource per upkeep'].value > 0):
-                for i in repeat(None, me.counters['Ressource per upkeep'].value):
-                    addResource(card)
-            if card.name == "Sister Mary":
-                if countBless() < 10:
-                    if 1 == askChoice('Add a Bless Token to the Chaos Bag ?', ['Yes', 'No'], ['#dd3737', '#d0d0d0']):
-                        addBless()
+                if darkHorse:
+                    if 1 == askChoice('Dark Horse', ['Gain a resource', 'No resource'], ['#dd3737', '#d0d0d0']):
+                        for i in repeat(None, me.counters['Ressource per upkeep'].value):
+                            addResource(card)
+                else:
+                    for i in repeat(None, me.counters['Ressource per upkeep'].value):
+                        addResource(card)
         elif card.Type == "Mini" and card.owner == me:
             card.markers[Action] = 0
             if card.alternates is not None and "" in card.alternates:

@@ -25,6 +25,50 @@ def updateBlessCurse():
     cb.markers[Curse] = c
     cb.markers[Bless] = b
 
+def sealXBless(card, max = None):
+    if blessInCB() > 0 and card.markers[Bless] == 0: 
+        count = askInteger("Seal how many Bless tokens from the chaos bag?", 5)
+        if count is None or count <= 0 or count > blessInCB():
+            whisper("Invalid Count")
+            return
+        if max and count > max:
+            whisper("Invalid Count")
+            return
+        inc = 0
+        notify("{} uses {} to seal {} Bless tokens".format(card.owner, card, count))
+        card.markers[Bless] = count
+        for t in shared.piles['Chaos Bag']:
+            if t.Name != "Bless":
+                continue
+            t.delete()
+            inc += 1
+            if inc == count:
+                break
+        updateBlessCurse()
+        card.Subtype = "Locked"
+        
+def sealXCurse(card, max = None):
+    if curseInCB() > 0 and card.markers[Curse] == 0: 
+        count = askInteger("Seal how many Curse tokens from the chaos bag?", 5)
+        if count is None or count <= 0 or count > curseInCB():
+            whisper("Invalid Count")
+            return
+        if max and count > max:
+            whisper("Invalid Count")
+            return
+        inc = 0
+        notify("{} uses {} to seal {} Curse tokens".format(card.owner, card, count))
+        card.markers[Curse] = count
+        for t in shared.piles['Chaos Bag']:
+            if t.Name != "Curse":
+                continue
+            t.delete()
+            inc += 1
+            if inc == count:
+                break
+        updateBlessCurse()
+        card.Subtype = "Locked"
+
 def countBless(): 
     if len(shared.piles['Chaos Bag']) == 0:
         return

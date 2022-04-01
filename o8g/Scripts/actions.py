@@ -15,7 +15,7 @@ Curse = ("Curse", "f59396af-8536-4a82-96d3-6cefdc849103")
 Bless = ("Bless", "aad7ef0b-5806-4884-b420-c36a2d417bf7")
 Flood1 = ("Floodl", "b5c9e09a-163f-4f60-9c0c-0579d1c5512e")
 Flood2 = ("Floodh", "9a1ffb97-35bd-4f99-9646-f15732cb36a9")
-
+Zero = ("Zero", "605c41ac-98f0-4475-a86d-d58847b1f19b")
 CurseID = '81df3f18-e341-401d-a6bb-528940a9c39e'
 BlessID = '360db0ee-c362-4bbe-9554-b1fbf101d9ab'
 
@@ -1383,19 +1383,20 @@ def doDiscard(player, card, pile):
         if ((card.Name == "Bless") or (card.Name == "Curse")) and card.Subtype != "Sealed":
             card.delete()
             return
-        if card.Subtype == "Sealed":
-            card.Subtype = ""
-    # Checks for sealed markers and returns them to the chaos bag if card leaves play
+    if card.Subtype == "Sealed" or "Locked": # Locked used for cards that seal tokens
+        card.Subtype = ""
+    # Checks for sealed tokens markers and returns them to the chaos bag if card leaves play
     b = card.markers[Bless]
     c = card.markers[Curse]
-    if b:
+    z = card.markers[Zero]
+    if b: 
         for _ in range(b):
             addBless()
-        updateBlessCurse()
     if c:
         for _ in range(c):
             addCurse()
-        updateBlessCurse()       
+    if z:
+        chaosBag().create('35137ccc-db2b-4fdd-b0a8-a5d91f453a43', quantity = z)
     card.moveTo(pile)
 
 def shuffleIntoDeck(card, x=0, y=0, player=me):
@@ -1516,11 +1517,13 @@ def randomDiscard(group):
  
 def mulligan(group, x = 0, y = 0):
     mute()
-    dlg = cardDlg(group.player.hand)
+    hand = [c for c in group
+    if not ("Dark Insight" in c.Name or "The Tower · XVI" in c.Name or "The Devil XV" in c.Name)]
+    dlg = cardDlg(hand)
     dlg.title = "Mulligan!"
     dlg.text = "Select the cards you wish to replace:"
     dlg.min = 1
-    dlg.max = len(group.player.hand)
+    dlg.max = len(hand)
     cardsSelected = dlg.show()
     if cardsSelected is not None:
         notify("{} declares a Mulligan, and replaces {} card(s).".format(group.player, len(cardsSelected)))
