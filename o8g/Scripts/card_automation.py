@@ -653,6 +653,21 @@ def defaultAction(card, x = 0, y = 0):
                         notify("{} has no Bless tokens left and is discarded.".format(card))
                         discard(card)
                 else: notify("No Bless Tokens sealed")
+    elif card.Name == "Nathaniel Cho" and card.Type == "Investigator":
+        if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
+            Events = [c for c in card.owner.piles['Discard Pile']
+                if c.Type == "Event"]
+            dlg = cardDlg(Events)
+            dlg.title = "Nathaniel Cho"
+            dlg.text = "Select 1 card:"
+            dlg.min = 1
+            dlg.max = 1
+            cardsSelected = dlg.show()
+            if cardsSelected != None:
+                cardsSelected[0].moveTo(card.owner.hand)
+    elif card.Name == "Leo Anderson" and card.Type == "Investigator":
+        if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
+            searchTopDeck(card.owner.deck, card.owner.hand, 3, traits="Ally")
 #############################################
 #                                           #
 #           Seeker Cards                    #
@@ -874,6 +889,22 @@ def defaultAction(card, x = 0, y = 0):
             notify("{} uses {} to return an Item from the discard pile and discover a clue at a connecting location.".format(card.owner, card))
             searchTopDeck(card.owner.piles['Discard Pile'], card.owner.hand, traits="Item")
         else: notify("Discard Pile is Empty")
+    elif card.Name == "Mandy Thompson" and card.Type == "Investigator":
+        if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
+            notify("Commit or draw is manual")
+            searchTopDeck(card.owner.deck, table, 3)
+    elif card.Name == "Joe Diamond" and card.Type == "Investigator":
+        if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
+            Insights = [card for card in card.owner.piles['Discard Pile']
+            if "Insight." in card.Traits and card.Type == "Event"]
+            dlg = cardDlg(Insights)
+            dlg.title = "Joe Diamond"
+            dlg.text = "Select 1 card to move back to the Hunch Deck:"
+            dlg.min = 1
+            dlg.max = 1
+            cardsSelected = dlg.show()
+            if cardsSelected != None:
+                cardsSelected[0].moveToBottom(card.owner.piles['Secondary Deck'])
 #############################################
 #                                           #
 #           Rogue Cards                     #
@@ -1034,6 +1065,32 @@ def defaultAction(card, x = 0, y = 0):
                     event[0].moveToTable(card.position[0], card.position[1] + 50)
                     notify("{} uses {} to play an event from his/her discard pile".format(card.owner, card))
         else: notify("No events in the Discard Pile")
+    elif card.Name == "Patrice Hathaway" and card.Type == "Investigator":
+        if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
+            dlg = cardDlg(card.owner.piles['Discard Pile'])
+            dlg.title = "Patrice Hathaway"
+            dlg.text = "Choose 1 card to leave in the discard:"
+            dlg.min = 1
+            dlg.max = 1
+            leave = dlg.show()
+            if leave is not None:
+                for c in card.owner.piles['Discard Pile']:
+                    if c != leave[0]:
+                        c.moveTo(card.owner.deck)
+                shuffle(card.owner.deck)
+    elif card.Name == "Silas Marsh" and card.Type == "Investigator":
+        if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
+            skills = [c for c in card.owner.piles['Discard Pile']
+            if c.Type == "Skill"]
+            dlg = cardDlg(skills)
+            dlg.title = "Silas Marsh"
+            dlg.text = "Choose 1 skill card to commit:"
+            dlg.min = 1
+            dlg.max = 1
+            skill = dlg.show()
+            if skill is not None:
+                skill[0].moveToTable(card.position[0], card.position[1] - 100)
+                skill[0].highlight = WhiteColour
 #############################################
 #                                           #
 #           Neutral Cards                   #
