@@ -1008,6 +1008,9 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         isJenny = filter(lambda card: "Jenny Barnes" in card.Name, me.hand)
         if isJenny:
             me.counters['Ressource per upkeep'].value = 2
+        isNorman = filter(lambda card: "Norman Withers" in card.Name, me.hand)            
+        if isNorman:
+            me.deck.visibility = "all"
         # Find any Start cards
         startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name, me.deck)
         # Create Bonded Card

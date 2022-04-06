@@ -967,8 +967,20 @@ def defaultAction(card, x = 0, y = 0):
     elif card.Name == "Rabbit's Foot" and card.Level == "0":
         exhaust (card, x, y)
         draw(card.owner.deck)
-    elif card.Name == "Resourceful": # Class is not implemeted yet
-        searchTopDeck(card.owner.piles['Discard Pile'],card.owner.hand)
+    elif card.Name == "Resourceful":
+        list = [c for c in card.owner.piles['Discard Pile']
+                    if c.Class == "Survivor" and c.Name != "Resourceful"]
+        if list:
+            dlg = cardDlg(list)
+            dlg.title = "Resourceful"
+            dlg.text = "Select a card to return to your hand"
+            dlg.min = 1
+            dlg.max = 1
+            c = dlg.show()
+            if c:
+                c[0].moveTo(card.owner.hand)
+                notify("{} uses {} to return a card to his/her hand".format(card.owner, card))
+        else: whisper("No relevant cards in the discard pile")
     elif card.Name == "Rabbit's Foot" and card.Level == "3":
         exhaust (card, x, y)
         count = askInteger("Failed by how much ?", 2)

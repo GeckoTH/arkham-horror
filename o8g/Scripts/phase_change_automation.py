@@ -79,6 +79,9 @@ def doInvestigationPhase():
 
 def doEnemyPhase(): # Also End of the Investigation Phase
     global HunchCard
+    familyInheritance = filter(lambda card: card.Name == "Family Inheritance" and card.owner == me, table)
+    if familyInheritance:
+        familyInheritance[0].markers[Resource] = 0
     if HunchCard:
         if HunchCard == me.piles['Secondary Deck'].top(): # Checks if Hunch Card is still on top of the Hunch Deck
             flipcard(HunchCard)
