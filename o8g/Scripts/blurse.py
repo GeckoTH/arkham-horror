@@ -26,6 +26,7 @@ def updateBlessCurse():
     cb.markers[Bless] = b
 
 def sealXBless(card, max = None):
+    mute()
     if blessInCB() > 0 and card.markers[Bless] == 0: 
         count = askInteger("Seal how many Bless tokens from the chaos bag?", 5)
         if count is None or count <= 0 or count > blessInCB():
@@ -46,8 +47,10 @@ def sealXBless(card, max = None):
                 break
         updateBlessCurse()
         card.Subtype = "Locked"
+    else: whisper("Not enough Bless tokens")
         
 def sealXCurse(card, max = None):
+    mute()
     if curseInCB() > 0 and card.markers[Curse] == 0: 
         count = askInteger("Seal how many Curse tokens from the chaos bag?", 5)
         if count is None or count <= 0 or count > curseInCB():
@@ -68,8 +71,10 @@ def sealXCurse(card, max = None):
                 break
         updateBlessCurse()
         card.Subtype = "Locked"
+    else: whisper("Not enough Curse tokens")
 
-def countBless(): 
+def countBless():
+    mute() 
     if len(shared.piles['Chaos Bag']) == 0:
         return
     b = 0
@@ -81,6 +86,7 @@ def countBless():
     return b
 
 def countCurse():
+    mute()
     if len(shared.piles['Chaos Bag']) == 0:
         return
     c = 0
@@ -92,6 +98,7 @@ def countCurse():
     return c
 
 def blessInCB(): # For Holy Spear automation
+    mute()
     b = 0
     for t in shared.piles['Chaos Bag']:
         if t.Name == "Bless":
@@ -99,6 +106,7 @@ def blessInCB(): # For Holy Spear automation
     return b
 
 def curseInCB():
+    mute()
     c = 0
     for t in shared.piles['Chaos Bag']:
         if t.Name == "Curse":
@@ -106,6 +114,7 @@ def curseInCB():
     return c
 
 def blessOnTable(): # For Nephthys automation
+    mute()
     b = 0
     for t in table:
         if t.Name == "Bless" and t.Type != "Sealed":

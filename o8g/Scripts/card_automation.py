@@ -3,10 +3,33 @@
 
 cardToAttachTo =  None
 cardsFound = []
-AstronomicalCards = []
 Premonition = []
+attached = {}
+
+def attachCard(host, card):
+    mute()
+    global attached
+    if not host._id in attached:
+        attached[host._id] = []
+    attached[host._id].append(card._id)
+    
+def detachCard(card):
+    mute()
+    global attached
+    for value in attached.values():
+        if card._id in value:
+            value.remove(card._id)
+            break
+            
+def isAttached(card):
+    mute()
+    for value in attached.values():
+        if card in value:
+            return True
+    return False
 
 def InvestigatorColor(player):
+    mute()
     for card in table:
         if card.Type == "Investigator" and card.owner == player:
             if card.Class == "Guardian":
@@ -85,7 +108,7 @@ def searchTopDeck(group, target, count = None, **kwargs):
         cardsToShow = [card for card in group.top(count)
                 if (any((t in card.Traits) or (t in card.Type) for t in traits)) or (card.Name == "Astounding Revelation") or (card.Name == "Occult Evidence" )or (card.Name == "Surprising Find") or (card.Name == "Shocking Discovery" and group == card.owner.deck)]
         if len(cardsToShow) == 0:
-            notify("No relevant card found")
+            whisper("No relevant card found")
             if group.name != "Discard Pile":
                 shuffle(group)
             cardToAttachTo = None
@@ -305,48 +328,30 @@ def defaultAction(card, x = 0, y = 0):
             notify("{} seals {}.".format(card.owner, cT))
         cardToAttachTo = None
     elif card.Name == "Astronomical Atlas":
-        global AstronomicalCards
-        if card.owner.deck:
-            sets = askChoice("Astronomical Atlas", ["Look at top card","Commit an attached card"],["#000000","#000000"])
-            if sets == 0: return
-            elif sets == 1: # Look at top card
-                if len(AstronomicalCards) == 5:
-                    notify("5 cards already attached")
-                    return
-                exhaust(card, x, y)
-                topCard = card.owner.deck.top()
-                if topCard.Subtype != "Weakness" and topCard.subType != "Basic Weakness":
-                    AstronomicalCards.append(topCard)
-                    pos = (card.position[0] + (len(AstronomicalCards) * 5), card.position[1] + (len(AstronomicalCards) * 5))
-                    topCard.moveToTable(pos[0], pos[1], True)
-                    topCard.sendToBack()
-                    topCard.peek()
-                else:
-                    weakness = card.owner.deck.top()
-                    notify("Top card of the deck is a weakness!")
-                    card.owner.deck.top().peek()
-            elif sets == 2: # Commit
-                if len(AstronomicalCards) == 0: # No cards attached
-                    notify("No cards to commit")
-                    return
-                else:
+            if card.owner.deck:
+                if 1 == askChoice("Look at the top card and attach a non-weakness ?", ["Yes","No"],["#000000","#000000"]):
+                    if card._id in attached and len(attached[card._id]) == 5:
+                        whisper("5 cards already attached to {}".format(card))
+                        return
                     exhaust(card, x, y)
-                    dlg = cardDlg(AstronomicalCards)
-                    dlg.title = "Astronomical Atlas"
-                    dlg.text = "Choose a card to commit:"
-                    dlg.min = 1
-                    dlg.max = 1
-                    commit = dlg.show()
-                    if commit:
-                        flipcard(commit[0])
-                        commit[0].moveToTable(card.position[0], card.position[1] - 100)
-                        commit[0].highlight = WhiteColour
-                        AstronomicalCards.remove(commit[0])
+                    topCard = card.owner.deck.top()
+                    if topCard.Subtype != "Weakness" and topCard.subType != "Basic Weakness":
+                        attachCard(card, topCard) # attaches to Atlas
+                        notify("{} uses {} to attach the top card of his/her deck".format(card.owner, card))
                         inc = 1
-                        for c in AstronomicalCards:
-                            c.moveToTable(card.position[0] + (inc * 5), card.position[1] + (inc * 5))
-                            c.sendToBack()
-                            inc += 1
+                        topCard.moveToTable(card.position[0], card.position[1], True)
+                        for c in table:
+                            if c._id in attached[card._id]: # if card is attached to Atlas
+                                c.moveToTable(card.position[0] + (inc * 5), card.position[1] + (inc * 5), True)
+                                c.sendToBack()
+                                c.peek()
+                                inc += 1
+                                if inc - 1 == len(attached[card._id]):
+                                    break
+                    else:
+                        topCard.peek()
+                        notify("{} sees a forecoming weakness!".format(card.owner))
+            else: whisper("Your deck is empty.")
     elif card.Name == "Shards of the Void":
         if card.Subtype != "Locked":
             zeros = [cT for cT in chaosBag()
@@ -354,19 +359,30 @@ def defaultAction(card, x = 0, y = 0):
             if zeros:
                 card.markers[Zero] = 1
                 zeros[0].delete()
-            card.Subtype = "Locked"
+                notify("{} uses {} to seal a 0 token".format(card.owner, card))
+                card.Subtype = "Locked"
+            else:
+                whisper("No 0 tokens in the Chaos Bag")
+                return
         else:
-            if 1 == askChoice("Shards of the Void", ["Release a 0 token","Seal a revealed 0 here"],["#000000","#000000"]):
+            sets = askChoice("Shards of the Void", ["Release a 0 token","Seal revealed 0 tokens here"],["#000000","#000000"])
+            if sets == 0: return
+            elif sets == 1:
                 if card.markers[Zero]:
                     card.markers[Zero] -= 1
                     chaosBag().create('35137ccc-db2b-4fdd-b0a8-a5d91f453a43', quantity = 1)
-                else: notify("No Zero tokens sealed")
-            else: 
-                card.markers[Zero] += 1
+                    notify("{} uses {} to release a 0 token".format(card.owner, card))
+                else: whisper("No Zero tokens sealed on {}".format(card))
+            elif sets == 2:
+                inc = 0
                 for cT in table:
                     if cT.name == "0" and cT.Subtype != "Sealed":
                         cT.delete()
-                        break
+                        card.markers[Zero] += 1
+                        inc += 1
+                if inc:
+                    notify("{} uses {} to seal {} revealed 0 tokens".format(card.owner, card, inc))
+                else: whisper("No revealed 0 to seal")
     elif card.Name == "Premonition":
         global Premonition
         if card.Subtype != "Locked":
@@ -652,7 +668,7 @@ def defaultAction(card, x = 0, y = 0):
                     if not card.markers[Bless]:
                         notify("{} has no Bless tokens left and is discarded.".format(card))
                         discard(card)
-                else: notify("No Bless Tokens sealed")
+                else: whisper("No Bless Tokens sealed")
     elif card.Name == "Nathaniel Cho" and card.Type == "Investigator":
         if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
             Events = [c for c in card.owner.piles['Discard Pile']
@@ -1050,7 +1066,7 @@ def defaultAction(card, x = 0, y = 0):
         if Events:
             if not "Advanced." in card.Text:
                 topMostEvent = str(Events[0].name)
-                notify("Topmost event is {}.".format(Events[0]))
+                whisper("Topmost event is {}.".format(Events[0]))
                 if 1 == askChoice("Play the topmost event of your discard pile ?", ["Yes","No"],["#000000","#000000"], customButtons = [topMostEvent]):
                     Events[0].moveToTable(card.position[0], card.position[1] + 50)
                     notify("{} uses {} to play the topmost event from his/her discard pile".format(card.owner, card))
@@ -1064,7 +1080,7 @@ def defaultAction(card, x = 0, y = 0):
                 if event is not None:
                     event[0].moveToTable(card.position[0], card.position[1] + 50)
                     notify("{} uses {} to play an event from his/her discard pile".format(card.owner, card))
-        else: notify("No events in the Discard Pile")
+        else: whisper("No events in the Discard Pile")
     elif card.Name == "Patrice Hathaway" and card.Type == "Investigator":
         if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
             dlg = cardDlg(card.owner.piles['Discard Pile'])
@@ -1161,7 +1177,7 @@ def shuffleTekelili(group=None, x=0, y=0):
                 remoteCall(getPlayers()[sets - 1],"moveTekelili",[getPlayers()[sets - 1]])
         else: moveTekelili(me)
     else:
-        notify("The Tekeli-li deck is empty!")
+        whisper("The Tekeli-li deck is empty!")
 
 def moveTekelili(player):
     specialDeck()[0].moveTo(player.deck)
@@ -1222,7 +1238,7 @@ def JoeOpening(player):
     Insights = [card for card in player.deck
             if "Insight." in card.Traits and card.Type == "Event"]
     if len(Insights) < 10:
-        notify("Invalid Deck ! Not enough Insight events !")
+        whisper("Invalid Deck ! Not enough Insight events !")
         return
     dlg = cardDlg(Insights)
     dlg.title = "Hunch Deck"

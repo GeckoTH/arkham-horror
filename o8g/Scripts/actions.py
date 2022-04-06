@@ -471,6 +471,29 @@ def startOfGame():
     #---------------------------------------------------------------------------
     setGlobalVariable("currentPlayers",str([]))
 
+def release(args):
+    global attached
+    mute()
+    if isinstance(args.fromGroups[0],Table) and isinstance(args.toGroups[0],Pile):
+        if len(args.cards) == 1:
+            card = args.cards[0]
+            marker = eval(args.markers[0])
+            if Bless in marker:
+                for _ in range(marker[Bless]):
+                    addBless()
+            elif Curse in marker:
+                for _ in range(marker[Curse]):
+                    addCurse()
+            elif Zero in marker:
+                for _ in range(marker[Zero]):
+                    chaosBag().create('35137ccc-db2b-4fdd-b0a8-a5d91f453a43', quantity = 1)
+                notify("{} releases {} 0 tokens.".format(card.owner, marker[Zero]))
+            card.Subtype = ""
+            if card._id in attached: # if card is a host card, deletes all dict entries
+                del(attached[card._id])
+            elif isAttached(card._id): # if it is attached
+                detachCard(card)
+
 def autoClues(args):
     mute()
     #Only for move card from Pile to Table
@@ -517,6 +540,7 @@ def moveCards(args):
     mute()
     autoCharges(args)
     autoClues(args)
+    release(args)
     moveCardsSound(args) 
 #Triggered event OnLoadDeck
 # args: player, groups
@@ -1385,18 +1409,6 @@ def doDiscard(player, card, pile):
             return
     if card.Subtype == "Sealed" or "Locked": # Locked used for cards that seal tokens
         card.Subtype = ""
-    # Checks for sealed tokens markers and returns them to the chaos bag if card leaves play
-    b = card.markers[Bless]
-    c = card.markers[Curse]
-    z = card.markers[Zero]
-    if b: 
-        for _ in range(b):
-            addBless()
-    if c:
-        for _ in range(c):
-            addCurse()
-    if z:
-        chaosBag().create('35137ccc-db2b-4fdd-b0a8-a5d91f453a43', quantity = z)
     card.moveTo(pile)
 
 def shuffleIntoDeck(card, x=0, y=0, player=me):
