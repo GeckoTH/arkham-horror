@@ -58,7 +58,7 @@ def Investigator(player):
 def lookToBottom(group, count = None): # Alyssa Graham automation
     global cardsFound
     mute()
-    if len(group) == 0: return
+    if len(group) == 0 or deckLocked(group.player): return
     if count is None:
         count = askInteger("Look at how many cards?", 5)
     if count is None or count <= 0:
@@ -85,7 +85,7 @@ def searchTopDeck(group, target, count = None, **kwargs):
     global AmandaCard
     cardsFound = []
     cardsToShow = []
-    if len(group) == 0: return
+    if len(group) == 0 or deckLocked(group.player): return
     if count == None:
         count = len(group)
     else:
@@ -236,6 +236,7 @@ def defaultAction(card, x = 0, y = 0):
             lookToBottom(encounterDeck(), 1)
         else:
             chosenPlayer = getPlayers()[sets - 2]
+            if deckLocked(chosenPlayer): return
             notify("{} uses {} to look at the top card of {}'s deck".format(card.owner, card, chosenPlayer))
             #Two-Handed solo option
             if chosenPlayer.deck.controller == me:
@@ -244,7 +245,7 @@ def defaultAction(card, x = 0, y = 0):
                 chosenPlayer.deck.controller = card.owner
                 lookToBottom(chosenPlayer.deck, 1)
                 chosenPlayer.deck.controller = chosenPlayer
-        if len(cardsFound) > 0: #if a card was moved to the bottom, add a Doom to Alyssa
+        if cardsFound: #if a card was moved to the bottom, add a Doom to Alyssa
             addDoom(card)
     elif card.Name == "Scroll of Secrets" and card.Level == "0":
         exhaust (card, x, y)
@@ -266,6 +267,7 @@ def defaultAction(card, x = 0, y = 0):
         else:
             chosenPlayer = getPlayers()[sets - 2]
             deckToCheck = chosenPlayer.deck
+            if deckLocked(deckToCheck.player):return
             notify("{} uses {} to look at the bottom card of {}'s deck".format(card.owner, card, chosenPlayer))
             if deckToCheck.controller != me and deckToCheck != encounterDeck():
                 for p in chosenPlayer.piles:
@@ -333,6 +335,7 @@ def defaultAction(card, x = 0, y = 0):
                     if card._id in attached and len(attached[card._id]) == 5:
                         whisper("5 cards already attached to {}".format(card))
                         return
+                    if deckLocked(card.owner): return
                     exhaust(card, x, y)
                     topCard = card.owner.deck.top()
                     if topCard.Subtype != "Weakness" and topCard.subType != "Basic Weakness":
@@ -759,6 +762,7 @@ def defaultAction(card, x = 0, y = 0):
                 return
             else:
                 chosenPlayer = getPlayers()[sets - 1]
+                if deckLocked(chosenPlayer): return
                 notify("{} uses {} to make {} draw 3 cards.".format(card.owner, card, chosenPlayer))
                 remoteCall(chosenPlayer,"drawMany",[chosenPlayer.deck,3])
     elif card.Name == "No Stone Unturned" and card.Level == "0": # Automation doesn't account for location
@@ -921,6 +925,21 @@ def defaultAction(card, x = 0, y = 0):
             cardsSelected = dlg.show()
             if cardsSelected != None:
                 cardsSelected[0].moveToBottom(card.owner.piles['Secondary Deck'])
+    elif card.Name == "Livre d'Eibon":
+        if card.owner.hand:
+            sets = askChoice("Livre d'Eibon", ["Swap cards","Commit a card(manual)"],["#000000","#000000"])
+            if sets == 0: return
+            exhaust(card, x, y)
+            if sets == 1:
+                dlg = cardDlg(card.owner.hand)
+                dlg.title = "Livre d'Eibon"
+                dlg.text = "Select a card to swap with the top card of your deck"
+                dlg.min = 1
+                dlg.max = 1
+                c = dlg.show()
+                if c:
+                    swapCard(c[0])
+        else: whisper("No cards in hand")
 #############################################
 #                                           #
 #           Rogue Cards                     #

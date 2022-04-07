@@ -444,8 +444,8 @@ def setPlayerDone():
     #notify("done {}".format(str(playersDone)))
     update()
 
-def deckLocked():
-    return me.getGlobalVariable("deckLocked") == "1"
+def deckLocked(player):
+    return player.getGlobalVariable("deckLocked") == "1"
 
 def lockDeck():
     me.setGlobalVariable("deckLocked", "1")
@@ -494,6 +494,25 @@ def release(args):
             elif isAttached(card._id): # if it is attached
                 detachCard(card)
 
+def normanDeck(args):
+    mute()
+    card = args.cards[0] # card being moved
+    if Investigator(card.owner).name == "Norman Withers" and turnNumber() > 0: # if card being moved belongs to Norman's player
+        if card.Name == "The Harbinger":
+            if args.fromGroups[0] == card.owner.deck and card.owner.getGlobalVariable("deckLocked") == "1": # Unlocks the deck if HB leaves it for any reason
+                toggleLock(card.owner.deck)
+        if args.fromGroups[0] == card.owner.deck or args.toGroups[0] == card.owner.deck:
+            if not(len(card.owner.deck)):
+                return
+            if len(card.owner.deck) >= 2:
+                if card.owner.deck[1].isFaceUp: # checks if second top is face up and turns it down if so
+                    flipcard(card.owner.deck[1])
+            if not card.owner.deck.top().isFaceUp: # Flips first card of the deck faceup
+                flipcard(card.owner.deck.top())
+            if card.owner.deck.top().Name == "The Harbinger": # Locks deck if it is the Harbinger
+                if card.owner.getGlobalVariable("deckLocked") == "0":
+                    toggleLock(card.owner.deck)
+
 def autoClues(args):
     mute()
     #Only for move card from Pile to Table
@@ -540,6 +559,7 @@ def moveCards(args):
     mute()
     autoCharges(args)
     autoClues(args)
+    normanDeck(args)
     release(args)
     moveCardsSound(args) 
 #Triggered event OnLoadDeck
@@ -1130,17 +1150,17 @@ def removeWeaknessCards():
     return removeWeaknessCards()
     
 def toggleLock(group, x=0, y=0):
-    if deckLocked():
+    if deckLocked(group.player):
         unlockDeck()
-        if len(me.deck) > 0:
-            if isLocked(me.deck.top()):
-                lockCard(me.deck.top())
-        notify("{} Unlocks his deck".format(me))
+        if len(group.player.deck) > 0:
+            if isLocked(group.player.deck.top()):
+                lockCard(group.player.deck.top())
+        notify("{} Unlocks his deck".format(group.player))
     else:
         lockDeck()
-        if len(me.deck) > 0:
-            lockCard(me.deck.top())
-        notify("{} Locks his deck".format(me))
+        if len(group.player.deck) > 0:
+            lockCard(group.player.deck.top())
+        notify("{} Locks his deck".format(group.player))
            
 def exhaust(card, x = 0, y = 0):
     mute()
@@ -1493,9 +1513,10 @@ def playCard(card, x=0, y=0):
     card.select()
 
 def swapCard(card):
-    draw(me.deck)
-    card.moveTo(me.deck)
-    notify("{} returns {} to the top of the deck.".format(me, card))
+    mute()
+    draw(card.owner.deck)
+    card.moveTo(card.owner.deck)
+    notify("{} swaps {} with the top card of his/her deck.".format(card.owner, card))
 
 def sumVictory():
     v = 0
@@ -1556,7 +1577,7 @@ def mulligan(group, x = 0, y = 0):
 
 def draw(group, x = 0, y = 0):
     mute()
-    if deckLocked():
+    if deckLocked(group.player):
         whisper("Your deck is locked, you cannot draw a card at this time")
         return
     if len(group) == 0:
@@ -1607,7 +1628,7 @@ def shuffle(group):
 def drawMany(group, count = None):
     mute()
     if len(group) == 0: return
-    if deckLocked():
+    if deckLocked(group.player):
         whisper("Your deck is locked, you cannot draw cards at this time")
         return
     if count is None:
