@@ -1526,6 +1526,9 @@ def playCard(card, x=0, y=0):
 
 def swapCard(card):
     mute()
+    if deckLocked(card.owner):
+        whisper("Your deck is locked and cannot be manipulated")
+        return
     draw(card.owner.deck)
     card.moveTo(card.owner.deck)
     notify("{} swaps {} with the top card of his/her deck.".format(card.owner, card))

@@ -58,7 +58,10 @@ def Investigator(player):
 def lookToBottom(group, count = None): # Alyssa Graham automation
     global cardsFound
     mute()
-    if len(group) == 0 or deckLocked(group.player): return
+    if len(group) == 0: return
+    if deckLocked(group.player):
+        whisper("{}'s deck is locked and cannot be looked at".format(group.player))
+        return
     if count is None:
         count = askInteger("Look at how many cards?", 5)
     if count is None or count <= 0:
@@ -87,7 +90,9 @@ def searchTopDeck(group, target, count = None, **kwargs):
     cardsToShow = []
     if len(group) == 0: return
     if group != encounterDeck():
-        if deckLocked(group.player): return
+        if deckLocked(group.player):
+            notify("{}'s deck is locked and cannot be searched".format(group.player))
+            return
     if count == None:
         count = len(group)
     else:
@@ -239,7 +244,9 @@ def defaultAction(card, x = 0, y = 0):
             lookToBottom(encounterDeck(), 1)
         else:
             chosenPlayer = getPlayers()[sets - 2]
-            if deckLocked(chosenPlayer): return
+            if deckLocked(chosenPlayer):
+                notify("{}'s deck is locked and cannot be looked at".format(chosenPlayer))
+                return
             notify("{} uses {} to look at the top card of {}'s deck".format(card.owner, card, chosenPlayer))
             #Two-Handed solo option
             if chosenPlayer.deck.controller == me:
@@ -270,7 +277,9 @@ def defaultAction(card, x = 0, y = 0):
         else:
             chosenPlayer = getPlayers()[sets - 2]
             deckToCheck = chosenPlayer.deck
-            if deckLocked(deckToCheck.player):return
+            if deckLocked(deckToCheck.player):
+                notify("{}'s deck is locked and cannot be looked at".format(chosenPlayer))
+                return
             notify("{} uses {} to look at the bottom card of {}'s deck".format(card.owner, card, chosenPlayer))
             if deckToCheck.controller != me and deckToCheck != encounterDeck():
                 for p in chosenPlayer.piles:
@@ -338,7 +347,9 @@ def defaultAction(card, x = 0, y = 0):
                     if card._id in attached and len(attached[card._id]) == 5:
                         whisper("5 cards already attached to {}".format(card))
                         return
-                    if deckLocked(card.owner): return
+                    if deckLocked(card.owner):
+                        whisper("Your deck is locked and cannot be looked at")
+                        return
                     exhaust(card, x, y)
                     topCard = card.owner.deck.top()
                     if topCard.Subtype != "Weakness" and topCard.subType != "Basic Weakness":
@@ -765,7 +776,9 @@ def defaultAction(card, x = 0, y = 0):
                 return
             else:
                 chosenPlayer = getPlayers()[sets - 1]
-                if deckLocked(chosenPlayer): return
+                if deckLocked(chosenPlayer):
+                    whisper("{}'s deck is locked.".format(chosenPlayer))
+                    return
                 notify("{} uses {} to make {} draw 3 cards.".format(card.owner, card, chosenPlayer))
                 remoteCall(chosenPlayer,"drawMany",[chosenPlayer.deck,3])
     elif card.Name == "No Stone Unturned" and card.Level == "0": # Automation doesn't account for location
