@@ -711,6 +711,11 @@ def createChaosBag(group, x=0, y=0):
             c.moveToTable(x, y)
             return
     group.create("faa82643-1dda-4af7-96ad-298bc2d5b2dd", ChaosBagX, ChaosBagY, 1, False)
+    for c in table:
+        if c.name == "Sister Mary" and c.Type == "Investigator":
+            for _ in range(2):
+                addBless()
+            break
 
 def createEncounterCardClicky(group, x=0, y=0):
     group.create("f4633a2e-0102-452d-8387-678b5aa17878", EncounterX, EncounterY, 1, False)
@@ -1032,6 +1037,11 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         isJenny = filter(lambda card: "Jenny Barnes" in card.Name, me.hand)
         if isJenny:
             me.counters['Ressource per upkeep'].value = 2
+        isMary = filter(lambda card: "Sister Mary" in card.Name, me.hand)
+        if isMary:
+            if len(chaosBag()):
+                for _ in range(2):
+                    addBless()
         # Find any Start cards
         startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name, me.deck)
         # Create Bonded Card

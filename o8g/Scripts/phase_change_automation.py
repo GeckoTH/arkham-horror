@@ -12,6 +12,9 @@ def doMythosPhase(setPhaseVar = True):
         setGlobalVariable("phase", "Mythos")
 
     for card in table:
+        if card.Name == "Sister Mary" and card.Type == "Investigator" and card.owner == me and blessInCB() < 10:
+            if 1 == askChoice('Add a Bless Token in the Chaos Bag ?', ['Yes', 'No'], ['#dd3737', '#d0d0d0']):
+                addBless()
     # Auto-replenish
         if ("Replenish" and "at the start of each round" in card.Text) and card.owner == me and not isLocked(card):
             #Capture text between "Uses (..)"
