@@ -131,6 +131,11 @@ def turnPassed(args):
 def advancePhase(group = None, x = 0, y = 0):
     if turnNumber() == 0:
         me.setActive()
+        for c in table:
+            if InvestigatorName(c.owner) == "Norman Withers":
+                if not c.owner.deck.top().isFaceUp:
+                    flipcard(c.owner.deck.top())
+                break
     else:
         thisPhase = currentPhase()
         nextPhase = thisPhase[1] + 1

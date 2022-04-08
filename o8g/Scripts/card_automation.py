@@ -141,7 +141,7 @@ def searchTopDeck(group, target, count = None, **kwargs):
                     if target == card.owner.hand:
                         serumDoubleCheck(card)
                 if target == table:
-                    card.highlight = WhiteColour
+                    card.select()
              else: 
                 card.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
                 card.sendToBack()
@@ -1140,7 +1140,7 @@ def defaultAction(card, x = 0, y = 0):
             skill = dlg.show()
             if skill is not None:
                 skill[0].moveToTable(card.position[0], card.position[1] - 100)
-                skill[0].highlight = WhiteColour
+                skill[0].select()
 #############################################
 #                                           #
 #           Neutral Cards                   #
