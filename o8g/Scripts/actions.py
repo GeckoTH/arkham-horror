@@ -131,10 +131,6 @@ def turnPassed(args):
 def advancePhase(group = None, x = 0, y = 0):
     if turnNumber() == 0:
         me.setActive()
-        for c in table:
-            if InvestigatorName(c.owner) == "Norman Withers":
-                flipcard(c.owner.deck.top())
-                break
     else:
         thisPhase = currentPhase()
         nextPhase = thisPhase[1] + 1
@@ -1635,6 +1631,9 @@ def shuffle(group):
         update()
         group.shuffle()
         notify("{} shuffles {}".format(me, group.name))
+        if group != encounterDeck():
+            if InvestigatorName(group.player) == "Norman Withers" and group == group.player.deck and not group.top().isFaceUp:
+                flipcard(group.top())
 
 def drawMany(group, count = None):
     mute()
