@@ -131,6 +131,10 @@ def turnPassed(args):
 def advancePhase(group = None, x = 0, y = 0):
     if turnNumber() == 0:
         me.setActive()
+        for c in table:
+            if InvestigatorName(c.owner) == "Norman Withers":
+                flipcard(c.owner.deck.top())
+                break
     else:
         thisPhase = currentPhase()
         nextPhase = thisPhase[1] + 1
@@ -497,7 +501,7 @@ def release(args):
 def normanDeck(args):
     mute()
     card = args.cards[0] # card being moved
-    if Investigator(card.owner).name == "Norman Withers" and turnNumber() > 0: # if card being moved belongs to Norman's player
+    if InvestigatorName(card.owner) == "Norman Withers" and turnNumber() > 0: # if card being moved belongs to Norman's player
         if card.Name == "The Harbinger":
             if args.fromGroups[0] == card.owner.deck and card.owner.getGlobalVariable("deckLocked") == "1": # Unlocks the deck if HB leaves it for any reason
                 toggleLock(card.owner.deck)
@@ -559,8 +563,7 @@ def moveCards(args):
     mute()
     autoCharges(args)
     autoClues(args)
-    if isPlayerCard(args):
-        normanDeck(args)
+    normanDeck(args)
     release(args)
     moveCardsSound(args) 
 #Triggered event OnLoadDeck
@@ -1029,9 +1032,6 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         isJenny = filter(lambda card: "Jenny Barnes" in card.Name, me.hand)
         if isJenny:
             me.counters['Ressource per upkeep'].value = 2
-        isNorman = filter(lambda card: "Norman Withers" in card.Name, me.hand)            
-        if isNorman:
-            me.deck.visibility = "all"
         # Find any Start cards
         startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name, me.deck)
         # Create Bonded Card
