@@ -85,7 +85,9 @@ def searchTopDeck(group, target, count = None, **kwargs):
     global AmandaCard
     cardsFound = []
     cardsToShow = []
-    if len(group) == 0 or deckLocked(group.player): return
+    if len(group) == 0: return
+    if group != encounterDeck():
+        if deckLocked(group.player): return
     if count == None:
         count = len(group)
     else:
@@ -135,8 +137,9 @@ def searchTopDeck(group, target, count = None, **kwargs):
              cardsFound.append(card)
              if cardToAttachTo is None:
                 card.moveTo(target)
-                if target == card.owner.hand:
-                    serumDoubleCheck(card)
+                if isPlayerCard(card):
+                    if target == card.owner.hand:
+                        serumDoubleCheck(card)
                 if target == table:
                     card.highlight = WhiteColour
              else: 
