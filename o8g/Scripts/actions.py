@@ -559,7 +559,8 @@ def moveCards(args):
     mute()
     autoCharges(args)
     autoClues(args)
-    normanDeck(args)
+    if isPlayerCard(args):
+        normanDeck(args)
     release(args)
     moveCardsSound(args) 
 #Triggered event OnLoadDeck
