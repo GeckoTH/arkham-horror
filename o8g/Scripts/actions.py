@@ -1512,8 +1512,8 @@ def doMoveShuffle(player, card, pile):
     shuffle(pile)
     
 def playCard(card, x=0, y=0):
-    if x == 0 and y == 0 and not eliminated(me):
-        x, y = firstInvestigator(me).position
+    if x == 0 and y == 0 and inGame(card.owner):
+        x, y = firstInvestigator(card.owner).position
         x += Spacing
         y += Spacing
     card.moveToTable(x, y)
