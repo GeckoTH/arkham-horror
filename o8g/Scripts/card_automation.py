@@ -277,7 +277,7 @@ def defaultAction(card, x = 0, y = 0):
         else:
             chosenPlayer = getPlayers()[sets - 2]
             deckToCheck = chosenPlayer.deck
-            if deckLocked(deckToCheck.player):
+            if deckLocked(chosenPlayer):
                 notify("{}'s deck is locked and cannot be looked at".format(chosenPlayer))
                 return
             notify("{} uses {} to look at the bottom card of {}'s deck".format(card.owner, card, chosenPlayer))
