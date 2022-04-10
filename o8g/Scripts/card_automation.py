@@ -1198,7 +1198,8 @@ def defaultAction(card, x = 0, y = 0):
                 notify("{} has no Bless tokens left and is discarded.".format(card))
                 discard(card)
     else:
-        exhaust(card, x, y)
+        if ("Exhaust " + str(card.Name) in card.Text) or (" exhaust " + str(card.Name) in card.Text):
+            exhaust(card, x, y)
     
 #############################################
 #                                           #
