@@ -135,6 +135,9 @@ def advancePhase(group = None, x = 0, y = 0):
             if InvestigatorName(c.owner) == "Norman Withers":
                 if not c.owner.deck.top().isFaceUp:
                     flipcard(c.owner.deck.top())
+                    if c.owner.deck.top().Name == "The Harbinger":
+                        if not deckLocked(c.owner):
+                            toggleLock(c.owner.deck)
                 break
     else:
         thisPhase = currentPhase()
