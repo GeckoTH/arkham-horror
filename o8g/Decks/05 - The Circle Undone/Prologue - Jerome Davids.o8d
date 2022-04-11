@@ -10,7 +10,7 @@
     <card qty="1" id="86e13f2c-6adc-411d-a6fe-c7dd6b8a9d1b">Working a Hunch</card>
     <card qty="1" id="e7c36f79-c7ac-422a-ad1b-ceef10d9e666">Barricade</card>
     <card qty="1" id="604a5862-949c-4a8e-b97e-39d18144190e">Deduction</card>
-    <card qty="1" id="746d5cdc-a24a-48ae-8e8a-3ce69dafc0d0">Magnifying Glass</card>
+    <card qty="1" id="deb719f2-3016-4659-ad99-787d43400af2">Magnifying Glass</card>
     <card qty="1" id="400e76f9-d8bf-4964-b9b6-516fe76a98fd">Fingerprint Kit</card>
     <card qty="1" id="b9ae78d7-eb00-4df5-a22f-df7badbf3922">Connect the Dots</card>
     <card qty="2" id="4a7794f9-c8be-4c42-b1ef-46d7dfdd4a0a">Curiosity</card>
@@ -29,5 +29,6 @@
   <section name="Second Special" shared="True" />
   <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True" />
+  <section name="Temporary Shuffle" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
