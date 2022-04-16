@@ -114,6 +114,8 @@ def saveTable(phase):
 			for card in table:	
 				if card.owner == me or not isPlayerCard(card):
 					tab['table'].append(serializeCard(card))
+			# Save host cards
+			tab['players'] = [serializePlayer(Player(1))]
 
 		# loop and retrieve item from the shared decks
 			for p in shared.piles :
