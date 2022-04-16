@@ -3,7 +3,6 @@
 
 cardToAttachTo =  None
 cardsFound = []
-Premonition = []
 attached = {}
 
 def attachCard(host, card):
