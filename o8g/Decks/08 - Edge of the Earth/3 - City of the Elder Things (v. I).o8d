@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="de58597f-518c-4e88-8185-c130649c1e48">Lurking Horrors</card>
     <card qty="1" id="26344cb8-e686-4e58-ac77-f11a35fdc789">Doom from Below</card>
@@ -29,8 +21,6 @@
     <card qty="2" id="42002f8d-6b09-4bb8-9422-938037ce812d">Nightmarish Vapors</card>
     <card qty="2" id="cd02b453-7b4f-490a-b569-89efc071e3ee">Giant Albino Penguin</card>
     <card qty="2" id="7113894d-c73b-44ae-8daa-de76cfc73ab7">Wuk! Wuk! Wuk!</card>
-    <card qty="2" id="010123b4-9463-4689-bdc1-bd11e4115786">Forgotten Shoggoth</card>
-    <card qty="1" id="677ab147-eef1-4ad6-8c49-16f773b36c57">Rampaging Shoggoth</card>
     <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
   </section>
   <section name="Location" shared="True">
@@ -45,7 +35,6 @@
     <card qty="2" id="ee2e2366-9c0c-4328-88ab-63913bde0f2a">City Landscape</card>
     <card qty="2" id="43abab35-19d4-4e87-b0d1-d1cbbcfbd901">City Landscape</card>
   </section>
-  <section name="Special" shared="True" />
   <section name="Second Special" shared="True">
     <card qty="1" id="0ff278ff-e7f7-4b7d-accd-9e161eb98d68">Frost</card>
     <card qty="4" id="55d59e6b-b086-49fd-92bf-0177c080b2ea">Frostbitten</card>
@@ -68,9 +57,10 @@
     <card qty="1" id="ec63f12b-22e8-46c5-b5d9-25952a42b937">Dr. Amy Kensler</card>
     <card qty="1" id="7e3cf564-080d-45c7-8ef2-fe235aefd601">Roald Ellsworth</card>
     <card qty="1" id="63f6a083-f2d9-4b1c-b592-e9ef0827f6a1">Takada Hiroko</card>
+    <card qty="2" id="010123b4-9463-4689-bdc1-bd11e4115786">Forgotten Shoggoth</card>
+    <card qty="1" id="677ab147-eef1-4ad6-8c49-16f773b36c57">Rampaging Shoggoth</card>
     <card qty="1" id="b7b54ba3-4b70-4104-acb0-2bd87c895ce1">Terror of the Stars</card>
   </section>
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="463e7f4f-d856-4498-b34d-8adc51f7dbf0">City of the Elder Things</card>
     <card qty="1" id="0b129c63-eb74-4210-a29b-795847f7fe9d">Hidden Tunnel</card>
@@ -83,5 +73,16 @@
     <card qty="2" id="92df60c3-7d56-4e2d-99e2-c0e7e0d9994a">-2</card>
     <card qty="2" id="eac1c4b1-43ac-49d9-b2ac-55c3b1340bd8">-3</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Temporary Shuffle" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
