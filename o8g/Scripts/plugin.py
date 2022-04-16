@@ -172,12 +172,6 @@ def restoreSave(group, x=0, y=0):
 	loadTable(phase)
 
 def loadTable(phase):
-	mute()
-	
-	if 1 != askChoice('You are about to LOAD the table states including the elements on the table, shared deck and each player\'s hand and piles.\nThis option should be execute on the a game host.'
-		, ['I am the Host!', 'I am not...'], ['#dd3737', '#d0d0d0']):
-		return
-	
 	if not getLock():
 		whisper("Others players are locking the table, please try again")
 		return
