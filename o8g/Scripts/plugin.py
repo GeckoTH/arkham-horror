@@ -10,16 +10,16 @@ from System.Web.Script.Serialization import JavaScriptSerializer as json #since 
 PLAYER_DECK = ['Investigator', 'Special', 'Asset', 'Event', 'Skill', 'Weakness', 'Sideboard', 'Basic Weaknesses']
 
 def takeControlGlobal(group, x=0, y=0):
-    notify( me.name + " takes control of shared cards")
-    mute()
+	notify( me.name + " takes control of shared cards")
+	mute()
 	#Take control of each not player card on table
-    for card in table:
-        if not isPlayerCard(card):
-            card.controller = me
-	#Take control of each shared pile			
+	for card in table:
+		if not isPlayerCard(card):
+			card.controller = me
+	#Take control of each shared pile
 	for p in shared.piles:
-            if shared.piles[p].controller != me:
-                shared.piles[p].controller = me
+			if shared.piles[p].controller != me:
+				shared.piles[p].controller = me
 
 def saveChaosBag(group, x=0, y=0):
 	mute()
@@ -102,45 +102,45 @@ def saveManual(group, x=0, y=0):
 def saveTable(phase):
 	mute()
 	if phase == "":
-		if 1 != askChoice('You are about to SAVE the table states including the elements on the table, shared deck and each player\'s hand and piles.\nThis option should be execute on the a game host.'
-			, ['I am the Host!', 'I am not...'], ['#dd3737', '#d0d0d0']):
-			return
-	
 		if not getLock():
 			whisper("Others players are saving, please try manual saving again")
 			return
 	
 	try:
 		tab = {"table":[], "shared": {}, 'counters': None, "players": None}
-		
-		# loop and retrieve cards from the table
-		for card in table:	
-			#if card.Type == "Chaos Token" and card.Subtype == "Sealed":
-			#	tab['sealed'].append(serializeCard(card))
-			#else:
-				tab['table'].append(serializeCard(card))
+		# If Table Host
+		if me._id == 1:
+			# loop and retrieve cards from the table
+			for card in table:	
+				if card.owner == me or not isPlayerCard(card):
+					tab['table'].append(serializeCard(card))
 
 		# loop and retrieve item from the shared decks
-		for p in shared.piles :
-			if p == 'Trash':
-				continue
-			for card in shared.piles[p]:
-				if p not in tab['shared']:
-					tab['shared'].update({p: []})
-				tab['shared'][p].append(serializeCard(card))
-				
-		tab['counters'] = serializeCounters(shared.counters)
+			for p in shared.piles :
+				if p == 'Trash':
+					continue
+				for card in shared.piles[p]:
+					if p not in tab['shared']:
+						tab['shared'].update({p: []})
+					tab['shared'][p].append(serializeCard(card))
+					
+			tab['counters'] = serializeCounters(shared.counters)
 		
-		# loop each player
-		players = sorted(getPlayers(), key=lambda x: x._id, reverse=False)
-		tab['players'] = [serializePlayer(pl) for pl in players]
+		else: # If not the host
+			for card in table:
+				if card.owner == me:
+					tab['table'].append(serializeCard(card))
+			tab['players'] = [serializePlayer(Player(me._id))]
 	
 		if phase == "":
 			filename = saveFileDlg('', '', 'Json Files|*.json')
 		else: 
 			with open("data.path", 'r') as f:
 				dir = f.readline()
-				filename = dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "AutoSave.json"
+				if me._id == 1: # Host player
+					filename = dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "AutoSaveHost.json"
+				else:
+					filename = dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "AutoSavePlayer" + str(me._id) +".json"
 				n = open(dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "phase.txt", 'w+')
 				n.write(phase)
 			
@@ -151,7 +151,12 @@ def saveTable(phase):
 			f.write(json().Serialize(tab))
 		
 		if phase == "":
-			notify("Table state saves to {}".format(filename))
+			if me._id == 1: # host
+				notify("Table state saved by host {} - make sure EACH player saves the table state too !".format(me))
+				whisper("Game saved to {}".format(filename))
+			else:
+				notify("{} saved his game".format(me))
+				whisper("Game saved to {}".format(filename))
 
 	finally:
 		clearLock()
@@ -191,7 +196,10 @@ def loadTable(phase):
 		else: 
 			with open("data.path", 'r') as f:
 				dir = f.readline()
-				filename = dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "AutoSave.json"
+				if me._id == 1: # Host
+					filename = dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "AutoSaveHost.json"
+				else:
+					filename = dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "AutoSavePlayer" + str(me._id) +".json"
 				n = open(dir + "\\GameDatabase\\a6d114c7-2e2a-4896-ad8c-0330605c90bf\\" + "phase.txt", 'r')
 				phase = n.readline()
 				notify("Restore Table state saves to last {} phase".format(phase))
