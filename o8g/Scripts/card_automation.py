@@ -1191,16 +1191,15 @@ def shuffleTekelili(group=None, x=0, y=0):
             sets = askChoice("Tekeli-li shuffle into:", choice_list, color_list)
             if sets == 0:
                 return
-            if specialDeck().controller == me:
-                moveTekelili(getPlayers()[sets - 1])
-            else:
-                remoteCall(specialDeck().controller,"moveTekelili",[getPlayers()[sets - 1]])
-        else: moveTekelili(me)
+            specialDeck().controller = getPlayers()[sets - 1]
+            remoteCall(getPlayers()[sets - 1],"moveTekelili",[getPlayers()[sets - 1]])
+        else:
+            moveTekelili(me)
     else:
         whisper("The Tekeli-li deck is empty!")
 
 def moveTekelili(player):
-    specialDeck()[0].moveTo(player.deck)
+    specialDeck()[0].moveToBottom(player.deck)
     shuffle(player.deck)
     notify("{} shuffles a Tekeli-li card into his/her deck.".format(player))
 
