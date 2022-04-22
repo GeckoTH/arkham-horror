@@ -12,11 +12,11 @@ def doMythosPhase(setPhaseVar = True):
         setGlobalVariable("phase", "Mythos")
 
     for card in table:
-        if card.Name == "Sister Mary" and card.Type == "Investigator" and card.owner == me and countBless() < 10:
+        if card.Name == "Sister Mary" and card.Type == "Investigator" and card.controller == me and countBless() < 10:
             if 1 == askChoice('Add a Bless Token in the Chaos Bag ?', ['Yes', 'No'], ['#dd3737', '#d0d0d0']):
                 addBless()
     # Auto-replenish
-        if ("Replenish" and "at the start of each round" in card.Text) and card.owner == me and not isLocked(card):
+        if ("Replenish" and "at the start of each round" in card.Text) and card.controller == me and not isLocked(card):
             #Capture text between "Uses (..)"
             description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
             if description_search:
@@ -40,9 +40,9 @@ def doMythosPhase(setPhaseVar = True):
 def doInvestigationPhase():
     global AmandaCard
     global HunchCard
-    isAmanda = filter(lambda card: (card.Name == "Amanda Sharpe" and card.Type == "Investigator" and card.owner == me and not isLocked(card) and inGame(card.owner)), table)
-    isJoe = filter(lambda card: (card.Name == "Joe Diamond" and card.Type == "Investigator" and card.owner == me and not isLocked(card) and inGame(card.owner)) , table)
-    familyInheritance = filter(lambda card: card.Name == "Family Inheritance" and card.owner == me, table)
+    isAmanda = filter(lambda card: (card.Name == "Amanda Sharpe" and card.Type == "Investigator" and card.controller == me and not isLocked(card) and inGame(card.controller)), table)
+    isJoe = filter(lambda card: (card.Name == "Joe Diamond" and card.Type == "Investigator" and card.controller == me and not isLocked(card) and inGame(card.controller)) , table)
+    familyInheritance = filter(lambda card: card.Name == "Family Inheritance" and card.controller == me, table)
     if familyInheritance:
         familyInheritance[0].markers[Resource] += 4
     if isAmanda:
@@ -51,13 +51,13 @@ def doInvestigationPhase():
                 amanda = c
                 x, y = c.position
                 break
-        if inGame(amanda.owner):
-            draw(amanda.owner.deck)
+        if inGame(amanda.controller):
+            draw(amanda.controller.deck)
             if AmandaCard: # Discard card under Amanda
                 discard(AmandaCard)
-            WftD = filter(lambda card: (card.Name == "Whispers from the Deep"), amanda.owner.hand)
+            WftD = filter(lambda card: (card.Name == "Whispers from the Deep"), amanda.controller.hand)
             if not WftD:
-                dlg = cardDlg(amanda.owner.hand)
+                dlg = cardDlg(amanda.controller.hand)
                 dlg.title = "Amanda Sharpe"
                 dlg.text = "Select 1 card to put beneath Amanda:"
                 dlg.min = 1
@@ -73,7 +73,7 @@ def doInvestigationPhase():
                 if WftD:
                     c.highlight = RedColour
                 else: c.highlight = WhiteColour
-                notify("{} places {} under {}".format(c.owner,AmandaCard,amanda))
+                notify("{} places {} under {}".format(c.controller,AmandaCard,amanda))
     if isJoe:
         if len(me.piles['Secondary Deck']) > 0:
             HunchCard = me.piles['Secondary Deck'].top()
@@ -82,7 +82,7 @@ def doInvestigationPhase():
 
 def doEnemyPhase(): # Also End of the Investigation Phase
     global HunchCard
-    familyInheritance = filter(lambda card: card.Name == "Family Inheritance" and card.owner == me, table)
+    familyInheritance = filter(lambda card: card.Name == "Family Inheritance" and card.controller == me, table)
     if familyInheritance:
         familyInheritance[0].markers[Resource] = 0
     if HunchCard:
@@ -112,7 +112,7 @@ def doUpkeepPhase(setPhaseVar = True):
 
     for card in table:
         #If Patrice, Discard all cards but weaknesses and draw to 5
-        if card.Name == "Patrice Hathaway" and card.owner == me and card.Type == "Investigator" and not isLocked(card):
+        if card.Name == "Patrice Hathaway" and card.controller == me and card.Type == "Investigator" and not isLocked(card):
             for card in filter(lambda card: not card.Subtype in ["Weakness", "Basic Weakness"] and not "Peril. Hidden." in card.Text, me.hand):
                 card.moveTo(me.piles['Discard Pile'])
                 notify("{} discards '{}'".format(me, card))
@@ -121,19 +121,20 @@ def doUpkeepPhase(setPhaseVar = True):
                 draw(me.deck)
             break
         #Else draw cards equal to selected value
-        elif card.owner == me and card.Type == "Investigator":
-            if card.owner.counters['Card Draw'].value == 1:
-                draw(card.owner.deck)
-            elif card.owner.counters['Card Draw'].value > 1:
-                for i in range(0, card.owner.counters['Card Draw'].value):
-                    draw(card.owner.deck)
+        elif card.controller == me and card.Type == "Investigator":
+            if card.controller.counters['Card Draw'].value == 1:
+                draw(card.controller.deck)
+            elif card.controller.counters['Card Draw'].value > 1:
+                for i in range(0, card.controller.counters['Card Draw'].value):
+                    draw(card.controller.deck)
             break
     
     # Check for hand size!
     sizeHand = me.counters['Maximum Hand Size'].value
     #Checks if player has Dream-enhancing Serum on the table or Forced Learning
-    haveSerum = filter(lambda card: card.Name == "Dream-Enhancing Serum" and card.owner == me and not isLocked(card), table)
-    if forcedLearning and len(me.hand) > 1:
+    haveForcedLearning = filter(lambda card: card.Name == "Forced Learning" and card.controller == me and not isLocked(card), table)
+    haveSerum = filter(lambda card: card.Name == "Dream-Enhancing Serum" and card.controller == me and not isLocked(card), table)
+    if haveForcedLearning and len(me.hand) > 1:
         forcedCards = [me.hand[0],me.hand[1]] #Last two cards drawn
         dlg = cardDlg(forcedCards)
         dlg.title = "Forcead Learning"
@@ -164,9 +165,9 @@ def doUpkeepPhase(setPhaseVar = True):
             for card in cardsSelected:
                 discard(card)
     
-    darkHorse = filter(lambda card: card.Name == "Dark Horse" and card.owner == me and not isLocked(card), table)
+    darkHorse = filter(lambda card: card.Name == "Dark Horse" and card.controller == me and not isLocked(card), table)
     for card in table:
-        if card.Type == "Investigator" and card.owner == me and card.isFaceUp:
+        if card.Type == "Investigator" and card.controller == me and card.isFaceUp:
             if (me.counters['Ressource per upkeep'].value > 0):
                 if darkHorse:
                     if 1 == askChoice('Dark Horse', ['Gain a resource', 'No resource'], ['#dd3737', '#d0d0d0']):
@@ -175,7 +176,7 @@ def doUpkeepPhase(setPhaseVar = True):
                 else:
                     for i in repeat(None, me.counters['Ressource per upkeep'].value):
                         addResource(card)
-        elif card.Type == "Mini" and card.owner == me:
+        elif card.Type == "Mini" and card.controller == me:
             card.markers[Action] = 0
             if card.alternates is not None and "" in card.alternates:
                 card.alternate = ''

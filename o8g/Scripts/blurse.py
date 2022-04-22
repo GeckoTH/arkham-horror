@@ -41,7 +41,10 @@ def sealXBless(card, max = None):
         for t in shared.piles['Chaos Bag']:
             if t.Name != "Bless":
                 continue
-            t.delete()
+            if t.controller == me:
+                doDiscard(me, t, chaosBag())
+            else:
+                remoteCall(t.controller, "doDiscard", [me, t, chaosBag()])
             inc += 1
             if inc == count:
                 break
@@ -65,7 +68,10 @@ def sealXCurse(card, max = None):
         for t in shared.piles['Chaos Bag']:
             if t.Name != "Curse":
                 continue
-            t.delete()
+            if t.controller == me:
+                doDiscard(me, t, chaosBag())
+            else:
+                remoteCall(t.controller, "doDiscard", [me, t, chaosBag()])
             inc += 1
             if inc == count:
                 break
