@@ -1869,11 +1869,6 @@ def createChaosTokenInBag(id):
     else:
         remoteCall(chaosBag().controller, "createChaosTokenInBag", [id])
 
-def sealChaosTokenToTable(card, x, y):
-    card.moveToTable(x, y)
-    card.Subtype = 'Sealed'
-    card.filter = "#99999999"
-
 def sealTokenCard(card, x = 0, y = 0, player = None):
     if card.controller != me:
         remoteCall(card.controller, "sealTokenCard", [card, x, y, me])
