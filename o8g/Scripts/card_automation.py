@@ -87,7 +87,6 @@ def searchTopDeck(group, target, count = None, **kwargs):
     mute()
     global cardsFound
     global cardToAttachTo
-    global AmandaCard
     cardsFound = []
     cardsToShow = []
     if len(group) == 0: return
