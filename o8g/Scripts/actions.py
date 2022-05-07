@@ -1593,22 +1593,22 @@ def mulligan(group, x = 0, y = 0):
 
 def draw(group, x = 0, y = 0):
     mute()
-    if deckLocked(group.player):
+    if deckLocked(group.controller):
         whisper("Your deck is locked, you cannot draw a card at this time")
         return
     if len(group) == 0:
         takeHorror = True
-        for c in group.player.piles['Discard Pile']:
-            c.moveTo(group.player.deck)
-        notify("{}'s deck is empty.".format(group.player))
+        for c in group.controller.piles['Discard Pile']:
+            c.moveTo(group.controller.deck)
+        notify("{}'s deck is empty.".format(group.controller))
         shuffle(group)
     else:
         takeHorror = False
     card = group[0]
-    card.moveTo(group.player.hand) # Not using me.hand for two-handed solo players
-    notify("{} draws '{}'".format(group.player, card))
+    card.moveTo(group.controller.hand) # Not using me.hand for two-handed solo players
+    notify("{} draws '{}'".format(group.controller, card))
     if takeHorror:
-        remoteCall(group.player, "notifyBar", ["#86aceb", "Your deck is empty ! Take 1 horror !"])
+        remoteCall(group.controller, "notifyBar", ["#86aceb", "Your deck is empty ! Take 1 horror !"])
     serumDoubleCheck(card)
 
 def serumDoubleCheck(card):
