@@ -127,7 +127,6 @@ def doUpkeepPhase(setPhaseVar = True):
             elif card.controller.counters['Card Draw'].value > 1:
                 for i in range(0, card.controller.counters['Card Draw'].value):
                     draw(card.controller.deck)
-            break
     
     # Check for hand size!
     sizeHand = me.counters['Maximum Hand Size'].value
