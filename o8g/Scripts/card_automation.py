@@ -51,12 +51,10 @@ def InvestigatorName(player):
         if card.Type == "Investigator" and card.controller == player:
             return card.Name
 
-def Investigator(player):
-    for card in table:
-        if card.Type == "Investigator" and card.controller == player:
-            return card
+def moveCardToBottom(card, group):
+    card.moveToBottom(group)
 
-def lookToBottom(group, count = None): # Alyssa Graham automation
+def lookToBottom(group): # Alyssa Graham automation
     global cardsFound
     cardsFound = []
     mute()
@@ -64,20 +62,14 @@ def lookToBottom(group, count = None): # Alyssa Graham automation
     if group != encounterDeck() and deckLocked(group.player):
         whisper("{}'s deck is locked and cannot be looked at".format(group.player))
         return
-    if count is None:
-        count = askInteger("Look at how many cards?", 5)
-    if count is None or count <= 0:
-        whisper("search: invalid card count")
-        return
-    dlg = cardDlg(group.top(count))
+    dlg = cardDlg(group.top(1))
     dlg.title = "Looking at cards"
     dlg.text = "Select a card:"
     cardsSelected = dlg.show()
-    if cardsSelected != None:
-        for c in cardsSelected:
-            c.moveToBottom(group)
-            cardsFound.append(c)
-        notify("{} is moved at the bottom of {}".format(c, group.name))
+    if cardsSelected:
+        remoteCall(group.controller, "moveCardToBottom", [cardsSelected[0], group])
+        cardsFound.append(cardsSelected[0])
+        notify("{} is moved at the bottom of {}".format(cardsSelected[0], group.name))
 
 def attachTo(card):
     global cardToAttachTo
@@ -254,20 +246,14 @@ def defaultAction(card, x = 0, y = 0):
         #Encounter Deck
         elif sets == 1:
             notify("{} uses {} to look at the top card of the encounter deck".format(card.controller, card))
-            lookToBottom(encounterDeck(), 1)
+            lookToBottom(encounterDeck())
         else:
             chosenPlayer = getPlayers()[sets - 2]
             if deckLocked(chosenPlayer):
                 notify("{}'s deck is locked and cannot be looked at".format(chosenPlayer))
                 return
             notify("{} uses {} to look at the top card of {}'s deck".format(card.controller, card, chosenPlayer))
-            #Two-Handed solo option
-            if chosenPlayer.deck.controller == me:
-                    lookToBottom(chosenPlayer.deck, 1)
-            else:
-                chosenPlayer.deck.controller = card.controller
-                lookToBottom(chosenPlayer.deck, 1)
-                chosenPlayer.deck.controller = chosenPlayer
+            lookToBottom(chosenPlayer.deck)
         if cardsFound: #if a card was moved to the bottom, add a Doom to Alyssa
             addDoom(card)
     elif card.Name == "Scroll of Secrets" and card.Level == "0":
@@ -332,8 +318,6 @@ def defaultAction(card, x = 0, y = 0):
     elif card.Name == "Crystalline Elder Sign":
         attachTo(card)
         card.sendToBack()
-        if chaosBag().controller != card.controller:
-            chaosBag().controller = card.controller
         list = [card for card in table
                     if (card.Type == 'Chaos Token') and (card.Subtype != 'Sealed')]
         for card in chaosBag():
@@ -345,15 +329,11 @@ def defaultAction(card, x = 0, y = 0):
         dlg.min = 1
         dlg.max = 1
         tokensSelected = dlg.show()
-        if tokensSelected == None:
-            return
-        else:
-            cT = tokensSelected[0]
-            cT.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
-            cT.Subtype = 'Sealed'
-            cT.filter = "#99999999"
-            notify("{} seals {}.".format(card.controller, cT))
-        cardToAttachTo = None
+        if tokensSelected:
+            remoteCall(tokensSelected[0].controller, "sealTokenToTable",[tokensSelected[0], cardToAttachTo[0], cardToAttachTo[1], me])
+            card.Subtype = "Locked"
+            cardToAttachTo = None
+
     elif card.Name == "Astronomical Atlas":
             if card.controller.deck:
                 if 1 == askChoice("Look at the top card and attach a non-weakness ?", ["Yes","No"],["#000000","#000000"]):
@@ -452,8 +432,6 @@ def defaultAction(card, x = 0, y = 0):
             card.markers[Curse] -= 1
             addCurse()
     elif card.Name == "Protective Incantation":
-        if chaosBag().controller != card.controller:
-            chaosBag().controller = card.controller
         if card.Subtype != "Locked":
             attachTo(card)
             list = [cT for cT in chaosBag()
@@ -464,32 +442,22 @@ def defaultAction(card, x = 0, y = 0):
             dlg.min = 1
             dlg.max = 1
             cT = dlg.show()
-            if cT is not None:
-                cT[0].moveToTable(cardToAttachTo[0], cardToAttachTo[1])
-                cT[0].Subtype = 'Sealed'
-                cT[0].filter = "#99999999"
-                notify("{} seals {} on {}.".format(card.controller, cT[0], card))
-            card.Subtype = "Locked"
-            cardToAttachTo = None
+            if cT:
+                remoteCall(cT[0].controller, "sealTokenToTable",[cT[0], cardToAttachTo[0], cardToAttachTo[1], me])
+                card.Subtype = "Locked"
+                cardToAttachTo = None
 
     elif card.Name == "Seal of the Seventh Sign":
-        if chaosBag().controller != card.controller:
-            chaosBag().controller = card.controller
         if card.Subtype != "Locked":
             attachTo(card)
             autoFail = [cT for cT in chaosBag()
         if "Auto Fail" in cT.Name]
-            token = autoFail[0]
-            token.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
-            token.Subtype = 'Sealed'
-            token.filter = "#99999999"
-            notify("{} seals {} on {}.".format(card.controller, token, card))
-            card.Subtype = "Locked"
-            cardToAttachTo = None
+            if autoFail:
+                remoteCall(autoFail[0].controller, "sealTokenToTable",[autoFail[0], cardToAttachTo[0], cardToAttachTo[1], me])
+                card.Subtype = "Locked"
+                cardToAttachTo = None
 
     elif card.Name == "The Chthonian Stone":
-        if chaosBag().controller != card.controller:
-            chaosBag().controller = card.controller
         if card.Subtype != "Locked":
             attachTo(card)
             list = [cT for cT in chaosBag()
@@ -501,27 +469,18 @@ def defaultAction(card, x = 0, y = 0):
                 dlg.min = 1
                 dlg.max = 1
                 cT = dlg.show()
-                if cT is not None:
-                    cT[0].moveToTable(cardToAttachTo[0], cardToAttachTo[1])
-                    cT[0].Subtype = 'Sealed'
-                    cT[0].filter = "#99999999"
-                    notify("{} seals {} on {}.".format(card.controller, cT[0], card))
-                card.Subtype = "Locked"
-                cardToAttachTo = None
+                if cT:
+                    remoteCall(cT[0].controller, "sealTokenToTable",[cT[0], cardToAttachTo[0], cardToAttachTo[1], me])
+                    card.Subtype = "Locked"
+                    cardToAttachTo = None
 
     elif card.Name == "The Codex of Ages":
-        if chaosBag().controller != card.controller:
-            chaosBag().controller = card.controller
         if card.Subtype != "Locked":
             attachTo(card)
             elderSign = [cT for cT in chaosBag()
         if "Elder Sign" in cT.Name]
             if elderSign:
-                eS = elderSign[0]
-                eS.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
-                eS.Subtype = 'Sealed'
-                eS.filter = "#99999999"
-                notify("{} seals {} on {}.".format(card.controller, eS, card))
+                remoteCall(elderSign[0].controller, "sealTokenToTable",[elderSign[0], cardToAttachTo[0], cardToAttachTo[1], me])
                 card.Subtype = "Locked"
                 cardToAttachTo = None
 #############################################
@@ -1055,19 +1014,13 @@ def defaultAction(card, x = 0, y = 0):
         if tokensSelected == None:
             return
         else:
-            inc = 0
             for cT in tokensSelected:
                 cT.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
                 cT.Subtype = 'Sealed'
                 cT.filter = "#99999999"
                 notify("{} seals {}.".format(card.owner, cT))
-                if len(tokensSelected) == 1:
-                    cardToAttachTo = None
-                else:
-                    attachTo(cT)
-                    inc += 1
-                    if inc == len(tokensSelected):
-                        cardToAttachTo = None
+                attachTo(cT)
+            cardToAttachTo = None
             updateBlessCurse()
     elif card.Name == "True Survivor":
         if len(card.controller.piles['Discard Pile']):
@@ -1163,7 +1116,7 @@ def defaultAction(card, x = 0, y = 0):
             if not card.markers[Curse]:
                 notify("{} has no Curse tokens left and is discarded.".format(card))
                 discard(card)
-            Investigator(card.controller).markers[Resource] += 1
+            firstInvestigator(card.controller).markers[Resource] += 1
     elif card.Name == "Favor of the Sun":
         if card.Subtype != "Locked":
             sealXBless(card, 3)

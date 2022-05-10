@@ -465,7 +465,9 @@ def unlockDeck():
 #---------------------------------------------------------------------------
 
 #Triggered event OnGameStart
-def startOfGame(): 
+def startOfGame():
+    global AmandaCard
+    AmandaCard = None
     unlockDeck()
     setActivePlayer(None)   
     if me._id == 1:
@@ -1162,17 +1164,17 @@ def removeWeaknessCards():
     return removeWeaknessCards()
     
 def toggleLock(group, x=0, y=0):
-    if deckLocked(group.player):
+    if deckLocked(group.controller):
         unlockDeck()
-        if len(group.player.deck) > 0:
-            if isLocked(group.player.deck.top()):
-                lockCard(group.player.deck.top())
-        notify("{} Unlocks his deck".format(group.player))
+        if len(group.controller.deck) > 0:
+            if isLocked(group.controller.deck.top()):
+                lockCard(group.controller.deck.top())
+        notify("{} Unlocks his deck".format(group.controller))
     else:
         lockDeck()
-        if len(group.player.deck) > 0:
-            lockCard(group.player.deck.top())
-        notify("{} Locks his deck".format(group.player))
+        if len(group.controller.deck) > 0:
+            lockCard(group.controller.deck.top())
+        notify("{} Locks his deck".format(group.controller))
            
 def exhaust(card, x = 0, y = 0):
     mute()
@@ -1562,8 +1564,8 @@ def randomDiscard(group):
     if not "Hidden." in c.Text]
     if hand:
         card = hand[rnd(0,len(hand)-1)]
-        notify("{} randomly discards '{}'.".format(group.player, card))
-        card.moveTo(group.player.piles['Discard Pile'])
+        notify("{} randomly discards '{}'.".format(group.controller, card))
+        card.moveTo(group.controller.piles['Discard Pile'])
     else:
         notify("No eligible card for random discard")
  
@@ -1640,14 +1642,14 @@ def shuffle(group):
         update()
         group.shuffle()
         notify("{} shuffles {}".format(me, group.name))
-        if group != encounterDeck():
-            if InvestigatorName(group.player) == "Norman Withers" and group == group.player.deck and not group.top().isFaceUp:
+        if group != encounterDeck() and group != chaosBag():
+            if InvestigatorName(group.controller) == "Norman Withers" and group == group.controller.deck and not group.top().isFaceUp:
                 flipcard(group.top())
 
 def drawMany(group, count = None):
     mute()
     if len(group) == 0: return
-    if deckLocked(group.player):
+    if deckLocked(group.controller):
         whisper("Your deck is locked, you cannot draw cards at this time")
         return
     if count is None:
@@ -1800,7 +1802,7 @@ def drawPileToTable(player, group, x, y):
     return card
     
 def drawChaosToken(group, x = 0, y = 0):
-    drawChaosTokenForPlayer(me, group, x, y)  
+    drawChaosTokenForPlayer(me, group, x, y)
 
 
 def drawChaosTokenForPlayer(player, group, x = 0, y = 0, replace = True, xMod = 0, yMod = 0):
@@ -1909,6 +1911,23 @@ def sealToken(group, x = 0, y = 0, player = None):
         return
     card = card[0]
     card.moveToTable(ChaosTokenX, ChaosTokenY)
+    card.Subtype = 'Sealed'
+    card.filter = "#99999999"
+    card.controller = player
+    updateBlessCurse()
+    notify("{} seals {}.".format(player, card.name))
+
+def sealTokenToTable(card, x = 0, y = 0, player = None):
+    mute()
+
+    if chaosBag().controller != me:
+        remoteCall(chaosBag().controller, "sealTokenToTable", [card, x, y, me])
+        return
+
+    if player == None:
+        player = me
+    
+    card.moveToTable(x,y)
     card.Subtype = 'Sealed'
     card.filter = "#99999999"
     card.controller = player
