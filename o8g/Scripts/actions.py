@@ -1930,6 +1930,7 @@ def sealTokenToTable(card, x = 0, y = 0, player = None):
     card.moveToTable(x,y)
     card.Subtype = 'Sealed'
     card.filter = "#99999999"
+    card.controller = player
     updateBlessCurse()
     notify("{} seals {}.".format(player, card.name))
     
