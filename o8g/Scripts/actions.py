@@ -1445,7 +1445,7 @@ def doDiscard(player, card, pile):
             card.delete()
             updateBlessCurse() # if Bless or Curse chaos tokens are deleted in the chaos bag
             return
-    if card.Subtype == "Sealed" or "Locked": # Locked used for cards that seal tokens
+    if card.Subtype == "Sealed" or card.Subtype == "Locked": # Locked used for cards that seal tokens
         card.Subtype = ""
     card.moveTo(pile)
 
