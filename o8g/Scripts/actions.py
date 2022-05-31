@@ -491,10 +491,10 @@ def release(args):
                 if Bless in marker:
                     for _ in range(marker[Bless]):
                         addBless()
-                elif Curse in marker:
+                if Curse in marker:
                     for _ in range(marker[Curse]):
                         addCurse()
-                elif Zero in marker:
+                if Zero in marker:
                     for _ in range(marker[Zero]):
                         createChaosTokenInBag('35137ccc-db2b-4fdd-b0a8-a5d91f453a43')
                     notify("{} releases {} 0 tokens.".format(card.controller, marker[Zero]))

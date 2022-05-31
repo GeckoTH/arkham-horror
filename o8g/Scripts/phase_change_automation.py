@@ -122,11 +122,8 @@ def doUpkeepPhase(setPhaseVar = True):
             break
         #Else draw cards equal to selected value
         elif card.controller == me and card.Type == "Investigator":
-            if card.controller.counters['Card Draw'].value == 1:
-                draw(card.controller.deck)
-            elif card.controller.counters['Card Draw'].value > 1:
-                for i in range(0, card.controller.counters['Card Draw'].value):
-                    draw(card.controller.deck)
+            for _ in range(0, me.counters['Card Draw'].value):
+                draw(me.deck)
     
     # Check for hand size!
     sizeHand = me.counters['Maximum Hand Size'].value
