@@ -79,6 +79,13 @@ class BasicWeakness:
             "b6888962-a290-418b-8bd7-d7502e4fb46b", # Leg Injury
             "baa8ea33-6c08-4da8-9653-8745c91cffd2", # Panic
             "f30eb071-0b6d-4ab2-bc77-ad6bd8866f72", # Stupor
+        ],
+        "the_scarlet_keys_investigator_expansion": [
+            "6ec455fb-7189-4031-a8de-dfec4ef449ad", # Lurker in the Dark
+            "6f20a97f-1d46-45f0-8c6f-f936ba6ce4f1", # Quantum Paradox
+            "d8cb5ca7-a153-4752-a401-229960159312", # Pay Your Due
+            "c79109e5-563d-4af3-90bf-656dc59fd07f", # Ectoplasmic Horror
+            "90ca0cee-4c23-451a-9cec-302fabea4a7a", # Underprepared
         ]
     }
     PILE_NAME = 'Basic Weaknesses'
