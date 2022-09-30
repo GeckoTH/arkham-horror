@@ -86,7 +86,7 @@
       <property name="Class" value="Neutral" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="40de4b0d-7178-4d19-9160-a00f85e4f87e">
+    <card id="40de4b0d-7178-4d19-9160-a00f85e4f87e" name="Wounded Bystander">
       <property name="Card Number" value="7" />
       <property name="Quantity" value="1" />
       <property name="Subtitle" value="On Death's Doorstep" />
@@ -361,6 +361,7 @@
       <property name="Type" value="Event" />
       <property name="Traits" value="Insight. Tactic. Police." />
       <property name="Text" value="Test ή (1). If you succeed, attach Breach the Door to your location with 1 resource on it for each point you succeed by, as leads.&#10;Reduce attached location's shroud by 1 for each lead on Breach the Door." />
+      <property name="Class" value="Guardian" />
       <property name="Level" value="0" />
       <property name="Cost" value="2" />
       <property name="Intellect" value="1" />
