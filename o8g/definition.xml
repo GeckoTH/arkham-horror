@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.4.286.0"
 	scriptVersion ="3.1.0.2"
-	version="1.8.1.4"
+	version="1.9.0.1"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -104,6 +104,7 @@
 		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
 		<size name="KeyToken" width="30" height="30" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="30" backHeight="30" />
 		<size name="ResourceToken" width="20" height="20" back="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" front="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" cornerRadius="4" backWidth="20" backHeight="20" />
+		<size name="UpgradesCard" width="63" height="88" back="cards/upgrades.jpg" front="cards/upgrades.jpg" cornerRadius="4"/>
 		<size name="SealToken" width="30" height="55" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="30" backHeight="55" />
 	    <size name="LongPath" width="140" height="20" back="cards/card.jpg" front="cards/card.jpg" />
 	    <size name="MediumPath" width="70" height="20" back="cards/card.jpg" front="cards/card.jpg" />
