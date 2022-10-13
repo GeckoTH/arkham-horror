@@ -1661,97 +1661,97 @@
       <property name="Cost" value="1" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="3668d349-816f-4867-852d-8caf2d45cb41" name="Hunter's Armor">
+    <card id="3668d349-816f-4867-852d-8caf2d45cb41" name="Hunter's Armor" size="UpgradesCard">
       <property name="Card Number" value="901" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Enchanted. Hunter's Armor gains the Relic trait and takes up an arcane slot instead of a body slot.&#10;□□ Protective Runes. Hunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.&#10;□□ Durable. Hunter's Armor gets +2 health.&#10;□□ Hallowed. Hunter's Armor gets +2 sanity.&#10;□□ Lightweight. Hunter's Armor gets –1 cost and playing it does not provoke attacks of opportunity.&#10;□□□ Hexdrinker. After 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.&#10;□□□ Armor of Thorns. After 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy." />
     </card>
-    <card id="6a407d80-0299-47ce-a795-54e273838781" name="Runic Axe">
+    <card id="6a407d80-0299-47ce-a795-54e273838781" name="Runic Axe" size="UpgradesCard">
       <property name="Card Number" value="902" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Heirloom. This asset gets –1 cost and gains the Relic trait.&#10;□ Inscription of Glory. Add this inscription: &quot;— Glory – If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.&quot;&#10;□ Inscription of the Elders. Add this inscription: &quot;— Elders – If this attack succeeds by an amount equal to or greater than your location's shroud, discover 1 clue at your location.&quot;&#10;□ Inscription of the Hunt. Add this inscription: &quot;— Hunt – Immediately move to a connecting location or engage an enemy at your location.&quot;&#10;□ Inscription of Fury. Add this inscription: &quot;— Fury – If this attack is successful, in additino to its standard damage, deal 1 damage to each other enemy engaged with you.&quot;&#10;□□□ Ancient Power. You may imbue the same inscription up to three times.&#10;□□□ Saga. Replenish 2 of Ruunic Axe's charges at the start of each round, instead of only 1.&#10;□□□□ Scriptweaver. For every charge spent, you may imbue the axe with up to two different inscriptions." />
     </card>
-    <card id="65735891-de09-4264-8ad2-fca24054f563" name="Custom Modifications">
+    <card id="65735891-de09-4264-8ad2-fca24054f563" name="Custom Modifications" size="UpgradesCard">
       <property name="Card Number" value="903" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Notched Sight. If you perform an attack with attached asset against an enemy engaged with another investigator and fail, you deal no damage.&#10;□□ Extended Stock. You get +2 ή while attacking with attached asset.&#10;□□ Counterbalance. After you attach an Upgrade card other than Custom Modifications to attached asset, draw 1 card.&#10;□□□ Leather Grip. Custom Modifications gets –1 cost and gains &quot;Fast. Play only during your turn.&quot;&#10;□□□ Extended Magazine. After ammo is spent from or placed on attached asset by another event, place 1 ammo on attached asset.&#10;□□□□ Quicksilver Bullets. If you succeed by 3 or more while attacking with attached asset, this attack deals +1 damage." />
     </card>
-    <card id="67b843a1-7b50-4de3-a7a6-108ca428264c" name="Alchemical Distillation">
+    <card id="67b843a1-7b50-4de3-a7a6-108ca428264c" name="Alchemical Distillation" size="UpgradesCard">
       <property name="Card Number" value="904" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Mending Distillate: Add this option: &quot;— Heal 2 damage.&quot;&#10;□ Calming Distillate: Add this option: &quot;— Heal 2 horror.&quot;&#10;□ Enlightening Distillate: Add this option: &quot;— Place 1 charge or secret on an asset you control.&quot;&#10;□ Quickening Distillate: Add this option: &quot;— Move up to 2 times.&quot;&#10;□□ Refined. Alchemical Distillation enters play with 2 additional supplies on it.&#10;□□□□ Empowered. When you initiate this skill test, you pay increase its difficulty by 2. If you do, increase the value of the effect granted by each option by 1 for this test.&#10;□□□□□ Perfected. If you succeed by 2 or more, the chosen investigator may perform two different options instead of one." />
     </card>
-    <card id="2e3f0d33-6f23-41bb-9c47-d0e7434d3494" name="Empirical Hypothesis">
+    <card id="2e3f0d33-6f23-41bb-9c47-d0e7434d3494" name="Empirical Hypothesis" size="UpgradesCard">
       <property name="Card Number" value="905" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Pessimistic Outlook. Add the following criteria: &quot;you run out of cards in your hand.&quot;&#10;□ Trial and Error. Add the following criteria: &quot;you are dealt damage or horror.&quot;&#10;□ Independent Variable. Add the following criteria: &quot;you discard a treachery or enemy from play.&quot;&#10;□ Field Research. Add the following criteria: &quot;you enter a location with 3 or more shroud.&quot;&#10;□□ Peer Review. The chosen criteria is met if any investigator at your location meets it, instead of only you. Other investigators at your location may trigger θ abilities on Empirical Hypothesis.&#10;□□ Research Grant. Empirical Hypothesis gains: &quot;θ Spend 2 evidence: Reduce the cost of the next card you play this phase by 3.&quot;&#10;□□□ Irrefutable Proof. Empirical Hypothesis gains: &quot;θ Spend 3 evidence: Discover 1 clue at your location.&quot;&#10;□□□□ Alternative Hypothesis. After you exhaust Empirical Hypothesis, you may resolve its foced effect, choosing a criteria you have not chosen this round. Then, ready it." />
     </card>
-    <card id="232ea4bb-7926-4083-886e-0ebaf6e83c85" name="The Raven Quill">
+    <card id="232ea4bb-7926-4083-886e-0ebaf6e83c85" name="The Raven Quill" size="UpgradesCard">
       <property name="Card Number" value="906" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="Named Tome or Spell asset: _.&#10;□ Living Quill. Using attached asset's η abilities does not provoke attacks of opportunity.&#10;□ Spectral Binding. Attached asset does not take up any slots.&#10;□□ Mystic Vane. You get +2 skills value while performing skill tests on attached asset.&#10;□□ Endless Inkwell. Name two more Tome or Spell assets: _, _.&#10;□□ Energy Sap. The Raven Quill gains: &quot;θ Exhaust The Raven Quill: Move 1 secret or charge from an asset you control to attached asset.&quot;&#10;□□□ Interwoven Ink. After you resolve and η ability on attached asset, you may exhauust The Raven Quill to ready another asset you control.&#10;□□□□ Supernatural Record. When you play The Raven Quill, instead of attaching it to a named asset you control, you may search your deck, discard pile, and hand for a copy of a named aset and play it (paying its cost). Then, attach The Raven Quill to it." />
     </card>
-    <card id="99cada29-25f3-4a6e-876d-c656e60bdcf3" name="Damning Testimony">
+    <card id="99cada29-25f3-4a6e-876d-c656e60bdcf3" name="Damning Testimony" size="UpgradesCard">
       <property name="Card Number" value="907" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Search Warrant. While investigating using Damning Testimony, you may ignore any effect or keyword on the investigated location that would trigger.&#10;□□ Fabricated Evidence. Damning Testimony enters play with 2 additional evidence on it.&#10;□□ Blackmail. You get +2 έ while investigating using Damning Testimony&#10;□□□ Extort. When you successfully investigate using Damning Testimony, you may spend 1 evidence to automatically evade the chosen enemy.&#10;□□□ Surveil. You may use Damning Testimony's ability to investigate the chosen enemy's location instead of your location.&#10;□□□□ Expose. When you successfully investigate using Damning Testimony, you may spend X evidence to discard the chosen enemy if it is non-Elite. X is that enemy's remaining health." />
     </card>
-    <card id="36e5d10b-9154-4957-8b0d-beeab1f9b63e" name="Friends in Low Places">
+    <card id="36e5d10b-9154-4957-8b0d-beeab1f9b63e" name="Friends in Low Places" size="UpgradesCard">
       <property name="Card Number" value="908" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="Chosen Trait: _.&#10;□ Helpful. When you play Friends in Low Places, you may choose another investigator at your location to resolve its effects.&#10;□□ Versatile. Choose another Trait: _. When you play Friends in Low Places, you may choose one of the looked-at cards with both chosen Traits to add to your hand without spending 1 resource.&#10;□□ Bolstering. Each card added to your hand by Friends in Low Places gains a ? icon until the end of the phase.&#10;□□ Clever. Instead of shuffling the remaining cards into your deck, you may place each of them on top of your deck, in any order.&#10;□□ Prompt. Friends in Low Places gains fast and &quot;play during any θ window.&quot;&#10;□□□ Experienced. Increase the number of cards looked at by 3.&#10;□□□ Swift. You may play one of the cards added to your hand (paying its cost)." />
     </card>
-    <card id="43ce70a8-a07b-4e63-8969-0669ba7ed792" name="Honed Insinct">
+    <card id="43ce70a8-a07b-4e63-8969-0669ba7ed792" name="Honed Insinct" size="UpgradesCard">
       <property name="Card Number" value="909" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Reflex Response. Add the following play condition: &quot;— You take damage or horror.&quot;&#10;□ Situational Awareness. Add the following play condition: &quot;— A location enters play or is revealed.&quot;&#10;□ Killer Instinct. Add the following play condition: &quot;— An enemy engages you.&quot;&#10;□ Gut Reaction. Add the following play condition: &quot;— A treachery enters your threat area.&quot;&#10;□ Muscle Memory. Add the following play condition: &quot;— You play an asset.&quot;&#10;□□ Sharpened Talent. During the action granted by Honed Instinct, you get +2 to each of your skills.&#10;□□□ Impulse Control. You may include up to three copies of Honed Instinct in your deck. Honed Instinct gets –1 cost.&#10;□□□□□ Force of Habit. When you play Honed Instinct, you may take 2 actions instead of 1 (one at a time). Then, remove it from the game." />
     </card>
-    <card id="283eff16-fa87-449c-8ba4-57b09a09c220" name="Summoned Servitor">
+    <card id="283eff16-fa87-449c-8ba4-57b09a09c220" name="Summoned Servitor" size="UpgradesCard">
       <property name="Card Number" value="910" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Armored Carapace. Summoned Servitor gains a health value of 3. It can be assigned damage deal to any investigator at its location.&#10;□ Claws that Catch. Add this action: &quot;— Fight. You fight any enemy at this location with a base ή of 4. Ignore the aloof and retaliate keywords for this attack.&quot;&#10;□ Jaws that Snatch. Add this action: &quot;— Evade. You attempt to evade any enemy at this location with a base ί of 4. Ignore the alert keyword for this evasion attempt.&quot;&#10;□ Eyes of Flame. Add this action: &quot;— Investigate. You investigate this location with a base έ of 4.&quot;&#10;□ Wings of Night. After Summoned Servitor moves from your location to a connecting location, you may move to that location, as well.&#10;□□ Dominance. Summoned Servitor no longer takes up an (circle one): arcane / ally slot.&#10;□□□ Dreaming Call. Instead of discarding another asset you control in order to play Summoned Servitor, you may return that asset to its owner's hand.&#10;□□□□□ Dæmonic Influence. Summoned Servitor can take 2 different actions instead of 1 during each of your turns." />
     </card>
-    <card id="0eb73136-88be-4e96-9e8a-fbce00fa0269" name="Power Word">
+    <card id="0eb73136-88be-4e96-9e8a-fbce00fa0269" name="Power Word" size="UpgradesCard">
       <property name="Card Number" value="911" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Betray. Add the command: &quot;— 'Betray.' Deal 1 damage to an enemy at this enemy's location with an equal or lower fight value than this enemy.&quot;&#10;□ Mercy. Add the command: &quot;— 'Mercy.' An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.&quot;&#10;□ Confess. Add the command: &quot;— 'Confess.' Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.&quot;&#10;□ Distract. Add the command: &quot;— 'Distract.' Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.&quot;&#10;□□ Greater Control. Power Word gains &quot;θ: Return Power Word to your hand.&quot;&#10;□□□ Bonded. You may activate the parley ability on Power Word from up to one location away from the attached enemy.&#10;□□□ Tonguetwister. When you parley with Power Word, you may give up to two different commands.&#10;□□□ Thrice Spoken. Youu may include three copies of Power Words in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached." />
     </card>
-    <card id="90cecded-988d-429f-b26e-61a210edf128" name="Living Ink">
+    <card id="90cecded-988d-429f-b26e-61a210edf128" name="Living Ink" size="UpgradesCard">
       <property name="Card Number" value="912" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="Circle a skill: ά έ ή ί&#10;□ Shifting Ink. You may play Living Ink under the control of another investigator at your location.&#10;□ Subtle Depiction. At the start of your turn, you may choose not to remove 1 charge from Living Ink and ignore its ability for the remainder of the round.&#10;□□ Imbued Ink. Living Ink enters play with 2 additional charges and takes up an arcane slot instead of a body slot.&#10;□□ Eldritch Ink. Circle another skill.&#10;□□□ Eldritch Ink. Circle another skill.&#10;□□□ Macabre Depiction. Living Ink gains: &quot;ι After you reveal a chaos token with a symbol, exhaust Living Ink: Place 1 charge on it.&quot;&#10;□□□ Vibrancy. Living Ink grants an additional +1 to the circle skill(s) and –1 to each other skill." />
     </card>
-    <card id="c1ea466e-c7a9-4759-ba27-115342f79d41" name="Pocket Multi Tool">
+    <card id="c1ea466e-c7a9-4759-ba27-115342f79d41" name="Pocket Multi Tool" size="UpgradesCard">
       <property name="Card Number" value="913" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Detachable. Other investigators at your location may use the ability on Pocket Multi-Tool.&#10;□ Pry Bar. You get an additional +1 skill value if this is during a skill test on a treachery.&#10;□□ Sharpened Knife. You get an additional +1 skill value if this is during an attack.&#10;□□ Signal Mirror. You get an additional +1 skill value if this is during an evasion attempt.&#10;□□ Magnifying Lens. You get an additional +1 skill value if this is duuring an investigation.&#10;□□□ Lucky Charm. After you fail a skill test, ready Pocket Multi Tool.&#10;□□□□ Spring-Loaded. Pocket Multi Tool's ability is now a ι ability with the trigger: &quot;When you would fail a skill test you are performing, exhaust Pocket Multi Tool...&quot;" />
     </card>
-    <card id="7dbaed24-8b7a-4900-b81a-28311ac2b09e" name="Grizzled">
+    <card id="7dbaed24-8b7a-4900-b81a-28311ac2b09e" name="Grizzled" size="UpgradesCard">
       <property name="Card Number" value="914" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="Traits chosen: _, _.&#10;□ Specialist. Choose another trait: _.&#10;□□ Specialist. Choose another trait: _.&#10;□□□ Nemesis. If this is a skill test on or against an enemy with a chosen trait and the test is successful, you may attach Grizzled to that enemy. Reduce the difficulty of other tests on or against the attached enemy by 1.&#10;□□□□ Mythos-Hardened. If this skill test is on a treachery with a chosen trait and the test is successful, you may add both Grizzled and that treachery to the victory display.&#10;□□□□□ Always Prepared. After you draw an encounter card with a chosen trait, return one copy of Grizzled from your discard pile to your hand. (Max once per round.)" />
     </card>
-    <card id="9eb45139-6f52-41e5-9991-2ce74aa759b4" name="Makeshift Trap">
+    <card id="9eb45139-6f52-41e5-9991-2ce74aa759b4" name="Makeshift Trap" size="UpgradesCard">
       <property name="Card Number" value="915" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />
       <property name="Text" value="□ Improved Timer. When you play Makeshift Trap, you may increase or decrease its uses by 1.&#10;□ Tripwire. Only trigger makeshift Trap's forced ability if there are 1 or more enemies at attached location.&#10;□□ Simple. Makeshift Trap gains fast and &quot;play during any θ window.&quot;&#10;□□ Poisonous. When you remove 1 or more time from Makeshift Trap, deal 1 damage to an enemy at attached location.&#10;□□ Remove Configuration. When you play Makeshift Trap, you may attach it to a revealed connecting location.&#10;□□□ Net. Non-Elite enemies at attached location cannot move or make attacks of opportunity.&#10;□□□□ Explosive Device. When Makeshift Trap has no time and is discarded, deal 3 damage to each enemy and investigator at attached location." />
     </card>
-    <card id="347a2474-40cc-4063-b2c0-1b6bb54d307d" name="Hyperphysical Shotcaster">
+    <card id="347a2474-40cc-4063-b2c0-1b6bb54d307d" name="Hyperphysical Shotcaster" size="UpgradesCard">
       <property name="Card Number" value="916" />
       <property name="Quantity" value="3" />
       <property name="Type" value="Upgrades" />

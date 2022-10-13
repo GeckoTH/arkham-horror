@@ -104,6 +104,7 @@
 		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
 		<size name="KeyToken" width="30" height="30" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="30" backHeight="30" />
 		<size name="ResourceToken" width="20" height="20" back="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" front="markers/6eb6d990-007a-4f4d-b76c-b35685922b22.png" cornerRadius="4" backWidth="20" backHeight="20" />
+		<size name="UpgradesCard" width="63" height="88" back="cards/upgrades.jpg" front="cards/upgrades.jpg" cornerRadius="4"/>
 		<size name="SealToken" width="30" height="55" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="30" backHeight="55" />
 	    <size name="LongPath" width="140" height="20" back="cards/card.jpg" front="cards/card.jpg" />
 	    <size name="MediumPath" width="70" height="20" back="cards/card.jpg" front="cards/card.jpg" />
