@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="91906086-bd8c-4ca5-8f95-be67930f92d0">Silence Speaks</card>
+    <card qty="1" id="57d4c4b2-9ac5-4f49-bfcb-b331d0c61a18">Easy Prey</card>
+    <card qty="1" id="d9c633ab-a267-4802-8ed1-f5632eea9f96">A Betrayal of Eyes</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="c45dbc75-9cd7-4ebf-9789-4fef35ad5a27">False Step (v. II)</card>
+    <card qty="1" id="57e450d3-0c35-4fc6-8426-67de4d265081">False Colors (v. II)</card>
+    <card qty="1" id="5882416a-e5fc-4197-9dcf-3e4e70f9d022">False Light</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="dc632a33-f7a2-4fcd-9b13-3c39ac695d78">Body Snatched</card>
+    <card qty="2" id="47c62915-ade2-4d82-9058-90c01615e018">Matter Inversion</card>
+    <card qty="2" id="3d3b57a2-49be-4047-ba7a-d8d57dd31816">Memory Variant</card>
+    <card qty="3" id="56f3de0a-fd2a-45fc-8c15-c061cbf81974">Secrets Lost</card>
+    <card qty="2" id="891e5282-a197-4bfc-af98-2946b34f999e">Knives in the Dark</card>
+    <card qty="2" id="da5578a9-4553-4f4f-9723-5ed8570194d3">Undercover</card>
+    <card qty="1" id="2e08f922-33d4-4ced-a0ff-d5d9fb862e6f">Coterie Enforcer (A)</card>
+    <card qty="1" id="95ccb142-c03e-4793-8837-98ea84e87f8f">Coterie Enforcer (B)</card>
+    <card qty="1" id="1e710d77-cbd6-4370-9a34-be1c6183e325">Coterie Assassin (A)</card>
+    <card qty="1" id="a062cdb7-bacd-4e83-aee7-6d75ccb045c3">Coterie Assassin (B)</card>
+    <card qty="2" id="b4ba2294-69b7-468a-9b6d-f32590417bfc">Swift Retreat</card>
+    <card qty="1" id="a8a2dae8-4b88-4560-ab2b-088c634086d5">Coterie Agent (A)</card>
+    <card qty="1" id="0f1c620b-c1b6-4a39-beae-643351dad2d4">Coterie Agent (B)</card>
+    <card qty="1" id="1ec97b42-f004-4c45-b8b3-594d9c5ada95">Coterie Agent (C)</card>
+    <card qty="2" id="d1f8ab16-2c6d-4e9b-9488-7e0b3431bab4">Conspiracy in Red</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="8d120191-01a7-44d5-9eb3-eb0d21349884">Desiderio Degaldo Álvarez</card>
+    <card qty="1" id="03a48ae5-964b-452e-95b6-0448a115d225">Concealed Card</card>
+    <card qty="2" id="892b50ff-fe2a-4b60-9a4e-1d5f2ff51baf">Paradigm Effacer</card>
+    <card qty="2" id="7c9c9a08-7c62-432b-abc1-78f56872e602">Otherworldly Mimic</card>
+    <card qty="1" id="1e41ad19-b457-4aab-b428-8416f1a272d2">Concealed Card</card>
+    <card qty="1" id="da2d6df2-cc6a-4387-9977-11b546a43dce">Concealed Card</card>
+    <card qty="1" id="9e9a2f1f-fb62-43a7-8986-ea11f1934515">Concealed Card</card>
+    <card qty="1" id="f0a7ec9d-7575-464b-b141-712c78f21730">Concealed Card</card>
+    <card qty="1" id="c5638836-d06a-4a2b-8729-e8923f1f55a8">Concealed Card</card>
+    <card qty="1" id="79ade74a-3189-4765-bde8-80088aee5cc2">Concealed Card</card>
+    <card qty="1" id="d9b41bfc-0ae4-40e4-a7b0-3532b75aa571">Concealed Card</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="83f261ab-9729-47ad-a2f0-4f5d3c8d0276">Dancing Mad</card>
+    <card qty="1" id="707217d2-7f4b-4ed7-b893-fb261e0720bd">Café Luna</card>
+    <card qty="1" id="dbdbe06f-f563-4258-a021-9ecb03ede19c">El Malecón</card>
+    <card qty="1" id="0b45062f-8d0e-41c9-a02f-e211d2630b64">Jardines de la Tropical</card>
+    <card qty="1" id="61c00fdd-7c88-41a6-828b-f5176f883da9">Gran Teatro de La Habana</card>
+    <card qty="1" id="3b910e93-fffc-4bfd-a24a-9ba0c6ac25fa">Miramar Yacht Club</card>
+    <card qty="1" id="061c0a14-971f-45cb-b65d-21a52ea9797a">Plaza Hotel</card>
+    <card qty="1" id="16c5b1ca-fe51-4e7e-af38-e00e4d2eccbc">Desiderio Degaldo Álvarez</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

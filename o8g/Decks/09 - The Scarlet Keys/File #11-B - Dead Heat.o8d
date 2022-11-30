@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="060defb1-6246-487e-9572-41f12c6c61c9">Gnashing Teeth</card>
+    <card qty="1" id="500b0332-1757-4797-bba1-95e5d971bd05">Empty Streets</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="67d8561c-0375-4f87-a64f-8566082e31e9">Find Amaranth</card>
+    <card qty="1" id="1d26f7b1-b35f-4997-ba66-9a8151663064">Ritual of Life and Death</card>
+    <card qty="1" id="3fcb2fd7-8990-4967-8b08-c8cc5eb962f9">Queen of Nothing at All</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="4" id="51a14c10-7f4f-4fb5-914a-0a8ade13fc8d">Thrall</card>
+    <card qty="2" id="d4717ee0-839e-461d-af1f-12ed08bc0f00">Famine</card>
+    <card qty="2" id="baa3012b-97ca-47a6-a949-76d17c1b1269">Cornered!</card>
+    <card qty="2" id="a92947e5-2f61-4480-9294-4f78b4d943e2">Bound in Red</card>
+    <card qty="2" id="58739101-18fd-4c92-abb8-988e4a19b482">Key Charge</card>
+    <card qty="2" id="bec05344-3331-4f19-a00d-df7a39c0385c">Touch of the Beyond</card>
+    <card qty="2" id="ae247f93-9931-4f4f-adb0-bd11a24ccba7">Compulsion</card>
+    <card qty="2" id="88348873-a4f8-4280-a0d8-94ad7e3259be">Distorted Reasoning</card>
+    <card qty="3" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
+    <card qty="1" id="a70a2df7-2520-47ea-97b9-374714113140">Ravenous Ghoul</card>
+    <card qty="3" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="d5e244e8-1b15-426d-aee7-716284e13ea2">Marrakesh Railway Station</card>
+    <card qty="1" id="5d037330-c645-4593-94ec-866780a433a6">Jemaa el-Fnaa Square</card>
+    <card qty="1" id="906a376a-8aad-41d6-bd72-d1e59b7a3340">Saadian's Tombs</card>
+    <card qty="1" id="807eeaf6-cc76-422c-8fbd-5e33d26301c2">Tanneries</card>
+    <card qty="1" id="ee6754df-39ab-42b0-a224-9b347a67fd93">Bahia Palace Gardens</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="0d815999-c491-4e34-ab78-f2826d9e3618">Amaranth</card>
+    <card qty="1" id="60fdb129-49ef-436e-9cf6-5dd35f763ca4">Razin Farhi</card>
+    <card qty="1" id="78ae36a1-6fbd-4d88-90be-5b33bb918802">Khalid</card>
+    <card qty="2" id="dc3dd390-98be-4eec-9a69-b9b45466ffb9">Ancient Raider</card>
+    <card qty="1" id="fd53d35d-bdf3-4355-852d-8ec94210435e">The Last Blossom</card>
+    <card qty="1" id="dd2df038-209c-4523-98c7-0cc3fc6299de">Save the Civilians</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="7321c88b-f50d-4091-b6b4-bd4e64f939d0">Dead Heat</card>
+    <card qty="1" id="6eb2079b-1405-4b68-86b6-07d71eabb055">Marrakesh Railway Station</card>
+    <card qty="1" id="ed938b82-19f2-48c5-a837-f0fd255f69de">Jemaa el-Fnaa Square</card>
+    <card qty="1" id="ff1e2eae-acaf-4502-89ce-75f42ea53f05">Saadian's Tombs</card>
+    <card qty="1" id="6df65c3e-ef6e-42e3-a67b-9af3c451f346">Tanneries</card>
+    <card qty="1" id="76bf1176-f541-4a23-9257-5558c7c7531e">Bahia Palace Gardens</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

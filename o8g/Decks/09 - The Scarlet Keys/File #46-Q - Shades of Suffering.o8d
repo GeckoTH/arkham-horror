@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="610d9501-7cfb-4246-a983-a672b6182bbe">Painful History</card>
+    <card qty="1" id="c54f8661-b9d2-4a6c-83de-01346bd36b87">Restless Dead</card>
+    <card qty="1" id="66f4ace2-ee5c-42ac-ae69-1c24321d2e86">Fear the Reaper</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="bc0dcbc6-732e-40b3-8f32-acc9bdd73840">The Lady with the Red Parasol</card>
+    <card qty="1" id="4d86ca04-6799-411e-8d64-7dbb5c4f2964">Ghost Light</card>
+    <card qty="1" id="f632912b-2f7d-4fdc-85b7-291645376bd7">Harvester of Woe</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="9bc4f9ea-1cb6-46e1-a876-e9005a0c3260">Excruciate</card>
+    <card qty="3" id="d12a12de-98d9-4e7c-b9c0-39be50938cc0">Spirit Harvest</card>
+    <card qty="2" id="3fbca601-2044-44e5-991f-35b8cb61bef9">Seeing Shadows</card>
+    <card qty="2" id="ad385cbf-8023-4074-9f0e-9155e5c36e97">Figures in the Dark</card>
+    <card qty="2" id="ef80d2df-7ca5-44ad-8fe8-b88e1f408ebe">Coterie Envoy</card>
+    <card qty="2" id="910f4b6e-9f05-40e1-8581-80f33ad2f64a">In Plain Sight</card>
+    <card qty="2" id="a92947e5-2f61-4480-9294-4f78b4d943e2">Bound in Red</card>
+    <card qty="2" id="58739101-18fd-4c92-abb8-988e4a19b482">Key Charge</card>
+    <card qty="2" id="bec05344-3331-4f19-a00d-df7a39c0385c">Touch of the Beyond</card>
+    <card qty="2" id="ae247f93-9931-4f4f-adb0-bd11a24ccba7">Compulsion</card>
+    <card qty="2" id="88348873-a4f8-4280-a0d8-94ad7e3259be">Distorted Reasoning</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="e9e772bf-39d7-4c4a-8594-ab92a4174bd0">Melati's Shop</card>
+    <card qty="1" id="dfe10561-ed30-4ef6-a7ed-5eeb60b431f2">Wayang Kulit Theater</card>
+    <card qty="1" id="563f005a-27c1-4ce8-8d20-0433033731bd">Tin Mine</card>
+    <card qty="1" id="4bf47b4e-16a7-4f77-99a9-1f1a8280edc5">Uncanny Shadow</card>
+    <card qty="1" id="1c73dbf2-ba36-431b-8b2a-415a914a794a">Uncanny Shadow</card>
+    <card qty="1" id="c0fd2211-1493-420b-837f-791a09170f04">Bured Miner</card>
+    <card qty="1" id="ee13cd39-3bde-4d46-a054-f598c00b1218">Bured Miner</card>
+    <card qty="1" id="44da6492-c03c-439c-a342-291b6f2f603a">Slain Foreman</card>
+    <card qty="1" id="27831dd6-1936-4ed6-8898-af3cc5212059">Slain Foreman</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="4f04a77a-ab22-4983-bcdf-e993d2d52968">Shades of Suffering</card>
+    <card qty="1" id="477684c2-3ab7-4a15-be34-f05d2e778c08">Kuala Lumpur Station</card>
+    <card qty="1" id="dbbeadb1-7853-44bc-8e2c-ca6e76faff0d">Kuala Lumpur Station</card>
+    <card qty="1" id="999dded0-65f7-4181-9c87-58cde7c521ff">Selangor Club</card>
+    <card qty="1" id="123d21b7-ce77-4019-89b8-112a4c8ac3d0">Selangor Club Padang</card>
+    <card qty="1" id="6000b263-36d0-4d99-ba0d-9059b92c2ee3">Tzu San Niang</card>
+    <card qty="1" id="6675ff91-eea3-4ce2-ab81-1a302e3f7db8">The Shade Reaper</card>
+    <card qty="1" id="dfd79055-4bce-48a6-b072-503ade6cbcb1">Concealed Card</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

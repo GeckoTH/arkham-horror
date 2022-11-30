@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="cf33ac6c-630a-41da-9d0b-1b8cc292c70f">Agents of the Dark</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="373a93e6-bedb-4019-8ca3-2ee2532af549">Search for the Manuscript</card>
+    <card qty="1" id="c5f8f9ad-97fc-49b7-bde5-4a1d74fe4453">Search for the Talisman</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="b4c96c27-0198-4c8c-9e4e-c38b63410365">Sinister Aspirant (A)</card>
+    <card qty="1" id="9113a044-c054-4033-9981-942d004f9e84">Sinister Aspirant (B)</card>
+    <card qty="1" id="46361575-0b38-402c-bcb1-8393ce72750b">Sinister Aspirant (C)</card>
+    <card qty="2" id="86f1953b-fb30-4d9f-b5f5-b5df8ee3102a">Shadowed</card>
+    <card qty="2" id="97d97100-1069-48b8-aa2d-3f40aa2cead6">Accosted</card>
+    <card qty="2" id="c298aee7-654c-4c32-9d47-d42d492da014">Light Out of Void</card>
+    <card qty="3" id="d08e0b74-a845-4f39-801f-36ad7559b2cc">Tenebrous Eclipse</card>
+    <card qty="2" id="3fbca601-2044-44e5-991f-35b8cb61bef9">Seeing Shadows</card>
+    <card qty="2" id="ad385cbf-8023-4074-9f0e-9155e5c36e97">Figures in the Dark</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="8cf4407b-0ac8-4188-a2f4-7eec97144824">Ece Şahin</card>
+    <card qty="1" id="0f47dfc8-adb2-4816-bc3e-d961de0ba1af">Grand Bazaar</card>
+    <card qty="1" id="3673165a-85d9-44e3-8a98-5908a67fcd57">Grand Bazaar</card>
+    <card qty="1" id="5cde392b-90e5-427e-977b-995be13cba7c">Grand Bazaar</card>
+    <card qty="1" id="830980ed-373a-466a-99e4-c95ba2e17b93">Grand Bazaar</card>
+    <card qty="1" id="0e80be26-56ac-4ba4-81ba-7bb000ff7295">Grand Bazaar</card>
+    <card qty="1" id="510b239d-37a8-4ec5-9668-d45cdab30de6">Grand Bazaar</card>
+    <card qty="1" id="665343e1-3d99-4569-b6f6-6e085c0ea46f">Grand Bazaar</card>
+    <card qty="1" id="a8c2b55e-af6f-458e-a13d-376e5e7ed15f">Umbral Harbinger</card>
+    <card qty="1" id="f42b7253-6e12-4e5b-952f-6731f4edf737">Emissary from Yuggoth</card>
+    <card qty="1" id="67d13889-2b0d-49a2-bec8-2713ac00819a">Galata Docks</card>
+    <card qty="1" id="a90a0b05-879e-4312-93f3-63b6f795ce9c">The Twisted Antiprism</card>
+    <card qty="1" id="466888de-8827-458b-8fcb-366c57903f40">The Chase</card>
+    <card qty="3" id="082d6afa-3e76-4e07-ab9f-955b06964dd7">Concealed Card</card>
+    <card qty="1" id="4bfe9ed2-f190-450e-a756-94027f747dd6">Concealed Card</card>
+    <card qty="1" id="cc2082a2-b9a0-4aca-a6e9-e9a7ddebf2d6">Concealed Card</card>
+    <card qty="1" id="9f904acf-a2de-4b37-bce0-57bff0486a6a">Concealed Card</card>
+    <card qty="1" id="74b3e71e-f57a-41c4-b59c-f8d2baed6049">Concealed Card</card>
+    <card qty="1" id="91b3214a-596a-43fe-9fd1-79e4c5b33a76">Concealed Card</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="da36a34a-9416-4f44-9a8b-961109da5360">Dealings in the Dark</card>
+    <card qty="1" id="febb2a18-7985-4e6e-a5c9-e24350ddafe4">The Unveiling</card>
+    <card qty="1" id="edb46df1-70a4-4da6-bfcc-844775dd0c20">Hagia Sophia</card>
+    <card qty="1" id="3e21df79-638c-4dd4-9900-08804a0e042d">Istanbul University</card>
+    <card qty="1" id="f4fd6d4c-b8bb-4751-b2dc-5dbda7bab894">Obelisk of Theodosius</card>
+    <card qty="1" id="3eb82d3b-a81b-4b0b-9eea-36f82c6de998">Galata</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

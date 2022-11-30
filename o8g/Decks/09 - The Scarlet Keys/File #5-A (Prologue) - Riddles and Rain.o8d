@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e82bcdf9-631b-4eaa-b611-c9606722028b">When It Rains...</card>
+    <card qty="1" id="0040379b-6d9c-4101-bfad-81091eb0a7ee">Figures in the Fog</card>
+    <card qty="1" id="dbb5e606-b7ad-49d6-99f6-f564c7f316ee">The Connection</card>
+    <card qty="1" id="519b2509-7915-42b0-bca0-6ba2d96732a4">Plots and Panic</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="8f4d180c-d0e1-4047-92c8-35e4c3727ded">Clues and Capers</card>
+    <card qty="1" id="0b39e614-d5cf-4dbe-aa89-f723265b3571">The Game is Afoot!</card>
+    <card qty="1" id="7148b8e2-1274-4a67-add3-17cd4ca74d4b">Eyes in the Tower</card>
+    <card qty="1" id="5df061f2-35aa-49d2-982e-23e0c409c465">Caught Red-Handed</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="3fbca601-2044-44e5-991f-35b8cb61bef9">Seeing Shadows</card>
+    <card qty="2" id="ad385cbf-8023-4074-9f0e-9155e5c36e97">Figures in the Dark</card>
+    <card qty="2" id="891e5282-a197-4bfc-af98-2946b34f999e">Knives in the Dark</card>
+    <card qty="2" id="da5578a9-4553-4f4f-9723-5ed8570194d3">Undercover</card>
+    <card qty="2" id="c9126986-3fd1-4265-a85a-9c6d3a4d686b">Pinch in Reality</card>
+    <card qty="2" id="165330a4-e458-4385-a20c-bd44ff0d3a46">Heavy Rain</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="a8a2dae8-4b88-4560-ab2b-088c634086d5">Coterie Agent (A)</card>
+    <card qty="1" id="0f1c620b-c1b6-4a39-beae-643351dad2d4">Coterie Agent (B)</card>
+    <card qty="1" id="1ec97b42-f004-4c45-b8b3-594d9c5ada95">Coterie Agent (C)</card>
+    <card qty="2" id="d1f8ab16-2c6d-4e9b-9488-7e0b3431bab4">Conspiracy in Red</card>
+    <card qty="3" id="090ae3e8-00c1-4e7f-a5bd-769697064c19">Paracausal Entity</card>
+    <card qty="1" id="5685d438-216a-4c07-8a0d-0e9787f07ae9">Apocalyptic Presage</card>
+    <card qty="2" id="e963b289-3980-4918-a691-7cd487abd073">Substance Dissimulation</card>
+    <card qty="1" id="42b2632c-d174-4a08-ab38-2628a91c5d0e">Big Ben</card>
+    <card qty="1" id="995e7df8-dab5-4ff2-be2c-46654e69d37b">Westminster Abbey</card>
+    <card qty="1" id="feb84aa7-a2ae-47de-bb2e-3f7a0c22db50">Kensington Gardens</card>
+    <card qty="1" id="f07a05d5-7b76-4f52-b0a6-c54758e2cbe7">The Tower Bridge</card>
+    <card qty="1" id="1d772efc-a39f-4588-898a-7c19ba3dcecc">Traitors' Gate</card>
+    <card qty="1" id="95d972cb-d5b3-4cae-b637-41064cf78678">Tower of London</card>
+    <card qty="1" id="d7ddefe6-911b-4bcd-bff0-ee969375246c">Tower Prison</card>
+    <card qty="1" id="48601225-fc8e-4d31-89b6-bbf34621560c">The Red-Gloved Man</card>
+    <card qty="1" id="0f1ac6bc-d50c-423c-a77d-1bc9f69d2bdc">The Eye of Ravens</card>
+    <card qty="1" id="b2b71cad-0589-494d-b45b-7fb451c0a74d">Concealed Card</card>
+    <card qty="1" id="c5638836-d06a-4a2b-8729-e8923f1f55a8">Concealed Card</card>
+    <card qty="1" id="79ade74a-3189-4765-bde8-80088aee5cc2">Concealed Card</card>
+    <card qty="1" id="d9b41bfc-0ae4-40e4-a7b0-3532b75aa571">Concealed Card</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="42d439f3-a7fc-474f-9bea-0ca04e370caf">Riddles and Rain</card>
+    <card qty="1" id="4ccdc40b-b21e-429a-99f9-9ce04de9a553">Rainy London Streets</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True">
+    <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
