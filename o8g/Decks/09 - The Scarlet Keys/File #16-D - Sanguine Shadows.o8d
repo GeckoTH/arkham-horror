@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="7ca66c9d-8881-4c47-9158-3acde28c7629">Where is She...?</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="693272bb-e051-492c-9c41-6e45977180bb">The Scarlet Shadow</card>
+    <card qty="1" id="4cd2db3c-3afd-4e19-ab7b-a4dbb7bd43c4">In the Searchlight</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="649eb2ca-2e2c-4a22-8ee9-7bb83c80cdf5">Bound Nightgaunt</card>
+    <card qty="2" id="f4bb607a-ebbc-48bc-bf23-ef3f65f6e0f2">Cat and Mouse</card>
+    <card qty="2" id="123d2332-ecae-43aa-a95c-bf4bf757b95e">Calling Card</card>
+    <card qty="2" id="2d2eae08-5df3-4c81-b39b-66c0526ca5a8">Outsmarted</card>
+    <card qty="2" id="3fbca601-2044-44e5-991f-35b8cb61bef9">Seeing Shadows</card>
+    <card qty="2" id="ad385cbf-8023-4074-9f0e-9155e5c36e97">Figures in the Dark</card>
+    <card qty="2" id="ef80d2df-7ca5-44ad-8fe8-b88e1f408ebe">Coterie Envoy</card>
+    <card qty="2" id="910f4b6e-9f05-40e1-8581-80f33ad2f64a">In Plain Sight</card>
+    <card qty="2" id="891e5282-a197-4bfc-af98-2946b34f999e">Knives in the Dark</card>
+    <card qty="2" id="da5578a9-4553-4f4f-9723-5ed8570194d3">Undercover</card>
+    <card qty="2" id="c9126986-3fd1-4265-a85a-9c6d3a4d686b">Pinch in Reality</card>
+    <card qty="2" id="165330a4-e458-4385-a20c-bd44ff0d3a46">Heavy Rain</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="e9cbc516-9e77-4b11-89e3-4900231c99f4">Concealed Card</card>
+    <card qty="1" id="823e240d-2b8f-4f3c-86ef-fb515c767248">Concealed Card</card>
+    <card qty="1" id="efe0bf5c-0255-427d-aa8c-4421ecaf2307">The Sanguine Watcher</card>
+    <card qty="1" id="d3833308-163b-4d50-a1db-2f09fdccc8bf">Apportioned Ka</card>
+    <card qty="1" id="135b34e3-3f8b-4f1a-b03a-545605acb6fb">Seeing Red</card>
+    <card qty="1" id="68bbb90f-6597-45e9-9746-24a9e83d8dd6">The Weeping Lady</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="2698b15b-34f6-4803-a02a-b84d467fcb08">Sanguine Shadows</card>
+    <card qty="1" id="b0fad26b-74ad-4b06-85c0-c764d8d7beb4">Avenida de Mayo</card>
+    <card qty="1" id="0a0828c0-23fe-4aa2-b828-3e12c32563f5">Casa Rosada</card>
+    <card qty="1" id="353404ff-52cc-4ebf-bfdc-65854c4389fb">Catedral Metropolitana</card>
+    <card qty="1" id="5fb2cbf5-dedd-4790-bc6a-0c73888810d2">Cememterio de la Recoleta</card>
+    <card qty="1" id="deb8f96f-cc95-4baa-914b-4424a9d71726">Palacio Errázuriz</card>
+    <card qty="1" id="d789b42d-aaa0-42c9-9767-049ee5f1c4b2">The Cabildo</card>
+    <card qty="1" id="6f0daaad-330f-4436-88e3-1ef04a537298">Banco de la Provincia</card>
+    <card qty="1" id="efab4527-16d3-4274-a8cf-fb4231421458">Teatro Colón</card>
+    <card qty="1" id="b1a787e6-41d8-42e1-baab-0d696514865d">La Chica Roja</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="72e2b3b0-6574-4759-bfc3-15971c2b98e9">Brewing Catastrophe (v. II)</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="42c8502c-a64d-49fe-a2c0-43d3fc01ee32">Rabbits Who Run (v. II)</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="9f3debd5-6126-4f6f-9bc8-a95180803ac1">Scarlet Beast</card>
+    <card qty="2" id="e5706bcc-073d-4e2a-9949-3d9e693c82d3">Coterie Provocateur</card>
+    <card qty="2" id="edd5ffa0-ad4d-4587-ba5b-67459d966b52">Locus Pulse</card>
+    <card qty="1" id="2e08f922-33d4-4ced-a0ff-d5d9fb862e6f">Coterie Enforcer (A)</card>
+    <card qty="1" id="95ccb142-c03e-4793-8837-98ea84e87f8f">Coterie Enforcer (B)</card>
+    <card qty="1" id="a062cdb7-bacd-4e83-aee7-6d75ccb045c3">Coterie Assassin (B)</card>
+    <card qty="2" id="b4ba2294-69b7-468a-9b6d-f32590417bfc">Swift Retreat</card>
+    <card qty="2" id="a92947e5-2f61-4480-9294-4f78b4d943e2">Bound in Red</card>
+    <card qty="2" id="58739101-18fd-4c92-abb8-988e4a19b482">Key Charge</card>
+    <card qty="3" id="a501357c-e410-4349-bcd3-7608e4aed841">Splintered Space</card>
+    <card qty="3" id="86dd8238-2380-4852-b713-a6d49d8b4a63">Beyond the Pale</card>
+    <card qty="2" id="17b09869-5af4-4228-b84e-dd5270d96fc6">Warped Reality</card>
+    <card qty="2" id="bec05344-3331-4f19-a00d-df7a39c0385c">Touch of the Beyond</card>
+    <card qty="2" id="ae247f93-9931-4f4f-adb0-bd11a24ccba7">Compulsion</card>
+    <card qty="2" id="88348873-a4f8-4280-a0d8-94ad7e3259be">Distorted Reasoning</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="9e9a2f1f-fb62-43a7-8986-ea11f1934515">Concealed Card</card>
+    <card qty="1" id="f0a7ec9d-7575-464b-b141-712c78f21730">Concealed Card</card>
+    <card qty="1" id="1e41ad19-b457-4aab-b428-8416f1a272d2">Concealed Card</card>
+    <card qty="1" id="da2d6df2-cc6a-4387-9977-11b546a43dce">Concealed Card</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="20d4881d-5813-444d-91be-739148339b5c">Dogs of War</card>
+    <card qty="1" id="3560a7b7-cffa-44e4-8663-93192d997024">Windsor Palace Hotel</card>
+    <card qty="1" id="ce3b05eb-bad8-4984-9dad-3a89535b08c6">Victoria College</card>
+    <card qty="1" id="20c0db47-9b0a-4c21-953d-027f63a50a92">Qaitbay Citadel</card>
+    <card qty="1" id="7ee2c20a-760f-405a-9895-2c428afe869f">The Corniche</card>
+    <card qty="1" id="2e57a2be-f1fb-4562-bf16-f7643993ebbf">Zan'et el Settat</card>
+    <card qty="4" id="357e3766-b7a9-4b56-b35f-e2cd9595cea3">Key Locus</card>
+    <card qty="1" id="116749ef-088f-4e5b-bd88-d823c0b90a36">The Bourse</card>
+    <card qty="1" id="fa0116bf-0b6d-4ddc-ac86-a08d21018710">Catacombs of Kom el Shoqata</card>
+    <card qty="1" id="d2aef09d-78aa-46c5-92a2-f67c30db3962">The Claret Knight</card>
+    <card qty="1" id="d171594c-f3b7-475d-8eb5-d5104cf9644e">The Light of Pharos</card>
+    <card qty="1" id="1e710d77-cbd6-4370-9a34-be1c6183e325">Coterie Assassin (A)</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

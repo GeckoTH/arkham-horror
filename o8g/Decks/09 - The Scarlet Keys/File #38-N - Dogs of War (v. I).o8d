@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="18e3577e-09a3-4cf3-ba4e-ff6395918cf1">Brewing Catastrophe (v. I)</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="6f6f1b2c-4629-4a54-87cc-69ed7c9ee04c">Rabbits Who Run (v. I)</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="9f3debd5-6126-4f6f-9bc8-a95180803ac1">Scarlet Beast</card>
+    <card qty="2" id="e5706bcc-073d-4e2a-9949-3d9e693c82d3">Coterie Provocateur</card>
+    <card qty="2" id="edd5ffa0-ad4d-4587-ba5b-67459d966b52">Locus Pulse</card>
+    <card qty="2" id="a92947e5-2f61-4480-9294-4f78b4d943e2">Bound in Red</card>
+    <card qty="2" id="58739101-18fd-4c92-abb8-988e4a19b482">Key Charge</card>
+    <card qty="3" id="a501357c-e410-4349-bcd3-7608e4aed841">Splintered Space</card>
+    <card qty="3" id="86dd8238-2380-4852-b713-a6d49d8b4a63">Beyond the Pale</card>
+    <card qty="2" id="17b09869-5af4-4228-b84e-dd5270d96fc6">Warped Reality</card>
+    <card qty="2" id="bec05344-3331-4f19-a00d-df7a39c0385c">Touch of the Beyond</card>
+    <card qty="2" id="ae247f93-9931-4f4f-adb0-bd11a24ccba7">Compulsion</card>
+    <card qty="2" id="88348873-a4f8-4280-a0d8-94ad7e3259be">Distorted Reasoning</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="20d4881d-5813-444d-91be-739148339b5c">Dogs of War</card>
+    <card qty="1" id="3560a7b7-cffa-44e4-8663-93192d997024">Windsor Palace Hotel</card>
+    <card qty="1" id="ce3b05eb-bad8-4984-9dad-3a89535b08c6">Victoria College</card>
+    <card qty="1" id="20c0db47-9b0a-4c21-953d-027f63a50a92">Qaitbay Citadel</card>
+    <card qty="1" id="7ee2c20a-760f-405a-9895-2c428afe869f">The Corniche</card>
+    <card qty="1" id="2e57a2be-f1fb-4562-bf16-f7643993ebbf">Zan'et el Settat</card>
+    <card qty="4" id="357e3766-b7a9-4b56-b35f-e2cd9595cea3">Key Locus</card>
+    <card qty="1" id="88803b8e-8d39-4106-b8e3-88ba8b091bdf">The Bourse</card>
+    <card qty="1" id="61022b6d-179d-4b10-ae64-68809783b64b">Catacombs of Kom el Shoqata</card>
+    <card qty="1" id="d2aef09d-78aa-46c5-92a2-f67c30db3962">The Claret Knight</card>
+    <card qty="1" id="d171594c-f3b7-475d-8eb5-d5104cf9644e">The Light of Pharos</card>
+    <card qty="1" id="7d3707c9-d4d3-4d06-a05d-4aca0beb23e5">The Beast in a Cowl of Crimson</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

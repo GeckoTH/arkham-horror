@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="2359c3c6-3788-4acd-b713-5a2f5929f3d3">Otherworldly Horror</card>
+    <card qty="1" id="c946fb8f-c2f4-470f-be02-4fadc63a1991">Otherworldly Lambs</card>
+    <card qty="1" id="0492d64f-f4ec-406c-a146-14f46022ccab">Otherworldly Slaughter</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="922edf68-11b6-4f5b-ae26-cd5d0215ead5">Traversing the Outside</card>
+    <card qty="1" id="00d62de7-cc28-4f84-bc19-0ae485efe9f8">Red Ruin</card>
+    <card qty="1" id="e8d54ccf-387a-411a-8845-b1a07ed58e07">Escaping the Otherworld</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="892b50ff-fe2a-4b60-9a4e-1d5f2ff51baf">Paradigm Effacer</card>
+    <card qty="2" id="47c62915-ade2-4d82-9058-90c01615e018">Matter Inversion</card>
+    <card qty="2" id="7b922f18-4896-4f62-9d95-23b6bac76657">Paradimensional Terror</card>
+    <card qty="3" id="090ae3e8-00c1-4e7f-a5bd-769697064c19">Paracausal Entity</card>
+    <card qty="1" id="5685d438-216a-4c07-8a0d-0e9787f07ae9">Apocalyptic Presage</card>
+    <card qty="2" id="e963b289-3980-4918-a691-7cd487abd073">Substance Dissimulation</card>
+    <card qty="2" id="7c9c9a08-7c62-432b-abc1-78f56872e602">Otherworldly Mimic</card>
+    <card qty="2" id="3d3b57a2-49be-4047-ba7a-d8d57dd31816">Memory Variant</card>
+    <card qty="3" id="56f3de0a-fd2a-45fc-8c15-c061cbf81974">Secrets Lost</card>
+    <card qty="2" id="bec05344-3331-4f19-a00d-df7a39c0385c">Touch of the Beyond</card>
+    <card qty="2" id="ae247f93-9931-4f4f-adb0-bd11a24ccba7">Compulsion</card>
+    <card qty="2" id="88348873-a4f8-4280-a0d8-94ad7e3259be">Distorted Reasoning</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="3" id="12b9d897-105b-43e8-81c7-494149364338">City of Remnants</card>
+    <card qty="1" id="f7c89b9b-e05f-4929-bb1b-cf4a111c1ae2">City of Remnants</card>
+    <card qty="1" id="f7aac815-8731-4873-8c2b-5fd4368344f1">City of Remnants</card>
+    <card qty="2" id="f7d81d65-5fa0-4397-b1f2-26350def3e18">City of Remnants</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="255525cd-df2c-42a4-b6dc-cadbb68ef2e7">Alilki Zoni Uperetria</card>
+    <card qty="1" id="4972bf0c-0edb-4d6d-ae4d-f1b423406ece">The Red-Gloved Man</card>
+    <card qty="1" id="9a361ed8-911d-4e83-a05f-12aaa68a2eaa">Mimetic Nemesis</card>
+    <card qty="1" id="a2214161-9150-422a-9315-fd4485d7d4d8">Protoplasmic Reassembler</card>
+    <card qty="1" id="5685d438-216a-4c07-8a0d-0e9787f07ae9">Apocalyptic Presage</card>
+    <card qty="1" id="3f4e7d28-df31-4e1f-9a2f-a3b356638b66">City of Remnants</card>
+    <card qty="2" id="cf0ee586-ebc0-4edc-8ef2-bd1531a22923">City of Remnants</card>
+    <card qty="1" id="0e6295e3-b654-4c91-91f0-fa2a6bd83545">Concealed Card</card>
+    <card qty="1" id="ad5c9d1b-ddce-40af-960d-c9f3f670c887">Concealed Card</card>
+    <card qty="1" id="6e429cab-a9e5-4030-a882-73a644a7e065">Concealed Card</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="084a0384-4b44-47c4-a76a-ecb557920cc0">Without a Trace</card>
+    <card qty="1" id="b9a93f94-0c26-4911-8d42-654eb02f0e7e">Court of the Outsiders</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

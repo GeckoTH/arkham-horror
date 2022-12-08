@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e01a2e66-1f6c-45e7-89c0-dad654a6d456">Conflux of Consequence</card>
+    <card qty="1" id="17d52bc1-7b51-433f-9d61-d1142aefc12e">The World Unbidden</card>
+    <card qty="1" id="db3f3ddd-725f-4eb3-9288-25babb2d0e24">Running Red</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="5aeb684f-1131-497f-a214-1ecf7d0b7f4f">Secrets and Lies (v. I)</card>
+    <card qty="1" id="527a0c95-ee0a-427f-a02d-35ccbadc917e">To the Tower</card>
+    <card qty="1" id="9b42e71e-ee4f-4f62-809c-df22ae0ebe00">The Ascent</card>
+    <card qty="1" id="54038285-9fd9-41a9-bd87-d81b89600fff">The Final Err</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="74a22bdd-af77-4316-9770-d49c52a538e1">Congress of the Keys</card>
+    <card qty="1" id="d7b25c31-ea00-4c3e-8588-d3b90d1affe4">Scarlet Halls</card>
+    <card qty="1" id="a9a35f57-2be9-462a-8575-5db25c5c1e5a">Coterie Sanctuary</card>
+    <card qty="1" id="b1729a9e-e0d6-4092-9e0c-61172785e064">Coterie Sanctuary</card>
+    <card qty="1" id="ba12320c-bdb5-423e-a9ef-ff06457292c4">Coterie Sanctuary</card>
+    <card qty="1" id="f1e0a7a3-bf68-4214-af51-984fcb7bcff2">The Red-Gloved Man</card>
+    <card qty="1" id="b2b71cad-0589-494d-b45b-7fb451c0a74d">Concealed Card</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Encounter" shared="True">
+    <card qty="2" id="a92947e5-2f61-4480-9294-4f78b4d943e2">Bound in Red</card>
+    <card qty="2" id="58739101-18fd-4c92-abb8-988e4a19b482">Key Charge</card>
+    <card qty="3" id="a501357c-e410-4349-bcd3-7608e4aed841">Splintered Space</card>
+    <card qty="3" id="86dd8238-2380-4852-b713-a6d49d8b4a63">Beyond the Pale</card>
+    <card qty="2" id="17b09869-5af4-4228-b84e-dd5270d96fc6">Warped Reality</card>
+    <card qty="2" id="bec05344-3331-4f19-a00d-df7a39c0385c">Touch of the Beyond</card>
+    <card qty="2" id="ae247f93-9931-4f4f-adb0-bd11a24ccba7">Compulsion</card>
+    <card qty="2" id="88348873-a4f8-4280-a0d8-94ad7e3259be">Distorted Reasoning</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="3" id="12b9d897-105b-43e8-81c7-494149364338">City of Remnants</card>
+    <card qty="1" id="f7c89b9b-e05f-4929-bb1b-cf4a111c1ae2">City of Remnants</card>
+    <card qty="1" id="f7aac815-8731-4873-8c2b-5fd4368344f1">City of Remnants</card>
+    <card qty="2" id="f7d81d65-5fa0-4397-b1f2-26350def3e18">City of Remnants</card>
+    <card qty="2" id="cf0ee586-ebc0-4edc-8ef2-bd1531a22923">City of Remnants</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="2" id="892b50ff-fe2a-4b60-9a4e-1d5f2ff51baf">Paradigm Effacer</card>
+    <card qty="2" id="47c62915-ade2-4d82-9058-90c01615e018">Matter Inversion</card>
+    <card qty="2" id="7b922f18-4896-4f62-9d95-23b6bac76657">Paradimensional Terror</card>
+    <card qty="3" id="090ae3e8-00c1-4e7f-a5bd-769697064c19">Paracausal Entity</card>
+    <card qty="1" id="5685d438-216a-4c07-8a0d-0e9787f07ae9">Apocalyptic Presage</card>
+    <card qty="2" id="e963b289-3980-4918-a691-7cd487abd073">Substance Dissimulation</card>
+    <card qty="2" id="7c9c9a08-7c62-432b-abc1-78f56872e602">Otherworldly Mimic</card>
+    <card qty="2" id="3d3b57a2-49be-4047-ba7a-d8d57dd31816">Memory Variant</card>
+    <card qty="3" id="56f3de0a-fd2a-45fc-8c15-c061cbf81974">Secrets Lost</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="5ed08365-e62f-4a77-a230-8b1082eec101">La Chia Roja</card>
+    <card qty="1" id="3f574831-242d-448e-a54b-668048bfe00d">The Sanguine Watcher</card>
+    <card qty="1" id="daee1408-3e4e-4ada-ae3a-dd89b5cb7f9d">The Beast in a Cowl of Crimson</card>
+    <card qty="1" id="a31f80a0-8074-4013-8ee2-d59bce53b99f">The Claret Knight</card>
+    <card qty="1" id="fb729840-028e-49b2-a8d5-04a85fb5cc54">Thorne</card>
+    <card qty="1" id="b91c972e-1792-4538-aa42-9eee187cbc10">Desiderio Delgado Álvarez</card>
+    <card qty="1" id="51a64992-f45d-4cd1-9d20-fcddbdc81ac6">Amaranth</card>
+    <card qty="1" id="990f4631-82df-4432-83c0-86514aa064e4">Tzu San Niang</card>
+    <card qty="1" id="056bf5a7-28eb-4176-9611-7cf27298186e">Aliki Zoni Uperetria</card>
+    <card qty="1" id="b1a787e6-41d8-42e1-baab-0d696514865d">La Chica Roja</card>
+    <card qty="1" id="8cf4407b-0ac8-4188-a2f4-7eec97144824">Ece Şahin</card>
+    <card qty="1" id="8d120191-01a7-44d5-9eb3-eb0d21349884">Desiderio Degaldo Álvarez</card>
+    <card qty="1" id="d3a25a46-1a59-42a5-b09e-a0810cb7632b">Thorne</card>
+    <card qty="1" id="d2aef09d-78aa-46c5-92a2-f67c30db3962">The Claret Knight</card>
+    <card qty="1" id="255525cd-df2c-42a4-b6dc-cadbb68ef2e7">Alilki Zoni Uperetria</card>
+    <card qty="1" id="d8982fa1-961c-4d32-8074-0c2cd40351ba">The Knotted Tower</card>
+    <card qty="1" id="5468496e-4d8c-46cf-8f06-999662081ef1">Gravity-Defying Climb</card>
+    <card qty="1" id="f299e4ef-6690-4007-b316-1717fe88d898">The Towering Vertex</card>
+    <card qty="1" id="67b88a3f-30d9-4b11-913f-98b1c8b92cfb">Mimetic Nemesis</card>
+    <card qty="1" id="0e6295e3-b654-4c91-91f0-fa2a6bd83545">Concealed Card</card>
+    <card qty="1" id="ad5c9d1b-ddce-40af-960d-c9f3f670c887">Concealed Card</card>
+    <card qty="1" id="6e429cab-a9e5-4030-a882-73a644a7e065">Concealed Card</card>
+    <card qty="1" id="135be42d-5a69-42d5-b468-fd5437afd45c">Concealed Card</card>
+    <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
