@@ -3714,11 +3714,43 @@
     </card>
     <card id="12b9d897-105b-43e8-81c7-494149364338" name="City of Remnants" size="EncounterCard">
       <property name="Card Number" value="247" />
-      <property name="Quantity" value="3" />
+      <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Beyond the Beyond" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Otherworld." />
-      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, take 1 damage.&#10;— If it is in the middle position in the shadows, choose a non-weakness card in your hand and set it aside, out of play, as a hollow.&#10;— If it is in the right position in the shadows, take 1 horror." />
+      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, take 1 damage.&#10;— If it is in the right position in the shadows, take 1 horror." />
+      <alternate name="Rambling Route" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Beyond the Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld." />
+        <property name="Text" value="Increase the difficulty to fight or evade each concealed mini-card at Rambling Route by 2.&#10;η Spend X resources: Choose a concealed mini-card adjacent to a locaiton X connections away. Look at its revealed side (without exposing it). (Group limit once per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="ba379910-7003-404a-9100-a59ec61ad7ec" name="City of Remnants" size="EncounterCard">
+      <property name="Card Number" value="247" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Beyond the Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, lose 2 resources.&#10;— If it is in the middle position in the shadows, lose 1 action." />
+      <alternate name="Rambling Route" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Beyond the Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld." />
+        <property name="Text" value="Increase the difficulty to fight or evade each concealed mini-card at Rambling Route by 2.&#10;η Spend X resources: Choose a concealed mini-card adjacent to a locaiton X connections away. Look at its revealed side (without exposing it). (Group limit once per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="1932b8a0-e1b2-4297-b00f-2409dc7c78a2" name="City of Remnants" size="EncounterCard">
+      <property name="Card Number" value="247" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Beyond the Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the middle position in the shadows, choose a non-weakness card in your hand and set it aside, out of play, as a hollow.&#10;— If it is in the right position in the shadows, set an asset you control aside, out of play, as a hollow." />
       <alternate name="Rambling Route" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Beyond the Beyond" />
         <property name="Type" value="Location" />
@@ -3734,7 +3766,7 @@
       <property name="Encounter Set" value="Beyond the Beyond" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Otherworld." />
-      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, take 1 damage.&#10;— If it is in the middle position in the shadows, choose a non-weakness card in your hand and set it aside, out of play, as a hollow.&#10;— If it is in the right position in the shadows, take 1 horror." />
+      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, take 1 damage.&#10;— If it is in the right position in the shadows, take 1 horror." />
       <alternate name="Alien Frontier" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Beyond the Beyond" />
         <property name="Type" value="Location" />
@@ -3750,7 +3782,7 @@
       <property name="Encounter Set" value="Beyond the Beyond" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Otherworld." />
-      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, take 1 damage.&#10;— If it is in the middle position in the shadows, choose a non-weakness card in your hand and set it aside, out of play, as a hollow.&#10;— If it is in the right position in the shadows, take 1 horror." />
+      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, lose 2 resources.&#10;— If it is in the middle position in the shadows, lose 1 action." />
       <alternate name="Alien Frontier" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Beyond the Beyond" />
         <property name="Type" value="Location" />
@@ -3762,11 +3794,28 @@
     </card>
     <card id="f7d81d65-5fa0-4397-b1f2-26350def3e18" name="City of Remnants" size="EncounterCard">
       <property name="Card Number" value="249" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Beyond the Beyond" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Otherworld." />
+      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, lose 2 resources.&#10;— If it is in the middle position in the shadows, lose 1 action." />
+      <alternate name="Weald of Effigies" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Beyond the Beyond" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Otherworld." />
+        <property name="Text" value="Forced – After you reveal Weald of Effigies: Look at the top card of your deck. If it is not a weakness, set it aside, out of play, as a hollow.&#10;θ If there are no clues on Weald of Effigies: Either swap the position of 2 concealed mini-cards adjacent to locations, or swap the positions of 2 locations in the shadows. (Group limit once per game.)" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="09777a3a-216f-45f3-ab69-f2261d916ca8" name="City of Remnants" size="EncounterCard">
+      <property name="Card Number" value="249" />
       <property name="Quantity" value="2" />
       <property name="Encounter Set" value="Beyond the Beyond" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Otherworld." />
-      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the left position in the shadows, take 1 damage.&#10;— If it is in the middle position in the shadows, choose a non-weakness card in your hand and set it aside, out of play, as a hollow.&#10;— If it is in the right position in the shadows, take 1 horror." />
+      <property name="Text" value="Concealed 1.&#10;Forced – When you expose this location:&#10;— If it is in the middle position in the shadows, choose a non-weakness card in your hand and set it aside, out of play, as a hollow.&#10;— If it is in the right position in the shadows, set an asset you control aside, out of play, as a hollow." />
       <alternate name="Weald of Effigies" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Beyond the Beyond" />
         <property name="Type" value="Location" />
@@ -4036,7 +4085,7 @@
       <property name="Text" value="Foundation Intel cannot leave your hand." />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="a77fb6b4-00d6-43b2-959c-375895dce086" name="Paradimensional Understanding" size="EncounterCard">
+    <card id="a77fb6b4-00d6-43b2-959c-375895dce086" name="Paradimensional Understanding">
       <property name="Card Number" value="267" />
       <property name="Quantity" value="4" />
       <property name="Encounter Set" value="Globetrotting" />
