@@ -17,6 +17,17 @@ def doMythosPhase(setPhaseVar = True):
                 addBless()
     # Auto-replenish
         if ("Replenish" and "at the start of each round" in card.Text) and card.controller == me and not isLocked(card):
+            
+            # Grab the number of charges to add each round.
+            # Runic Axe, for example.
+            reSmallReplenishRate = re.search('.*Replenish (\d) of these.*', card.properties["Text"], re.IGNORECASE)
+
+            strSmallReplenishRate = "0"
+            if reSmallReplenishRate:
+                strSmallReplenishRate = reSmallReplenishRate.group(1)
+                if not strSmallReplenishRate.isnumeric():
+                    strSmallReplenishRate = "0"
+                    
             #Capture text between "Uses (..)"
             description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
             if description_search:
@@ -29,9 +40,15 @@ def doMythosPhase(setPhaseVar = True):
                     strCharges = re.search('(\d|X)(.*)',strCharges).group(1)
                     strCharges = strCharges.replace(" ", "")
                     if strCharges.isnumeric():
-                            for i in range(0, int(strCharges)):
-                                if card.markers[Resource] < int(strCharges):
+                            numMaxUses = int(strCharges)
+                            if int(strSmallReplenishRate) > 0:
+                                numReplenishRate = int(strSmallReplenishRate)
+                            else:
+                                numReplenishRate = numMaxUses
+                            for i in range(0, numReplenishRate):
+                                if card.markers[Resource] < numMaxUses:
                                     addResource(card)
+                                    
         if card.Type == "Agenda" and card.controller == me and not isLocked(card) and card.isFaceUp:
             addDoom(card)
 
