@@ -538,7 +538,7 @@ def autoCharges(args):
     if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
         if len(args.cards) == 1:
             card = args.cards[0]
-            if card.controller == me and card.isFaceUp and card.properties["Type"] == "Asset":
+            if card.controller == me and card.isFaceUp and (card.properties["Type"] == "Asset" or card.properties["Type"] == "Event"):
                 #Capture text between "Uses (..)"
                 description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
@@ -1046,7 +1046,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
                 for _ in range(2):
                     addBless()
         # Find any Start cards
-        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name, me.deck)
+        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name or "Darrell's Kodak" == card.Name or card.Name == "On the Mend", me.deck)
         # Create Bonded Card
         listB = makeListBonded(me.deck)
         if not listB:
@@ -1079,9 +1079,14 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             card.moveToTable(permX, cardY(investigatorCard))
             permX = permX + card.width + InvestigatorSpacing
             notify("{} places the Permanent card {} on the table".format(me, card))
-	# Move startCard found to the table
+
+
+	# Move startCard found to the table or Sideboard
+        DarkInsight = False
         for card in startCard:
-            if card.Name == "Dark Insight":
+            if card.Name == "On the Mend":
+                card.moveTo(me.piles['Sideboard'])
+            elif card.Name == "Dark Insight":
                 card.moveTo(me.hand)
                 DarkInsight = True
             else:
