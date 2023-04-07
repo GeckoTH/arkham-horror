@@ -70,6 +70,16 @@ def lookToBottom(group): # Alyssa Graham automation
         cardsFound.append(cardsSelected[0])
         notify("{} is moved at the bottom of {}".format(cardsSelected[0], group.name))
 
+# Typically use this to find a specific card in the discard pile such
+# as "Word of Woe"
+def searchInPile(group, name):
+    if len(group) == 0: return
+    for c in group:
+        if (c.Name == name):
+            return c
+    # Nothing was found.
+    return
+
 def attachTo(card):
     global cardToAttachTo
     cardToAttachTo = card.offset(card.position[0], card.position[1])
@@ -1088,6 +1098,20 @@ def defaultAction(card, x = 0, y = 0):
 #           Neutral Cards                   #
 #                                           #
 #############################################      
+    elif card.Name == "Word of Weal": 
+        wow = searchInPile(card.controller.piles['Discard Pile'], "Word of Woe")
+        if wow is not None :
+            wow.moveTo(wow.controller.deck)
+            notify("{} shuffles {} into his/her deck.".format(card.controller, wow.Name))
+            shuffle(card.controller.deck)
+        discard(card)
+    elif card.Name == "Word of Woe":
+        wow = searchInPile(card.controller.piles['Discard Pile'], "Word of Weal")
+        if wow is not None :
+            wow.moveTo(wow.controller.deck)
+            notify("{} shuffles {} into his/her deck.".format(card.controller, wow.Name))
+            shuffle(card.controller.deck)
+        discard(card)
     elif card.Name == "Backpack" and card.Level == "0":
         attachTo(card)        
         searchTopDeck(card.controller.deck, table, 6, traits="Item,Supply")
