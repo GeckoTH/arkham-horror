@@ -13,12 +13,48 @@ Bonded = [
     {"sourceCard":"Summoned Hound","bondedCard":"Unbound Beast","bondedCode":["f03e3511-0a6c-4a83-8de9-2dda716d7775"]},
     #X source card = 1 bonded card
     {"sourceCard":"Dream Diary","bondedCard":"Essence of the Dream","bondedCode":["0481911c-f906-40ee-acef-d4ad39c2d767"]},
-    {"sourceCard":"Segment of Onyx","bondedCard":"Pendant of the Queen","bondedCode":["dc7600e3-a132-42b0-b96b-67ca0cee4aff"]}
+    {"sourceCard":"Segment of Onyx","bondedCard":"Pendant of the Queen","bondedCode":["dc7600e3-a132-42b0-b96b-67ca0cee4aff"]},
+
+    # Customizable cards. They load identically to bonded cards.
+    {"sourceCard":"Hunter's Armor","bondedCard":"Hunter's Armor","bondedCode":["3668d349-816f-4867-852d-8caf2d45cb41"]},
+    {"sourceCard":"Runic Axe","bondedCard":"Runic Axe","bondedCode":["6a407d80-0299-47ce-a795-54e273838781"]},
+    {"sourceCard":"Custom Modifications","bondedCard":"Custom Modifications","bondedCode":["65735891-de09-4264-8ad2-fca24054f563"]},
+    {"sourceCard":"Alchemical Distillation","bondedCard":"Alchemical Distillation","bondedCode":["67b843a1-7b50-4de3-a7a6-108ca428264c"]},
+    {"sourceCard":"Empirical Hypothesis","bondedCard":"Empirical Hypothesis","bondedCode":["2e3f0d33-6f23-41bb-9c47-d0e7434d3494"]},
+    {"sourceCard":"The Raven Quill","bondedCard":"The Raven Quill","bondedCode":["232ea4bb-7926-4083-886e-0ebaf6e83c85"]},
+    {"sourceCard":"Damning Testimony","bondedCard":"Damning Testimony","bondedCode":["99cada29-25f3-4a6e-876d-c656e60bdcf3"]},
+    {"sourceCard":"Friends in Low Places","bondedCard":"Friends in Low Places","bondedCode":["36e5d10b-9154-4957-8b0d-beeab1f9b63e"]},
+    {"sourceCard":"Living Ink","bondedCard":"Living Ink","bondedCode":["90cecded-988d-429f-b26e-61a210edf128"]},
+    {"sourceCard":"Summoned Servitor","bondedCard":"Summoned Servitor","bondedCode":["283eff16-fa87-449c-8ba4-57b09a09c220"]},
+    {"sourceCard":"Honed Insinct","bondedCard":"Honed Insinct","bondedCode":["43ce70a8-a07b-4e63-8969-0669ba7ed792"]},
+    {"sourceCard":"Power Word","bondedCard":"Power Word","bondedCode":["0eb73136-88be-4e96-9e8a-fbce00fa0269"]},
+    {"sourceCard":"Pocket Multi Tool","bondedCard":"Pocket Multi Tool","bondedCode":["c1ea466e-c7a9-4759-ba27-115342f79d41"]},
+    {"sourceCard":"Makeshift Trap","bondedCard":"Makeshift Trap","bondedCode":["9eb45139-6f52-41e5-9991-2ce74aa759b4"]},
+    {"sourceCard":"Grizzled","bondedCard":"Grizzled","bondedCode":["7dbaed24-8b7a-4900-b81a-28311ac2b09e"]},
+    {"sourceCard":"Hyperphysical Shotcaster","bondedCard":"Hyperphysical Shotcaster","bondedCode":["347a2474-40cc-4063-b2c0-1b6bb54d307d"]}    
     ]
 
 limitedOneBondedCode =[
     "0481911c-f906-40ee-acef-d4ad39c2d767",
-    "dc7600e3-a132-42b0-b96b-67ca0cee4aff"
+    "dc7600e3-a132-42b0-b96b-67ca0cee4aff",
+
+    # Customizable stuff should only have 1 of each.
+    "3668d349-816f-4867-852d-8caf2d45cb41",
+    "6a407d80-0299-47ce-a795-54e273838781",
+    "65735891-de09-4264-8ad2-fca24054f563",
+    "67b843a1-7b50-4de3-a7a6-108ca428264c",
+    "2e3f0d33-6f23-41bb-9c47-d0e7434d3494",
+    "232ea4bb-7926-4083-886e-0ebaf6e83c85",
+    "99cada29-25f3-4a6e-876d-c656e60bdcf3",
+    "36e5d10b-9154-4957-8b0d-beeab1f9b63e",
+    "90cecded-988d-429f-b26e-61a210edf128",
+    "283eff16-fa87-449c-8ba4-57b09a09c220",
+    "43ce70a8-a07b-4e63-8969-0669ba7ed792",
+    "0eb73136-88be-4e96-9e8a-fbce00fa0269",
+    "c1ea466e-c7a9-4759-ba27-115342f79d41",
+    "9eb45139-6f52-41e5-9991-2ce74aa759b4",
+    "7dbaed24-8b7a-4900-b81a-28311ac2b09e",
+    "347a2474-40cc-4063-b2c0-1b6bb54d307d"
     ]
 
 def makeListBonded(deck):
