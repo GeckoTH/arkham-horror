@@ -1,0 +1,815 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Machinations Through Time" id="f98f6895-dc14-4b5b-828b-8b92c750c8d6" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="01b7fd7d-7de0-42a8-98f5-c4bb1d7e6a25" name="Machinations Through Time" size="EncounterCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is 1 plus the number of story cards in the victory display.&#10;β: –1. If you are at Tindalos, you automatically fail.&#10;γ: –2 (–4 instead if a Scientist asset is at your location).&#10;δ: –3. If you fail, deal 1 damage or 1 horror to an Ally asset at your location." />
+      <alternate name="Machinations Through Time" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 2 plus the number of story cards in the victory display.&#10;β: –2. If you are at Tindalos, you automatically fail.&#10;γ: –3 (–6 instead if a Scientist asset is at your location).&#10;δ: –4. If you fail, deal 1 damage or 1 horror to an Ally asset at your location." />
+      </alternate>
+    </card>
+    <card id="9a093876-c2ec-4016-a76e-1ed71f19cea8" name="Into the Void" size="HorizCard">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When a Scientist asset would be defeated: It is abducted instead (set it aside, out of play)." />
+      <property name="Doom" value="9" />
+      <alternate name="Time Bends" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If the Anomalies in Spacetime story card is in play:&#10;Place 1p1e horror on a River Docks location, as anomalies. Then, add 1 anomaly to each location with an anomaly.&#10;_____&#10;If the Mob Troubles story card is in play:&#10;Flip it over. Shuffle all 3 set-aside Sheldon Gang enemies into the encounter deck. If the Present Tick-Tock Club is in play, spawn the set-aside Old Sadie Sheldon enemy at it.&#10;_____&#10;If the Unspeakable Abomination story card is in play:&#10;Flip it over. Spawn the set-aside Tyr'thraha enemy at Tindalos.&#10;_____&#10;If the A Bitter Rivalry story card is in play:&#10;Flip it over. If you are playing the past era, spawn the set-aside Edwin Bennet enemy at the lead investigator's location." />
+      </alternate>
+    </card>
+    <card id="baa2e726-e282-4e6a-9576-4387edfa9552" name="Time Marches On" size="HorizCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When a Scientist asset would be defeated: It is abducted instead (set it aside, out of play)." />
+      <property name="Doom" value="9" />
+      <alternate name="Imprisoned in Tindalos" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each remaining investigator in all eras is defeated and suffers 1 mental trauma.&#10;If the Edwin Bennet asset is in play in any era, proceed to (–&gt;R2).&#10;If the Edwin Bennet enemy is in play in any era, proceed to (–&gt;R3).&#10;Otherwise, proceed to (–&gt;R4)." />
+      </alternate>
+    </card>
+    <card id="8bc4af31-a311-48b5-8c3f-568451a0a916" name="Walking Through Time" size="HorizCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Abilities on Scientist assets can be triggered by any investigator at that asset's location.&#10;ι When you move to a location, if one or more Scientist assets are at your location: Move any number of them with you&#10;Objective – Restore the timeline by completing the objective on each story card. If Tomas Corrigan and Mary Zielinski are at non-Tindalos locations in all 3 eras, and each era has no story cards in play, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Time Mends" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(–&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="7c4ce164-233b-4434-bfef-4ad9ec4ca8d7" name="Tindalos" size="EncounterCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Realm of Angular Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Past. Present. Future." />
+      <property name="Text" value="Tindalos is connected to each Portal location, and vice versa.&#10;θ If it is your turn: Move to a Portal location.&#10;η: Test ή (2) or ί (2). If you succeed, rescue an abducted Scientist asset and put it into play at Tindalos, exhausted." />
+      <property name="Shroud" value="5" />
+      <property name="Clues" value="0" />
+      <alternate name="Tindalos" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Subtitle" value="Maze of Infinite Depths" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Past. Present. Future." />
+        <property name="Text" value="Tindalos is connected to each Portal location, and vice versa.&#10;θ: Place 1 of your clues on Tindalos, or take control of 1 clue on a Tindalos location in any era.&#10;η: Test ή (3) or ί (3). If you succeed, rescue an abducted Scientist asset and put it into play at Tindalos, exhausted." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="b94a2f14-3906-4ed9-a34b-14c2f10b3179" name="A Noble Legacy (Past)" size="EncounterCard">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Setup: Place the Nikola Tesla asset at the Past River Docks. Flip this story card over." />
+      <property name="Clues" value="–" />
+      <alternate name="A Noble Legacy (Past)" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="η If you, Thomas Corrigan, and Mary Zielinski are all at the Past Miskatonic University: Anounce &quot;Thomas and Mary have met.&quot;&#10;η If Thomas Corrigan, Mary Zielinski, and Nikola Tesla are all at the same location, spend 2p1e clues, as a group: Announce &quot;Thomas and Mary are inspired by Nikola Tesla.&quot;&#10;θ If you are at the Past Miskatonic University, spend 2p1e resources: Announce &quot;funding for an observatory has begin.&quot;&#10;Objective – If all 3 abilities on this story card have been triggered, add it to the victory display (place a resource token over each ability when it is triggered).&#10;Victory 0." />
+        <property name="Victory Points" value="0" />
+      </alternate>
+    </card>
+    <card id="cfe19f0d-59b4-48d3-8ab9-66097c898e61" name="Akham Gazette" size="EncounterCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Past." />
+      <property name="Clues" value="–" />
+      <alternate name="Akham Gazette" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Past." />
+        <property name="Text" value="η: Test any skill (4). If you succeed, gain 1 clue (from the token pool).&#10;θ Remove 1 newspaper from this location: Place 1p1e clues (from the token pool) on this location. Look at the top 5 cards of the encounter deck, add 1 to the victory display, and put the rest on the top and/or bottom of that deck in any order." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="71868b3c-dd1b-4a68-b9c0-2e905b330b74" name="O'Malley's Watch Shop" size="EncounterCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Past." />
+      <property name="Clues" value="–" />
+      <alternate name="O'Malley's Watch Shop" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Past." />
+        <property name="Text" value="η: Remove 1 time from this location: Remove 1 doom from an agenda in any era. If Thomas Corrigan is at this location, you may exhaust him to place 1 resource (from the token pool) on the Present Tick-Tock Club, as time.&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="3p1e" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="ecc59dcb-d7af-4e99-9325-a9f1ab0ff1ac" name="River Docks" size="EncounterCard">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Past." />
+      <alternate name="River Docks" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Past." />
+        <property name="Text" value="η Spend 2 resources or exhaust a Scientist asset at this location: Place 1 resource (from the token pool) on a Present or Future River Docks, as a shipment. (Limit once per turn.)" />
+        <property name="Shroud" value="1p1e" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="acb69613-9ff2-437b-b5fe-80c813d38a15" name="Miskatonic University" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Past." />
+      <alternate name="Miskatonic University" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Past." />
+        <property name="Text" value="ηη Remove 1 seed from this location: Annouce &quot;a tree seed has been planted.&quot; Gain 1 resource for each Scientist asset at this location." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="b2e97097-3c51-4ed2-aa40-36266ae1fa17" name="Childhood Home" size="EncounterCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Past." />
+      <alternate name="Childhood Home" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Past." />
+        <property name="Text" value="η If &quot;Thomas and Mary have met&quot; and Thomas Corrigan and Mary Zielinski are at this location: Announce &quot;Thomas and Mary have married.&quot;&#10;ηη If &quot;Corrigan Industries has been founded:&quot; Place 1 resource (from the token pool) on Corrigan Industries, as a time capsule. (Group limit once per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2p1e" />
+      </alternate>
+    </card>
+    <card id="eafa5f43-8c6d-4912-b0ea-ad64fbc3cb31" name="Thomas Corrigan" size="EncounterCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Physics Student" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Scientist. Ally. Past." />
+      <property name="Text" value="ι When you initiate a skill test, exhaust Thomas Corrigan: If you succeed, draw 1 card." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e1e3d0a2-8852-4449-a82c-c5344c34b2a4" name="Mary Zielinski" size="EncounterCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Chemistry Student" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Scientist. Ally. Past." />
+      <property name="Text" value="η Exhaust Mary Zielinski: Investigate. If you succeed, instead of discovering a clue at your location, gain 1 clue (from the token pool)." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8a0ae19b-cf5d-4840-952e-9295b13abd18" name="Nikola Tesla">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Renowned Inventor" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Scientist. Ally. Past." />
+      <property name="Text" value="θ Exhaust Nikola Tesla: Parley. Test έ (1). If you succeed, either gain 1 clue (from the token pool), draw 2 cards, or gain 3 resources. (Max once per game per option.)" />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bfd2731e-2920-4152-92cc-cd32af3cb3a0" name="A Noble Legacy (Present)" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Setup: Place the Ezra Graves asset at the Present Arkham Advertiser. Flip this story card over." />
+      <alternate name="A Noble Legacy (Present)" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="η If you are at the Present Miskatonic University and &quot;funding for an observatory has begun: Anounce &quot;the observatory is built.&quot;&#10;η If &quot;the observatory is built,&quot; &quot;Thomas and Mary are inspired by Nikola Tesla,&quot; and Thomas Corrigan, Mary Zielinski, and Ezra Graves are at the Present Miskatonic University, spend 2p1e clues, as a group (4p1e clues, as a group, instead if you are playing in Epic Multiplayer Mode): Announce &quot;teleporation research has begun.&quot;&#10;θ If &quot;Thomas and Mary have met&quot; and Thomas Corrigan and Mary Zielinski are at Ye Olde Magick Shoppe, spend 1p1e resources: Announce &quot;Corrigan Industries has been founded&quot; and put the set-aside Corrigan Industries location into play in the future era.&#10;Objective – If all 3 abilities on this story card have been triggered, add it to the victory display (place a resource token over each ability when it is triggered).&#10;Victory 0." />
+        <property name="Victory Points" value="0" />
+      </alternate>
+    </card>
+    <card id="e294a523-a41c-46df-adb3-a5fecb08d609" name="Arkham Advertiser" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Present." />
+      <alternate name="Arkham Advertiser" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Present." />
+        <property name="Text" value="θ Spend 1 resource: Ready a Scientist asset at this location. (Limit once per round.)&#10;η Remove 1 newspaper from this location: Place 1p1e clues (from the token pool) on this location. Take 4 additional actions this turn." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="99a24157-f933-4c62-a67e-b08981159894" name="Tick-Tock Club" size="EncounterCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Present." />
+      <alternate name="Tick-Tock Club" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Present." />
+        <property name="Text" value="η Remove 1 time from this location: Remove 1 doom from an agenda in any era. If Thomas Corrigan is at this location, you may exhaust him to place 1 resource (from the token pool on the Future Tick-Tock Club, as time.&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="3p1e" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="38f00ff4-ba26-4e82-8cdc-2ab6bdc2dd48" name="River Docks" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Present." />
+      <alternate name="River Docks" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Present." />
+        <property name="Text" value="θ Remove 1 shipment from this location: Gain 4 resources or 1 clue (from the token pool).&#10;η Spend 3 resources or exhaust 2 Scientist assets at this location: Place 1 resource (from the token pool) on the Future River Docks, as a shipment." />
+        <property name="Shroud" value="1p1e" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="745503d5-33ce-4650-a455-640f0ae5a7bd" name="Miskatonic University" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Present." />
+      <alternate name="Miskatonic University" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Present." />
+        <property name="Text" value="η If &quot;a tree seed has been planted:&quot; Gain 1 clue (from the token pool) for each Scientist asset at this location. (Group limit once per game.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="5b5d424c-96bb-4d2e-82fe-59e32b03cebe" name="Ye Olde Magick Shoppe" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Present." />
+      <alternate name="Ye Olde Magick Shoppe" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Present." />
+        <property name="Text" value="θ If Ezra Graves is at this location, exhaust him and spend 1 clue: Defeat a non-Elite enemy in any era. (Group limit once per game.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="9cf210b4-0830-47ae-93da-ecf2b5686dd4" name="Thomas Corrigan" size="EncounterCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Preeminent Astrophysicist" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Scientist. Ally. Present." />
+      <property name="Text" value="θ Exhaust Thomas Corrigan: You get +2 ά for this skill test.&#10;ι When you initiate a skill test, exhaust Thomas Corrigan: If you succeed, draw 1 card." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="81ce9a51-ec8d-4dea-af76-d660f1672905" name="Mary Zielinski" size="EncounterCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Distinguished Chemist" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Scientist. Ally. Present." />
+      <property name="Text" value="θ Exhaust Mary Zielinski: You get +2 έ for this skill test.&#10;η Exhaust Mary Zielinski: Investigate. If you succeed, instead of discovering a clue at your location, gain 1 clue (from the token pool)." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="594017ad-07f0-4311-b3a0-3e171c2d616f" name="Ezra Graves">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Professor of the Arcane" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Scientist. Ally. Present." />
+      <property name="Text" value="θ During any investigator's turn, exhaust Ezra Graves and spend 1 resource: Immediately take an action as if it were your turn.&#10;η: Choose an Ally asset in your discard pile and put it into play under your control. (Max once per game.)" />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="2" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7244c419-14f7-48dc-b98e-67e7ddd2807c" name="A Noble Legacy (Future)" size="EncounterCard">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Setup: Set the Dimensional Beam Machine asset aside, out of play. Flip this story card over." />
+      <alternate name="A Noble Legacy (Future)" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="η If Thomas Corrigan and Mary Zielinski are at Corrigan Industries: Put the set-aside Dimensional Beam Machine asset into play under your control (if you are eliminated, set it aside, out of play).&#10;η If &quot;teleporation research has begun,&quot; and Thomas Corrigan, Mary Zielinski, and the Dimensional Beam Machine are at the Future Miskatonic University: Test έ (3). If you succeed, spend 2p1e clues, as a group (8p1e clues, as a group, instead if you are playing in Epic Multiplayer Mode) and announce &quot;Thomas and Mary have made a historic discovery.&quot;&#10;η If &quot;Thomas and Mary have made a historic discovery&quot; and Thomas Corrigan and Mary Zielinski are at the Future Arkham Advertiser: Announce &quot;Thomas and Mary have won a Nobel Prize.&quot;&#10;Objective – If all 3 abilities on this story card have been triggered, add it to the victory display (place a resource token over each ability when it is triggered).&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="8efe0014-b894-4ac2-96f2-1527faa6d2b0" name="Arkham Advertiser" size="EncounterCard">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Future." />
+      <alternate name="Arkham Advertiser" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Future." />
+        <property name="Text" value="η: Place 1 resource (from the token pool) on the Arkham Gazette or an Arkham Advertiser in any era, as a news paper. (Group limit twice per game.)&#10;θ Remove 1 newspaper from this location: Place 1p1e clues (from the token pool) on this location. Remove 1 α, β, γ, or δ token from the chaos bag for the remainder of the game." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="6ee4e310-716b-4dca-a350-02355ede241c" name="Tick-Tock Club" size="EncounterCard">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Future." />
+      <alternate name="Tick-Tock Club" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Future." />
+        <property name="Text" value="η If Thomas Corrigan is at this location, exhaust him and spend 1p1e clues: Place 1 resource (from the token pool) on O'Malley's Watch Shop, as time. (Group limit once per game.)&#10;η Remove 1 time from this location: Remove 1 doom from an agenda in any era.&#10;Victory 1." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2p1e" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="a8a41277-b0a7-4214-a3b1-a423611893ae" name="River Docks" size="EncounterCard">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Future." />
+      <alternate name="River Docks" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Future." />
+        <property name="Text" value="[Free[ Remove 1 shipment from this location: Gain 4 resources or 1 clue (from the token pool).&#10;θ Spend 3 resources or exhaust 2 Scientist assets at this location: Place 1 resource (from the token pool) on the Present River Docks, as a shipment. (Limit once per round.)" />
+        <property name="Shroud" value="1p1e" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="4910a1a3-f716-4728-bed9-8332f48658ac" name="Miskatonic University" size="EncounterCard">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Portal. Future." />
+      <alternate name="Miskatonic University" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Portal. Future." />
+        <property name="Text" value="η If Mary Zielinski is at this location: Place 1 resource (from the token pool) on the Past Miskatonic University, as a seed. (Group limit once per game.)&#10;θ: If &quot;a tree seed has been planted:&quot; Gain 1 clue (from the token pool) for each Scientist assets at this location. (Group limit once per game.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="ecd727f9-6287-4a3b-a448-ba73aab58576" name="Corrigan Industries" size="EncounterCard">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Arkham. Future" />
+      <alternate name="Corrigan Industries" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Arkham. Future" />
+        <property name="Text" value="η Remove 1 time capsule from this location: Choose up to 4 cards in your discard pile and add them to your hand.&#10;ηη If &quot;Thomas and Mary have married:&quot; Their children inherit Corrigan Industries. Gain 10 resources. (Group limit once per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1p1e" />
+      </alternate>
+    </card>
+    <card id="c3f5c9be-4273-439b-ab2d-55829211a859" name="Thomas Corrigan" size="EncounterCard">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Cofounder of Corrigan Industries" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Scientist. Ally. Future." />
+      <property name="Text" value="Each investigator at Thomas Corrigan's location gets +1 ά.&#10;ι When you initiate a skill test, exhaust Thomas Corrigan: If you succeed, draw 1 card." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bb23f3a4-6d1d-457f-ab2e-abaefe7b6d58" name="Mary Zielinski" size="EncounterCard">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Cofounder of Corrigan Industries" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Scientist. Ally. Future." />
+      <property name="Text" value="Each investigator at Mary Zielinski's location gets +1 έ.&#10;η Exhaust Mary Zielinski: Investigate. If you succeed, instead of discovering a clue at your location, gain 1 clue (from the token pool)." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5a3e8ec6-6bce-40d6-b1f8-30c31abc97be" name="Dimensional Beam Machine">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Science. Tool. Future." />
+      <property name="Text" value="Uses (2 charges).&#10;θ During your turn, exhaust Dimensional Beam Machine and spend 1 charde: Move an investigator or a non-Elite enemy at your location to any reveal location." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cfb8621f-5fa4-404d-856f-339f308258b9" name="A Bitter Rivalry" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Machination." />
+      <property name="Text" value="Setup: Follow the instructions for your relevant era(s), below.&#10;_____&#10;Past: Set Thomas Corrigan aside, out of play; he has been abducted. Place Mary Zielinski at Arkham Gazette. Set the Edwin Bennet enemy aside, out of play.&#10;_____&#10;Present and Future: Set Thomas Corrigan and Mary Zielinski aside, out of play; they have been abducted. If you are playing in Epic Multiplayer Mode, set the Edwin Bennet enemy aside, out of play." />
+      <alternate name="A Bitter Rivalry" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Machination." />
+        <property name="Text" value="ηη: Ready and move Edwin Bennet to your location (even if he is in another era).&#10;η If Edwin Bennet is at your location: Fight/Evade. Either attack or attempt to evade Edwin Bennet. If you succeed, spend X clues, as a group, where X is the global number of players. Then, place 1 resource on him, as a target. (Group limit once per round.)&#10;Objective – If Edwin Bennet has 3 targets on him and he is at Tindalos, the forces of Tindalos seize him. Remove Edwin Bennet from the game and add all copies of this story card in each era to the victory display.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="e14188a4-d3d7-4c13-811c-c7b8a26a9e9b" name="Redeem a Former Colleague" size="EncounterCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Machination." />
+      <property name="Text" value="Setup: Follow the instructions for your relevant era(s), below. Then, flip this story card over.&#10;_____&#10;Past: Place Thomas Corrigan at Childhood Home. Place Mary Zielinski at O'Malley's Watch Shop. Place the Edwin Bennet asset at Arkham Gazette with 12 clues on him, then remove 3p1e clues from him.&#10;_____&#10;Present and Future: Set Thomas Corrigan and Mary Zielinski aside, out of play; they have been abducted. If you are playing in Epic Multiplayer Mode, set the Edwin Bennet asset aside, out of play." />
+      <alternate name="Redeem a Former Colleague" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Machination." />
+        <property name="Text" value="ηη: Ready and move Edwin Bennet to your location (even if he is in another era).&#10;η If Edwin Bennet is at your location: Parley. Test ά (3) or έ (3). If you succeed, spend X clues, as a group, where X is the global number of players. Then, place 1 resource on him, as a redemption.&#10;Objective – If Edwin Bennet has 3 or more redemption on him and he is at any Miskatonic University with Thomas Corrigan and Mary Zielinski, he is redeemed. Remove all redemption from him and flip him over. Add all copies of this story card in each era to the victory display.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="8fb9b0a3-40bf-4cc5-b73d-77b16bcd1b1b" name="Uneasy Alliance" size="EncounterCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Machination." />
+      <property name="Text" value="Setup: Follow the instructions for your relevant era(s), below.&#10;_____&#10;Past: Set Mary Zielinski aside, out of play; she has been abducted. Place Thomas Corrigan at Childhood Home. If you are playing Epic Multiplayer Mode, set the Edwin Bennet enemy aside, out of play.&#10;_____&#10;Present: Set Thomas Corrigan and Mary Zielinski aside, out of play; they have been abducted. Spawn the Edwin Bennet enemy at Miskatonic Univerisity.&#10;_____&#10;Future: Set Thomas Corrigan and Mary Zielinski aside, out of play; they have been abducted. If you are playing in Epic Multiplayer Mode, set the Edwin Bennet enemy aside, out of play." />
+      <alternate name="Uneasy Alliance" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Machination." />
+        <property name="Text" value="η: If Edwin Bennet is at your location and he is ready: Parley. Place 1 of your clues on him. You may test έ (4). If you succeed, place 1 more of your clues on him. If you fail, exhaust him.&#10;η: Ready and move Edwin Bennet to your location (even if he is in another era).&#10;Forced – At the end of the round: Remove 1 clue from Edwin Bennet (2 clues instead if you are playing in Epic Multiplayer Mode). If you cannot, place 1 doom on the current agenda. This effect can cause the current agenda to advance.&#10;Forced – When Edwin Bennet would be abducted: Remove all damage and horror from him and place 2 doom on the current agenda instead.&#10;Objective – If &quot;Thomas and Mary have won a Nobel Prize&quot; and there is no Plot story card in play in any era, add this story card to the victory display.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="32815239-9aa4-4fd9-a4bb-800142a5587c" name="Edwin Bennet" size="EncounterCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Single Group Mode" />
+      <property name="Subtitle" value="Bitter Adversary" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Elite." />
+      <property name="Text" value="Patrol (nearest location with a Scientist asset).&#10;Edwin Bennet cannot be damaged.&#10;Clues cannot be discovered from Edwin Bennet's location.&#10;Forced – At the end of the mythos phase: Deal 1 damage to a Scientist asset at Edwin Bennet's location." />
+      <property name="Health" value="–" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <alternate name="Edwin Bennet" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Single Group Mode" />
+        <property name="Subtitle" value="Astute Associate" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Scientist. Ally." />
+        <property name="Text" value="θ If it is your turn and you are at a Portal location, exhaust Edwin Bennet and spend 2 resources: Move to Tindalos." />
+        <property name="Health" value="2" />
+        <property name="Sanity" value="2" />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Unique" value="ο" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="f8f92cda-94dd-4cb8-a228-38b470f8b5cd" name="Edwin Bennet" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Epic Multiplayer Mode" />
+      <property name="Subtitle" value="Envious Rival" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Elite." />
+      <property name="Text" value="Patrol (nearest location with a Scientist asset).&#10;Edwin Bennet cannot be damaged.&#10;Clues cannot be discovered from Edwin Bennet's location.&#10;Forced – At the end of the mythos phase: Deal 1 damage to a Scientist asset at Edwin Bennet's location. Then, choose an investigator to draw the top card of the encounter deck." />
+      <property name="Health" value="–" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <alternate name="Edwin Bennet" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Epic Multiplayer Mode" />
+        <property name="Subtitle" value="Esteemed Colleague" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Scientist. Ally." />
+        <property name="Text" value="Forced – After Edwin Bennet exhausts: Choose an investigator to draw the top card of the encounter deck.&#10;[Reaciton] When you draw an encounter card, exhaust Edwin Bennet: Cancel all of that card's effects and discard it." />
+        <property name="Health" value="2" />
+        <property name="Sanity" value="2" />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Unique" value="ο" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="545c1c62-c420-42c4-90f9-dd6b9761729c" name="Anomalies in Spacetime" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Plot." />
+      <property name="Text" value="Setup: Place 1p1e horror on each Miskatonic University location, as anomalies. If you are playing in Epic Multiplayer Mode, also place 1p1e horror on the following locations, as anomalies: Arkham Gazette, Arkham Advertiser, O'Malley's Watch Shop, and Tick-Tock Club.&#10;Remove the following enemies from the game: Tyr'thrha, Old Sadie Sheldon, and all 3 copies of Sheldon Gang. Flip this story card over." />
+      <alternate name="Anomalies in Spacetime" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Plot." />
+        <property name="Text" value="Abilities on locations with an anomaly cannot be triggered.&#10;η Spend any number of clues: Test ά (3) or ί (3). You get +3 skill value to this test for each clue spent this way. If you succeed, remove 1 anomaly from your location (2 anomalies instead if you succeed by 3 or more). Then, if you succeed by 4 or more and &quot;Corrigan Industries has been founded,&quot; remove 1 anomaly from a location with the same title as your location, in any era.&#10;Objective – If it is agenda 2a and each location has no anomalies, add this story card to the victory display.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="fe2ce7c1-dd75-4304-a06b-88d2d8019d52" name="Mob Troubles" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Plot." />
+      <property name="Text" value="Setup: Set the Old Sadie Sheldon enemy and all 3 copies of the Sheldon Gang enemy aside, out of play. Remove the Tyr'thrha enemy from the game. You make a deal with Old Sadie Sheldon: each investigator playing the present era gains 2 resoures." />
+      <alternate name="Mob Troubles" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Plot." />
+        <property name="Text" value="η If &quot;the debt has been paid,&quot; spend 1p1e clues, as a group: Search the play area, encounter deck, or encounter discard pile for a Sheldon Gang enemy and add it to the victory display. If you searched the encounter deck, shuffle it. This action does not cause attacks of opportunity.&#10;Objective – If all 3 Sheldon Gang enemies are in the victory display, add this story card to the victory display.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="ccee5cc2-fd29-45ef-8455-2170f69376e1" name="Old Sadie Sheldon" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Subtitle" value="Bootlegging Kingpin" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Criminal. Syndicate." />
+      <property name="Text" value="Aloof.&#10;Each Sheldon Gang enemy gets +1 fight and +1 evade.&#10;η: Parley. Test έ (2). If you succeed, spend 3p1e resources, as a group, to add Old Sadie Sholdon to the victory display and announce &quot;the debt has been paid.&quot;&#10;Victory 0." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="4b917af7-30e2-4c6e-a51c-370dbe6e1323" name="Sheldon Gang" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Criminal. Syndicate. Elite." />
+      <property name="Text" value="Surge. Hunter. Massive.&#10;Sheldon Gang gets +2p1e health.&#10;Forced – After an investigator at Sheldon Gang's location plays a card: Ready Sheldon Gang and discard the top 3 cards of the encounter deck. Put each Criminal enemy discarded this pay into play at that location.&#10;Victory 0." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="c36c8b34-e92a-4d08-971d-086b6fdace71" name="Unspeakable Abomination" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Plot." />
+      <property name="Text" value="Setup: Set the Tyr'thrha enemy aside, out of play. Remove the Old Sadie Sheldon enemy and all 3 copies of the Sheldon Gang enemy from the game." />
+      <alternate name="Unspeakable Abomination" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Machinations Through Time" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Plot." />
+        <property name="Text" value="η If Tyr'thrha is at your location, spend 1 clue: Test έ (3). If you succeed, deal 2 damage to Tyr'thrha (3 damage instead if you succeed by 3 or more). This action does not provoke attacks of opportunity.&#10;Objective – If Tyr'thrha is defeated, add this story card to the victory display.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="af5c3ef6-fba7-45e8-abe9-dc58d603342c" name="Tyr'thrha" size="EncounterCard">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Ancient One. Tindalos. Elite." />
+      <property name="Text" value="Massive. Retaliate. Patrol (nearest location with a Scientist asset).&#10;*Tyr'thrha has a global health pool of 6p1e.&#10;Forced – When Tyr'thrha enters a location: Each Scientist asst at that location is abducted.&#10;Victory 0." />
+      <property name="Health" value="*" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="0" />
+    </card>
+    <card id="24a94b4f-0d01-4a4a-8818-3e74e3b0ea3d" name="Ghastly Satyr" size="EncounterCard">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensionial. Tindalos." />
+      <property name="Text" value="Patrol (nearest location with a Scientist asset).&#10;Ghastly Satyr gets +1 fight while it is at a Past location and +2 fight while it is at a Present location.&#10;Forced – At the end of the enemy phase, if Ghastly Satyr is ready: Deal 1 damage to each Scientist asset at its location." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="91894847-afd1-47f8-94c7-4e67feef6e04" name="Hound of Tindalos" size="EncounterCard">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensionial. Tindalos." />
+      <property name="Text" value="Patrol (nearest location with a Scientist asset).&#10;Ghastly Satyr gets +1 health while it is at a Present location and +2 health while it is at a Future location.&#10;Forced – At the end of the enemy phase, if Hound of Tindalos is ready: Deal 1 horror to each Scientist asset at its location, and move each Scientist asset and investigator at its location to Tindalos." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="523a78a0-f86c-415f-b134-c42f6feef4b8" name="Many-Angled Thing" size="EncounterCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensionial. Tindalos. Elite." />
+      <property name="Text" value="Spawn – Tindalos.&#10;Hunter. While Many-Angled Thing is at a...&#10;— ...Past location, it gets +1 evade and gains alert.&#10;— ...Present location, it gets +1 damage and + 1 horror.&#10;— ...Future location, it gets +1 fight and gains retaliate.&#10;Victory 1." />
+      <property name="Health" value="7" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="14f31ade-059a-4d31-99d1-ef6433830197" name="Tindalos Alpha" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensionial. Tindalos." />
+      <property name="Text" value="Alert. Retaliate.&#10;Forced – After Tindalos Alpha attacks you: Shuffle a non-story asset you control into your deck, moving all damage and horror from that asset to your investigator. Discard Tindalos Alpha.&#10;Forced – At the end of the enemy phase: Discard Tindalos Alpha." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="d596a72e-8970-43b4-b971-4fb5387598be" name="A Tear in Time" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Test ά (3). For each point you fail by, you must either lose 1 action or take 1 horror." />
+    </card>
+    <card id="f43b4799-3cb2-4f87-ba89-9fa2f19eb37c" name="Abducted" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="Peril.&#10;Revelation – If there are no Ally assets at your location, Abducted gains surge. Otherwise, test ά (5). If you fail, exhaust all Ally asset at your location and deal 5 horror to one of them." />
+    </card>
+    <card id="abd78d09-fe93-4e85-a30f-5a642fe098ba" name="Broken Space" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – If you are at a...&#10;— ...Past location, lose 3 resources.&#10;— ...Present location, place 2 of your clues on it.&#10;— ...Future location, lose 1 action." />
+    </card>
+    <card id="7455af69-bb1d-45c6-9a72-9c6a78e01ad4" name="Dimensional Breach" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard. Power." />
+      <property name="Text" value="Revelation – Attach to the nearest Portal location. Place 1 doom on Dimensional Breach.&#10;Each enemy at attached location gets +1 fight, +1 evade, and +1 health.&#10;[Aciton]: Test ά (3). If you succeed, discard Dimensional Breach." />
+    </card>
+    <card id="6cbcfd94-6600-4ed0-919e-9152e7d5ed34" name="From All Angles" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="Revelation – Test ί (4). If you fail and you are at a...&#10;— ...Past location, exhaust all assets at it.&#10;— ...Present location, take 1 direct damage. Deal 1 damage to each Ally asset at your location.&#10;— ...Future location, take 1 direct horror. Deal 1 horror to each Ally asset at your location." />
+    </card>
+    <card id="fa7155a5-f998-4034-b0b6-463e0cd0a2f9" name="Lost in Time" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Shuffle a non-story asset you control into your deck, moving all damage and horror from that asset to your investigator. If no asset is shuffle into your deck by this deck, choose and discard 3 cards from your hand." />
+    </card>
+    <card id="08b90b20-a674-4a53-9a2c-5172c0b104f2" name="Merging Timelines" size="EncounterCard">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – Discard the top 5 cards of your deck. For each card in your hand that matches one of the discarded cards (by title), discard that card from your hand and lose 1 action. Shuffle each weakness discarded by this effect into your deck." />
+    </card>
+    <card id="6731ec89-9f83-42a4-957f-eef3d01a1f88" name="Open Portal" size="EncounterCard">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Take 1 damage. Test ί (3). If you fail, take 1 additional damage and move to Tindalos." />
+    </card>
+    <card id="85dc9c54-ef49-4f84-a671-1204ab3d6603" name="Temporal Distortion" size="EncounterCard">
+      <property name="Card Number" value="56" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="Revelation – Attach to the current agenda.&#10;Abilities on story cards cannot be triggered.&#10;η: If you are at a Past location, you may test ά (2). If you are at a Present location, you may test ί (3). If you are at a Future location, you may test ή (4). If you succeed at 1 or more of these test, discard Temporal Distortion." />
+    </card>
+    <card id="ee19f98b-2f5c-4636-9b5b-4cbcdd13dd16" name="Vanishing History" size="EncounterCard">
+      <property name="Card Number" value="57" />
+      <property name="Quantity" value="3" />
+      <property name="Encounter Set" value="Machinations Through Time" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex." />
+      <property name="Text" value="Revelation – You must decide (choose one):&#10;— Discard a non-story Item asset you control.&#10;— Choose and discard 3 non-weakness cards from your hand." />
+    </card>
+  </cards>
+</set>
