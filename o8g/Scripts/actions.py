@@ -1542,7 +1542,7 @@ def swapCard(card):
         return
     draw(card.controller.deck)
     card.moveTo(card.controller.deck)
-    notify("{} swaps {} with the top card of his/her deck.".format(card.controller, card))
+    notify("{} swaps {} with the top card of their deck.".format(card.controller, card))
 
 def sumVictory():
     v = 0
