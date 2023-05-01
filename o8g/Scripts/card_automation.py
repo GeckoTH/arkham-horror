@@ -935,8 +935,8 @@ def defaultAction(card, x = 0, y = 0):
         illicits = [c for c in card.controller.deck if "Illicit" in c.Traits]
         dlg = cardDlg(illicits)
         dlg.title = "Underworld Market"
-        dlg.text = "Select up to 10 Illicit cards:"
-        dlg.min = 0
+        dlg.text = "Select 10 Illicit cards:"
+        dlg.min = 10
         dlg.max = 10
         cardsSelected = dlg.show()
         if cardsSelected != None:

@@ -59,37 +59,8 @@ def doInvestigationPhase():
     isAmanda = filter(lambda card: (card.Name == "Amanda Sharpe" and card.Type == "Investigator" and card.controller == me and not isLocked(card) and inGame(card.controller)), table)
     isJoe = filter(lambda card: (card.Name == "Joe Diamond" and card.Type == "Investigator" and card.controller == me and not isLocked(card) and inGame(card.controller)) , table)
     familyInheritance = filter(lambda card: card.Name == "Family Inheritance" and card.controller == me, table)
-    underworldMarket = filter(lambda card: (card.Name == "Underworld Market" and card.controller == me and not isLocked(card) and inGame(card.controller)) , table)
     if familyInheritance:
         familyInheritance[0].markers[Resource] += 4
-    if underworldMarket:
-        secondaryDeck = me.piles['Secondary Deck']
-        myInvestigator = firstInvestigator(me)
-        if len(secondaryDeck) > 0 and myInvestigator.markers[Resource] > 0:
-
-            # Show a dialog with the top two cards in the Sideboard
-            if len(secondaryDeck) == 1:
-                umChoiceCards = [secondaryDeck[0]]
-            else:
-                umChoiceCards = [secondaryDeck[0], secondaryDeck[1]]
-            dlg = cardDlg(umChoiceCards)
-            dlg.title = "Underworld Market"
-            dlg.text = "Select 1 card to \"buy\":"
-            dlg.min = 0
-            dlg.max = 1
-            cardsSelected = dlg.show()
-            boughtCard = None
-            if cardsSelected is not None and len(cardsSelected) > 0:
-                boughtCard = cardsSelected[0]
-                boughtCard.moveTo(me.hand)
-                myInvestigator.markers[Resource] -= 1
-                notify("{} 'buys' 1 card from {}".format(me, underworldMarket[0]))
-
-            # The remaining cards go to the bottom of the deck.
-            for c in umChoiceCards:
-                if not (boughtCard is not None and boughtCard == c):
-                    c.moveToBottom(secondaryDeck)
-
     if isAmanda:
         for c in table: #Find Amanda on table
             if c.name == "Amanda Sharpe" and c.type == "Investigator":
