@@ -235,7 +235,7 @@ def defaultAction(card, x = 0, y = 0):
         searchTopDeck(card.controller.deck, card.controller.hand, traits="Spell")
     elif card.Name == "Prescient":
         notify("{} uses {} to move back a Spell from the discard pile to his/her hand.".format(card.controller, card))
-        searchTopDeck(card.controller.piles['Discard Pile'], card.controller.hand, traits="Item")
+        searchTopDeck(card.controller.piles['Discard Pile'], card.controller.hand, traits="Spell")
     elif card.Name == "Olive McBride":
         exhaust (card, x, y)
         drawXChaosTokens(chaosBag(), x = 0, y = 0)
@@ -643,8 +643,9 @@ def defaultAction(card, x = 0, y = 0):
         if cardsSelected != None:
             inc = 0
             for c in cardsSelected:
-                c.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                c.moveToTable(cardToAttachTo[0], cardToAttachTo[1], True)
                 c.sendToBack()
+                c.peek()
                 if len(cardsSelected) == 1:
                     cardToAttachTo = None
                 else:
@@ -709,6 +710,8 @@ def defaultAction(card, x = 0, y = 0):
 #           Seeker Cards                    #
 #                                           #
 #############################################      
+    elif card.Name == "Captivating Discovery":
+        searchTopDeck(card.controller.deck, card.controller.hand, 6)
     elif card.Name == "Ancestral Knowledge" and not card.Subtype == "Locked": # Using Locked to prevent an additional trigger
         shuffle(card.controller.deck)
         notify("{} uses {} to attach 5 random skills to it.".format(card.controller, card))
@@ -928,6 +931,24 @@ def defaultAction(card, x = 0, y = 0):
 #           Rogue Cards                     #
 #                                           #
 ############################################# 
+    elif card.Name == "Underworld Market" and not isLocked(card) and not card.Subtype == "Locked": # Locking to prevent an additional trigger
+        illicits = [c for c in card.controller.deck if "Illicit" in c.Traits]
+        dlg = cardDlg(illicits)
+        dlg.title = "Underworld Market"
+        dlg.text = "Select up to 10 Illicit cards:"
+        dlg.min = 0
+        dlg.max = 10
+        cardsSelected = dlg.show()
+        if cardsSelected != None:
+            for c in cardsSelected:
+                c.moveTo(card.controller.piles['Secondary Deck'])
+            card.Subtype = 'Locked'
+            notify("{} uses {} to put {} Illicit cards in secondary deck.".format(card.controller, card, len(cardsSelected)))
+            shuffle(card.controller.piles['Secondary Deck'])
+        shuffle(card.controller.deck)
+        if 1 == askChoice('Draw opening hand ?'
+			, ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
+            drawOpeningHand()
     elif card.Name == "Lucky Cigarette Case" and card.Level == "0":
         exhaust (card, x, y)
         draw(card.controller.deck)
@@ -951,6 +972,8 @@ def defaultAction(card, x = 0, y = 0):
 #           Survivor Cards                  #
 #                                           #
 ############################################# 
+    elif card.Name == "Salvage":
+        searchTopDeck(card.controller.piles['Discard Pile'], card.controller.hand, traits="Item")
     elif card.Name == "Rabbit's Foot" and card.Level == "0":
         exhaust (card, x, y)
         draw(card.controller.deck)
@@ -1093,6 +1116,16 @@ def defaultAction(card, x = 0, y = 0):
             if skill is not None:
                 skill[0].moveToTable(card.position[0], card.position[1] - 100)
                 skill[0].select()
+    elif card.Name == "Short Supply":
+        discardedCardCount = 0
+        for i in range(0, 10):
+            if len(card.controller.deck) > 0 :
+                discardedCardCount += 1 
+                c = card.controller.deck[0]
+                c.moveTo(card.controller.piles['Discard Pile'])
+            else:
+                break
+        notify("{} discards the top {} cards of his/her deck due to Short Supply.".format(card.controller, discardedCardCount))
 #############################################
 #                                           #
 #           Neutral Cards                   #
@@ -1150,6 +1183,14 @@ def defaultAction(card, x = 0, y = 0):
             if not card.markers[Bless]:
                 notify("{} has no Bless tokens left and is discarded.".format(card))
                 discard(card)
+    elif card.Name == "Day of Reckoning":
+        if card.Subtype != "Locked":
+            attachTo(card)
+            elderSign = [cT for cT in chaosBag() if "Elder Sign" in cT.Name]
+            if elderSign:
+                remoteCall(elderSign[0].controller, "sealTokenToTable",[elderSign[0], cardToAttachTo[0], cardToAttachTo[1], me])
+                card.Subtype = "Locked"
+                cardToAttachTo = None
     else:
         if ("Exhaust " + str(card.Name) in card.Text) or (" exhaust " + str(card.Name) in card.Text):
             exhaust(card, x, y)

@@ -114,7 +114,7 @@ def phasePassed(args):
         phase = "Upkeep"
         remoteCall(me, "doUpkeepPhase", [False])
         setGlobalVariable("allowUpkeepPhase", "False")
-        
+
     saveTable(phase)
 
 def turnPassed(args):
@@ -1034,6 +1034,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         # Check if Stick to the Plan or Ancestral Knowledge is in the deck
         sttp = filter(lambda card: "Stick to the Plan" in card.Name, me.deck)
         ancestralKnowledge = filter(lambda card: "Ancestral Knowledge" in card.Name, me.deck)
+        hasUnderworldMarket = filter(lambda card: "Underworld Market" in card.Name, me.deck)
         haveForcedLearning = filter(lambda card: "Forced Learning" in card.Name, me.deck)
         if haveForcedLearning:
             me.counters['Card Draw'].value = 2
@@ -1096,11 +1097,13 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         
         if newInvestigator:
             if len(me.hand) == 0 or DarkInsight: 
+                if hasUnderworldMarket:
+                    whisper("Underworld Market available")
                 if sttp: 
                     whisper("Stick to the Plan available")
                 if ancestralKnowledge:
                     whisper("Ancestral Knowledge available")
-                if not (sttp or ancestralKnowledge): #Only draws opening hand if no Stick to the Plan or Ancestral Knowledge available
+                if not (sttp or ancestralKnowledge or hasUnderworldMarket): #Only draws opening hand if no Stick to the Plan, Ancestral Knowledge, or Underworld Market available
                     drawOpeningHand()
                     
             # Check for starting resources modifiers
