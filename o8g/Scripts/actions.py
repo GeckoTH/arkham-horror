@@ -1204,6 +1204,8 @@ def loadClues(card):
         notify("{} adds {} clue(s) on '{}'".format(me, str(card.Clues),card.Name))        
         if 'π' in card.Clues:
             nbClue = countInvestigators() * int((card.Clues).replace('π', ''))
+        elif not card.Clues.isdigit():
+            nbClue = 0
         else:
             nbClue = int(card.Clues)    
         for i in repeat(None, nbClue):
