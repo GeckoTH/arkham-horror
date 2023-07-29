@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="On the Road Again" id="8c0f243d-8783-40de-a48c-d6af0e50e822" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="47b6c3d1-59fc-46f9-be13-5e85765d1483" name="&quot;Ashcan&quot; Pete" size="InvestigatorCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Drifter" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Drifter." />
+      <property name="Text" value="You begin the game with Pete's Guitar in play.&#10;ι When a card you own that is attached to a scenario card would be discarded: Add it to your hand instead. (Limit once per round.)&#10;ε effect: +1. Choose a card you own attached to a scenario card. You may return the chosen card to your hand." />
+      <property name="Health" value="7" />
+      <property name="Sanity" value="7" />
+      <property name="Class" value="Survivor" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="&quot;Ashcan&quot; Pete" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Drifter" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Survivor cards (ξ) level 0-3, Improvised and Tactic cards level 0-4, Neutral cards level 0-5, up to 5 other Guardian cards (κ) level 0.&#10;Deckbuilding Requirements (do not count toward deck size): Duke, Wracked by Nightmares, 1 random basic weakness." />
+        <property name="Class" value="Survivor" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="4de97427-3808-48e0-8ca6-f662d9bca88b" name="Pete's Guitar">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Still Holdin' Up" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Instrument." />
+      <property name="Text" value="&quot;Ashcan&quot; Pete deck only. Replacement.&#10;θ Exhaust Pete's Guitar: Choose a non-Elite enemy at your location or a connecting location. Move that enemy once in a direction of your choice. Then, if there no enemies at your location, either heal 1 horror or gain 1 resource." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a906e205-7daa-467e-bae6-c5d89a7274d0" name="Hard Times" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Hardship." />
+      <property name="Text" value="Replacement.&#10;Revelation – Put Hard Times into play in your threat area.&#10;Forced – After you draw 1 or more cards: Choose and discard that many cards from your hand.&#10;ηη: Discard Hard Times." />
+      <property name="Class" value="Neutral" />
+    </card>
+  </cards>
+</set>
