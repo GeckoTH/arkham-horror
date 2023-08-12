@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Blob That Ate Everything ELSE!" id="057908fd-8b60-42c6-b39b-ee10078c83bd" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="6b9a401f-0930-4129-9293-092e5baf03be" name="Subject 5U-21" size="InvestigatorCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Anomaly" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Manifold." />
+      <property name="Text" value="You begin the game with Ravenous (Controlled Hunger) in play.&#10;During each upkeep phase, draw 1 additional card and devour a non-weakness player card in your hand.&#10;θ: Devour a non-story card controlled by an investigator at your location. (Limit once per round.)&#10;ε effect: +2. After this test ends, you may add a devoured card to its owner's hand." />
+      <property name="Health" value="6" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Neutral" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Unique" value="ο" />
+      <alternate name="Subject 5U-21" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Anomaly" />
+        <property name="Type" value="Investigator" />
+        <property name="Traits" value="Manifold." />
+        <property name="Text" value="Deck Size: 50.&#10;Deckbuilding Options: Neutral cards level 0-5, cards from any class level 0.&#10;Deckbuilding Requirements (do not count toward deck size): Ravenous, 3 copies of Regurgitation, 3 copies of Reality Acid, 2 random basic weakness.&#10;Deckbuilding Restrictions: No permanents except story and signature permanents.&#10;Additional Requirements: Your deck must include at least 7 cards from each class (κ, λ, ν, μ, and ξ).&#10;Additional Upgrade Options: After each scenario ends, separate each card you devoured (beneath Ravenous and set-aside) by class. Before the next scenario in this campaign, you may spend experience to purchase or upgrade 1 or more cards of any level from the class with the most devoured cards (if there is a tie, choose one)." />
+        <property name="Class" value="Neutral" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="a06c59f2-64c3-445f-9815-7ca7d20d35e8" name="Ravenous">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Controlled Hunger" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Subject 5U-21 deck only. Permanent.&#10;Each time you devour a card, place it facedown beneath Ravenous. You get +1 to each of your skills for each card beneath Ravenous (max +5).&#10;Forced – If there are 5 or more cards beneath Ravenous: Flip it over." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="Ravenous" type="B">
+        <property name="Subtitle" value="Uncontrolled Hunger" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Talent." />
+        <property name="Text" value="Subject 5U-21 deck only. Permanent.&#10;Each time you devour a card, set it aside, out of play. You get +1 to each of your skills for each card beneath Ravenous (max +5).&#10;Forced – At the end of your turn: Devour a non-story card beneath Ravenous or controlled by an investigator at your location. If there is nothing beneath Ravenous, flip it over." />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="15ba54ab-bc99-4520-b44a-78c54c806120" name="Regurgitation">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Subject 5U-21 deck only.&#10;Fast. Play only during your turn.&#10;If Ravenous (Uncontrolled Hunger) is face up, flip it over. Choose and return up to 3 cards you devoured (beneath Ravenous or set-aside) to their owners' hands. For each returned in this way, heal 1 damage or 1 horror." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="04e93c74-8277-46fd-ac3b-e741f8ef4e7d" name="Reality Acid">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Weakness" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Revelation – If Ravenous (Controlled Hunger) is face up, flip it over. You devour a random aspect of reality. Reveal a random chaos token from the chaos bag and consult the Reality Acid reference card to determine what you devoured." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="10e34661-f8bf-4a40-b414-320ea3e1681c" name="Reality Acid">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="SUBJECT 5U-21 DEVOURS...&#10;(If the chaos token revealed is not listed, or if the listed aspect cannot be devoured, reveal a new chaos token and consult the list again.)&#10;— ε: ...a non-Elite enemy or treachery, at your location and worth no victory points.&#10;— +1: ...the top card of each investigator's discard pile.&#10;— 0: ...the top card of each investigator's deck.&#10;— –1: ...1 card at a random from your hand.&#10;— –2: ...a non-story, non-weakness asset controlled by an investigator at your location.&#10;— –3: ...a player card attached to your location, or attached to an encounter card at your location.&#10;— –4: ...the top 2 cards of each investigator's deck.&#10;— –5: ...3 cards of your choice from your hand." />
+      <alternate name="Reality Acid" type="B">
+        <property name="Type" value="Story" />
+        <property name="Text" value="SUBJECT 5U-21 DEVOURS...&#10;(If the chaos token revealed is not listed, or if the listed aspect cannot be devoured, reveal a new chaos token and consult the list again.)&#10;— –6: ...all events from each investigator's hand.&#10;— –7: ...1 non-story, non-weakness asset from each investigator's play area.&#10;— –8: ...a non-weakness signature card in any player's deck, hand, discard pile, or play area.&#10;— α: ...1 card beneath Ravenous, at random.&#10;— β: ...each card committed to each skill test at your location (after the test ends), until the end of the next investigation phase.&#10;— γ: ...each event played by investigators at your location, until the end of the next investigation phase.&#10;— δ: ...the player card at your location with the most evidence, supplies, ammo, charges, or secrets on it.&#10;— ζ: Reveal 3 more chaos tokens and resolve each of those devour effects." />
+      </alternate>
+    </card>
+    <card id="4a467457-f3b0-423d-aaea-e22d980d3107" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Main Street" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="While an investigator is moving, Main Street is connected to each Slimy Streets location, and vice versa.&#10;η: You and an investigator in another group who is at another copy of Main Street disengage from each engaged enemy and swap groups. Both investigators must activate this ability simultaneously. (Group limit once per game.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="e62b05e0-9457-4a12-829e-3780b6664d35" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Old Burial Hill" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="Forced – After a Manifold enemy spawns at Old Burial Hill: Exhaust that enemy. For the remainder of the round, if that enemy is defeated, discover clues at Old Burial Hill equal to the value of its Blob X keyword, instead of dealing X damage to Subject 8L-08." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="de66a680-44cc-4688-8267-41c77e153d1a" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Abandoned Windmill" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="η: Investigate. Abandoned Windmill gets –4 shroud for this investigation. If you succeed, instead of discovering clues, move each clue you would discover to a Research Site or Temporary HQ in any group." />
+        <property name="Shroud" value="5" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="8aa2b2f1-912c-458e-ab89-76768c7f3b6c" name="Quarantine Zone" size="EncounterCard">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Oozified." />
+      <alternate name="Abbatoir" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Oozified." />
+        <property name="Text" value="η: If there are no clues on Abbatoir: Test ί (3) to bait the creatures here. If you succeed, move each Ooze enemy twice toward Abbatoir. For the remainder of the round, increase the Blob X value of each enemy moved by this effect by 2. (Max one success per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="921c5e31-f853-43c5-b168-71cf55ea20c7" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – If you spot a Manifold enemy with exactly 1 remaining health, discard it and spawn this enemy exhausted in its place (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="bb671254-bd79-453c-969d-703874057e96" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – If you spot an Oozeling failing to spawn because its spawn location does not exist, discard it and spawn this enemy exhausted at any location instead (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="20a9b94c-7d83-43a2-8ae1-29a799cfdede" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – When you spot a Manifold enemy being defeated with excess damage, spawn this enemy exhausted in its place (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="ca2f31f0-6cc8-48af-a6d2-a59b2f2d6a3c" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – After you spot a the last clue being discovered from an Oozified location, spawn this enemy exhausted at that location (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="2129bb4e-2c46-4e7b-9bfc-a1854395dbaf" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – If you spot an investigator 3 or more locations away from the nearest other investigator, spawn this enemy exhausted and engaged with the investigator (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="b78fbc8e-aaef-4248-abf0-b0a2793767e3" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – After you spot an asset being defeated by an Ooze enemy's attack, discard that enemy and spawn this enemy exhausted in its place (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="bdd72705-9a22-4dc7-8fd9-a5f0e6340ce7" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – If you spot a copy of &quot;It's got me!&quot; in an investigator's threat area with 3 or more resources on it, spawn this enemy exhausted and engaged with them (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="33465615-ce5f-4eaf-a888-18d0b70349b1" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – If you spot a copy an enemy with a copy of Alien Food Chain attached, spawn this enemy exhausted at any location and attach that copy of Alien Food Chain to it (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="b6135b09-5ce7-42b0-96bd-15302b8699d6" name="Replicating Aberration" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="The Blob That Ate Everything Else" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Ooze. Manifold." />
+      <property name="Text" value="Replicate – If you spot an investigator at a location with a copy of Sticky Feet attached to it, spawn this enemy exhausted at that location (unless the investigators spend a countermeasure).&#10;Hunter.&#10;Forced – When Replicating Aberration leaves play: Return it to the event organizer.&#10;Blob 3." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="27cfe880-092b-4660-a88e-84b249ac5889" name="Escort the Car">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Part 1." />
+      <property name="Text" value="Revelation – Put the set-aside Armored Car into play at the location farthest from the Fungus Mound. Spawn the set-aside Mi-Go Destroyer enemy at the Fungus Mound. Put this card into play next to the act deck.&#10;Forced – After Armored Car enters the Fungus Mound: Remember that &quot;the car reached its target.&quot; Flip this card over.&#10;Forced – If Armored Car is defeated or devoured: Remember that &quot;the escort failed&quot;. Flip this card over." />
+      <alternate name="Escort the Car" type="B">
+        <property name="Encounter Set" value="Mi-Go Incursion II" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Part 2." />
+        <property name="Text" value="Read only if &quot;the escort failed:&quot;&#10;Remove Mi-Go Destroyer, Armored Car, and this card from the game. Each investigator takes 1 damage. Lose 1 countermeasure.&#10;___&#10;Read only if &quot;the car reached its target:&quot;&#10;Put the set-aside G-Men story asset into play under any investigator's control. Remove Armored Car from the game. Add Mi-Go Destroyer and this card to the victory display. Deal 5 damage to Subject 8L-08.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="9991e9bd-76f2-4796-adfc-7d406c8cfb8d" name="Armored Car" size="EncounterCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Vehicle." />
+      <property name="Text" value="During the enemy phase, each ready enemy at Armored Car's location attacks it, instead of any other target.&#10;During the investigation phase, investigators at this location may spend 1pie actions, as a group, to move Armored Car to a connecting location." />
+      <property name="Health" value="5" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2a74b869-a668-4dd3-ad56-1be1e819080f" name="Mi-Go Destroyer" size="EncounterCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Mi-Go. Elite." />
+      <property name="Text" value="While Mi-Go Destroyer is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: Move Mi-Go Destroyer once toward Armorded Car.&quot;&#10;While attacking Armored Car, Mi-Go Destroyer deals +2 damage.&#10;Victory 1." />
+      <property name="Health" value="3pie" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="09ad5750-dab7-49a5-8bc8-a8292b7dc1e0" name="Reclaim the Brain" size="EncounterCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Part 1." />
+      <property name="Text" value="Revelation – Spawn the set-aside Mi-Go Scientist enemy at the location farthest from the Fungus Mound. Attach the set-aside Brain Case asset to Mi-Go Scientist. Put this card into play next to the act deck.&#10;Forced – If Brain Case is at Research Site and under and investigator's control: Remember that &quot;the brain was recovered.&quot; Flip this card over.&#10;Forced – If Brain Case is at Fungus Mound and attached to Mi-Go Scientist: Remember that &quot;the brain was taken.&quot; Flip this card over." />
+      <alternate name="Reclaim the Brain" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Mi-Go Incursion II" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Part 2." />
+        <property name="Text" value="Read only if &quot;the brain was taken:&quot;&#10;Remove Mi-Go Scientist, Brain Case, and this card from the game. The investigators, as a group, return 3 of their clues to the token pool.&#10;___&#10;Read only if &quot;the brain was recovered:&quot;&#10;Put the set-aside Corrosive Cloud story asset into play under any investigator's control. Remove Brain Case from the game. Add Mi-Go Scientist and this card to the victory display. Any investigator discovers 1 clue each from up to 2 locations. Gain 1 countermeasure.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="d58149e2-427b-4fc9-8f52-8d988fb0bbf9" name="Mi-Go Scientist" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Mi-Go. Elite." />
+      <property name="Text" value="While Mi-Go Scientist is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: Move Mi-Go Scientist once toward the Fungust Mound. Otherwise, move Mi-Go Scientist once toward Brain Case's location, and if it is at Brain Case's location, attach Brain Case to it (if it is under an investigator's control, they lose control of it).&quot;&#10;Victory 1." />
+      <property name="Health" value="2pie" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="12cd8a93-ce86-4aab-a3c9-9963f32c27c9" name="Brain Case" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Science." />
+      <property name="Text" value="If uncontrolled and unattached, attach Brain Case to its location.&#10;While attached to a location or an exhausted enemy, Brain Case gains: &quot;η: Test έ or ί (6). If you succeed, detach Brain Case and take control of it.&quot;" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e806a4f4-7cd3-46e8-9e9a-f572686524f4" name="Prevent Their Research">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Story" />
+      <property name="Traits" value="Part 1." />
+      <property name="Text" value="Revelation – Spawn both set-aside Mi-Go Researcher enemies, one at the Fungus Mound, and the other at the location farthest from the Fungus Mound. Put this card into play next to the act deck.&#10;Forced – If there are no Mi-Go Researcher enemies in play: Remember that &quot;the Mi-Go research was stopped.&quot; Flip this card over.&#10;Forced – If there are 6 resources on this story card: Remember that &quot;the Mi-Go completed their research.&quot; Flip this card over." />
+      <alternate name="Prevent Their Research" type="B">
+        <property name="Encounter Set" value="Mi-Go Incursion II" />
+        <property name="Type" value="Story" />
+        <property name="Traits" value="Part 2." />
+        <property name="Text" value="Read only if &quot;the Mi-Go completed their research:&quot;&#10;Remove both Mi-Go Researchers and this card from the game. Each Ooze enemy that was researched readies and heals all damage on it. An investigator returns 1 of their clues to the token pool.&#10;___&#10;Read only if &quot;the Mi-Go research was stopped:&quot;&#10;Put the set-aside Alien Instruments story asset into play under any investigator's control. Add both Mi-Go Researchers and this card to the victory display. Until the end of the game, each Mi-Go enemy gets –2 health and –2 evade. Any investigator discover 1 clue at any revealed location.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="cda6016d-6cbb-40c3-b375-3b6ecee99515" name="Mi-Go Researcher" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="2" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Mi-Go. Elite." />
+      <property name="Text" value="Aloof.&#10;While Mi-Go Researcher is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: Move Mi-Go Researcher once toward the nearest Ooze enemy that has not been researched. For each such enemy at its location, place 1 resource on Prevent Their Research and 1 resource on that enemy; that enemy is 'researched.'&quot;&#10;Victory 1." />
+      <property name="Health" value="2pie" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="f7040d8b-2ff3-4a82-bd29-49502f4cd7c0" name="G-Men">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Subtitle" value="Top Secret Ops" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Agency." />
+      <property name="Text" value="You get +1 to all skills.&#10;ι When you would fail a skill test by exactly 1: Play G-Men from your hand. (This may cause the test to succeed.)&#10;Forced – At the end of the phase: Return G-Men to your hand." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bd735d2a-378c-40a4-93d3-2e9780146fad" name="Corrosive Cloud">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (3 charges).&#10;η Spend 1 charge: Evade. If you succeed, automatically evade each enemy at your location and deal 1 damage to each of them. If a α, β, γ, δ, or ζ symbol is revealed during this test, each investigator at your location takes 1 damage and loses 1 action." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="2" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e510d9dd-9e35-4295-b17e-3fc7e40a967c" name="Alien Instruments">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Mi-Go Incursion II" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool. Science." />
+      <property name="Text" value="η: Investigate. Choose an exhausted Creature or Monster enemy at your location. The difficulty of this skill test is equal to the chosen enemy's evade value. If you succeed, deal 1 damage to the chosen enemy and discover 1 additional clue at your location." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8a0749c2-7a26-4935-bc0c-92c7efb77923" name="Subject 5U-21" size="Minicard">
+      <property name="Card Number" value="999" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Mini" />
+      <property name="Class" value="Neutral" />
+      <alternate name="Subject 5U-21" type="B" size="Minicard">
+        <property name="Type" value="Mini" />
+        <property name="Class" value="Neutral" />
+      </alternate>
+    </card>
+  </cards>
+</set>
