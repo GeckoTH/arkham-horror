@@ -275,7 +275,7 @@
       <property name="Encounter Set" value="Mi-Go Incursion II" />
       <property name="Type" value="Asset" />
       <property name="Traits" value="Vehicle." />
-      <property name="Text" value="During the enemy phase, each ready enemy at Armored Car's location attacks it, instead of any other target.&#10;During the investigation phase, investigators at this location may spend 1pie actions, as a group, to move Armored Car to a connecting location." />
+      <property name="Text" value="During the enemy phase, each ready enemy at Armored Car's location attacks it, instead of any other target.&#10;During the investigation phase, investigators at this location may spend 1π actions, as a group, to move Armored Car to a connecting location." />
       <property name="Health" value="5" />
       <property name="Sanity" value="–" />
       <property name="Class" value="Neutral" />
@@ -290,7 +290,7 @@
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Mi-Go. Elite." />
       <property name="Text" value="While Mi-Go Destroyer is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: Move Mi-Go Destroyer once toward Armorded Car.&quot;&#10;While attacking Armored Car, Mi-Go Destroyer deals +2 damage.&#10;Victory 1." />
-      <property name="Health" value="3pie" />
+      <property name="Health" value="3π" />
       <property name="Combat" value="5" />
       <property name="Agility" value="2" />
       <property name="Damage" value="1" />
@@ -319,7 +319,7 @@
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Mi-Go. Elite." />
       <property name="Text" value="While Mi-Go Scientist is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: Move Mi-Go Scientist once toward the Fungust Mound. Otherwise, move Mi-Go Scientist once toward Brain Case's location, and if it is at Brain Case's location, attach Brain Case to it (if it is under an investigator's control, they lose control of it).&quot;&#10;Victory 1." />
-      <property name="Health" value="2pie" />
+      <property name="Health" value="2π" />
       <property name="Combat" value="3" />
       <property name="Agility" value="3" />
       <property name="Damage" value="1" />
@@ -357,7 +357,7 @@
       <property name="Type" value="Enemy" />
       <property name="Traits" value="Monster. Mi-Go. Elite." />
       <property name="Text" value="Aloof.&#10;While Mi-Go Researcher is ready, it gains:&#10;&quot;Forced – At the start of the enemy phase: Move Mi-Go Researcher once toward the nearest Ooze enemy that has not been researched. For each such enemy at its location, place 1 resource on Prevent Their Research and 1 resource on that enemy; that enemy is 'researched.'&quot;&#10;Victory 1." />
-      <property name="Health" value="2pie" />
+      <property name="Health" value="2π" />
       <property name="Combat" value="3" />
       <property name="Agility" value="3" />
       <property name="Damage" value="1" />
@@ -406,14 +406,14 @@
       <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="8a0749c2-7a26-4935-bc0c-92c7efb77923" name="Subject 5U-21" size="Minicard">
-      <property name="Card Number" value="999" />
-      <property name="Quantity" value="1" />
-      <property name="Type" value="Mini" />
-      <property name="Class" value="Neutral" />
-      <alternate name="Subject 5U-21" type="B" size="Minicard">
-        <property name="Type" value="Mini" />
-        <property name="Class" value="Neutral" />
+	<card id="8a0749c2-7a26-4935-bc0c-92c7efb77923" name="Subject 5U-21" size="MiniCard">
+      <property name="Card Number" value="999"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Neutral"/>
+	  <alternate name="Subject 5U-21" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Neutral"/>
       </alternate>
     </card>
   </cards>
