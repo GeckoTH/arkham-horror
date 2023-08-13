@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="9a093876-c2ec-4016-a76e-1ed71f19cea8">Into the Void</card>
+    <card qty="1" id="baa2e726-e282-4e6a-9576-4387edfa9552">Time Marches On</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="8bc4af31-a311-48b5-8c3f-568451a0a916">Walking Through Time</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="24a94b4f-0d01-4a4a-8818-3e74e3b0ea3d">Ghastly Satyr</card>
+    <card qty="4" id="91894847-afd1-47f8-94c7-4e67feef6e04">Hound of Tindalos</card>
+    <card qty="1" id="523a78a0-f86c-415f-b134-c42f6feef4b8">Many-Angled Thing</card>
+    <card qty="1" id="14f31ade-059a-4d31-99d1-ef6433830197">Tindalos Alpha</card>
+    <card qty="2" id="d596a72e-8970-43b4-b971-4fb5387598be">A Tear in Time</card>
+    <card qty="3" id="f43b4799-3cb2-4f87-ba89-9fa2f19eb37c">Abducted</card>
+    <card qty="3" id="abd78d09-fe93-4e85-a30f-5a642fe098ba">Broken Space</card>
+    <card qty="2" id="7455af69-bb1d-45c6-9a72-9c6a78e01ad4">Dimensional Breach</card>
+    <card qty="3" id="6cbcfd94-6600-4ed0-919e-9152e7d5ed34">From All Angles</card>
+    <card qty="1" id="fa7155a5-f998-4034-b0b6-463e0cd0a2f9">Lost in Time</card>
+    <card qty="2" id="08b90b20-a674-4a53-9a2c-5172c0b104f2">Merging Timelines</card>
+    <card qty="3" id="6731ec89-9f83-42a4-957f-eef3d01a1f88">Open Portal</card>
+    <card qty="2" id="85dc9c54-ef49-4f84-a671-1204ab3d6603">Temporal Distortion</card>
+    <card qty="3" id="ee19f98b-2f5c-4636-9b5b-4cbcdd13dd16">Vanishing History</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="cfb8621f-5fa4-404d-856f-339f308258b9">A Bitter Rivalry</card>
+    <card qty="1" id="e14188a4-d3d7-4c13-811c-c7b8a26a9e9b">Redeem a Former Colleague</card>
+    <card qty="1" id="8fb9b0a3-40bf-4cc5-b73d-77b16bcd1b1b">Uneasy Alliance</card>
+    <card qty="1" id="545c1c62-c420-42c4-90f9-dd6b9761729c">Anomalies in Spacetime</card>
+    <card qty="1" id="fe2ce7c1-dd75-4304-a06b-88d2d8019d52">Mob Troubles</card>
+    <card qty="1" id="c36c8b34-e92a-4d08-971d-086b6fdace71">Unspeakable Abomination</card>
+    <card qty="1" id="9cf210b4-0830-47ae-93da-ecf2b5686dd4">Thomas Corrigan</card>
+    <card qty="1" id="81ce9a51-ec8d-4dea-af76-d660f1672905">Mary Zielinski</card>
+    <card qty="1" id="594017ad-07f0-4311-b3a0-3e171c2d616f">Ezra Graves</card>
+    <card qty="1" id="f8f92cda-94dd-4cb8-a228-38b470f8b5cd">Edwin Bennet</card>
+    <card qty="1" id="ccee5cc2-fd29-45ef-8455-2170f69376e1">Old Sadie Sheldon</card>
+    <card qty="3" id="4b917af7-30e2-4c6e-a51c-370dbe6e1323">Sheldon Gang</card>
+    <card qty="1" id="af5c3ef6-fba7-45e8-abe9-dc58d603342c">Tyr'thrha</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="01b7fd7d-7de0-42a8-98f5-c4bb1d7e6a25">Machinations Through Time</card>
+    <card qty="1" id="7c4ce164-233b-4434-bfef-4ad9ec4ca8d7">Tindalos</card>
+    <card qty="1" id="e294a523-a41c-46df-adb3-a5fecb08d609">Arkham Advertiser</card>
+    <card qty="1" id="99a24157-f933-4c62-a67e-b08981159894">Tick-Tock Club</card>
+    <card qty="1" id="38f00ff4-ba26-4e82-8cdc-2ab6bdc2dd48">River Docks</card>
+    <card qty="1" id="745503d5-33ce-4650-a455-640f0ae5a7bd">Miskatonic University</card>
+    <card qty="1" id="5b5d424c-96bb-4d2e-82fe-59e32b03cebe">Ye Olde Magick Shoppe</card>
+    <card qty="1" id="bfd2731e-2920-4152-92cc-cd32af3cb3a0">A Noble Legacy (Present)</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
