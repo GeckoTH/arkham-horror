@@ -142,7 +142,7 @@
       <property name="Slot" value="Hand" />
       <property name="Skill Icons" value="έέ" />
     </card>
-    <card id="21b12cda-3b0d-4c67-b9c7-8ba7a26033f5" name="Gravedigger’s Shovel">
+    <card id="21b12cda-3b0d-4c67-b9c7-8ba7a26033f5" name="Gravedigger's Shovel">
       <property name="Card Number" value="10" />
       <property name="Quantity" value="2" />
       <property name="Type" value="Asset" />
@@ -775,12 +775,12 @@
         <property name="Clues" value="1π" />
       </alternate>
     </card>
-    <card id="76a049da-5d39-419e-b38a-ed64382f1a9a" name="Knight’s Hall" size="EncounterCard">
+    <card id="76a049da-5d39-419e-b38a-ed64382f1a9a" name="Knight's Hall" size="EncounterCard">
       <property name="Card Number" value="56" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Return to Black Stars Rise" />
       <property name="Type" value="Location" />
-      <alternate name="Knight’s Hall" size="EncounterCard" type="B">
+      <alternate name="Knight's Hall" size="EncounterCard" type="B">
         <property name="Encounter Set" value="Return to Black Stars Rise" />
         <property name="Type" value="Location" />
         <property name="Text" value="η If there are no clues on Knight’s Hall: Test ή or ί (3). If you succeed, remember that you have “found a guide.”" />
@@ -788,7 +788,7 @@
         <property name="Clues" value="1π" />
       </alternate>
     </card>
-    <card id="3da8ecad-349a-499a-aadf-35f7979760bc" name="Hastur’s Gaze" size="EncounterCard">
+    <card id="3da8ecad-349a-499a-aadf-35f7979760bc" name="Hastur's Gaze" size="EncounterCard">
       <property name="Card Number" value="57" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Return to Black Stars Rise" />
@@ -796,7 +796,7 @@
       <property name="Traits" value="Power." />
       <property name="Text" value="Peril. Hidden.&#10;Revelation – Secretly add Hastur’s Gaze to your hand.&#10;Forced – After 1 or more doom is placed on the “c” agenda: Take 2 horror and discard Hastur’s Gaze from your hand." />
     </card>
-    <card id="8fc30854-8538-4485-aeb8-6348527e3cfd" name="Hastur’s Grasp" size="EncounterCard">
+    <card id="8fc30854-8538-4485-aeb8-6348527e3cfd" name="Hastur's Grasp" size="EncounterCard">
       <property name="Card Number" value="58" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Return to Black Stars Rise" />

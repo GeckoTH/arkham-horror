@@ -1285,7 +1285,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Dealings in the Dark" />
       <property name="Type" value="Enemy" />
-      <property name="Traits" value="Humanoid. Culist." />
+      <property name="Traits" value="Humanoid. Cultist." />
       <property name="Text" value="Alert.&#10;Forced – At the end of the enemy phase, if Sinister Aspirant is ready: Place 1 doom on it." />
       <property name="Health" value="3" />
       <property name="Combat" value="2" />
@@ -1297,7 +1297,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Dealings in the Dark" />
       <property name="Type" value="Enemy" />
-      <property name="Traits" value="Humanoid. Culist." />
+      <property name="Traits" value="Humanoid. Cultist." />
       <property name="Text" value="Alert.&#10;Forced – At the end of the enemy phase, if Sinister Aspirant is ready: Place 1 doom on it." />
       <property name="Health" value="3" />
       <property name="Combat" value="2" />
@@ -1309,7 +1309,7 @@
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Dealings in the Dark" />
       <property name="Type" value="Enemy" />
-      <property name="Traits" value="Humanoid. Culist." />
+      <property name="Traits" value="Humanoid. Cultist." />
       <property name="Text" value="Alert.&#10;Forced – At the end of the enemy phase, if Sinister Aspirant is ready: Place 1 doom on it." />
       <property name="Health" value="3" />
       <property name="Combat" value="2" />
@@ -1663,7 +1663,7 @@
       <property name="Subtitle" value="Agenda 1a" />
       <property name="Type" value="Agenda" />
       <property name="Doom" value="7" />
-      <alternate name="Frozen Throughts" type="B" size="HorizCard">
+      <alternate name="Frozen Thoughts" type="B" size="HorizCard">
         <property name="Encounter Set" value="On Thin Ice" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
@@ -1869,7 +1869,7 @@
       <property name="Encounter Set" value="On Thin Ice" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Wilderness." />
-      <alternate name="Conemned Gold Mine" type="B" size="EncounterCard">
+      <alternate name="Condemned Gold Mine" type="B" size="EncounterCard">
         <property name="Encounter Set" value="On Thin Ice" />
         <property name="Type" value="Location" />
         <property name="Text" value="η: Reveal 1 random chaos token from the chaos bag plus 1 additional token for each depletion token on Condemned Gold Mine. If you did not reveal any α, β, γ, or δ symbols in this way, gain 4 resources and place 1 resource (from the token pool) on Condemed Gold Mine, as a depletion token." />
@@ -2261,7 +2261,7 @@
         <property name="Clues" value="1π" />
       </alternate>
     </card>
-    <card id="86c6fc16-d633-487b-b935-c9dfb54438b6" name="Catacombs of Kom el Shoqata" size="EncounterCard">
+    <card id="86c6fc16-d633-487b-b935-c9dfb54438b6" name="Catacombs of Kom el Shoqafa" size="EncounterCard">
       <property name="Card Number" value="150" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Dogs of War" />
@@ -2269,7 +2269,7 @@
       <property name="Type" value="Location" />
       <property name="Traits" value="Alexandria." />
       <property name="Text" value="The way into the catacombs is hidden. You cannot enter the Catacombs of Kom el Shoqafa unless it is the only Key Locus in play." />
-      <alternate name="Catacombs of Kom el Shoqata" type="B" size="EncounterCard">
+      <alternate name="Catacombs of Kom el Shoqafa" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Dogs of War" />
         <property name="Subtitle" value="Den of the Beast" />
         <property name="Type" value="Location" />
@@ -2280,15 +2280,15 @@
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
-    <card id="61022b6d-179d-4b10-ae64-68809783b64b" name="Catacombs of Kom el Shoqata" size="EncounterCard">
+    <card id="61022b6d-179d-4b10-ae64-68809783b64b" name="Catacombs of Kom el Shoqafa" size="EncounterCard">
       <property name="Card Number" value="151" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Dogs of War" />
       <property name="Subtitle" value="Bloody Nexus" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Alexandria." />
-      <property name="Text" value="The way into the catacombs is blocked. You cannot enter the Catacombs of Kom el Shoqata. The Beast in a Cowl of Crimson connot leave Catacombs of Kom el Shoqata.&#10;Forced – If there is 6 or more doom on the current agenda: Reveal Catacombs of Kom el Shoqafa." />
-      <alternate name="Catacombs of Kom el Shoqata" type="B" size="EncounterCard">
+      <property name="Text" value="The way into the catacombs is blocked. You cannot enter the Catacombs of Kom el Shoqafa. The Beast in a Cowl of Crimson connot leave Catacombs of Kom el Shoqafa.&#10;Forced – If there is 6 or more doom on the current agenda: Reveal Catacombs of Kom el Shoqafa." />
+      <alternate name="Catacombs of Kom el Shoqafa" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Dogs of War" />
         <property name="Subtitle" value="Bloody Nexus" />
         <property name="Type" value="Location" />
@@ -2299,14 +2299,14 @@
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
-    <card id="fa0116bf-0b6d-4ddc-ac86-a08d21018710" name="Catacombs of Kom el Shoqata" size="EncounterCard">
+    <card id="fa0116bf-0b6d-4ddc-ac86-a08d21018710" name="Catacombs of Kom el Shoqafa" size="EncounterCard">
       <property name="Card Number" value="152" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Dogs of War" />
       <property name="Subtitle" value="Ancient Tomb" />
       <property name="Type" value="Location" />
       <property name="Traits" value="Alexandria." />
-      <alternate name="Catacombs of Kom el Shoqata" type="B" size="EncounterCard">
+      <alternate name="Catacombs of Kom el Shoqafa" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Dogs of War" />
         <property name="Subtitle" value="Ancient Tomb" />
         <property name="Type" value="Location" />
@@ -2707,7 +2707,7 @@
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
-    <card id="c0fd2211-1493-420b-837f-791a09170f04" name="Bured Miner" size="EncounterCard">
+    <card id="c0fd2211-1493-420b-837f-791a09170f04" name="Buried Miner" size="EncounterCard">
       <property name="Card Number" value="175" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Shades of Suffering" />
@@ -2759,7 +2759,7 @@
       <property name="Damage" value="1" />
       <property name="Horror" value="1" />
       <property name="Victory Points" value="0" />
-      <alternate name="Familiar Pain" type="B" size="EncounterCard">
+      <alternate name="Familial Pain" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Shades of Suffering" />
         <property name="Type" value="Story" />
         <property name="Text" value="If an investigator has &quot;traded for a kitten,&quot; read the following (otherwise, flip this card back to its enemy side, heal all damage from it, disengage it from all investigators, and exhaust it):&#10;Add this card to the victory display." />
@@ -3839,7 +3839,7 @@
         <property name="Traits" value="Otherworld." />
         <property name="Text" value="Forced – After you reveal Cliffs of Insanity: Move each concealed mini-card adjacent to it so they are arranged as evenly as possible in empty spots adjacent to locations not named Cliffs of Insanity." />
         <property name="Shroud" value="4" />
-        <property name="Clues" value="1π" />
+        <property name="Clues" value="2π" />
         <property name="Victory Points" value="1" />
       </alternate>
     </card>
@@ -3867,7 +3867,7 @@
       <property name="Horror" value="1" />
       <property name="Victory Points" value="0" />
     </card>
-    <card id="5ed08365-e62f-4a77-a230-8b1082eec101" name="La Chia Roja" size="EncounterCard">
+    <card id="5ed08365-e62f-4a77-a230-8b1082eec101" name="La Chica Roja" size="EncounterCard">
       <property name="Card Number" value="253" />
       <property name="Quantity" value="1" />
       <property name="Encounter Set" value="Red Coterie" />
@@ -4390,7 +4390,7 @@
       <property name="Combat" value="X" />
       <property name="Agility" value="X" />
       <property name="Shroud" value="X" />
-      <alternate name="Void Chimera (Hellhound)" type="B" size="MiniCard">
+      <alternate name="Void Chimera (Fellhound)" type="B" size="MiniCard">
         <property name="Type" value="Mini" />
       </alternate>
     </card>

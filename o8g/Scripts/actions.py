@@ -114,7 +114,7 @@ def phasePassed(args):
         phase = "Upkeep"
         remoteCall(me, "doUpkeepPhase", [False])
         setGlobalVariable("allowUpkeepPhase", "False")
-        
+
     saveTable(phase)
 
 def turnPassed(args):
@@ -538,7 +538,7 @@ def autoCharges(args):
     if isinstance(args.fromGroups[0],Pile) and isinstance(args.toGroups[0],Table):
         if len(args.cards) == 1:
             card = args.cards[0]
-            if card.controller == me and card.isFaceUp and card.properties["Type"] == "Asset":
+            if card.controller == me and card.isFaceUp and (card.properties["Type"] == "Asset" or card.properties["Type"] == "Event"):
                 #Capture text between "Uses (..)"
                 description_search = re.search('.*([U|u]ses\s\(.*?\)).*', card.properties["Text"], re.IGNORECASE)
                 if description_search:
@@ -1034,6 +1034,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         # Check if Stick to the Plan or Ancestral Knowledge is in the deck
         sttp = filter(lambda card: "Stick to the Plan" in card.Name, me.deck)
         ancestralKnowledge = filter(lambda card: "Ancestral Knowledge" in card.Name, me.deck)
+        hasUnderworldMarket = filter(lambda card: "Underworld Market" in card.Name, me.deck)
         haveForcedLearning = filter(lambda card: "Forced Learning" in card.Name, me.deck)
         if haveForcedLearning:
             me.counters['Card Draw'].value = 2
@@ -1046,7 +1047,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
                 for _ in range(2):
                     addBless()
         # Find any Start cards
-        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name, me.deck)
+        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name or "Darrell's Kodak" == card.Name or card.Name == "On the Mend", me.deck)
         # Create Bonded Card
         listB = makeListBonded(me.deck)
         if not listB:
@@ -1079,9 +1080,14 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             card.moveToTable(permX, cardY(investigatorCard))
             permX = permX + card.width + InvestigatorSpacing
             notify("{} places the Permanent card {} on the table".format(me, card))
-	# Move startCard found to the table
+
+
+	# Move startCard found to the table or Sideboard
+        DarkInsight = False
         for card in startCard:
-            if card.Name == "Dark Insight":
+            if card.Name == "On the Mend":
+                card.moveTo(me.piles['Sideboard'])
+            elif card.Name == "Dark Insight":
                 card.moveTo(me.hand)
                 DarkInsight = True
             else:
@@ -1091,11 +1097,13 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         
         if newInvestigator:
             if len(me.hand) == 0 or DarkInsight: 
+                if hasUnderworldMarket:
+                    whisper("Underworld Market available")
                 if sttp: 
                     whisper("Stick to the Plan available")
                 if ancestralKnowledge:
                     whisper("Ancestral Knowledge available")
-                if not (sttp or ancestralKnowledge): #Only draws opening hand if no Stick to the Plan or Ancestral Knowledge available
+                if not (sttp or ancestralKnowledge or hasUnderworldMarket): #Only draws opening hand if no Stick to the Plan, Ancestral Knowledge, or Underworld Market available
                     drawOpeningHand()
                     
             # Check for starting resources modifiers
@@ -1196,6 +1204,8 @@ def loadClues(card):
         notify("{} adds {} clue(s) on '{}'".format(me, str(card.Clues),card.Name))        
         if 'π' in card.Clues:
             nbClue = countInvestigators() * int((card.Clues).replace('π', ''))
+        elif not card.Clues.isdigit():
+            nbClue = 0
         else:
             nbClue = int(card.Clues)    
         for i in repeat(None, nbClue):
@@ -1534,7 +1544,7 @@ def swapCard(card):
         return
     draw(card.controller.deck)
     card.moveTo(card.controller.deck)
-    notify("{} swaps {} with the top card of his/her deck.".format(card.controller, card))
+    notify("{} swaps {} with the top card of their deck.".format(card.controller, card))
 
 def sumVictory():
     v = 0

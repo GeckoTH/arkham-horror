@@ -1,21 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="91906086-bd8c-4ca5-8f95-be67930f92d0">Silence Speaks</card>
     <card qty="1" id="57d4c4b2-9ac5-4f49-bfcb-b331d0c61a18">Easy Prey</card>
     <card qty="1" id="d9c633ab-a267-4802-8ed1-f5632eea9f96">A Betrayal of Eyes</card>
   </section>
   <section name="Act" shared="True">
-    <card qty="1" id="c45dbc75-9cd7-4ebf-9789-4fef35ad5a27">False Step (v. II)</card>
-    <card qty="1" id="57e450d3-0c35-4fc6-8426-67de4d265081">False Colors (v. II)</card>
+    <card qty="1" id="8b71b292-8d33-4219-8a3d-3ec3dd20d142">False Step (v. I)</card>
+    <card qty="1" id="1e49fa2b-47ab-4100-ac61-715c54c7f425">False Colors (v. I)</card>
     <card qty="1" id="5882416a-e5fc-4197-9dcf-3e4e70f9d022">False Light</card>
   </section>
   <section name="Encounter" shared="True">
@@ -31,7 +23,6 @@
   <section name="Location" shared="True">
     <card qty="14" id="7afe70d3-b76c-4d2f-9d2f-b06b6cfa2c5e">Concealed Card</card>
   </section>
-  <section name="Special" shared="True" />
   <section name="Second Special" shared="True">
     <card qty="1" id="16c5b1ca-fe51-4e7e-af38-e00e4d2eccbc">Desiderio Degaldo Álvarez</card>
     <card qty="1" id="03a48ae5-964b-452e-95b6-0448a115d225">Concealed Card</card>
@@ -52,7 +43,6 @@
     <card qty="1" id="79ade74a-3189-4765-bde8-80088aee5cc2">Concealed Card</card>
     <card qty="1" id="d9b41bfc-0ae4-40e4-a7b0-3532b75aa571">Concealed Card</card>
   </section>
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="83f261ab-9729-47ad-a2f0-4f5d3c8d0276">Dancing Mad</card>
     <card qty="1" id="707217d2-7f4b-4ed7-b893-fb261e0720bd">Café Luna</card>
@@ -63,6 +53,16 @@
     <card qty="1" id="061c0a14-971f-45cb-b65d-21a52ea9797a">Plaza Hotel</card>
     <card qty="1" id="8d120191-01a7-44d5-9eb3-eb0d21349884">Desiderio Degaldo Álvarez</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <section name="Temporary Shuffle" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

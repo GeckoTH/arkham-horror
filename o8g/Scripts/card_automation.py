@@ -70,6 +70,16 @@ def lookToBottom(group): # Alyssa Graham automation
         cardsFound.append(cardsSelected[0])
         notify("{} is moved at the bottom of {}".format(cardsSelected[0], group.name))
 
+# Typically use this to find a specific card in the discard pile such
+# as "Word of Woe"
+def searchInPile(group, name):
+    if len(group) == 0: return
+    for c in group:
+        if (c.Name == name):
+            return c
+    # Nothing was found.
+    return
+
 def attachTo(card):
     global cardToAttachTo
     cardToAttachTo = card.offset(card.position[0], card.position[1])
@@ -208,7 +218,7 @@ def defaultAction(card, x = 0, y = 0):
 #############################################
     elif card.Name == "Arcane Initiate":
         exhaust(card, x, y)
-        notify("{} uses {} to search his/her deck for a Spell card to draw.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Spell card to draw.".format(card.controller, card))
         searchTopDeck(card.controller.deck, card.controller.hand, 3, traits="Spell")
     elif card.Name == "Stargazing":
         if len(encounterDeck()) > 9:
@@ -221,11 +231,11 @@ def defaultAction(card, x = 0, y = 0):
         else: 
             whisper("There are not enough cards in the encounter Deck")
     elif card.Name == "Word of Command":
-        notify("{} uses {} to search his/her deck for a Spell card to draw.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Spell card to draw.".format(card.controller, card))
         searchTopDeck(card.controller.deck, card.controller.hand, traits="Spell")
     elif card.Name == "Prescient":
-        notify("{} uses {} to move back a Spell from the discard pile to his/her hand.".format(card.controller, card))
-        searchTopDeck(card.controller.piles['Discard Pile'], card.controller.hand, traits="Item")
+        notify("{} uses {} to move back a Spell from the discard pile to their hand.".format(card.controller, card))
+        searchTopDeck(card.controller.piles['Discard Pile'], card.controller.hand, traits="Spell")
     elif card.Name == "Olive McBride":
         exhaust (card, x, y)
         drawXChaosTokens(chaosBag(), x = 0, y = 0)
@@ -346,7 +356,7 @@ def defaultAction(card, x = 0, y = 0):
                     topCard = card.controller.deck.top()
                     if topCard.Subtype != "Weakness" and topCard.subType != "Basic Weakness":
                         attachCard(card, topCard) # attaches to Atlas
-                        notify("{} uses {} to attach the top card of his/her deck".format(card.controller, card))
+                        notify("{} uses {} to attach the top card of their deck".format(card.controller, card))
                         inc = 1
                         topCard.moveToTable(card.position[0], card.position[1], True)
                         for c in table:
@@ -488,7 +498,7 @@ def defaultAction(card, x = 0, y = 0):
 #                                           #
 #############################################        
     elif card.Name == "Prepared for the Worst":
-        notify("{} uses {} to search his/her deck for a Weapon card to draw.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Weapon card to draw.".format(card.controller, card))
         searchTopDeck(card.controller.deck, card.controller.hand, 9, traits="Weapon")
     elif card.Name == "Rite of Sanctification":
         if card.Subtype != "Locked":
@@ -604,15 +614,15 @@ def defaultAction(card, x = 0, y = 0):
             else:
                 if c.Name == "Soothing Melody":
                     c.moveTo(c.controller.deck)
-        notify("{} uses {} to draw {} and shuffle 2 other copies in his/her deck.".format(card.controller, card, c))
+        notify("{} uses {} to draw {} and shuffle 2 other copies in their deck.".format(card.controller, card, c))
         shuffle(card.controller.deck)
     elif card.Name == "Boxing Gloves" and card.Level == "0":
         exhaust (card, x, y)
-        notify("{} uses {} to search his/her deck for a Spirit card to draw.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Spirit card to draw.".format(card.controller, card))
         searchTopDeck(card.controller.deck, card.controller.hand, 6, traits="Spirit")
     elif card.Name == "Boxing Gloves" and card.Level == "3":
         exhaust (card, x, y)
-        notify("{} uses {} to search his/her deck for a Spirit card to draw.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Spirit card to draw.".format(card.controller, card))
         searchTopDeck(card.controller.deck, card.controller.hand, 9, traits="Spirit")
     elif card.Name == "Stick to the Plan" and not isLocked(card) and not card.Subtype == "Locked": # Locking to prevent an additional trigger
         attachTo(card)
@@ -633,8 +643,9 @@ def defaultAction(card, x = 0, y = 0):
         if cardsSelected != None:
             inc = 0
             for c in cardsSelected:
-                c.moveToTable(cardToAttachTo[0], cardToAttachTo[1])
+                c.moveToTable(cardToAttachTo[0], cardToAttachTo[1], True)
                 c.sendToBack()
+                c.peek()
                 if len(cardsSelected) == 1:
                     cardToAttachTo = None
                 else:
@@ -699,6 +710,8 @@ def defaultAction(card, x = 0, y = 0):
 #           Seeker Cards                    #
 #                                           #
 #############################################      
+    elif card.Name == "Captivating Discovery":
+        searchTopDeck(card.controller.deck, card.controller.hand, 6)
     elif card.Name == "Ancestral Knowledge" and not card.Subtype == "Locked": # Using Locked to prevent an additional trigger
         shuffle(card.controller.deck)
         notify("{} uses {} to attach 5 random skills to it.".format(card.controller, card))
@@ -728,7 +741,7 @@ def defaultAction(card, x = 0, y = 0):
             else:
                 if c.Name == "Blood-Rite":
                     c.moveTo(c.controller.deck)
-        notify("{} uses {} to draw {} and shuffle 2 other copies in his/her deck.".format(card.controller, card, c))
+        notify("{} uses {} to draw {} and shuffle 2 other copies in their deck.".format(card.controller, card, c))
         shuffle(card.controller.deck)
     elif card.Name == "Old Book of Lore": # Automation doesn't account for location
         exhaust (card, x, y)
@@ -741,7 +754,7 @@ def defaultAction(card, x = 0, y = 0):
                 return
             else:
                 chosenPlayer = getPlayers()[sets - 1]
-                notify("{} uses {} to let {} search his/her deck for a card to draw.".format(card.controller, card, chosenPlayer))
+                notify("{} uses {} to let {} search their deck for a card to draw.".format(card.controller, card, chosenPlayer))
                 # Two handed solo option
                 if chosenPlayer.deck.controller == me:
                     searchTopDeck(chosenPlayer.deck,chosenPlayer.hand,3)
@@ -772,7 +785,7 @@ def defaultAction(card, x = 0, y = 0):
                 return
             else:
                 chosenPlayer = getPlayers()[sets - 1]
-                notify("{} uses {} to make {} search the top 6 cards of his/her deck.".format(card.controller, card, chosenPlayer))
+                notify("{} uses {} to make {} search the top 6 cards of their deck.".format(card.controller, card, chosenPlayer))
                 remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck, chosenPlayer.hand, 6])
     elif card.Name == "No Stone Unturned" and card.Level == "5": # Automation doesn't account for location
         if len(getPlayers()) == 1: # Solo
@@ -784,10 +797,10 @@ def defaultAction(card, x = 0, y = 0):
                 return
             else:
                 chosenPlayer = getPlayers()[sets - 1]
-                notify("{} uses {} to make {} search his/her deck for a card to draw.".format(card.controller, card, chosenPlayer))
+                notify("{} uses {} to make {} search their deck for a card to draw.".format(card.controller, card, chosenPlayer))
                 remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck, chosenPlayer.hand])
     elif card.Name == "Research Librarian":
-        notify("{} uses {} to search his/her deck for a Tome to draw.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Tome to draw.".format(card.controller, card))
         searchTopDeck(card.controller.deck, card.controller.hand,traits="Tome")
     elif card.Name == "Guided by the Unseen":
         # Solo
@@ -800,19 +813,19 @@ def defaultAction(card, x = 0, y = 0):
                 return
             else:
                 chosenPlayer = getPlayers()[sets - 1]
-                notify("{} uses {} to make {} search his/her deck for a card commit to the test.".format(card.controller, card, chosenPlayer))
+                notify("{} uses {} to make {} search their deck for a card commit to the test.".format(card.controller, card, chosenPlayer))
                 remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck, table, 3])
     elif card.Name == "Dr. Elli Horowitz":
         attachTo(card)
-        notify("{} uses {} to search his/her deck for a Relic to attach to {}.".format(card.controller, card, card))
+        notify("{} uses {} to search their deck for a Relic to attach to {}.".format(card.controller, card, card))
         searchTopDeck(card.controller.deck, table, 9, traits="Relic")
     elif card.Name == "Whitton Greene" and card.Level == "0":
         exhaust (card, x, y)
-        notify("{} uses {} to search his/her deck for a Tome or Relic to draw.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Tome or Relic to draw.".format(card.controller, card))
         searchTopDeck(card.controller.deck, card.controller.hand, 6, traits="Tome,Relic")
     elif card.Name == "Whitton Greene" and card.Level == "2":
         exhaust (card, x, y)
-        notify("{} uses {} to search his/her deck for a Tome or Relic to draw.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Tome or Relic to draw.".format(card.controller, card))
         searchTopDeck(card.controller.deck, card.controller.hand, 9, traits="Tome,Relic")
     elif card.Name == "Otherworld Codex":
         exhaust(card, x, y)
@@ -820,7 +833,7 @@ def defaultAction(card, x = 0, y = 0):
         searchTopDeck(encounterDeck(), encounterDiscard(), 9)
         notify("{} uses {} to look at the top 9 cards of the encounter deck and discards {}.".format(card.controller, card, cardsFound[0]))
     elif card.Name == "Practice Makes Perfect":
-        notify("{} uses {} to search his/her deck for a Practiced card to commit to the test.".format(card.controller, card))
+        notify("{} uses {} to search their deck for a Practiced card to commit to the test.".format(card.controller, card))
         searchTopDeck(card.controller.deck, table, 9, traits="Practiced")
     elif card.Name == "Eureka!":
         # Solo
@@ -835,10 +848,10 @@ def defaultAction(card, x = 0, y = 0):
                 chosenPlayer = getPlayers()[sets - 1]
                 # Two handed solo option
                 if chosenPlayer.deck.controller == me:
-                    notify("{} uses {} to search his/her deck for a card to draw.".format(card.controller, card))
+                    notify("{} uses {} to search their deck for a card to draw.".format(card.controller, card))
                     searchTopDeck(chosenPlayer.deck,chosenPlayer.hand,3)
                 else:
-                    notify("{} uses {} to let {} search his/her deck for a card to draw.".format(card.controller, card, chosenPlayer))
+                    notify("{} uses {} to let {} search their deck for a card to draw.".format(card.controller, card, chosenPlayer))
                     remoteCall(chosenPlayer,"searchTopDeck",[chosenPlayer.deck,chosenPlayer.hand,3])
                 
     elif card.Name == "Mr. “Rook”":
@@ -918,6 +931,24 @@ def defaultAction(card, x = 0, y = 0):
 #           Rogue Cards                     #
 #                                           #
 ############################################# 
+    elif card.Name == "Underworld Market" and not isLocked(card) and not card.Subtype == "Locked": # Locking to prevent an additional trigger
+        illicits = [c for c in card.controller.deck if "Illicit" in c.Traits]
+        dlg = cardDlg(illicits)
+        dlg.title = "Underworld Market"
+        dlg.text = "Select 10 Illicit cards:"
+        dlg.min = 10
+        dlg.max = 10
+        cardsSelected = dlg.show()
+        if cardsSelected != None:
+            for c in cardsSelected:
+                c.moveTo(card.controller.piles['Secondary Deck'])
+            card.Subtype = 'Locked'
+            notify("{} uses {} to put {} Illicit cards in secondary deck.".format(card.controller, card, len(cardsSelected)))
+            shuffle(card.controller.piles['Secondary Deck'])
+        shuffle(card.controller.deck)
+        if 1 == askChoice('Draw opening hand ?'
+			, ['Yes', 'Not now'], ['#dd3737', '#d0d0d0']):
+            drawOpeningHand()
     elif card.Name == "Lucky Cigarette Case" and card.Level == "0":
         exhaust (card, x, y)
         draw(card.controller.deck)
@@ -931,7 +962,7 @@ def defaultAction(card, x = 0, y = 0):
             whisper("Lucky Cigarette Case: invalid card count")
             return
         else:
-            notify("{} uses {} to search the top {} cards of his/her deck for a card to draw.".format(card.controller, card, count))
+            notify("{} uses {} to search the top {} cards of their deck for a card to draw.".format(card.controller, card, count))
             searchTopDeck(card.controller.deck, card.controller.hand, count)
 
     elif card.Name == "Dark Ritual":
@@ -941,6 +972,8 @@ def defaultAction(card, x = 0, y = 0):
 #           Survivor Cards                  #
 #                                           #
 ############################################# 
+    elif card.Name == "Salvage":
+        searchTopDeck(card.controller.piles['Discard Pile'], card.controller.hand, traits="Item")
     elif card.Name == "Rabbit's Foot" and card.Level == "0":
         exhaust (card, x, y)
         draw(card.controller.deck)
@@ -956,7 +989,7 @@ def defaultAction(card, x = 0, y = 0):
             c = dlg.show()
             if c:
                 c[0].moveTo(card.controller.hand)
-                notify("{} uses {} to return a card to his/her hand".format(card.controller, card))
+                notify("{} uses {} to return a card to their hand".format(card.controller, card))
         else: whisper("No relevant cards in the discard pile")
     elif card.Name == "Rabbit's Foot" and card.Level == "3":
         exhaust (card, x, y)
@@ -965,7 +998,7 @@ def defaultAction(card, x = 0, y = 0):
             whisper("Rabbit's Foot: invalid card count")
             return
         else:
-            notify("{} uses {} to search the top {} cards of his/her deck for a card to draw.".format(card.controller, card, count))
+            notify("{} uses {} to search the top {} cards of their deck for a card to draw.".format(card.controller, card, count))
             searchTopDeck(card.controller.deck, card.controller.hand, count)        
     elif card.Name == "Scavenging":
         exhaust (card, x, y)
@@ -1045,7 +1078,7 @@ def defaultAction(card, x = 0, y = 0):
                 whisper("Topmost event is {}.".format(Events[0]))
                 if 1 == askChoice("Play the topmost event of your discard pile ?", ["Yes","No"],["#000000","#000000"], customButtons = [topMostEvent]):
                     Events[0].moveToTable(card.position[0], card.position[1] + 50)
-                    notify("{} uses {} to play the topmost event from his/her discard pile".format(card.controller, card))
+                    notify("{} uses {} to play the topmost event from their discard pile".format(card.controller, card))
             elif 1 == askChoice("Play an event from your discard pile ?", ["Yes","No"],["#000000","#000000"]):
                 dlg = cardDlg(Events)
                 dlg.title = "Wendy's Amulet"
@@ -1055,7 +1088,7 @@ def defaultAction(card, x = 0, y = 0):
                 event = dlg.show()
                 if event is not None:
                     event[0].moveToTable(card.position[0], card.position[1] + 50)
-                    notify("{} uses {} to play an event from his/her discard pile".format(card.controller, card))
+                    notify("{} uses {} to play an event from their discard pile".format(card.controller, card))
         else: whisper("No events in the Discard Pile")
     elif card.Name == "Patrice Hathaway" and card.Type == "Investigator":
         if 1 == askChoice("Trigger Elder Sign ?", ["Yes","No"],["#000000","#000000"]):
@@ -1083,11 +1116,35 @@ def defaultAction(card, x = 0, y = 0):
             if skill is not None:
                 skill[0].moveToTable(card.position[0], card.position[1] - 100)
                 skill[0].select()
+    elif card.Name == "Short Supply":
+        discardedCardCount = 0
+        for i in range(0, 10):
+            if len(card.controller.deck) > 0 :
+                discardedCardCount += 1 
+                c = card.controller.deck[0]
+                c.moveTo(card.controller.piles['Discard Pile'])
+            else:
+                break
+        notify("{} discards the top {} cards of their deck due to Short Supply.".format(card.controller, discardedCardCount))
 #############################################
 #                                           #
 #           Neutral Cards                   #
 #                                           #
 #############################################      
+    elif card.Name == "Word of Weal": 
+        wow = searchInPile(card.controller.piles['Discard Pile'], "Word of Woe")
+        if wow is not None :
+            wow.moveTo(wow.controller.deck)
+            notify("{} shuffles {} into their deck.".format(card.controller, wow.Name))
+            shuffle(card.controller.deck)
+        discard(card)
+    elif card.Name == "Word of Woe":
+        wow = searchInPile(card.controller.piles['Discard Pile'], "Word of Weal")
+        if wow is not None :
+            wow.moveTo(wow.controller.deck)
+            notify("{} shuffles {} into their deck.".format(card.controller, wow.Name))
+            shuffle(card.controller.deck)
+        discard(card)
     elif card.Name == "Backpack" and card.Level == "0":
         attachTo(card)        
         searchTopDeck(card.controller.deck, table, 6, traits="Item,Supply")
@@ -1095,10 +1152,10 @@ def defaultAction(card, x = 0, y = 0):
         attachTo(card)    
         searchTopDeck(card.controller.deck, table, 12, traits="Item,Supply")
     elif card.Name == "Calling in Favors":
-        notify("{} uses {} to search his/her deck for an Ally and play it.".format(card.controller, card))        
+        notify("{} uses {} to search their deck for an Ally and play it.".format(card.controller, card))        
         searchTopDeck(card.controller.deck, table, 9, traits="Ally")
     elif card.Name == "Anna Kaslow":
-        notify("{} uses {} to search his/her deck for a Tarot and put it in play.".format(card.controller, card))        
+        notify("{} uses {} to search their deck for a Tarot and put it in play.".format(card.controller, card))        
         searchTopDeck(card.controller.deck, table, traits="Tarot")
     elif card.Name == "Lucid Dreaming":
         searchTopDeck(card.controller.deck, card.controller.hand)
@@ -1126,6 +1183,14 @@ def defaultAction(card, x = 0, y = 0):
             if not card.markers[Bless]:
                 notify("{} has no Bless tokens left and is discarded.".format(card))
                 discard(card)
+    elif card.Name == "Day of Reckoning":
+        if card.Subtype != "Locked":
+            attachTo(card)
+            elderSign = [cT for cT in chaosBag() if "Elder Sign" in cT.Name]
+            if elderSign:
+                remoteCall(elderSign[0].controller, "sealTokenToTable",[elderSign[0], cardToAttachTo[0], cardToAttachTo[1], me])
+                card.Subtype = "Locked"
+                cardToAttachTo = None
     else:
         if ("Exhaust " + str(card.Name) in card.Text) or (" exhaust " + str(card.Name) in card.Text):
             exhaust(card, x, y)
@@ -1152,7 +1217,7 @@ def shuffleTekelili(group=None, x=0, y=0):
 def moveTekelili(player):
     specialDeck()[0].moveToBottom(player.deck)
     shuffle(player.deck)
-    notify("{} shuffles a Tekeli-li card into his/her deck.".format(player))
+    notify("{} shuffles a Tekeli-li card into their deck.".format(player))
 
 #############################################
 #                                           #
