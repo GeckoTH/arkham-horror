@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Path of the Righteous" id="d1daff76-18a9-4807-824a-9ee328baf1bc" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="f1e46787-ec37-4e49-b777-8d8b864feb07" name="Zoey Samaras" size="InvestigatorCard">
+      <property name="Card Number" value="59" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Chef" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Believer. Hunter." />
+      <property name="Text" value="ι After you deal 1 or more damage to an enemy: Add 1 [Bless] token to the chaos bag. (Limit once per phase.)&#10;θ Before you reveal chaos tokens during an attack, remove 3 [Bles] tokens from the chaos bag: This attack deals +1 damage. (Limit once per round.)&#10;ε effect: +1 for each [Bless] token in the chaos bag." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Guardian" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="2" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <alternate name="Zoey Samaras" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Chef" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Guardian cards (κ) level 0-3, Blessed and Charm cards level 0-4, Neutral cards level 0-5, up to 5 other Mystic cards ([Mystic ]) level 0.&#10;Deckbuilding Requirements (do not count toward deck size): Zoey's Cross, Smite the Wicked, 1 random basic weakness." />
+        <property name="Class" value="Guardian" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="c089c6d6-f97a-448b-9828-317fafa422be" name="Zoey's Cross">
+      <property name="Card Number" value="60" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Symbol of Conviction" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="Zoey Samaras deck only. Advanced.&#10;ι After you engage an enemy, exhaust Zoey's Cross and spend 1 resource: Deal 1 damage to that enemy.&#10;ι Remove 2 [Bless] tokens from the chaos bag: Engage an enemy at your location." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ab41eeb8-1dd3-496f-92db-846a114eb9e9" name="Smite the Wicked" size="EncounterCard">
+      <property name="Card Number" value="61" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Task." />
+      <property name="Text" value="Advanced. Attached enemy gets +2 fight and + 2 health.&#10;Revelation – Discard cards from the top of the current encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the farthest from you.&#10;Forced – When the game ends, if attached enemy is still in play: Zoey Samaras suffers 1 mental trauma." />
+      <property name="Class" value="Neutral" />
+    </card>
+  </cards>
+</set>
