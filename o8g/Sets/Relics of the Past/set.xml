@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Relics of the Past" id="e9f4df2d-d7c7-48b6-9227-602d8bcd3d8b" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="702988dc-f488-48d1-98a3-f1238ca59526" name="Monterey Jack" size="InvestigatorCard">
+      <property name="Card Number" value="62" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Archaeologist" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Wayfarer." />
+      <property name="Text" value="ι After you discover the last clue at your location: Search the top X cards of your deck for a Charm or Relic asset and play it, reducing its cost by X. X is the printed shroud of your location. Shuffle your deck. (Limit once per round.)&#10;ε effect: +1. Gain 1 resource for each Charm asset and each Relic asset you control." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Rogue" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <alternate name="Monterey Jack" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Archaeologist" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Rogue cards (ν) level 0-3, Charm and Relic cards level 0-5, Neutral cards level 0-5, up to 5 other Seeker cards (λ) level 0.&#10;Deckbuilding Requirements (do not count toward deck size): Trusty Bullwhip, Buried Secrets, 1 random basic weakness." />
+        <property name="Class" value="Rogue" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="13f1e54e-d964-4f36-948c-5cfc5cae4827" name="Trusty Bullwhip">
+      <property name="Card Number" value="63" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Melee." />
+      <property name="Text" value="Fast. Monterey Jack deck only. Advanced.&#10;η: Fight. This attack uses ί instead of ή. You get +2 skill value for this attack. If this attack succeeds, you may exhaust Trusty Bullwhip to deal +1 damage for this attack and automatically evade the attacked enemy." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="24e814a9-2dbd-4a7c-8d0c-f36688a0d0db" name="Buried Secrets" size="EncounterCard">
+      <property name="Card Number" value="64" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Mystery." />
+      <property name="Text" value="Advanced. Revelation – Put Buried Secrets into play in your threat area.&#10;If your location can be investigated, you cannot move except by scenario card effects.&#10;ηη: Investigate. If you succeed, instead of discovering clues, discard Buried Secrets." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="9966898e-124c-443f-a9a6-72d80a9ef9cb" name="Relics of the Past" size="EncounterCard">
+      <property name="Card Number" value="65" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the number of locations with 1 or more doom on them.&#10;β: –1. If you are poisoned, reveal another token.&#10;γ: –3. If you fail, place 1 doom on your location.&#10;δ: –3. If you fail, the nearest ready unengaged Serpent enemy moves once toward your location." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <alternate name="Relics of the Past" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Relics of the Past" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 more than the number of locations with 1 or more doom on them.&#10;β: –2. If you are poisoned, reveal another token.&#10;γ: –4. Place 1 doom on your location.&#10;δ: –5. After this test resolves, the nearest ready unengaged Serpent enemy moves once toward your location." />
+      </alternate>
+    </card>
+    <card id="72e649f2-0520-4dba-bd60-841eb2cd3b06" name="Something Else Stirs..." size="HorizCard">
+      <property name="Card Number" value="66" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda gets +1π doom threshold.&#10;Forced – When this agenda advances: Do not remove doom from locations in play.&#10;Forced – When an investigator is defeated: That investigator shuffles each Ancient story asset they control into the exploration deck." />
+      <property name="Doom" value="4*" />
+      <alternate name="Dweller in the Pit" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Relics of the Past" />
+        <property name="Subtitle" value="Guardian of the Past" />
+        <property name="Type" value="Enemy" />
+        <property name="Text" value="Hunter. Retaliate. Spawn – Engaged with Monterey Jack.&#10;Dweller in the Pit gets +1 π health and +1 fight for each vengence point in the victory display (max +3 fight).&#10;Forced – After the Dweller in the Pit deals damage to you, check your supplies: If you do not have the satchel, shuffle each Ancient asset you control into the exploration deck.&#10;Victory 1." />
+        <property name="Health" value="6" />
+        <property name="Combat" value="3" />
+        <property name="Agility" value="3" />
+        <property name="Unique" value="ο" />
+        <property name="Damage" value="2" />
+        <property name="Horror" value="1" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="f9643ae8-8800-4c35-b88f-4c14ae7fb132" name="Guardian of the Relics" size="HorizCard">
+      <property name="Card Number" value="67" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="*This agenda gets +1π doom threshold.&#10;Forced – When this agenda advances: Do not remove doom from locations in play.&#10;Forced – When an investigator is defeated: That investigator shuffles each Ancient story asset they control into the exploration deck." />
+      <property name="Doom" value="12*" />
+      <alternate name="Catastrophic Ruin" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Relics of the Past" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each investigator who has not been eliminated is defeated and suffers 1 physical trauma." />
+      </alternate>
+    </card>
+    <card id="bf619718-0b18-43ee-b181-2d0f637b70ff" name="Crumbling Ruin" size="HorizCard">
+      <property name="Card Number" value="68" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η If there are no clues on your location: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;Objective – When each surviving investigator is at Inner Chamber, they may spend the requisite number of clues, as a group, to advance." />
+      <property name="Clues" value="4π" />
+      <alternate name="Trapped in the Tombs" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Relics of the Past" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Move each unengaged Elite enemy directly to Inner Chamber. Shuffle each of the following cards into the exploration deck: Each of the set-aside Ancient story assets, the set-aside Vengeant Past treachery, each single-sided location in play, and 1 copy of the set-aside Brood of Yig enemy for each vengeance point in the victory display.&#10;Place 1π clues on each revealed location (up to a maximum of its clue threshold)." />
+      </alternate>
+    </card>
+    <card id="320707c4-e13f-47a1-a22c-bff26d2814e8" name="Find the Way Out!" size="HorizCard">
+      <property name="Card Number" value="69" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="η If there are no clues on your location: Explore. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.&#10;Objective – Get out with as many Ancient relics as you can! If each surviving investigator has resigned, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Escape at Last" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Relics of the Past" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(-&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="4eb5a52f-f274-4e94-b54a-ca1b890a3eb2" name="Secret Passage" size="EncounterCard">
+      <property name="Card Number" value="70" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="Revelation – If Secret Passage is connected to your location, put it and the set-aside Inner Chamber into play. Otherwise, shuffle it into the exploration deck.&#10;Forced – After you enter Secret Passage: Check your supplies. If you have the compass, discover 1 clue from Secret Passage.&#10;Victory 1." />
+      <property name="Shroud" value="5" />
+      <property name="Clues" value="1π" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="e7651555-a32b-470c-878a-dfed004420af" name="Inner Chamber" size="EncounterCard">
+      <property name="Card Number" value="71" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <alternate name="Inner Chamber" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Relics of the Past" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Forgotten. Ruins." />
+        <property name="Text" value="η Spend X clues: Reveal the top X cards of the exploration deck. Draw 1 of the revealed cards and check your supplies. If you have chalk, you may choose 1 additional card and draw it. Shuffle the remaining cards into the exploration deck.&#10;Victory 1." />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="72446746-8c1d-456f-aa55-f1f3949c0864" name="Ancient Hall" size="EncounterCard">
+      <property name="Card Number" value="72" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Ancient. Ruins." />
+      <property name="Text" value="Forced – After doom is placed on Ancient Hall: Shuffle the top card of the encounter deck into the exploration deck. Any investigator at Ancient Hall may spend 3 resources to cancel this effect." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="2π" />
+    </card>
+    <card id="24245188-0cd3-43b5-9e2a-3b9f6e99f83b" name="Jade Crocodile">
+      <property name="Card Number" value="73" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="Effigy of the Guardian" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Story" />
+      <property name="Traits" value="Item. Relic. Ancient." />
+      <property name="Text" value="Revelation – Put Jade Crocodile into play under your control. You must either place 1 doom on your location, or take 2 damage.&#10;Forced – When you resign: Add Jade Crocodile to the victory display.&#10;Victory 1." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Unique" value="ο" />
+      <property name="Victory Points" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e61b9a38-18ac-4a14-9b95-a13b5ef3067a" name="Obsidian Jaguar">
+      <property name="Card Number" value="74" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="Effigy of the Huntress" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Story" />
+      <property name="Traits" value="Item. Relic. Ancient." />
+      <property name="Text" value="Revelation – Put Obsidian Jaguar into play under your control. You must either place 1 doom on your location, or the nearest enemy attacks you.&#10;Forced – When you resign: Add Obsidian Jaguar to the victory display.&#10;Victory 1." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Unique" value="ο" />
+      <property name="Victory Points" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="469c97fe-c265-4acd-8e2c-0ad1499a1455" name="Citrine Snake">
+      <property name="Card Number" value="75" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="Effigy of the Child" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Story" />
+      <property name="Traits" value="Item. Relic. Ancient." />
+      <property name="Text" value="Revelation – Put Citrine Snake into play under your control. If you are poisoned, take 1 direct damage. If you are not poisoned, put a set-aside Poisoned weakness into play in your threat area.&#10;Forced – When you resign: Add Citrine Snake to the victory display.&#10;Victory 1." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Unique" value="ο" />
+      <property name="Victory Points" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8601b87d-e818-458c-be9c-122911a466d8" name="Turquoise Eagle">
+      <property name="Card Number" value="76" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Subtitle" value="Effigy of the Watcher" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Story" />
+      <property name="Traits" value="Item. Relic. Ancient." />
+      <property name="Text" value="Revelation – Put Turquoise Eagle into play under your control. You must either place 1 doom on your location, or take 2 horror.&#10;Forced – When you resign: Add Turquoise Eagle to the victory display.&#10;Victory 1." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Unique" value="ο" />
+      <property name="Victory Points" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7012e854-1f24-49d2-8ba0-481e45b6c14b" name="Vengeant Past" size="EncounterCard">
+      <property name="Card Number" value="77" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Relics of the Past" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Power." />
+      <property name="Text" value="Peril.&#10;Revelation – For each Ancient story asset controlled by an investigator, you must either (choose one):&#10;—Deal 1 damage or horror to that asset's controller.&#10;—Shuffle that asset into the exploration deck.&#10;After this effect resolves, shuffle Vengeant Past into the exploration deck." />
+    </card>
+  </cards>
+</set>
