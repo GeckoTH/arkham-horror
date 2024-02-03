@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="72e649f2-0520-4dba-bd60-841eb2cd3b06">Something Else Stirs...</card>
+    <card qty="1" id="f9643ae8-8800-4c35-b88f-4c14ae7fb132">Guardian of the Relics</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="bf619718-0b18-43ee-b181-2d0f637b70ff">Crumbling Ruin</card>
+    <card qty="1" id="320707c4-e13f-47a1-a22c-bff26d2814e8">Find the Way Out!</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
+    <card qty="1" id="184cb383-35f8-4ecc-af00-33b427b1df7b">Serpent from Yoth</card>
+    <card qty="2" id="56778b1f-923b-4618-b4ff-445a972d1bfe">Curse of Yig</card>
+    <card qty="2" id="4a02ea48-d391-4a1f-af82-a66a31dccb73">Final Mistake</card>
+    <card qty="1" id="b7326daa-e159-43f2-bb23-af98316e4698">Entombed</card>
+    <card qty="2" id="6d4b1487-e67b-44b9-97a3-0691039ef958">Ill Omen</card>
+    <card qty="2" id="c5645847-3aba-4c61-9afe-52367226f9c0">Ancestral Fear</card>
+    <card qty="2" id="13aff50c-dfa0-4058-a1f3-a3a79c191b74">Deep Dark</card>
+    <card qty="2" id="525eb456-3976-4c7b-bcbc-e8d29ead83f9">Creeping Poison</card>
+    <card qty="1" id="d1a5b69b-6d3a-48ab-bace-e33633b93b5a">Boa Constrictor</card>
+    <card qty="3" id="39d0f46c-20e2-447d-acd4-24d6b2794d99">Snake Bite</card>
+    <card qty="2" id="fc9f9748-abfc-4765-934f-35e34aaf4e18">Fang of Yig</card>
+    <card qty="2" id="51fa25ad-358e-4511-a25f-a72eab8f4264">Snakescourge</card>
+    <card qty="1" id="5836ef11-4edb-475d-ab6b-b6b8157a3fde">Serpent's Call</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="1" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="1c400e14-07a5-4711-b075-0ebd839221f6">Grand Chamber</card>
+    <card qty="1" id="419e2e1d-23ab-4c8a-88df-982968e2891b">Burial Pit</card>
+    <card qty="1" id="b504f6a9-95fc-4db6-957c-c128b810d77a">Underground Ruins</card>
+    <card qty="1" id="4eb5a52f-f274-4e94-b54a-ca1b890a3eb2">Secret Passage</card>
+    <card qty="1" id="72446746-8c1d-456f-aa55-f1f3949c0864">Ancient Hall</card>
+    <card qty="1" id="13aff50c-dfa0-4058-a1f3-a3a79c191b74">Deep Dark</card>
+    <card qty="1" id="4a02ea48-d391-4a1f-af82-a66a31dccb73">Final Mistake</card>
+    <card qty="3" id="20130830-bb18-44ac-b429-de7ab8ca1d6a">Pit Viper</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="7012e854-1f24-49d2-8ba0-481e45b6c14b">Vengeant Past</card>
+    <card qty="1" id="e7651555-a32b-470c-878a-dfed004420af">Inner Chamber</card>
+    <card qty="3" id="929ee783-a8a7-4a27-baa0-b9f88c9b66fc">Brood of Yig</card>
+    <card qty="1" id="24245188-0cd3-43b5-9e2a-3b9f6e99f83b">Jade Crocodile</card>
+    <card qty="1" id="e61b9a38-18ac-4a14-9b95-a13b5ef3067a">Obsidian Jaguar</card>
+    <card qty="1" id="469c97fe-c265-4acd-8e2c-0ad1499a1455">Citrine Snake</card>
+    <card qty="1" id="8601b87d-e818-458c-be9c-122911a466d8">Turquoise Eagle</card>
+    <card qty="4" id="826a83fd-9a59-4442-b934-6f961d9fbbbd">Poisoned</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="9966898e-124c-443f-a9a6-72d80a9ef9cb">Relics of the Past</card>
+    <card qty="1" id="638c7211-68ec-451d-b38c-c2398126090d">Entryway</card>
+    <card qty="1" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="1" id="b7326daa-e159-43f2-bb23-af98316e4698">Entombed</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

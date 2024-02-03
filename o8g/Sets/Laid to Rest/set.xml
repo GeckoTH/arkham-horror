@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Laid to Rest" id="78147b43-5ad6-442c-a8bb-af15724c034f" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="47f5b028-27e6-4ce7-a9ee-f2a6c41a3fe7" name="Jim Culver" size="InvestigatorCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Musician" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Performer. Cursed." />
+      <property name="Text" value="ι After you reveal 1 or more α or [Curse] tokens during a skill test you are performing: Replenish 1 charge on an asset you control. (Limit once per round.)&#10;ε effect: +2. You may treat this token as if it were a α or [Curse] toekn instead." />
+      <property name="Health" value="7" />
+      <property name="Sanity" value="8" />
+      <property name="Class" value="Mystic" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Unique" value="ο" />
+      <alternate name="Jim Culver" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Musician" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Mystic cards (μ) level 0-3, Spell and Cursed cards level 0-4, Neutral cards level 0-5, up to 5 other Survivor cards (ξ) level 0.&#10;Deckbuilding Requirements (do not count toward deck size): Jim's Trumpet, Final Rhapsody, The Beyond, 1 random basic weakness.&#10;Spirit Deck Size: 10.&#10;Spirit Deckbuilding Options: 9 different Ally assets from any class level 0–2, Vengeful Shade.&#10;Spirit Deck Instructions: Shuffle the &quot;spirit deck&quot; separately from your deck and place it next to The Beyond asset, facedown. This deck may be upgraded separately using your unspent experience." />
+        <property name="Class" value="Mystic" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="2e7dfe17-96d4-4083-8354-f8c453567c88" name="Jim's Trumpet">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Dead Speak" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Instrument. Relic." />
+      <property name="Text" value="Jim Culver deck only. Advanced.&#10;ι When a α or [Curse] token is revealed during a skill test you are performing, exhaust Jim's Trumpet: Heal 1 horror from each investigator and Ally asset at your location or a connecting location." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fa73cb95-31e7-4edd-9424-f27662c9ca48" name="Final Rhapsody">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Endtimes." />
+      <property name="Text" value="Advanced.&#10;Revelation – Reveal 5 chaos tokens from the chaos bag. For each non-ε, non-[Bless] symbol token revealed, take 1 damage and 1 horror." />
+      <property name="Class" value="Neutral" />
+    </card>
+    <card id="b29ef026-7bff-48ba-867a-deb41ece59ca" name="The Beyond">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Bleak Netherworld" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Sanctum. Spectral." />
+      <property name="Text" value="Jim Culver deck only. Permanent.&#10;Each attached spirit loses all printed traits and gains the Geist trait. When damage/horror would be placed on an attached spirit, it must be placed on Jim Culver, instead.&#10;Forced – When your turn begins: Attach the top card of the spirit deck to The Beyond, as a spirit. If 4 or more spirits are attached, flip this card and resolve its text." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="The Beyond" type="B">
+        <property name="Type" value="Story" />
+        <property name="Text" value="Forced – One at a time, choose each non-weakness spirit attached to The Beyond and reveal a random token from the chaos bag. If it is...&#10;—... an ε token: You may either heal 1 horror, or attach the top card of the spirit deck to The Beyond, as a spirit. (Do not reveal tokens for the spirit you attach after resolving this effect.)&#10;—... an [Autofail] token: Discard this spirit. Take 1 direct damage/horror.&#10;—... a α token: Discard this spirit. Heal 1 horror.&#10;—... a β, δ, γ, or [Curse] token: You must either discard this spirit or take 1 direct damage.&#10;—... any other othen: Discard this spirit.&#10;Flip this card back to its asset side.&#10;____&#10;Reminder: Spirit attached to The Beyond are in play but only retain their names and text boxes. Spirits do not take up slots and do not have health or sanity values. When a unique spirit is attached to The Beyond, any other asset that shares its name and is already in play is discarded. Spirits are always discarded to the bottom of the spirit deck." />
+      </alternate>
+    </card>
+    <card id="8c1e9f95-fbec-4e0c-a55a-f906b3213629" name="Vengeful Shade">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Laid to Rest" />
+      <property name="Type" value="Enemy" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Monster. Geist." />
+      <property name="Text" value="Hunter. Prey – Jim Culver only.&#10;You may fight or evade this enemy while it is attached to The Beyond (as if it were engaged with you). If you succeed, discard it. If you fail, spawn it engaged with you.&#10;Forced – When you attach a spirit to The Beyond via its forced effect: Vengeful Shade attacks you (even if it is not at your location)." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="5" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="5854a7e0-1775-488e-9d01-591310648733" name="Laid to Rest" size="EncounterCard">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Laid to Rest" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is 1 more than the number of copies of Unfinished Business in the victory display.&#10;β: –X. X is the number of cards attached to The Beyond.&#10;γ: –X. X is the number of Spectral locations in play.&#10;δ: –2. If there is a Geist enemy at your location, reveal another token.&#10;Spiritual Disturbance" />
+      <alternate name="Laid to Rest" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Laid to Rest" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 2 more than the number of copies of Unfinished Business in the victory display.&#10;β: –X. X is twice the number of cards attached to The Beyond.&#10;γ: –X. X is twice the number of Spectral locations in play.&#10;δ: –3. If there is a Geist enemy at your location, you automatically fail.&#10;Spiritual Disturbance" />
+      </alternate>
+    </card>
+    <card id="8199aece-ad4f-4628-8ca5-c65a2f3562da" name="Gathering Mists" size="HorizCard">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Laid to Rest" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – When the enemy phase begins: Deal 1 damage to Jean Devereux for each ready Ravenous Spirit at his location.&#10;Forced – If Jim Culver is defeated: Advance the act.&#10;η Spend 2π clues, as a group: Parley. You banish a spirit. Discard the top card of the Spirit deck. (Hint: Draw Heretics out of the Beyond and summon them with Jean's help!)" />
+      <property name="Doom" value="4" />
+      <alternate name="The Hour Grows Late..." type="B" size="HorizCard">
+        <property name="Encounter Set" value="Laid to Rest" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Place 1 horror on the scenario reference card under Spirit Disturbance. If there is 4 horror on the scenario reference card, each investigator who has not been eliminated is defeated and suffers 1 mental trauma. (-&gt; R2)&#10;Otherwise (if there is 3 or fewer horror on the scenario reference card), perform the following:&#10;—Place clues on each location until it has 1π clues on it.&#10;—Flip each location except for Jean Devereux's location to its non-Spectral side.&#10;Flip this agenda back over." />
+      </alternate>
+    </card>
+    <card id="425ce02a-8893-4ea9-a61c-93aaf21fbcb9" name="Laid to Rest" size="HorizCard">
+      <property name="Card Number" value="56" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Laid to Rest" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Either exhaust Jim's Trumpet, or spend 1π clues, as a group: Choose an enemy to move once toward Jim Culver's location.&#10;θ Spend 1π clues, as a group: Flip your location. (Group limit once per round per location.)&#10;Objective – If there are 4 copies of Unfinished Business in the victory display, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="The Spectral Storm" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Laid to Rest" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If this act advanced via its objective:&#10;Find each Ravenous Spirit in play and place it in the victory display. (-&gt; R1)&#10;____&#10;Otherwise:&#10;Jim Culver suffers 1 mental trauma for each Heretic enemy still in The Beyond (to a minimum of 1 mental trauma). Each other investigator who was not eliminated is defeated and suffers 1 mental trauma. (-&gt; R2)" />
+      </alternate>
+    </card>
+    <card id="16758f96-4409-412c-bcc4-4d5e5da7ea1e" name="Jean Devereux" size="EncounterCard">
+      <property name="Card Number" value="57" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Laid to Rest" />
+      <property name="Subtitle" value="Seeking Closure" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Sorcerer. Elite." />
+      <property name="Text" value="Aloof. Patrol (Nearest location with a Ravenous Spirit enemy beneath it). Cannot be engaged.&#10;η Draw a facedown card beneath Jean Devereux's location and choose a Heretic attached to The Beyond: Parley. Jim Culver draws the chosen Heretic, flips it, and resolves its text.&#10;Forced – When Jean Devereux would be defeated: Instead, heal all damage from him and flip him." />
+      <property name="Health" value="3π" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="1" />
+      <alternate name="Jean Devereux" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Laid to Rest" />
+        <property name="Subtitle" value="Possessed" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Sorcerer. Elite." />
+        <property name="Text" value="Hunter. Prey – Jim Culver only.&#10;η: Parley. Test ά (3). This test gets +1 difficulty for each copy of Unfinished Business in the victory display. If you succeed, heal all damage from Jean Devereux and flip him (he is no longer engaged).&#10;Forced – If Jean Devereux is defeated: Advance the act." />
+        <property name="Health" value="3π" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="2" />
+		<property name="Unique" value="ο" />
+        <property name="Damage" value="1" />
+        <property name="Horror" value="1" />
+      </alternate>
+    </card>
+    <card id="10621d75-f211-4fb5-87d0-dbf7ca0690a3" name="Ravenous Spirit" size="EncounterCard">
+      <property name="Card Number" value="58" />
+      <property name="Quantity" value="4" />
+      <property name="Encounter Set" value="Laid to Rest" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Geist. Spectral. Elite." />
+      <property name="Text" value="Aloof. Patrol (Jean Devereux's location).&#10;Retaliate.&#10;Ravenous Spirit gets +2π health.&#10;Forced – When this enemy enters a location: Flip that location to its Spectral side. One at a time, each investigator at that location resolves each haunted ability on it.&#10;Victory 1." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="4" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+      <property name="Victory Points" value="1" />
+    </card>
+  </cards>
+</set>
