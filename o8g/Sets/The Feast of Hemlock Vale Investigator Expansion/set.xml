@@ -1849,7 +1849,7 @@
       <property name="Slot" value="Arcane" />
       <property name="Skill Icons" value="" />
     </card>
-    <card id="3371bcc6-1acc-4dee-a6bc-2daa0b31306b" name="Wilson Richards">
+    <card id="3371bcc6-1acc-4dee-a6bc-2daa0b31306b" name="Wilson Richards" size="MiniCard">
       <property name="Card Number" value="991" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Mini" />
@@ -1859,7 +1859,7 @@
 		<property name="Class" value="Guardian"/>
       </alternate>
     </card>
-    <card id="e391b2a3-852c-46d5-b8cc-b427360716b1" name="Kate Winthrop">
+    <card id="e391b2a3-852c-46d5-b8cc-b427360716b1" name="Kate Winthrop" size="MiniCard">
       <property name="Card Number" value="992" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Mini" />
@@ -1869,7 +1869,7 @@
 		<property name="Class" value="Seeker"/>
       </alternate>
     </card>
-    <card id="fbe03eab-db73-45c4-b61b-8b8caa8a70c5" name="Alessandra Zorzi">
+    <card id="fbe03eab-db73-45c4-b61b-8b8caa8a70c5" name="Alessandra Zorzi" size="MiniCard">
       <property name="Card Number" value="993" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Mini" />
@@ -1879,7 +1879,7 @@
 		<property name="Class" value="Rogue"/>
       </alternate>
     </card>
-    <card id="8b379591-ecbe-4853-aba1-d35b0dd8683d" name="Kōhaku Narukami">
+    <card id="8b379591-ecbe-4853-aba1-d35b0dd8683d" name="Kōhaku Narukami" size="MiniCard">
       <property name="Card Number" value="994" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Mini" />
@@ -1889,7 +1889,7 @@
 		<property name="Class" value="Mystic"/>
       </alternate>
     </card>
-    <card id="4f2a5f9b-8888-43df-ba0f-380d531e7cba" name="Hank Samson">
+    <card id="4f2a5f9b-8888-43df-ba0f-380d531e7cba" name="Hank Samson" size="MiniCard">
       <property name="Card Number" value="995" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Mini" />
