@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="033a4cf5-1e53-4121-a7b3-607ce8810765">Opening Hand</card>
+    <card qty="1" id="b7582d2f-df22-414e-8a4a-4224cc1970bf">The Turn</card>
+    <card qty="1" id="c8713e25-0361-4543-bc22-4f3d33eba622">All Bets Down</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="cccebe4b-4cab-403e-a9ad-a69d05363c8b">The Take</card>
+    <card qty="1" id="e5f7d775-d45a-4648-9dac-a162438ab9b8">The Exit</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="6c16838a-4b6b-422d-9a29-1b5b2d194379">Casino Guard</card>
+    <card qty="1" id="f15d1b0a-90f9-42f3-a69a-151d5cc2a773">Casino Guard</card>
+    <card qty="1" id="af5ab8c9-5e21-46f9-af85-d6689ec97844">Casino Guard</card>
+    <card qty="1" id="c70e10aa-07b4-4f7d-9418-3bc5a342aa63">House Dealer</card>
+    <card qty="1" id="c7c14236-3ea1-4298-80f8-b5229e4ec501">House Dealer</card>
+    <card qty="1" id="8af0e9d5-0888-4eb6-8e26-4a1e69be1cd6">Security Patrol</card>
+    <card qty="1" id="127a84df-405b-4a94-b866-9c16b972df3d">Security Patrol</card>
+    <card qty="1" id="e5ae0062-15eb-4bba-8464-055754d3f3df">Security Patrol</card>
+    <card qty="1" id="f852434f-9735-4e94-ba81-493b2876e11c">Inconvenient Questioning</card>
+    <card qty="1" id="ef3b3e28-7358-4132-a253-6f0845ca02a4">Inconvenient Questioning</card>
+    <card qty="1" id="5aa44412-bae6-4a6b-b0db-89d3055b7ab5">Inconvenient Questioning</card>
+    <card qty="1" id="69bb2cbf-cc10-44a8-b376-3b2dfd8c575b">Inconvenient Questioning</card>
+    <card qty="1" id="69e2a0db-60bf-41c9-881c-04d92c533f4c">Arcane Spotlight</card>
+    <card qty="1" id="beaf0833-66c9-4e15-98da-9e637eff5117">Arcane Spotlight</card>
+    <card qty="1" id="fb3624d7-372c-4b5c-8fdb-9dbf31abc7f9">Arcane Spotlight</card>
+    <card qty="1" id="a2ab1f19-9c4b-4a43-9808-8456a3eed907">Avarice Calls</card>
+    <card qty="1" id="9b01ac41-9bc5-4612-a43d-da67e504b7ff">Avarice Calls</card>
+    <card qty="1" id="982206fb-799b-441f-a5a1-7e1944239860">Avarice Calls</card>
+    <card qty="1" id="d5a7ca14-9878-477e-b8d3-6693de0e05df">Suspicious Gaze</card>
+    <card qty="1" id="f0723a1b-4230-4898-87bc-58ae5817982f">Suspicious Gaze</card>
+    <card qty="1" id="9facb047-0aab-4461-8819-c4a6a7a370c1">Suspicious Gaze</card>
+    <card qty="1" id="91ccd380-0557-4992-b6fa-f4c44f882ecc">Obessed Gambler</card>
+    <card qty="1" id="000c8064-f1fb-4743-9ea8-a122bf700bfa">Obessed Gambler</card>
+    <card qty="1" id="1fd4d1ee-4050-4874-8dc6-ea16a8dc5153">Obessed Gambler</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="97ef2433-923c-4ed6-8b8b-b17e07e45c3b">Fortune's Shield</card>
+    <card qty="1" id="8b784acd-3067-4860-9d98-81d201ce758f">Fortune's Shield</card>
+    <card qty="1" id="933b80b7-9c5d-4bee-8855-464bb38bc4da">Fortune's Dagger</card>
+    <card qty="1" id="5eab3ed3-3618-4275-811a-c8abe2b8ed8c">Fortune's Dagger</card>
+    <card qty="1" id="56dc43cc-b841-4fd4-a8a4-da2007280126">Dimensional Shambler</card>
+    <card qty="1" id="4c8be08e-5bd8-40dd-9f57-cb436cc93328">Dimensional Duplicator</card>
+    <card qty="1" id="2fa73334-d799-4a23-bec6-bccbb95240bf">Dimensional Duplicator</card>
+    <card qty="1" id="6805d4a9-b3e5-4c95-8f00-9db0b8ddb481">Dimensional Displacer</card>
+    <card qty="1" id="23c8d42e-d047-4011-bc6a-ed706f529b49">Dimensional Displacer</card>
+    <card qty="1" id="2946c8ed-c9fb-4e2d-9488-3f792e6c2d43">Dimensional Hypnosis</card>
+    <card qty="1" id="e8c2e4df-7f93-4869-b2fb-50368046d8cb">Dimensional Hypnosis</card>
+    <card qty="1" id="8c80ed70-c351-4a7a-97e5-78bf5e8c526c">Dimensional Hypnosis</card>
+    <card qty="1" id="07d83df3-676d-4588-90c7-32550edaaa00">Grip of the Beyond</card>
+    <card qty="1" id="175a39cb-8cf1-4a12-96de-3b04d4c86551">Grip of the Beyond</card>
+    <card qty="1" id="e842ff32-cba9-48e9-bfd3-6637f50a66e3">Grip of the Beyond</card>
+    <card qty="1" id="3152101b-5daa-482a-ae98-27affcb4c8be">Hunter's Hunger</card>
+    <card qty="1" id="d30f0174-d98f-4450-8445-5295849f935e">Hunter's Hunger</card>
+    <card qty="1" id="8c030ac9-e3db-42e9-a0c4-d838bac9959d">Fortune's Disfavor</card>
+    <card qty="1" id="7caf336d-2d6b-45e1-8a9e-a866e3ce05e3">Fortune's Disfavor</card>
+    <card qty="1" id="8e825d78-7b64-46c5-bdc1-07e12a3c1483">Fortune's Disfavor</card>
+    <card qty="1" id="41d19722-589e-4049-9ff8-e3e02f67f038">If the Uniform Fits...</card>
+    <card qty="1" id="bdf125d1-50f9-420d-aa3b-b7850d1e02c5">Deck of Possibilities</card>
+    <card qty="1" id="b6ff5b94-a3b9-4fad-a1b9-f99e7b66ceb6">Isamara Ordoñez</card>
+    <card qty="1" id="7547cde2-b4cb-47b6-adf5-58293aa3c7c9">Cash Cart</card>
+    <card qty="1" id="cb0590d7-079f-4aff-80fa-f70ffa2a9c5d">Abarran Arrigorriagakoa</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="799384ab-659e-4455-923e-98637b2d9620">The Face</card>
+    <card qty="1" id="ceb69c38-aa04-4b26-a2d0-b1fc55f1e7da">The Muscle</card>
+    <card qty="1" id="f0cede79-3337-4479-be56-226f7246c45d">The Thief</card>
+    <card qty="1" id="6a8915b8-9e23-4179-9a0e-296f703d9d7f">The Grifter</card>
+    <card qty="1" id="37971a80-f19a-4126-82d8-806aa4ca13cb">Casino Floor</card>
+    <card qty="1" id="f9c3e618-41b9-44d9-b6a6-83bfa46868ad">Poker Table</card>
+    <card qty="1" id="c6e32fe0-b572-4dbf-a90c-0aa5dd8e9268">Roulette Wheel</card>
+    <card qty="1" id="4aa5daa2-022a-4e52-a72a-a90bab1901ff">Baccarat Table</card>
+    <card qty="1" id="9729bb0b-8450-4ae5-8373-5d9fa914dbe6">Slot Machines</card>
+    <card qty="1" id="e8f6eca5-7747-48fa-bccf-770560504b2f">High Roller's Table</card>
+    <card qty="1" id="b75f9734-ce61-4f74-b29a-06f58939b660">Casino Lounge</card>
+    <card qty="1" id="fc2c198e-ad4e-4b78-a33d-21fb3b69eb27">Staff Access Hallway</card>
+    <card qty="1" id="8d87e557-f9d5-48f4-85f7-7d1f32d7a7a2">Security Office</card>
+    <card qty="1" id="a9c4d4e8-121b-4623-be6e-e7be2de5a744">Guard Room</card>
+    <card qty="1" id="dcd2d3c9-f668-464a-9ae5-970ca90d045b">Owner's Office</card>
+    <card qty="1" id="86a2e02c-84ea-4e33-b29f-6e49af99e9b2">Counting Room</card>
+    <card qty="1" id="15a6567c-f195-4a01-aa63-612217300040">Vault Door</card>
+    <card qty="1" id="875f30a4-b168-4b3d-a4f3-a3287d2b2e88">Relic Room</card>
+    <card qty="1" id="882e7977-0849-4a91-888c-7e94272665b3">The Stakeout</card>
+    <card qty="1" id="6f735de7-ccdd-4387-b41d-0d31e8b11e8b">The Wellspring of Fortune</card>
+    <card qty="1" id="bcb86e6c-9cbb-456c-8c2c-e2ab121ea711">Isamara Ordoñez</card>
+    <card qty="1" id="cb0590d7-079f-4aff-80fa-f70ffa2a9c5d">Abarran Arrigorriagakoa</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

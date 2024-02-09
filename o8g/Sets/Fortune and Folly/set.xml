@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fortune and Folly" id="dbc9caae-57ed-4c2f-8dc1-bb2bad4b8d32" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="a54696c4-3697-4c72-bd54-4d3f3868afc4" name="Fortune and Folly" size="EncounterCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is half your alarm level (rounded up).&#10;β: Reveal another token. If you fail, raise your alarm level by 1.&#10;γ: –3. If you fail, the nearest enemy moves once toward you.&#10;δ: –5. You may raise your alarm level by 1 to automatically succeed, instead." />
+      <alternate name="Fortune and Folly" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is your alarm level.&#10;β: Reveal another token. If you fail, raise your alarm level by 1.&#10;γ: –4. The nearest enemy moves once toward you.&#10;δ: –6. You may raise your alarm level by 1 to automatically succeed, instead." />
+      </alternate>
+    </card>
+    <card id="9b9b9eb2-eaeb-41de-b192-9db9a76c7700" name="The House Always Watches" size="HorizCard">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – At the start of the enemy phase: Each investigator who is at the same location as a ready Casino enemy raises their alarm level by 1.&#10;Forced – After an investigator defeats a Casino enemy: Raise that investigator's alarm level by 1." />
+      <property name="Doom" value="8" />
+      <alternate name="Worn Out Welcome" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="If the investigators, as a group, possess 10π or more resources, remember that you &quot;cleaned out the house.&quot;&#10;(–&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="033a4cf5-1e53-4121-a7b3-607ce8810765" name="Opening Hand" size="HorizCard">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Agenda 2a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – At the start of the enemy phase: Each investigator who is at the same location as a ready Casino enemy raises their alarm level by 1.&#10;Forced – After an investigator defeats a Casino enemy: Raise that investigator's alarm level by 1." />
+      <property name="Doom" value="5" />
+      <alternate name="Bluff Called" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Agenda 2b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Spawn the set-aside Dimensional Shambler at the Roulette Wheel. Shuffle the encounter discard pile and the set-aside Plan in Shambles encounter set into the encounter deck.&#10;Raise each investigator's alarm level by 1." />
+      </alternate>
+    </card>
+    <card id="b7582d2f-df22-414e-8a4a-4224cc1970bf" name="The Turn" size="HorizCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Agenda 3a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – At the start of the enemy phase: Each investigator who is at the same location as a ready Casino enemy raises their alarm level by 1.&#10;Forced – After an investigator defeats a Casino enemy: Raise that investigator's alarm level by 1." />
+      <property name="Doom" value="3" />
+      <alternate name="Improbable Chaos" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Agenda 3b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Shuffle the 3 set-aside Fortune's Disfavor story cards and select 1 of them at random, resolving its text.&#10;Raise each investigator's alarm level by 1." />
+      </alternate>
+    </card>
+    <card id="c8713e25-0361-4543-bc22-4f3d33eba622" name="All Bets Down" size="HorizCard">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Agenda 4a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="Forced – At the start of the enemy phase: Each investigator who is at the same location as a ready Casino enemy raises their alarm level by 1.&#10;Forced – After an investigator defeats a Casino enemy: Raise that investigator's alarm level by 1." />
+      <property name="Doom" value="12" />
+      <alternate name="Cleaned Out" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Agenda 4b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Each investigator who did not resign is defeated and suffers 1 physical trauma.&#10;(–&gt;R3)" />
+      </alternate>
+    </card>
+    <card id="6573cc74-9470-4bbe-b8bd-909344f76547" name="Casing the Joint" size="HorizCard">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="ι After you trigger the η ability on a Game location: Remove 1 clue from The Wellsprint of Fortune (2 clues instead if you gained resources from the Game locations ability).&#10;Objective – Accomplish as many tasks as you can and get out before you are noticed! If each undefeated investigator has resigned, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="&quot;Come Back Soon!&quot;" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Each investigator who was defeated raises their alarm level by 2.&#10;If the investigators, as a group, possess 10π or more resources, remember that you &quot;cleaned out the house.&quot;&#10;(–&gt;R2)" />
+      </alternate>
+    </card>
+    <card id="cccebe4b-4cab-403e-a9ad-a69d05363c8b" name="The Take" size="HorizCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Act 2a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="ι After you trigger the η ability on a Game location: Remove 1 clue from The Wellsprint of Fortune (2 clues instead if you gained resources from the Game locations ability).&#10;Objective – If an investigator controls The Wellspring of Fortune, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Relic Acquired" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Act 2b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="If Abarran Arrigorriagakoa is still in play...&#10;Move Abarran Arrigorriagakoa (Abarran Unleased) to Relic Room.&#10;_____&#10;If Abarran Arrigorriagakoa is in the victory display...&#10;Each investigator must test ί (3). Each investigator who fails takes 2 damage." />
+      </alternate>
+    </card>
+    <card id="e5f7d775-d45a-4648-9dac-a162438ab9b8" name="The Exit" size="HorizCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Act 3a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="Each Casino enemy loses aloof and patrol.&#10;Each Casino enemy gains hunter and &quot;Prey – Investigator that controls The Wellspring of Fortune.&quot;&#10;Objective – If the investigator with The Wellspring of Fortune has resigned, advance. (Beware—any investigator who has not resigned will be left behind!)" />
+      <property name="Clues" value="–" />
+      <alternate name="Sweet Freedom" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Act 3b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="Each investigator who has not resigned is defeated and suffers 1 physical trauma.&#10;(–&gt;R1)" />
+      </alternate>
+    </card>
+    <card id="37971a80-f19a-4126-82d8-806aa4ca13cb" name="Casino Floor" size="EncounterCard">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Calm Night" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Public. Casino." />
+      <property name="Text" value="η: Resign. It's time to get out of here!&#10;η: Place an asset from your hand or play area facedown beneath Casino Floor, as part of your crew's &quot;stash for the heist.&quot; (Limit once per turn.)" />
+      <property name="Shroud" value="2" />
+      <property name="Clues" value="0" />
+      <alternate name="Casino Floor" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Busy Night" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Public. Casino." />
+        <property name="Text" value="η: Resign. It's time to get out of here!&#10;η If an investigator &quot;impersonated a high roller&quot; and your alarm level is 6 or lower, spend 2 resources: You set up a delivery to the vault. Search the encounter deck and discard pile for a Casino enemy, spawn it here, and attach the set-aside Package Deliver story card to it. (Group limit once per game.)" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="f9c3e618-41b9-44d9-b6a6-83bfa46868ad" name="Poker Table" size="EncounterCard">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Public. Casino. Game." />
+      <alternate name="Poker Table" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Public. Casino. Game." />
+        <property name="Text" value="η Spend 2 resources: Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have a sequential rank, or if 3 or more of the cards have the same rank, gain 5 resources." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="c6e32fe0-b572-4dbf-a90c-0aa5dd8e9268" name="Roulette Wheel" size="EncounterCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Public. Casino. Game." />
+      <alternate name="Roulette Wheel" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Public. Casino. Game." />
+        <property name="Text" value="η Spend 1 resource: Name a color and a rank. Then, discard the top card of the encounter deck and check its game icon. If it matches the named color and rank, gain 5 resources." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="4aa5daa2-022a-4e52-a72a-a90bab1901ff" name="Baccarat Table" size="EncounterCard">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Public. Casino. Game." />
+      <alternate name="Baccarat Table" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Public. Casino. Game." />
+        <property name="Text" value="η Spend 2 resources: Name &quot;player,&quot; &quot;banker,&quot; or &quot;tie.&quot; Discard the top 2 cards of the encounter deck and check their game icons. If the combined value of their ranks is higher than 18, the &quot;player&quot; wins. If the combined value is lower than 18, the &quot;banker&quot; wins. If the combined value is equal to 18, it is a &quot;tie&quot;. If this result matches the result you name, gain 4 resources." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="Each investigator who was defeated raises their alarm level by 2.&#10;If the investigators, as a group, possess 10π or more resources, remember that you &quot;cleaned out the house.&quot;&#10;(–&gt;R2)" />
+      </alternate>
+    </card>
+    <card id="9729bb0b-8450-4ae5-8373-5d9fa914dbe6" name="Slot Machines" size="EncounterCard">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Public. Casino. Game." />
+      <alternate name="Slot Machines" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Public. Casino. Game." />
+        <property name="Text" value="η Spend 1 resource: Discard the top 3 cards of the encounter deck and check their game icons. If all 3 cards have the same suit or same rank, gain 3 resources." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="e8f6eca5-7747-48fa-bccf-770560504b2f" name="High Roller's Table" size="EncounterCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Calm Night" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Public. Casino. Game." />
+      <property name="Text" value="η If there are no clues here, spend 4 resources: Remember that you &quot;impersonated a high roller.&quot; Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have the same suit or a sequential rank, or if 4 of the cards have the same rank, gain 8 resources." />
+      <property name="Shroud" value="3" />
+      <property name="Clues" value="2π" />
+      <alternate name="High Roller's Table" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Busy Night" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Public. Casino. Game." />
+        <property name="Text" value="η Spend 4 resources: Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have the same suit or a sequential rank, or if 4 cards have the same rank, gain 8 resources and remember that you &quot;won a cultist medallion.&quot;" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="b75f9734-ce61-4f74-b29a-06f58939b660" name="Casino Lounge" size="EncounterCard">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Calm Night" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Public. Casino." />
+      <property name="Text" value="η If there are no clues on Casino Lounge: Test ί (3). If you succeed, remember that you &quot;found a vent.&quot;" />
+      <property name="Shroud" value="5" />
+      <property name="Clues" value="2π" />
+      <alternate name="Casino Lounge" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Busy Night" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Public. Casino." />
+        <property name="Text" value="η If you &quot;found a vent,&quot; investigators at Casino Lounge spend 2π clues, as a group: Move. Move to Guard Room. Then, reveal Stagg Access Halway if it has not already been revealed. Remember thatn &quot;the vent is open.&quot; (Group limit once per game.)&#10;While &quot;the vent is open,&quot; investigators may move from Casino Lounge to Guard Room as if they were connected, and vice versa." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="fc2c198e-ad4e-4b78-a33d-21fb3b69eb27" name="Staff Access Hallway" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Restricted. Casino." />
+      <property name="Text" value="As an additional cost to enter Staff Access Hallway, investigators at a connecting location must spend 4π clues, as a group." />
+      <alternate name="Staff Access Hallway" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Restricted. Casino." />
+        <property name="Text" value="Forced – When Staff Access Hallway is revealed: Spawn Abarran Arrigorriagakoa (Abarran Unleashed) at Owner's Office. Shuffle the encounter discard pile and the set-aside Fortune's Chosen encounter set into the encounter deck." />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="8d87e557-f9d5-48f4-85f7-7d1f32d7a7a2" name="Security Office" size="EncounterCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Restricted. Casino." />
+      <alternate name="Security Office" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Restricted. Casino." />
+        <property name="Text" value="η: Choose 1, 2, or 3. Discard that many cards from the top of the encounter deck and check their game icons. If an icon matches the rank of an enemy in play, remember that you &quot;observed the staff.&quot; If the combined value of the discarded cards is 19 or higher, draw the top card in the encounter discard pile." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="a9c4d4e8-121b-4623-be6e-e7be2de5a744" name="Guard Room" size="EncounterCard">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Restricted. Casino." />
+      <alternate name="Guard Room" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Restricted. Casino." />
+        <property name="Text" value="η If all of the following are true, remember that you &quot;impersonated a guard:&quot;&#10;— There are no enemies at Guard Room.&#10;— There are no clues remaining on Guard Room.&#10;— An investigator &quot;obtained an employee uniform.&quot;" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="2π" />
+      </alternate>
+    </card>
+    <card id="dcd2d3c9-f668-464a-9ae5-970ca90d045b" name="Owner's Office" size="EncounterCard">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Restricted. Casino." />
+      <property name="Text" value="The Owner's Office is locked. As an additional cost to enter Onwer's Office, investigators at a connecting location must spend 2π clues, as a group, unless an investigator &quot;stole Abarran's keys.&quot;" />
+      <alternate name="Owner's Office" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Restricted. Casino." />
+        <property name="Text" value="X is equal to the highest alarm level among investigators at Owner's Office.&#10;η If there are no clues on Owner's Office: Remember that you &quot;found Abarran's sigil.&quot;" />
+        <property name="Shroud" value="X" />
+        <property name="Clues" value="3π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="86a2e02c-84ea-4e33-b29f-6e49af99e9b2" name="Counting Room" size="EncounterCard">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Restricted. Casino." />
+      <alternate name="Counting Room" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Restricted. Casino." />
+        <property name="Text" value="η Investigators at Counting Room spend 10π resources, as a group (5π instead if you &quot;found a vent&quot;): Remember that you &quot;obtained a schematic.&quot;&#10;ι After you successfully investigate Counting Room by 2 or more: Gain 2 resources. (Limit once per turn.)" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
+      </alternate>
+    </card>
+    <card id="15a6567c-f195-4a01-aa63-612217300040" name="Vault Door" size="EncounterCard">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Restricted. Casino." />
+      <property name="Text" value="The door to the casino vault is locked, guarded and warded with magic. You cannot enter Vault Door unless you have completed at least 4 of the tasks on The Heist story card." />
+      <alternate name="Vault Door" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Restricted. Casino." />
+        <property name="Text" value="η Move. Discard the top card of the encounter deck and check its game icon (if an investigator &quot;obtained a schematic,&quot; you may mulligan up to two times):&#10;— If its suit is Club or Spade: Move to Guard Room.&#10;— If its suit is Heart: Move to Casino Lounge.&#10;— If its suit is Diamond: Move to Baccarat Table." />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="0" />
+      </alternate>
+    </card>
+    <card id="875f30a4-b168-4b3d-a4f3-a3287d2b2e88" name="Relic Room" size="EncounterCard">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Location" />
+      <property name="Traits" value="Restricted. Casino." />
+      <property name="Text" value="You cannot enter Relic Room.&#10;Vault Door gains: &quot;η Take 1 damage and 1 horror unless an investigator 'found Abarran's sigil': Test ά or ί (4). If you succeed, investigators at Vault Door may spend 4π clues, as a group, to reveal Relic Room.&quot;" />
+      <alternate name="Relic Room" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Location" />
+        <property name="Traits" value="Restricted. Casino." />
+        <property name="Text" value="Forced – After Relic Room is revealed: Move all clues from The Wellspring of Fortune to Relic Room.&#10;η If there are no clues on Relic Room: Take control of The Wellspring of Fortune and attach it to your investigator card." />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="882e7977-0849-4a91-888c-7e94272665b3" name="The Stakeout">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Each of the following is a task that can be completed in Fortune and Folly, Part I:&#10;— An investigator &quot;found a vent.&quot;&#10;— An investigator &quot;impersonated a high roller.&quot;&#10;— An investigator &quot;convinced Isamara to participate in the heist.&quot;&#10;— An investigator &quot;obtained an employee uniform.&quot;&#10;— An investigator &quot;stole Abarran's keys.&quot;&#10;— An investigator &quot;cleaned out the house.&quot;&#10;_____&#10;Forced – When an investigator is eliminated (by defeated or resignation): Place each of that investigator's clues on this story card, instead of placing them at their location." />
+      <alternate name="The Heist" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Each of the following is a task that can be completed in Fortune and Folly, Part II:&#10;— An investigator &quot;won a cultist medallion.&quot;&#10;— An investigator &quot;observed the staff.&quot;&#10;— An investigator &quot;found Abarran's sigil.&quot;&#10;— An investigator &quot;obtained a schematic.&quot;&#10;— An investigator &quot;impersonated a guard.&quot;&#10;— An investigator &quot;stayed out of sight.&quot;&#10;— An investigator &quot;delivered a decoy package.&quot;&#10;— &quot;Isamara mesmerized the guards with her song.&quot;&#10;Hint: You must complete at least 4 of these tasks to unlock the vault door." />
+      </alternate>
+    </card>
+    <card id="41d19722-589e-4049-9ff8-e3e02f67f038" name="If the Uniform Fits...">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="η: Fight. Perform this attack only on the attached enemy. Test ή (3). If you succeed, attached enemy has been knocked out (read the section below). If you fail, raise your alarm level by 1.&#10;If attached enemy leaves play, remove this story card from the game.&#10;_____&#10;If attached enemy is knocked out:&#10;Remember that you &quot;obtained an employee uniform.&quot;&#10;Raise your alarm level by 1 if another enemy is at your location or a connecting location.&#10;Discard the attached enemy. Remove this story card from the game." />
+      <alternate name="Package Delivery" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="The attached enemy's patrol location changes to Vault Door. Attached enemy loses the Casino trait.&#10;If attached enemy enters Vault Door, the package has been delivered (read the section below).&#10;If attached enemy leaves play, remove this story card from the game.&#10;_____&#10;If the package has been delivered:&#10;Choose an investigator to search their deck for an Ally or Item asset and place it facedown beneath Vault Door. Remember that you &quot;delivered a decoy package.&quot;&#10;Discard the attached enemy and attach this story card to Vault Door.&#10;η: Put the facedown asset beneath Vault Door into play under your control. Remove this story card from the game." />
+      </alternate>
+    </card>
+    <card id="8c030ac9-e3db-42e9-a0c4-d838bac9959d" name="Fortune's Disfavor">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Flip this card over and resolve the text on its other side." />
+      <alternate name="Light's Out!" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Put this card into play next to the agenda deck. Place a damage token on each location.&#10;Each location with a damage token has no lights and gains: &quot;This location gets +1 shroud. As an additional cost to trigger an ability on this location, you must either spend an additional action or take 1 horror.&quot;&#10;While an investigator is at Security Office, they may perform the following action:&#10;η: Spend 1π clues. Choose one –&#10;— Restore power to the main hall. Remove a damage token from each Public location.&#10;— Restore power to the staff area. Remove a damage from each Restricted location." />
+      </alternate>
+    </card>
+    <card id="7caf336d-2d6b-45e1-8a9e-a866e3ce05e3" name="Fortune's Disfavor">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Flip this card over and resolve the text on its other side." />
+      <alternate name="Unlikely Injuries" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Put this card into play next to the agenda deck. One at a time, each investigator discards the top card of the encounter deck and checks its game icon. The following injury applies to that investigator for the remainder of the game:&#10;— If its suit is Heart: You are limited to one move action per turn.&#10;— If its suit is Diamond: You are limited to one investigate action per turn.&#10;— If its suit is Club: You are limited to one fight action per turn.&#10;— If its suit is Spade: You are limited to one activate action per turn.&#10;θ Take 1 damage or 1 horror: Ignore the effects of your injury until the end of your turn. Any investigator may trigger this ability. (Limit once per turn.)" />
+      </alternate>
+    </card>
+    <card id="8e825d78-7b64-46c5-bdc1-07e12a3c1483" name="Fortune's Disfavor">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Story" />
+      <property name="Text" value="Flip this card over and resolve the text on its other side." />
+      <alternate name="Personal Entanglement" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="Attach this story card to Owner's Office. This story card represents somebody connected to the lead investigator.&#10;η Investigators at Owner's Office spend 1π clues, as a group: Remove this story card from the game.&#10;Forced – At the end of the enemy phase: Place 1 horror on this story card (2 horror instead if there is an enemy at Owner's Office).&#10;_____&#10;If there is 6 or more horror on this story card:&#10;You are too late. The lead investigator suffers 1 mental trauma. Each investigator takes 2 direct horror. Remove this story card from the game." />
+      </alternate>
+    </card>
+    <card id="799384ab-659e-4455-923e-98637b2d9620" name="The Face">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Role. Unpracticed." />
+      <property name="Text" value="Cannot be discarded.&#10;η: Parley. Choose a Casino enemy at your location and test ά or έ (3). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="The Face" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Role. Practiced." />
+        <property name="Text" value="Cannot be discarded.&#10;η: Parley. Choose a Casino enemy at your location or a connecting location and test ά or έ (2). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1." />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="ceb69c38-aa04-4b26-a2d0-b1fc55f1e7da" name="The Muscle">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Role. Unpracticed." />
+      <property name="Text" value="Cannot be discarded.&#10;ι After you defeat a Casino enemy, exhaust The Muscle: Reduce your alarm level by 1 (2 instead if there are no other Casino enemies at your location or a connecting location)." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="The Muscle" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Role. Practiced." />
+        <property name="Text" value="Cannot be discarded.&#10;ι After you defeat a Casino enemy, exhaust The Muscle: Reduce your alarm level by 1 (2 instead if there are no other Casino enemies at your location)." />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="f0cede79-3337-4479-be56-226f7246c45d" name="The Thief">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Role. Unpracticed." />
+      <property name="Text" value="Cannot be discarded.&#10;ι When a Casino enemy at a connecting location resolves its patrol keyword, exhaust The Thief: Change the patrol location of that enemy from &quot;clockwise to &quot;counterclockwise,&quot; or vice versa, for this move." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="The Thief" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Role. Practiced." />
+        <property name="Text" value="Cannot be discarded.&#10;ι When a Casino enemy up to 2 locations away resolves its patrol keyword, exhaust The Thief: Change the patrol location of that enemy from &quot;clockwise to &quot;counterclockwise,&quot; or vice versa, for this move." />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="6a8915b8-9e23-4179-9a0e-296f703d9d7f" name="The Grifter">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Role. Unpracticed." />
+      <property name="Text" value="Cannot be discarded.&#10;ι When you check game icons while resolving an ability on a Game location, exhaust The Grifter: Choose one –&#10;— Raise your alarm level by 1 to change the rank, suit, or color of a discarded game icon (to anything).&#10;— Reduce your alarm level by 1." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="The Grifter" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Role. Practiced." />
+        <property name="Text" value="Cannot be discarded.&#10;ι When you check game icons while resolving an ability on a Game location, exhaust The Grifter: Choose one –&#10;— Raise your alarm level by 1 to change the rank, suit, or color of up to 2 discarded game icons (to anything).&#10;— Reduce your alarm level by 1." />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="bcb86e6c-9cbb-456c-8c2c-e2ab121ea711" name="Isamara Ordoñez">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Lounge Singer" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Casino. Inconspicuous." />
+      <property name="Text" value="η: Parley. Test ά (X), where X is the highest alarm level among the investigators. If you succeed, place 1 clue (from the token pool) on Isamara Ordoñez. Then, if there are 1π clues on her, remember that you &quot;convinced Isamara to participate in the heist.&quot;" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+      <alternate name="Isamara Ordoñez" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Lounge Singer" />
+        <property name="Type" value="Asset" />
+        <property name="Traits" value="Ally. Casino. Crew." />
+        <property name="Text" value="η: Parley. Take control of Isamara Ordoñez.&#10;η If you control Isamara Ordoñez: Parley. Automatically evade all Casino enemies at your location. Then, test ά (3). If you fail, lose 2 actions. If at least 1 enemy at a Restricted location was evaded by this effect, remember that &quot;Isamara mesmerized the guards with her song.&quot; (Group limit once per game.)" />
+        <property name="Health" value="1" />
+        <property name="Sanity" value="3" />
+        <property name="Class" value="Neutral" />
+        <property name="Level" value="–" />
+        <property name="Cost" value="–" />
+        <property name="Skill Icons" value="" />
+      </alternate>
+    </card>
+    <card id="7547cde2-b4cb-47b6-adf5-58293aa3c7c9" name="Cash Cart" size="EncounterCard">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Casino." />
+      <property name="Text" value="θ: Move Cash Cart to a connecting location.&#10;ι When an enemy would engage you or enter your location: Deal 1 damage to Cash Cart. Until the end of the round, enemies at this location cannot engage you.&#10;Forced – When Cash Cart is defeated: Remember that you stayed out of sight.&quot; Remove Cash Cart from the game." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cb0590d7-079f-4aff-80fa-f70ffa2a9c5d" name="Abarran Arrigorriagakoa" size="EncounterCard">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="The Man with the Ruby Ring" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino. Coterie. Elite." />
+      <property name="Text" value="Ace of Diamonds&#10;Aloof. Patrol (clockwise).&#10;Forced – When you engage Abarran Arrigorriagakoa: Immediately advance the agenda.&#10;η: Test ί (3). If you fail, raise your alarm level by 1. If you succeed, discard the top card of the encounter deck and check its game icon. If its color is red, remember that you &quot;stole Abarran's keys.&quot;" />
+      <property name="Health" value="–" />
+      <property name="Combat" value="–" />
+      <property name="Agility" value="–" />
+      <property name="Unique" value="ο" />
+      <alternate name="Abarran Arrigorriagakoa" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Abarran Unleashed" />
+        <property name="Type" value="Enemy" />
+        <property name="Traits" value="Humanoid. Casino. Coterie. Elite." />
+        <property name="Text" value="Ace of Diamonds&#10;While an investigator's alarm level is 5 or higher, Abarran Arrigorriagakoa gains hunter.&#10;Forced – When you deal 1 or more damage to Abarran Arrigorriagakoa, if he is ready: Discard the top card of the encounter deck and check its game icon. If its suit is Diamond, Abarran attacks you." />
+        <property name="Health" value="4π" />
+        <property name="Combat" value="4" />
+        <property name="Agility" value="3" />
+        <property name="Unique" value="ο" />
+        <property name="Damage" value="2" />
+        <property name="Horror" value="2" />
+        <property name="Victory Points" value="1" />
+      </alternate>
+    </card>
+    <card id="6c16838a-4b6b-422d-9a29-1b5b2d194379" name="Casino Guard" size="EncounterCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino." />
+      <property name="Text" value="Queen of Clubs&#10;Aloof. Patrol (counterclockwise).&#10;Spawn – High Roller's Table or Guard Room whichever is nearest to you).&#10;Forced – After you raise your alarm level while at Casino Guard's location: Take 1 damage." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="f15d1b0a-90f9-42f3-a69a-151d5cc2a773" name="Casino Guard" size="EncounterCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino." />
+      <property name="Text" value="Jack of Clubs&#10;Aloof. Patrol (counterclockwise).&#10;Spawn – High Roller's Table or Guard Room whichever is nearest to you).&#10;Forced – After you raise your alarm level while at Casino Guard's location: Take 1 damage." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="af5ab8c9-5e21-46f9-af85-d6689ec97844" name="Casino Guard" size="EncounterCard">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino." />
+      <property name="Text" value="10 of Hearts&#10;Aloof. Patrol (clockwise).&#10;Spawn – High Roller's Table or Guard Room whichever is nearest to you).&#10;Forced – After you raise your alarm level while at Casino Guard's location: Take 1 damage." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+    </card>
+    <card id="c70e10aa-07b4-4f7d-9418-3bc5a342aa63" name="House Dealer" size="EncounterCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino." />
+      <property name="Text" value="9 of Hearts&#10;Aloof. Patrol (clockwise).&#10;While House Dealer is ready, each ability on its location costs an additional action to trigger." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="c7c14236-3ea1-4298-80f8-b5229e4ec501" name="House Dealer" size="EncounterCard">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino." />
+      <property name="Text" value="9 of Clubs&#10;Aloof. Patrol (counterclockwise).&#10;While House Dealer is ready, each ability on its location costs an additional action to trigger." />
+      <property name="Health" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="8af0e9d5-0888-4eb6-8e26-4a1e69be1cd6" name="Security Patrol" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino." />
+      <property name="Text" value="Queen of Hearts&#10;Aloof. Patrol (clockwise).&#10;Spawn – Casino Lounge or Security Office (whichever is nearest to you).&#10;Forced – After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="127a84df-405b-4a94-b866-9c16b972df3d" name="Security Patrol" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino." />
+      <property name="Text" value="Jack of Hearts&#10;Aloof. Patrol (clockwise).&#10;Spawn – Casino Lounge or Security Office (whichever is nearest to you).&#10;Forced – After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="e5ae0062-15eb-4bba-8464-055754d3f3df" name="Security Patrol" size="EncounterCard">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino." />
+      <property name="Text" value="10 of Clubs&#10;Aloof. Patrol (counterclockwise).&#10;Spawn – Casino Lounge or Security Office (whichever is nearest to you).&#10;Forced – After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1." />
+      <property name="Health" value="2" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+    </card>
+    <card id="f852434f-9735-4e94-ba81-493b2876e11c" name="Inconvenient Questioning" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="9 of Spades&#10;Revelation – If there are no non-unique Casino enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique Casino enemy moves once toward you, and you test έ (3). If you fail, raise your alarm level by 1 and each non-unique Casino enemy at your location loses aloof until the end of this round." />
+    </card>
+    <card id="ef3b3e28-7358-4132-a253-6f0845ca02a4" name="Inconvenient Questioning" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="9 of Diamonds&#10;Revelation – If there are no non-unique Casino enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique Casino enemy moves once toward you, and you test έ (3). If you fail, raise your alarm level by 1 and each non-unique Casino enemy at your location loses aloof until the end of this round." />
+    </card>
+    <card id="5aa44412-bae6-4a6b-b0db-89d3055b7ab5" name="Inconvenient Questioning" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="8 of Spades&#10;Revelation – If there are no non-unique Casino enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique Casino enemy moves once toward you, and you test έ (3). If you fail, raise your alarm level by 1 and each non-unique Casino enemy at your location loses aloof until the end of this round." />
+    </card>
+    <card id="69bb2cbf-cc10-44a8-b376-3b2dfd8c575b" name="Inconvenient Questioning" size="EncounterCard">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="8 of Diamonds&#10;Revelation – If there are no non-unique Casino enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique Casino enemy moves once toward you, and you test έ (3). If you fail, raise your alarm level by 1 and each non-unique Casino enemy at your location loses aloof until the end of this round." />
+    </card>
+    <card id="69e2a0db-60bf-41c9-881c-04d92c533f4c" name="Arcane Spotlight" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex. Obstacle." />
+      <property name="Text" value="Queen of Spades&#10;Revelation – Attach to the nearest location without a copy of Arcane Spotlight attached.&#10;Forced – After you enter attached location: Raise your alarm level by 1.&#10;Forced – At the end of the round: Each investigators at attached location raises their alarm level by 1. Discard Arcane Spotlight." />
+    </card>
+    <card id="beaf0833-66c9-4e15-98da-9e637eff5117" name="Arcane Spotlight" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex. Obstacle." />
+      <property name="Text" value="Jack of Spades&#10;Revelation – Attach to the nearest location without a copy of Arcane Spotlight attached.&#10;Forced – After you enter attached location: Raise your alarm level by 1.&#10;Forced – At the end of the round: Each investigators at attached location raises their alarm level by 1. Discard Arcane Spotlight." />
+    </card>
+    <card id="fb3624d7-372c-4b5c-8fdb-9dbf31abc7f9" name="Arcane Spotlight" size="EncounterCard">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hex. Obstacle." />
+      <property name="Text" value="10 of Spades&#10;Revelation – Attach to the nearest location without a copy of Arcane Spotlight attached.&#10;Forced – After you enter attached location: Raise your alarm level by 1.&#10;Forced – At the end of the round: Each investigators at attached location raises their alarm level by 1. Discard Arcane Spotlight." />
+    </card>
+    <card id="a2ab1f19-9c4b-4a43-9808-8456a3eed907" name="Avarice Calls" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Queen of Diamonds&#10;Peril.&#10;Revelation – You must either (choose one):&#10;— Take 2 horror.&#10;— Test ά (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1." />
+    </card>
+    <card id="9b01ac41-9bc5-4612-a43d-da67e504b7ff" name="Avarice Calls" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Jack of Diamonds&#10;Peril.&#10;Revelation – You must either (choose one):&#10;— Take 2 horror.&#10;— Test ά (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1." />
+    </card>
+    <card id="982206fb-799b-441f-a5a1-7e1944239860" name="Avarice Calls" size="EncounterCard">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="10 of Diamonds&#10;Peril.&#10;Revelation – You must either (choose one):&#10;— Take 2 horror.&#10;— Test ά (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1." />
+    </card>
+    <card id="d5a7ca14-9878-477e-b8d3-6693de0e05df" name="Suspicious Gaze" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="8 of Clubs&#10;Revelation – Test ί (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1." />
+    </card>
+    <card id="f0723a1b-4230-4898-87bc-58ae5817982f" name="Suspicious Gaze" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="7 of Spades&#10;Revelation – Test ί (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1." />
+    </card>
+    <card id="9facb047-0aab-4461-8819-c4a6a7a370c1" name="Suspicious Gaze" size="EncounterCard">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Scheme." />
+      <property name="Text" value="7 of Clubs&#10;Revelation – Test ί (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1." />
+    </card>
+    <card id="91ccd380-0557-4992-b6fa-f4c44f882ecc" name="Obessed Gambler" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="8 of Hearts&#10;Revelation – Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.&#10;Forced – At the end of your turn: Take 1 horror if you did not gain resources this turn. Test ά (3). If you succeed, discard Obessed Gambler." />
+    </card>
+    <card id="000c8064-f1fb-4743-9ea8-a122bf700bfa" name="Obessed Gambler" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="7 of Diamonds&#10;Revelation – Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.&#10;Forced – At the end of your turn: Take 1 horror if you did not gain resources this turn. Test ά (3). If you succeed, discard Obessed Gambler." />
+    </card>
+    <card id="1fd4d1ee-4050-4874-8dc6-ea16a8dc5153" name="Obessed Gambler" size="EncounterCard">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="7 of Hearts&#10;Revelation – Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.&#10;Forced – At the end of your turn: Take 1 horror if you did not gain resources this turn. Test ά (3). If you succeed, discard Obessed Gambler." />
+    </card>
+    <card id="bdf125d1-50f9-420d-aa3b-b7850d1e02c5" name="Deck of Possibilities">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Tychokinetic Implement" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="Permanent.&#10;η: Draw the top card of the possibilities deck. Flip this card over and consult the list of its other side to resolve its effect. Remove the drawn card from the possibilities deck for the remainder of the campaign. (Limit once per game.)" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="–" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+      <alternate name="Deck of Possibilities" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Type" value="Story" />
+        <property name="Text" value="— Jack of Spades: The Prayer. Nothing happens.&#10;— Jack of Hearts: The Wind. You may take an additional 3 actions this turn.&#10;— Jack of Diamond: The Chest. Gain 10 resources.&#10;— Jack of Clubs: The Tome. Choose two different skills. You get +1 to each of those skills for the remainder of the game.&#10;— Queen of Diamonds: The Champion. Select an Ally asset from among your collection and put it into play (for the remainder of the game).&#10;— Queen of Spades: The Sword. Select an Item asset from among your collection and put it into play (for the remainder of the game).&#10;— King of Hearts: The Lifeblood. Heal all damage and horror on your from your investigator.&#10;— King of Clubs: The Lamp. Choose a non-Elite enemy or treachery in play. That card ceases to exist (remove it from the game).&#10;— Ace of Spade: The Evil Eye. For the remainder of the game, treat each ε you reveal on a chaos token as an [Autofail]." />
+      </alternate>
+    </card>
+    <card id="b6ff5b94-a3b9-4fad-a1b9-f99e7b66ceb6" name="Isamara Ordoñez">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="The Torch Singer" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Performer." />
+      <property name="Text" value="You get +1 ά.&#10;During the upkeep phase, you may choose to not ready Isamara Ordoñez.&#10;θ Exhaust Isamara Ordoñez and deal 1 horror to her: Choose a non-Elite enemy at your location or a connecting location. That enemy cannot move until Isamara Ordoñez readies or leaves play." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="–" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6f735de7-ccdd-4387-b41d-0d31e8b11e8b" name="The Wellspring of Fortune">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune and Folly" />
+      <property name="Subtitle" value="Symbol of Providence" />
+      <property name="Type" value="Key" />
+      <property name="Traits" value="Stable." />
+      <property name="Text" value="Shift – During the next skill test performed this round, the performing investigator reveals an additional chaos token, chooses one to resolve, and ignores the other. Flip this key to its Unstable side." />
+      <property name="Unique" value="ο" />
+      <alternate name="The Wellspring of Fortune" type="B">
+        <property name="Encounter Set" value="Fortune and Folly" />
+        <property name="Subtitle" value="Symbol of Providence" />
+        <property name="Type" value="Key" />
+        <property name="Traits" value="Unstable." />
+        <property name="Text" value="Shift – During the next skill test performed this round, the performing investigator reveals an additional chaos token (resolve both). Then, if an investigator triggered this ability, flip this key to its Stable side." />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="97ef2433-923c-4ed6-8b8b-b17e07e45c3b" name="Fortune's Shield" size="EncounterCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune's Chosen" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino. Cultist." />
+      <property name="Text" value="King of Spades&#10;Patrol (counterclockwise). Retaliate.&#10;Forced – When you would deal 1 or more damage to Fortune's Shield: Discard the top card of the encounter deck and check its game icon. If its suit is Heart, cancel 1 of that damage." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="8b784acd-3067-4860-9d98-81d201ce758f" name="Fortune's Shield" size="EncounterCard">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune's Chosen" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino. Cultist." />
+      <property name="Text" value="King of Hearts&#10;Patrol (clockwise). Retaliate.&#10;Forced – When you would deal 1 or more damage to Fortune's Shield: Discard the top card of the encounter deck and check its game icon. If its suit is Heart, cancel 1 of that damage." />
+      <property name="Health" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="933b80b7-9c5d-4bee-8855-464bb38bc4da" name="Fortune's Dagger" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune's Chosen" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino. Cultist." />
+      <property name="Text" value="King of Clubs&#10;Patrol (counterclockwise). Retaliate.&#10;Forced – When Fortune's Dagger attacks you: Discard the top 2 cards of the encounter deck and check their game icons. For each card that has the Club suite, this attack deals +1 damage." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="5eab3ed3-3618-4275-811a-c8abe2b8ed8c" name="Fortune's Dagger" size="EncounterCard">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Fortune's Chosen" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Humanoid. Casino. Cultist." />
+      <property name="Text" value="King of Diamonds&#10;Patrol (clockwise). Retaliate.&#10;Forced – When Fortune's Dagger attacks you: Discard the top 2 cards of the encounter deck and check their game icons. For each card that has the Club suite, this attack deals +1 damage." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="56dc43cc-b841-4fd4-a8a4-da2007280126" name="Dimensional Shambler" size="EncounterCard">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Subtitle" value="Hunter from Beyond" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensional. Elite." />
+      <property name="Text" value="Ace of Spades&#10;Hunter.&#10;Forced – After any investigator performs the same type of action twice in a row during the same phase, if Dimensional Shambler is ready and unengaged: Move it once toward that investigator. (Limit once per turn.)" />
+      <property name="Health" value="5" />
+      <property name="Combat" value="6" />
+      <property name="Agility" value="2" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+      <property name="Victory Points" value="1" />
+    </card>
+    <card id="4c8be08e-5bd8-40dd-9f57-cb436cc93328" name="Dimensional Duplicator" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensional." />
+      <property name="Text" value="6 of Spades&#10;Hunter.&#10;Forced – After you deal 1 or more damage to Dimensional Duplicator: Put the top card of your deck into play facedown, engaged without. Treat this card as an Extradimensional enemy with 1 fight, 1 health, 1 evade, 1 damage, and 1 horror. If that enemy disengages from you, discard it." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="2fa73334-d799-4a23-bec6-bccbb95240bf" name="Dimensional Duplicator" size="EncounterCard">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensional." />
+      <property name="Text" value="6 of Clubs&#10;Hunter.&#10;Forced – After you deal 1 or more damage to Dimensional Duplicator: Put the top card of your deck into play facedown, engaged without. Treat this card as an Extradimensional enemy with 1 fight, 1 health, 1 evade, 1 damage, and 1 horror. If that enemy disengages from you, discard it." />
+      <property name="Health" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+    <card id="6805d4a9-b3e5-4c95-8f00-9db0b8ddb481" name="Dimensional Displacer" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensional." />
+      <property name="Text" value="6 of Diamonds&#10;Hunter. Retaliate.&#10;Spawn – Discard the nearest non-unique CAsino enemy without an encounter card attached to it. Spawn Dimensional Displacer at that location. (If there are no such enemies in play, instead discard Dimensional Displacer and it gains surge.)" />
+      <property name="Health" value="2" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="23c8d42e-d047-4011-bc6a-ed706f529b49" name="Dimensional Displacer" size="EncounterCard">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Extradimensional." />
+      <property name="Text" value="6 of Hearts&#10;Hunter. Retaliate.&#10;Spawn – Discard the nearest non-unique CAsino enemy without an encounter card attached to it. Spawn Dimensional Displacer at that location. (If there are no such enemies in play, instead discard Dimensional Displacer and it gains surge.)" />
+      <property name="Health" value="2" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Horror" value="2" />
+    </card>
+    <card id="2946c8ed-c9fb-4e2d-9488-3f792e6c2d43" name="Dimensional Hypnosis" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="5 of Spades&#10;Revelation – Attach to the nearest location without a copy of Dimensional Hypnosis attached.&#10;As an additional cost for you to leave attached location, test ά (3). If you fail, cancel the effects of the move, move the nearest Extradimensional enemy once toward you, and discard Dimensional Hypnosis." />
+    </card>
+    <card id="e8c2e4df-7f93-4869-b2fb-50368046d8cb" name="Dimensional Hypnosis" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="5 of Clubs&#10;Revelation – Attach to the nearest location without a copy of Dimensional Hypnosis attached.&#10;As an additional cost for you to leave attached location, test ά (3). If you fail, cancel the effects of the move, move the nearest Extradimensional enemy once toward you, and discard Dimensional Hypnosis." />
+    </card>
+    <card id="8c80ed70-c351-4a7a-97e5-78bf5e8c526c" name="Dimensional Hypnosis" size="EncounterCard">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Terror." />
+      <property name="Text" value="4 of Spades&#10;Revelation – Attach to the nearest location without a copy of Dimensional Hypnosis attached.&#10;As an additional cost for you to leave attached location, test ά (3). If you fail, cancel the effects of the move, move the nearest Extradimensional enemy once toward you, and discard Dimensional Hypnosis." />
+    </card>
+    <card id="07d83df3-676d-4588-90c7-32550edaaa00" name="Grip of the Beyond" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="5 of Diamonds&#10;Revelation – Put Grip of the Beyond into play in your threat area.&#10;Forced – At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond." />
+    </card>
+    <card id="175a39cb-8cf1-4a12-96de-3b04d4c86551" name="Grip of the Beyond" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="5 of Hearts&#10;Revelation – Put Grip of the Beyond into play in your threat area.&#10;Forced – At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond." />
+    </card>
+    <card id="e842ff32-cba9-48e9-bfd3-6637f50a66e3" name="Grip of the Beyond" size="EncounterCard">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="4 of Diamonds&#10;Revelation – Put Grip of the Beyond into play in your threat area.&#10;Forced – At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond." />
+    </card>
+    <card id="3152101b-5daa-482a-ae98-27affcb4c8be" name="Hunter's Hunger" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="4 of Clubs&#10;Peril.&#10;Revealtion – You must either (choose one):&#10;— Discard an Ally asset you control. Each other investigator takes 1 horror.&#10;— Test ί (3). If you fail, take 1 direct damage and 1 direct horror." />
+    </card>
+    <card id="d30f0174-d98f-4450-8445-5295849f935e" name="Hunter's Hunger" size="EncounterCard">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Plan in Shambles" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hazard." />
+      <property name="Text" value="4 of Hearts&#10;Peril.&#10;Revealtion – You must either (choose one):&#10;— Discard an Ally asset you control. Each other investigator takes 1 horror.&#10;— Test ί (3). If you fail, take 1 direct damage and 1 direct horror." />
+    </card>
+  </cards>
+</set>
