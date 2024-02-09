@@ -1126,6 +1126,29 @@ def defaultAction(card, x = 0, y = 0):
             else:
                 break
         notify("{} discards the top {} cards of their deck due to Short Supply.".format(card.controller, discardedCardCount))
+    elif card.Name == "William Yorick":
+        result = askChoice("Perform:", ["Trigger Elder Sign?", "Trigger investigator ability?"], ["#000000","#000000"])
+        if result == 1:
+            anyCard = [c for c in card.controller.piles['Discard Pile']]
+            dlg = cardDlg(anyCard)
+            dlg.title = "William Yorick"
+            dlg.text = "Select 1 card to add to hand:"
+            dlg.min = 1
+            dlg.max = 1
+            cardsSelected = dlg.show()
+            if cardsSelected != None:
+                cardsSelected[0].moveTo(card.controller.hand)
+        elif result == 2:
+            assets = [c for c in card.controller.piles['Discard Pile'] if c.Type == "Asset"]
+            dlg = cardDlg(assets)
+            dlg.title = "William Yorick"
+            dlg.text = "Choose 1 asset to put into play:"
+            dlg.min = 1
+            dlg.max = 1
+            cardsSelected = dlg.show()
+            if cardsSelected is not None:
+                cardsSelected[0].moveToTable(card.position[0], card.position[1] - 100)
+                cardsSelected[0].select()
 #############################################
 #                                           #
 #           Neutral Cards                   #
