@@ -979,7 +979,7 @@ def defaultAction(card, x = 0, y = 0):
         draw(card.controller.deck)
     elif card.Name == "Resourceful":
         list = [c for c in card.controller.piles['Discard Pile']
-                    if c.Class == "Survivor" and c.Name != "Resourceful"]
+                    if "Survivor" in c.Class and c.Name != "Resourceful"]
         if list:
             dlg = cardDlg(list)
             dlg.title = "Resourceful"
