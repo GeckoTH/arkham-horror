@@ -157,6 +157,8 @@
 			<groupseparator />
 			<groupaction menu="Add Bless Token" default="False" shortcut="ctrl+1" execute="addBless" />
 			<groupaction menu="Add Curse Token" default="False" shortcut="ctrl+2" execute="addCurse" />
+			<groupaction menu="Remove Bless Token" default="False" shortcut="ctrl+shift+1" execute="removeBless" />
+			<groupaction menu="Remove Curse Token" default="False" shortcut="ctrl+shift+2" execute="removeCurse" />
 		</groupactions>
 		<groupactions menu="Tarot Deck">
 			<groupaction menu="Draw Card" default="False" execute="drawTarot" />

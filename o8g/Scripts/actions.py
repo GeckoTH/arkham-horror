@@ -1046,8 +1046,11 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
             if len(chaosBag()):
                 for _ in range(2):
                     addBless()
+        isSuzi = filter(lambda card: "Subject 5U-21" in card.Name, me.hand)
+        if isSuzi:
+            me.counters['Card Draw'].value = 2            
         # Find any Start cards
-        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name or "Darrell's Kodak" == card.Name or card.Name == "On the Mend", me.deck)
+        startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name or "Darrell's Kodak" == card.Name or card.Name == "On the Mend" or card.Name == "Ravenous", me.deck)
         # Create Bonded Card
         listB = makeListBonded(me.deck)
         if not listB:
