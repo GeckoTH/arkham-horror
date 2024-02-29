@@ -7,12 +7,12 @@
       <property name="Encounter Set" value="Riddles and Rain" />
       <property name="Subtitle" value="EASY / STANDARD" />
       <property name="Type" value="Scenario" />
-      <property name="Text" value="α: –1 (–3 instead if you have 2 or more clues).&#10;γ: –1. If  there is a concealed mini-card at your location, reveal another chaos token.&#10;δ: –3. If you fail, you must either spend 1 clue or place 1 doom on an enemy in the shadows." />
+      <property name="Text" value="α: –1 (–3 instead if you have 2 or more clues).&#10;γ: –1. If there is a concealed mini-card at your location, reveal another chaos token.&#10;δ: –3. If you fail, you must either spend 1 clue or place 1 doom on an enemy in the shadows." />
       <alternate name="Riddles and Rain" type="B" size="EncounterCard">
         <property name="Encounter Set" value="Riddles and Rain" />
         <property name="Subtitle" value="HARD / EXPERT" />
         <property name="Type" value="Scenario" />
-        <property name="Text" value="α: –2 (–4 instead if you have 2 or more clues).&#10;γ: –2. If  there is a concealed mini-card at your location, reveal another chaos token.&#10;δ: –4. If you fail, you must either spend 1 clue or place 1 doom on an enemy in the shadows." />
+        <property name="Text" value="α: –2 (–4 instead if you have 2 or more clues).&#10;γ: –2. If there is a concealed mini-card at your location, reveal another chaos token.&#10;δ: –4. If you fail, you must either spend 1 clue or place 1 doom on an enemy in the shadows." />
       </alternate>
     </card>
     <card id="e82bcdf9-631b-4eaa-b611-c9606722028b" name="When It Rains..." size="HorizCard">
