@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="12af72bc-07fd-4236-b567-1f66ed44fad4">Into the Caves</card>
+    <card qty="1" id="1477875b-fcae-415a-a073-5156e6a72e90">Darkness Closes In</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="a3032834-6e81-4106-b07a-453292c93455">The Missing Sibling</card>
+    <card qty="1" id="19884c71-da87-421f-95b0-4db6a3cba3ba">On the Trail</card>
+    <card qty="1" id="0ab4a670-907c-495a-a285-22b8f2c51d67">Face to Carapace</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="126b9b46-29c6-4b9b-9816-3c9f36ab2561">Cavern Moss</card>
+    <card qty="3" id="3f286d06-0024-4cb6-9eb3-44e14471f616">Reclaimed by Nature</card>
+    <card qty="3" id="f6e6d2fb-5f51-4e90-8306-68ec0ff4fd3b">Luminous Growth</card>
+    <card qty="2" id="2d0b69e6-f536-4e19-934d-cf34108087f7">Chroma Blight</card>
+    <card qty="2" id="2c246723-cc72-4d8b-9339-ce94a0258ae3">Calcification</card>
+    <card qty="2" id="59f7440e-5ca9-48fa-9c27-fd7983dda060">Enervation</card>
+    <card qty="2" id="95abdeae-4459-41e6-81ba-914f6d5815b8">Desiccation</card>
+    <card qty="2" id="be8e59c0-4560-40a4-b641-9dbae9fa972d">Sudden Mutation</card>
+    <card qty="2" id="e32518a8-abd1-40ec-8e26-d6e3c6c8370d">Unnatrual Growth</card>
+    <card qty="2" id="2406d7d1-c203-45a5-8bac-23be591c0760">Black Amanita</card>
+    <card qty="1" id="b6dec03f-ad94-42ed-b44e-0c3d3c107953">Corpse Lichen</card>
+    <card qty="2" id="8f853a44-7ee9-4278-8d3d-8bc6a6ff6fbc">Psychotropic Spores</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="2" id="666ded0b-6b10-40e1-b3b7-8210fd99e8e1">Cavern</card>
+    <card qty="1" id="b345b833-55cc-484c-9713-614930ad2957">Cavern</card>
+    <card qty="1" id="5fb80a54-48a3-4bfd-81d0-1d38c65a513d">Cavern</card>
+    <card qty="1" id="ec832b3f-100e-4c8e-b014-4527d3163aba">Cavern</card>
+    <card qty="1" id="0e7e9b51-235b-429a-853f-757c7534e5ce">Cavern</card>
+    <card qty="2" id="2ffc60e9-db2d-4c3e-a3d6-69140cd421dd">Cavern</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="3b822bcf-a87c-452c-be5d-1eb6501e90bf">Day One</card>
+    <card qty="3" id="7b78a351-0098-4125-a462-91b52e67f9d1">Swarm</card>
+    <card qty="1" id="225b0393-3e0c-4e65-94f8-6ab4b6311b04">Day Two</card>
+    <card qty="3" id="805ba2f9-86db-4c9a-b743-e120963acff4">Downpour</card>
+    <card qty="1" id="08c8648e-94cb-46b9-a7b2-7a686e42fe3c">Day Three</card>
+    <card qty="3" id="db8a485f-b8b7-4fd9-89fb-1763e50e4c08">Otherworldly Visions</card>
+    <card qty="1" id="88b6df5b-a43d-470d-ad6a-ed0283e704e2">Helen Peters</card>
+    <card qty="1" id="658206a7-dd4a-4e80-977c-6c26f10ce25f">Theo Peters</card>
+    <card qty="1" id="c120e7b2-b197-4d5e-b849-46f3e1b626c1">Gideon Mizrah</card>
+    <card qty="1" id="59528658-51fd-426c-87b6-d40ae4d7c4cb">William Hemlock</card>
+    <card qty="1" id="25aa1416-491a-48dc-8237-413c8708b05a">Fungal Cave</card>
+    <card qty="1" id="37aaac5b-a78b-4886-92b9-7a5dd1a02e57">Limulus Hybrid [Day]</card>
+    <card qty="2" id="6fe07b32-61f5-48a5-8e05-4c0264829738">Crystal Parasite</card>
+    <card qty="2" id="d40a2bbe-f5be-4515-b18e-8d99b588aaf3">Crustacean Hybrid [Day]</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="f131faa5-feb6-43d7-86b4-a178a1e172db">The Lost Sister</card>
+    <card qty="1" id="1090ace9-f6aa-4d93-84f8-567e4de5dc90">Akwan</card>
+    <card qty="2" id="551eba44-f88e-4f0f-a4ca-ea6c7fb05716">Cavern</card>
+    <card qty="1" id="a2848737-43da-4253-9d43-23753c18b45c">Cavern</card>
+    <card qty="1" id="5fbe13bc-2e25-4cdb-8a7d-9261249af052">Cavern</card>
+    <card qty="1" id="78265a23-b915-45ca-bdce-a0f850e642ac">Cavern</card>
+    <card qty="1" id="d96c30d5-4794-472f-b3be-e435e8d9a86b">Cavern</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
