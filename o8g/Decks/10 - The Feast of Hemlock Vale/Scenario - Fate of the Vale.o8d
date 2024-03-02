@@ -44,7 +44,6 @@
   </section>
   <section name="Special" shared="True" />
   <section name="Second Special" shared="True">
-    <card qty="1" id="c5d30d1f-c725-4e67-8b4c-aa7191d4f2db">The Abyss</card>
     <card qty="1" id="313eb0b5-35e7-4a2e-ac78-0b3f2d5731c4">Boarding House</card>
     <card qty="1" id="3b9dff55-b6e6-4931-b2fe-d58267f8a1a1">The Crossroads</card>
     <card qty="1" id="6d36fa4b-cd4a-48dd-9f1f-c732ca6378ff">Hemlock Chapel</card>
@@ -82,6 +81,7 @@
     <card qty="1" id="20207dfb-c95f-4373-a866-fa5f69e72eab">Cosmic Emissary</card>
     <card qty="1" id="964601b8-b50c-44ab-9519-d86e5fefe059">Cosmic Emissary</card>
     <card qty="1" id="3956e51b-1655-416c-ba8b-71f30f1d2247">Cosmic Emissary</card>
+    <card qty="1" id="c5d30d1f-c725-4e67-8b4c-aa7191d4f2db">The Abyss</card>
   </section>
   <section name="Temporary Shuffle" shared="True" />
   <notes><![CDATA[]]></notes>
