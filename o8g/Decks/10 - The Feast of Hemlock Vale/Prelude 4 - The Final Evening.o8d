@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="b2701631-2f06-42de-8ec7-f95558175463">Around the Table</card>
+  </section>
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
+    <card qty="1" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>
+    <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
+    <card qty="1" id="dacea896-a825-4e26-83f1-eb07a9ea6ae8">Lambs to the Slaughter</card>
+    <card qty="1" id="59528658-51fd-426c-87b6-d40ae4d7c4cb">William Hemlock</card>
+    <card qty="1" id="bac54b72-a860-4d5b-9373-aca1940208c9">River Hawthorne</card>
+    <card qty="1" id="55e6bafa-eff7-4248-9213-7cdc39a6c7cf">Bertie Musgrave</card>
+    <card qty="1" id="0a6fe9d4-1060-4439-9c3f-c5c7b194355a">Dr. Rosa Marquez</card>
+    <card qty="1" id="88b6df5b-a43d-470d-ad6a-ed0283e704e2">Helen Peters</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="a57e0b1c-81e8-4e04-9050-f241a325b15c">The Vale</card>
+    <card qty="1" id="08c8648e-94cb-46b9-a7b2-7a686e42fe3c">Day Three</card>
+    <card qty="1" id="313eb0b5-35e7-4a2e-ac78-0b3f2d5731c4">Boarding House</card>
+    <card qty="1" id="e5553d99-4eb2-4753-86f5-14e294609fc6">The Crossroads</card>
+    <card qty="1" id="6d36fa4b-cd4a-48dd-9f1f-c732ca6378ff">Hemlock Chapel</card>
+    <card qty="1" id="a6a06829-fa33-4aa6-87c7-e7d12ee80f50">The Old Mill</card>
+    <card qty="1" id="42fe895a-fb9f-4f2a-8f93-5a94a2f63e91">The Atwood House</card>
+    <card qty="1" id="9c93bc4d-3364-4e5d-b808-f04052f13aa8">Tad's General Store</card>
+    <card qty="1" id="1a4c5fb7-181e-477e-aa7a-83d5f4e376c4">Vale Schoolhouse</card>
+    <card qty="1" id="0176ece0-e2dc-4327-8dc2-aa8c8f7e2bbb">The Commons</card>
+    <card qty="2" id="5dd1a34a-105f-47d0-9ea2-6e1285bb9fec">Frienzied Reveler</card>
+    <card qty="1" id="e676d1b5-4f3d-4b67-ba3b-80ddc45f0829">Mother Rachel</card>
+    <card qty="1" id="1757e956-c378-426e-b7b5-43f59cd4900e">Leah Atwood</card>
+    <card qty="1" id="5f5a37ea-5cbd-45be-9b20-06832162d7f5">Simeon Atwood</card>
+    <card qty="1" id="c120e7b2-b197-4d5e-b849-46f3e1b626c1">Gideon Mizrah</card>
+    <card qty="1" id="02e8da66-f046-404d-9125-8562ebd89eeb">Judith Park</card>
+    <card qty="1" id="658206a7-dd4a-4e80-977c-6c26f10ce25f">Theo Peters</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

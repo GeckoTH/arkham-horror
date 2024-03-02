@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Agenda" shared="True">
+    <card qty="1" id="b8196ad2-3690-4789-a122-68f370b0c94b">Deepening Dark</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="fcef8563-96e4-4741-81e4-8a14c71d784d">Desperate Search</card>
+    <card qty="1" id="244d891d-eb14-4b14-b725-ff40cffbb131">Where's Bertie?</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="7b78a351-0098-4125-a462-91b52e67f9d1">Swarm</card>
+    <card qty="2" id="850257eb-0f2c-417c-8687-f284438e027d">Deep Shadows</card>
+    <card qty="2" id="6862edda-d824-4aac-84a0-8216d9d0c9a4">Lurking Fear</card>
+    <card qty="1" id="37e6b87b-9330-4bf0-9483-c9b0d9ada2e9">Stolen Light</card>
+    <card qty="4" id="43d1b58a-d874-4483-80ea-9fe90508acdf">Stalking Hybrid</card>
+    <card qty="2" id="94a47ccd-3905-45ec-af82-84d9b24dbe69">Poisonblossom</card>
+    <card qty="2" id="913f68db-fe53-4363-bcb2-bd9c387da68f">Forest Watcher</card>
+    <card qty="1" id="894ebdf1-d384-48af-b0a5-cb4f837f4702">Cochleal Stag</card>
+    <card qty="2" id="68db72e5-a366-4c00-bb5d-dd04de76fb50">Bloom</card>
+    <card qty="2" id="e76cb3de-023f-47b6-a0da-be8ff283d80e">Wall of Thorns</card>
+    <card qty="2" id="62bbabe4-ad91-4462-a314-f8270c750c6e">Call of the Wild</card>
+    <card qty="2" id="2406d7d1-c203-45a5-8bac-23be591c0760">Black Amanita</card>
+    <card qty="1" id="b6dec03f-ad94-42ed-b44e-0c3d3c107953">Corpse Lichen</card>
+    <card qty="2" id="8f853a44-7ee9-4278-8d3d-8bc6a6ff6fbc">Psychotropic Spores</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="2" id="9b8fefe0-aec8-462e-9e0c-45873bc3b987">Western Woods</card>
+    <card qty="2" id="4f6bef84-c7ce-4f10-b824-2304f6be491f">Western Woods</card>
+    <card qty="1" id="bcf723e1-c6e2-4a37-854e-b1803537f7d2">Western Woods</card>
+    <card qty="2" id="edc1390f-9e5c-4c74-bf31-18292d2df054">Western Woods</card>
+    <card qty="1" id="ab5cda7c-9470-4ecd-806c-cc2efd7f91f1">Western Woods</card>
+    <card qty="3" id="c43d6015-ca09-4150-90b9-31a9c09bc90d">Western Woods</card>
+    <card qty="1" id="5e90a70e-f067-4962-81fd-fd5ad6327afe">Western Woods</card>
+    <card qty="1" id="ef50f715-6b15-4474-beed-2b9c3ae080c1">Western Woods</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
+    <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
+    <card qty="1" id="6a7c3887-778a-453d-8a67-501a29fa0879">Vale Lantern</card>
+    <card qty="1" id="f577213b-ba14-412c-9b64-e914ef2b45d8">Vale Lantern</card>
+    <card qty="1" id="658206a7-dd4a-4e80-977c-6c26f10ce25f">Theo Peters</card>
+    <card qty="1" id="02e8da66-f046-404d-9125-8562ebd89eeb">Judith Park</card>
+    <card qty="1" id="55e6bafa-eff7-4248-9213-7cdc39a6c7cf">Bertie Musgrave</card>
+    <card qty="1" id="1c6f6acb-813f-4350-874c-e76ebfddcc51">Back to the Vale!</card>
+  </section>
+  <section name="Setup" shared="True">
+    <card qty="1" id="15ed7cae-eaa8-4739-9958-2e904305e13a">The Twisted Hollow</card>
+    <card qty="1" id="3b822bcf-a87c-452c-be5d-1eb6501e90bf">Day One</card>
+    <card qty="1" id="eda48c9a-ec60-4cbe-bb58-3acdb548efca">Western Woods</card>
+    <card qty="1" id="5ce3ff90-02a6-4c2d-9b75-11f6dd1d5b23">Western Woods</card>
+    <card qty="1" id="0a6fe9d4-1060-4439-9c3f-c5c7b194355a">Dr. Rosa Marquez</card>
+  </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

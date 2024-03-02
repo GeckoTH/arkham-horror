@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="b11ec93c-39be-4cee-860f-1ec3d77c8914">Unsettling Silence</card>
+    <card qty="1" id="bd61e551-9d99-431e-bade-3e8f77d542a5">Desolation (v.I)</card>
+    <card qty="1" id="c2fcb6e7-8d13-45b3-ac54-807c19c26125">Desolation (v.II)</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="14df058c-e2e9-4144-8b94-e27c3bc29093">A Lost Legacy</card>
+    <card qty="1" id="372461e5-8959-4900-bfc8-9cdcdfca9ac2">Searching the Heath</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="f9b0bec1-24b2-4191-a654-3bf66e1ce935">Commanding Resonance</card>
+    <card qty="2" id="60a810ce-8dee-46e7-874a-6f03b0138536">Defend the Nest</card>
+    <card qty="3" id="898fe5cd-90fc-4ff1-9fa5-15d402543fc2">Colorless Larva</card>
+    <card qty="3" id="42adf999-cafb-4ce6-a949-80a3bf25590b">Brood Soldier</card>
+    <card qty="2" id="613f0351-e5c2-4cb7-b79c-594738f434e0">Miasmatic Shadow</card>
+    <card qty="2" id="7e9157eb-c378-4819-b4e6-6d8b542272ec">Alien Whispers</card>
+    <card qty="2" id="59f7440e-5ca9-48fa-9c27-fd7983dda060">Enervation</card>
+    <card qty="2" id="95abdeae-4459-41e6-81ba-914f6d5815b8">Desiccation</card>
+    <card qty="2" id="2d0b69e6-f536-4e19-934d-cf34108087f7">Chroma Blight</card>
+    <card qty="2" id="2c246723-cc72-4d8b-9339-ce94a0258ae3">Calcification</card>
+    <card qty="2" id="2076696e-bcf0-487d-b8cd-117bea53673f">Empyrean Brilliance</card>
+    <card qty="3" id="fd01c3fb-b14b-4df3-a105-a2a66ec1e8d8">Captivating Gleam</card>
+    <card qty="2" id="c964c9c6-2bca-4a44-8e36-bd3f45d53625">Strange Mutations</card>
+    <card qty="2" id="7cd00907-613c-48a4-953d-0aec85415dc3">Fungal Rot</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="2" id="551eba44-f88e-4f0f-a4ca-ea6c7fb05716">Cavern</card>
+    <card qty="1" id="a2848737-43da-4253-9d43-23753c18b45c">Cavern</card>
+    <card qty="1" id="5fbe13bc-2e25-4cdb-8a7d-9261249af052">Cavern</card>
+    <card qty="1" id="78265a23-b915-45ca-bdce-a0f850e642ac">Cavern</card>
+    <card qty="1" id="d96c30d5-4794-472f-b3be-e435e8d9a86b">Cavern</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="dbd73686-1b90-4046-b369-08a842133178">Crystal Remains</card>
+    <card qty="1" id="d8a70a93-8fc7-4839-8819-605e98393793">Crystal Remains</card>
+    <card qty="1" id="68ba9757-5be3-426d-9914-405a3f345184">Crystal Remains</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="3b822bcf-a87c-452c-be5d-1eb6501e90bf">Day One</card>
+    <card qty="3" id="7b78a351-0098-4125-a462-91b52e67f9d1">Swarm</card>
+    <card qty="1" id="225b0393-3e0c-4e65-94f8-6ab4b6311b04">Day Two</card>
+    <card qty="3" id="805ba2f9-86db-4c9a-b743-e120963acff4">Downpour</card>
+    <card qty="1" id="08c8648e-94cb-46b9-a7b2-7a686e42fe3c">Day Three</card>
+    <card qty="3" id="db8a485f-b8b7-4fd9-89fb-1763e50e4c08">Otherworldly Visions</card>
+    <card qty="1" id="ddc6851f-7abc-4f44-b6c2-4d0f4d2947de">Brood Queen</card>
+    <card qty="2" id="6fe07b32-61f5-48a5-8e05-4c0264829738">Crystal Parasite</card>
+    <card qty="1" id="08520483-0686-4b8e-a5cd-187753859fb7">Salt Chamber</card>
+    <card qty="1" id="f3db74ec-2242-4b98-820e-aeaa3cfb093b">Larval Tunnel</card>
+    <card qty="1" id="d76945ea-4ec5-4e3a-840d-9d278ecf09fe">Crystal Nursery</card>
+    <card qty="1" id="1757e956-c378-426e-b7b5-43f59cd4900e">Leah Atwood</card>
+    <card qty="1" id="0a6fe9d4-1060-4439-9c3f-c5c7b194355a">Dr. Rosa Marquez</card>
+    <card qty="1" id="e676d1b5-4f3d-4b67-ba3b-80ddc45f0829">Mother Rachel</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="0cbd58bc-bdba-4ad6-87ba-c5c16c79b7eb">The Silent Heath</card>
+    <card qty="1" id="df8e62aa-1b51-44f1-a046-1af389d28b8d">Crystal Grove</card>
+    <card qty="1" id="47a5589c-5fef-4bbe-826f-144888ccf123">Pearl Estate Ruins</card>
+    <card qty="1" id="a00ff2ca-2c96-43cf-94c4-1deeba843620">Ashen Slope</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

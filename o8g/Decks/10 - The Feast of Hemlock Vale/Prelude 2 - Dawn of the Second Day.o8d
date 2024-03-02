@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="2c472e3a-e9e4-408a-b069-8b88d2d91a54">Dark Clouds</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="d9fa2626-5ad1-4702-9a01-4fd6cd295c8b">Dawn of the Second Day</card>
+  </section>
+  <section name="Encounter" shared="True" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="9e5fcb7d-e192-4392-9f3f-5b7891d81541">The Hemlock Curse</card>
+    <card qty="1" id="f3578f81-469d-429c-8c0f-542ede38331a">The Hemlock Curse</card>
+    <card qty="1" id="2dddf74c-9d57-4eea-a633-72005055a731">The Hemlock Curse</card>
+    <card qty="1" id="390cfb5d-24f7-4451-bfc9-5739411e364b">The Hemlock Curse</card>
+    <card qty="1" id="e676d1b5-4f3d-4b67-ba3b-80ddc45f0829">Mother Rachel</card>
+    <card qty="1" id="1757e956-c378-426e-b7b5-43f59cd4900e">Leah Atwood</card>
+    <card qty="1" id="5f5a37ea-5cbd-45be-9b20-06832162d7f5">Simeon Atwood</card>
+    <card qty="1" id="59528658-51fd-426c-87b6-d40ae4d7c4cb">William Hemlock</card>
+    <card qty="1" id="bac54b72-a860-4d5b-9373-aca1940208c9">River Hawthorne</card>
+    <card qty="1" id="c120e7b2-b197-4d5e-b849-46f3e1b626c1">Gideon Mizrah</card>
+    <card qty="1" id="658206a7-dd4a-4e80-977c-6c26f10ce25f">Theo Peters</card>
+    <card qty="1" id="55e6bafa-eff7-4248-9213-7cdc39a6c7cf">Bertie Musgrave</card>
+    <card qty="1" id="0a6fe9d4-1060-4439-9c3f-c5c7b194355a">Dr. Rosa Marquez</card>
+    <card qty="1" id="88b6df5b-a43d-470d-ad6a-ed0283e704e2">Helen Peters</card>
+    <card qty="1" id="ac1d78f4-027a-4743-919b-4813ffda930b">Corn Husk Doll</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="a57e0b1c-81e8-4e04-9050-f241a325b15c">The Vale</card>
+    <card qty="1" id="225b0393-3e0c-4e65-94f8-6ab4b6311b04">Day Two</card>
+    <card qty="1" id="313eb0b5-35e7-4a2e-ac78-0b3f2d5731c4">Boarding House</card>
+    <card qty="1" id="3b9dff55-b6e6-4931-b2fe-d58267f8a1a1">The Crossroads</card>
+    <card qty="1" id="6d36fa4b-cd4a-48dd-9f1f-c732ca6378ff">Hemlock Chapel</card>
+    <card qty="1" id="75294809-d313-4be8-b151-502ce9d57441">The Old Mill</card>
+    <card qty="1" id="42fe895a-fb9f-4f2a-8f93-5a94a2f63e91">The Atwood House</card>
+    <card qty="1" id="9c93bc4d-3364-4e5d-b808-f04052f13aa8">Tad's General Store</card>
+    <card qty="1" id="1a4c5fb7-181e-477e-aa7a-83d5f4e376c4">Vale Schoolhouse</card>
+    <card qty="1" id="0176ece0-e2dc-4327-8dc2-aa8c8f7e2bbb">The Commons</card>
+    <card qty="1" id="02e8da66-f046-404d-9125-8562ebd89eeb">Judith Park</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

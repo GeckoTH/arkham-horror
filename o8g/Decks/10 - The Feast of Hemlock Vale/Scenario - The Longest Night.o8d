@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="8f598169-3da9-4195-843d-8487d442e66e">The Onslaught</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="d081faab-ca81-49fe-bf92-b053510077de">The Longest Night</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="805ba2f9-86db-4c9a-b743-e120963acff4">Downpour</card>
+    <card qty="2" id="95f91a94-8629-414a-91d1-b0953ec872bf">Endless Night</card>
+    <card qty="4" id="d9434030-e818-4a27-9a47-9ea42b76f298">Incursion</card>
+    <card qty="2" id="59f7440e-5ca9-48fa-9c27-fd7983dda060">Enervation</card>
+    <card qty="2" id="95abdeae-4459-41e6-81ba-914f6d5815b8">Desiccation</card>
+    <card qty="2" id="c964c9c6-2bca-4a44-8e36-bd3f45d53625">Strange Mutations</card>
+    <card qty="2" id="7cd00907-613c-48a4-953d-0aec85415dc3">Fungal Rot</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="91c22bc3-3a5f-44e0-ad2e-5ea2f8247039">Outer Fields</card>
+    <card qty="1" id="4f1fd002-10e6-4d11-83ab-caab84fec038">Outer Fields</card>
+    <card qty="1" id="92186062-fc4b-4700-aa12-fe87992b6f46">Outer Fields</card>
+    <card qty="1" id="bdf0d393-f74a-468e-8e36-b10df7591e8b">Outer Fields</card>
+    <card qty="1" id="8a7642ee-1d3d-42fd-8cd8-d23259fb282b">Outer Fields</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="4477c0a7-ff76-4db6-99c0-b72c51cd7622">Molting Hybrid</card>
+    <card qty="1" id="6ee33aab-eade-4e8e-9b6c-7922954e1bb0">Molting Hybrid</card>
+    <card qty="1" id="e4ac8cd9-25cf-46b1-98d5-f26777a37813">Molting Hybrid</card>
+    <card qty="1" id="a0b46394-eb78-4d21-aad1-d59bf74c05b0">Lupine Hybrid</card>
+    <card qty="1" id="cf140ab5-42ff-4b12-bda0-99ba8018235b">Lupine Hybrid</card>
+    <card qty="1" id="61fa810d-df06-4b40-915a-68d81a36e057">Lupine Hybrid</card>
+    <card qty="3" id="16f192c4-42f2-4b52-ad06-7c483dd1aa5e">Capra Hybrid</card>
+    <card qty="1" id="70939d8f-91a5-441b-8148-ac13dd14c69a">Equine Hybrid</card>
+    <card qty="1" id="4edd3c7a-c82f-497e-a3fa-96137b5e8e35">Equine Hybrid</card>
+    <card qty="1" id="565b54e6-4218-42be-b2ad-099a2305736d">Equine Hybrid</card>
+    <card qty="2" id="9f6db3e3-a952-476a-8393-c38db0020a8e">Slithering Hybrid</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="49d18b2f-a191-4569-9ce4-06a5bdd33bf6">Skull</card>
+    <card qty="1" id="f1f63047-e572-4f15-aee7-1aaca33a63ed">Cultist</card>
+    <card qty="1" id="eb0dc92b-654a-41a3-8e06-7053d8c94f22">Tablet</card>
+    <card qty="1" id="ae10abfc-abb1-41c7-9490-b3f91d8574b2">Elder One</card>
+    <card qty="1" id="e676d1b5-4f3d-4b67-ba3b-80ddc45f0829">Mother Rachel</card>
+    <card qty="1" id="1757e956-c378-426e-b7b5-43f59cd4900e">Leah Atwood</card>
+    <card qty="1" id="5f5a37ea-5cbd-45be-9b20-06832162d7f5">Simeon Atwood</card>
+    <card qty="1" id="59528658-51fd-426c-87b6-d40ae4d7c4cb">William Hemlock</card>
+    <card qty="1" id="bac54b72-a860-4d5b-9373-aca1940208c9">River Hawthorne</card>
+    <card qty="1" id="c120e7b2-b197-4d5e-b849-46f3e1b626c1">Gideon Mizrah</card>
+    <card qty="1" id="02e8da66-f046-404d-9125-8562ebd89eeb">Judith Park</card>
+    <card qty="1" id="658206a7-dd4a-4e80-977c-6c26f10ce25f">Theo Peters</card>
+    <card qty="1" id="55e6bafa-eff7-4248-9213-7cdc39a6c7cf">Bertie Musgrave</card>
+    <card qty="1" id="88b6df5b-a43d-470d-ad6a-ed0283e704e2">Helen Peters</card>
+    <card qty="5" id="d2b4efa6-186a-4563-bf05-164455582383">Fire!</card>
+    <card qty="1" id="a82c220b-ddd4-41d3-a2eb-a186ad492cf0">Ajax</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="a415aa6a-4385-4c8c-b324-1df86a0cb20b">The Longest Night</card>
+    <card qty="1" id="39370639-5507-45eb-be6b-acf713928988">Barriers, Decoys, and Traps</card>
+    <card qty="1" id="225b0393-3e0c-4e65-94f8-6ab4b6311b04">Day Two</card>
+    <card qty="1" id="db32a282-e415-479a-8051-abc2701b0efe">The Farmhouse</card>
+    <card qty="1" id="51f0e85f-de9c-4672-8c45-3eaa4755224b">Atwood Farm</card>
+    <card qty="1" id="78e08819-37e1-4a95-84d5-1ac08a9646d2">Atwood Farm</card>
+    <card qty="1" id="eb8b875e-5fbd-4089-8541-845ab0292970">Atwood Farm</card>
+    <card qty="1" id="29515fc9-54ca-4d86-81bd-b94382ce922b">Atwood Farm</card>
+    <card qty="1" id="30d6f3ef-c56f-4f51-8fae-932ef9af32bd">Atwood Farm</card>
+    <card qty="1" id="92e89727-9ccb-401b-930a-8b502ee01106">The Captives</card>
+    <card qty="1" id="a1455f3f-2703-470e-9c18-1077a0b0750b">Ursine Hybrid</card>
+    <card qty="1" id="0a6fe9d4-1060-4439-9c3f-c5c7b194355a">Dr. Rosa Marquez</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

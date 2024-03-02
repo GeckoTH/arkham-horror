@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="d1d153c3-99f3-4fb3-8f2a-45b9d6b4f570">Sinking Ground</card>
+    <card qty="1" id="1a883d7f-f71f-47d4-9145-b258b0df0864">The Thing in the Bog</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="e4884ff4-c410-406e-9616-0aaed7502b14">A Botanical Survey</card>
+    <card qty="1" id="bd333b41-0934-4729-ba7b-68e6ea0c1552">Discovery of a Lifetime</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="7df1ef6e-83c7-47f9-a444-d2157f2de81c">Ground Disturbance</card>
+    <card qty="4" id="19035154-87fa-482d-b962-482b80175143">Sinking Sludge</card>
+    <card qty="2" id="59f7440e-5ca9-48fa-9c27-fd7983dda060">Enervation</card>
+    <card qty="2" id="95abdeae-4459-41e6-81ba-914f6d5815b8">Desiccation</card>
+    <card qty="2" id="94a47ccd-3905-45ec-af82-84d9b24dbe69">Poisonblossom</card>
+    <card qty="2" id="913f68db-fe53-4363-bcb2-bd9c387da68f">Forest Watcher</card>
+    <card qty="1" id="894ebdf1-d384-48af-b0a5-cb4f837f4702">Cochleal Stag</card>
+    <card qty="2" id="68db72e5-a366-4c00-bb5d-dd04de76fb50">Bloom</card>
+    <card qty="2" id="e76cb3de-023f-47b6-a0da-be8ff283d80e">Wall of Thorns</card>
+    <card qty="2" id="62bbabe4-ad91-4462-a314-f8270c750c6e">Call of the Wild</card>
+    <card qty="2" id="be8e59c0-4560-40a4-b641-9dbae9fa972d">Sudden Mutation</card>
+    <card qty="2" id="e32518a8-abd1-40ec-8e26-d6e3c6c8370d">Unnatrual Growth</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="2" id="7b746e9b-efa1-4de6-aaba-d4f234726def">Muddy Fen</card>
+    <card qty="1" id="d751847f-00c7-45c7-a9eb-6a0e666f1e61">Tangled Thicket</card>
+    <card qty="2" id="fef90a79-105d-4507-a33f-16d7d2469d8e">Fetid Pool</card>
+    <card qty="2" id="6f943f46-09d2-488d-983f-dc4e2e929411">Flooded Path</card>
+    <card qty="1" id="65a81eeb-622c-4085-b9dd-e3974cd6879f">Abandoned Shack</card>
+    <card qty="1" id="62ad599f-d4c3-475e-87ff-f00a3c4cec66">Rotten Dock</card>
+    <card qty="1" id="babad358-9cd1-4795-be6b-0eea3c68b0ab">Covered Bridge</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="3b822bcf-a87c-452c-be5d-1eb6501e90bf">Day One</card>
+    <card qty="3" id="7b78a351-0098-4125-a462-91b52e67f9d1">Swarm</card>
+    <card qty="1" id="225b0393-3e0c-4e65-94f8-6ab4b6311b04">Day Two</card>
+    <card qty="3" id="805ba2f9-86db-4c9a-b743-e120963acff4">Downpour</card>
+    <card qty="1" id="08c8648e-94cb-46b9-a7b2-7a686e42fe3c">Day Three</card>
+    <card qty="3" id="db8a485f-b8b7-4fd9-89fb-1763e50e4c08">Otherworldly Visions</card>
+    <card qty="1" id="02e8da66-f046-404d-9125-8562ebd89eeb">Judith Park</card>
+    <card qty="1" id="0a6fe9d4-1060-4439-9c3f-c5c7b194355a">Dr. Rosa Marquez</card>
+    <card qty="1" id="bac54b72-a860-4d5b-9373-aca1940208c9">River Hawthorne</card>
+    <card qty="1" id="724fec36-d455-4a76-9d58-688dab36e2fc">Thing in the Depths</card>
+    <card qty="1" id="7adc9567-01e9-4a27-ac85-38f12a05b5b6">Chelydran Hybrid</card>
+    <card qty="5" id="d959e473-f650-49f9-be74-3acbb743e11a">Grasping Tendril</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="5a5b5f83-fbe7-44db-9049-add8397d37d0">The Thing in the Depths</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
