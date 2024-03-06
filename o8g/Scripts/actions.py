@@ -1868,7 +1868,7 @@ def drawAddChaosToken(group, x = 0, y = 0):
 def removeChaosTokenFromBag(card):
     if chaosBag().controller == me:
         for cT in chaosBag():
-            if cT.Name != card.Name:
+            if cT.Name != card:
                 continue
             cT.delete()
             break
