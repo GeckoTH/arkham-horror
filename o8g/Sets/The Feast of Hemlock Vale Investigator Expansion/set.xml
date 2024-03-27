@@ -176,7 +176,7 @@
       <property name="Willpower" value="4" />
       <property name="Intellect" value="4" />
       <property name="Combat" value="3" />
-      <property name="Agility" value="2" />
+      <property name="Agility" value="1" />
       <property name="Unique" value="ο" />
       <alternate name="Kōhaku Narukami" type="B" size="InvestigatorCard">
         <property name="Subtitle" value="The Folklorist" />
@@ -1295,7 +1295,7 @@
       <property name="Traits" value="Practiced." />
       <property name="Text" value="While this card is committed to a skill test, the performing investigator may ignore all keyword or location effects that would trigger during this test." />
       <property name="Class" value="Mystic" />
-      <property name="Level" value="0" />
+      <property name="Level" value="1" />
       <property name="Willpower" value="1" />
       <property name="Skill Icons" value="" />
     </card>
