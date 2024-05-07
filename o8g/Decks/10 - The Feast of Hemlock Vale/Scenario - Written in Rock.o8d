@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="b22632b6-4382-4759-aa3c-9b07a9d3690d">Underground Survey</card>
+    <card qty="1" id="ae4e5933-f870-4b56-8e03-289d79ebecf7">Dangerous Ride</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="be7a7e5e-25f6-4d47-bacd-73a9610c274c">Descent into the Mines</card>
+    <card qty="1" id="98d25734-8d38-4c79-afd0-ea3c3a92f188">The Underground Maze</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="2d0b69e6-f536-4e19-934d-cf34108087f7">Chroma Blight</card>
+    <card qty="2" id="2c246723-cc72-4d8b-9339-ce94a0258ae3">Calcification</card>
+    <card qty="2" id="2076696e-bcf0-487d-b8cd-117bea53673f">Empyrean Brilliance</card>
+    <card qty="3" id="fd01c3fb-b14b-4df3-a105-a2a66ec1e8d8">Captivating Gleam</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="3" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
+    <card qty="1" id="a70a2df7-2520-47ea-97b9-374714113140">Ravenous Ghoul</card>
+    <card qty="3" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True">
+    <card qty="1" id="511db99e-2ad9-4455-91bb-416cbdb69a7b">Rail Exit</card>
+    <card qty="1" id="846a71ac-cd84-4deb-abdb-a2daf66e8889">Rail Tunnel</card>
+    <card qty="1" id="cfc595a0-accd-4d88-bebd-b726b230b4e0">Rail Tunnel</card>
+    <card qty="1" id="ecb5e6b5-c4d4-4c43-994b-c270ce1fde34">Rail Tunnel</card>
+    <card qty="1" id="77f71ed6-1d42-4288-b469-46b8b9836c1d">Rail Tunnel</card>
+    <card qty="1" id="8784ebe3-510a-4f35-827b-459897a1150f">Rail Tunnel</card>
+    <card qty="1" id="b5fc8893-8e74-475d-9660-4988baba35be">Rail Tunnel</card>
+    <card qty="1" id="7ea08af0-c140-4349-b5f7-75b2b458ffaa">Rail Tunnel</card>
+    <card qty="1" id="113c62d7-4a08-4033-b6ae-384fb9631412">Rail Tunnel</card>
+    <card qty="1" id="aa0d558a-ba72-45b8-a0c8-3b3248f5ddd6">Rail Tunnel</card>
+    <card qty="1" id="7b716a44-55c7-4925-9d4d-7ef015986fd8">Rail Tunnel</card>
+    <card qty="3" id="443d60f7-cf53-4ad6-a25d-d9b23d317469">Rail Tunnel</card>
+    <card qty="1" id="894349f0-91bd-4a40-be7f-b4be84e72fff">Rail Tunnel</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="3b822bcf-a87c-452c-be5d-1eb6501e90bf">Day One</card>
+    <card qty="3" id="7b78a351-0098-4125-a462-91b52e67f9d1">Swarm</card>
+    <card qty="1" id="225b0393-3e0c-4e65-94f8-6ab4b6311b04">Day Two</card>
+    <card qty="3" id="805ba2f9-86db-4c9a-b743-e120963acff4">Downpour</card>
+    <card qty="1" id="08c8648e-94cb-46b9-a7b2-7a686e42fe3c">Day Three</card>
+    <card qty="3" id="db8a485f-b8b7-4fd9-89fb-1763e50e4c08">Otherworldly Visions</card>
+    <card qty="1" id="bac54b72-a860-4d5b-9373-aca1940208c9">River Hawthorne</card>
+    <card qty="1" id="5f5a37ea-5cbd-45be-9b20-06832162d7f5">Simeon Atwood</card>
+    <card qty="1" id="1757e956-c378-426e-b7b5-43f59cd4900e">Leah Atwood</card>
+    <card qty="1" id="e70b7d10-c5cc-43ae-b39c-2bf2a122148f">Subterranean Beast</card>
+    <card qty="2" id="6fe07b32-61f5-48a5-8e05-4c0264829738">Crystal Parasite</card>
+    <card qty="1" id="38016177-3664-43ad-8a6a-a8d2b5b885d0">Mine Cart</card>
+    <card qty="3" id="2e8a2a1d-4dab-4d63-97b3-4ab0b89d1169">Burrowing Hybrid</card>
+    <card qty="3" id="2aeba57c-4a03-4479-9165-66326d05d8ca">Frienzied Miner</card>
+    <card qty="2" id="f5e2b1ba-9111-4d6a-a353-61d13b5229d1">Cave-In</card>
+    <card qty="3" id="578b33d7-b8ac-4d89-9e41-4d89d921c328">Wild Ride</card>
+    <card qty="1" id="a422eca2-4646-4a99-9cd8-e3eb45f3a02e">Prismatic Shard</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="227ae60f-7df7-4791-af07-abb0458c748c">Written in Rock</card>
+    <card qty="1" id="224f08fb-5660-454a-904c-b3f8a6fe1df8">Written in Rock</card>
+    <card qty="2" id="551eba44-f88e-4f0f-a4ca-ea6c7fb05716">Cavern</card>
+    <card qty="1" id="a2848737-43da-4253-9d43-23753c18b45c">Cavern</card>
+    <card qty="1" id="5fbe13bc-2e25-4cdb-8a7d-9261249af052">Cavern</card>
+    <card qty="1" id="78265a23-b915-45ca-bdce-a0f850e642ac">Cavern</card>
+    <card qty="1" id="d96c30d5-4794-472f-b3be-e435e8d9a86b">Cavern</card>
+    <card qty="1" id="65aeeb19-c3d2-4132-8902-0404b1bf449d">Control Station</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

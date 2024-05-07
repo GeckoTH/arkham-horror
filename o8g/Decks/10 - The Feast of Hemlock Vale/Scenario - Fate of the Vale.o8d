@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="9625e1ae-9022-4ec4-8d5c-2909c924d24e">The Silence</card>
+    <card qty="1" id="939f6d7a-8c9e-46d6-91f1-501126803d8d">The Miasma</card>
+    <card qty="1" id="4a4fbfdb-63b9-424b-bab4-28ba19803313">The Spiral</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="1e5b4bcc-edd9-49c9-ab3f-952e8a4b2371">Shattered Memories</card>
+    <card qty="1" id="0653fc4c-76e4-4041-bf97-cef3054a6004">Lost Self</card>
+    <card qty="1" id="130366dc-6a7a-462c-867d-84757c1ddee2">Fate of the Vale (v.I)</card>
+    <card qty="1" id="300ba813-9d20-48d7-8305-2be047291a2e">Fate of the Vale (v.II)</card>
+    <card qty="1" id="e46549b6-1293-4c26-a426-6138328bf475">Fate of the Vale (v.III)</card>
+    <card qty="1" id="8eb93103-2254-402a-b857-1c03fc9d934d">Fate of the Vale (v.IV)</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="db8a485f-b8b7-4fd9-89fb-1763e50e4c08">Otherworldly Visions</card>
+    <card qty="2" id="70cab00c-3be9-4e02-9a02-500d5a9b7e21">Crystal Mimic</card>
+    <card qty="2" id="4d9415ff-e68e-40ae-bb7b-834aa97cbf34">Sublimation</card>
+    <card qty="2" id="dd06a058-f962-42c9-9ca7-ad9d1e7df689">Fragmentation</card>
+    <card qty="2" id="f28075c5-d92e-4bf0-bf30-806bb54cad25">Euphoria</card>
+    <card qty="2" id="2d0b69e6-f536-4e19-934d-cf34108087f7">Chroma Blight</card>
+    <card qty="2" id="2c246723-cc72-4d8b-9339-ce94a0258ae3">Calcification</card>
+    <card qty="2" id="613f0351-e5c2-4cb7-b79c-594738f434e0">Miasmatic Shadow</card>
+    <card qty="2" id="7e9157eb-c378-4819-b4e6-6d8b542272ec">Alien Whispers</card>
+    <card qty="2" id="2076696e-bcf0-487d-b8cd-117bea53673f">Empyrean Brilliance</card>
+    <card qty="3" id="fd01c3fb-b14b-4df3-a105-a2a66ec1e8d8">Captivating Gleam</card>
+    <card qty="2" id="c964c9c6-2bca-4a44-8e36-bd3f45d53625">Strange Mutations</card>
+    <card qty="2" id="7cd00907-613c-48a4-953d-0aec85415dc3">Fungal Rot</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="67df80d3-74d1-4a90-8b3d-26e136c852a8">Mirror Nest</card>
+    <card qty="1" id="58067f35-3f1f-4510-8f77-6fecc4ec699a">Mirror Nest</card>
+    <card qty="1" id="70375f95-bff0-41ef-9849-b322fbbaa359">Mirror Nest</card>
+    <card qty="1" id="45928e9a-e770-49ec-8fd4-7f6c388c23d6">Mirror Nest</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="313eb0b5-35e7-4a2e-ac78-0b3f2d5731c4">Boarding House</card>
+    <card qty="1" id="3b9dff55-b6e6-4931-b2fe-d58267f8a1a1">The Crossroads</card>
+    <card qty="1" id="6d36fa4b-cd4a-48dd-9f1f-c732ca6378ff">Hemlock Chapel</card>
+    <card qty="1" id="75294809-d313-4be8-b151-502ce9d57441">The Old Mill</card>
+    <card qty="1" id="42fe895a-fb9f-4f2a-8f93-5a94a2f63e91">The Atwood House</card>
+    <card qty="1" id="9c93bc4d-3364-4e5d-b808-f04052f13aa8">Tad's General Store</card>
+    <card qty="1" id="1a4c5fb7-181e-477e-aa7a-83d5f4e376c4">Vale Schoolhouse</card>
+    <card qty="1" id="0176ece0-e2dc-4327-8dc2-aa8c8f7e2bbb">The Commons</card>
+    <card qty="2" id="551eba44-f88e-4f0f-a4ca-ea6c7fb05716">Cavern</card>
+    <card qty="1" id="a2848737-43da-4253-9d43-23753c18b45c">Cavern</card>
+    <card qty="1" id="5fbe13bc-2e25-4cdb-8a7d-9261249af052">Cavern</card>
+    <card qty="1" id="78265a23-b915-45ca-bdce-a0f850e642ac">Cavern</card>
+    <card qty="1" id="d96c30d5-4794-472f-b3be-e435e8d9a86b">Cavern</card>
+    <card qty="2" id="5dd1a34a-105f-47d0-9ea2-6e1285bb9fec">Frienzied Reveler</card>
+    <card qty="1" id="e676d1b5-4f3d-4b67-ba3b-80ddc45f0829">Mother Rachel</card>
+    <card qty="1" id="1757e956-c378-426e-b7b5-43f59cd4900e">Leah Atwood</card>
+    <card qty="1" id="5f5a37ea-5cbd-45be-9b20-06832162d7f5">Simeon Atwood</card>
+    <card qty="1" id="59528658-51fd-426c-87b6-d40ae4d7c4cb">William Hemlock</card>
+    <card qty="1" id="bac54b72-a860-4d5b-9373-aca1940208c9">River Hawthorne</card>
+    <card qty="1" id="c120e7b2-b197-4d5e-b849-46f3e1b626c1">Gideon Mizrah</card>
+    <card qty="1" id="02e8da66-f046-404d-9125-8562ebd89eeb">Judith Park</card>
+    <card qty="1" id="658206a7-dd4a-4e80-977c-6c26f10ce25f">Theo Peters</card>
+    <card qty="1" id="55e6bafa-eff7-4248-9213-7cdc39a6c7cf">Bertie Musgrave</card>
+    <card qty="1" id="0a6fe9d4-1060-4439-9c3f-c5c7b194355a">Dr. Rosa Marquez</card>
+    <card qty="1" id="88b6df5b-a43d-470d-ad6a-ed0283e704e2">Helen Peters</card>
+    <card qty="5" id="d2b4efa6-186a-4563-bf05-164455582383">Fire!</card>
+    <card qty="2" id="6fe07b32-61f5-48a5-8e05-4c0264829738">Crystal Parasite</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="452807b8-916f-4937-b04e-c13b9146a7fa">Fate of the Vale</card>
+    <card qty="1" id="08c8648e-94cb-46b9-a7b2-7a686e42fe3c">Day Three</card>
+    <card qty="4" id="6361817f-15a5-4997-8631-e6d47ec56281">Shattered Self</card>
+    <card qty="1" id="b3ed525c-aa4b-4e3d-a679-00cfa9da3d87">Cosmic Emissary</card>
+    <card qty="1" id="20207dfb-c95f-4373-a866-fa5f69e72eab">Cosmic Emissary</card>
+    <card qty="1" id="964601b8-b50c-44ab-9519-d86e5fefe059">Cosmic Emissary</card>
+    <card qty="1" id="3956e51b-1655-416c-ba8b-71f30f1d2247">Cosmic Emissary</card>
+    <card qty="1" id="c5d30d1f-c725-4e67-8b4c-aa7191d4f2db">The Abyss</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

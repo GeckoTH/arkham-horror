@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Hunting for Answers" id="e02a8c0a-0af7-46c9-937a-f668922b33ba" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="96c1a8de-9258-4638-aac4-10c24562425a" name="Rex Murphy" size="InvestigatorCard">
+      <property name="Card Number" value="78" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Reporter" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Reporter. Cursed." />
+      <property name="Text" value="ι When you would either place 1 of your clues on your location, or add 2 [Curse tokens to the chaos bag: Do the other instead. (This can still satisfy the cost of an ability.)&#10;ε effect: +2 for each [Curse] token revealed during this test. Draw 1 card for each [Curse] token revealed during this test." />
+      <property name="Health" value="6" />
+      <property name="Sanity" value="9" />
+      <property name="Class" value="Seeker" />
+      <property name="Willpower" value="3" />
+      <property name="Intellect" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Rex Murphy" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Reporter" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Seeker cards (λ) level 0-3, Cursed and Gambit cards level 0-4, Neutral cards level 0-5, up to 5 other Rogue cards (ν) level 0.&#10;Deckbuilding Requirements (do not count toward deck size): Search for the Truth, Rex's Curse, 1 random basic weakness.&#10;Deckbuilding Restrictions: No Fortune or Blessed cards (unless they are also Cursed)." />
+        <property name="Class" value="Seeker" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="3f7dd530-d152-4cd5-a01c-8bc1b7ffbf5e" name="Search For the Truth">
+      <property name="Card Number" value="79" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Rex Murphy deck only. Advanced.&#10;For each clue on Rex Murphy (to a maximum of 5), you may either:&#10;— Draw 1 card.&#10;— Place that clue on your location and return any card from your discard pile to your hand." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b2016522-d854-4db5-8c96-a74cbd400884" name="Rex's Curse" size="EncounterCard">
+      <property name="Card Number" value="80" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Advanced.&#10;Revelation – Put Rex's Curse into play in your threat area.&#10;Forced – When you would succeed at a skill test: Reveal an additional chaos token. If this effect causes you to fail the test, shuffle Rex's Curse into your deck. (Limit once per test.)" />
+      <property name="Class" value="Neutral" />
+    </card>
+  </cards>
+</set>

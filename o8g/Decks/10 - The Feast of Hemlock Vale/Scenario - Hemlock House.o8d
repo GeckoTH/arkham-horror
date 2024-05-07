@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="8c6a87b3-2441-4b62-a21d-a7d364391c77">Eerie Silence</card>
+    <card qty="1" id="205facf7-edd2-4774-8bfb-40aa17686a66">The House Stirs (v.I)</card>
+    <card qty="1" id="a6f58b76-82b2-4482-8d73-29fe511a5b2e">The House Stirs (v.II)</card>
+    <card qty="1" id="ed3f0ea1-dde3-43b4-9add-d78d9fde39c0">Living Walls</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="833a5d15-5e09-4227-b7e1-b54827bc8b58">Strange Infestation</card>
+    <card qty="1" id="2d36a285-f6fb-4303-9957-ab9f4dd07bb7">Against the House</card>
+    <card qty="1" id="d10f4825-2846-436f-af9e-44f99cffbd4b">The Heart of the House</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="8cc52905-7ef7-4a53-94d2-135076dbe190">Grappling Spawn</card>
+    <card qty="2" id="613f0351-e5c2-4cb7-b79c-594738f434e0">Miasmatic Shadow</card>
+    <card qty="2" id="7e9157eb-c378-4819-b4e6-6d8b542272ec">Alien Whispers</card>
+    <card qty="2" id="59f7440e-5ca9-48fa-9c27-fd7983dda060">Enervation</card>
+    <card qty="2" id="95abdeae-4459-41e6-81ba-914f6d5815b8">Desiccation</card>
+    <card qty="2" id="c964c9c6-2bca-4a44-8e36-bd3f45d53625">Strange Mutations</card>
+    <card qty="2" id="7cd00907-613c-48a4-953d-0aec85415dc3">Fungal Rot</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="532dd951-0523-4586-8953-3c661c7c4117">Bedroom</card>
+    <card qty="1" id="0bb53f12-8cad-47ed-b8fc-81b5ff858fe6">Bedroom</card>
+    <card qty="1" id="8fa9a1f3-2294-4b03-9eb0-8043787181b0">Bedroom</card>
+    <card qty="1" id="b583fe90-c15f-40cb-96c5-5dbb62cc4ca4">Bedroom</card>
+    <card qty="1" id="b771867b-e35b-4114-af75-b94a66d24449">Washroom</card>
+    <card qty="1" id="d1f40cab-db24-4e1b-a985-067cf4e66bca">Washroom</card>
+    <card qty="1" id="eb927b4e-6e03-4cac-8142-b2901c0f5588">Washroom</card>
+    <card qty="1" id="ef3e4182-07d9-4571-b9c4-f7625fe4f3d5">Library</card>
+    <card qty="1" id="aaf2bdc4-49ab-46d3-861b-aab83089bf01">Library</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="3b822bcf-a87c-452c-be5d-1eb6501e90bf">Day One</card>
+    <card qty="3" id="7b78a351-0098-4125-a462-91b52e67f9d1">Swarm</card>
+    <card qty="1" id="225b0393-3e0c-4e65-94f8-6ab4b6311b04">Day Two</card>
+    <card qty="3" id="805ba2f9-86db-4c9a-b743-e120963acff4">Downpour</card>
+    <card qty="1" id="08c8648e-94cb-46b9-a7b2-7a686e42fe3c">Day Three</card>
+    <card qty="3" id="db8a485f-b8b7-4fd9-89fb-1763e50e4c08">Otherworldly Visions</card>
+    <card qty="1" id="adb3b709-189f-4ae6-ad76-ec0978f50b04">Shapeless Cellar</card>
+    <card qty="1" id="c120e7b2-b197-4d5e-b849-46f3e1b626c1">Gideon Mizrah</card>
+    <card qty="1" id="765145a2-5884-4432-9c8a-70d34e4bab02">Little Sylvie</card>
+    <card qty="1" id="02e8da66-f046-404d-9125-8562ebd89eeb">Judith Park</card>
+    <card qty="1" id="658206a7-dd4a-4e80-977c-6c26f10ce25f">Theo Peters</card>
+    <card qty="1" id="91c597fd-0beb-4265-822e-2fec5dc4d952">The Predatory House</card>
+    <card qty="5" id="d2b4efa6-186a-4563-bf05-164455582383">Fire!</card>
+    <card qty="4" id="5ebc97d2-df83-422d-bb89-72df9a74adf8">Out of the Walls</card>
+    <card qty="2" id="9809b8d5-c236-4e14-9386-ea1054f9fcf4">Pulled In</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="f16123cb-52b4-4fb8-aee6-47e30d24a0f6">Hemlock House</card>
+    <card qty="1" id="100bd9f1-2b24-42ab-b185-59a383bc6872">Parlor</card>
+    <card qty="1" id="42a350f0-3d7f-4a6b-b198-036236fcf82e">Dining Room</card>
+    <card qty="1" id="ded975f4-69e0-4e62-9993-66d8eb212920">Foyer</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="033a4cf5-1e53-4121-a7b3-607ce8810765">Opening Hand</card>
     <card qty="1" id="b7582d2f-df22-414e-8a4a-4224cc1970bf">The Turn</card>
@@ -43,8 +35,6 @@
     <card qty="1" id="000c8064-f1fb-4743-9ea8-a122bf700bfa">Obessed Gambler</card>
     <card qty="1" id="1fd4d1ee-4050-4874-8dc6-ea16a8dc5153">Obessed Gambler</card>
   </section>
-  <section name="Location" shared="True" />
-  <section name="Special" shared="True" />
   <section name="Second Special" shared="True">
     <card qty="1" id="97ef2433-923c-4ed6-8b8b-b17e07e45c3b">Fortune's Shield</card>
     <card qty="1" id="8b784acd-3067-4860-9d98-81d201ce758f">Fortune's Shield</card>
@@ -72,8 +62,8 @@
     <card qty="1" id="7547cde2-b4cb-47b6-adf5-58293aa3c7c9">Cash Cart</card>
     <card qty="1" id="cb0590d7-079f-4aff-80fa-f70ffa2a9c5d">Abarran Arrigorriagakoa</card>
   </section>
-  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
+    <card qty="1" id="a54696c4-3697-4c72-bd54-4d3f3868afc4">Fortune and Folly</card>
     <card qty="1" id="799384ab-659e-4455-923e-98637b2d9620">The Face</card>
     <card qty="1" id="ceb69c38-aa04-4b26-a2d0-b1fc55f1e7da">The Muscle</card>
     <card qty="1" id="f0cede79-3337-4479-be56-226f7246c45d">The Thief</card>
@@ -97,6 +87,17 @@
     <card qty="1" id="bcb86e6c-9cbb-456c-8c2c-e2ab121ea711">Isamara Ordoñez</card>
     <card qty="1" id="cb0590d7-079f-4aff-80fa-f70ffa2a9c5d">Abarran Arrigorriagakoa</card>
   </section>
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <section name="Temporary Shuffle" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>

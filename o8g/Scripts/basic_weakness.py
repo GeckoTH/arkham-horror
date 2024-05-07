@@ -86,6 +86,12 @@ class BasicWeakness:
             "d8cb5ca7-a153-4752-a401-229960159312", # Pay Your Due
             "c79109e5-563d-4af3-90bf-656dc59fd07f", # Ectoplasmic Horror
             "90ca0cee-4c23-451a-9cec-302fabea4a7a", # Underprepared
+        ],
+        "the_feast_of_hemlock_vale_investigator_expansion": [
+            "84ded66d-b9fd-4061-9697-cc0bb6b666ca", # Maimed Hand
+            "eb5b0c06-cefa-4cc4-b710-420e0fd32245", # Back Injury
+            "fc2e4265-2df2-4932-bb2f-b7a0e01c6827", # The Silver Moth
+            "31d5c1cd-e2ff-45fa-bf31-be3b34d39dcc", # Vow of Drzytelech
         ]
     }
     PILE_NAME = 'Basic Weaknesses'
