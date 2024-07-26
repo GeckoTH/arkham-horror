@@ -1225,7 +1225,9 @@ def flipcard(card, x = 0, y = 0):
     cardx, cardy = card.position
 
     #Card Alternate Flip
-    if card.alternates is not None and "B" in card.alternates:
+    if not card.isFaceUp:
+	card.isFaceUp = True
+    elif card.alternates is not None and "B" in card.alternates:
         if card.alternate == "B":
             card.alternate = ''
         else:
@@ -1586,6 +1588,7 @@ def mulligan(group, x = 0, y = 0):
     mute()
     hand = [c for c in group
     if not ("Dark Insight" in c.Name or "The Tower · XVI" in c.Name or "The Devil XV" in c.Name)]
+    hand.reverse()
     dlg = cardDlg(hand)
     dlg.title = "Mulligan!"
     dlg.text = "Select the cards you wish to replace:"
@@ -2033,7 +2036,7 @@ def drawUnrevealed(group=None, x=0, y=0):
 
     card = group[0]
     card.moveToTable(EncounterX, EncounterY, True)
-    notify("{} draws an unrevealed card from the {}.".format(me, card.name, group.name))
+    notify("{} draws an unrevealed card from the {}.".format(me, group.name))
     return card
     
 
