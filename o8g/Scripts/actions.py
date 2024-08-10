@@ -1048,7 +1048,10 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
                     addBless()
         isSuzi = filter(lambda card: "Subject 5U-21" in card.Name, me.hand)
         if isSuzi:
-            me.counters['Card Draw'].value = 2            
+            me.counters['Card Draw'].value = 2  
+	isHank = filter(lambda card: "Hank Samson" in card.Name, me.hand)
+        if isHank:
+            me.piles['Sideboard'].create('0b47ec14-d252-4692-9d78-90efd034ff8c')
         # Find any Start cards
         startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name or "Darrell's Kodak" == card.Name or card.Name == "On the Mend" or card.Name == "Ravenous", me.deck)
         # Create Bonded Card
