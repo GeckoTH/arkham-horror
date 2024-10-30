@@ -278,7 +278,6 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Rail." />
         <property name="Text" value="Forced – After Sunken Rail is revealed: Discard cards from the top of the encounter deck until an enemy is discarded. The lead investigator draws that enemy.&#10;Rail: Up, Down, Right" />
-        <property name="Health" value="2π" />
         <property name="Shroud" value="4" />
         <property name="Clues" value="2π" />
       </alternate>
