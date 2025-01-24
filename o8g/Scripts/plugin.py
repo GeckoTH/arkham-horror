@@ -329,3 +329,73 @@ def savePiles(name, sections, piles, skipInvestigator, isShared):
 		f.write("</deck>\n")
 		return filename
 	return None
+
+
+def downloadDeckArkhamDB(group, x = 0, y = 0):
+        deck_id = askInteger("Insert DeckID:", 0)
+        if not deck_id:
+                notify("No DeckID provided")
+		return
+        url = "https://arkhamdb.com/api/public/deck/"+ str(deck_id)
+        notify(url)
+        try:
+                notify("Downloading deck: " + url)
+                data, code = webRead(url)
+                if not data:
+                        notify("Error: No deck found.")
+                        return
+        except Exception as e:
+                notify("Error: " + str(e))
+	investigator_code = re.search(r'"investigator_code":"(\d+)"', data)
+	if investigator_code:
+		investigator_code = investigator_code.group(1)
+	match = re.search(r'"slots":\s*\{([^}]+)\}(?=\s*(,|\}|\s*$))', data)
+	slots = re.findall(r'"(\d+)":(\d+)', match.group(1))
+	slots_dict = {key: int(value) for key, value in slots}
+	deckDict = {
+		"investigator": investigator_code,
+		"slots": slots_dict
+		}
+	cards = getCardsArkhamDB(deckDict)
+
+def getCardsArkhamDB(Deck):
+	baseUrl = "https://arkhamdb.com/api/public/card/"
+
+	investigator_code = Deck['investigator']
+	data, code = webRead(baseUrl + investigator_code)
+	octgn_id_match = re.search(r'"octgn_id":"([^"]+)"',  data)
+	investigator_id = str(octgn_id_match.group(1))
+	
+	cards = []
+	basicWeakness = False
+	for id,qty in Deck['slots'].items():
+		if id == '01000':
+			notify("Don't forget your random basic weakness")
+			basicWeakness = True
+			continue
+		data, code = webRead(baseUrl + id)
+		match = re.search(r'"octgn_id":"([^"]+)"', data)
+		if match:
+			cards.append({"qty": int(qty), "id": match.group(1)})
+	for id in investigator_id.split(":"):
+		cards.append({"qty": 1, "id": id})
+
+	for card in cards:
+		notify("ID: "+ card['id'] + " e Quantity: " + str(card['qty']))
+		cardData = {'model':'', 'markers':{}, 'orientation':0, 'position':[], 'isFaceUp':False}
+		cardData['model'] = card['id'] 
+		cardData['position'] = [0, 0]
+		for _ in range(card['qty']):
+			card = deserizlizeCard(cardData)
+	                card.moveTo(me.deck)
+
+	#no idea why the investigator and mini goes to hand pile and not deck pile during the setup
+	investigator = filter(lambda card: card.Type == "Investigator", me.deck)
+	mini = filter(lambda card: card.Type == "Mini", me.deck)
+	for m in mini:
+		m.moveTo(me.hand)
+	for i in investigator:
+		i.moveTo(me.hand)
+	playerSetup()
+	if basicWeakness:
+		drawBasicWeaknessToDeck("deck")
