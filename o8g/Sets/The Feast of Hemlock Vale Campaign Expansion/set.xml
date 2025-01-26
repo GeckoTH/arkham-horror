@@ -278,7 +278,6 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Rail." />
         <property name="Text" value="Forced – After Sunken Rail is revealed: Discard cards from the top of the encounter deck until an enemy is discarded. The lead investigator draws that enemy.&#10;Rail: Up, Down, Right" />
-        <property name="Health" value="2π" />
         <property name="Shroud" value="4" />
         <property name="Clues" value="2π" />
       </alternate>
@@ -2102,8 +2101,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Sanctum." />
         <property name="Text" value="The Farmhouse cannot have player card attachments, traps, or decoys.&#10;θ During your turn, spend 1π resources: Move (to a connecting location).&#10;η: Gain 1 clue (from the token pool). (Group limit once per round.)" />
-        <property name="Clues" value="4" />
-        <property name="Doom" value="2π" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="2π" />
       </alternate>
     </card>
     <card id="51f0e85f-de9c-4672-8c45-3eaa4755224b" name="Atwood Farm" size="EncounterCard">
@@ -2117,8 +2116,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm." />
         <property name="Text" value="ι When you would place a decoy or a trap at Milkhouse: Place it at an adjacent location instead.&#10;η: Draw 1 set-aside Fire! treachery. Shuffle 1 copy of a set-aside Fire! treachery into the encounter deck. (Limit once per round.)" />
-        <property name="Clues" value="3" />
-        <property name="Doom" value="1π" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
       </alternate>
     </card>
     <card id="78e08819-37e1-4a95-84d5-1ac08a9646d2" name="Atwood Farm" size="EncounterCard">
@@ -2132,8 +2131,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm." />
         <property name="Text" value="θ During your turn: Engage an enemy at Vineyard. (Limit once per turn.)&#10;Forced – When an enemy enters Vineyard: Heal 1 damage from it." />
-        <property name="Clues" value="3" />
-        <property name="Doom" value="1π" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
       </alternate>
     </card>
     <card id="eb8b875e-5fbd-4089-8541-845ab0292970" name="Atwood Farm" size="EncounterCard">
@@ -2147,8 +2146,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm." />
         <property name="Text" value="While there is a decoy on Coop, this location gets –2 shroud.&#10;Each enemy at Coop gets +1 fight and +1 evade.&#10;η: Draw 1 set-aside Fire! treachery. Shuffle 1 copy of a set-aside Fire! treachery into the encounter deck. (Limit once per round.)" />
-        <property name="Clues" value="4" />
-        <property name="Doom" value="1π" />
+        <property name="Shroud" value="4" />
+        <property name="Clues" value="1π" />
       </alternate>
     </card>
     <card id="29515fc9-54ca-4d86-81bd-b94382ce922b" name="Atwood Farm" size="EncounterCard">
@@ -2162,8 +2161,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm." />
         <property name="Text" value="Enemies at Barn gets +1 damage value.&#10;ι When Barn is revealed: Place the set-aside Ajax story asset at this location ([Codex] Omega)." />
-        <property name="Clues" value="3" />
-        <property name="Doom" value="1π" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
       </alternate>
     </card>
     <card id="30d6f3ef-c56f-4f51-8fae-932ef9af32bd" name="Atwood Farm" size="EncounterCard">
@@ -2177,8 +2176,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm." />
         <property name="Text" value="θ During your turn, if Pasture has a trap on it: Move (to a connecting location).&#10;Forced – After a ready, unengaged enemy moves into Pasture via a keyword, if there are no barriers at Pasture: Resolve that keyword again." />
-        <property name="Clues" value="3" />
-        <property name="Doom" value="1π" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="1π" />
       </alternate>
     </card>
     <card id="91c22bc3-3a5f-44e0-ad2e-5ea2f8247039" name="Outer Fields" size="EncounterCard">
@@ -2193,8 +2192,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm. Blight." />
         <property name="Text" value="η: Move an enemy to a connecting location. (Group limit once per game.)&#10;ι After you discover the last clue from this location: Heal 2 damage from The Captives. (Group limit once per game.)" />
-        <property name="Clues" value="2" />
-        <property name="Doom" value="3π" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="3π" />
       </alternate>
     </card>
     <card id="4f1fd002-10e6-4d11-83ab-caab84fec038" name="Outer Fields" size="EncounterCard">
@@ -2209,8 +2208,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm. Blight." />
         <property name="Text" value="θ During your turn: Look at the top 1π cards of the Enemy deck. Discard any number of them and put the rest back on top in any order. (Group limit once per game.)" />
-        <property name="Clues" value="2" />
-        <property name="Doom" value="3π" />
+        <property name="Shroud" value="2" />
+        <property name="Clues" value="3π" />
       </alternate>
     </card>
     <card id="92186062-fc4b-4700-aa12-fe87992b6f46" name="Outer Fields" size="EncounterCard">
@@ -2225,8 +2224,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm. Blight." />
         <property name="Text" value="ι After you discover the last clue from this location: Place 1 barrier at this location.&#10;θ During your turn: Choose a barrier at any location and move t to any other location. (Limit once per turn.)" />
-        <property name="Clues" value="3" />
-        <property name="Doom" value="2π" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
       </alternate>
     </card>
     <card id="bdf0d393-f74a-468e-8e36-b10df7591e8b" name="Outer Fields" size="EncounterCard">
@@ -2241,8 +2240,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm. Blight." />
         <property name="Text" value="ι After you discover the last clue from this location: Place 1 trap at this location.&#10;θ During your turn: Choose a trap at any location and move it to any other location. (Limit once per turn.)" />
-        <property name="Clues" value="3" />
-        <property name="Doom" value="2π" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
       </alternate>
     </card>
     <card id="8a7642ee-1d3d-42fd-8cd8-d23259fb282b" name="Outer Fields" size="EncounterCard">
@@ -2257,8 +2256,8 @@
         <property name="Type" value="Location" />
         <property name="Traits" value="Farm. Blight." />
         <property name="Text" value="ι After you discover the last clue from this location: Place 1 decoy at this location.&#10;θ During your turn: Choose a decoy at any location and move it to any other location. (Limit once per turn.)" />
-        <property name="Clues" value="3" />
-        <property name="Doom" value="2π" />
+        <property name="Shroud" value="3" />
+        <property name="Clues" value="2π" />
       </alternate>
     </card>
     <card id="92e89727-9ccb-401b-930a-8b502ee01106" name="The Captives" size="EncounterCard">
