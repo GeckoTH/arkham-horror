@@ -1048,8 +1048,12 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
                     addBless()
         isSuzi = filter(lambda card: "Subject 5U-21" in card.Name, me.hand)
         if isSuzi:
-            me.counters['Card Draw'].value = 2            
-        # Find any Start cards
+            me.counters['Card Draw'].value = 2  
+	isHank = filter(lambda card: "Hank Samson" in card.Name, me.hand)
+        if isHank:
+            me.piles['Sideboard'].create('0b47ec14-d252-4692-9d78-90efd034ff8c')
+	
+	    # Find any Start cards
         startCard = filter(lambda card: "Sophie" == card.Name or "Gate Box" == card.Name or "Duke" == card.Name or "Dark Insight" == card.Name or "Darrell's Kodak" == card.Name or card.Name == "On the Mend" or card.Name == "Ravenous", me.deck)
         # Create Bonded Card
         listB = makeListBonded(me.deck)
@@ -1225,8 +1229,10 @@ def flipcard(card, x = 0, y = 0):
     cardx, cardy = card.position
 
     #Card Alternate Flip
-    if card.alternates is not None and "B" in card.alternates:
-        if card.alternate == "B":
+    if not card.isFaceUp:
+	card.isFaceUp = True
+    elif card.alternates is not None and "B" in card.alternates:
+	if card.alternate == "B":
             card.alternate = ''
         else:
             card.alternate = 'B'
@@ -1586,6 +1592,7 @@ def mulligan(group, x = 0, y = 0):
     mute()
     hand = [c for c in group
     if not ("Dark Insight" in c.Name or "The Tower · XVI" in c.Name or "The Devil XV" in c.Name)]
+    hand.reverse()
     dlg = cardDlg(hand)
     dlg.title = "Mulligan!"
     dlg.text = "Select the cards you wish to replace:"
@@ -2033,7 +2040,7 @@ def drawUnrevealed(group=None, x=0, y=0):
 
     card = group[0]
     card.moveToTable(EncounterX, EncounterY, True)
-    notify("{} draws an unrevealed card from the {}.".format(me, card.name, group.name))
+    notify("{} draws an unrevealed card from the {}.".format(me, group.name))
     return card
     
 
