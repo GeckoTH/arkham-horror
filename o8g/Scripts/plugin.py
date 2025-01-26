@@ -330,7 +330,6 @@ def savePiles(name, sections, piles, skipInvestigator, isShared):
 		return filename
 	return None
 
-
 def downloadDeckArkhamDB(group, x = 0, y = 0):
         deck_id = askInteger("Insert DeckID:", 0)
         if not deck_id:
@@ -356,30 +355,29 @@ def downloadDeckArkhamDB(group, x = 0, y = 0):
 		"investigator": investigator_code,
 		"slots": slots_dict
 		}
-	cards = getCardsArkhamDB(deckDict)
+	createDeckArkhamDB(deckDict)
 
-def getCardsArkhamDB(Deck):
-	baseUrl = "https://arkhamdb.com/api/public/card/"
-
-	investigator_code = Deck['investigator']
-	data, code = webRead(baseUrl + investigator_code)
-	octgn_id_match = re.search(r'"octgn_id":"([^"]+)"',  data)
-	investigator_id = str(octgn_id_match.group(1))
-	
+def createDeckArkhamDB(deckDict):
+	allCards = downloadAllCardsArkhamDB()
 	cards = []
 	basicWeakness = False
-	for id,qty in Deck['slots'].items():
+	
+	#function to return json matching cardID
+	def quickSearch(id, array):
+		result = next((obj for obj in array if obj.code.ToString() == str(id)), None)
+		return result
+
+	investigator_id = quickSearch(deckDict["investigator"], allCards).octgn_id.ToString()
+	for id in investigator_id.split(":"):
+		cards.append({"qty": 1, "id": id})	
+	for id,qty in deckDict['slots'].items():
 		if id == '01000':
 			notify("Don't forget your random basic weakness")
 			basicWeakness = True
 			continue
-		data, code = webRead(baseUrl + id)
-		match = re.search(r'"octgn_id":"([^"]+)"', data)
-		if match:
-			cards.append({"qty": int(qty), "id": match.group(1)})
-	for id in investigator_id.split(":"):
-		cards.append({"qty": 1, "id": id})
-
+		card_id = quickSearch(id, allCards).octgn_id.ToString()
+		if card_id:
+			cards.append({"qty": int(qty), "id": card_id})
 	for card in cards:
 		notify("ID: "+ card['id'] + " e Quantity: " + str(card['qty']))
 		cardData = {'model':'', 'markers':{}, 'orientation':0, 'position':[], 'isFaceUp':False}
@@ -399,3 +397,18 @@ def getCardsArkhamDB(Deck):
 	playerSetup()
 	if basicWeakness:
 		drawBasicWeaknessToDeck("deck")
+
+def downloadAllCardsArkhamDB(encounterCards="0"):
+	url = "https://arkhamdb.com/api/public/cards/?encounter=" + str(encounterCards)
+	data, code = webRead(url)
+	jarray = JArray.Parse(data)
+	allCardsDict = jobject_to_dict(jarray)
+	return allCardsDict
+
+def jobject_to_dict(jobject):
+	if isinstance(jobject, JObject): 
+		return {key: jobject_to_dict(jobject[key]) for key in jobject}
+	elif isinstance(jobject, list):  
+		return [jobject_to_dict(item) for item in jobject]
+	else:
+ 		return jobject
