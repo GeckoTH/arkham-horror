@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Aura of Faith" id="ddfcf38f-17c8-447e-8a95-0082f8d71f14" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="89989f91-5fc3-4fe8-9205-00469bfc4285" name="Father Mateo" size="InvestigatorCard">
+      <property name="Card Number" value="81" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Priest" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Believer. Warden." />
+      <property name="Text" value="θ During your turn: Seal a [Bless] token on an investigator at your location with no [Bless] token sealed on them. (Limit once per round.)&#10;ι When an investigator would reveal a chaos token: Resolve the [Bless] token sealed on them instead. Release that token.&#10;ε effect: +1. Resolve Father Mateo's θ ability, ignoring its limit." />
+      <property name="Health" value="6" />
+      <property name="Sanity" value="8" />
+      <property name="Class" value="Mystic" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Father Mateo" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Priest" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Mystic cards (μ) level 0–3, Blessed cards level 0–5, Neutral cards level 0–5, up to 5 other cards with &quot;seal&quot; level 0–5.&#10;Deckbuilding Requirements (do not count toward deck size): The Codex of Ages, Serpents of Yig, 1 random basic weakness." />
+        <property name="Class" value="Mystic" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="f3d29f52-cb67-4373-bdda-304f3e6087fc" name="The Codex of Ages">
+      <property name="Card Number" value="82" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="finis omnium nunc est" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Tome. Blessed." />
+      <property name="Text" value="Father Mateo deck only. Advanced. Seal (ε or up to 3 [Bless]).&#10;You get +1 to each of your skills while there is a token sealed here.&#10;ι When an investigator at your location would reveal a chaos token from the chaos bag: That investigator resolves a token sealed here instead, then releases that token. (Limit once per test.)" />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9c611746-9801-4d28-b708-3bc4d9c9cd9b" name="Serpents of Yig" size="EncounterCard">
+      <property name="Card Number" value="83" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Enemy" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Humanoid. Monster. Serpent." />
+      <property name="Text" value="Advanced. Prey – Father Mateo only.&#10;Hunter.&#10;Revelation – Search the chaos bag and all play areas for the ε token and each [Bless] token and seal them on Serpents of Yig." />
+      <property name="Health" value="4" />
+      <property name="Class" value="Neutral" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Damage" value="1" />
+      <property name="Horror" value="1" />
+    </card>
+  </cards>
+</set>

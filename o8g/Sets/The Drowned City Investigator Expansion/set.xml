@@ -1,0 +1,1782 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Drowned City" id="43b23c56-f835-43be-b53d-feb3c3bc04bb" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="c8fa6230-66c8-46f5-8b9c-baf5ca5e0df5" name="Marion Tavares" size="InvestigatorCard">
+      <property name="Card Number" value="1" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Trawler" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Drifter. Entrepreneur." />
+      <property name="Text" value="You have 1 fewer hand slots.&#10;ι After you play an event during your turn: Draw 1 card. Then, you may play a different event. (Limit once per round.)&#10;ε effect: +1. Search the top 3 cards of your deck for an event and draw it. Shuffle your deck." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Guardian" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Marion Tavares" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Trawler" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Trait Choice: At deck creation, choose one of the following traits: Fortune, Gambit, or Improvised.&#10;Deckbuilding Options: Guardian cards (κ) level 0-5, Neutral cards level 0-5, events with your chosen Trait leve 0-2, up to 5 other level 0 Survivor cards (ξ).&#10;Deckbuilding Requirements (do not count toward deck size): Two copies of Determined, &quot;I'll do it myself,&quot; 1 random basic weakness." />
+        <property name="Class" value="Guardian" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="52b5fefc-18fa-4b53-a162-32eef46ebbc9" name="Determined">
+      <property name="Card Number" value="2" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Marion Tavares deck only.&#10;If this skill test is successful and it is on an event you played, you may return Determined to your hand instead of discarding it." />
+      <property name="Class" value="Neutral" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="74694e8f-700d-4756-b13b-03a0214ec90a" name="&quot;I'll do it myself&quot;">
+      <property name="Card Number" value="3" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Flaw." />
+      <property name="Text" value="Revelation – Put &quot;I'll do it myself&quot; into play in your threat area.&#10;As an additional cost for you to play an event, take 1 horror.&#10;θ Discard 3 events from your hand: Discard &quot;I'll do it myself.&quot;" />
+    </card>
+    <card id="7492cdc2-d159-4620-95f8-7cb6923abdbc" name="Lucius Galloway" size="InvestigatorCard">
+      <property name="Card Number" value="4" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Poet" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Scholar. Dreamer." />
+      <property name="Text" value="ι After you successfully evade an enemy by 2 or more: Discover 1 clue at your location. (Limit once per round.)&#10;ε effect: +1 for each enemy at your location." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Seeker" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <alternate name="Lucius Galloway" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Poet" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Seeker cards (λ) level 0-5, Rogue cards (ν) level 0-2, Neutral cards level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): Book of Verse, Dreams of the Flood, 1 random basic weakness." />
+        <property name="Class" value="Seeker" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="95b0bdff-22d5-4af8-a75d-34513c7ae700" name="Book of Verse">
+      <property name="Card Number" value="5" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Un-Commonplace Book" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Lucius Galloway deck only.&#10;Uses (1 inspiration). Replenish this inspiration the first time you discover a clue each round.&#10;ι After revealing chaos tokens during a skill test, spend 1 inspiration: You get +1 skill value for this test. If you succeed by exactly 0, draw 1 card." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d769972c-8405-4d3d-9b9f-d66b73cfaec5" name="Dreams of the Flood">
+      <property name="Card Number" value="6" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Omen. Endtimes." />
+      <property name="Text" value="Revelation – Put Dreams of the Flood into play in your threat area.&#10;Forced – The first time you discover 1 or more clues during your turn: Take 1 horror and shuffle Dreams of the Flood into your deck." />
+    </card>
+    <card id="e6f34860-a0a9-49ae-a202-770aa50bc8f6" name="Agatha Crane" size="InvestigatorCard">
+      <property name="Card Number" value="7" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Parapsychologist" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Miskatonic. Scholar." />
+      <property name="Text" value="ι When your turn ends, if you sealed, canceled, or ignored 1 or more chaos tokens this round: Play a Spell or Insight event from your discard pile. After that event resolves, remove it from the game.&#10;ε effect: +2. You may cancel this token and draw another in its place. If you do, draw 1 card." />
+      <property name="Health" value="6" />
+      <property name="Sanity" value="8" />
+      <property name="Class" value="Seeker" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Agatha Crane" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Parapsychologist" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 35.&#10;Deckbuilding Options: Seeker cards (λ) level 0-5, Neutral cards level 0-5, Insight events level 0-3, up to 10 other level 0 Mystic cards (μ).&#10;Deckbuilding Requirements (do not count toward deck size): Ocula Obscura, Glimpse the Void, 1 random basic weakness." />
+        <property name="Class" value="Seeker" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="d9dcd2c4-f203-4c57-8d62-d089ec1a5563" name="Agatha Crane" size="InvestigatorCard">
+      <property name="Card Number" value="8" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Parapsychologist" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Miskatonic. Scholar." />
+      <property name="Text" value="ι When your turn ends, if you sealed, canceled, or ignored 1 or more chaos tokens this round: Play a Spell or Insight event from your discard pile. After that event resolves, remove it from the game.&#10;ε effect: +2. You may cancel this token and draw another in its place. If you do, draw 1 card." />
+      <property name="Health" value="6" />
+      <property name="Sanity" value="8" />
+      <property name="Class" value="Mystic" />
+      <property name="Willpower" value="4" />
+      <property name="Intellect" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Agatha Crane" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Parapsychologist" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 35.&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Neutral cards level 0-5, Spell events level 0-3, up to 10 other level 0 Seeker cards (λ).&#10;Deckbuilding Requirements (do not count toward deck size): Ocula Obscura, Glimpse the Void, 1 random basic weakness." />
+        <property name="Class" value="Mystic" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="e2216230-972c-4165-a630-c13816cbf311" name="Ocula Obscura">
+      <property name="Card Number" value="9" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Esoteric Eyepiece" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool. Science." />
+      <property name="Text" value="Agatha Crane deck only.&#10;ι After you succeed at a skill test, if no tokens are sealed here: Seal a non-symbol token revealed during this skill test on Ocula Obscura. (Limit once per phase.)&#10;Forced – When you would reveal a token from the chaos bag: Resolve the token sealed here instead, then release that token." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="60a4b158-a0bf-4efc-9051-f818bcb595e9" name="Glimps the Void">
+      <property name="Card Number" value="10" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Blunder. Insight." />
+      <property name="Text" value="Revelation – Put Glimpse the Void into play in your threat area.&#10;The first time you reveal 1 or more chaos tokens during each skill test, you must reveal 1 additional chaos token (and resolve its effects).&#10;η: Shuffle Glimpse the Void into your deck." />
+    </card>
+    <card id="e21856e0-70c5-44b2-8e4e-9d6d781b9c9e" name="Michael McGlen" size="InvestigatorCard">
+      <property name="Card Number" value="11" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Gangster" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Criminal. Hunter." />
+      <property name="Text" value="ι After you spend 1 or more ammo from a Firearm asset: Gain 1 resource. (Limit once per Firearm asset per round.)&#10;ε effect: +2. You may place 1 ammo on a Firearm asset you control." />
+      <property name="Health" value="9" />
+      <property name="Sanity" value="5" />
+      <property name="Class" value="Rogue" />
+      <property name="Willpower" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="5" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Michael McGlen" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Gangster" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbuilding Options: Rogue cards (ν) level 0-3, Neutral cards level 0-5, cards with Firearm either as their Trait or in their text box level 0-5.&#10;Deckbuilding Requirements (do not count toward deck size): &quot;Viola&quot; Case, Consfication, 1 random basic weakness." />
+        <property name="Class" value="Rogue" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="9727a135-1513-42d6-b4c0-4ef3fac97859" name="&quot;Viola&quot; Case">
+      <property name="Card Number" value="12" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Illicit." />
+      <property name="Text" value="Michael McGlen deck only.&#10;You have 2 additional hand slots, which can only be used to hold Firearm assets.&#10;ι After you play &quot;Viola&quot; Case: Search the top 9 cards of your deck for a Firearm asset and add it to your hand. Shuffle your deck." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="422bd426-7c2c-4f7b-9228-c92a8ddb6937" name="Confiscation">
+      <property name="Card Number" value="13" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Blunder." />
+      <property name="Text" value="Revelation – Shuffle each Firearm asset in your play area into your deck. If no asset was shuffled into your deck by this effect, take 1 damage and shuffle Consfication back into your deck." />
+    </card>
+    <card id="2081d4cc-64ad-4332-b561-540d4daf0344" name="Gloria Goldberg" size="InvestigatorCard">
+      <property name="Card Number" value="14" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Writer" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Clairvoyant." />
+      <property name="Text" value="You choose the investigator order during the mythos phase.&#10;ι When you look at 1 or more cards from the encounter deck: Look at 1 additional card and choose 1 non-Elite card among them. Either discard it, put it on top of the encounter deck, or place it facedown beneath Gloria Goldberg (max 3 cards beneath her).&#10;ε effect: +1. Look at the top card of the encounter deck." />
+      <property name="Health" value="5" />
+      <property name="Sanity" value="9" />
+      <property name="Class" value="Mystic" />
+      <property name="Willpower" value="5" />
+      <property name="Intellect" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Unique" value="ο" />
+      <alternate name="Gloria Goldberg" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Writer" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Secondary Class Choice: At deck creation, choose Guardian (κ), Seeker (λ), or Rogue (ν).&#10;Deckbuilding Options: Mystic cards (μ) level 0-5, Neutral cards level 0-5, up to 10 level 0-1 events and/or skills of your chosen secondary class.&#10;Deckbuilding Requirements (do not count toward deck size): 3 copies of Psychic Sensitivity, 3 copies of Prophecy of the End (shuffled into the encounter deck), 1 random basic weakness." />
+        <property name="Class" value="Mystic" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="c400457b-95e1-423f-be7f-7165cfa5fa35" name="Psychic Sensitivity">
+      <property name="Card Number" value="15" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Augury. Insight." />
+      <property name="Text" value="Gloria Goldberg deck only.&#10;Fast. Play when an investigator at any location draws an encounter card, if there is a copy of that encounter card beneath Gloria Goldberg.&#10;Cancel all of that card's effects and discard both copies of it. Then, draw 1 card." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="47966e51-f574-4263-8a0e-3815e0762932" name="Prophecy of the End" size="EncounterCard">
+      <property name="Card Number" value="16" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Omen. Endtimes." />
+      <property name="Text" value="Surge.&#10;Forced – If Gloria Goldberg uses her ι ability and this treachery is among the looked-at cards, it must be chosen and placed facedown beneath her (if you cannot, discard a non-weakness card beneath her first). Then, if there are 3 or more copies of this treachery beneath her, she is defeated and suffers 1 mental trauma." />
+    </card>
+    <card id="8899b676-bece-4da2-b788-94c75d0182fd" name="George Barnaby" size="InvestigatorCard">
+      <property name="Card Number" value="17" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Lawyer" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Civic. Drifter." />
+      <property name="Text" value="Your max hand size is equal to the number of facedown cards beneath George Barnaby. (Limit 5 cards.)&#10;You may commit facedown cards beneath George Barnaby to skill tests as if they were in your hand.&#10;ι After you discard a card from your hand: Place it facedown beneath George Barnaby, then draw 1 card. (Limit once per phase.)&#10;ε effect: +1. Draw 1 card." />
+      <property name="Health" value="7" />
+      <property name="Sanity" value="7" />
+      <property name="Class" value="Survivor" />
+      <property name="Willpower" value="2" />
+      <property name="Intellect" value="4" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="George Barnaby" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Lawyer" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 35.&#10;Deckbuilding Options: Survivor cards (ξ) level 0-5, Neutral cards level 0-5, up to 10 other level 0 Seeker and/or Rogue cards (λ/ν).&#10;Deckbuilding Requirements (do not count toward deck size): 3 copies of Grim Resolve, Cast Adrift, 1 random basic weakness.&#10;Additional Setup: After drawing your opening hand, you may place any number of cards in your hand facedown beneath George Barnaby." />
+        <property name="Class" value="Survivor" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="436b2880-8965-463a-a801-3300eac8c5a7" name="Grim Resolve">
+      <property name="Card Number" value="18" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="George Barnaby deck only.&#10;After this skill test resolves, you may swap any number of cards beneath George Barnaby with the same number of non-weakness cards in your hand." />
+      <property name="Class" value="Neutral" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c2cca98c-109f-4611-97cc-87132fede8e6" name="Cast Adrift">
+      <property name="Card Number" value="19" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Traits" value="Hardship." />
+      <property name="Text" value="Revelation – If there are no cards beneath George Barnaby, shuffle Cast Adrift into your deck. Otherwise, discard each card beneath George Barnaby." />
+    </card>
+    <card id="26017ca2-6e68-4c80-a31f-f7a57bd1381d" name="The Book of War">
+      <property name="Card Number" value="20" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Sun Tzu's Legacy" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome." />
+      <property name="Text" value="Uses (3 secrets).&#10;ι After you play a Tactic event, spend 1 secret and exhaust The Book of War: When your turn ends, return that event to your hand." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f70cc046-a150-4950-98fa-862b7e1c069a" name="Crowbar">
+      <property name="Card Number" value="21" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Tool. Melee." />
+      <property name="Text" value="η Exhaust Crowbar: Investigate. This investigation attempt uses ή instead of έ.&#10;η Exhaust Crowbar: Fight. You get +2 ή for this attack." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c4ade6c3-65cc-4a96-9093-fc9f5be4b95d" name="Remington Model 1858">
+      <property name="Card Number" value="22" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm." />
+      <property name="Text" value="Uses (2 ammo).&#10;η Spend 1 ammo: Fight. You get +1 ή for this attack. This attack deals +1 damage.&#10;ι When Remington Mode 1858 leaves play: Immediately trigger the above η ability, ignoring all costs." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="06a0e8d5-0b82-4c95-a89a-c4b21d6adb14" name="Primed for Action">
+      <property name="Card Number" value="23" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Bold." />
+      <property name="Text" value="Play only as your first action.&#10;Play a Firearm asset from your hand, reducing its cost by 2. Then, you may play an Upgrade event from your hand, attaching it to that asset if able." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="88424689-0734-4245-af22-e56586aa2141" name="Ready for Anything">
+      <property name="Card Number" value="24" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit. Bold." />
+      <property name="Text" value="Play ony as your first action.&#10;Draw 1 card (2 cards instead if you draw an enemy this round.) Then, heal 1 horror. This action does not provoke attacks of opportunity." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="c6c0a492-0f2c-4b16-b5a9-e900350bd293" name="Hardboiled">
+      <property name="Card Number" value="25" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;Hardboiled gains ήΰ for each successful attack you performed this round." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="0" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="31bac9fc-cc7d-49dc-9dec-97c85b02614e" name="Hunter's Mark">
+      <property name="Card Number" value="26" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Fast. Attach to an enemy at your location. Limit 1 per enemy.&#10;Investigators get +1 ή while fighting this enemy.&#10;ι When damage is dealt to attached enemy, discard Hunter's Mark: Deal 1 additional damage to that enemy. Any investigator may trigger this ability." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e3322527-e34f-4911-b5dd-a0d1c7a4a1c2" name="Alice Luxley">
+      <property name="Card Number" value="27" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Fearless Flatfoot" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Detective. Police." />
+      <property name="Text" value="You get +1 έ.&#10;The first investigate action you perform each turn does not provoke attacks of opportunity.&#10;ι After you discover a clue, exhaust Alice Luxley: Deal 1 damage to an enemy at your location.&#10;Card design inspired by the Council in Exile 2022." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="4" />
+      <property name="Intellect" value="2" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5d3376df-cf78-4660-9c39-7dc0dd38a06d" name="Bulwark">
+      <property name="Card Number" value="28" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Limit 1 per investigator. Seal (ε or +1). You may resolve this keyword again after you defeat an enemy.&#10;ι When an enemy would attack an investigator at your location, exhaust Bulwark and release a token sealed here: Cancel that attack. Ready another asset you control." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="de131609-3723-461b-a276-bedd763bda07" name="Inpiring Presence">
+      <property name="Card Number" value="29" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Developed." />
+      <property name="Text" value="If this skill test is successful, ready an Ally asset at your location and heal 1 damage and 1 horror from it." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="3ac07643-3c5c-4359-a239-d4824e8f30fa" name="Locked and Loaded">
+      <property name="Card Number" value="30" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Condition." />
+      <property name="Text" value="Permanent. Limit 1 per deck.&#10;Your Firearm assets with &quot;Uses (ammo)&quot; enter play with 1 additional ammo on them." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6d34ef71-546b-4ce7-8f2c-1ee4953c0770" name="Quick Shot">
+      <property name="Card Number" value="31" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Myriad. Fast. Play only during your turn.&#10;Deal 1 damage to an enemy at your location.&#10;ι After you draw Quick Shot during your turn: Play it, reducing its resource cost by 2." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e8b07aea-e10e-43fb-b63f-067b2cc19d1d" name="Remington Model 1858">
+      <property name="Card Number" value="32" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm." />
+      <property name="Text" value="Uses (3 ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. This attack deals +1 damage.&#10;ι When Remington Model 1858 enters or leaves play: Immediately trigger the above η ability, ignoring all costs." />
+      <property name="Class" value="Guardian" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0166bf3e-0c36-4d1e-bb21-29aa88085da9" name="Alton O'Connell">
+      <property name="Card Number" value="33" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Ghost Hunter" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Detective. Reporter." />
+      <property name="Text" value="You get +1 ί.&#10;ι After you succeed at a skill test by exactly 3: Place 1 resource on Alton O'Connell, as evidence.&#10;θ Exhaust Alton O'Connell and spend X evidence: Discover 1 clue at your location. X is the shroud value of your location." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1cd0fc88-dbf7-4ea7-aa3b-0a5441beb758" name="Artistic Inspiration">
+      <property name="Card Number" value="34" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Limit 1 per investigator. Uses (1 inspiration).&#10;θ Exhaust Artistic Inspiration and discard 1 card from your hand: Replenish 1 inspiration on this card.&#10;ι After revealing chaos tokens for a skill test you are performing, spend 1 inspiration: You get +1 or –1 skill value for this skill test." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="43ae9570-fac7-4064-a26b-74638b17ddf1" name="Dial of Ancients">
+      <property name="Card Number" value="35" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Unidentified" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Cursed." />
+      <property name="Text" value="Limit 1 per deck. Uses (0 charges).&#10;ι After an enemy at your location is evaded: Place 1 charge on Dial of Ancients. Then, if there are 4 or more charges on Dial of Ancients, record in your campaign log that &quot;you have calculated the day of reckoning.&quot;" />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="48fef357-ade5-4208-b320-556ca4dc5142" name="Forensic Kit">
+      <property name="Card Number" value="36" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool. Science." />
+      <property name="Text" value="Uses (4 supplies).&#10;η Spend 1 supply: Investigate. For this investigation, you may use ί instead of έ, and you get +1 skill value. If you succeed and there is an exhausted enemy at your location, heal 1 horror." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e426fee3-58d3-496f-a38f-9bbe69962938" name="Mortar and Pestle">
+      <property name="Card Number" value="37" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool. Science." />
+      <property name="Text" value="Uses (0 resources).&#10;Resources on Mortar and Pestle may be spent to pay for Spell cards.&#10;ι After you discover 1 or more clues, exhaust Mortar and Pestle: Place 1 resource on it (from the token pool)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e3e55e03-ce1b-4dd2-aa3e-f0e29fd557af" name="Oculus Mortuum">
+      <property name="Card Number" value="38" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool. Occult." />
+      <property name="Text" value="Uses (0 evidence).&#10;ι After you seal, cancel, or ignore chaos token, exhaust Oculus Mortuum: Place 1 evidence on it.&#10;ι When an enemy attacks an investigator at your location, spend 1 evidence and exhaust Oculus Mortuum: Discover 1 clue at your location. If that enemy has the Geist trait, deal 1 damage to it." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6e86f2f2-645d-4c41-8897-0f2242a2d956" name="Uncanny Specimen">
+      <property name="Card Number" value="39" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Creature. Science." />
+      <property name="Text" value="Myriad. Fast.&#10;Up to 3 Uncanny Specimen cards take up 1 arcane slot.&#10;ι When a α, β, γ, or δ symbol is revealed during a skill test at your location, discard Uncanny Specimen: Cancel that token, return it to the chaos bag, and reveal a new one. If this test is successful, draw 1 card." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9cdba9b7-c740-4da4-b65c-273ebe07a3d5" name="Correlate All Its Contents">
+      <property name="Card Number" value="40" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Investigate. You may cancel the first chaos token revealed for this skill test, return it to the chaos bag, and reveal a new one. If you succeed at this skill test, place 1 charge or secret on an asset controlled by an investigator at your location (if you succeed by exactly 1 or 3, place 2 charges or secrets on that asset instead)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9b448edb-6034-438b-a60a-b1b1023c37f0" name="Cosmic Revelation">
+      <property name="Card Number" value="41" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Spell." />
+      <property name="Text" value="Choose &quot;even&quot; or &quot;odd&quot;.&#10;Each investigator reveals each non-weakness card in their hand with a cost matching the chosen option. In player order, each investigator may choose to either draw 1 card from their deck, or play 1 card they revealed from their hand (paying its cost)." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="38f6e7c5-3875-4d4c-b83a-8001bdad600e" name="Quick-Witted">
+      <property name="Card Number" value="42" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Myriad.&#10;Quick-Witted gains έί for each other copy of Quick-Witted in your discard pile.&#10;After this skill test ends, you may shuffle each other copy of Quick-Witted in your discard pile into your deck." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="de72ee5d-aff6-47ff-b083-ed057cbb8b2e" name="Misdirection">
+      <property name="Card Number" value="43" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Limit 1 per investigator. Seal (+1 or 0). You may resolve this keyword again after you discover the last clue at your location.&#10;ι When an enemy attacks an investigator at your location, exhaust Misdirection and release a token sealed here: Cancel that attack. Then, that investigator may move to a connecting location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9df0e754-4ad2-45ba-9456-e6e8a8a1238e" name="Scientific Studies Grant">
+      <property name="Card Number" value="44" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Grant." />
+      <property name="Text" value="Limit 1 per investigator.&#10;You have 2 additional hand slots, which may only be used to hold Science and/or Tool assets." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="86d9e8b1-ea44-40dc-8e65-cd7fb2884988" name="Working a Hunch">
+      <property name="Card Number" value="45" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight." />
+      <property name="Text" value="Fast. Play only during your turn.&#10;Discover 1 clue from any revealed location." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="66b5c36a-1261-4f22-8a44-4513baec2a41" name="Dial of Ancients">
+      <property name="Card Number" value="46" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Signs of Cataclysm" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Cursed." />
+      <property name="Text" value="Researched. Limit 1 per deck. Uses (4 charges).&#10;ι When an investigator fails a skill test at your location, exhaust Dial of Ancients: Seal 1 chaos token revealed during that test on Dial of Ancients.&#10;Forced – When the round ends: For each chaos token sealed here, you must spend 1 charge or release that token." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="60644bfc-3e1d-4792-859f-96575b33748c" name="Dial of Ancients">
+      <property name="Card Number" value="47" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Signs of Aberration" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Cursed." />
+      <property name="Text" value="Researched. Limit 1 per deck. Uses (4 charges).&#10;η: Fight/Evade. When you reveal a chaos token during this attack or evasion attempt, you may spend 1 charge to cancel that token, return it to the chaos bag, and reveal a new one. You may do this any number of times. If this test succeeds, deal 1 damage to the targeted enemy." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ed1a8e1e-daee-4fb1-9ce0-1506b2e3ed43" name="Dial of Ancients">
+      <property name="Card Number" value="48" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Signs of Revelation" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Cursed." />
+      <property name="Text" value="Researched. Limit 1 per deck. Uses (4 charges).&#10;θ During your turn, exhaust Dial of Ancients and spend 1 charge: Investigate. When revealing chaos tokens for this test, reveal X additional tokens, where X is the number of enemies at your location. Choose 1 of the revealed tokens to resolve and ignore the rest." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="950168cc-71c7-4adb-82c7-f15703dc82c5" name="Antikythera">
+      <property name="Card Number" value="49" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Prophetic Timepiece" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Science." />
+      <property name="Text" value="ι After you succeed at a skill test, exhaust Antikythera: If you succeeded by...&#10;— ...exactly 1 or 3, discover 1 clue at your location.&#10;— ...exactly 2 or 4, draw 1 card and gain 1 resource.&#10;— ...exactly 5, you may take an additional action during your next turn." />
+      <property name="Class" value="Seeker" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e9f51935-67af-4810-8418-3b7e92f06f75" name="Luger P08">
+      <property name="Card Number" value="50" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (2 ammo).&#10;θ Exhaust Luger P08 and spend 1 ammo: Fight. You get +1 ή for this attack.&#10;η Spend 1 resource: Replenish all ammo on Luger P08 and ready it." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ce5fe203-9660-483a-a2e7-ea9cfd8cfafa" name="Robert Casaigne">
+      <property name="Card Number" value="51" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Has Your Back" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Veteran." />
+      <property name="Text" value="You get +1 ή.&#10;η Discard a Firearm asset that takes up 1 or fewer hand slots from your hand and exhaust Robert Castaigne: Resolve a Fight ability on the discarded asset, ignoring all costs. This does not provoke attacks of opportunity." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="4" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="abe275e1-1b28-44ea-871e-d595d3732c6f" name="String Along">
+      <property name="Card Number" value="52" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="ι When you attempt to evade an enemy, exhaust String Along: For this evasion attempt, you get +1 skill value and that enemy gains alert. If you succeed, draw 1 card and do not disengage from that enemy." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0b194fd7-9b6a-4d46-b5bd-e06061f4715a" name="&quot;Where's the Party?&quot;">
+      <property name="Card Number" value="53" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Trick. Improvised." />
+      <property name="Text" value="Parley. Search the encounter deck and discard pile for a non-Elite enemy and spawn it exhausted and engaged with you. Draw cards equal to that enemy's combined damage and horror values." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="394a9c90-6971-48db-9076-24d454cc4d0c" name="&quot;You've had Worse...&quot;">
+      <property name="Card Number" value="54" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Favor." />
+      <property name="Text" value="Fast. Play when an investigator at your location or a connecting location is dealt damage and/or horror.&#10;That investigator may spend up to 3 resources. For each resource spent, that investigator cancels 1 damage or 1 horror just dealt." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1438c740-f835-4823-a31c-9a71bfdff9f7" name="Bum's Rush">
+      <property name="Card Number" value="55" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Trick." />
+      <property name="Text" value="Evade. Add your ή value to your skill value for this evasion attempt. If you succeed by 2 or more, deal that enemy 1 damage. If that enemy is non-Elite, you may move it to a connecting location." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="427be947-9ee9-44ab-a8bf-c472b3a7ed11" name="Intimidation">
+      <property name="Card Number" value="56" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic." />
+      <property name="Text" value="Parley. Choose an enemy at your location and test ή (X), where X is the chosen enemy's remaining health. If you succeed, shuffle that enemy into the encounter deck (or deal 2 damage to it instead if it is Elite)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1cb56f1b-0af8-4e60-80f2-a49654158169" name="Crack Shot">
+      <property name="Card Number" value="57" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced." />
+      <property name="Text" value="Commit only to a skill test from an ability printed on a Firearm or Ranged asset you control." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="04d5655d-bf2f-469c-b936-eff1581a7a7d" name="Dopplegänger">
+      <property name="Card Number" value="58" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Trick." />
+      <property name="Text" value="Myriad. Fast. Play only during your turn.&#10;Attach to your location. Limit 1 per location.&#10;ι After an enemy enters or leaves attached location, return Dopplegänger to your hand: Either perform an evasion attempt against that enemy, or immediately move to attached location (you may trigger this ability from any location)." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fcc5f7e0-952b-45aa-aca5-c7030bf59cec" name="Mob Connections">
+      <property name="Card Number" value="59" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Connection. Illicit." />
+      <property name="Text" value="Exceptional.&#10;η Spend 2 resources: Draw the card attached to Mob Connections.&#10;ι When an Illicit asset you control is discard from play, exhaust Mob Connections: Attach that asset to this card, facedown. Limit 1 attached asset." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="651955aa-c2f1-4e6b-9839-aa64264a0edb" name="Obscure">
+      <property name="Card Number" value="60" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Limit 1 per investigator.&#10;Seal (0). You may resolve this keyword again after you reveal a location or put a new location into play.&#10;ι When you engage an enemy, exhaust Obscure and release a token sealed here: Immediately Fight or Evade that enemy. During this skill test, your base skill value is equal to the shroud value of your location." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="12bd1839-1827-445f-835e-2390369fc294" name="&quot;Watch this!&quot;">
+      <property name="Card Number" value="61" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Gambit." />
+      <property name="Text" value="Commit only to a skill test you are performing. As an additional cost to commit &quot;Watch this!&quot; to a skill test, spend up to 3 resources.&#10;If you succeed by 1 or more, gain twice that many resources." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="9d85c9c0-5e95-40fe-a800-55636a55173e" name="Robert Casaigne">
+      <property name="Card Number" value="62" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Still Has Your Back" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Veteran." />
+      <property name="Text" value="You get +1 ή.&#10;θ Exhaust Robert Castaigne: Fight. Reveal a Firearm asset that takes up 1 or fewer hand slots from your hand. Resolve a Fight ability on the revealed asset, ignoring all costs. Then, you may either discard the revealed asset to draw 1 card, or play that asset (paying its cost)." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a69644b7-944b-4c97-9987-49fb317c1514" name="&quot;You've had Worse...&quot;">
+      <property name="Card Number" value="63" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Favor." />
+      <property name="Text" value="Fast. Play when an investigator at your location or a connecting location is dealt damage and/or horror.&#10;That investigator may give you up to 5 resources. For each resource spent, that investigator cancels 1 damage or 1 horror just dealt." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="2" />
+      <property name="Victory Points" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="44774d4b-c5e2-4cbb-a23d-2add7ab1ccac" name="Gatling Gun">
+      <property name="Card Number" value="64" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm. Illicit." />
+      <property name="Text" value="Uses (12 ammo).&#10;η Spend 1–6 ammo: Fight. You get +X ή for this attack. The difficulty for this attack is equal to the combined fight values of all enemies at your location. Instead of its standard damage, this attack deals X damage divided as you choose among enemies at your location. X is the amount of ammo spent as part of this ability's cost." />
+      <property name="Class" value="Rogue" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="5" />
+      <property name="Combat" value="2" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand x2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1b134edf-a8e3-41da-bde7-6e7236eefa72" name="Blood of Thoth">
+      <property name="Card Number" value="65" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Law Incarnate" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic." />
+      <property name="Text" value="ι When 1 or more doom is placed on a card you control, exhaust Blood of Thoth: Place 1 resource on this card (from the token pool), as an offering.&#10;θ If Blood of Thoth has 3 or more offerings on it, remove all offerings from Blood of Thoth and exhaust it: Choose an investigator at your location to immediately take an action as if it were their turn." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1046cc6b-cc8b-4213-9f24-d7a7527a889f" name="Breath of the Sleeper">
+      <property name="Card Number" value="66" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (9 charges).&#10;η: Fight. Use your ά instead of your ή for this test. Before revealing chaos tokens for this test, you may spend up to 3 charges to reveal that many additional chaos tokens. Choose 1 of the revealed tokens to resolve and ignore the rest. If you succeed and the chosen token matches an ignored token, this attack deas +2 damage." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="85f6c56a-fce2-43cf-b383-86134c90f00d" name="Eyes of the Dreamer">
+      <property name="Card Number" value="67" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Uses (9 charges).&#10;η: Investigate. Use your ά instead of your έ for this test. Before revealing chaos tokens for this test, you may spend up to 3 charges to reveal that many additional chaos tokens. Choose 1 of the revealed tokens to resolve and ignore the rest. If you succeed and the chosen token matches an ignored token, discover 1 additional clue at your location." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fa05d8f6-5edf-40cd-ab51-532e9e65857e" name="The Great Work">
+      <property name="Card Number" value="68" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Divide and Unite" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Pact. Science." />
+      <property name="Text" value="Permanent. Limit 1 per deck. Purchase only at deck creation.&#10;You earn 1 additional experience after each scenario of this campaign. If you are defeated, you are usurped by the homunculus (replace each signature card in your deck with a random basic weakness, flip this card, and replace your investigator with it for the remainder of the campaign)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="–" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+      <alternate name="Lost Homunculus" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Forgotten Child" />
+        <property name="Type" value="Investigator" />
+        <property name="Traits" value="Construct. Scion." />
+        <property name="Text" value="Cannot be chosen as a staring investigator.&#10;You cannot add, remove, or upgrade cards from your deck.&#10;You get +2 skill value while resolving abilities on Spell cards.&#10;Forced – When you are defeated: You are killed.&#10;ε effect: +0. Draw 1 card." />
+        <property name="Health" value="6" />
+        <property name="Sanity" value="6" />
+        <property name="Class" value="Mystic" />
+        <property name="Willpower" value="2" />
+        <property name="Intellect" value="2" />
+        <property name="Combat" value="2" />
+        <property name="Agility" value="2" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="8f93923b-c689-4c08-8573-1a332cc38fca" name="Katarina Sojka">
+      <property name="Card Number" value="69" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Emissary from Ulthar" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Clairvoyant. Dreamer." />
+      <property name="Text" value="ι When you reveal chaos tokens during a skill test while you are performing, exhaust Katarina Sojka: Reveal tokens from the chaos bag until a token with a symbol is reveaed. Resolve that token and ignore the rest." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6d267465-f0f0-401d-94c0-ea85700c47da" name="Sign of Xelotaph">
+      <property name="Card Number" value="70" />
+      <property name="Quantity" value="3" />
+      <property name="Subtitle" value="Symbol of Protection" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Myriad. Seal (α, β, γ, or δ). Uses (3 charges).&#10;Forced – When your turn begins: You must spend 1 charge or discard Sign of Xelotaph.&#10;θ Discard a copy of Sign of Xelotaph from your hand: Replenish all charges on this copy of Sign of Xelotaph." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bcba598e-91c3-46a0-8e1f-0e402b4af3c3" name="Spectral Shield">
+      <property name="Card Number" value="71" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Spirit." />
+      <property name="Text" value="Fast. Play only during your turn. Attach to a player card with health and/or sanity at your location.&#10;Forced – When attached card takes 1 or more damage/horror: Cancel 1 of that damage/horror. The owner of Spectral Shield must remove 1 charge from an asset they control. If they cannot, discard Spectral Shield." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="396d27fe-6e36-4288-bf7a-d50b0b5d6896" name="Whispers of Doom">
+      <property name="Card Number" value="72" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell. Cursed." />
+      <property name="Text" value="Parley. Choose a non-weakness enemy at your location and test ή (3). This test gets +X difficulty, where X is that enemy's horror value. If you succeed, defeat that enemy (or deal it 3 damage instead if it is Elite). If you fail, place 1 doom on that enemy." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e628b3eb-e4e8-4f88-ac3b-5aeb9117047f" name="Eye of Ghatanothoa">
+      <property name="Card Number" value="73" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Artifact of the Dark God" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Cursed." />
+      <property name="Text" value="Exceptional.&#10;You get +1 ά.&#10;Play with the top card of the encounter deck revealed." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="bc0b1938-61f4-4b12-8f9b-66164b0c37cb" name="Sword Cane">
+      <property name="Card Number" value="74" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Designed by the Council of Polls" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Weapon. Melee." />
+      <property name="Text" value="Fast.&#10;ι After Sword Cane enters play: You may deal 1 damage to an enemy engaged with you. Immediately trigger the &quot;η&quot; ability below without paying its cost.&#10;η Exhaust Sword Cane: Fight/Evade. You may use your ά in place of your ή or ί for this attack or evasion attempt and you get +1 skill value for this test." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Combat" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="404e1977-4e7b-4f50-9e2f-110182c3279d" name="Spiritual Echo">
+      <property name="Card Number" value="75" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Attach to your location. Limit 1 per location.&#10;ι After you activate an η or θ ability on a Spell or Ritual asset: Perform that ability again at attached location as if you were there, ignoring that asset's η cost, if any. (You may trigger this ability from any location.) Return Spiritual Echo to your hand." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="46a1bf74-afe3-4904-b31f-3c98726e038a" name="Transfiguration">
+      <property name="Card Number" value="76" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Choose another investigator card from your collection. Until the end of the game, treat the front of your investigator card as if it were the front of the chosen card, instead (including your skill values, abilities, and elder sign effect). Max once per game." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d59cb2b8-6377-44b3-bf0f-93e086cc0147" name="Enraptured">
+      <property name="Card Number" value="77" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Practiced. Expert." />
+      <property name="Text" value="Max 1 committed per skill test.&#10;If this skill test is successful during an investigation, place up to 3 charges and/or secrets on assets controlled by investigators at your location." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="64ecd325-726c-4c27-8c9f-e62b5cfcb6cb" name="Lost Arcana">
+      <property name="Card Number" value="78" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Occult." />
+      <property name="Text" value="Uses (2 charges).&#10;Charges on Lost Arcana may be spent as if they were charges on Spell and Ritual assets you control.&#10;ι After the last clue is discovered from your location, exhaust Lost Arcana: Place 1 charge on this card." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="149a1e30-aba5-436b-95c4-6ac6bf2fca50" name="Deliverance">
+      <property name="Card Number" value="79" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Fast. Play when the &quot;draw encounter cards&quot; step of the mythos phase would begin.&#10;You draw each encounter card that would normally be drawn this mythos phase. Cards drawn during this mythos phase cannot be cancelled, and the first card drawn gains surge.&#10;Skip the &quot;draw encounter cards&quot; step of the next mythos phase. Max twice per game." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e83da110-2238-48bf-8d07-f6dbb8d39f0b" name="Eldritch Brand">
+      <property name="Card Number" value="80" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Pact." />
+      <property name="Text" value="Permanent. Exceptional.&#10;When you purchase this card, choose a non-signature Spell asset in your deck and record [spell's name] was branded in your campaign log. This is your branded spell. Your deck cannot include more than 1 copy of your branded spell.&#10;ι Before you draw your opening hand: Search your deck for your branded spell and play it (paying its cost)." />
+      <property name="Class" value="Mystic" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b642716e-98ca-420f-ab29-1c0add0164b4" name="Anchor Chain">
+      <property name="Card Number" value="81" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tool." />
+      <property name="Text" value="While Anchor Chain is in your hand, you may perform the blow &quot;η&quot; ability. If you do, discard Anchor Chain instead of exhausting it.&#10;η Exhaust Anchor Chain: Evade. You get +1 ί for this evasion attempt. If you successfully evade a non-Elite enemy, you may discard 1 card from hand to prevent that enemy from readying during the next upkeep phase." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7169c60e-0644-4666-ab00-82dd9c1d6c5a" name="Hand Hook">
+      <property name="Card Number" value="82" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Tool. Melee." />
+      <property name="Text" value="While Hand Hook is in your hand, you may perform the blow &quot;η&quot; ability. If you do, discard Hand Hook instead of exhausting it.&#10;η Exhaust Hand Hook: Evade. You get +1 ή for this attack. If you succeed, you may discard 1 card from hand to have this attack deal +1 damage." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="39781cbe-807e-4dc3-89c4-7826c0f8ac23" name="Lawrence Carlisle">
+      <property name="Card Number" value="83" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Sculpting His Dream" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Artist. Patron." />
+      <property name="Text" value="You get +1 έ.&#10;ι After you discard 1 or more cards from your hand during your turn, exhaust Lawrence Carlisle: Gain 1 resource." />
+      <property name="Health" value="1" />
+      <property name="Sanity" value="1" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b7500689-54b6-474f-9c4c-ec8b50b9f694" name="Nautical Charts">
+      <property name="Card Number" value="84" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Tool." />
+      <property name="Text" value="While Nautical Charts is in your hand, you may perform the blow &quot;η&quot; ability. If you do, discard Nautical Charts instead of exhausting it.&#10;η Exhaust Nautical Charts: Evade. You get +1 έ for this investigation. If you succeed, you may discard 1 card from hand to discover 1 additional clue at your location." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="3" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b67fc738-0019-49cd-b60e-7ab9ff8e5d35" name="Profane Idol">
+      <property name="Card Number" value="85" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Charm." />
+      <property name="Text" value="Profane Idol can only be played from your discard pile.&#10;Forced – When Profane Idol is defeated: Shuffle it into your deck instead of discarding it." />
+      <property name="Health" value="–" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Slot" value="Accessory" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e3ff7b72-e63d-4383-9709-b9f550cc6c5f" name="&quot;Catch!&quot;">
+      <property name="Card Number" value="86" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Trick." />
+      <property name="Text" value="As an additional cost to play &quot;Catch!&quot;, choose and discard an Item asset that takes up at least 1 hand slot from your hand or play area.&#10;Evade. You get +X ί for this evasion attempt, where X is the chosen asset's printed resource cost. If you succeed against a non-Elite enemy and that asset was in your play area, that enemy does not ready during the next upkeep phase." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a98aaf0f-5a7d-467a-ab2d-2f66140e403e" name="Unconvensional Method">
+      <property name="Card Number" value="87" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Tactic." />
+      <property name="Text" value="As an additional cost to play Unconventional Method, choose and discard an Item asset that takes up at least 1 hand slot from your hand or play area.&#10;Investigate. You get +X έ for this evasion attempt, where X is the chosen asset's printed resource cost. If you succeed and that asset was in your play area, discover 1 additional clue at your location." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="0" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e9e2ad22-b99f-4d85-969a-7fece6362e4b" name="Contemplative">
+      <property name="Card Number" value="88" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="You may commit Contemplative to an investigation or skill test during a parley attempt at your location or connecting location.&#10;If this test is successful, the perfoming investigator discover 1 clue at their location." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d6c48ab0-ca92-402d-9606-e735ef3670a8" name="Ample Supplies">
+      <property name="Card Number" value="89" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Supply." />
+      <property name="Text" value="Limit 1 per investigator. Uses (2 supplies).&#10;ι After you discard 1 or more cards from hand, exhaust Ample Supplies: Place 1 supply on this card.&#10;θ Discard Ample Supplies: Move each supply on this card to your resource pool, as resources." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="92ccf774-64e2-42bc-a65f-0e41dea7decd" name="A Glimmer of Hope">
+      <property name="Card Number" value="90" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Blessed. Fortune." />
+      <property name="Text" value="Myriad.&#10;A Glimmer of Hope can be played from your discard pile.&#10;Add all copies of A Glimmer of Hope in your discard pile to your hand (including this copy)." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="28a4b07a-fc88-4a97-ac9b-63c7e1fdde36" name="Good Weather">
+      <property name="Card Number" value="91" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Blessed. Fortune." />
+      <property name="Text" value="Myriad. Fast. Play after the investigation phase begins. Group limit 1 in play.&#10;Put Good Weather into play next to the agenda deck and choose a skill. While this card is in play, each investigator gets +2 to the chosen skill.&#10;Forced – When the investigation phase begins: Discard Good Weather." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fe727942-bcfa-4b51-ad13-1f25363df470" name="Improvised Weapon">
+      <property name="Card Number" value="92" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Improvised." />
+      <property name="Text" value="You may play Improvised Weapon from your discard pile. If you do, shuffle it into your deck after resolving its effects and draw 1 card.&#10;Fight. The attacked enemy gets –2 fight for this attack. (If you played Improvised Weapon from your discard pile, this attack deals +1 damage.)" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ed489a46-559c-4a95-9b80-c1f7c1b045fc" name="Last Chance">
+      <property name="Card Number" value="93" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Gambit." />
+      <property name="Text" value="Commit only to a skill test with no other cards committed to it. Other cards cannot be committed to this skill test.&#10;Last Chance loses ? for each card in your hand. If this test is successful while Last Chance is committed to it, draw 2 cards." />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="3" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="80a0357a-cf89-4e3e-9adf-ba8746e4e24d" name="Gift of Nodens">
+      <property name="Card Number" value="94" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="ι When you commit cards to a skill test you are performing, choose a ξ skill card in your discard pile and discard 1 card from your hand: Commit the chosen skill to this test. After this skill test resolves, place that skill card on the bottom of your deck. (Limit once per round.)" />
+      <property name="Class" value="Survivor" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fcce3d7f-ab81-427b-be17-165064fdc6f1" name="Ascetic">
+      <property name="Card Number" value="95" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Condition." />
+      <property name="Text" value="Campaign mode only. Permanent. Limit 1 per deck. Purchase only at deck creation.&#10;When you purchase this card, gain 10 expeirence.&#10;For the remainder of the campaign, you cannot earn experience." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="6dae9e73-4853-46aa-8ef3-fa0ba26c4cd1" name="Short Rest">
+      <property name="Card Number" value="96" />
+      <property name="Quantity" value="3" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Myriad.&#10;Heal 1 damage or 1 horror from an investigator or Ally asset at your location.&#10;ι After an investigator at your location plays Short Rest: Play another Short Rest from your hand (paying its cost)." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="930d077e-d622-4498-a9f5-90a0b25e4c34" name="Confidence">
+      <property name="Card Number" value="97" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Max 1 committed per test.&#10;For each additional chaos token revealed during this skill test (even if it was canceled or ignored), Confidence gains ? (to a maximum of +3 ? icons)." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e9110b15-35ac-4ccb-9f29-eacf22df4c87" name="Spiritual Healing">
+      <property name="Card Number" value="98" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Condition. Blessed." />
+      <property name="Text" value="Permanent. Limit 1 per deck.&#10;When you purchase Spiritual Healing, remove 1 point of physical or mental trauma from your investigator." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5870217a-8256-45e7-b8db-853ec87857b0" name="Library Pass">
+      <property name="Card Number" value="99" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Miskatonic." />
+      <property name="Text" value="Miskatonic, Scholar deck only. Limit 1 per deck.&#10;θ During your turn, if there is no asset attached to Library Pass, spend 1 resource: Attach a Tome asset from your hand to this card. Attached asset takes up no slots. Limit 1 attached asset.&#10;Forced – When your turn ends: Place attached asset on the bottom of your deck." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="1" />
+      <property name="Cost" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="8978cca4-da98-412a-967f-95b8a9762fb6" name="Dreams of the Clay">
+      <property name="Card Number" value="100" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate. Augury." />
+      <property name="Text" value="Artist, Clairvoyant, Dreamer, Performer deck only.&#10;Commit only to a skill test on a treachery. If this skill test is successful, put Dreams of the Clay into play in your play area instead of discarding it.&#10;ι When you draw a non-peril treachery from the encounter deck, remove Dreams of the Clay from the game: Cancel its revelation effect and discard it." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cc738b67-33a9-4c97-bcf9-1cb94dccaa0e" name="Inquisitive">
+      <property name="Card Number" value="101" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Assistant, Miskatonic, Scholar deck only.&#10;If this skill test is successful, the performing investigator may succeed up to 2 more or down to 2 less (to a minimum of zero)." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="822f2071-d58f-49f9-a1e8-2a347d99690f" name="Bound for the Horizon">
+      <property name="Card Number" value="102" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Drifter, Hunter, Wayfarer deck only.&#10;Limit 1 per investigator.&#10;θ During your turn, discard 1 card from your hand and exhaust Bound for the Horizon: Move. Move to a connecting location." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Agility" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="ddfb3bbb-4138-4b1f-a25a-00305251224c" name="Forbidden Sutra">
+      <property name="Card Number" value="103" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Tome. Blessed. Cursed." />
+      <property name="Text" value="Blessed, Cursed, Sorcerer deck only.&#10;You get +1 skill value while resolving Spel events.&#10;ι During a skill test on a Spell event, take up to 3 horror: For each horror taken, reveal an additional chaos token for this test. Choose 1 of the revealed tokens to resove and ignore the rest." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="5d4a6aa0-7d39-4c25-9d83-f95bc4344ff1" name="Walter Fitzpatrick">
+      <property name="Card Number" value="104" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Playing Both Sides" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Patron. Silver Twilight." />
+      <property name="Text" value="Civic, Silver Twilight, Socialite deck only.&#10;You get +1 skill value while parleying.&#10;[Recation] After you successfully parley, exhaust Walter Fitzpatrick: Gain 1 resource." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="68efb2a1-4635-4dc7-aa5a-60af85b02068" name="Name Your Price">
+      <property name="Card Number" value="105" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Favor." />
+      <property name="Text" value="Crimitnal, Socialite deck only.&#10;Parley. Deal 10 damage to an enemy at your location (5 damage instead of that enemy is Elite). Remove Name Your Price from the game." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="20" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2de389e9-45ab-4780-ad6f-69bd8ea5d1bc" name="True Awakening">
+      <property name="Card Number" value="106" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Insight. Spirit." />
+      <property name="Text" value="Blessed, Chosen, Drifter deck only.&#10;Choose and resolve two of the following, in any order:&#10;— Draw 2 cards.&#10;— Discover 1 clue at your location.&#10;— Heal 1 damage.&#10;— Heal 1 horror." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Cost" value="0" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0998577f-ce33-4fac-bb09-b3e83898c665" name="Double Down">
+      <property name="Card Number" value="107" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Criminal, Entrepreneur, Socialite deck only.&#10;Max 1 committed per skill test.&#10;After you commit Double Down to a skill test, spend up to 3 resources. For each resource spent, Double Down gains ??." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="87fc9dee-9c9f-499b-bed6-9609de4cb698" name="Captivating Performance">
+      <property name="Card Number" value="108" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ritual." />
+      <property name="Text" value="Dreamer, Performer, Sorcerer deck only.&#10;Limit 1 per investgator.&#10;ι After you perform 3 different types of actions in a row, exhaust Captivating Performace: Take an additional action, which must be a different type from all other actions you have taken this turn (types include activate, draw, engage, evade, fight, investigate, move, play, and resource)." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="fb29f8fa-1aba-4caa-beb3-f9f463b3608b" name="Cowl of Sekhmet">
+      <property name="Card Number" value="109" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Cload of the Pharaoh" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Clothing. Relic." />
+      <property name="Text" value="Believer, Chosen, Cultist deck only.&#10;ι When you enter a location, exhaust Cowl of Sekhmet: Until the end of the round, each non-Elite enemy at that location cannot engage you and you cannot deal damage to those enemies." />
+      <property name="Health" value="–" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Slot" value="Body" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cb624cae-7f99-483b-9db1-0812d88d2b43" name="Dakota Garofalo">
+      <property name="Card Number" value="110" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="On the Hunt" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally. Hunter. Wayfarer." />
+      <property name="Text" value="Detective, Hunter, Wayfarer deck only.&#10;While there is a Creature or Monster enemy at your location, you get +1 ά and +1 ή.&#10;θ Exhaust Dakota Garofalo: Choose an enemy at your location or a connecting location. Move to the chosen enemy's location and engage it." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="4" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1c76102c-5a50-4d79-9660-39c3cdf934c5" name="Nose to the Grindstone">
+      <property name="Card Number" value="111" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Criminal, Drifter, Entrepreneur deck only.&#10;θ During a skill test on a Tool asset, exhaust Nose to the Grindstone: You get +2 skill value for this skill test. If this skill test fails, either replenish 1 supply on that asset or gain 1 resource." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="927af2a3-2f78-46df-82b9-d6e7d9a70241" name="Sound Support">
+      <property name="Card Number" value="112" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Assistant, Medic, Warden deck only.&#10;Limit 1 per investigator.&#10;Sound Support may be assigned damage and/or horror dealt to other investigators at your location.&#10;ι When your turn begins: Heal 1 damage or 1 horror from Sound Support." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="2" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="7019e64e-6718-49a1-bb7d-15c1c6a04d15" name="Trench Armor">
+      <property name="Card Number" value="113" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Armor." />
+      <property name="Text" value="Agency, Police, Veteran deck only.&#10;Cancel the first attack of opportunity made against you each round." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Body" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="874e983e-9479-4473-9e5f-454c0f33c921" name="Blood of K'n-yan">
+      <property name="Card Number" value="114" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Clairvoyant, Hunter, Sorcerer deck only.&#10;Fight. You may use your ά instead of your ή for this attack. For each empty hand slot you have, you get +2 skill value and deal +1 damage for this attack. If this attack defeats a non-Elite enemy, add that enemy to the victory display and attach Blood of K'n-yan to it." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="3" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d27c05ef-7cc2-4509-8fad-d96b36214706" name="Storm Ruler">
+      <property name="Card Number" value="115" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Relic. Weapon. Melee." />
+      <property name="Text" value="Blessed, Clairvoyant, Sorcerer deck only.&#10;η: Fight. Add your ά to your skill value for this attack. If this attack is successful, in addition to its standard damage, you may exhaust Storm Ruler to deal 1 damage to an enemy at your location for each α, [Cutlist], γ, and δ symbol revealed during this attack (to a maximum of 3 additional damage)." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="3" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Hand" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="0e46ee9d-8c1f-4540-bc1b-08e6a1bdc12f" name="Motivational Speech">
+      <property name="Card Number" value="116" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spirit." />
+      <property name="Text" value="Civic, Performer, Socialite deck only.&#10;Parley. Choose an investigator at your location. That investigator may play an Ally asset from their hand at no cost. Then, that investigator may trigger an η or θ ability on that asset, ignoring all cost." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="4" />
+      <property name="Cost" value="0" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="67c292f0-957b-4bfa-9b07-632766eb6ab9" name="Archibald MacVeigh">
+      <property name="Card Number" value="117" />
+      <property name="Quantity" value="2" />
+      <property name="Subtitle" value="Beleagured Lecturer" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Ally." />
+      <property name="Text" value="Assistant, Reporter, Scholar deck only. Uses (4 secrets).&#10;You get +1 έ.&#10;Secrets on assets you control may be spent as resources to pay for Insight events you play." />
+      <property name="Health" value="2" />
+      <property name="Sanity" value="3" />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="4" />
+      <property name="Intellect" value="1" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="1757e04c-3048-49f2-b9f1-666256b83e6d" name="Library Pass">
+      <property name="Card Number" value="118" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Miskatonic." />
+      <property name="Text" value="Miskatonic, Scholar deck only. Permanent. Limit 1 per deck.&#10;θ During your turn, if there is no asset attached to Library Pass, exhaust Library Pass: Attach a Tome asset from your hand to this card. Attached asset takes up no slots. Limit 1 attached asset.&#10;Forced – When your turn ends: You must either pay 1 resource or place attached asset on the bottom of your deck." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="–" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="683aec98-4e61-4f13-bbad-a0f8a34fd0dc" name="Mauser Tankgewehr M1918">
+      <property name="Card Number" value="119" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm." />
+      <property name="Text" value="Hunter, Veteran, Warden deck only. Uses (1 shell).&#10;η If Mauser Tankgewehr M1918 is ready, spend 1 shell: Fight. You get +5 ή for this attack and this attack deals +3 damage.&#10;η Exhaust Mauser Tankgewehr M1918: Replenish 1 shell on it." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="4" />
+      <property name="Combat" value="2" />
+      <property name="Slot" value="Hand x2" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b1feb97a-bb35-4b89-beb3-9fb588590136" name="On Their Heels">
+      <property name="Card Number" value="120" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Talent." />
+      <property name="Text" value="Detective, Hunter, Police, Reporter deck only.&#10;Limit 1 per investigator. Uses (5 leads).&#10;ι After you enter a location with 1 or more enemies, spend 1 lead and exhaust On Their Heels: Either discover 1 clue at your location or deal 1 damage to an enemy at your location." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="2" />
+      <property name="Intellect" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="12dc6490-c4e2-4202-9e34-d3b591271a61" name="Sacred Oath">
+      <property name="Card Number" value="121" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Oath of Loyalty" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Pact." />
+      <property name="Text" value="Cultist, Cursed, Silver Twilight deck only. Fast. Myriad. Limit 1 Sacred Oath (Oath of Loyalty) per deck.&#10;Max 3 copies of Sacred Oath in play. Up to 3 Sacred Oath cards take up 1 arcane slot.&#10;ι When you draw a non-weakness Pact or Terror treachery, discard a copy of Sacred Oath from play: Cancel that treachery's reveation effect and discard it." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="220c196f-8193-44c7-89f9-b19b782bf2b9" name="Sacred Oath">
+      <property name="Card Number" value="122" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Oath of Order" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Pact." />
+      <property name="Text" value="Cultist, Cursed, Silver Twilight deck only. Fast. Myriad. Limit 1 Sacred Oath (Oath of Order) per deck.&#10;Max 3 copies of Sacred Oath in play. Up to 3 Sacred Oath cards take up 1 arcane slot.&#10;ι When you draw a non-weakness Curse or Hex treachery, discard a copy of Sacred Oath from play: Cancel that treachery's reveation effect and discard it." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="2c59f5f3-10c1-45e2-b08c-5271d8da5670" name="Sacred Oath">
+      <property name="Card Number" value="123" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Oath of Wisdom" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Pact." />
+      <property name="Text" value="Cultist, Cursed, Silver Twilight deck only. Fast. Myriad. Limit 1 Sacred Oath (Oath of Wisdom) per deck.&#10;Max 3 copies of Sacred Oath in play. Up to 3 Sacred Oath cards take up 1 arcane slot.&#10;ι When you draw a non-weakness Omen or Power treachery, discard a copy of Sacred Oath from play: Cancel that treachery's reveation effect and discard it." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Arcane" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cb1863ff-074a-4e74-9d01-a432c82f1f49" name="Dimensional Vortex">
+      <property name="Card Number" value="124" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Spell." />
+      <property name="Text" value="Performer, Sorcerer deck only.&#10;Fast. Play when the investigation phase begins. Choose a location. Set aside each non-Elite enemy at the chosen location (keeping all tokens and attachments). Until the end of the round, they are not at any location and are immune to player card effects. When the round ends, return each of these enemies to the chosen location, exhausted. Max once per game." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Cost" value="2" />
+      <property name="Willpower" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="84e39025-f51b-47b2-aab7-0550f5a73c17" name="Memories of Another Life">
+      <property name="Card Number" value="125" />
+      <property name="Quantity" value="2" />
+      <property name="Type" value="Skill" />
+      <property name="Traits" value="Innate." />
+      <property name="Text" value="Artist, Believer, Dreamer, Sorcerer deck only.&#10;If this skill test is successful, you may remove Momories of Another Life from the game to search your collection for any non-permanent level 0 card (even if it does not meet your deckbuilding requirements). Play that card at no cost. At the end of the game, return that card to your colllection." />
+      <property name="Class" value="Neutral" />
+      <property name="Level" value="5" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="e248db73-e6bd-4f70-8173-c3b892df1f38" name="Down and Out">
+      <property name="Card Number" value="126" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Hardship." />
+      <property name="Text" value="Revelation – Put Down and Out into pay in your threat area.&#10;Forced – When your turn ends, if you did not take either a draw or resource action this round: Take 1 horror and shuffle Down and Out back into your deck.&#10;η Either spend 3 resources or choose and discard 3 cards from your hand: Discard this card." />
+    </card>
+    <card id="62e9bbca-2b2c-4204-a096-ea015b6c80b7" name="Morbid Curiosity">
+      <property name="Card Number" value="127" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Flaw." />
+      <property name="Text" value="Revelation – Put Morbid Curiosity into pay in your threat area.&#10;Forced – When your turn ends, if you did successfully investigate this round: Take 1 horror and shuffle Morbid Curiosity back into your deck.&#10;η Investigate: You get –2 skill value for this investigation. If you succeed, discard this card." />
+    </card>
+    <card id="2f789d5b-6f05-495a-b2d2-9541fef1927c" name="Disruptive Poltergeist">
+      <property name="Card Number" value="128" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Curse." />
+      <property name="Text" value="Revelation – Put Disruptive Poltergeist into pay in your threat area.&#10;Forced – When your turn ends, if you did successfully evade an enemy this round: Take 1 damage and shuffle Disruptive Poltergeist back into your deck.&#10;η: Evade. You get –2 skill value for this evasion attempt. If you succeed, discard this card." />
+    </card>
+    <card id="417602a6-4cf4-4fb5-95e3-3d1b7f9e17fe" name="Frenzied">
+      <property name="Card Number" value="129" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Basic Weakness" />
+      <property name="Traits" value="Madness." />
+      <property name="Text" value="Revelation – Put Frenzied into pay in your threat area.&#10;Forced – When your turn ends, if you did successfully fight an enemy this round: Take 1 damage and shuffle Frenzied back into your deck.&#10;η: Fight. You get –2 skill value for this attack. If you succeed, discard this card." />
+    </card>
+	<card id="0ba17e64-1420-4830-87cc-e693afb108d8" name="Marion Tavares" size="MiniCard">
+      <property name="Card Number" value="991"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Guardian"/>
+	  <alternate name="Marion Tavares" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Guardian"/>
+      </alternate>
+    </card>
+	<card id="5c8b894e-65b8-45f3-aa32-08d735118816" name="Lucius Galloway" size="MiniCard">
+      <property name="Card Number" value="992"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Seeker"/>
+      <alternate name="Lucius Galloway" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Seeker"/>
+      </alternate>
+    </card>
+	<card id="5c8b894e-65b8-45f3-aa32-08d735118816" name="Agatha Crane" size="MiniCard">
+      <property name="Card Number" value="993"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Seeker"/>
+      <alternate name="Agatha Crane" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Seeker"/>
+      </alternate>
+    </card>
+	<card id="09b2d0ba-89ae-4920-bf05-749e837e0736" name="Michael McGlen" size="MiniCard">
+      <property name="Card Number" value="994"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Rogue"/>
+      <alternate name="Michael McGlen" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Rogue"/>
+      </alternate>
+    </card>
+	<card id="e7b6642f-4e28-4e01-8a34-6e6956656626" name="Gloria Goldberg" size="MiniCard">
+      <property name="Card Number" value="995"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Mystic"/>
+      <alternate name="Gloria Goldberg" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Mystic"/>
+      </alternate>
+    </card>
+	<card id="82ba4a4c-9340-46a4-adfc-9246fae3e1bd" name="George Barnaby" size="MiniCard">
+      <property name="Card Number" value="996"/>
+      <property name="Quantity" value="1"/>
+      <property name="Type" value="Mini"/>
+      <property name="Class" value="Survivor"/>
+      <alternate name="George Barnaby" size="MiniCard" type="B">
+		<property name="Type" value="Mini"/>
+		<property name="Class" value="Survivor"/>
+      </alternate>
+    </card>
+  </cards>
+</set>

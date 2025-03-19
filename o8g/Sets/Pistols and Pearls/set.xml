@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Pistols and Pearls" id="976e2c49-2e41-4bae-b617-82137221e241" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="f51dbc8c-243d-4391-98bd-e2154eb4f57c" name="Jenny Barnes" size="InvestigatorCard">
+      <property name="Card Number" value="84" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Dilettante" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Drifter. Socialite." />
+      <property name="Text" value="ι After your turn begins: Play a Talent asset, reducing its cost by 1.&#10;θ Discard a Talent asset you control: Gain resources equal to that asset's printed cost. (Limit 5 resources per round.)&#10;ε effect: +0. If you succeed, gain 3 resources." />
+      <property name="Health" value="8" />
+      <property name="Sanity" value="7" />
+      <property name="Class" value="Rogue" />
+      <property name="Willpower" value="3" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Jenny Barnes" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Dilettante" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 30.&#10;Deckbulding Options: Rogue cards (ν) level 0–3, Neutral cards level 0–5, up to 10 other non-permanent Talent level 0–5.&#10;Deckbuilding Requirements (do not count toward deck size): Jenny's Twin .45s, Searching for Izzie, 1 random basic weakness." />
+        <property name="Class" value="Rogue" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="495cafd5-8746-45f9-8b3e-5c960e83309e" name="Jenny's Twin .45s">
+      <property name="Card Number" value="85" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="A Perfect Fit" />
+      <property name="Type" value="Asset" />
+      <property name="Traits" value="Item. Weapon. Firearm." />
+      <property name="Text" value="Jenny Barnes deck only. Advanced. Uses (X ammo).&#10;η Spend 1 ammo: Fight. You get +2 ή for this attack. This attack deals +1 damage.&#10;ι After you defeat an enemy using the above ability, exhaust Jenny's Twin .45s: Gain resources equal to that enemy's printed health." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="X" />
+      <property name="Agility" value="1" />
+      <property name="Slot" value="Hand x2" />
+      <property name="Unique" value="ο" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="b075ca7b-ab45-45d3-9063-71f460dd2066" name="Searching for Izzie" size="EncounterCard">
+      <property name="Card Number" value="86" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Treachery" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Task." />
+      <property name="Text" value="Advanced.&#10;Revelation – Attach Searching for Izzie to the location farthest from you. Attached location gets +2 shroud.&#10;ηη: Investigate. If you succeed, instead of discovering clues, discard Searching for Izzie.&#10;Forced – When the game ends, if Searching for Izzie is in play: You suffer 1 mental trauma." />
+      <property name="Class" value="Neutral" />
+    </card>
+  </cards>
+</set>
