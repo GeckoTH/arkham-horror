@@ -284,6 +284,7 @@
 			<groupaction menu="Move to Secondary..." default="False" execute="moveMany" />
 			<groupaction menu="Lock / Unlock Deck" default="False" execute="toggleLock" />
 			<groupaction menu="Draw Basic Weakness" default="False" execute="drawBasicWeaknessToDeck" />
+			<groupaction menu="Download from ArkhamDB" default="False" execute="downloadDeckArkhamDB" />
 		</group>
 		<group name="Discard Pile" visibility="all" ordered="True" icon="groups/discard.png" collapsed="False">
 			<groupaction menu="Shuffle All into Deck" default="True" execute="moveAllToPlayer" />
