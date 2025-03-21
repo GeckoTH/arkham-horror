@@ -173,7 +173,7 @@ def addBlessCurse(group, isBless, who=me):
 def removeBlessCurse(group, isBless, who=me):
     mute()
     if chaosBag().controller != me:
-        remoteCall(chaosBag().controller, "addBlessCurse", [group, isBless, me])
+        remoteCall(chaosBag().controller, "removeBlessCurse", [group, isBless, me])
         return
 
     #Find ChaosBag
