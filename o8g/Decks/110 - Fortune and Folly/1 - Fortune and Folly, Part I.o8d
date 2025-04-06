@@ -1,5 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
   <section name="Agenda" shared="True">
     <card qty="1" id="9b9b9eb2-eaeb-41de-b192-9db9a76c7700">The House Always Watches</card>
   </section>
@@ -32,6 +40,10 @@
     <card qty="1" id="000c8064-f1fb-4743-9ea8-a122bf700bfa">Obessed Gambler</card>
     <card qty="1" id="1fd4d1ee-4050-4874-8dc6-ea16a8dc5153">Obessed Gambler</card>
   </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
   <section name="Setup" shared="True">
     <card qty="1" id="37971a80-f19a-4126-82d8-806aa4ca13cb">Casino Floor</card>
     <card qty="1" id="f9c3e618-41b9-44d9-b6a6-83bfa46868ad">Poker Table</card>
@@ -49,20 +61,7 @@
     <card qty="1" id="f0cede79-3337-4479-be56-226f7246c45d">The Thief</card>
     <card qty="1" id="6a8915b8-9e23-4179-9a0e-296f703d9d7f">The Grifter</card>
     <card qty="1" id="6f735de7-ccdd-4387-b41d-0d31e8b11e8b">The Wellspring of Fortune</card>
-    <card qty="1" id="a54696c4-3697-4c72-bd54-4d3f3868afc4">Fortune and Folly</card>
   </section>
-  <section name="Investigator" shared="False" />
-  <section name="Special" shared="False" />
-  <section name="Asset" shared="False" />
-  <section name="Event" shared="False" />
-  <section name="Skill" shared="False" />
-  <section name="Weakness" shared="False" />
-  <section name="Sideboard" shared="False" />
-  <section name="Basic Weaknesses" shared="False" />
-  <section name="Location" shared="True" />
-  <section name="Special" shared="True" />
-  <section name="Second Special" shared="True" />
-  <section name="Chaos Bag" shared="True" />
   <section name="Temporary Shuffle" shared="True" />
   <notes><![CDATA[]]></notes>
 </deck>
