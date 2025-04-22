@@ -381,7 +381,7 @@ def defaultAction(card, x = 0, y = 0):
                     break
                 if zero:
                     card.markers[Zero] = 1
-                    removeChaosTokenFromBag(zero)
+                    removeChaosTokenFromBag("0")
                     notify("{} uses {} to seal a 0 token".format(card.controller, card))
                     card.Subtype = "Locked"
                 else:
@@ -492,6 +492,67 @@ def defaultAction(card, x = 0, y = 0):
                 remoteCall(elderSign[0].controller, "sealTokenToTable",[elderSign[0], cardToAttachTo[0], cardToAttachTo[1], me])
                 card.Subtype = "Locked"
                 cardToAttachTo = None
+
+    
+    elif card.Name == "Kōhaku Narukami" and card.Type == "Investigator":
+        choice_list = ["Remove 2 Bless and 2 Curse for an action","Add 1 Bless or 1 Curse to the Chaos Bag"]
+        color_list = ["#000000","#000000"]
+        sets = askChoice("Kôhaku Narukami", choice_list, color_list)
+        if sets == 0:
+            return
+        elif sets == 1: # Remove 2 Bless and 2 Curse
+            if blessInCB() >= 2 and curseInCB() >= 2:
+                for _ in range(2):
+                    removeChaosTokenFromBag("Bless")
+                    removeChaosTokenFromBag("Curse")
+                updateBlessCurse()
+                notify("{} uses {} to remove 2 bless and 2 curse tokens from the chaos bag to take an additional action".format(card.owner, card))
+            else:
+                whisper("Not enough bless and curse tokens in the chaos bag.")
+        elif sets == 2:
+            if curseInCB() > blessInCB():
+                addBless()
+            elif curseInCB() < blessInCB():
+                addCurse()
+            elif curseInCB() == blessInCB():
+                choice_list = ["Add Bless","Add Curse"]
+                color_list = ["#000000","#000000"]
+                sets = askChoice("Kôhaku Narukami", choice_list, color_list)
+                if sets == 0:
+                    return
+                elif sets == 1: 
+                    addBless()
+                elif sets == 2:
+                    addCurse()
+
+    elif card.Name == "Book of Living Myths":
+        if blessInCB() or curseInCB():
+            exhaust (card, x, y)
+            if blessInCB() > curseInCB():
+                removeChaosTokenFromBag("Bless")
+                table.create('360db0ee-c362-4bbe-9554-b1fbf101d9ab', ChaosTokenX, ChaosTokenY, quantity = 1, persist = False)
+                notify("{} uses {} to reveal a Bless token".format(card.owner, card))
+            elif blessInCB() < curseInCB():
+                removeChaosTokenFromBag("Curse")
+                table.create('81df3f18-e341-401d-a6bb-528940a9c39e', ChaosTokenX, ChaosTokenY, quantity = 1, persist = False)
+                notify("{} uses {} to reveal a Curse token".format(card.owner, card))
+            elif blessInCB() == curseInCB():
+                choice_list = ["Resolve A Bless Token","Resolve a Curse Token"]
+                color_list = ["#000000","#000000"]
+                sets = askChoice("Book of Living Myths", choice_list, color_list)
+                if sets == 0:
+                    return
+                elif sets == 1: 
+                    removeChaosTokenFromBag("Bless")
+                    table.create('360db0ee-c362-4bbe-9554-b1fbf101d9ab', ChaosTokenX, ChaosTokenY, quantity = 1, persist = False)
+                    notify("{} uses {} to reveal a Bless token".format(card.owner, card))
+                elif sets == 2:
+                    removeChaosTokenFromBag("Curse")
+                    table.create('81df3f18-e341-401d-a6bb-528940a9c39e', ChaosTokenX, ChaosTokenY, quantity = 1, persist = False)
+                    notify("{} uses {} to reveal a Curse token".format(card.owner, card))
+            updateBlessCurse()
+        else:
+            whisper("Not enough Bless/Curse tokens in the Chaos Bag")
 #############################################
 #                                           #
 #           Guardian Cards                  #
