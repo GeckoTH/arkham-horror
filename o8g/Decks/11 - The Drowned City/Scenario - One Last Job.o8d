@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="95fab903-ca6b-4704-81d6-f4b4bb74cc49">Arkham Nightlife</card>
+    <card qty="1" id="82e1578c-4b5a-44e3-a6cc-3ca947f46d56">Long Night</card>
+  </section>
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True">
+    <card qty="3" id="f512fa7d-68b9-4816-9f23-703a8a3940d6">Gang Soldier</card>
+    <card qty="2" id="e1721845-30f2-44d9-bf43-9dd588fb9a32">Caught in the Crossfire</card>
+    <card qty="2" id="637f075f-3bfa-4413-abd2-048db0bed151">End of Negotiations</card>
+    <card qty="3" id="e5469aa9-0f9a-4be8-9dfb-65baf24f9862">Tortured Visions</card>
+    <card qty="3" id="19997239-d7ac-4cb8-9dad-88b0f58e8ba6">Drawn to Darkness</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="2" id="dc0e7a80-2902-4760-8eeb-2ddb6fe8ee93">Locked Door</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="6aaa1583-2b11-470a-abf2-da5a197342cc">The Sheldon Gang</card>
+    <card qty="1" id="c6166e62-6f5d-4aac-818c-3af5c14e7a04">The O'Bannion Gang</card>
+    <card qty="1" id="ffd758c7-b0bb-419b-b517-def17edc45be">Face the Music</card>
+    <card qty="1" id="7283abbd-90f4-441f-ab36-1e4a20bf5157">Sadie Sheldon</card>
+    <card qty="1" id="6c546b28-1105-43cb-9c88-45fc5be8c6a3">Naomi O'Bannion</card>
+    <card qty="2" id="440ac029-752c-4403-86a4-829661972984">Gang Enforcer</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="1264814a-8ddb-48ac-8ac5-07b6205be6d4">One Last Job</card>
+    <card qty="1" id="f47c8814-a24f-4084-8398-494d6a5817ef">Tillinghast Esoterica</card>
+    <card qty="1" id="2e8e4d5e-5c7d-412b-9971-73b7b920de6d">Rivertown</card>
+    <card qty="1" id="945f53f9-9302-4010-812d-c7b717b2a81d">Miskatonic University</card>
+    <card qty="1" id="eb341e79-1eb1-46f9-9d25-eff09fe096c9">Downtown</card>
+    <card qty="1" id="b66282e2-c327-4e19-9348-3a720cc165e4">Downtown</card>
+    <card qty="1" id="2a79a0a2-400e-464f-a956-95550312101c">Easttown</card>
+    <card qty="1" id="8fc61c54-6c1b-4109-9f64-6cd6bc0f4c50">Northside</card>
+    <card qty="1" id="61cc5bb6-73ef-450f-a8ca-f41c645c1b1f">Questioning the Gangs</card>
+    <card qty="1" id="569c808d-1a4a-4398-936a-f0b8c2bb51bd">Questioning the Gangs</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

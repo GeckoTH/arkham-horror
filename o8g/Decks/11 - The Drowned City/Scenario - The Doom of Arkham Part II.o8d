@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="6e534e28-ecee-4e8c-9cf8-3c2dbb49782a">The Doom of Arkham</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="e9ab3738-84ee-4676-8be1-468c6d9714c3">Fight Back!</card>
+    <card qty="1" id="b33a2380-9db6-4bd8-9225-ae8c81e045d4">Banish Him!</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="0ccfc5ba-d94f-4ec6-b28a-95a85a837544">Lay Waste</card>
+    <card qty="1" id="a2a61245-65aa-4046-bfb1-96f988adca30">Eyes of Y'ch'lecht</card>
+    <card qty="1" id="e3d8a8cd-582d-4cbc-86d6-bfa8be5fc9d4">Eyes of Y'ch'lecht</card>
+    <card qty="2" id="ce277c5e-584f-497e-90ce-8e8a8c004c41">Gross Plasticity</card>
+    <card qty="2" id="668fcf93-34ed-4fad-a5de-b1502b0d861c">Arkham Under Assult</card>
+    <card qty="2" id="eac234a1-33de-494f-b22c-4aaedcc047ac">"Cthulhu Fhtagn!"</card>
+    <card qty="2" id="a2c57712-fc1a-43fd-afca-74e3e9f656f9">Oppressive Influence</card>
+    <card qty="1" id="e916b2b9-184c-4e68-b21b-dfa89655be0d">Domination</card>
+    <card qty="2" id="8dba9c81-79c6-43f0-871e-5aaafffb77fc">Elder Mist</card>
+    <card qty="2" id="b5839e2f-d21a-4de2-b603-f30e28252893">Corrosive Fog</card>
+    <card qty="2" id="cc8d6721-371e-4a57-8805-d6ea3f2e291d">Deadly Torrent</card>
+    <card qty="2" id="41414dd8-ab06-4603-8090-39671d0a074f">Something in the Water</card>
+    <card qty="2" id="5ec9784c-00f5-4c45-bf5c-673a83d65999">Ominous Silence</card>
+    <card qty="2" id="93ab8531-db48-4ee6-b818-4da27752d578">Young Deep One</card>
+    <card qty="2" id="395200b6-5e2f-4217-9cb2-005590d81407">Dreams of R'lyeh</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True">
+    <card qty="2" id="8dc90308-2755-46bf-87ab-c4822b59c19a">Ruthless Charge</card>
+    <card qty="2" id="bb0f9a43-1be8-441a-a1e4-be7b29df5d71">Hurricane Force</card>
+    <card qty="2" id="2d0491a2-5803-48c8-aa1c-a04fb4177a50">Dire Gale</card>
+    <card qty="2" id="20232d6c-496e-4777-9a4b-63341d988616">Dreadsight</card>
+    <card qty="1" id="50e046cb-12b2-4cd7-ad8b-801f75ee6022">Demolition</card>
+    <card qty="1" id="47df94e6-9c41-4f0f-bc99-13474555e913">Fifth Eye</card>
+    <card qty="2" id="57d1ad23-1322-4c29-b4e8-c6a777233cb9">Seismic Stomp</card>
+    <card qty="2" id="3838ca15-7773-4fae-90a5-a4d3e8e8c571">Eldrtich Call</card>
+    <card qty="1" id="81e1e9a1-f2c1-46dc-98f3-ddcdefc20105">Psychic Rebuke</card>
+    <card qty="2" id="ceb39652-8289-46e2-9b93-767ae1a1a5ff">Rising Tides</card>
+    <card qty="1" id="a0e7f3c6-7f0b-4620-98e2-9e74aa247dbf">Hope Fades</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="2ad2e9be-9820-4415-96f0-8d5b9bffbe99">Northside</card>
+    <card qty="1" id="84132002-f36d-43a3-b34a-ef651982504b">Downtown</card>
+    <card qty="1" id="c7ed282e-b2ca-4433-a611-2023066f0570">Easttown</card>
+    <card qty="1" id="198f9ef7-2dbe-4aac-8b18-5b6d9e85c3f4">Miskatonic University</card>
+    <card qty="1" id="f8fbaedc-6a27-4879-9eae-d61e40f7b7c2">St. Mary's Hospital</card>
+    <card qty="1" id="48d6df29-2888-4db3-ac01-da0a79b842c4">Southside</card>
+    <card qty="1" id="b2cc8d0d-cf7c-4eb2-8011-5ffa14b488db">The Final Seal</card>
+    <card qty="1" id="54eebcaa-c0df-44af-8965-a5126405d6c0">Barrier Node</card>
+    <card qty="1" id="8e489230-9b2b-4c02-bae1-78d6c261e221">Grisly "Mask"</card>
+    <card qty="1" id="dab6d7f9-82e2-49fa-aebe-27ce44e5235f">Tidal Tablet</card>
+    <card qty="1" id="52d778be-1802-436c-85fe-13a60804cb03">Shard of Y'ch'lecht</card>
+    <card qty="1" id="d2b97673-f1e6-4959-b3a9-b321be9b194a">Obsidian Claw</card>
+    <card qty="1" id="c002f450-f9e4-4d4f-b632-89c67bf6640d">Horror in Clay</card>
+    <card qty="1" id="41e85c55-c411-4d5e-8f6b-aca8692950c8">Monstrous Star Spawn</card>
+    <card qty="1" id="29c9312b-cd5d-4228-8ac4-1a4fe645a6bc">Infected Star Spawn</card>
+    <card qty="1" id="c9cc2d85-a0a9-4dee-9801-ad4397183abe">Coral Star Spawn</card>
+    <card qty="1" id="95c6880b-21b8-4420-babb-c0f22a4e9319">Star Spawn Observer</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="0f9aadd4-47b4-4e2f-b9f4-9a4b13266121">The Doom of Arkham Pt II</card>
+    <card qty="1" id="2d797518-5fa0-4842-80d5-1663bac5ff20">Rivertown</card>
+    <card qty="1" id="131a87b5-d7f9-4080-b0f2-2e3742452e3a">Southside</card>
+    <card qty="1" id="e1076a92-b968-4f2d-9c58-3b3a8c848591">Southside</card>
+    <card qty="1" id="63f426b9-f246-43ca-ad9b-edac00402576">St. Mary's Hospital</card>
+    <card qty="1" id="945f53f9-9302-4010-812d-c7b717b2a81d">Miskatonic University</card>
+    <card qty="1" id="eb341e79-1eb1-46f9-9d25-eff09fe096c9">Downtown</card>
+    <card qty="1" id="b66282e2-c327-4e19-9348-3a720cc165e4">Downtown</card>
+    <card qty="1" id="2a79a0a2-400e-464f-a956-95550312101c">Easttown</card>
+    <card qty="1" id="8fc61c54-6c1b-4109-9f64-6cd6bc0f4c50">Northside</card>
+    <card qty="1" id="3bb82ef5-da66-426e-9324-2ae58316d8b6">Western Rooftops</card>
+    <card qty="1" id="a7b6f379-bfe7-4009-ab55-85916b032939">Eastern Rooftops</card>
+    <card qty="1" id="5500dc2b-3180-461a-8329-fbdb6830bfd6">Cthulhu</card>
+    <card qty="1" id="e0075ae5-290c-44d5-90d8-f687728295f7">Cthulhu</card>
+    <card qty="1" id="0ab9e4a8-cbbf-4023-8c0a-0d09e78646a6">Cthulhu</card>
+    <card qty="1" id="39637799-7e3b-4815-b6d8-881f624b9955">Cthulhu</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

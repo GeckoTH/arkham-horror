@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="82fbf25e-db19-4a2b-8cb2-1a7f4976f797">Otherworldly Storms</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="3f2c5027-975e-44da-ab96-7075b2232ed7">Searching the Spires</card>
+    <card qty="1" id="b7a4411f-3935-4680-a334-d6f130315da3">To the Ancient Dome!</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="33b1f511-9ea0-4c0e-8637-d4b0fdbdd6ad">St. Elmo's Fire</card>
+    <card qty="2" id="811d2620-cbcf-43ae-b2d0-5e05adcada66">Acrophobia</card>
+    <card qty="1" id="1d36fb4e-6106-41a6-8aea-491381508bf5">Wings of Terror</card>
+    <card qty="1" id="039ca66f-31b5-4271-ae24-f79cc59acd47">Wings of Terror</card>
+    <card qty="1" id="a10e5c44-3c58-4ed0-8c74-c4d5f8d060f5">Lost in the Clouds</card>
+    <card qty="3" id="76e26921-2547-4bac-a317-b372cb7097e8">Primeval Terror</card>
+    <card qty="1" id="3e1149ef-a081-41e6-b040-c6ee8a225c59">Star Vampire</card>
+    <card qty="2" id="796a8f8b-6c90-4218-a094-62ff4cf32b63">Eye of the Deep</card>
+    <card qty="2" id="f737aabc-003f-48c7-94cc-936662303590">Cunning Mimicry</card>
+    <card qty="2" id="8dba9c81-79c6-43f0-871e-5aaafffb77fc">Elder Mist</card>
+    <card qty="2" id="b5839e2f-d21a-4de2-b603-f30e28252893">Corrosive Fog</card>
+    <card qty="2" id="3903c77d-c029-4bcb-b499-94ab665fe434">Cyclopean Architecture</card>
+    <card qty="2" id="21662a88-ba39-449f-9b19-092d1bbd400b">Crumbling Mansonry</card>
+    <card qty="2" id="76a0d01f-3487-41d5-8bff-560ab33dd6f4">Hunting Nightgaunt</card>
+    <card qty="2" id="ea64a8ea-b5e7-42a3-9763-a9b9048055ec">On Wings of Darkness</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="32af6d32-aa7f-432e-8c10-590814f04d2b">Summit</card>
+    <card qty="1" id="3f1b3652-7c6d-439b-a62d-7546b89ff042">Summit</card>
+    <card qty="1" id="69862569-b03e-49bb-8f51-4a834d359cb0">Summit</card>
+    <card qty="3" id="44029011-ac0b-4071-ab95-54693d67fd43">Summit</card>
+    <card qty="2" id="e40bb799-802f-4497-b78f-50f666a23e0a">Summit</card>
+    <card qty="1" id="1b4c5359-f9e2-46eb-81b6-e52630786d4b">Summit</card>
+    <card qty="3" id="4b12ffa1-cb9c-4795-a90c-2dc4a02d1497">Summit</card>
+    <card qty="2" id="e5260a6e-de0c-4688-885b-8429be40c22c">Summit</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="41e85c55-c411-4d5e-8f6b-aca8692950c8">Monstrous Star Spawn</card>
+    <card qty="1" id="29c9312b-cd5d-4228-8ac4-1a4fe645a6bc">Infected Star Spawn</card>
+    <card qty="1" id="c9cc2d85-a0a9-4dee-9801-ad4397183abe">Coral Star Spawn</card>
+    <card qty="1" id="95c6880b-21b8-4420-babb-c0f22a4e9319">Star Spawn Observer</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="960e54b6-755c-49f6-bbd8-d4eb16c9cce8">Summit</card>
+    <card qty="1" id="96e835b6-f5cd-4b42-bb6f-3d3a60aedec0">Summit</card>
+    <card qty="1" id="c679f419-27a8-4e84-b520-a763f2cf69c8">Glyph Orrery [Wave]</card>
+    <card qty="1" id="f40514b4-e6d6-4643-aba7-8d41ed1da716">Sky Relic [Stars]</card>
+    <card qty="1" id="83cb0e31-9c93-4330-91a4-f86f78d8d50c">Eroded Frieze [Darkness]</card>
+    <card qty="1" id="d2b97673-f1e6-4959-b3a9-b321be9b194a">Obsidian Claw</card>
+    <card qty="1" id="0502ffca-afdd-4f86-a22a-831a5ac11088">The Inescapable</card>
+    <card qty="3" id="10fc962b-6ca1-4703-9fae-fd7c1b64e783">Still Behind You</card>
+    <card qty="1" id="6a32195f-5877-4039-a0e3-e90a1c294468">Expedition Gear</card>
+    <card qty="1" id="63d5b81a-38f8-4442-aed9-c904551a057a">Laudanum</card>
+    <card qty="1" id="ccbd39d0-ef57-4e1c-9446-613ee42fad95">Alien Tabet</card>
+    <card qty="4" id="7167a3f4-814d-4ce8-8e8d-6db0ccf59bfb">Diving Suit</card>
+    <card qty="2" id="457be9d8-fdd3-4319-86eb-de9d07a5e572">Crypt Chill</card>
+    <card qty="2" id="91a7fccc-8260-413c-b181-48f04ef58b99">Obscuring Fog</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="cf24dd13-e8aa-4c72-a6c4-ad00faac9b59">Obsidian Canyons</card>
+    <card qty="1" id="b560aa70-503d-40ff-b36d-0a8d21efe595">Western Winds</card>
+    <card qty="1" id="adac1d0a-6320-4c71-89d6-f6ef832f63ac">R'lyeh Streets</card>
+    <card qty="1" id="da3bde07-5c51-4425-ab82-cbc8a3697052">Summit</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

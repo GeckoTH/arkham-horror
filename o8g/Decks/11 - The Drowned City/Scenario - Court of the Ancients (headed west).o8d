@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="38699957-7a13-4364-a51a-cb3590cd56ac">Ruined Archives</card>
+    <card qty="1" id="8e012558-ed12-4fdc-9add-4ca79e5ec5fa">Unstable Foundations</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="9ba9ab62-029f-42d0-9d61-ffd0bbb57572">Steps of Giants</card>
+    <card qty="1" id="9556aab2-94ad-4ef7-a1d5-7e2f2b9e0f9c">Escape the Tower (v.I)</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="721758cd-7d1a-4df7-82b6-e3d25cda9a4c">Court Keeper [Dreams]</card>
+    <card qty="1" id="d78f27b5-99d8-4029-817a-6a6e0bf274fa">Court Keeper [Sleep]</card>
+    <card qty="1" id="f780dbac-1b15-4cd9-835f-fb89cc82a7f1">Ancient Vault [Life]</card>
+    <card qty="1" id="2755e677-a86a-43d4-84f5-003549f061e8">Ancient Vault [Cthulhu]</card>
+    <card qty="1" id="33023043-ef75-4ba0-954f-06736e7e5942">Ruined Orrery [Y'ch'lecht]</card>
+    <card qty="4" id="38387962-74ca-4423-a1a7-c4aeda2c2ed6">Cosmic Omen</card>
+    <card qty="2" id="5ba09594-2479-4092-af48-4b1d29639111">Winged Keeper</card>
+    <card qty="2" id="eac234a1-33de-494f-b22c-4aaedcc047ac">"Cthulhu Fhtagn!"</card>
+    <card qty="2" id="a2c57712-fc1a-43fd-afca-74e3e9f656f9">Oppressive Influence</card>
+    <card qty="1" id="e916b2b9-184c-4e68-b21b-dfa89655be0d">Domination</card>
+    <card qty="3" id="e5469aa9-0f9a-4be8-9dfb-65baf24f9862">Tortured Visions</card>
+    <card qty="3" id="19997239-d7ac-4cb8-9dad-88b0f58e8ba6">Drawn to Darkness</card>
+    <card qty="2" id="8dba9c81-79c6-43f0-871e-5aaafffb77fc">Elder Mist</card>
+    <card qty="2" id="b5839e2f-d21a-4de2-b603-f30e28252893">Corrosive Fog</card>
+    <card qty="2" id="3903c77d-c029-4bcb-b499-94ab665fe434">Cyclopean Architecture</card>
+    <card qty="2" id="21662a88-ba39-449f-9b19-092d1bbd400b">Crumbling Mansonry</card>
+    <card qty="3" id="a94559ea-5d21-4153-a246-8177daa37712">Stowaway Drone</card>
+    <card qty="3" id="ce864d2b-da6b-4c32-baec-c7b7f7d8ba76">Infected!</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="895266e0-79cc-4208-a58f-de3880561084">Crumbling Archives</card>
+    <card qty="1" id="6a3dbb01-875d-475e-9f27-60b3c193459a">Crumbling Archives</card>
+    <card qty="1" id="e410356e-f5de-4a5e-8e8c-3d99e9d814a5">Crumbling Archives</card>
+    <card qty="1" id="5444fa05-74e8-422b-9431-2be98c048b6b">Crumbling Archives</card>
+    <card qty="1" id="94370d6d-a0cf-4429-976c-27621cade408">Crumbling Archives</card>
+    <card qty="1" id="90109959-e4ce-423d-93b8-ec3123e6c2e6">Crumbling Archives</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="41e85c55-c411-4d5e-8f6b-aca8692950c8">Monstrous Star Spawn</card>
+    <card qty="1" id="29c9312b-cd5d-4228-8ac4-1a4fe645a6bc">Infected Star Spawn</card>
+    <card qty="1" id="c9cc2d85-a0a9-4dee-9801-ad4397183abe">Coral Star Spawn</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="95c6880b-21b8-4420-babb-c0f22a4e9319">Star Spawn Observer</card>
+    <card qty="1" id="52d778be-1802-436c-85fe-13a60804cb03">Shard of Y'ch'lecht</card>
+    <card qty="1" id="9c9d40d4-abe7-4544-8eea-15e51ed0c084">Colossal Tyrant</card>
+    <card qty="1" id="0502ffca-afdd-4f86-a22a-831a5ac11088">The Inescapable</card>
+    <card qty="3" id="10fc962b-6ca1-4703-9fae-fd7c1b64e783">Still Behind You</card>
+    <card qty="1" id="54eebcaa-c0df-44af-8965-a5126405d6c0">Barrier Node</card>
+    <card qty="1" id="8e489230-9b2b-4c02-bae1-78d6c261e221">Grisly "Mask"</card>
+    <card qty="1" id="dab6d7f9-82e2-49fa-aebe-27ce44e5235f">Tidal Tablet</card>
+    <card qty="1" id="6a32195f-5877-4039-a0e3-e90a1c294468">Expedition Gear</card>
+    <card qty="1" id="63d5b81a-38f8-4442-aed9-c904551a057a">Laudanum</card>
+    <card qty="1" id="ccbd39d0-ef57-4e1c-9446-613ee42fad95">Alien Tabet</card>
+    <card qty="4" id="7167a3f4-814d-4ce8-8e8d-6db0ccf59bfb">Diving Suit</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="1dd39850-2e7b-4de8-8bcd-d57923409a75">Court of the Ancients</card>
+    <card qty="1" id="1d7a9016-bbff-41fe-9cf1-519c2ba1d98f">Twisting Catwalks</card>
+    <card qty="1" id="ec5a7d36-e0cf-4809-ae82-6651338d8140">West Antechamber</card>
+    <card qty="1" id="2d13a2e9-c0ea-42b4-98e2-5488e010c581">East Antechamber</card>
+    <card qty="1" id="4c8ded2e-178b-4de3-bdd6-70d9fc15ed38">Ancient Altar</card>
+    <card qty="1" id="8a8449e6-bcd9-4dd5-9df3-10f9d53c60d9">Great Lift</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

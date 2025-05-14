@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="f535b99a-48d0-4a11-96fd-58d994f50ffd">Beneath the City</card>
+    <card qty="1" id="c7b4e31d-4410-4778-8f58-20901db065ce">Cthulhu Awakened</card>
+  </section>
+  <section name="Act" shared="True" />
+  <section name="Encounter" shared="True">
+    <card qty="2" id="eac234a1-33de-494f-b22c-4aaedcc047ac">"Cthulhu Fhtagn!"</card>
+    <card qty="2" id="a2c57712-fc1a-43fd-afca-74e3e9f656f9">Oppressive Influence</card>
+    <card qty="1" id="e916b2b9-184c-4e68-b21b-dfa89655be0d">Domination</card>
+    <card qty="3" id="e5469aa9-0f9a-4be8-9dfb-65baf24f9862">Tortured Visions</card>
+    <card qty="3" id="19997239-d7ac-4cb8-9dad-88b0f58e8ba6">Drawn to Darkness</card>
+    <card qty="2" id="3903c77d-c029-4bcb-b499-94ab665fe434">Cyclopean Architecture</card>
+    <card qty="2" id="21662a88-ba39-449f-9b19-092d1bbd400b">Crumbling Mansonry</card>
+    <card qty="1" id="41e85c55-c411-4d5e-8f6b-aca8692950c8">Monstrous Star Spawn</card>
+    <card qty="1" id="29c9312b-cd5d-4228-8ac4-1a4fe645a6bc">Infected Star Spawn</card>
+    <card qty="1" id="c9cc2d85-a0a9-4dee-9801-ad4397183abe">Coral Star Spawn</card>
+    <card qty="1" id="95c6880b-21b8-4420-babb-c0f22a4e9319">Star Spawn Observer</card>
+    <card qty="3" id="2f2f179f-dbbc-4bfc-85cc-b67e1bd7aa9a">Ancient Evils</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="6a32195f-5877-4039-a0e3-e90a1c294468">Expedition Gear</card>
+    <card qty="1" id="63d5b81a-38f8-4442-aed9-c904551a057a">Laudanum</card>
+    <card qty="1" id="ccbd39d0-ef57-4e1c-9446-613ee42fad95">Alien Tabet</card>
+    <card qty="4" id="7167a3f4-814d-4ce8-8e8d-6db0ccf59bfb">Diving Suit</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="a48fa256-4619-4818-9fde-d7ba39f3495e">Sepulchre of the Sleeper</card>
+    <card qty="1" id="6b9ce5f2-50ed-440c-901f-498ba6601d9a">Dreamer's Rest</card>
+    <card qty="1" id="e03b7dd1-e89d-4cdf-a146-8b3842f2ebc7">Sigil-Carved Alcove</card>
+    <card qty="1" id="402ad932-ba87-4405-a14c-3670c147b083">Sigil-Carved Alcove</card>
+    <card qty="1" id="237b7c4d-ad40-4c1f-8790-3ead1bf7c755">Sigil-Carved Alcove</card>
+    <card qty="1" id="4af5fb2f-2808-44b9-8bc2-2335a191cf50">Sigil-Carved Alcove</card>
+    <card qty="1" id="fba27635-4c7d-4295-81a3-403bbdc6660f">Sigil-Carved Alcove</card>
+    <card qty="1" id="54eebcaa-c0df-44af-8965-a5126405d6c0">Barrier Node</card>
+    <card qty="1" id="8e489230-9b2b-4c02-bae1-78d6c261e221">Grisly "Mask"</card>
+    <card qty="1" id="dab6d7f9-82e2-49fa-aebe-27ce44e5235f">Tidal Tablet</card>
+    <card qty="1" id="52d778be-1802-436c-85fe-13a60804cb03">Shard of Y'ch'lecht</card>
+    <card qty="1" id="d2b97673-f1e6-4959-b3a9-b321be9b194a">Obsidian Claw</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

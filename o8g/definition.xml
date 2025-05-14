@@ -5,7 +5,7 @@
 	id="a6d114c7-2e2a-4896-ad8c-0330605c90bf" 
 	octgnVersion="3.4.286.0"
 	scriptVersion ="3.1.0.2"
-	version="1.11.0.1"
+	version="1.11.0.2"
 	markersize="16"
 	tags="AH LCG cooperative"
 	description="Arkham Horror: The Card Game is a cooperative Living Card Game® set amid a backdrop of Lovecraftian horror. As the Ancient Ones seek entry to our world, one to four investigators work to unravel arcane mysteries and conspiracies.&#10;&#10;Their efforts determine not only the course of your game, but carry forward throughout whole campaigns, challenging them to overcome their personal demons even as Arkham Horror: The Card Game blurs the distinction between the card game and roleplaying experiences."
@@ -101,6 +101,8 @@
 		<size name="EncounterCard" width="63" height="88" back="cards/encounter.jpg" front="cards/encounter.jpg" cornerRadius="4"/>
 		<size name="UpgradesCard" width="63" height="88" back="cards/upgrades.jpg" front="cards/upgrades.jpg" cornerRadius="4"/>
 		<size name="EnemyCard" width="63" height="88" back="cards/enemy.jpg" front="cards/enemy.jpg" cornerRadius="4"/>
+		<size name="ActionCard" width="63" height="88" back="cards/action.jpg" front="cards/action.jpg" cornerRadius="4"/>
+		<size name="ArtifactCard" width="63" height="88" back="cards/artifact.jpg" front="cards/artifact.jpg" cornerRadius="4"/>
 		<size name="MiniCard" width="40" height="63" back="cards/card.jpg" front="cards/card.jpg" cornerRadius="4" backWidth="40" backHeight="63" backCornerRadius="4" />
 		<size name="TarotCard" width="69" height="119" back="cards/tarot.jpg" front="cards/tarot.jpg" cornerRadius="4" backWidth="69" backHeight="119" backCornerRadius="4" />
 		<size name="ChaosToken" width="40" height="40" back="cards/chaostokenback.jpg" front="cards/chaostokenback.jpg" cornerRadius="4" backWidth="40" backHeight="40" />
