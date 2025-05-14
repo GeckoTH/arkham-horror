@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="6fead5ba-4a08-4690-968c-b97f5e90096b">The Coming Storm</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="10fa8ae7-96c8-425b-a0c9-3ae22927ac0e">The Phantom Shop</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="241516cd-305c-49d9-85c5-8a59f3257c50">Deep One Thrall</card>
+    <card qty="1" id="57e772ca-00b3-4189-a81d-f03b35316e40">Elder Deep One</card>
+    <card qty="2" id="574dc743-9f2e-4e1e-b609-32bbbf42e3e0">Deep One Ambush</card>
+    <card qty="2" id="eac234a1-33de-494f-b22c-4aaedcc047ac">"Cthulhu Fhtagn!"</card>
+    <card qty="2" id="a2c57712-fc1a-43fd-afca-74e3e9f656f9">Oppressive Influence</card>
+    <card qty="1" id="e916b2b9-184c-4e68-b21b-dfa89655be0d">Domination</card>
+    <card qty="3" id="e5469aa9-0f9a-4be8-9dfb-65baf24f9862">Tortured Visions</card>
+    <card qty="3" id="19997239-d7ac-4cb8-9dad-88b0f58e8ba6">Drawn to Darkness</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="4635f3e0-91ab-4028-ac6f-1b7e22be5d0c">Tillinghast Esoterica</card>
+    <card qty="3" id="f070e39a-2517-4899-a42d-829b2a9ebf2a">Hunting Shadow</card>
+    <card qty="2" id="65a0cf6c-89e4-4e20-948d-5668de15bd9c">False Lead</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="41e85c55-c411-4d5e-8f6b-aca8692950c8">Monstrous Star Spawn</card>
+    <card qty="1" id="29c9312b-cd5d-4228-8ac4-1a4fe645a6bc">Infected Star Spawn</card>
+    <card qty="1" id="c9cc2d85-a0a9-4dee-9801-ad4397183abe">Coral Star Spawn</card>
+    <card qty="1" id="95c6880b-21b8-4420-babb-c0f22a4e9319">Star Spawn Observer</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="7dfeaba5-a468-4cda-910a-7787e3cb2a26">Randall Tillinghast</card>
+    <card qty="1" id="54eebcaa-c0df-44af-8965-a5126405d6c0">Barrier Node</card>
+    <card qty="1" id="8e489230-9b2b-4c02-bae1-78d6c261e221">Grisly "Mask"</card>
+    <card qty="1" id="dab6d7f9-82e2-49fa-aebe-27ce44e5235f">Tidal Tablet</card>
+    <card qty="1" id="52d778be-1802-436c-85fe-13a60804cb03">Shard of Y'ch'lecht</card>
+    <card qty="1" id="d2b97673-f1e6-4959-b3a9-b321be9b194a">Obsidian Claw</card>
+    <card qty="1" id="c002f450-f9e4-4d4f-b632-89c67bf6640d">Horror in Clay</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="88fd2bde-b186-4ca7-8b4e-75084cfb2f7a">The Doom of Arkham Pt I</card>
+    <card qty="1" id="2e8e4d5e-5c7d-412b-9971-73b7b920de6d">Rivertown</card>
+    <card qty="1" id="131a87b5-d7f9-4080-b0f2-2e3742452e3a">Southside</card>
+    <card qty="1" id="e1076a92-b968-4f2d-9c58-3b3a8c848591">Southside</card>
+    <card qty="1" id="63f426b9-f246-43ca-ad9b-edac00402576">St. Mary's Hospital</card>
+    <card qty="1" id="945f53f9-9302-4010-812d-c7b717b2a81d">Miskatonic University</card>
+    <card qty="1" id="eb341e79-1eb1-46f9-9d25-eff09fe096c9">Downtown</card>
+    <card qty="1" id="b66282e2-c327-4e19-9348-3a720cc165e4">Downtown</card>
+    <card qty="1" id="2a79a0a2-400e-464f-a956-95550312101c">Easttown</card>
+    <card qty="1" id="8fc61c54-6c1b-4109-9f64-6cd6bc0f4c50">Northside</card>
+    <card qty="1" id="696c36b7-dc13-4ef3-be14-67a0bce752eb">John Raymond Legrasse</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

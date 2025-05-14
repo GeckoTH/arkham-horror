@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e34b7dc2-3661-431d-a008-71e7594314de">Flooded Paths</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="6d308abd-5c50-493c-90e2-f83830153015">Descend into the Abyss</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="97217435-d520-449d-8537-30dc7ce79b59">Deep One Matron</card>
+    <card qty="3" id="4243bd90-71af-4f67-a2f2-b69d15d45228">"Look Out!"</card>
+    <card qty="2" id="796a8f8b-6c90-4218-a094-62ff4cf32b63">Eye of the Deep</card>
+    <card qty="2" id="f737aabc-003f-48c7-94cc-936662303590">Cunning Mimicry</card>
+    <card qty="2" id="241516cd-305c-49d9-85c5-8a59f3257c50">Deep One Thrall</card>
+    <card qty="1" id="57e772ca-00b3-4189-a81d-f03b35316e40">Elder Deep One</card>
+    <card qty="2" id="574dc743-9f2e-4e1e-b609-32bbbf42e3e0">Deep One Ambush</card>
+    <card qty="2" id="cc8d6721-371e-4a57-8805-d6ea3f2e291d">Deadly Torrent</card>
+    <card qty="2" id="41414dd8-ab06-4603-8090-39671d0a074f">Something in the Water</card>
+    <card qty="2" id="5ec9784c-00f5-4c45-bf5c-673a83d65999">Ominous Silence</card>
+    <card qty="2" id="3903c77d-c029-4bcb-b499-94ab665fe434">Cyclopean Architecture</card>
+    <card qty="2" id="21662a88-ba39-449f-9b19-092d1bbd400b">Crumbling Mansonry</card>
+    <card qty="3" id="10fc962b-6ca1-4703-9fae-fd7c1b64e783">Still Behind You</card>
+    <card qty="1" id="607902bd-c63a-4442-8855-fccd65521971">Voltaic Eel</card>
+    <card qty="2" id="61a7fcd4-8555-4af5-b2a2-1fe9fe7da990">Dreaming Migration</card>
+    <card qty="2" id="5190b51a-6042-496f-89c0-e4facbbc1310">Undersea Hunt</card>
+    <card qty="2" id="93ab8531-db48-4ee6-b818-4da27752d578">Young Deep One</card>
+    <card qty="2" id="395200b6-5e2f-4217-9cb2-005590d81407">Dreams of R'lyeh</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="2" id="0d5814f3-78f3-43f9-9e62-c3ef6424c24f">Treacherous Path</card>
+    <card qty="2" id="56e2227c-b58c-4ea9-b4a0-37a09de6eccb">Treacherous Path</card>
+    <card qty="1" id="5c913223-3da3-453b-9465-40af2205de23">Treacherous Path</card>
+    <card qty="1" id="eeee9c55-7b82-4bac-8970-0f243a41b189">Treacherous Path</card>
+    <card qty="1" id="bab057e6-8d62-4aa5-8a73-c16187a6dc3a">Treacherous Path</card>
+  </section>
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="0bf3cebf-c83e-42e5-9026-c5cc1850c6fb">Undersea Vault [City]</card>
+    <card qty="1" id="0502ffca-afdd-4f86-a22a-831a5ac11088">The Inescapable</card>
+    <card qty="1" id="74cb8e47-3a8f-4f77-8a62-0a64b1cbf8c2">Hunting Parasite</card>
+    <card qty="1" id="84431929-6125-49ff-af79-158c9d534b3f">Seafloor Frieze [Parasite]</card>
+    <card qty="1" id="c9cc2d85-a0a9-4dee-9801-ad4397183abe">Coral Star Spawn</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="b43158f4-ea56-4639-98d0-235b5e5e1469">The Western Wall</card>
+    <card qty="1" id="d59b9489-3206-4874-b0c1-176dd910faa7">Treacherous Path</card>
+    <card qty="1" id="cd7f940c-f770-4719-b8aa-056b6c89731b">Treacherous Path</card>
+    <card qty="1" id="0828db0a-5a26-4f4a-9f05-44f21d9ec40c">Treacherous Path</card>
+    <card qty="1" id="4b10724f-ee01-4812-9326-4103c9180982">Treacherous Path</card>
+    <card qty="1" id="bd72d2f8-fc1b-4da8-a848-64df591e861c">Treacherous Path</card>
+    <card qty="1" id="6a32195f-5877-4039-a0e3-e90a1c294468">Expedition Gear</card>
+    <card qty="1" id="63d5b81a-38f8-4442-aed9-c904551a057a">Laudanum</card>
+    <card qty="1" id="ccbd39d0-ef57-4e1c-9446-613ee42fad95">Alien Tabet</card>
+    <card qty="4" id="7167a3f4-814d-4ce8-8e8d-6db0ccf59bfb">Diving Suit</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
