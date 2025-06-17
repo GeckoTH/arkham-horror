@@ -1395,7 +1395,7 @@
       <property name="Encounter Set" value="The Grand Vault" />
       <property name="Type" value="Location" />
       <property name="Traits" value="R'lyeh. Vault." />
-      <alternate name="Chamber of Record [Arm]" type="B" size="EncounterCard">
+      <alternate name="Chamber of Records [Arm]" type="B" size="EncounterCard">
         <property name="Encounter Set" value="The Grand Vault" />
         <property name="Type" value="Location" />
         <property name="Traits" value="R'lyeh. Vault. Glyph." />
@@ -1411,7 +1411,7 @@
       <property name="Encounter Set" value="The Grand Vault" />
       <property name="Type" value="Location" />
       <property name="Traits" value="R'lyeh. Vault." />
-      <alternate name="Chamber of Record [Earth]" type="B" size="EncounterCard">
+      <alternate name="Chamber of Records [Earth]" type="B" size="EncounterCard">
         <property name="Encounter Set" value="The Grand Vault" />
         <property name="Type" value="Location" />
         <property name="Traits" value="R'lyeh. Vault. Glyph." />
@@ -2746,7 +2746,7 @@
       <property name="Type" value="Agenda" />
       <property name="Text" value="Forced – When the enemy phase ends: Increase the flood leve of Cthulhu's location and draw the top card of the Cthulhu deck.&#10;Forced – When the round ends: Each investigator at a fully flooded location takes 1 damage/horror." />
       <property name="Doom" value="3" />
-      <alternate name="Après Moi, le Déuge..." type="B" size="HorizCard">
+      <alternate name="Après Moi, le Déluge..." type="B" size="HorizCard">
         <property name="Encounter Set" value="The Doom of Arkham Part II" />
         <property name="Subtitle" value="Agenda 1b" />
         <property name="Type" value="Agenda" />
