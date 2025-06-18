@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="2d7a1c0f-c2ee-497d-9a3f-981d2d3dde2b">Stirring in the Dark</card>
+    <card qty="1" id="b4409881-d06d-4bf0-b470-eaaf2a38c1ed">Loathsome Parasites</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="b2d1b9e3-92af-4cc0-a68d-553463fd3643">Unsettling Signs</card>
+    <card qty="1" id="1cc65c00-9d0f-4181-8af2-9ff848aaf2ff">Lost Pilgrims</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="3" id="635db34e-5274-46c2-ba0e-f3c2fbe75c50">Apiary Tender</card>
+    <card qty="2" id="40a721f2-b9b1-4464-bdb6-7684b31aa6e6">Hungry Walls</card>
+    <card qty="2" id="9f58df5f-6cae-4f0c-b4f5-fcd074a14dc5">Dangerous Curiosity</card>
+    <card qty="3" id="75317a5b-6e3c-4522-bd36-1e46cf61a1c9">Alien Eggs</card>
+    <card qty="2" id="796a8f8b-6c90-4218-a094-62ff4cf32b63">Eye of the Deep</card>
+    <card qty="2" id="f737aabc-003f-48c7-94cc-936662303590">Cunning Mimicry</card>
+    <card qty="2" id="8dba9c81-79c6-43f0-871e-5aaafffb77fc">Elder Mist</card>
+    <card qty="2" id="b5839e2f-d21a-4de2-b603-f30e28252893">Corrosive Fog</card>
+    <card qty="3" id="8d7edcd9-63e0-4d2f-b8a1-c1e7cbf11c7a">Acolyte</card>
+    <card qty="1" id="5287d028-b018-45ec-b63c-553262c4cb8b">Wizard of the Order</card>
+    <card qty="2" id="64d5c48c-02fb-48ac-b3ea-086a20721d69">Mysterious Chanting</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+    <card qty="1" id="bb4e0bef-828a-4b44-9be2-bc81f51c5e7d">Growing Fields</card>
+    <card qty="1" id="3157a799-e5f1-4e78-a633-feb66a022a3c">Fleshy Parts</card>
+    <card qty="1" id="bf21cf2b-5e76-4613-a5f3-59653aba2f85">Fleshy Parts [Time]</card>
+  </section>
+  <section name="Location" shared="True" />
+  <section name="Special" shared="True" />
+  <section name="Second Special" shared="True">
+    <card qty="1" id="5f5887e7-8cc2-4479-ad29-2d20653a8d26">Churning Chasm</card>
+    <card qty="1" id="1b0e6977-a52f-4180-82e3-289e0af79a30">Corrupted Vault [Hand]</card>
+    <card qty="1" id="f7d779e6-9aad-48aa-9c1e-bae3aa122d38">Spawning Grounds</card>
+    <card qty="1" id="6719d9e4-f61a-4d86-9895-ae959f307c19">Lost Campsite</card>
+    <card qty="1" id="0cdcb55d-15aa-4803-aea4-3bc3ec887eed">Hidden Vault [Daughters]</card>
+    <card qty="1" id="5cd7e18e-bc42-4bd9-9298-8c019c895e82">Grotesque Amalgam</card>
+    <card qty="1" id="e3a15961-2ded-451f-8ed2-be54f53936a3">Squamous Parasite [Air]</card>
+    <card qty="1" id="234a009a-c49d-4b70-8f1f-96d7ae7e976b">Maria Rivera</card>
+    <card qty="1" id="c4597ac4-af87-45ad-b9ff-6d881aa3f083">Ancient Relic [Machine]</card>
+    <card qty="1" id="8e489230-9b2b-4c02-bae1-78d6c261e221">Grisly "Mask"</card>
+    <card qty="3" id="b2f92719-a36d-4fb6-87af-c75f25d8753a">Pilgrim Acolyte</card>
+    <card qty="1" id="2260976b-6729-47a3-a383-565026f13613">Pilgrim Leader</card>
+    <card qty="1" id="0502ffca-afdd-4f86-a22a-831a5ac11088">The Inescapable</card>
+    <card qty="3" id="10fc962b-6ca1-4703-9fae-fd7c1b64e783">Still Behind You</card>
+    <card qty="1" id="fcb5e661-a338-453e-bb84-b26415b17b34">Parasitic Transformation</card>
+    <card qty="1" id="8e84ef80-b4d7-4e95-81de-53c443cc8659">Parasitic Transformation</card>
+    <card qty="1" id="98ec6dd2-cc2e-42a1-9c40-0986f9476b0b">Parasitic Transformation</card>
+    <card qty="1" id="2ae525c7-4839-4d09-a8ea-da674ab2d801">Parasitic Transformation</card>
+    <card qty="1" id="54eebcaa-c0df-44af-8965-a5126405d6c0">Barrier Node</card>
+    <card qty="1" id="6a32195f-5877-4039-a0e3-e90a1c294468">Expedition Gear</card>
+    <card qty="1" id="63d5b81a-38f8-4442-aed9-c904551a057a">Laudanum</card>
+    <card qty="1" id="ccbd39d0-ef57-4e1c-9446-613ee42fad95">Alien Tabet</card>
+    <card qty="4" id="7167a3f4-814d-4ce8-8e8d-6db0ccf59bfb">Diving Suit</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="099b5086-722b-4d9e-9670-1fc7b393cb97">The Apiary</card>
+    <card qty="1" id="5f948eee-6f8d-4596-b426-83f9ee0c8dfb">Apiary Entrance</card>
+    <card qty="1" id="c2bebf9c-4dec-4e36-b03d-881f0ff34b50">Luminous Tunnels</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>

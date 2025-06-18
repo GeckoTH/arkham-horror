@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="281d4ccd-fb5d-4e05-8f69-6162406bdc3f">Bowels of the City</card>
+    <card qty="1" id="2541a74f-72f8-4120-99ea-e327d0c7b863">Devil in the Machine</card>
+    <card qty="1" id="b027d91c-b9d1-4974-89bf-c3df4ce5e2f3">Ever-Shifting Walls</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="25fde5e7-6cb2-4814-840c-8c3123e877fd">Careful Navigation</card>
+    <card qty="1" id="ce080119-9747-4674-b1c7-cc362a154bcc">Back Through the Machine</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="1" id="f0cebc2b-f721-44c6-bac5-692c4b1b746f">Slitherer in Darkness</card>
+    <card qty="3" id="e1db7a30-cd8e-4df6-b2fc-da9dfad1cea4">Deadly Mechanisms</card>
+    <card qty="3" id="248b54f0-3127-44df-a625-998a86361cc5">Persistent Construct</card>
+    <card qty="2" id="075222d1-3eee-40aa-9d35-54bce06a7400">Infernal Machinery</card>
+    <card qty="2" id="cc8d6721-371e-4a57-8805-d6ea3f2e291d">Deadly Torrent</card>
+    <card qty="2" id="41414dd8-ab06-4603-8090-39671d0a074f">Something in the Water</card>
+    <card qty="2" id="5ec9784c-00f5-4c45-bf5c-673a83d65999">Ominous Silence</card>
+    <card qty="2" id="21662a88-ba39-449f-9b19-092d1bbd400b">Crumbling Mansonry</card>
+    <card qty="2" id="3903c77d-c029-4bcb-b499-94ab665fe434">Cyclopean Architecture</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="d48dfc9d-00cf-4e7d-ba86-0515e6295805">Vault Chamber</card>
+    <card qty="1" id="ee0f1998-576a-4a4f-aab4-7be5e24ca5d6">Vault Chamber</card>
+    <card qty="1" id="edbb863c-4950-483a-a8ad-837ffc7d4712">Vault Chamber</card>
+    <card qty="1" id="8e4b77cb-3463-4389-ad8d-d0a76a60839f">Vault Chamber</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="41e85c55-c411-4d5e-8f6b-aca8692950c8">Monstrous Star Spawn</card>
+    <card qty="1" id="29c9312b-cd5d-4228-8ac4-1a4fe645a6bc">Infected Star Spawn</card>
+    <card qty="1" id="c9cc2d85-a0a9-4dee-9801-ad4397183abe">Coral Star Spawn</card>
+    <card qty="1" id="95c6880b-21b8-4420-babb-c0f22a4e9319">Star Spawn Observer</card>
+  </section>
+  <section name="Second Special" shared="True">
+    <card qty="1" id="6c96b016-f523-4bb3-9c11-123ee020c106">Ancient Vault [Power]</card>
+    <card qty="1" id="1e4d4883-6016-44d8-a893-f8c00dce6642">Ancient Vault [Doom]</card>
+    <card qty="1" id="f1f3dc7f-38dd-4c01-92b9-2e82a046ea29">Ancient Vault [Weather]</card>
+    <card qty="3" id="a800a90d-7efd-447d-9fdc-2232564615e0">Vault Attendant</card>
+    <card qty="1" id="dab6d7f9-82e2-49fa-aebe-27ce44e5235f">Tidal Tablet</card>
+    <card qty="1" id="0502ffca-afdd-4f86-a22a-831a5ac11088">The Inescapable</card>
+    <card qty="3" id="10fc962b-6ca1-4703-9fae-fd7c1b64e783">Still Behind You</card>
+    <card qty="1" id="54eebcaa-c0df-44af-8965-a5126405d6c0">Barrier Node</card>
+    <card qty="1" id="8e489230-9b2b-4c02-bae1-78d6c261e221">Grisly "Mask"</card>
+    <card qty="1" id="52d778be-1802-436c-85fe-13a60804cb03">Shard of Y'ch'lecht</card>
+    <card qty="1" id="d2b97673-f1e6-4959-b3a9-b321be9b194a">Obsidian Claw</card>
+    <card qty="1" id="6a32195f-5877-4039-a0e3-e90a1c294468">Expedition Gear</card>
+    <card qty="1" id="63d5b81a-38f8-4442-aed9-c904551a057a">Laudanum</card>
+    <card qty="1" id="ccbd39d0-ef57-4e1c-9446-613ee42fad95">Alien Tabet</card>
+    <card qty="4" id="7167a3f4-814d-4ce8-8e8d-6db0ccf59bfb">Diving Suit</card>
+  </section>
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="8809ea3e-b6fc-4597-9187-6f6156dc4bad">The Grand Vault</card>
+    <card qty="1" id="e39bfbd0-ec1f-4d11-af5e-adfecd0807b5">The Great Stair</card>
+    <card qty="1" id="ab214a85-bcb8-42bd-b152-b53c91053693">Moving Platform</card>
+    <card qty="1" id="ed608a19-2981-4f59-bb60-de42b75085ec">Sealed Chamber</card>
+    <card qty="1" id="bded6a7e-f69c-4a6b-82bb-55d045148b1b">Core of the Vault</card>
+    <card qty="1" id="8ad18185-732d-4b97-b627-9e76d779c242">Vault Chamber</card>
+    <card qty="1" id="0c10aecd-5ff5-451a-8c73-50a58845c67e">Vault Chamber</card>
+    <card qty="1" id="29f4046b-2ff2-4f18-85fe-ed00f428893f">Vault Chamber</card>
+    <card qty="1" id="24ed12bd-3497-4c3c-902d-9b1a1b340219">Vault Chamber</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
