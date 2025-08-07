@@ -27,6 +27,7 @@
 		<script src="scripts/phase_change_automation.py" />
 	</scripts>
 	<events>
+		<event name="OverrideCardsMoved" action="moveGroup" />
 		<event name="OnCardDoubleClicked" action="cardDoubleClicked"/>
 		<event name="OnGameStarted" action="startOfGame"/>
 		<event name="OnDeckLoaded" action="deckLoaded"/>
@@ -191,7 +192,12 @@
 		</groupactions>
 		
 		<groupaction menu="Add Card" default="False" shortcut="ctrl+A" execute="createCard" />
-		
+
+		<!-- GROUPCARDS -->
+		<cardactions menu="Grouping Cards">
+			<cardaction menu="Group Cards" default="False" shortcut="ctrl+q" execute="groupCards" />
+			<cardaction menu="Ungroup Cards" default="False" shortcut="ctrl+w" execute="ungroupCards" />
+		</cardactions>
 		<cardaction menu="Add to Victory Display" default="False" shortcut="ctrl+V" execute="moveToVictory" />
 		<cardactions menu="Add Token">
 			<cardaction menu="Add Resource" default="False" shortcut="F1" execute="addResource" />
