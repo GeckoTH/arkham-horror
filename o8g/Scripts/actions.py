@@ -74,7 +74,15 @@ WhiteColour = "#FFFFFF"
 
 TarotDeck = None
 
+cardGroups = []
+prevSelection = []
+lastAction = ""
+movingGroup = False
+mainCard = None
+
 showDebug = False #Can be changed to turn on debug - we don't care about the value on game reconnect so it is safe to use a python global
+
+
 
 def debug(str):
     if showDebug:
@@ -563,15 +571,48 @@ def autoCharges(args):
                         elif strCharges == "X":
                                 notify("Sorry, no automation for X on {}".format(card))
 
+
+
 #Triggered event OnLoadDeck
 # args: player, cards, fromGroups, toGroups, indexs, xs, ys, highlights, markers, faceups, filters, alternates
+
 def moveCards(args):
     mute()
     autoCharges(args)
     autoClues(args)
     normanDeck(args)
     release(args)
-    moveCardsSound(args) 
+    moveCardsSound(args)
+
+#overrides the default moveCards function to handle group cards
+def moveGroup(args):
+    global cardGroups
+    global movingGroup
+    global mainCard
+
+    for card in args.cards:
+        idx = args.cards.index(card)
+        if card.group != args.toGroups[idx]:
+            ungroupCards(card, 0, 0) # Ungroup the card since we are moving it to a different pile
+            if args.toGroups[idx] == table:
+                card.moveToTable(args.xs[idx], args.ys[idx])
+            else:
+                card.moveTo(args.toGroups[idx])
+            continue # If the card goes to another group then just move it and process next card
+
+        if not any(card in cardGroup for cardGroup in cardGroups):
+            card.moveToTable(args.xs[idx], args.ys[idx])
+            continue # If the card is not in any group then just move it to the specified position and process next card
+
+        offsetx = card.position[0] - args.xs[idx] 
+        offsety = card.position[1] - args.ys[idx]
+
+        cardGroup = next((cardGroup for cardGroup in cardGroups if card in cardGroup), None)
+
+        
+        for card in cardGroup:
+            card.moveToTable(card.position[0] - offsetx, card.position[1] - offsety)
+
 #Triggered event OnLoadDeck
 # args: player, groups
 def deckLoaded(args):
@@ -1049,7 +1090,7 @@ def playerSetup(group=table, x=0, y=0, doPlayer=True, doEncounter=False):
         isSuzi = filter(lambda card: "Subject 5U-21" in card.Name, me.hand)
         if isSuzi:
             me.counters['Card Draw'].value = 2  
-	isHank = filter(lambda card: "Hank Samson" in card.Name, me.hand)
+        isHank = filter(lambda card: "Hank Samson" in card.Name, me.hand)
         if isHank:
             me.piles['Sideboard'].create('0b47ec14-d252-4692-9d78-90efd034ff8c')
         # Find any Start cards
@@ -1229,7 +1270,7 @@ def flipcard(card, x = 0, y = 0):
 
     #Card Alternate Flip
     if not card.isFaceUp:
-	card.isFaceUp = True
+        card.isFaceUp = True
     elif card.alternates is not None and "B" in card.alternates:
         if card.alternate == "B":
             card.alternate = ''
@@ -1389,6 +1430,8 @@ def discard(card, x=0, y=0):
         whisper("{} does not control '{}' - discard cancelled".format(me, card))
         remoteCall (card.controller, "setControllerRemote", [card, me])
         
+    if any(card in cardGroup for cardGroup in cardGroups):
+        ungroupCards(card, 0, 0) # Ungroup the card if it is in a group since it will be discarded
         
     if card.Type == "Agenda": #If we remove the only Agenda card then we reveal the next one
         card.moveToBottom(agendaDiscard())
@@ -1567,7 +1610,54 @@ def moveToVictory(card, x=0, y=0):
     sumVictory()
     notify("{} adds '{}' (+{}) to the Global Victory Display (Total = {})".format(me, card, v, shared.VictoryPoints))
 
+def groupCards(card, x=0, y=0):
+    global cardGroups
+    global prevSelection
+    global lastAction
+    selectedCards = []
+
+    card.select(True)
+    for c in table:
+        if c.isSelected:
+            selectedCards.append(c)
     
+    if len(selectedCards) == 0 or (all(card in prevSelection for card in selectedCards) and len(selectedCards) == len(prevSelection) and lastAction == "groupCards"):
+        return
+
+    for c in selectedCards:
+        cardGroups = [[card for card in cardList if card != c] for cardList in cardGroups]
+    cardGroups = [cardList for cardList in cardGroups if cardList]
+
+    cardGroups.append(selectedCards)
+
+    notify("{} grouped following cards: {}.".format(me,[[card.name for card in cardList] for cardList in cardGroups]))
+    prevSelection = selectedCards
+    lastAction = "groupCards"
+
+def ungroupCards(card, x=0, y=0):
+    global cardGroups
+    global prevSelection
+    global lastAction
+    selectedCards = []
+    ungrouped = False
+
+    card.select(True)
+    for c in table:
+        if c.isSelected:
+            selectedCards.append(c)
+
+    if len(selectedCards) == 0 or (all(card in prevSelection for card in selectedCards) and len(selectedCards) == len(prevSelection) and lastAction == "ungroupCards"):
+        return
+
+    for c in selectedCards:
+        cardGroups = [[card for card in cardList if card != c] for cardList in cardGroups]
+    cardGroups = [cardList for cardList in cardGroups if cardList]
+    
+    notify("{} ungrouped {}.".format(me, [card.name for card in selectedCards]))
+    prevSelection = selectedCards
+    lastAction = "ungroupCards"
+
+
 #---------------------------
 #movement actions
 #---------------------------
