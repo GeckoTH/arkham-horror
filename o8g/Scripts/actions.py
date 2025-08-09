@@ -592,23 +592,23 @@ def moveGroup(args):
 
     for card in args.cards:
         idx = args.cards.index(card)
+        
         if card.group != args.toGroups[idx]:
             ungroupCards(card, 0, 0) # Ungroup the card since we are moving it to a different pile
-            if args.toGroups[idx] == table:
-                card.moveToTable(args.xs[idx], args.ys[idx])
-            else:
-                card.moveTo(args.toGroups[idx])
-            continue # If the card goes to another group then just move it and process next card
 
         if not any(card in cardGroup for cardGroup in cardGroups):
-            card.moveToTable(args.xs[idx], args.ys[idx])
-            continue # If the card is not in any group then just move it to the specified position and process next card
-
+            if args.toGroups[idx] == table:
+                card.moveToTable(args.xs[idx], args.ys[idx])
+                continue # If the card is not in any group then just move it to the specified position and process next card
+            else:
+                card.moveTo(args.toGroups[idx], args.indexs[idx])
+                continue # If the card is being moved within a pile (not the table)
+                    
         offsetx = card.position[0] - args.xs[idx] 
         offsety = card.position[1] - args.ys[idx]
 
         cardGroup = next((cardGroup for cardGroup in cardGroups if card in cardGroup), None)
-
+        # Specific group where the card is in. Will be used in next for in order to move the entire group with the offset
         
         for card in cardGroup:
             card.moveToTable(card.position[0] - offsetx, card.position[1] - offsety)
@@ -1640,6 +1640,9 @@ def ungroupCards(card, x=0, y=0):
     global lastAction
     selectedCards = []
     ungrouped = False
+
+    if not any(card in cardGroup for cardGroup in cardGroups):
+        return
 
     card.select(True)
     for c in table:
