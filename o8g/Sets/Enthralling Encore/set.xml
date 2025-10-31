@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Enthralling Encore" id="849c49ab-a899-495f-b485-11699da2650e" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+  <cards>
+    <card id="353a7acf-aea2-4ff9-90f3-ab0b4d8c60ef" name="Lola Hayes" size="InvestigatorCard">
+      <property name="Card Number" value="87" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="The Actress" />
+      <property name="Type" value="Investigator" />
+      <property name="Traits" value="Performer." />
+      <property name="Text" value="You begin the game in the Neutral role.&#10;You can only play or commit Neutral cards or cards of your current role.&#10;Forced – When your turn begins: Switch your role (κ, λ, ν, μ, ξ, or Neutral).&#10;ε effect: +2. You may switch roles." />
+      <property name="Health" value="6" />
+      <property name="Sanity" value="6" />
+      <property name="Class" value="Neutral" />
+      <property name="Willpower" value="3" />
+      <property name="Intellect" value="3" />
+      <property name="Combat" value="3" />
+      <property name="Agility" value="3" />
+      <property name="Unique" value="ο" />
+      <alternate name="Lola Hayes" type="B" size="InvestigatorCard">
+        <property name="Subtitle" value="The Actress" />
+        <property name="Type" value="Investigator" />
+        <property name="Text" value="Deck Size: 40.&#10;Class Choices: At deck creation, choose 2 classes (κ, λ, ν, μ, or ξ).&#10;(Deckbulding Options: Neutral cards level 0–5, cards from your chosen class level 0–4, cards from other classes level 0–1.&#10;Deckbuilding Requirements (do not count toward deck size): 2 copies of Improvisations, 2 copies of Crisis of Identity, 1 random basic weakness.&#10;Additional Requirements: Your deck must caintain at least 6 cards from each class (κ, λ, ν, μ, or ξ)." />
+        <property name="Class" value="Neutral" />
+        <property name="Unique" value="ο" />
+      </alternate>
+    </card>
+    <card id="27d1910d-1bff-42d7-a01c-3a4877ef8ae4" name="Leading Lady (Heroine)">
+      <property name="Card Number" value="88" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Improvised." />
+      <property name="Text" value="Lola Hayes deck only. Replacement.&#10;Fast. Play only during your turn.&#10;Play a card from your hand, regardless of your current role (paying its cost). If that card was a Guardian (κ) card, you may either draw 1 card or immediately take a fight action." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Intellect" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="cc6afe49-20c5-4b81-a874-9eaf4f465364" name="Leading Lady (Mentor)">
+      <property name="Card Number" value="89" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Improvised." />
+      <property name="Text" value="Lola Hayes deck only. Replacement.&#10;Fast. Play only during your turn.&#10;Play a card from your hand, regardless of your current role (paying its cost). If that card was a Seeker (λ) card, you may either draw 1 card or immediately take an investigate action." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Combat" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="d84dd44e-d7e6-4cf7-99aa-9a53e5bba2a7" name="Leading Lady (Femme Fatale)">
+      <property name="Card Number" value="90" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Improvised." />
+      <property name="Text" value="Lola Hayes deck only. Replacement.&#10;Fast. Play only during your turn.&#10;Play a card from your hand, regardless of your current role (paying its cost). If that card was a Rogue (ν) card, you may either draw 1 card or immediately take an evade action." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Agility" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="47eec4af-2e20-4b22-ae3b-b6c29a7c4eb4" name="Leading Lady (Enchantress)">
+      <property name="Card Number" value="91" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Improvised." />
+      <property name="Text" value="Lola Hayes deck only. Replacement.&#10;Fast. Play only during your turn.&#10;Play a card from your hand, regardless of your current role (paying its cost). If that card was a Mystic (μ) card, you may either draw 1 card or remove a doom from a player card at your location." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Willpower" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="a27200cf-687d-45d5-b47c-73c5a3e84826" name="Leading Lady (Final Girl)">
+      <property name="Card Number" value="92" />
+      <property name="Quantity" value="1" />
+      <property name="Type" value="Event" />
+      <property name="Traits" value="Tactic. Improvised." />
+      <property name="Text" value="Lola Hayes deck only. Replacement.&#10;Fast. Play only during your turn.&#10;Play a card from your hand, regardless of your current role (paying its cost). If that card was a Survivor (ξ) card, you may either draw 1 card or heal 1 damage/horror." />
+      <property name="Class" value="Neutral" />
+      <property name="Cost" value="1" />
+      <property name="Skill Icons" value="" />
+    </card>
+    <card id="f37e5c8d-4946-4b7c-b8e5-359c72c61de8" name="Samuel Blake">
+      <property name="Card Number" value="93" />
+      <property name="Quantity" value="1" />
+      <property name="Subtitle" value="Obsessive Producer" />
+      <property name="Type" value="Asset" />
+      <property name="Subtype" value="Weakness" />
+      <property name="Traits" value="Humanoid. Cultist." />
+      <property name="Text" value="Lola Hayes deck only. Replacement. Peril. Hidden.&#10;While Samuel Blake is in your hand, you cannot switch roles or play cards belonging to another role.&#10;While Samuel Blake is in play, as an additional cost for you to switch role, you must take 1 horror." />
+      <property name="Health" value="3" />
+      <property name="Sanity" value="–" />
+      <property name="Cost" value="3" />
+      <property name="Slot" value="Ally" />
+      <property name="Unique" value="ο" />
+    </card>
+    <card id="e90657bd-3f69-4af7-8a4c-1ad119d87bd3" name="Enthralling Encore" size="EncounterCard">
+      <property name="Card Number" value="94" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Enthralling Encore" />
+      <property name="Subtitle" value="EASY / STANDARD" />
+      <property name="Type" value="Scenario" />
+      <property name="Text" value="α: –X. X is the number of measures.&#10;β: –2. If you fail, you must either spend 1 clue or take 1 damage.&#10;γ: –3 (–5 instead if there are 3 or more classes among cards you control).&#10;δ: –2. If Sinister Soloist is at your location, reveal another token.&#10;Measures" />
+      <alternate name="Enthralling Encore" type="B" size="EncounterCard">
+        <property name="Encounter Set" value="Enthralling Encore" />
+        <property name="Subtitle" value="HARD / EXPERT" />
+        <property name="Type" value="Scenario" />
+        <property name="Text" value="α: –X. X is 1 more than the number of measures.&#10;β: –3. If you fail, you must either spend 1 clue and take 1 damage.&#10;γ: –4 (–6 instead if there are 3 or more classes among cards you control).&#10;δ: –3. If Sinister Soloist is at your location, you automatically fail instead.&#10;Measures" />
+      </alternate>
+    </card>
+    <card id="e17d9e92-80a9-4ced-9795-b539a473cd55" name="The Haunting of The Ward Theatre" size="HorizCard">
+      <property name="Card Number" value="95" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Enthralling Encore" />
+      <property name="Subtitle" value="Agenda 1a" />
+      <property name="Type" value="Agenda" />
+      <property name="Text" value="θ While at Sinister Soloist's location, discard 1 card of each class from your hand (κ, λ, ν, μ, or ξ): Parley. Automatically evade Sinister Soloist. Treat Sinister Soloist's text box as if it were blank (except for Traits) for the remainder of the round." />
+      <property name="Doom" value="4" />
+      <alternate name="Dirge of Dim Carcosa" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Enthralling Encore" />
+        <property name="Subtitle" value="Agenda 1b" />
+        <property name="Type" value="Agenda" />
+        <property name="Text" value="Place 1 resource on the scenario reference card, as a measure. Then, if there are 5 or more measures, each investigator is defeated and suffer 1 mental trauma.&#10;Otherwise, each investigator must test ά (3). Each investigator who fails takes 1 horror and set aside 1 non-permanent, non-weakness asset they control. Then, shuffle each asset set aside by this effect into the Props deck. If all investigators fail this test, remove 1π damage from Sinister Soloist.&#10;Places clues on each revealed location, up to its clue value.&#10;Shuffle the encounter discard pile into the encounter deck. Reset this agenda to agenda 1a." />
+      </alternate>
+    </card>
+    <card id="feddcf12-1112-4562-8476-0c04a3cec5f4" name="Break Free from the Past" size="HorizCard">
+      <property name="Card Number" value="96" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Enthralling Encore" />
+      <property name="Subtitle" value="Act 1a" />
+      <property name="Type" value="Act" />
+      <property name="Text" value="θ Investigators at the same Private ocation spend 1π clues, as a group: Parley. Reveal the top 3 cards of the Props deck and choose an investigator to draw 1 of them. Shuffle the remaining cards together and place them at the bottom of the Props deck.&#10;Objective – When Sinister Soloist is in the victory display, advance." />
+      <property name="Clues" value="–" />
+      <alternate name="Final Bow" type="B" size="HorizCard">
+        <property name="Encounter Set" value="Enthralling Encore" />
+        <property name="Subtitle" value="Act 1b" />
+        <property name="Type" value="Act" />
+        <property name="Text" value="(–&gt; R1)" />
+      </alternate>
+    </card>
+    <card id="b762e971-ebf4-40df-bbf7-172988b019d7" name="Sinister Soloist" size="EncounterCard">
+      <property name="Card Number" value="97" />
+      <property name="Quantity" value="1" />
+      <property name="Encounter Set" value="Enthralling Encore" />
+      <property name="Subtitle" value="Minstrel of Carcosa" />
+      <property name="Type" value="Enemy" />
+      <property name="Traits" value="Monster. Elite." />
+      <property name="Text" value="Alert. Aloof. Elusive. Hunter.&#10;As an additional cost to play a non-Neutral card at Sinister Soloist's location, you must take 1 horror.&#10;Forced – When the enemy phase ends, if Sinister Soloist is ready: Each investigator at Sinister Soloist's location and each connecting location takes 1 direct horror.&#10;Victory 2." />
+      <property name="Health" value="6π" />
+      <property name="Combat" value="4" />
+      <property name="Agility" value="5" />
+      <property name="Unique" value="ο" />
+      <property name="Damage" value="2" />
+      <property name="Horror" value="2" />
+    </card>
+  </cards>
+</set>
