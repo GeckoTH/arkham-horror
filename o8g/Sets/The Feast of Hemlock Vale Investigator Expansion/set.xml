@@ -235,7 +235,7 @@
         <property name="Unique" value="ο" />
       </alternate>
     </card>
-    <card id="0b47ec14-d252-4692-9d78-90efd034ff8c" name="Hank Samson" size="InvestigatorCard">
+    <card id="4f2a5f9b-8888-43df-ba0f-380d531e7cba" name="Hank Samson" size="InvestigatorCard">
       <property name="Card Number" value="16" />
       <property name="Quantity" value="1" />
       <property name="Subtitle" value="The Farmhand" />
@@ -1889,7 +1889,7 @@
 		<property name="Class" value="Mystic"/>
       </alternate>
     </card>
-    <card id="4f2a5f9b-8888-43df-ba0f-380d531e7cba" name="Hank Samson" size="MiniCard">
+    <card id="0b47ec14-d252-4692-9d78-90efd034ff8c" name="Hank Samson" size="MiniCard">
       <property name="Card Number" value="995" />
       <property name="Quantity" value="1" />
       <property name="Type" value="Mini" />

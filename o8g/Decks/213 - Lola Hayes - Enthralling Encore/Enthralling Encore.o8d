@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a6d114c7-2e2a-4896-ad8c-0330605c90bf">
+  <section name="Investigator" shared="False" />
+  <section name="Special" shared="False" />
+  <section name="Asset" shared="False" />
+  <section name="Event" shared="False" />
+  <section name="Skill" shared="False" />
+  <section name="Weakness" shared="False" />
+  <section name="Sideboard" shared="False" />
+  <section name="Basic Weaknesses" shared="False" />
+  <section name="Agenda" shared="True">
+    <card qty="1" id="e17d9e92-80a9-4ced-9795-b539a473cd55">The Haunting of The Ward Theatre</card>
+  </section>
+  <section name="Act" shared="True">
+    <card qty="1" id="feddcf12-1112-4562-8476-0c04a3cec5f4">Break Free from the Past</card>
+  </section>
+  <section name="Encounter" shared="True">
+    <card qty="2" id="3cba18b0-e2d2-4583-a7fe-f42dc278e847">Ooze and Filth</card>
+    <card qty="2" id="757ba65c-af72-40b0-a8e6-bf5828260733">Corrosion</card>
+    <card qty="2" id="1b887e33-712e-457c-b62d-2c16a4495f3e">Roach Swarm</card>
+    <card qty="1" id="ee0b0617-fb92-4044-8c5b-4557d585a57f">Whispers in Your Head (Anxiety)</card>
+    <card qty="1" id="9a97899b-05b3-48c8-a887-d81e51ad7b9a">Whispers in Your Head (Dismay)</card>
+    <card qty="1" id="dadb5b8c-ae6d-461d-beab-3c9bbda307f9">Whispers in Your Head (Doubt)</card>
+    <card qty="1" id="b142edb8-97d6-4509-ba14-7c99a0ee7692">Whispers in Your Head (Dread)</card>
+    <card qty="2" id="ce65fdd4-895d-424f-b5f6-0832c37bdbc9">Descent into Madness</card>
+    <card qty="2" id="25f2b043-9b84-4462-911d-42dbaaea2a35">Poltergeist</card>
+    <card qty="2" id="4e1d5bce-18f2-49ec-9832-02a57a5ea992">Spirit's Torment</card>
+    <card qty="3" id="03482753-a71c-45ec-a97a-e6cb454ae835">Ghoul Minion</card>
+    <card qty="1" id="a70a2df7-2520-47ea-97b9-374714113140">Ravenous Ghoul</card>
+    <card qty="3" id="bb8ebf83-dcca-41ed-bc48-2240fbc1685e">Grasping Hands</card>
+    <card qty="3" id="d411e61d-9f83-49cb-bc13-d5d6b5c58336">Rotting Remains</card>
+    <card qty="2" id="569bb661-9875-4e36-a23e-a865df3fca21">Frozen in Fear</card>
+    <card qty="2" id="27eb17a3-e8ae-4c44-9f56-1018e6047d67">Dissonant Voices</card>
+    <card qty="3" id="76a906b0-eea1-4ce1-9982-f7e0f1aab553">Swarm of Rats</card>
+  </section>
+  <section name="Location" shared="True">
+    <card qty="1" id="651dcc09-5555-4116-a5e7-1fc268f747ce">Lobby Doorway</card>
+    <card qty="1" id="4b6c39f1-489d-4865-a8c3-a06f501032d4">Lobby Doorway</card>
+    <card qty="1" id="5eb519b3-1c37-42fa-979f-85ee71f4d712">Lobby Doorway</card>
+    <card qty="1" id="b883c3ab-1f79-4f66-8189-331f49eeed51">Backstage Doorway</card>
+    <card qty="1" id="b58d6e53-4dda-4a2a-9895-fafe78e0cb52">Backstage Doorway</card>
+    <card qty="1" id="54652fd6-0f52-419b-a56c-262587e974f4">Backstage Doorway</card>
+  </section>
+  <section name="Special" shared="True">
+    <card qty="1" id="97278962-9d51-44ab-92d9-b8307da166ea">Physical Training</card>
+    <card qty="1" id="1eddd4eb-0221-4570-b4fc-15700c192a91">First Aid</card>
+    <card qty="1" id="d959a671-030a-40ff-909d-235b815690b1">Machete</card>
+    <card qty="1" id="6871c1fd-d639-48b7-afdc-b0245ff61e8b">Old Book of Lore</card>
+    <card qty="1" id="54d593d1-cf86-4211-b94b-08bf0537167c">Hyperawareness</card>
+    <card qty="1" id="a3558e05-a19e-4d5c-b893-9682d8d68c71">Medical Texts</card>
+    <card qty="1" id="e256a065-19cd-44d6-b13b-335e6a8941c4">Burglary</card>
+    <card qty="1" id="4ac5b82d-8c4e-47de-841b-e952ac7ee01e">Pickpocketing</card>
+    <card qty="1" id="f79069f4-2381-4c37-9582-012c4768d6c8">Hard Knocks</card>
+    <card qty="1" id="2d711ea5-de12-464e-aa98-693de2e1d3a3">Holy Rosary</card>
+    <card qty="1" id="24f0aceb-205e-4595-b26f-2843e0235454">Scrying</card>
+    <card qty="1" id="a9f98802-435d-4873-9599-bf00c14561d0">Arcane Studies</card>
+    <card qty="1" id="e2289e5e-17d2-4576-af01-93969fc08781">Baseball Bat</card>
+    <card qty="1" id="0c780dab-e3b2-4c0d-a7fc-ef5d7c19b012">Rabbit's Foot</card>
+    <card qty="1" id="eeec305a-af17-46f2-9fa2-78dffccb5999">Dig Deep</card>
+  </section>
+  <section name="Second Special" shared="True" />
+  <section name="Chaos Bag" shared="True" />
+  <section name="Setup" shared="True">
+    <card qty="1" id="e90657bd-3f69-4af7-8a4c-1ad119d87bd3">Enthralling Encore</card>
+    <card qty="1" id="b762e971-ebf4-40df-bbf7-172988b019d7">Sinister Soloist</card>
+    <card qty="1" id="c30724d5-13d5-483e-9bc5-50e0a825100d">Lobby</card>
+    <card qty="1" id="9ea44e62-15f5-4a17-84e1-397faeed100a">Theatre</card>
+    <card qty="1" id="4d77df3a-b331-41c1-aacc-0b647595333f">Backstage</card>
+    <card qty="1" id="e1d22038-00da-429e-930f-8ad7bf245bfe">Balcony</card>
+  </section>
+  <section name="Temporary Shuffle" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
