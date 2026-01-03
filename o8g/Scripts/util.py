@@ -29,14 +29,17 @@ def deserializePlayer(plData):
 def deserializePile(pileData, group, who = me):
 	if pileData is None or len(pileData) == 0:
 		return
-	if group != shared and who != me and group.controller != me:
-		remoteCall(who, "deserializePile", [pileData, group, who])
-	else:
-		for c in pileData:
-			card = group.create(c['model'])
-			if 'Subtype' in c:
-				if c['Subtype'] != "":
-					card.SubType = c['Subtype']
+	# if group != shared and who != me and group.controller != me:
+	# 	remoteCall(who, "deserializePile", [pileData, group, who])
+	# else:
+	# Note on 20251106. This change will result in a bunch of warnings
+	# in the activity log in octgn.  However, the cards should load just
+	# fine.
+	for c in pileData:
+		card = group.create(c['model'])
+		if 'Subtype' in c:
+			if c['Subtype'] != "":
+				card.SubType = c['Subtype']
 
 def deserializeCounters(counters, player):
 	if counters is None or len(counters) == 0:
@@ -117,4 +120,5 @@ def getSection(sections, card):
 			return 'Weakness'
 		if card.Subtype in sections:
 			return card.Subtype
+
 	return None
